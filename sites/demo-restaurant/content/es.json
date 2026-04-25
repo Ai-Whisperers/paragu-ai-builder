@@ -4,44 +4,243 @@
     "author": "batch-create-demos",
     "lastReviewed": "2026-04-25"
   },
-  "siteName": "Demo Restaurante Asunción",
-  "tagline": "Disfruta de una experiencia culinaria única con los mejores ingredientes",
+  "siteName": "Demo Restaurante La Tradición",
+  "tagline": "Cocina paraguaya e internacional en el corazón de Asunción.",
   "placeholders": {
-    "businessName": "Demo Restaurante Asunción",
+    "businessName": "Demo Restaurante La Tradición",
     "city": "Asunción",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Restaurante Asunción",
-    "ctaText": "Contactanos",
+    "businessName": "La Tradición",
+    "navItems": [
+      { "label": "Inicio", "path": "" },
+      { "label": "Menú", "path": "#menu" },
+      { "label": "Galería", "path": "#galeria" },
+      { "label": "Contacto", "path": "#contacto" }
+    ],
+    "ctaText": "Reservá tu mesa",
     "ctaHref": "https://wa.me/595985724135"
   },
   "home": {
     "seo": {
-      "title": "Demo Restaurante Asunción - Restaurante en Asunción | Menú y Reservas",
-      "description": "Disfruta de la mejor gastronomía en Asunción. Reserva tu mesa online. Menú variado con precios accesibles."
+      "title": "Restaurante La Tradición - Cocina Paraguaya e Internacional en Asunción",
+      "description": "Descubrí La Tradición: platos típicos paraguayos, parrilla a leña, pastas artesanales y más. Reservá tu mesa online. Abierto de martes a domingo."
     },
     "hero": {
-      "headline": "Demo Restaurante Asunción - Sabores Auténticos en Asunción",
-      "subheadline": "Disfruta de una experiencia culinaria única con los mejores ingredientes",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Restaurante%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
+      "headline": "Vení a disfrutar de los sabores del Paraguay",
+      "subheadline": "Cocina paraguaya e internacional, parrilla a leña, pastas artesanales y los mejores postres en Asunción.",
+      "ctaPrimaryText": "Reservá por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%21+Quiero+reservar+una+mesa+en+La+Tradici%C3%B3n",
+      "ctaSecondaryText": "Ver menú",
+      "ctaSecondaryHref": "#menu"
+    },
+    "promoBanner": {
+      "title": "Promoción de la semana",
+      "subtitle": "Todos los martes: 2x1 en parrillada para dos personas. ¡No te lo pierdas!",
+      "ctaText": "Reservar",
+      "dismissible": true
+    },
+    "services": {
+      "title": "Nuestro menú",
+      "subtitle": "Platos preparados con ingredientes frescos y mucha pasión",
+      "categories": [
+        {
+          "name": "Entradas",
+          "items": [
+            { "name": "Chipa guazú", "description": "Pastel de choclo, queso paraguayo y cebolla", "price": "Gs. 22.000" },
+            { "name": "Empanadas de carne", "description": "Empanadas fritas con recado de carne, huevo y aceituna", "price": "Gs. 18.000" },
+            { "name": "Sopa paraguaya", "description": "Porción individual de la tradicional sopa paraguaya", "price": "Gs. 15.000" },
+            { "name": "Mbeju", "description": "Torta de almidón con queso paraguayo, crocante por fuera", "price": "Gs. 16.000" },
+            { "name": "Tabla de fiambres", "description": "Selección de jamones, quesos, salamines y encurtidos", "price": "Gs. 35.000" }
+          ]
+        },
+        {
+          "name": "Platos Principales",
+          "items": [
+            { "name": "Pira caldo", "description": "Sopa de pescado de río con mandioca, locote y especias", "price": "Gs. 38.000" },
+            { "name": "Vori vori de gallina", "description": "Caldo espeso con gallina casera y bolitas de maíz", "price": "Gs. 42.000" },
+            { "name": "So'o josopa", "description": "Carne desmenuzada con harina de maíz, queso y locote", "price": "Gs. 35.000" },
+            { "name": "Milanesa napolitana", "description": "Milanesa de carne con salsa, jamón, queso y papas fritas", "price": "Gs. 40.000" },
+            { "name": "Bife de chorizo", "description": "Bife 300g con guarnición (ensalada, papas o arroz)", "price": "Gs. 55.000" },
+            { "name": "Pescado frito", "description": "Filete de pescado de río frito con mandioca y ensalada", "price": "Gs. 45.000" }
+          ]
+        },
+        {
+          "name": "Parrilla",
+          "items": [
+            { "name": "Asado de tira", "description": "Costilla de res a la parrilla, porción 400g", "price": "Gs. 50.000" },
+            { "name": "Parrillada para 2", "description": "Asado, chorizo, morcilla, pollo, ensalada y mandioca", "price": "Gs. 95.000" },
+            { "name": "Parrillada para 4", "description": "Asado, chorizo, morcilla, pollo, vacío, ensalada, mandioca y sopa", "price": "Gs. 180.000" },
+            { "name": "Chorizo parrillero", "description": "Porción de chorizo artesanal con ensalada rusa", "price": "Gs. 25.000" },
+            { "name": "Pollo al spiedo", "description": "Medio pollo al spiedo con papas y ensalada", "price": "Gs. 42.000" }
+          ]
+        },
+        {
+          "name": "Pastas",
+          "items": [
+            { "name": "Tallarines caseros", "description": "Tallarines artesanales con salsa bolognesa o pesto", "price": "Gs. 32.000" },
+            { "name": "Ñoquis de papa", "description": "Ñoquis caseros con salsa filetto y queso rallado", "price": "Gs. 30.000" },
+            { "name": "Ravioles de ricota y espinaca", "description": "Ravioles artesanales con salsa roja o blanca", "price": "Gs. 35.000" },
+            { "name": "Lasaña bolognesa", "description": "Lasaña de carne con salsa bolognesa y queso gratinado", "price": "Gs. 38.000" },
+            { "name": "Fettuccine al pesto", "description": "Fettuccine con albahaca fresca, nueces y parmesano", "price": "Gs. 34.000" }
+          ]
+        },
+        {
+          "name": "Postres",
+          "items": [
+            { "name": "Dulce de leche con queso", "description": "Queso paraguayo con dulce de leche artesanal", "price": "Gs. 15.000" },
+            { "name": "Flan casero", "description": "Flan de vainilla con caramelo y crema", "price": "Gs. 16.000" },
+            { "name": "Mousse de chocolate", "description": "Mousse suave con chocolate amargo y frutillas", "price": "Gs. 18.000" },
+            { "name": "Budín de pan", "description": "Budín de pan con pasas, canela y salsa de caramelo", "price": "Gs. 14.000" },
+            { "name": "Helado artesanal", "description": "Dos bochas de helado artesanal, sabores varios", "price": "Gs. 12.000" }
+          ]
+        },
+        {
+          "name": "Bebidas",
+          "items": [
+            { "name": "Gaseosa 500ml", "price": "Gs. 5.000" },
+            { "name": "Gaseosa 1.5L", "price": "Gs. 8.000" },
+            { "name": "Agua mineral 500ml", "price": "Gs. 3.000" },
+            { "name": "Cerveza Pilsen 350cc", "price": "Gs. 7.000" },
+            { "name": "Cerveza importada 355cc", "price": "Gs. 12.000" },
+            { "name": "Vino de la casa (copa)", "price": "Gs. 15.000" },
+            { "name": "Tereré", "price": "Gs. 6.000" },
+            { "name": "Jugo natural de fruta", "price": "Gs. 8.000" }
+          ]
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Ingredientes frescos",
+        "Parrilla a leña",
+        "Ambiente climatizado",
+        "Estacionamiento gratis",
+        "Apto celíacos"
+      ]
+    },
+    "gallery": {
+      "title": "Galería",
+      "subtitle": "Conocé nuestro ambiente y platos",
+      "columns": 3,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600",
+          "alt": "Interior del restaurante",
+          "caption": "Salón principal climatizado"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600",
+          "alt": "Plato de comida",
+          "caption": "Parrillada para dos personas"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600",
+          "alt": "Plato gourmet",
+          "caption": "Bife de chorizo con guarnición"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600",
+          "alt": "Parrilla",
+          "caption": "Nuestra parrilla a leña"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600",
+          "alt": "Postre",
+          "caption": "Dulce de leche con queso"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=600",
+          "alt": "Barra de bebidas",
+          "caption": "Carta de vinos y bebidas"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros comensales",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Laura M.",
+          "text": "Excelente atención y la parrillada es de otro nivel. El asado de tira se deshace en la boca. Volvemos cada mes.",
+          "rating": 5
+        },
+        {
+          "name": "Carlos R.",
+          "text": "El vori vori de gallina me recordó al de mi abuela. Platos típicos bien hechos, con ingredientes de calidad.",
+          "rating": 5
+        },
+        {
+          "name": "Ana S.",
+          "text": "Ambiente familiar, precios razonables y el flan casero es imperdible. Muy recomendado para ir con niños.",
+          "rating": 4
+        },
+        {
+          "name": "Miguel A.",
+          "text": "Los ñoquis de papa y la lasaña son espectaculares. El mejor restaurante de comida paraguaya e italiana en Asunción.",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Cuáles son los horarios de atención?",
+          "answer": "Abrimos de martes a jueves de 11:00 a 22:00, viernes y sábado de 11:00 a 23:00, y domingo de 11:00 a 20:00. Cerramos los lunes."
+        },
+        {
+          "question": "¿Aceptan reservas para grupos grandes?",
+          "answer": "Sí, aceptamos reservas para grupos de hasta 20 personas. Contactanos por WhatsApp con al menos 24 horas de anticipación."
+        },
+        {
+          "question": "¿Tienen opciones sin TACC o para celíacos?",
+          "answer": "Sí, contamos con platos aptos para celíacos como sopa paraguaya, mbeju, chipa guazú y opciones de parrilla sin contaminación cruzada."
+        },
+        {
+          "question": "¿Tienen estacionamiento?",
+          "answer": "Sí, ofrecemos estacionamiento gratuito para nuestros comensales con capacidad para 15 vehículos."
+        },
+        {
+          "question": "¿Hacen delivery?",
+          "answer": "Sí, hacemos delivery en Asunción y San Lorenzo con un pedido mínimo de Gs. 40.000. El delivery es gratis para pedidos mayores a Gs. 80.000."
+        }
+      ]
     },
     "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
+      "title": "Contacto y reservas",
+      "subtitle": "Reservá tu mesa o consultanos por catering y eventos",
+      "address": "Av. Mariscal López 1234 casi San Martín",
+      "city": "Asunción",
       "phone": "+595985724135",
       "email": "ventas@paragu-ai.com",
-      "city": "Asunción",
+      "whatsapp": "+595985724135",
       "formSource": "demo",
       "demoRubro": "restaurant"
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Martes a Jueves": "11:00 - 22:00",
+        "Viernes y Sábado": "11:00 - 23:00",
+        "Domingo": "11:00 - 20:00",
+        "Lunes": "Cerrado"
+      }
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "@latradicion.py — mostramos nuestros platos todos los días",
+      "handle": "@latradicion.py",
+      "layout": "grid",
+      "columns": 4,
+      "limit": 8
     }
   },
   "footer": {
-    "businessName": "Demo Restaurante Asunción",
-    "copyright": "© {{year}} Demo Restaurante Asunción",
+    "businessName": "Demo Restaurante La Tradición",
+    "copyright": "© {{year}} Demo Restaurante La Tradición",
     "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
   },
   "whatsapp": {

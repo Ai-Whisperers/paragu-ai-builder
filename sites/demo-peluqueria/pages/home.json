@@ -45,7 +45,7 @@
     },
     {
       "id": "booking",
-      "variant": "embed",
+      "variant": "wizard",
       "content": "home.booking"
     },
     {

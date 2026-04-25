@@ -1,48 +1,290 @@
 {
   "_meta": {
-    "translationQuality": "machine",
-    "author": "batch-create-demos",
+    "translationQuality": "human",
+    "author": "paragu-ai",
     "lastReviewed": "2026-04-25"
   },
-  "siteName": "Demo Clínica Integral Asunción",
-  "tagline": "Clinica con especialistas en medicina general, ginecologia, pediatria, cardiologia y mas.",
+  "siteName": "Clínica Integral Asunción",
+  "tagline": "Centro médico multidisciplinario con especialistas en todas las áreas de la salud",
   "placeholders": {
-    "businessName": "Demo Clínica Integral Asunción",
+    "businessName": "Clínica Integral Asunción",
     "city": "Asunción",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Clínica Integral Asunción",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
+    "businessName": "Clínica Integral Asunción",
+    "navItems": [
+      { "label": "Inicio", "path": "" },
+      { "label": "Servicios", "path": "#servicios" },
+      { "label": "Especialistas", "path": "#equipo" },
+      { "label": "Galería", "path": "#galeria" },
+      { "label": "Turnos", "path": "#turnos" },
+      { "label": "Contacto", "path": "#contacto" }
+    ],
+    "ctaText": "Sacar turno",
+    "ctaHref": "#turnos"
   },
   "home": {
     "seo": {
-      "title": "Demo Clínica Integral Asunción - Clinica Multidisciplinaria en Asunción",
-      "description": "Clinica con especialistas en medicina general, ginecologia, pediatria, cardiologia y mas."
+      "title": "Clínica Integral Asunción | Medicina General y Especialidades en Asunción",
+      "description": "Clínica Integral Asunción ofrece medicina general, pediatría, ginecología, cardiología, dermatología y análisis clínicos. Agendá tu consulta online."
     },
     "hero": {
-      "headline": "Demo Clínica Integral Asunción - Todas las especialidades, un solo lugar",
-      "subheadline": "Clinica con especialistas en medicina general, ginecologia, pediatria, cardiologia y mas.",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Cl%C3%ADnica%20Integral%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
+      "headline": "Tu salud, nuestra prioridad",
+      "subheadline": "Centro médico multidisciplinario con 6 especialidades, profesionales de primer nivel y tecnología de avanzada en el corazón de Asunción",
+      "ctaPrimaryText": "Sacar turno online",
+      "ctaPrimaryHref": "#turnos",
+      "ctaSecondaryText": "Conocé nuestros servicios",
+      "ctaSecondaryHref": "#servicios",
+      "image": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1200",
+      "imageAlt": "Fachada de Clínica Integral Asunción"
+    },
+    "promoBanner": {
+      "title": "🩺 Primera consulta en medicina general a Gs. 50.000",
+      "subtitle": "Válido para nuevos pacientes hasta el 31 de mayo. Incluye evaluación completa.",
+      "ctaText": "Reservar turno",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios médicos",
+      "title": "Atención integral para toda la familia",
+      "subtitle": "Contamos con 6 especialidades médicas y laboratorio de análisis clínicos propio",
+      "items": [
+        {
+          "name": "Medicina General",
+          "description": "Consultas de atención primaria, chequeos preventivos, control de enfermedades crónicas y derivación a especialistas cuando sea necesario",
+          "price": "Gs. 80.000",
+          "duration": "30 min",
+          "icon": "Heart",
+          "image": "https://images.unsplash.com/photo-1666214280231-3d29c36731e2?w=600"
+        },
+        {
+          "name": "Pediatría",
+          "description": "Atención integral para niños y adolescentes: controles de crecimiento, vacunación, nutrición infantil y enfermedades frecuentes",
+          "price": "Gs. 90.000",
+          "duration": "30 min",
+          "icon": "Heart",
+          "image": "https://images.unsplash.com/photo-1584515933487-779824d29309?w=600"
+        },
+        {
+          "name": "Ginecología",
+          "description": "Consulta ginecológica integral, Papanicolaou, planificación familiar, control de embarazo y estudios de fertilidad",
+          "price": "Gs. 100.000",
+          "duration": "30 min",
+          "icon": "Heart",
+          "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600"
+        },
+        {
+          "name": "Cardiología",
+          "description": "Evaluación cardiovascular completa con electrocardiograma, ecocardiograma, prueba de esfuerzo y control de hipertensión",
+          "price": "Gs. 120.000",
+          "duration": "30 min",
+          "icon": "Heart",
+          "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600"
+        },
+        {
+          "name": "Dermatología",
+          "description": "Diagnóstico y tratamiento de afecciones de la piel, lunares, acné, alergias cutáneas, control de manchas y cáncer de piel",
+          "price": "Gs. 100.000",
+          "duration": "30 min",
+          "icon": "Heart",
+          "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600"
+        },
+        {
+          "name": "Análisis Clínicos",
+          "description": "Laboratorio propio con análisis de sangre, orina, perfiles bioquímicos, hormonales e infecciosos. Resultados en 24 horas",
+          "price": "Desde Gs. 30.000",
+          "duration": "—",
+          "icon": "Heart",
+          "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Médicos certificados",
+        "Laboratorio propio",
+        "6 especialidades",
+        "Emergencias 24/7",
+        "Estacionamiento gratuito",
+        "Aceptamos seguros"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestras instalaciones",
+      "subtitle": "Espacios modernos y equipados para tu comodidad y bienestar",
+      "columns": 3,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600",
+          "alt": "Fachada de la clínica",
+          "caption": "Entrada principal"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600",
+          "alt": "Sala de espera",
+          "caption": "Sala de espera"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600",
+          "alt": "Consultorio médico",
+          "caption": "Consultorios equipados"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600",
+          "alt": "Equipo de cardiología",
+          "caption": "Área de cardiología"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600",
+          "alt": "Laboratorio",
+          "caption": "Laboratorio de análisis"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1666214280231-3d29c36731e2?w=600",
+          "alt": "Recepción",
+          "caption": "Recepción y admisiones"
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo médico",
+      "subtitle": "Profesionales de la salud con amplia experiencia y vocación de servicio",
+      "items": [
+        {
+          "name": "Dra. María Elena Cabrera",
+          "role": "Medicina General",
+          "description": "Médica egresada de la UNA con 12 años de experiencia en atención primaria y medicina preventiva",
+          "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400",
+          "credentials": "MN: 12.345"
+        },
+        {
+          "name": "Dr. Ricardo Benítez",
+          "role": "Pediatría",
+          "description": "Pediatra certificado, especializado en neonatología y crecimiento infantil. Miembro de la Sociedad Paraguaya de Pediatría",
+          "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400",
+          "credentials": "MN: 14.567"
+        },
+        {
+          "name": "Dra. Ana Sofía Duarte",
+          "role": "Ginecología y Obstetricia",
+          "description": "Ginecóloga-obstetra con 10 años de experiencia en salud femenina integral, control prenatal y cirugía ginecológica mínimamente invasiva",
+          "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400",
+          "credentials": "MN: 13.789"
+        },
+        {
+          "name": "Dr. Carlos Martínez",
+          "role": "Cardiología",
+          "description": "Cardiólogo clínico e intervencionista, especializado en hipertensión arterial, insuficiencia cardíaca y estudios no invasivos",
+          "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400",
+          "credentials": "MN: 15.234"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros pacientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Laura G.",
+          "text": "Excelente atención de la Dra. Cabrera. La clínica es muy limpia y moderna. Súper recomendada.",
+          "rating": 5
+        },
+        {
+          "name": "Pedro R.",
+          "text": "Llevé a mi hijo al Dr. Benítez y fue muy paciente y profesional. Volvemos sin dudas.",
+          "rating": 5
+        },
+        {
+          "name": "Camila S.",
+          "text": "Me hice los análisis de rutina en el laboratorio de la clínica. Resultados rápidos y personal amable.",
+          "rating": 4
+        },
+        {
+          "name": "Juan D.",
+          "text": "El Dr. Martínez me realizó un chequeo cardiovascular completo. Muy conforme con la atención y el equipamiento.",
+          "rating": 5
+        },
+        {
+          "name": "María F.",
+          "text": "Saqué turno online y fue muy fácil. La atención en recepción es rápida y cordial",
+          "rating": 5
+        },
+        {
+          "name": "Roberto A.",
+          "text": "Atención profesional y precios accesibles. La consulta de medicina general a Gs. 80.000 es un precio justo.",
+          "rating": 4
+        }
+      ]
+    },
+    "booking": {
+      "title": "Sacá tu turno online",
+      "subtitle": "Elegí especialidad, día y horario. Consultas de 30 minutos.",
+      "phone": "+595985724135",
+      "services": [
+        { "name": "Medicina General", "duration": "30 min", "price": "Gs. 80.000" },
+        { "name": "Pediatría", "duration": "30 min", "price": "Gs. 90.000" },
+        { "name": "Ginecología", "duration": "30 min", "price": "Gs. 100.000" },
+        { "name": "Cardiología", "duration": "30 min", "price": "Gs. 120.000" },
+        { "name": "Dermatología", "duration": "30 min", "price": "Gs. 100.000" },
+        { "name": "Análisis Clínicos", "duration": "—", "price": "Desde Gs. 30.000" }
+      ],
+      "ctaText": "Reservar por WhatsApp"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Cómo puedo sacar un turno?",
+          "answer": "Podés sacar turno online a través de nuestra página, llamando al (+595) 985 724 135 o viniendo directamente a recepción de lunes a viernes de 7:00 a 18:00."
+        },
+        {
+          "question": "¿Aceptan seguros médicos?",
+          "answer": "Sí, trabajamos con la mayoría de los seguros del país. Consultá con nuestro equipo de admisiones para verificar tu cobertura específica."
+        },
+        {
+          "question": "¿Cuánto dura una consulta?",
+          "answer": "Las consultas de especialidades tienen una duración de 30 minutos. Medicina general puede extenderse hasta 45 minutos si es primera vez."
+        },
+        {
+          "question": "¿Tienen servicio de emergencias?",
+          "answer": "Sí, contamos con atención de emergencias 24/7 en nuestras instalaciones para urgencias médicas generales."
+        },
+        {
+          "question": "¿Los análisis de laboratorio requieren orden médica?",
+          "answer": "Sí, todos los análisis clínicos requieren una orden médica. Si no tenés, podés consultar primero con nuestro médico general."
+        },
+        {
+          "question": "¿Tienen estacionamiento?",
+          "answer": "Sí, contamos con estacionamiento gratuito para nuestros pacientes con capacidad para 20 vehículos."
+        }
+      ]
     },
     "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
+      "title": "Contacto",
+      "subtitle": "Estamos ubicados en el centro de Asunción. Visitános o contactanos por WhatsApp",
+      "address": "Av. Mariscal López 1.234 casi Av. España",
       "city": "Asunción",
-      "formSource": "demo",
-      "demoRubro": "clinica_integral"
+      "phone": "+595985724135",
+      "email": "contacto@clicnicaintegralasuncion.com.py",
+      "whatsapp": "+595985724135",
+      "mapEmbedUrl": "https://maps.google.com/maps?q=Asuncion+Paraguay&z=15"
+    },
+    "hours": {
+      "title": "Horarios de atención",
+      "schedules": {
+        "Lunes a Viernes": "07:00 - 19:00",
+        "Sábado": "08:00 - 13:00",
+        "Domingo": "Emergencias 24/7"
+      }
     }
   },
   "footer": {
-    "businessName": "Demo Clínica Integral Asunción",
-    "copyright": "© {{year}} Demo Clínica Integral Asunción",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+    "businessName": "Clínica Integral Asunción",
+    "copyright": "© {{year}} Clínica Integral Asunción. Todos los derechos reservados.",
+    "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Clínica Integral y me interesa un sitio para mi negocio"

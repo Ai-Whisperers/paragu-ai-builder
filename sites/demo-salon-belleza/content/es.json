@@ -1,50 +1,70 @@
 {
-  "_meta": {
-    "translationQuality": "machine",
-    "author": "batch-create-demos",
-    "lastReviewed": "2026-04-25"
-  },
+  "_meta": { "translationQuality": "human", "author": "enrich-batch", "lastReviewed": "2026-04-25" },
   "siteName": "Demo Salón de Belleza Asunción",
-  "tagline": "Cabello, uñas, maquillaje y tratamientos — todo en un solo lugar",
-  "placeholders": {
-    "businessName": "Demo Salón de Belleza Asunción",
-    "city": "Asunción",
-    "year": 2026
-  },
-  "navigation": {
-    "businessName": "Demo Salón de Belleza Asunción",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
-  },
+  "tagline": "Todo para verte y sentirte hermosa",
+  "placeholders": { "businessName": "Demo Salón de Belleza Asunción", "city": "Asunción", "year": 2026 },
+  "navigation": { "businessName": "Salón de Belleza", "navItems": [
+    { "label": "Inicio", "path": "" },
+    { "label": "Servicios", "path": "#servicios" },
+    { "label": "Galería", "path": "#galeria" },
+    { "label": "Equipo", "path": "#equipo" },
+    { "label": "Contacto", "path": "#contacto" }
+  ], "ctaText": "Reservar turno", "ctaHref": "#reservar" },
   "home": {
-    "seo": {
-      "title": "Demo Salón de Belleza Asunción - Salon de Belleza en Asunción | Todos los Servicios",
-      "description": "Cabello, uñas, maquillaje y tratamientos faciales en Asunción. Reserva tu cita online. Tu centro de belleza integral."
-    },
-    "hero": {
-      "headline": "Demo Salón de Belleza Asunción - Tu Salon de Belleza en Asunción",
-      "subheadline": "Cabello, uñas, maquillaje y tratamientos — todo en un solo lugar",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Sal%C3%B3n%20de%20Belleza%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
-    },
-    "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
-      "city": "Asunción",
-      "formSource": "demo",
-      "demoRubro": "salon_belleza"
-    }
+    "seo": { "title": "Demo Salón de Belleza Asunción - Belleza y Estética en Asunción", "description": "Cuidado capilar, manicura, maquillaje y tratamientos faciales en Asunción. Reservá tu cita online." },
+    "hero": { "headline": "Tu belleza, nuestra prioridad", "subheadline": "Corte, color, uñas, maquillaje y tratamientos faciales en un ambiente único en Asunción", "ctaPrimaryText": "Reservá tu turno", "ctaSecondaryText": "Ver servicios" },
+    "promoBanner": { "title": "Promoción de Lanzamiento", "subtitle": "15% de descuento en tu primer tratamiento facial + manicura", "ctaText": "Reservar ahora", "variant": "standard", "dismissible": true },
+    "services": { "eyebrow": "Servicios", "title": "Todo para tu belleza integral", "items": [
+      { "name": "Corte y Peinado", "description": "Corte personalizado, brushing y peinados para toda ocasión", "price": "Gs. 70.000", "icon": "Scissors" },
+      { "name": "Coloración", "description": "Tintura, mechas, balayage, babylights y californianas", "price": "Gs. 180.000", "icon": "Palette" },
+      { "name": "Manicura y Pedicura", "description": "Esmaltado tradicional, semipermanente, acrílico y nail art", "price": "Gs. 80.000", "icon": "Hand" },
+      { "name": "Maquillaje Profesional", "description": "Maquillaje social, novias, quinceañeras y sesión de fotos", "price": "Gs. 150.000", "icon": "Sparkles" },
+      { "name": "Tratamientos Faciales", "description": "Limpieza profunda, hidratación, peeling y revitalización", "price": "Gs. 130.000", "icon": "Droplets" },
+      { "name": "Depilación", "description": "Depilación con cera, hilo y eléctrica en todo el cuerpo", "price": "Gs. 50.000", "icon": "Feather" }
+    ] },
+    "trustBadges": { "items": ["Productos profesionales importados", "8 años de experiencia", "Ambiente climatizado", "Estacionamiento gratis", "Resultados garantizados"] },
+    "gallery": { "title": "Nuestros trabajos", "subtitle": "Transformaciones reales de nuestras clientas", "columns": 3, "lightbox": true, "images": [
+      { "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600", "alt": "Corte y color", "caption": "Balayage + corte" },
+      { "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600", "alt": "Manicura", "caption": "Manicura semipermanente" },
+      { "src": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600", "alt": "Maquillaje", "caption": "Maquillaje social" },
+      { "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600", "alt": "Mechas", "caption": "Mechas californianas" },
+      { "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600", "alt": "Peinado", "caption": "Peinado para novia" },
+      { "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600", "alt": "Uñas", "caption": "Nail art" }
+    ] },
+    "team": { "title": "Nuestro equipo", "subtitle": "Profesionales apasionadas por tu belleza", "items": [
+      { "name": "Camila Rivas", "role": "Directora y Estilista", "description": "8 años en cortes, coloración y tratamientos capilares" },
+      { "name": "Sofía Mendoza", "role": "Manicurista Senior", "description": "Experta en nail art, acrílico y semipermanente" },
+      { "name": "Valentina Acosta", "role": "Maquilladora Profesional", "description": "Especialista en maquillaje social y novias" },
+      { "name": "Gabriela Torres", "role": "Esteticista", "description": "Tratamientos faciales, depilación y cuidado de la piel" }
+    ] },
+    "testimonials": { "title": "Lo que dicen nuestras clientas", "columns": 2, "items": [
+      { "name": "María F.", "text": "Salí hermosa con mi nuevo corte y color. ¡Atención increíble!", "rating": 5 },
+      { "name": "Carla G.", "text": "Las uñas me quedaron perfectas. Volví a enamorarme del nail art.", "rating": 5 },
+      { "name": "Ana L.", "text": "El mejor salón de belleza de Asunción. Super recomendado.", "rating": 5 },
+      { "name": "Laura M.", "text": "Me hicieron un maquillaje espectacular para mi cumpleaños.", "rating": 4 }
+    ] },
+    "booking": { "title": "Reservá tu turno", "subtitle": "Elegí el servicio y el horario que más te convenga", "services": [
+      { "name": "Corte y Peinado", "duration": 45, "category": "Cabello" },
+      { "name": "Coloración completa", "duration": 90, "category": "Cabello" },
+      { "name": "Manicura semipermanente", "duration": 45, "category": "Uñas" },
+      { "name": "Pedicura completa", "duration": 45, "category": "Uñas" },
+      { "name": "Maquillaje social", "duration": 60, "category": "Maquillaje" },
+      { "name": "Limpieza facial", "duration": 45, "category": "Facial" }
+    ] },
+    "faq": { "title": "Preguntas frecuentes", "items": [
+      { "question": "¿Aceptan tarjetas?", "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia." },
+      { "question": "¿Cuánto dura una coloración?", "answer": "Entre 1 y 2 horas dependiendo del largo y técnica." },
+      { "question": "¿Hacen peinados a domicilio?", "answer": "Sí, para eventos especiales con costo adicional." },
+      { "question": "¿Usan productos profesionales?", "answer": "Trabajamos con las mejores marcas del mercado." },
+      { "question": "¿Cómo reservo un turno?", "answer": "Por WhatsApp o directamente en nuestro sistema de reservas online." }
+    ] },
+    "hours": { "title": "Horarios", "schedules": {
+      "Lunes a Viernes": "09:00 - 20:00",
+      "Sábado": "09:00 - 18:00",
+      "Domingo": "Cerrado"
+    } },
+    "instagramFeed": { "title": "Seguinos en Instagram", "subtitle": "@salonbelleza.asuncion", "handle": "@salonbelleza.asuncion", "layout": "grid", "columns": 4, "limit": 8 }
   },
-  "footer": {
-    "businessName": "Demo Salón de Belleza Asunción",
-    "copyright": "© {{year}} Demo Salón de Belleza Asunción",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
-  },
-  "whatsapp": {
-    "defaultMessage": "Hola, vi el demo de Salón de Belleza y me interesa un sitio para mi negocio"
-  }
+  "footer": { "businessName": "Demo Salón de Belleza Asunción", "copyright": "© {{year}} Demo Salón de Belleza Asunción", "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio." },
+  "whatsapp": { "defaultMessage": "Hola, vi el demo de Salón de Belleza y me interesa un sitio para mi negocio" }
 }

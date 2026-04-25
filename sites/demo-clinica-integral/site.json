@@ -3,16 +3,17 @@
   "businessType": "clinica_integral",
   "country": "Paraguay",
   "defaultLocale": "es",
-  "locales": [
-    "es"
-  ],
+  "locales": ["es"],
   "contact": {
     "whatsapp": "+595985724135",
-    "email": "ventas@paragu-ai.com",
-    "instagram": "@demo.clinica.integral.py"
+    "email": "contacto@clicnicaintegralasuncion.com.py",
+    "phone": "+595985724135",
+    "instagram": "@clinicaintegral.asuncion"
   },
   "location": {
-    "city": "Asunción"
+    "city": "Asunción",
+    "address": "Av. Mariscal López 1.234 casi Av. España",
+    "coordinates": { "lat": -25.282, "lng": -57.635 }
   },
   "integrations": {
     "crm": "hubspot",
@@ -21,7 +22,8 @@
   },
   "features": {
     "whatsappFloat": true,
-    "testimonials": true
+    "testimonials": true,
+    "onlineBooking": true
   },
   "demo": true,
   "demoRubro": "clinica_integral",
