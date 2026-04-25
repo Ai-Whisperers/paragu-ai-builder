@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits service-booking vertical defaults",
+  "extends": "vertical:service-booking"
+}

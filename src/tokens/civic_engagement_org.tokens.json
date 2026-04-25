@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits membership-community vertical defaults",
+  "extends": "vertical:membership-community"
+}

@@ -1,0 +1,33 @@
+{
+  "vertical": "health-wellness",
+  "businessType": "clinica_integral",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595985724135",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.clinica.integral.py"
+  },
+  "location": {
+    "city": "Asunción"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "demoRubro": "clinica_integral",
+  "demoWave": 1,
+  "demoCluster": "Salud",
+  "noindex": true,
+  "createdAt": "2026-04-25",
+  "source": "batch-create-demos"
+}

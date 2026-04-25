@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits trades-industrial vertical defaults",
+  "extends": "vertical:trades-industrial"
+}

@@ -288,6 +288,19 @@
     "copyright": "© {{year}} Demo Gimnasio Asunción",
     "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
+  "booking": {
+    "title": "Reserva tu clase",
+    "subtitle": "Elegí el servicio que más te guste y reservá tu turno online",
+    "services": [
+      { "name": "Clase de prueba gratuita", "duration": 30, "category": "Clases" },
+      { "name": "Entrenamiento personalizado", "duration": 60, "category": "Entrenamiento" },
+      { "name": "Evaluación física inicial", "duration": 45, "category": "Evaluación" },
+      { "name": "Clase de spinning", "duration": 45, "category": "Clases" },
+      { "name": "Yoga grupal", "duration": 60, "category": "Clases" },
+      { "name": "Masaje deportivo", "duration": 30, "category": "Bienestar" }
+    ],
+    "workingHours": { "start": "06:00", "end": "22:00" }
+  },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Gimnasio y me interesa un sitio para mi negocio"
   }

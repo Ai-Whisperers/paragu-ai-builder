@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits trades-home-services vertical defaults",
+  "extends": "vertical:trades-home-services"
+}

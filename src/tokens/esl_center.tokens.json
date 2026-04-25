@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits education-training vertical defaults",
+  "extends": "vertical:education-training"
+}

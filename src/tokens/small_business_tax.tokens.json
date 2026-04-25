@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits finance-insurance vertical defaults",
+  "extends": "vertical:finance-insurance"
+}

@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits agriculture-agribusiness vertical defaults",
+  "extends": "vertical:agriculture-agribusiness"
+}

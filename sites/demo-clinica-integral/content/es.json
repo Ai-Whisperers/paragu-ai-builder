@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Demo Clínica Integral Asunción",
+  "tagline": "Clinica con especialistas en medicina general, ginecologia, pediatria, cardiologia y mas.",
+  "placeholders": {
+    "businessName": "Demo Clínica Integral Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Clínica Integral Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Clínica Integral Asunción - Clinica Multidisciplinaria en Asunción",
+      "description": "Clinica con especialistas en medicina general, ginecologia, pediatria, cardiologia y mas."
+    },
+    "hero": {
+      "headline": "Demo Clínica Integral Asunción - Todas las especialidades, un solo lugar",
+      "subheadline": "Clinica con especialistas en medicina general, ginecologia, pediatria, cardiologia y mas.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Cl%C3%ADnica%20Integral%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "clinica_integral"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Clínica Integral Asunción",
+    "copyright": "© {{year}} Demo Clínica Integral Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Clínica Integral y me interesa un sitio para mi negocio"
+  }
+}

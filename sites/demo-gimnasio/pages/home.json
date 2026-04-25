@@ -29,6 +29,11 @@
       "content": "home.services"
     },
     {
+      "id": "booking",
+      "variant": "wizard",
+      "content": "home.booking"
+    },
+    {
       "id": "class-schedule",
       "variant": "weekly",
       "content": "home.schedule"

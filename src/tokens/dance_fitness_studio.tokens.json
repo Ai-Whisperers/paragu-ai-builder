@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits health-wellness vertical defaults",
+  "extends": "vertical:health-wellness"
+}

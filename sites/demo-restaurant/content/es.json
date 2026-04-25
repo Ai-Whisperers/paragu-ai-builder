@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Demo Restaurante Asunción",
+  "tagline": "Disfruta de una experiencia culinaria única con los mejores ingredientes",
+  "placeholders": {
+    "businessName": "Demo Restaurante Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Restaurante Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Restaurante Asunción - Restaurante en Asunción | Menú y Reservas",
+      "description": "Disfruta de la mejor gastronomía en Asunción. Reserva tu mesa online. Menú variado con precios accesibles."
+    },
+    "hero": {
+      "headline": "Demo Restaurante Asunción - Sabores Auténticos en Asunción",
+      "subheadline": "Disfruta de una experiencia culinaria única con los mejores ingredientes",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Restaurante%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "restaurant"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Restaurante Asunción",
+    "copyright": "© {{year}} Demo Restaurante Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Restaurante y me interesa un sitio para mi negocio"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits death-care vertical defaults",
+  "extends": "vertical:death-care"
+}

@@ -29,6 +29,7 @@ interface BookingSectionProps {
   staff?: Staff[]
   workingHours?: { start: string; end: string }
   whatsappPhone?: string
+  businessSlug?: string
   onComplete?: (data: unknown) => Promise<void>
 }
 
@@ -39,6 +40,7 @@ export function BookingSection({
   staff = [],
   workingHours = { start: '08:00', end: '20:00' },
   whatsappPhone,
+  businessSlug,
   onComplete
 }: BookingSectionProps) {
   const [bookingComplete, setBookingComplete] = useState(false)
@@ -104,6 +106,7 @@ export function BookingSection({
           }))}
           workingHours={workingHours}
           whatsappPhone={whatsappPhone}
+          businessSlug={businessSlug || ''}
           onComplete={handleComplete}
         />
       </div>

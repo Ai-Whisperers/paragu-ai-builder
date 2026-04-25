@@ -1,0 +1,33 @@
+{
+  "vertical": "trades-home-services",
+  "businessType": "herreria",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595985724135",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.herreria.py"
+  },
+  "location": {
+    "city": "Lambaré"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "demoRubro": "herreria",
+  "demoWave": 3,
+  "demoCluster": "Oficios",
+  "noindex": true,
+  "createdAt": "2026-04-25",
+  "source": "batch-create-demos"
+}

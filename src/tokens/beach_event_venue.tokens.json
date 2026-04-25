@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits hospitality-tourism vertical defaults",
+  "extends": "vertical:hospitality-tourism"
+}

@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits real-estate-relocation vertical defaults",
+  "extends": "vertical:real-estate-relocation"
+}
