@@ -33,17 +33,17 @@
   "home": {
     "seo": {
       "title": "Depilación Asunción - Depilación Láser y Cera",
-      "description": "Depilación láser definitiva y cera en Asunción. Tecnología de última generación."
+      "description": "Bonita Depilaciones en Asunción. 4 estrellas y 231 resenas en Google. Conocenos!"
     },
     "hero": {
       "headline": "Depilación definitiva sin dolor",
-      "subheadline": "Tecnología láser de última generación en Asunción. Resultados desde la primera sesión.",
+      "subheadline": "En Asunción con atencion personalizada y la mejor calidad.",
       "ctaPrimaryText": "Reservá tu evaluación",
       "ctaSecondaryText": "Ver tratamientos"
     },
     "promoBanner": {
       "title": "Promoción de Lanzamiento",
-      "subtitle": "50% de descuento en tu primera sesión de depilación láser",
+      "subtitle": "Con 231 resenas positivas en Google. Te esperamos!",
       "ctaText": "Reservar ahora",
       "variant": "standard",
       "dismissible": true
@@ -108,7 +108,8 @@
         "Profesionales certificadas",
         "Ambiente climatizado",
         "Resultados garantizados",
-        "Precios accesibles"
+        "Precios accesibles",
+        "4/5 estrellas en Google"
       ]
     },
     "gallery": {
@@ -139,17 +140,17 @@
       "items": [
         {
           "name": "Camila R.",
-          "text": "Comencé con láser en axilas y ya no tengo vello. Súper recomendado.",
+          "text": "Excelente atencion. 4 estrellas bien merecidas.",
           "rating": 5
         },
         {
           "name": "Lucía M.",
-          "text": "La atención es increíble y los resultados se notan desde la primera sesión.",
+          "text": " Uno de los mejores negocios de Asunción. Súper recomendado.",
           "rating": 5
         },
         {
           "name": "Ana G.",
-          "text": "Duele mucho menos de lo que pensaba. Profesionales excelentes.",
+          "text": "Llevo anos viniendo y siempre cumplen. 4/5.",
           "rating": 5
         },
         {
@@ -219,6 +220,10 @@
     "hours": {
       "Lunes a Viernes": "09:00 - 20:00",
       "Sábado": "09:00 - 17:00"
+    },
+    "contact": {
+      "phone": "0985 881864",
+      "city": "Asunción"
     }
   },
   "footer": {

@@ -3362,7 +3362,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "barberia",
     "contact": {
       "email": "info@barberiasanlorenzo.com.py",
-      "instagram": "@barberia.sanlorenzo.py",
+      "instagram": "@thebarberclubpy",
       "phone": "0971 888665",
       "whatsapp": "0971 888665"
     },
@@ -3733,7 +3733,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "barberia",
     "contact": {
       "email": "info@barberiasanlorenzo.com.py",
-      "instagram": "@barberia.sanlorenzo.py",
+      "instagram": "@barberiah2o",
       "phone": "0972 413121",
       "whatsapp": "0972 413121"
     },
@@ -4163,7 +4163,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "depilacion",
     "contact": {
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.depilacion.py",
+      "instagram": "@bonitadepilaciones",
       "phone": "0985 881864",
       "whatsapp": "0985 881864"
     },
@@ -6850,7 +6850,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "gimnasio",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
-      "instagram": "@gimnasio.fdm.py",
+      "instagram": "@gimnasiovictorniella",
       "phone": "0981 400632",
       "whatsapp": "0981 400632"
     },
@@ -7009,7 +7009,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "spa",
     "contact": {
       "email": "contacto@demospa.com.py",
-      "instagram": "@demo.spa.py",
+      "instagram": "@aguadulcebebes",
       "phone": "0993 444000",
       "whatsapp": "0993 444000"
     },
@@ -8388,7 +8388,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "maquillaje",
     "contact": {
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.maquillaje.py",
+      "instagram": "@lcmakeuphaircolor",
       "phone": "0984 904215",
       "whatsapp": "0984 904215"
     },
@@ -8424,7 +8424,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "maquillaje",
     "contact": {
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.maquillaje.py",
+      "instagram": "@lcmakeuphaircolor",
       "phone": "0984 904215",
       "whatsapp": "0984 904215"
     },
@@ -9114,7 +9114,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "gimnasio",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
-      "instagram": "@gimnasio.fdm.py",
+      "instagram": "@lyongympy",
       "phone": "0986 657777",
       "whatsapp": "0986 657777"
     },
@@ -9721,7 +9721,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "gimnasio",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
-      "instagram": "@gimnasio.fdm.py",
+      "instagram": "@medinafitness_gym",
       "phone": "0981 162190",
       "whatsapp": "0981 162190"
     },
@@ -10576,7 +10576,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "gimnasio",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
-      "instagram": "@gimnasio.fdm.py",
+      "instagram": "@overfitgym",
       "phone": "0994 700029",
       "whatsapp": "0994 700029"
     },
@@ -10629,7 +10629,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "gimnasio",
     "contact": {
       "email": "ventas@gimnasiopower.com.py",
-      "instagram": "@gimnasio.fdm.py",
+      "instagram": "@overfitgym",
       "phone": "0994 700029",
       "whatsapp": "0994 700029"
     },
@@ -11413,7 +11413,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "barberia",
     "contact": {
       "email": "info@barberiasanlorenzo.com.py",
-      "instagram": "@barberia.sanlorenzo.py",
+      "instagram": "@portas_barbershop",
       "phone": "0994 215627",
       "whatsapp": "0994 215627"
     },
@@ -11684,7 +11684,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "depilacion",
     "contact": {
       "email": "ventas@paragu-ai.com",
-      "instagram": "@demo.depilacion.py",
+      "instagram": "@clinica.renuva",
       "phone": "0981 521527",
       "whatsapp": "0981 521527"
     },
@@ -12633,7 +12633,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "barberia",
     "contact": {
       "email": "info@barberiasanlorenzo.com.py",
-      "instagram": "@barberia.sanlorenzo.py",
+      "instagram": "@tajosbarberos",
       "phone": "0982 473078",
       "whatsapp": "0982 473078"
     },
@@ -12792,7 +12792,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "spa",
     "contact": {
       "email": "contacto@demospa.com.py",
-      "instagram": "@demo.spa.py",
+      "instagram": "@teranuspa",
       "phone": "0971 252626",
       "whatsapp": "0971 252626"
     },
@@ -12957,7 +12957,7 @@ export const SITES: Record<string, JsonRecord> = {
     "businessType": "spa",
     "contact": {
       "email": "contacto@demospa.com.py",
-      "instagram": "@demo.spa.py",
+      "instagram": "@acquadolcespa",
       "phone": "0961 281515",
       "whatsapp": "0961 281515"
     },
@@ -62239,7 +62239,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0986 747555",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -62311,7 +62311,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -62387,11 +62387,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 91 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 91,
         "reviews": [
           {
             "author": "Cliente",
@@ -62409,11 +62411,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 91 reseñas en Google",
+        "subtitle": "Basado en 91 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Adriana en Asunción. 4 estrellas y 91 resenas en Google. Conocenos!",
         "title": "Adriana - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -62495,17 +62497,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -62521,7 +62523,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -62762,7 +62765,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Areguá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0971 150599",
         "subtitle": "Estamos en el centro de Areguá",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -62834,7 +62837,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Areguá"
+        "subheadline": "En Areguá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -62852,12 +62855,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 194 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Areguá. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Alto Aregua Galeria de Arte y Posada en Areguá. 4 estrellas y 194 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Areguá | Servicios y Precios"
       },
       "services": {
@@ -62939,17 +62942,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Areguá. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Areguá. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -62965,7 +62968,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -63208,7 +63212,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Asunción",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0972 117210",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -63280,7 +63284,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -63356,11 +63360,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 86 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 5,
+        "reviewCount": 86,
         "reviews": [
           {
             "author": "Cliente",
@@ -63378,11 +63384,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 86 reseñas en Google",
+        "subtitle": "Basado en 86 resenas en Google - 5.0 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Asunción. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Andessa Beauty Spa en Asunción. 5 estrellas y 86 resenas en Google. Conocenos!",
         "title": "Andessa Beauty Spa - Spa en Asunción | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -63459,17 +63465,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Diego H.",
@@ -63485,7 +63491,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -63579,7 +63586,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0991 208143",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -63651,7 +63658,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -63727,11 +63734,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 95 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 5,
+        "reviewCount": 95,
         "reviews": [
           {
             "author": "Cliente",
@@ -63749,11 +63758,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 95 reseñas en Google",
+        "subtitle": "Basado en 95 resenas en Google - 5.0 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Annuva en Asunción. 5 estrellas y 95 resenas en Google. Conocenos!",
         "title": "Annuva - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -63835,17 +63844,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Jorge P.",
@@ -63861,7 +63870,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -64397,7 +64407,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Ciudad del Este",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0983 893290",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -64469,7 +64479,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Ciudad del Este"
+        "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -64545,11 +64555,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 113 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 113,
         "reviews": [
           {
             "author": "Cliente",
@@ -64567,11 +64579,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 113 reseñas en Google",
+        "subtitle": "Basado en 113 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Ciudad del Este. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Armonía | Masajes y Spa Antiestrés en Ciudad del Este. 4 estrellas y 113 resenas en Google. Conocenos!",
         "title": "Armonía | Masajes y Spa Antiestrés - Spa en Ciudad del Este | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -64648,17 +64660,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -64674,7 +64686,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -64791,9 +64804,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Lambaré",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0985 500023",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -64819,7 +64832,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -64865,7 +64878,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 272 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -64890,7 +64903,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Lambaré con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "AVENTURA Centro Deportivo en Lambaré. 4 estrellas y 272 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Lambaré | Membresias y Clases"
       },
       "services": {
@@ -64961,17 +64974,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -65005,7 +65018,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -65260,9 +65274,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Caacupé",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0972 114479",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -65288,7 +65302,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Caacupé con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -65392,11 +65406,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 116 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 116,
         "reviews": [
           {
             "author": "Cliente",
@@ -65414,7 +65430,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 116 reseñas en Google",
+        "subtitle": "Basado en 116 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -65438,7 +65454,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Caacupé con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Ayala Training en Caacupé. 4 estrellas y 116 resenas en Google. Conocenos!",
         "title": "Ayala Training - Gimnasio en Caacupé | Membresias y Clases"
       },
       "services": {
@@ -65509,17 +65525,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Caacupé. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -65553,7 +65569,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -66308,7 +66325,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ciudad del Este",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(21) 97585-1255",
         "subtitle": "Estamos en el centro de Ciudad del Este",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -66380,7 +66397,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ciudad del Este"
+        "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -66456,11 +66473,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 114 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 5,
+        "reviewCount": 114,
         "reviews": [
           {
             "author": "Cliente",
@@ -66478,11 +66497,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 114 reseñas en Google",
+        "subtitle": "Basado en 114 resenas en Google - 5.0 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Ciudad del Este. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Barbearia Soul Black en Ciudad del Este. 5 estrellas y 114 resenas en Google. Conocenos!",
         "title": "Barbearia Soul Black - Peluqueria en Ciudad del Este | Servicios y Precios"
       },
       "services": {
@@ -66564,17 +66583,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Ciudad del Este. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Jorge P.",
@@ -66590,7 +66609,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -66841,10 +66861,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Av. Defensores del Chaco 1450",
-        "city": "San Lorenzo",
+        "city": "Lambaré",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "+595985123456",
+        "phone": "0971 888665",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
         "whatsapp": "+595985123456"
@@ -66924,7 +66944,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Estilo clásico, actitud moderna",
         "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
         "imageAlt": "Barber Club Py — Interior de la barbería",
-        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+        "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -66942,12 +66962,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar",
         "dismissible": true,
-        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "subtitle": "Con 137 resenas positivas en Google. Te esperamos!",
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
       "seo": {
-        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "description": "Barber club py en Lambaré. 4 estrellas y 137 resenas en Google. Conocenos!",
         "title": "Barber Club Py | Cortes Clásicos y Modernos en San Lorenzo"
       },
       "services": {
@@ -67051,17 +67071,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Ricardo G.",
             "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
           },
           {
             "name": "Fernando D.",
             "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Luis M.",
@@ -67088,7 +67108,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "8 años de experiencia",
           "Ambiente VIP con aire acondicionado",
           "WiFi gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -67196,10 +67217,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Av. Defensores del Chaco 1450",
-        "city": "San Lorenzo",
+        "city": "Ñemby",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "+595985123456",
+        "phone": "0971 274507",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
         "whatsapp": "+595985123456"
@@ -67279,7 +67300,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Estilo clásico, actitud moderna",
         "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
         "imageAlt": "Barbería Azuaga — Interior de la barbería",
-        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+        "subheadline": "En Ñemby con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -67355,11 +67376,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar",
         "dismissible": true,
-        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "subtitle": "Con 120 resenas positivas en Google. Te esperamos!",
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 120,
         "reviews": [
           {
             "author": "Cliente",
@@ -67377,11 +67400,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 120 reseñas en Google",
+        "subtitle": "Basado en 120 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "description": "Barbería Azuaga en Ñemby. 4 estrellas y 120 resenas en Google. Conocenos!",
         "title": "Barbería Azuaga | Cortes Clásicos y Modernos en San Lorenzo"
       },
       "services": {
@@ -67485,17 +67508,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Ricardo G.",
             "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+            "text": " Uno de los mejores negocios de Ñemby. Súper recomendado."
           },
           {
             "name": "Fernando D.",
             "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Luis M.",
@@ -67522,7 +67545,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "8 años de experiencia",
           "Ambiente VIP con aire acondicionado",
           "WiFi gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -67630,10 +67654,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Av. Defensores del Chaco 1450",
-        "city": "San Lorenzo",
+        "city": "Puerto Iguazú",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "+595985123456",
+        "phone": "03757 46-5921",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
         "whatsapp": "+595985123456"
@@ -67713,7 +67737,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Estilo clásico, actitud moderna",
         "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
         "imageAlt": "Barbería San Lorenzo — Interior de la barbería",
-        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+        "subheadline": "En Puerto Iguazú con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -67731,12 +67755,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar",
         "dismissible": true,
-        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "subtitle": "Con 184 resenas positivas en Google. Te esperamos!",
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
       "seo": {
-        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "description": "Barbería Barber Club en Puerto Iguazú. 4 estrellas y 184 resenas en Google. Conocenos!",
         "title": "Barbería San Lorenzo | Cortes Clásicos y Modernos en San Lorenzo"
       },
       "services": {
@@ -67840,17 +67864,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Ricardo G.",
             "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+            "text": " Uno de los mejores negocios de Puerto Iguazú. Súper recomendado."
           },
           {
             "name": "Fernando D.",
             "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Luis M.",
@@ -67877,7 +67901,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "8 años de experiencia",
           "Ambiente VIP con aire acondicionado",
           "WiFi gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -67985,10 +68010,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Av. Defensores del Chaco 1450",
-        "city": "San Lorenzo",
+        "city": "Puerto Iguazú",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "+595985123456",
+        "phone": "03757 46-5921",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
         "whatsapp": "+595985123456"
@@ -68068,7 +68093,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Estilo clásico, actitud moderna",
         "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
         "imageAlt": "Barbería San Lorenzo — Interior de la barbería",
-        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+        "subheadline": "En Puerto Iguazú con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -68086,12 +68111,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar",
         "dismissible": true,
-        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "subtitle": "Con 184 resenas positivas en Google. Te esperamos!",
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
       "seo": {
-        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "description": "Barbería Barber Club en Puerto Iguazú. 4 estrellas y 184 resenas en Google. Conocenos!",
         "title": "Barbería San Lorenzo | Cortes Clásicos y Modernos en San Lorenzo"
       },
       "services": {
@@ -68195,17 +68220,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Ricardo G.",
             "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+            "text": " Uno de los mejores negocios de Puerto Iguazú. Súper recomendado."
           },
           {
             "name": "Fernando D.",
             "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Luis M.",
@@ -68232,7 +68257,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "8 años de experiencia",
           "Ambiente VIP con aire acondicionado",
           "WiFi gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -68340,10 +68366,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Av. Defensores del Chaco 1450",
-        "city": "San Lorenzo",
+        "city": "Presidente Franco",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "+595985123456",
+        "phone": "0973 674513",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
         "whatsapp": "+595985123456"
@@ -68423,7 +68449,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Estilo clásico, actitud moderna",
         "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
         "imageAlt": "Barbería David salón masculino — Interior de la barbería",
-        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+        "subheadline": "En Presidente Franco con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -68499,11 +68525,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar",
         "dismissible": true,
-        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "subtitle": "Con 104 resenas positivas en Google. Te esperamos!",
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 104,
         "reviews": [
           {
             "author": "Cliente",
@@ -68521,11 +68549,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 104 reseñas en Google",
+        "subtitle": "Basado en 104 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "description": "Barbería David salón masculino en Presidente Franco. 4 estrellas y 104 resenas en Google. Conocenos!",
         "title": "Barbería David salón masculino | Cortes Clásicos y Modernos en San Lorenzo"
       },
       "services": {
@@ -68629,17 +68657,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Ricardo G.",
             "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
           },
           {
             "name": "Fernando D.",
             "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Luis M.",
@@ -68666,7 +68694,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "8 años de experiencia",
           "Ambiente VIP con aire acondicionado",
           "WiFi gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -69208,10 +69238,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Av. Defensores del Chaco 1450",
-        "city": "San Lorenzo",
+        "city": "Villarrica",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "+595985123456",
+        "phone": "0994 166358",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
         "whatsapp": "+595985123456"
@@ -69291,7 +69321,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Estilo clásico, actitud moderna",
         "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
         "imageAlt": "Barbería Edison 💈 — Interior de la barbería",
-        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+        "subheadline": "En Villarrica con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -69367,11 +69397,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar",
         "dismissible": true,
-        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "subtitle": "Con 105 resenas positivas en Google. Te esperamos!",
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 105,
         "reviews": [
           {
             "author": "Cliente",
@@ -69389,11 +69421,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 105 reseñas en Google",
+        "subtitle": "Basado en 105 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "description": "Barbería Edison 💈 en Villarrica. 4 estrellas y 105 resenas en Google. Conocenos!",
         "title": "Barbería Edison 💈 | Cortes Clásicos y Modernos en San Lorenzo"
       },
       "services": {
@@ -69497,17 +69529,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Ricardo G.",
             "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+            "text": " Uno de los mejores negocios de Villarrica. Súper recomendado."
           },
           {
             "name": "Fernando D.",
             "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Luis M.",
@@ -69534,7 +69566,11 @@ export const CONTENT: Record<string, JsonRecord> = {
           "8 años de experiencia",
           "Ambiente VIP con aire acondicionado",
           "WiFi gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -69645,7 +69681,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "city": "San Lorenzo",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "+595985123456",
+        "phone": "0972 413121",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
         "whatsapp": "+595985123456"
@@ -69725,7 +69761,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Estilo clásico, actitud moderna",
         "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
         "imageAlt": "Barberia H2O — Interior de la barbería",
-        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -69743,12 +69779,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar",
         "dismissible": true,
-        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "subtitle": "Con 194 resenas positivas en Google. Te esperamos!",
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
       "seo": {
-        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "description": "Barberia H2O en San Lorenzo. 4 estrellas y 194 resenas en Google. Conocenos!",
         "title": "Barberia H2O | Cortes Clásicos y Modernos en San Lorenzo"
       },
       "services": {
@@ -69852,17 +69888,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Ricardo G.",
             "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Fernando D.",
             "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Luis M.",
@@ -69889,7 +69925,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "8 años de experiencia",
           "Ambiente VIP con aire acondicionado",
           "WiFi gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -69987,7 +70024,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Coronel Oviedo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0994 235689",
         "subtitle": "Estamos en el centro de Coronel Oviedo",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -70059,7 +70096,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Coronel Oviedo"
+        "subheadline": "En Coronel Oviedo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -70135,11 +70172,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 85 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.5,
+        "reviewCount": 85,
         "reviews": [
           {
             "author": "Cliente",
@@ -70157,11 +70196,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 85 reseñas en Google",
+        "subtitle": "Basado en 85 resenas en Google - 4.5 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Coronel Oviedo. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Bella Rose Cosmeticos en Coronel Oviedo. 4 estrellas y 85 resenas en Google. Conocenos!",
         "title": "Bella Rose Cosmeticos - Peluqueria en Coronel Oviedo | Servicios y Precios"
       },
       "services": {
@@ -70243,17 +70282,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Coronel Oviedo. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Coronel Oviedo. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -70269,7 +70308,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -70510,7 +70550,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Providencia",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "9 4598 8898",
         "subtitle": "Estamos en el centro de Providencia",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -70582,7 +70622,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Providencia"
+        "subheadline": "En Providencia con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -70600,12 +70640,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 351 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Providencia. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Bellavista Tattoo Studio en Providencia. 4 estrellas y 351 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Providencia | Servicios y Precios"
       },
       "services": {
@@ -70687,17 +70727,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Providencia. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Providencia. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -70713,7 +70753,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -71525,9 +71566,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Capiatá",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0982 292573",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -71553,7 +71594,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Capiatá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -71657,11 +71698,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 109 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 109,
         "reviews": [
           {
             "author": "Cliente",
@@ -71679,7 +71722,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 109 reseñas en Google",
+        "subtitle": "Basado en 109 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -71703,7 +71746,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Capiatá con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Bicho's Gym en Capiatá. 4 estrellas y 109 resenas en Google. Conocenos!",
         "title": "Bicho's Gym - Gimnasio en Capiatá | Membresias y Clases"
       },
       "services": {
@@ -71774,17 +71817,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Capiatá. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -71818,7 +71861,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -72050,7 +72095,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0971 161733",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -72122,7 +72167,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -72140,12 +72185,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 141 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "BleuDepilación en Asunción. 4 estrellas y 141 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -72227,17 +72272,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -72253,7 +72298,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -72496,7 +72542,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Luque",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "(021) 653 355",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -72568,7 +72614,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Luque"
+        "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -72644,11 +72690,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 114 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.5,
+        "reviewCount": 114,
         "reviews": [
           {
             "author": "Cliente",
@@ -72666,11 +72714,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 114 reseñas en Google",
+        "subtitle": "Basado en 114 resenas en Google - 4.5 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Luque. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Body Wellness Gym en Luque. 4 estrellas y 114 resenas en Google. Conocenos!",
         "title": "Body Wellness Gym - Spa en Luque | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -72747,17 +72795,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -72773,7 +72821,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -72890,9 +72939,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Ciudad del Este",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0982 731732",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -72918,7 +72967,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -73022,11 +73071,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 94 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 94,
         "reviews": [
           {
             "author": "Cliente",
@@ -73044,7 +73095,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 94 reseñas en Google",
+        "subtitle": "Basado en 94 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -73068,7 +73119,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Ciudad del Este con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Bodyfit Gym en Ciudad del Este. 4 estrellas y 94 resenas en Google. Conocenos!",
         "title": "Bodyfit Gym - Gimnasio en Ciudad del Este | Membresias y Clases"
       },
       "services": {
@@ -73139,17 +73190,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -73183,7 +73234,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -73411,6 +73464,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Evaluación sin costo",
         "title": "Reservá tu sesión"
       },
+      "contact": {
+        "city": "Asunción",
+        "phone": "0985 881864"
+      },
       "faq": {
         "items": [
           {
@@ -73458,7 +73515,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu evaluación",
         "ctaSecondaryText": "Ver tratamientos",
         "headline": "Depilación definitiva sin dolor",
-        "subheadline": "Tecnología láser de última generación en Asunción. Resultados desde la primera sesión."
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Lunes a Viernes": "09:00 - 20:00",
@@ -73467,12 +73524,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "50% de descuento en tu primera sesión de depilación láser",
+        "subtitle": "Con 231 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Depilación láser definitiva y cera en Asunción. Tecnología de última generación.",
+        "description": "Bonita Depilaciones en Asunción. 4 estrellas y 231 resenas en Google. Conocenos!",
         "title": "Depilación Asunción - Depilación Láser y Cera"
       },
       "services": {
@@ -73535,17 +73592,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Camila R.",
             "rating": 5,
-            "text": "Comencé con láser en axilas y ya no tengo vello. Súper recomendado."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Lucía M.",
             "rating": 5,
-            "text": "La atención es increíble y los resultados se notan desde la primera sesión."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Ana G.",
             "rating": 5,
-            "text": "Duele mucho menos de lo que pensaba. Profesionales excelentes."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Sofía P.",
@@ -73561,7 +73618,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Profesionales certificadas",
           "Ambiente climatizado",
           "Resultados garantizados",
-          "Precios accesibles"
+          "Precios accesibles",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -73670,9 +73728,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Limpio",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0971 515028",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -73698,7 +73756,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Limpio con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -73802,11 +73860,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 128 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 5,
+        "reviewCount": 128,
         "reviews": [
           {
             "author": "Cliente",
@@ -73824,7 +73884,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 128 reseñas en Google",
+        "subtitle": "Basado en 128 resenas en Google - 5.0 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -73848,7 +73908,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Limpio con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Box Evolution Limpio en Limpio. 5 estrellas y 128 resenas en Google. Conocenos!",
         "title": "Box Evolution Limpio - Gimnasio en Limpio | Membresias y Clases"
       },
       "services": {
@@ -73919,17 +73979,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Limpio. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Laura P.",
@@ -73963,7 +74023,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -74218,9 +74279,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Lambaré",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0986 457613",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -74246,7 +74307,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -74292,7 +74353,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 157 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -74317,7 +74378,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Lambaré con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Cacique Fit Club en Lambaré. 4 estrellas y 157 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Lambaré | Membresias y Clases"
       },
       "services": {
@@ -74388,17 +74449,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -74432,7 +74493,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -74664,7 +74727,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 991925",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -74736,7 +74799,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -74812,11 +74875,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 95 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 95,
         "reviews": [
           {
             "author": "Cliente",
@@ -74834,11 +74899,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 95 reseñas en Google",
+        "subtitle": "Basado en 95 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Cami Landolfi en Asunción. 4 estrellas y 95 resenas en Google. Conocenos!",
         "title": "Cami Landolfi - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -74920,17 +74985,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -74946,7 +75011,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -75187,7 +75254,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Lorenzo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0987 310953",
         "subtitle": "Estamos en el centro de San Lorenzo",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -75259,7 +75326,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -75277,12 +75344,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 196 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en San Lorenzo. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Capelli Barberia/Peluquería en San Lorenzo. 4 estrellas y 196 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en San Lorenzo | Servicios y Precios"
       },
       "services": {
@@ -75364,17 +75431,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de San Lorenzo. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -75390,7 +75457,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -75631,7 +75699,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Encarnación",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0985 105541",
         "subtitle": "Estamos en el centro de Encarnación",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -75703,7 +75771,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
+        "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -75721,12 +75789,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 248 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Encarnación. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Carol Peluquería en Encarnación. 4 estrellas y 248 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Encarnación | Servicios y Precios"
       },
       "services": {
@@ -75808,17 +75876,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Encarnación. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -75834,7 +75902,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -76075,7 +76144,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Encarnación",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0985 105541",
         "subtitle": "Estamos en el centro de Encarnación",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -76147,7 +76216,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
+        "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -76165,12 +76234,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 248 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Encarnación. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Carol Peluquería en Encarnación. 4 estrellas y 248 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Encarnación | Servicios y Precios"
       },
       "services": {
@@ -76252,17 +76321,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Encarnación. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -76278,7 +76347,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -76519,7 +76589,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Atyrá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0982 101933",
         "subtitle": "Estamos en el centro de Atyrá",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -76591,7 +76661,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Atyrá"
+        "subheadline": "En Atyrá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -76609,12 +76679,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 602 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Atyrá. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Castillo Marianela en Atyrá. 4 estrellas y 602 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Atyrá | Servicios y Precios"
       },
       "services": {
@@ -76696,17 +76766,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Atyrá. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Atyrá. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -76722,7 +76792,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -76963,7 +77035,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Itá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0986 691115",
         "subtitle": "Estamos en el centro de Itá",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -77035,7 +77107,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Itá"
+        "subheadline": "En Itá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -77053,12 +77125,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 385 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Itá. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Centro Artesanal (CAPICI), Itá en Itá. 4 estrellas y 385 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Itá | Servicios y Precios"
       },
       "services": {
@@ -77140,17 +77212,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Itá. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Itá. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -77166,7 +77238,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -77407,7 +77480,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Itá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0986 691115",
         "subtitle": "Estamos en el centro de Itá",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -77479,7 +77552,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Itá"
+        "subheadline": "En Itá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -77497,12 +77570,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 385 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Itá. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Centro Artesanal (CAPICI), Itá en Itá. 4 estrellas y 385 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Itá | Servicios y Precios"
       },
       "services": {
@@ -77584,17 +77657,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Itá. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Itá. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -77610,7 +77683,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -77853,7 +77927,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Villa Elisa",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0984 315183",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -77925,7 +77999,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Villa Elisa"
+        "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -78001,11 +78075,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 89 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 89,
         "reviews": [
           {
             "author": "Cliente",
@@ -78023,11 +78099,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 89 reseñas en Google",
+        "subtitle": "Basado en 89 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Villa Elisa. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Centro De Alto Rendimiento Sparta en Villa Elisa. 4 estrellas y 89 resenas en Google. Conocenos!",
         "title": "Centro De Alto Rendimiento Sparta - Spa en Villa Elisa | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -78104,17 +78180,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -78130,7 +78206,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -78224,7 +78302,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0971 568547",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -78296,7 +78374,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -78314,12 +78392,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 259 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Centro Médico Corppolive en Asunción. 5 estrellas y 259 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -78401,17 +78479,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Jorge P.",
@@ -78427,7 +78505,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -78668,7 +78747,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(021) 612 899",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -78740,7 +78819,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -78758,12 +78837,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 299 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Charme ASU en Asunción. 4 estrellas y 299 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -78845,17 +78924,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -78871,7 +78950,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -79112,7 +79192,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Hohenau",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0982 112221",
         "subtitle": "Estamos en el centro de Hohenau",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -79184,7 +79264,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Hohenau"
+        "subheadline": "En Hohenau con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -79202,12 +79282,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 298 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Hohenau. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Cheers en Hohenau. 4 estrellas y 298 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Hohenau | Servicios y Precios"
       },
       "services": {
@@ -79289,17 +79369,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Hohenau. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Hohenau. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -79315,7 +79395,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -79556,7 +79637,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ciudad del Este",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0975 805915",
         "subtitle": "Estamos en el centro de Ciudad del Este",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -79628,7 +79709,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ciudad del Este"
+        "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -79704,11 +79785,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 95 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 95,
         "reviews": [
           {
             "author": "Cliente",
@@ -79726,11 +79809,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 95 reseñas en Google",
+        "subtitle": "Basado en 95 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Ciudad del Este. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Chelo's Tattoo Studio en Ciudad del Este. 4 estrellas y 95 resenas en Google. Conocenos!",
         "title": "Chelo's Tattoo Studio - Peluqueria en Ciudad del Este | Servicios y Precios"
       },
       "services": {
@@ -79812,17 +79895,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Ciudad del Este. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -79838,7 +79921,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -80075,6 +80159,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Evaluación sin costo",
         "title": "Reservá tu sesión"
       },
+      "contact": {
+        "city": "Asunción",
+        "phone": "0981 933247"
+      },
       "faq": {
         "items": [
           {
@@ -80122,7 +80210,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu evaluación",
         "ctaSecondaryText": "Ver tratamientos",
         "headline": "Depilación definitiva sin dolor",
-        "subheadline": "Tecnología láser de última generación en Asunción. Resultados desde la primera sesión."
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Lunes a Viernes": "09:00 - 20:00",
@@ -80131,12 +80219,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "50% de descuento en tu primera sesión de depilación láser",
+        "subtitle": "Con 152 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Depilación láser definitiva y cera en Asunción. Tecnología de última generación.",
+        "description": "Ciria Depilaciones Campo Grande en Asunción. 4 estrellas y 152 resenas en Google. Conocenos!",
         "title": "Depilación Asunción - Depilación Láser y Cera"
       },
       "services": {
@@ -80199,17 +80287,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Camila R.",
             "rating": 5,
-            "text": "Comencé con láser en axilas y ya no tengo vello. Súper recomendado."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Lucía M.",
             "rating": 5,
-            "text": "La atención es increíble y los resultados se notan desde la primera sesión."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Ana G.",
             "rating": 5,
-            "text": "Duele mucho menos de lo que pensaba. Profesionales excelentes."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Sofía P.",
@@ -80225,7 +80313,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Profesionales certificadas",
           "Ambiente climatizado",
           "Resultados garantizados",
-          "Precios accesibles"
+          "Precios accesibles",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -80311,7 +80400,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ayolas",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0985 271073",
         "subtitle": "Estamos en el centro de Ayolas",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -80383,7 +80472,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ayolas"
+        "subheadline": "En Ayolas con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -80459,11 +80548,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 130 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 130,
         "reviews": [
           {
             "author": "Cliente",
@@ -80481,11 +80572,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 130 reseñas en Google",
+        "subtitle": "Basado en 130 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Ayolas. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Comercial HM en Ayolas. 4 estrellas y 130 resenas en Google. Conocenos!",
         "title": "Comercial HM - Peluqueria en Ayolas | Servicios y Precios"
       },
       "services": {
@@ -80567,17 +80658,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Ayolas. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Ayolas. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -80593,7 +80684,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -80834,7 +80926,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Piribebuy",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 448335",
         "subtitle": "Estamos en el centro de Piribebuy",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -80906,7 +80998,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
+        "subheadline": "En Piribebuy con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -80924,12 +81016,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 838 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Piribebuy. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Complejo Barparaíso Deportivo en Piribebuy. 4 estrellas y 838 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Piribebuy | Servicios y Precios"
       },
       "services": {
@@ -81011,17 +81103,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Piribebuy. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -81037,7 +81129,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -81278,7 +81371,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Piribebuy",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 448335",
         "subtitle": "Estamos en el centro de Piribebuy",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -81350,7 +81443,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
+        "subheadline": "En Piribebuy con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -81368,12 +81461,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 838 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Piribebuy. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Complejo Barparaíso Deportivo en Piribebuy. 4 estrellas y 838 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Piribebuy | Servicios y Precios"
       },
       "services": {
@@ -81455,17 +81548,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Piribebuy. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -81481,7 +81574,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -81745,9 +81839,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Asunción",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0986 106062",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -81773,7 +81867,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -81819,7 +81913,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 269 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -81844,7 +81938,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Asunción con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Complejo Cocodrilo (Mburucuya Fitness) en Asunción. 4 estrellas y 269 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Asunción | Membresias y Clases"
       },
       "services": {
@@ -81915,17 +82009,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -81959,7 +82053,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -82214,9 +82309,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Ñemby",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0981 492743",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -82242,7 +82337,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Ñemby con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -82346,11 +82441,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 107 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.5,
+        "reviewCount": 107,
         "reviews": [
           {
             "author": "Cliente",
@@ -82368,7 +82465,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 107 reseñas en Google",
+        "subtitle": "Basado en 107 resenas en Google - 4.5 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -82392,7 +82489,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Ñemby con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Complejo Los Naranjos en Ñemby. 4 estrellas y 107 resenas en Google. Conocenos!",
         "title": "Complejo Los Naranjos - Gimnasio en Ñemby | Membresias y Clases"
       },
       "services": {
@@ -82463,17 +82560,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Ñemby. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -82507,7 +82604,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -82762,9 +82860,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Ciudad del Este",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0973 541430",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -82790,7 +82888,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -82894,11 +82992,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 129 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 129,
         "reviews": [
           {
             "author": "Cliente",
@@ -82916,7 +83016,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 129 reseñas en Google",
+        "subtitle": "Basado en 129 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -82940,7 +83040,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Ciudad del Este con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Coyote Gym en Ciudad del Este. 4 estrellas y 129 resenas en Google. Conocenos!",
         "title": "Coyote Gym - Gimnasio en Ciudad del Este | Membresias y Clases"
       },
       "services": {
@@ -83011,17 +83111,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -83055,7 +83155,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -83287,7 +83388,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Bernardino",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0983 104489",
         "subtitle": "Estamos en el centro de San Bernardino",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -83359,7 +83460,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Bernardino"
+        "subheadline": "En San Bernardino con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -83377,12 +83478,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 165 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en San Bernardino. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Creperia Cafe Casa Vital en San Bernardino. 4 estrellas y 165 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en San Bernardino | Servicios y Precios"
       },
       "services": {
@@ -83464,17 +83565,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de San Bernardino. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de San Bernardino. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -83490,7 +83591,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -83731,7 +83833,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Encarnación",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0985 772800",
         "subtitle": "Estamos en el centro de Encarnación",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -83803,7 +83905,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
+        "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -83879,11 +83981,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 103 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 103,
         "reviews": [
           {
             "author": "Cliente",
@@ -83901,11 +84005,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 103 reseñas en Google",
+        "subtitle": "Basado en 103 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Encarnación. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Díana Apodaca Salon en Encarnación. 4 estrellas y 103 resenas en Google. Conocenos!",
         "title": "Díana Apodaca Salon - Peluqueria en Encarnación | Servicios y Precios"
       },
       "services": {
@@ -83987,17 +84091,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Encarnación. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -84013,7 +84117,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -84777,7 +84883,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Encarnación",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0985 499769",
         "subtitle": "Estamos en el centro de Encarnación",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -84849,7 +84955,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
+        "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -84925,11 +85031,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 106 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 106,
         "reviews": [
           {
             "author": "Cliente",
@@ -84947,11 +85055,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 106 reseñas en Google",
+        "subtitle": "Basado en 106 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Encarnación. Reserva tu cita online. Precios desde Consultar.",
+        "description": "David Coiffure en Encarnación. 4 estrellas y 106 resenas en Google. Conocenos!",
         "title": "David Coiffure - Peluqueria en Encarnación | Servicios y Precios"
       },
       "services": {
@@ -85033,17 +85141,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Encarnación. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -85059,7 +85167,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -85823,7 +85933,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Pilar",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "011 2391-0450",
         "subtitle": "Estamos en el centro de Pilar",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -85895,7 +86005,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Pilar"
+        "subheadline": "En Pilar con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -85971,11 +86081,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 123 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 123,
         "reviews": [
           {
             "author": "Cliente",
@@ -85993,11 +86105,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 123 reseñas en Google",
+        "subtitle": "Basado en 123 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Pilar. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Depilación Láser en Pilar . Estética Lis en Pilar. 4 estrellas y 123 resenas en Google. Conocenos!",
         "title": "Depilación Láser en Pilar . Estética Lis - Peluqueria en Pilar | Servicios y Precios"
       },
       "services": {
@@ -86079,17 +86191,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Pilar. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Pilar. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -86105,7 +86217,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -86346,7 +86460,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0971 226221",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -86418,7 +86532,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -86436,12 +86550,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 184 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "DepiPink - Barrio Herrera en Asunción. 4 estrellas y 184 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -86523,17 +86637,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -86549,7 +86663,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -86790,7 +86905,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0982 272328",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -86862,7 +86977,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -86880,12 +86995,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 182 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "ES VEDRÁ San Bernardino en Asunción. 4 estrellas y 182 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -86967,17 +87082,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -86993,7 +87108,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -87236,7 +87352,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Luque",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0982 338886",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -87308,7 +87424,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Luque"
+        "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -87326,12 +87442,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 285 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Luque. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Essencial SPA en Luque. 4 estrellas y 285 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en Luque | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -87408,17 +87524,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -87434,7 +87550,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -87528,7 +87646,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0991 204913",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -87600,7 +87718,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -87618,12 +87736,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 286 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Fernando de la Mora. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Estelita Estética en Uñas en Fernando de la Mora. 4 estrellas y 286 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Fernando de la Mora | Servicios y Precios"
       },
       "services": {
@@ -87705,17 +87823,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Fernando de la Mora. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -87731,7 +87849,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -87972,7 +88091,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Santa Rita",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0985 709907",
         "subtitle": "Estamos en el centro de Santa Rita",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -88044,7 +88163,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Santa Rita"
+        "subheadline": "En Santa Rita con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -88120,11 +88239,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 84 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 84,
         "reviews": [
           {
             "author": "Cliente",
@@ -88142,11 +88263,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 84 reseñas en Google",
+        "subtitle": "Basado en 84 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Santa Rita. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Farmavip en Santa Rita. 4 estrellas y 84 resenas en Google. Conocenos!",
         "title": "Farmavip - Peluqueria en Santa Rita | Servicios y Precios"
       },
       "services": {
@@ -88228,17 +88349,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Santa Rita. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Santa Rita. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -88254,7 +88375,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -88495,7 +88618,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0971 609575",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -88567,7 +88690,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -88643,11 +88766,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 108 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 108,
         "reviews": [
           {
             "author": "Cliente",
@@ -88665,11 +88790,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 108 reseñas en Google",
+        "subtitle": "Basado en 108 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "FERNANDO BUFFA ESTILISTA en Asunción. 4 estrellas y 108 resenas en Google. Conocenos!",
         "title": "FERNANDO BUFFA ESTILISTA - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -88751,17 +88876,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -88777,7 +88902,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -89018,7 +89144,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Ignacio Guazú",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0782 233 219",
         "subtitle": "Estamos en el centro de San Ignacio Guazú",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -89090,7 +89216,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Ignacio Guazú"
+        "subheadline": "En San Ignacio Guazú con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -89166,11 +89292,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 94 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.5,
+        "reviewCount": 94,
         "reviews": [
           {
             "author": "Cliente",
@@ -89188,11 +89316,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 94 reseñas en Google",
+        "subtitle": "Basado en 94 resenas en Google - 4.5 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en San Ignacio Guazú. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Ferretería La Esquina en San Ignacio Guazú. 4 estrellas y 94 resenas en Google. Conocenos!",
         "title": "Ferretería La Esquina - Peluqueria en San Ignacio Guazú | Servicios y Precios"
       },
       "services": {
@@ -89274,17 +89402,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de San Ignacio Guazú. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de San Ignacio Guazú. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -89300,7 +89428,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -89543,7 +89672,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Ciudad del Este",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "(061) 502 459",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -89615,7 +89744,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Ciudad del Este"
+        "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -89691,11 +89820,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 121 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 121,
         "reviews": [
           {
             "author": "Cliente",
@@ -89713,11 +89844,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 121 reseñas en Google",
+        "subtitle": "Basado en 121 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Ciudad del Este. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "FITNESS CENTER GYM & SPA en Ciudad del Este. 4 estrellas y 121 resenas en Google. Conocenos!",
         "title": "FITNESS CENTER GYM & SPA - Spa en Ciudad del Este | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -89794,17 +89925,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -89820,7 +89951,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -89939,7 +90071,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Fernando de la Mora",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0982 116619",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -89965,7 +90097,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -90011,7 +90143,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 138 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -90036,7 +90168,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Fernando de la Mora con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Fran Gym en Fernando de la Mora. 4 estrellas y 138 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Fernando de la Mora | Membresias y Clases"
       },
       "services": {
@@ -90107,17 +90239,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -90151,7 +90283,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -90406,9 +90539,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Luque",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "(021) 640 740",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -90434,7 +90567,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -90480,7 +90613,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 197 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -90505,7 +90638,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Luque con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Full Fitness Gym en Luque. 4 estrellas y 197 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Luque | Membresias y Clases"
       },
       "services": {
@@ -90576,17 +90709,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -90620,7 +90753,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -90875,9 +91010,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Villa Elisa",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0981 423913",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -90903,7 +91038,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -90949,7 +91084,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 148 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -90974,7 +91109,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Villa Elisa con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Full Form Gym en Villa Elisa. 4 estrellas y 148 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Villa Elisa | Membresias y Clases"
       },
       "services": {
@@ -91045,17 +91180,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -91089,7 +91224,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -91344,9 +91481,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Villa Elisa",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0981 423913",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -91372,7 +91509,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -91418,7 +91555,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 148 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -91443,7 +91580,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Villa Elisa con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Full Form Gym en Villa Elisa. 4 estrellas y 148 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Villa Elisa | Membresias y Clases"
       },
       "services": {
@@ -91514,17 +91651,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -91558,7 +91695,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -91790,7 +91928,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0994 681789",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -91862,7 +92000,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -91880,12 +92018,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 395 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Galilea Estetica en Asunción. 5 estrellas y 395 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -91967,17 +92105,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Jorge P.",
@@ -91993,7 +92131,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -92234,7 +92373,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ñemby",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0991 258494",
         "subtitle": "Estamos en el centro de Ñemby",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -92306,7 +92445,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ñemby"
+        "subheadline": "En Ñemby con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -92382,11 +92521,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 86 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 86,
         "reviews": [
           {
             "author": "Cliente",
@@ -92404,11 +92545,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 86 reseñas en Google",
+        "subtitle": "Basado en 86 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Ñemby. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Gato Tattoo en Ñemby. 4 estrellas y 86 resenas en Google. Conocenos!",
         "title": "Gato Tattoo - Peluqueria en Ñemby | Servicios y Precios"
       },
       "services": {
@@ -92490,17 +92631,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Ñemby. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Ñemby. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -92516,7 +92657,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -92780,9 +92922,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "San Lorenzo",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0982 650013",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -92808,7 +92950,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -92912,11 +93054,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 94 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 94,
         "reviews": [
           {
             "author": "Cliente",
@@ -92934,7 +93078,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 94 reseñas en Google",
+        "subtitle": "Basado en 94 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -92958,7 +93102,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en San Lorenzo con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "General Gym en San Lorenzo. 4 estrellas y 94 resenas en Google. Conocenos!",
         "title": "General Gym - Gimnasio en San Lorenzo | Membresias y Clases"
       },
       "services": {
@@ -93029,17 +93173,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -93073,7 +93217,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -93305,7 +93451,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Paraguarí",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0971 907086",
         "subtitle": "Estamos en el centro de Paraguarí",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -93377,7 +93523,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Paraguarí"
+        "subheadline": "En Paraguarí con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -93453,11 +93599,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 84 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 84,
         "reviews": [
           {
             "author": "Cliente",
@@ -93475,11 +93623,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 84 reseñas en Google",
+        "subtitle": "Basado en 84 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Paraguarí. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Gerardo Galeano en Paraguarí. 4 estrellas y 84 resenas en Google. Conocenos!",
         "title": "Gerardo Galeano - Peluqueria en Paraguarí | Servicios y Precios"
       },
       "services": {
@@ -93561,17 +93709,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Paraguarí. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Paraguarí. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -93587,7 +93735,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -93851,9 +94001,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Encarnación",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0975 625018",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -93879,7 +94029,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -93925,7 +94075,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 156 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -93950,7 +94100,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Encarnación con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "GIMNASIO BODY TRAINING en Encarnación. 4 estrellas y 156 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Encarnación | Membresias y Clases"
       },
       "services": {
@@ -94021,17 +94171,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -94065,7 +94215,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -94320,9 +94471,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Encarnación",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0971 225547",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -94348,7 +94499,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -94452,11 +94603,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 133 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 5,
+        "reviewCount": 133,
         "reviews": [
           {
             "author": "Cliente",
@@ -94474,7 +94627,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 133 reseñas en Google",
+        "subtitle": "Basado en 133 resenas en Google - 5.0 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -94498,7 +94651,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Encarnación con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Gimnasio MC Training en Encarnación. 5 estrellas y 133 resenas en Google. Conocenos!",
         "title": "Gimnasio MC Training - Gimnasio en Encarnación | Membresias y Clases"
       },
       "services": {
@@ -94569,17 +94722,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Laura P.",
@@ -94613,7 +94766,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -94868,9 +95022,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Asunción",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "(021) 490 074",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -94896,7 +95050,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -94942,7 +95096,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 203 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -94967,7 +95121,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Asunción con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Gimnasio Top Gym en Asunción. 4 estrellas y 203 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Asunción | Membresias y Clases"
       },
       "services": {
@@ -95038,17 +95192,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -95082,7 +95236,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -95885,9 +96040,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Villa Elisa",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0986 500012",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -95913,7 +96068,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -96017,11 +96172,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 97 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.5,
+        "reviewCount": 97,
         "reviews": [
           {
             "author": "Cliente",
@@ -96039,7 +96196,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 97 reseñas en Google",
+        "subtitle": "Basado en 97 resenas en Google - 4.5 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -96063,7 +96220,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Villa Elisa con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "GLOBAL FITNESS VILLA ELISA en Villa Elisa. 4 estrellas y 97 resenas en Google. Conocenos!",
         "title": "GLOBAL FITNESS VILLA ELISA - Gimnasio en Villa Elisa | Membresias y Clases"
       },
       "services": {
@@ -96134,17 +96291,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -96178,7 +96335,11 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -96410,7 +96571,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Itauguá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0974 363674",
         "subtitle": "Estamos en el centro de Itauguá",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -96482,7 +96643,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Itauguá"
+        "subheadline": "En Itauguá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -96500,12 +96661,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 269 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Itauguá. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Guaraní Mall (Paseo Guaraní) en Itauguá. 4 estrellas y 269 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Itauguá | Servicios y Precios"
       },
       "services": {
@@ -96587,17 +96748,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Itauguá. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Itauguá. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -96613,7 +96774,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -96877,9 +97039,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Hernandarias",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0981 775282",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -96905,7 +97067,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Hernandarias con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -97009,11 +97171,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 118 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 118,
         "reviews": [
           {
             "author": "Cliente",
@@ -97031,7 +97195,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 118 reseñas en Google",
+        "subtitle": "Basado en 118 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -97055,7 +97219,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Hernandarias con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Gym New One Life en Hernandarias. 4 estrellas y 118 resenas en Google. Conocenos!",
         "title": "Gym New One Life - Gimnasio en Hernandarias | Membresias y Clases"
       },
       "services": {
@@ -97126,17 +97290,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Hernandarias. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -97170,7 +97334,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -97425,9 +97590,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Lambaré",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0981 400632",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -97453,7 +97618,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -97499,7 +97664,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 251 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -97524,7 +97689,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Lambaré con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Gym Victor Niella en Lambaré. 4 estrellas y 251 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Lambaré | Membresias y Clases"
       },
       "services": {
@@ -97595,17 +97760,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -97639,7 +97804,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -97871,7 +98037,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Puerto Iguazú",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "03757 45-1896",
         "subtitle": "Estamos en el centro de Puerto Iguazú",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -97943,7 +98109,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Puerto Iguazú"
+        "subheadline": "En Puerto Iguazú con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -97961,12 +98127,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 135 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Puerto Iguazú. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Hair Fashion en Puerto Iguazú. 4 estrellas y 135 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Puerto Iguazú | Servicios y Precios"
       },
       "services": {
@@ -98048,17 +98214,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Puerto Iguazú. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Puerto Iguazú. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -98074,7 +98240,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -98315,7 +98482,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Puerto Iguazú",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "03757 45-1896",
         "subtitle": "Estamos en el centro de Puerto Iguazú",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -98387,7 +98554,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Puerto Iguazú"
+        "subheadline": "En Puerto Iguazú con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -98405,12 +98572,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 135 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Puerto Iguazú. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Hair Fashion en Puerto Iguazú. 4 estrellas y 135 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Puerto Iguazú | Servicios y Precios"
       },
       "services": {
@@ -98492,17 +98659,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Puerto Iguazú. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Puerto Iguazú. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -98518,7 +98685,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -98761,7 +98929,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Asunción",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0993 444000",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -98833,7 +99001,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -98851,12 +99019,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 736 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Asunción. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "HidroBaby | Babyspa | Spa de bebés | Hidroestimulación en Asunción. 5 estrellas y 736 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en Asunción | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -98933,17 +99101,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Diego H.",
@@ -98959,7 +99127,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -99055,7 +99224,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Luque",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0993 444300",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -99127,7 +99296,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Luque"
+        "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -99145,12 +99314,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 196 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Luque. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Hidrobaby Luque en Luque. 4 estrellas y 196 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en Luque | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -99227,17 +99396,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -99253,7 +99422,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -99347,7 +99517,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Itauguá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(021) 728 9325",
         "subtitle": "Estamos en el centro de Itauguá",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -99419,7 +99589,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Itauguá"
+        "subheadline": "En Itauguá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -99437,12 +99607,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 1401 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Itauguá. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Hipermercado Luisito - Itauguá en Itauguá. 4 estrellas y 1401 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Itauguá | Servicios y Precios"
       },
       "services": {
@@ -99524,17 +99694,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Itauguá. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Itauguá. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -99550,7 +99720,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -99791,7 +99962,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Lorenzo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 195626",
         "subtitle": "Estamos en el centro de San Lorenzo",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -99863,7 +100034,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -99881,12 +100052,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 217 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en San Lorenzo. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Hippie Chic en San Lorenzo. 4 estrellas y 217 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en San Lorenzo | Servicios y Precios"
       },
       "services": {
@@ -99968,17 +100139,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de San Lorenzo. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -99994,7 +100165,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -100235,7 +100407,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Encarnación",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0994 176777",
         "subtitle": "Estamos en el centro de Encarnación",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -100307,7 +100479,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
+        "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -100325,12 +100497,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 141 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Encarnación. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Hold Fast Club de Caballeros en Encarnación. 4 estrellas y 141 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Encarnación | Servicios y Precios"
       },
       "services": {
@@ -100412,17 +100584,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Encarnación. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -100438,7 +100610,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -100679,7 +100852,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Encarnación",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0994 176777",
         "subtitle": "Estamos en el centro de Encarnación",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -100751,7 +100924,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Encarnación"
+        "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -100769,12 +100942,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 141 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Encarnación. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Hold Fast Club de Caballeros en Encarnación. 4 estrellas y 141 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Encarnación | Servicios y Precios"
       },
       "services": {
@@ -100856,17 +101029,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Encarnación. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -100882,7 +101055,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -101123,7 +101297,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Hernandarias",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0994 999955",
         "subtitle": "Estamos en el centro de Hernandarias",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -101195,7 +101369,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Hernandarias"
+        "subheadline": "En Hernandarias con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -101271,11 +101445,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 87 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 5,
+        "reviewCount": 87,
         "reviews": [
           {
             "author": "Cliente",
@@ -101293,11 +101469,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 87 reseñas en Google",
+        "subtitle": "Basado en 87 resenas en Google - 5.0 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Hernandarias. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Homme Visagismo Masculino en Hernandarias. 5 estrellas y 87 resenas en Google. Conocenos!",
         "title": "Homme Visagismo Masculino - Peluqueria en Hernandarias | Servicios y Precios"
       },
       "services": {
@@ -101379,17 +101555,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Hernandarias. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Hernandarias. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Jorge P.",
@@ -101405,7 +101581,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -101646,7 +101823,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Ignacio Guazú",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 520182",
         "subtitle": "Estamos en el centro de San Ignacio Guazú",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -101718,7 +101895,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Ignacio Guazú"
+        "subheadline": "En San Ignacio Guazú con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -101794,11 +101971,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 123 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 123,
         "reviews": [
           {
             "author": "Cliente",
@@ -101816,11 +101995,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 123 reseñas en Google",
+        "subtitle": "Basado en 123 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en San Ignacio Guazú. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Hotel Doña Angélica en San Ignacio Guazú. 4 estrellas y 123 resenas en Google. Conocenos!",
         "title": "Hotel Doña Angélica - Peluqueria en San Ignacio Guazú | Servicios y Precios"
       },
       "services": {
@@ -101902,17 +102081,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de San Ignacio Guazú. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de San Ignacio Guazú. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -101928,7 +102107,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -102169,7 +102349,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Villa del Rosario",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0985 125820",
         "subtitle": "Estamos en el centro de Villa del Rosario",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -102241,7 +102421,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Villa del Rosario"
+        "subheadline": "En Villa del Rosario con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -102317,11 +102497,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 103 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.5,
+        "reviewCount": 103,
         "reviews": [
           {
             "author": "Cliente",
@@ -102339,11 +102521,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 103 reseñas en Google",
+        "subtitle": "Basado en 103 resenas en Google - 4.5 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Villa del Rosario. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Hotel El Mangal en Villa del Rosario. 4 estrellas y 103 resenas en Google. Conocenos!",
         "title": "Hotel El Mangal - Peluqueria en Villa del Rosario | Servicios y Precios"
       },
       "services": {
@@ -102425,17 +102607,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Villa del Rosario. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Villa del Rosario. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -102451,7 +102633,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -102692,7 +102875,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Colonia Hohenau Itapúa Paraguay",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0994 862766",
         "subtitle": "Estamos en el centro de Colonia Hohenau Itapúa Paraguay",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -102764,7 +102947,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Colonia Hohenau Itapúa Paraguay"
+        "subheadline": "En Colonia Hohenau Itapúa Paraguay con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -102782,12 +102965,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 377 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Colonia Hohenau Itapúa Paraguay. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Hotel Hohenau en Colonia Hohenau Itapúa Paraguay. 4 estrellas y 377 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Colonia Hohenau Itapúa Paraguay | Servicios y Precios"
       },
       "services": {
@@ -102869,17 +103052,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Colonia Hohenau Itapúa Paraguay. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Colonia Hohenau Itapúa Paraguay. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -102895,7 +103078,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -103136,7 +103320,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Lorenzo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0986 336903",
         "subtitle": "Estamos en el centro de San Lorenzo",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -103208,7 +103392,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -103284,11 +103468,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 102 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 102,
         "reviews": [
           {
             "author": "Cliente",
@@ -103306,11 +103492,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 102 reseñas en Google",
+        "subtitle": "Basado en 102 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en San Lorenzo. Reserva tu cita online. Precios desde Consultar.",
+        "description": "IL BARONE en San Lorenzo. 4 estrellas y 102 resenas en Google. Conocenos!",
         "title": "IL BARONE - Peluqueria en San Lorenzo | Servicios y Precios"
       },
       "services": {
@@ -103392,17 +103578,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de San Lorenzo. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -103418,7 +103604,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -103659,7 +103847,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0982 693832",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -103731,7 +103919,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -103807,11 +103995,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 106 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 106,
         "reviews": [
           {
             "author": "Cliente",
@@ -103829,11 +104019,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 106 reseñas en Google",
+        "subtitle": "Basado en 106 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Fernando de la Mora. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Isidro Estilista en Fernando de la Mora. 4 estrellas y 106 resenas en Google. Conocenos!",
         "title": "Isidro Estilista - Peluqueria en Fernando de la Mora | Servicios y Precios"
       },
       "services": {
@@ -103915,17 +104105,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Fernando de la Mora. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -103941,7 +104131,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -104184,7 +104375,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Güímar",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "922 09 11 32",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -104256,7 +104447,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Güímar"
+        "subheadline": "En Güímar con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -104332,11 +104523,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 121 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 121,
         "reviews": [
           {
             "author": "Cliente",
@@ -104354,11 +104547,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 121 reseñas en Google",
+        "subtitle": "Basado en 121 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Güímar. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Ita y Alex. en Güímar. 4 estrellas y 121 resenas en Google. Conocenos!",
         "title": "Ita y Alex. - Spa en Güímar | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -104435,17 +104628,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Güímar. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -104461,7 +104654,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -105126,9 +105320,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Ciudad del Este",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0983 619790",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -105154,7 +105348,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -105258,11 +105452,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 91 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 91,
         "reviews": [
           {
             "author": "Cliente",
@@ -105280,7 +105476,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 91 reseñas en Google",
+        "subtitle": "Basado en 91 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -105304,7 +105500,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Ciudad del Este con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Jakare Training en Ciudad del Este. 4 estrellas y 91 resenas en Google. Conocenos!",
         "title": "Jakare Training - Gimnasio en Ciudad del Este | Membresias y Clases"
       },
       "services": {
@@ -105375,17 +105571,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -105419,7 +105615,11 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -105651,7 +105851,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Lambaré",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 961766",
         "subtitle": "Estamos en el centro de Lambaré",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -105723,7 +105923,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Lambaré"
+        "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -105741,12 +105941,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 211 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Lambaré. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Jazmin Cosmeticos en Lambaré. 4 estrellas y 211 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Lambaré | Servicios y Precios"
       },
       "services": {
@@ -105828,17 +106028,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Lambaré. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -105854,7 +106054,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -106095,7 +106296,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0971 527527",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -106167,7 +106368,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -106185,12 +106386,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 157 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Jazmin Valdivieso Brow and Lash Studio en Asunción. 4 estrellas y 157 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -106272,17 +106473,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -106298,7 +106499,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -106539,7 +106741,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0983 158945",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -106611,7 +106813,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -106687,11 +106889,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 83 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 83,
         "reviews": [
           {
             "author": "Cliente",
@@ -106709,11 +106913,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 83 reseñas en Google",
+        "subtitle": "Basado en 83 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Jessica Maia Curls en Asunción. 4 estrellas y 83 resenas en Google. Conocenos!",
         "title": "Jessica Maia Curls - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -106795,17 +106999,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -106821,7 +107025,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -107633,9 +107838,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Ciudad del Este",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0992 905444",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -107661,7 +107866,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -107765,11 +107970,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 91 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 91,
         "reviews": [
           {
             "author": "Cliente",
@@ -107787,7 +107994,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 91 reseñas en Google",
+        "subtitle": "Basado en 91 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -107811,7 +108018,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Ciudad del Este con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Kingbull Crossfit en Ciudad del Este. 4 estrellas y 91 resenas en Google. Conocenos!",
         "title": "Kingbull Crossfit - Gimnasio en Ciudad del Este | Membresias y Clases"
       },
       "services": {
@@ -107882,17 +108089,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -107926,7 +108133,11 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -108158,7 +108369,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Piribebuy",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0983 940571",
         "subtitle": "Estamos en el centro de Piribebuy",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -108230,7 +108441,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
+        "subheadline": "En Piribebuy con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -108248,12 +108459,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 152 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Piribebuy. Reserva tu cita online. Precios desde Consultar.",
+        "description": "La Casita de los Cristales en Piribebuy. 4 estrellas y 152 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Piribebuy | Servicios y Precios"
       },
       "services": {
@@ -108335,17 +108546,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Piribebuy. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -108361,7 +108572,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -108602,7 +108814,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Villa del Rosario",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0972 256685",
         "subtitle": "Estamos en el centro de Villa del Rosario",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -108674,7 +108886,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Villa del Rosario"
+        "subheadline": "En Villa del Rosario con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -108750,11 +108962,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 102 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 102,
         "reviews": [
           {
             "author": "Cliente",
@@ -108772,11 +108986,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 102 reseñas en Google",
+        "subtitle": "Basado en 102 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Villa del Rosario. Reserva tu cita online. Precios desde Consultar.",
+        "description": "La Curva - Hotel & Restaurant en Villa del Rosario. 4 estrellas y 102 resenas en Google. Conocenos!",
         "title": "La Curva - Hotel & Restaurant - Peluqueria en Villa del Rosario | Servicios y Precios"
       },
       "services": {
@@ -108858,17 +109072,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Villa del Rosario. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Villa del Rosario. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -108884,7 +109098,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -109125,7 +109340,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Piribebuy",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0971 169235",
         "subtitle": "Estamos en el centro de Piribebuy",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -109197,7 +109412,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
+        "subheadline": "En Piribebuy con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -109273,11 +109488,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 129 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 129,
         "reviews": [
           {
             "author": "Cliente",
@@ -109295,11 +109512,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 129 reseñas en Google",
+        "subtitle": "Basado en 129 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Piribebuy. Reserva tu cita online. Precios desde Consultar.",
+        "description": "La Esperanza en Piribebuy. 4 estrellas y 129 resenas en Google. Conocenos!",
         "title": "La Esperanza - Peluqueria en Piribebuy | Servicios y Precios"
       },
       "services": {
@@ -109381,17 +109598,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Piribebuy. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -109407,7 +109624,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -109648,7 +109866,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Presidente Franco",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0985 518105",
         "subtitle": "Estamos en el centro de Presidente Franco",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -109720,7 +109938,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Presidente Franco"
+        "subheadline": "En Presidente Franco con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -109796,11 +110014,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 103 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 103,
         "reviews": [
           {
             "author": "Cliente",
@@ -109818,11 +110038,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 103 reseñas en Google",
+        "subtitle": "Basado en 103 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Presidente Franco. Reserva tu cita online. Precios desde Consultar.",
+        "description": "LA GAMBETA en Presidente Franco. 4 estrellas y 103 resenas en Google. Conocenos!",
         "title": "LA GAMBETA - Peluqueria en Presidente Franco | Servicios y Precios"
       },
       "services": {
@@ -109904,17 +110124,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Presidente Franco. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -109930,7 +110150,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -110162,6 +110383,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Elegí el servicio que necesitás",
         "title": "Reservá tu turno"
       },
+      "contact": {
+        "city": "Villa Elisa",
+        "phone": "0994 318355"
+      },
       "faq": {
         "items": [
           {
@@ -110209,7 +110434,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu fecha",
         "ctaSecondaryText": "Ver trabajos",
         "headline": "Resaltá tu belleza natural",
-        "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Villa Elisa"
+        "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Lunes a Viernes": "10:00 - 19:00",
@@ -110276,11 +110501,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu maquillaje social + prueba de look gratis",
+        "subtitle": "Con 86 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 86,
         "reviews": [
           {
             "author": "Cliente",
@@ -110298,11 +110525,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 86 reseñas en Google",
+        "subtitle": "Basado en 86 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Maquillaje social, novias, quinceañeras y sesión de fotos en Villa Elisa.",
+        "description": "La Ivaldi Make Up en Villa Elisa. 4 estrellas y 86 resenas en Google. Conocenos!",
         "title": "La Ivaldi Make Up - Maquillaje Social y Novias"
       },
       "services": {
@@ -110365,17 +110592,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "María C.",
             "rating": 5,
-            "text": "Me maquilló para mi casamiento y quedé espectacular. Duró todo el día perfecto."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Julia A.",
             "rating": 5,
-            "text": "Tomé la clase de automaquillaje y ahora puedo maquillarme sola. Súper recomendado."
+            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
           },
           {
             "name": "Camila L.",
             "rating": 5,
-            "text": "Los productos que usan son de primera calidad y se nota en el resultado."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -110385,7 +110612,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Productos hipoalergénicos",
           "5 años de experiencia",
           "Maquillaje a prueba de agua",
-          "Tendencia y calidad"
+          "Tendencia y calidad",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -110471,7 +110699,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 410318",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -110543,7 +110771,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -110619,11 +110847,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 117 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 117,
         "reviews": [
           {
             "author": "Cliente",
@@ -110641,11 +110871,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 117 reseñas en Google",
+        "subtitle": "Basado en 117 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Le Dragon Bleu en Asunción. 4 estrellas y 117 resenas en Google. Conocenos!",
         "title": "Le Dragon Bleu - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -110727,17 +110957,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -110753,7 +110983,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -110985,6 +111216,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Elegí el servicio que necesitás",
         "title": "Reservá tu turno"
       },
+      "contact": {
+        "city": "Fernando de la Mora",
+        "phone": "0984 904215"
+      },
       "faq": {
         "items": [
           {
@@ -111032,7 +111267,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu fecha",
         "ctaSecondaryText": "Ver trabajos",
         "headline": "Resaltá tu belleza natural",
-        "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Lunes a Viernes": "10:00 - 19:00",
@@ -111041,12 +111276,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu maquillaje social + prueba de look gratis",
+        "subtitle": "Con 206 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Maquillaje social, novias, quinceañeras y sesión de fotos en Fernando de la Mora.",
+        "description": "Leticia Carballo Makeup & Store en Fernando de la Mora. 4 estrellas y 206 resenas en Google. Conocenos!",
         "title": "Leticia Carballo Makeup & Store - Maquillaje Social y Novias"
       },
       "services": {
@@ -111109,17 +111344,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "María C.",
             "rating": 5,
-            "text": "Me maquilló para mi casamiento y quedé espectacular. Duró todo el día perfecto."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Julia A.",
             "rating": 5,
-            "text": "Tomé la clase de automaquillaje y ahora puedo maquillarme sola. Súper recomendado."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Camila L.",
             "rating": 5,
-            "text": "Los productos que usan son de primera calidad y se nota en el resultado."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -111129,7 +111364,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Productos hipoalergénicos",
           "5 años de experiencia",
           "Maquillaje a prueba de agua",
-          "Tendencia y calidad"
+          "Tendencia y calidad",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -111206,6 +111442,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Elegí el servicio que necesitás",
         "title": "Reservá tu turno"
       },
+      "contact": {
+        "city": "Fernando de la Mora",
+        "phone": "0984 904215"
+      },
       "faq": {
         "items": [
           {
@@ -111253,7 +111493,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu fecha",
         "ctaSecondaryText": "Ver trabajos",
         "headline": "Resaltá tu belleza natural",
-        "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Lunes a Viernes": "10:00 - 19:00",
@@ -111262,12 +111502,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu maquillaje social + prueba de look gratis",
+        "subtitle": "Con 206 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Maquillaje social, novias, quinceañeras y sesión de fotos en Fernando de la Mora.",
+        "description": "Leticia Carballo Makeup & Store en Fernando de la Mora. 4 estrellas y 206 resenas en Google. Conocenos!",
         "title": "Leticia Carballo Makeup & Store - Maquillaje Social y Novias"
       },
       "services": {
@@ -111330,17 +111570,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "María C.",
             "rating": 5,
-            "text": "Me maquilló para mi casamiento y quedé espectacular. Duró todo el día perfecto."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Julia A.",
             "rating": 5,
-            "text": "Tomé la clase de automaquillaje y ahora puedo maquillarme sola. Súper recomendado."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Camila L.",
             "rating": 5,
-            "text": "Los productos que usan son de primera calidad y se nota en el resultado."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -111350,7 +111590,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Productos hipoalergénicos",
           "5 años de experiencia",
           "Maquillaje a prueba de agua",
-          "Tendencia y calidad"
+          "Tendencia y calidad",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -111436,7 +111677,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(021) 329 2436",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -111508,7 +111749,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -111526,12 +111767,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 144 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "L´EVEL Femenino / Masculino en Asunción. 4 estrellas y 144 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -111613,17 +111854,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -111639,7 +111880,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -112451,9 +112693,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Limpio",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0985 850152",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -112479,7 +112721,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Limpio con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -112583,11 +112825,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 106 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 106,
         "reviews": [
           {
             "author": "Cliente",
@@ -112605,7 +112849,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 106 reseñas en Google",
+        "subtitle": "Basado en 106 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -112629,7 +112873,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Limpio con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Level Ten RB en Limpio. 4 estrellas y 106 resenas en Google. Conocenos!",
         "title": "Level Ten RB - Gimnasio en Limpio | Membresias y Clases"
       },
       "services": {
@@ -112700,17 +112944,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Limpio. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -112744,7 +112988,11 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -112976,7 +113224,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0983 374490",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -113048,7 +113296,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -113124,11 +113372,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 94 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 94,
         "reviews": [
           {
             "author": "Cliente",
@@ -113146,11 +113396,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 94 reseñas en Google",
+        "subtitle": "Basado en 94 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Fernando de la Mora. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Lidu Salinas Salon De Belleza en Fernando de la Mora. 4 estrellas y 94 resenas en Google. Conocenos!",
         "title": "Lidu Salinas Salon De Belleza - Peluqueria en Fernando de la Mora | Servicios y Precios"
       },
       "services": {
@@ -113232,17 +113482,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Fernando de la Mora. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -113258,7 +113508,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -113874,7 +114125,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Villa Elisa",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0983 376951",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -113946,7 +114197,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Villa Elisa"
+        "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -114022,11 +114273,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 113 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 113,
         "reviews": [
           {
             "author": "Cliente",
@@ -114044,11 +114297,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 113 reseñas en Google",
+        "subtitle": "Basado en 113 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Villa Elisa. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Lila Cornejo Spa en Villa Elisa. 4 estrellas y 113 resenas en Google. Conocenos!",
         "title": "Lila Cornejo Spa - Spa en Villa Elisa | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -114125,17 +114378,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -114151,7 +114404,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -114268,9 +114523,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Lambaré",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0981 461813",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -114296,7 +114551,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -114400,11 +114655,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 108 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 108,
         "reviews": [
           {
             "author": "Cliente",
@@ -114422,7 +114679,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 108 reseñas en Google",
+        "subtitle": "Basado en 108 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -114446,7 +114703,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Lambaré con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Lirdsteam Gym en Lambaré. 4 estrellas y 108 resenas en Google. Conocenos!",
         "title": "Lirdsteam Gym - Gimnasio en Lambaré | Membresias y Clases"
       },
       "services": {
@@ -114517,17 +114774,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -114561,7 +114818,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -114816,9 +115074,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Encarnación",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0975 624254",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -114844,7 +115102,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Encarnación con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -114948,11 +115206,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 114 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 114,
         "reviews": [
           {
             "author": "Cliente",
@@ -114970,7 +115230,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 114 reseñas en Google",
+        "subtitle": "Basado en 114 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -114994,7 +115254,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Encarnación con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Live Gym en Encarnación. 4 estrellas y 114 resenas en Google. Conocenos!",
         "title": "Live Gym - Gimnasio en Encarnación | Membresias y Clases"
       },
       "services": {
@@ -115065,17 +115325,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -115109,7 +115369,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -115341,7 +115602,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Altos",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 200260",
         "subtitle": "Estamos en el centro de Altos",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -115413,7 +115674,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Altos"
+        "subheadline": "En Altos con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -115431,12 +115692,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 135 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Altos. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Los Lapachos en Altos. 4 estrellas y 135 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Altos | Servicios y Precios"
       },
       "services": {
@@ -115518,17 +115779,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Altos. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Altos. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -115544,7 +115805,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -115787,7 +116049,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Asunción",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "(021) 503 329",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -115859,7 +116121,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -115935,11 +116197,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 133 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 133,
         "reviews": [
           {
             "author": "Cliente",
@@ -115957,11 +116221,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 133 reseñas en Google",
+        "subtitle": "Basado en 133 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Asunción. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Lourdes Elli Belleza y Spa en Asunción. 4 estrellas y 133 resenas en Google. Conocenos!",
         "title": "Lourdes Elli Belleza y Spa - Spa en Asunción | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -116038,17 +116302,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -116064,7 +116328,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -116158,7 +116423,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(021) 604 817",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -116230,7 +116495,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -116248,12 +116513,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 144 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Luis De Leon Concept en Asunción. 4 estrellas y 144 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -116335,17 +116600,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -116361,7 +116626,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -116625,9 +116891,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Luque",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0992 263249",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -116653,7 +116919,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -116757,11 +117023,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 88 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 88,
         "reviews": [
           {
             "author": "Cliente",
@@ -116779,7 +117047,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 88 reseñas en Google",
+        "subtitle": "Basado en 88 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -116803,7 +117071,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Luque con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "LUQUE FIT Made in La República en Luque. 4 estrellas y 88 resenas en Google. Conocenos!",
         "title": "LUQUE FIT Made in La República - Gimnasio en Luque | Membresias y Clases"
       },
       "services": {
@@ -116874,17 +117142,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -116918,7 +117186,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -117173,9 +117443,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Asunción",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0986 657777",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -117201,7 +117471,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -117247,7 +117517,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 148 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -117272,7 +117542,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Asunción con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Lyon Gym en Asunción. 4 estrellas y 148 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Asunción | Membresias y Clases"
       },
       "services": {
@@ -117343,17 +117613,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -117387,7 +117657,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -117619,7 +117890,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ñemby",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0971 754545",
         "subtitle": "Estamos en el centro de Ñemby",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -117691,7 +117962,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ñemby"
+        "subheadline": "En Ñemby con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -117709,12 +117980,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 188 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Ñemby. Reserva tu cita online. Precios desde Consultar.",
+        "description": "MADELCAP en Ñemby. 4 estrellas y 188 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Ñemby | Servicios y Precios"
       },
       "services": {
@@ -117796,17 +118067,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Ñemby. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Ñemby. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -117822,7 +118093,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -118063,7 +118335,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(021) 558 289",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -118135,7 +118407,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -118153,12 +118425,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 216 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Magnolia Peluquería en Asunción. 4 estrellas y 216 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -118240,17 +118512,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -118266,7 +118538,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -118507,7 +118780,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 301077",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -118579,7 +118852,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -118655,11 +118928,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 112 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 112,
         "reviews": [
           {
             "author": "Cliente",
@@ -118677,11 +118952,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 112 reseñas en Google",
+        "subtitle": "Basado en 112 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Maison Mint en Asunción. 4 estrellas y 112 resenas en Google. Conocenos!",
         "title": "Maison Mint - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -118763,17 +119038,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -118789,7 +119064,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -119405,7 +119681,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Concepción",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0986 630185",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -119477,7 +119753,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Concepción"
+        "subheadline": "En Concepción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -119553,11 +119829,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 89 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 89,
         "reviews": [
           {
             "author": "Cliente",
@@ -119575,11 +119853,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 89 reseñas en Google",
+        "subtitle": "Basado en 89 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Concepción. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Mantra Spa en Concepción. 4 estrellas y 89 resenas en Google. Conocenos!",
         "title": "Mantra Spa - Spa en Concepción | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -119656,17 +119934,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Concepción. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -119682,7 +119960,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -119776,7 +120057,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Lambaré",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(021) 921 827",
         "subtitle": "Estamos en el centro de Lambaré",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -119848,7 +120129,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Lambaré"
+        "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -119866,12 +120147,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 195 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Lambaré. Reserva tu cita online. Precios desde Consultar.",
+        "description": "MAR BER peluqueria en Lambaré. 4 estrellas y 195 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Lambaré | Servicios y Precios"
       },
       "services": {
@@ -119953,17 +120234,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Lambaré. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -119979,7 +120260,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -120222,7 +120504,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Fernando de la Mora",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0981 527713",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -120294,7 +120576,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -120370,11 +120652,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 91 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.5,
+        "reviewCount": 91,
         "reviews": [
           {
             "author": "Cliente",
@@ -120392,11 +120676,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 91 reseñas en Google",
+        "subtitle": "Basado en 91 resenas en Google - 4.5 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Fernando de la Mora. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Marcela SPA en Fernando de la Mora. 4 estrellas y 91 resenas en Google. Conocenos!",
         "title": "Marcela SPA - Spa en Fernando de la Mora | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -120473,17 +120757,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -120499,7 +120783,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -120593,7 +120878,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Atyrá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(0520) 20188",
         "subtitle": "Estamos en el centro de Atyrá",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -120665,7 +120950,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Atyrá"
+        "subheadline": "En Atyrá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -120683,12 +120968,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 149 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Atyrá. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Marianela Atyra en Atyrá. 4 estrellas y 149 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Atyrá | Servicios y Precios"
       },
       "services": {
@@ -120770,17 +121055,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Atyrá. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Atyrá. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -120796,7 +121081,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -121037,7 +121323,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Villarrica",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0983 699907",
         "subtitle": "Estamos en el centro de Villarrica",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -121109,7 +121395,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Villarrica"
+        "subheadline": "En Villarrica con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -121185,11 +121471,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 86 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 86,
         "reviews": [
           {
             "author": "Cliente",
@@ -121207,11 +121495,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 86 reseñas en Google",
+        "subtitle": "Basado en 86 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Villarrica. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Marilyn Coiffure en Villarrica. 4 estrellas y 86 resenas en Google. Conocenos!",
         "title": "Marilyn Coiffure - Peluqueria en Villarrica | Servicios y Precios"
       },
       "services": {
@@ -121293,17 +121581,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Villarrica. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Villarrica. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -121319,7 +121607,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -121562,7 +121852,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Asunción",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0991 369971",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -121634,7 +121924,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -121710,11 +122000,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 87 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 5,
+        "reviewCount": 87,
         "reviews": [
           {
             "author": "Cliente",
@@ -121732,11 +122024,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 87 reseñas en Google",
+        "subtitle": "Basado en 87 resenas en Google - 5.0 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Asunción. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Masaje RUSO en Asunción. 5 estrellas y 87 resenas en Google. Conocenos!",
         "title": "Masaje RUSO - Spa en Asunción | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -121813,17 +122105,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Diego H.",
@@ -121839,7 +122131,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -121958,7 +122251,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Fernando de la Mora",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0981 162190",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -121984,7 +122277,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -122030,7 +122323,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 183 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -122055,7 +122348,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Fernando de la Mora con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Medina Fitness en Fernando de la Mora. 4 estrellas y 183 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Fernando de la Mora | Membresias y Clases"
       },
       "services": {
@@ -122126,17 +122419,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -122170,7 +122463,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -122402,7 +122696,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0986 477733",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -122474,7 +122768,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -122492,12 +122786,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 561 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Mega Cosméticos Asunción en Asunción. 4 estrellas y 561 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -122579,17 +122873,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -122605,7 +122899,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -122869,9 +123164,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Villa Elisa",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0981 191146",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -122897,7 +123192,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -122943,7 +123238,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 227 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -122968,7 +123263,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Villa Elisa con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "MegaSport Fitness Center en Villa Elisa. 4 estrellas y 227 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Villa Elisa | Membresias y Clases"
       },
       "services": {
@@ -123039,17 +123334,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -123083,7 +123378,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -123338,9 +123634,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Villa Elisa",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0981 191146",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -123366,7 +123662,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -123412,7 +123708,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 227 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -123437,7 +123733,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Villa Elisa con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "MegaSport Fitness Center en Villa Elisa. 4 estrellas y 227 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Villa Elisa | Membresias y Clases"
       },
       "services": {
@@ -123508,17 +123804,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -123552,7 +123848,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -123784,7 +124082,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Lorenzo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0994 122288",
         "subtitle": "Estamos en el centro de San Lorenzo",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -123856,7 +124154,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -123932,11 +124230,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 110 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 110,
         "reviews": [
           {
             "author": "Cliente",
@@ -123954,11 +124254,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 110 reseñas en Google",
+        "subtitle": "Basado en 110 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en San Lorenzo. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Mi piercing en San Lorenzo. 4 estrellas y 110 resenas en Google. Conocenos!",
         "title": "Mi piercing - Peluqueria en San Lorenzo | Servicios y Precios"
       },
       "services": {
@@ -124040,17 +124340,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de San Lorenzo. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -124066,7 +124366,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -124303,6 +124604,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Evaluación sin costo",
         "title": "Reservá tu sesión"
       },
+      "contact": {
+        "city": "Asunción",
+        "phone": "(45) 3025-4100"
+      },
       "faq": {
         "items": [
           {
@@ -124350,7 +124655,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu evaluación",
         "ctaSecondaryText": "Ver tratamientos",
         "headline": "Depilación definitiva sin dolor",
-        "subheadline": "Tecnología láser de última generación en Asunción. Resultados desde la primera sesión."
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Lunes a Viernes": "09:00 - 20:00",
@@ -124359,12 +124664,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "50% de descuento en tu primera sesión de depilación láser",
+        "subtitle": "Con 150 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Depilación láser definitiva y cera en Asunción. Tecnología de última generación.",
+        "description": "Micropigmentação e Remoção a Laser | Clínica Niege Bento en Asunción. 4 estrellas y 150 resenas en Google. Conocenos!",
         "title": "Depilación Asunción - Depilación Láser y Cera"
       },
       "services": {
@@ -124427,17 +124732,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Camila R.",
             "rating": 5,
-            "text": "Comencé con láser en axilas y ya no tengo vello. Súper recomendado."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Lucía M.",
             "rating": 5,
-            "text": "La atención es increíble y los resultados se notan desde la primera sesión."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Ana G.",
             "rating": 5,
-            "text": "Duele mucho menos de lo que pensaba. Profesionales excelentes."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Sofía P.",
@@ -124453,7 +124758,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Profesionales certificadas",
           "Ambiente climatizado",
           "Resultados garantizados",
-          "Precios accesibles"
+          "Precios accesibles",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -124539,7 +124845,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Lorenzo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0986 490573",
         "subtitle": "Estamos en el centro de San Lorenzo",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -124611,7 +124917,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -124687,11 +124993,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 131 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 131,
         "reviews": [
           {
             "author": "Cliente",
@@ -124709,11 +125017,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 131 reseñas en Google",
+        "subtitle": "Basado en 131 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en San Lorenzo. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Minutos de Sol en San Lorenzo. 4 estrellas y 131 resenas en Google. Conocenos!",
         "title": "Minutos de Sol - Peluqueria en San Lorenzo | Servicios y Precios"
       },
       "services": {
@@ -124795,17 +125103,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de San Lorenzo. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -124821,7 +125129,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -125064,7 +125373,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "San Lorenzo",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0984 186294",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -125136,7 +125445,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de San Lorenzo"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -125212,11 +125521,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 119 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 119,
         "reviews": [
           {
             "author": "Cliente",
@@ -125234,11 +125545,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 119 reseñas en Google",
+        "subtitle": "Basado en 119 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en San Lorenzo. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Miss Uñas Spa de Manos y Pies en San Lorenzo. 4 estrellas y 119 resenas en Google. Conocenos!",
         "title": "Miss Uñas Spa de Manos y Pies - Spa en San Lorenzo | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -125315,17 +125626,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -125341,7 +125652,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -125435,7 +125747,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Lambaré",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0976 121883",
         "subtitle": "Estamos en el centro de Lambaré",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -125507,7 +125819,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Lambaré"
+        "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -125583,11 +125895,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 92 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 92,
         "reviews": [
           {
             "author": "Cliente",
@@ -125605,11 +125919,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 92 reseñas en Google",
+        "subtitle": "Basado en 92 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Lambaré. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Méndez Estilista Salón Masculino en Lambaré. 4 estrellas y 92 resenas en Google. Conocenos!",
         "title": "Méndez Estilista Salón Masculino - Peluqueria en Lambaré | Servicios y Precios"
       },
       "services": {
@@ -125691,17 +126005,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Lambaré. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -125717,7 +126031,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -125958,7 +126273,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0983 342707",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -126030,7 +126345,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -126048,12 +126363,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 202 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Fernando de la Mora. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Más Bonita Cosméticos en Fernando de la Mora. 4 estrellas y 202 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Fernando de la Mora | Servicios y Precios"
       },
       "services": {
@@ -126135,17 +126450,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Fernando de la Mora. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -126161,7 +126476,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -126402,7 +126718,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Presidente Franco",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0973 117473",
         "subtitle": "Estamos en el centro de Presidente Franco",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -126474,7 +126790,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Presidente Franco"
+        "subheadline": "En Presidente Franco con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -126492,12 +126808,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 495 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Presidente Franco. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Natucenter en Presidente Franco. 4 estrellas y 495 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Presidente Franco | Servicios y Precios"
       },
       "services": {
@@ -126579,17 +126895,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Presidente Franco. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -126605,7 +126921,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -126846,7 +127163,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Presidente Franco",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0973 117473",
         "subtitle": "Estamos en el centro de Presidente Franco",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -126918,7 +127235,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Presidente Franco"
+        "subheadline": "En Presidente Franco con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -126936,12 +127253,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 495 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Presidente Franco. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Natucenter en Presidente Franco. 4 estrellas y 495 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Presidente Franco | Servicios y Precios"
       },
       "services": {
@@ -127023,17 +127340,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Presidente Franco. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -127049,7 +127366,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -127290,7 +127608,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0991 444268",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -127362,7 +127680,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -127438,11 +127756,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 118 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 118,
         "reviews": [
           {
             "author": "Cliente",
@@ -127460,11 +127780,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 118 reseñas en Google",
+        "subtitle": "Basado en 118 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Fernando de la Mora. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Nde Barba en Fernando de la Mora. 4 estrellas y 118 resenas en Google. Conocenos!",
         "title": "Nde Barba - Peluqueria en Fernando de la Mora | Servicios y Precios"
       },
       "services": {
@@ -127546,17 +127866,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Fernando de la Mora. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -127572,7 +127892,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -127815,7 +128136,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Presidente Franco",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0961 715906",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -127887,7 +128208,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Presidente Franco"
+        "subheadline": "En Presidente Franco con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -127905,12 +128226,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 139 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Presidente Franco. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Nocho Wellness Gym en Presidente Franco. 4 estrellas y 139 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en Presidente Franco | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -127987,17 +128308,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -128013,7 +128334,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -128109,7 +128431,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Presidente Franco",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0961 715906",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -128181,7 +128503,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Presidente Franco"
+        "subheadline": "En Presidente Franco con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -128199,12 +128521,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 139 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Presidente Franco. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Nocho Wellness Gym en Presidente Franco. 4 estrellas y 139 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en Presidente Franco | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -128281,17 +128603,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -128307,7 +128629,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -128403,7 +128726,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Luque",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0982 357778",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -128475,7 +128798,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Luque"
+        "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -128493,12 +128816,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 161 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Luque. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Oh! Baby Spa en Luque. 5 estrellas y 161 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en Luque | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -128575,17 +128898,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Diego H.",
@@ -128601,7 +128924,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -128718,9 +129042,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Capiatá",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0994 700029",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -128746,7 +129070,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Capiatá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -128792,7 +129116,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 159 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -128817,7 +129141,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Capiatá con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Overfit Gym en Capiatá. 4 estrellas y 159 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Capiatá | Membresias y Clases"
       },
       "services": {
@@ -128888,17 +129212,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Capiatá. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -128932,7 +129256,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -129187,9 +129512,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Capiatá",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0994 700029",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -129215,7 +129540,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Capiatá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -129261,7 +129586,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 159 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -129286,7 +129611,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Capiatá con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Overfit Gym en Capiatá. 4 estrellas y 159 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Capiatá | Membresias y Clases"
       },
       "services": {
@@ -129357,17 +129682,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Capiatá. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -129401,7 +129726,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -129624,6 +129951,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Elegí el servicio que necesitás",
         "title": "Reservá tu turno"
       },
+      "contact": {
+        "city": "Mariano Roque Alonso",
+        "phone": "0981 775554"
+      },
       "faq": {
         "items": [
           {
@@ -129671,7 +130002,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu fecha",
         "ctaSecondaryText": "Ver trabajos",
         "headline": "Resaltá tu belleza natural",
-        "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Mariano Roque Alonso"
+        "subheadline": "En Mariano Roque Alonso con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Lunes a Viernes": "10:00 - 19:00",
@@ -129680,12 +130011,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu maquillaje social + prueba de look gratis",
+        "subtitle": "Con 165 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Maquillaje social, novias, quinceañeras y sesión de fotos en Mariano Roque Alonso.",
+        "description": "Pampaiva MakeUp en Mariano Roque Alonso. 4 estrellas y 165 resenas en Google. Conocenos!",
         "title": "Pampaiva MakeUp - Maquillaje Social y Novias"
       },
       "services": {
@@ -129748,17 +130079,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "María C.",
             "rating": 5,
-            "text": "Me maquilló para mi casamiento y quedé espectacular. Duró todo el día perfecto."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Julia A.",
             "rating": 5,
-            "text": "Tomé la clase de automaquillaje y ahora puedo maquillarme sola. Súper recomendado."
+            "text": " Uno de los mejores negocios de Mariano Roque Alonso. Súper recomendado."
           },
           {
             "name": "Camila L.",
             "rating": 5,
-            "text": "Los productos que usan son de primera calidad y se nota en el resultado."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -129768,7 +130099,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Productos hipoalergénicos",
           "5 años de experiencia",
           "Maquillaje a prueba de agua",
-          "Tendencia y calidad"
+          "Tendencia y calidad",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -129854,7 +130186,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 300503",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -129926,7 +130258,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -130002,11 +130334,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 115 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 115,
         "reviews": [
           {
             "author": "Cliente",
@@ -130024,11 +130358,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 115 reseñas en Google",
+        "subtitle": "Basado en 115 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Peluquería - La Santa - Care Salon, Asunción. en Asunción. 4 estrellas y 115 resenas en Google. Conocenos!",
         "title": "Peluquería - La Santa - Care Salon, Asunción. - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -130110,17 +130444,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -130136,7 +130470,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -130377,7 +130712,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(021) 606 360",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -130449,7 +130784,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -130467,12 +130802,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 177 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Peluquería MMical en Asunción. 4 estrellas y 177 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -130554,17 +130889,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -130580,7 +130915,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -130821,7 +131157,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0982 453302",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -130893,7 +131229,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -130911,12 +131247,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 251 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Fernando de la Mora. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Peluquería Sánchez en Fernando de la Mora. 4 estrellas y 251 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Fernando de la Mora | Servicios y Precios"
       },
       "services": {
@@ -130998,17 +131334,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Fernando de la Mora. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -131024,7 +131360,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -131265,7 +131602,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0976 545347",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -131337,7 +131674,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -131355,12 +131692,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 169 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Peluquería y Barberia JOSÉ en Asunción. 5 estrellas y 169 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -131442,17 +131779,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 5 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
           },
           {
             "name": "Jorge P.",
@@ -131468,7 +131805,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "5/5 estrellas en Google"
         ]
       }
     },
@@ -131709,7 +132047,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Villa Hayes",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0972 138340",
         "subtitle": "Estamos en el centro de Villa Hayes",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -131781,7 +132119,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Villa Hayes"
+        "subheadline": "En Villa Hayes con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -131857,11 +132195,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 90 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 90,
         "reviews": [
           {
             "author": "Cliente",
@@ -131879,11 +132219,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 90 reseñas en Google",
+        "subtitle": "Basado en 90 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Villa Hayes. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Peluqueria Chala en Villa Hayes. 4 estrellas y 90 resenas en Google. Conocenos!",
         "title": "Peluqueria Chala - Peluqueria en Villa Hayes | Servicios y Precios"
       },
       "services": {
@@ -131965,17 +132305,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Villa Hayes. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Villa Hayes. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -131991,7 +132331,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -132755,7 +133097,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Coronel Oviedo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0983 140324",
         "subtitle": "Estamos en el centro de Coronel Oviedo",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -132827,7 +133169,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Coronel Oviedo"
+        "subheadline": "En Coronel Oviedo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -132903,11 +133245,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 116 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.5,
+        "reviewCount": 116,
         "reviews": [
           {
             "author": "Cliente",
@@ -132925,11 +133269,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 116 reseñas en Google",
+        "subtitle": "Basado en 116 resenas en Google - 4.5 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Coronel Oviedo. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Peluqueria y Barberia Aveiro - Coronel Oviedo en Coronel Oviedo. 4 estrellas y 116 resenas en Google. Conocenos!",
         "title": "Peluqueria y Barberia Aveiro - Coronel Oviedo - Peluqueria en Coronel Oviedo | Servicios y Precios"
       },
       "services": {
@@ -133011,17 +133355,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Coronel Oviedo. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Coronel Oviedo. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -133037,7 +133381,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -133301,9 +133647,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Villarrica",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0994 218944",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -133329,7 +133675,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Villarrica con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -133433,11 +133779,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 86 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 86,
         "reviews": [
           {
             "author": "Cliente",
@@ -133455,7 +133803,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 86 reseñas en Google",
+        "subtitle": "Basado en 86 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -133479,7 +133827,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Villarrica con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Physical Training Center Gym en Villarrica. 4 estrellas y 86 resenas en Google. Conocenos!",
         "title": "Physical Training Center Gym - Gimnasio en Villarrica | Membresias y Clases"
       },
       "services": {
@@ -133550,17 +133898,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Villarrica. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -133594,7 +133942,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -133826,7 +134176,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Lorenzo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 497868",
         "subtitle": "Estamos en el centro de San Lorenzo",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -133898,7 +134248,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -133974,11 +134324,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 95 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 95,
         "reviews": [
           {
             "author": "Cliente",
@@ -133996,11 +134348,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 95 reseñas en Google",
+        "subtitle": "Basado en 95 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en San Lorenzo. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Piercing & Tattoo Yakaré Pajhe en San Lorenzo. 4 estrellas y 95 resenas en Google. Conocenos!",
         "title": "Piercing & Tattoo Yakaré Pajhe - Peluqueria en San Lorenzo | Servicios y Precios"
       },
       "services": {
@@ -134082,17 +134434,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de San Lorenzo. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -134108,7 +134460,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -134349,7 +134702,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Piribebuy",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0972 651474",
         "subtitle": "Estamos en el centro de Piribebuy",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -134421,7 +134774,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
+        "subheadline": "En Piribebuy con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -134439,12 +134792,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 458 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Piribebuy. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Piribebuy Country Club en Piribebuy. 4 estrellas y 458 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Piribebuy | Servicios y Precios"
       },
       "services": {
@@ -134526,17 +134879,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Piribebuy. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -134552,7 +134905,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -134793,7 +135147,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Piribebuy",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0972 651474",
         "subtitle": "Estamos en el centro de Piribebuy",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -134865,7 +135219,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Piribebuy"
+        "subheadline": "En Piribebuy con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -134883,12 +135237,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 458 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Piribebuy. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Piribebuy Country Club en Piribebuy. 4 estrellas y 458 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Piribebuy | Servicios y Precios"
       },
       "services": {
@@ -134970,17 +135324,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Piribebuy. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -134996,7 +135350,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -135237,7 +135592,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Capiatá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0983 905773",
         "subtitle": "Estamos en el centro de Capiatá",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -135309,7 +135664,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Capiatá"
+        "subheadline": "En Capiatá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -135327,12 +135682,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 158 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Capiatá. Reserva tu cita online. Precios desde Consultar.",
+        "description": "PIZZERIA Y LOMITERÍA ALAN en Capiatá. 4 estrellas y 158 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Capiatá | Servicios y Precios"
       },
       "services": {
@@ -135414,17 +135769,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Capiatá. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Capiatá. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -135440,7 +135795,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -135683,7 +136039,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Asunción",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0983 041081",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -135755,7 +136111,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -135831,11 +136187,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 88 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 88,
         "reviews": [
           {
             "author": "Cliente",
@@ -135853,11 +136211,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 88 reseñas en Google",
+        "subtitle": "Basado en 88 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Asunción. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Po Renda Spa de Manos y Pies en Asunción. 4 estrellas y 88 resenas en Google. Conocenos!",
         "title": "Po Renda Spa de Manos y Pies - Spa en Asunción | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -135934,17 +136292,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -135960,7 +136318,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -136064,10 +136423,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Av. Defensores del Chaco 1450",
-        "city": "San Lorenzo",
+        "city": "Fernando de la Mora",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "+595985123456",
+        "phone": "0994 215627",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
         "whatsapp": "+595985123456"
@@ -136147,7 +136506,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Estilo clásico, actitud moderna",
         "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
         "imageAlt": "Portas Barber Shop — Interior de la barbería",
-        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -136165,12 +136524,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar",
         "dismissible": true,
-        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "subtitle": "Con 162 resenas positivas en Google. Te esperamos!",
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
       "seo": {
-        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "description": "Portas barber shop en Fernando de la Mora. 4 estrellas y 162 resenas en Google. Conocenos!",
         "title": "Portas Barber Shop | Cortes Clásicos y Modernos en San Lorenzo"
       },
       "services": {
@@ -136274,17 +136633,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Ricardo G.",
             "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Fernando D.",
             "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Luis M.",
@@ -136311,7 +136670,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "8 años de experiencia",
           "Ambiente VIP con aire acondicionado",
           "WiFi gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -136980,9 +137340,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Kapi'atã",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0981 927558",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -137008,7 +137368,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Kapi'atã con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -137112,11 +137472,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 85 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 85,
         "reviews": [
           {
             "author": "Cliente",
@@ -137134,7 +137496,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 85 reseñas en Google",
+        "subtitle": "Basado en 85 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -137158,7 +137520,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Kapi'atã con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "POSTA VITAL GYM en Kapi'atã. 4 estrellas y 85 resenas en Google. Conocenos!",
         "title": "POSTA VITAL GYM - Gimnasio en Kapi'atã | Membresias y Clases"
       },
       "services": {
@@ -137229,17 +137591,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Kapi'atã. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -137273,7 +137635,11 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -137528,9 +137894,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Lambaré",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0991 402891",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -137556,7 +137922,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Lambaré con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -137660,11 +138026,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 91 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.5,
+        "reviewCount": 91,
         "reviews": [
           {
             "author": "Cliente",
@@ -137682,7 +138050,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 91 reseñas en Google",
+        "subtitle": "Basado en 91 resenas en Google - 4.5 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -137706,7 +138074,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Lambaré con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Premier Fitness Club Lambaré en Lambaré. 4 estrellas y 91 resenas en Google. Conocenos!",
         "title": "Premier Fitness Club Lambaré - Gimnasio en Lambaré | Membresias y Clases"
       },
       "services": {
@@ -137777,17 +138145,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -137821,7 +138189,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -138055,7 +138425,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Luque",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0982 450269",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -138127,7 +138497,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Luque"
+        "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -138145,12 +138515,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 163 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Luque. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Renacer Spa en Luque. 4 estrellas y 163 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en Luque | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -138227,17 +138597,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -138253,7 +138623,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -138343,6 +138714,10 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Evaluación sin costo",
         "title": "Reservá tu sesión"
       },
+      "contact": {
+        "city": "Asunción",
+        "phone": "0981 521527"
+      },
       "faq": {
         "items": [
           {
@@ -138390,7 +138765,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu evaluación",
         "ctaSecondaryText": "Ver tratamientos",
         "headline": "Depilación definitiva sin dolor",
-        "subheadline": "Tecnología láser de última generación en Asunción. Resultados desde la primera sesión."
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Lunes a Viernes": "09:00 - 20:00",
@@ -138399,12 +138774,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "50% de descuento en tu primera sesión de depilación láser",
+        "subtitle": "Con 248 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Depilación láser definitiva y cera en Asunción. Tecnología de última generación.",
+        "description": "RENUVA - Clínica estética y laser en Asunción. 4 estrellas y 248 resenas en Google. Conocenos!",
         "title": "Depilación Asunción - Depilación Láser y Cera"
       },
       "services": {
@@ -138467,17 +138842,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Camila R.",
             "rating": 5,
-            "text": "Comencé con láser en axilas y ya no tengo vello. Súper recomendado."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Lucía M.",
             "rating": 5,
-            "text": "La atención es increíble y los resultados se notan desde la primera sesión."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Ana G.",
             "rating": 5,
-            "text": "Duele mucho menos de lo que pensaba. Profesionales excelentes."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Sofía P.",
@@ -138493,7 +138868,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Profesionales certificadas",
           "Ambiente climatizado",
           "Resultados garantizados",
-          "Precios accesibles"
+          "Precios accesibles",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -138579,7 +138955,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Atyrá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0986 661271",
         "subtitle": "Estamos en el centro de Atyrá",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -138651,7 +139027,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Atyrá"
+        "subheadline": "En Atyrá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -138669,12 +139045,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 242 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Atyrá. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Resto-bar alameda en Atyrá. 4 estrellas y 242 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Atyrá | Servicios y Precios"
       },
       "services": {
@@ -138756,17 +139132,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Atyrá. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Atyrá. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -138782,7 +139158,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -139023,7 +139400,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0985 134967",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -139095,7 +139472,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -139171,11 +139548,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 95 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 95,
         "reviews": [
           {
             "author": "Cliente",
@@ -139193,11 +139572,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 95 reseñas en Google",
+        "subtitle": "Basado en 95 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Fernando de la Mora. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Rocio Nails Art en Fernando de la Mora. 4 estrellas y 95 resenas en Google. Conocenos!",
         "title": "Rocio Nails Art - Peluqueria en Fernando de la Mora | Servicios y Precios"
       },
       "services": {
@@ -139279,17 +139658,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Fernando de la Mora. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -139305,7 +139684,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -139546,7 +139926,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Lorenzo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0983 442610",
         "subtitle": "Estamos en el centro de San Lorenzo",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -139618,7 +139998,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -139694,11 +140074,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 84 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 84,
         "reviews": [
           {
             "author": "Cliente",
@@ -139716,11 +140098,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 84 reseñas en Google",
+        "subtitle": "Basado en 84 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en San Lorenzo. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Romi Valinotti Beauty Center en San Lorenzo. 4 estrellas y 84 resenas en Google. Conocenos!",
         "title": "Romi Valinotti Beauty Center - Peluqueria en San Lorenzo | Servicios y Precios"
       },
       "services": {
@@ -139802,17 +140184,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de San Lorenzo. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -139828,7 +140210,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -140069,7 +140453,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ciudad del Este",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(061) 509 986",
         "subtitle": "Estamos en el centro de Ciudad del Este",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -140141,7 +140525,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ciudad del Este"
+        "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -140159,12 +140543,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 281 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Ciudad del Este. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Rommy Salon Femenino & Masculino en Ciudad del Este. 4 estrellas y 281 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Ciudad del Este | Servicios y Precios"
       },
       "services": {
@@ -140246,17 +140630,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Ciudad del Este. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -140272,7 +140656,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -140513,7 +140898,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ciudad del Este",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(061) 509 986",
         "subtitle": "Estamos en el centro de Ciudad del Este",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -140585,7 +140970,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ciudad del Este"
+        "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -140603,12 +140988,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 281 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Ciudad del Este. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Rommy Salon Femenino & Masculino en Ciudad del Este. 4 estrellas y 281 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Ciudad del Este | Servicios y Precios"
       },
       "services": {
@@ -140690,17 +141075,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Ciudad del Este. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -140716,7 +141101,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -140957,7 +141343,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0985 154041",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -141029,7 +141415,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -141105,11 +141491,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 89 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 89,
         "reviews": [
           {
             "author": "Cliente",
@@ -141127,11 +141515,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 89 reseñas en Google",
+        "subtitle": "Basado en 89 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Royal Beauty STHETIC en Asunción. 4 estrellas y 89 resenas en Google. Conocenos!",
         "title": "Royal Beauty STHETIC - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -141213,17 +141601,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -141239,7 +141627,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -141480,7 +141869,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ciudad del Este",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0973 524910",
         "subtitle": "Estamos en el centro de Ciudad del Este",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -141552,7 +141941,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ciudad del Este"
+        "subheadline": "En Ciudad del Este con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -141628,11 +142017,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 99 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 99,
         "reviews": [
           {
             "author": "Cliente",
@@ -141650,11 +142041,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 99 reseñas en Google",
+        "subtitle": "Basado en 99 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Ciudad del Este. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Rumy estética integral en Ciudad del Este. 4 estrellas y 99 resenas en Google. Conocenos!",
         "title": "Rumy estética integral - Peluqueria en Ciudad del Este | Servicios y Precios"
       },
       "services": {
@@ -141736,17 +142127,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Ciudad del Este. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -141762,7 +142153,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -142003,7 +142395,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Capiatá",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0984 558085",
         "subtitle": "Estamos en el centro de Capiatá",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -142075,7 +142467,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Capiatá"
+        "subheadline": "En Capiatá con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -142151,11 +142543,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 96 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 96,
         "reviews": [
           {
             "author": "Cliente",
@@ -142173,11 +142567,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 96 reseñas en Google",
+        "subtitle": "Basado en 96 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Capiatá. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Salon De Belleza Riky en Capiatá. 4 estrellas y 96 resenas en Google. Conocenos!",
         "title": "Salon De Belleza Riky - Peluqueria en Capiatá | Servicios y Precios"
       },
       "services": {
@@ -142259,17 +142653,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Capiatá. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Capiatá. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -142285,7 +142679,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -142526,7 +142921,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Mariano Roque Alonso",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0982 524075",
         "subtitle": "Estamos en el centro de Mariano Roque Alonso",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -142598,7 +142993,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Mariano Roque Alonso"
+        "subheadline": "En Mariano Roque Alonso con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -142674,11 +143069,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 132 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.5,
+        "reviewCount": 132,
         "reviews": [
           {
             "author": "Cliente",
@@ -142696,11 +143093,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 132 reseñas en Google",
+        "subtitle": "Basado en 132 resenas en Google - 4.5 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Mariano Roque Alonso. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Scarlet Store - Mariano en Mariano Roque Alonso. 4 estrellas y 132 resenas en Google. Conocenos!",
         "title": "Scarlet Store - Mariano - Peluqueria en Mariano Roque Alonso | Servicios y Precios"
       },
       "services": {
@@ -142782,17 +143179,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Mariano Roque Alonso. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Mariano Roque Alonso. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -142808,7 +143205,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -143049,7 +143447,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 575176",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -143121,7 +143519,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -143197,11 +143595,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 82 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.6,
+        "reviewCount": 82,
         "reviews": [
           {
             "author": "Cliente",
@@ -143219,11 +143619,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 82 reseñas en Google",
+        "subtitle": "Basado en 82 resenas en Google - 4.6 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Fernando de la Mora. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Scott Tatuajes en Fernando de la Mora. 4 estrellas y 82 resenas en Google. Conocenos!",
         "title": "Scott Tatuajes - Peluqueria en Fernando de la Mora | Servicios y Precios"
       },
       "services": {
@@ -143305,17 +143705,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Fernando de la Mora. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -143331,7 +143731,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -143574,7 +143975,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Asunción",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0986 663434",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -143646,7 +144047,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -143722,11 +144123,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 116 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 116,
         "reviews": [
           {
             "author": "Cliente",
@@ -143744,11 +144147,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 116 reseñas en Google",
+        "subtitle": "Basado en 116 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Asunción. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Sempre Bela Fisio Estética en Asunción. 4 estrellas y 116 resenas en Google. Conocenos!",
         "title": "Sempre Bela Fisio Estética - Spa en Asunción | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -143825,17 +144228,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -143851,7 +144254,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -143968,9 +144372,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Asunción",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0992 315496",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -143996,7 +144400,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -144100,11 +144504,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 84 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 84,
         "reviews": [
           {
             "author": "Cliente",
@@ -144122,7 +144528,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 84 reseñas en Google",
+        "subtitle": "Basado en 84 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -144146,7 +144552,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Asunción con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "SG training en Asunción. 4 estrellas y 84 resenas en Google. Conocenos!",
         "title": "SG training - Gimnasio en Asunción | Membresias y Clases"
       },
       "services": {
@@ -144217,17 +144623,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -144261,7 +144667,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -144493,7 +144901,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0991 758633",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -144565,7 +144973,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -144583,12 +144991,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 137 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Shirley Nails en Asunción. 4 estrellas y 137 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -144670,17 +145078,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -144696,7 +145104,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -144937,7 +145346,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Fernando de la Mora",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0983 816627",
         "subtitle": "Estamos en el centro de Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -145009,7 +145418,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Fernando de la Mora"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -145027,12 +145436,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 954 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Fernando de la Mora. Reserva tu cita online. Precios desde Consultar.",
+        "description": "studio 22 body piercing & tattoo en Fernando de la Mora. 4 estrellas y 954 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Fernando de la Mora | Servicios y Precios"
       },
       "services": {
@@ -145114,17 +145523,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Fernando de la Mora. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -145140,7 +145549,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -145383,7 +145793,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "San Lorenzo",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0981 555597",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -145455,7 +145865,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de San Lorenzo"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -145473,12 +145883,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 180 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en San Lorenzo. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Studio 88 en San Lorenzo. 4 estrellas y 180 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en San Lorenzo | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -145555,17 +145965,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -145581,7 +145991,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -145675,7 +146087,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Ayolas",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(072) 222 624",
         "subtitle": "Estamos en el centro de Ayolas",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -145747,7 +146159,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Ayolas"
+        "subheadline": "En Ayolas con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -145765,12 +146177,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 195 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Ayolas. Reserva tu cita online. Precios desde Consultar.",
+        "description": "SUPER TOTAL en Ayolas. 4 estrellas y 195 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Ayolas | Servicios y Precios"
       },
       "services": {
@@ -145852,17 +146264,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Ayolas. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Ayolas. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -145878,7 +146290,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -146142,9 +146555,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Luque",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "(021) 655 172",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -146170,7 +146583,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -146216,7 +146629,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 153 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
@@ -146241,7 +146654,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Luque con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Tabarelli Training Center en Luque. 4 estrellas y 153 resenas en Google. Conocenos!",
         "title": "Gimnasio Asunción - Gimnasio en Luque | Membresias y Clases"
       },
       "services": {
@@ -146312,17 +146725,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -146356,7 +146769,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -146598,10 +147012,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Av. Defensores del Chaco 1450",
-        "city": "San Lorenzo",
+        "city": "Asunción",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "+595985123456",
+        "phone": "0982 473078",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
         "whatsapp": "+595985123456"
@@ -146681,7 +147095,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Estilo clásico, actitud moderna",
         "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
         "imageAlt": "TAJOS Barberos (Central) — Interior de la barbería",
-        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -146699,12 +147113,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar",
         "dismissible": true,
-        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "subtitle": "Con 237 resenas positivas en Google. Te esperamos!",
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
       "seo": {
-        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "description": "TAJOS Barberos (Central) en Asunción. 4 estrellas y 237 resenas en Google. Conocenos!",
         "title": "TAJOS Barberos (Central) | Cortes Clásicos y Modernos en San Lorenzo"
       },
       "services": {
@@ -146808,17 +147222,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Ricardo G.",
             "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Fernando D.",
             "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Luis M.",
@@ -146845,7 +147259,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "8 años de experiencia",
           "Ambiente VIP con aire acondicionado",
           "WiFi gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -146953,10 +147369,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Av. Defensores del Chaco 1450",
-        "city": "San Lorenzo",
+        "city": "Asunción",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "+595985123456",
+        "phone": "0982 473078",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
         "whatsapp": "+595985123456"
@@ -147036,7 +147452,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Estilo clásico, actitud moderna",
         "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
         "imageAlt": "TAJOS Barberos (Superseis) — Interior de la barbería",
-        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -147112,11 +147528,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar",
         "dismissible": true,
-        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "subtitle": "Con 132 resenas positivas en Google. Te esperamos!",
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 132,
         "reviews": [
           {
             "author": "Cliente",
@@ -147134,11 +147552,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 132 reseñas en Google",
+        "subtitle": "Basado en 132 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "description": "TAJOS Barberos (Superseis) en Asunción. 4 estrellas y 132 resenas en Google. Conocenos!",
         "title": "TAJOS Barberos (Superseis) | Cortes Clásicos y Modernos en San Lorenzo"
       },
       "services": {
@@ -147242,17 +147660,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Ricardo G.",
             "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Fernando D.",
             "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Luis M.",
@@ -147279,7 +147697,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "8 años de experiencia",
           "Ambiente VIP con aire acondicionado",
           "WiFi gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -147377,7 +147796,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0985 857700",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -147449,7 +147868,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -147467,12 +147886,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 192 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Teju Jagua Tatuajes en Asunción. 4 estrellas y 192 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -147554,17 +147973,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -147580,7 +147999,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -147823,7 +148243,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Asunción",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0971 252626",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -147895,7 +148315,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -147913,12 +148333,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 184 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Asunción. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Teranu en Asunción. 4 estrellas y 184 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en Asunción | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -147995,17 +148415,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -148021,7 +148441,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -148125,10 +148546,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Av. Defensores del Chaco 1450",
-        "city": "San Lorenzo",
+        "city": "Luque",
         "email": "info@barberiasanlorenzo.com.py",
         "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15",
-        "phone": "+595985123456",
+        "phone": "0972 477929",
         "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
         "title": "Contacto",
         "whatsapp": "+595985123456"
@@ -148208,7 +148629,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Estilo clásico, actitud moderna",
         "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
         "imageAlt": "Tomos Barbería — Interior de la barbería",
-        "subheadline": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado tradicional con navaja, tintura masculina y tratamientos capilares premium"
+        "subheadline": "En Luque con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -148284,11 +148705,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar",
         "dismissible": true,
-        "subtitle": "Válido de lunes a jueves. Incluye lavado y productos premium.",
+        "subtitle": "Con 112 resenas positivas en Google. Te esperamos!",
         "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.9,
+        "reviewCount": 112,
         "reviews": [
           {
             "author": "Cliente",
@@ -148306,11 +148729,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 112 reseñas en Google",
+        "subtitle": "Basado en 112 resenas en Google - 4.9 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online.",
+        "description": "Tomos Barbería en Luque. 4 estrellas y 112 resenas en Google. Conocenos!",
         "title": "Tomos Barbería | Cortes Clásicos y Modernos en San Lorenzo"
       },
       "services": {
@@ -148414,17 +148837,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Ricardo G.",
             "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
+            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
           },
           {
             "name": "Fernando D.",
             "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Luis M.",
@@ -148451,7 +148874,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "8 años de experiencia",
           "Ambiente VIP con aire acondicionado",
           "WiFi gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -148549,7 +148973,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Santa Rita",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0984 763610",
         "subtitle": "Estamos en el centro de Santa Rita",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -148621,7 +149045,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Santa Rita"
+        "subheadline": "En Santa Rita con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -148697,11 +149121,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 88 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 88,
         "reviews": [
           {
             "author": "Cliente",
@@ -148719,11 +149145,11 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 88 reseñas en Google",
+        "subtitle": "Basado en 88 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Santa Rita. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Torra Park en Santa Rita. 4 estrellas y 88 resenas en Google. Conocenos!",
         "title": "Torra Park - Peluqueria en Santa Rita | Servicios y Precios"
       },
       "services": {
@@ -148805,17 +149231,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Santa Rita. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Santa Rita. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -148831,7 +149257,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -149074,7 +149501,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "Asunción",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0961 281515",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -149146,7 +149573,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -149164,12 +149591,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 309 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en Asunción. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "Urban Spa Acquadolce en Asunción. 4 estrellas y 309 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en Asunción | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -149246,17 +149673,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -149272,7 +149699,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -149810,7 +150238,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Villa Hayes",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0981 806623",
         "subtitle": "Estamos en el centro de Villa Hayes",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -149882,7 +150310,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Villa Hayes"
+        "subheadline": "En Villa Hayes con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -149900,12 +150328,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 151 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Villa Hayes. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Villa Hayes Centro en Villa Hayes. 4 estrellas y 151 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Villa Hayes | Servicios y Precios"
       },
       "services": {
@@ -149987,17 +150415,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Villa Hayes. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Villa Hayes. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -150013,7 +150441,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -150254,7 +150683,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "Asunción",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "0986 506223",
         "subtitle": "Estamos en el centro de Asunción",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -150326,7 +150755,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Asunción"
+        "subheadline": "En Asunción con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -150344,12 +150773,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 179 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en Asunción. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Vita Chic en Asunción. 4 estrellas y 179 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en Asunción | Servicios y Precios"
       },
       "services": {
@@ -150431,17 +150860,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -150457,7 +150886,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -150698,7 +151128,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Palma 550 c/ 15 de Agosto",
         "city": "San Lorenzo",
         "email": "contacto@peluqueriacentro.com.py",
-        "phone": "+595981654321",
+        "phone": "(021) 590 730",
         "subtitle": "Estamos en el centro de San Lorenzo",
         "title": "Contacto",
         "whatsapp": "+595981654321"
@@ -150770,7 +151200,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Conocé nuestros servicios",
         "headline": "Tu estilo, nuestra pasión",
-        "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de San Lorenzo"
+        "subheadline": "En San Lorenzo con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -150788,12 +151218,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+        "subtitle": "Con 412 resenas positivas en Google. Te esperamos!",
         "title": "🎉 Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Cortes, coloracion y tratamientos en San Lorenzo. Reserva tu cita online. Precios desde Consultar.",
+        "description": "Vita Cosmeticos en San Lorenzo. 4 estrellas y 412 resenas en Google. Conocenos!",
         "title": "Peluqueria Asunción - Peluqueria en San Lorenzo | Servicios y Precios"
       },
       "services": {
@@ -150875,17 +151305,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Sofía L.",
             "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Marcos A.",
             "rating": 5,
-            "text": "El mejor barbero de San Lorenzo. Siempre salvo con el degradado perfecto."
+            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
           },
           {
             "name": "Lucía R.",
             "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Jorge P.",
@@ -150901,7 +151331,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "10 años de experiencia",
           "Ambiente climatizado",
           "Estacionamiento gratis",
-          "Resultados garantizados"
+          "Resultados garantizados",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -151167,7 +151598,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
         "city": "Fernando de la Mora",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "(021) 678 171",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -151193,7 +151624,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -151297,11 +151728,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 119 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.7,
+        "reviewCount": 119,
         "reviews": [
           {
             "author": "Cliente",
@@ -151319,7 +151752,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 119 reseñas en Google",
+        "subtitle": "Basado en 119 resenas en Google - 4.7 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -151343,7 +151776,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Fernando de la Mora con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "XXG Gym en Fernando de la Mora. 4 estrellas y 119 resenas en Google. Conocenos!",
         "title": "XXG Gym - Gimnasio en Fernando de la Mora | Membresias y Clases"
       },
       "services": {
@@ -151414,17 +151847,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -151458,7 +151891,8 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -151692,7 +152126,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "San Antonio",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0981 618000",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -151764,7 +152198,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de San Antonio"
+        "subheadline": "En San Antonio con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -151782,12 +152216,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 204 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en San Antonio. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "YessNails Spa Manos en San Antonio. 4 estrellas y 204 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en San Antonio | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -151864,17 +152298,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de San Antonio. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -151890,7 +152324,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -151986,7 +152422,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "address": "Av. Santa Teresa 1250 c/ San Martín",
         "city": "San Antonio",
         "email": "contacto@demospa.com.py",
-        "phone": "+595981726354",
+        "phone": "0981 618000",
         "subtitle": "Estamos en el barrio Villa Morra, Asunción",
         "title": "Contacto",
         "whatsapp": "+595981726354"
@@ -152058,7 +152494,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Reservá tu turno",
         "ctaSecondaryText": "Ver servicios",
         "headline": "Tu momento de bienestar",
-        "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de San Antonio"
+        "subheadline": "En San Antonio con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "Cerrado",
@@ -152076,12 +152512,12 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Reservar ahora",
         "dismissible": true,
-        "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+        "subtitle": "Con 204 resenas positivas en Google. Te esperamos!",
         "title": "Promoción de Lanzamiento",
         "variant": "standard"
       },
       "seo": {
-        "description": "Masajes relajantes, tratamientos faciales, corporales y más en San Antonio. Reserva tu cita online. Precios desde Gs. 80.000.",
+        "description": "YessNails Spa Manos en San Antonio. 4 estrellas y 204 resenas en Google. Conocenos!",
         "title": "Spa Asunción - Spa en San Antonio | Masajes, Tratamientos y Bienestar"
       },
       "services": {
@@ -152158,17 +152594,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Valentina R.",
             "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "Andrés P.",
             "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
+            "text": " Uno de los mejores negocios de San Antonio. Súper recomendado."
           },
           {
             "name": "Carolina M.",
             "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Diego H.",
@@ -152184,7 +152620,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Ambiente climatizado",
           "Toallas y bata incluídas",
           "Estacionamiento gratis",
-          "Profesionales certificados"
+          "Profesionales certificados",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },
@@ -152849,9 +153287,9 @@ export const CONTENT: Record<string, JsonRecord> = {
       },
       "contact": {
         "address": "Ruta 2 y Av. Mcal. López Km 8",
-        "city": "Fernando de la Mora",
+        "city": "Mariano Roque Alonso",
         "email": "ventas@gimnasiopower.com.py",
-        "phone": "+595983789012",
+        "phone": "0972 151365",
         "subtitle": "Visitanos en Fernando de la Mora",
         "title": "Contacto",
         "whatsapp": "+595983789012"
@@ -152877,7 +153315,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Empezá hoy",
         "ctaSecondaryText": "Conocé nuestros planes",
         "headline": "Transformá tu cuerpo, transformá tu vida",
-        "subheadline": "Gimnasio profesional en Fernando de la Mora. Clases, pesas, crossfit y más"
+        "subheadline": "En Mariano Roque Alonso con atencion personalizada y la mejor calidad."
       },
       "hours": {
         "Domingo": "09:00 - 13:00",
@@ -152981,11 +153419,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "promoBanner": {
         "ctaText": "Aprovechar",
         "dismissible": true,
-        "subtitle": "3 meses por el precio de 2. Incluye evaluación física gratuita",
+        "subtitle": "Con 98 resenas positivas en Google. Te esperamos!",
         "title": "💪 Promo Verano",
         "variant": "standard"
       },
       "reviewsWidget": {
+        "avgRating": 4.8,
+        "reviewCount": 98,
         "reviews": [
           {
             "author": "Cliente",
@@ -153003,7 +153443,7 @@ export const CONTENT: Record<string, JsonRecord> = {
             "text": "Salió todo perfecto. Volveré sin dudas."
           }
         ],
-        "subtitle": "Basado en 98 reseñas en Google",
+        "subtitle": "Basado en 98 resenas en Google - 4.8 estrellas",
         "title": "Lo que dicen en Google"
       },
       "schedule": {
@@ -153027,7 +153467,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Horario de clases"
       },
       "seo": {
-        "description": "Gimnasio en Mariano Roque Alonso con equipamiento de ultima generacion. Clases ilimitadas. Membresias desde Consultar/mes.",
+        "description": "Zona Fitness Gym en Mariano Roque Alonso. 4 estrellas y 98 resenas en Google. Conocenos!",
         "title": "Zona Fitness Gym - Gimnasio en Mariano Roque Alonso | Membresias y Clases"
       },
       "services": {
@@ -153098,17 +153538,17 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "name": "Carlos G.",
             "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "text": "Excelente atencion. 4 estrellas bien merecidas."
           },
           {
             "name": "María J.",
             "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "text": " Uno de los mejores negocios de Mariano Roque Alonso. Súper recomendado."
           },
           {
             "name": "Diego R.",
             "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
           },
           {
             "name": "Laura P.",
@@ -153142,7 +153582,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "Equipos modernos",
           "Clases ilimitadas",
           "Evaluación gratis",
-          "Estacionamiento"
+          "Estacionamiento",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google",
+          "4/5 estrellas en Google"
         ]
       }
     },

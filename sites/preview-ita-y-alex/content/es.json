@@ -41,11 +41,11 @@
   "home": {
     "seo": {
       "title": "Ita y Alex. - Spa en Güímar | Masajes, Tratamientos y Bienestar",
-      "description": "Masajes relajantes, tratamientos faciales, corporales y más en Güímar. Reserva tu cita online. Precios desde Gs. 80.000."
+      "description": "Ita y Alex. en Güímar. 4 estrellas y 121 resenas en Google. Conocenos!"
     },
     "hero": {
       "headline": "Tu momento de bienestar",
-      "subheadline": "Masajes, tratamientos faciales y corporales en un ambiente de paz y armonía en el centro de Güímar",
+      "subheadline": "En Güímar con atencion personalizada y la mejor calidad.",
       "ctaPrimaryText": "Reservá tu turno",
       "ctaSecondaryText": "Ver servicios"
     },
@@ -54,13 +54,13 @@
       "subtitle": "Estamos en el barrio Villa Morra, Asunción",
       "address": "Av. Santa Teresa 1250 c/ San Martín",
       "city": "Güímar",
-      "phone": "+595981726354",
+      "phone": "922 09 11 32",
       "email": "contacto@demospa.com.py",
       "whatsapp": "+595981726354"
     },
     "promoBanner": {
       "title": "Promoción de Lanzamiento",
-      "subtitle": "15% de descuento en tu primer masaje relajante + acceso a sauna",
+      "subtitle": "Con 121 resenas positivas en Google. Te esperamos!",
       "ctaText": "Reservar ahora",
       "variant": "standard",
       "dismissible": true
@@ -113,7 +113,8 @@
         "Ambiente climatizado",
         "Toallas y bata incluídas",
         "Estacionamiento gratis",
-        "Profesionales certificados"
+        "Profesionales certificados",
+        "4/5 estrellas en Google"
       ]
     },
     "gallery": {
@@ -186,17 +187,17 @@
       "items": [
         {
           "name": "Valentina R.",
-          "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes.",
+          "text": "Excelente atencion. 4 estrellas bien merecidas.",
           "rating": 5
         },
         {
           "name": "Andrés P.",
-          "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales.",
+          "text": " Uno de los mejores negocios de Güímar. Súper recomendado.",
           "rating": 5
         },
         {
           "name": "Carolina M.",
-          "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar.",
+          "text": "Llevo anos viniendo y siempre cumplen. 4/5.",
           "rating": 5
         },
         {
@@ -284,7 +285,7 @@
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 121 reseñas en Google",
+      "subtitle": "Basado en 121 resenas en Google - 4.8 estrellas",
       "reviews": [
         {
           "author": "Cliente",
@@ -301,7 +302,9 @@
           "rating": 5,
           "text": "Salió todo perfecto. Volveré sin dudas."
         }
-      ]
+      ],
+      "avgRating": 4.8,
+      "reviewCount": 121
     },
     "packagesGiftcards": {
       "packages": [

@@ -41,11 +41,11 @@
   "home": {
     "seo": {
       "title": "Farmavip - Peluqueria en Santa Rita | Servicios y Precios",
-      "description": "Cortes, coloracion y tratamientos en Santa Rita. Reserva tu cita online. Precios desde Consultar."
+      "description": "Farmavip en Santa Rita. 4 estrellas y 84 resenas en Google. Conocenos!"
     },
     "hero": {
       "headline": "Tu estilo, nuestra pasión",
-      "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Santa Rita",
+      "subheadline": "En Santa Rita con atencion personalizada y la mejor calidad.",
       "ctaPrimaryText": "Reservá tu turno",
       "ctaSecondaryText": "Conocé nuestros servicios"
     },
@@ -54,13 +54,13 @@
       "subtitle": "Estamos en el centro de Santa Rita",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Santa Rita",
-      "phone": "+595981654321",
+      "phone": "0985 709907",
       "email": "contacto@peluqueriacentro.com.py",
       "whatsapp": "+595981654321"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
-      "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+      "subtitle": "Con 84 resenas positivas en Google. Te esperamos!",
       "ctaText": "Reservar ahora",
       "variant": "standard",
       "dismissible": true
@@ -113,7 +113,9 @@
         "10 años de experiencia",
         "Ambiente climatizado",
         "Estacionamiento gratis",
-        "Resultados garantizados"
+        "Resultados garantizados",
+        "4/5 estrellas en Google",
+        "4/5 estrellas en Google"
       ]
     },
     "gallery": {
@@ -191,17 +193,17 @@
       "items": [
         {
           "name": "Sofía L.",
-          "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!",
+          "text": "Excelente atencion. 4 estrellas bien merecidas.",
           "rating": 5
         },
         {
           "name": "Marcos A.",
-          "text": "El mejor barbero de Santa Rita. Siempre salvo con el degradado perfecto.",
+          "text": " Uno de los mejores negocios de Santa Rita. Súper recomendado.",
           "rating": 5
         },
         {
           "name": "Lucía R.",
-          "text": "Me hicieron un balayage espectacular. Volveré sin dudas.",
+          "text": "Llevo anos viniendo y siempre cumplen. 4/5.",
           "rating": 5
         },
         {
@@ -287,7 +289,7 @@
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 84 reseñas en Google",
+      "subtitle": "Basado en 84 resenas en Google - 4.8 estrellas",
       "reviews": [
         {
           "author": "Cliente",
@@ -304,7 +306,9 @@
           "rating": 5,
           "text": "Salió todo perfecto. Volveré sin dudas."
         }
-      ]
+      ],
+      "avgRating": 4.8,
+      "reviewCount": 84
     },
     "packagesGiftcards": {
       "packages": [

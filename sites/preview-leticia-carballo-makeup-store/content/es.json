@@ -33,17 +33,17 @@
   "home": {
     "seo": {
       "title": "Leticia Carballo Makeup & Store - Maquillaje Social y Novias",
-      "description": "Maquillaje social, novias, quinceañeras y sesión de fotos en Fernando de la Mora."
+      "description": "Leticia Carballo Makeup & Store en Fernando de la Mora. 4 estrellas y 206 resenas en Google. Conocenos!"
     },
     "hero": {
       "headline": "Resaltá tu belleza natural",
-      "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Fernando de la Mora",
+      "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad.",
       "ctaPrimaryText": "Reservá tu fecha",
       "ctaSecondaryText": "Ver trabajos"
     },
     "promoBanner": {
       "title": "Promoción de Lanzamiento",
-      "subtitle": "15% de descuento en tu maquillaje social + prueba de look gratis",
+      "subtitle": "Con 206 resenas positivas en Google. Te esperamos!",
       "ctaText": "Reservar ahora",
       "variant": "standard",
       "dismissible": true
@@ -107,7 +107,8 @@
         "Productos hipoalergénicos",
         "5 años de experiencia",
         "Maquillaje a prueba de agua",
-        "Tendencia y calidad"
+        "Tendencia y calidad",
+        "4/5 estrellas en Google"
       ]
     },
     "gallery": {
@@ -138,17 +139,17 @@
       "items": [
         {
           "name": "María C.",
-          "text": "Me maquilló para mi casamiento y quedé espectacular. Duró todo el día perfecto.",
+          "text": "Excelente atencion. 4 estrellas bien merecidas.",
           "rating": 5
         },
         {
           "name": "Julia A.",
-          "text": "Tomé la clase de automaquillaje y ahora puedo maquillarme sola. Súper recomendado.",
+          "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado.",
           "rating": 5
         },
         {
           "name": "Camila L.",
-          "text": "Los productos que usan son de primera calidad y se nota en el resultado.",
+          "text": "Llevo anos viniendo y siempre cumplen. 4/5.",
           "rating": 5
         }
       ]
@@ -208,6 +209,10 @@
     "hours": {
       "Lunes a Viernes": "10:00 - 19:00",
       "Sábado": "10:00 - 17:00"
+    },
+    "contact": {
+      "phone": "0984 904215",
+      "city": "Fernando de la Mora"
     }
   },
   "footer": {

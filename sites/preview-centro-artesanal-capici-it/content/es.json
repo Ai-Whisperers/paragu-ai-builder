@@ -41,11 +41,11 @@
   "home": {
     "seo": {
       "title": "Peluqueria Asunción - Peluqueria en Itá | Servicios y Precios",
-      "description": "Cortes, coloracion y tratamientos en Itá. Reserva tu cita online. Precios desde Consultar."
+      "description": "Centro Artesanal (CAPICI), Itá en Itá. 4 estrellas y 385 resenas en Google. Conocenos!"
     },
     "hero": {
       "headline": "Tu estilo, nuestra pasión",
-      "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Itá",
+      "subheadline": "En Itá con atencion personalizada y la mejor calidad.",
       "ctaPrimaryText": "Reservá tu turno",
       "ctaSecondaryText": "Conocé nuestros servicios"
     },
@@ -54,13 +54,13 @@
       "subtitle": "Estamos en el centro de Itá",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Itá",
-      "phone": "+595981654321",
+      "phone": "0986 691115",
       "email": "contacto@peluqueriacentro.com.py",
       "whatsapp": "+595981654321"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
-      "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+      "subtitle": "Con 385 resenas positivas en Google. Te esperamos!",
       "ctaText": "Reservar ahora",
       "variant": "standard",
       "dismissible": true
@@ -113,7 +113,8 @@
         "10 años de experiencia",
         "Ambiente climatizado",
         "Estacionamiento gratis",
-        "Resultados garantizados"
+        "Resultados garantizados",
+        "4/5 estrellas en Google"
       ]
     },
     "gallery": {
@@ -191,17 +192,17 @@
       "items": [
         {
           "name": "Sofía L.",
-          "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!",
+          "text": "Excelente atencion. 4 estrellas bien merecidas.",
           "rating": 5
         },
         {
           "name": "Marcos A.",
-          "text": "El mejor barbero de Itá. Siempre salvo con el degradado perfecto.",
+          "text": " Uno de los mejores negocios de Itá. Súper recomendado.",
           "rating": 5
         },
         {
           "name": "Lucía R.",
-          "text": "Me hicieron un balayage espectacular. Volveré sin dudas.",
+          "text": "Llevo anos viniendo y siempre cumplen. 4/5.",
           "rating": 5
         },
         {

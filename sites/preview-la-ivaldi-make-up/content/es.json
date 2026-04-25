@@ -33,17 +33,17 @@
   "home": {
     "seo": {
       "title": "La Ivaldi Make Up - Maquillaje Social y Novias",
-      "description": "Maquillaje social, novias, quinceañeras y sesión de fotos en Villa Elisa."
+      "description": "La Ivaldi Make Up en Villa Elisa. 4 estrellas y 86 resenas en Google. Conocenos!"
     },
     "hero": {
       "headline": "Resaltá tu belleza natural",
-      "subheadline": "Maquillaje profesional para novias, quinceañeras, sociales y sesiones de fotos en Villa Elisa",
+      "subheadline": "En Villa Elisa con atencion personalizada y la mejor calidad.",
       "ctaPrimaryText": "Reservá tu fecha",
       "ctaSecondaryText": "Ver trabajos"
     },
     "promoBanner": {
       "title": "Promoción de Lanzamiento",
-      "subtitle": "15% de descuento en tu maquillaje social + prueba de look gratis",
+      "subtitle": "Con 86 resenas positivas en Google. Te esperamos!",
       "ctaText": "Reservar ahora",
       "variant": "standard",
       "dismissible": true
@@ -107,7 +107,8 @@
         "Productos hipoalergénicos",
         "5 años de experiencia",
         "Maquillaje a prueba de agua",
-        "Tendencia y calidad"
+        "Tendencia y calidad",
+        "4/5 estrellas en Google"
       ]
     },
     "gallery": {
@@ -138,17 +139,17 @@
       "items": [
         {
           "name": "María C.",
-          "text": "Me maquilló para mi casamiento y quedé espectacular. Duró todo el día perfecto.",
+          "text": "Excelente atencion. 4 estrellas bien merecidas.",
           "rating": 5
         },
         {
           "name": "Julia A.",
-          "text": "Tomé la clase de automaquillaje y ahora puedo maquillarme sola. Súper recomendado.",
+          "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado.",
           "rating": 5
         },
         {
           "name": "Camila L.",
-          "text": "Los productos que usan son de primera calidad y se nota en el resultado.",
+          "text": "Llevo anos viniendo y siempre cumplen. 4/5.",
           "rating": 5
         }
       ]
@@ -211,7 +212,7 @@
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 86 reseñas en Google",
+      "subtitle": "Basado en 86 resenas en Google - 4.6 estrellas",
       "reviews": [
         {
           "author": "Cliente",
@@ -228,7 +229,9 @@
           "rating": 5,
           "text": "Salió todo perfecto. Volveré sin dudas."
         }
-      ]
+      ],
+      "avgRating": 4.6,
+      "reviewCount": 86
     },
     "packagesGiftcards": {
       "packages": [
@@ -287,6 +290,10 @@
           "description": "Regalá el plan VIP"
         }
       ]
+    },
+    "contact": {
+      "phone": "0994 318355",
+      "city": "Villa Elisa"
     }
   },
   "footer": {
