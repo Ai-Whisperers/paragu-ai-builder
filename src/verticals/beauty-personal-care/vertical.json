@@ -17,7 +17,9 @@
     "header", "hero", "services", "service-menu", "booking", "booking-wizard",
     "staff-selector", "portfolio", "before-after", "gallery", "testimonials",
     "faq", "cta-banner", "contact", "business-hours", "google-maps",
-    "footer", "whatsapp-float"
+    "footer", "whatsapp-float", "promo-banner", "trust-badges", "team",
+    "open-hours-status", "instagram-feed", "reviews-widget",
+    "packages-giftcards", "google-reviews", "branches"
   ],
   "defaultStarterKit": "minimal",
   "locales": ["es"]

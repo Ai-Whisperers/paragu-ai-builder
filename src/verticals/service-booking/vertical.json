@@ -28,8 +28,18 @@
     "contact",
     "lead-form",
     "footer",
-    "whatsapp-float"
+    "whatsapp-float",
+    "promo-banner",
+    "trust-badges",
+    "open-hours-status",
+    "instagram-feed",
+    "reviews-widget",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "full",
-  "locales": ["es"]
+  "locales": [
+    "es"
+  ]
 }
