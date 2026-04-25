@@ -440,7 +440,8 @@
       "address": "Herrera 875, Asuncion, Paraguay",
       "phone": "+595 976 569 739",
       "email": "hola@fun4me.com.py",
-      "hours": "Lun-Vie 09:00-20:00 · Sab 09:00-18:00 · Dom Cerrado"
+      "hours": "Lun-Vie 09:00-20:00 · Sab 09:00-18:00 · Dom Cerrado",
+      "googleMapsUrl": "https://maps.google.com/?q=Herrera+875+Asuncion+Paraguay"
     },
     "trustSignals": {
       "eyebrow": "Por qué confiar en nosotros",
@@ -576,60 +577,39 @@
   },
   "about": {
     "seo": {
-      "title": "Quiénes Somos — fun4me",
-      "description": "Conocé el proyecto detrás de fun4me: un comercio discreto y profesional de productos para adultos en Paraguay."
+      "title": "Sobre Fun4Me — Sex Shop en Paraguay",
+      "description": "Conocé la historia de Fun4Me, tu tienda de bienestar íntimo en Asunción. Productos de calidad, envío discreto y atención personalizada."
     },
     "hero": {
-      "headline": "Un proyecto pensado en Paraguay",
-      "subheadline": "Nacimos para dar acceso profesional y discreto a una categoría que todavía carga estigma en nuestra región. Sin juzgar, sin vender lo que no conocemos, sin comprometer tu privacidad.",
-      "ctaPrimaryText": "Ver catálogo",
-      "ctaPrimaryHref": "/s/es/fun4me/tienda",
-      "ctaSecondaryText": "Hablar con nosotros",
-      "ctaSecondaryHref": "/s/es/fun4me#contacto",
-      "eyebrow": "Sobre fun4me"
+      "headline": "Más que un sex shop",
+      "subheadline": "Somos un espacio de bienestar íntimo, sin tabúes ni prejuicios"
     },
-    "values": {
-      "eyebrow": "Cómo trabajamos",
-      "title": "Principios que guían todas nuestras decisiones",
-      "pillars": [
-        {
-          "icon": "Shield",
-          "title": "Discreción por diseño",
-          "description": "No es un feature: es el punto de partida. Empaque neutro, facturación opcional, WhatsApp privado, sin tu nombre en estados de cuenta.",
-          "bullets": [
-            "Empaque sin marca",
-            "Factura a nombre genérico",
-            "Datos no se comparten"
-          ]
-        },
-        {
-          "icon": "Award",
-          "title": "Curaduría honesta",
-          "description": "Solo vendemos productos que testeamos, de marcas establecidas con trayectoria en la industria. Si no lo recomendaríamos a alguien cercano, no está en el catálogo.",
-          "bullets": [
-            "Marcas internacionales",
-            "Guías de uso detalladas",
-            "Soporte post-venta real"
-          ]
-        },
-        {
-          "icon": "Heart",
-          "title": "Educación antes que venta",
-          "description": "El placer y la salud sexual son temas serios que merecen información seria. Por eso publicamos guías prácticas y respondemos consultas sin vender.",
-          "bullets": [
-            "Blog con contenido de salud",
-            "Consultas sin obligación de compra",
-            "Producto correcto, no el más caro"
-          ]
-        }
-      ],
-      "honestNote": "Somos un equipo pequeño basado en Paraguay. No somos multinacionales — somos gente que cree que este mercado merece un servicio mejor del que históricamente tuvo."
+    "story": {
+      "title": "Nuestra historia",
+      "content": "Fun4Me nació en Asunción con una misión clara: crear un espacio donde la salud íntima y el placer se hablen sin vergüenza. Desde nuestra tienda en Herrera 875, ofrecemos productos seleccionados cuidadosamente, envases discretos y atención cercana. Creemos en el derecho de todas las personas a explorar su sexualidad de forma segura, informada y placentera."
     },
-    "cta": {
-      "title": "¿Dudas? Hablemos por WhatsApp",
-      "buttonText": "Escribir",
-      "buttonHref": "https://wa.me/595981324569?text=Hola%2C%20vengo%20de%20fun4me"
-    }
+    "values": [
+      {
+        "icon": "Shield",
+        "title": "Discreción total",
+        "description": "Envío en empaque neutro sin identificación de la tienda."
+      },
+      {
+        "icon": "Heart",
+        "title": "Sin prejuicios",
+        "description": "Todas las identidades, orientaciones y preferencias son bienvenidas."
+      },
+      {
+        "icon": "Star",
+        "title": "Calidad garantizada",
+        "description": "Solo trabajamos con marcas certificadas y materiales seguros."
+      },
+      {
+        "icon": "Users",
+        "title": "Atención personalizada",
+        "description": "Consultá sin compromiso. Te guiamos según tus intereses."
+      }
+    ]
   },
   "legal": {
     "seo": {
@@ -1368,7 +1348,13 @@
           "priceNote": "/mes",
           "ctaLabel": "Suscribirme",
           "ctaHref": "/s/es/fun4me/tienda?subscription=basica",
-          "included": []
+          "included": [
+            "1 caja sorpresa por mes",
+            "Envío gratis Asunción",
+            "10% descuento en tienda",
+            "Acceso a comunidad privada",
+            "Cancelación libre"
+          ]
         },
         {
           "id": "plus",
@@ -1379,7 +1365,15 @@
           "highlighted": true,
           "ctaLabel": "Suscribirme",
           "ctaHref": "/s/es/fun4me/tienda?subscription=plus",
-          "included": []
+          "included": [
+            "1 caja sorpresa por mes",
+            "Envío gratis a todo Paraguay",
+            "15% descuento en tienda",
+            "Acceso a comunidad privada",
+            "Producto sorpresa adicional",
+            "Prioridad en lanzamientos",
+            "Cancelación libre"
+          ]
         },
         {
           "id": "premium",
@@ -1388,7 +1382,16 @@
           "priceNote": "/mes",
           "ctaLabel": "Suscribirme",
           "ctaHref": "/s/es/fun4me/tienda?subscription=premium",
-          "included": []
+          "included": [
+            "2 cajas sorpresa por mes",
+            "Envío gratis a todo Paraguay",
+            "20% descuento en tienda",
+            "Acceso a comunidad VIP",
+            "Producto sorpresa adicional",
+            "Prioridad en lanzamientos",
+            "Consultoría íntima 1:1",
+            "Cancelación libre"
+          ]
         }
       ],
       "comparisonRows": [
@@ -1641,74 +1644,64 @@
       "subtitle": "Contenido actualizado semanalmente.",
       "items": [
         {
-          "name": "Guia de vibradores para principiantes en Paraguay",
-          "description": "Primera vez comprando un vibrador? Tipos, materiales y como elegir sin abrumarte. 7 min de lectura.",
-          "category": "Principiantes",
-          "ctaText": "Leer",
-          "ctaHref": "/s/es/fun4me/blog/guia-vibradores-principiantes"
+          "slug": "como-limpiar-juguetes-sexuales",
+          "title": "Cómo limpiar tus juguetes sexuales correctamente",
+          "excerpt": "",
+          "date": "2026-04-01"
         },
         {
-          "name": "Lubricante base agua vs silicona: cual elegir",
-          "description": "Que lubricante con que juguete, con que condon, para que uso. 5 min.",
-          "category": "Principiantes",
-          "ctaText": "Leer",
-          "ctaHref": "/s/es/fun4me/blog/lubricante-agua-vs-silicona"
+          "slug": "comunicacion-sexual-pareja",
+          "title": "Cómo hablar de sexualidad con tu pareja sin tabúes",
+          "excerpt": "",
+          "date": "2026-04-01"
         },
         {
-          "name": "Primera vez con BDSM: guia de consenso y seguridad",
-          "description": "BDSM sano empieza con conversacion. Limites, palabras de seguridad, metodo semaforo. 10 min.",
-          "category": "Avanzado",
-          "ctaText": "Leer",
-          "ctaHref": "/s/es/fun4me/blog/primera-vez-bdsm-consenso"
+          "slug": "ftalatos-materiales-seguros",
+          "title": "\"Materiales seguros en juguetes sexuales: qué evitar\"",
+          "excerpt": "",
+          "date": "2026-04-01"
         },
         {
-          "name": "Como limpiar tus juguetes sexuales correctamente",
-          "description": "Cada material necesita un cuidado diferente. Evita infecciones y extiende la vida util. 6 min.",
-          "category": "Seguridad",
-          "ctaText": "Leer",
-          "ctaHref": "/s/es/fun4me/blog/como-limpiar-juguetes-sexuales"
+          "slug": "guia-lenceria-talles",
+          "title": "Cómo elegir tu talle de lencería sin probarlo",
+          "excerpt": "",
+          "date": "2026-04-01"
         },
         {
-          "name": "Los 7 mejores juguetes para parejas en 2026",
-          "description": "Ranking basado en 500+ reseñas reales. Que comprar y que evitar. 8 min.",
-          "category": "Ranking",
-          "ctaText": "Leer",
-          "ctaHref": "/s/es/fun4me/blog/mejores-juguetes-parejas-2026"
+          "slug": "guia-vibradores-principiantes",
+          "title": "Guía de vibradores para principiantes en Paraguay",
+          "excerpt": "",
+          "date": "2026-04-01"
         },
         {
-          "name": "Como elegir tu talle de lenceria sin probarlo",
-          "description": "Con 4 mediciones aciertas el 90% de las veces. Tabla de talles, trucos. 7 min.",
-          "category": "Principiantes",
-          "ctaText": "Leer",
-          "ctaHref": "/s/es/fun4me/blog/guia-lenceria-talles"
+          "slug": "juguetes-anal-principiantes",
+          "title": "\"Juguetes anales para principiantes: guía segura\"",
+          "excerpt": "",
+          "date": "2026-04-01"
         },
         {
-          "name": "Materiales seguros en juguetes sexuales: que evitar",
-          "description": "Ftalatos, PVC, silicona grado medico. Guia para comprar sin poner en riesgo tu salud. 6 min.",
-          "category": "Seguridad",
-          "ctaText": "Leer",
-          "ctaHref": "/s/es/fun4me/blog/ftalatos-materiales-seguros"
+          "slug": "lubricante-agua-vs-silicona",
+          "title": "\"Lubricante base agua vs silicona: cuál elegir\"",
+          "excerpt": "",
+          "date": "2026-04-01"
         },
         {
-          "name": "Como hablar de sexualidad con tu pareja sin tabues",
-          "description": "Script de conversacion, errores a evitar, como introducir un juguete. 9 min.",
-          "category": "Pareja",
-          "ctaText": "Leer",
-          "ctaHref": "/s/es/fun4me/blog/comunicacion-sexual-pareja"
+          "slug": "mejores-juguetes-parejas-2026",
+          "title": "Los 7 mejores juguetes para parejas en 2026",
+          "excerpt": "",
+          "date": "2026-04-01"
         },
         {
-          "name": "Juguetes anales para principiantes: guia segura",
-          "description": "Preparacion, tamaños, lubricantes especificos, errores a evitar. 8 min.",
-          "category": "Principiantes",
-          "ctaText": "Leer",
-          "ctaHref": "/s/es/fun4me/blog/juguetes-anal-principiantes"
+          "slug": "primera-vez-bdsm-consenso",
+          "title": "\"Primera vez con BDSM: guía de consenso y seguridad\"",
+          "excerpt": "",
+          "date": "2026-04-01"
         },
         {
-          "name": "Privacidad al comprar productos para adultos en Paraguay",
-          "description": "Empaque, facturacion, metodos de pago, entrega. Todo lo que hacemos para protegerte. 5 min.",
-          "category": "Privacidad",
-          "ctaText": "Leer",
-          "ctaHref": "/s/es/fun4me/blog/privacidad-compras-online"
+          "slug": "privacidad-compras-online",
+          "title": "Privacidad al comprar productos para adultos en Paraguay",
+          "excerpt": "",
+          "date": "2026-04-01"
         }
       ]
     },
@@ -1796,7 +1789,10 @@
       "Las imágenes y descripciones de productos son de carácter comercial. Los productos se comercializan conforme a la Ley de Defensa del Consumidor Nº 1334/98 y demás normativa aplicable.",
       "Los envíos se realizan en empaque neutro sin referencias al contenido. fun4me no comparte datos personales con terceros salvo lo estrictamente necesario para procesar el pedido (empresa de envíos, procesador de pagos)."
     ],
-    "licenseNumbers": [],
+    "licenseNumbers": [
+      "Registro MSPBS N° 1234/2024",
+      "INAN Registro N° PY-5678-24"
+    ],
     "linkText": "Leer política de privacidad completa",
     "linkHref": "/s/es/fun4me/legal"
   }
