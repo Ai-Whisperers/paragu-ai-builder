@@ -7,14 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+54 3757 46-5921",
+    "whatsapp": "+54 3757 32-2715",
     "email": "info@barberiasanlorenzo.com.py",
     "instagram": "@barberia.sanlorenzo.py",
-    "phone": "+54 3757 46-5921"
+    "phone": "+54 3757 32-2715"
   },
   "location": {
     "city": "Puerto Iguazú",
-    "address": "Av. Nestor Kirchner N° 29, N3370 Puerto Iguazú, Misiones, Argentina",
+    "address": "Av. Victoria Aguirre 1311, N3370 Puerto Iguazú, Misiones, Argentina",
     "coordinates": {
       "lat": -25.6195625,
       "lng": -54.5767859
@@ -50,6 +50,7 @@
   "preview": true,
   "previewLeadId": "c4cbbf12-3793-4cd8-ba62-b7c64a80fc15",
   "createdAt": "2026-04-25T04:08:08.850Z",
-  "google_maps_url": "https://maps.google.com/?cid=8901623658087506776",
-  "business_status": "OPERATIONAL"
+  "google_maps_url": "https://maps.google.com/?cid=6136823829485461573",
+  "business_status": "OPERATIONAL",
+  "website": "https://vintageclub.site.agendapro.com/ar/sucursal/51611"
 }

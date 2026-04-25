@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 292573",
+    "whatsapp": "+595 982 292573",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0982 292573"
+    "phone": "+595 982 292573"
   },
   "location": {
     "city": "Capiatá",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "6193a54c-a084-4559-88ed-47184592e718",
-  "createdAt": "2026-04-25T05:23:41.388Z"
+  "createdAt": "2026-04-25T05:23:41.388Z",
+  "google_maps_url": "https://maps.google.com/?cid=3558193859827956478",
+  "business_status": "OPERATIONAL"
 }

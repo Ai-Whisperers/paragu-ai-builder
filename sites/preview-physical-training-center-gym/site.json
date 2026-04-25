@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 218944",
+    "whatsapp": "+595 994 218944",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0994 218944"
+    "phone": "+595 994 218944"
   },
   "location": {
     "city": "Villarrica",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "9feeb7b7-8b16-4495-8175-68024e980483",
-  "createdAt": "2026-04-25T05:23:41.457Z"
+  "createdAt": "2026-04-25T05:23:41.457Z",
+  "google_maps_url": "https://maps.google.com/?cid=18008053570502323903",
+  "business_status": "OPERATIONAL"
 }

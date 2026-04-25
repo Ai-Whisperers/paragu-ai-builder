@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0985 518105",
+    "whatsapp": "+595 985 518105",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0985 518105"
+    "phone": "+595 985 518105"
   },
   "location": {
     "city": "Presidente Franco",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "dfa49004-55c3-4287-bcc9-f40d8c7cdbef",
-  "createdAt": "2026-04-25T05:23:41.407Z"
+  "createdAt": "2026-04-25T05:23:41.407Z",
+  "google_maps_url": "https://maps.google.com/?cid=15297809469216503233",
+  "business_status": "OPERATIONAL"
 }

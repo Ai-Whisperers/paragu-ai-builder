@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "(021) 653 355",
+    "whatsapp": "+595 21 653 355",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "(021) 653 355"
+    "phone": "+595 21 653 355"
   },
   "location": {
     "city": "Luque",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "5f7c0464-f025-4147-ab12-b15c5227c7b0"
+  "previewLeadId": "5f7c0464-f025-4147-ab12-b15c5227c7b0",
+  "google_maps_url": "https://maps.google.com/?cid=9096030439418439504",
+  "business_status": "OPERATIONAL"
 }

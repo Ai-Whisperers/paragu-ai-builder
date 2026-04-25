@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0984 186294",
+    "whatsapp": "+595 984 186294",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0984 186294"
+    "phone": "+595 984 186294"
   },
   "location": {
     "city": "San Lorenzo",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "7d0837a6-2378-4780-9104-080adec942f3"
+  "previewLeadId": "7d0837a6-2378-4780-9104-080adec942f3",
+  "google_maps_url": "https://maps.google.com/?cid=885644089875872326",
+  "business_status": "OPERATIONAL"
 }

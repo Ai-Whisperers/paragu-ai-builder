@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0973 524910",
+    "whatsapp": "+595 973 524910",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0973 524910"
+    "phone": "+595 973 524910"
   },
   "location": {
     "city": "Ciudad del Este",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "3a8f7b7c-d3ee-4098-a86f-0291b426aca0",
-  "createdAt": "2026-04-25T05:23:41.412Z"
+  "createdAt": "2026-04-25T05:23:41.412Z",
+  "google_maps_url": "https://maps.google.com/?cid=8209535355558296969",
+  "business_status": "OPERATIONAL"
 }

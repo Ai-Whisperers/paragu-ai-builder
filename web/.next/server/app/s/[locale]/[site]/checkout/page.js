@@ -1,5 +1,5 @@
 var R=require("../../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/s/[locale]/[site]/checkout/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0fl0bgw._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0ndwc_y._.js")
 R.c("server/chunks/ssr/web_lib_supabase_scoped_ts_00blduc._.js")
 R.c("server/chunks/ssr/web_07whx61._.js")
 R.c("server/chunks/ssr/063q_@supabase_supabase-js_dist_index_mjs_0l5zcqi._.js")

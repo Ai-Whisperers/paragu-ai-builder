@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0983 041081",
+    "whatsapp": "+595 983 041081",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0983 041081"
+    "phone": "+595 983 041081"
   },
   "location": {
     "city": "Asunción",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "54c6d43f-c7dc-4155-80ee-03bf67f95a5e"
+  "previewLeadId": "54c6d43f-c7dc-4155-80ee-03bf67f95a5e",
+  "google_maps_url": "https://maps.google.com/?cid=17311172182327489885",
+  "business_status": "OPERATIONAL"
 }

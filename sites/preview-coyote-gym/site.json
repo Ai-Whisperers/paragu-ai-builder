@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0973 541430",
+    "whatsapp": "+595 973 541430",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0973 541430"
+    "phone": "+595 973 541430"
   },
   "location": {
     "city": "Ciudad del Este",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "2e3eee5c-6295-4670-a805-1c51b6d52b26",
-  "createdAt": "2026-04-25T05:23:41.351Z"
+  "createdAt": "2026-04-25T05:23:41.351Z",
+  "google_maps_url": "https://maps.google.com/?cid=4015363724501700482",
+  "business_status": "OPERATIONAL"
 }

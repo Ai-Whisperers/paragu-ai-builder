@@ -147,40 +147,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Galería de estilos, degradados y transformaciones",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Degradado medio",
-          "caption": "Mid fade"
+          "src": "/api/place-photo?ref=AU_ZVEHiZnG9SmEVazlGMY3m9rOjhoKcncWJ-MLF1zblCWbN18wVYFiaFOY4WH3shW7LcPVDGjvFPXSH5osO2n4rNX-dOIJ9NQoAjyAQGuVqWOuZvZbmxN5UN73k9RX3fEi7gs7eLyvx1xWSFt3mSNbfngyIB8JfuxsA-EWxMk2ZNvr8TFw2Ln4QTDfdQIqeH3EjjHGynAR0P_JnYaZKKxRJ1BKNiq1WxBFExCJVpXR6RAG-1UaXiVxzQ4ccExWECoJKL02YyHXOcMAc-wYqRX_t1gY9BDkYGUWBwGMS1Pwj2c326Q&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600",
-          "alt": "Degradado alto",
-          "caption": "High fade premium"
+          "src": "/api/place-photo?ref=AU_ZVEE3XZB7t0q_W4QZNi7FtmDgnM_ajCC2Dhoi3OWCAnVWM6dCpbX5FttjZ2udwCrquhgqQuT3nGAuKx8ZmZeQb5TtgoV-QIyBJ-snN_AWjW9MxzzhZ6knf-epb_QTygkZoC_C0smfTCR4AiEY2HaLRTd3fOfcW8j8rI1Xa1vEdFMerIo70ZIK6u4mCPnwIuiu6ia42f8rTt3E0Mz00ig_6dLMGIyfNYlbjQfTn8aVsl3BfEZyajXK0Z7Za5YljdiVdBOVXmvydCLI327LAi271m9UXoySAaRTutNr7Wl7ZxhRKQ&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600",
-          "alt": "Barba perfilada",
-          "caption": "Perfilado de barba"
+          "src": "/api/place-photo?ref=AU_ZVEEJegh-qkxlyyLQ_hVoUI4sANAEc3nJZgr6ivyoscVdluJugbDqgY7v9aMCnYgPhpUBDEU7rEEHLJYKTk_l6U-aqqXSXDK_pGGmSVwztch9FUXojN8afm7HelRz6PR1a4KRBsZLIL0UX0GeEuQLetjcGXGtEjDwz5zKcInAEZGci8ss7ZGWjYkDCV1u5Gf5tgwovHkp_IR5ajEQa7xIRo54D9wR1ivb-2Ql5r4egumwcdKXqA6ekDcoOcM6xo_snw9JvAq4KCIMuP8lInKW-dZ8HVGgR2CVv6hAYbGlmQ7rnhkSAkuHZnar6SAPdO4oVG980S0ETP-bYdekbU8pxFosS5Kqqi-GtGKN9kwYnaKtQCX8CcH-qKInn7Qy4ccBEtO40qw0hnr5IDCk8W4Bki0FU4YpzZJ64L_OKjPd8WY&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600",
-          "alt": "Corte clásico",
-          "caption": "Corte ejecutivo"
+          "src": "/api/place-photo?ref=AU_ZVEEWBBWb1xtym90buWmujFjAQ-Jbt0LKxE_gYeMaowtrlLDC7H3XqShLwDhUxO8fSJdorUMhe4IB3pnu7puKpYNF4jR7pOjftN1SnaFGxtfqhajLpfffdTbknFlhLzZKaj2nD3yefLNgCG5pR97sKBPi1HAbgeEbBYKsoqzsoEaz6icwO0Or3qaZQFMKhCnqqOd5Mlxu35Z9PR73icPuukopl-O_yC1-XgxeP2ChzjDMbzIY6TeX1JawIRxXFnqhWVdUu-R-25tWodM0MQY1reyD4cF4puktGTLaI1iYNGEAo7xtXrfAvuuRUuzp-fg0utwRUGJxE9lR08KQNSN_XSnVdS8sYZgx-wSnxgRaLVB9XmhYpktd6TUbn8FsU6THAhGT8h4eOi-J8j2Ue57rPgPaOZPqh9Mk7uBT9ceZiX8Rzw&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600",
-          "alt": "Afeitado tradicional",
-          "caption": "Afeitado con navaja"
+          "src": "/api/place-photo?ref=AU_ZVEEKm8SEbjRElRzMK75HPkcSKiq5EKEAmozhkXi5TmvqRkNy5UB7pf8z-iU550lwfFoNN8i7_1CowEdc--9PQb6Sk4CYMQVB-AesvkJecNrNcKX_jZk2mKzmEQ8npXf9P_IsN1tuHOwX8IG1AQx9Op1GK8Z9JqAW5MBbzIDxjfSq_9SFfxo0VPsxvgT9_GUrIkUU_GjRwxNHTqHPaHlcSmCYNJHdZzxhESvZNaYXqJZSprGDMFNQH0Ur1e32ct5eokKUYizh44ggOlKx63JlVfMmQ3o75btj_ojcV-NkFnyWCg&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600",
-          "alt": "Interior barbería",
-          "caption": "Nuestro espacio"
+          "src": "/api/place-photo?ref=AU_ZVEGvISjC57HVBZiTf6jyLUuz0NlquG511YQg9UdDmKAxG6OnXuuo0U-UC0bT9c8IpcfYcidt2u8UyxbrLGhDXMvfZPI4dzJ5xKtTtZm3kisUVWBm3CIG0_6lfUm-qebZ7Vj9lH5sP-p_wl9_4IOCaqmOhvinDU8-OuUoOk6VKPcQs9BYrnFN2ZKwAt4L4nZPumL-d8urxvtQR3hkpkqaT1WIKGPY5W5Oag03FMJoWtYoeZWpjsT4RRhkIrUel5ojUFgVNd7hpTGU3bXVhPsOOSEpp51lF1TLYlmp4Bz11NuknQ&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -209,38 +208,28 @@
       ]
     },
     "testimonials": {
-      "title": "Opiniones de nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 120 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Martín D."
+          "author": "David Leguizamon",
+          "quote": "Grande azu!!",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Florencia T."
+          "author": "Emmanuel Pèrez Gonzalez",
+          "quote": "Purete",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Gabriel N."
+          "author": "Nathalia Miranda",
+          "quote": "Ok",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Camila B."
-        },
-        {
-          "rating": 4,
-          "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "María F."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Carlos G."
+          "author": "Manuel Alejandro Mancuello Mendez",
+          "quote": "Full",
+          "rating": 5
         }
       ]
     },
@@ -326,42 +315,70 @@
       "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
       "address": "Av. Defensores del Chaco 1450",
       "city": "Ñemby",
-      "phone": "0971 274507",
+      "phone": "+595 971 274507",
       "email": "info@barberiasanlorenzo.com.py",
-      "whatsapp": "+595985123456",
+      "whatsapp": "+595 971 274507",
       "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15"
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 6:00 PM",
+      "Martes": "9:00 AM – 6:00 PM",
+      "Miercoles": "9:00 AM – 6:00 PM",
+      "Jueves": "9:00 AM – 6:00 PM",
+      "Viernes": "9:00 AM – 6:00 PM",
+      "Sabado": "9:00 AM – 6:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@barberia.sanlorenzo.py — mostramos nuestro trabajo todos los días",
-      "handle": "@barberia.sanlorenzo.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 120 resenas en Google - 4.8 estrellas",
+      "subtitle": "Basado en 120 reseñas en Google - 4.8 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "David Leguizamon",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
+          "text": "Grande azu!!"
         },
         {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
+          "author": "Emmanuel Pèrez Gonzalez",
+          "rating": 5,
+          "text": "Purete"
         },
         {
-          "author": "Cliente",
+          "author": "Nathalia Miranda",
           "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "Ok"
+        },
+        {
+          "author": "Manuel Alejandro Mancuello Mendez",
+          "rating": 5,
+          "text": "Full"
         }
       ],
       "avgRating": 4.8,
@@ -422,6 +439,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0991 444268",
+    "whatsapp": "+595 991 444268",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0991 444268"
+    "phone": "+595 991 444268"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "fc299128-307c-4e90-8345-eaba58615d7d",
-  "createdAt": "2026-04-25T05:23:41.366Z"
+  "createdAt": "2026-04-25T05:23:41.366Z",
+  "google_maps_url": "https://maps.google.com/?cid=7980317996614162221",
+  "business_status": "OPERATIONAL"
 }

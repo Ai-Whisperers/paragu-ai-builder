@@ -7,12 +7,12 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "+595972541126",
-    "phone": "0972 541126"
+    "whatsapp": "+595 972 541126",
+    "phone": "+595 972 541126"
   },
   "location": {
     "city": "Caaguazú",
-    "address": "Caaguazú, Paraguay"
+    "address": "Av. Silvio Pettirossi, Caaguazú 3400, Paraguay"
   },
   "integrations": {
     "crm": "hubspot",
@@ -48,5 +48,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "manual"
+  "previewLeadId": "manual",
+  "google_maps_url": "https://maps.google.com/?cid=2998905196099431598",
+  "business_status": "OPERATIONAL"
 }

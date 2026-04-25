@@ -112,47 +112,46 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Looks reales de nuestras clientas",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600",
-          "alt": "Maquillaje social",
-          "caption": "Maquillaje social natural"
+          "src": "/api/place-photo?ref=AU_ZVEFzTi1gLamL70Qq12a7lDeKt8iTmySUaYHtOcEzM_WlvrhvnY3bIN_sIIElG9RRyHxCUcxDYch2RRA0oeCjaO_g1kKevrvAHiCSST_LlLZeEd7icVnxnG8ae8YmeSZjfMjhT4n6JwqPB2qm6d-tBy_A0lQ8fdrRzjMK9OPpPvpG--nynBz3Zi5jQDQY7vYoCV1sCInjgXVxz7hHvSuJDrKFwwBZTSAwlV0yn4cJQSDLOp7hwIEiPY1jpxf4s0j5bW1h0CblULdZc0IPOTodgfzFudCncHb9xOE5ZmmqwCO0IklPM9pa23X1uEwG729sxIYULf4P7lOFja51eAkcCrXzLX2756X4EDuDia9AvHOd6fVooRD3t3PIe3PMaX9tBT2cSok0fXRs3fK56ZDoSaQOqdLLeDnZOsDEDhwjpj8&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600",
-          "alt": "Maquillaje novia",
-          "caption": "Maquillaje para novia"
+          "src": "/api/place-photo?ref=AU_ZVEHCNMX5onDVy3vTjEwyRJnxxVE4dJ3cvYZsx9pBD7lOttDr0ub9w_3KLA5rKTAA5Jq6n7UwrKZuZYPzZH1EetwDYRWmpOMkNJoAcuGI5lkMzR0iaeQiA86EXwqDZCbZl_zoJfGHnd1Im3sdYpqmS1W7taqtbdmTrkIUZaDdBA86M6FBz0AauRtXri82CxbP-jMsPT0Yx1zVu7egrJRrC6o_vttPI46AnIHTGepL35K4FKpFxihzksHQEi6X4DmdA71Ks4uvuIWg9o_pyU4dPJsSJ_Am-BmmYozepNdiHOMmPqWsu7xwNx-FZzgEDTTqgSox8CfPI90F3uSjCiR-9DxcZkdzhJe9JG3O5-ziH3yQkX1-vHTvYelGGjnkLrwHrlhgOKSwjamqkems3CTL5fJfhK22gaxUsK1C-wCJZUGrAg&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1526045478510-3509e0e71b5a?w=600",
-          "alt": "Maquillaje artístico",
-          "caption": "Maquillaje artístico"
+          "src": "/api/place-photo?ref=AU_ZVEF7hgfTAxO3CjuMfjhy_Rs2ljvdMO3nXXO8li_ksv477LLU5MCBtFq4nHaVEm8rb3vU_vbUFw0lCP92ShuKSFtLL9XDHHKC6VfnnV---8oPJToj7utB0D8cZe_FES0pVh2cQpG7ZA0qul5BxFO787GKAhFlwhd_2QZWSVO_qJpznQyHJRnBgE_iQ55dzrur2mm5_Z9l0rZViz_KvlX4DGbnuFojoTWP8WKc2eCWQ93x4Hn5anTy7s3R-BnQ5dCycRPxiHAlnWT04RfjrkFbK_axVwOVtQnZ5c78sqdXRCzJgipJ6WU4LD02oqGJliei_oCnfrULcKooxP3KHtOmjxIcxPm8qt3BCcLZeJdA9KMBTxz40W4yeCExlaSaUddSWrjVK0tXD7d9RgNQKWdL8ATSG8xIXZ-CI1_4vKJ7wgSVBUW6&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHlevw7-DviwB7aNKmnuOpl7WnNydQqS7IU-acfMA5jBUQJclv_s1wC-YXUhbuCMPxohHbgI3wI5Rpfq0P42ybEu5HTP2iXz6mm7QGcuPdwdYccBdL_xA_Z8z6EkAV0Xscz5eZ0yfvgVvyLXcto2ymRF9Lcmw3AY_0-dmRFf1nW323peLMTanvcSyaGKJUblX1CcSgEo99b86GNUo11eBXLLorIRAZC5L-RdLrbCpsvJn0px8IwoZrGliZFEsXC7qg5zZ8h5tOkgEOK-7C5aaUWhWYzx0N07_A9O2z3FT3bdLR8iTt_fkPAMgnjREaUwo6P22LhERd_AW_8XBcrww8s_LwznI68vyriEvLR50DDI9oSFBYjMlvbjPo1uOQEKeAEERnScpdrt5DOKL4SasbpUqJ6jxrTRLmfI4D9rbZ0GA&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEyQTeZSJKixBoADp4BKA3zLYv23hnAR4QlZHlQ4nhMSpE3-Vo4iYn0djH-FiNuO-O7KEg97J4HuMN6wnMfy3p7a-A-99iCA_w0Oes8zEL-yuM5dGbtBxxc9DekmYByNCkZVA5I5ykpL5Dq7KRO0hxBTB1RaEwowEf4Rks0uM7XJY2qFnIJf7u8YHNUNi5N-q5htQRCNAVnS6VfHlD0ituHq7UMqmx9UIJqz1jJDMlqKTPKJmy6rxEGuUfxu9bFlcslIfRx4HQOHQmWYgLVlB_ESvNXgMATM3gDOne0BFvRM7Vh84u9N_U41_iV-A3lGD6lAMPG7T7m5etEbIa62rrC7KazyfAY_rRzLnWAudLyKT5YhjLLkCuItWp8pUcGTfeX6Mazj4l-QqTLwYazWj6y-wy0-PUxU3scaPDbSc_w2E2Q&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEE6KR8FNevnLDteJ6vJj7B_eoHbkYi2Tj4b0YD8EWwZUDxfhoXIAI9siAtLRykRBJpMsI1njxf67xCux2PkJrP37B8ZVQbuxSUto2pQOoMkpaoDEI_d5q7qjohGurvEEFnXgc0y5UmsFw_3gdg9Q6sTZch3wyG-ZZf7vFw7mKCBOkS7GlpI1lckMqYun7-0j8UmOJb8g5hi-bAbwmEc-eoFG9EhOGpddvMrE4ZHdRrYikvGNNutSJDtLcr_O0mkOaw_7WjWgIpvjHaq2YCDzzf4ViENf3kVXI-LUxZDMW1POI2ndb8nFfQA6t9OQYCJMh-zNO2Z2SmTKkuo8roAhZK5jRG7kv9x5faAtqb5P9eUDggvCb90Soz0mrWtAtXjaN1JqaaHXyJlIVb1hHpQjyUedoxbU5GJKxDyfQ3kS-XGhdPL&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestras clientas",
-      "columns": 2,
-      "items": [
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Lucía V."
-        },
-        {
-          "rating": 4,
-          "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Martín D."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Florencia T."
-        }
-      ]
+      "title": "Reseñas",
+      "subtitle": "Basado en 86 reseñas en Google",
+      "items": []
     },
     "booking": {
       "title": "Reservá tu turno",
@@ -207,12 +206,17 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "10:00 - 19:00",
-      "Sábado": "10:00 - 17:00"
+      "Lunes": "1:00 – 8:00 PM",
+      "Martes": "1:00 – 8:00 PM",
+      "Miercoles": "1:00 – 8:00 PM",
+      "Jueves": "1:00 – 8:00 PM",
+      "Viernes": "1:00 – 8:00 PM",
+      "Sabado": "9:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 86 resenas en Google - 4.6 estrellas",
+      "subtitle": "Basado en 86 reseñas en Google - 4.6 estrellas",
       "reviews": [
         {
           "author": "Cliente",
@@ -292,8 +296,52 @@
       ]
     },
     "contact": {
-      "phone": "0994 318355",
-      "city": "Villa Elisa"
+      "phone": "+595 994 318355",
+      "city": "Villa Elisa",
+      "whatsapp": "+595 994 318355"
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
     }
   },
   "footer": {

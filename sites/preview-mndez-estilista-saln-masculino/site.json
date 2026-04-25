@@ -7,14 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0976 121883",
+    "whatsapp": "+595 971 888665",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0976 121883"
+    "phone": "+595 971 888665"
   },
   "location": {
     "city": "Lambaré",
-    "address": "Av. Médicos del Chaco 1560, Lambaré 110706, Paraguay",
+    "address": "Panambi Vera 3321, Lambaré 2420, Paraguay",
     "coordinates": {
       "lat": -25.3341337,
       "lng": -57.61576239999999
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "a4a6d29b-768a-4604-8d50-cfcd88435f33",
-  "createdAt": "2026-04-25T05:23:41.433Z"
+  "createdAt": "2026-04-25T05:23:41.433Z",
+  "google_maps_url": "https://maps.google.com/?cid=16345705719610828437",
+  "business_status": "OPERATIONAL"
 }

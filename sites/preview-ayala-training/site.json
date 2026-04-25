@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0972 114479",
+    "whatsapp": "+595 972 114479",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0972 114479"
+    "phone": "+595 972 114479"
   },
   "location": {
     "city": "Caacupé",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "ec73e9a5-c2af-4d9c-8bcf-37634918c01e",
-  "createdAt": "2026-04-25T05:23:41.370Z"
+  "createdAt": "2026-04-25T05:23:41.370Z",
+  "google_maps_url": "https://maps.google.com/?cid=17432670765246350834",
+  "business_status": "OPERATIONAL"
 }

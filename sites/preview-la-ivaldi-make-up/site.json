@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 318355",
+    "whatsapp": "+595 994 318355",
     "email": "ventas@paragu-ai.com",
     "instagram": "@demo.maquillaje.py",
-    "phone": "0994 318355"
+    "phone": "+595 994 318355"
   },
   "location": {
     "city": "Villa Elisa",
@@ -32,5 +32,7 @@
   "preview": true,
   "previewLeadId": "6ec28158-3c8c-4807-b215-c93ce73cecc2",
   "createdAt": "2026-04-25T05:23:41.454Z",
-  "is_demo": false
+  "is_demo": false,
+  "google_maps_url": "https://maps.google.com/?cid=12585055672513352973",
+  "business_status": "OPERATIONAL"
 }

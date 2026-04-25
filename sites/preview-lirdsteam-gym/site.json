@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 461813",
+    "whatsapp": "+595 981 461813",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0981 461813"
+    "phone": "+595 981 461813"
   },
   "location": {
     "city": "Lambaré",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "35cce713-40fe-4134-9261-42439110568b",
-  "createdAt": "2026-04-25T05:23:41.392Z"
+  "createdAt": "2026-04-25T05:23:41.392Z",
+  "google_maps_url": "https://maps.google.com/?cid=18111731454765623411",
+  "business_status": "OPERATIONAL"
 }

@@ -75,6 +75,7 @@ import { FaqCategorizedSection } from '@/components/sections/faq-categorized-sec
 import { GoogleReviewsWidgetSection } from '@/components/sections/google-reviews-widget-section'
 import { PackagesSection } from '@/components/sections/packages-section'
 import { BranchesSection } from '@/components/sections/branches-section'
+import { InstagramFeedSection } from '@/components/sections/instagram-feed-section'
 
 // Exported so tests (and any future tooling) can assert that every
 // registered section in section-registry has a matching render binding.
@@ -151,6 +152,7 @@ export const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'menu-categorized-priced': MenuCategorizedPricedSection,
   'google-reviews': GoogleReviewsWidgetSection,
   'packages-giftcards': PackagesSection,
+  'instagram-feed': InstagramFeedSection,
   branches: BranchesSection,
 }
 

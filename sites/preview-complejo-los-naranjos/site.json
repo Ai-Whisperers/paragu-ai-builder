@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 492743",
+    "whatsapp": "+595 981 492743",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0981 492743"
+    "phone": "+595 981 492743"
   },
   "location": {
     "city": "Ñemby",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "e600133a-6876-440b-b5ec-38b9cd440647",
-  "createdAt": "2026-04-25T05:23:41.393Z"
+  "createdAt": "2026-04-25T05:23:41.393Z",
+  "google_maps_url": "https://maps.google.com/?cid=8796227917640511750",
+  "business_status": "OPERATIONAL"
 }

@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Encarnación",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Encarnación",
-      "phone": "+595981654321",
+      "phone": "+595 985 499769",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 985 499769"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -117,40 +117,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEGiOd9w2GhbpdDzd-89EPZKrXz_fHXNQMtSXuIzYPWTB_lFyw3sRSohbQDbJgxtctUGVND_hpao5sdaGoZ-qlevmrnEpPEZTfpkivT2jdXBB4XcbBGGYclLcoPaqwh1n8ggpo60dqgtXUleLtopreUSjJ2peksHalCNMQF4uxvN3X054_YP_UOa-ykmd-JuSWrKu-cSU-UpIN03RBMCMY-0PYLE63jPI8hTXZCYevtAGKiKNjuDemKXixkmCKZQVfjUipFsk-sSf_0jNMF9cyzKXDAe7Ma7mk1kPfWnQfeu9Ti-GWqBpz_kCkIdd7Xe9ce3ObFtnBt5iZNitc5R1g8ElQWeTNN-1p4uIOdsizipYsDycgjD1vOEDyEESYY5TDX4bkg7NTiO9bqc2jBoRXspa8n_4MfyKu28ewhK-2k&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEEBDwzUAQl0Sv3h9ChwamaFZiJcQccIity-4n01nR-nUhPc3K2G1309kGaAEh4iZUr2WkVdLzEoLN8UZxdn0SSBX542pVcms1O6xUZVKaOBnKB6_THkB4QGhXhnF-mIHzRIbCQg2AQ6w6N95H-5LHDaZmiQ2cRreGUbTthx2eRvGx0iAPSC9hdYhA0tAQ-Ar-KosJETkKe8qI0XdPy5s3xXw6mxPNMbId2ENvLtpu8YK3v46J5Vte2bJpUoJShtoLpFLlJkQ7RrhgOTwB7lA20P47q9-Vwo_XxvrAH4ydS1PEl6iTgT3TpOKo6TcLqrc-Qro6h8EZqDlhDDqcY5fg0s72t9zlzCkV3L2pane702rcu8amOSq3IVGFLW-ZcK_qIGdjxvilwFWT0owTIfYoNMZVU5nCZG3GNJ75Ia_eGMUjbFuNsgBpdaBPXCKqXV&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEFOag4HdUQJ-iEJz9IRn8c0ignyOhLbm_SainGIFUHXIcLGKoai9Cp5zUM3HPnIalUR6o0KMa4Op6pKpOm5RYuiSXeYhRMSR6h-W5djQYcHnwcIfyAg7hMXTf6L21rXd1FJPmsU-ZOBrvHRnxYc-cprztRbyP3nWeh2N5wfQKlHsYxcRhbBdrIc5SpVS_B5PMVlf2xmrz2U1rz6Hn7RtCF5LrfemD48UkLKIlRjATJecDzJREZh3KOhiFQeRQA4kXwEX1GCHZRnXYNQubvMibk-rmFm6MA_Oe0Dk4gJyiGkXfL_Hzht-4QFGEdo1zshUi5ptX9iIOIH44G4lqGaffCjcnlSEQk_MBiN_sEse0VxlAIqAmHZolkNfFHj7qilXxAPEwpOOI_hMaIhi3aWbkrbXwj5ksmveD1nNY3vVnUQtw&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEFtJcwA4un4SMEXqODmcUnUPeUIldPuhaA12Dv8vAN7neEDclEqJiLmuBcRc8FSRQVYsKtJ1DW2EU8RxTwE4eElXnBMtFBBzIpSrx4Re_Ah4UsZhJqm5BHapEcWYIbvK8wWmYgSSYFM876SXVpRrOccsZIO0n47xr6OKTPJPXwBMSkcN1qj0nAWbQ1B9mFSCiSbA1j4Ne1lM1SsHjAk3Lo3WArXTohsoaUTWPTW_15hUNoyD8tTZCDcVNNmV3rzG9UeYgaFeh1-xj5VWo0JtGv9sOUvc4DTk-8VuS0OvdflLMF-QbxsLguLwrL544vzmxxV1S_pwmf3gFAZZri8CnCccDjXXbXRdre9GjXRMT5zpUp9hthXYKGQpB5PIYCrZlEFckKiweVj6XMp6Gged90H8L4XANe0xTlYMw4yKUyVsA&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEEJ3kagN2GGEujANlTLegHcd69iYmHJe2LXmROUDCGnojRQvn3lhML-T5bi-qXkjojY7DnyKsiYArgbLic9wJq95cWa6yzUT2D71mCqC9asV9cYCUc-WbjKX9MPLW_NM4UkGTI3yd-9VhsmkmTxJ2UAPDcvK4jx1iCalD1CC3Xw-fQOO_udqMqXvpFH7QHmmtiwrVjH5L4fqFGs0QvOAosjPii1WwI8fMAzE9R59irmuhURMNxhsADGbeRIgNB9MBLhWXMKyW_NDgpSQMvVnGJt0-UjKvK8koKofwU4sPjqTBgrM7BY8muVIXzzgbB_g7Aohx6TrE-VVH4x-PnAYc-KCpJCjMgTTfrob9zOgwXKm5ZEsJv1JcY2P5lTn4m2GuCznvocBa7fJq8g9mqZoj_PsYGcwmm_eQrXKsV_fHLmPEppWI4gJt73y5FDy4ru&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEGQkh0HmKyYYGFkTo7xJO8UHHobdgfHedDs7AO9TXt2l7rX6Wi1PQLtUx6UC1NKiVqP_oJmbDtAFrKD8tbE26xbNCktEMXFdDX-sl-ieariJR06AExdUgi0UaJg57ZV4nVOcQT0DDWLLc5PfJ3itofXez1DhhKwXFMzUX0Dx6yhY1B4Rw-l99RrwXDp28lzqSVb7PExfJA0qtuyRt4wvhaa7F-fwtkwyW2UxKlVHq96e53PJ9PR6aU2kuetMD9UZKRqzeZo_WMAiO4W7Amf5ExaNd8lT6YtDQD1gWZuniLs-k5Lna5O6dUEzjAo8yzvLnfPPMTpRNC6Xh2br0rjMEQtBwKSR8pQYFv7Sc_wpQaVVgZRORmTquctNN61sJlP8ImHot5g8L_O9WZwPsnDnXKvdgGX7NOi07r_YHw_fmM1imzRHZOfc_U17srqjy8o&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -186,28 +185,13 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 107 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Florencia T."
-        },
-        {
-          "rating": 4,
-          "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Gabriel N."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Camila B."
-        },
-        {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "María F."
+          "author": "Monica Ferloni",
+          "quote": "I arrived in Encarnación last Saturday for a wedding and found the hair salon right around the corner from my apartment! They totally saved me with my hair and makeup, even though I was running late a",
+          "rating": 5
         }
       ]
     },
@@ -273,38 +257,53 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "1:00 – 8:00 PM",
+      "Martes": "1:00 – 8:00 PM",
+      "Miercoles": "1:00 – 8:00 PM",
+      "Jueves": "1:00 – 8:00 PM",
+      "Viernes": "1:00 – 8:00 PM",
+      "Sabado": "10:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 106 reseñas en Google",
+      "subtitle": "Basado en 107 reseñas en Google - 4.9 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Monica Ferloni",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
-        },
-        {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "I arrived in Encarnación last Saturday for a wedding and found the hair salon right around the corner from my apartment! They totally saved me with my"
         }
-      ]
+      ],
+      "avgRating": 4.9,
+      "reviewCount": 107
     },
     "packagesGiftcards": {
       "packages": [
@@ -361,6 +360,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

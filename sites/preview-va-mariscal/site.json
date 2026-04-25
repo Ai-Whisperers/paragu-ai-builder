@@ -7,14 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 558853",
+    "whatsapp": "+595 21 611 272",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0994 558853"
+    "phone": "+595 21 611 272"
   },
   "location": {
     "city": "Asunción",
-    "address": "Av. Mariscal López 4561, Asunción 1863, Paraguay",
+    "address": "Quesada 5050, Asunción 1411, Paraguay",
     "coordinates": {
       "lat": -25.2977313,
       "lng": -57.5708997
@@ -49,5 +49,8 @@
   },
   "preview": true,
   "previewLeadId": "717706a2-5673-460d-b7a7-75509d402756",
-  "createdAt": "2026-04-25T04:08:08.828Z"
+  "createdAt": "2026-04-25T04:08:08.828Z",
+  "website": "http://www.mariscal.com.py/",
+  "google_maps_url": "https://maps.google.com/?cid=5644858122180286004",
+  "business_status": "OPERATIONAL"
 }

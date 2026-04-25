@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Fernando de la Mora",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Fernando de la Mora",
-      "phone": "0991 444268",
+      "phone": "+595 991 444268",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 991 444268"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -118,40 +118,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEEXnPgUMnBKwNe5D-E7CswE3zE3_PfWdzgNCx-odJ-u19Bj5JYR7S6h30a3YzV2PSdd_b_I1vqy7vqE0N2Tiuqi4azY01WGjuVOiCJkuL_grZANAmfwvGPrrK1OvXavdQPuC4C6diVnSMnaqafz_hyU3YGpRBAgzDdxImWnu-dK3iCqEUObPV_R0Y54ujI_v38RWpt3fd_nqAQaHDr-z4W0lQufdV_q4zlhXj3T7BzL0hDCDdwEulTW_0tZrP9PN_OCV5xvoQbTK1IKawnDq6zY1XndSEPz_3Sg3Ka_Y818Rr2Gx94yG3QnbNt7qyJY34-qZe-MjdPnDHx218m4904Gs-KI5rp21U0ZvZPQVYIEHG8ubYWm8_2PM591PKxHDsl8VEgs4wrev6b15WRdRu4OozHkxBkeMRgNk5If3v5O7g&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEGrslr-DT_WcLStbqoVhqnoKVZODAJ-zxUQjRSnXbNhePkxAb3k-IjvfdWtQSzy3ICg3Vgg-mDIDqfliKgrt2jkKtZRnqrSNpN9_CeEQZO1nFyOw6LbLRVcnRmt98ebUZ2b9VUJCs-g16dc9kKjZi9pkw9tERg9nEzV2XpE8nAfzeEGrtYl1huyxo0W9L6WjkG0nY5KSMyYefjVQrCC0hpdWoS1bEmWRm4Hyidu48aneUhYqFvIPUQT9NrXWjFnu4l7mwCB0EhibNAZuUY4L8SZZmKrHz0xrmFkZ1QUax5nOGpfTcYLuECgBHevmQiAOcQ9_J6s_UUhFS_CF9HSH07mmxlxw2sqnJNxZ_CHv-VDzd80QMzSnVzMC1Lrv5uDDso9QL30DEoLKZnPGhYy_InY5MnnDfaTaKA-EBnDLj0SmRfB&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEEhHTQQ2Ms1hI6o8jzQ6-PL0kXBQnyqBkHuN6WjVyXe8ch-O6pbIgcd_aOSYt_B8_W47ZQMB_6tYY79xdWU4RS8k3XejjcCto2Y9v57JV5_BnX1nVDrRCRxLT2MA3T2286n33LcoHoog83VgS4kjkU1WmgM9Y8huxV5qp74cUUtfJ5X7fGp-jE8BaNUdIR271pNWpOq-llJxLPqnbnCrUj5lz52Fc15knPv4dJV656IuKrV9wBE7v8KVqBuDWqgnFaXyqXmNFpJdhbJwHDb76RK1YGlOmNaQFxwWJKSFHv1eag2NNNNrcHXnEgrpNgnGqhhmo60c-W4frw1TwD4IH2whajt4nmq-ZyH9I-tUMLm3-P1fEFrt7T_7buNHQTCqbhVavPMYBOyJkeLAjgBHS_XUbIi9FQt707kmIEqZeTdXJyt&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEEfq6zmEeFvtIA_SZsS8CLBwQA2BwhujG3bEsPVP_ddWJiF2V0RRuuaIetoknl9IPU2MWFSArd92t-zreu_ZPLaSrNV1sCAITjQGmay5hxkHkR78v810F6knCsbkmoSUgj-Zyph7bwq-Wqf4KOHW9QVR3YEFffVql84RlOTSjh8jD6RqhWy3TN7R3diBxJdrX3jHPeGZDD6OzW_YO8ayhRWjR4tnPXOyjeYRbglaa7IeONleImqPRwbnoacY5DEB7EmRUwb3j3K8cMar7JsNcbsv-O5EHVF5HOf4VCw-9gYwPSz8Xoh4b6b8hH2WzyG1BLVEZeVt7x6yAMb4UdcBMhXBepETEK02CgT01SwBm9gUBDt4thtUghjCCuJZ-oxp_5G30rFK9vTkRKMigSCYg8razP2_8OBMlG7Dt7LHZYvJEPJ&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEGcZMJoUVJYioTRPjOOFbhet2nJwgx0wJoNZOZtTv-lA91yEAiK6febkHfK6rOrUwNTXTfPOy5rpWFUwckkr8oAPaoDBrX6sXqPHK9_UNPBLnyDJbEvJqp8tkYBvAmvCM1Sbxi13PBbUKHAWJ5ZTXDTRepc5lUuxAaSunprwTkIWUFUhkPjLon-f9U1-4A6a3LV38aTX73vZ-vcNXdT7gKkZ_Frs5FNAuARLrLx0p0N5l-tT_1Ei_MDdj8edAGho75jtXv_mCIZC4s1UNFAC_d3pYaqgwlNuzbpal-kZwE270pluy2p1ptbQPm8tgdu3NICXpAZucTBTGxLnn5EIUmrTkIxRWekvMoPh2gYP9cVlk8QKJ86sZh10XIm2dYNTDNRd8XW64yrpRdtZKmr9bwUguAYzleO6czhgiVUOAk&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEFWfmnehdTkFSLnzMyFpInpONVIN00nlJTsirz740BMa6zac-o5QiTQSuDpYgjohgrd_oC_h9R7xpLmQuv8VArvoY8hNxTPv5IJImDR0805S6LNLrQ582GLIynVrFTxLq3xv7gD4k0No3-iLIrAuaT0aSxIL53EOWDkJSSmq9Kx0xmL1tE_sp_iuvpdRwK4yW9ztdlRustjbm87KmNQk8PvSiDjkyEQEktxal1KZocIkrxBxgBWys28JZtWyDCBXWclYvn7tcFQtWXBI1fjJ1txvSTVFPDzOXxIePiN7OqmBrQ77OOzHapFY7iPJDTta8kj4y1qgXki5OHIA-WoRVIPXZW91SLsiNeWBNQTQXD3Te3VqMG8tqnw2YVxKSERi3GA6ouZKQ37uTw5PXo-TuYRBEl1hrVlDx2axdgxZEg&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -187,28 +186,13 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 118 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Florencia T."
-        },
-        {
-          "rating": 3,
-          "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Gabriel N."
-        },
-        {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Camila B."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "María F."
+          "author": "Daniel Gauto",
+          "quote": "Realmente pésimo, fui para cortarme el pelo, mostrandole con foto y todo, y me dejó el cabello sin molde, realmente me recomendaron bastante este lugar y con toda la ilusión fui y perdí dinero,mi pelo",
+          "rating": 1
         }
       ]
     },
@@ -274,36 +258,49 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "10:00 AM – 8:00 PM",
+      "Martes": "10:00 AM – 8:00 PM",
+      "Miercoles": "10:00 AM – 8:00 PM",
+      "Jueves": "10:00 AM – 8:00 PM",
+      "Viernes": "10:00 AM – 8:00 PM",
+      "Sabado": "10:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 118 resenas en Google - 4.8 estrellas",
+      "subtitle": "Basado en 118 reseñas en Google - 4.8 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
-        },
-        {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "author": "Daniel Gauto",
+          "rating": 1,
+          "text": "Realmente pésimo, fui para cortarme el pelo, mostrandole con foto y todo, y me dejó el cabello sin molde, realmente me recomendaron bastante este luga"
         }
       ],
       "avgRating": 4.8,
@@ -364,6 +361,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

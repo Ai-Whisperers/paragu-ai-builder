@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0972 151365",
+    "whatsapp": "+595 972 151365",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0972 151365"
+    "phone": "+595 972 151365"
   },
   "location": {
     "city": "Mariano Roque Alonso",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "435ccf3a-d03b-4c2f-b54f-d3029e52be5e",
-  "createdAt": "2026-04-25T05:23:41.413Z"
+  "createdAt": "2026-04-25T05:23:41.413Z",
+  "google_maps_url": "https://maps.google.com/?cid=4431517202819613335",
+  "business_status": "OPERATIONAL"
 }

@@ -262,15 +262,25 @@ const buildTeam: SectionBuilder = ({ business, content }) => {
 }
 
 const buildTestimonials: SectionBuilder = ({ business, content }) => {
-  if (!business.testimonials || business.testimonials.length === 0) return null
+  const contentTestimonials = (content as { home?: { testimonials?: { title?: string; subtitle?: string; items?: Array<Record<string, unknown>> } } })?.home?.testimonials
   
-  // Get title from content if available
-  const contentTestimonials = (content as { home?: { testimonials?: { title?: string; subtitle?: string } } })?.home?.testimonials
+  // Try content items (normalize field names)
+  const contentItems = contentTestimonials?.items || []
+  const normalizedItems = contentItems.map((item) => ({
+    quote: (item.quote || item.text || '') as string,
+    author: (item.author || item.name || '') as string,
+    rating: (item.rating || 5) as number,
+    avatar: item.avatar as string | undefined,
+  })).filter((t) => t.quote)
+  
+  // Use business testimonials if available, fall back to content items
+  const testimonials = business.testimonials?.length ? business.testimonials : normalizedItems
+  if (!testimonials.length) return null
   
   return {
     title: contentTestimonials?.title || 'Lo Que Dicen Nuestros Clientes',
     subtitle: contentTestimonials?.subtitle,
-    testimonials: business.testimonials,
+    testimonials,
   }
 }
 
@@ -355,12 +365,11 @@ const buildProductCatalog: SectionBuilder = ({ business, content, registry }) =>
 }
 
 const buildFaq: SectionBuilder = ({ business, content }) => {
-  // After resolveRef, `content` IS the faq object directly (not content.faq)
-  const faqContent = content as { title?: string; items?: Array<{ question: string; answer: string }> } | undefined
+  const faqContent = content as { title?: string; items?: Array<{ q?: string; question?: string; a?: string; answer?: string }> } | undefined
   if (!faqContent || !faqContent.items || faqContent.items.length === 0) return null
   return {
     title: faqContent.title || 'Preguntas Frecuentes',
-    items: faqContent.items.map(i => ({ q: i.question, a: i.answer })),
+    items: faqContent.items.map(i => ({ q: i.q || i.question || '', a: i.a || i.answer || '' })),
   }
 }
 
@@ -579,6 +588,18 @@ const buildPackagesGiftcards: SectionBuilder = ({ content }) => {
   }
 }
 
+const buildInstagramFeed: SectionBuilder = ({ content }) => {
+  const ig = content as { instagramFeed?: { title?: string; subtitle?: string; handle?: string; posts?: Array<{ imageUrl: string; caption?: string; permalink?: string }> } }
+  const feed = ig?.instagramFeed
+  if (!feed?.posts?.length) return null
+  return {
+    title: feed.title || 'Seguinos en Instagram',
+    subtitle: feed.subtitle || '',
+    handle: feed.handle || '',
+    posts: feed.posts.slice(0, 8),
+  }
+}
+
 const buildBranches: SectionBuilder = ({ content }) => {
   const bc = content as { branches?: { title?: string; subtitle?: string; branches: Array<{ name: string; address: string; phone?: string; hours?: string; coordinates?: { lat: number; lng: number }; image?: string }> } }
   if (!bc?.branches?.branches?.length) return null
@@ -635,6 +656,7 @@ export const SECTION_BUILDERS: Record<SectionType, SectionBuilder> = {
   googleReviews: buildGoogleReviews,
   packagesGiftcards: buildPackagesGiftcards,
   branches: buildBranches,
+  instagramFeed: buildInstagramFeed,
 }
 
 // ---------- helpers --------------------------------------------------------

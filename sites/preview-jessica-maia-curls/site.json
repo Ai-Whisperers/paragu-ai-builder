@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0983 158945",
+    "whatsapp": "+595 983 158945",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0983 158945"
+    "phone": "+595 983 158945"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "db8fc22e-e72c-4576-910c-80dec9052e96",
-  "createdAt": "2026-04-25T05:23:41.470Z"
+  "createdAt": "2026-04-25T05:23:41.470Z",
+  "google_maps_url": "https://maps.google.com/?cid=8393277239780680283",
+  "business_status": "OPERATIONAL"
 }

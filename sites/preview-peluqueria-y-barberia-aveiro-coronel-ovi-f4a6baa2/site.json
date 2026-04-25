@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0983 140324",
+    "whatsapp": "+595 983 140324",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0983 140324"
+    "phone": "+595 983 140324"
   },
   "location": {
     "city": "Coronel Oviedo",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "f4a6baa2-9e50-414b-abcd-8dd16f87f8f3",
-  "createdAt": "2026-04-25T05:23:41.372Z"
+  "createdAt": "2026-04-25T05:23:41.372Z",
+  "google_maps_url": "https://maps.google.com/?cid=9203454693665761481",
+  "business_status": "OPERATIONAL"
 }

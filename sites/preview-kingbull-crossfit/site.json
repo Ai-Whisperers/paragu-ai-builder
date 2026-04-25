@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0992 905444",
+    "whatsapp": "+595 992 905444",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0992 905444"
+    "phone": "+595 992 905444"
   },
   "location": {
     "city": "Ciudad del Este",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "17c2d96f-12bd-4aae-b723-61736b134216",
-  "createdAt": "2026-04-25T05:23:41.438Z"
+  "createdAt": "2026-04-25T05:23:41.438Z",
+  "google_maps_url": "https://maps.google.com/?cid=17507426433874235787",
+  "business_status": "OPERATIONAL"
 }

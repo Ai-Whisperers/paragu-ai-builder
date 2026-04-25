@@ -147,40 +147,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Galería de estilos, degradados y transformaciones",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Degradado medio",
-          "caption": "Mid fade"
+          "src": "/api/place-photo?ref=AU_ZVEEcMyHv0TVrwJT5OszPF4hSKJG7X5_Bs6-dlyq34UxWsgocg5w8WcAKXafrGlmzVUgGyZ0tRSiSCMzKgM8ekJQAJC2USd2XdyVoSsTRRZ3kTXo6RTuWoBrk-DkRqv5nV-oh96zgmeJVPWDzezAyX5fk2QUUMK8kFmc4w8-VTzFLkbxrAi-onl2ZnHWVtMV5HVDtgRl7rrbJh5YowQzfYZbm5kejByUfiYZw_acMUFVbtMr9Pded0YRMnoUHs-TTCBsMH3FiAqLk8SNy7Q811zDgyD4RVrpHgSmfucR4nNwojg&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600",
-          "alt": "Degradado alto",
-          "caption": "High fade premium"
+          "src": "/api/place-photo?ref=AU_ZVEH98j79LOe9m9qGjskmWiA4YmdLQ0YwTtNpXumbpVm0lb1sGkut0AkzBHAvPPEj7K2cRPcKjeqgvo2xFoKoeR3Tf10YSghF_EAGdMU6h0--hNGn-DDE6OsMsz6c3jiFhnWtVTKZDFKqBEq1_mLhi0YVm6Kte8oyxvj2Zolbyv4lsqI6WjKJFbt6GqUlLDv2orWwd5beVcsuDSksX_0QhD_IJhOBoPpyWLJYkMe98U54K6W605E5PDEwL3OtAtQulBsvb8GaLq-_4lEKZWA9szJW9PqSHUAmQrgx9UKLsfU2W-snTSCFd1oAcxHRvh3l95kL8P2_5lPKGX4kLKHBH0qh4-MbJ4lhvIhbMQUzSkR3s3k5juen08fVSY_MTucpclRy4yTC0zWgzaWQMH0KbJKRLNN3QuNorTdQsyXy8eA8WUE&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600",
-          "alt": "Barba perfilada",
-          "caption": "Perfilado de barba"
+          "src": "/api/place-photo?ref=AU_ZVEFCrRIdw-dF8P5HnzVQyObRq62ctLtzaQCK0HrqQAXOM4vrNH4C9iOogdTOTohidplhHKaAkXbYMr-FF5QqLkUwb3ZDwR7mWrmbhM-dP-oAE1rW-UmdVJT-4qsGQoba7vhNq6o0M4To7UPsOCPuLOQohdm5N1LUU0S5TGyNUKaIgsqxhx3tC5VHO_1ibmq-35jRF7qHxDGXPLpZjEZQhgpTJdTryrkDn03yNAJtE6ZH96CesEjouOVth5XAGz_VqmYN5SMKfHSm7CpwPpIbJSZRe4o3Jt_6iY9nWg6gOQenKA&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600",
-          "alt": "Corte clásico",
-          "caption": "Corte ejecutivo"
+          "src": "/api/place-photo?ref=AU_ZVEGDXasyy0VlLb-c3NNV_h1fc-gYYGlGwGBY8S-NfEfdXZObcrMLvSUw9AhNIas0rdj2MdAv-xmvrQvVDMC4TJA3SMWvZcDMmxMPF2D7e7IHXoUeZq9uf83U-Fk9dHIdPWbOYnLj1iyIQMG7psfkBoUYQOUmlPoBo4PoGSJ6_DA8FOkoAZWk_GW9S1pmB45nrp5s1FpcvCX-JQXD7289J27pskGaGoswLuBkKBEonVbjSD80z03LhAMIA0Rd2IhFiKUs_AmAAwCS8Czbndo1dN_JmOmJfZutsow9JrP8n6EKyr_WOujWqdt_JXFmMAz2XBItCDRCWFkXvVDifBCGVFgmP-k_QCh9x2saXJ7LYvN_V90jWRi_h5yHSEF5lBlXex6m45HVej2P2QWXfHbo3QaVlmBhD4WSMV_ZJoG10dbjPA&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600",
-          "alt": "Afeitado tradicional",
-          "caption": "Afeitado con navaja"
+          "src": "/api/place-photo?ref=AU_ZVEFd7AKRaN5xHwBiyoa9eEFn0RmI_yrZ_3s_40092yY8PDnUDZgAk8RVfAFRcKfJfIPMIj_0oQl0cfKOV127TqYWB2D0MIAqYu5_cjp7dBfz7jbPAepjQfOvOhro6QikkYz_f7t6ij3KJUJ57Tcir77ZOfnBF0Y_1QKeUQGZx8_h4tcsf1DAZN3D3I_DQfjTZVeN62ct2nCeoMvLWYcu9K9-5Gy25MxmlRVNnHNr1-6Z_IkHV9PxWLCHktXNlt246etZqal2STGKEYQRg33J3cbbQgXublCCrWsJmeHA9LStag&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600",
-          "alt": "Interior barbería",
-          "caption": "Nuestro espacio"
+          "src": "/api/place-photo?ref=AU_ZVEEhHjI1BRDNRO3V7YRAfyKEf-lNlT5h-neEpqMQJB_p3v4yGiXs3CF_WEvglT9tlq7_wjAsMlXWySp_U1jq84nvuAZKBZbAvf80tHkCHJHIErlT1dZoQyUAO7vOQQt8KtKCMBieBs4iYOamKA8t1_VdtxNOGD3vc4I9diZfXC7i5P1PxNkuAtglwCGvpyk9OLmBg11qVb-HQjuBXmUB47OJCimNUKlFptkfWijbEj4N8biF-LVjULW29PX5k1s6ozSBJEqegT7Ia5CKD874Zg-7QMpjfvM7UNhhP2npgbFwSw&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -209,40 +208,9 @@
       ]
     },
     "testimonials": {
-      "title": "Opiniones de nuestros clientes",
-      "columns": 2,
-      "items": [
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Camila B."
-        },
-        {
-          "rating": 4,
-          "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "María F."
-        },
-        {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Carlos G."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Ana L."
-        },
-        {
-          "rating": 4,
-          "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Diego H."
-        },
-        {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Valentina R."
-        }
-      ]
+      "title": "Reseñas",
+      "subtitle": "Basado en 132 reseñas en Google",
+      "items": []
     },
     "booking": {
       "title": "Reservá tu cita",
@@ -326,27 +294,50 @@
       "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
       "address": "Av. Defensores del Chaco 1450",
       "city": "Asunción",
-      "phone": "0982 473078",
+      "phone": "+595 982 473078",
       "email": "info@barberiasanlorenzo.com.py",
-      "whatsapp": "+595985123456",
+      "whatsapp": "+595 982 473078",
       "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15"
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "10:00 AM – 8:00 PM",
+      "Martes": "10:00 AM – 8:00 PM",
+      "Miercoles": "10:00 AM – 8:00 PM",
+      "Jueves": "10:00 AM – 8:00 PM",
+      "Viernes": "10:00 AM – 8:00 PM",
+      "Sabado": "10:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@barberia.sanlorenzo.py — mostramos nuestro trabajo todos los días",
-      "handle": "@barberia.sanlorenzo.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 132 resenas en Google - 4.8 estrellas",
+      "subtitle": "Basado en 132 reseñas en Google - 4.8 estrellas",
       "reviews": [
         {
           "author": "Cliente",
@@ -422,6 +413,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

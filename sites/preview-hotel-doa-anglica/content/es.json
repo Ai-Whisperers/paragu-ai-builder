@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de San Ignacio Guazú",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "San Ignacio Guazú",
-      "phone": "0981 520182",
+      "phone": "+595 981 520182",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 981 520182"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -118,40 +118,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEFSZ2U0_Dw0SQFcepwwVUBf6kCJ3GN11bal46XoqFtYhGhvSVly95YUaiDqsYs0zi8S0ZuZ7Rom1IhL4C_IusyFSbSN7Rj3CgSGDczKMDoIPOAzo5SDEHY78bCX4YlQHciC_DKSwGz4kX1WTkcIMUkjO1dhsMcAa5SpgaEpUX-KeAFAon1YhsND67R1oT3BB7Qhk0ekhmk_gvtns63Q_uQp2AXDjOqrCX44E8hLPLZA4cOjbg8yiVZmo2gIXzxjH7GriGW_GpF_nf0Do418fYQo6LlVkqooQZOKdbczLtfxnA&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEGNugH1CwqcXkUAe3jXmIsYo09u_8sR3nKI5alqQTCqwOUxwixxa9qiNfuHSed5FHsV7X3pOgn_PeKZ2dZ1erNZFM4V-6YFpz86RF6StFueYoSRdILRyP3FenyfBGF6i8lyQWfyaY-7cEsCMZw_scr-k5ctFHeUj76KDzbwpRkH5eQIvIpr_A0V8hqbnIORfq4jJgKcfZSgZFcbpaDSquPtGJF5XDrHVRWUcTwKaxcZKgWc45Gi-9LNugOsfTyjbde62SqZ0n3d3n2YYTDzDubvrjezcHlp-l49RQTNBClvmw&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEFJLkUXYqCLIz66NHhXgHoq0O5dle11CjL3TT26WIVxiej_Oi7ebyNJH22RDQxg2-Leq6uldR_3VcxRKEAOtsalS5p73tB3yb0PHl90QQ63ia-b4GhPwju0fb1KtaxGAWVswrwPOWPlKdLa7agoVB2q63jQp3Xcg5ntxmHHKXnLKaxeQSavqg2489PXkqQCL0ozhJlv6UCCYqoTszKptgYXUCnJCvFMk5giObg4IRk-NLW5XMeuIj4IBAmzgCc4LpzNg4JT92XPaLD0VZPTm6F2NQ1bdOJn0Q2g4xT6Wfjotw&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEHvQReDNf94ZVKsdEq8M6Ie-4eTu13ExhpIHkCowDXRvQZ0jQY8dvrg7Jbnt_wtUMfnmlJQxpROsOejTaaBzjRuxDlg2IzPlTaWhqQa8HpD-u4PZwTEJl4srEyL1NAQyoXDOs0xHS6sTH9tc-ePaLyX7xnQl45Z76nqG1LIFhYzieg5Dd0r9d9-Fz-_rfs4c0cjOLZYSiVgSroJqXPm8GkXLQvU2I2e9fSLC6-NcD7QYFSZ3fkAusNq8Svqwy8P5zkGH2sQqanr1ARZ3GUUPsWfM3p9jNUtpbM5j_KlVFTmyA&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEHHH-87TZoTaCB2d-Hp5gJ5EnAEbFz4-EqWiUV6wUXCnVoI1QB6ssG30DQNttUZBhU0PJTb0v6trL7ZWoEIMDU8QbcQ2zRefrT2g7BMMHOZ_0UD7rGOrv1mO9xCu0uiJfvMg51tEDNkPCcXK0jjcvKf3QhSZivUlu0EVcQLZlr_mJQy30MiR2Hk8pc6re76AeE3_0QBBLdp6_VGtOriK-7-Hn_VKl1lm3EUMSN-BqzXIlPrQs23yZjq5bykgtwuzkS5L1YIZhWcxPkXLT6IijGXmM3iz09ECR18YrJBjvL40A&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEFWQapYM3f621Ep-YBZ11hsIsEd3oaSVqvGFMjlS4FAHby0ZrzhDHGKoCSVmjbwcRhKgdjoW3pgEICr5HDYD5ckY1_U0R-o0vdp0LFDKF5hJkc1UBfbzmLmQE3xh_jWXbvmrW9dwTVs1mblsyVF0pfPIJc02cvCATtEiSeRTRVSLNWfH3RX-XSyKLBVgA0vzMPrGmx_XwtwB5SYXOkbvl-zrd2cH3P6O1BWDiwsMp_VYDrzXxXBVKCiZKL0N2DAmQTfuaIShblaO481wtli3L52ZERgOfjvw4UrjHMqRzVJFw&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -187,28 +186,18 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 123 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carlos G."
+          "author": "Joao Brito",
+          "quote": "Top",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Ana L."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Diego H."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Valentina R."
+          "author": "Esther Catherine González Arnold",
+          "quote": "Jui",
+          "rating": 5
         }
       ]
     },
@@ -274,36 +263,54 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "Open 24 hours",
+      "Martes": "Open 24 hours",
+      "Miercoles": "Open 24 hours",
+      "Jueves": "Open 24 hours",
+      "Viernes": "Open 24 hours",
+      "Sabado": "Open 24 hours",
+      "Domingo": "Open 24 hours"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 123 resenas en Google - 4.8 estrellas",
+      "subtitle": "Basado en 123 reseñas en Google - 4.8 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Joao Brito",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
+          "text": "Top"
         },
         {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
+          "author": "Esther Catherine González Arnold",
           "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "Jui"
         }
       ],
       "avgRating": 4.8,
@@ -364,6 +371,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

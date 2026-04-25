@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 473078",
+    "whatsapp": "+595 982 473078",
     "email": "info@barberiasanlorenzo.com.py",
     "instagram": "@barberia.sanlorenzo.py",
-    "phone": "0982 473078"
+    "phone": "+595 982 473078"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "26859958-a5ce-4135-bcb7-ab3d393fe2c6",
-  "createdAt": "2026-04-25T05:23:41.346Z"
+  "createdAt": "2026-04-25T05:23:41.346Z",
+  "google_maps_url": "https://maps.google.com/?cid=13139139795079158024",
+  "business_status": "OPERATIONAL"
 }

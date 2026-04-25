@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de San Lorenzo",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "San Lorenzo",
-      "phone": "0994 122288",
+      "phone": "+595 994 122288",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 994 122288"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -118,40 +118,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEEgMYiSJpGG1qUbIJ1Mfn331MMaXMjO9JLNOGm9WlTCG368N2-2L7N3NqHLatKTx19oCL5Deq15_A95VBzQM2OuDaNdUVtNxwuUfu_8F61ICOozfjXj1sWPJKet9rhaAC5J6gXIO7cXu1k9hD1Zeusm_hTkmk1lru2vS9Nud13WPhaOctk0XcJAa8GX3eWi-ut32VXDXdLaKK2urv54G4x5ubDct1gfi5bceeTltrQtGzfwAb-Yhx45fozjCt-11wRwX5FR-s-lQcG9TaFzof1mEE6PEqAQfdc6epJYlW1aNNngb6wXCv_L7qUQEvyT-AgNcJtQOV9_jIePaEsKsuFxCjg1wZfKnG5O7M8mZSMHfh9rOLnwg4POimjUStLWojMxC34hidDWsXYYJdOhJCqPPB9G8ykH-BD6Kt1tu7u6lUqmzXa3V7YiDuE9Wfk2&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEF_EjL0zoh0Y2D0X4KLsKsZiCzfbHkFUtqWWvWGd7JbMUXkpvnWKKBNJSWJ-jROElF8FVC66uChWy6TDnLh86Z1KYnuw7nkqlqsYAJyjzK3EWU-lxm83seu_k_6N9o-_GVY-Kndl0IBwmX8jTlu5AmaA_2fmGp_iV8SiwvG_O62PzPDoJNkCesInWWzSZ45vQFWod32KgtzACGM6OPQP1Xl7WnnfC9e2AxbrflhRsYjvMcIvsweoRibbmCxtN2mdfu6MsGCRp5ZSsRZ2jbTIBqxYTvV2FWGSb_wWIPtUEbnOuEIPluNCsMS_6YvK0LTyk8BBV7EZkafHuQifVMTNHvmG09shbUDGVNamt_l7P2MBywLaWWpgfdw2BJYDUG8GhJkrK36gyqToX7z1X3wopMY4nzJpmJbQfx7ERq3gzcPi_AQvb6z-KlzTDh1Pg&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEFX6HPYaW7OEoPIsyKvkl_MeXR8myAjI7uZ9pPLvYj4kxmnqLL4O34Ce2QfhAp5VO00W3e36ny7fp_FGOzTc2_REMHkgDT-ofoyGK6HEpJ6uyQ_Nw50cTM4K7tzUbAk1XJYaP6r69d7eeryVEYO8ZgCzx0mSrYmZTS35HQXWJL47Yey7AdKwUKjBVaZCkvT-2Aco28f-S6eByYoKawvPHZF9pRzZKabbuRSMwjKUmfTkY8ZAT76xzR6tejUiqQ92BgBMYVT8q_FskC0PbNhMpzPn9WpLDOm1AVWQ_6YZU_SCMK4wwf8a0ht1UeVqQ2hpsHWL6WcYk9Avd3v-MSfj9YtJWpacC6Z4c4-HqFTu0kQUkBhEu3Sx-u70DUFh__ce8fuTGANDy1VQTCHnkJyP8B2p1wm-iv_WiUTBgNbqFVOlhzxuMckVuq5IiaGKzw7&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEH29_ngQADvDz-dgKyF0Sc2foS2uL_C5x5YEYJlGl2wqj4kp7wccDBFOwSwSA2PrGYTWLrs74ddMKS9s4rJRd-uAgEBu7oTXmasEHFBqnNUKMjYFreFGNpeJq3ieBDRXv5qUC50L8Z2YVGrIH5sWwm5FMzB9VzqvLvhQE5BuW2YhBGWv6Egku6Rwxx08acDMcW0DyuitLVb1HBUqtSLcPsnumJQPtiWudlIP6hbAZ0yt_PCL-oNOwuxg8mgTfQjgHtL86uuVcTx_3KYvXz93GrSb-5Q2S1C9fVb_Bd4oLnkZgN0nBpiBDIFCcc6V36lDd_PJ8u1jH3NsdS4p-aEt8hUtVVOigVB3LVV_sZB32_mWW7NJhWatZMd2C1wihup7kp15vzopczDg8j6nzleVPKoOYGJWdPvxPnokEPudXAM3CN4GQ8Tt720JY3mvbC2&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEE-SmAEnxofLVZUwC1HL1VQDEzYjBAq42PcL6RaasC2WqMHl-t4vhla_NFCnyzb65EuIAIFx_as21i2wzLE78L6btRzl2O-osmyzUkj57-OKGkcb21CquA9HURSowiIaFZnMn0_MbyOxXIdbZL6HSiANbkUfPEgfoLNYLV5dBlFSFVAZRjVwl4-BaZgPxhohsCteLK5SKk4oTXkORFTZqCehuOZEA6DJKvlVYgthCmimXCj4Oql4_yyU9InWvx45t4L1rNLGZr8oDvWJsWI2CQjHaNVqdH9BFMdSE44Ip4iY2cmEUTX29WXv92IRQk0fevEU8Ls3BdhiCr5HuXqvYqLlS3tr8JdvnOwoKN0BxACa1fgbmh-yPqB68o9xlgbNxTr1hzwOQQYmqEZBtDtEXLqmyx4FCW8fGprhe82z0HcTrPTNjRfy0ybQFcGSlIp&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEE58YBOpr9a-pvl5N-3K3zqfiKl7wNfTW1jkd7FVmf1oBfjDFx4DnzvbzuBE-stS_EUtECb_WuqtDN9fD2V2qhulsBaLxgaqd45cnuJMd8NUIxkhIdtnMI8xvhNMzsjlh6iTtD85x3EAAHprEoLQzRnrOjlcp1liwyfb4MS8d---C5EN3Vy105Q9U0rHOeDFfaQ52w2AD14l3GQtKIwpjE8UEhTyEys-roFTDW9wzjP3AeDR_EZj9zBkv0r7z_52D8ZX0UqSaA2zXS2qUwdxZiRbiwuM96qta30xvYxh-JECnGVNUqtj05cw7XktJLx6DKeIXbYQV9bKb8ovB7IE7n14MzANu3V44VV8dZzdHTRtPNqrH_PaLUYVRLxDUvCQimgIIRfNXhmP4vffxwpeOL2-1Eirvp5s_zuGW0WGnS7S3KWvDgi7R2mL_EoVEGd&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -187,28 +186,23 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 110 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Laura E."
+          "author": "katherine baez",
+          "quote": "Excellent service, I 100% recommend it, girls 🥰",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Pedro S."
+          "author": "Alba Marina Ferreira Rotela",
+          "quote": "Excellent service, I loved my experience",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Lucía V."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Martín D."
+          "author": "Mariela López",
+          "quote": "Excelente atención y mucha higiene. El lugar es limpio, seguro y el personal muy profesional. Super recomendable.",
+          "rating": 5
         }
       ]
     },
@@ -274,36 +268,59 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 7:00 PM",
+      "Martes": "9:00 AM – 7:00 PM",
+      "Miercoles": "9:00 AM – 7:00 PM",
+      "Jueves": "9:00 AM – 7:00 PM",
+      "Viernes": "9:00 AM – 7:00 PM",
+      "Sabado": "8:00 AM – 5:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 110 resenas en Google - 4.9 estrellas",
+      "subtitle": "Basado en 110 reseñas en Google - 4.9 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "katherine baez",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
+          "text": "Excellent service, I 100% recommend it, girls 🥰"
         },
         {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
+          "author": "Alba Marina Ferreira Rotela",
+          "rating": 5,
+          "text": "Excellent service, I loved my experience"
         },
         {
-          "author": "Cliente",
+          "author": "Mariela López",
           "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "Excelente atención y mucha higiene. El lugar es limpio, seguro y el personal muy profesional. Super recomendable."
         }
       ],
       "avgRating": 4.9,
@@ -364,6 +381,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

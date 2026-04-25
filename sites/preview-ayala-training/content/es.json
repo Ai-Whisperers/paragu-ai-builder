@@ -54,9 +54,9 @@
       "subtitle": "Visitanos en Fernando de la Mora",
       "address": "Ruta 2 y Av. Mcal. López Km 8",
       "city": "Caacupé",
-      "phone": "0972 114479",
+      "phone": "+595 972 114479",
       "email": "ventas@gimnasiopower.com.py",
-      "whatsapp": "+595983789012"
+      "whatsapp": "+595 972 114479"
     },
     "promoBanner": {
       "title": "💪 Promo Verano",
@@ -202,28 +202,18 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros alumnos",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 116 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Camila B."
+          "author": "David Bumstead",
+          "quote": "Unfortunately, I can't recommend this gym. The music they play is truly unbearable: at an excessive volume, with DJ mixes that sound more like they belong in a nightclub than a gym. They also turn off",
+          "rating": 1
         },
         {
-          "rating": 3,
-          "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "María F."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Carlos G."
-        },
-        {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Ana L."
+          "author": "Oscar Benitez",
+          "quote": "Well... one of the two best gyms in Caacupé. Clean, organized, and fully equipped. A comfortable and pleasant atmosphere with instructors who go the extra mile, ensuring you leave satisfied after ever",
+          "rating": 5
         }
       ]
     },
@@ -266,9 +256,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "05:00 - 22:00",
-      "Sábado": "07:00 - 18:00",
-      "Domingo": "09:00 - 13:00"
+      "Lunes": "5:00 AM – 11:00 PM",
+      "Martes": "5:00 AM – 11:00 PM",
+      "Miercoles": "5:00 AM – 11:00 PM",
+      "Jueves": "5:00 AM – 11:00 PM",
+      "Viernes": "5:00 AM – 11:00 PM",
+      "Sabado": "8:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "trustBadges": {
       "items": [
@@ -282,22 +276,17 @@
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 116 resenas en Google - 4.8 estrellas",
+      "subtitle": "Basado en 116 reseñas en Google - 4.8 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
+          "author": "David Bumstead",
+          "rating": 1,
+          "text": "Unfortunately, I can't recommend this gym. The music they play is truly unbearable: at an excessive volume, with DJ mixes that sound more like they be"
         },
         {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
+          "author": "Oscar Benitez",
           "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "Well... one of the two best gyms in Caacupé. Clean, organized, and fully equipped. A comfortable and pleasant atmosphere with instructors who go the e"
         }
       ],
       "avgRating": 4.8,
@@ -358,6 +347,86 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEGBLoCqJEqJanGCrp8XKq8H2rNCNGHxyUoWIKqBd0tMGzlV8vkEsNgL_klimtltlN32eMYPmnK5P6nulDzWMtlpa5JB4-g1Gny94iewEEUEyGXp16p56irwAoLVCFfJ6VVGNAVkeR-3d0zglROd0dePSdtvmBR7he2XxNBgArlngVuRYdbGaC2qPR2tMX_Igxy197wPVOnwgOc-bf9sSFL5nkyddus9RNDZiVKR0sTbnIeFFJv-rg55pKrTjOWblGDkx_Ri30ZOQPYDkegs2KWVx-K5tsF_vthlSQL8F2rMQ&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEGqjI2WfULelr8uLfqKfizMSV5tzRYc5K43z7FsnoQPHablr7BZvM6gX8NWiuBNO8h6Oom-H5RiWVfWRWib71D2eMo2NLt3Qh5SWd-jcizJpg3RK15Pe6idYUARVU3qlYbdl7YRSZaWEYMbLSodQMiCNefOgi68CnE-q4wal0GOb5pvPFLBUspf60Rhi8W13jc-XRguNFXYZkyxs4GiAFIaUnvFIILei--PbltVlp7oHF6pn2T1xhAyxlcdOx-Cp5s4BqvrZTxmEjUEyJ79TskbeFLFBQ7pZbBigTCib7YbIzkpAS2flXfYOK1rKUbHjEV3-B-HWX4yVVu0aMGr2t5ZcxgIUr0bVXUzCethRfdCzm9SCx5DWuc_ydIxzbW_07yY6FbdtyWEGudNuhgM2gmqJNJ19EbQtjc3wI7xnVvXJg&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHfbHrb-h60TExTFdjRlXSXYtLHVgxE14Zea4WF1ipq3cpfKSmEE_4Qtuczn2MrEqD2L0QizMfU3weDMWCALSzX-UY0cp-p4_Yafm835Utxvlo6HwYG9BgyeEk55DrlAApLKQnV7YOaw7RP3dMSzsfjost0zTAgIlFGPpBcU1xFWyqlZA-la9catJQu3XjG0l8vtMPM1hQyDj59omgQ7Bi7f_vlimBU6TKsnqGxYud4xoQ9Tm_FeNBzJ2q9x1J8AoH7C1nSeWfPxpBhvkIM4gCeXEZYRO5RniBgEYCKfdLaXw&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEFZvK4nqKBcNuPoHPgBmUTXE4YapQrQbG1XszKkNdKx7uJt7zr46Lmwh9_gZySx1TLvLIBpdLJxO8Gp5x9wkxvwRun1iZfyeWXi-AzLZcuK7fasPao41eJipFjhG8r6fy4W-EuxzGGkXJaRd6V_ibPGBLXbjeUfdCd_WE0jQBsJeUJ8WbdApUD0bNA3zNvrhjNyPpkmKT4ybNVwU-F4mKmj4allZlbyy2PBS0poj6d8oSOJJV-I46gCLc1_3xV5jDKjF0XdYaWwsBzUgXjf9Ey-osQpT4cyd8uZHUiQ-QXYVw&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEH1mF97YBbfGgY5beY_WGT5OaVI6YgkyP_2_cLXxBrvjyMBy4sqWCTcxbhMWrLsea9I4Xiuib6jsv7xKE1eEAKY3CA2-Mb5v2EyBqayTQS0C12h_N_g-CKjR5VwonoMHoCuPpFtyXqcYJu6gz0z736Q2Dgiz5k52EDh0VOffYb7IQMiSDzEIg-lFXB2YuGisIxcdWh6VYxNL1-NQeoS2a_Zw529DQqdJlWuZ3OPw5lcgxpHw_yLWmsABit4UvHg-E5JaJRoos4TaoWAaPfx54o8Vjm3jhv-MKjqOttemRr5Rw&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEUBPl6H1qJcHeUHnPmtuontKxgIJb2ZL9sM5K1v_kUe_egeQVLXI2-t4_C07LnZnqLTUpuxFq7r9CYoOoAtjqPwlZxf1kMEWTB0c58JBD6sOSmgSsWiEyrSCRVhos_6hHkvpUWnU1HW9MAyw5iyEYMF8L2SxuAPz69LBdeWeRC_9Vtll25MVeIhTn8newpD3naPZl2-NNjyMA39k5YTXAalYa-oeDRyv1sYBK0bawT87MOnjxs0eCYtFT2kgjbRZ61o3mbyRSc4Z4qhCY3jyDRpfXGM-62HNmYz-GcJkhg1w&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

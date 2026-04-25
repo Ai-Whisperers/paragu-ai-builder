@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Asunción",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Asunción",
-      "phone": "0981 301077",
+      "phone": "+595 981 301077",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 981 301077"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -118,40 +118,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEH_eLsEzNIRfabNI_h56yhiCZlLwt0Gyn1sfRir0hK2q4PTWhsvkR04gdGiBMn0jxLQP0c2zvRGTkQvRYUeqnd1xmzBta3VHzaxQ2RFRmuuMCUJuI4e-sTPzLO3bjPCC-nIRJ4Tt1YbaOs9x1CmCSfHk4M4jWC3yJz4a715VOv1OgTnu9-TEKhOUkQDCtail8dJMzAZyBO-rHHp6mmt8iCU3siZUQ1NJZmfCJuKM8Di4IFZXf1HiYUsaSCoEJl-Djr_P5a7ZqX6XJp90jHzfxie8TY8UlBmGgB4X7_d2P2LRQ&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEE6dsS4aNkt0E8F2H0RTFKZaxNG9WqacEMmL6lF_Q83UwCfLXcBAoA2GqeExHaWNkc_QlBSutBcf8QLKhEopBMqPshpRm1eMQxWprhq1HhV-kooF9vK8Cuaor-Z8o3YjQ9ZpAmkGyNFYgnmKdgO1EEZQ8HZdhmUMviiWeDGkOur34_JgleKeyOIsCcch3tR_BZoJs1kdUBLTtlHk5eNSr2ftOPAZE_k3_J_74MT5VJv9ABsHqS34-JiaNP8DX_DBqVSxYCdA1hikX3BS7PYKEZ8pTwAJ5updT4eoPkmEc91Jw&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEHkXbEZxsijVTOHx4ZjWO-aUUnrgD9vZwN62s4Cp99yoQOGvSD-hYVk40i1PK78V4SXTpCcDWbTWEVQ19gFDYvsDX78cvF3v__c5YRKW77FGwGdaeD_thf2M1rRo8wLxKb6QmkzSfgxL5Pn-SAgdH8pkpb6mOUmTSvX61Ohh9HWVq2KNjKkW6L6sEuD66SWZBUTdWLc7IcOouxYnGpZ4qACK8ql7wgdhoMsWARRrVuKipbJbmi35eGeek7edIfQMtB8w9bS2dvrC4he8geQThoikrbI-g2GuosU3LgionQ6yphHlwHHOERxQ1NPSsdWxHKVhp97oR36jBWKmzFrXftq7UGvF1RQxWeorEc4wZ6vQUA69X7DoWuyNdQgqqtMFAfJ4d2J7ov5W1jIesEp-t7qUvInRo5_ff5EClr1EGitNKtH&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEHhSHvMbLcoXyfqb350IEUobPLnzFvdWEdqsij3u4hUVfvSO9ori_q5L0rNVo6Oki3VRmlMvnXuIMbIpaFSQILH7a0GcaDND1swcgM1uv7HhpdMZWEQvTAyUBDOxaG4WPaYcm3ss_wkts--517vwaAO4-GjrwbyyuXBQuDx809Cyj6R4fPKSLtA0DF9ZTLzg7V0ZFJF5Kdco2byo4LS8uPySXx06Id_5HcbRgjLv_JbK3hNpwk7UwwVqKRK18jtDwilhOJpgRb7CFMSZFCNlZo0ZjIt0Dz5hFfZT_paqC4IVw&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEEBg2Tq67o4gJmyV7l9wsPtpBQwvyxsMDiOrRv2sTL3OqMQCd-vSno4Bo25zo0ZSEHFSEzTYTlDf5g3NP2i-wXGDbbmB9n8gz0s3GQDafm6-1ULRS8kCwXp1YKDrSoAbcm7WX679ody-oeCkLV_GSqJHiUZWMSIEOC2vw22Xtjpypz_ZPuaomqf6DnyGPVE0GNpE4vwDMrnAFnZKdsjLrlqSsFrrD_S0QVcKflQImXbPZQEONxqftgECKQIAOOukM3_Z-b07nf3wddCiPxHMUTrcARkPc5yre9O-S6o-9lgtjwe2ZvHRk9FO1GYk7D3xO045lZuklbg3BOhWbQvPKlLA8UU-HMr0tXy0UFHJ1gQaIdWfr4CZOzb7I4cv5DDPYDSPprj9oRjix9iwqKRA-UlXfDjHJAdheSDVa1CWXw6XA&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEFo6mehq6nyDewwukIUJItPS4xh5Ti570r3pcs0hc2_eSut_bu98qGYDabFTU6e6LsywNIoivK9nzKuY8ESPJM7bPlHKYNz6W9JsJ0loCicdQUdlLExM-Rk4P1rMiNyfwwi6IkkF1voy3urAZsZfd02U7q8-B42cJXCNzlBAuBuz5Bg2djxZDlD0-O9lfsPerGdycbxo6A5KFrwSmY_1MeqaXqpAsU3WjB0SizD38u5L3e52zxEyyAYGHIKyFrE3BU6P7VuH2nRSmeU2A2PUccgPJK0t48YX1F8_jwy7h6nJJubI7r_Tf91UthPCsB5XdETtpHLsraZhj8_6EmELFkHIUEyB2ezherrqUW2s4BE0HPUGU6301fs2N0a4P2yKcwxg519U9fgy_3-HdOJtcqY5c-ChsDIFNIqRWWLrd8&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -187,28 +186,13 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 123 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Gabriel N."
-        },
-        {
-          "rating": 4,
-          "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Camila B."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "María F."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carlos G."
+          "author": "Martin S.",
+          "quote": "The service was very good, and the place is very comfortable and nice. However, the price-to-service ratio is disappointing. When paying over 200,000 guaraníes for a haircut and beard trim, you expect",
+          "rating": 2
         }
       ]
     },
@@ -274,40 +258,53 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 8:00 PM",
+      "Martes": "9:00 AM – 8:00 PM",
+      "Miercoles": "9:00 AM – 8:00 PM",
+      "Jueves": "9:00 AM – 8:00 PM",
+      "Viernes": "9:00 AM – 8:00 PM",
+      "Sabado": "9:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 112 resenas en Google - 4.8 estrellas",
+      "subtitle": "Basado en 123 reseñas en Google - 4.8 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
-        },
-        {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "author": "Martin S.",
+          "rating": 2,
+          "text": "The service was very good, and the place is very comfortable and nice. However, the price-to-service ratio is disappointing. When paying over 200,000 "
         }
       ],
       "avgRating": 4.8,
-      "reviewCount": 112
+      "reviewCount": 123
     },
     "packagesGiftcards": {
       "packages": [
@@ -364,6 +361,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

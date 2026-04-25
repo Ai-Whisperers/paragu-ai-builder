@@ -253,6 +253,12 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['tabs'],
     requiredContentFields: ['packages'],
   },
+  'instagram-feed': {
+    id: 'instagram-feed',
+    defaultVariant: 'grid',
+    variants: ['grid'],
+    requiredContentFields: ['posts'],
+  },
   branches: {
     id: 'branches',
     defaultVariant: 'cards',
@@ -562,6 +568,7 @@ const SECTION_ALIASES: Record<string, string> = {
   giftcards: 'packages-giftcards',
   googleReviews: 'google-reviews',
   'google-reviews': 'google-reviews',
+  instagramFeed: 'instagram-feed',
   branches: 'branches',
   sucursales: 'branches',
   properties: 'property-listings',

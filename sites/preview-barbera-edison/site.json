@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0994 166358",
+    "whatsapp": "+595 994 166358",
     "email": "info@barberiasanlorenzo.com.py",
     "instagram": "@barberia.sanlorenzo.py",
-    "phone": "0994 166358"
+    "phone": "+595 994 166358"
   },
   "location": {
     "city": "Villarrica",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "0f75f7c8-b812-445c-a5a9-9e3f105d8d01",
-  "createdAt": "2026-04-25T05:23:41.401Z"
+  "createdAt": "2026-04-25T05:23:41.401Z",
+  "google_maps_url": "https://maps.google.com/?cid=3697653350253108067",
+  "business_status": "OPERATIONAL"
 }

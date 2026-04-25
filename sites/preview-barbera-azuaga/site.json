@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0971 274507",
+    "whatsapp": "+595 971 274507",
     "email": "info@barberiasanlorenzo.com.py",
     "instagram": "@barberia.sanlorenzo.py",
-    "phone": "0971 274507"
+    "phone": "+595 971 274507"
   },
   "location": {
     "city": "Ñemby",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "257749c7-36fe-44b3-8de9-c113043479dd",
-  "createdAt": "2026-04-25T05:23:41.360Z"
+  "createdAt": "2026-04-25T05:23:41.360Z",
+  "google_maps_url": "https://maps.google.com/?cid=11519448403548673427",
+  "business_status": "OPERATIONAL"
 }

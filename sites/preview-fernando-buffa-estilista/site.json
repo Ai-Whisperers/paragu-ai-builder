@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0971 609575",
+    "whatsapp": "+595 971 609575",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0971 609575"
+    "phone": "+595 971 609575"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "2cda6481-83bc-4c2a-be94-af8ff73c076a",
-  "createdAt": "2026-04-25T05:23:41.390Z"
+  "createdAt": "2026-04-25T05:23:41.390Z",
+  "google_maps_url": "https://maps.google.com/?cid=7732149492698027619",
+  "business_status": "OPERATIONAL"
 }

@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Presidente Franco",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Presidente Franco",
-      "phone": "0985 518105",
+      "phone": "+595 985 518105",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 985 518105"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -118,40 +118,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEHzyY4EeAOmBL0NoYimgRKuPYPhu5RkBOa4Vu90y2y0zQmwTJL70cf4t4lMv5oQRT5Xk81tu_AjdMi0iNj2RwrdmTvv-ZHE-Tt70f5ntOrFUwxh31XQrsmaaBsqKrD4ZLhSBXAQ4Seooq_UMMOhbHj2BG1RvZ8x6pXSJJIfmd75mHy0DDwzY_X_u9WAkctlZrpRpUpoOJhS2pxtY2h_1ZrtS6Rbp5voJX4sGMcFQXT5_KUqKAKHrAift_BsFeKhj7oyUYLg3aGtSRuktyC9A5xr8y4DbhGSJtN9EIGaJplzggvHZ5yyouts9ca6FWjXiLqxqOw_MAn4tde-Vaap2FHxcbo6BMSVB5y45Mrtx-Po4mM4NUemlW9OXDQS5ZFXYtNxtU6ZEogUEdvg0CoZxXaLvKUAjWMHdhchqamJEkI&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEEWVSzoAtZ4HUhyh1TVZaicploG9bDUokagd5gjl4EpgnYVjF70YWUQFG88yIsWI3H60eM5Ogt2F_-WZ8x0b0UhNxY4BDrw9vvN9cM5YoQXb4U35GVDY8gBGlWe40qr2nRoyixn6eXxLKzdU7_nPlzae804vEmBN1RuXd9LRti7Yv-kodyL-quyTafQeD_ZgfsDPKdSyNZcDkMbvaNggDhqMT0kOHr_CxmzDvBuwRWHn0nyM_Cq7s4FTfR5N5B8W4-xfoXoaI3tttq74TllST26Zwhn-MJw3k5Q9edDWD17npSdFoaZPeW6nNeINv1Vx16Vf9qvuZ4zuUP_1-LXftyYUkOGaiUIhfeI1exksHpqo9EK_Qtbz68Yq6DH0vAWdof2OgG0mQQyoZ2WwV56yjWkXa4MyWMiLLFhZckGDddIKQ&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEEig94uE5z8RZ_c339357ZZsa_bRY4TtO7UMyMIGpoJP440HL2MmBNtIywzijccOJGuEbMFvKP4E6vDK7seyZHe7T28_Wea9vf3NqBAoL9APWWp5VxqtqVnxrvl54z3ieJXIhtmlQv30_-mypRAc7oTd0a2690n0psbg7jnTGXEVHjv7ugA2-EAtYxNg0unws7nDuYRCPQtosh7qZiOL4npDLNe0weAOg_n0ya1xfWv0V4WBfmsKpnHZEG6p9reEuGqAztb94k_QlZLVpPyTsRGfa_8PRIi2wZ-Ld7BSzNzeab7FLlIN2eWE2HM79x_RL1Y9mZFCUg6vW5eDh7xlCXJd4u2mR6vHvI-EZ7pcspC-uGtQS_JsciBItZDcsfX0E7ICxyI5-_vu-Gecoh4NVUHCwh2yF-zTtkVrPfMxFj3mN-4&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEH5FWHLthyh-C7m1tsZaekXHplWhESYMdGEXGxhki7PzaCeLb0Bd7aTFgxR3Mbg7fnYPdFO3Xe9pXR0uPtvlJ-tlnZHIxBOtbrbJpavRj5-s77ndOOctwlV-PUPjACRl_KBvGF7YNfWlvBZULrWQa_IMumaCCWlcuPtFfFagmvwcC93Mxig--kTJlRjcX9HsuDIElfas29AqlANi2B5M0zSDuCPx2lYPHo_sjoKnbbLBu0gccJC8uP1l2ezwdS9Y4fvcJMKtnXS56M3F9gGURwnCa40xAbZeT5jHVBAmxet2XJnqxj7dN_evk7q1Vj9jhI-32-6J0-9ScS6TVCYCf_lRSuMbrJhT51xEHUyU-NjLLxgHmagLpRoGWBDlv0pKdU8Dr3udhKOqnGi8F20EWSByDXelIJrfe76YBhhc6vcuw&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEG3tS0c0FAW81Mqv5vJvXBF23XF8PGBuivZnD_eaQhKykg_8B5N8rqDSfD895-A1z3zfZYL9GIisRrIRwyZG89rO3ZtQbLKgOA9qhNq8ceioRpeNP8wJSB5TZ98mxyke1ohD05ZuMsxfJ4cI28goBireN4syVSHAZFKCqxORRyrqv7PkYD-4OIqpHf_DhX1rfDy8_WMPZPO6m1qG1SxkrcG0vGuFiC3AZiQVQTYbSQ8JMtCrpmEbZGFS9Rj0rzmpYzSGyzVFkbs86gxVoU4hf9IGcCm7rLDRtt4twvs1nL3yGVBZFb4XGkLcDEt8BjuHSH2_Rbc14goEPf3nqq5pHgZylhWlG8hsQzvWM0aIf9DDRIOdHX05L9J1sQyRyOtIjzgAMOLm6w1aIHFdJKlZ2WWAymL9DUFOJAT5tTmyE0eLQ&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEHyMk9oeOo5VeL_w_xdS8klCY08Tp7J_ABwjh0Lt69mfPM7jMwUALri56VoUDkxANqtRtexzNnN140-VuqQ6n0oT9jtzLzPI76ijHvCSe9cnj3i5PqgAnxIZTM8Z-sPIrIVWXnYdcVgmnoYZ6dtcmBJaWertiXdeYLdB0RqpCKEuVIK-lGwf4Ro84HyUfYE2Gmc2Fjyb137XQYH-QmjzY6Slqj_GJAEmfrLVOS4iOeUDaG0vwlPtWPO0fUZl6Yzc5_Eb03Cm_tatVe_UyZFwk4o1_g9UbDQCx0GIquFoyYaNe0qVVlCBugotsHl0CAILJScPa6yAE6z7DoYg2cNz4dsqPjur5V7F1kaWTgNS6QEgRKms36YuEGxu6929DDiakdBAezbfkGW2zTVITHvP4e_G2bq57FYCmMYASTx-Ovv5ruc&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -187,28 +186,13 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 103 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Laura E."
-        },
-        {
-          "rating": 3,
-          "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Pedro S."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Lucía V."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Martín D."
+          "author": "Jose Carlos",
+          "quote": "Gambeta FC Field 1, we're going to miss you!",
+          "rating": 5
         }
       ]
     },
@@ -280,30 +264,39 @@
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 103 resenas en Google - 4.8 estrellas",
+      "subtitle": "Basado en 103 reseñas en Google - 4.8 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Jose Carlos",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
-        },
-        {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "Gambeta FC Field 1, we're going to miss you!"
         }
       ],
       "avgRating": 4.8,
@@ -364,6 +357,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Ciudad del Este",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Ciudad del Este",
-      "phone": "+595981654321",
+      "phone": "+55 21 97585-1255",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+55 21 97585-1255"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -117,40 +117,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEGRIa0z2I05pU3zLC2TFYXFW_-B6P7Ttw5dOKlm2yfL2-IFMNKUeU3JMXr_gtJyp4Ek90SFp-D6vRgqWUD_mFvQQfiwMZRW4RBZOYJIM-GiltzD6m-3wLepnI_HqfV9rTijpetcTImFx5-GYtBz_mzq0L96AY6WrtLZklI7biHSnTtwAI-Mjn_33o3r5mbgjiHnJ2R9Ps7s0k-jgCzZ_Z52NaYwWrCttjFINIwGSyCuPyy2sIbe0s5hXuBW08SXxNIxz9Suovqn7ebIe-7LFm25qTISRa6EWWNOmKEw9UnZfRUShERo_tKEg1z71kFYViJKyQVcJpKaHj52irAZWv_QdlGxLIJAj62gXEs_nlv4UoD9ctmsZYR1Ffk8cz_M-lnwnrpGx0bBNKCK-r7Uv_ZpSj3-q4MAtowvgspoJ_tFLA&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEFtCQ8cdlm_iKBFjAt6fdVvUqnpDzRuxWbkq38W08KjM-cHNS-UYJwZWKM_upP2eX6aorQMh6gTVL5YzH5fh8PC6IpP7r19QoTHhK_ONG8l6_sYb4wV2H_sRRMXaDe17mtgTR9Sm7rTCwQMY2s37T7Ff7D2kPHDfsYWA-kyJBIoyhuHvfRKIvsUSKOJtVncSBUQkA8CKknJIJT_BLt6DWn16rY3v5MhLe9rbNt0OMq5ft2wwH5ESB78bv00i4B1OrJzS4QxdCphxeRJq7DLaWMINMxWGJXcHgzPuz3OCsJ7xjtfDcEyKG950_XcSVYUXmR7fBcEICSEtE2se6LaZ-PCQnLTrxawZsG4yFIq41r_xM6fWTncgQFV9ZK8yaj-a0bvDNtLWz_IIKQaCqUytSfwBEu-zJjITDmIE6a7uTILFw&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEGEteg-Yc65gwJmXjAwMyU3j-VmRRPotGRnYUiSC3hGbaK5JtWN2wK29SqKHTP1cWLGTpukSz-WbI5ct_NuXGze7ovvdErLxQk8a4lw-b3POtM14NLJMO_q7lB3416KJsVovj4t76abHfMrie1OdeT5QsOBLuQLr9F0TWLnqI46gPinRP1GTw98GRuWsVMs5GhYALwqxEMBoACGwBojkZ2InQdG7geZNVoROFxPWaRCtIjSRiF7Jd1yoeIMY3uZp_S7_ndWZcHoUHGPUsrvIgog8BYXW8x6isUOjVx7mwosqwCeRAJDnJO3OkZTKLb5r-E4gusTIDXOVOVMhnz3vio8NKivVr-FfiFdHD7MJLxbF5fzFUcUCrltejd9TmaL_8df0wD1gEILhu9jg2a8MsyuyqXEzNVzJ9ZEX7pBtETtDA&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEGGql3fRfknvViIxEQqSF4Cet5RR0YqzrlVpQ-y-NWEvY49X7HZ8asH0EbFyuZWbW3YXclM41_b7Krl0lb8t--W4StxcSeKt1-X_WUSa8pYQWFR9UjzytKUklsF9BRibmeEoXZ2yk5N5QSs8CnjvER15NeyA37ssYeugXFMVxuSdgXn5j0oKnXUlZE3bHNKywVPZpGNkf-LHop1I2rTzEvCfZCaVdTv5Do0soEALd9-_VOP4JCis9xG26rMPAJk01TpjeMClEhjW1-WwVweLBVQime5IAD2JxRM9jfpQqWzzOyYmZU_jCbekgUwU8qaVvkIrLNZf9D7n3Qt4j1ZcPf6urN2WffWfsozwFHIX5hSRhtRHUSCHvZhd6Acu_y7QuQ5UfhfaxqIME41-1ziGtWXH9S5D49QbBtpgooxxuA2uL-B&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEGrIOnFHCELUt-nBay_LVwYKGT_an4_r8PdK2ImgFV3nB5CDwxF7ZGwhXaUoNjXbMgLOZ98B5cgdWMub_r4LH73uxVRZmvRBo9wr-SKAZTf9ngYl6RhDCCPn0MIbFPp2NcVG0XpdzjK4jErakz6mvSuPGfMQ3WVYaqZ47FuOv0Ubo4XNSu_O_WvJh6XpQ-DAxKjFtCthZ7UxFVCvQR0JAy1XE0z-ph8Hymzo1X6OSqYO5fOSoRlDxOUV3seQRHdX2ZB0N_aMkrICl9GThNHjj1YGSRB3-EmQBBW-dMrUN8P74E37ff9VBgngMIPWQG-8F4RMXVyn6QA0L0FUa5_Oz7f-61J_P3asvUa_p40hnC7y4YdnA7GXZZpj2CZibmH1zlSkc7lGeY2Hbcz1wt0dS-prOoApFtgKzSQmDdf9i3D0FNN&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEE9drJY_4gDyhQw0lifHV6EhP5905QA6yrci4Iv1W6N06EwHGO9o5AiRIL7mh0IgtTicYL0f0wzhaZc-eu7wSWEHrUZv3jekFjIPwNEq5RCHyAxQFOOvfChIISMjXEB1pgDBvAfXROmTirRGshyUGVMauUp04TbzZsSmCbSp8BxQ0K0KvN0wQEEFfHvGK0lsocnRWwYqo2bLKd1Y9mjPb_IaJCdxCyRqx3-AnQUK0F76EZQh4KWLUpTsJ8Gqe085FpS7kUwTvCylIIb0YAt35PlVaw6qXlG_gp3OQeyc8HhISA8WuBjV_MWWJ9xebB75j0kSD2IzdD1hLRmI0NFFq59lq-jU1qztm83kv_IPDU-_P2Ypg9CQLQowNMiwBausiUy5cC57_uVHw-zyiFrO4FJt2hIr8fAXwmcycv63YwQ4_Q&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -186,28 +185,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 114 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Jorge C."
+          "author": "Marcin Krawczyk",
+          "quote": "I just had one of the best haircuts ever at this barbershop. André is incredible — full of positive vibes, a great communicator, and truly professional in everything he does. His haircutting skills ar",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Laura E."
+          "author": "Arief Lautan",
+          "quote": "¡Estos chicos son los mejores!\nServicio espléndido, barberos talentosos, hermosa tienda.\n\nMe lo pasé muy bien, aunque no hablo español, había un cliente que hablaba inglés y fue muy amable al traducir",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Pedro S."
+          "author": "Elias M. Oliveira",
+          "quote": "⭐️⭐️⭐️⭐️⭐️\nSimplesmente sensacional!\n\nAtendimento com alma, estilo e aquele espírito descontraído do carioca que faz toda a diferença! O Andrei é um excelente profissional — atencioso, talentoso e dom",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Lucía V."
+          "author": "Kelvy Ruan",
+          "quote": "Brabo demais nos cortes!\nRecomendo muito.",
+          "rating": 5
+        },
+        {
+          "author": "Vinicius Santos",
+          "quote": "Ambiente muito confortável, recém reformado, com televisão e vídeo game para distração enquanto aguarda. Profissional muito bem qualificado, com certificação e especialização internacional!",
+          "rating": 5
         }
       ]
     },
@@ -273,38 +277,73 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "10:00 AM – 8:00 PM",
+      "Martes": "10:00 AM – 8:00 PM",
+      "Miercoles": "10:00 AM – 8:00 PM",
+      "Jueves": "10:00 AM – 8:00 PM",
+      "Viernes": "10:00 AM – 8:00 PM",
+      "Sabado": "10:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 114 reseñas en Google",
+      "subtitle": "Basado en 114 reseñas en Google - 5.0 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Marcin Krawczyk",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
+          "text": "I just had one of the best haircuts ever at this barbershop. André is incredible — full of positive vibes, a great communicator, and truly professiona"
         },
         {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
+          "author": "Arief Lautan",
+          "rating": 5,
+          "text": "¡Estos chicos son los mejores!\nServicio espléndido, barberos talentosos, hermosa tienda.\n\nMe lo pasé muy bien, aunque no hablo español, había un clien"
         },
         {
-          "author": "Cliente",
+          "author": "Elias M. Oliveira",
           "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "⭐️⭐️⭐️⭐️⭐️\nSimplesmente sensacional!\n\nAtendimento com alma, estilo e aquele espírito descontraído do carioca que faz toda a diferença! O Andrei é um e"
+        },
+        {
+          "author": "Kelvy Ruan",
+          "rating": 5,
+          "text": "Brabo demais nos cortes!\nRecomendo muito."
+        },
+        {
+          "author": "Vinicius Santos",
+          "rating": 5,
+          "text": "Ambiente muito confortável, recém reformado, com televisão e vídeo game para distração enquanto aguarda. Profissional muito bem qualificado, com certi"
         }
-      ]
+      ],
+      "avgRating": 5.0,
+      "reviewCount": 114
     },
     "packagesGiftcards": {
       "packages": [
@@ -361,6 +400,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

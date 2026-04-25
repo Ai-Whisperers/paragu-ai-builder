@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 527713",
+    "whatsapp": "+595 981 527713",
     "email": "contacto@demospa.com.py",
     "instagram": "@demo.spa.py",
-    "phone": "0981 527713"
+    "phone": "+595 981 527713"
   },
   "location": {
     "city": "Fernando de la Mora",
@@ -55,5 +55,7 @@
     "instagram": "@demo.spa.py"
   },
   "preview": true,
-  "previewLeadId": "1ae71edc-7b77-41f0-8a9b-da5a9f4ad7d0"
+  "previewLeadId": "1ae71edc-7b77-41f0-8a9b-da5a9f4ad7d0",
+  "google_maps_url": "https://maps.google.com/?cid=1738638855986601523",
+  "business_status": "OPERATIONAL"
 }

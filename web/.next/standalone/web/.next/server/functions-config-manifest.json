@@ -78,6 +78,7 @@
     "/api/mailchimp-journey-import": {},
     "/api/newsletter": {},
     "/api/outreach/track": {},
+    "/api/place-photo": {},
     "/api/properties": {},
     "/api/properties/[id]": {},
     "/api/reminders": {},

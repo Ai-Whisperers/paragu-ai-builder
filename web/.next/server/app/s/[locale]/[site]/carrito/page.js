@@ -1,5 +1,5 @@
 var R=require("../../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/s/[locale]/[site]/carrito/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0kuohhf._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0lixb27._.js")
 R.c("server/chunks/ssr/web_lib_supabase_scoped_ts_00blduc._.js")
 R.c("server/chunks/ssr/web_07whx61._.js")
 R.c("server/chunks/ssr/063q_next_dist_esm_build_templates_app-page_0-8688d.js")

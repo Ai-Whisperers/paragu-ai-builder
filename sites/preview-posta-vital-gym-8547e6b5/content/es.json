@@ -54,9 +54,9 @@
       "subtitle": "Visitanos en Fernando de la Mora",
       "address": "Ruta 2 y Av. Mcal. López Km 8",
       "city": "Fernando de la Mora",
-      "phone": "+595983789012",
+      "phone": "+595 981 927558",
       "email": "ventas@gimnasiopower.com.py",
-      "whatsapp": "+595983789012"
+      "whatsapp": "+595 981 927558"
     },
     "promoBanner": {
       "title": "💪 Promo Verano",
@@ -202,28 +202,18 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros alumnos",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 85 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Gabriel N."
+          "author": "Sady lopez",
+          "quote": "Super",
+          "rating": 4
         },
         {
-          "rating": 4,
-          "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Camila B."
-        },
-        {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "María F."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carlos G."
+          "author": "Araceli González",
+          "quote": "The gym where you feel most comfortable. Professor Jorge González has extensive training and experience in the world of fitness and nutrition. My life is different after changing my lifestyle thanks t",
+          "rating": 5
         }
       ]
     },
@@ -266,9 +256,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "05:00 - 22:00",
-      "Sábado": "07:00 - 18:00",
-      "Domingo": "09:00 - 13:00"
+      "Lunes": "6:00 AM – 9:30 PM",
+      "Martes": "6:00 AM – 9:30 PM",
+      "Miercoles": "6:00 AM – 9:30 PM",
+      "Jueves": "6:00 AM – 9:30 PM",
+      "Viernes": "6:00 AM – 9:30 PM",
+      "Sabado": "2:00 – 6:00 PM",
+      "Domingo": "Closed"
     },
     "trustBadges": {
       "items": [
@@ -281,24 +275,21 @@
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 85 reseñas en Google",
+      "subtitle": "Basado en 85 reseñas en Google - 4.9 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
-        },
-        {
-          "author": "Cliente",
+          "author": "Sady lopez",
           "rating": 4,
-          "text": "Buena atención y profesionales."
+          "text": "Super"
         },
         {
-          "author": "Cliente",
+          "author": "Araceli González",
           "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "The gym where you feel most comfortable. Professor Jorge González has extensive training and experience in the world of fitness and nutrition. My life"
         }
-      ]
+      ],
+      "avgRating": 4.9,
+      "reviewCount": 85
     },
     "packagesGiftcards": {
       "packages": [
@@ -355,6 +346,86 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHorSafv9YjkTKwdSzeCCAPRnemCqpA_5ipHPoSkbLvc3YFvY9IWQFS99svTp3IGHL6WciFO0h-3G1smH6xljofOk_QIH_MelYkCeC3MGdNljoTR-xICPY5j7ZZHoYw2fo4SLIzqtvqPunJerHkzi8lLVAH14bVUPRZL2we2LYM9nfqQbxSDk5fD6gRSBJjkqkLs0EP28UnbRy8qzCTEO6OAUlsPtIGiwaWb03tPglY81AMQ2WYhFXjIhrvyKj1ARwRYydZPZSBPXQuvfGWGnbByDtQZj2ibBleZm7qiGTDOg&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEFQ7GE4ljBkOB7K1c04QBKI8CANRgFeRA4OIF4OYqpnLUpJScVdw4uiNYNc_LkNUnqC2Dtp7g1yjlbHmFD9MEE2mETaJBblE-a4aCb-xyATZi1W1dSdTO15bBRTIMv5-fcaPXiXdAlLq3P4pzQv4ZCPSvcs2l5EZvydFWRGZ_pwqSZtFoTbbEKSCj7rHe3FjkwP90_bhwNIS181iSk21bTeoA1HLnH1v_lfPS6abbabPCORM1zpoQpw1K8s4GkP-SuachzGUSK2hI71zdE0S3IjxDpwIq0HyaxInRj8H9z20xr9PzUrZ5_DMHyc9DGQFgv2oB2CYHgrfM3GZrn20oO5A8SqlYgLAMSsor19ede79sFnzKFVpDWzuldlDorAjvaprDrFkErWHucv6SLeAxadMB7f8OoiuX71zLilHao&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHsUDFCwy2C7pWtiHnMDlFVGY-muJrxKIBHm0NTitxeRv6juZ2p4iySjJ5wcdOBV8zPm4hyhlclV7myoDFnrAs9WEVdd3TWmLigyhuWl_uo6YW65PC7QohjLCDxQAXrEWv-Rm4DbX5ca_45WlFpRqq_ESvfBIjUOEdUT3XxeGqVsPhaz1Z05KY1FXU-0Um53OlbVCbjNh9K-Qr3FnOPpCowwskVjd1XN8SMABsz9BqjAHN1y8qkUEyg68A123gn662LaLn_lDSh_ZGU0cLsD33-W80NIWgiEDDAquZ9TzeAUMWRY4YKIJLzLeIdwmuv_lGZjiwgooC4na1XitngY7_TNOYsboRvIsFYK1nl04sOv4OLTO6hLoI0LGU4fl8IapKcUqPIb4nR2BW4o1DA65H3huDbhX1lqDz8jHP80S5lYA&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHbN4MnhNjJmPqdmjt8fXw2uN-_QJcEuA5PH80bkmZe3rljmwVQTfEcP96qZTPBw6Ye-SgHL6_fLyGiLZAyIT6l_WOIEAuF4jTKGhZdQPeOcm53RUZw1O2yb1olI1HASUkH9EWQTATSMRD-HdQm5LdgfRiOnAW2asIiddJa-9oZv0VoS_8RJBdZGC34iQ-ShNPLcVhV8-K2KKJvX57IODarQTKX9S07Di-tstvo12Bmr59qknMb8tsXmnTzOG8aWWEI-jj40htNE9Px-MUt1QPRMCT1Fi6j_RjcjGNf0f6rFg&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEwoitzKQkr7mZI4VLUkcFmQHfYSMCax__6qGJlb7c-HLqXughzlm9pxOL_zPyyO3L9lcOFAUVnmGG5pXoX08NoRdZNgOFrGtLMyYbvNyVw72f4cnrE1SIUhxULKH635GDbWp6BSkgsufMXOU2iWU0oYwO3o9vEWaOB88D3A219CiW5e0CO4x36NOLI8Mez3PuxSU_Sq6d8Nl_WwURzBQjGysvqFhCNAo7CJ1x4NRwOBt74UxnP69bKicx9_z4dzK3B9_mze6NbeKc_a-FL7wK7B5eEJKKdghHpMY0Uw3CrnA&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEGyFmlih66JJzSjSiw4RRmnXqowDiIkfTq6enzIBN5Nrkkm3ccRog8OvmuZHpNlVHQtvKxgGnclNcDkA-owVh1yv_1j1Qimut4yDQLhy9XD8B-DLPb0HOUx6kiSqfalS1hX-AOfWsFJOuAJVgHMQVmmzuU5X7TDpaiEtFvS0E6FnAf2IXgnN4b5rwSV-XMrWm9Nh0MkUbEYRlh5kuPJ6xbv6a615jxgip0TAOipew1Ui6PN6TXfJp4aHx9vWazU6r08pnaGNM_VGJthIJlu0enDzVjo7DnihHCrtIn5FBykJenCCwnMiMfgLd0nIARuOJa15qmG54lDgyl6gQgMktL2BdxhIF1LCrMr0WmOBveNalScqW0KlTiFEEiJwZp5-sKCV8EfFv60sgee_mUSpvUysp1uqD3609WnWWMW8ZXYlA&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0982 650013",
+    "whatsapp": "+595 982 650013",
     "email": "ventas@gimnasiopower.com.py",
     "instagram": "@gimnasio.fdm.py",
-    "phone": "0982 650013"
+    "phone": "+595 982 650013"
   },
   "location": {
     "city": "San Lorenzo",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "ff7b4993-c879-4d18-9072-72062f69058b",
-  "createdAt": "2026-04-25T05:23:41.431Z"
+  "createdAt": "2026-04-25T05:23:41.431Z",
+  "google_maps_url": "https://maps.google.com/?cid=1654512048928465278",
+  "business_status": "OPERATIONAL"
 }

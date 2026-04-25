@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el barrio Villa Morra, Asunción",
       "address": "Av. Santa Teresa 1250 c/ San Martín",
       "city": "Concepción",
-      "phone": "+595981726354",
+      "phone": "+595 986 630185",
       "email": "contacto@demospa.com.py",
-      "whatsapp": "+595981726354"
+      "whatsapp": "+595 986 630185"
     },
     "promoBanner": {
       "title": "Promoción de Lanzamiento",
@@ -117,40 +117,34 @@
       ]
     },
     "gallery": {
-      "title": "Nuestro espacio",
-      "subtitle": "Un ambiente pensado para tu relajación",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600",
-          "alt": "Sala de masajes",
-          "caption": "Sala de masajes con aromaterapia"
+          "src": "/api/place-photo?ref=AU_ZVEEIM8V3-AkY5Pfbzws33lrA5sYzhlFBRa7lGuwb7Y7TZmGGBWhm4pIgKECRnRQxQyrI07gNxit2huk2k_F7JZxiRM-pookDfeAkf7tIn7Ry61LqxH9BO31VRrmGXpOgh0R-59usel4miIaOROZK5ZATWc5Lrxbk1QMFZscUIZC4wgY_VCuHV24WiJJTvvWWs_QHwDZcYi71huw5NuGtWxGZ6Pyh49gUHc9l40dk8AfyxTDeIVeLkTfrTrdpioyxVNE_NM19RoByLdzaQZ_Xav7pdbznZ0QX_vwQuLcO4qIWqpLOVvfsqU0a8GourAiB_KMJVGYHb5pA9QmIsLVZF1ywTSrI7EMWOzlIB9-v2gMk9lhNNtAY-lC14NFapm-0tj0j7nK9kWKCRPziaXSlgVpc2u3KwpPfX7M3XUF3MX_wuGDS&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600",
-          "alt": "Tratamiento facial",
-          "caption": "Limpieza facial profunda"
+          "src": "/api/place-photo?ref=AU_ZVEHGuxKMMAHo8asjh1Ywq2GFOeBRBhzTlY8O576UB2VBzQCNh2qr79ZhrdFML5YdrC41SqBnOdvnC7FEbiI2ULQ0Q3dpWEBrXzkHaFrhX5s6YXVdc7UI7b5L9-o_srFrLyCeYkpxoNINy01GBKyAxjKWwtWoWZog6ZRgvkmAFPWtvDQPBaM1nspduAufo5Tsyu-OvhOexxr4EYaBkNDxoFi7q1KptzipAViGBrJ4iGs3GLuJqau2JKuvtGB5VAufiHiyznHVPt49Brbzf_BiHm_2N_iUimD5363aXsG5Xh3FBaGPzSkuQtz2HKBHJcqY4s3Q9kTJmGy1bc7szDtSZu_xeR8FwNvM_9t4bZY6uLplOvf1ynv2wHAqrT0z4VSLhd76RjEjpcb88labWCOnTHvLJpCwpGFsROpM73QWpRcQMr_EQEsXCx4Ha21X5g&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600",
-          "alt": "Velas y ambiente spa",
-          "caption": "Ambiente de relax"
+          "src": "/api/place-photo?ref=AU_ZVEFvLq_21Hr9Tor4UVVrMcY85y7OqeJRHof79kp-7pKJuWEaQ5eJR2IbEAeicpQ0eQ2d5E6aocbRWemyDK1VfgqaoJq_VK53ZpkfNkUApibdsiZN3L2gUgXGciAx8pRIb6ifbPrtdj9jRcL_jUhN7-GvTZCFfhjmc6xA8LUguWra-HeDPY9Pl4zWLrSC6USfsshyZgi2YnkL8vS2VwEopKHvSK0muBP1kkldZ5zq3Yobdy9nQXThPeSiVX8xUcmrsCQUvOHpf5mwHWhImPcS7drsL_dJ1BRfThX2ielhBckJPdyC6zJ27FoBWfZQMnQ8B5dXVxFFKqZeKXOqImdzs3GawuEzHEcX-jhunI6-PQ3RpfifnkFfoAc2WBjMxdhIJwQBvXN6V1CUB1_2j9wQXd8SMLS2m0_Onhn045oVZE2_6EG77tiyBGeFLp86WThX&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600",
-          "alt": "Masaje de espalda",
-          "caption": "Masaje descontracturante"
+          "src": "/api/place-photo?ref=AU_ZVEFV5-6HeTUG_qFmmDAY-b-NEVTO0rAUaymPO1GCiPpThULaR-8x1QbqgXEdueHT1DZzXDia-ScipWJm8_gPl2Gi_6zhbkiAKjUQv4kpyCQrW3_tUJnAT2Ia9pMUvncrq6BcSwR_DGcxzc-LfRrK9OirK72RZp-37uSIZH6Kv1fJqgl362lpgp-8eAkeTEXgr6o5T6qOKvUaPSjVZqiYDI-Cd6FBDfyeAyxRBON4lZaPppeGGGLEDuMWv3bfOWUoY2eO8VIEyA3dmZ8rKi-eqkGmULezPvWqLtd4gUhTUI7v-cZh3K52h-ZlQebjZXW9MWYoEzCrgSWIKXzFuJaCixI1B89xrDWZiHpP6ED_8FmdAxBsb1_yCHtXRA4wmWRZk_HSBCgrB1WbuqZtUA7Ql7TqZq3X0H9xgrEPtGV3t7u5K3M&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600",
-          "alt": "Tratamiento corporal",
-          "caption": "Envoltura detox"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600",
-          "alt": "Sauna",
-          "caption": "Sauna finlandesa"
+          "src": "/api/place-photo?ref=AU_ZVEEsRYt606ynERf3UcmqKZ3wDByHJUERie6nu3YwTPvrcn6ti7VMcDeaC4wVWjK8DriY4CX8ZVziFrGsX_JW3BaWGBr8plv0k1zl4xQsAJufkzOxYPJ__hA3-Ck-5AjVIbQYioKHLKpB8Gc-Bn_vC2pWXo1nuTX3qMp7XDtiih4QNIVypSbQWCzgI0I734CEwZAt21qy1j2hwcQ_M7YHvhSgWMU1Ons_XU48HPmxFyvhRx1D5lftQV6N02s-GEeLDhPfW3OChJ07Ulb_quTgnZSh02PLx8Uq9f8U1zRolfwT9cR-qhALe4GGM4naedD9aeu6R6CcgbPF4TaESffECzMZ8Nztzxpe35TFMFQkVswVnYroGDx0oaUqEDbbsIY0j6Cx4GAAUhNC0bN4y066-ZBbC05PkfZkqgLe00wq7Dc&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         }
       ]
     },
@@ -181,28 +175,13 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 89 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Gabriel N."
-        },
-        {
-          "rating": 4,
-          "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Camila B."
-        },
-        {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "María F."
-        },
-        {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carlos G."
+          "author": "Venus Flecha",
+          "quote": "I love it here. Lucía, the receptionist, is always very open and friendly. The treatment prices are affordable, and the atmosphere is relaxing. The music is pleasant. I recommend Luz for the massages—",
+          "rating": 5
         }
       ]
     },
@@ -276,32 +255,43 @@
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@demo.spa.py — mostramos nuestro trabajo todos los días",
-      "handle": "@demo.spa.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 89 reseñas en Google",
+      "subtitle": "Basado en 89 reseñas en Google - 4.7 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Venus Flecha",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
-        },
-        {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "I love it here. Lucía, the receptionist, is always very open and friendly. The treatment prices are affordable, and the atmosphere is relaxing. The mu"
         }
-      ]
+      ],
+      "avgRating": 4.7,
+      "reviewCount": 89
     },
     "packagesGiftcards": {
       "packages": [
@@ -358,6 +348,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

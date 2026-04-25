@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "011 2391-0450",
+    "whatsapp": "+54 11 2391-0450",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "011 2391-0450"
+    "phone": "+54 11 2391-0450"
   },
   "location": {
     "city": "Pilar",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "8e1bc435-b8d0-495f-9a35-846bff3a97f6",
-  "createdAt": "2026-04-25T05:23:41.354Z"
+  "createdAt": "2026-04-25T05:23:41.354Z",
+  "google_maps_url": "https://maps.google.com/?cid=6880955646139573324",
+  "business_status": "OPERATIONAL"
 }

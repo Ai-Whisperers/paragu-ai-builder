@@ -588,6 +588,18 @@ const buildPackagesGiftcards: SectionBuilder = ({ content }) => {
   }
 }
 
+const buildInstagramFeed: SectionBuilder = ({ content }) => {
+  const ig = content as { instagramFeed?: { title?: string; subtitle?: string; handle?: string; posts?: Array<{ imageUrl: string; caption?: string; permalink?: string }> } }
+  const feed = ig?.instagramFeed
+  if (!feed?.posts?.length) return null
+  return {
+    title: feed.title || 'Seguinos en Instagram',
+    subtitle: feed.subtitle || '',
+    handle: feed.handle || '',
+    posts: feed.posts.slice(0, 8),
+  }
+}
+
 const buildBranches: SectionBuilder = ({ content }) => {
   const bc = content as { branches?: { title?: string; subtitle?: string; branches: Array<{ name: string; address: string; phone?: string; hours?: string; coordinates?: { lat: number; lng: number }; image?: string }> } }
   if (!bc?.branches?.branches?.length) return null
@@ -644,6 +656,7 @@ export const SECTION_BUILDERS: Record<SectionType, SectionBuilder> = {
   googleReviews: buildGoogleReviews,
   packagesGiftcards: buildPackagesGiftcards,
   branches: buildBranches,
+  instagramFeed: buildInstagramFeed,
 }
 
 // ---------- helpers --------------------------------------------------------

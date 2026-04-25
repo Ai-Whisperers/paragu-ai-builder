@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Villarrica",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Villarrica",
-      "phone": "0983 699907",
+      "phone": "+595 983 699907",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 983 699907"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -119,40 +119,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEHtIIp1dGW63jHjXjrXlApfmB2lBRkiGyg6_10ztCT44j4TdeqSw-wkHS219L6xuWH5m2rEmoKehn-tg2AtjQ4hKSKytPdNuHnl2qaiLEAWqS1mCW67BhjcmN46UJcaYpXeLWVqLXPnF7PbgDKeP-M0-A4MaV1SDjE1zt6V9Em7EPQktQhBnftj3EYscAcmhmfVnwkgwqSBA-1K-xMD8ccxstUrBHK7FA5jbyhPHcOJPwkIu-ia1Wa2MnlYAI22kVuWgYlXH_GAajpqKVnvnQeXoZM9WoIT5FJR6HdcZ35oIA&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEHAzWF3Dkpb29lYLEJaVoFAPQ_Ilh4lsSOFwhBerEmeRCUJPaDKVZClLAQXKiTYWbqmOeCALePF8zyTLcbTVIYDxIRocLIUHTH7w-_eDZKBhWLb5kN4lmc3X5kYp-crpxxr3bffEa9jXAOVsTFWJvtTvXdaDpjFIxkqz7aqg4tLpfrT-Yw3ur_Vv0KL_Y2eP5mscg3kvpy-FA5FRVXdCm0mqmNT_-Jk95KOCUOZBF22GcklfkbDPkHWjWHV5Ha6FgzjdAiqTZ-DV2jeVD25CMHynwHG5AwE8Krw0ETH7zLoDQ&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEHqu759nYm1i4NATIErDxYiVdf9qcXSKxb2hmSCjiUifrTozxdmZmmBuoyw_yoPa9FWNgPw-MK0IvZFDJqDr_LrxOJwJoJ_ST8ZXkPfROPJuYKCXnB6UFfu6_xImfNSq-d56BsxF0V9fD9z2ec-kEe0oeGBBRahacYqk_p_kfY6wSoXDLzwfgE2pVY4OduskgKNVYp9EyiccK-ZISv-66A9jqRjSkvEe4CHKLUZb4rJGkKZiL6nHqzoDp6cH8Zxqa7cHjwO5hMeXOOtUmi5TuqD7rcN4pP5H3a1LFqRQLkqvg&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEHWaQkc4uVlZrcD5RmhoH0hK39RbpRi2fOo3qqNrKem_02ve4r1-gRRLxzrOD4c32Gr4f1zaSMMa9Lnd9UqW-Gqtlp7Fz80yTCCYU6kSMJ7ZhPFMJt4OcImmmmRU4qRuaVQMPL5uBPzSOHA7zD1ea_DcmZGmpe1tc90NDnAgWcRqpLPUjsi_KIQqejoUazY_NSgcHd3HYu8nExbZ6xya7UVTVylcJnuqBjoDZTjgRzF4xTez5N4TZ80aGMEwyeik_RoYtw3hEomRPAeOQAUQROVRzxCvXWJyAByCEh8ICLfRw&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEFcLcIUXiDY9mBrh4xGm3eKcrDk_8TQH-ymKpdgbEpve1yaBa8CtXu3LNrPZ-lv3IlNICt3ERUaj6r0w6j88Mh2BxJPL-MgqRSnoo8ah5yMh-NP4klyQGCUGwZyluVMMQqOwLn0Mwl_ixJIF-xXbjlxGgugojH1qvj-Nx0TlMLf45ApAZLPyR412pPWZY0MFtMewhO0HA9nRjpWAqfqpfH60m2Xs7LZDoPBQqQZd-W1ZQ3ivXGkF34AeM0u6Auz62gCCVqip82zwqzL3nTi8amfuCYAZ7SFKdBv5KUKRIx5_A&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEGyC6fA_djhRZlVioLgDxGQeUEef7h-Z2Xo_4udXiWiQJiCBlef6WGpjXNqAmCUY44SPI56AYUQjErbkGydljnecd2YKJfA35NHkU-fHPCpbp16iSClzn-UfjL-n4qhCkeMBkfDlpL11t3-KoMOtuZWx3qHpxC4T8dlCula77X85eSe7HqNpq5QRG3_BxhD6jqFrbw3XnjbpUXgUfp0UD3t9E6WDg5qzV8pgZ3zY4BuAEUTJXbna128f0d4erClO74OC-JIgLZok9pzkyBnWojgMPauaUUbCz3r0S9bwBrrug&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -188,28 +187,18 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 86 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Sofía A."
+          "author": "Guillermo Jose Paredes Gonzalez",
+          "quote": "Super 👌",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Jorge C."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Laura E."
-        },
-        {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Pedro S."
+          "author": "Miguel Spezzini",
+          "quote": "It's a beautiful salon with all the amenities—air conditioning, coffee, etc.—perfect for unwinding for a few hours. Located in the heart of Villarrica, Paraguay, it's run by Marilyn, a renowned profes",
+          "rating": 5
         }
       ]
     },
@@ -275,36 +264,54 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "8:00 AM – 8:00 PM",
+      "Martes": "8:00 AM – 8:00 PM",
+      "Miercoles": "8:00 AM – 8:00 PM",
+      "Jueves": "8:00 AM – 8:00 PM",
+      "Viernes": "8:00 AM – 8:00 PM",
+      "Sabado": "8:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 86 resenas en Google - 4.6 estrellas",
+      "subtitle": "Basado en 86 reseñas en Google - 4.6 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Guillermo Jose Paredes Gonzalez",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
+          "text": "Super 👌"
         },
         {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
+          "author": "Miguel Spezzini",
           "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "It's a beautiful salon with all the amenities—air conditioning, coffee, etc.—perfect for unwinding for a few hours. Located in the heart of Villarrica"
         }
       ],
       "avgRating": 4.6,
@@ -365,6 +372,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }

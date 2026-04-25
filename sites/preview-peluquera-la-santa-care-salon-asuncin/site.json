@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 300503",
+    "whatsapp": "+595 981 300503",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0981 300503"
+    "phone": "+595 981 300503"
   },
   "location": {
     "city": "Asunción",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "b78560c4-8d22-42de-9e2b-7a20fcb200e4",
-  "createdAt": "2026-04-25T05:23:41.374Z"
+  "createdAt": "2026-04-25T05:23:41.374Z",
+  "google_maps_url": "https://maps.google.com/?cid=9903712552520099784",
+  "business_status": "OPERATIONAL"
 }

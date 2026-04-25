@@ -7,10 +7,10 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0985 772800",
+    "whatsapp": "+595 985 772800",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0985 772800"
+    "phone": "+595 985 772800"
   },
   "location": {
     "city": "Encarnación",
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "d27e5819-b856-4120-b423-b969a19c3b7e",
-  "createdAt": "2026-04-25T05:23:41.404Z"
+  "createdAt": "2026-04-25T05:23:41.404Z",
+  "google_maps_url": "https://maps.google.com/?cid=3789558901011936266",
+  "business_status": "OPERATIONAL"
 }

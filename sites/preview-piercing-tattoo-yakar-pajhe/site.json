@@ -7,14 +7,14 @@
     "es"
   ],
   "contact": {
-    "whatsapp": "0981 497868",
+    "whatsapp": "+595 994 122288",
     "email": "contacto@peluqueriacentro.com.py",
     "instagram": "@peluqueria.centro.py",
-    "phone": "0981 497868"
+    "phone": "+595 994 122288"
   },
   "location": {
     "city": "San Lorenzo",
-    "address": "MF3V+W2Q, San Lorenzo 111430, Paraguay",
+    "address": "969 San Lorenzo, San Lorenzo 2060, Paraguay",
     "coordinates": {
       "lat": -25.3451749,
       "lng": -57.50737830000001
@@ -49,5 +49,7 @@
   },
   "preview": true,
   "previewLeadId": "12e7b95f-2873-498e-93c1-06d5d7a062a8",
-  "createdAt": "2026-04-25T05:23:41.423Z"
+  "createdAt": "2026-04-25T05:23:41.423Z",
+  "google_maps_url": "https://maps.google.com/?cid=1591213654589872966",
+  "business_status": "OPERATIONAL"
 }

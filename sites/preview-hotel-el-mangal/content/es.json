@@ -54,9 +54,9 @@
       "subtitle": "Estamos en el centro de Villa del Rosario",
       "address": "Palma 550 c/ 15 de Agosto",
       "city": "Villa del Rosario",
-      "phone": "0985 125820",
+      "phone": "+595 985 125820",
       "email": "contacto@peluqueriacentro.com.py",
-      "whatsapp": "+595981654321"
+      "whatsapp": "+595 985 125820"
     },
     "promoBanner": {
       "title": "🎉 Promoción de Lanzamiento",
@@ -118,40 +118,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEHkRWwnafQc3xy3ozxjiSGwEkyNPaCLwfjiUoZgtPfErr3ArdK2EWoxFZVobbusA112Fl2WzDYy9tiBreRiThTxiX07yUH26838La79VjnOXbk7om4EJksWZ34ZNtKzOnZpYwOe1npBfBLvWJ0jqBX-A7M1F5jFNd-PYtx4AQGI7FhQfDb-ib9mqBZsKtzvWApijDoHcBuqk4aRVu-vueCgWbJYpT1ErV-eaIA1zcFLxaiT4AmRng0kx5CQ_yfMH6hcbEZK5YdCBMvOQly6tb61YiREoGmdKPh0qdOMhWFEi94lgFERcoKDntfoFX1VQm9ZkP8MAfmWo8FonS37IildMv2y8hYJD9UDUFaFSoNweP30lV_ret9hHlcpW8DGFOqm7sjeGYZeNj2lb8CBf64AuFX_UCVjtiYpoUAULDM&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEGVfhqSWL5db3pbVZAj9VFMtLIFwqcyzydIASzBWFeflbbbU9wQDnFVLySVVUnJP_Wyft-P9dAi4oAyC2RxZB_2GqhQ_JxvJ-_TC6aBHQKDVW7eu72WHu6oaIBFPSogPOLPVp7pv6MIQ2ySQc-aRUkmzppcsEKVaW82s5wNzJoxhAslXe76xzMmbohpAH8MgunZj2YN7rFVdJPY60RVkgw10t9-4tC6Kj2d2pzXO6AkXr-3g8Mj7FQPIgT-gffgdECkZ8YfMM-ld0I6gDZTR0SLdA8zYOHTU1kr0TT2ucJhgs_KQ_rKyy_xRH3jivg3kk5tb04NT5BiGwQnEnw6AZ1m-T4Un9xe4dpmJzati1dplZuAykBsQC0vbDJGeQLZXsmefXeGEur7nM4YkgIEn_g_pVihqJuvLXtGvZKYTKgEog&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEE0Fkhh_-yqOEfaEBG9KepC34Ca04L8oDc9ATjJx6aYWUBQY2S286Mx69IHBJyBoC65Vl_7emAnP_sv_6lSaSoIIChprAywQ8r4qLwde_tmkA5pwR7tN_LPanD9EYPzVtrVjPXRKIYVivmAY6li66LDelWXu5Lg_WD9M_qK6oDWXUJ8QfLH3DyxGvt4r3JOjFInCLD6dA1_329ObRkgaWGSWq5KIn5KBRvHzNsIwAxhRoi70DxT_M4RakzEbKoF33dHXyuLC1JUv1XSCJncuVEd1bOwcqRUPLN-rOsvtswt3BX3vn9JAOr0lUia-6j-QV7dCfubjWZWq0K2nMfgG6eC1viMV5dK7M9v17rqGWIUj27CmLQGQVuL0vvyX7mwrguEsjyT180WdMc46VmyXrSUuHEOwvmIFVVKR6Eu-EJafQ&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
+          "src": "/api/place-photo?ref=AU_ZVEFgMDBsinXD0sKyHcC5Kl6keoQ5_SlBY1SMwo9W_J7Hmfi3f2Twxu8QgdQZopSis6VOCacPWUc5MtYcPpBlR8_-t9EAC_UhpVVrj_8ei_IauBoTC9tiiFI1f81mljQ2JfMrjm3EnZmiIJEFE1P_OJKtfqsdvwOWE___cIimHGTeQELgbAtnR3l4jSHY7imkfmO4---VFo3LZSewCiGxHmOqxxkz3YBImqjUPD_QAlEqznjpF7oaxDsOaReWXM_fnDuo_243Z6kyYyI7ir11p9LtdJnZz1Dx56RfdjGLrZ57jo65LseiU1xV0OloIwYnCHlQEZOmvC2laMpbIOmyMU0Z1jAKqitjHEyuU1JwGVV8jHtC5NeM1_fDSzzmVh8TuLuf688Vt1FAltdT4l4CX8c9saVzcQpmly-FWatvPjxC8AYq&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
+          "src": "/api/place-photo?ref=AU_ZVEGuho9vtatXldp6jefmCwoimfNgW2AellHHprNvhLYMAx2wMHE-WUTinkzrAe-j7mok9kqc5mYL4-9JQkuiRo5pjN5-NqyDK8VFUcmS0lMzdMUYtv8MSLxbzWwwxcHQN484KIPsb-qiHS2Cd0I6gFs0mcWRrQ2WPq8arOeUAOXA_udx4Cq3h06C0ka3tBsBvyjDghG-x7yYYSxIMVvFg4bdOPtqxu_stAnN1MLpQI6Lq9nhFiXW5e5b09MBcmcrTP3bsvuPJb-JbzHxsQFaVwubGoeACFNS2gDeTMPlDhy6ScbrLN9v3KgNXjyV3gyQ-PjaMb2VDseSQXGBYkyr2gJ1vuQLxA1bDyqgAEVDCVg6dAT7eimfNHVlxm5r-y5B0XnVg5mzSfA0Fj0qTAH-IkRjrdN8WHiTR1ogkKqe_Ms-KSCk&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEHqjqY_Aj3J_s3oYz16O1ztfLtLhhVrKbCLyxy1z9k0djeAHnTCDWlEJ1ezkWOTNG1TwnsXZk3oagY2SiIvi-3cHJubP2rPfocsvEjdMv7GNQeypIooYPkSewN_nzkNv5FQXNQ7H3u1fl-8-L4Jwyc5szwRN6-XWC7_b2pbXxC7g9wQyLZOHt9TzZKpWekwU8AWSHLj4kVoEKD_iVmjA4jviat96hMvyrUk4e4agYoJU-SriF8UPudWTdXbvjactD6OBnqZigKUvnRucoaTujhFEd1LtZC7luKJ41nXzNW0cnCYpt8b8Xg6rzmGRymKvX8Bd_Iir8_vRXhZNywu96BpLh91IFY2xK-6S4VPHub_w4GPl5n5YCwe3qaX62HpD5_cFloi5_iinz7e9EyovEPypuU0vVobONcdcbLy1A&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
@@ -187,28 +186,13 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 103 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carolina M."
-        },
-        {
-          "rating": 4,
-          "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Sofía A."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Jorge C."
-        },
-        {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Laura E."
+          "author": "Fabio Marcilio Weizenmann",
+          "quote": "Quarto simples, porém limpos e bons, o lugar num todo da um ar de estar em casa, gostei muito, os cachorro são muito simpáticos, principalmente o pretinho baixinho hehehe",
+          "rating": 4
         }
       ]
     },
@@ -274,36 +258,49 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "Open 24 hours",
+      "Martes": "Open 24 hours",
+      "Miercoles": "Open 24 hours",
+      "Jueves": "Open 24 hours",
+      "Viernes": "Open 24 hours",
+      "Sabado": "Open 24 hours",
+      "Domingo": "Open 24 hours"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
-      "subtitle": "@peluqueria.centro.py — mostramos nuestro trabajo todos los días",
-      "handle": "@peluqueria.centro.py",
-      "layout": "grid",
-      "columns": 4,
-      "limit": 8
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 103 resenas en Google - 4.5 estrellas",
+      "subtitle": "Basado en 103 reseñas en Google - 4.5 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
-        },
-        {
-          "author": "Cliente",
+          "author": "Fabio Marcilio Weizenmann",
           "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "Quarto simples, porém limpos e bons, o lugar num todo da um ar de estar em casa, gostei muito, os cachorro são muito simpáticos, principalmente o pret"
         }
       ],
       "avgRating": 4.5,
@@ -364,6 +361,22 @@
           "id": "gc-200",
           "amount": 500000,
           "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
         }
       ]
     }
