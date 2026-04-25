@@ -35,7 +35,13 @@
   },
   "features": {
     "whatsappFloat": true,
-    "testimonials": true
+    "testimonials": true,
+    "productCatalog": true,
+    "commerce": true,
+    "featuredProducts": true,
+    "shop": true,
+    "giftCards": true,
+    "booking": true
   },
   "noindex": true,
   "source": "lead_generation",
@@ -49,5 +55,16 @@
   },
   "preview": true,
   "previewLeadId": "b1a0db0d-a0a9-4b06-b191-16419b6b7f4b",
-  "createdAt": "2026-04-25T05:23:41.384Z"
+  "createdAt": "2026-04-25T05:23:41.384Z",
+  "commerce": {
+    "enabled": true,
+    "currency": "PYG",
+    "provider": "pagopar",
+    "whatsappEnabled": true
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion"
+  }
 }

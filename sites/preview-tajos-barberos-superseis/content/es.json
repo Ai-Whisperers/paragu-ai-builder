@@ -431,6 +431,207 @@
           "label": "Transformación 2"
         }
       ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "TAJOS Barberos (Superseis) — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Corte Clásico",
+          "description": "Corte tradicional con tijera y máquina",
+          "priceCents": 45000,
+          "category": "Cortes",
+          "tags": [
+            "clasico",
+            "tijera",
+            "tradicional"
+          ],
+          "imageCategory": "barber",
+          "slug": "corte-cl-sico",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Fade Moderno",
+          "description": "Degradado moderno con línea definida",
+          "priceCents": 55000,
+          "category": "Cortes",
+          "tags": [
+            "fade",
+            "moderno",
+            "degradado"
+          ],
+          "imageCategory": "barber",
+          "slug": "fade-moderno",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Afeitado Clásico",
+          "description": "Afeitado con toalla caliente y navaja",
+          "priceCents": 50000,
+          "category": "Afeitado",
+          "tags": [
+            "afeitado",
+            "navaja",
+            "clasico"
+          ],
+          "imageCategory": "barber",
+          "slug": "afeitado-cl-sico",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Arreglo de Barba",
+          "description": "Perfilado de barba con máquina y tijera",
+          "priceCents": 30000,
+          "category": "Barba",
+          "tags": [
+            "barba",
+            "perfilado",
+            "recorte"
+          ],
+          "imageCategory": "barber",
+          "slug": "arreglo-de-barba",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Corte + Barba",
+          "description": "Combo corte y arreglo de barba completo",
+          "priceCents": 70000,
+          "category": "Paquetes",
+          "tags": [
+            "combo",
+            "corte",
+            "barba"
+          ],
+          "imageCategory": "barber",
+          "slug": "corte-barba",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Corte Infantil",
+          "description": "Corte para niños hasta 12 años",
+          "priceCents": 35000,
+          "category": "Cortes",
+          "tags": [
+            "infantil",
+            "niños",
+            "corte"
+          ],
+          "imageCategory": "barber",
+          "slug": "corte-infantil",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Corte Degradado + Barba",
+          "description": "Fade degradado completo más perfilado de barba",
+          "priceCents": 80000,
+          "category": "Paquetes",
+          "tags": [
+            "fade",
+            "barba",
+            "degradado"
+          ],
+          "imageCategory": "barber",
+          "slug": "corte-degradado-barba",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Cera para Cabello",
+          "description": "Cera premium con fijación fuerte 100g",
+          "priceCents": 45000,
+          "category": "Productos",
+          "tags": [
+            "cera",
+            "fijacion",
+            "cabello"
+          ],
+          "imageCategory": "products",
+          "slug": "cera-para-cabello",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Aceite para Barba",
+          "description": "Aceite hidratante con aroma amaderado 30ml",
+          "priceCents": 55000,
+          "category": "Productos",
+          "tags": [
+            "aceite",
+            "barba",
+            "hidratante"
+          ],
+          "imageCategory": "products",
+          "slug": "aceite-para-barba",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Corte + Afeitado + Barba",
+          "description": "Paquete completo de grooming",
+          "priceCents": 100000,
+          "category": "Paquetes",
+          "tags": [
+            "completo",
+            "premium",
+            "grooming"
+          ],
+          "imageCategory": "barber",
+          "slug": "corte-afeitado-barba",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en San Lorenzo y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
     }
   },
   "footer": {

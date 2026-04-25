@@ -191,5 +191,18 @@
       "text": "VER MEMBRESIAS",
       "action": "scrollTo:pricing"
     }
+  },
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG",
+    "catalog": {
+      "source": "supabase"
+    },
+    "checkout": {
+      "anonymousAllowed": true,
+      "shippingRequired": false,
+      "phoneRequired": true
+    }
   }
 }
