@@ -11,7 +11,11 @@
  */
 
 export type JsonRecord = Record<string, unknown>
+<<<<<<< HEAD
 /** Counts: sites=22, pages=140, content=42, blog=31, images=3, verticals=23. */
+=======
+/** Counts: sites=118, pages=236, content=138, blog=31, images=3, verticals=23. */
+>>>>>>> origin/fix/superspuma-overhaul
 export const SITE_SLUGS: readonly string[] = [
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -7253,6 +7257,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "guias.comparisonBlock",
         "id": "features",
         "variant": "grid"
+<<<<<<< HEAD
+=======
+      },
+      {
+        "content": "guias.lifeCalcBlock",
+        "id": "features",
+        "variant": "grid"
+      },
+      {
+        "content": "home.enhancedFaq",
+        "id": "enhanced-faq",
+        "variant": "searchable"
+>>>>>>> origin/fix/superspuma-overhaul
       },
       {
         "content": "guias.lifeCalcBlock",
@@ -8764,6 +8781,7 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "promo-cartagena",
     "titleKey": "home.promo-cartagena.title"
   },
+<<<<<<< HEAD
   "superspuma:promociones": {
     "descriptionKey": "promociones.seo.description",
     "sections": [
@@ -8796,6 +8814,8 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "promociones",
     "titleKey": "promociones.seo.title"
   },
+=======
+>>>>>>> origin/fix/superspuma-overhaul
   "superspuma:terminos": {
     "descriptionKey": "terminos.seo.description",
     "sections": [
@@ -29193,6 +29213,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "headline": "Envíos a todo el Paraguay",
         "subheadline": "Desde Villeta despachamos a Asunción, Central, Interior y Chaco. Coordinamos día, hora e instalación — vos solo elegí el colchón.",
         "trustBadgesEnabled": false
+<<<<<<< HEAD
       },
       "map": {
         "alt": "Mapa de Paraguay con zonas de envío",
@@ -29201,6 +29222,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "src": "/images/ss/py-map-zones.svg",
         "subtitle": "Zona 1 gratis desde compras de Gs. 1.000.000. Zona 2 y 3 tienen costo fijo.",
         "title": "Tres zonas de cobertura"
+=======
+>>>>>>> origin/fix/superspuma-overhaul
       },
       "process": {
         "eyebrow": "Cómo funciona",
@@ -33542,6 +33565,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Bases y condiciones"
       }
     },
+<<<<<<< HEAD
     "promociones": {
       "active": {
         "features": [
@@ -33612,6 +33636,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Condiciones generales"
       }
     },
+=======
+>>>>>>> origin/fix/superspuma-overhaul
     "quiz": {
       "hero": {
         "ctaPrimaryHref": "#quiz",
