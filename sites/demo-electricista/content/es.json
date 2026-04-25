@@ -37,6 +37,133 @@
       "city": "Asunción",
       "formSource": "demo",
       "demoRubro": "electricista"
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Servicios",
+      "items": [
+        {
+          "name": "Instalación eléctrica",
+          "description": "Instalación completa para casa o local",
+          "price": "Gs. 400.000",
+          "icon": "Zap"
+        },
+        {
+          "name": "Reparaciones",
+          "description": "Cortocircuitos, llaves térmicas y tomas",
+          "price": "Gs. 80.000",
+          "icon": "Tool"
+        },
+        {
+          "name": "Tablero eléctrico",
+          "description": "Instalación y mantenimiento de tableros",
+          "price": "Gs. 250.000",
+          "icon": "Monitor"
+        },
+        {
+          "name": "Aire acondicionado",
+          "description": "Instalación y mantenimiento de AA",
+          "price": "Gs. 200.000",
+          "icon": "Snowflake"
+        },
+        {
+          "name": "Cámaras de seguridad",
+          "description": "Instalación de cámaras y alarmas",
+          "price": "Gs. 350.000",
+          "icon": "Camera"
+        },
+        {
+          "name": "Emergencia 24h",
+          "description": "Servicio de urgencia eléctrica",
+          "price": "Gs. 120.000",
+          "icon": "Ambulance"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Atención personalizada",
+        "Asunción y alrededores",
+        "Resultados garantizados",
+        "Precios accesibles"
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "subtitle": "Profesionales dedicados en Asunción",
+      "items": [
+        {
+          "name": "Carlos Mendoza",
+          "role": "Director de Electricista",
+          "description": "Más de 10 años de experiencia en Asunción"
+        },
+        {
+          "name": "María López",
+          "role": "Profesional Senior",
+          "description": "Especialista en atención al cliente"
+        },
+        {
+          "name": "Juan Pérez",
+          "role": "Asistente Técnico",
+          "description": "Comprometido con la calidad"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Cliente Satisfecho",
+          "text": "Excelente servicio, súper recomendado.",
+          "rating": 5
+        },
+        {
+          "name": "Cliente Frecuente",
+          "text": "Siempre cumplen con lo prometido. Muy profesionales.",
+          "rating": 5
+        },
+        {
+          "name": "Nuevo Cliente",
+          "text": "Me atendieron muy bien, volveré sin dudas.",
+          "rating": 4
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Aceptan tarjetas?",
+          "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia."
+        },
+        {
+          "question": "¿Cuál es el horario?",
+          "answer": "Abrimos de lunes a sábado en horario comercial."
+        },
+        {
+          "question": "¿Hacen envíos?",
+          "answer": "Sí, hacemos envíos a toda la ciudad."
+        },
+        {
+          "question": "¿Cómo puedo contactarlos?",
+          "answer": "Por WhatsApp, teléfono o directamente en nuestro local."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "09:00 - 19:00",
+        "Sábado": "09:00 - 17:00"
+      }
+    },
+    "promoBanner": {
+      "title": "¡Visitános!",
+      "subtitle": "Conocé nuestros servicios en Asunción",
+      "ctaText": "Contactar ahora",
+      "variant": "standard",
+      "dismissible": true
     }
   },
   "footer": {

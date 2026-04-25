@@ -37,6 +37,133 @@
       "city": "Luque",
       "formSource": "demo",
       "demoRubro": "carniceria"
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Productos",
+      "items": [
+        {
+          "name": "Carne vacuna",
+          "description": "Corte al gusto: lomo, cuadril, asado",
+          "price": "Gs. 25.000/kg",
+          "icon": "Beef"
+        },
+        {
+          "name": "Carne porcina",
+          "description": "Cerdo fresco: costilla, lomo, pierna",
+          "price": "Gs. 20.000/kg",
+          "icon": "Beef"
+        },
+        {
+          "name": "Pollo fresco",
+          "description": "Pollo entero o en presas",
+          "price": "Gs. 15.000/kg",
+          "icon": "Drumstick"
+        },
+        {
+          "name": "Embutidos",
+          "description": "Salchichas, chorizos, morcilla",
+          "price": "Gs. 30.000",
+          "icon": "Beef"
+        },
+        {
+          "name": "Carne molida",
+          "description": "Carne molida especial para hamburguesas",
+          "price": "Gs. 28.000/kg",
+          "icon": "CircleDot"
+        },
+        {
+          "name": "Combos parrilla",
+          "description": "Mix de carnes para 6 personas",
+          "price": "Gs. 180.000",
+          "icon": "Flame"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Atención personalizada",
+        "Luque y alrededores",
+        "Resultados garantizados",
+        "Precios accesibles"
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "subtitle": "Profesionales dedicados en Luque",
+      "items": [
+        {
+          "name": "Carlos Mendoza",
+          "role": "Director de Carniceria",
+          "description": "Más de 10 años de experiencia en Luque"
+        },
+        {
+          "name": "María López",
+          "role": "Profesional Senior",
+          "description": "Especialista en atención al cliente"
+        },
+        {
+          "name": "Juan Pérez",
+          "role": "Asistente Técnico",
+          "description": "Comprometido con la calidad"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Cliente Satisfecho",
+          "text": "Excelente servicio, súper recomendado.",
+          "rating": 5
+        },
+        {
+          "name": "Cliente Frecuente",
+          "text": "Siempre cumplen con lo prometido. Muy profesionales.",
+          "rating": 5
+        },
+        {
+          "name": "Nuevo Cliente",
+          "text": "Me atendieron muy bien, volveré sin dudas.",
+          "rating": 4
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Aceptan tarjetas?",
+          "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia."
+        },
+        {
+          "question": "¿Cuál es el horario?",
+          "answer": "Abrimos de lunes a sábado en horario comercial."
+        },
+        {
+          "question": "¿Hacen envíos?",
+          "answer": "Sí, hacemos envíos a toda la ciudad."
+        },
+        {
+          "question": "¿Cómo puedo contactarlos?",
+          "answer": "Por WhatsApp, teléfono o directamente en nuestro local."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "09:00 - 19:00",
+        "Sábado": "09:00 - 17:00"
+      }
+    },
+    "promoBanner": {
+      "title": "¡Visitános!",
+      "subtitle": "Conocé nuestros servicios en Luque",
+      "ctaText": "Contactar ahora",
+      "variant": "standard",
+      "dismissible": true
     }
   },
   "footer": {
