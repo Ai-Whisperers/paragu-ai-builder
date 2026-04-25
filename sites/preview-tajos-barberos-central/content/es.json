@@ -44,8 +44,8 @@
   },
   "home": {
     "seo": {
-      "title": "TAJOS Barberos (Central) | Cortes Clásicos y Modernos en San Lorenzo",
-      "description": "TAJOS Barberos (Central) en Asunción. 4 estrellas y 237 resenas en Google. Conocenos!"
+      "title": "TAJOS Barberos (Central) - Barberia en Asuncion | 4.9 estrellas",
+      "description": "TAJOS Barberos (Central) en Asuncion. 240 resenas en Google, 4.9 estrellas. Cortes clasicos y modernos. Reserva online."
     },
     "hero": {
       "headline": "Estilo clásico, actitud moderna",
@@ -301,13 +301,9 @@
       "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15"
     },
     "hours": {
-      "Lunes": "9:00 AM – 7:30 PM",
-      "Martes": "9:00 AM – 7:30 PM",
-      "Miercoles": "9:00 AM – 7:30 PM",
-      "Jueves": "9:00 AM – 7:30 PM",
-      "Viernes": "9:00 AM – 7:30 PM",
-      "Sabado": "9:00 AM – 7:30 PM",
-      "Domingo": "9:00 AM – 2:00 AM"
+      "Lunes a Viernes": "09:00 - 19:30",
+      "Sabado": "09:00 - 19:30",
+      "Domingo": "Cerrado"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
@@ -351,6 +347,13 @@
           "label": "Transformación 2"
         }
       ]
+    },
+    "reviewsWidget": {
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 240 resenas en Google - 4.9 estrellas",
+      "avgRating": 4.9,
+      "reviewCount": 240,
+      "reviews": []
     }
   },
   "footer": {

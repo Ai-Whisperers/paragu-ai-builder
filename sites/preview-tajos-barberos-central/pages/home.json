@@ -44,6 +44,21 @@
       "content": "home.testimonials"
     },
     {
+      "id": "google-reviews",
+      "variant": "carousel",
+      "content": "home.reviewsWidget"
+    },
+    {
+      "id": "instagram-feed",
+      "variant": "grid",
+      "content": "home.instagramFeed"
+    },
+    {
+      "id": "packages-giftcards",
+      "variant": "tabs",
+      "content": "home.packagesGiftcards"
+    },
+    {
       "id": "booking",
       "variant": "wizard",
       "content": "home.booking"
