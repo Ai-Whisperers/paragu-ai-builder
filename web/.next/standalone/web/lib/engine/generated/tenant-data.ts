@@ -14145,7 +14145,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -14237,7 +14237,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -14319,7 +14319,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -14401,7 +14401,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -14483,7 +14483,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -14565,7 +14565,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -14647,7 +14647,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -14729,7 +14729,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -14893,7 +14893,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -14975,7 +14975,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -15057,7 +15057,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -15139,7 +15139,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -15221,7 +15221,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -15303,7 +15303,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -15385,7 +15385,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -15467,7 +15467,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -15549,7 +15549,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -15631,7 +15631,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -15785,7 +15785,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -15867,7 +15867,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -15959,7 +15959,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -16041,7 +16041,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -16123,7 +16123,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -16205,7 +16205,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -16287,7 +16287,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -16364,7 +16364,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -16456,7 +16456,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -16548,7 +16548,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -16640,7 +16640,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -16732,7 +16732,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -16814,7 +16814,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -16906,7 +16906,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -16998,7 +16998,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -17080,7 +17080,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -17172,7 +17172,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -17254,7 +17254,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -17336,7 +17336,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -17418,7 +17418,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -17495,7 +17495,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -17572,7 +17572,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -17654,7 +17654,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -17736,7 +17736,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -17818,7 +17818,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -17900,7 +17900,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -17982,7 +17982,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -18064,7 +18064,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -18146,7 +18146,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -18372,7 +18372,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -18454,7 +18454,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -18536,7 +18536,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -18628,7 +18628,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -18710,7 +18710,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -18792,7 +18792,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -18874,7 +18874,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -18956,7 +18956,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -19048,7 +19048,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -19130,7 +19130,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -19222,7 +19222,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -19314,7 +19314,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -19468,7 +19468,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -19550,7 +19550,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -19632,7 +19632,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -19714,7 +19714,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -19791,7 +19791,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -19868,7 +19868,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -19955,7 +19955,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -20047,7 +20047,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -20201,7 +20201,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -20283,7 +20283,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -20365,7 +20365,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -20447,7 +20447,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -20529,7 +20529,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -20611,7 +20611,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -20693,7 +20693,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -20775,7 +20775,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -20924,7 +20924,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21006,7 +21006,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21088,7 +21088,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21170,7 +21170,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21252,7 +21252,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21334,7 +21334,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21411,7 +21411,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21503,7 +21503,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.transformations",
@@ -21585,7 +21585,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21667,7 +21667,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21749,7 +21749,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21826,7 +21826,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21903,7 +21903,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -21985,7 +21985,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -22067,7 +22067,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -22149,7 +22149,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -22231,7 +22231,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
@@ -22308,7 +22308,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.team",
         "id": "team",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "home.testimonials",
