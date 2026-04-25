@@ -206,24 +206,24 @@
       "columns": 2,
       "items": [
         {
-          "name": "Carlos G.",
-          "text": "Excelente atencion. 5 estrellas bien merecidas.",
-          "rating": 5
+          "name": "Ana L.",
+          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+          "rating": 4
         },
         {
-          "name": "María J.",
-          "text": " Uno de los mejores negocios de Encarnación. Súper recomendado.",
-          "rating": 5
+          "name": "Diego H.",
+          "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+          "rating": 4
         },
         {
-          "name": "Diego R.",
-          "text": "Llevo anos viniendo y siempre cumplen. 5/5.",
-          "rating": 5
+          "name": "Valentina R.",
+          "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+          "rating": 4
         },
         {
-          "name": "Laura P.",
-          "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!",
-          "rating": 5
+          "name": "Andrés P.",
+          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+          "rating": 3
         }
       ]
     },

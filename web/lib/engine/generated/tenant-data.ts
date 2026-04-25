@@ -62495,24 +62495,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Andrés P.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -62940,24 +62940,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Areguá. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -63463,24 +63463,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
             "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Diego H.",
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Jorge C.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -63842,24 +63842,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Carlos G.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -64283,24 +64283,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Gabriel N.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -64658,24 +64658,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
             "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
             "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego H.",
+            "name": "Sofía A.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -64972,24 +64972,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -65523,24 +65523,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 3,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
             "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Caacupé. Súper recomendado."
-          },
-          {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -66056,24 +66056,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": "El mejor barbero de Ciudad del Este. Siempre salvo con el degradado perfecto."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Jorge C.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -66581,24 +66581,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Diego H.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -67069,34 +67069,34 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
-          },
-          {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Luis M.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -67506,34 +67506,34 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ñemby. Súper recomendado."
-          },
-          {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Luis M.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -67862,34 +67862,34 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Puerto Iguazú. Súper recomendado."
-          },
-          {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Luis M.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -68218,34 +68218,34 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
+            "name": "Valentina R.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
             "name": "Andrés P.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Puerto Iguazú. Súper recomendado."
-          },
-          {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Luis M.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -68655,34 +68655,34 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
+            "name": "Diego H.",
+            "rating": 3,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Luis M.",
+            "name": "Valentina R.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -69091,34 +69091,34 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "El mejor fade de San Lorenzo. Siempre salgo satisfecho. Miguel Ángel es un verdadero artista con la máquina."
-          },
-          {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": "Afeitado clásico de otro nivel. La toalla caliente y el bálsamo que usan es un lujo que todos deberían probar."
-          },
-          {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Me hice la tintura por primera vez acá. Quedó natural y sin dañar el cabello. Diego me explicó todo el proceso."
-          },
-          {
-            "name": "Luis M.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -69527,34 +69527,34 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villarrica. Súper recomendado."
-          },
-          {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Luis M.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -69886,34 +69886,34 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
-          },
-          {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Luis M.",
+            "name": "María F.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -70280,24 +70280,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Coronel Oviedo. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Lucía V.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -70725,24 +70725,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Providencia. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Ana L.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -71265,24 +71265,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -71815,24 +71815,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Capiatá. Súper recomendado."
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -72270,24 +72270,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "María F.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -72793,24 +72793,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Lucía V.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -73188,24 +73188,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -73590,24 +73590,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Camila R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Lucía M.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Ana G.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Sofía P.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Hice el combo completo de piernas. Ahora sí, libre de vello."
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -73977,24 +73977,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Limpio. Súper recomendado."
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -74447,24 +74447,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -74983,24 +74983,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Gabriel N.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -75429,24 +75429,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Valentina R.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -75874,24 +75874,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -76319,24 +76319,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "María F.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Carlos G.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -76764,24 +76764,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Atyrá. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Sofía A.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -77210,24 +77210,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Itá. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Ana L.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -77655,24 +77655,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Itá. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Sofía A.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -78178,24 +78178,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
             "name": "Diego H.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -78477,24 +78477,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -78922,24 +78922,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Gabriel N.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -79367,24 +79367,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Hohenau. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -79893,24 +79893,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Diego H.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 3,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -80285,24 +80285,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Camila R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Lucía M.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Ana G.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Sofía P.",
+            "name": "Gabriel N.",
             "rating": 4,
-            "text": "Hice el combo completo de piernas. Ahora sí, libre de vello."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -80656,24 +80656,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ayolas. Súper recomendado."
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -81101,24 +81101,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Carolina M.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -81546,24 +81546,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Jorge C.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -82007,24 +82007,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
+            "name": "Diego H.",
+            "rating": 3,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -82558,24 +82558,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ñemby. Súper recomendado."
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -83109,24 +83109,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -83563,24 +83563,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Bernardino. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -84089,24 +84089,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Andrés P.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -84614,24 +84614,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": "El mejor barbero de Encarnación. Siempre salvo con el degradado perfecto."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "María F.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -85139,24 +85139,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Andrés P.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -85664,24 +85664,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": "El mejor barbero de Pilar. Siempre salvo con el degradado perfecto."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Valentina R.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -86189,24 +86189,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Pilar. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Lucía V.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -86635,24 +86635,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Jorge C.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -87080,24 +87080,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Carolina M.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -87522,24 +87522,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
             "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "rating": 3,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
             "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
             "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -87821,24 +87821,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Carlos G.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -88347,24 +88347,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Santa Rita. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Ana L.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -88874,24 +88874,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
+            "name": "Diego H.",
+            "rating": 3,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Valentina R.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -89400,24 +89400,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Ignacio Guazú. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -89923,24 +89923,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -90237,24 +90237,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -90707,24 +90707,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -91178,24 +91178,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
             "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
-          },
-          {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -91649,24 +91649,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -92103,24 +92103,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Valentina R.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -92629,24 +92629,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ñemby. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -93171,24 +93171,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
+            "name": "Valentina R.",
+            "rating": 3,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -93707,24 +93707,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Paraguarí. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -94169,24 +94169,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
             "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
-          },
-          {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -94720,24 +94720,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -95190,24 +95190,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -95739,24 +95739,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -96289,24 +96289,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -96746,24 +96746,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Itauguá. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -97288,24 +97288,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
             "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Hernandarias. Súper recomendado."
-          },
-          {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -97758,24 +97758,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -98212,24 +98212,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Puerto Iguazú. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Carlos G.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -98657,24 +98657,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Puerto Iguazú. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -99099,24 +99099,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
             "name": "Diego H.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -99394,24 +99394,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Diego H.",
+            "name": "Lucía V.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -99692,24 +99692,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Itauguá. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Gabriel N.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "María F.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -100137,24 +100137,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -100582,24 +100582,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Valentina R.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -101027,24 +101027,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Valentina R.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -101553,24 +101553,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Hernandarias. Súper recomendado."
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Lucía V.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -102079,24 +102079,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Ignacio Guazú. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Carlos G.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -102605,24 +102605,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa del Rosario. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Sofía A.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -103050,24 +103050,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Colonia Hohenau Itapúa Paraguay. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Carolina M.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -103576,24 +103576,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -104103,24 +104103,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -104626,24 +104626,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Güímar. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -105019,24 +105019,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -105569,24 +105569,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -106026,24 +106026,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -106471,24 +106471,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -106997,24 +106997,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Carlos G.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -107537,24 +107537,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -108087,24 +108087,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -108544,24 +108544,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -109070,24 +109070,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa del Rosario. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Sofía A.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -109596,24 +109596,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -110122,24 +110122,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -110590,19 +110590,19 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "María C.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Julia A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Camila L.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -110955,24 +110955,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Jorge C.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -111342,19 +111342,19 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "María C.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Julia A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Camila L.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -111568,19 +111568,19 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "María C.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Julia A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Camila L.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -111852,24 +111852,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Jorge P.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -112392,24 +112392,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
             "name": "Carlos G.",
-            "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
-          },
-          {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -112942,24 +112942,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Limpio. Súper recomendado."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -113480,24 +113480,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -114001,24 +114001,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -114376,24 +114376,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Gabriel N.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -114772,24 +114772,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -115323,24 +115323,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Encarnación. Súper recomendado."
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -115777,24 +115777,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Altos. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -116301,23 +116301,23 @@ export const CONTENT: Record<string, JsonRecord> = {
         "items": [
           {
             "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
             "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
             "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Diego H.",
+            "name": "Sofía A.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -116598,24 +116598,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -117140,24 +117140,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Valentina R.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -117611,24 +117611,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
             "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -118065,24 +118065,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ñemby. Súper recomendado."
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -118510,24 +118510,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -119036,24 +119036,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -119557,24 +119557,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "El masaje relajante fue increíble. Salí renovada, volveré cada mes."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Me hicieron un masaje descontracturante que me cambió la vida. Muy profesionales."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "La limpieza facial me dejó la piel radiantee. Super recomendado el lugar."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Gabriel N.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -119932,24 +119932,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "María F.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Concepción. Súper recomendado."
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
             "name": "Diego H.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -120232,24 +120232,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -120755,24 +120755,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Diego H.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -121053,24 +121053,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Atyrá. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Gabriel N.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -121579,24 +121579,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villarrica. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Sofía A.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -122103,24 +122103,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -122417,24 +122417,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -122871,24 +122871,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Diego H.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -123332,24 +123332,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "María F.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -123802,24 +123802,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa Elisa. Súper recomendado."
+            "name": "Valentina R.",
+            "rating": 3,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -124338,24 +124338,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -124730,24 +124730,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Camila R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Lucía M.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Ana G.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Sofía P.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Hice el combo completo de piernas. Ahora sí, libre de vello."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -125101,24 +125101,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -125624,24 +125624,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -126003,24 +126003,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -126448,24 +126448,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Valentina R.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -126893,24 +126893,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Jorge P.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -127338,24 +127338,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -127864,24 +127864,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -128306,24 +128306,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Sofía A.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -128601,24 +128601,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Presidente Franco. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Lucía V.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -128896,24 +128896,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
-          },
-          {
             "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
             "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
+            "rating": 3,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego H.",
-            "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -129210,24 +129210,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Capiatá. Súper recomendado."
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -129680,24 +129680,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Capiatá. Súper recomendado."
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -130077,19 +130077,19 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "María C.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Julia A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Mariano Roque Alonso. Súper recomendado."
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Camila L.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -130442,24 +130442,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Valentina R.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -130887,24 +130887,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "María F.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -131332,24 +131332,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Gabriel N.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -131777,24 +131777,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 5 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 5/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Ana L.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 3,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -132303,24 +132303,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa Hayes. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Carolina M.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -132828,24 +132828,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": "El mejor barbero de Coronel Oviedo. Siempre salvo con el degradado perfecto."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -133353,24 +133353,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Coronel Oviedo. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Andrés P.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -133896,24 +133896,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villarrica. Súper recomendado."
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -134432,24 +134432,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -134877,24 +134877,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Gabriel N.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -135322,24 +135322,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Piribebuy. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -135767,24 +135767,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Capiatá. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -136290,24 +136290,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
+            "name": "Diego H.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
             "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "rating": 3,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
             "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
             "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
-            "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -136631,34 +136631,34 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
-          },
-          {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Luis M.",
+            "name": "Carolina M.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -137039,24 +137039,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
             "name": "Carlos G.",
-            "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
-          },
-          {
-            "name": "María J.",
-            "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
-          },
-          {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
-          },
-          {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -137589,24 +137589,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Kapi'atã. Súper recomendado."
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -138143,24 +138143,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Lambaré. Súper recomendado."
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -138595,24 +138595,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -138840,24 +138840,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Camila R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Lucía M.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Ana G.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Sofía P.",
+            "name": "Carolina M.",
             "rating": 4,
-            "text": "Hice el combo completo de piernas. Ahora sí, libre de vello."
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestras clientas"
@@ -139130,24 +139130,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Atyrá. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -139656,24 +139656,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Sofía A.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -140182,24 +140182,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -140628,24 +140628,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -141073,24 +141073,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Andrés P.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -141599,24 +141599,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -142125,24 +142125,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ciudad del Este. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Jorge C.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -142651,24 +142651,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Capiatá. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Carolina M.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -143177,24 +143177,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Mariano Roque Alonso. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "María F.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -143703,24 +143703,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 3,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -144226,24 +144226,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Pedro S.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -144621,24 +144621,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
             "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -145076,24 +145076,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Valentina R.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -145521,24 +145521,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -145963,24 +145963,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
             "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
             "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego H.",
+            "name": "Sofía A.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -146262,24 +146262,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Ayolas. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -146723,24 +146723,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
+            "name": "Gabriel N.",
+            "rating": 3,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Camila B.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "María F.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -147221,33 +147221,33 @@ export const CONTENT: Record<string, JsonRecord> = {
         "items": [
           {
             "name": "Andrés P.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Luis M.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Pedro S.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -147658,34 +147658,34 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Luis M.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -147971,24 +147971,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Sofía A.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -148413,24 +148413,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -148835,34 +148835,34 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Ricardo G.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Luque. Súper recomendado."
-          },
-          {
-            "name": "Fernando D.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Luis M.",
+            "name": "Laura E.",
             "rating": 4,
-            "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "Santiago R.",
-            "rating": 5,
-            "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo."
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Marcos T.",
-            "rating": 5,
-            "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo."
+            "name": "Lucía V.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 3,
+            "text": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           }
         ],
         "title": "Opiniones de nuestros clientes"
@@ -149229,24 +149229,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Santa Rita. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Lucía V.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Martín D.",
+            "rating": 3,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -149671,24 +149671,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Ana L.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
             "name": "Diego H.",
+            "rating": 3,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Valentina R.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -149969,24 +149969,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atención, salí hermosa con mi nuevo corte. ¡Super recomendado!"
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": "El mejor barbero de Asunción. Siempre salvo con el degradado perfecto."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Me hicieron un balayage espectacular. Volveré sin dudas."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Andrés P.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -150413,24 +150413,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Villa Hayes. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Diego H.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 3,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -150858,24 +150858,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Asunción. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Ana L.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Valentina R.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -151303,24 +151303,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Sofía L.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Marcos A.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Lorenzo. Súper recomendado."
-          },
-          {
-            "name": "Lucía R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Jorge P.",
+            "name": "Camila B.",
             "rating": 4,
-            "text": "Ambiente agradable, profesionales y precios accesibles. 10/10"
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "María F.",
+            "rating": 4,
+            "text": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Carlos G.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Ana L.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -151845,24 +151845,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Diego H.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Fernando de la Mora. Súper recomendado."
+            "name": "Valentina R.",
+            "rating": 3,
+            "text": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Andrés P.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Carolina M.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -152296,24 +152296,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Antonio. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Martín D.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Florencia T.",
+            "rating": 4,
+            "text": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -152592,24 +152592,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Valentina R.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
-          },
-          {
-            "name": "Andrés P.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de San Antonio. Súper recomendado."
-          },
-          {
-            "name": "Carolina M.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
-          },
-          {
-            "name": "Diego H.",
+            "name": "Florencia T.",
             "rating": 4,
-            "text": "Ambiente súper tranquilo, precios accesibles y atención de primera."
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
+          },
+          {
+            "name": "Gabriel N.",
+            "rating": 4,
+            "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
+          },
+          {
+            "name": "Camila B.",
+            "rating": 3,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
+          },
+          {
+            "name": "María F.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros clientes"
@@ -152986,24 +152986,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "En 3 meses cambié mi cuerpo y mi salud. Mejor inversión del año."
+            "name": "Jorge C.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": "Las clases de yoga son espectaculares. Profesionales de primer nivel."
+            "name": "Laura E.",
+            "rating": 3,
+            "text": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Ambiente motivador, instructores dedicados. El mejor gym de FdM."
+            "name": "Pedro S.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Lucía V.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"
@@ -153536,24 +153536,24 @@ export const CONTENT: Record<string, JsonRecord> = {
         "columns": 2,
         "items": [
           {
-            "name": "Carlos G.",
-            "rating": 5,
-            "text": "Excelente atencion. 4 estrellas bien merecidas."
+            "name": "Carolina M.",
+            "rating": 3,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           },
           {
-            "name": "María J.",
-            "rating": 5,
-            "text": " Uno de los mejores negocios de Mariano Roque Alonso. Súper recomendado."
+            "name": "Sofía A.",
+            "rating": 4,
+            "text": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción."
           },
           {
-            "name": "Diego R.",
-            "rating": 5,
-            "text": "Llevo anos viniendo y siempre cumplen. 4/5."
+            "name": "Jorge C.",
+            "rating": 4,
+            "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas."
           },
           {
-            "name": "Laura P.",
-            "rating": 5,
-            "text": "Bajé 8 kilos con el plan personalizado. Súper recomendado!"
+            "name": "Laura E.",
+            "rating": 4,
+            "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5."
           }
         ],
         "title": "Lo que dicen nuestros alumnos"

@@ -213,34 +213,34 @@
       "columns": 2,
       "items": [
         {
+          "name": "Valentina R.",
+          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+          "rating": 3
+        },
+        {
           "name": "Andrés P.",
-          "text": "Excelente atencion. 4 estrellas bien merecidas.",
-          "rating": 5
-        },
-        {
-          "name": "Ricardo G.",
-          "text": " Uno de los mejores negocios de Puerto Iguazú. Súper recomendado.",
-          "rating": 5
-        },
-        {
-          "name": "Fernando D.",
-          "text": "Llevo anos viniendo y siempre cumplen. 4/5.",
-          "rating": 5
-        },
-        {
-          "name": "Luis M.",
-          "text": "Gran ambiente, música buena y profesionales de primera. El combo corte + barba es el mejor precio de la zona.",
+          "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
           "rating": 4
         },
         {
-          "name": "Santiago R.",
-          "text": "Traje a mi hijo de 8 años y lo trataron súper bien. El premio sorpresa al final fue un detallazo.",
-          "rating": 5
+          "name": "Carolina M.",
+          "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+          "rating": 3
         },
         {
-          "name": "Marcos T.",
-          "text": "El tratamiento capilar me salvó el cabello post-verano. Noté la diferencia desde la primera sesión. Recomendadísimo.",
-          "rating": 5
+          "name": "Sofía A.",
+          "text": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
+          "rating": 4
+        },
+        {
+          "name": "Jorge C.",
+          "text": "Hace 4 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
+          "rating": 4
+        },
+        {
+          "name": "Laura E.",
+          "text": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
+          "rating": 4
         }
       ]
     },
