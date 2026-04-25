@@ -19,29 +19,14 @@
       "content": "home.promoBanner"
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "home.trustBadges"
-    },
-    {
       "id": "services",
       "variant": "cards",
       "content": "home.services"
     },
     {
-      "id": "booking",
-      "variant": "wizard",
-      "content": "home.booking"
-    },
-    {
-      "id": "class-schedule",
-      "variant": "grid",
-      "content": "home.schedule"
-    },
-    {
-      "id": "pricing-table",
-      "variant": "default",
-      "content": "home.pricing"
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
     },
     {
       "id": "team",
@@ -49,19 +34,19 @@
       "content": "home.team"
     },
     {
-      "id": "before-after",
-      "variant": "slider",
-      "content": "home.transformations"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"
     },
     {
-      "id": "blog-index",
-      "variant": "grid",
-      "content": "home.blog"
+      "id": "google-reviews",
+      "variant": "carousel",
+      "content": "home.reviewsWidget"
+    },
+    {
+      "id": "packages-giftcards",
+      "variant": "tabs",
+      "content": "home.packagesGiftcards"
     },
     {
       "id": "faq",

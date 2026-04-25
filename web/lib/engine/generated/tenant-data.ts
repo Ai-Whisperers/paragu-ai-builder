@@ -20692,29 +20692,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -20722,19 +20707,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -22042,39 +22027,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
-      },
-      {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.testimonials",
@@ -22087,19 +22052,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
         "id": "faq",
         "variant": "accordion"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
       },
       {
         "content": "home.contact",
@@ -22236,11 +22196,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "strip"
       },
       {
-        "content": "home.gallery",
-        "id": "gallery",
-        "variant": "grid"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -22256,19 +22211,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "carousel"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
         "id": "faq",
         "variant": "accordion"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
       },
       {
         "content": "home.contact",
@@ -22589,29 +22539,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -22619,19 +22554,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -24018,29 +23953,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -24048,19 +23968,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -25542,29 +25462,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -25572,19 +25477,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -25634,29 +25539,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -25664,19 +25554,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -25818,29 +25708,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -25848,19 +25723,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -26084,39 +25959,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
-      },
-      {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.testimonials",
@@ -26129,19 +25984,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
         "id": "faq",
         "variant": "accordion"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
       },
       {
         "content": "home.contact",
@@ -26278,29 +26128,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -26308,19 +26143,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -26472,29 +26307,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -26502,19 +26322,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -26952,29 +26772,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -26982,19 +26787,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -30211,39 +30016,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
-      },
-      {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.testimonials",
@@ -30256,19 +30041,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
         "id": "faq",
         "variant": "accordion"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
       },
       {
         "content": "home.contact",
@@ -30768,29 +30548,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -30798,19 +30563,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -31720,29 +31485,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -31750,19 +31500,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -31986,29 +31736,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -32016,19 +31751,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -32938,11 +32673,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "strip"
       },
       {
-        "content": "home.gallery",
-        "id": "gallery",
-        "variant": "grid"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -32953,9 +32683,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "carousel"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -33174,29 +32909,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -33204,19 +32924,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -36418,29 +36138,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
@@ -36448,19 +36153,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.reviewsWidget",
+        "id": "google-reviews",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
@@ -37432,39 +37137,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "simple"
       },
       {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
       },
       {
-        "content": "home.booking",
-        "id": "booking",
-        "variant": "wizard"
-      },
-      {
-        "content": "home.schedule",
-        "id": "class-schedule",
-        "variant": "grid"
-      },
-      {
-        "content": "home.pricing",
-        "id": "pricing-table",
-        "variant": "default"
+        "content": "home.trustBadges",
+        "id": "trust-badges",
+        "variant": "strip"
       },
       {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
-      },
-      {
-        "content": "home.transformations",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.testimonials",
@@ -37477,19 +37162,14 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "carousel"
       },
       {
-        "content": "home.blog",
-        "id": "blog-index",
-        "variant": "grid"
+        "content": "home.packagesGiftcards",
+        "id": "packages-giftcards",
+        "variant": "tabs"
       },
       {
         "content": "home.faq",
         "id": "faq",
         "variant": "accordion"
-      },
-      {
-        "content": "home.packagesGiftcards",
-        "id": "packages-giftcards",
-        "variant": "tabs"
       },
       {
         "content": "home.contact",
