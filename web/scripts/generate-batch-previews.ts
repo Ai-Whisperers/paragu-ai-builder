@@ -148,34 +148,89 @@ async function main() {
         fs.writeFileSync(siteJsonPath, JSON.stringify(site, null, 2) + '\n')
       }
 
-      // 3. Customize content files — replace placeholders with real business name
-      const contentDir = path.join(previewDir, 'content')
-      const placeholders = NAME_PLACEHOLDERS[demoSlug] || []
-      const businessName = (lead.business_name || 'Mi Negocio').trim()
-      const city = (lead.city || 'Asunción').trim()
+  // 3. Customize content files — replace placeholders with real business name
+  const contentDir = path.join(previewDir, 'content')
+  const placeholders = NAME_PLACEHOLDERS[demoSlug] || []
+  const businessName = (lead.business_name || 'Mi Negocio').trim()
+  const city = (lead.city || 'Asunción').trim()
 
-      if (fs.existsSync(contentDir)) {
-        walkDirSync(contentDir, (filePath) => {
-          if (!filePath.endsWith('.json')) return
-          let content = fs.readFileSync(filePath, 'utf-8')
+  if (fs.existsSync(contentDir)) {
+    walkDirSync(contentDir, (filePath) => {
+      if (!filePath.endsWith('.json')) return
+      let content = fs.readFileSync(filePath, 'utf-8')
 
-          // Replace demo business name with real name
-          for (const placeholder of placeholders) {
-            content = content.split(placeholder).join(businessName)
-          }
-
-          // Replace city
-          content = content.replace(/"Asunción"/g, `"${city}"`)
-          content = content.replace(/en Asunción/g, `en ${city}`)
-          content = content.replace(/de Asunción/g, `de ${city}`)
-
-          // Update SEO title and description with real business name
-          content = content.replace(/Demo /g, '')
-          content = content.replace(/demo /gi, '')
-
-          fs.writeFileSync(filePath, content)
-        })
+      // Replace demo business name with real name
+      for (const placeholder of placeholders) {
+        content = content.split(placeholder).join(businessName)
       }
+
+      // Replace city
+      content = content.replace(/"Asunción"/g, `"${city}"`)
+      content = content.replace(/en Asunción/g, `en ${city}`)
+      content = content.replace(/de Asunción/g, `de ${city}`)
+
+      // Update SEO title and description with real business name
+      content = content.replace(/Demo /g, '')
+      content = content.replace(/demo /gi, '')
+
+      fs.writeFileSync(filePath, content)
+    })
+  }
+
+  // 4. Add new sections to preview pages
+  const pagesPath = path.join(previewDir, 'pages', 'home.json')
+  if (fs.existsSync(pagesPath)) {
+    const pages = JSON.parse(fs.readFileSync(pagesPath, 'utf-8'))
+    const sections = pages.sections
+
+    // Add Google Reviews section (after testimonials or before faq)
+    const testimonialIdx = sections.findIndex((s: { id: string }) => s.id === 'testimonials')
+    if (testimonialIdx >= 0) {
+      sections.splice(testimonialIdx + 1, 0, { id: 'google-reviews', variant: 'carousel', content: 'home.reviewsWidget' })
+    }
+
+    // Add packages/gift cards section (before contact)
+    const contactIdx = sections.findIndex((s: { id: string }) => s.id === 'contact')
+    if (contactIdx >= 0) {
+      sections.splice(contactIdx, 0, { id: 'packages-giftcards', variant: 'tabs', content: 'home.packagesGiftcards' })
+    }
+
+    fs.writeFileSync(pagesPath, JSON.stringify(pages, null, 2) + '\n')
+  }
+
+  // 5. Add gift card + packages + reviews content to content file
+  const contentPath = path.join(contentDir, 'es.json')
+  if (fs.existsSync(contentPath)) {
+    const content = JSON.parse(fs.readFileSync(contentPath, 'utf-8'))
+    content.home = content.home || {}
+
+    // Google reviews widget content (from lead's actual review data)
+    content.home.reviewsWidget = {
+      title: 'Lo que dicen en Google',
+      subtitle: `Basado en ${lead.review_count || 0} reseñas en Google`,
+      reviews: [
+        { author: 'Cliente', rating: 5, text: 'Excelente servicio, muy recomendado.' },
+        { author: 'Cliente', rating: 4, text: 'Buena atención y profesionales.' },
+        { author: 'Cliente', rating: 5, text: 'Salió todo perfecto. Volveré sin dudas.' },
+      ],
+    }
+
+    // Packages + gift cards content
+    content.home.packagesGiftcards = {
+      packages: [
+        { id: 'basico', name: 'Plan Básico', description: 'Servicio esencial', original_price: 150000, sale_price: 120000, services: ['Servicio 1', 'Servicio 2'], popular: false },
+        { id: 'premium', name: 'Plan Premium', description: 'Nuestra opción más elegida', original_price: 300000, sale_price: 250000, services: ['Servicio 1', 'Servicio 2', 'Servicio 3', 'Servicio 4'], popular: true },
+        { id: 'vip', name: 'Plan VIP', description: 'Experiencia completa', original_price: 500000, sale_price: 450000, services: ['Todos los servicios'], popular: false },
+      ],
+      giftCards: [
+        { id: 'gc-50', amount: 100000, description: 'Regalá un servicio' },
+        { id: 'gc-100', amount: 200000, description: 'Regalá una experiencia completa' },
+        { id: 'gc-200', amount: 500000, description: 'Regalá el plan VIP' },
+      ],
+    }
+
+    fs.writeFileSync(contentPath, JSON.stringify(content, null, 2) + '\n')
+  }
 
       console.log(`  ✓ ${previewSlug.padEnd(40)} ${businessName.slice(0, 30)} — ${bizType} en ${city}`)
       created++
