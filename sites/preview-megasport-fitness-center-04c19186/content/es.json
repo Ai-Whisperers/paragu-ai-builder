@@ -211,11 +211,6 @@
           "rating": 5
         },
         {
-          "author": "Marcelo Rosso",
-          "quote": "Good equipment and trainers available for the new members",
-          "rating": 5
-        },
-        {
           "author": "Brandon Aguilera",
           "quote": "Purete",
           "rating": 5
@@ -295,32 +290,32 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFMTHToeEX7rHkUz2Nsko2rEZClOeYOc1RmEZ35NBlvmrMmi-FNiAJNZozDvmxIxqiMoOTLwsP6WTrBuObdbO8OxFpA5WhYeUXOItSL3eoSR_fs2lg7HHSudKNxc-nKuBCCI3HWjXAAGjQKRwOtKB7hDNzW6Pa9LOyeM0fOSOnyBvrINF8X_7nzgQ4fcR-sjfH7xZ9FChO_gqdN6KidMsHK4IHUE6scOyl9lAd1UvwaIB3simlMYJPq7CjchKgO_LheSGIqEEiMgqPDQpnSrSyYT_rbrOZCJqGWn2i_vDO0Z14Hbd-9JatZ8Shtoc9NUwVQb3uRFe_Q6cTqi92XstvK6DDraRbfClu5WcJYF76n8JoT465CbPb9cfiNNSJFQblmV5GHat8__0N0yurPzgJvcfc_A-oBQSRxLgT2Ij4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEExm2g9oa7VjFP0Zg4RUqfqZxA3UL4qM4ENtu7VW8HA8DT4f-SPD5MnGqr9-A7YnAFWbaWZ966n4Qhg44QS3RkxpL94lHhu-7vkgGR7qAL4j9trtsE-EfaBgiB_HJI4tz4iA1OiKq2wrMGqShIYuXJwSwmDFRIDR1ovG-JyRrnHSjj7_QHtIR0lfMMac6MwROQZIlylMyYcj7TTEIBb4ujXL4G169B36XR_7HthtY2NYpcKjsw2cxBnwNhMpQVpzFwRco-7FczumV7V0CBiB7CKGzsaD7kFXJ1ru4EEURpMAX0t_GwsNVnFnIwb2pq0rE82cMA2b5uX361Oyepyb1F4B05aLNP68DkScNUDAwY7JB_0V0uf8ajFzudqZ-mHEK0MJJ22nSQtydoep3D6EW1WV4bYHClTghDb0Zsn4N8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF2V08FvrBtbq3FlZFPIZMgMyuoKWYPPlxSmv_9Bog4wcnujpi2rbE78wBIV6ZAel14VgDqc42P_krPFMpWkVW23K5-hsqTp9uuWWfu6NfcwVoWCcbAtf08ofZYFgSROB8YRVIfxJS3VzskgSHAyFyCaRH8vIqBCZWjdMSgEJ4GrT7hTc9OdrHv9Vs2xW655l_qQvde_ohQzH1RdcSSryAKM2mFc9xy5iUG0uBLlDrUCfgl75sMMh27Szhh1mVqsxVnno-rNLwooGL6N9ujZWf39-qZlRT_ww_xzGMQ9o3AQqX18CqFTz1mXRYwPcT1vYygdeEAz95CVFgLw8MwTboT-LwxrfU8gO1a2kpphAx4Cbmw7JUw2qNXIZHnNXdSRAkqZAfvZfIB9AOsS-uYnPzZVL_uG4sGG1FqO4P1knE_gPXtO0OMDprWyrMK12Pl&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFBk7DhMKFzCGHbyAbdoSOJYodApLRi-9CRqMmzKjKmzU5Vvf91amTRhAKLwwQk4Cwg8CbePSkq0_H6BdLERTNJYXDbcbzTysIcf-dlzvg5IHDcZA6ouaBUsobVDTKkQ4iT8B8Gv8aLFjOIJPeHqJTJFmDQBDzHCZucYnI3FKsbDTYAlEFDroYUfcRNuvlnyjhjqbbAXBN_-kXz-auuIcIXRgWwnxXZUZod6FswOLQ2r6sKXxLU7Lbaf4nzu76fzaXQ7zcvCu6tc-fVV_RK4PC-Y5uJOl8BvzwUo4-w9ZH3nHyNVPeBeGiB0y0bE4mhTDb-JUDi12jtUnrdXojlDGp0ir6kC7JdGNo58hWRj8SK2KSnEK2MxcKZTHGMWSCqnqo3VpR7lLSW4TLwkRFY8NsiI9d3ku-7vcmTNh9ZzFjkW93Xok-GqPmbnyYhaRFE&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF4P13PXA2z8pMYmNEja-HGtO_OfnkBI1aZ4MB6l99huWRDm_VDssBehLUPaGw6_CNHMeJABte7S7XnW3M5agGGp_6Q8dPC1x6VC7be-QGnK7NA69sIsMGKXmEO9MA9UTEcS0zH9h8aBVBz7CAuboCI8sIJ4JT-2bY0OTnFTkoSCnpmncgqgveJG6ldjSlHOD2ihyhVI5HICwVDo-0uD8gotC1uY1CqnUjZZZyRxEVAGUFDHytesgmJP_vDzIqSoBggv8fNkc56DcZrL-gjl7fENpj6SYxnoqcFvLkabkrjiqSWPFai7FaXbcPPAc090Ss79-scBFMuLtsumyVe4X_BtDcdMraeA955iJRWE_SeAC0HxpfnPMjGvzbXYbdCQbQlK16gOPDvhp77TLW-v8tBf-ikGTeypRehos_htM-o-E0F&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGYNhoSZI8LDNKtsQafca112ElphQzdQXzJ8w1E4RW5tQJu1WWoHDC7Wz8Gtr7pfVkJ7UBJw6xvmbXDe48zqEFG-VwP-a89Zh5n0PIqCEBJsg9ct-qPYjA8wj8t_LJBS_YfDyqJTmkZiZ_P44596f_VizJ9fuSVZKSqbYnzYLYbk6mSiQKeqYVhvWU4MVDPxd0z_VwYqatHc6SxVc4-zE1RS-B6WD-8_49NZnWAGLJFYw0igNfb6Hd5XbZZl1zeR94Y75Vfbn7a8cj03HL8GGgySdhTU9kgYcRY7Qtz--kzAed9opXyPj5XbIiqcFDecEo_FHxjJVerN0WQgFSOhrtCZwoQADptudwyJgk8u6JAZGx4nT4Hk_3WThTgWJVthYmAK53QIw2B_58T6u1sX9F5o5ni7caBnx67_9ndOr9hvWI3&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 3",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHpUAKTEt8vBkkGBALtuHSF21aKqd7UkpzuohVkS_OulobyXgZzWCX5jM77w56SN-cwO77DU49tBqVa3VyMXkJWK8bqb0F5IgbpstYh8stD0t4WMfOcQQOy8XxMiuCkrnd84REtXCn0N3s9yFth8nJ1VSoXcZEqkrOTvBjsSbaKRbcjE9E7FYK5TqWmtlX2wWEnCUR2NEewfhZqjh-rugz0c7MUP5c4x22SPwPZ_Lrxvr4xEbBZ2iSQccmvXW0HuouxNFWem4MtRVlUvK18X6MKwc7LDdSXpUZzyAa31y-mrcDGo9Q3GDZSy6x9K6xDNyufDbKbO7rvBQd0PUFXSWHu7ud5GRWEeb0015trpnb9E3_KRhnFpzZ5Dtkr0_SGyl34mgDCzG5opvUxmo1MDvEBoOE2BYnXNcXxFXMp16T_UQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFz_DNktBH015oPHOaQ5sYQ_4f-kRWSBtAXC9Aq7VXhibz4Qa4Jz252NoEQxsxo5F-yUgYZEe5PUecqJ2C1yeV7xDtteYNAc8DX1F1KOLeAMpo_gsoKclbnXXax55T0xqWNeor3gj2zGWqUR7Q4Pz5zIwmBrPlSbmKkFV_FLxNbQHswCOvS0d1NAL8eAXnnlgQ8N5LwLt68zs15VHHdjf3gOKDz21q89xAopJaQl2c0Z-3NsKNioqA0_PK_6EpwKdALr9ZG3K4yfcqoTOD_pa51RcjwfZjSr3_88Mej2wsWpCO0E3ztRNGSnNWiaB7CnJeZOnFvuBOJvohSFiaAcsJ2cN4joSKGilYYHMf5q56N5D0aFtQL6Cy_ZZgDHNmWsdZao8YvufEV2RyGX51AqmuKrvHIylqib8s6oDL2tG9W-A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 4",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGtiLJGMFQVqRqi8m4SIxJ8EmkIejQAp0ny-4gLuDtE6w4vy1It22U4NX9KsJfNm-SBWn3gKEjlux_vUaZavLetmwtscLGvARGufZwvkaBIemW-ULkcI836beWloaVqSh3ag3cCCvwtxJNwT7IsMNkUA9i38Wx3QIZjj8WNx5QFQElxf-l1GLzN4eWB6RWPfXPeHxIJJW8opUkG73GBYndJYWD6tNGYL472ZChOct1KawllEDgbGE7eWfOnHooxM5-ILGCZJRm8FarbKSUwmhRH4BGQvvSabeolisqCres3je_pskHaYP0zDrcaXyssbgFhvku2qW9zWdZESuOjzkFbc9ybyxTqIEqqtIEFMgMG9qCa2EwbloqZ572lQeAETFRS83H2fvFlaA1jXRef9F04S5JcU4dDKwWklfeqEXSdcr0W&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFkEr4EzH8_70t05zw2g9jqfxBvTLyEebh3aVqVKEI9UnH31ihy8lpzXFqC-GRFCBrCNF44H-urkg420_2WdBJ8o6BBvcCGZhCu7wGxB5OrjK018HgKp9qy3idxjUTY7IzG_HhGZoEMz7y7Y8wNhfYFUxVQuhZ-mE3WtUKTfcnNYM2yk-SzG78uGk8q-i3YHbkDr2yX109rO5pfk5rgJsbfiqulTlIVg7NxfAgYBAO9ZTvNrmuwQdWhiDNvPROfxlF1jkuN4ezQ3mPrm8u1Tbg09IuA4-SZESxE1FxqR03qbsr0wb_LXD-5v9U83GKe_TyKq5YqKJeCxb4seOJs1n4dZtM3-j_cKx3or5o_8zesVXCznfW5QgRNRq8nOVS9i-8-F2tW_U4E_6xiUXaR0sikuxLBZKS2s7wd_qj7Ka4ecyak&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 5",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHk-ftvZVMQXe2_CxW-3fScjLM26GuyxpA9OKXS55MMR9OD38U4K0eMGa9fvjzoNMKIm8kChxkR8Y1-DCSSzO23ATdHsb2pfYpQL5L2uM1ssquDHv-CfAoxs-pQnxP9eH_a3HFIc3AkM9c2U98csgCngg-VeTdlYxss9-zilocDM9ASjCcptOfZx6XO2KVDqVthjiPrGOnsja2ARdfQobQkUU7Fw_up37-n7sgiZe6TQiWI3mGOSlhSBJJizS4qvS3TIrwm-ov8CMpDckVyE6ngqSEDWnC8ngc0pldN8orsIAPmA3910VjiVu5vISF2myyXrEH-Nc2qgJRFQ4I_tPeuZaXkPqZ86Kg-40ZzK9dBFNCVBzyHXRxNNwY5SwzU6dqvg9Gett7hcAxg2DeTOj1q9JXkxue_2GkEh3ALQHJo90gZ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHGGri_zcbbrZdHf77kug4P6R7QUtTWLm8nVyGsbSo2wN9wZXF4eUyR9sakDRV9SiibLP4cjOLn2inudIDX3zx7bXPnhAWpmJ-sFmrLN5wGoG4-7erDC-zbIyK_Jux-msQ1kcMD08ffPIbC6F_2GysrcIHILh0-FHS-QS8e5W2F4VyICjfh28udbzU380_9fRTXhPLejkUVGV-oNddtDb7qmoD0eAxgxwuI4nU6xfmzjiVSnR-aqZneSrlH70n3R9GkyxddAYABHF-YWYtPPJECG_NJZTAeAboVSK8MCwxKUL6qtxtipL7K50Or1srp9EImmw6Od2q8Hb63N0J1DHXv14dfSbOfC5nmQWRsqzHyPDTMayDC1wqTKcvl27w5GVfjEDKoVYXnZNI1NpbABUIylp-UqhxlQoyCtqtmPS808_eK&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 6",
           "caption": ""
         }

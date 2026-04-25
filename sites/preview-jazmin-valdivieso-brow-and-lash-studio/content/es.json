@@ -123,17 +123,17 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEExJ8Shpk5Vzerw_NlhbWXKbTukAOMNWG1yzw89HCAzVXs5Nqi4vcH3Gm-6Yjp-E_H6T_n4WPCci6f9LGtu93j_64JFMsg35Olo7dO-XWelKrVuVM4Yo1TsSR1FnAGRuBX8E40okZnv0r9fFBMsS8M1-Wgy3VTPb08v0cvDdF6rGxqcKi1OrOMjgowuex-aiiFTwxEUiYJWjCgkN5EzEDseY16EYqDEoTtp1l81kzXc7FPTtq4eIviVsmsK32U-2Sos1pbFGWrCf3N_mXJAa1sPLmGm3lDUKRNMaEauR1KMsd2FLqf2db1T073FF5sCR8B8qU80ptFBC_Z5cBkFjOnU82La3lqMJsIaklNwOj31WWvImgfNJstm-N0HEbxDLdiYm_qFSokVnGSmX6NLVpun6Np1QASAsxeJs_W4UxdyHw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHPoiWZUp-bkb9htboCkVE-jSRKFEmoC5XIaMD6ZzhEneV_KP_0K6LfhrG4DcF00i5fklKxSQ6rZWlxfbtd2CA2lB2oCPXJaPThUcIul-cw-fcMAkKL2lBHkJS5iVIusOSPyHggGYUz0AmNG_Y-NOwPsp8MrM8gzV0kAUGdTPrJfONtWLnnP0VoY5uYtuxDVKbvs_Q7AOqHs3zOUV8yLGSM9Jfb1iIkRrPZfqIFTqPwBbLmXwe8VbsRuYjbMI5p6c-KoYi2LjwNqY5r6CraDzzLisLUV62FiSc-Tk1pg6uUQ3wN9fi0UkCVcdqhR82IoPq1rRTrbCEkPUo0XguylIcY65fKLjBRIVX7Zgagk5PPOAJQ28D6X32e8_Pr9orrcBrG37rdKjYdGZyRKN9OSgg0WTXG9ThRcqkMWO63eUL2wg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFzKOFOTSDsehzo3J7BPJLsIN9fcXXq2FJs0clvPZUZN3iVpOfDjEuunqbcJMv2A3sCVWWSEP0_oMuG94dRlsdYBFMzV_BG3jTPQ8mYPnHL2LkWxVozVo0muCYViFCowQ_dhpv1h12lUCcYWdE3c-Cm2_0YR0tsIeaAuJHI2f5gILzpDWorgo6el2NFT5gdDnFyGUc74z9cc4K0bUjF8_SHCYagjlybxEUs-H1VpQBqKEOTf3wg2dcVHi1hvDj5HZhtiW0-UvZFDVNRQ5stz9PbxezRzrMX9KvLvXQnPuLjG3ZkPpEve4RD5QVFYPAVcvVRm9uoghwXemmbE-Fj9hd7zg9mEh6bfM4MWOxR_aIadXC1p1AcVB38d42jypCKZkDbBox0mGeRolYkfZC0NKxOW81zLqax4QImyyp4C1wsZQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEbT4S8ZU6oWYqDSGaygF0KIM4QpvdKYYt78WhW4QjXsPqCq33w7y7YYKKI9qb6Tyi7LEb65p7XU0CbPiDeY2hkhg5yNWTdgksvE4BBJv-lKE9mJAYDA_16YwkGPHWmR8USHqB2DW-i1g3FVq2UAmw4cmrrc0pRxQ-W6LkqWYzfoLMl4VCHkp_GPm6eg8fT9uogUc8xl818BgMxSTz3GJPgCMAsOvND2zWyF7UPbCrTD87Ib_wSSlMrWCKGz9ofZV1PyhWhrB2TnBDvSBJLFnVJY5smIG7C0RJnm3CUIv1Z4VfTTUst5LKcFGW81Q3dFxROfz9cBl8yXyrAsp_ZpRZNoTh1uOVdcQFvcHLcXOCM7ik4TuJfyyt5hC-hcReRFwRq-0Ns2PqpNNfPAMscsofZb3ZbcALuOw_uOXqQfRw8Qg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEcGtzud-k0IojnzFKri-EOJ9sJpinK6TTia83_E8ieH7imYsM8rA-xh4kGAwEePyRygs_uicOoWNrucE5VSkDPDiNDD82H38QIQib2qlHgvB72arpk3oRRuXcmSrvVjnRpVqtPsguQWJO_UFoDkjFS2s4kZ2DpE776CQUZfPnWpp10lfr-BGuHetcL1N2_xfzH4M85KpR-qWZNnKt98fCmAhN_5SgS16HUfX08BIvq7XdHczi_s5SnOcSx3ZxCVRaDcG8SM71MQbbDt2elxugwrHDAseua9xdmCEHKXtTKkczLihwjLJp9VSwkOTdGF1T9EHQML8_nfmX1Xh901ZE8tsgQVLuIhx8r7QGM_1P7fdQeGe1th0-AfN07rvGqrIClOf7S9aF89WrDyhennmb-54uelobrmroLeNDH-3nz6-8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHtFZwLJf1WzTyzfnhLbzbocCc_VPvczDsWmdIE1dmikRiLvXkBASmeOGz7oOpabEwB4CUyU8-_TxqS3OiyNZfXdiHSeT6jgKCp_BObkztU64T7lTR_xnJZ8doXiRY2CaNkNBaZcFw61uiGW1uwUvxQBcy-aiu_uz4qXPkU8Mn6AAMtyZAKg7fTQgLFQSGu_lgxEVXOTs_HCM1tWgEsoKayBqO9VuVJsuDFyYd2UlFK4zykHBW4-OBBHwqkkzlRLNOLGQSTnrC9r2cWAACGLJGAS8nYKiDiW_XO9013FmHFAle0VXjkXXh9iazn_tPTzBeibKShYMLzJpRJxNALE1Pm3Xao2BlpMP0VrPYbzmZt0t0-V2gEPbLnSd3mjB2qSHtbfzl-6vXzFpCTCLhuejhGtkJ2-LMJqIIKfzBNRLM77gc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 3",
           "caption": ""
         }
@@ -182,11 +182,6 @@
         {
           "author": "Ruth Serafini",
           "quote": "I went three times in one week. I had a facial and derma-planing with Paloma. My skin looked beautiful; she was super professional. I went back a week later for Nanobrows with Jazmin, and I loved her ",
-          "rating": 5
-        },
-        {
-          "author": "andrea beatriz salcedo riquelme",
-          "quote": "Excellent service\nExcellent attention",
           "rating": 5
         },
         {
