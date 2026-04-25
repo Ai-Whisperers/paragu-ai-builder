@@ -40,7 +40,7 @@
     },
     {
       "id": "pricing-table",
-      "variant": "tiered",
+      "variant": "default",
       "content": "home.pricing"
     },
     {
