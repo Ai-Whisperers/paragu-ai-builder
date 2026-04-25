@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@/lib/supabase/server'
 import { logger } from '@/lib/logger'
 import { resendAdapter } from '@/lib/integrations/email/resend'
 import { bookingConfirmationEmail } from '@/lib/commerce/email-templates'
@@ -29,9 +28,10 @@ export async function POST(request: NextRequest) {
       )
     }
     
-    const supabase = await createClient()
+    const { createClient: createAdmin } = await import('@/lib/supabase/admin')
+    const adminSupabase = await createAdmin()
 
-    const { data: business, error: businessError } = await supabase
+    const { data: business, error: businessError } = await adminSupabase
       .from('businesses')
       .select('id, name, phone, whatsapp, whatsapp_instance')
       .eq('slug', business_slug)
@@ -44,7 +44,7 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const { data: service, error: serviceError } = await supabase
+    const { data: service, error: serviceError } = await adminSupabase
       .from('services')
       .select('name')
       .eq('id', service_id)
@@ -58,7 +58,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Create booking
-    const { data: booking, error } = await supabase
+    const { data: booking, error } = await adminSupabase
       .from('bookings')
       .insert({
         business_id: business.id,

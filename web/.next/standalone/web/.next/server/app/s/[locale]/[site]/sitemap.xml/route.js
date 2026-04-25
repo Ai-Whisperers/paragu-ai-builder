@@ -2,7 +2,7 @@ var R=require("../../../../../chunks/[turbopack]_runtime.js")("server/app/s/[loc
 R.c("server/chunks/063q_next_dist_esm_build_templates_app-route_0lw3t5m.js")
 R.c("server/chunks/[root-of-the-server]__0_1ae8w._.js")
 R.c("server/chunks/web_lib_supabase_scoped_ts_0o6-gr4._.js")
-R.c("server/chunks/[root-of-the-server]__0z01h~b._.js")
+R.c("server/chunks/[root-of-the-server]__0-2tyj_._.js")
 R.c("server/chunks/063q_@supabase_supabase-js_dist_index_mjs_0vzrh56._.js")
 R.c("server/chunks/063q_next_12dskcl._.js")
 R.c("server/chunks/063q_next_dist_0bo6z5y._.js")
