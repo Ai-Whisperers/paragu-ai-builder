@@ -72,6 +72,9 @@ import { OpenHoursStatusSection } from '@/components/sections/open-hours-status-
 import { PricingRangeSection } from '@/components/sections/pricing-range-section'
 import { PricingTableSection } from '@/components/sections/pricing-table-section'
 import { FaqCategorizedSection } from '@/components/sections/faq-categorized-section'
+import { GoogleReviewsWidgetSection } from '@/components/sections/google-reviews-widget-section'
+import { PackagesSection } from '@/components/sections/packages-section'
+import { BranchesSection } from '@/components/sections/branches-section'
 
 // Exported so tests (and any future tooling) can assert that every
 // registered section in section-registry has a matching render binding.
@@ -146,6 +149,9 @@ export const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'intake-questionnaire': IntakeQuestionnaireSection,
   process: ProcessSection,
   'menu-categorized-priced': MenuCategorizedPricedSection,
+  'google-reviews': GoogleReviewsWidgetSection,
+  'packages-giftcards': PackagesSection,
+  branches: BranchesSection,
 }
 
 export function renderPage(page: ResolvedPage): React.ReactNode {

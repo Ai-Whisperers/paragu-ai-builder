@@ -134,6 +134,16 @@
     "trialService": {
       "enabled": true,
       "label": "Prueba incluida"
+    },
+    "productCatalog": {
+      "enabled": true,
+      "showPrices": true
+    },
+    "giftCards": {
+      "enabled": true
+    },
+    "memberships": {
+      "enabled": true
     }
   },
   "serviceCategories": [
