@@ -64,6 +64,11 @@
       "content": "home.hours"
     },
     {
+      "id": "instagram-feed",
+      "variant": "grid",
+      "content": "home.instagramFeed"
+    },
+    {
       "id": "footer",
       "variant": "standard",
       "content": "footer"

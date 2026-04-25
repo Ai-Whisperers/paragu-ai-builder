@@ -14,25 +14,37 @@
   },
   "location": {
     "city": "San Lorenzo",
-    "address": "Av. Defensores del Chaco 1450"
+    "address": "Av. Defensores del Chaco 1450",
+    "coordinates": {
+      "lat": -25.345,
+      "lng": -57.535
+    },
+    "googleMapsId": "ChIJ8UqKRTcRmZQR8WjK5T5j7tZ"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-barberia-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-barberia"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "barberia",
-  "demoWave": 1,
-  "demoCluster": "A Booking",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-barberia",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-barberia"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-barberia",
+  "social": {
+    "facebook": "barberiasanlorenzo",
+    "tiktok": "@barberiasanlorenzo",
+    "instagram": "@barberia.sanlorenzo.py"
+  }
 }

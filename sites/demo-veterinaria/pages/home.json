@@ -14,6 +14,11 @@
       "content": "home.hero"
     },
     {
+      "id": "promo-banner",
+      "variant": "standard",
+      "content": "home.promoBanner"
+    },
+    {
       "id": "services",
       "variant": "grid",
       "content": "home.services"

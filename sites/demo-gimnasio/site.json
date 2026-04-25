@@ -14,25 +14,37 @@
   },
   "location": {
     "city": "Fernando de la Mora",
-    "address": "Ruta 2 y Av. Mcal. López Km 8"
+    "address": "Ruta 2 y Av. Mcal. López Km 8",
+    "coordinates": {
+      "lat": -25.325,
+      "lng": -57.585
+    },
+    "googleMapsId": "ChIJ0WqMRTcRmZQR0WnM5T5j9tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-gimnasio-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-gimnasio"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "gimnasio",
-  "demoWave": 1,
-  "demoCluster": "A Booking",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-gimnasio",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-gimnasio"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-gimnasio",
+  "social": {
+    "facebook": "gimnasiopy",
+    "tiktok": "@gimnasiopy",
+    "instagram": "@gimnasio.fdm.py"
+  }
 }

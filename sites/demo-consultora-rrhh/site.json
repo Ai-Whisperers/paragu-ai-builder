@@ -14,25 +14,36 @@
   },
   "location": {
     "city": "Asunción",
-    "address": "Av. España 1234"
+    "address": "Av. España 1234",
+    "coordinates": {
+      "lat": -25.28,
+      "lng": -57.635
+    },
+    "googleMapsId": "ChIJ4WqQRTcRmZQR4WnQ5T5j3tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-consultora-rrhh-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-consultora-rrhh"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "consultora_rrhh",
-  "demoWave": 2,
-  "demoCluster": "B B2B",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-consultora-rrhh",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-consultora-rrhh"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-consultora-rrhh",
+  "social": {
+    "linkedin": "consultora-rrhh-asuncion",
+    "instagram": "@consultora.rrhh.py"
+  }
 }

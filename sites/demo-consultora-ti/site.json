@@ -14,25 +14,36 @@
   },
   "location": {
     "city": "Ciudad del Este",
-    "address": "Av. Adrián Jara 567"
+    "address": "Av. Adrián Jara 567",
+    "coordinates": {
+      "lat": -25.5,
+      "lng": -54.6167
+    },
+    "googleMapsId": "ChIJ5WqRRTcRmZQR5WnR5T5j4tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-consultora-ti-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-consultora-ti"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "consultora_ti",
-  "demoWave": 2,
-  "demoCluster": "B B2B",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-consultora-ti",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-consultora-ti"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-consultora-ti",
+  "social": {
+    "linkedin": "consultora-ti-cde",
+    "instagram": "@consultora.ti.cde.py"
+  }
 }

@@ -12,9 +12,31 @@
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Barberia Lambare",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
+    "businessName": "Barberia",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
   },
   "home": {
     "seo": {
@@ -101,33 +123,33 @@
       "lightbox": true,
       "images": [
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
           "alt": "Degradado medio",
           "caption": "Mid fade"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600",
           "alt": "Degradado alto",
           "caption": "High fade"
         },
         {
-          "src": "",
-          "alt": "Barba perfilada",
+          "src": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600",
+          "alt": "Barba",
           "caption": "Arreglo de barba"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600",
           "alt": "Corte clásico",
           "caption": "Corte ejecutivo"
         },
         {
-          "src": "",
+          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
           "alt": "Degradado bajo",
           "caption": "Low fade"
         },
         {
-          "src": "",
-          "alt": "Afeitado completo",
+          "src": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600",
+          "alt": "Afeitado",
           "caption": "Afeitado clásico"
         }
       ]
@@ -220,6 +242,14 @@
         "Sábado": "09:00 - 18:00",
         "Domingo": "Cerrado"
       }
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "@barberia.sanlorenzo.py — mostramos nuestro trabajo todos los días",
+      "handle": "@barberia.sanlorenzo.py",
+      "layout": "grid",
+      "columns": 4,
+      "limit": 8
     }
   },
   "footer": {

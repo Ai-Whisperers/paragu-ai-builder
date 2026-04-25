@@ -12,9 +12,31 @@
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Gimnasio Asunción",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
+    "businessName": "Gimnasio",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Clases",
+        "path": "#clases"
+      },
+      {
+        "label": "Planes",
+        "path": "#planes"
+      },
+      {
+        "label": "Horarios",
+        "path": "#horarios"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
   },
   "home": {
     "seo": {
@@ -250,6 +272,15 @@
         "Sábado": "07:00 - 18:00",
         "Domingo": "09:00 - 13:00"
       }
+    },
+    "trustBadges": {
+      "items": [
+        "Profesores certificados",
+        "Equipos modernos",
+        "Clases ilimitadas",
+        "Evaluación gratis",
+        "Estacionamiento"
+      ]
     }
   },
   "footer": {

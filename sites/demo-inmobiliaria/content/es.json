@@ -12,9 +12,27 @@
     "year": 2026
   },
   "navigation": {
-    "businessName": "Demo Inmobiliaria Asunción",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
+    "businessName": "Inmobiliaria",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Propiedades",
+        "path": "#propiedades"
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
   },
   "home": {
     "seo": {

@@ -14,25 +14,37 @@
   },
   "location": {
     "city": "Asunción",
-    "address": "Palma 550 c/ 15 de Agosto"
+    "address": "Palma 550 c/ 15 de Agosto",
+    "coordinates": {
+      "lat": -25.282,
+      "lng": -57.6351
+    },
+    "googleMapsId": "ChIJ7TqJQTcRmZQR7qWk5T5j6tY"
   },
   "integrations": {
-    "crm": "hubspot",
-    "email": "mailchimp",
-    "analytics": "ga4"
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-peluqueria-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-peluqueria"
+      }
+    }
   },
   "features": {
     "whatsappFloat": true,
     "testimonials": true
   },
-  "demo": true,
-  "demoRubro": "peluqueria",
-  "demoWave": 1,
-  "demoCluster": "A Booking",
   "noindex": true,
-  "createdAt": "2026-04-21",
-  "source": "batch-create-demos",
+  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-peluqueria",
-  "publicUrl": "https://paragu-ai.com/s/es/demo-peluqueria"
+  "publicUrl": "https://paragu-ai.com/s/es/demo-peluqueria",
+  "social": {
+    "facebook": "peluqueriacentropy",
+    "tiktok": "@peluqueriacentro",
+    "instagram": "@peluqueria.centro.py"
+  }
 }
