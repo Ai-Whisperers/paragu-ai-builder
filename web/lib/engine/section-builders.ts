@@ -151,6 +151,7 @@ const buildBooking: SectionBuilder = ({ business, content, registry }) => {
     staff: business.team || [],
     workingHours: { start: start?.trim() || '08:00', end: end?.trim() || '20:00' },
     whatsappPhone: business.whatsapp,
+    businessSlug: business.slug,
   }
 }
 

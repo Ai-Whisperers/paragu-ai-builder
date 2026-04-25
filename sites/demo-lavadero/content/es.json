@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Demo Lavadero de Autos Asunción",
+  "tagline": "Lavado completo, encerado y detailing en Asunción.",
+  "placeholders": {
+    "businessName": "Demo Lavadero de Autos Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Lavadero de Autos Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Lavadero de Autos Asunción - Lavadero de Autos en Asunción",
+      "description": "Lavado completo, encerado y detailing en Asunción."
+    },
+    "hero": {
+      "headline": "Demo Lavadero de Autos Asunción - Tu auto reluciente",
+      "subheadline": "Lavado completo, encerado y detailing en Asunción.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Lavadero%20de%20Autos%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "lavadero_autos"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Lavadero de Autos Asunción",
+    "copyright": "© {{year}} Demo Lavadero de Autos Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Lavadero de Autos y me interesa un sitio para mi negocio"
+  }
+}

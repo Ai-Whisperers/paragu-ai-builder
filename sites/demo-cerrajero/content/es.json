@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Demo Cerrajero Asunción",
+  "tagline": "Aperturas, cerraduras, copias y emergencias en Asunción. Respondemos en 30 minutos.",
+  "placeholders": {
+    "businessName": "Demo Cerrajero Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Cerrajero Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Cerrajero Asunción - Cerrajero 24h en Asunción",
+      "description": "Cerrajero 24 horas en Asunción. Aperturas, cerraduras, copias de llaves, autos y cajas fuertes."
+    },
+    "hero": {
+      "headline": "Demo Cerrajero Asunción - Cerrajero 24 horas",
+      "subheadline": "Aperturas, cerraduras, copias y emergencias en Asunción. Respondemos en 30 minutos.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Cerrajero%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "cerrajero"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Cerrajero Asunción",
+    "copyright": "© {{year}} Demo Cerrajero Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Cerrajero y me interesa un sitio para mi negocio"
+  }
+}

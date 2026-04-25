@@ -1,6 +1,7 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
+import { logger } from '@/lib/logger'
 
 interface TimeSlot {
   time: string
@@ -14,6 +15,8 @@ interface DateTimePickerProps {
   workingHours?: { start: string; end: string }
   duration?: number
   excludeTimes?: string[]
+  staffMemberId?: string
+  businessSlug?: string
 }
 
 export default function DateTimePicker({
@@ -21,11 +24,14 @@ export default function DateTimePicker({
   minDate,
   workingHours = { start: '08:00', end: '20:00' },
   duration = 60,
-  excludeTimes = []
+  excludeTimes = [],
+  staffMemberId,
+  businessSlug
 }: DateTimePickerProps) {
   const [selectedDate, setSelectedDate] = useState<Date | null>(null)
   const [selectedTime, setSelectedTime] = useState<string>('')
   const [availableSlots, setAvailableSlots] = useState<TimeSlot[]>([])
+  const [loading, setLoading] = useState(false)
 
   const today = minDate || new Date()
   const dates = Array.from({ length: 14 }, (_, i) => {
@@ -34,32 +40,52 @@ export default function DateTimePicker({
     return date
   })
 
-  const generateTimeSlots = () => {
+  const fetchAvailability = useCallback(async (date: Date) => {
+    if (!staffMemberId) {
+      // no staff selected — generate all slots from workingHours
+      return generateLocalSlots()
+    }
+    setLoading(true)
+    try {
+      const dateStr = date.toISOString().split('T')[0]
+      const res = await fetch(`/api/booking/availability?date=${dateStr}&staffId=${staffMemberId}&duration=${duration}`)
+      if (!res.ok) throw new Error('Failed to fetch availability')
+      const data = await res.json()
+      const bookedTimes = new Set((data.slots || []).map((s: { start_time: string }) => s.start_time))
+      return generateLocalSlots(bookedTimes)
+    } catch (err) {
+      logger.warn('Availability API failed, falling back to local slots', {
+        action: 'booking.availability',
+        error: err instanceof Error ? err.message : String(err),
+      })
+      return generateLocalSlots()
+    } finally {
+      setLoading(false)
+    }
+  }, [staffMemberId, duration])
+
+  const generateLocalSlots = (bookedTimes?: Set<string>) => {
     const slots: TimeSlot[] = []
     const [startHour] = workingHours.start.split(':').map(Number)
     const [endHour] = workingHours.end.split(':').map(Number)
 
     for (let hour = startHour; hour < endHour; hour++) {
-      const time = `${hour.toString().padStart(2, '0')}:00`
-      slots.push({
-        time,
-        available: !excludeTimes.includes(time)
-      })
-      
-      const halfHour = `${hour.toString().padStart(2, '0')}:30`
-      slots.push({
-        time: halfHour,
-        available: !excludeTimes.includes(halfHour)
-      })
+      for (const minute of [0, 30]) {
+        const time = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`
+        slots.push({
+          time,
+          available: !excludeTimes.includes(time) && !(bookedTimes?.has(time))
+        })
+      }
     }
     return slots
   }
 
   useEffect(() => {
     if (selectedDate) {
-       
-      setAvailableSlots(generateTimeSlots())
-       
+      fetchAvailability(selectedDate).then(slots => {
+        if (slots) setAvailableSlots(slots)
+      })
       setSelectedTime('')
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

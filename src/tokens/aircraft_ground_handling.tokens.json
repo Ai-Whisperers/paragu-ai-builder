@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits logistics-transport vertical defaults",
+  "extends": "vertical:logistics-transport"
+}

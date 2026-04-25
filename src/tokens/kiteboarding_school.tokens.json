@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits sports-recreation vertical defaults",
+  "extends": "vertical:sports-recreation"
+}

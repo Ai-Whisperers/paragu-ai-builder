@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits pets-animals vertical defaults",
+  "extends": "vertical:pets-animals"
+}

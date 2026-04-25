@@ -1,0 +1,50 @@
+{
+  "id": "resume_writer",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Redactor de CV",
+    "subheadline": "Redactor de CV en {{city}} con atencion personalizada y profesionalismo.",
+    "ctaPrimary": "Consultar por WhatsApp",
+    "ctaSecondary": "Ver Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} brindamos redactor de cv en {{city}}. Combinamos experiencia, herramientas modernas y atencion cercana para cada cliente."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "categories": [
+      {
+        "id": "principal",
+        "name": "Redactor de CV",
+        "description": "Servicios profesionales de redactor de cv."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Excelente servicio, los recomiendo a todos.",
+      "author": "Cliente Satisfecho",
+      "rating": 5
+    },
+    {
+      "quote": "Profesionales y confiables, una gran experiencia.",
+      "author": "Cliente Habitual",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Como puedo contactarlos?",
+      "a": "Escribinos por WhatsApp o llamanos. Respondemos en el dia."
+    },
+    {
+      "q": "¿Atienden en mi zona?",
+      "a": "Si, trabajamos en {{city}} y alrededores."
+    }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Redactor de CV en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "linens_bedding_shop",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Blanqueria",
+    "subheadline": "Blanqueria en {{city}} con atencion personalizada y profesionalismo.",
+    "ctaPrimary": "Consultar por WhatsApp",
+    "ctaSecondary": "Ver Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} brindamos blanqueria en {{city}}. Combinamos experiencia, herramientas modernas y atencion cercana para cada cliente."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "categories": [
+      {
+        "id": "principal",
+        "name": "Blanqueria",
+        "description": "Servicios profesionales de blanqueria."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Excelente servicio, los recomiendo a todos.",
+      "author": "Cliente Satisfecho",
+      "rating": 5
+    },
+    {
+      "quote": "Profesionales y confiables, una gran experiencia.",
+      "author": "Cliente Habitual",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Como puedo contactarlos?",
+      "a": "Escribinos por WhatsApp o llamanos. Respondemos en el dia."
+    },
+    {
+      "q": "¿Atienden en mi zona?",
+      "a": "Si, trabajamos en {{city}} y alrededores."
+    }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Blanqueria en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Demo Plomero Asunción",
+  "tagline": "Destapaciones, reparaciones e instalaciones en Asunción. Emergencias 24h.",
+  "placeholders": {
+    "businessName": "Demo Plomero Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Plomero Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Plomero Asunción - Plomero en Asunción",
+      "description": "Plomero 24h en Asunción. Destapaciones, reparaciones, instalaciones de agua y gas."
+    },
+    "hero": {
+      "headline": "Demo Plomero Asunción - Plomero y Gasista",
+      "subheadline": "Destapaciones, reparaciones e instalaciones en Asunción. Emergencias 24h.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Plomero%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "plomero"
+    }
+  },
+  "footer": {
+    "businessName": "Demo Plomero Asunción",
+    "copyright": "© {{year}} Demo Plomero Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Plomero y me interesa un sitio para mi negocio"
+  }
+}

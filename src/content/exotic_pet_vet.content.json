@@ -1,0 +1,50 @@
+{
+  "id": "exotic_pet_vet",
+  "locale": "es-PY",
+  "hero": {
+    "headline": "{{businessName}} - Veterinaria Exoticos",
+    "subheadline": "Veterinaria Exoticos en {{city}} con atencion personalizada y profesionalismo.",
+    "ctaPrimary": "Consultar por WhatsApp",
+    "ctaSecondary": "Ver Servicios"
+  },
+  "about": {
+    "title": "Sobre {{businessName}}",
+    "content": "En {{businessName}} brindamos veterinaria exoticos en {{city}}. Combinamos experiencia, herramientas modernas y atencion cercana para cada cliente."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "categories": [
+      {
+        "id": "principal",
+        "name": "Veterinaria Exoticos",
+        "description": "Servicios profesionales de veterinaria exoticos."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Excelente servicio, los recomiendo a todos.",
+      "author": "Cliente Satisfecho",
+      "rating": 5
+    },
+    {
+      "quote": "Profesionales y confiables, una gran experiencia.",
+      "author": "Cliente Habitual",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Como puedo contactarlos?",
+      "a": "Escribinos por WhatsApp o llamanos. Respondemos en el dia."
+    },
+    {
+      "q": "¿Atienden en mi zona?",
+      "a": "Si, trabajamos en {{city}} y alrededores."
+    }
+  ],
+  "footer": {
+    "tagline": "{{businessName}} - Veterinaria Exoticos en {{city}}",
+    "copyright": "© {{year}} {{businessName}}"
+  }
+}

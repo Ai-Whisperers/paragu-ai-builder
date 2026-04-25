@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits retail-local vertical defaults",
+  "extends": "vertical:retail-local"
+}

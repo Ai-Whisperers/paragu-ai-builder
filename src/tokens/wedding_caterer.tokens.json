@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits food-beverage vertical defaults",
+  "extends": "vertical:food-beverage"
+}

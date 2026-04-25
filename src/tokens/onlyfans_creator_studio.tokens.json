@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits media-publishing vertical defaults",
+  "extends": "vertical:media-publishing"
+}

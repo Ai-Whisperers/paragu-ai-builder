@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits arts-entertainment-venues vertical defaults",
+  "extends": "vertical:arts-entertainment-venues"
+}

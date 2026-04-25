@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { logger } from '@/lib/logger'
 import ServiceSelector from './service-selector'
 import DateTimePicker from './date-time-picker'
 import StaffSelector from './staff-selector'
@@ -18,6 +19,7 @@ interface BookingWizardProps {
   workingHours?: { start: string; end: string }
   onComplete: (data: BookingFormData & Partial<BookingData>) => Promise<void>
   whatsappPhone?: string
+  businessSlug: string
 }
 
 export default function BookingWizard({
@@ -26,12 +28,15 @@ export default function BookingWizard({
   staff = [],
   workingHours,
   onComplete,
-  whatsappPhone
+  whatsappPhone,
+  businessSlug
 }: BookingWizardProps) {
   const [step, setStep] = useState(1)
   const [selectedService, setSelectedService] = useState<Service | undefined>()
   const [selectedStaff, setSelectedStaff] = useState<Staff | null>(null)
   const [bookingData, setBookingData] = useState<BookingData | null>(null)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'loading' | 'error'>('idle')
+  const [submitError, setSubmitError] = useState<string>('')
 
   const handleServiceSelect = (service: Service) => {
     setSelectedService(service)
@@ -48,12 +53,50 @@ export default function BookingWizard({
   }
 
   const handleFormSubmit = async (formData: BookingFormData) => {
-    // If WhatsApp enabled, open WhatsApp with booking details
-    if (whatsappPhone && selectedService && bookingData) {
-      const message = `Hola! Quiero reservar:\n\n*Servicio:* ${selectedService.name}\n*Fecha:* ${bookingData.date.toLocaleDateString('es-PY')}\n*Hora:* ${bookingData.time}\n*Cliente:* ${formData.name}\n*Teléfono:* ${formData.phone}`
-      window.open(`https://wa.me/${whatsappPhone.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`, '_blank')
+    setSubmitStatus('loading')
+    setSubmitError('')
+
+    try {
+      const payload = {
+        business_slug: businessSlug,
+        customer_name: formData.name,
+        customer_email: formData.email,
+        customer_phone: formData.phone,
+        customer_notes: formData.notes || '',
+        booking_date: bookingData?.date?.toISOString().split('T')[0],
+        booking_time: bookingData?.time,
+        service_id: null,
+        staff_member_id: null,
+        duration_minutes: selectedService?.duration || 30,
+      }
+
+      const res = await fetch('/api/booking/create', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+
+      if (!res.ok) {
+        const err = await res.json()
+        throw new Error(err.error || 'Error al crear la reserva')
+      }
+
+      await onComplete({ ...formData, service: selectedService, ...bookingData })
+    } catch (err) {
+      logger.warn('Booking API call failed, falling back to WhatsApp', {
+        action: 'booking.submit',
+        error: err instanceof Error ? err.message : String(err),
+      })
+      // Fallback: open WhatsApp with booking details
+      if (whatsappPhone && selectedService && bookingData) {
+        const message = `Hola! Quiero reservar:\n\n*Servicio:* ${selectedService.name}\n*Fecha:* ${bookingData.date.toLocaleDateString('es-PY')}\n*Hora:* ${bookingData.time}\n*Cliente:* ${formData.name}\n*Teléfono:* ${formData.phone}`
+        window.open(`https://wa.me/${whatsappPhone.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`, '_blank')
+        await onComplete({ ...formData, service: selectedService, ...bookingData })
+      } else {
+        setSubmitStatus('error')
+        setSubmitError(err instanceof Error ? err.message : 'Error al procesar la reserva')
+      }
     }
-    await onComplete({ ...formData, service: selectedService, ...bookingData })
   }
 
   return (

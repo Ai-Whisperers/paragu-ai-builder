@@ -1,0 +1,33 @@
+{
+  "vertical": "automotive",
+  "businessType": "lavadero_autos",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595985724135",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.lavadero.autos.py"
+  },
+  "location": {
+    "city": "Asunción"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "demo": true,
+  "demoRubro": "lavadero_autos",
+  "demoWave": 3,
+  "demoCluster": "Automotor",
+  "noindex": true,
+  "createdAt": "2026-04-25",
+  "source": "batch-create-demos"
+}

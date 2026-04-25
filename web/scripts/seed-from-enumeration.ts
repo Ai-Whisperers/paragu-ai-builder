@@ -181,12 +181,21 @@ const unique = parsed.filter((t) => {
 })
 console.log(`Unique ids: ${unique.length}`)
 
-// Filter to types missing from the registry.
-const missing = unique.filter((t) => !fs.existsSync(path.join(REGISTRY, `${t.id}.type.json`)))
-console.log(`Missing from registry: ${missing.length}`)
+// Filter to types missing any of the three files (registry, tokens, content).
+const needsSeeding = unique.filter((t) => {
+  const missingRegistry = !fs.existsSync(path.join(REGISTRY, `${t.id}.type.json`))
+  const missingTokens = !fs.existsSync(path.join(TOKENS, `${t.id}.tokens.json`))
+  const missingContent = !fs.existsSync(path.join(CONTENT, `${t.id}.content.json`))
+  if (missingRegistry || missingTokens || missingContent) return true
+  return false
+})
+console.log(`Types needing seeding: ${needsSeeding.length}`)
+console.log(`  (registry missing: ${needsSeeding.filter(t => !fs.existsSync(path.join(REGISTRY, `${t.id}.type.json`))).length})`)
+console.log(`  (tokens missing: ${needsSeeding.filter(t => !fs.existsSync(path.join(TOKENS, `${t.id}.tokens.json`))).length})`)
+console.log(`  (content missing: ${needsSeeding.filter(t => !fs.existsSync(path.join(CONTENT, `${t.id}.content.json`))).length})`)
 
 // Skip types with unknown verticalIds (sanity).
-const valid = missing.filter((t) => {
+const valid = needsSeeding.filter((t) => {
   if (!VERTICAL_BASE[t.verticalId]) {
     console.warn(`! unknown vertical ${t.verticalId} for ${t.id}; skipping`)
     return false

@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits automotive vertical defaults",
+  "extends": "vertical:automotive"
+}

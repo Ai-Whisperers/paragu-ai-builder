@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits technology-digital vertical defaults",
+  "extends": "vertical:technology-digital"
+}

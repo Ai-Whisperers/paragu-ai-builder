@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits portfolio-professional vertical defaults",
+  "extends": "vertical:portfolio-professional"
+}

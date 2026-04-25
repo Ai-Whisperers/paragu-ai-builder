@@ -1,0 +1,4 @@
+{
+  "$comment": "Inherits b2b-professional vertical defaults",
+  "extends": "vertical:b2b-professional"
+}
