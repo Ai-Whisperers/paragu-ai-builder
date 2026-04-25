@@ -266,12 +266,9 @@
       ]
     },
     "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "05:00 - 22:00",
-        "Sábado": "07:00 - 18:00",
-        "Domingo": "09:00 - 13:00"
-      }
+      "Lunes a Viernes": "05:00 - 22:00",
+      "Sábado": "07:00 - 18:00",
+      "Domingo": "09:00 - 13:00"
     },
     "trustBadges": {
       "items": [
@@ -292,14 +289,41 @@
     "title": "Reserva tu clase",
     "subtitle": "Elegí el servicio que más te guste y reservá tu turno online",
     "services": [
-      { "name": "Clase de prueba gratuita", "duration": 30, "category": "Clases" },
-      { "name": "Entrenamiento personalizado", "duration": 60, "category": "Entrenamiento" },
-      { "name": "Evaluación física inicial", "duration": 45, "category": "Evaluación" },
-      { "name": "Clase de spinning", "duration": 45, "category": "Clases" },
-      { "name": "Yoga grupal", "duration": 60, "category": "Clases" },
-      { "name": "Masaje deportivo", "duration": 30, "category": "Bienestar" }
+      {
+        "name": "Clase de prueba gratuita",
+        "duration": 30,
+        "category": "Clases"
+      },
+      {
+        "name": "Entrenamiento personalizado",
+        "duration": 60,
+        "category": "Entrenamiento"
+      },
+      {
+        "name": "Evaluación física inicial",
+        "duration": 45,
+        "category": "Evaluación"
+      },
+      {
+        "name": "Clase de spinning",
+        "duration": 45,
+        "category": "Clases"
+      },
+      {
+        "name": "Yoga grupal",
+        "duration": 60,
+        "category": "Clases"
+      },
+      {
+        "name": "Masaje deportivo",
+        "duration": 30,
+        "category": "Bienestar"
+      }
     ],
-    "workingHours": { "start": "06:00", "end": "22:00" }
+    "workingHours": {
+      "start": "06:00",
+      "end": "22:00"
+    }
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el de Gimnasio y me interesa un sitio para mi negocio"

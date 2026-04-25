@@ -14,12 +14,30 @@
   "navigation": {
     "businessName": "Barbería San Lorenzo",
     "navItems": [
-      { "label": "Inicio", "path": "" },
-      { "label": "Servicios", "path": "#servicios" },
-      { "label": "Galería", "path": "#galeria" },
-      { "label": "Equipo", "path": "#equipo" },
-      { "label": "Reservar", "path": "#reservar" },
-      { "label": "Contacto", "path": "#contacto" }
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Reservar",
+        "path": "#reservar"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
     ],
     "ctaText": "Reservar turno",
     "ctaHref": "#reservar"
@@ -230,14 +248,46 @@
       "subtitle": "Elegí el servicio, el barbero y el horario que mejor te quede",
       "phone": "+595985123456",
       "services": [
-        { "name": "Corte Clásico", "duration": "30 min", "price": "Gs. 45.000" },
-        { "name": "Corte Degradado (Fade)", "duration": "40 min", "price": "Gs. 55.000" },
-        { "name": "Afeitado Tradicional", "duration": "35 min", "price": "Gs. 65.000" },
-        { "name": "Arreglo de Barba", "duration": "20 min", "price": "Gs. 35.000" },
-        { "name": "Tintura Masculina", "duration": "60 min", "price": "Gs. 90.000" },
-        { "name": "Tratamiento Capilar", "duration": "45 min", "price": "Gs. 75.000" },
-        { "name": "Corte + Barba (Combo)", "duration": "55 min", "price": "Gs. 80.000" },
-        { "name": "Corte Infantil", "duration": "25 min", "price": "Gs. 35.000" }
+        {
+          "name": "Corte Clásico",
+          "duration": "30 min",
+          "price": "Gs. 45.000"
+        },
+        {
+          "name": "Corte Degradado (Fade)",
+          "duration": "40 min",
+          "price": "Gs. 55.000"
+        },
+        {
+          "name": "Afeitado Tradicional",
+          "duration": "35 min",
+          "price": "Gs. 65.000"
+        },
+        {
+          "name": "Arreglo de Barba",
+          "duration": "20 min",
+          "price": "Gs. 35.000"
+        },
+        {
+          "name": "Tintura Masculina",
+          "duration": "60 min",
+          "price": "Gs. 90.000"
+        },
+        {
+          "name": "Tratamiento Capilar",
+          "duration": "45 min",
+          "price": "Gs. 75.000"
+        },
+        {
+          "name": "Corte + Barba (Combo)",
+          "duration": "55 min",
+          "price": "Gs. 80.000"
+        },
+        {
+          "name": "Corte Infantil",
+          "duration": "25 min",
+          "price": "Gs. 35.000"
+        }
       ],
       "ctaText": "Reservar por WhatsApp"
     },
@@ -281,12 +331,9 @@
       "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15"
     },
     "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00",
-        "Domingo": "Cerrado"
-      }
+      "Lunes a Viernes": "09:00 - 20:00",
+      "Sábado": "09:00 - 18:00",
+      "Domingo": "Cerrado"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

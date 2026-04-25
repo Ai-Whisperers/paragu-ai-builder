@@ -14,13 +14,38 @@
     "gallery": true
   },
   "allowedSections": [
-    "header", "hero", "services", "service-menu", "booking", "booking-wizard",
-    "staff-selector", "portfolio", "before-after", "gallery", "testimonials",
-    "faq", "cta-banner", "contact", "business-hours", "google-maps",
-    "footer", "whatsapp-float", "promo-banner", "trust-badges", "team",
-    "open-hours-status", "instagram-feed", "reviews-widget",
-    "packages-giftcards", "google-reviews", "branches"
+    "header",
+    "hero",
+    "services",
+    "service-menu",
+    "booking",
+    "booking-wizard",
+    "staff-selector",
+    "portfolio",
+    "before-after",
+    "gallery",
+    "testimonials",
+    "faq",
+    "cta-banner",
+    "contact",
+    "business-hours",
+    "google-maps",
+    "footer",
+    "whatsapp-float",
+    "promo-banner",
+    "trust-badges",
+    "team",
+    "open-hours-status",
+    "instagram-feed",
+    "reviews-widget",
+    "packages-giftcards",
+    "google-reviews",
+    "branches",
+    "pricing-table",
+    "pricing"
   ],
   "defaultStarterKit": "minimal",
-  "locales": ["es"]
+  "locales": [
+    "es"
+  ]
 }

@@ -87,6 +87,10 @@ const nextConfig = {
       { protocol: 'https', hostname: 'www.superspuma.com.py', pathname: '/wp-content/uploads/**' },
     ],
     formats: ['image/avif', 'image/webp'],
+    // Disable image optimization in self-hosted Docker (Sharp native module
+    // is unreliable cross-platform). Images from allowed remotePatterns
+    // still render via direct <img> tags.
+    unoptimized: true,
     minimumCacheTTL: 60 * 60 * 24 * 30,
     dangerouslyAllowSVG: false,
   },

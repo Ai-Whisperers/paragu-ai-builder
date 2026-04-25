@@ -21,7 +21,12 @@
     "lead-form",
     "contact",
     "footer",
-    "whatsapp-float"
+    "whatsapp-float",
+    "pricing-table",
+    "pricing",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

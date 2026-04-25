@@ -45,7 +45,12 @@
     "tax-savings-calculator",
     "intake-wizard",
     "newsletter-signup",
-    "resources-list"
+    "resources-list",
+    "pricing-table",
+    "pricing",
+    "packages-giftcards",
+    "google-reviews",
+    "branches"
   ],
   "defaultStarterKit": "full",
   "locales": [

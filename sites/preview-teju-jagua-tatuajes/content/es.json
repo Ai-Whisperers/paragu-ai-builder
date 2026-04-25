@@ -215,12 +215,36 @@
       "title": "Reservá tu turno",
       "subtitle": "Elegí el servicio y el horario que más te convenga",
       "services": [
-        { "name": "Corte de Cabello", "duration": 30, "category": "Corte" },
-        { "name": "Coloración completa", "duration": 90, "category": "Color" },
-        { "name": "Mechas y Balayage", "duration": 90, "category": "Color" },
-        { "name": "Tratamiento capilar", "duration": 45, "category": "Tratamiento" },
-        { "name": "Manicura semipermanente", "duration": 45, "category": "Uñas" },
-        { "name": "Peinado para eventos", "duration": 60, "category": "Peinado" }
+        {
+          "name": "Corte de Cabello",
+          "duration": 30,
+          "category": "Corte"
+        },
+        {
+          "name": "Coloración completa",
+          "duration": 90,
+          "category": "Color"
+        },
+        {
+          "name": "Mechas y Balayage",
+          "duration": 90,
+          "category": "Color"
+        },
+        {
+          "name": "Tratamiento capilar",
+          "duration": 45,
+          "category": "Tratamiento"
+        },
+        {
+          "name": "Manicura semipermanente",
+          "duration": 45,
+          "category": "Uñas"
+        },
+        {
+          "name": "Peinado para eventos",
+          "duration": 60,
+          "category": "Peinado"
+        }
       ]
     },
     "faq": {
@@ -249,12 +273,9 @@
       ]
     },
     "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "09:00 - 20:00",
-        "Sábado": "09:00 - 18:00",
-        "Domingo": "Cerrado"
-      }
+      "Lunes a Viernes": "09:00 - 20:00",
+      "Sábado": "09:00 - 18:00",
+      "Domingo": "Cerrado"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
