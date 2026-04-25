@@ -123,32 +123,32 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHx6ayq22SfWEqvQWTxb41iz-_8w6l-yZXigIqLuw5QI_TDF7JKVoz8UUMB6Pc6RiQJqHv6giauwbdEvEdvrE9FP1-k6-6t8wY-vwQzbJ18vvzCYMianyG5784JHYqdBGmF0mRJ_vr6zvtT13gMSVGTwHjmgX6lIuPYWHSH2Etzqo0FlV-G5lYHG2TwcGPjiriFOWlIe44W_kB5xpoBnydpzp95uSpcuRshITJOniu76dFyRnWbxru84lMC-I4ulIBsUZk2746PupjDSsCMdP4kggej9Z0ZSwPV7ACKvFCuli1kxLxVa6ECJ3g-VjNRw_l-AuoiJNOkDf_sRIGc3sfscMDuRC9w1pTUXmdQN705jph655UCTCTmhv7Y-35Y2EIK3SqV8mN053UvIEaKqq3M1xtyUxBjiovSG0mNlKLE4CrQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGFX1w05p3CfRgZn_TJAKw9apRjwMCsW7lbRece4H9_r_HE62pwTVfwOTMlEuqEuDo2zxkUDENqfdxE_tcedlZKxl8eKMsUJolTIbgY9LeiotgXnwkqdpL7VnuETCwd8rblS8N6eVZQOFLXYAbyYVjaYnXvcbSdlXv8gwCu-7wVALYQuFB2iIBjynZP3O4vLU2rU2zXLpi5Jq1tUDPQFSdS2WbLgrUCc-YAfA74TQmF18RjdF2cPd4uTx6PJyDYM-xck-_V9uJp4vEMaGTh7cIQh7bC1UplynbnKBN_DyVfe2LpwiIKklrnJp3794G_yH7HrR_eOm_M_VpAxH2zgvUR7L7wELBoMCuKU99Nd35YwN_PtXP6me-5Lv3RGt-6s1cNjBWex_E6Z0h7KN7r8gKdOYn_vohF7vJnCghA6r7gjGXm&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFA1gXRujFNApc3pNegGDkd5Ugj-fqONMNTq0mumNP6p9T5Xl7yKmC71YU1NSbmiyBNPJebZ0krpLObR6pjeZfCUsJc1UIoCAYzZPnkdX6OR6T74fluHA4cNSggGVIPz2sK6WB-lOUX2WijVIRpFdt7nKsmzVinTR2WyE11Uv-47ptHwLE4cxnAPmTlHPjEgaJHYxVjJGub7qLL5BCcwwQJrq5zR1lLx5MiQilNU6Ksig3mr0cAhSe6khapL9MW0xea4fkd8wmpWkZ7qC-hn_twx56wBGMFylk6W33DiTra64BAsmzZAybTaEYP27DwGPqMlxP-c6KA3vfJuO0SoysedqVqg07aw-UbnDAC-XKCAeLNMbCCdLet3LnO8yOtF7OuVJLmGKGaqAPJz1mnvhZ2vbqOV5-GlFMCVW0jDGPQjA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHH7ErVAPpYTO3zumNIKJBtv818LJCrM_HZPiJRjb0TQOdWc9CjJKbfI0phK0d47-gHWML2fJmkLBJpPwwjE_3iynt0SUvkJHroiVrHNOsDwSqvCBwzlZZllQN_QAezKv5UVw234glYM8za0nSu107cBdKjcIY1DMrNi2QFopwPS7UHSkiH2E3r5DSwg54ndcfs5X-wQEOO8J4A7jPwhoqm7HBEIfFCgySKcXFuYDX3Oot4rGRs_Ss_RywYi1BuTVVr9OK1frO-6J3Y4yQPQMvitQzmkEH2RTdOaQC8VNzgI3bmvFjQR1bjOQIRDkXQ1x-biWL73ojDW-jPJCUxYiLPGg9xPDFgY9qp7N_iOC0SffX_VsHNZfsvNTv_Ja0ZB70meLdB5WtJ3B_R9mptpKV-K6xvFiqNY6KVVIIjnj-Gtg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEdDlXTHnUc2IE6xhdfYVS0egGbxgt-SL_ngT-vSwjcXkxQWHnvTt6bG9HYnLRmZlao8NxFM6S8BbtYBXddGiZROGG-T80uMD9HfXpU5GKRQA9alSo323Y-DeNEfk29jqYvEAguKTbrH0YxSEvt-25nRI90gTz7mbD5a_mTsWfNKkFnA1cMvsFcX_eDPCb6LILXPoMJyQzGKSE0DYltlmmcJcX3G8Ztk9saU8Ox6p0iWebM4BFNDNuh8xxzM37pTLkKYkQSgb9B653ReNxOg1KB5iGyDMx6Svh90vYfv3BsNoixfEF2FEvoVugV9_DQEn90ZleyroZdHhRmYIPSApMXfUvUY_x1mmOr8J9DF-1FjriEK3PgyCYSeAkQpCK7qHioiFFplnpCQ0G1eIRzrk7k6OYaG274bJ2OfTAIgoLiIotY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH8UaDwln0ccMGE29L1EWvrJpO5lDBp3h-ujfjS-mCWkMMtfAW5TsUgqMhfwRnEr1li_Q3cavBgKbZ6iOTj2PxgR9pLkwBvZVbb3hyJVHr_TlHsqA-vcFbxfmmXpfherdcReL3zPRVyopQBg_90dODhwQQpac15lXz75ydX0Y65dNNOhjNEwO7cOChrS7OeG3TxX3X6M7SKzXM8DY6aB6YjTBzbZeNZ7YhyRQBZgdHIqLcUdQm4AuENjEDunu-0C2W1j92g4UDzxXPmHfRPXYkNTJ9pjevzVBp2NW1BEKSvNCMZj_6yrVXaDswKjQjAYXaNGBPlon3X7BGcKFATSPUgVKb_TH8aVQQY7dzmBS-cy140q6qb4PFiwiJeR2QHGYYNauAMEfd9Za80h1jlgV8z-4eU1BfElsvmJ52e2zEv3wva&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 3",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG9oU87oTSp7H30fnRUstdJQ5kPPCDlMGZss90UZOOa_FFMuuwheJFqJAQggHxWTSYKFG0aAZHSBLHz9uiZByP66PLkhUZadRRTb7Jx1BcNFmwMTRzd7_IRs3Gi677TTuIIpist9mUFBWd2tUQhJzcwMhU1PN9Wtc5dmF3UVnQZoPVKjVTnQOEdnacwFAR9H_Uc4fpuAmYAl7D_SJtbnH7vA4aj7RBtblYlErvxBqnXt4XAhpdGCj1X_h9zxZ0q9fBv2myK4nhRuxVuJqMXaHvActg09k5ZtoVJPywLzvYroPLtadcbihGRhn6MLxVJOp1HKtoNigvSbTy1rt8irq7RWiQeuCTVTNSLyt2VF1LCij43HMTkYsOlnsoUKtmFugQJel9-8RqgdkkNTp-TewKA1cHq3DtoEBCGl9KVoaWTdact&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF-h6GBwU2KfxOPsHSeW0Awqq4BrdaBskqMSLQ6_pIoYWmnXAFLoJPGI9FCtITicBxj9IBxjbN7aGsSdUFfWo7jtqi5BUSHMVEj39pS2TqOb_ci7YHpzd1nSL8MYc9sSVWez6wPDVsGWT_XuphFd9UifjK-i_yHFG-T-9CFgK1ugFwqe8gs6LGLwxzE1sf7BbGBXMN1xHil8j7dlTWiH7othRp-c8etF8V4eWhie_eQyqAtPgC7PqpuPADwXDkUHNUOGjGJmNPyNqfS7wisHUlBeQ0VD9Y87w5G7PjVsYbyXdEVaAHDJh5-m3B8YGv4-C7pltcAaDs7dhM33gDep4ZUFkFROL1ljJ-g8Q3TIjCNVVEl86cXf-29Gziw7G8eXZ6Hxj237VjmiEPPsIas3pi31rLG77_UmojzalR1lZdhpCIR&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 4",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF5shnNtws2qLoW-zg9-0lPQrsQk_kF3nqshete1IH7YurWZVEMWmOmA_bnX0X29YhJA4zxW2ESWUSVFuGb2Ag-VQDajUjzO6S2fMetFZiSRHLqc3CT0XHAN5S-nEkA1Y_jThtvKxeGcPRW8BP4PHZcnOOuSvyY1MuK5UXLJXPfkU6SW7ejvBUolNysbdRXAu4VK4zOLmKL9FGJTQZD35QU6-XWKF047AE1Eb2LffvKGxT8Y4tWuWgSDR3ef7udDkwGW40Odz5ZSpQNoSuluv4syIaCAQYlYcmoxBjDjWIZjpyzQr1a_jah_OSixlDzeafukIuG-0WLaqL8sahVS1pvwp-LX82503QEtAs1DdDhSZa6kSCqPZxkUsly7GBe-AEU6lqYk1VEDIkz8uvnExDMPhhYmsLxDexqaePBnt524Xw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGD573rd0yYJ2HFdzQB0VOZ3RUHOQvdaCj24u6GuAzoaUQq8fGwtkefmUJzw6DWwcOgcIw5OKmvp98aIIpxa5hu2_XTATXRUbb9pS4kEHKEH3uxnQNy4Aaaz8cUBy2u9neQzHzlQUGOYUrLTCqibs5T60CclDqUejXlh0-72n0rS98-GeURzR6SBJCIP88qog-9qMdTWl_6hyAb9TIXz4d4mXmOOY2dMs0Y7SuEhCle5NY5YbiPquwEflcgWEvn_F8qYKWYN4SVPqs98Lm51gd2Lo2tatjcyl7Ui9bpLWurrD6fqS4W92QDV9CFTZ6UgfX3R7gcEbeo1LqfK8f40U2bKd4jZygtWnQsLs61hsw6EmPxuOFbl0t1EaHQOxIL5QAv4FSYIusbc0TmObxNw4vNVB715Ll1dt4wE3kucTIskqE&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 5",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHmCKbKkT5APMtESlXQeSz46MclIh-2f1f_gsUfO5e_vPOqx2j3ed0IaVrGaZy5tVIAwnXACqJEH7tFedHK2Hss_sbeY12BYO33VuzogG2GVoD9JkKmUoeDEIXzJWpl9SdQ23hFjwz5feM1CaFgJzsN4SmNLmPzLKFvBli-5S0RHXvv71rtGOGTjHIgBaqbImYbZcyoKbAYriRAMt2v6lvGW1uI0yl-AalJLPdXyShODVXU4305YiHXa1FIP1o6IMYIo8hkuYeSmHHLsotSaX01ywQN2okSQD1KqzO3XzG0zC75N42eGnlQSFyPaZP4ytz4wcfIkIWZ2Kay0VZS9DU5dkLkpKzxEAuaD4qPqkL93OhneoheG_mbdxpDsEnWjhz8rrRDDcNIMdG7vYwAYR01KnV-2PXfd7o3YJxubUsFZwU&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFwBEvWIaZP5RjehxRwIVKJN1WdfPZvDCFNX3wTzO_EGx3wf_tMu3iTGQ7VqX5XWIUGwPTOmtbsaaVyyDFhlnnmzGTaIW3qgYou6W7azlmnrHNOabwWiPrafnJsLZk1qQRJ3cZl3w2GhhtbqHEKGqAAHZ74QoLPYjJEZCNEPpShOHhVAJg41HQltgk9UEwjxKatZ8bcBNzh7a-GSof9jVK_eCA6BRHyQXnOpNYO44cOC3zPW6KJ5gHyvOHxL9dnd8btRU66IMF54dXsE28U-oAK0LfM818B-GKMgUVkDTEHbEnZJnsRXPTjyvWMmQoz0k0qJ_evHsweAlfvHPz8wRs2Od5VwRtyfwAezv4IYLWNf4g_lq5uqoylD-6Un2-pfjiCDdmMcLmOCjfSsNg3PfeuoHAxyIN_vfCFpqV2mAc5qx4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 6",
           "caption": ""
         }
@@ -190,29 +190,14 @@
       "subtitle": "Basado en 157 reseñas",
       "items": [
         {
-          "author": "Lorena Ramirez",
-          "quote": "Great place, the service is excellent and the food is delicious",
-          "rating": 5
-        },
-        {
           "author": "Eduardo Gonzalez",
           "quote": "The hamburger was delicious... The steak sandwich... everything was quite tasty. The service was so-so, it could be improved, I mean the table service.",
           "rating": 4
         },
         {
-          "author": "Andrea González",
-          "quote": "Their chivito was a real treat 😍 and the service was excellent and fast. Highly recommended ✨😎",
-          "rating": 5
-        },
-        {
           "author": "Diana Ramirez",
           "quote": "The Arab-style steak sandwich is very bland; it doesn't taste like anything except bread with meat.",
           "rating": 2
-        },
-        {
-          "author": "Jose Maqueda",
-          "quote": "The hamburgers are very good, and the homemade ones are even better.",
-          "rating": 4
         }
       ]
     },
