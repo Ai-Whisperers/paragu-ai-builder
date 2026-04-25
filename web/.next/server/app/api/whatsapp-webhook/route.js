@@ -1,6 +1,6 @@
 var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/whatsapp-webhook/route.js")
-R.c("server/chunks/[root-of-the-server]__0b~4hgu._.js")
-R.c("server/chunks/[root-of-the-server]__0ljpe85._.js")
+R.c("server/chunks/[root-of-the-server]__0f_zb19._.js")
+R.c("server/chunks/[root-of-the-server]__0.z6yqg._.js")
 R.c("server/chunks/063q_next_12dskcl._.js")
 R.c("server/chunks/web_0edgsaf._.js")
 R.c("server/chunks/[root-of-the-server]__0ho7z50._.js")

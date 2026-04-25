@@ -1,6 +1,6 @@
 var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/hubspot-cron-sync/route.js")
-R.c("server/chunks/[root-of-the-server]__0llvs54._.js")
-R.c("server/chunks/[root-of-the-server]__0ljpe85._.js")
+R.c("server/chunks/[root-of-the-server]__0k4tzw-._.js")
+R.c("server/chunks/[root-of-the-server]__0.z6yqg._.js")
 R.c("server/chunks/063q_next_12dskcl._.js")
 R.c("server/chunks/web_0edgsaf._.js")
 R.c("server/chunks/web_0ejqmz1._.js")

@@ -1,6 +1,6 @@
 var R=require("../../../../../../../chunks/[turbopack]_runtime.js")("server/app/api/storefront/[site]/orders/[id]/comprobante-sent/route.js")
-R.c("server/chunks/[root-of-the-server]__0ljpe85._.js")
-R.c("server/chunks/[root-of-the-server]__0tg.jl0._.js")
+R.c("server/chunks/[root-of-the-server]__0.z6yqg._.js")
+R.c("server/chunks/[root-of-the-server]__0t9~qed._.js")
 R.c("server/chunks/063q_next_12dskcl._.js")
 R.c("server/chunks/063q_next_dist_0bo6z5y._.js")
 R.c("server/chunks/web_0ejqmz1._.js")
