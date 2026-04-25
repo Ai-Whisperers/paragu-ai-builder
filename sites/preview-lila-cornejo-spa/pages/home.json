@@ -24,11 +24,6 @@
       "content": "home.services"
     },
     {
-      "id": "product-catalog",
-      "variant": "grid",
-      "content": "home.products"
-    },
-    {
       "id": "trust-badges",
       "variant": "strip",
       "content": "home.trustBadges"
@@ -39,11 +34,6 @@
       "content": "home.gallery"
     },
     {
-      "id": "before-after",
-      "variant": "slider",
-      "content": "home.beforeAfter"
-    },
-    {
       "id": "team",
       "variant": "cards",
       "content": "home.team"
@@ -52,11 +42,6 @@
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"
-    },
-    {
-      "id": "instagram-feed",
-      "variant": "grid",
-      "content": "home.instagramFeed"
     },
     {
       "id": "google-reviews",

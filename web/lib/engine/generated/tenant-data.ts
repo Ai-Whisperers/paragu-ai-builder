@@ -20732,11 +20732,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -20745,11 +20740,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -20792,11 +20782,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -20834,11 +20819,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -20847,11 +20827,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -20882,11 +20857,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -20926,11 +20896,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -20941,11 +20906,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -20954,11 +20914,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -21028,11 +20983,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -21041,11 +20991,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -21088,11 +21033,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -21125,19 +21065,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -21182,11 +21112,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -21197,11 +21122,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -21210,11 +21130,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -21284,11 +21199,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -21302,11 +21212,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -21366,19 +21271,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -21423,11 +21318,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -21436,11 +21326,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -21481,11 +21366,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -21525,11 +21405,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -21538,11 +21413,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -21583,11 +21453,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -21627,11 +21492,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -21640,11 +21500,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -21675,11 +21530,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -21719,11 +21569,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -21732,11 +21577,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -21777,11 +21617,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -21821,11 +21656,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -21834,11 +21664,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -21869,11 +21694,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -21913,11 +21733,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -21926,11 +21741,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -21961,11 +21771,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -22005,11 +21810,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -22018,11 +21818,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -22063,11 +21858,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -22107,11 +21897,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -22120,11 +21905,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -22165,11 +21945,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -22209,11 +21984,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -22222,11 +21992,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -22267,11 +22032,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -22311,11 +22071,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -22324,11 +22079,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -22359,11 +22109,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -22403,11 +22148,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -22416,11 +22156,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -22463,11 +22198,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -22505,11 +22235,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -22518,11 +22243,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -22553,11 +22273,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -22592,19 +22307,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -22649,11 +22354,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -22667,11 +22367,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -22736,11 +22431,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -22749,11 +22439,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -22784,11 +22469,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -22828,11 +22508,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -22846,11 +22521,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -22910,19 +22580,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -22967,11 +22627,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -22982,19 +22637,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -23049,19 +22694,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -23106,11 +22741,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -23124,11 +22754,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -23193,11 +22818,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -23206,11 +22826,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -23253,11 +22868,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -23295,11 +22905,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -23308,11 +22913,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -23343,11 +22943,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -23387,11 +22982,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -23400,11 +22990,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -23435,11 +23020,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -23479,11 +23059,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -23492,11 +23067,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -23527,11 +23097,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -23571,11 +23136,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -23584,11 +23144,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -23619,11 +23174,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -23663,11 +23213,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -23676,11 +23221,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -23711,11 +23251,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -23755,11 +23290,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -23768,11 +23298,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -23803,11 +23328,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -23847,11 +23367,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -23862,11 +23377,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -23875,11 +23385,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -23949,11 +23454,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -23962,11 +23462,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -23997,11 +23492,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -24041,11 +23531,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -24054,11 +23539,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -24089,11 +23569,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -24133,11 +23608,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -24146,11 +23616,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -24181,11 +23646,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -24225,11 +23685,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -24238,11 +23693,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -24285,11 +23735,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -24327,11 +23772,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -24342,19 +23782,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -24414,11 +23844,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -24427,11 +23852,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -24474,11 +23894,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -24516,11 +23931,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -24529,11 +23939,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -24564,11 +23969,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -24608,11 +24008,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -24621,11 +24016,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -24656,11 +24046,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -24700,11 +24085,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -24718,11 +24098,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -24782,19 +24157,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -24834,19 +24199,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -24891,11 +24246,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -24904,11 +24254,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -24939,11 +24284,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -24983,11 +24323,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -24996,11 +24331,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -25041,11 +24371,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -25085,11 +24410,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -25098,11 +24418,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -25143,11 +24458,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -25187,11 +24497,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -25200,11 +24505,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -25245,11 +24545,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -25289,11 +24584,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -25302,11 +24592,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -25347,11 +24632,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -25391,11 +24671,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -25404,11 +24679,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -25451,11 +24721,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -25493,11 +24758,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -25506,11 +24766,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -25541,11 +24796,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -25585,11 +24835,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -25598,11 +24843,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -25633,11 +24873,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -25677,11 +24912,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -25692,11 +24922,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -25705,11 +24930,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -25769,11 +24989,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -25782,11 +24997,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -25817,11 +25027,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -25861,11 +25066,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -25874,11 +25074,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -25919,11 +25114,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -25963,11 +25153,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -25976,11 +25161,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -26021,11 +25201,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -26065,11 +25240,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -26078,11 +25248,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -26125,11 +25290,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -26167,11 +25327,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -26182,11 +25337,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -26195,11 +25345,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -26269,11 +25414,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -26287,11 +25427,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -26356,11 +25491,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -26374,11 +25504,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -26438,19 +25563,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -26495,11 +25610,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -26513,11 +25623,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -26582,11 +25687,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -26595,11 +25695,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -26630,11 +25725,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -26674,11 +25764,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -26687,11 +25772,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -26734,11 +25814,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -26776,11 +25851,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -26794,11 +25864,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -26863,11 +25928,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -26876,11 +25936,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -26923,11 +25978,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -26965,11 +26015,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -26983,11 +26028,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -27047,19 +26087,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -27104,11 +26134,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -27122,11 +26147,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -27186,19 +26206,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -27238,19 +26248,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -27295,11 +26295,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -27308,11 +26303,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -27343,11 +26333,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -27382,19 +26367,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -27439,11 +26414,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -27457,11 +26427,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -27526,11 +26491,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -27539,11 +26499,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -27574,11 +26529,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -27618,11 +26568,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -27631,11 +26576,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -27666,11 +26606,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -27710,11 +26645,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -27725,11 +26655,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -27738,11 +26663,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -27802,11 +26722,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -27817,11 +26732,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -27830,11 +26740,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -27894,11 +26799,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -27907,11 +26807,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -27942,11 +26837,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -27986,11 +26876,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -27999,11 +26884,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -28034,11 +26914,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -28078,11 +26953,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -28091,11 +26961,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -28126,11 +26991,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -28170,11 +27030,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -28183,11 +27038,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -28218,11 +27068,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -28262,11 +27107,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -28275,11 +27115,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -28320,11 +27155,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -28364,11 +27194,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -28377,11 +27202,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -28422,11 +27242,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -28466,11 +27281,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -28479,11 +27289,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -28524,11 +27329,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -28568,11 +27368,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -28581,11 +27376,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -28616,11 +27406,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -28660,11 +27445,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -28673,11 +27453,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -28718,11 +27493,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -28762,11 +27532,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -28775,11 +27540,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -28822,11 +27582,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -28864,11 +27619,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -28879,11 +27629,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -28892,11 +27637,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -28961,19 +27701,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -29013,19 +27743,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -29070,11 +27790,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -29083,11 +27798,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -29118,11 +27828,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -29162,11 +27867,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -29175,11 +27875,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -29210,11 +27905,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -29254,11 +27944,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -29267,11 +27952,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -29314,11 +27994,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -29351,19 +28026,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -29403,19 +28068,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -29460,11 +28115,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -29473,11 +28123,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -29508,11 +28153,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -29552,11 +28192,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -29565,11 +28200,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -29610,11 +28240,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -29654,11 +28279,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -29667,11 +28287,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -29712,11 +28327,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -29756,11 +28366,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -29769,11 +28374,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -29816,11 +28416,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -29858,11 +28453,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -29873,19 +28463,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -29955,11 +28535,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -29968,11 +28543,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -30015,11 +28585,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -30057,11 +28622,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -30072,19 +28632,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -30144,11 +28694,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -30159,19 +28704,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -30231,11 +28766,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -30244,11 +28774,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -30279,11 +28804,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -30318,19 +28838,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -30370,19 +28880,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -30427,11 +28927,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -30440,11 +28935,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -30487,11 +28977,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -30529,11 +29014,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -30544,11 +29024,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -30557,11 +29032,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -30631,11 +29101,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -30646,11 +29111,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -30659,11 +29119,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -30733,11 +29188,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -30751,11 +29201,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -30815,19 +29260,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -30872,11 +29307,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -30885,11 +29315,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -30920,11 +29345,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -30964,11 +29384,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -30979,11 +29394,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -30992,11 +29402,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -31066,11 +29471,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -31079,11 +29479,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -31114,11 +29509,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -31153,19 +29543,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -31210,11 +29590,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -31228,11 +29603,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -31297,11 +29667,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -31310,11 +29675,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -31345,11 +29705,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -31389,11 +29744,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -31402,11 +29752,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -31437,11 +29782,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -31481,11 +29821,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -31494,11 +29829,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -31541,11 +29871,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -31583,11 +29908,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -31598,11 +29918,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -31611,11 +29926,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -31685,11 +29995,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -31700,11 +30005,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -31713,11 +30013,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -31787,11 +30082,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -31800,11 +30090,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -31835,11 +30120,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -31879,11 +30159,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -31894,11 +30169,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -31907,11 +30177,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -31981,11 +30246,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -31994,11 +30254,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -32029,11 +30284,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -32073,11 +30323,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -32086,11 +30331,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -32133,11 +30373,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -32175,11 +30410,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -32190,11 +30420,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -32203,11 +30428,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -32277,11 +30497,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -32295,11 +30510,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -32364,11 +30574,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -32377,11 +30582,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -32412,11 +30612,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -32451,19 +30646,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -32508,11 +30693,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -32526,11 +30706,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -32595,11 +30770,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -32608,11 +30778,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -32655,11 +30820,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -32697,11 +30857,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -32712,19 +30867,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -32784,11 +30929,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -32797,11 +30937,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -32844,11 +30979,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -32886,11 +31016,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -32901,11 +31026,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -32914,11 +31034,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -32988,11 +31103,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -33001,11 +31111,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -33046,11 +31151,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -33090,11 +31190,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -33103,11 +31198,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -33138,11 +31228,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -33182,11 +31267,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -33195,11 +31275,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -33230,11 +31305,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -33274,11 +31344,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -33287,11 +31352,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -33322,11 +31382,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -33366,11 +31421,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -33379,11 +31429,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -33426,11 +31471,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -33468,11 +31508,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -33483,11 +31518,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -33496,11 +31526,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -33560,11 +31585,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -33578,11 +31598,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -33647,11 +31662,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -33662,11 +31672,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -33675,11 +31680,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -33734,19 +31734,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -33791,11 +31781,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -33809,11 +31794,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -33878,11 +31858,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -33893,19 +31868,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -33965,11 +31930,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -33978,11 +31938,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -34023,11 +31978,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -34067,11 +32017,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -34080,11 +32025,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -34115,11 +32055,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -34159,11 +32094,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -34172,11 +32102,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -34207,11 +32132,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -34251,11 +32171,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -34264,11 +32179,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -34299,11 +32209,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -34343,11 +32248,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -34356,11 +32256,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -34401,11 +32296,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -34445,11 +32335,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -34458,11 +32343,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -34503,11 +32383,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -34547,11 +32422,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -34560,11 +32430,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -34607,11 +32472,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -34644,19 +32504,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -34701,11 +32551,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -34714,11 +32559,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -34761,11 +32601,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -34803,11 +32638,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -34816,11 +32646,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -34851,11 +32676,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -34895,11 +32715,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -34908,11 +32723,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -34943,11 +32753,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -34987,11 +32792,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -35000,11 +32800,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -35035,11 +32830,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -35079,11 +32869,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -35094,11 +32879,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -35107,11 +32887,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -35181,11 +32956,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -35194,11 +32964,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -35229,11 +32994,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -35268,19 +33028,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -35320,19 +33070,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -35372,19 +33112,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -35429,11 +33159,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -35444,11 +33169,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -35457,11 +33177,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -35521,11 +33236,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -35536,19 +33246,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -35608,11 +33308,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -35621,11 +33316,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -35656,11 +33346,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -35700,11 +33385,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -35713,11 +33393,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -35758,11 +33433,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -35802,11 +33472,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -35815,11 +33480,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -35860,11 +33520,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -35904,11 +33559,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -35917,11 +33567,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -35952,11 +33597,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -35996,11 +33636,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -36009,11 +33644,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -36044,11 +33674,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -36088,11 +33713,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -36101,11 +33721,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -36146,11 +33761,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -36190,11 +33800,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -36203,11 +33808,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -36248,11 +33848,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -36292,11 +33887,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -36305,11 +33895,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -36350,11 +33935,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -36394,11 +33974,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -36407,11 +33982,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -36452,11 +34022,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -36496,11 +34061,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -36509,11 +34069,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -36556,11 +34111,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -36598,11 +34148,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -36613,11 +34158,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -36626,11 +34166,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -36695,19 +34230,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -36752,11 +34277,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -36765,11 +34285,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -36800,11 +34315,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -36844,11 +34354,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -36857,11 +34362,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -36892,11 +34392,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -36936,11 +34431,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -36951,11 +34441,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -36964,11 +34449,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -37028,11 +34508,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -37041,11 +34516,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -37076,11 +34546,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -37120,11 +34585,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -37138,11 +34598,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -37207,11 +34662,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -37220,11 +34670,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -37255,11 +34700,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -37299,11 +34739,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -37312,11 +34747,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -37359,11 +34789,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -37401,11 +34826,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -37414,11 +34834,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -37449,11 +34864,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -37493,11 +34903,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -37508,11 +34913,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -37521,11 +34921,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -37585,11 +34980,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -37598,11 +34988,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -37643,11 +35028,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -37687,11 +35067,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -37700,11 +35075,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -37747,11 +35117,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
-      },
-      {
         "content": "footer",
         "id": "footer",
         "variant": "standard"
@@ -37789,11 +35154,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -37804,11 +35164,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -37817,11 +35172,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -37881,11 +35231,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -37894,11 +35239,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -37929,11 +35269,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -37973,11 +35308,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -37986,11 +35316,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -38021,11 +35346,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -38065,11 +35385,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -38078,11 +35393,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -38113,11 +35423,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -38157,11 +35462,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -38170,11 +35470,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
-      },
-      {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
       },
       {
         "content": "home.team",
@@ -38205,11 +35500,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.hours",
         "id": "open-hours-status",
         "variant": "standard"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "footer",
@@ -38249,11 +35539,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -38267,11 +35552,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.reviewsWidget",
@@ -38336,11 +35616,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -38351,11 +35626,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -38364,11 +35634,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -38428,11 +35693,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -38443,11 +35703,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "home.beforeAfter",
-        "id": "before-after",
-        "variant": "slider"
-      },
-      {
         "content": "home.team",
         "id": "team",
         "variant": "cards"
@@ -38456,11 +35711,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.booking",
@@ -38515,19 +35765,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
@@ -38567,19 +35807,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "home.products",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.instagramFeed",
-        "id": "instagram-feed",
-        "variant": "grid"
       },
       {
         "content": "home.contact",
