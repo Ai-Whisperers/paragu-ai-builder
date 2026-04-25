@@ -128,6 +128,16 @@
     "freeTrial": {
       "enabled": true,
       "days": 7
+    },
+    "productCatalog": {
+      "enabled": true,
+      "showPrices": true
+    },
+    "giftCards": {
+      "enabled": true
+    },
+    "memberships": {
+      "enabled": true
     }
   },
   "serviceCategories": [

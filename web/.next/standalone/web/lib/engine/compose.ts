@@ -67,6 +67,9 @@ export type SectionType =
   | 'featuredProducts'
   | 'commerceCatalog'
   | 'ageGate'
+  | 'googleReviews'
+  | 'packagesGiftcards'
+  | 'branches'
   | 'gallery'
   | 'team'
   | 'testimonials'
@@ -424,6 +427,14 @@ export const SECTION_MAP: Record<string, SectionType> = {
   consultationForm: 'quoteForm',
   emergencyIndicator: 'emergencyIndicator',
   emergency: 'emergencyIndicator',
+  googleReviews: 'googleReviews',
+  reviewsWidget: 'googleReviews',
+  packagesGiftcards: 'packagesGiftcards',
+  packages: 'packagesGiftcards',
+  giftCards: 'packagesGiftcards',
+  branches: 'branches',
+  sucursales: 'branches',
+  locations: 'branches',
   galleryPreview: 'gallery',
   gallery: 'gallery',
   team: 'team',
