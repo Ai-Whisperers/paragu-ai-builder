@@ -143,6 +143,7 @@
   "/dashboard/[slug]/page": "app/dashboard/[slug]/page.js",
   "/dashboard/[slug]/pedidos/page": "app/dashboard/[slug]/pedidos/page.js",
   "/dashboard/[slug]/productos/page": "app/dashboard/[slug]/productos/page.js",
+  "/dashboard/[slug]/reservas/page": "app/dashboard/[slug]/reservas/page.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/dayah-litworks/page": "app/dayah-litworks/page.js",
   "/demo/[rubro]/page": "app/demo/[rubro]/page.js",

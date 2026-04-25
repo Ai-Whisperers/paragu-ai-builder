@@ -143,6 +143,7 @@
   "/dashboard/[slug]/page": "/dashboard/[slug]",
   "/dashboard/[slug]/pedidos/page": "/dashboard/[slug]/pedidos",
   "/dashboard/[slug]/productos/page": "/dashboard/[slug]/productos",
+  "/dashboard/[slug]/reservas/page": "/dashboard/[slug]/reservas",
   "/dashboard/page": "/dashboard",
   "/dayah-litworks/page": "/dayah-litworks",
   "/demo/[rubro]/page": "/demo/[rubro]",

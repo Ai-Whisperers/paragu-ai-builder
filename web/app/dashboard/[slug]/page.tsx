@@ -157,9 +157,17 @@ export default async function DashboardPage({
         )}
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <a href={`/dashboard/${slug}/reservas`} className="block bg-white rounded-xl border p-5 hover:border-blue-300 transition-colors">
+            <h3 className="font-medium text-gray-900">📅 Reservas</h3>
+            <p className="text-sm text-gray-500 mt-1">Gestioná turnos, confirmá y cancelá reservas</p>
+          </a>
           <a href={`/dashboard/${slug}/contenido`} className="block bg-white rounded-xl border p-5 hover:border-blue-300 transition-colors">
             <h3 className="font-medium text-gray-900">✏️ Editar contenido</h3>
             <p className="text-sm text-gray-500 mt-1">Modificá textos, fotos y secciones de tu sitio</p>
+          </a>
+          <a href={`/dashboard/${slug}/configuracion`} className="block bg-white rounded-xl border p-5 hover:border-blue-300 transition-colors">
+            <h3 className="font-medium text-gray-900">⚙️ Configuración</h3>
+            <p className="text-sm text-gray-500 mt-1">Teléfono, dirección, horarios y redes</p>
           </a>
           <a href={`/dashboard/${slug}/pedidos`} className="block bg-white rounded-xl border p-5 hover:border-blue-300 transition-colors">
             <h3 className="font-medium text-gray-900">📦 Pedidos</h3>
