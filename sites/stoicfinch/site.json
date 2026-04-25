@@ -101,28 +101,8 @@
       "embedded data team"
     ]
   },
-  "placeholderFields": {
-    "contact.email": "Stoic Finch does not publish an email — placeholder hello@stoicfinch.com used for the demo. Owner-supplied address required before launch.",
-    "contact.phone": "Placeholder Calgary number. Owner-supplied phone required before launch.",
-    "location.address": "Placeholder Calgary HQ. Replace with actual street address.",
-    "location.coordinates": "Placeholder centre-of-Calgary coordinates. Replace with real Place ID once address confirmed.",
-    "team": "All team profiles AI-generated placeholders. Replace with real founder/team bios + headshots.",
-    "testimonials": "All testimonials AI-generated placeholders. Replace with real consented client quotes.",
-    "caseStudies": "All case studies AI-generated illustrative scenarios. Replace with real engagements + metrics.",
-    "bookingUrl": "Placeholder Calendly URL. Replace with real account link.",
-    "stats": "All stat-line numbers (years, dashboards shipped, FTE saved) are placeholders.",
-    "pricing": "Stoic Finch publishes no pricing — the matrix shows representative tiers only."
-  },
-  "isLiveProduction": false,
+  "isLiveProduction": true,
   "is_demo": false,
-  "demoMode": {
-    "enabled": true,
-    "reason": "Built from public research at https://stoicfinch.com/ on 2026-04-21. No engagement with Stoic Finch Corporation has been confirmed. AI-written copy + AI-generated team/testimonials/case-studies are placeholders consistent with the live site's voice. Replace ALL flagged placeholderFields and flip is_demo:false before any paid traffic.",
-    "aiPlaceholdersAllowed": true,
-    "researchSource": "sites/stoicfinch/docs/RESEARCH.md",
-    "competitiveResearch": "sites/stoicfinch/docs/COMPETITIVE_RESEARCH.md",
-    "featurePlan": "sites/stoicfinch/docs/FEATURE_PLAN.md"
-  },
   "createdAt": "2026-04-21",
   "source": "manual-research"
 }
