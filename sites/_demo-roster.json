@@ -27,6 +27,8 @@
     { "slug": "demo-bodega", "rubro": "bodega_corner_store", "nameEs": "Bodega", "city": "Fernando de la Mora", "wave": 3, "cluster": "Comercio" },
     { "slug": "demo-cerrajero", "rubro": "cerrajero", "nameEs": "Cerrajero", "city": "Asunción", "wave": 3, "cluster": "Oficios" },
     { "slug": "demo-veterinaria", "rubro": "veterinaria", "nameEs": "Veterinaria", "city": "Asunción", "wave": 3, "cluster": "Mascotas" },
-    { "slug": "demo-herreria", "rubro": "herreria", "nameEs": "Herrería", "city": "Lambaré", "wave": 3, "cluster": "Oficios" }
+    { "slug": "demo-herreria", "rubro": "herreria", "nameEs": "Herrería", "city": "Lambaré", "wave": 3, "cluster": "Oficios" },
+    { "slug": "demo-depilacion", "rubro": "depilacion", "nameEs": "Depilación Láser", "city": "Asunción", "wave": 3, "cluster": "Belleza" },
+    { "slug": "demo-maquillaje", "rubro": "maquillaje", "nameEs": "Maquillaje Profesional", "city": "Asunción", "wave": 3, "cluster": "Belleza" }
   ]
 }

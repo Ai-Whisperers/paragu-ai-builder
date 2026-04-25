@@ -1,0 +1,20 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "depilacion",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": ["es"],
+  "contact": {
+    "whatsapp": "+595985724135",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.depilacion.py",
+    "phone": "+595985724135"
+  },
+  "location": { "city": "Asunción" },
+  "features": { "whatsappFloat": true, "testimonials": true },
+  "demo": true,
+  "noindex": true,
+  "source": "manual-enriched",
+  "path": "/s/es/demo-depilacion",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-depilacion"
+}
