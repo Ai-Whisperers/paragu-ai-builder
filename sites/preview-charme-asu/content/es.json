@@ -123,32 +123,32 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGvWOfNtNUhfiGYMgIhTIDNvL1Il5H3R-6oi9_Q9qRreiCUI25Yc2H_pZ6BBQOeYMyPYz1i_5mfbUDYc2X00qJF9Eb0SuzbrIQkn-QwkLriKN-hi0J1IeWkdH3u1OBfXmHx49oF15kdiZydTiDPyG-cpn4gQGeA-P2ZeE0ESW538KBvyoyrg6YomkXdEhE5Sc_dNuWV943dJQAePrRXMX-ic_ur3f-jfFRfLssklT_p82oen8ks06O1UM_bxa1AIQ1S5jXyYhS_c53J7ul0h1cMSUSzQpCfrKuesqQARHB1AML0UMIsu5-uoUtOyicd4j8SRNemYNZGMdZP2n8z6LSpDtmEjy2SWWi0NQQ4vWI_3rzokQL7ymIst1FuRossEWDBvtQ9erRr0ueulDOB2HxmIKK0Ixcbf9mshl0a8jF3S14v&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEz-qhdm5dl0IHucqqu52_vPBbeGPql90U8HRY1_P01CrWPPLcYxfFttACYySRW1ffgl1SmlY0RpCemUIZcpCug2DOMOMN9EUtYliixeLwoNEIMwVowmUEvwTrJ9O8StplCMfyHpAsmpCrj4plm1RyEUn5in8DeK7ZZ7UYw5Lo9xRp69PwY39_B1UdU2vur2Zsk7QjbcwhO2OVn3mI-BVKsdddBzKenxX0XUpbfAnMjUNMPi8WR_FlxmGKFH0_KbQCecuIppLJVVRS5SLwWzbeACrHNPnBENuNBkfOkaNpVCvpxwb9rK0odwRTPnP-ORD_77mTlpQYZvWpomiACyMngXEoQmVQ-SeIBAwxxHJiI-Ay7v2RVJHVaBF4DSZ8xH9cUqdIM2Z3YQUA1H12vwOgmKYPDBvkRV8Uw4gVTmiJ9cr-a&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEMABcCEzaa80kfanN5vivcauNYpYcbpWxYGBKjxgxinbGr4sr7lqNhgpDReKiwOMhW_is8JHsCt4qkoe5fYwH-XK61NGzfi-uUVafHa7UiQ1vJGlxrgd-zPdNSdJuNGniEd5GCXKbbTffv0zxoh9WJ2Rqg6lF87EUfh_u55x6EQRcHPFu2-ew5DVbvBivp4JBWpNTz23YM4gbfwUD55up8mH8CXQ-AqNVQV-McX_DboydDmGRThDM0HlLT8rBCJCA7ZRrT4P0tvMU7BT2SQi4EClnCUqw6eN2Irgtog2CVIjH-lNATYIhm_nNoDbsRbFbo8AkhfOmdqHEGoHeCD77kY3RP0bkGilj6gqNxCBCONlHL_yTYXwX-EDmAWQH5MGpwmvMq7qWy1hclTeNEepO8-OEejQsjr9wn6zLjXXM&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF8-RkmpCFGuWtTqs4KBwAdY-W_-pMCF68Cyh0ELBHH__Pom-GCUrJRc3LoGwgk3MR5Ik4CUBe9hhg4AgmJhhRG8VTaTTPNYr63f_MpkeLfc5aEZG58y9_ZKAN2IZgY6OJbXlE1vodTrpZP-YDO1pLTr4Rr8h7iuGcVr04XtF_XWUqSh48K1PwbM8ek6mqig5H2otdkmOTBDYq7OGv6n-WZx_QKJ3GQW2U87jbfTgBJHD3OPd7YunmXnT021jEYhf21SI3eAJiNr9M1Wforv9D_i7ea1o1pYpGgt6Iit5Oz_bstsTOOgITaLYmQ1q30K-lrBod0Biyv9Mn_TBHBYaJK9SzRY_Tc-MNGCjD9ze8n_5EiZ7BRt8W6Lf_8Bo_I8SqdWu9PoHh9ZVKz8kLUMru7dm8bNIiX4o9LrpfoGaQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH3C-le1bLhwJQRPuLP8UmBsS0jiAcw1rYJ4xrAIsstf2Z3GwXtu2v5SQRteLZrP3btP8p1N_sBKF0SJS5Nx2Eb24SwGo81eEAp96PepQ3nz8hfDNqyyv48SeIu4LX_Dnz9GB9nqe0qVm2zEMvxHvqSe-lTq194I0h2fH5AtbpIxUx8F_zTc8MB-ZmTx6Ws4dZJlGyfd2DfdvA6V4NHnicjzSpXbzpMQ5sF24U7d1Yb_QRDZdqXrjzeDpLSO9vSK7LI7KiEoDNbxUheafHZSuTJJfHmItcISwuK9_KvYuD6JzwMTTAPEECWZFGPTR0l37yYZeN5UWhKYPd6hK-txJvJrcjXUnVnWha8wD0ugMYArAA5WOF9e8BO61PGGAWywMK9iiR14mZS7imJ5diUH2MuCauhVMW3bM28WzjWFmLeYw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGqj45aNNsSO-GaGQ--jL4NgOF8l08B805t-oTApsA_c5xYDamBr1RvZxZHrTwbdWRKFeW_devp-NvmieSsxmkt2-vNKomNc-LsxaWLgNnKuXwoKJkdTBE9nMNwTMKZQm8kYGqoq-7rqwGlsIxRhk3aRsTu3tJ5N2pBy3Z1ivfyuUVOcVn8vN3ieeejRvFPueR5Kfya42_Wyf3P8op0ciPX0Nr9hxcZnKgUTLtpcTTyp0EVPucjMaC0Yh4165G1PcpIdrP4_V9MA5XeSg_9Hqs4pcKwxWIrfXiEdPy4j9oZgJ9x9BjhWtSRe9HsX2I0SdL-dW26CpW-5FMI-uz4C6Ak7B7marWsJBMEO1wBGcDdx42uOxUYMe5l6g5_XphKHLb-BZ0EcqALXoeR1ufKAsPatpC1hG3MytdUnSwMnYFqyg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 3",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE2tTp7n_VvHXYql3053LPsQev9vtnQ56Gu3QERcI7RKtlrbCCj7R2Xg6rb20A9k-m3xWaSs7g2pxtc7QJsEpQfy6UB5mdtcEF4YOuIQ-hdn9OKPQpbo7Wg5OU6SufSU-wXngPEceOR20HrwLA0sZfcArKSvnn664F4nkkuGL5IfxwiQPTzpNxFv1tq1aPBAp1Ps5MOl4UAW6N0F4PPv86_UKIM7wuLFjH5d1836BCZpwbaXDPSg5VGrpjZPIRLW3AhpxAATgp19OoMAH92-_LVJ9WSK7WB7b1mJtGxQB0FI9vc0Vks1md449ZBrymkoO4lbHLBsEF0w_eVl6GFG7AbPGJAZNqCKBEM7M_D7zeOlRlPYPBRbW82DU2q35WParIt5e82_HbJ4oJ7CrRtDefBPBqd9M79lHXVMbfDh5YORf89&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFIh6ucXCEwpjbjlbY_Hwu5f25GtZt9y3vS79YznMmKB8iIB8svm4pymF7CNeyc7F0jGNAwG01ujdGDJ_52pVa-jwshBV1NHD3QVVWz9HNbvXCMVDd2TwSf5T2vekuCF1BT_PN_ML41K7lTQY7vyin7AIf70wuweLxqPFbWd4hj04CSZVwJk_Uhh3i30ymNrP7_NmTIabcaN2QL-S0LQodXSQitCQq7QNmXmms-SGJifFEknSTJ_tY3VSMG2Ij2_URAR46WVHAxvno6dy10KM6GqXV1yjCBamlMv4MmizBLCMp-VZwdZ3Tvhl8fNxHfBjmQBGEHsscdPp-0dsVOvcbuHpeatnBBEQ3lax0HOBg2HPJBrRPUOoplIZRmYCwunnJYSEWvKjmCjiw5VdLs-9TmY8RNUQ-28rHCq3Fvi44PmMOl&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 4",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEGQuegNdFaedaPV6_LkorSfrrvnBbRxyodllzpuLdj-K6WAftv6V90NuPy3IqqXkGXmIfKQY1zKcHmkOrhjdw97CpopZab6oHYwLFxO3MPdeiOoKBGpnU0Wf3MXunWaVwCDL6RAp27FuFpBTPoCW8-4qBkm1--8j4C89fsN8Iq-jnZrn2Eswzkyu2-D-lPt18JELNQN3Hqy4e6eWk2qG88tdAkkSbNwVcBTBXYv_x_ApfsQvDpx-2hPx46CaBPejbXdfvjfwva5b-PPfQ4U1HsUCdvbfCbj5KDxAzKXNQbj1EYiGJJ-tNMb9rxa1vXAl-XS0L2smZzc4Ur4_BBsVan6_aRL5RB8zqplmbDQ06iOOQMb35ME6oxVFKUrS2f84iApmf3E2o1MYzAfolN2qDAbHbEiLCNmBi_Lr1_YSKkz3Lu&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFABdcrNXfO2mqtZCbQXy_AA0gB7HkXiN4XykWGk4AsJVuqemjmzFFHzeNQCr_G6BTvX01nStDxKDcX2zzz1zLdVk71qg6sI3mVABjDtnE2yALlZ7foVqgNHExVjWYMLKjAa05AXMgtyYBSznLudxMN8cM-uXYOWxDfur24jdKxmJffFxbxXJ1MTfNmdKYQW30_zmSAibvZfck4smu2oIYWourDgP2CLXQzdgcYz61Jx5Qz_D6nc9_TYM9o05PWcCyJQkOrd7-Hxo8crTh-o-sBcvOsCGHCyAiShovuMUTcQkfldvd4uOQCbB8kePXjpWVlRWc_Ep8pQo4WVQEasfNHPiZWyHJuJkbroY4T5rNtoO8FoGzPB-6mT1x2FU9pN8T-7_8-FbrXMJf35OZXGNUCzTKjyJEiSW-LqaGBq0RHO7wB&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 5",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGe4pat7fyUcIrNQmgwlZ-uQFftqUcwynkXiwQk00lD_YOZ1_4YTDK0JyLtTNgFrBiT9Otr6CFW3CgD3_Pbf9YK8tBMSqlk25zmqvPOb1nquACt-nKnmHr7kxz3POOdhURU14K6MWKeb9YqYjw7_n6NqFANKGTbB3qoJ90rgqzSTmUAqDr041DueshKDCxj25fJFdeEjvw_Te6AmGp0s7X4jJFMxXlQmUf-q037nh_kU5MuxriU4yF21dideYnXU1kvft4hCdqTBP51mfkjpHfzgrCg_soByCrOdR8DBtyuHX1Uf0k4c1tvayaM9xBLIwscCP1mmXs3ZGHNBhlkyoF5RiaWJAZTP0UptpG_eqCZo8uYCRTEdIj-eiuGo2Uk9HpyDlo2P4aTrHFSgWESoraRZrUg7QTt0ekYoZz2mdDdhK6T&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGebidjD8seSEVUT9fckC5kQGwM0fExyKD0ZG-1E4l4_gHcO5RhCs1Go3rrNBFXkc4kMOM4VQt584xuyc6VosZ_skGon_sw2weNeitUxrTI-Rgo6nTrVrs45Hx3BPA-XCf3OlswcMsgj4MwsE_tPL6EXfiWhCZSYKmAGVY-wOuV-U3USgjilMJDtAa4S22sg14w5lg9B-XxyEHWJfVA3juU-_wwM0EFhi-Sc6uUO3lLQiPxc4E3HFiOB4EHZyqzsTw7ooHMYlFMzujUboTkPYKTLC-Ne06X_QAoJP9y1p2S6KvQN-tfzjeoXqbCPlbtjdmcJ37Na1iXZeIR5ly7GYMy1d9G3T4YRTwUf3fAsQ1j6aQiOLu52DP7TBAl1jLqULOVtvTLDkeu7keB3lc_TNxvxuPnqHQcF7u1TnC7lEzw6boA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 6",
           "caption": ""
         }
@@ -193,21 +193,6 @@
           "author": "Maggie Portillo",
           "quote": "I took my daughter for a children's haircut with the owner of the salon. We scheduled an appointment and waited almost an hour longer than we asked for. I complained about the delay. While we waited, ",
           "rating": 1
-        },
-        {
-          "author": "Ventas Mkt",
-          "quote": "They charged us over $212, and we don't understand why they charge for everything, even breathing. Besides, they don't give you a refund when you ask about the payment. You don't even know what the pr",
-          "rating": 1
-        },
-        {
-          "author": "Soy Fatima Fleitas",
-          "quote": "Whenever I go, they attend to me right away and take the time to provide the service. I always feel a good vibe from the people who serve me.",
-          "rating": 5
-        },
-        {
-          "author": "Lorenzo Acosta",
-          "quote": "A pleasant atmosphere, excellent service, and unparalleled comfort—definitely recommended for a relaxing getaway!",
-          "rating": 5
         }
       ]
     },

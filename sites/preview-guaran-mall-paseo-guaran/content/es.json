@@ -123,32 +123,32 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGJ_Pn8sjfS946iDMrQ8IAbF455Kv2e4H5ps5IkRtzJMBWEhUX0HXqL7w_MouCkslee-1eeipwxG-OkZY9GpR4E9UQ3BUT56jbsuIRGyrPpQn_GlOnL89wELQeTPHmWOI_6kOf5PxrR3WpPEzIIl8kyHp_zwJxffsJSe9MQf9HQgPNyXm1nwOYc5B2FeZ2rNaWkciF0xAkEEbBpCW52qCf9wVr5SxD5fDJydskghhmDYf27WKzcYnZ8IsJDB8k2SyhTGAxkGuM5hSUU_4IU_1zBgRCc9boygLpmcR1Fg1pkyUt3wRfFJoSHGJjvqwGuhO4M2N4cdk1UHipjCc--LjPPePypwrSIFoSnah21GsMMalZZCWGHQIbZVbygH4Lf_TMJGwLtb8wo8ria0-ZMDkqnkgAqGvwAMZ1ePK3QMi5FIYP38elspSQzokFz97jZ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHMdYtO_XFUaxysm9nifniR4iyPl5zjUoVGcn7A79adf_lQq4XeAvxSYSZKAMWwoHlQj6GEUv_I38sTKviM1WqN62SjBs7X4XHoYOwA6evwwKMfTY99Y6GBv9ufq6GEHJpVrhq_eGBXY33h69J9xoqrpr-H1tHfoa-oYCtL34N6BnaODn1RTd6ChD9pCfM_0belDa0I3atojLBtjSYgG9T_6CbmJVHnPJEfqAgFExSd2wEx_67dzekPBWTqNXBBbWeYVJNPya31zWpED8Z3PZfkX-qZ8TSkUWcrfdepnAoBQaEXEE1ymfwPnPh78SOKbs1_m3vFKZ4RfrX-JBPSnsMJQYgTUsYMD43G43uUl31jGNnkQchG2q-aK6vMxstEwYnG2ch5vSAalp07DjeQMN88z8OMGHLwzBcQ279NEQMCuIzjtQBF9uw-Qc0q0tUL&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFkLFhdKVH92rxkOMYmOBNopHkZKY9qnVxe1ncTBkalEztQvkF9UlbjFjeF1b6OYMDfEhaXXmItd2UMmHJCra8fu5HFIfbMIqVzCZx3DsvvQKdQBEmyNCeS9550pbR1qfc8ECUeI3XGDEx8IkVlm2SXW9ZIhfrf57qFrJ-6ojZM4DDrziPaJLSJUa-lH9XH3IHTNK9iTrpn6YzPZ8oxsnoJjEacornEhNlCqmwNLcgGoWIfJUnFO1u6t2jIa6bNA62C-1GWtVKtU268hzKKP8VxaFM4ngZL0UQbfb0lL7cOCpDFOG7T0qQjj0Rk_whOfRxZqE2yLGdSUWtYlNOspmzlXuqooqCa7pvJToxVjoyZKICX4Ynd6BRCnjL57-Ezihvz47UyVc4tnm1IlAUVwrzRRQChFZYeBhsZlXbmn5CO8Q&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFyEMBY8of2i4F6kpcIKTYt22JOGHb2uPPEp7A5XTXtcnMLjTuJzBv9ZSIYjrhlkj6oB-UJfAE3b9H_UwnQWWze8s8OO4hWQYFBSgnnrB8dsGdsTIQFwYNNLcLi6bPKuOJJKd_qC1w188YYJbfEg0tU1QoashdxLxLXq1brQLW0G_NTavxp5AXk1_W0qD9xvC2RaBJiWPMhsOjXmYPAFMZnMFTkIrNAjZtqu_hQ78Ikh4bj-WPtBRlnb1IVpWvRNsIfKxsTzQzfuAlgrVPE1gna29cCgnFxotmE9o_QjX2ikg-roXyT3o1yOkVy3RspU-Js6MTa-g08rf31YG65Nx5tN4H5B3mhnOH8yhH38UWelJuFq7IizNdkIwY8GatTNCy_ZuXNXGXPC9zEK-i7suOpRNeqwQDHOr4BJraSdvSJJQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFmCPyHk2OBQswwQvsY-bZexFU-8JaXvZnD84bpZxoOnTiMOsIaqcXy9rsVy6YvkMkJ8dQkaWSfSkBzBfvbpMh6ikYDgTGlQ9lw4Mg1QtXMv_fUE994XCnXQSQwnRepVY9HzLMJao-NqYu2anfZr86lAAGInUzd3GJd5WOSRIRmyU_jZehvIePzrZ-GHXSctPkEjroR9OyBzSZpYfhiNixNfy3X3gWgZoPb4Fs8XnOI-eU2EUfoOv2HfGvCNLJRm9nsaqAmS-OCCI-M3_CKZ6GuBBln5mOZBZntdxR6ecvzc86dIcYGc52fD6_0gV1FPEqWIOn8GtiYCnvGvMUKvS_5MinykOPhkrMiEKzkUmFZHD4IlNHHIE3hKrf9e2b6Yu7YKijXZAFkn8NHnFFjBklMu60PqGHbJ0ZrDmfJjo1D_fOq&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGzLDZ2HH_v-ucLiZjTXCcaukdMO_FpXq15dQazoJbwreWuOuoO3I89skfZkENiT0_HouI1Si8ahdChf_ZnoLnpymm_NI-D13LvDaX3kPG2ejPukcBMJMvXFCXckLxTh1bpepB8tv4PVpTPvAPvOzae2OQZRAlDIQM5oOsfv58Nuhf0G6o5MNHXGeTyZxpd6Mf6f3uOThpmONGpGnRQMJrMjsOgYho0YfJvAUCTHuYEssOv4O21Wxt4K0fTKTLyVuh95lN0YIxhDvNu3k1t4zfn17sPELmZ4xIC_DIzslQFERpyCyuCIclU16HW7Tn-dO-ZpYdE50pUjS1txF_gTBA0zLCskXDlZlfYbkB_9BBSN9uQxjYihwtwY3KWewYzryys9AHWF11kj-z-uYsRLpYCHcQeCa-nKgfZNFCwwXcjEgBN&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 3",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGi5sHWuioRiYYDCZDAkCjK_laBkziEys852qLv9rzRXnLugxyaE1Go4J9n6rQeuVM3tzSszi9C12UtG1SNklnGLqs0ATi67eZT98Xm4FOKbcXxEuDUK-zHrxcRAvDk9G9-zUs3_IG-Wme0MZZ_vHr-EoDssmA0Kntl9miHLQydWP6m2G00HAza8JaBH6VUlCfZcnp5XAnnoWSP3xYWGbqsWHgdG8-tWxipT1BpQOQu2wuOd-oNqsV6o3tFj8z-29evQ1Ytmeb6E3UAMZIEwsiSVHUbgE3H90_LviZD6WcBQJlKXSdi7H9MmtYutVt-uvT_4kM3sSxOOGNJuJjIe54BrEQbp8SEygfs63MRLKVUiJjc6lwEl8W58qIGK3GlVtmIzpiAOHSVVOvNvjpxABcwgFd3Ls3W3iBJhk7jY2JwzeabHmSa1gOJAEvNWA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHFApJwWs2Pnovujc95uIHXjeTnG7nCqFDDVCdcBAqFuTmog68CdKOWWEQFniQdS3fAgagNweW1MQpxfDiyFgQxT4bhSex7w-OOYgAMRmD5ywQXQrpgSqISDv7jv8CZJrI2v24axmMfdinPCbGX8EEtLURmHbVVbKbrt9mSMwH_o8FA18XirfE3MF7li1SbM7an95wtrRoT4UouvzdZ0IdrpWSAT8DbaE5ZvD97gYXlT7oAhSuxGczAYiA9jAFCZBSsF-cRRK7Xd09LixI5xxiJKH2G729nvkYS5VgCQAh4O46bP9x2a_zIzK7b2oJ32S8ASa0Go4c5C2gSgqLDng6LJNPGTs9inxceCLOX5vj5XhoNfKxbRRpd2HNVQJJ-J6jlV2qAlPBx4vmmw6Ki5UwaNnfycVXlFRYktbeiVJLcjBCbeoTtFrKk41MOLw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 4",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH8ssKrbIcO3DdW71UwjOvGmIUbL0ftidjPFgo3P5HX0ctsEcQbG2rHKV53RqaaP_GtwQ0Bx0xEmcYB9ly9PaYMsARse3V_1WzAldpnDne-jZ4ExEcQbvWnGEkElhy74i1co_rNq084gnVt2yVxSrv54wEZHnUPX2QvttZs9nkYpVd8GEHCKthbYh38q0qPL9xgmyB6oUVHY0nASdc5tYmPrJDNkdW3ysVX6CKrXw9bKy4L35cuK_GDSQZ4HB9FDZCX-i4qKvbpEnIN7zSE-pRJqBaHGz8cL0iCBbq_9WtW38mqco1995LdwVXVg6mJ5LeRY4xc-evnfa4r-G7WrS3wrcifdr7qrZbK14sztcWlEH6iH4Gu8zd_wfTTuc9S5Em-p3AWmf08TO3h0Z4z6P-acMOjXr2m98e9ejo2Wcau0ix8p-F_4w7CsazgQpNm&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHApYSifWV_FbacGqgtbJBVUD3SXC95pjc78djBE3_9-6KTH4Rmt9UQVd9IhGHebFJ2r3WZBuqYJpI6BioMbrRMW_WJUeePEBFbcdWJo8KnhqmiMZT8iJqhXKLcFG9jROx8BVE1DjHdyiw_RYCTbDynuxw5i-lP3c3IN9bC9v9dl7UZaDH4eeQN_yt_PPKzIklA_6E0DhSmK2kJ5mXb2ZMAQMlz-Vaqe5pKM0TBUHTQGVc5Cm82mH-8R61Kyxm8dnp3cHU0DkqsG7gsE_UgPePOT3TPcpU6kzHbDgJ014n0QmqiaKAMBZ3a0n-lX6vOqDwA6Z-ADMKt1XA5-gVXlgxV6kkGX1T-6IY52RQ49Tddr-W0PAXntK6BM3Sy0RhG006a-dO3lX4jWH7NKm99OFP4Kccd3jsLi9pK6X4XUuNPWhnqqjJe9aujF6sTYOdl&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 5",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEPEwCVIgPqr7CP2Im9zMQLRgjIMweAhTFGW4XBIZrzehKMzVI1ODdSjGKNJmHocM4vIVjqC2FeLbjZGWHNkJMweLxmcQ5E8sYC31FNhgdtBBapclMmC85sZXEXeq9xrt1DmAC32MmsuMpo1LnooVzbJ2AyjVch8JXOXF9FOKhhYg4OTIU02t8vnI_0IgCWD2YJWMhAItb-nFo9JictW7vJS6IwjHcO3ImdvgNYGxqfdqpCaTPYkWH3pvywwYzzssFoouf7O-cj6aCR6bmIAtLrfUW4M0WchBS5VhOBa9qMZX0jag6RRZNANiO8shYWjNxfJvqctVy86pYMoUQFvEatdqCxg24lva25MYmieZUWtuPa_TGZmC6pQrjZyVv7n2Ib7meJIiMYezyy3prLbT7cRCUtn7RSgamid3ovHwCfSDyq&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFTJQXnUlgKew8qnI7zEXMTZugSKGWcGedUwbuovSA16CEWhXGFMPbw8zrCF0SxfGZUQdFVlUxi_Xps9MrENCaZyoXNNua2vTCPbCSvS9IQhVFXdOfLRGDKiud05S_F_VYk9UraS_VT7tdUNug-Z-BkNVX0jRo_Za-0gM3nlSn8L5awSFFgIuRJwCqJBr5I4PNzk1NYGJgv4MYCVjv-tvWgdjSl6Ni1E_ZFLSma7oDntir461NR86tMI28LRctqhrv07JOFV_Gn8laraj24NjwJTkUZhkErHxlsnxPiI7pTvlJkoQuWy8UQR3lGKEI96ONNO8mxV8TELnEA1Iqx1ambTBAG11L5sv4y5ZPHrI05JowyUdXuckJojx6aohd2E2SSXg5MVAF2dtf3rvxnDFSdAUOLyo98EPXBXp3IGsNojrkC&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 6",
           "caption": ""
         }
@@ -190,11 +190,6 @@
       "subtitle": "Basado en 273 reseñas",
       "items": [
         {
-          "author": "I RMoreno",
-          "quote": "My Daughter Loves trips to the Mall, she can't wait for the other business to open",
-          "rating": 5
-        },
-        {
           "author": "Termos Empresariales Promocioná tu marca!",
           "quote": "A lovely space that includes a top-notch cinema 🙌🏽✨😊",
           "rating": 4
@@ -202,11 +197,6 @@
         {
           "author": "christian Gonzalez (chrisgonzalezoficial)",
           "quote": "It's great for the entire Itaugua area and its surroundings. A quiet, family-friendly atmosphere with many options, plus the Itaú cinema is now open, which for many is the closest place to enjoy this ",
-          "rating": 5
-        },
-        {
-          "author": "Esteban N",
-          "quote": "McDonald's is open until midnight and the service is fast. I recommend it when you don't know what to have for dinner and you're in a hurry, boss.",
           "rating": 5
         }
       ]

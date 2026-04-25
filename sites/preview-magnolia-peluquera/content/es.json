@@ -123,32 +123,32 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGt2HLrdwx0LYjxK-GxxqXVHMID27xwDDyLmgUSCm1ZigJJtWp6p3GRD_iP8DlkehN1dA_0zC7hdnH21YKCCSfU0MAJolvQVVpnCcbsdip-GZsOD1kbWLuHhJRiPBLnpszUh5F6GIgGIDVM7lNq-eY9bR4qI3G_oVlQ7lMEHU8qLY3HJ81S98RiqQeGk-UZntrSOAgMglVdnm2qB4cyfv2Nxvvfhyr03td8rcEXx4W21NwOQCh6MTGq_15HYipb4ebhPXIYEDismSALaFuN0SnD7lHXlZ12TYUw0gFAzvBlxhxNn82S8rnIhreOBymo6S0mZSd9bspUI7-FPY6rSC4l-QxuVamZXjhAIBcvDqUCa_KKr88BRCjO2WEkXezOpeob7CQKPPGMzmxUq0hwi8N9ZepqeO4ccmMVSPqi75s&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEELEzIIeFotSQWeDIBHxhLbu9I7rIpgfm_l9Vo2fMVskUaVo4y88Te5kViCV4BYhIB7laGkOoE3RZ6txIBYaTcmgL8ayav_VlrjvewUAvjW_0xfypPtCPT86mYyICigympXBSckyN8A8vxZetSHD73VKfNTqzRpxQwtD_chlHAzM4PC_77YmrEABuovVBAnv2KdpaH4__MpGhs-Zw9fM5WMWI5HMYxL-NmC-KqE-wbzQMZLXr3s_XD05qjcOCzFm-W1jtRIAjx2KLXVfI2JCpQh7BVTIvMa-5RU1AQB8M-gE-k9LCIbAfmCrir2ejr9kA8UMkld4HAqGqG5-qvxnJPW8jT5qZQ8tpDPnWMsOGgUx9Y1aKpHF7Sa-_XkJtiEUHkLCc_wUCda__vJboehA5SCaqMwT0vyMbpDJ2vER9I&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEElvyi7VTyMXyx4CuVNZJSYV5RVvRkGJdA8fivmLKbIprtHwjwHubc6zi019FS7zKg__Uxy9nTDtF0JjUFFvN0iW2rgx2g_xYuY5UG_DuNNVFJUAeWuFtNck3osxCXojMe8gce6ARrG-alF-YosN07TqIQj0cxpDa1KuG6G-DIvr-KPIJnnVCBOK7IiMPj17Y2s4z9zvYAZ-RdPh0zcIfc_S1BgW6bD2IHBiCTJ568o_J6rNvJYpDQa0ZTgS1eoRvgzXF57OQr1zzKI0n3MtxQPWRbdVJLCWEyYjeR-Wb9H4nuLB5kSl_VeaUjE_qVNMGYvl5OEYeDHCSKZaQn1G2FP4f72oK3CWavTuozFF_JGUtD5cXhXovoaB6f0VQ8QakfMY9obVYQ203LlV4jpQokyFM6cLyXGYMFh27lLDcGvVNvo&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHtSRpsATYA9Tgean94x6r1ZfnJgIrC0qY9RYcwZXPdf4XydUFcqIsFl9TXSMH8K5D5OUCK-ul99j56D6C4D5etNQXHXCyZLgoxXnWQvGFQzkUuRgHkXm3W3tPhSSMu7MLU8yAe-Ko-8kfWoBzh1o_jlZ_wezw7qEFtsAsVGRJfROKHM1uDXV-lAmWFnAqA9eQu3LeCOYKv_jye0edA3fL1qRX4h7r2Zae3aEeMzcjK4ggdO1R5awxQAnjsWByBacYuAYM67AS9T7ByuLSthoAns-wBn1DsnFmCtA10lvXky6sa0LcbvQsqd1VUJVd6g5Ah1fSv6VU2f2R7JxDTad-Dc4495i7xFP6AuT9Ztm6NhDA33u9u92_iuHbIuKJGNtb35UZetXpOkRMf4Mt7TajBTUike3fkrx_GLaEK2-0Or51K&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH74mZjZVu1rqYE8bs-5EVjOLjEr9-zrIUoKYeto7vcL_ql7X2R6EHYs5l_OJ3P_gcw3Wkbo-qefnGProsFIPulynl453mWDsq95itlBBE_rd0piLYsGDXg0HvMu_ViShxfy5dD-IYDmLiWdLizSbWgULoe9zBE280p7g5vX2HqFVQ2qy6M8adC6XT9lOjuyNg1woRhR2U3C04KUUwyOWSlAtVPbE5GOOVJHtKKSfXAhxRywIxtUbMV3UGzd2_uclwFhKsbuRpxdTgwhvvKqR2Xz20cBQwvCOk8rGtFk-z5CWD2WnnfJVjGKYYPmy8-mTk-x1tyWZvhTLebsIuc3HACXLuQTq_MHCoTWsarkQ8XRlJht3_oheTTM7yb7fpDSVkWTPRStrC3rUQFnSXv8xLfGr_COYKyL45OuBpgJcfSUlw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF_58Vyar2Is1Li3UCIWdh132--XeokpOLejDifQo0Z1SAbyRYk_bJ6PPi3TlsA9gs6Fy1oWB-SQjItJHNaLPFWZo6_lyXFsKU-2riDd7x08nF3B739LnsxvnYaQtUlIpTHmRlBjUqyAUowLCvQ5100yNTukZ7iOeDlqC8Bwmqxi4bnAZr2HHAa06PBbXKtzI8aHcCI10qvPvIKSJnnqup_t4PEko6hjT6vW7RYIhgZFQSYWHnz0MwCdqBygkPrG5EjVFYg_EXnqu0kr2vFghb6arHrtbBy73zxzb_3DDG58CQB6C48vSB1fVdZzVHMb_rFgWBdYoj1o3goc0KPXQ5_kUAq_JZ8V7x3rNQnqdySIcAfY3b5S2l_JooVzyaKOG_4xEbGRdeLxFTidwCTmRqNcvQs-zfLkqrDIzTaL9_A0vM&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 3",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEElTmSD2wyMY87PlfjwSaD9qys9qSlsf1YJ5QhNLkjHxrnjL98OZINcci_TRCysFMRutgCczd_k2pXrM9074RpuSXL5ldBoTvCoPqvs1ZACkpo6Xvm8iq2GYY_cr7TtFhHnJN_-PLPOmNurYEqlVX-Cu6M0bbx_dll34zXVFGOgGwK7JnNjWMDXGtN3l414tUn46du_8C5TiQ5_t6uAZNEssckXhkoOH-PLqVz4eCrCycE_YzSaz-3YqmTu6xVUMMZBxPm2pLkTihrjZVbpDdF1CSdKKwn7jOGY-cpMvKGgAhtXhQWpu63BnJh8ANU13mJ6hQz1hbmjoJvOldJelVDXSQqd_fgIk3dRku5mHpJcZY1pwf9ASU638wKcYW3M14fw1RvDwO6vclqxTdsr9ACzMSqak9sbAfr2rQDp698&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFnQAkK8GBeIaUX_P9q-fL3dMf9r7xx8hEdUzkc-UacO-v5zZhun1nu2V73p5FAGWfMZpp45RN1HlkJOzRcSVcUpKIo3WBqOFSPITiwwv8K3pEYsOG0et4TWJ_HjQ5keWlMeqVoyISLpPNeL5_opafucEveq81YO2i3zU-d63dIn7PGaB3Si6bgCp4u5XV1pmEO82mTwl4vpSY6mjxXbRqI0q7GyLJehlChejVeyiu_R6yFj5XAPH7WWWxwGr2F3lOUGkmDBrgzv_X6F8Z827P0HlCWFAd93LpT_8LOZPadlwGyY1ivUM1PFqheHfGviu5djIv2RALohahl40QEH3xGsWghdbUmIO5D23OEhB_joXiXoe5WrW6Kmc89baWcElgW6mxc44nYzRg-XkALzR3ngHE6YU1mFOBz8H5Qa8o&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 4",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH_yJ8C2CU1H61qyYpjBzHd1l527hlQAgzeOSa8ozVwz-2CPJQz5Te15mtrw6T4_iSYfdBM2iizhV_JwTqr0lpGjDlFBZRVAI_n0M89F6mYpxYpK96O79NT2a4T5JsbCgczGvTJryb4oY1g_m9Oh9ShHHm7fKcNNCMw2S-sgFQIy7H18IDDUcK2OcqeOBiQO7MzU_YsEpGzGPvG1eu8vDVSX1wTIEJYRK5fb0Ery3iKXeeZfHEursvRzUKlLzhWCZL2mxfM-iP50Qeq9iQVX39WVssRHxSlyO8AvEonBf-DrmIExgxFnVY1uzj5xQzmeUH2Dcl4GHCqYmLOe0MUVeGqSnuHlZQicUoFiQJVsOr3epNraD8X5oe1-OidYD_EoYfK6HPAq1c730ocdToTfaJ6pHhGmr9trW-YegCa6Bnb55c4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFrjYHoSEmPCXdPDFTndp1rFZ8QJnSI8GrkYoLk1TOCCHis_G9b6hwbzkLjhObUpxj6TuCxtCRxbimcDoID4bzZZN9HkJO8IxMHS84WHGofd5K0vpW_vKHvE-dJngukMkTZhXayt7YPeE1s8fBQkJaC5hBawX1I_iFBH9jlMREJATrqSoBTgMEfdVqJ_-J5Uv722yID6U51W-C_5UoOO-Q6pS_ziJ3WtMg_Yfd5pmw7BwVVEEvygU7PEVXJriusEr_8M7_HmsPwVsljSkAiHbuQVI-rOct2b9BWhgomVHCE1IuSGLyk2WgL7NU54Gn74_WDx0EoF4MUt0uFvqnflUuINP3Xg3s-7dYyNufj5LcVRJV9MStzZ7IRD0uZ_PvCSY3Ni3FonqzWAUfGBrJl64C_zA_fRI2U9-wTKvXRlDG2WPJ-&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 5",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFB6vpSI3eSB9tMQRfErwqkEWNbibJaxVITn17mtXl93UNR4W-2MfUbUwUNPHCjjvDZnyxIHYDpDeZC-7xecUHs0US4bIRB8IQOIafeFnzqME7cc27pCa80FCoaqrehM-5bVaLHLFRZlth02qz75O1zQcN5XWqSg6JlUGZ-524oQBKKA2BwWAM5WzRLrETsSh4aP7OrZGYTAZJdDjuLuz1jf4aFFJBPCXL-AJeeoPN9vXalcOdRv5WdS1hh4KzIR5QKaiNBkV-Dq1jJYE4J-iTjl8TpgE4aj7VVtJUQel1SfDa9jEzY8YPdqGJWFxBNeGQcwPZx-2hoaxB7UbDKYSXzL7SWCkfORx3DDaUGkmuaFt_hnBRV3n0IaNRtGFNjdFJSXUsa0aWpXJJxfk8Ym0G4qo2mj_49l_zMfn7Dj2Cbxw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFM5rfMOPa9FSCVVmA5hYGzdjOx4Bhir8NTVqYEKDFBYJFZfDK4tLU46bRQG9vuujOchnlpHZJjYQEkuXVMyuGmZ6jtRaJryw0Q3WoJkTqE9loTAPTPgzj959xQMj7U48Ciy5dizubH8qotgAWFu92fQKAvQrvmCqS1Z7PH1UfZ2vPjXOjaSifXz3BprYPbfS81ObzCueXjxbI4zqJRTt6aAlZ_dsY5LFr8g_b-vkauTkHr1L8MSkR9ep288fuhftsqJmky7RUfBEklzVAFA6o-Lvr6WDWuXl4USPgJtMv-xMVD0O1cnkJgEPFUOjnAv3bjfPO0cuDS5xYNk3Z6ZDmYymz2a1K3hPq4q-U3Iml6Zg6GqWbFcleSzcnl3KYnhVg_fhLwvnlq0IJR8JwHAa0a-rWd_kFHiO0I9BcopW-OPA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 6",
           "caption": ""
         }
@@ -186,25 +186,9 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 217 reseñas",
-      "items": [
-        {
-          "author": "Maria del Carmen Lugo V.",
-          "quote": "Excellent service and men's hair salon with a minibar. Enjoy an open bar during your stay during the hot summer holidays.",
-          "rating": 5
-        },
-        {
-          "author": "Cynthia Fernández",
-          "quote": "Wow, the hair salon of your dreams! No complaints whatsoever, they're very professional and the quality is top-notch. I give it 5 stars, keep it up!",
-          "rating": 5
-        },
-        {
-          "author": "stefanie gigglberger",
-          "quote": "The salon is lovely, beautifully decorated with a natural style, and they have great products. The owner and her mother work at the register and are very friendly. They do beautiful color (Cynthia in ",
-          "rating": 4
-        }
-      ]
+      "title": "Reseñas",
+      "subtitle": "Basado en 217 reseñas en Google",
+      "items": []
     },
     "booking": {
       "title": "Reservá tu turno",

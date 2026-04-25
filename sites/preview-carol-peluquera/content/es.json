@@ -123,32 +123,32 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH_XWhlduGbWzHv00NE2JcUm977aCIsZIviZXAQIJ8sZc-Y4MbpNwATM4c4GowolwPhyg4RfKTEh_WW98Ck157VcVZkpRIGdl8sguflAn8KsuQ7ln8pYPy1kRpfEUnQ1XOF2HVpz_gI8GpFi-M2FEHUzU3RqQRq1FA2lJarRbWDNINYo4_KJaXAlH5XMPl_MCP1wLJ7TxFEMx3o5LIneSzPBhx03qTdHUidESxa0Y6LpPAtCyMd6UFV_D94mKKUAD2MjWX_Mb0ME3KosoPcawsPsnKwvEv9CLlGjCbocGR2h3W7J_XzpmVDStRoOpPd63qangfBITfyHTXG6E5RdDXeem_gTwO4CDEOy8bfgijCn7yYaV95YL-OA1w3BWu1tu1fG4dpzKI1hERIfbDCJ3E45amUTPo38d8zwwBgE0AW264gBXk5_B9mN8_Pjg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGNVXQwfP4qAinxf_FMHnmp8W2P6RQyiIhQl1_0CJNCtrBHszCJGJfhHzrS0zyrzJ4THZz7J_3wqG4ZCBgaUwtTFJT27pXMtnew7S-BJBo4aFXtmpitGSGwDd_WNPAxoKHRlTMHZG3be76OxgVneQV1_ic-Km9z1f5FBCKk2ZFOTWOsNG5ORPT-ARwvoNyKS1bg3dcMO6D97m2bKsWEabAoel_EyPCMbv37kdvmkH7QjzkmUX7LtpJPIvZGgSmux1HqnBmmwXB7KmHzfm1jgq3uF8flVxvlEmApPKyIuYXOlUqcDfVbHWXyY4-KM25xeDWVl-1jxhuOoGzDj_JKjnW2V72Q7VTdBHo-t_REDExwVwfraGqzNI-oy1HIgKHiMlOSSKP7VSkBpqIWFFUP6gcuxLe0B7qb6QbDk_NeBU8wKdZ3Njat_5uKzD-Reg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGn7B-nDRELquGn9Iex2HNiVLf8fLU6M446Wer75YDaicUGqhzr4M4t_pNNQj0FmpIlN2PGhWeGRZaSWrwH8iflaPgfksUTHHrWNgKIl9NGfwe2L0DEfWvJSu0bagONqDgmT9z5sLv8bKcmJ4Ygqrp_7U9UWa6O8Y29PMI50ZknuBgow5g-WrSr9rwnnLu44LObuMbc5QFmRuh3_GOErMJ21aOczY2Tf4GqKoQ_SyT6Rs2mmn-q3GJcs2LVggJqn0Fqr81dopqQg2l8H-xvv0FKS0Ot3XuzVBarZJWlMw66lNrszD3SkPqhEMHI30cPfQ2AetOD3xrsgb7tIPoCj0VNpsoxcHBIApRQtoyB38hOUGTNrdUKy2KtsvBE4mfdaAWlThyj2f53IcDJWhpgxvbFPEDtSEAi54S9yrbxkl8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFgEtuU7GV9V7xGp_1LSyES_fC6mFvgQ9pmgEFjB6IwU81NamrVg4ifSXMQwWdMebL2F1OEbNmPkEEwgsAU3ORA96U-XKdEREYKt2FDKcdv3koIUnvC_OJdsIa5QDu4pDPXRkEHYM_1wVDr4Y-qkHP7dIARvv_XYbLRvmt5-nCcPiFNMuT7evFVKS2Hd-uL9nPPZ8DiVA6bA7geQoVvlo82QyPrSaILVIdX1XuyrFpCX3pIVgSqzYqDMJRsQ4KWvJ6JjcsOXl10Jwsd2uFF5LkgV86dfFdyBnwuiHbwr8p-f5ofuDoljYHBzF-B6KSpbpxvjauDgmNTY2dOWiIqCy7YEgvkLEiGfii4nipyp6zUN_Kwg2H92h8g3OaIZ2uv2yw9j3vxcQqzdotrjJfOfFp2iraU1DSxJwW9FcuFfDY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGMgwTI0uNOabzXy8iuDcfX_DpNehHo_J5gsX8fXCrKLXTmm_cSt5WQUVr1rzRnhh223WpZdPH74Fj6ManyRmnzutpzkYmHZVVYRZ4_WyNjqGjNgS6LU3vQWLwaR6D5_Wqs9oqL_hspX9vJhvQpn5sT-zqKR3ShoZEqw6PLPujW-rAtD8_RmKPnBxWaGIL0vYa3mcPXvCe39J-vQv_QG4qM8yaEVcU0D2Jpq3OBl9O6DZFjUALAkGuqkXSA5MZWpBT3Vzka9tX8KGbwbX7H2DeJZlM6LNeriPCK-WkpLik-BGnWvdn4lI--KKOBP1zmYB7p5gSf9BofvgnAJs_6w76K2dV7bL5mr5wN2XQgunzj2R6x7WNUymdZYjU3FM-jsA2_RK3HcqXpu_GZLXSZqfgcAzSiImF9V-bB6KYHhBw8YQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHE_Ihm1KEDx4byT-iPpybEYEoL3X6lY42Gairx2iQqRUt2f1AjYEJLZTIEptd-Votdx5PYENUNqortlY4dj8e0EcxHMsdOk360X9ybpYghsNY8-_CtjKcX-Lu0SogmSG-GUUpK6peE2NxoIYlQhfkHV_rouZ-OOElVZcKNCXxMRdkawhh_xG0LRLq33G74cZCrYef7K_dlzs5vl-IhipQydrUoYoHNb-xA6FfGzsCJOIiEsKHcBJj_HC3x37TuEIR1v7dFli4Cj6AXRIr7yzbWFOp2jr8xqWHJIarWh7TtWA1dSzBCHj7-aByIkDJ-oEXRvNMFscNVUusVa20CbUKTijIWHEwwdSFedLPDLptAYlPq5ens3RjiZTgZH7AytM_JHif-eb54d72BCN1pkSxXTFr041JnvF0WUKzLOgGmWg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 3",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEETTuHwq9-8pD8pcVsYR7LWBa5BvLRjAjhsPrWVWCxPbGCHEMxYeb1q3EYFd7BdO5BIlibK0C5ndk8YFMzsGHdWIXkahg4ckNHiCpmlSwBHV0kufz0LZoxbgYr8yCiQmqdbadi_LlDylvBm2aJYklwdrCQ1X4mgvFqJdgnkQvLU3tz1j-yPCi0G5kQ8XkmG8A0mByxMhErtE-mEAElj13OVNrPhvHlpDIY_HsI7M56xuVE_Qfk9WukBkLRs4nY6UbvaPxrg8WgREC52pytrfYQbhZCjsjGHN8sdiCDyuj2oWg&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGN_XupXYjZJe6VR8wH91yzyQMU_V-zWvZnmVuRYjSQIpbo0KVtIh0umR2Yw2zQpVtsKEdTPVLW7C-RiG09Y3CosKG_dXFJKug672RSKda8cvzW4x-6AqWKAVMQkwaLQpklzNDu-BQ5GBV3C1euoqURoXB6qLybO-wCNWc69BPtt18UdLmrlmPq9zAlgca_m8rInUnHcLxZs1zTifDkBvW0AiGIBJiqhq9SZ7Y9KKHj5r1x8J6ON4KarfPVt-Row4FQU4QOf4yoonf5TFC_Zm-ZDhplnrC3FK-mICPOixRrHQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 4",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGsaZlOEmh_IcYmOC5nFXcdP-858cCQ6X4MMX3y_26_xdl2GJFKjQDvzeWQjrvLbyk4oew6hbrMlo1OJTzii1DrolIhJ108Rd_7bwGgnTS97vliMFwUNgtSLdJpNNvxRMFzfr81tpUMvAnF2ZXCmdU1TvTwo2n8GGnXdIDS7UvuyDK17R3qlGjq67li0MH0wtLepwY8TL81gPaFLmi95ZDNRop6jP-ReRdo7GhA7ZakdysXOpD4eJXXzABVrW2nPRsKevxF1PoJ5L9J5PVTHFYysis9-5fQWGmAwf3TvOFWqA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG5-mKbhxTSTgLE3-fdTJgmdL8sIdD5O4KOuwAO0AZ-_O_82v2c7cMZqizzFxpWQ_Drm68NwRkuuk0WsYegkni107-4lcQx0JRaAjzQh0e2OrhyzujrJ0TQBzJ4Q_gw0rDVm7MfluT4Vj4DOvhhAW12JDWHVOjptP6WrXW41yjyqZZ-_9XyQIaKIf28Vg_daj5CRyr5dCh79AVfTAr06dfK9vFT4Shw4y1oEuc0IDcSmeFmwDoTkQJ3kJ2u5WYrBasfRBhl4A13ZdyMnlpVxbTR-r7qWiIOECTJPEGoKBHHiA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 5",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEYRTJygqM0OwnJGdB-_bngnnRLIoO9ZwWA9ZqGN-xMRGoK-Y82c01iLWArFAKxJuv_mA4XGfpgzBqFwEkzKYfiqf9V5x8-NGYtS_rzPdqVEbI0WGw31i71OFzl0E2b1VLes4IwbThCtfH2sXursG5nmHrbAlRs9A1N0XGMEYJaVEYBLBr4-z8ske9F3UjKaTMllsUXMK0cb_fo4sw5mvQPB5pMZ9lcf123CylTMOPuKKWVSPk7UqPaSiwUTidwaeQqtedceyK_NPYslo6IFI6w3eIde8ExpyzBrvN9QiKf6VODLVDLD4ZPADqYqAT_FQtFrbjJjdoZSTA5gP7_CSBMnE4aet7XPG16u6U_AiJHFrhGsc8leO8zWiVXq07UUzqNgY74AR_MEzCJYHpKP-_oG3eNYsU27r5PDPpseLT55QOLvxv65zxcNeruJpQ-&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEKXxrkXbag1meUN1rcLjEvB1570Evjycw1630QD159NOscn_Ssr68czPjzcJDd55UzX5Ie7JdmWf29FwwgI-wB-Kx5J4vhu-TH-fKAHj5zqkub-4STkcmTUP7G9nZqNs7oOnKAGynOFrS4Af8clU0gQcrSSEgl7Xah7O8PB3ihhP7PyY2nWUOMT1MKxEW_lVawVVuXjKb1DTY2AQvIuiVHc2p9ACMZn0Uq3VddWWX9CGj1SQPB6KI5gpgvj9tiyf1q3VbII0OizbEhC3eMslX47kFJkMXLWwGYCPLR9oP3TOoF6jFVA-UAgOFowRrWL3q23M1is9B3IDCDaI7JGCIiztNy3JILG_WUqbY6kwZDHEdWDkDQ3snXN9lZY2dnYSiuuKkuXM8QXioc83-V3R9GZ-9cD751j4kEyRF6tH64ihxAGtEJkirV8lK28sS4&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 6",
           "caption": ""
         }
@@ -190,29 +190,14 @@
       "subtitle": "Basado en 248 reseñas",
       "items": [
         {
-          "author": "Kathia Ramírez",
-          "quote": "The girl who washed my hair was very kind, and I loved the massage. She treated me politely. The girl who trimmed my hair was also very nice. Today was my first time. The only thing that left me wonde",
-          "rating": 4
-        },
-        {
           "author": "Gia Ribero",
           "quote": "I asked the price of the service for myself before starting, but not for my daughter. When it came time to pay, they charged us double for her service, even though I saw someone else get paid less for",
           "rating": 2
         },
         {
-          "author": "Arami “Ara” BOGADO",
-          "quote": "Hi, I visited this place a week ago. I thought the salon was nice. The receptionist who helped me was friendly. But they DON'T ACCEPT ARGENTINE PESOS, so I couldn't get my hair done. I looked for anot",
-          "rating": 1
-        },
-        {
           "author": "Ainhoa Lopez",
           "quote": "I'm a regular customer; I go quite often. Every time I travel to Encarnación, I make a point of stopping by the salon. I used to be a big fan of the place, the way the girls treated me, and the excell",
           "rating": 1
-        },
-        {
-          "author": "Andru Ferreira",
-          "quote": "The girls were super fast! Only my curls didn't last 🥲",
-          "rating": 4
         }
       ]
     },

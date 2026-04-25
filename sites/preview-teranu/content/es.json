@@ -123,32 +123,32 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEAQb0lsn5muIIo7mO2q_59xokmWbxyfjl1Y_biwBHPLDfojrD3aCfxkIyX7ggjpb4iYInlHcTo780GOwNg6WsqSVyCsqP53uiMb7Ef_QE1WJVk_mqakfRl7oOpg6V5a3kQ9ilPUoL3FHY5x48ZgWABZRwG2BC2HgBZ0BZBaOpsBh3eAalJQ5hjjM0xDCSm9VXpFCfZrkgZJBwtsxdm9E24zoEKQC8ZZY3j0MF4j3AGyt5ItkdCD5rNMZiMWuartymGfGAxClBWs6mXMBYZMxbjd5grTXGh0sFZuTDFHenTRP4tYxZmf353_1K0fTUaakbff9cVpHfVuhCNTYWK4K_zmbzjddhR7M68qiDZJ-IJLyl_VoSFrdssmOJiNN0Pwb0Tb7Dt88ojPEL3fxU67g6ZzE3g-KYn8aOdxQ10Vvc&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEV-BIqlwg6B1JN4ty4uwtqSx6BVpucZmzkMcJ_7fFQ2YI1AICteOkZ-11AKCgzVnjf7au6HAMOAqtF3y3w-Yz9V2bK7yMdOZ0y2p0z1ZmnomQdREfNdMPnsEGx5p1zpN54L-EEwtGtcXwIbYN1Hour1b3JIbtQvc4yG4CBmzBUBDlG15vJ-cxYauBcIux634kLauSssefcbWHjaOhA7X1JkNRAY6LEqQ8IPctp33useHPTgm5cpolgWqmDefUDQmxL8wnBiP3KxItDNeVAqJwAFWpXWr5bORB6mttqkFRyJeF60cA8sm8FQnvwILeciXjzngBNrSFN998fDfiLI1CTc3EfMayH9yZNdL8Csq3dYjmnoIMH6caceizzRkAh74gWbLEZlFjTCJK51KSHC4x2gztGeapGAw7krKdH7J8&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHYo9mcR3IoI7rmjp0_gN5I2uOiE5FVD8ojCHrcgeZksyrkOgMMXTmlCOkLAqRJOX9z58Y_QkazcuYAg0kRMSPU0o8KNDCGn-Jqk5qi9m5GlQz6anxq_ZBfyREEULQdYZ04_e_e_h192SjGR-H0wcuVNU6t9mwoXC1MZNWa8uQAUVsmIHDxH-u1lVRD4prwPLCiQxbKbB5C38rof8Z6c0ufJta9UcZJLoQUXCULhcBUP2ovcdUliRbZeBIE4j0d1_VraZmS4ur7FDzWwydrvTS_ISiY6seFWglZRC6t1iB0X5vMwdfmJpWZnQiw8eKGXxLKMGOx5loKkFLI_VP7tt5uFS6VxhyvsEVEAq4z9DxU0HJ_5LxXSC1ClLRAT97wiAPxk5_oAB_7eWN0mE83qUDqeMFhwSwTXxxD_D9s81kkBgE&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGK5AmOhzNQ9cNpfKY103bHzmocIC-AB3ttD_1L_W1YdMz8wN-Bn3QP_WyKGEWTHMsxgMsGfTJ7hYQ7vJsvdz_BOlTeLJV6ficG32BueWDRrltFgz0QBnrWvncRsaZSu09MmzLu99M7zHqa034xiKC-FLO5JOaYjNbMZ50dilO-WnlcJWY59kjs5rBIzYWl8vJapyNfbQAIeazUPUyx14pMfVLUs_wXQDm0j3gnFxWM2pdX8fXTXUnghXqgGx-J4jeoHdgvNWRez0UdOuP9ZpZnhNpZNVoPy2-zP56fc7oNpl1JbLSEF8M6ow5Kau1ZfHY7f8aAi78Tl5ieIe1s2jMwIxPsdK6TB59C8wVah4ipEhIewVIFS_Kx02RVTYDFql7YS4rnE5Q-yh_dsEea1_FNjjeKnSt7MTtZ0Bub22M0LSI&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEKauAAQDqvKMzP2Bzynz7hlLFruo-1PIJU_MUY_y3dv3ziu4-REyKfro4-iXIBORNHivESfXb5i4LWmDBk6fscL2dzU5paEMC-wf_cS4zJKDWvVEHeETb0sI5anYsITs-TbyW1QAtvZzQyNwNFw6M_SU7nBb4b1ZvqgvOCpAJqGOtWBksdnIiHi2uba6WStybISmvgrlbgZ6OKxX8rjj-sh8nPqFPoW3N6EGuUljPC2mE5Pq0dYD0NjpB8NQRazRZUxOdC3u9pxCjBZ_-i2zCkSiT_a6FdchUMQkf8jWRiTOekN5JN2fFbXd605sGzbY5sORg2O9iuxJsRaigRShAIv7qtky7dJNVaJmwJfI-EPaiDcVxZj1xB59axEaGjCMqDwMhXxiod_AV14bHZMC8vYy4aYfbgcmZFWzTSptECPx0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFFBXfUdcOs07UISdGoAEpKgBU-mj7HSptAx3rGRgTwCLhfD2WMZwakgsjuv3wyYV2zRR8xvK605_y4kRuvBHayF8hAItQJpZ2oLRfd2ntCagzrhyO1eRYFvp8ExlY6wXcuNIq6nydGR2R_g6qGEMa4Nkh998HVvQ7wjBgHw4rt6xZjGwb_n1oNQ7nmdWcO1Iz9Ck_7QRnha9DPswOFtYwLbdOoDALDJGdwrZ5vUOYQydjMXs_HEct8ayPmrEuYaMmxpCxk0t1JSXk7QPYIo5xCef8qJdYiW5CVGnozVdFP5Fe0oLkChqAEk0ugZPmzePt_NFptBFbyrmbUa5kBbnwjaPMXUibY_pdMuE-YL0B0e9gCZuA14f2ndDNGDb5uR8Ld5GixcouETWSyU4I9dmpiZ0vFnvGlPrWEuyYxJNKdBG0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 3",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHDHDM_x98fTPD4OlFbeUW_OreKddQzzlQ-MHvn6tMiAcH9UCS6S-Wh7KQ9AOgSsNDJPZkJE3iO2vTIjCBSK4ju_d_L18cvUnRtq9k7JvCKFukbkvgvo87HQRNNwyW4qaReCmbu9z0_rC_8HptYR983S7Jp_zSW2Rw7h-YRh9Ovlfnzst-soBfNcaEc5FbMqEd3pnw1Rp9ZaPjN13UKhUBU4kXPAbEgoxl4CGTOsp8WkX6NCh5zzSu270Po_mCmG7h1L36mvQfaUZF6bX_fIThLZQJP312MFw-bD0pHH-HPca0CaY6nt3ZTTlqKKAaNSADSFHXHq3PwQZR25OijSLKnAdqvb0nFhEeZ-Yi8BdJiWUuWBQknEUPeoO89WiZn7ND7GGd9ZVgbF0Vph8xVKXlb0BB8POocX0V58a8ZQY25NDFx&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF0P1KAS8rDXAyx0FieIXx-EjuFgW4f0D4VmaclH9DpW0k3afNwX2Bqb8YmaiOvGA4CjB0poh266xZYBOnmQhi2C9mbL1V6RDhYkIUlS91itqLCrdysisFnoU9Ivdhm7L6R3wzpLjMKICwAEq6SZs9e2PUjSLHmlhUAM_-E5x5EL2_yPpChA0zElA6LXqPzznr8mOHiEyGw9I6iJH9QBK4pvtf2bjaYkYCTQ5f1Qo3-lhbBsgySmx7JzKNlNOqMzob-PsRkHgkve-5CmU5ezmROYtkCvyu0NAzXct-5DD6ADHf3lEBy4NQY3FEEExsuObICnR0jf4DvZfvFjQYp0o42YdRkcT9btq-X2Q2ESVvdUS6yQ9mwK0TCOmjRQ1NIlxBFZMVQa2j2wfy0zhJfkpccah0YDCBfhYkRLWhR99ac7sWl&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 4",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEu5WfYSVuP7W1b5AApPccSJpfm7tHC6vyD7x_gVzUelyCxoL-9YNvj0EVEm_Kizuu8kPiB553yc1gcfwhKG1lY0JzNpGVqsr7FjQplUULC_h8-TfeZFc8GCNuiatwbGzcE0DEHqCeIV80KCSRFR-wkWO7zZTg5krwBaX-KaH83VVmWspK5-lXbf9m-ym0tfLEabWQjhhWPq0RkgCvkfTWx6daIQmQ5Qks-JOcIZy8IxSBNTgOYTDVGIDeMSzED6rF9tbuRoMoMBPlCM8boyKdSaUVIJm3_FhOZP9sbKL77TTjZQkqzvA0uP6RWjeC46uISHNXtLE1r5o9FUwisrCOLC1FmzfbphLmh8OpgOTnRpZZg_5CVCt18F4i70gd8jSHcl7I58D4Kik4wU8IZp7Qp3tFN65TIA25u1zI&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE3Bpe4OKiC3trF5J-Kw5fQ4IFYMjAYusdDg3EwBTI0-sqsYn6o0N_19g_a9Gf3mDlS_fZpxcjWnTty37jugCOkyOAdTPqCR2UJ6eNGtTVwOr--4CqlwFeS6Ynwt84YnCLOivbeXIk5ayMjuLRsV4VikAYxbz-COuZprO2Mn2RMMxOy22aAZ8LCCy_ROPQqmdSprp5-g3aRVL-2_j83LshaD1f2k1zb1qTe1qceTEwBBKcLQdy28o8UfV81hQ3KYtGjyp8mtMP84lBfdu0ZIbhIWfS4HwQ6ZXSgugwg66v-Iimx3iNR2B05ACGSpF_tf9njPgd027djDGv6lAh28ayVd05M8AogYSy32ViwCjoqiuIzGYKxI8FVIxSCjYofPekYQGR0cWZaumbYfMfbYJITui3tLeDMmnWJV5w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 5",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEHYTv2THgUeIUc0819iBjKGnTOW21DFPzNlkhB7Z2U9cmOeCtZmGX0XSrUaLaGXpyjr2EN1elrdGUdmGv6DjW8HDSOfE1rKxiaMxwPz3JKlEz7PEWzZNO8KXehICp8vKpQtqy1I0ZkjWtvqZ3KSV20kFVOJEQPPRPxD3cqma9HG3oA3kQ0R8yvpWrAz8cKrMdWZdjW6INi2gBAxKBMPCqZR-vHowST750KE6TCBaRiDTiJVOs1uBZUVB4khWhWC9pwR09OFkBdwuQX5cTDuIba6iDn1lpMTWWCLXF1C_Xv7c7aAHcYfIqviWmQU7XdRpzksboCbX77hdVcumpLj75RXcNv-8ETJY74P16vCy0ZQysSXkJuok4mFk4v3qOTcq-it9qz_pCrrBMuyHOen_RvRbUSqfD-SjXyzRwTnmE&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHF-9ZMLsstt7Lx1csWi0fYF7AUhxP8G0xTG4UuJMAP45o4P-JWyaejW8jAuIaFI-VK3wyi45qA3T0J7Mg_0orzrhq3ssPWLPz3vf2IZxvlDNa8fkc5lsgdjLToPn_gzxpJ07iyL54_3MB9uROq-aDFx7kgN6OifQFouOlsgv2YppIAsOFRJ-UYpW9cfFh40bEXIFdnmut5eNK1JWpTToKphwZ4Caklx44WS248AcVBfL_-8G71qGRi7e8uxroLifv4ynZnQuXaXRlnyAksUjCECwlAE8SeNkA_kAtX11Ifr_NszhZFAvRPh7sb44c9t3z5zpVPvGi7Bk4PDpL2BmqPCUXDkk8JfZT5YPyhv00IVeNIv3k2gdxH0N4WOi9UGiEwIxvEQ9nOSIvwBagLSixSccnBFy-Cj6yvrFjs-ZY&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 6",
           "caption": ""
         }
@@ -187,16 +187,6 @@
         {
           "author": "Juan Lucas Ruffolo",
           "quote": "I think I've been to every spa in Asunción. At Teranu, the service is excellent in every way. The location, the service, and the massage are all superb. I highly recommend it.",
-          "rating": 5
-        },
-        {
-          "author": "Viviana Peña",
-          "quote": "A first-class spa, with trained professionals focused on ensuring you leave free of any pain or stress.\nAn exquisite and healthy menu accompanied by the best natural juices from all of Paraguay.\nThe w",
-          "rating": 5
-        },
-        {
-          "author": "Alejandra Acevedo Noguera",
-          "quote": "Beautiful, super clean, the girls are super professional!!! The massage is perfect!!!!",
           "rating": 5
         }
       ]

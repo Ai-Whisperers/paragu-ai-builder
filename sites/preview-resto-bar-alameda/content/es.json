@@ -123,32 +123,32 @@
       "columns": 3,
       "images": [
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHV3C1VyxIJ8iVt4ebqiPqmPIl1M8n4Xk3iTPBL0N-nqOrqx82jfjCNmO6TY_3btqrOftA_eHGPjRVyHOsHTBRHhYeiOypdUstJUwY4J8TCA4c1FmbmMtTZClPVxZISgWCwZHxHmLbd2xv8-YndopmBStphkNl-qBAO7z8IqiWPcVhDXPCXY3YtBL2lSViq8iU4HSjCtcq3Tzm5A_4ePe2YuQOonKM6NFDYsKFbQ_bnCi8cclWULh_KuBb_Ym39xnglXrNEX85wLytWCR1BygOICaDiLtAYkKlfNHKs14DyiEGyLTQCvHy3iOCO3tQB6dX5Pe42Y0jCI-J32dubH-lmYtthya_PpERIyMfY8vZp5zLFC0P6TZpGkPoMHsmdN8Y5ZPYxreX3olRFrDJq-5CnZYnokW2tsCoYg3G8KakjIw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEG5TLztalUFhq-uwzuZPxawrPaJ1E1-3jeGJv7jY9PzBN0pBMLH_1KoxOh4sP3BNu5CMQnl2R2PNvU9AHhU4fzBy9dupOw2ickZ5iDobLL0_rrNfxHif-77AP8jmSOA8-fieadYhQyDEQhjwPgQtQ5M2ovet-1PZ9wxPLvKICCNCH8vxKjoopiFXWXb2-ZdO80WtDKclAM_-tFhXqgZHQ7-uiM32sb_2LaZTGtQhJozDiJy8MfLtKwbVKRle1usAKNB8Ht5lAbl4qiHohCRRmU-LGNpsAMd85GgYAYRJ8PYH-39f-cpT08KPTBHFxIMefaoSK2UTrpcx7cUXWyfdmfOO742_CwRvoIygYsMzDWR1OFBB7fR4Avx0nm8zQ7VMcx7NaAUnpMkrtm83d2stt2HzJVw4_cIrMy3OMfQ4NUzqQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 1",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEbajiYwQLeHGQqqu0eIBDA_r_y3Q_u1EIMMHEk014UHWSnpSzLU9hxsrq4cvcTwnC_hrJiSVjDhEGlJVm_U3yYG3R1qNNXISkbyRSl9nnBU5SA-cNh8S3rWOd3OGkpbCCh_dZCAkgO1yCk23Uqfn05owtMkW4zOFJceqezJBESobX-r-JzJPG2ehAnJWjn6c8DnSS4X11YqJTNzPBl0pR-gx1za9rSx-Jy93i3CT3xY4_ncS9OEH2QJaZhDJfVrOVUnqmUOLRMtPHGQdyV9GOmlAG1XJTw_mEtvj6mkWhQHPLbaGUnRW1HK8RD38krKux4ljQ91l1kwANSIwQHlMaoQ_ngl-6Tszjshzgcc8A2OLznGcUh_gkrgUyzXM7MBcemci5F7KqZ4F0r9NvzsfVD3ila_OBSkgyNWGxKe1LqYw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEGpStf6nlABByApz6_BFcqulAnJ_UFpwy8z7knQQDxHzcwErk_VGGdU9jI9KLhq2eoW7hyklJWZ5raBoifWxRaPZTVVTPYD1_l4WS9UhgQY6ooHRo8T4xww2v_lmFUoqmfSpWkVbdMtISqrlMnkw61PBYDjgYXjZmf8tFdx7vh4QnUs72LkiXR-6gaSaQk3WyDHf8TZUvZVcUZsd9LYTGJLtt7QM49eHrktr1cQIXBukqBHYAIV6KVwHW7uFkBRQcKXrGQeL0kRkR3hl7u8KNi5NgKVe_mmXVjIdsxriaz1k489UsU2ZkGu6MUvCGddSIB8GI8DDyL_FcPckPn9bckiUKEyAE2RwDmdIHMW-546jW16f8V34HWxVZRzEXeZgAPr8207Q6SGu9sgHxYmOiR4uc9SNiw57CtZi2AaVmfsFQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 2",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEH8q1AziBu0up0ND1GaIImu-u2VG4Z_eZ-MMecafxK5HgRc5L_LmQeO6aVyFP6sgKCMuj7kxPLCFtyiVYZ6VhZfPeuMXMR7stlyR3OmZK10eub7OtYvBHv0e-eJMgh2_jvjb605Mr1NTziC-hKQ5uY1g2lL3tWd3M5byDIbBnKGHh2E3Gh7_7T_vCvpR4Sj1Gs3vUBx4ByoO6a9-GSeTMgcVupfca_oVk37mO7kT4IpaU4KY5xAj_qOT7-I6mWnQnmiOQm8q2HszFJw2XMJ5uBxLeHxSe7T0AvD4dSwbyL16rztzBfjlfg2z77wv9FtcAnq9gTngWAgiRcVcvAlmTvHsdl5C4-Lp6YvHXm9UaSYd9JAtdx9rn1ZzGIAwIXVK3gLq7Kgv3_F9_YWeFxYycIadhlLabCf6jH6AIp2K7g&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEHVFU-Y1ieSeiXeEsbB5brQ8JlvjFL_mW88Dr4V3iAIOsMzifgqL9wHyLHoHwUgbNSDXmNdsbAL6E-0ognokNhTt6oopMyzfmtbcQFG7xj4LwTdegYx5hRDFk8xOAM5ZIcnoy3E0BfFbe41lhcffXmUJYih0k9nEjF-9MfohjuFR1_jyNta5uPgJqxeaT7KYXIaBKpCvaq6q9ljBO2f2QIG87u3Z217e07SsmpV0o8mWwQcFFk9YmY4w9rO6y2SOgJbdQQsl8kw5sSZHxfHhQzRegyB-7NZF-0Qmio3EV83_X46Sfmjg-MSIjnfOT6rdU4KYGMxKltbB_WqbQ0FtORMqy_dYQt2MAFQP_4Z7wJuo0YqhYlWAVvKO9XrZenQmz6y24gVnpAKH3STWnoLHZkwNJc91vNzGlAoBS87niA&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 3",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEWyfEtBHePtnQOos796ZUHXTYRYI1Rl6L4K42zhxLEjQXzQ18dtummkQE1hx1m6VuK_BwiecWZTvh0c-dfef2Kt2x5f6yGPAM9KE2eycVxZs4nDwxmYWoZeBje8yHoLTXCvODE2gXXidApyysb40Z5IFB2hGBPG7Q72gp3OyqmW1HwXmNmcmP1PbUTHEmiqQEcIce3AxOiw_MzS7ZvJqeHDjOZo3JgHVT78jGhb8KSSnk4dX-fFYBCwQmz0QmnPIm4gjeomtaUnJBeLRi-MYceV1FOpMWQB1ej33v3sjAXsNYnFQqqv-fNwYVISIWDzZVhl2n0yG_SBnMa31hYfujhLg0loXyyqWGz0tQF0Wyg0LT86SIocKg4M3biOzWmiOpxsplygEH8f1ZL4XtUVIuNRVZH_sRq0NtYwjdZHklt_A&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFfMEqgaSzAsug3thlE8KKnDObzOkUfsZYgyZTfekcHBzWXq3UghwWinoafFh4nCiTGmTBLqmnyfbhF29-vVWy7Q822rcfs5JF11--vsMQ5YDq3G5l_kzPm4t5RcZKwOFiD0qbKt0YMmUjvmvp7KR7OU8yUeK7UgkwQy20DkgXBybIYy4lKN-KeWV1LUqCpaw5OPUd4Ycz_04VpU5pXU2jhb48JL4VHOBn-88vK2W-OC1xbzKumLxb-2DJ9eqhtjdUdxeCM0psTDL8RsU2h9klwAniI52FfaTgvg9QYapq9qYZmKoxwu8ovyYooQOHdAjzWOLb2eiF_FSAhXsKElITggFWlW0d3cd633pDm2hMv7YRsIOdgYlUnghZDEZWdUnEEs94zOaHDTLg0poAvqnNnJtcKz9AU2Tk6HsELt93p7w&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 4",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEE2RAiAXbfWcr8775quEyaL-r3qpEMFhgqd_KSaeSGP7LrkFX3dLDdR-Jgfh8dK1U_hq31i76s6DXgyI2f-ABVYWW_H7OL0Kclaq3LuEjLl63a5d3Pzv3VOxgdc4pNBqrrR0bgbSvpma4NocAxSPtcZGU8W9AO8mrvR1ns8NYKdGTpFzVow4ok8oil9hNP49Gj_TWVvySIa1RbdsFPF6eX50a_hXB2VtZDVNowsRUYm9-4zoYxGby_FfURo2A5xg-eHJzkSQ-KdPlmCGOI6y96tBlMjejrbhsfraweug_5vzWU0JxjT-LifUdZrSCzF7AeEvmcERFwUVLj-Hn-cp-0MwkQhza_zVBOM5XDZf71ABfqlCGXcGOLPYQ6bd9FIQHXT7fCu2BIHV8QZ8pqrf29X4k8oo7enlKtVgc3cCP0&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEF_eBCGbCUyR3NT_VzEROtxfnBZPjf4pXkptS6r_WMUG7GNG1z83DJp2rqQnrwxEG9cVHvdDblSNh9f7THtDjNhL2KF8uNyhP-pmAncLByp-3TDPvYar72Wn7oKUO7VNjE3pbIuBnWAYmRxPluKyDjcFcFgDgG13vHOoNv2BWRVqgIpMQL0o4N_h1VP-Aswk3YjkFUno47z5hvBW_u6oBexHO2BMhAn1FvKz6j5d32WN7QyoDiQqqshtHBofgMm92CmdabE09Ui5p-GBHKkNHwQunj1PlcFvrQzH0i-xDDSowzCaRsr2L2I2mgcVZRS_PYM2l2YkL0aRym8oCFCrcR_dfdNEu8QerzZGkcplLKZrJqojyU0KMbdRNSEYd8y5iwJeOF735cbaDqfGTPnpsizIpcoZxoq4gEhEC-IjeQ&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 5",
           "caption": ""
         },
         {
-          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEFoNBHGlncnVkwlCehrfphBWHt6KlVOdQUOlX5YyfFZcgqGPlp_I9ozSRlMJs5BbHejfE7Ycy04O7x5jM1s61xxeBNjkHMdhJf6jgrvz3N3JiBZJFyzOTq9Vze43yms5_eI6SzJWoJMCH1WN7RNH1u7Ilcc96MRZNbYJYp7MisKKgX5qYyu0HaNlSl5MKzgsUJz0TFG-kPHahpGWqtFncETAHNkEQqAOHiO2mr3L-us9e3b1Xi0VkKSfHia8lZkNGDZOrhHYLa3gdg7AeXa4l76QpIyV765uv3Wnn47w8q4p_TGTEtzDnTmnishYjpYGSKlZnp9oYSw9HZe_-LkwvBpHeZ_KZ8hHZbTyuQKOD-Fd9QuwX6fORXv6pl3jk-J2DFE517P5oqT920ZJ9QTLTrcvPH7wdslIuk4GVbuqXmYdZw&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
+          "src": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AU_ZVEEkv4mv_GiXM9ouU_QoR6NjLQ5nfEz9KVti1oQYyB1JnAhEch9e0YuJUdSLMaqksh9HIuksGyTsVP2L8-Ymski3SY25_UdkisFbiPaWIT6DxQzpW1B0yz5CAVBWeINZIPv2vteJBCvF285v6tPJhUUY-KO-PicRpgi-xz_B0cJccyhTzQXqTiKpnv4b4qf8XtEZj_gFTtocB3qVfJQgCK4TJyYfIKPOIaF-eA4WSDql1gAsLtw4f32LYkDxGp2iozDg44-0DXozSHPNojlyYV16JH3E4n2Tno6mOTSQVfG5HFcoVp9_7ENG5AU5eiR8yc4AIDUrMlpqKpK4AuG-j-KsB24j0lZky4rLVer5iCOYsMORsoAgUL1RdjSL-0aERz_S2fxlIVpUwFT_yF2khjsX7yRBa9Up_x8AJ0cKqE8R288&key=AIzaSyAViHdhtabiRXZYvf6DbGDou7N2OvJ60GI",
           "alt": "Foto 6",
           "caption": ""
         }
@@ -186,20 +186,9 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 244 reseñas",
-      "items": [
-        {
-          "author": "Paraguay Mike",
-          "quote": "This is the best restaurant in Atyra. They have a good selection of food, from traditional Paraguayan dishes to hamburgers to lomitos. They also have a good selection of beers as well as a well stocke",
-          "rating": 5
-        },
-        {
-          "author": "lorena gaona",
-          "quote": "An incredible experience! The food was delicious, I highly recommend it. We came to look at some leather goods in the area. Look at the photos! We had pot roast, the meat was super tender, and the noo",
-          "rating": 5
-        }
-      ]
+      "title": "Reseñas",
+      "subtitle": "Basado en 244 reseñas en Google",
+      "items": []
     },
     "booking": {
       "title": "Reservá tu turno",
