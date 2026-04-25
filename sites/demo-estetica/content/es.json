@@ -22,21 +22,217 @@
       "description": "Clinica estetica en Luque. Tratamientos faciales, corporales y mas. Consulta sin cargo."
     },
     "hero": {
-      "headline": "Demo Estetica Luque - Belleza y Ciencia",
-      "subheadline": "Tratamientos avanzados con tecnologia de punta y resultados reales",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Estetica%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
+      "headline": "Belleza que transforma",
+      "subheadline": "Tratamientos estéticos profesionales en Luque. Cuidá tu piel y sentite radiante",
+      "ctaPrimaryText": "Reservá tu consulta",
+      "ctaSecondaryText": "Ver tratamientos"
     },
     "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
+      "title": "Contacto",
+      "subtitle": "Visitanos en Luque",
+      "address": "Av. Gral. Aquino 890",
       "city": "Luque",
-      "formSource": "demo",
-      "demoRubro": "estetica"
+      "phone": "+595984345678",
+      "email": "info@esteticaluque.com.py",
+      "whatsapp": "+595984345678"
+    },
+    "promoBanner": {
+      "title": "🌸 Promo Primavera",
+      "subtitle": "Limpieza facial profunda + peeling por solo Gs. 150.000",
+      "ctaText": "Reservar",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Tratamientos estéticos personalizados",
+      "items": [
+        {
+          "name": "Limpieza Facial",
+          "description": "Limpieza profunda con extracción de comedones y mascarilla",
+          "price": "Gs. 100.000",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "Peeling Químico",
+          "description": "Renovación celular con ácidos para piel más luminosa",
+          "price": "Gs. 180.000",
+          "icon": "Droplets"
+        },
+        {
+          "name": "Mesoterapia Facial",
+          "description": "Vitaminas y ácido hialurónico para hidratación profunda",
+          "price": "Gs. 250.000",
+          "icon": "Syringe"
+        },
+        {
+          "name": "Radiofrecuencia",
+          "description": "Reafirmante facial y corporal con resultados visibles",
+          "price": "Gs. 200.000",
+          "icon": "Zap"
+        },
+        {
+          "name": "Depilación Láser",
+          "description": "Depilación definitiva con tecnología de última generación",
+          "price": "Desde Gs. 80.000",
+          "icon": "ZapOff"
+        },
+        {
+          "name": "Masajes Corporales",
+          "description": "Masajes relajantes, descontracturantes y reductores",
+          "price": "Gs. 120.000",
+          "icon": "Heart"
+        },
+        {
+          "name": "Electrodos (Corrientes)",
+          "description": "Electrodos para reafirmación y tonificación muscular",
+          "price": "Gs. 150.000",
+          "icon": "Battery"
+        },
+        {
+          "name": "Tratamientos Corporales",
+          "description": "Envolturas, exfoliaciones y tratamientos reductores",
+          "price": "Gs. 180.000",
+          "icon": "Feather"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Profesionales certificados",
+        "Productos importados",
+        "Equipos de última generación",
+        "Ambiente privado y relajante",
+        "Resultados garantizados"
+      ]
+    },
+    "gallery": {
+      "title": "Resultados reales",
+      "subtitle": "Transformaciones de nuestras pacientes",
+      "columns": 3,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "",
+          "alt": "Limpieza facial",
+          "caption": "Antes y después"
+        },
+        {
+          "src": "",
+          "alt": "Peeling",
+          "caption": "Peeling químico"
+        },
+        {
+          "src": "",
+          "alt": "Mesoterapia",
+          "caption": "Mesoterapia facial"
+        },
+        {
+          "src": "",
+          "alt": "Radiofrecuencia",
+          "caption": "Radiofrecuencia"
+        },
+        {
+          "src": "",
+          "alt": "Masajes",
+          "caption": "Masajes relajantes"
+        },
+        {
+          "src": "",
+          "alt": "Depilación",
+          "caption": "Depilación láser"
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "subtitle": "Profesionales en estética y bienestar",
+      "items": [
+        {
+          "name": "Dra. Laura Mendoza",
+          "role": "Médica Estética",
+          "description": "Especialista en tratamientos faciales y corporales avanzados"
+        },
+        {
+          "name": "Sofía Vera",
+          "role": "Esteticista Profesional",
+          "description": "Experta en limpieza facial, peeling y masajes"
+        },
+        {
+          "name": "Camila Duarte",
+          "role": "Técnica en Depilación",
+          "description": "Especialista en depilación láser y electrólisis"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Opiniones",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Gabriela R.",
+          "text": "La limpieza facial fue increíble. Mi piel nunca se vio tan bien.",
+          "rating": 5
+        },
+        {
+          "name": "Patricia F.",
+          "text": "Excelentes resultados con la radiofrecuencia. Muy recomendado!",
+          "rating": 5
+        },
+        {
+          "name": "Rosa M.",
+          "text": "Ambiente relajante, profesionales calificados. Volveré sin dudas.",
+          "rating": 5
+        },
+        {
+          "name": "Carmen L.",
+          "text": "La depilación láser está dando resultados visibles desde la primera sesión.",
+          "rating": 4
+        }
+      ]
+    },
+    "booking": {
+      "title": "Reservá tu consulta",
+      "subtitle": "Primera consulta gratis",
+      "phone": "+595984345678",
+      "services": [
+        "Limpieza facial",
+        "Peeling",
+        "Mesoterapia",
+        "Radiofrecuencia",
+        "Depilación láser",
+        "Masajes"
+      ],
+      "ctaText": "Reservar por WhatsApp"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Duele la depilación láser?",
+          "answer": "Es una sensación similar a un pequeño pinchazo. La mayoría de las pacientes lo toleran muy bien."
+        },
+        {
+          "question": "¿Cuántas sesiones de limpieza facial necesito?",
+          "answer": "Recomendamos una sesión por mes para mantener la piel saludable."
+        },
+        {
+          "question": "¿Ofrecen planes de pago?",
+          "answer": "Sí, ofrecemos paquetes de sesiones con descuento y financiación."
+        },
+        {
+          "question": "¿Los tratamientos tienen contraindicaciones?",
+          "answer": "En la consulta gratuita evaluamos tu caso y te informamos."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "09:00 - 19:00",
+        "Sábado": "09:00 - 14:00",
+        "Domingo": "Cerrado"
+      }
     }
   },
   "footer": {

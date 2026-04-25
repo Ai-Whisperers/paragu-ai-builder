@@ -14,9 +14,49 @@
       "content": "home.hero"
     },
     {
+      "id": "services",
+      "variant": "grid",
+      "content": "home.services"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
+    },
+    {
+      "id": "team",
+      "variant": "grid",
+      "content": "home.team"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "home.gallery"
+    },
+    {
+      "id": "blog-index",
+      "variant": "grid",
+      "content": "home.blog"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "home.faq"
+    },
+    {
       "id": "contact",
       "variant": "split",
       "content": "home.contact"
+    },
+    {
+      "id": "open-hours-status",
+      "variant": "standard",
+      "content": "home.hours"
     },
     {
       "id": "footer",

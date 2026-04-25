@@ -22,21 +22,187 @@
       "description": "Consultoria agronomica integral para productores y empresas."
     },
     "hero": {
-      "headline": "Demo Consultora Agro Encarnacion - Rentabilidad en el campo, con datos",
-      "subheadline": "Consultoria agronomica integral para productores y empresas.",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Consultora%20Agro%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
+      "headline": "Expertos en agronegocios paraguayos",
+      "subheadline": "Consultoría agrícola, ganadera y forestal. Maximizá el rendimiento de tu campo",
+      "ctaPrimaryText": "Solicitá una consulta",
+      "ctaSecondaryText": "Servicios"
     },
     "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
-      "city": "Encarnacion",
-      "formSource": "demo",
-      "demoRubro": "consultora_agro"
+      "title": "Contacto",
+      "subtitle": "Oficina en Encarnación",
+      "address": "Av. Irrazábal 2345",
+      "city": "Encarnación",
+      "phone": "+595987901234",
+      "email": "consultas@agroconsultora.com.py",
+      "whatsapp": "+595987901234"
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Soluciones profesionales para tu negocio",
+      "items": [
+        {
+          "name": "Manejo de Cultivos",
+          "description": "Planificación y optimización de cultivos extensivos",
+          "icon": "Sprout"
+        },
+        {
+          "name": "Producción Ganadera",
+          "description": "Manejo de rodeo, sanidad y mejoramiento genético",
+          "icon": "Cow"
+        },
+        {
+          "name": "Forestación",
+          "description": "Plantaciones forestales y manejo sostenible",
+          "icon": "Trees"
+        },
+        {
+          "name": "Análisis de Suelos",
+          "description": "Estudio de suelos, fertilización y enmiendas",
+          "icon": "Flask"
+        },
+        {
+          "name": "Asesoría Técnica",
+          "description": "Acompañamiento técnico permanente en campo",
+          "icon": "Clipboard"
+        },
+        {
+          "name": "Proyectos de Inversión",
+          "description": "Evaluación y planificación de inversiones agropecuarias",
+          "icon": "TrendingUp"
+        }
+      ]
+    },
+    "process": {
+      "title": "¿Cómo trabajamos?",
+      "steps": [
+        {
+          "title": "Diagnóstico",
+          "description": "Entendemos tu situación y necesidades",
+          "icon": "Search"
+        },
+        {
+          "title": "Propuesta",
+          "description": "Te presentamos un plan de trabajo personalizado",
+          "icon": "FileText"
+        },
+        {
+          "title": "Ejecución",
+          "description": "Implementamos las soluciones con equipo profesional",
+          "icon": "Zap"
+        },
+        {
+          "title": "Seguimiento",
+          "description": "Acompañamiento continuo y ajustes según resultados",
+          "icon": "RefreshCw"
+        }
+      ]
+    },
+    "trustSignals": {
+      "title": "Por qué elegirnos",
+      "items": [
+        {
+          "title": "+10 años",
+          "description": "de experiencia en el mercado paraguayo"
+        },
+        {
+          "title": "+200 clientes",
+          "description": "satisfechos en todo el país"
+        },
+        {
+          "title": "Equipo certificado",
+          "description": "profesionales con formación internacional"
+        },
+        {
+          "title": "Resultados garantizados",
+          "description": "medición de impacto y mejora continua"
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "subtitle": "Profesionales a tu servicio",
+      "items": [
+        {
+          "name": "Lic. Roberto Vargas",
+          "role": "Director",
+          "description": "15 años de experiencia en el rubro"
+        },
+        {
+          "name": "Lic. María Torres",
+          "role": "Senior Consultant",
+          "description": "Especialista en gestión empresarial"
+        },
+        {
+          "name": "Ing. Diego Rivas",
+          "role": "Consultor Técnico",
+          "description": "Experto en transformación digital"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Empresa ABC S.A.",
+          "text": "Profesionales, responsables y con resultados medibles. Muy recomendados.",
+          "rating": 5
+        },
+        {
+          "name": "Grupo XYZ",
+          "text": "Nos ayudaron a optimizar procesos y reducir costos significativamente.",
+          "rating": 5
+        },
+        {
+          "name": "Comercial del Este",
+          "text": "Equipo altamente capacitado. Superaron nuestras expectativas.",
+          "rating": 5
+        }
+      ]
+    },
+    "blog": {
+      "title": "Recursos y novedades",
+      "items": [
+        {
+          "title": "Guía de impuestos 2026",
+          "slug": "guia-impuestos-2026",
+          "date": "2026-04-10"
+        },
+        {
+          "title": "Tendencias del sector",
+          "slug": "tendencias-sector",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "Casos de éxito",
+          "slug": "casos-exito",
+          "date": "2026-03-25"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Cuánto cuesta una consultoría?",
+          "answer": "Depende del alcance. Ofrecemos una primera reunión gratuita para evaluar."
+        },
+        {
+          "question": "¿Trabajan con empresas de todo tamaño?",
+          "answer": "Sí, desde emprendedores hasta grandes empresas."
+        },
+        {
+          "question": "¿Ofrecen servicios online?",
+          "answer": "Sí, atención virtual y presencial."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para empezar?",
+      "subtitle": "Contactanos hoy y recibí una primera consulta gratuita",
+      "ctaText": "Contactar ahora",
+      "ctaLink": "https://wa.me/595987901234",
+      "backgroundColor": "primary"
     }
   },
   "footer": {

@@ -22,21 +22,193 @@
       "description": "Inmobiliaria profesional en Asunción. Te respondemos en el dia."
     },
     "hero": {
-      "headline": "Demo Inmobiliaria Asunción",
-      "subheadline": "Inmobiliaria profesional en Asunción. Te respondemos en el dia.",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Inmobiliaria%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
+      "headline": "Encontrá la propiedad de tus sueños",
+      "subheadline": "Departamentos, casas, terrenos y locales comerciales en Asunción y Gran Asunción",
+      "ctaPrimaryText": "Ver propiedades",
+      "ctaSecondaryText": "Vendé tu propiedad"
     },
     "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
+      "title": "Contacto",
+      "subtitle": "Oficina central en Asunción",
+      "address": "Av. Mcal. López 3456",
       "city": "Asunción",
-      "formSource": "demo",
-      "demoRubro": "inmobiliaria"
+      "phone": "+595981890123",
+      "email": "info@inmobiliariapy.com.py",
+      "whatsapp": "+595981890123"
+    },
+    "properties": {
+      "title": "Propiedades destacadas",
+      "subtitle": "Las mejores opciones del mercado",
+      "items": [
+        {
+          "title": "Departamento 2 dorm.",
+          "description": "Palma y 15 de Agosto, Asunción",
+          "price": "USD 85.000",
+          "image": "",
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "area": "65 m²"
+        },
+        {
+          "title": "Casa 3 dorm.",
+          "description": "San Lorenzo, cerca UNA",
+          "price": "USD 120.000",
+          "image": "",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "area": "120 m²"
+        },
+        {
+          "title": "Terreno 360 m²",
+          "description": "Luque, zona residencial",
+          "price": "USD 45.000",
+          "image": "",
+          "area": "360 m²"
+        },
+        {
+          "title": "Local comercial",
+          "description": "Av. Mcal. López, Asunción",
+          "price": "USD 250.000",
+          "image": "",
+          "area": "180 m²"
+        },
+        {
+          "title": "Casa Quinta",
+          "description": "Lambaré, con piscina",
+          "price": "USD 180.000",
+          "image": "",
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "area": "300 m²"
+        },
+        {
+          "title": "Departamento 1 dorm.",
+          "description": "Av. España, Asunción",
+          "price": "USD 55.000",
+          "image": "",
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "area": "42 m²"
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Todo en servicios inmobiliarios",
+      "items": [
+        {
+          "name": "Compra y Venta",
+          "description": "Asesoramiento integral en compra-venta de propiedades",
+          "icon": "Home"
+        },
+        {
+          "name": "Alquileres",
+          "description": "Gestión de alquileres temporales y permanentes",
+          "icon": "Key"
+        },
+        {
+          "name": "Tasaciones",
+          "description": "Tasación profesional de propiedades",
+          "icon": "Calculator"
+        },
+        {
+          "name": "Gestión Documental",
+          "description": "Trámites, escrituras y documentación legal",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "process": {
+      "title": "¿Cómo trabajamos?",
+      "steps": [
+        {
+          "title": "Consultá",
+          "description": "Conversamos sobre tus necesidades y presupuesto",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Buscamos",
+          "description": "Encontramos las mejores opciones del mercado",
+          "icon": "Search"
+        },
+        {
+          "title": "Visitá",
+          "description": "Te acompañamos a conocer las propiedades",
+          "icon": "Eye"
+        },
+        {
+          "title": "Cerramos",
+          "description": "Te asesoramos hasta la firma de escrituras",
+          "icon": "CheckCircle"
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "subtitle": "Asesores inmobiliarios profesionales",
+      "items": [
+        {
+          "name": "Laura Mendoza",
+          "role": "Corredora Inmobiliaria",
+          "description": "10 años en el mercado inmobiliario paraguayo"
+        },
+        {
+          "name": "Carlos Pereira",
+          "role": "Asesor Comercial",
+          "description": "Especialista en propiedades residenciales"
+        },
+        {
+          "name": "Ana López",
+          "role": "Gestora Documental",
+          "description": "Trámites legales y escrituración"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Opiniones",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Martín R.",
+          "text": "Me ayudaron a comprar mi primer departamento. Profesionales y pacientes.",
+          "rating": 5
+        },
+        {
+          "name": "Sofía G.",
+          "text": "Vendí mi casa en tiempo récord. Excelente gestión.",
+          "rating": 5
+        },
+        {
+          "name": "Ricardo A.",
+          "text": "Me asesoraron en todo el proceso. Muy recomendados.",
+          "rating": 5
+        }
+      ]
+    },
+    "mortgageCalc": {
+      "title": "Simulador de crédito hipotecario",
+      "subtitle": "Calculá tu cuota mensual aproximada",
+      "propertyPrice": 85000,
+      "downPaymentPercent": 30,
+      "interestRate": 8.5,
+      "loanTermYears": 20
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Cuánto cobran de comisión?",
+          "answer": "Nuestra comisión es del 3% + IVA sobre el precio de venta."
+        },
+        {
+          "question": "¿Ayudan con el financiamiento?",
+          "answer": "Sí, trabajamos con bancos y cooperativas para créditos hipotecarios."
+        },
+        {
+          "question": "¿Hacen alquileres temporales?",
+          "answer": "Sí, alquileres por día, semana o mes."
+        }
+      ]
     }
   },
   "footer": {
