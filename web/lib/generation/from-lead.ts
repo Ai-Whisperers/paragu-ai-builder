@@ -30,6 +30,77 @@ export interface PreviewConfig {
   source: string
 }
 
-export function mapLeadToPreviewConfig(_lead: Record<string, unknown>): PreviewConfig {
-  throw new Error('not_implemented: mapLeadToPreviewConfig is a stub awaiting the real mapper')
+const TYPE_TO_VERTICAL: Record<string, string> = {
+  peluqueria: 'beauty-personal-care',
+  salon_belleza: 'beauty-personal-care',
+  barberia: 'service-booking',
+  gimnasio: 'sports-recreation',
+  spa: 'health-wellness',
+  depilacion: 'beauty-personal-care',
+  maquillaje: 'portfolio-professional',
+  estetica: 'beauty-personal-care',
+  unas: 'beauty-personal-care',
+  tatuajes: 'portfolio-professional',
+  peluqueria_canina: 'pets-animals',
+  masajes: 'health-wellness',
+  yoga: 'sports-recreation',
+  pilates: 'sports-recreation',
+}
+
+export function mapLeadToPreviewConfig(lead: Record<string, unknown>): PreviewConfig {
+  const businessName = (lead.business_name as string) || 'Mi Negocio'
+  const businessType = (lead.business_type as string) || 'peluqueria'
+  const city = (lead.city as string) || 'Asunción'
+  const phone = (lead.phone as string) || ''
+  const whatsapp = (lead.whatsapp as string) || phone
+  const instagram = (lead.instagram as string) || ''
+  const address = (lead.address as string) || ''
+  const coordinates = lead.coordinates as Record<string, number> | null
+  const hours = lead.hours as Record<string, string> | null
+  const yearsInOp = lead.years_in_operation as number | null
+  const rating = lead.rating as number | null
+  const reviewCount = lead.review_count as number | null
+
+  const slug = `preview-${lead.id as string}`
+  const verticalId = TYPE_TO_VERTICAL[businessType] || 'beauty-personal-care'
+
+  const schema: BusinessSchema = {
+    businessName,
+    contact: {
+      email: (lead.email as string) || '',
+      phone,
+      whatsapp,
+    },
+    location: {
+      city,
+      address,
+      coordinates,
+    },
+    hours: hours || {},
+    seo: {
+      titleTemplate: `${businessName} — ${businessType.replace(/_/g, ' ')} en ${city}`,
+      descriptionTemplate: `${businessName} en ${city}. ${businessType.replace(/_/g, ' ')} profesional con atención personalizada.`,
+    },
+  }
+
+  if (instagram) {
+    (schema as Record<string, unknown>).instagram = instagram
+  }
+  if (yearsInOp) {
+    (schema as Record<string, unknown>).yearsInOperation = yearsInOp
+  }
+  if (rating) {
+    (schema as Record<string, unknown>).rating = rating
+  }
+  if (reviewCount) {
+    (schema as Record<string, unknown>).reviewCount = reviewCount
+  }
+
+  return {
+    siteSlug: slug,
+    verticalId,
+    businessType,
+    schema,
+    source: 'lead_generation',
+  }
 }
