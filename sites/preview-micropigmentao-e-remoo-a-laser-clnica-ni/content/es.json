@@ -267,6 +267,209 @@
           "label": "Transformación 2"
         }
       ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "Micropigmentação e Remoção a Laser | Clínica Niege Bento — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Depilación Láser Axilas",
+          "description": "Sesión de depilación láser definitiva en axilas",
+          "priceCents": 80000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "axilas",
+            "definitiva"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-axilas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Depilación Láser Piernas Completas",
+          "description": "Sesión completa de piernas con láser",
+          "priceCents": 250000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "piernas",
+            "completa"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-piernas-completas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Depilación Láser Línea Bikini",
+          "description": "Sesión bikini con láser definitivo",
+          "priceCents": 100000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "bikini",
+            "definitiva"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-l-nea-bikini",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Depilación Láser Rostro",
+          "description": "Sesión de depilación láser facial",
+          "priceCents": 60000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "rostro",
+            "facial"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-rostro",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Paquete 6 Sesiones Axilas",
+          "description": "6 sesiones láser en axilas — resultados permanentes",
+          "priceCents": 400000,
+          "category": "Paquetes",
+          "tags": [
+            "paquete",
+            "laser",
+            "axilas",
+            "ahorro"
+          ],
+          "imageCategory": "beauty",
+          "slug": "paquete-6-sesiones-axilas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Paquete 8 Sesiones Piernas",
+          "description": "8 sesiones de láser en piernas completas",
+          "priceCents": 1500000,
+          "category": "Paquetes",
+          "tags": [
+            "paquete",
+            "laser",
+            "piernas",
+            "ahorro"
+          ],
+          "imageCategory": "beauty",
+          "slug": "paquete-8-sesiones-piernas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Cera Tradicional Piernas",
+          "description": "Depilación con cera tradicional",
+          "priceCents": 50000,
+          "category": "Cera",
+          "tags": [
+            "cera",
+            "piernas",
+            "tradicional"
+          ],
+          "imageCategory": "beauty",
+          "slug": "cera-tradicional-piernas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Cera Brasileña",
+          "description": "Depilación completa con cera",
+          "priceCents": 70000,
+          "category": "Cera",
+          "tags": [
+            "cera",
+            "brasilena",
+            "completa"
+          ],
+          "imageCategory": "beauty",
+          "slug": "cera-brasile-a",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Crema Post-Depilación",
+          "description": "Crema calmante post-depilación con aloe vera 200ml",
+          "priceCents": 55000,
+          "category": "Productos",
+          "tags": [
+            "crema",
+            "calmante",
+            "post-depilacion"
+          ],
+          "imageCategory": "products",
+          "slug": "crema-post-depilaci-n",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Gift Card Depilación",
+          "description": "Tarjeta de regalo canjeable por sesiones de depilación",
+          "priceCents": 150000,
+          "category": "Gift Cards",
+          "tags": [
+            "gift",
+            "regalo",
+            "depilacion"
+          ],
+          "imageCategory": "products",
+          "slug": "gift-card-depilaci-n",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en Asunción y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
     }
   },
   "footer": {

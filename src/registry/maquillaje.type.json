@@ -192,5 +192,18 @@
       "text": "Ver Portafolio",
       "action": "scrollTo:portfolio"
     }
+  },
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG",
+    "catalog": {
+      "source": "supabase"
+    },
+    "checkout": {
+      "anonymousAllowed": true,
+      "shippingRequired": false,
+      "phoneRequired": true
+    }
   }
 }

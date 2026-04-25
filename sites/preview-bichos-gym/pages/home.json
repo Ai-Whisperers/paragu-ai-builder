@@ -24,6 +24,11 @@
       "content": "home.services"
     },
     {
+      "id": "product-catalog",
+      "variant": "cards",
+      "content": "home.products"
+    },
+    {
       "id": "trust-badges",
       "variant": "strip",
       "content": "home.trustBadges"

@@ -35,7 +35,13 @@
   },
   "features": {
     "whatsappFloat": true,
-    "testimonials": true
+    "testimonials": true,
+    "productCatalog": true,
+    "commerce": true,
+    "featuredProducts": true,
+    "shop": true,
+    "giftCards": true,
+    "booking": true
   },
   "noindex": true,
   "source": "lead_generation",
@@ -51,5 +57,16 @@
   "previewLeadId": "5df672a5-8ec9-4f4a-837d-239b035b685e",
   "createdAt": "2026-04-25T05:23:41.449Z",
   "google_maps_url": "https://maps.google.com/?cid=9262140512078218306",
-  "business_status": "OPERATIONAL"
+  "business_status": "OPERATIONAL",
+  "commerce": {
+    "enabled": true,
+    "currency": "PYG",
+    "provider": "pagopar",
+    "whatsappEnabled": true
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion"
+  }
 }

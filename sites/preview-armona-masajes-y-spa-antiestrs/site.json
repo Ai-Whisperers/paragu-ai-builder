@@ -37,7 +37,14 @@
   },
   "features": {
     "whatsappFloat": true,
-    "testimonials": true
+    "testimonials": true,
+    "productCatalog": true,
+    "commerce": true,
+    "featuredProducts": true,
+    "shop": true,
+    "giftCards": true,
+    "booking": true,
+    "membershipPlans": true
   },
   "demo": true,
   "demoRubro": "spa",
@@ -57,5 +64,16 @@
   "preview": true,
   "previewLeadId": "131fdeb8-75b4-4aa2-bd55-3aaf58846ba5",
   "google_maps_url": "https://maps.google.com/?cid=7415517611499153900",
-  "business_status": "OPERATIONAL"
+  "business_status": "OPERATIONAL",
+  "commerce": {
+    "enabled": true,
+    "currency": "PYG",
+    "provider": "pagopar",
+    "whatsappEnabled": true
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion"
+  }
 }

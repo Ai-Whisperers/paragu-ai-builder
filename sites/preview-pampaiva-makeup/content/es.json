@@ -272,6 +272,207 @@
           "label": "Transformación 2"
         }
       ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "Pampaiva MakeUp — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Maquillaje Social",
+          "description": "Maquillaje para eventos sociales, fiestas y reuniones",
+          "priceCents": 120000,
+          "category": "Maquillaje",
+          "tags": [
+            "social",
+            "evento",
+            "fiesta"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-social",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Maquillaje de Novia",
+          "description": "Maquillaje profesional para novias, incluye prueba",
+          "priceCents": 350000,
+          "category": "Novias",
+          "tags": [
+            "novia",
+            "bodas",
+            "prueba"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-de-novia",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Maquillaje Editorial",
+          "description": "Maquillaje artístico para sesiones de fotos",
+          "priceCents": 200000,
+          "category": "Maquillaje",
+          "tags": [
+            "editorial",
+            "fotos",
+            "artistico"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-editorial",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Maquillaje de 15 Años",
+          "description": "Maquillaje especial para fiestas de 15",
+          "priceCents": 250000,
+          "category": "Eventos",
+          "tags": [
+            "quince",
+            "fiesta",
+            "especial"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-de-15-a-os",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Clase de Maquillaje",
+          "description": "Clase personalizada de 2 horas, incluye productos",
+          "priceCents": 180000,
+          "category": "Lecciones",
+          "tags": [
+            "clase",
+            "aprender",
+            "personalizado"
+          ],
+          "imageCategory": "makeup",
+          "slug": "clase-de-maquillaje",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Prueba de Maquillaje",
+          "description": "Sesión de prueba antes del evento, incluye look completo",
+          "priceCents": 80000,
+          "category": "Novias",
+          "tags": [
+            "prueba",
+            "novia",
+            "sesion"
+          ],
+          "imageCategory": "makeup",
+          "slug": "prueba-de-maquillaje",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Maquillaje + Peinado Novia",
+          "description": "Combo maquillaje novia más peinado profesional",
+          "priceCents": 600000,
+          "category": "Paquetes",
+          "tags": [
+            "combo",
+            "novia",
+            "peinado"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-peinado-novia",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Maquillaje + Peinado Evento",
+          "description": "Completo para fiestas y eventos especiales",
+          "priceCents": 250000,
+          "category": "Paquetes",
+          "tags": [
+            "combo",
+            "evento",
+            "maquillaje"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-peinado-evento",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Labial Mate",
+          "description": "Labial mate profesional de larga duración",
+          "priceCents": 45000,
+          "category": "Productos",
+          "tags": [
+            "labial",
+            "mate",
+            "larga duracion"
+          ],
+          "imageCategory": "products",
+          "slug": "labial-mate",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Paleta de Sombras",
+          "description": "Paleta profesional 24 colores neutros y vibrantes",
+          "priceCents": 180000,
+          "category": "Productos",
+          "tags": [
+            "paleta",
+            "sombras",
+            "profesional"
+          ],
+          "imageCategory": "products",
+          "slug": "paleta-de-sombras",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en Mariano Roque Alonso y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
     }
   },
   "footer": {

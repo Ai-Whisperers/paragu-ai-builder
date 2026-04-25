@@ -19,6 +19,11 @@
       "content": "home.services"
     },
     {
+      "id": "product-catalog",
+      "variant": "cards",
+      "content": "home.products"
+    },
+    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"

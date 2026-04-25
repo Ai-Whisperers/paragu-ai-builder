@@ -188,5 +188,18 @@
       "text": "Ver Servicios",
       "action": "scrollTo:services"
     }
+  },
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG",
+    "catalog": {
+      "source": "supabase"
+    },
+    "checkout": {
+      "anonymousAllowed": true,
+      "shippingRequired": false,
+      "phoneRequired": true
+    }
   }
 }
