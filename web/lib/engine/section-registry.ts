@@ -181,7 +181,7 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
   'product-catalog': {
     id: 'product-catalog',
     defaultVariant: 'grid',
-    variants: ['grid'],
+    variants: ['grid', 'cards'],
   },
   'featured-products': {
     // Live homepage preview of the first N products from the tenant's

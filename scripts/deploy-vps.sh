@@ -62,7 +62,7 @@ docker build -f web/Dockerfile \
   --build-arg GOOGLE_PLACES_API_KEY="$GOOGLE_PLACES_API_KEY" \
   -t "$TAG" .
 
-SERVICE="paragu-ai_web"
+SERVICE="paragu-ai-builder_web"
 [ "$ENV" = "staging" ] && SERVICE="paragu-ai-staging_web"
 
 # --force triggers a new task even when tag is reused (build digest differs)
