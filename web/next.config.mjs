@@ -27,7 +27,7 @@ const ContentSecurityPolicy = isDev
     default-src 'self';
     script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://www.googletagmanager.com https://www.google-analytics.com;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
-    img-src 'self' blob: data: https://*.supabase.co https://*.cloudinary.com https://images.unsplash.com https://images.pexels.com https://placehold.co https://www.google-analytics.com https://www.googletagmanager.com https://www.superspuma.com.py https://maps.googleapis.com;
+    img-src 'self' blob: data: https://*.supabase.co https://*.cloudinary.com https://images.unsplash.com https://images.pexels.com https://placehold.co https://www.google-analytics.com https://www.googletagmanager.com https://www.superspuma.com.py https://maps.googleapis.com https://lh3.googleusercontent.com https://*.googleusercontent.com;
     font-src 'self' https://fonts.gstatic.com;
     connect-src 'self' https://*.supabase.co wss://*.supabase.co https://cloudflareinsights.com https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com;
     frame-src 'self' https://www.google.com https://maps.google.com https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://calendly.com;
@@ -37,7 +37,7 @@ const ContentSecurityPolicy = isDev
     default-src 'self';
     script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://www.googletagmanager.com https://www.google-analytics.com;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
-    img-src 'self' blob: data: https://*.supabase.co https://*.cloudinary.com https://images.unsplash.com https://images.pexels.com https://placehold.co https://www.google-analytics.com https://www.googletagmanager.com https://www.superspuma.com.py https://maps.googleapis.com;
+    img-src 'self' blob: data: https://*.supabase.co https://*.cloudinary.com https://images.unsplash.com https://images.pexels.com https://placehold.co https://www.google-analytics.com https://www.googletagmanager.com https://www.superspuma.com.py https://maps.googleapis.com https://lh3.googleusercontent.com https://*.googleusercontent.com;
     font-src 'self' https://fonts.gstatic.com;
     connect-src 'self' https://*.supabase.co wss://*.supabase.co https://cloudflareinsights.com https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com;
     frame-src 'self' https://www.google.com https://maps.google.com https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://calendly.com;
@@ -86,6 +86,8 @@ const nextConfig = {
       // Hot-linked during demo; swap to our CDN once they sign.
       { protocol: 'https', hostname: 'www.superspuma.com.py', pathname: '/wp-content/uploads/**' },
       { protocol: 'https', hostname: 'maps.googleapis.com', pathname: '/maps/api/place/photo/**' },
+      { protocol: 'https', hostname: 'lh3.googleusercontent.com' },
+      { protocol: 'https', hostname: '*.googleusercontent.com' },
     ],
     formats: ['image/avif', 'image/webp'],
     // Disable image optimization in self-hosted Docker (Sharp native module
