@@ -4,29 +4,47 @@
     "author": "paragu-ai",
     "lastReviewed": "2026-04-25"
   },
-  "siteName": "Barbería San Lorenzo",
+  "siteName": "TAJOS Barberos (Central)",
   "tagline": "Tradición y maestría en cada detalle",
   "placeholders": {
-    "businessName": "Barbería San Lorenzo",
+    "businessName": "TAJOS Barberos (Central)",
     "city": "San Lorenzo",
     "year": 2026
   },
   "navigation": {
-    "businessName": "Barbería San Lorenzo",
+    "businessName": "TAJOS Barberos (Central)",
     "navItems": [
-      { "label": "Inicio", "path": "" },
-      { "label": "Servicios", "path": "#servicios" },
-      { "label": "Galería", "path": "#galeria" },
-      { "label": "Equipo", "path": "#equipo" },
-      { "label": "Reservar", "path": "#reservar" },
-      { "label": "Contacto", "path": "#contacto" }
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Reservar",
+        "path": "#reservar"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
     ],
     "ctaText": "Reservar turno",
     "ctaHref": "#reservar"
   },
   "home": {
     "seo": {
-      "title": "Barbería San Lorenzo | Cortes Clásicos y Modernos en San Lorenzo",
+      "title": "TAJOS Barberos (Central) | Cortes Clásicos y Modernos en San Lorenzo",
       "description": "Barbería profesional en San Lorenzo. Cortes degradados, afeitado con navaja, tintura masculina y tratamientos capilares. Reservá tu cita online."
     },
     "hero": {
@@ -37,7 +55,7 @@
       "ctaSecondaryText": "Ver servicios",
       "ctaSecondaryHref": "#servicios",
       "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
-      "imageAlt": "Barbería San Lorenzo — Interior de la barbería"
+      "imageAlt": "TAJOS Barberos (Central) — Interior de la barbería"
     },
     "promoBanner": {
       "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
@@ -230,14 +248,46 @@
       "subtitle": "Elegí el servicio, el barbero y el horario que mejor te quede",
       "phone": "+595985123456",
       "services": [
-        { "name": "Corte Clásico", "duration": "30 min", "price": "Gs. 45.000" },
-        { "name": "Corte Degradado (Fade)", "duration": "40 min", "price": "Gs. 55.000" },
-        { "name": "Afeitado Tradicional", "duration": "35 min", "price": "Gs. 65.000" },
-        { "name": "Arreglo de Barba", "duration": "20 min", "price": "Gs. 35.000" },
-        { "name": "Tintura Masculina", "duration": "60 min", "price": "Gs. 90.000" },
-        { "name": "Tratamiento Capilar", "duration": "45 min", "price": "Gs. 75.000" },
-        { "name": "Corte + Barba (Combo)", "duration": "55 min", "price": "Gs. 80.000" },
-        { "name": "Corte Infantil", "duration": "25 min", "price": "Gs. 35.000" }
+        {
+          "name": "Corte Clásico",
+          "duration": "30 min",
+          "price": "Gs. 45.000"
+        },
+        {
+          "name": "Corte Degradado (Fade)",
+          "duration": "40 min",
+          "price": "Gs. 55.000"
+        },
+        {
+          "name": "Afeitado Tradicional",
+          "duration": "35 min",
+          "price": "Gs. 65.000"
+        },
+        {
+          "name": "Arreglo de Barba",
+          "duration": "20 min",
+          "price": "Gs. 35.000"
+        },
+        {
+          "name": "Tintura Masculina",
+          "duration": "60 min",
+          "price": "Gs. 90.000"
+        },
+        {
+          "name": "Tratamiento Capilar",
+          "duration": "45 min",
+          "price": "Gs. 75.000"
+        },
+        {
+          "name": "Corte + Barba (Combo)",
+          "duration": "55 min",
+          "price": "Gs. 80.000"
+        },
+        {
+          "name": "Corte Infantil",
+          "duration": "25 min",
+          "price": "Gs. 35.000"
+        }
       ],
       "ctaText": "Reservar por WhatsApp"
     },
@@ -298,8 +348,8 @@
     }
   },
   "footer": {
-    "businessName": "Barbería San Lorenzo",
-    "copyright": "© {{year}} Barbería San Lorenzo. Todos los derechos reservados.",
+    "businessName": "TAJOS Barberos (Central)",
+    "copyright": "© {{year}} TAJOS Barberos (Central). Todos los derechos reservados.",
     "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
   },
   "whatsapp": {
