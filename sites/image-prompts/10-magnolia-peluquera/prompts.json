@@ -1,0 +1,15 @@
+{
+  "slug": "preview-magnolia-peluquera",
+  "business_name": "Magnolia Peluquería",
+  "business_type": "peluqueria",
+  "city": "Asunción",
+  "notes": "",
+  "hero_prompt": "Salón de belleza \"Magnolia Peluquería\" en Asunción, Paraguay.  Estaciones con espejos iluminados, sillas profesionales, decoración moderna, luz natural, ambiente acogedor --ar 21:9",
+  "gallery_prompts": [
+    "Corte y coloración en Magnolia Peluquería, Asunción. Estilista trabajando, mechas, tintura profesional, luz natural --ar 4:3",
+    "Lavacabezas en Magnolia Peluquería, Asunción. Cliente cómodo, shampoo profesional, ambiente relajante --ar 4:3",
+    "Resultado de peinado en Magnolia Peluquería, Asunción. Cliente feliz, look terminado, estilo moderno --ar 4:3",
+    "Interior del salón Magnolia Peluquería, Asunción. Estaciones de trabajo, espejos, ambiente completo --ar 4:3",
+    "Productos capilares en Magnolia Peluquería, Asunción. Shampoos, acondicionadores, tratamientos en exhibición --ar 4:3"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "preview-jazmin-valdivieso-brow-and-lash-studio",
+  "business_name": "Jazmin Valdivieso Brow and Lash Studio",
+  "business_type": "peluqueria",
+  "city": "Asunción",
+  "notes": "",
+  "hero_prompt": "Salón de belleza \"Jazmin Valdivieso Brow and Lash Studio\" en Asunción, Paraguay.  Estaciones con espejos iluminados, sillas profesionales, decoración moderna, luz natural, ambiente acogedor --ar 21:9",
+  "gallery_prompts": [
+    "Corte y coloración en Jazmin Valdivieso Brow and Lash Studio, Asunción. Estilista trabajando, mechas, tintura profesional, luz natural --ar 4:3",
+    "Lavacabezas en Jazmin Valdivieso Brow and Lash Studio, Asunción. Cliente cómodo, shampoo profesional, ambiente relajante --ar 4:3",
+    "Resultado de peinado en Jazmin Valdivieso Brow and Lash Studio, Asunción. Cliente feliz, look terminado, estilo moderno --ar 4:3",
+    "Interior del salón Jazmin Valdivieso Brow and Lash Studio, Asunción. Estaciones de trabajo, espejos, ambiente completo --ar 4:3",
+    "Productos capilares en Jazmin Valdivieso Brow and Lash Studio, Asunción. Shampoos, acondicionadores, tratamientos en exhibición --ar 4:3"
+  ]
+}

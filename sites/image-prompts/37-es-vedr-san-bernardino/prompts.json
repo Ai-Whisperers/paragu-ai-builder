@@ -1,0 +1,15 @@
+{
+  "slug": "preview-es-vedr-san-bernardino",
+  "business_name": "ES VEDRÁ San Bernardino",
+  "business_type": "peluqueria",
+  "city": "Asunción",
+  "notes": "",
+  "hero_prompt": "Salón de belleza \"ES VEDRÁ San Bernardino\" en Asunción, Paraguay.  Estaciones con espejos iluminados, sillas profesionales, decoración moderna, luz natural, ambiente acogedor --ar 21:9",
+  "gallery_prompts": [
+    "Corte y coloración en ES VEDRÁ San Bernardino, Asunción. Estilista trabajando, mechas, tintura profesional, luz natural --ar 4:3",
+    "Lavacabezas en ES VEDRÁ San Bernardino, Asunción. Cliente cómodo, shampoo profesional, ambiente relajante --ar 4:3",
+    "Resultado de peinado en ES VEDRÁ San Bernardino, Asunción. Cliente feliz, look terminado, estilo moderno --ar 4:3",
+    "Interior del salón ES VEDRÁ San Bernardino, Asunción. Estaciones de trabajo, espejos, ambiente completo --ar 4:3",
+    "Productos capilares en ES VEDRÁ San Bernardino, Asunción. Shampoos, acondicionadores, tratamientos en exhibición --ar 4:3"
+  ]
+}

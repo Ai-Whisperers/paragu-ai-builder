@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
 
     const { data: business, error: businessError } = await supabase
       .from('businesses')
-      .select('id, name')
+      .select('id, name, phone, whatsapp')
       .eq('slug', business_slug)
       .single()
 
@@ -88,6 +88,15 @@ export async function POST(request: NextRequest) {
         { error: 'Failed to create booking' },
         { status: 500 }
       )
+    }
+
+    // Notify business owner via WhatsApp
+    const ownerPhone = business.phone || business.whatsapp
+    if (ownerPhone) {
+      const waMsg = `🆕 Nueva reserva en ${business.name}!\n\n👤 Cliente: ${customer_name}\n📞 Tel: ${customer_phone}\n📅 Fecha: ${booking_date}\n⏰ Hora: ${booking_time}\n📋 Servicio: ${service?.name || 'No especificado'}\n📝 Notas: ${customer_notes || 'Ninguna'}\n\nGestionar: https://paragu-ai.com/admin/bookings/${business.id}`
+      const waUrl = `https://wa.me/${ownerPhone.replace(/\D/g, '')}?text=${encodeURIComponent(waMsg)}`
+      logger.info('Booking WhatsApp notification', { action: 'booking.notify', business_id: business.id, waUrl: waUrl.slice(0, 80) })
+      // In production: use WhatsApp Business API. For now: log the link.
     }
 
     if (process.env.EMAIL_TRANSACTIONAL_KEY && process.env.EMAIL_FROM_ADDRESS && customer_email) {
