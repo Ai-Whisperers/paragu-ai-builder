@@ -1,5 +1,6 @@
 import { requireTenant } from '@/lib/auth/tenant'
 import { createClient } from '@/lib/supabase/server'
+import { redirect } from 'next/navigation'
 import { DashboardLayout } from './dashboard-layout'
 
 export default async function DashboardPage({
@@ -10,6 +11,18 @@ export default async function DashboardPage({
   const { slug } = await params
   const tenant = await requireTenant()
   const supabase = await createClient()
+
+  // Check if this tenant needs onboarding (missing business info)
+  const { data: business } = await supabase
+    .from('businesses')
+    .select('name, data_json')
+    .eq('id', tenant.businessId)
+    .single()
+
+  const needsOnboarding = !business?.name || !business?.name?.trim()
+  if (needsOnboarding) {
+    redirect(`/dashboard/${slug}/onboarding`)
+  }
 
   const [ordersRes, productsRes] = await Promise.all([
     supabase.from('orders').select('id, status, total_cents, created_at').eq('business_id', tenant.businessId).order('created_at', { ascending: false }).limit(5),
