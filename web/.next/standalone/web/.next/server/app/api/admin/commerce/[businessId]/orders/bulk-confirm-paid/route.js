@@ -1,6 +1,6 @@
 var R=require("../../../../../../../chunks/[turbopack]_runtime.js")("server/app/api/admin/commerce/[businessId]/orders/bulk-confirm-paid/route.js")
-R.c("server/chunks/[root-of-the-server]__0ljpe85._.js")
-R.c("server/chunks/[root-of-the-server]__0p81yti._.js")
+R.c("server/chunks/[root-of-the-server]__0.z6yqg._.js")
+R.c("server/chunks/[root-of-the-server]__115s9i7._.js")
 R.c("server/chunks/[root-of-the-server]__11_ycom._.js")
 R.c("server/chunks/063q_next_dist_0bo6z5y._.js")
 R.c("server/chunks/web_lib_supabase_scoped_ts_0o6-gr4._.js")

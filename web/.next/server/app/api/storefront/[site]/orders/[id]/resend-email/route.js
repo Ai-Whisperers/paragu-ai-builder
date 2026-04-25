@@ -1,6 +1,6 @@
 var R=require("../../../../../../../chunks/[turbopack]_runtime.js")("server/app/api/storefront/[site]/orders/[id]/resend-email/route.js")
-R.c("server/chunks/[root-of-the-server]__0ljpe85._.js")
-R.c("server/chunks/[root-of-the-server]__0izn.c6._.js")
+R.c("server/chunks/[root-of-the-server]__0.z6yqg._.js")
+R.c("server/chunks/[root-of-the-server]__03lsvz3._.js")
 R.c("server/chunks/web_lib_supabase_scoped_ts_0o6-gr4._.js")
 R.c("server/chunks/063q_next_12dskcl._.js")
 R.c("server/chunks/web_0ejqmz1._.js")

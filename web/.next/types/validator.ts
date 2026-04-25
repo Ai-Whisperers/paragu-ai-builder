@@ -1532,6 +1532,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../app/api/whatsapp/connect/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/whatsapp/connect">> = Specific
+  const handler = {} as typeof import("../../app/api/whatsapp/connect/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/nexa-paraguay/route.ts
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/nexa-paraguay">> = Specific

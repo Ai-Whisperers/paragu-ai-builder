@@ -1,6 +1,6 @@
 var R=require("../../../../../chunks/[turbopack]_runtime.js")("server/app/api/storefront/[site]/back-in-stock/route.js")
-R.c("server/chunks/[root-of-the-server]__0ljpe85._.js")
-R.c("server/chunks/[root-of-the-server]__0~rzoko._.js")
+R.c("server/chunks/[root-of-the-server]__0.z6yqg._.js")
+R.c("server/chunks/[root-of-the-server]__0nq_xnn._.js")
 R.c("server/chunks/063q_next_12dskcl._.js")
 R.c("server/chunks/063q_next_dist_0bo6z5y._.js")
 R.c("server/chunks/web_0ejqmz1._.js")

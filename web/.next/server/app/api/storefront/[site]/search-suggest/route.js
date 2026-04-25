@@ -1,6 +1,6 @@
 var R=require("../../../../../chunks/[turbopack]_runtime.js")("server/app/api/storefront/[site]/search-suggest/route.js")
-R.c("server/chunks/[root-of-the-server]__0ljpe85._.js")
-R.c("server/chunks/[root-of-the-server]__0k_.s-9._.js")
+R.c("server/chunks/[root-of-the-server]__0.z6yqg._.js")
+R.c("server/chunks/[root-of-the-server]__0_pjtx~._.js")
 R.c("server/chunks/web_lib_supabase_scoped_ts_0o6-gr4._.js")
 R.c("server/chunks/[root-of-the-server]__0ho7z50._.js")
 R.c("server/chunks/web_0ejqmz1._.js")
