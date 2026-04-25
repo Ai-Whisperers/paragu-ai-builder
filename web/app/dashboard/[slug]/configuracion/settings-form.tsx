@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { DEMO_PHONE, DEMO_WHATSAPP } from '@/lib/constants'
 
 interface BusinessData {
   name?: string
@@ -65,8 +66,8 @@ export function SettingsForm({ business, businessId }: { business: BusinessData 
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Field label="Nombre" value={form.name} onChange={(v) => setForm({ ...form, name: v })} />
-          <Field label="Teléfono" value={form.phone} onChange={(v) => setForm({ ...form, phone: v })} placeholder="+595 9XX XXX XXX" />
-          <Field label="WhatsApp" value={form.whatsapp} onChange={(v) => setForm({ ...form, whatsapp: v })} placeholder="+595 9XX XXX XXX" />
+          <Field label="Teléfono" value={form.phone} onChange={(v) => setForm({ ...form, phone: v })} placeholder={DEMO_PHONE} />
+          <Field label="WhatsApp" value={form.whatsapp} onChange={(v) => setForm({ ...form, whatsapp: v })} placeholder={DEMO_WHATSAPP} />
           <Field label="Email" value={form.email} onChange={(v) => setForm({ ...form, email: v })} type="email" />
           <Field label="Dirección" value={form.address} onChange={(v) => setForm({ ...form, address: v })} />
           <Field label="Barrio" value={form.neighborhood} onChange={(v) => setForm({ ...form, neighborhood: v })} />

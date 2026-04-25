@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useCartStore, cartSubtotalCents } from '@/lib/stores/cart-store'
+import { DEMO_PHONE } from '@/lib/constants'
 import { formatCents } from '@/lib/commerce/compute-totals'
 
 interface Props {
@@ -164,7 +165,7 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
           <div className="grid gap-4 sm:grid-cols-2">
             <Field label="Nombre completo" name="name" required autoComplete="name" />
             <Field label="Email" name="email" type="email" required autoComplete="email" />
-            <Field label="Teléfono (WhatsApp)" name="phone" type="tel" required autoComplete="tel" placeholder="+595 9XX XXX XXX" />
+            <Field label="Teléfono (WhatsApp)" name="phone" type="tel" required autoComplete="tel" placeholder={DEMO_PHONE} />
           </div>
         </section>
 

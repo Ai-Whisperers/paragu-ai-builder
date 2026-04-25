@@ -4,6 +4,7 @@ import { useState } from 'react'
 import type { ContactContent } from '@/lib/commerce/business-content'
 import { useSaveSection } from './use-save-section'
 import { FieldInput, SaveButton } from './form-primitives'
+import { DEMO_WHATSAPP } from '@/lib/constants'
 
 const DAYS = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'] as const
 const DAY_LABELS: Record<(typeof DAYS)[number], string> = {
@@ -49,7 +50,7 @@ export function ContactEditor({ businessId, initial }: { businessId: string; ini
         <h3 className="text-sm font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">Contacto</h3>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <FieldInput name="phone" label="Teléfono" defaultValue={initial?.phone ?? ''} placeholder="+595 21 123 456" />
-          <FieldInput name="whatsapp" label="WhatsApp" defaultValue={initial?.whatsapp ?? ''} placeholder="+595 9XX XXX XXX" />
+          <FieldInput name="whatsapp" label="WhatsApp" defaultValue={initial?.whatsapp ?? ''} placeholder={DEMO_WHATSAPP} />
           <FieldInput name="email" label="Email" type="email" defaultValue={initial?.email ?? ''} />
           <FieldInput name="city" label="Ciudad" defaultValue={initial?.city ?? ''} placeholder="Asunción" />
           <FieldInput
