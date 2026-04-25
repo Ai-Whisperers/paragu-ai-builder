@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 1403 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Florencia T."
+          "author": "M K (Maci Kun)",
+          "quote": "Positive is that most non food items are well sorted, in top condition new and presented on a large, clean and new shopping area. So far the best Luisito market experience.\n\nNegative downside for less",
+          "rating": 4
         },
         {
-          "rating": 4,
-          "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Gabriel N."
+          "author": "Alam A.B",
+          "quote": "Xd",
+          "rating": 4
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Camila B."
+          "author": "David Ocampos",
+          "quote": "Regular",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "María F."
+          "author": "Jeronimo Garcia",
+          "quote": "This supermarket is like an icebox. I usually shop here very often, but for over a month now, you go in feeling fine and come out with the flu. The staff inside have to wear heavy coats, bundled up to",
+          "rating": 1
+        },
+        {
+          "author": "Kai",
+          "quote": "Little by little, I'm starting to think they're really trying to pull the wool over my eyes. I can't put it any other way. First, they forgot the remote control for the solar lamp. Yesterday, I went t",
+          "rating": 1
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "7:30 AM – 10:00 PM",
+      "Martes": "7:30 AM – 9:00 PM",
+      "Miercoles": "7:30 AM – 9:00 PM",
+      "Jueves": "7:30 AM – 9:00 PM",
+      "Viernes": "7:30 AM – 9:00 PM",
+      "Sabado": "7:30 AM – 9:30 PM",
+      "Domingo": "7:30 AM – 9:00 PM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

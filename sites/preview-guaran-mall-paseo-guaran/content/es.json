@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 273 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Camila B."
+          "author": "I RMoreno",
+          "quote": "My Daughter Loves trips to the Mall, she can't wait for the other business to open",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "María F."
+          "author": "Ivan M",
+          "quote": "Great place to shop and eat",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Carlos G."
+          "author": "Termos Empresariales Promocioná tu marca!",
+          "quote": "A lovely space that includes a top-notch cinema 🙌🏽✨😊",
+          "rating": 4
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Ana L."
+          "author": "christian Gonzalez (chrisgonzalezoficial)",
+          "quote": "It's great for the entire Itaugua area and its surroundings. A quiet, family-friendly atmosphere with many options, plus the Itaú cinema is now open, which for many is the closest place to enjoy this ",
+          "rating": 5
+        },
+        {
+          "author": "Esteban N",
+          "quote": "McDonald's is open until midnight and the service is fast. I recommend it when you don't know what to have for dinner and you're in a hurry, boss.",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "7:00 AM – 12:00 AM",
+      "Martes": "7:00 AM – 12:00 AM",
+      "Miercoles": "7:00 AM – 12:00 AM",
+      "Jueves": "7:00 AM – 12:00 AM",
+      "Viernes": "7:00 AM – 12:00 AM",
+      "Sabado": "7:00 AM – 12:00 AM",
+      "Domingo": "7:00 AM – 12:00 AM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

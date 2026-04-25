@@ -202,28 +202,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros alumnos",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 197 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Andrés P."
+          "author": "Guillermo Zapattini",
+          "quote": "Cool",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Carolina M."
+          "author": "Jose Pane",
+          "quote": "Excellent, it has its own store FITFACTORY SUPPLEMENTS AND LOOK SPORT where you can buy high-quality products or clothing",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Sofía A."
+          "author": "Joel Franco",
+          "quote": "Excellent equipment, air-conditioned, good lighting, good cleanliness.",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Jorge C."
+          "author": "Jorge C",
+          "quote": "Excellent atmosphere and well equipped",
+          "rating": 5
+        },
+        {
+          "author": "Hernando Adrián",
+          "quote": "Very good gym located in a busy area, its facilities have a large number of machines for training, the place is spacious and well organized, already with years operating in the area it is one of the b",
+          "rating": 4
         }
       ]
     },
@@ -266,9 +271,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "05:00 - 22:00",
-      "Sábado": "07:00 - 18:00",
-      "Domingo": "09:00 - 13:00"
+      "Lunes": "6:00 AM – 9:00 PM",
+      "Martes": "6:00 AM – 9:00 PM",
+      "Miercoles": "6:00 AM – 9:00 PM",
+      "Jueves": "6:00 AM – 9:00 PM",
+      "Viernes": "6:00 AM – 9:00 PM",
+      "Sabado": "9:00 AM – 12:30 PM",
+      "Domingo": "Closed"
     },
     "trustBadges": {
       "items": [

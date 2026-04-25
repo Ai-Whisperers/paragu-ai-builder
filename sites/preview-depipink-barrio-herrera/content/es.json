@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 185 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Jorge C."
+          "author": "A. W.",
+          "quote": "Clean salon with friendly staff, would recommend Had the pleasure to receive a service from Cecilia",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Laura E."
+          "author": "Dra L L",
+          "quote": "Their wax is excellent for sensitive skin, and the girls are very professional. They do the whole body in under 30 minutes. Unfortunately, they do leave quite a bit of hair behind, so you have to be m",
+          "rating": 4
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Pedro S."
+          "author": "Effy",
+          "quote": "I love this place. They have amazing deals, impossible to pass up!",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Lucía V."
+          "author": "Katherin Gonzalez",
+          "quote": "I love it!! The best service, highly recommended. I also had the opportunity to go to DepiSanlo and they did a great job. Thank you very much!",
+          "rating": 5
+        },
+        {
+          "author": "Angeles Vidal",
+          "quote": "The worst service. I've never had such a bad time, and in front of minors. I hope they move because living under the abuse of this \"entity/owner\" of the salon is torture, and we clients don't deserve ",
+          "rating": 1
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 8:00 PM",
+      "Martes": "9:00 AM – 8:00 PM",
+      "Miercoles": "9:00 AM – 8:00 PM",
+      "Jueves": "9:00 AM – 8:00 PM",
+      "Viernes": "9:00 AM – 8:00 PM",
+      "Sabado": "9:00 AM – 6:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

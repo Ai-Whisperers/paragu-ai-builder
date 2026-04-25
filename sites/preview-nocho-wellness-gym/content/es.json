@@ -182,28 +182,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 139 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Pedro S."
+          "author": "B. Logan Riquelme",
+          "quote": "I like it because it has a lot of equipment and you don't have to waste a lot of time waiting when it's busy. The equipment is in excellent condition, the place is clean, and the instructors are very ",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Lucía V."
+          "author": "Pablo Alexis González Emerick",
+          "quote": "A very familiar and warm environment, in which I feel comfortable when training, a good amount of equipment, highly recommended 👍🏽",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Martín D."
+          "author": "Lider Noguera",
+          "quote": "Impeccable, a safe place",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Florencia T."
+          "author": "Romeu 113",
+          "quote": "Academia muito boa. Espaçosa e variedade em equipamentos e pesos. Não tem ar condicionado, ventilador e suor são seus parceiros de treino.",
+          "rating": 5
+        },
+        {
+          "author": "Teresa Ranoni",
+          "quote": "Fantastic! I love it and I recommend it to everyone to take care of their health and physique. Nocho Wellness Gym is the best and affordable for everyone.",
+          "rating": 5
         }
       ]
     },
@@ -271,9 +276,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 21:00",
-      "Sábado": "10:00 - 20:00",
-      "Domingo": "Cerrado"
+      "Lunes": "7:00 AM – 9:00 PM",
+      "Martes": "7:00 AM – 9:00 PM",
+      "Miercoles": "7:00 AM – 9:00 PM",
+      "Jueves": "7:00 AM – 9:00 PM",
+      "Viernes": "7:00 AM – 9:00 PM",
+      "Sabado": "Closed",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

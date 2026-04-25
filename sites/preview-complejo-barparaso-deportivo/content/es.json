@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 840 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Jorge C."
+          "author": "Open Mind",
+          "quote": "Nasty, rude staff. Making up prices for entry and drinks as they go along. Unfriendly, rude. We will never go back.",
+          "rating": 1
         },
         {
-          "rating": 4,
-          "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Laura E."
+          "author": "Belén",
+          "quote": "Cool 👌",
+          "rating": 3
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Pedro S."
+          "author": "Mario Montiel A",
+          "quote": "Super",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Lucía V."
+          "author": "Mara Morinigo",
+          "quote": "The place is truly beautiful, and the cabin was lovely and clean. However, starting around 7:00 AM, people begin arriving with loud speakers and playing music at very high volume, and there's no contr",
+          "rating": 4
+        },
+        {
+          "author": "LC BJ",
+          "quote": "Very nice place, very polite people, the staff are great. The only thing missing is more sinks for washing cutlery in the back sink because there are only two in the whole property and they're practic",
+          "rating": 4
         }
       ]
     },

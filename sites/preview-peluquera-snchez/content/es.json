@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 251 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Gabriel N."
+          "author": "Francisco Galeano",
+          "quote": "Excellent, congratulations for the good service!!!!!",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Hace 6 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Camila B."
+          "author": "Horacio Velaztiqui",
+          "quote": "Quality service, excellent attention and price.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "María F."
+          "author": "Adriano Irala",
+          "quote": "More than an experience, I went to relive fond memories of Don Sánchez from my childhood and adolescence. I witnessed the comments and merriment once again, as his children continue in their parents' ",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carlos G."
+          "author": "yuyila Rober",
+          "quote": "Friendly atmosphere, very clean and tidy, excellent service and affordable price",
+          "rating": 5
+        },
+        {
+          "author": "Cris Stiward",
+          "quote": "More than impeccable service! I've been going to this barbershop for over 30 years; it's like a tradition. First my grandfather, then my father, and now me, at 43 years old, I still go to his barbersh",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 8:00 PM",
+      "Martes": "9:00 AM – 8:00 PM",
+      "Miercoles": "9:00 AM – 8:00 PM",
+      "Jueves": "9:00 AM – 8:00 PM",
+      "Viernes": "9:00 AM – 8:00 PM",
+      "Sabado": "9:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

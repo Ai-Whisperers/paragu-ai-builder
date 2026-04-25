@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 179 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Ana L."
+          "author": "Arnaldo Ruben Alvarenga Garcia",
+          "quote": "Excellent place, variety of products and service",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 1 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Diego H."
+          "author": "Veronica Ojeda Elgue",
+          "quote": "Today I went shopping and to my surprise, \"No children allowed.\" I was with my 2-year-old daughter, so I had to leave. Honestly, this is the first time I've seen such a measure. 1) The products they s",
+          "rating": 1
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Valentina R."
+          "author": "Rosa Vera",
+          "quote": "If you want to be pampered by the salon experts, take a stroll through Vita Chic.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Andrés P."
+          "author": "victoria añazco",
+          "quote": "One of my favorite places; you can find everything for women's beauty. A wide variety of products from all brands. Excellent advice when shopping; the saleswomen help you and recommend products. Good ",
+          "rating": 5
+        },
+        {
+          "author": "Cynthia Flecha",
+          "quote": "They have henna dye and many good quality brands",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "8:00 AM – 6:00 PM",
+      "Martes": "8:00 AM – 6:00 PM",
+      "Miercoles": "8:00 AM – 6:00 PM",
+      "Jueves": "8:00 AM – 6:00 PM",
+      "Viernes": "8:00 AM – 6:00 PM",
+      "Sabado": "8:00 AM – 1:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

@@ -182,28 +182,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 196 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Jorge C."
+          "author": "Camila Rivarola",
+          "quote": "Everything was super good, Aunt Magali was very kind. 🥰 My son fell asleep very relaxed when he got home. Excellent service. ❤️",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Laura E."
+          "author": "Carolina Collante",
+          "quote": "Lea thoroughly enjoyed her 4-month spa day again. She chatted and relaxed 🤣 She loves her aunts. Thank you!!!",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Pedro S."
+          "author": "Gabriela Agüero",
+          "quote": "Excellent service, Aunt Ana is so sweet 🥰 We'll be back soon for the ear piercing for the earrings 🥰❤️ Thank you ❤️",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Lucía V."
+          "author": "Karen Ayala",
+          "quote": "100% recommended. Excellent service, the staff were very professional and patient. Happy baby, happy mom. We'll definitely be back!",
+          "rating": 5
+        },
+        {
+          "author": "mirta",
+          "quote": "A lovely first experience for my baby! Aunt Ana gave him some anti-colic massages that really improved his mood, as he was restless before. That night he slept super relaxed thanks to the Hidrobaby sp",
+          "rating": 5
         }
       ]
     },
@@ -271,9 +276,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 21:00",
-      "Sábado": "10:00 - 20:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 7:00 PM",
+      "Martes": "9:00 AM – 7:00 PM",
+      "Miercoles": "9:00 AM – 7:00 PM",
+      "Jueves": "9:00 AM – 7:00 PM",
+      "Viernes": "9:00 AM – 7:00 PM",
+      "Sabado": "9:00 AM – 5:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

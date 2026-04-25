@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 217 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Pedro S."
+          "author": "Maria del Carmen Lugo V.",
+          "quote": "Excellent service and men's hair salon with a minibar. Enjoy an open bar during your stay during the hot summer holidays.",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Lucía V."
+          "author": "Cynthia Fernández",
+          "quote": "Wow, the hair salon of your dreams! No complaints whatsoever, they're very professional and the quality is top-notch. I give it 5 stars, keep it up!",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Martín D."
+          "author": "Mateo Gabriel Nicoli Melgarejo",
+          "quote": "Excellent service, very pleasant place and a very professional team, no complaints.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Florencia T."
+          "author": "stefanie gigglberger",
+          "quote": "The salon is lovely, beautifully decorated with a natural style, and they have great products. The owner and her mother work at the register and are very friendly. They do beautiful color (Cynthia in ",
+          "rating": 4
+        },
+        {
+          "author": "Laura Patricia Escobar",
+          "quote": "I love the service at that place. Dani gave me a wonderful haircut. And Nani has angelic hands. They do their work with so much care.",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "Closed",
+      "Martes": "9:00 AM – 8:00 PM",
+      "Miercoles": "9:00 AM – 8:00 PM",
+      "Jueves": "9:00 AM – 8:00 PM",
+      "Viernes": "9:00 AM – 8:00 PM",
+      "Sabado": "9:00 AM – 8:00 PM",
+      "Domingo": "9:00 AM – 6:00 PM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 183 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carolina M."
+          "author": "Matthew Dominy",
+          "quote": "Wow is all I need to say. I went to a wedding here and the place is stunning. Beautifully designed",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Sofía A."
+          "author": "Cynthia Bernal",
+          "quote": "The venue is simply beautiful. It's spacious. You reach it via a cobblestone street, but before arriving, there's a very steep block that can be difficult for small cars or minibuses (photo).\nThe venu",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Jorge C."
+          "author": "Santiago Lopez",
+          "quote": "Excellent place! Beautiful view and top-notch facilities",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Laura E."
+          "author": "RIGOBERTO PY AVENTURERO",
+          "quote": "The place is beautiful, it's a new event venue, the rental cost is extremely high, and getting there is quite an ordeal 😅",
+          "rating": 5
+        },
+        {
+          "author": "Carlos Aguinaga",
+          "quote": "A true Paraguayan Grill. It is one of the best or maybe the Best..... Congratulations Paraguay",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 2:00 AM",
+      "Martes": "9:00 AM – 2:00 AM",
+      "Miercoles": "9:00 AM – 2:00 AM",
+      "Jueves": "9:00 AM – 2:00 AM",
+      "Viernes": "9:00 AM – 2:00 AM",
+      "Sabado": "9:00 AM – 2:00 AM",
+      "Domingo": "9:00 AM – 2:00 AM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

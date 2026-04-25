@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 564 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Diego H."
+          "author": "Fatima Trinidad",
+          "quote": "Ok",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 8 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Valentina R."
+          "author": "Rosani Biondo",
+          "quote": "Mega Cosméticos has a good variety of products and an organized store. However, it's inconvenient that even small handbags have to be placed inside a large, lockable bag to be brought in. For those of",
+          "rating": 4
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Andrés P."
+          "author": "Lilian Talavera",
+          "quote": "Today I went to the store looking for hair solutions, and I found so much more! I tried the recommended products and was more than satisfied; I'll definitely be back! Excellent service; I was helped b",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carolina M."
+          "author": "Irene Raquel Rolòn Verdùn",
+          "quote": "Excelente atención de las chicas, te muestran los productos, brindando la amplia opción de precios que tienen. Entré con intenciones de comprar dos productos y me llevé una bolsa de cosas, mediante la",
+          "rating": 5
+        },
+        {
+          "author": "Gloria Gisselle",
+          "quote": "The website says they open at 8:00 AM, but when I got to the store, there was a sign on the door saying they open at 9:00 AM. I went there and couldn't complete my purchase because it was closed. Plea",
+          "rating": 3
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 8:00 PM",
+      "Martes": "9:00 AM – 8:00 PM",
+      "Miercoles": "9:00 AM – 8:00 PM",
+      "Jueves": "9:00 AM – 8:00 PM",
+      "Viernes": "9:00 AM – 8:00 PM",
+      "Sabado": "9:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

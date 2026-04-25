@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 504 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Sofía A."
+          "author": "Gerhard V",
+          "quote": "It's a safe and convenient place very close to the Monday Falls. We didn't visit the falls as we arrived late and continued the next morning towards the south, but if you want to visit the falls (expe",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Hace 3 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Jorge C."
+          "author": "Suraphot Piokliang",
+          "quote": "The staff, especially Julieta, she was extremely helpful and kind! She made our stay very pleasant and wonderful. The hotel is nice and clean! The view is amazing. We hope to come back soon in the fut",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Laura E."
+          "author": "Ambra di Nuzzo",
+          "quote": "A Wonderful Discovery – NatuCenter Vegetarian Restaurant\n\nWhat a gem! NatuCenter offers a delicious and generous plato único at an incredibly low price. The food was fresh, flavorful, and clearly made",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Pedro S."
+          "author": "J H",
+          "quote": "Incredible experience! The hotel staff is very welcoming. The facility And location are fantastic. The good might be the best part! View of Salto De Mobsay from the hotel or a 5 minute walk to see it ",
+          "rating": 5
+        },
+        {
+          "author": "Leonie Steinrück",
+          "quote": "Elizia and her husband are so adorable and kind. The food was always amazing and very delicious. Thank you both for the wonderful evenings and breakfast.\nLeonie and Philipp",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "7:00 AM – 8:30 PM",
+      "Martes": "7:00 AM – 8:30 PM",
+      "Miercoles": "7:00 AM – 8:30 PM",
+      "Jueves": "7:00 AM – 8:30 PM",
+      "Viernes": "7:00 AM – 5:00 PM",
+      "Sabado": "Closed",
+      "Domingo": "7:00 AM – 8:30 PM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

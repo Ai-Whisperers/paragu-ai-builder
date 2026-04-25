@@ -182,28 +182,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 183 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Camila B."
+          "author": "Ingve Skaret",
+          "quote": "Excellent service and massage",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "María F."
+          "author": "홍도리",
+          "quote": "not good",
+          "rating": 3
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Carlos G."
+          "author": "Juan Lucas Ruffolo",
+          "quote": "I think I've been to every spa in Asunción. At Teranu, the service is excellent in every way. The location, the service, and the massage are all superb. I highly recommend it.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Ana L."
+          "author": "Viviana Peña",
+          "quote": "A first-class spa, with trained professionals focused on ensuring you leave free of any pain or stress.\nAn exquisite and healthy menu accompanied by the best natural juices from all of Paraguay.\nThe w",
+          "rating": 5
+        },
+        {
+          "author": "Alejandra Acevedo Noguera",
+          "quote": "Beautiful, super clean, the girls are super professional!!! The massage is perfect!!!!",
+          "rating": 5
         }
       ]
     },
@@ -271,9 +276,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 21:00",
-      "Sábado": "10:00 - 20:00",
-      "Domingo": "Cerrado"
+      "Lunes": "11:00 AM – 8:00 PM",
+      "Martes": "11:00 AM – 8:00 PM",
+      "Miercoles": "11:00 AM – 8:00 PM",
+      "Jueves": "11:00 AM – 8:00 PM",
+      "Viernes": "11:00 AM – 8:00 PM",
+      "Sabado": "11:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

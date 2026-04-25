@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 299 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Gabriel N."
+          "author": "Larissa Morimoto",
+          "quote": "Great salon, but the prices are never the same as what they tell you.",
+          "rating": 3
         },
         {
-          "rating": 4,
-          "quote": "Hace 2 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Camila B."
+          "author": "Maggie Portillo",
+          "quote": "I took my daughter for a children's haircut with the owner of the salon. We scheduled an appointment and waited almost an hour longer than we asked for. I complained about the delay. While we waited, ",
+          "rating": 1
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "María F."
+          "author": "Ventas Mkt",
+          "quote": "They charged us over $212, and we don't understand why they charge for everything, even breathing. Besides, they don't give you a refund when you ask about the payment. You don't even know what the pr",
+          "rating": 1
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Carlos G."
+          "author": "Soy Fatima Fleitas",
+          "quote": "Whenever I go, they attend to me right away and take the time to provide the service. I always feel a good vibe from the people who serve me.",
+          "rating": 5
+        },
+        {
+          "author": "Lorenzo Acosta",
+          "quote": "A pleasant atmosphere, excellent service, and unparalleled comfort—definitely recommended for a relaxing getaway!",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 9:00 PM",
+      "Martes": "9:00 AM – 9:00 PM",
+      "Miercoles": "9:00 AM – 9:00 PM",
+      "Jueves": "9:00 AM – 9:00 PM",
+      "Viernes": "9:00 AM – 9:00 PM",
+      "Sabado": "9:00 AM – 9:00 PM",
+      "Domingo": "10:00 AM – 9:00 PM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

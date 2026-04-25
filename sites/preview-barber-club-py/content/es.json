@@ -209,38 +209,33 @@
       ]
     },
     "testimonials": {
-      "title": "Opiniones de nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 137 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Lucía V."
+          "author": "Ricardo Adolfo Rolon Alderete",
+          "quote": "Nice place, good service, clean. You can have a cold one while you wait. Parking is a bit tight.",
+          "rating": 4
         },
         {
-          "rating": 4,
-          "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Martín D."
+          "author": "Sebastián Barreto",
+          "quote": "The haircut is terrible, and it's way too expensive for how badly they do it. I wouldn't recommend paying 70,000 for a haircut like that.",
+          "rating": 1
         },
         {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Florencia T."
+          "author": "javier arbo",
+          "quote": "Excellent service... Highly recommended",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Gabriel N."
+          "author": "Hugo Ricardo López Garcete",
+          "quote": "A cozy place with excellent service, for those looking for good service and a chance to watch a game or other sport. Near Villa Elisa and Lambare.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Camila B."
-        },
-        {
-          "rating": 4,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "María F."
+          "author": "Humberto Recalde",
+          "quote": "Excellent service and good treatment",
+          "rating": 5
         }
       ]
     },
@@ -332,9 +327,13 @@
       "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15"
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "9:00 AM – 8:00 PM",
+      "Martes": "9:00 AM – 8:00 PM",
+      "Miercoles": "9:00 AM – 8:00 PM",
+      "Jueves": "9:00 AM – 8:00 PM",
+      "Viernes": "9:00 AM – 8:00 PM",
+      "Sabado": "9:00 AM – 8:00 PM",
+      "Domingo": "Closed"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 298 reseñas",
       "items": [
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Lucía V."
+          "author": "Xander",
+          "quote": "Nicely renovated! lots of seating, big screens, good music and good selection of dishes. They offer both buffet and regular menu. Clean toilets.",
+          "rating": 5
         },
         {
-          "rating": 4,
-          "quote": "Hace 5 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Martín D."
+          "author": "Astor Dlubak",
+          "quote": "The presentacion of the burger was amazing, the burger was massive and the bacon tasted old, like if they would heat up bacon from another day.The bun was rich in flavor and the pickles where sliced p",
+          "rating": 4
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Florencia T."
+          "author": "Annette",
+          "quote": "Great food and good service. They sometimes have very loud music playing, which makes it uncomfortable to sit there. The preparation of the food also takes too long. I was there multiple times and eve",
+          "rating": 4
         },
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Gabriel N."
+          "author": "Javier Kartsch",
+          "quote": "We came actually for sushi and it was very tasty. The service was ok. Just a bit noisy due to the road being so close.",
+          "rating": 4
+        },
+        {
+          "author": "Jorge Sarubbi",
+          "quote": "The best place to eat so far ! Everything is perfect",
+          "rating": 5
         }
       ]
     },
@@ -274,9 +279,13 @@
       ]
     },
     "hours": {
-      "Lunes a Viernes": "09:00 - 20:00",
-      "Sábado": "09:00 - 18:00",
-      "Domingo": "Cerrado"
+      "Lunes": "11:00 AM – 3:00 PM",
+      "Martes": "11:00 AM – 11:59 PM",
+      "Miercoles": "11:00 AM – 11:59 PM",
+      "Jueves": "11:00 AM – 11:59 PM",
+      "Viernes": "11:00 AM – 11:59 PM",
+      "Sabado": "11:00 AM – 11:59 PM",
+      "Domingo": "11:00 AM – 11:59 PM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",

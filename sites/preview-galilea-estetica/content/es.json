@@ -187,28 +187,33 @@
       ]
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 402 reseñas",
       "items": [
         {
-          "rating": 4,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Valentina R."
+          "author": "Regina González Paris",
+          "quote": "Very clean",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Hace 7 años que confio en ellos. Nunca me defraudaron. Recomendados en Asunción.",
-          "author": "Andrés P."
+          "author": "Camila Garcete",
+          "quote": "Pleasant place, excellent service, super friendly staff! Very good service",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Me encanta como trabajan. La mejor peluqueria de Asunción sin dudas.",
-          "author": "Carolina M."
+          "author": "vicente baruja gonzalez",
+          "quote": "Excellent place and service. I recommend it.",
+          "rating": 5
         },
         {
-          "rating": 3,
-          "quote": "Sali hermosísima! Corte y color exactamente como lo pedi. 4/5.",
-          "author": "Sofía A."
+          "author": "Meg A.G",
+          "quote": "Excellent service, very friendly, a lovely place to relax and the staff are incredibly kind. 1000/10",
+          "rating": 5
+        },
+        {
+          "author": "teresita gonzalez",
+          "quote": "The place is beautiful, clean, and relaxing, but what stood out most was the friendliness and professionalism. Excellent service; I highly recommend it.",
+          "rating": 5
         }
       ]
     },
