@@ -87,7 +87,10 @@ interface TrackBatchBody {
  * legitimate data with a 400.
  */
 export const POST = withRequestLog(async (request, { log }) => {
-  const supabase = getSupabase()
+  let supabase: SupabaseClient
+  try { supabase = getSupabase() } catch {
+    return NextResponse.json({ ok: false, reason: 'env_not_configured' }, { status: 200 })
+  }
   const rawBody = (await request.json().catch(() => ({}))) as
     | Partial<TrackEventBody & TrackBatchBody>
     | Record<string, never>
