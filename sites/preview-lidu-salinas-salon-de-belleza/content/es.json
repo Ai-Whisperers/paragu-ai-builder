@@ -118,40 +118,29 @@
       ]
     },
     "gallery": {
-      "title": "Nuestros trabajos",
-      "subtitle": "Transformaciones reales de nuestros clientes",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Corte moderno",
-          "caption": "Corte y coloración"
+          "src": "/api/place-photo?ref=AU_ZVEGcT3NH8FYrgtfVBxm9CUDATLH0yJej25Z8PYxF3o9XW6Y9ljvaF6cn2sUMg3phI_eeRa2Coacp0aghFqQe0n51HuEfqxcBs9y77ybDDnMqgR89n3G8EjBZwFMmEV6gFmd3OLMQJCw67yHyyackRzYb2UB-TcqShxta2d7hMYbISjY-StVqi8wANWem8ag3WqkEBpR6KgBkwLUoHSXLVD1Brc7sn30ZQdE7ujcQgFhiqP_ZJ3pfqiIxbyBiqLSYkp9nlOU3kdiB7_x5QtsZWH9RlHP1mf42SuSZZD4IycgUmViN7LbdmmALwsM5nnz_4rM9I-8hAZ7QvZyVpOS4p4D3UauzFlIvksvjRymQtGh5rB4YMw7rI04Z6pnTHbDVQrl_fLfnG8YUc0jOlZN2JvuiwqZg1vqYe16jwjkvNIDOR-A&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
-          "alt": "Mechas balayage",
-          "caption": "Balayage dorado"
+          "src": "/api/place-photo?ref=AU_ZVEFp9T9y1pnNLfBAIx7SSHAGtEHLCUCsg_yl6H5VxFvT281tuj9TO5hnKzD7YwfP90rSvclrkk_wWEnOGsaKKbwqGGAsgEnwdeND0g0nc4IkHtxVgiExglzqge0GlU7tqfEwq92WITL4iEMlyBZWtsG6BD1O2ijwz6uAfGkIQnInkEZIfvN_eqINT6GVjItQBNVs9higU2qgxvYIbNvb2H39372tsPDZwXFyaYdRFkIEwAHWwKxaA4ncGIL8jmCKDIROm9cfcss6yULkY5Gf_lDfs2GrtucevpggualcHq643zSzLR7eEqigGG3KO9IFY-2cWfIhqDnLA1SxhGUOiz7iFs5hXn4lsHMpEDodXPHwU49DkiBO1hR0VYvp7Wiun0x8fglmAlBL-9pAzXVAJ9363HW8qL3kFFGzs7z1Vxxm4RGV&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600",
-          "alt": "Peinado",
-          "caption": "Peinado para novia"
+          "src": "/api/place-photo?ref=AU_ZVEGct9nqcpYmzmLTFniIoX6tx3Rnljgxt5gDTsGi6-M272QwRhUoZDglq8M2mXChMRv5FpjnzeCMrOA1gVZP6nI4vZPcM0COpRfGc9Mt0VLrayN_j0owcd2RwDQKqVflpcOa9DPAHb7jn4VMwTKc7FOpl2j4opPcJgbuFWMozZC8Saz3bz9dQc5W3gqxEU5bhf5SdfXmJIsBoKEuAqJ9gi2x1PzGJ_o1YZoNhrVRPgJkYTvJKkwlYLzjFgFKGEjeT9nM6JElygNoB5kt8PvJz9LuEHlhM1l0aVwm8O9zTKws79IBRMVbgs61Szt4_O73Ar7U53g3iSA-0qrmuWyKst-ekI2k05vdCg4RjOUiZRf2bAPao231NDJ-5CWFNAj_QMXHytuPofEKZhtv2Wdyax2rN7Iug-FpA_NXHiZAbOw1Uw&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
-          "alt": "Botox capilar",
-          "caption": "Botox capilar"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600",
-          "alt": "Manicura",
-          "caption": "Manicura semipermanente"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600",
-          "alt": "Corte caballero",
-          "caption": "Corte degradado"
+          "src": "/api/place-photo?ref=AU_ZVEFHQGkBCDAtMs53-UD3srG-PEIPEhW9Cb2CWUCgMAEgkGM-Hg7dkW90daeYjljDD4ZlMjEtxrdInU263L0bbSqpsBeh-ElJRDTcpt7FXVI0FVkDQbHP190nEiSJ9ZjxUbOQMar0rWAKZh5JqwbzN-uRtowAr1xiZqnkQfvT2q2NpGGPZrpQqscKTogMfK8CT11u0Cx6-USeJz_nF9wMEMomG5AfJi5DaP46WTFXPclbxasNqDl1W-ekTwpzjUV7xbeBINhvNwFV5xhPGV-Bf_EI7lBe_QrF1RGStA2ahUZX1Rr-4UJOMmdEKIhxSXcQryQuBYQmcXXIfnpNav5-kdiV0qAOMFqIUxfpRPLo9P_hOnonVcGsjWt2GvWPPSyIkTVA6mhGMPAhOlQcS_bwU_h7Fta89hfwiX4Oo_Fq0M7GJWs&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         }
       ]
     },

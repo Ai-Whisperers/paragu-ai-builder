@@ -14,7 +14,7 @@
   },
   "location": {
     "city": "Coronel Oviedo",
-    "address": "8080 Coronel Oviedo, Cnel. Oviedo 3300, Paraguay",
+    "address": "WMPR+QJ9, Av. Bernardino Caballero, Saltos del Guairá 140104, Paraguay",
     "coordinates": {
       "lat": -25.4504825,
       "lng": -56.4481341
@@ -56,7 +56,7 @@
   "preview": true,
   "previewLeadId": "a57f3a0f-3bc3-4fb1-a3df-35c0c080ae91",
   "createdAt": "2026-04-25T05:23:41.371Z",
-  "google_maps_url": "https://maps.google.com/?cid=9203454693665761481",
+  "google_maps_url": "https://maps.google.com/?cid=6635834877478348689",
   "business_status": "OPERATIONAL",
   "commerce": {
     "enabled": true,

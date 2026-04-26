@@ -187,9 +187,15 @@
       ]
     },
     "testimonials": {
-      "title": "Reseñas",
-      "subtitle": "Basado en 116 reseñas en Google",
-      "items": []
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 11 reseñas",
+      "items": [
+        {
+          "author": "Leonardo Favio b. Pintos",
+          "quote": "Excellent professionals.",
+          "rating": 5
+        }
+      ]
     },
     "booking": {
       "title": "Reservá tu turno",
@@ -253,13 +259,13 @@
       ]
     },
     "hours": {
-      "Lunes": "8:00 AM – 8:00 PM",
-      "Martes": "8:00 AM – 8:00 PM",
-      "Miercoles": "8:00 AM – 8:00 PM",
-      "Jueves": "8:00 AM – 8:00 PM",
-      "Viernes": "8:00 AM – 8:00 PM",
-      "Sabado": "8:00 AM – 8:00 PM",
-      "Domingo": "Closed"
+      "Lunes": "7:00 AM – 9:00 PM",
+      "Martes": "7:00 AM – 9:00 PM",
+      "Miercoles": "7:00 AM – 9:00 PM",
+      "Jueves": "7:00 AM – 9:00 PM",
+      "Viernes": "7:00 AM – 9:00 PM",
+      "Sabado": "7:00 AM – 9:00 PM",
+      "Domingo": "7:00 – 11:45 AM"
     },
     "instagramFeed": {
       "title": "Seguinos en Instagram",
@@ -290,26 +296,16 @@
     },
     "reviewsWidget": {
       "title": "Lo que dicen en Google",
-      "subtitle": "Basado en 116 reseñas en Google - 4.5 estrellas",
+      "subtitle": "Basado en 11 reseñas en Google - 5.0 estrellas",
       "reviews": [
         {
-          "author": "Cliente",
+          "author": "Leonardo Favio b. Pintos",
           "rating": 5,
-          "text": "Excelente servicio, muy recomendado."
-        },
-        {
-          "author": "Cliente",
-          "rating": 4,
-          "text": "Buena atención y profesionales."
-        },
-        {
-          "author": "Cliente",
-          "rating": 5,
-          "text": "Salió todo perfecto. Volveré sin dudas."
+          "text": "Excellent professionals."
         }
       ],
-      "avgRating": 4.5,
-      "reviewCount": 116
+      "avgRating": 5.0,
+      "reviewCount": 11
     },
     "packagesGiftcards": {
       "packages": [
