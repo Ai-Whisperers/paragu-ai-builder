@@ -39,7 +39,7 @@
     },
     "footer": [
       {
-        "id": "contact",
+        "id": "contact-strip",
         "variant": "standard",
         "content": "home.contact"
       },
