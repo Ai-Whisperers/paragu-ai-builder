@@ -1,0 +1,42 @@
+{
+  "vertical": "b2b-professional",
+  "businessType": "cpa_firm",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": ["es"],
+  "contact": {
+    "whatsapp": "+595985724135",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.estudio.contable.py"
+  },
+  "location": {
+    "city": "Asuncion",
+    "address": "Av. Aviadores del Chaco 2050, Edificio World Trade Center, Piso 8",
+    "coordinates": { "lat": -25.283, "lng": -57.574 }
+  },
+  "hours": {
+    "Lunes a Viernes": "08:00 - 18:00",
+    "Sabados": "09:00 - 12:00"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": "ga4"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "blog": true,
+    "leadForm": true,
+    "teamCredentials": true,
+    "taxCalendar": true
+  },
+  "demo": true,
+  "demoRubro": "cpa_firm",
+  "demoWave": 4,
+  "demoCluster": "D Lead-gen",
+  "noindex": true,
+  "createdAt": "2026-04-26",
+  "source": "manual-upgrade",
+  "is_demo": true
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "schemaType": "AccountingService",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "split", "content": "home.hero" },
+    { "id": "trust-signals", "variant": "credentials", "content": "home.trustSignals" },
+    { "id": "services", "variant": "cards", "content": "home.services" },
+    { "id": "pricing-table", "variant": "default", "content": "home.pricing" },
+    { "id": "process-timeline", "variant": "horizontal", "content": "home.process" },
+    { "id": "team", "variant": "cards", "content": "home.team" },
+    { "id": "testimonials", "variant": "grid", "content": "home.testimonials" },
+    { "id": "faq", "variant": "accordion", "content": "home.faq" },
+    { "id": "tax-deadline-banner", "variant": "default", "content": "home.taxDeadline" },
+    { "id": "calc-irp", "variant": "default", "content": "home.calcIrp" },
+    { "id": "calc-iva", "variant": "default", "content": "home.calcIva" },
+    { "id": "calc-costo-empleado", "variant": "default", "content": "home.calcCostoEmpleado" },
+    { "id": "calc-aguinaldo", "variant": "default", "content": "home.calcAguinaldo" },
+    { "id": "calc-finiquito", "variant": "default", "content": "home.calcFiniquito" },
+    { "id": "calc-ire", "variant": "default", "content": "home.calcIre" },
+    { "id": "lead-form", "variant": "standard", "content": "home.leadForm" },
+    { "id": "contact", "variant": "split", "content": "home.contact" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ]
+}
