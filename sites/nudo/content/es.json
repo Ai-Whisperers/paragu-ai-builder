@@ -217,32 +217,40 @@
       "subtitle": "Seguí @nudo_band para las próximas fechas",
       "trustBadgesEnabled": false
     },
-    "venues": [
-      {
-        "name": "Tunakó Pool Party",
-        "date": "Enero 2026",
-        "location": "Quinta VR",
-        "description": "Una de las mejores fechas del verano 2026. Nüdo rompiendo en la pileta."
-      },
-      {
-        "name": "Rock & Metalcore Fest",
-        "date": "2025-2026",
-        "location": "Absoluto Rock Bar",
-        "description": "Nüdo en el Rock & Metalcore Fest. Momentos que quedan grabados."
-      },
-      {
-        "name": "BREAKDOWN FEST",
-        "date": "2023",
-        "location": "FEMTO Producciones",
-        "description": "Presentación en el BREAKDOWN FEST edición 2023."
-      },
-      {
-        "name": "Black Mango",
-        "date": "2025",
-        "location": "Black Mango",
-        "description": "Concierto compartido con Drakengard."
-      }
-    ]
+    "eventos": {
+      "title": "Próximas Fechas",
+      "subtitle": "Nüdo en vivo — momentos que rompen",
+      "venues": [
+        {
+          "id": "tunako",
+          "name": "Tunakó Pool Party",
+          "description": "Una de las mejores fechas del verano 2026. Nüdo rompiendo en la pileta.",
+          "capacity": 500,
+          "idealFor": ["Verano 2026", "Pileta", "Mosh"]
+        },
+        {
+          "id": "rock-metalcore",
+          "name": "Rock & Metalcore Fest",
+          "description": "Nüdo en el Rock & Metalcore Fest. Momentos que quedan grabados.",
+          "capacity": 300,
+          "idealFor": ["Metalcore", "Festival"]
+        },
+        {
+          "id": "breakdown-fest",
+          "name": "BREAKDOWN FEST",
+          "description": "Presentación en el BREAKDOWN FEST edición 2023.",
+          "capacity": 200,
+          "idealFor": ["Breakdown", "Metal"]
+        },
+        {
+          "id": "black-mango",
+          "name": "Black Mango",
+          "description": "Concierto compartido con Drakengard.",
+          "capacity": 150,
+          "idealFor": ["Concierto", "Compartido"]
+        }
+      ]
+    }
   },
 
   "galeria": {

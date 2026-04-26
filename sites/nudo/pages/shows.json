@@ -11,7 +11,7 @@
     {
       "id": "event-venues",
       "variant": "cards",
-      "content": "shows.venues"
+      "content": "shows.eventos"
     }
   ]
 }
