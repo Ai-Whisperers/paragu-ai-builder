@@ -54,7 +54,8 @@
     "logo-strip",
     "product-catalog",
     "portfolio",
-    "instagram-feed"
+    "instagram-feed",
+    "contact-strip"
   ],
   "defaultStarterKit": "minimal",
   "locales": [
