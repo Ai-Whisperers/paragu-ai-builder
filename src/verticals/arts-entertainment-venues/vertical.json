@@ -55,7 +55,8 @@
     "product-catalog",
     "portfolio",
     "instagram-feed",
-    "contact-strip"
+    "contact-strip",
+    "event-venues"
   ],
   "defaultStarterKit": "minimal",
   "locales": [
