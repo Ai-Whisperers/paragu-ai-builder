@@ -1,0 +1,10 @@
+{
+  "slug": "casos",
+  "titleKey": "casos.seo.title",
+  "descriptionKey": "casos.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "casos.hero" },
+    { "id": "case-studies", "variant": "cards", "content": "home.caseStudies" },
+    { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" }
+  ]
+}
