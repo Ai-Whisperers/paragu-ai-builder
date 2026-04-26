@@ -1,0 +1,12 @@
+{
+  "slug": "letras",
+  "titleKey": "letras_page.seo.title",
+  "descriptionKey": "letras_page.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "letras_page.hero"
+    }
+  ]
+}

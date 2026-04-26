@@ -55,6 +55,18 @@
         "footer"
       ]
     },
+    "letras": {
+      "sections": [
+        "header",
+        "hero",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "footer"
+      ]
+    },
     "shows": {
       "sections": [
         "header",
@@ -161,6 +173,7 @@
       "Inicio",
       "Música",
       "Videos",
+      "Letras",
       "Shows",
       "Galería",
       "Contacto"

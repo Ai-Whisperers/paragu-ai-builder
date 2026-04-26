@@ -36,6 +36,10 @@
         "href": "/s/es/nudo/videos"
       },
       {
+        "label": "Letras",
+        "href": "/s/es/nudo/letras"
+      },
+      {
         "label": "Shows",
         "href": "/s/es/nudo/shows"
       },
@@ -224,6 +228,76 @@
       "subtitle": "Seguinos en Spotify — 47 oyentes mensuales",
       "src": "https://open.spotify.com/embed/artist/2N3Z6SOIw7MOSxtRyzgJLv?utm_source=generator",
       "height": 352
+    },
+    "discography": [
+      {
+        "title": "DESAHOGO (EP)",
+        "year": "2025",
+        "type": "EP",
+        "label": "Bad Vibes Records",
+        "tracks": ["JUICIO", "ESPEJO", "CULPA", "APOCALIPSIS"]
+      },
+      {
+        "title": "CULPA (Single)",
+        "year": "2023",
+        "type": "Single",
+        "label": "Independiente",
+        "tracks": ["CULPA"]
+      }
+    ]
+  },
+
+  "letras_page": {
+    "seo": {
+      "title": "Letras — Nüdo",
+      "description": "Letras de las canciones de Nüdo: CULPA, JUICIO, ESPEJO, APOCALIPSIS. Hardcore Metal desde Capiatá, Paraguay."
+    },
+    "hero": {
+      "title": "Letras",
+      "subtitle": "Canciones de Nüdo — letras y significado",
+      "trustBadgesEnabled": false
+    }
+  },
+
+  "lyrics": {
+    "culpa": {
+      "title": "CULPA",
+      "album": "DESAHOGO EP (2025)",
+      "lyrics": [
+        "No tiene sentido seguir acá",
+        "Siento impotencia si la culpa me desgasta",
+        "Ya no aguanto todo este dolor",
+        "",
+        "Sangre y espejos rotos",
+        "Agonizando en el suelo",
+        "Otra vez",
+        "",
+        "Ya lo intenté",
+        "Arrancarme todos los pelos",
+        "Y en el recuerdo queda el olvido",
+        "Mis demonios me atormentan y me piden mi destrucción",
+        "",
+        "La sangre se siente fría",
+        "en esta lluvia de cuchillas",
+        "",
+        "En esta lluvia de cuchillas",
+        "la sangre se siente fría",
+        "",
+        "La plaga y el miedo me dominan",
+        "Tanto tiempo, no puedo más",
+        "Fui impulsado para acabar",
+        "No es lo correcto",
+        "Dios está en silencio",
+        "",
+        "Pensás que soy imbécil",
+        "Hijo de puta",
+        "",
+        "Es mi maldición",
+        "Por qué tiemblas?",
+        "Cobarde",
+        "",
+        "No hay salvación"
+      ]
     }
   },
 
@@ -342,6 +416,10 @@
       {
         "label": "Videos",
         "href": "/s/es/nudo/videos"
+      },
+      {
+        "label": "Letras",
+        "href": "/s/es/nudo/letras"
       },
       {
         "label": "Shows",
