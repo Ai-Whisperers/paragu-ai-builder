@@ -1,0 +1,10 @@
+{
+  "slug": "equipo",
+  "titleKey": "equipo.seo.title",
+  "descriptionKey": "equipo.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "equipo.hero" },
+    { "id": "team", "variant": "grid", "content": "home.team" },
+    { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" }
+  ]
+}
