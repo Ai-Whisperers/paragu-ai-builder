@@ -32,6 +32,10 @@
         "href": "/s/es/nudo/musica"
       },
       {
+        "label": "Videos",
+        "href": "/s/es/nudo/videos"
+      },
+      {
         "label": "Shows",
         "href": "/s/es/nudo/shows"
       },
@@ -69,7 +73,17 @@
     "gallery": {
       "title": "Galería",
       "subtitle": "Nüdo en vivo — momentos que rompen",
-      "images": [],
+      "images": [
+        { "src": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=800&q=80", "alt": "Nüdo en vivo - concierto de hardcore", "category": "En Vivo" },
+        { "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80", "alt": "Nüdo tocando en vivo", "category": "En Vivo" },
+        { "src": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=800&q=80", "alt": "Multitud en show de Nüdo", "category": "En Vivo" },
+        { "src": "https://images.unsplash.com/photo-1501612780327-45045538702b?w=800&q=80", "alt": "Nüdo - hardcore metal desde Capiatá", "category": "En Vivo" },
+        { "src": "https://images.unsplash.com/photo-1574169208507-84376144848b?w=800&q=80", "alt": "Nüdo en el BREAKDOWN FEST", "category": "Festivales" },
+        { "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80", "alt": "Guitarra de Nüdo rompiendo escenario", "category": "En Vivo" },
+        { "src": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&q=80", "alt": "Nüdo - banda desde 2017", "category": "Banda" },
+        { "src": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=800&q=80", "alt": "Mauricio Arce - voz de Nüdo", "category": "Banda" },
+        { "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80", "alt": "Nüdo en Tunakó Pool Party", "category": "Festivales" }
+      ],
       "columns": 3,
       "lightbox": true
     },
@@ -204,6 +218,34 @@
       "title": "Música",
       "subtitle": "DESAHOGO EP (2025) — disponible en todas las plataformas",
       "trustBadgesEnabled": false
+    },
+    "spotify": {
+      "title": "Escuchá a Nüdo",
+      "subtitle": "Seguinos en Spotify — 47 oyentes mensuales",
+      "src": "https://open.spotify.com/embed/artist/2N3Z6SOIw7MOSxtRyzgJLv?utm_source=generator",
+      "height": 352
+    }
+  },
+
+  "videos": {
+    "seo": {
+      "title": "Videos — Nüdo",
+      "description": "Videos de Nüdo en vivo: shows, ensayos, y más. Hardcore Metal desde Capiatá, Paraguay."
+    },
+    "hero": {
+      "title": "Videos",
+      "subtitle": "Nüdo en YouTube — segui @Nudo-fd7mz",
+      "trustBadgesEnabled": false
+    },
+    "gallery": {
+      "title": "Videos",
+      "subtitle": "Momentos de Nüdo en vivo y estudio",
+      "images": [
+        { "src": "https://i.scdn.co/image/ab67616d00001e029eb75be054c928ad5c3576e3", "alt": "DESAHOGO EP - Escuchalo en Spotify", "category": "Música" },
+        { "src": "https://i.scdn.co/image/ab67616d00001e02bcb531a6e29d197d153d3e4d", "alt": "CULPA - Single 2023", "category": "Música" }
+      ],
+      "columns": 2,
+      "lightbox": true
     }
   },
 
@@ -277,7 +319,14 @@
     }
   },
 
-  "footer": {
+    "newsletter": {
+      "title": "Enterate de los próximos shows",
+      "subtitle": "Dejanos tu email y te avisamos cuando toquemos en vivo. Sin spam, solo metal.",
+      "placeholder": "tu@email.com",
+      "submitLabel": "Suscribirme"
+    },
+
+    "footer": {
     "businessName": "Nüdo",
     "city": "Capiatá",
     "copyright": "© 2026 Nüdo. Todos los derechos reservados. Bad Vibes Records.",
@@ -289,6 +338,10 @@
       {
         "label": "Música",
         "href": "/s/es/nudo/musica"
+      },
+      {
+        "label": "Videos",
+        "href": "/s/es/nudo/videos"
       },
       {
         "label": "Shows",
@@ -324,6 +377,10 @@
     "shows": {
       "title": "Shows — Nüdo",
       "description": "Próximas fechas de Nüdo en Paraguay."
+    },
+    "videos": {
+      "title": "Videos — Nüdo",
+      "description": "Videos de Nüdo en vivo. Hardcore Metal desde Capiatá."
     },
     "galeria": {
       "title": "Galería — Nüdo",

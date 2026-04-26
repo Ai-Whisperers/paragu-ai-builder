@@ -39,6 +39,11 @@
       "content": "home.faq"
     },
     {
+      "id": "newsletter-signup",
+      "variant": "standard",
+      "content": "home.newsletter"
+    },
+    {
       "id": "cta-banner",
       "variant": "gradient",
       "content": "ctaBanner"

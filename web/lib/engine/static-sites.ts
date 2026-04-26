@@ -74,7 +74,7 @@ export const SITES = {
     domain: '',
     defaultLocale: 'es',
     locales: ['es'],
-    pages: ['home', 'musica', 'shows', 'galeria', 'contacto'],
+    pages: ['home', 'musica', 'videos', 'shows', 'galeria', 'contacto'],
   },
 } as const
 

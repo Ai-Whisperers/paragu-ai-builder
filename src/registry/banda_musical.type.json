@@ -31,6 +31,7 @@
       "sections": [
         "header",
         "hero",
+        "gallery",
         "portfolio",
         "footer"
       ],
@@ -38,6 +39,19 @@
         "header",
         "hero",
         "portfolio",
+        "footer"
+      ]
+    },
+    "videos": {
+      "sections": [
+        "header",
+        "hero",
+        "gallery",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
         "footer"
       ]
     },
@@ -146,6 +160,7 @@
     "items": [
       "Inicio",
       "Música",
+      "Videos",
       "Shows",
       "Galería",
       "Contacto"

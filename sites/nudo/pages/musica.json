@@ -9,6 +9,11 @@
       "content": "musica.hero"
     },
     {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "videos.gallery"
+    },
+    {
       "id": "portfolio",
       "variant": "grid",
       "content": "home.portfolio"
