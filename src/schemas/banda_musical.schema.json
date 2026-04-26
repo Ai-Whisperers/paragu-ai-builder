@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Banda Musical",
+  "type": "object",
+  "extends": {
+    "$ref": "./base-business.schema.json"
+  },
+  "properties": {
+    "hero": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "cta": { "type": "string" }
+      },
+      "required": ["title"]
+    },
+    "gallery": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "src": { "type": "string" },
+              "alt": { "type": "string" },
+              "category": { "type": "string" }
+            }
+          }
+        }
+      },
+      "required": ["title"]
+    },
+    "team": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "members": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "role": { "type": "string" },
+              "bio": { "type": "string" },
+              "imageUrl": { "type": "string" },
+              "instagram": { "type": "string" }
+            },
+            "required": ["name"]
+          }
+        }
+      },
+      "required": ["title", "members"]
+    },
+    "portfolio": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": { "type": "string" },
+              "description": { "type": "string" },
+              "category": { "type": "string" },
+              "imageUrl": { "type": "string" },
+              "audioUrl": { "type": "string" },
+              "videoUrl": { "type": "string" },
+              "releaseDate": { "type": "string" }
+            }
+          }
+        }
+      },
+      "required": ["title"]
+    },
+    "instagram": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "handle": { "type": "string" }
+      }
+    },
+    "testimonials": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "quote": { "type": "string" },
+              "author": { "type": "string" },
+              "rating": { "type": "integer", "minimum": 1, "maximum": 5 }
+            }
+          }
+        }
+      }
+    },
+    "faq": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "question": { "type": "string" },
+              "answer": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "instagram": { "type": "string" },
+        "whatsappMessage": { "type": "string" }
+      },
+      "required": ["title"]
+    }
+  },
+  "required": ["hero", "team", "portfolio"]
+}

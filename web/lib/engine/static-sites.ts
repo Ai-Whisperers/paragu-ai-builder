@@ -67,6 +67,15 @@ export const SITES = {
     locales: ['en'],
     pages: ['home'],
   },
+  'nudo': {
+    slug: 'nudo',
+    vertical: 'arts-entertainment-venues',
+    country: 'Paraguay',
+    domain: '',
+    defaultLocale: 'es',
+    locales: ['es'],
+    pages: ['home', 'musica', 'shows', 'galeria', 'contacto'],
+  },
 } as const
 
 export type SiteSlug = keyof typeof SITES

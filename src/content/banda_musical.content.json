@@ -1,0 +1,99 @@
+{
+  "name": "Banda Musical",
+  "type": "banda_musical",
+
+  "hero": {
+    "title": "{{businessName}}",
+    "subtitle": "Hardcore Metal desde {{city}}, Paraguay. {{tagline}}",
+    "cta": "Escuchá nuestra música"
+  },
+
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Momentos en vivo y detrás de escena"
+  },
+
+  "team": {
+    "title": "La Banda",
+    "subtitle": "Conocé a los músicos",
+    "members": [
+      {
+        "name": "Miembro 1",
+        "role": "Voz",
+        "bio": "Fundador y vocalista."
+      },
+      {
+        "name": "Miembro 2",
+        "role": "Guitarra",
+        "bio": "Guitarrista."
+      },
+      {
+        "name": "Miembro 3",
+        "role": "Bajo",
+        "bio": "Bajista."
+      },
+      {
+        "name": "Miembro 4",
+        "role": "Batería",
+        "bio": "Baterista."
+      }
+    ]
+  },
+
+  "portfolio": {
+    "title": "Discografía",
+    "subtitle": "Nuestra música",
+    "categories": ["Todos", "Sencillos", "EPs", "Álbumes", "Videos"],
+    "items": []
+  },
+
+  "instagram": {
+    "title": "Seguinos en Instagram",
+    "handle": "{{instagram}}"
+  },
+
+  "testimonials": {
+    "title": "Lo que dicen",
+    "items": []
+  },
+
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "question": "¿Cómo puedo contratarlos para un evento?",
+        "answer": "Contactanos por WhatsApp o email y te pasamos disponibilidad y cachet."
+      },
+      {
+        "question": "¿Dónde puedo escuchar su música?",
+        "answer": "En nuestras redes y plataformas digitales. Seguinos en Instagram para enterarte de los próximos lanzamientos."
+      },
+      {
+        "question": "¿Tienen shows próximos?",
+        "answer": "Sí, seguinos en Instagram para enterarte de las próximas fechas."
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Reserva, booking, lo que sea",
+    "whatsapp": "",
+    "email": "",
+    "instagram": "",
+    "whatsappMessage": "Hola! Queremos contactarlos para un show."
+  },
+
+  "footer": {
+    "businessName": "{{businessName}}",
+    "city": "{{city}}",
+    "copyright": "© {{year}} {{businessName}}. Todos los derechos reservados."
+  },
+
+  "ctaBanner": {
+    "title": "¿Querés contratarnos?",
+    "subtitle": "Escribinos y armamos algo",
+    "ctaText": "Contactar por WhatsApp",
+    "ctaHref": ""
+  }
+}

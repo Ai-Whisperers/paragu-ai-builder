@@ -480,7 +480,6 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
   'delivery-calculator': { id: 'delivery-calculator', defaultVariant: 'standard', variants: ['standard'] },
   'faq-chatbot': { id: 'faq-chatbot', defaultVariant: 'chat', variants: ['chat'] },
   'google-reviews-widget': { id: 'google-reviews-widget', defaultVariant: 'carousel', variants: ['carousel'] },
-  'instagram-feed': { id: 'instagram-feed', defaultVariant: 'grid', variants: ['grid'] },
   'language-selector': { id: 'language-selector', defaultVariant: 'dropdown', variants: ['dropdown'] },
   'maturity-assessment': { id: 'maturity-assessment', defaultVariant: 'quiz', variants: ['quiz'] },
   'multi-step-form': { id: 'multi-step-form', defaultVariant: 'wizard', variants: ['wizard'] },

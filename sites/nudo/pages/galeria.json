@@ -1,0 +1,17 @@
+{
+  "slug": "galeria",
+  "titleKey": "galeria.seo.title",
+  "descriptionKey": "galeria.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "galeria.hero"
+    },
+    {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "home.gallery"
+    }
+  ]
+}

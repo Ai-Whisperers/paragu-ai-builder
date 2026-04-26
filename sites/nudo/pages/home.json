@@ -1,0 +1,47 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "home.hero"
+    },
+    {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "home.gallery"
+    },
+    {
+      "id": "team",
+      "variant": "cards",
+      "content": "home.team"
+    },
+    {
+      "id": "portfolio",
+      "variant": "grid",
+      "content": "home.portfolio"
+    },
+    {
+      "id": "instagram-feed",
+      "variant": "grid",
+      "content": "home.instagram"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "home.faq"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "ctaBanner"
+    }
+  ]
+}

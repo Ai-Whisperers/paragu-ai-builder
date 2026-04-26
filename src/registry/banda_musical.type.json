@@ -1,0 +1,174 @@
+{
+  "id": "banda_musical",
+  "nameEs": "Banda de Hardcore",
+  "nameEn": "Hardcore Band",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "music-band-hardcore",
+  "tokens": "banda_musical",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "gallery",
+        "team",
+        "portfolio",
+        "instagramFeed",
+        "testimonials",
+        "faq",
+        "contact",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "team",
+        "contact",
+        "footer"
+      ]
+    },
+    "musica": {
+      "sections": [
+        "header",
+        "hero",
+        "portfolio",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "portfolio",
+        "footer"
+      ]
+    },
+    "shows": {
+      "sections": [
+        "header",
+        "hero",
+        "eventVenues",
+        "gallery",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "eventVenues",
+        "footer"
+      ]
+    },
+    "galeria": {
+      "sections": [
+        "header",
+        "hero",
+        "gallery",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "gallery",
+        "footer"
+      ]
+    },
+    "contacto": {
+      "sections": [
+        "header",
+        "hero",
+        "contact",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "contact",
+        "footer"
+      ]
+    }
+  },
+  "features": {
+    "onlineBooking": {
+      "enabled": false,
+      "method": "whatsapp"
+    },
+    "portfolio": {
+      "enabled": true,
+      "minImages": 3,
+      "categories": [
+        "sencillos",
+        "eps",
+        "albumes",
+        "videos"
+      ]
+    },
+    "gallery": {
+      "enabled": true
+    },
+    "testimonials": {
+      "enabled": true
+    },
+    "faq": {
+      "enabled": true,
+      "categories": false
+    },
+    "team": {
+      "enabled": true,
+      "showRole": true
+    },
+    "whatsappFloat": {
+      "enabled": true
+    },
+    "googleMapsEmbed": {
+      "enabled": false
+    },
+    "instagramFeed": {
+      "enabled": true
+    },
+    "eventsCalendar": {
+      "enabled": true
+    }
+  },
+  "targetAudience": {
+    "primary": "Fans de hardcore y metal underground en Paraguay",
+    "secondary": "Organizadores de eventos, sellos discográficos independientes"
+  },
+  "seo": {
+    "titleTemplate": "{{businessName}} - Hardcore Metal desde {{city}}, Paraguay",
+    "descriptionTemplate": "{{businessName}} es una banda de Hardcore Metal originaria de {{city}}, Paraguay. Descubrí nuestra música, shows y más.",
+    "schemaType": "MusicGroup",
+    "keywords": [
+      "banda {{city}}",
+      "Hardcore Metal Paraguay",
+      "musica paraguaya",
+      "conciertos {{city}}",
+      "Band Vibes Records",
+      "metalcore paraguay",
+      "nudo band"
+    ]
+  },
+  "nav": {
+    "items": [
+      "Inicio",
+      "Música",
+      "Shows",
+      "Galería",
+      "Contacto"
+    ],
+    "cta": {
+      "text": "Escuchanos",
+      "action": "scrollTo:portfolio"
+    }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}}",
+    "subheadlineTemplate": "Hardcore Metal desde {{city}}, Paraguay. {{tagline}}",
+    "ctaPrimary": {
+      "text": "Escuchá nuestra música",
+      "action": "scrollTo:portfolio"
+    },
+    "ctaSecondary": {
+      "text": "Seguinos en Instagram",
+      "action": "instagram"
+    }
+  },
+  "commerce": {
+    "enabled": false
+  }
+}

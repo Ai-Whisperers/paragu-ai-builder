@@ -1,0 +1,325 @@
+{
+  "_meta": {
+    "translationQuality": "research",
+    "author": "ParaguAI",
+    "lastReviewed": "2026-04-26",
+    "sources": [
+      "IG @nudo_band",
+      "YouTube @Nudo-fd7mz",
+      "Spotify artist/2N3Z6SOIw7MOSxtRyzgJLv",
+      "Facebook ZMUSICPY",
+      "IG rockenpy, fragmentospyoficial"
+    ]
+  },
+  "siteName": "Nüdo",
+  "tagline": "Hardcore Metal desde Capiatá, Paraguay",
+
+  "placeholders": {
+    "businessName": "Nüdo",
+    "city": "Capiatá",
+    "year": 2026
+  },
+
+  "navigation": {
+    "businessName": "Nüdo",
+    "items": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/nudo"
+      },
+      {
+        "label": "Música",
+        "href": "/s/es/nudo/musica"
+      },
+      {
+        "label": "Shows",
+        "href": "/s/es/nudo/shows"
+      },
+      {
+        "label": "Galería",
+        "href": "/s/es/nudo/galeria"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/nudo/contacto"
+      }
+    ],
+    "ctaText": "Escuchanos en Spotify",
+    "ctaHref": "https://open.spotify.com/artist/2N3Z6SOIw7MOSxtRyzgJLv"
+  },
+
+  "home": {
+    "seo": {
+      "title": "Nüdo — Banda de Hardcore Metal desde Capiatá, Paraguay",
+      "description": "Nüdo es una banda de Hardcore Metal originaria de Capiatá, Paraguay. Fundada en 2017 por Edilson Gauto. Escuchá nuestro EP DESAHOGO en todas las plataformas. Bad Vibes Records."
+    },
+    "hero": {
+      "headline": "NÜDO",
+      "subheadline": "Hardcore Metal desde Capiatá, Paraguay. Fundada en 2017.",
+      "ctaPrimaryText": "Escuchá DESAHOGO EP",
+      "ctaPrimaryHref": "#discografia",
+      "ctaSecondaryText": "Seguinos en Instagram",
+      "ctaSecondaryHref": "https://instagram.com/nudo_band",
+      "trustBadges": [
+        "Desde 2017",
+        "Hardcore Metal",
+        "Bad Vibes Records"
+      ]
+    },
+    "gallery": {
+      "title": "Galería",
+      "subtitle": "Nüdo en vivo — momentos que rompen",
+      "images": [],
+      "columns": 3,
+      "lightbox": true
+    },
+    "team": {
+      "title": "La Banda",
+      "subtitle": "Nüdo está integrada por:",
+      "members": [
+        {
+          "name": "Mauricio Arce",
+          "role": "Voz",
+          "bio": "Vocalista de Nüdo. La potencia frontal de la banda."
+        },
+        {
+          "name": "Manuel Díaz",
+          "role": "Guitarra",
+          "bio": "Guitarrista de Nüdo."
+        },
+        {
+          "name": "Edilson Gauto",
+          "role": "Guitarra Líder",
+          "bio": "Fundador de Nüdo en 2017. Guitarra líder y compositor."
+        },
+        {
+          "name": "Fidel Dávalos",
+          "role": "Bajo",
+          "bio": "Bajista de Nüdo. Las bases sólidas del sonido."
+        },
+        {
+          "name": "Víctor Maldonado",
+          "role": "Batería",
+          "bio": "Baterista de Nüdo. La máquina de la percusión."
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Discografía",
+      "subtitle": "DESAHOGO — EP 2025. Escuchalo en todas las plataformas.",
+      "categories": ["Todos", "EPs", "Sencillos"],
+      "items": [
+        {
+          "title": "DESAHOGO",
+          "description": "Primer EP de Nüdo. 5 temas que rompen. Lanzado el 24 de enero de 2025 bajo Bad Vibes Records. Grabado en The Beach Homestudio.",
+          "category": "EPs",
+          "imageUrl": "https://i.scdn.co/image/ab67616d00001e029eb75be054c928ad5c3576e3",
+          "releaseDate": "2025-01-24",
+          "audioUrl": "https://open.spotify.com/album/6X6mvKVxK5uLqPe9yPaB3r"
+        },
+        {
+          "title": "CULPA",
+          "description": "Single de 2023. El primer lanzamiento oficial de Nüdo.",
+          "category": "Sencillos",
+          "imageUrl": "https://i.scdn.co/image/ab67616d00001e02bcb531a6e29d197d153d3e4d",
+          "releaseDate": "2023",
+          "audioUrl": "https://open.spotify.com/album/1Prl93tdri8HYGguyvsXSP"
+        }
+      ]
+    },
+    "instagram": {
+      "title": "Seguinos en Instagram",
+      "handle": "@nudo_band",
+      "posts": [],
+      "ctaText": "Ver más en Instagram"
+    },
+    "testimonials": {
+      "title": "Lo que dicen",
+      "items": [
+        {
+          "quote": "Alto mosh pit. Tan heavy que me voy a quedar sin cabeza de tanto headbanging.",
+          "author": "Fan en YouTube",
+          "rating": 5
+        },
+        {
+          "quote": "Aguante Nüdooooo!",
+          "author": "@_diandra.martinez",
+          "rating": 5
+        },
+        {
+          "quote": "Antes tenía depresión, después escuché este EP y sigo teniendo depresión pero qué buen EP.",
+          "author": "Fan en YouTube",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Qué género tocan?",
+          "a": "Hardcore Metal / Metalcore con influencias de nu metal y hardcore. Puro peso desde Capiatá."
+        },
+        {
+          "q": "¿De dónde son?",
+          "a": "Somos de Capiatá, Paraguay. Fundados en 2017 por Edilson Gauto."
+        },
+        {
+          "q": "¿Dónde puedo escuchar su música?",
+          "a": "En todas las plataformas digitales: Spotify, YouTube, Apple Music. Buscanos como Nüdo. Nuestro EP DESAHOGO ya está disponible."
+        },
+        {
+          "q": "¿Cómo puedo contratarlos para un evento?",
+          "a": "Contactanos por Instagram @nudo_band, WhatsApp o email. Tocamos en vivo y armamos mosh pit."
+        },
+        {
+          "q": "¿Qué es Bad Vibes Records?",
+          "a": "Es nuestro sello discográfico. Un colectivo de artistas independientes de Asunción, Paraguay."
+        },
+        {
+          "q": "¿Tienen shows próximos?",
+          "a": "Seguinos en Instagram @nudo_band para enterarte de las próximas fechas. Siempre estamos rompiendo en vivo."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Booking, shows, lo que sea — mandá mensaje",
+      "whatsapp": "+595981324569",
+      "email": "nudobandpy@gmail.com",
+      "instagram": "@nudo_band",
+      "whatsappMessage": "Hola Nüdo! Queremos contactarlos para un show.",
+      "hours": {
+        "Siempre activos": "Seguinos en Instagram"
+      }
+    }
+  },
+
+  "musica": {
+    "seo": {
+      "title": "Música — Nüdo",
+      "description": "Discografía de Nüdo: EP DESAHOGO (2025), single CULPA (2023). Hardcore Metal desde Paraguay."
+    },
+    "hero": {
+      "title": "Música",
+      "subtitle": "DESAHOGO EP (2025) — disponible en todas las plataformas",
+      "trustBadgesEnabled": false
+    }
+  },
+
+  "shows": {
+    "seo": {
+      "title": "Shows — Nüdo",
+      "description": "Próximas fechas y shows de Nüdo en vivo. Hardcore Metal desde Capiatá, Paraguay."
+    },
+    "hero": {
+      "title": "Shows",
+      "subtitle": "Seguí @nudo_band para las próximas fechas",
+      "trustBadgesEnabled": false
+    },
+    "venues": [
+      {
+        "name": "Tunakó Pool Party",
+        "date": "Enero 2026",
+        "location": "Quinta VR",
+        "description": "Una de las mejores fechas del verano 2026. Nüdo rompiendo en la pileta."
+      },
+      {
+        "name": "Rock & Metalcore Fest",
+        "date": "2025-2026",
+        "location": "Absoluto Rock Bar",
+        "description": "Nüdo en el Rock & Metalcore Fest. Momentos que quedan grabados."
+      },
+      {
+        "name": "BREAKDOWN FEST",
+        "date": "2023",
+        "location": "FEMTO Producciones",
+        "description": "Presentación en el BREAKDOWN FEST edición 2023."
+      },
+      {
+        "name": "Black Mango",
+        "date": "2025",
+        "location": "Black Mango",
+        "description": "Concierto compartido con Drakengard."
+      }
+    ]
+  },
+
+  "galeria": {
+    "seo": {
+      "title": "Galería — Nüdo",
+      "description": "Fotos de Nüdo en vivo — Tunakó Pool Party, BREAKDOWN FEST, Rock & Metalcore Fest y más."
+    },
+    "hero": {
+      "title": "Galería",
+      "subtitle": "Nüdo en vivo — la furia hecha música",
+      "trustBadgesEnabled": false
+    }
+  },
+
+  "contacto": {
+    "seo": {
+      "title": "Contacto — Nüdo",
+      "description": "Contactate con Nüdo para shows, booking y más. Hardcore Metal desde Capiatá, Paraguay."
+    },
+    "hero": {
+      "title": "Contacto",
+      "subtitle": "Escribinos — respondemos rápido",
+      "trustBadgesEnabled": false
+    }
+  },
+
+  "footer": {
+    "businessName": "Nüdo",
+    "city": "Capiatá",
+    "copyright": "© 2026 Nüdo. Todos los derechos reservados. Bad Vibes Records.",
+    "navLinks": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/nudo"
+      },
+      {
+        "label": "Música",
+        "href": "/s/es/nudo/musica"
+      },
+      {
+        "label": "Shows",
+        "href": "/s/es/nudo/shows"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/nudo/contacto"
+      }
+    ]
+  },
+
+  "whatsapp": {
+    "defaultMessage": "Hola Nüdo! Queremos contactarlos."
+  },
+
+  "ctaBanner": {
+    "title": "¿Querés contratar a Nüdo?",
+    "subtitle": "Contactanos por Instagram o WhatsApp y armamos algo",
+    "ctaText": "Escuchá DESAHOGO EP",
+    "ctaHref": "https://open.spotify.com/album/6X6mvKVxK5uLqPe9yPaB3r"
+  },
+
+  "seo": {
+    "faq": {
+      "title": "Preguntas — Nüdo",
+      "description": "Preguntas frecuentes sobre la banda de Hardcore Metal Nüdo."
+    },
+    "musica": {
+      "title": "Música — Nüdo",
+      "description": "Discografía de Nüdo. DESAHOGO EP y más."
+    },
+    "shows": {
+      "title": "Shows — Nüdo",
+      "description": "Próximas fechas de Nüdo en Paraguay."
+    },
+    "galeria": {
+      "title": "Galería — Nüdo",
+      "description": "Fotos de Nüdo en vivo."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "shows",
+  "titleKey": "shows.seo.title",
+  "descriptionKey": "shows.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "shows.hero"
+    },
+    {
+      "id": "event-venues",
+      "variant": "cards",
+      "content": "shows.venues"
+    }
+  ]
+}

@@ -52,7 +52,9 @@
     "video-embed",
     "stats-counter",
     "logo-strip",
-    "product-catalog"
+    "product-catalog",
+    "portfolio",
+    "instagram-feed"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

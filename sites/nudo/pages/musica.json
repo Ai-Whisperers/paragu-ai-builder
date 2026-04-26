@@ -1,0 +1,17 @@
+{
+  "slug": "musica",
+  "titleKey": "musica.seo.title",
+  "descriptionKey": "musica.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "musica.hero"
+    },
+    {
+      "id": "portfolio",
+      "variant": "grid",
+      "content": "home.portfolio"
+    }
+  ]
+}
