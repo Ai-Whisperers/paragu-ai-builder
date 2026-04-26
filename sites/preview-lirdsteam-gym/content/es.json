@@ -616,6 +616,43 @@
           "description": "Tarjeta de regalo por 500.000 Gs"
         }
       ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEKGzoKrGpQuHit-WeWGG1mNJHnIvvZavGsuC5pN_AqsSRxfeTtDJ9M0guvc4XYMkgFJpSbTbq4yVzT2dqE7zyqYthEyfV6_KJvn6kcba9dCgwh-nI64j6a2Rq_fD4eyAptl4xAJO0qsfY_-zxTDL8dr79BEgJmTtvfXcpyD3SK1i3XL8t8J3qm-JZ9RLHKCKhc9OA5Ia0ZQk6i5FQ9rBYAKNsYfitUbPNgLZOYwG31H0Ta3xl5dAG9tO6bPgygUvRgg-GFnCsk-tLcVnkNJrKid_fxt9iYjyqK9zIkJYDWEbwYHyRgzUiKBZkzARZk2KuVWpHqDkuaga9D-olJNG_67ZaU2taWdmUjbcAujrYzQL9c9PpdAYNtan3f6w9Ey5gSkcrPeSbNZsmsZxU4nXMBfcaz370TB3i0o07LtzNdq8QlCVZzv5FKJH0UWkGP&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEH2UZ-5hTmUuQd3MZS2Qwwji7Dm_w-CRc3a0xNhgDNoQzRQgGpBYxMns5n7KbwrOuORg9w0gic-Y4YxKt0Ui0UJZ2jjW44ywCrzHtFC2CjrO7SM7OlJjCy9p5KiEqr7GNFRgjesHYbofG9_DlR-mhSmgC6Es6DRMafkTAeTZg9LZbOooK5jUiDROmJUcIw64zF3ica1-kwc8B3J34QPJ1JwtCItSeOevp0ggzl7QIEkw07DBUc5Vz7QUf2Pjtx8iRuJ88tfTGO0at7Yb7MazeIyGS9iJm1TYvprw7C9X6APNcIYI7HqhaRvrddpdCIyHbkpBart4wPeBvGCO9-_0N8RG2bM8WYzvstZjeBVwSIaetu25sveew5yXxosRfJFl6OCsgnzAciQj-ZFbVNNGF0euFsvPpcciQVVmn7aff81Z90&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEH_iplSltHn1tko_CRBnh7iPcA09aUXK5_DuCAC0dpJK7SOi2vntroUkS2SE9jb8wB8TiIakSY-NjrxWufn3DmchcTGjz00dg5nSRPT4zvxEdFAg9q_jK8AbzJVTm--lHBWi1SHeStCTdrfkx-GNebNZqB3qQnskkkS4Ej2N14tjs4vzowfy5BnftYwv5Sm_YP93_aP26VAVgDlNECkUjhXazvHH3p94JV7MKaLDR1OC6BiJyW0ZK9oRX4l-GzsUnr88sNIYFDtHZmnkpTy9RITt5n-aKXpVXSKv8pIG-D5EA&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHk1cLDq4KC0oE4lAn0yH-oBCZa1RkJ9v7fa4j22h1ymiZvJhz8PhNRw7klrDi2tJOsJnUTRuLjhAz4QgbeorUJqQQb4WHGJwe_wX2GtGpB2iphmW7zqp9YckckdfU12XEuFXFV_yZhu3p4Wjbig5Yn0Xfb4SNhW6KblINuhu8xbJRYTFq2IlIBxZvgake5Ho80X-z2iqAPAC5jGlQxIkpKOJtw9yklr1h74Huu-6qdd9zoU9n1dFazPMm-MOuwhgpu-qubYLq_7PJx6xlooMj23ZiIuEOOw7u-0z2rVAKkCPdqU1gOeec4X6NryfDPkoVj44pkntFp98S-ydiOvLN6Zp4V5Ka-XALH-E9Niz0o8e2wsjYBHvzzq-dvA0t-bIAMEf9xMlKxemVrklEAxZWIUtW38RblpQWg8mVJlFSwOg7j&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEForIA5PV3OYooSYt5_4XZFYt5V8EyXcomsyRaQLaspZ2yKDKNBm9q6X7bvxLrgup3m61mZB50vZ5LzS3EF7HmMr_veZ5OiqtXmSFzWEKgA7FY-a_q3V_dPISV6zcoecfV_EoMdW9HoVBVM8O_mIbZjGIKs6RtvWXMtVg_q0zUy-JJp-TBr2Jgzx5kebf3DD6hrz0fhIJi7HV0NnOYofcB5OwW-n0AfnQwuLDRxcW1xt8Bsqaf2L5PN77Kx1eUlMOFce4lNRiyBw36BD7haK-TuknaHrG53X7KwEUWtk3JtQvoMHKLnIVcN0trZf233spdSTO3TjA_HNaKy9yI_I8UE307G27tDwqANUXDQPTerncu_iKg2tKg8R-ZuEkO0veJaELLuMWq5nVIh3Md2WBBo6hE7fny9HRqh3m329Qs&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEF4nNGcZUn7BHMhSVCvR3p0QbWr9K6LDxQirRYi0pTV8LbehiMV0Ck1Lq7AP_XWcDicZl6tFaER1bKaHPR7VGVs2wPq5f0F0rznkGGdXTKNvFlnFgNA8dIZYkFNG7sWjkJ9igzBbwgrDbLrqCvwL9fvEZJwiWMBDuT3rsLwI8lcwO_4ASS0eqqTIYpyr9tijXl1NTV0mBW4Dsh4oVohMDVqad2rnU0WO0_XUCvt53L2MuIjQH55DWQBKdmB0L-Pl9mZ8VAdp2RgXPB4ta_KfDEV7i9nGARKaO2PSpkwartZ7Ld1vUD30DFC_VqVfLwsPcZEcoZV1bxt9Ln07sDL8SMFXzMFF_nYpkpfkb1rrrXeVNED81jkaZwIKGdrNpmvecNt0F4-GFaDSFEnsuQ4bXOb_mAKAcwV3nnv5Xy22qSDI2MohtAGswZnjagpYbuV&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
     }
   },
   "footer": {

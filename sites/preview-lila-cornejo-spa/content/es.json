@@ -119,40 +119,39 @@
       ]
     },
     "gallery": {
-      "title": "Nuestro espacio",
-      "subtitle": "Un ambiente pensado para tu relajación",
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
       "columns": 3,
-      "lightbox": true,
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600",
-          "alt": "Sala de masajes",
-          "caption": "Sala de masajes con aromaterapia"
+          "src": "/api/place-photo?ref=AU_ZVEFev65zIvccY_lgn18CX0XX2s9gOCQlnUJt2ll6faw_DFUwIUI6xSVLeHUJEGFyJljYr4Pp2gl1MFx3qg5XZaeYp0qm1rdYfK781Gnh-fjxjMf6tX2OWQrPEnxwaX854Mypw-tfcqO9em3Mk5BU2xzKbiW2qlRKalfRvNVeFdeu5aqdCcebdkf31G43Lw6kC14aevJoAQoQfDH9NsX9ccUb6PV-SHEMj3pWhJGGaGyAIKVvXsoNsAswvjU0KGE4TcbBlsA68EZ1Cqh6FoIbvtKvj9HsE034PH5BrzgQtgPYQ9Lb4jA51PY30xuV4cmfV3EpHVSU-1YsegXghOxpHAlKY7rxeE4l1n0SgOlKY6jTJcPoQZCS_j65QwKimjJwOGbzSzjvwWUHZWcT8S15uT8r-e_BxIAbb8S2eynC3lDltl7P&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600",
-          "alt": "Tratamiento facial",
-          "caption": "Limpieza facial profunda"
+          "src": "/api/place-photo?ref=AU_ZVEGGLIYkJyocWnowJ9mvjujGYMTajk9tOyM9MBje6Fy3MkLll4-uubNfxVtAn2kcl8sr8dyuwoJOpaENMQ-5S_UM5A8vDOWj7xbRRwhhEyJQzS9apQwS-7RWTuxztm1aTvFdmzZoKfoTEG41rF-iRsA6CEj21Z81zwgReag98VOZY81iCcR9fWewNwmadP2Tp3Ct666dApIZHC9ncU96Ec0F1ebsPsvFF2LbLbYp_G4Tb6dLmcBoiX6z9wBDwEBVcf9CjFNrLl_--Px3OQ3FxbENxElzD1jI8TSJp-NHVDcJPhYk-3xjZuNclIwuCgQUPALL2RISwEZhPJFFk1fuNhAP2CleVy2ocOBJOb45P7s8q5ZDWZhbDzRhKBCkJj3Ju6KF4KmGnNmEsU2HW8izanzU-dDR3OUrsxaP-YEh3e4&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=600",
-          "alt": "Velas y ambiente spa",
-          "caption": "Ambiente de relax"
+          "src": "/api/place-photo?ref=AU_ZVEH4PYDW7HgCgAubnUa7O4-PX7aB8msknVnazob5sQUEDyHPxTl9chpV3TNHEeCZbvItu8BiVNWkqjrTPr2wuetwBrYpcBztQMw-C8QzI7YNR91N1DODYZSDf9ikQbBJ8HfdkQ1mQqPdut0mZvtHh38prNr5iT5_KpgeUQZhio1e8AS8ujAZ9baYTN05RKhchaMHUhiGXPDB3Ulc1bRsudUNUwsMg_ptSWwqdbvhhiU1O6VNeyM8VF6LIY639zyXA7rO3Bz8izv-ayimbSjgnjs_T7n45EsT0Z9h2ER32oEgPjYv88bWaVt7J7iuBjsK1y0dPNCDY57nx-IqDA2S3W9mkYnP4AWbn9UNa_8KoDcOrDLo3L_Uunc2U1dPRycv-Y7dIzV0BvOIIAZXc0EyZBbKyLwvL9mTTOnM2a-d041cCw&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600",
-          "alt": "Masaje de espalda",
-          "caption": "Masaje descontracturante"
+          "src": "/api/place-photo?ref=AU_ZVEG06d4woggpL2Gk9fPCwWykjU1hjcb6nP_oteXzNb0sVAnU4F2t0gMRFBaOUNAwOYyfW8irwz2Uz8PytlzaLMKOxa5W1DWnk9PVkEXknd6m9Y9J413VI06HzhhrOJ3q0UtgLzuBb8V0E1AcEK6dQdSBX_XZr4xxJEMNc61VsI7GIMag5a8P83sfs35wsVoB6O22bK4odcdpKUPTUdpMLQKCjwX53E_jluW5lhDBTV695QCsorPpDNLKkJcuJP2XIjmPa2xk0Afqb65UBr2jLHvt8CWLAvTniCzsN7Cwseu5yRcMkYoW6EMyHMFJrWt_o84I6YZG5ArnZdkSay4FqxUWnGV45K7Gu5XAMcWkmICR_6MwFSBucDO8TJ6jIRDabHzXcxzo92oudoT6blAyQ1PXRQLlW42-2S1pRXogkiyx3pY&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600",
-          "alt": "Tratamiento corporal",
-          "caption": "Envoltura detox"
+          "src": "/api/place-photo?ref=AU_ZVEEA3PL5UvtTrraDmpLu3HKdlKmhYmWpICxQLQyaayyMu02fmyx-qSjdsm8RuLUDD_4VBi9aw6Jao82UYYK-BzpcCSYy8dqYWtWm38qtnzItAnjPtqYRPCmqW8fCpfvkLg8IYZs7jRNFKuk_7FVCC0Eu-FD70uOn_2S1zHYqbVooOowzW0KnNHmK0nN2SMCU4Wo7BpbbltqgbiPrXaHNnJHBXWWQhtICE6q3tNav4AjlfEw3v613JvPrApCbURYAs_SkI9UXVhpZ17cfqx33uI1f2A969qSy2jhUzZr84vnV2FCCq9V5mTYDL2laO7mogsd0W_Rd_axsFXLtdZ_K_w6MAHV5npOdp8Y4Br8ooGbLtSkhWg4UuZlsk_ionA2MTeuQKAqHjhWrAjEhutkHVMzejrJwsx5QFcKYBIqpBSs&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
         },
         {
-          "src": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600",
-          "alt": "Sauna",
-          "caption": "Sauna finlandesa"
+          "src": "/api/place-photo?ref=AU_ZVEExxP7850I_804HNg3jJS3Xg-m5VeKs-NxT_q8HUMvS92VBFmVvliG3MdRbGRoTGXyAYvhgE4Cg_YeQ_7dIr9umsuUm3EM6va7Kqi8TASwEojexABzeEQh2c75T1wmNOZjmGMNIy6W393ovZ_UyBzlJLzdejoxczJZNscFzSmI8NZ6TGxqyF0FiDdTuWFmTicrrjB-ut3ySHltrcXOD79AD7pd3Je384ydLCelkIj0o1QTVNAOs6l69UPHFxSxwWZyqBsjZaoVP8Em2CJ8yd7TfAMLBG8PSEt6W-q0Fv1_9t_PNePL5kL-86dBJIcV7EhBfaF7bYOkPzBf_9KdnRuvb0bi6WWvWV1phCAd3HLBJ0q5JeMi3ZPgXm22Yh-2qQ59C7a3GnpFAry8DwsIqtwT2EL1L3_1k4gPWy0akaglNj8zLQNQFA-USLaXb9flE&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
         }
       ]
     },
