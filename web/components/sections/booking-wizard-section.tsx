@@ -239,7 +239,11 @@ export function BookingWizardSection({
             <div className="flex justify-between mt-6 pt-4 border-t border-[var(--border)]">
               {step !== 'service' && (
                 <button
-                  onClick={() => setStep(['service', 'staff', 'datetime', 'confirm'][['service', 'staff', 'datetime', 'confirm'].indexOf(step) - 1] as Step)}
+                  onClick={() => {
+                    const steps: Step[] = ['service', 'staff', 'datetime', 'confirm']
+                    const idx = steps.indexOf(step)
+                    setStep(steps[idx - 1])
+                  }}
                   className="px-4 py-2 text-sm text-[var(--text-muted)] hover:text-[var(--text)]"
                 >
                   ← Atrás
@@ -247,7 +251,11 @@ export function BookingWizardSection({
               )}
               {step !== 'confirm' && step !== 'service' && (
                 <button
-                  onClick={() => setStep(['service', 'staff', 'datetime', 'confirm'][['service', 'staff', 'datetime', 'confirm'].indexOf(step) + 1] as Step])}
+                  onClick={() => {
+                    const steps: Step[] = ['service', 'staff', 'datetime', 'confirm']
+                    const idx = steps.indexOf(step)
+                    setStep(steps[idx + 1])
+                  }}
                   disabled={!canProceed()}
                   className="ml-auto px-4 py-2 text-sm bg-[var(--primary)] text-white rounded-lg disabled:opacity-50"
                 >
