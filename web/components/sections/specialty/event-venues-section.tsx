@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
+import { cleanPhone } from '@/lib/format'
 
 interface Venue {
   id: string
@@ -34,7 +35,7 @@ export function EventVenuesSection({
     setSelectedVenue(venue)
     if (whatsappPhone) {
       const message = `Hola! Me interesa el espacio "${venue.name}" para ${venue.idealFor.join(', ')}. Quisiera más información sobre precios y disponibilidad.`
-      window.open(`https://wa.me/${whatsappPhone.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`, '_blank')
+      window.open(`https://wa.me/${cleanPhone(whatsappPhone)}?text=${encodeURIComponent(message)}`, '_blank')
     }
   }
 

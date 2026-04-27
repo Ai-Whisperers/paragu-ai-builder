@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
+import { cleanPhone } from '@/lib/format'
 
 interface Room {
   id: string
@@ -34,7 +35,7 @@ export function RoomBookingSection({
     setSelectedRoom(room)
     if (whatsappPhone) {
       const message = `Hola! Quisiera reservar la sala ${room.name} para ${room.capacity} personas.`
-      window.open(`https://wa.me/${whatsappPhone.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`, '_blank')
+      window.open(`https://wa.me/${cleanPhone(whatsappPhone)}?text=${encodeURIComponent(message)}`, '_blank')
     }
   }
 
