@@ -8,7 +8,7 @@
     { "id": "services", "variant": "cards", "content": "home.services" },
     { "id": "process", "variant": "steps", "content": "home.process" },
     { "id": "team", "variant": "cards", "content": "home.team" },
-    { "id": "case-studies", "variant": "cards", "content": "home.caseStudies" },
+    { "id": "case-studies", "variant": "grid", "content": "home.caseStudies" },
     { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" }
   ]
 }

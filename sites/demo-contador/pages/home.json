@@ -40,7 +40,7 @@
     },
     {
       "id": "blog-index",
-      "variant": "cards",
+      "variant": "grid",
       "content": "home.blog"
     },
     {
