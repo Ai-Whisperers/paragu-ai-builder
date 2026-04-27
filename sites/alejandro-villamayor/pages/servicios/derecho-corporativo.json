@@ -1,0 +1,12 @@
+{
+  "slug": "derecho-corporativo",
+  "titleKey": "corporativo.seo.title",
+  "descriptionKey": "corporativo.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "corporativo.hero" },
+    { "id": "services", "variant": "cards", "content": "corporativo.areas" },
+    { "id": "process", "variant": "steps", "content": "corporativo.proceso" },
+    { "id": "faq", "variant": "accordion", "content": "corporativo.faq" },
+    { "id": "cta-banner", "variant": "gradient", "content": "corporativo.cta" }
+  ]
+}

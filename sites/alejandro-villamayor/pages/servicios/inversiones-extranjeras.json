@@ -1,0 +1,13 @@
+{
+  "slug": "inversiones-extranjeras",
+  "titleKey": "inversiones.seo.title",
+  "descriptionKey": "inversiones.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "inversiones.hero" },
+    { "id": "services", "variant": "cards", "content": "inversiones.vias" },
+    { "id": "process", "variant": "steps", "content": "inversiones.proceso" },
+    { "id": "features", "variant": "three-col", "content": "inversiones.beneficios" },
+    { "id": "faq", "variant": "accordion", "content": "inversiones.faq" },
+    { "id": "cta-banner", "variant": "gradient", "content": "inversiones.cta" }
+  ]
+}

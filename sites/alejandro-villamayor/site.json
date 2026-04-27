@@ -16,7 +16,8 @@
   "features": {
     "whatsappFloat": true,
     "testimonials": true,
-    "dualCurrency": true
+    "dualCurrency": true,
+    "blog": true
   },
   "is_demo": false,
   "path": "/s/es/alejandro-villamayor",

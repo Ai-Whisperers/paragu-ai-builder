@@ -110,7 +110,7 @@ export const SITES = {
     domain: '',
     defaultLocale: 'es',
     locales: ['es', 'en'],
-    pages: ['home', 'servicios', 'investor-pass', 'inversionista', 'sobre-mi', 'faq', 'contacto'],
+    pages: ['home', 'servicios', 'investor-pass', 'inversionista', 'sobre-mi', 'faq', 'blog', 'contacto'],
   },
 } as const
 
