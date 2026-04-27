@@ -240,9 +240,9 @@
     "seo": { "title": "Blog — Alejandro Villamayor | Guía Legal para Inversores", "description": "Guías sobre Paraguay Investor Pass, residencia por inversión, impuestos y derecho corporativo." },
     "hero": { "title": "Blog", "subtitle": "Guías, análisis y novedades legales para inversores en Paraguay", "trustBadgesEnabled": false },
     "posts": [
-      { "title": "Paraguay Investor Pass 2026: Guía Completa", "slug": "guia-completa-investor-pass-paraguay-2026", "date": "2026-04-26", "author": "Alejandro Villamayor", "summary": "Todo sobre el nuevo Paraguay Investor Pass: requisitos, montos, proceso y beneficios.", "category": "Inversiones", "readTime": "8 min" },
-      { "title": "Impuestos para Inversores Extranjeros en Paraguay 2026", "slug": "impuestos-inversores-extranjeros-paraguay-2026", "date": "2026-04-24", "author": "Alejandro Villamayor", "summary": "Régimen tributario paraguayo: IRE, IVA, IRP, RESIMPLE y rentas de fuente extranjera.", "category": "Tributario", "readTime": "10 min" },
-      { "title": "Cómo Obtener Residencia Permanente en Paraguay 2026", "slug": "residencia-permanente-paraguay-guia-2026", "date": "2026-04-22", "author": "Alejandro Villamayor", "summary": "Todas las vías para obtener residencia: Investor Pass, SUACE, rentas y arraigo.", "category": "Residencia", "readTime": "7 min" }
+      { "title": "Paraguay Investor Pass 2026: Guía Completa", "slug": "guia-completa-investor-pass-paraguay-2026", "href": "/s/es/alejandro-villamayor/blog/guia-completa-investor-pass-paraguay-2026", "date": "2026-04-26", "author": "Alejandro Villamayor", "excerpt": "Todo sobre el nuevo Paraguay Investor Pass: requisitos, montos, proceso y beneficios.", "category": "Inversiones", "readingMinutes": 8 },
+      { "title": "Impuestos para Inversores Extranjeros en Paraguay 2026", "slug": "impuestos-inversores-extranjeros-paraguay-2026", "href": "/s/es/alejandro-villamayor/blog/impuestos-inversores-extranjeros-paraguay-2026", "date": "2026-04-24", "author": "Alejandro Villamayor", "excerpt": "Régimen tributario paraguayo: IRE, IVA, IRP, RESIMPLE y rentas.", "category": "Tributario", "readingMinutes": 10 },
+      { "title": "Cómo Obtener Residencia Permanente en Paraguay 2026", "slug": "residencia-permanente-paraguay-guia-2026", "href": "/s/es/alejandro-villamayor/blog/residencia-permanente-paraguay-guia-2026", "date": "2026-04-22", "author": "Alejandro Villamayor", "excerpt": "Todas las vías: Investor Pass, SUACE, rentas y arraigo.", "category": "Residencia", "readingMinutes": 7 }
     ]
   },
   "faqPage": {
