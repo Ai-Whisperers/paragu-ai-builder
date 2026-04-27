@@ -6,7 +6,7 @@ import { listBlogSlugs, listBlogPosts, loadBlogPost } from '@/lib/engine/blog-lo
 import { loadImagesManifest, resolveImage } from '@/lib/engine/images-loader'
 import { resolveSiteTokens } from '@/lib/engine/resolve-site-tokens'
 import { BlogPostSection } from '@/components/sections/social/blog-post-section'
-import { RelatedPostsSection } from '@/components/sections/social/related-posts-section'
+import { RelatedPostsSection } from '@/components/sections/specialty/related-posts-section'
 import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
 import { alternatesFor } from '@/lib/i18n/routing'
 import { env } from '@/lib/env'
