@@ -133,7 +133,8 @@ function isSensitiveKey(keyPath: string): boolean {
   return SENSITIVE_KEY_PATTERNS.some((p) => lower.includes(p))
 }
 
-function scrubString(value: string): string {
+function scrubString(value: unknown): string {
+  if (typeof value !== 'string' || !value) return String(value ?? '')
   return value
     .replace(JWT_RE, '[redacted:token]')
     .replace(BEARER_RE, '[redacted:bearer]')
@@ -141,10 +142,11 @@ function scrubString(value: string): string {
     .replace(CARD_RE, '[redacted:card]')
 }
 
-function truncateString(value: string): string {
-  return value.length > MAX_STRING_LEN
-    ? value.slice(0, MAX_STRING_LEN) + `…[+${value.length - MAX_STRING_LEN}]`
-    : value
+function truncateString(value: unknown): string {
+  const s = typeof value === 'string' ? value : String(value ?? '')
+  return s.length > MAX_STRING_LEN
+    ? s.slice(0, MAX_STRING_LEN) + `…[+${s.length - MAX_STRING_LEN}]`
+    : s
 }
 
 function redactValue(value: unknown, keyPath: string, depth: number): unknown {
