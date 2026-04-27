@@ -1,3 +1,0 @@
-{
-  "/api/cron/commerce-reconcile-pending/route": "app/api/cron/commerce-reconcile-pending/route.js"
-}

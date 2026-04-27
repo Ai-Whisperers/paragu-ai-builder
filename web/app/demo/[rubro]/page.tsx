@@ -7,6 +7,9 @@ import { jsonLdForPage } from '@/lib/engine/schema-org'
 import { logger } from '@/lib/logger'
 
 export const runtime = 'nodejs'
+// Dynamic — some demo pages use sections with variant checks that fail
+// at build time during prerender.
+export const dynamic = 'force-dynamic'
 
 interface Props {
   params: Promise<{ rubro: string }>

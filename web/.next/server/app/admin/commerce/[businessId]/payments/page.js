@@ -1,5 +1,5 @@
 var R=require("../../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/admin/commerce/[businessId]/payments/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__10pbg9w._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0j7uyhg._.js")
 R.c("server/chunks/ssr/063q_next_dist_esm_build_templates_app-page_00fzvrn.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0688-7h._.js")
 R.c("server/chunks/ssr/063q_next_dist_08tarvc._.js")

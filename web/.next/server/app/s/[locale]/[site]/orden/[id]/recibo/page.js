@@ -1,6 +1,6 @@
 var R=require("../../../../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/s/[locale]/[site]/orden/[id]/recibo/page.js")
 R.c("server/chunks/ssr/web_07whx61._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0_xyef1._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0qf~3-l._.js")
 R.c("server/chunks/ssr/063q_@supabase_supabase-js_dist_index_mjs_0l5zcqi._.js")
 R.c("server/chunks/ssr/063q_next_dist_esm_build_templates_app-page_0.8fu7z.js")
 R.c("server/chunks/ssr/web_lib_supabase_scoped_ts_00blduc._.js")

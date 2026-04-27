@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fc\u002F[ciudad]\u002F[rubro]\u002Fopengraph-image\u002F[__metadata_id__]","\u002Fc\u002F[ciudad]\u002Fopengraph-image\u002F[__metadata_id__]","\u002Fp\u002F[rubro]\u002Fopengraph-image\u002F[__metadata_id__]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

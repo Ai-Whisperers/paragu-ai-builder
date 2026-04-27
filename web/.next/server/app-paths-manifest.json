@@ -161,6 +161,7 @@
   "/p/page": "app/p/page.js",
   "/page": "app/page.js",
   "/precios/page": "app/precios/page.js",
+  "/previews/page": "app/previews/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",
   "/s/[locale]/[site]/[[...page]]/page": "app/s/[locale]/[site]/[[...page]]/page.js",
   "/s/[locale]/[site]/blog/[slug]/page": "app/s/[locale]/[site]/blog/[slug]/page.js",

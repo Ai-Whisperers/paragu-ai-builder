@@ -161,6 +161,7 @@
   "/p/page": "/p",
   "/page": "/",
   "/precios/page": "/precios",
+  "/previews/page": "/previews",
   "/robots.txt/route": "/robots.txt",
   "/s/[locale]/[site]/[[...page]]/page": "/s/[locale]/[site]/[[...page]]",
   "/s/[locale]/[site]/blog/[slug]/page": "/s/[locale]/[site]/blog/[slug]",
