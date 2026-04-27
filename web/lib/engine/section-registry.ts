@@ -16,7 +16,7 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
   header: {
     id: 'header',
     defaultVariant: 'standard',
-    variants: ['standard'],
+    variants: ['standard', 'sticky', 'transparent'],
     requiredContentFields: ['businessName', 'navItems'],
   },
   hero: {
@@ -139,7 +139,7 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
   team: {
     id: 'team',
     defaultVariant: 'cards',
-    variants: ['cards', 'list'],
+    variants: ['cards', 'list', 'grid-photos'],
   },
   testimonials: {
     id: 'testimonials',

@@ -23,19 +23,12 @@ export interface NavItem {
 
 export interface HeaderSectionProps {
   businessName?: string
-  /** Primary nav items */
   navItems?: NavItem[]
-  /** Legacy alias — some content files ship `items` instead of `navItems`. */
   items?: NavItem[]
   ctaText?: string
   ctaHref?: string
-  /**
-   * Show the commerce header-search box (with autocomplete + recent
-   * searches) between the logo and the nav. Opt-in per tenant via content
-   * file — defaults to false so non-commerce tenants don't get a dead
-   * search bar.
-   */
   enableSearch?: boolean
+  variant?: 'standard' | 'sticky' | 'transparent'
   __siteSlug?: string
   __locale?: Locale
   __availableLocales?: Locale[]
@@ -145,8 +138,9 @@ export function HeaderSection({
   return (
     <header
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-transform duration-300 will-change-transform bg-[var(--surface)]',
-        scrolled ? 'shadow-md' : 'shadow-sm',
+        'fixed top-0 left-0 right-0 z-50 transition-transform duration-300 will-change-transform',
+        variant === 'transparent' && !scrolled ? 'bg-transparent backdrop-blur-sm' : 'bg-[var(--surface)]',
+        scrolled ? 'shadow-md bg-[var(--surface)]' : variant === 'transparent' ? 'shadow-none' : 'shadow-sm',
         hidden ? '-translate-y-full' : 'translate-y-0'
       )}
       style={{

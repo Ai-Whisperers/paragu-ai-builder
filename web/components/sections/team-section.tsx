@@ -17,6 +17,7 @@ export interface TeamSectionProps {
   title: string
   subtitle?: string
   members: TeamMember[]
+  variant?: 'cards' | 'list' | 'grid-photos'
 }
 
 function IconByName({ name, size = 40 }: { name?: string; size?: number }) {
@@ -34,8 +35,40 @@ function gridColsClass(n: number): string {
   return 'sm:grid-cols-2 lg:grid-cols-3'
 }
 
-export function TeamSection({ title, subtitle, members = [] }: TeamSectionProps) {
+export function TeamSection({ title, subtitle, members = [], variant = 'cards' }: TeamSectionProps) {
   if (!members || members.length === 0) return null
+
+  if (variant === 'grid-photos') {
+    return (
+      <section id="equipo" className="bg-[var(--surface)] py-16 sm:py-20">
+        <Container>
+          <div className="mb-12 text-center">
+            <Heading level={2}>{title}</Heading>
+            {subtitle && <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>}
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            {members.map((member, index) => (
+              <div key={index} className="group relative overflow-hidden rounded-xl aspect-[3/4]">
+                {member.imageUrl ? (
+                  <Image src={member.imageUrl} alt={member.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                ) : (
+                  <div className="w-full h-full bg-[var(--primary)]/10 flex items-center justify-center">
+                    <IconByName name={member.icon || 'Users'} size={48} />
+                  </div>
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+                  <Heading level={3} className="text-lg font-semibold">{member.name}</Heading>
+                  {member.role && <p className="text-sm text-white/80">{member.role}</p>}
+                </div>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
+    )
+  }
+
   return (
     <section id="equipo" className="bg-[var(--surface)] py-16 sm:py-20">
       <Container>
@@ -53,7 +86,6 @@ export function TeamSection({ title, subtitle, members = [] }: TeamSectionProps)
             return (
               <Card key={index} className="text-center group h-full">
                 <CardContent className="flex h-full flex-col pt-8">
-                  {/* Avatar: real photo, or icon (no letter-only fallback) */}
                   {hasImage ? (
                     <div className="mx-auto mb-4 h-32 w-32 overflow-hidden rounded-full bg-[var(--surface-light)]">
                       <Image
