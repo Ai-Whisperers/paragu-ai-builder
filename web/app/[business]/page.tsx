@@ -57,6 +57,10 @@ const PRERENDER_TOP_N_TYPES = 50
 // during prerender due to content-shape mismatches with the legacy
 // flat-pattern composer. Excluded here; they fall through to SSR via
 // dynamicParams=true. Remove entries as the underlying shape is fixed.
+// Dynamic rendering — legacy demo routes use a different renderer path
+// that may not pass all props (e.g. variant) correctly during SSG.
+export const dynamic = 'force-dynamic'
+
 const PRERENDER_SKIP = new Set([
   'dayah-litworks',
   'de-abasto-a-casa',
