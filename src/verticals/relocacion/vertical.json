@@ -65,7 +65,6 @@
     "logo-strip",
     "content-grid",
     "product-catalog"
-    "content-grid",
   ],
   "defaultStarterKit": "full",
   "locales": [
