@@ -55,11 +55,6 @@
       "enabledWhen": "testimonials"
     },
     {
-      "id": "intake-wizard",
-      "variant": "default",
-      "content": "home.intakeWizard"
-    },
-    {
       "id": "cta-banner",
       "variant": "gradient",
       "content": "home.finalCta"
