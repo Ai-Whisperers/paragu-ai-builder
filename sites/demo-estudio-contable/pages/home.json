@@ -11,7 +11,7 @@
     { "id": "pricing-table", "variant": "default", "content": "home.pricing" },
     { "id": "process-timeline", "variant": "horizontal", "content": "home.process" },
     { "id": "team", "variant": "cards", "content": "home.team" },
-    { "id": "testimonials", "variant": "grid", "content": "home.testimonials" },
+    { "id": "testimonials", "variant": "cards", "content": "home.testimonials" },
     { "id": "faq", "variant": "accordion", "content": "home.faq" },
     { "id": "tax-deadline-banner", "variant": "default", "content": "home.taxDeadline" },
     { "id": "calc-irp", "variant": "default", "content": "home.calcIrp" },

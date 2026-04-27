@@ -30,7 +30,7 @@
     },
     {
       "id": "team",
-      "variant": "grid",
+      "variant": "cards",
       "content": "home.team"
     },
     {
@@ -40,7 +40,7 @@
     },
     {
       "id": "blog-index",
-      "variant": "grid",
+      "variant": "cards",
       "content": "home.blog"
     },
     {

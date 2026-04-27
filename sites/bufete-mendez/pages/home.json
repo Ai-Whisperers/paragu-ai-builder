@@ -7,7 +7,7 @@
     { "id": "trust-badges", "variant": "strip", "content": "home.trustBadges" },
     { "id": "services", "variant": "cards", "content": "home.services" },
     { "id": "process", "variant": "steps", "content": "home.process" },
-    { "id": "team", "variant": "grid", "content": "home.team" },
+    { "id": "team", "variant": "cards", "content": "home.team" },
     { "id": "case-studies", "variant": "cards", "content": "home.caseStudies" },
     { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" }
   ]
