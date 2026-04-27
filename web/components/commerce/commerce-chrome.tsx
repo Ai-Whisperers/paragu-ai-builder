@@ -11,9 +11,9 @@
  */
 import { loadSiteContent, loadSite } from '@/lib/engine/site-loader'
 import type { Locale } from '@/lib/i18n/config'
-import { FooterSection } from '@/components/sections/footer-section'
-import { WhatsAppFloat } from '@/components/sections/whatsapp-float'
-import { ComplianceDisclaimerFooterSection } from '@/components/sections/compliance-disclaimer-footer-section'
+import { FooterSection } from '@/components/sections/navigation/footer-section'
+import { WhatsAppFloat } from '@/components/sections/navigation/whatsapp-float'
+import { ComplianceDisclaimerFooterSection } from '@/components/sections/navigation/compliance-disclaimer-footer-section'
 
 interface Props {
   siteSlug: string

@@ -2,7 +2,7 @@ import type { ResolvedPage } from './site-types'
 import { logger } from '@/lib/logger'
 import { GENERATED_MAP } from './generated/renderer-map'
 import { SectionWrapper } from '@/components/ui/section-wrapper'
-import { WhatsAppFloat } from '@/components/sections/whatsapp-float'
+import { WhatsAppFloat } from '@/components/sections/navigation/whatsapp-float'
 
 // GENERATED_MAP is auto-generated but may miss some edge-case components
 // (e.g. files named without -section suffix where export name differs).
