@@ -51,7 +51,7 @@ export const POST = withRequestLog(async (req, { log }) => {
       fromName: 'Paragu-AI Compliance',
     }
     const emailTemplate = dataRequestEmail({ siteSlug, email, kind, description, dueAt })
-    const emailResult = await resendAdapter.sendTransactional(
+    const emailResult = await resendAdapter.sendTransactional!(
       emailConfig.fromAddress,
       emailTemplate.subject,
       emailTemplate.html,

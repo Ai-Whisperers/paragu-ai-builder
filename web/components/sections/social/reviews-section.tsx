@@ -91,8 +91,14 @@ export interface ReviewCardProps {
   onHelpful?: (id: string) => void
 }
 
+export interface ReviewsSectionProps {
+  reviews?: Review[]
+  className?: string
+  phone?: string
+}
 
 import { ReviewCard } from './review-card'
+export type { ReviewCard }
 import { ReviewForm } from './review-form'
 
 export function ReviewsSection({ 

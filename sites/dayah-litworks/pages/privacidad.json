@@ -12,6 +12,16 @@
       "id": "faq",
       "variant": "accordion",
       "content": "privacidad.sectionsBlock"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
     }
   ]
 }

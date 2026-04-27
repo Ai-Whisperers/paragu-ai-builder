@@ -22,7 +22,24 @@ import type { BaseCalculatorSectionProps } from '@/types/sections'
  * hook the prospect into a consultation, not replace their accountant.
  */
 
-export interface TaxSavingsCalculatorSectionProps extends BaseCalculatorSectionProps {}
+export interface TaxSavingsCalculatorSectionProps extends BaseCalculatorSectionProps {
+  /** Locale-keyed UI labels. Falls back to LABELS constant when omitted. */
+  labels?: Record<string, {
+    eyebrow: string
+    title: string
+    subtitle: string
+    countryLabel: string
+    incomeLabel: string
+    sourceLabel: string
+    sourceLocal: string
+    sourceForeign: string
+    currentTax: string
+    paraguayTax: string
+    annualSavings: string
+    disclaimer: string
+    cta: string
+  }>
+}
 
 type CountryPreset = {
   code: string
@@ -162,9 +179,11 @@ export function TaxSavingsCalculatorSection({
   ctaLabel,
   ctaHref = '#contacto',
   __locale,
+  labels: labelsProp,
 }: TaxSavingsCalculatorSectionProps) {
-  const locale = __locale && __locale in LABELS ? __locale : 'es'
-  const L = LABELS[locale]
+  const resolvedLabels = labelsProp ?? LABELS
+  const locale = __locale && __locale in resolvedLabels ? __locale : 'es'
+  const L = resolvedLabels[locale]
 
   const [countryCode, setCountryCode] = useState<string>('DE')
   const [income, setIncome] = useState<number>(200_000)

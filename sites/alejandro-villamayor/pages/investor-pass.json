@@ -37,6 +37,16 @@
       "id": "cta-banner",
       "variant": "gradient",
       "content": "investorPass.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
     }
   ]
 }

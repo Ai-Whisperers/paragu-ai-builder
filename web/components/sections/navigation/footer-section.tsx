@@ -13,19 +13,16 @@ export interface FooterSectionProps {
   facebook?: string
   whatsapp?: string
   navLinks?: Array<{ label: string; href: string }>
+  /** Sibling sites shown in the footer network section. Driven by site config, not hardcoded. */
+  siblingSites?: Array<{
+    slug: string
+    label: string
+    defaultLocale: Locale
+    locales: Locale[]
+  }>
   __siteSlug?: string
   __locale?: Locale
 }
-
-const NEXA_GROUP: Array<{
-  slug: string
-  label: string
-  defaultLocale: Locale
-  locales: Locale[]
-}> = [
-  { slug: 'nexa-paraguay', label: 'Nexa Paraguay', defaultLocale: 'nl', locales: ['nl', 'en', 'de', 'es'] },
-  { slug: 'nexa-propiedades', label: 'Nexa Propiedades', defaultLocale: 'es', locales: ['es', 'en', 'pt'] },
-]
 
 const VERSION = process.env.NEXT_PUBLIC_SITE_VERSION || 'dev'
 
@@ -65,16 +62,16 @@ export function FooterSection({
   facebook,
   whatsapp,
   navLinks = [],
+  siblingSites,
   __siteSlug,
   __locale,
 }: FooterSectionProps) {
   const year = new Date().getFullYear()
-  const isNexa = __siteSlug?.startsWith('nexa-') || __siteSlug === 'nexaparaguay'
+  const hasSiblings = siblingSites && siblingSites.length > 0
   const networkHeading = (__locale && NETWORK_LABEL[__locale]) || NETWORK_LABEL.en
   const labels = (__locale && FOOTER_LABELS[__locale]) || FOOTER_LABELS.en
-  // Show version badge in dev by default, hide in production. Explicit
-  // env override (`true` / `false`) wins either way. Previous default was
-  // "show unless explicitly disabled" which leaked `vdev` into prod.
+  // Ensure whatsapp is a string (not the whatsapp-float config object)
+  const waPhone = typeof whatsapp === 'string' ? whatsapp : ''
   const showVersion =
     process.env.NEXT_PUBLIC_SHOW_VERSION === 'true'
       ? true
@@ -169,7 +166,7 @@ export function FooterSection({
           </div>
 
           {/* Social */}
-          {(instagram || facebook || whatsapp) && (
+          {(instagram || facebook || waPhone) && (
             <div>
               <h4 
                 className="mb-5 text-xs font-bold uppercase tracking-widest"
@@ -212,9 +209,9 @@ export function FooterSection({
                     </svg>
                   </a>
                 )}
-                {whatsapp && (
+                {waPhone && (
                   <a
-                    href={`https://wa.me/${whatsapp.replace(/\D/g, '')}`}
+                    href={`https://wa.me/${waPhone.replace(/\D/g, '')}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center w-10 h-10 rounded-lg transition-all duration-200 hover:scale-110"
@@ -234,8 +231,8 @@ export function FooterSection({
           )}
         </div>
 
-        {/* Nexa Network */}
-        {isNexa && (
+        {/* Sibling sites network */}
+        {hasSiblings && (
           <div 
             className="mt-12 pt-8"
             style={{ borderTop: '1px solid rgba(255,255,255,0.1)' }}
@@ -247,7 +244,7 @@ export function FooterSection({
               {networkHeading}
             </h4>
             <ul className="flex flex-wrap gap-x-6 gap-y-3 text-sm">
-              {NEXA_GROUP.filter((g) => g.slug !== __siteSlug).map((g) => {
+              {siblingSites!.filter((g) => g.slug !== __siteSlug).map((g) => {
                 const loc = __locale && g.locales.includes(__locale) ? __locale : g.defaultLocale
                 const href = `/s/${loc}/${g.slug}`
                 return (

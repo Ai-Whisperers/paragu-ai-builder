@@ -16,6 +16,7 @@ interface ProcessSectionProps {
   steps: ProcessStep[]
   ctaText?: string
   ctaLink?: string
+  stepLabel?: string
   __locale?: string
 }
 
@@ -50,8 +51,9 @@ export function ProcessSection({
   ctaText,
   ctaLink = '#contact',
   __locale = 'es',
+  stepLabel: stepLabelProp,
 }: ProcessSectionProps) {
-  const stepLabel = STEP_LABELS[__locale] || 'Paso'
+  const stepLabel = stepLabelProp ?? STEP_LABELS[__locale] ?? 'Paso'
   const resolvedTitle = title ?? TITLE_DEFAULTS[__locale] ?? TITLE_DEFAULTS.es
   const resolvedCtaText = ctaText ?? CTA_DEFAULTS[__locale] ?? CTA_DEFAULTS.es
   const [activeStep, setActiveStep] = useState<number | null>(null)

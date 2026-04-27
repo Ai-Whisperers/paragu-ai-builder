@@ -1,9 +1,13 @@
 'use client'
 
 import { useState } from 'react'
-import { Star } from 'lucide-react'
+import { Star, CheckCircle, ThumbsUp, Quote } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { Card, CardContent } from '@/components/ui/card'
+import { Avatar, AvatarFallback } from '@/components/ui/avatar'
+import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
-import type { Review } from './reviews-section'
+import type { Review, ReviewType, ReviewCardProps } from './reviews-section'
 
 export function ReviewCard({ review, className, onHelpful }: ReviewCardProps) {
   const [liked, setLiked] = useState(false)

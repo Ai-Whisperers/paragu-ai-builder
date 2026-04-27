@@ -83,17 +83,18 @@ export function mapLeadToPreviewConfig(lead: Record<string, unknown>): PreviewCo
     },
   }
 
+  const extended = schema as unknown as Record<string, unknown>
   if (instagram) {
-    (schema as Record<string, unknown>).instagram = instagram
+    extended.instagram = instagram
   }
   if (yearsInOp) {
-    (schema as Record<string, unknown>).yearsInOperation = yearsInOp
+    extended.yearsInOperation = yearsInOp
   }
   if (rating) {
-    (schema as Record<string, unknown>).rating = rating
+    extended.rating = rating
   }
   if (reviewCount) {
-    (schema as Record<string, unknown>).reviewCount = reviewCount
+    extended.reviewCount = reviewCount
   }
 
   return {

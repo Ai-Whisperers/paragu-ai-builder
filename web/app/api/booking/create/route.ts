@@ -122,7 +122,7 @@ export async function POST(request: NextRequest) {
         bookingTime: booking_time,
         bookingId: booking.id,
       })
-      const emailResult = await resendAdapter.sendTransactional(
+      const emailResult = await resendAdapter.sendTransactional!(
         customer_email,
         emailTemplate.subject,
         emailTemplate.html,

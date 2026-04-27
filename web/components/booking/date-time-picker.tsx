@@ -51,7 +51,7 @@ export default function DateTimePicker({
       const res = await fetch(`/api/booking/availability?date=${dateStr}&staffId=${staffMemberId}&duration=${duration}`)
       if (!res.ok) throw new Error('Failed to fetch availability')
       const data = await res.json()
-      const bookedTimes = new Set((data.slots || []).map((s: { start_time: string }) => s.start_time))
+      const bookedTimes: Set<string> = new Set((data.slots || []).map((s: { start_time: string }) => s.start_time))
       return generateLocalSlots(bookedTimes)
     } catch (err) {
       logger.warn('Availability API failed, falling back to local slots', {

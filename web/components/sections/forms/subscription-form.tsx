@@ -1,13 +1,25 @@
 'use client'
 
 import { useState } from 'react'
-import { Plus, Minus, Check, Calendar, ChevronRight } from 'lucide-react'
+import { Plus, Minus, Check, Calendar, ChevronRight, ArrowRight, Repeat, CheckCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { Card, CardContent } from '@/components/ui/card'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Heading } from '@/components/ui/heading'
+import { Label } from '@/components/ui/label'
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
+import { Input } from '@/components/ui/input'
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '@/components/ui/select'
 import { SmartWhatsAppButton } from '@/components/sections/navigation/smart-whatsapp-section'
 import { cn } from '@/lib/utils'
-import type { SubscriptionPlan, SubscriptionFrequency } from './subscription-section'
+import type { SubscriptionPlan, SubscriptionFrequency, SubscriptionFormProps } from './subscription-section'
+
+const DELIVERY_DAYS = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado']
+
+const FREQUENCY_LABELS: Record<string, string> = {
+  weekly: 'Semanal',
+  biweekly: 'Quincenal',
+  monthly: 'Mensual',
+}
 
 export function SubscriptionForm({ phone, products, className }: SubscriptionFormProps) {
   const [step, setStep] = useState(1)

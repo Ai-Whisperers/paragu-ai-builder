@@ -29,6 +29,7 @@ export interface LeadFormSectionProps {
   privacyHref?: string
   marketingLabel?: string
   fields?: LeadFormField[]
+  loadingLabel?: string
   __siteSlug?: string
   __locale?: string
 }
@@ -66,6 +67,7 @@ export function LeadFormSection({
   privacyHref = '#',
   marketingLabel = 'I agree to receive relevant emails',
   fields = DEFAULT_FIELDS,
+  loadingLabel: loadingLabelProp,
   __siteSlug,
   __locale,
 }: LeadFormSectionProps) {
@@ -235,7 +237,7 @@ export function LeadFormSection({
                 size="lg"
                 type="submit"
                 isLoading={status === 'sending'}
-                loadingText={LOADING_LABELS[__locale ?? 'es'] || LOADING_LABELS.es}
+                loadingText={loadingLabelProp || LOADING_LABELS[__locale ?? 'es'] || LOADING_LABELS.es}
                 className="w-full sm:w-auto"
               >
                 {submitLabel}

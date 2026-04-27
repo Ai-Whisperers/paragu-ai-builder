@@ -1,4 +1,11 @@
 import { BusinessData, Industry, PricingTier, FaqItem, WhyItem, ProcessStep, Guarantee, B2BPageProps, ICONS, DEFAULT_INDUSTRIES, DEFAULT_PRICING_TIERS, DEFAULT_FAQS, DEFAULT_WHY_CHOOSE_US, DEFAULT_PROCESS_STEPS, DEFAULT_GUARANTEES } from './b2b-wholesale-data'
+import { Heading } from '@/components/ui/heading'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import { Container } from '@/components/ui/container'
+import Link from 'next/link'
+import { CheckCircle, Shield, Truck, Leaf, Award, Users, Package, Clock, HeartHandshake, Phone, MessageCircle, Building2, ChefHat, Store, Coffee, School, MapPin, Calculator, Star, ChevronRight, Check } from 'lucide-react'
 
 export function B2BWholesaleSection({
   business,

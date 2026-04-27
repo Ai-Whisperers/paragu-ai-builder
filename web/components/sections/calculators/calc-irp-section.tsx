@@ -24,7 +24,28 @@ import type { BaseCalculatorSectionProps } from '@/types/sections'
  * Disclaimer is explicit.
  */
 
-export interface CalcIrpSectionProps extends BaseCalculatorSectionProps {}
+export interface CalcIrpSectionProps extends BaseCalculatorSectionProps {
+  /** Locale-keyed UI labels. Falls back to LABELS constant when omitted. */
+  labels?: Record<string, {
+    eyebrow: string
+    title: string
+    subtitle: string
+    incomeLabel: string
+    deductionsLabel: string
+    baseLabel: string
+    annualTax: string
+    monthlyTax: string
+    effectiveRate: string
+    breakdownTitle: string
+    bandCol: string
+    taxedCol: string
+    rateCol: string
+    taxCol: string
+    disclaimer: string
+    cta: string
+    whatsappCta: string
+  }>
+}
 
 const BRACKETS = [
   { upto: 50_000_000, rate: 0.08 },
@@ -130,9 +151,11 @@ export function CalcIrpSection({
   ctaHref = '#contacto',
   whatsapp,
   __locale,
+  labels: labelsProp,
 }: CalcIrpSectionProps) {
-  const locale = (__locale && __locale in LABELS ? __locale : 'es') as keyof typeof LABELS
-  const L = LABELS[locale]
+  const resolvedLabels = labelsProp ?? LABELS
+  const locale = (__locale && __locale in resolvedLabels ? __locale : 'es') as keyof typeof resolvedLabels
+  const L = resolvedLabels[locale]
 
   const [income, setIncome] = useState<number>(120_000_000)
   const [deductions, setDeductions] = useState<number>(30_000_000)

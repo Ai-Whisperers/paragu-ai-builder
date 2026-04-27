@@ -1,12 +1,18 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardImage, CardTitle, CardDescription } from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
+import { AnimateOnScroll } from '@/components/ui/animate-on-scroll'
 import { cn } from '@/lib/utils'
+import { trackWhatsappClick } from '@/lib/analytics/tenant-events'
 import type { ProductItem } from './product-catalog-section'
+import { CATALOG_LABELS, buildWhatsAppUrl, buildEmailUrl } from './product-catalog-section'
 
-function ProductCard({
+export function ProductCard({
   product,
   showPrices,
   whatsappPhone,

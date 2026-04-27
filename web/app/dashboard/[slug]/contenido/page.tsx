@@ -2,6 +2,7 @@ import { requireTenant } from '@/lib/auth/tenant'
 import { createClient } from '@/lib/supabase/server'
 import { DashboardLayout } from '../dashboard-layout'
 import { ContentEditor } from '@/components/admin/content/content-editor'
+import { getBusinessContent } from '@/lib/business-content'
 
 export default async function ContentPage({
   params,
@@ -25,8 +26,8 @@ export default async function ContentPage({
         <p className="text-gray-500 mb-6">Los cambios se guardan y se ven reflejados al instante en tu sitio.</p>
         <ContentEditor
           businessId={tenant.businessId}
-          businessName={business?.name || slug}
-          initialContent={(business?.data_json as any)?.content || {}}
+          siteSlug={slug}
+          initialContent={(getBusinessContent(business || { data_json: null }).content as Record<string, unknown>) || {}}
         />
       </div>
     </DashboardLayout>

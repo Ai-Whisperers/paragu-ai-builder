@@ -102,22 +102,25 @@ const CATEGORIES = ['Todas', 'Producto', 'Delivery', 'Precios', 'Pedidos', 'Serv
 export interface FAQChatbotProps {
   phone: string
   className?: string
+  /** FAQ items — when provided by the content pipeline these override the hardcoded defaults. */
+  items?: FAQItem[]
 }
 
-export function FAQChatbot({ phone, className }: FAQChatbotProps) {
+export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
+  const faqData = items ?? FAQ_DATA
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('Todas')
   const [openItems, setOpenItems] = useState<string[]>(['1', '2', '3', '4']) // Popular ones open by default
   const [showContactForm, setShowContactForm] = useState(false)
 
-  const filteredFAQs = FAQ_DATA.filter(faq => {
+  const filteredFAQs = faqData.filter(faq => {
     const matchesSearch = faq.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
                          faq.answer.toLowerCase().includes(searchQuery.toLowerCase())
     const matchesCategory = selectedCategory === 'Todas' || faq.category === selectedCategory
     return matchesSearch && matchesCategory
   })
 
-  const popularFAQs = FAQ_DATA.filter(faq => faq.isPopular)
+  const popularFAQs = faqData.filter(faq => faq.isPopular)
 
   const toggleItem = (id: string) => {
     setOpenItems(prev => 

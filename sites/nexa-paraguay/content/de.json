@@ -325,6 +325,129 @@
     "taxCalculator": {
       "title": "Steuerersparnis-Rechner",
       "subtitle": "Schätzen Sie, wie viel Sie durch die Niederlassung in Paraguay an Steuern sparen."
+    },
+    "intakeWizard": {
+      "steps": [
+        {
+          "key": "goal",
+          "question": "Was ist Ihr Hauptziel beim Umzug nach Paraguay?",
+          "options": [
+            {
+              "value": "residency",
+              "label": "Aufenthalt erhalten"
+            },
+            {
+              "value": "business",
+              "label": "Unternehmen gründen"
+            },
+            {
+              "value": "investor",
+              "label": "In Paraguay investieren"
+            },
+            {
+              "value": "land",
+              "label": "Land kaufen"
+            }
+          ]
+        },
+        {
+          "key": "income",
+          "question": "Wie erzielen Sie derzeit Ihr Einkommen?",
+          "options": [
+            {
+              "value": "employed",
+              "label": "Angestellt"
+            },
+            {
+              "value": "self-employed",
+              "label": "Selbstständig"
+            },
+            {
+              "value": "founder",
+              "label": "Gründer / Unternehmer"
+            },
+            {
+              "value": "investor",
+              "label": "Investor"
+            },
+            {
+              "value": "retired",
+              "label": "Rentner"
+            }
+          ]
+        },
+        {
+          "key": "needs",
+          "question": "Was benötigen Sie zusätzlich zum Aufenthalt?",
+          "options": [
+            {
+              "value": "residency-only",
+              "label": "Nur Aufenthalt"
+            },
+            {
+              "value": "company-and-bank",
+              "label": "Gesellschaft + Bankkonto"
+            },
+            {
+              "value": "company-plus-advisory",
+              "label": "Gesellschaft + Banking + 12 Monate Beratung"
+            },
+            {
+              "value": "land-only",
+              "label": "Nur Landkauf"
+            }
+          ]
+        },
+        {
+          "key": "timeline",
+          "question": "Wann möchten Sie beginnen?",
+          "options": [
+            {
+              "value": "asap",
+              "label": "So schnell wie möglich"
+            },
+            {
+              "value": "quarter",
+              "label": "Nächstes Quartal"
+            },
+            {
+              "value": "year",
+              "label": "Im nächsten Jahr"
+            },
+            {
+              "value": "researching",
+              "label": "Nur am Recherchieren"
+            }
+          ]
+        }
+      ],
+      "tierLabels": {
+        "base": {
+          "name": "Paraguay Base",
+          "pitch": "Dauerhafter Aufenthalt + ID. Einfachstes Paket."
+        },
+        "business": {
+          "name": "Paraguay Business",
+          "pitch": "Aufenthalt + Gesellschaft + Bankkonto. Beliebtestes Programm."
+        },
+        "investor": {
+          "name": "Paraguay Investor Program",
+          "pitch": "Alles aus Business + 12 Monate Buchhaltung und Steuerberatung."
+        },
+        "tierras": {
+          "name": "Landkauf",
+          "pitch": "Umfassende Beratung beim Landkauf."
+        }
+      },
+      "ui": {
+        "back": "Zurück",
+        "next": "Weiter",
+        "step": "Schritt",
+        "of": "von",
+        "result": "Ihr empfohlenes Programm",
+        "viewProgram": "Programmdetails ansehen",
+        "restart": "Neu starten"
+      }
     }
   },
   "programasPage": {
@@ -1069,6 +1192,29 @@
       {
         "label": "Presse",
         "href": "/s/de/nexa-paraguay/prensa"
+      }
+    ],
+    "siblingSites": [
+      {
+        "slug": "nexa-paraguay",
+        "label": "Nexa Paraguay",
+        "defaultLocale": "nl",
+        "locales": [
+          "nl",
+          "en",
+          "de",
+          "es"
+        ]
+      },
+      {
+        "slug": "nexa-propiedades",
+        "label": "Nexa Propiedades",
+        "defaultLocale": "es",
+        "locales": [
+          "es",
+          "en",
+          "pt"
+        ]
       }
     ]
   },

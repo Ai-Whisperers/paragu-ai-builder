@@ -1,11 +1,22 @@
 'use client'
 
 import { useState } from 'react'
-import { Star, Send, CheckCircle2 } from 'lucide-react'
+import { Star, Send, CheckCircle, CheckCircle2, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { Card } from '@/components/ui/card'
+import { Card, CardContent } from '@/components/ui/card'
+import { Heading } from '@/components/ui/heading'
+import { Container } from '@/components/ui/container'
+import { Textarea } from '@/components/ui/textarea'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
+import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { cn } from '@/lib/utils'
-import type { Review } from './reviews-section'
+import type { Review, ReviewType } from './reviews-section'
+
+export interface ReviewFormProps {
+  onSubmit?: (review: Omit<Review, 'id' | 'date' | 'helpful'>) => void
+  className?: string
+}
 
 export function ReviewForm({ onSubmit, className }: ReviewFormProps) {
   const [rating, setRating] = useState(0)
@@ -20,9 +31,10 @@ export function ReviewForm({ onSubmit, className }: ReviewFormProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    onSubmit({
+    onSubmit?.({
       ...formData,
-      rating: rating as 1 | 2 | 3 | 4 | 5
+      rating: rating as 1 | 2 | 3 | 4 | 5,
+      verified: false,
     })
     setSubmitted(true)
   }

@@ -16,6 +16,8 @@ export interface FAQSectionProps {
   items?: FAQItem[]
   questions?: FAQItem[]
   searchEnabled?: boolean
+  searchPlaceholder?: string
+  noMatchesText?: string
   __locale?: string
 }
 
@@ -71,10 +73,12 @@ function FAQAccordion({ item, index }: { item: FAQItem; index: number }) {
   )
 }
 
-export function FAQSection({ title, items, questions, searchEnabled, __locale }: FAQSectionProps) {
-  const resolved = items || questions || []
+export function FAQSection({ title, items, questions, searchEnabled, searchPlaceholder, noMatchesText, __locale }: FAQSectionProps) {
   const locale = __locale && __locale in LABELS ? __locale : 'es'
   const L = LABELS[locale]
+  const resolvedPlaceholder = searchPlaceholder ?? L.searchPlaceholder
+  const resolvedNoMatches = noMatchesText ?? L.noMatches
+  const resolved = items || questions || []
   const showSearch = searchEnabled ?? resolved.length >= 6
   const [query, setQuery] = useState('')
 
@@ -102,14 +106,14 @@ export function FAQSection({ title, items, questions, searchEnabled, __locale }:
                 type="search"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder={L.searchPlaceholder}
-                aria-label={L.searchPlaceholder}
+                placeholder={resolvedPlaceholder}
+                aria-label={resolvedPlaceholder}
                 className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] py-2.5 pl-10 pr-4 text-base text-[var(--text)] focus:border-[var(--secondary)] focus:outline-none"
               />
             </div>
           )}
           {filtered.length === 0 ? (
-            <p className="py-8 text-center text-sm text-[var(--text-muted)]">{L.noMatches}</p>
+            <p className="py-8 text-center text-sm text-[var(--text-muted)]">{resolvedNoMatches}</p>
           ) : (
             filtered.map((item, index) => (
               <FAQAccordion key={`${item.q}-${index}`} item={item} index={index} />

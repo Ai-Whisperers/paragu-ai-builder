@@ -22,8 +22,10 @@ const LABELS: Record<string, Labels> = {
   pt: { copied: 'Link copiado', share: 'Compartilhar' },
 }
 
-export function BlogSocialShare({ url, title, locale = 'es' }: { url: string; title: string; locale?: string }) {
+export function BlogSocialShare({ url, title, locale = 'es', shareLabel, copiedLabel }: { url: string; title: string; locale?: string; shareLabel?: string; copiedLabel?: string }) {
   const L = LABELS[locale] || LABELS.es
+  const resolvedShare = shareLabel ?? L.share
+  const resolvedCopied = copiedLabel ?? L.copied
   const [copied, setCopied] = useState(false)
   const encoded = encodeURIComponent(url)
   const encodedTitle = encodeURIComponent(title)
@@ -40,7 +42,7 @@ export function BlogSocialShare({ url, title, locale = 'es' }: { url: string; ti
 
   return (
     <div className="mt-10 flex items-center gap-3 border-t border-[var(--border)] pt-6">
-      <span className="mr-2 text-sm font-medium text-[var(--text-muted)]">{L.share}</span>
+      <span className="mr-2 text-sm font-medium text-[var(--text-muted)]">{resolvedShare}</span>
       <a href={`https://wa.me/?text=${encodedTitle}%20${encoded}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className={btnClass}>
         <MessageCircle size={18} />
       </a>
@@ -50,10 +52,10 @@ export function BlogSocialShare({ url, title, locale = 'es' }: { url: string; ti
       <a href={`mailto:?subject=${encodedTitle}&body=${encoded}`} aria-label="Email" className={btnClass}>
         <Mail size={18} />
       </a>
-      <button type="button" onClick={handleCopy} aria-label={copied ? L.copied : 'Copy link'} className={btnClass}>
+      <button type="button" onClick={handleCopy} aria-label={copied ? resolvedCopied : 'Copy link'} className={btnClass}>
         {copied ? <Check size={18} /> : <Link2 size={18} />}
       </button>
-      {copied && <span className="text-sm text-[var(--secondary)]" aria-live="polite">{L.copied}</span>}
+      {copied && <span className="text-sm text-[var(--secondary)]" aria-live="polite">{resolvedCopied}</span>}
     </div>
   )
 }

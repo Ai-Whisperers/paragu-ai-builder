@@ -460,8 +460,8 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
     tagline: 'Huevos de Granja 100% Paraguayos - De nuestras gallinas a tu mesa',
     city: 'Coronel Oviedo',
     address: 'Ruta 2, Km 125-140',
-    phone: '+595XXXXXXXXX', // PLACEHOLDER - UPDATE WITH LAURA'S REAL NUMBER
-    whatsapp: '+595XXXXXXXXX', // PLACEHOLDER - UPDATE WITH LAURA'S REAL NUMBER
+    phone: '+595 981 324 569',
+    whatsapp: '+595 981 324 569',
     email: 'info@granjacabral.com',
     instagram: '@granjacabral',
     hours: {

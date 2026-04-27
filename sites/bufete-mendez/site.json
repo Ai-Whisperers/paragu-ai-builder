@@ -3,7 +3,10 @@
   "businessType": "general_practice_lawyer",
   "country": "Paraguay",
   "defaultLocale": "es",
-  "locales": ["es"],
+  "locales": [
+    "es",
+    "en"
+  ],
   "contact": {
     "whatsapp": "+595981123456",
     "email": "contacto@bufetemendez.com.py",
@@ -69,5 +72,6 @@
         "content": "footer"
       }
     ]
-  }
+  },
+  "domain": "bufetemendez.com.py"
 }

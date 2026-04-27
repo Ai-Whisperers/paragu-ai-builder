@@ -21,6 +21,14 @@ export interface TaxDeadlineBannerProps {
   ctaText?: string
   ctaHref?: string
   whatsapp?: string
+  /** Locale-keyed UI labels. Falls back to LABELS constant when omitted. */
+  labels?: Record<string, {
+    title: string
+    subtitle: string
+    cta: string
+    whatsappCta: string
+    inDays: (n: number) => string
+  }>
   /** Active URL locale — defaults to ES. */
   __locale?: string
 }
@@ -68,9 +76,11 @@ export function TaxDeadlineBannerSection({
   ctaHref = '#contacto',
   whatsapp,
   __locale,
+  labels: labelsProp,
 }: TaxDeadlineBannerProps) {
-  const locale = (__locale && __locale in LABELS ? __locale : 'es') as keyof typeof LABELS
-  const L = LABELS[locale]
+  const resolvedLabels = labelsProp ?? LABELS
+  const locale = (__locale && __locale in resolvedLabels ? __locale : 'es') as keyof typeof resolvedLabels
+  const L = resolvedLabels[locale]
 
   const deadlines = useMemo(() => getUpcomingDeadlines(new Date(), limit), [limit])
 

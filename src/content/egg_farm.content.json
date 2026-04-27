@@ -67,7 +67,11 @@
     },
     "subscription": {
       "enabled": true,
-      "frequencies": ["weekly", "biweekly", "monthly"],
+      "frequencies": [
+        "weekly",
+        "biweekly",
+        "monthly"
+      ],
       "discount": 5
     },
     "reviews": {
@@ -81,7 +85,10 @@
     "preorder": {
       "enabled": true,
       "advanceHours": 24,
-      "products": ["Pollo Entero", "Pollito Tierno"]
+      "products": [
+        "Pollo Entero",
+        "Pollito Tierno"
+      ]
     },
     "recipes": {
       "enabled": true,
@@ -193,9 +200,18 @@
       }
     ],
     "stats": [
-      { "value": "500+", "label": "Gallinas ponedoras" },
-      { "value": "100%", "label": "Produccion local" },
-      { "value": "Diario", "label": "Recoleccion fresca" }
+      {
+        "value": "500+",
+        "label": "Gallinas ponedoras"
+      },
+      {
+        "value": "100%",
+        "label": "Produccion local"
+      },
+      {
+        "value": "Diario",
+        "label": "Recoleccion fresca"
+      }
     ]
   },
   "services": {
@@ -327,7 +343,12 @@
           "Usar huevos a temperatura ambiente para mejor resultado",
           "No batir en exceso para mantener la textura esponjosa"
         ],
-        "tags": ["desayuno", "rapido", "clasico", "gluten-free"],
+        "tags": [
+          "desayuno",
+          "rapido",
+          "clasico",
+          "gluten-free"
+        ],
         "featured": true
       },
       {
@@ -353,7 +374,11 @@
           "Montar: tortilla, frijoles, huevo, salsa",
           "Decorar con aguacate y queso"
         ],
-        "tags": ["desayuno", "mexicano", "sustancioso"],
+        "tags": [
+          "desayuno",
+          "mexicano",
+          "sustancioso"
+        ],
         "featured": true
       },
       {
@@ -383,7 +408,11 @@
           "El bano Maria evita que se cuarte",
           "Dejar reposar toda la noche para mejor sabor"
         ],
-        "tags": ["postre", "clasico", "horno"],
+        "tags": [
+          "postre",
+          "clasico",
+          "horno"
+        ],
         "featured": false
       }
     ]
@@ -403,10 +432,22 @@
     "title": "Nuestra Granja",
     "subtitle": "Conoce donde producimos tus huevos",
     "categories": [
-      { "name": "La Granja", "description": "Instalaciones y galpones" },
-      { "name": "Gallinas", "description": "Nuestras ponedoras" },
-      { "name": "Productos", "description": "Huevos frescos" },
-      { "name": "Equipo", "description": "Quienes hacemos Granja Cabral" }
+      {
+        "name": "La Granja",
+        "description": "Instalaciones y galpones"
+      },
+      {
+        "name": "Gallinas",
+        "description": "Nuestras ponedoras"
+      },
+      {
+        "name": "Productos",
+        "description": "Huevos frescos"
+      },
+      {
+        "name": "Equipo",
+        "description": "Quienes hacemos Granja Cabral"
+      }
     ]
   },
   "contact": {
@@ -447,8 +488,228 @@
   "footer": {
     "tagline": "{{businessName}} - Huevos frescos de granja en {{city}}",
     "description": "Produccion local, calidad garantizada. Desde nuestra granja a tu mesa.",
-    "quickLinks": ["Inicio", "Productos", "Servicios", "Contacto"],
-    "socialLinks": ["whatsapp"],
+    "quickLinks": [
+      "Inicio",
+      "Productos",
+      "Servicios",
+      "Contacto"
+    ],
+    "socialLinks": [
+      "whatsapp"
+    ],
     "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
+  },
+  "b2bWholesale": {
+    "industries": [
+      {
+        "icon": "ChefHat",
+        "title": "Restaurantes",
+        "description": "Huevos perfectos para desayunos y brunch.",
+        "testimonial": "\"La calidad se nota en cada plato.\"",
+        "author": "Chef Roberto Martínez"
+      },
+      {
+        "icon": "Store",
+        "title": "Panaderías",
+        "description": "Mejor estructura en masas.",
+        "testimonial": "\"Mis facturas quedan más esponjosas.\"",
+        "author": "Don José Giménez"
+      },
+      {
+        "icon": "Building2",
+        "title": "Hoteles",
+        "description": "Suministro constante para desayunos buffet.",
+        "testimonial": "\"Un proveedor confiable nos quitó un gran dolor de cabeza.\"",
+        "author": "Hotel Las Palmas"
+      },
+      {
+        "icon": "Coffee",
+        "title": "Cafeterías",
+        "description": "Huevos frescos para brunch.",
+        "testimonial": "\"Los huevos revueltos quedan más cremosos.\"",
+        "author": "María, Café del Parque"
+      },
+      {
+        "icon": "School",
+        "title": "Comedores",
+        "description": "Volumen constante y precio competitivo.",
+        "testimonial": "\"Alimentamos 500 niños diariamente.\"",
+        "author": "Colegio San José"
+      }
+    ],
+    "pricingTiers": [
+      {
+        "name": "Bronce",
+        "volume": "100-300 huevos/semana",
+        "discount": "10% OFF",
+        "pricePerUnit": 280,
+        "features": [
+          "Entrega semanal",
+          "Precio por unidad más bajo",
+          "Sin contrato"
+        ],
+        "popular": false
+      },
+      {
+        "name": "Plata",
+        "volume": "300-600 huevos/semana",
+        "discount": "15% OFF",
+        "pricePerUnit": 250,
+        "features": [
+          "Entrega 2x semana",
+          "Descuento por volumen"
+        ],
+        "popular": false
+      },
+      {
+        "name": "Oro",
+        "volume": "600-1000 huevos/semana",
+        "discount": "20% OFF",
+        "pricePerUnit": 220,
+        "features": [
+          "Entrega 3x semana",
+          "Máximo descuento",
+          "Prioridad máxima"
+        ],
+        "popular": true
+      },
+      {
+        "name": "Platino",
+        "volume": "1000+ huevos/semana",
+        "discount": "25% OFF",
+        "pricePerUnit": 200,
+        "features": [
+          "Entrega diaria",
+          "Mejor precio",
+          "Atención dedicada"
+        ],
+        "popular": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Mínimo de compra?",
+        "answer": "Descuento mayorista desde 100 huevos/semana."
+      },
+      {
+        "question": "¿Hacen entregas fuera?",
+        "answer": "Sí, llegamos a Asunción, CDE y otras ciudades."
+      },
+      {
+        "question": "¿Puedo probar?",
+        "answer": "Sí. Ofrecemos período de prueba de 2 semanas."
+      }
+    ],
+    "whyChooseUs": [
+      {
+        "icon": "Package",
+        "title": "Frescura Garantizada",
+        "desc": "Recolección diaria y entrega el mismo día."
+      },
+      {
+        "icon": "Award",
+        "title": "Calidad Superior",
+        "desc": "Yemas doradas intensamente coloreadas."
+      },
+      {
+        "icon": "Truck",
+        "title": "Entrega Confiable",
+        "desc": "Rutas establecidas."
+      },
+      {
+        "icon": "Calculator",
+        "title": "Precios Competitivos",
+        "desc": "Descuentos por volumen."
+      }
+    ],
+    "processSteps": [
+      {
+        "step": "1",
+        "title": "Consulta",
+        "desc": "Nos escribís por WhatsApp."
+      },
+      {
+        "step": "2",
+        "title": "Cotización",
+        "desc": "Te enviamos precios según volumen."
+      },
+      {
+        "step": "3",
+        "title": "Prueba",
+        "desc": "Primer pedido pequeño."
+      },
+      {
+        "step": "4",
+        "title": "Suministro Regular",
+        "desc": "Día y hora fijos de entrega."
+      }
+    ],
+    "guarantees": [
+      {
+        "title": "Frescura",
+        "desc": "Reemplazo sin costo."
+      },
+      {
+        "title": "Puntualidad",
+        "desc": "10% descuento si llegamos tarde."
+      },
+      {
+        "title": "Calidad",
+        "desc": "Devolución del dinero."
+      }
+    ]
+  },
+  "ourStory": {
+    "sustainabilityItems": [
+      {
+        "icon": "Leaf",
+        "title": "Alimentación Natural",
+        "description": "Gallinas alimentadas con maíz orgánico."
+      },
+      {
+        "icon": "Recycle",
+        "title": "Compostaje",
+        "description": "Estiércol reciclado como abono natural."
+      },
+      {
+        "icon": "Droplets",
+        "title": "Gestión del Agua",
+        "description": "Captación y reciclaje de agua de lluvia."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Bienestar Animal",
+        "description": "Gallinas en ambiente natural."
+      }
+    ],
+    "processSteps": [
+      {
+        "icon": "Egg",
+        "title": "Recolección",
+        "description": "A mano cada mañana."
+      },
+      {
+        "icon": "CheckCircle",
+        "title": "Selección",
+        "description": "Clasificamos cada huevo."
+      },
+      {
+        "icon": "Package",
+        "title": "Empaque",
+        "description": "Protección máxima."
+      },
+      {
+        "icon": "Truck",
+        "title": "Entrega",
+        "description": "El mismo día."
+      }
+    ],
+    "values": [
+      "Calidad: Solo los mejores huevos",
+      "Sostenibilidad: Compostaje y gestión responsable",
+      "Bienestar Animal: Gallinas en ambiente natural",
+      "Comunidad: Precios justos",
+      "Transparencia: Puertas abiertas"
+    ]
   }
 }

@@ -20,6 +20,7 @@ interface PortfolioSectionProps {
   subtitle?: string
   items: PortfolioItem[]
   categories?: string[]
+  labels?: Record<string, { title: string; all: string }>
   __locale?: string
 }
 
@@ -37,8 +38,10 @@ export function PortfolioSection({
   items,
   categories = [],
   __locale = 'es',
+  labels: labelsProp,
 }: PortfolioSectionProps) {
-  const labels = PORTFOLIO_LABELS[__locale] ?? PORTFOLIO_LABELS.es
+  const resolvedLabels = labelsProp ?? PORTFOLIO_LABELS
+  const labels = resolvedLabels[__locale] ?? resolvedLabels.es
   const resolvedTitle = title ?? labels.title
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
 

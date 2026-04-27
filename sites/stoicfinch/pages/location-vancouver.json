@@ -5,6 +5,8 @@
   "sections": [
     { "id": "header", "variant": "standard", "content": "navigation" },
     { "id": "hero", "variant": "minimal", "content": "location-vancouver.hero" },
+    { "id": "features", "variant": "three-col", "content": "location-vancouver.features" },
+    { "id": "contact", "variant": "split", "content": "location-vancouver.cta" },
     { "id": "footer", "variant": "standard", "content": "footer" }
   ]
 }

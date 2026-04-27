@@ -97,6 +97,10 @@ export type SectionType =
   | 'referral'
   | 'priceList'
   | 'preorder'
+  // Intake / qualification wizard
+  | 'intakeWizard'
+  | 'b2bWholesale'
+  | 'ourStory'
 
 export interface ComposedSection {
   type: SectionType
@@ -237,6 +241,14 @@ export interface BusinessData {
    * `lib/commerce/business-content.ts` — kept as unknown here to avoid a
    * circular type dependency.
    */
+  /**
+   * Average Google rating used by the google-reviews section builder.
+   */
+  rating?: number
+  /**
+   * Total review count used by the google-reviews section builder.
+   */
+  reviewCount?: number
   contentOverrides?: {
     hero?: {
       headline?: string
@@ -399,6 +411,55 @@ export interface ContentTemplate {
     inputs?: Record<string, string>
     outputs?: Record<string, string>
   }
+  /**
+   * Commerce / catalog locale labels — drives product card UI text
+   * (orderButton, emailSubject, categories filter, etc.). Shared across
+   * all tenants; locale-resolved at build time by the section builder.
+   */
+  catalogLabels?: Record<string, {
+    all: string
+    orderButton: string
+    detailButton: string
+    orderTemplate: string
+    emailSubject: string
+    emailBody: string
+  }>
+  /**
+   * Multi-step intake wizard config. Steps are locale-keyed so each
+   * language has its own questions and options. The decision tree is
+   * embedded in the component, but questions/options come from content.
+   * Only rendered when registry.features.intakeWizard?.enabled is true.
+   */
+  /**
+   * B2B wholesale content for egg farms / produce businesses. Passes
+   * industries, pricing tiers, FAQs, etc. from content to the section.
+   */
+  b2bWholesale?: {
+    industries?: Array<{ icon: string; title: string; description: string; testimonial?: string; author?: string }>
+    pricingTiers?: Array<{ name: string; volume: string; discount: string; pricePerUnit: number; features: string[]; popular?: boolean }>
+    faqs?: Array<{ question: string; answer: string }>
+    whyChooseUs?: Array<{ icon: string; title: string; desc: string }>
+    processSteps?: Array<{ step: string; title: string; desc: string }>
+    guarantees?: Array<{ title: string; desc: string }>
+  }
+  /**
+   * Our Story / about section content for egg farms and similar
+   * businesses. Passes sustainability items, process steps, values.
+   */
+  ourStory?: {
+    sustainabilityItems?: Array<{ icon: string; title: string; description: string }>
+    processSteps?: Array<{ icon: string; title: string; description: string }>
+    values?: string[]
+  }
+  intakeWizard?: {
+    steps: Record<string, Array<{
+      key: string
+      question: string
+      options: Array<{ value: string; label: string }>
+    }>>
+    tierLabels: Record<string, Record<string, { name: string; pitch: string }>>
+    ui: Record<string, { back: string; next: string; step: string; of: string; result: string; viewProgram: string; restart: string }>
+  }
 }
 
 // Map registry section names to our component types
@@ -467,6 +528,12 @@ export const SECTION_MAP: Record<string, SectionType> = {
   referral: 'referral',
   priceList: 'priceList',
   preorder: 'preorder',
+  intakeWizard: 'intakeWizard',
+  'intake-wizard': 'intakeWizard',
+  b2bWholesale: 'b2bWholesale',
+  'b2b-wholesale': 'b2bWholesale',
+  ourStory: 'ourStory',
+  'our-story': 'ourStory',
 }
 
 /**
@@ -623,13 +690,13 @@ export function buildSectionData(
 }
 
 function deepMergeContent(base: ContentTemplate, overrides: Record<string, unknown>): ContentTemplate {
-  const merged = { ...base }
+  const merged: Record<string, unknown> = { ...base }
   for (const [key, value] of Object.entries(overrides)) {
     if (value && typeof value === 'object' && !Array.isArray(value) && typeof merged[key] === 'object') {
-      merged[key] = { ...merged[key], ...value }
+      merged[key] = { ...(merged[key] as Record<string, unknown>), ...value }
     } else if (value !== undefined && value !== null) {
-      merged[key] = value as never
+      merged[key] = value
     }
   }
-  return merged
+  return merged as unknown as ContentTemplate
 }

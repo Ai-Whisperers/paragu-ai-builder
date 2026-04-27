@@ -12,6 +12,16 @@
       "id": "enhanced-faq",
       "variant": "searchable",
       "content": "privacidad.policy"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
     }
   ]
 }

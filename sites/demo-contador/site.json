@@ -42,11 +42,27 @@
   "path": "/s/es/demo-contador",
   "publicUrl": "https://paragu-ai.com/s/es/demo-contador",
   "chrome": {
-    "header": { "id": "header", "variant": "standard", "content": "navigation" },
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
     "footer": [
-      { "id": "contact-strip", "variant": "standard", "content": "home.contact" },
-      { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
-      { "id": "footer", "variant": "standard", "content": "footer" }
+      {
+        "id": "contact-strip",
+        "variant": "standard",
+        "content": "home.contact"
+      },
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
     ]
   },
   "social": {

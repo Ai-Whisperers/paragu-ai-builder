@@ -34,6 +34,8 @@ export interface PropertyListingsSectionProps {
   properties?: PropertyListing[]
   whatsappPhone?: string
   showFilters?: boolean
+  /** Locale-aware transaction type labels. Falls back to TRANSACTION_LABELS. */
+  transactionLabels?: Record<string, string>
   /**
    * When present, the section fetches /api/properties?siteSlug=... on mount
    * and renders the returned rows instead of static `properties`. Use for
@@ -96,11 +98,11 @@ const TRANSACTION_LABELS: Record<PropertyListing['type'], string> = {
   temporal: 'Alquiler Temporal',
 }
 
-function buildWhatsAppUrl(phone: string, property: PropertyListing): string {
+function buildWhatsAppUrl(phone: string, property: PropertyListing, transactionLabels: Record<string, string>): string {
   const cleanPhone = phone.replace(/\D/g, '')
   const message =
     property.whatsappMessage ??
-    `Hola, me interesa la propiedad "${property.title}" (${TRANSACTION_LABELS[property.type]}). Quisiera mas informacion.`
+    `Hola, me interesa la propiedad "${property.title}" (${transactionLabels[property.type]}). Quisiera mas informacion.`
   return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`
 }
 
@@ -111,7 +113,9 @@ export function PropertyListingsSection({
   whatsappPhone,
   showFilters = true,
   fetchFromApi,
+  transactionLabels: transactionLabelsProp,
 }: PropertyListingsSectionProps) {
+  const labels = transactionLabelsProp ?? TRANSACTION_LABELS
   const [transactionFilter, setTransactionFilter] = useState<string>('all')
   const [propertyTypeFilter, setPropertyTypeFilter] = useState<string>('all')
   const [apiProperties, setApiProperties] = useState<PropertyListing[] | null>(
@@ -204,7 +208,7 @@ export function PropertyListingsSection({
                 <div className="relative">
                   <CardImage src={property.imageUrl} alt={property.title} />
                   <div className="absolute top-3 left-3 flex gap-2">
-                    <Badge>{TRANSACTION_LABELS[property.type]}</Badge>
+                    <Badge>{labels[property.type]}</Badge>
                     {property.featured && <Badge variant="secondary">Destacada</Badge>}
                   </div>
                 </div>
@@ -238,7 +242,7 @@ export function PropertyListingsSection({
                   <span className="font-bold text-[var(--primary)]">{property.price}</span>
                   {whatsappPhone && (
                     <Button asChild size="sm">
-                      <a href={buildWhatsAppUrl(whatsappPhone, property)} target="_blank" rel="noopener noreferrer">
+                      <a href={buildWhatsAppUrl(whatsappPhone, property, labels)} target="_blank" rel="noopener noreferrer">
                         Consultar
                       </a>
                     </Button>

@@ -24,11 +24,6 @@
       "content": "blog.categories"
     },
     {
-      "id": "services",
-      "variant": "cards",
-      "content": "blog.posts"
-    },
-    {
       "id": "cta-banner",
       "variant": "gradient",
       "content": "blog.cta"

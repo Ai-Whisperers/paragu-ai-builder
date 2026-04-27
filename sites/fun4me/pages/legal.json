@@ -24,21 +24,6 @@
       "content": "legal.terms"
     },
     {
-      "id": "faq",
-      "variant": "accordion",
-      "content": "legal.privacy"
-    },
-    {
-      "id": "faq",
-      "variant": "accordion",
-      "content": "legal.returns"
-    },
-    {
-      "id": "faq",
-      "variant": "accordion",
-      "content": "legal.ageCompliance"
-    },
-    {
       "id": "cta-banner",
       "variant": "solid",
       "content": "legal.cta"

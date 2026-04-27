@@ -9,10 +9,11 @@ export interface ContactStripSectionProps {
   whatsappMessage?: string
   phone?: string
   hoursCompact?: string
+  labels?: Record<string, { whatsapp: string; call: string; hours: string }>
   __locale?: string
 }
 
-const LABELS: Record<string, { whatsapp: string; call: string; hours: string }> = {
+const DEFAULT_LABELS: Record<string, { whatsapp: string; call: string; hours: string }> = {
   en: { whatsapp: 'WhatsApp', call: 'Call', hours: 'Hours' },
   es: { whatsapp: 'WhatsApp', call: 'Llamar', hours: 'Horario' },
 }
@@ -36,8 +37,10 @@ export function ContactStripSection({
   phone,
   hoursCompact,
   __locale = 'es',
+  labels: labelsProp,
 }: ContactStripSectionProps) {
-  const L = LABELS[__locale] ?? LABELS.es
+  const resolvedLabels = labelsProp ?? DEFAULT_LABELS
+  const L = resolvedLabels[__locale] ?? resolvedLabels.es
   const whatsappHref = whatsapp
     ? `https://wa.me/${whatsapp.replace(/\D/g, '')}${whatsappMessage ? `?text=${encodeURIComponent(whatsappMessage)}` : ''}`
     : null

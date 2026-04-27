@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/button'
 import { AnimateOnScroll, AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
 import { useState } from 'react'
 import { trackWhatsappClick } from '@/lib/analytics/tenant-events'
+import { ProductCard } from './product-card'
 
 export interface ProductItem {
   name: string
@@ -52,10 +53,22 @@ export interface ProductCatalogSectionProps {
    * card becomes a PDP entry point.
    */
   productLinkBase?: string
+  /**
+   * Locale-keyed catalog labels — passed by the content pipeline.
+   * Falls back to CATALOG_LABELS inline constant when not supplied.
+   */
+  catalogLabels?: Record<string, {
+    all: string
+    orderButton: string
+    detailButton: string
+    orderTemplate: string
+    emailSubject: (name: string) => string
+    emailBody: (name: string, price?: string) => string
+  }>
   __locale?: string
 }
 
-const CATALOG_LABELS: Record<
+export const CATALOG_LABELS: Record<
   string,
   {
     all: string
@@ -118,7 +131,7 @@ const CATALOG_LABELS: Record<
   },
 }
 
-function buildWhatsAppUrl(
+export function buildWhatsAppUrl(
   phone: string,
   product: ProductItem,
   messageTemplate: string
@@ -130,7 +143,7 @@ function buildWhatsAppUrl(
   return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`
 }
 
-function buildEmailUrl(
+export function buildEmailUrl(
   email: string,
   product: ProductItem,
   labels: (typeof CATALOG_LABELS)[string],
@@ -139,9 +152,6 @@ function buildEmailUrl(
   const body = encodeURIComponent(labels.emailBody(product.name, product.price))
   return `mailto:${email}?subject=${subject}&body=${body}`
 }
-
-
-import { ProductCard } from './product-card'
 
 export function ProductCatalogSection({
   title,
@@ -155,9 +165,11 @@ export function ProductCatalogSection({
   orderMessageTemplate,
   emailAddress,
   productLinkBase,
+  catalogLabels,
   __locale = 'es',
 }: ProductCatalogSectionProps) {
-  const labels = CATALOG_LABELS[__locale] ?? CATALOG_LABELS.es
+  const resolvedLabels = catalogLabels ?? CATALOG_LABELS
+  const labels = resolvedLabels[__locale] ?? resolvedLabels.es
   const resolvedOrderButton = orderButtonText ?? labels.orderButton
   const resolvedOrderTemplate = orderMessageTemplate ?? labels.orderTemplate
   const unavailableText = __locale === 'en' ? 'Unavailable' : 'No disponible'

@@ -12,6 +12,7 @@
         "features",
         "pricing",
         "process",
+        "intakeWizard",
         "team",
         "testimonials",
         "faq",
@@ -92,6 +93,9 @@
     }
   },
   "features": {
+    "intakeWizard": {
+      "enabled": true
+    },
     "packages": {
       "enabled": true,
       "showPrices": false,

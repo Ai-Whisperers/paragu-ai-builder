@@ -26,7 +26,7 @@ interface BusinessInfo {
 }
 
 async function getBusinessesWithWA(): Promise<BusinessInfo[]> {
-  const { data } = await supabase
+  const { data } = await getDb()
     .from('businesses')
     .select('id, name, phone, whatsapp_instance, slug')
     .not('whatsapp_instance', 'is', null)

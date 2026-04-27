@@ -39,7 +39,7 @@ export async function POST(request: Request) {
     let skipped = 0
 
     for (const booking of bookings || []) {
-      const biz = booking.business as Record<string, unknown> | undefined
+      const biz = Array.isArray(booking.business) ? (booking.business[0] as Record<string, unknown>) : undefined
       const waInstance = biz?.whatsapp_instance as string | undefined
       const bizName = biz?.name as string || ''
 

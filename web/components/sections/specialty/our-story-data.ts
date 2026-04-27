@@ -1,21 +1,5 @@
 /** Types and defaults for OurStorySection */
-import { Shield, TreePine, Heart, Users, Leaf, Sparkles, Droplets, Recycle, CheckCircle, type LucideIcon } from 'lucide-react'
-
-
-import {
-  Heart,
-  Leaf,
-  Award,
-  MapPin,
-  Clock,
-  Phone,
-  MessageCircle,
-  CheckCircle,
-  Egg,
-  Bird,
-  Sprout,
-  type LucideIcon,
-} from 'lucide-react'
+import { Shield, TreePine, Heart, Users, Leaf, Sparkles, Droplets, Recycle, CheckCircle, Award, MapPin, Clock, Phone, MessageCircle, Egg, Bird, Sprout, type LucideIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -24,7 +8,7 @@ import { Heading } from '@/components/ui/heading'
 // Icon name → component map. Tenants reference icons by string keyword
 // from their content file so we don't have to expose lucide-react names.
 
-const ICONS: Record<string, LucideIcon> = {
+export const ICONS: Record<string, LucideIcon> = {
   heart: Heart,
   leaf: Leaf,
   award: Award,
@@ -38,12 +22,12 @@ const ICONS: Record<string, LucideIcon> = {
   sprout: Sprout,
 }
 
-function resolveIcon(name?: string, fallback: LucideIcon = CheckCircle): LucideIcon {
+export function resolveIcon(name?: string, fallback: LucideIcon = CheckCircle): LucideIcon {
   if (!name) return fallback
   return ICONS[name.toLowerCase()] ?? fallback
 }
 
-interface BusinessData {
+export interface BusinessData {
   name: string
   tagline?: string
   address?: string
@@ -135,12 +119,12 @@ export interface OurStoryOverrides {
   }
 }
 
-interface OurStorySectionProps {
+export interface OurStorySectionProps {
   business: BusinessData
   overrides?: OurStoryOverrides
 }
 
-const DEFAULT_SUSTAINABILITY_ITEMS: Array<{ icon: LucideIcon; title: string; description: string }> = [
+export const DEFAULT_SUSTAINABILITY_ITEMS: Array<{ icon: LucideIcon; title: string; description: string }> = [
   {
     icon: Leaf,
     title: 'Compostaje',
@@ -163,14 +147,14 @@ const DEFAULT_SUSTAINABILITY_ITEMS: Array<{ icon: LucideIcon; title: string; des
   },
 ]
 
-const DEFAULT_PROCESS_STEPS: Array<{ icon: LucideIcon; title: string; description: string }> = [
+export const DEFAULT_PROCESS_STEPS: Array<{ icon: LucideIcon; title: string; description: string }> = [
   { icon: Bird, title: '1. Cuidado Diario', description: 'Nuestras gallinas reciben alimentación balanceada y atención veterinaria regular.' },
   { icon: Egg, title: '2. Recolección', description: 'Cada mañana recolectamos los huevos frescos, revisando uno por uno.' },
   { icon: CheckCircle, title: '3. Selección', description: 'Solo los mejores huevos pasan nuestro control de calidad.' },
   { icon: MapPin, title: '4. Entrega', description: 'Delivery directo a tu puerta o retiro en nuestra granja.' },
 ]
 
-const DEFAULT_VALUES = [
+export const DEFAULT_VALUES = [
   'Calidad: Cada huevo es revisado antes de la venta',
   'Sostenibilidad: Compostaje, biogas y gestión responsable del agua',
   'Bienestar Animal: Gallinas en ambiente natural y saludable',

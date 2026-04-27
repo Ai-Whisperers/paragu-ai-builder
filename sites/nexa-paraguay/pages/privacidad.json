@@ -20,8 +20,8 @@
     },
     {
       "id": "intake-questionnaire",
-      "variant": "standard",
-      "content": "seprealadAttestation"
+      "variant": "default",
+      "content": "privacyPage.dataRequest"
     },
     {
       "id": "footer",

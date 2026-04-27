@@ -1,44 +1,70 @@
-import { ProgramTier, StepContent, IntakeWizardSectionProps, recommendTier, DEFAULT_STEPS, DEFAULT_TIER_LABELS, UI_LABELS } from './intake-wizard-data'
+'use client'
+
+import { useState } from 'react'
+import { trackWizardStep, trackWizardComplete } from '@/lib/analytics/marketing-events'
+import { Container } from '@/components/ui/container'
+import { Heading } from '@/components/ui/heading'
+import { ArrowLeft, ArrowRight, Check } from 'lucide-react'
+
+export type ProgramTier = 'base' | 'business' | 'investor' | 'tierras'
+
+export interface IntakeWizardSectionProps {
+  title?: string
+  subtitle?: string
+  /** Step config for the current locale */
+  steps?: Array<{ key: string; question: string; options: Array<{ value: string; label: string }> }>
+  /** Tier labels for the current locale */
+  tierLabels?: Record<string, { name: string; pitch: string }>
+  /** UI labels for the current locale */
+  ui?: { back: string; next: string; step: string; of: string; result: string; viewProgram: string; restart: string }
+  __locale?: string
+  __siteSlug?: string
+}
+
+export function recommendTier(answers: {
+  goal: string
+  income: string
+  needs: string
+  timeline: string
+}): ProgramTier {
+  if (answers.goal === 'land' || answers.needs === 'land-only') return 'tierras'
+  if (answers.needs === 'company-plus-advisory' || answers.income === 'investor') return 'investor'
+  if (answers.needs === 'company-and-bank') return 'business'
+  return 'base'
+}
 
 export function IntakeWizardSection({
   title,
   subtitle,
   steps,
-  resultHeading,
   tierLabels,
+  ui,
   __locale,
-  __siteSlug = 'nexa-paraguay',
+  __siteSlug,
 }: IntakeWizardSectionProps) {
-  const locale = __locale && __locale in UI_LABELS ? __locale : 'es'
-  const ui = UI_LABELS[locale]
-  const s = steps || DEFAULT_STEPS[locale] || DEFAULT_STEPS.es!
-  const tl = tierLabels || DEFAULT_TIER_LABELS[locale] || DEFAULT_TIER_LABELS.es
+  const locale = __locale || 'es'
+  const resolvedUi = ui ?? { back: 'Atrás', next: 'Siguiente', step: 'Paso', of: 'de', result: 'Su programa recomendado', viewProgram: 'Ver detalles del programa', restart: 'Empezar de nuevo' }
+  const stepList = steps ?? []
+  const resolvedTiers = tierLabels ?? {}
 
-  const STEP_KEYS: Array<keyof typeof s> = ['goal', 'income', 'needs', 'timeline']
   const [stepIdx, setStepIdx] = useState(0)
   const [answers, setAnswers] = useState<Record<string, string>>({})
   const [done, setDone] = useState(false)
 
-  const currentStepKey = STEP_KEYS[stepIdx]
-  const currentStep = s[currentStepKey]
-  const answered = !!answers[currentStepKey]
-  const isLastStep = stepIdx === STEP_KEYS.length - 1
+  const currentStep = stepList[stepIdx]
+  const answered = currentStep ? !!answers[currentStep.key] : false
+  const isLastStep = stepIdx === stepList.length - 1
 
   const handleNext = () => {
-    if (!answered) return
-    // Emit a wizard_step event for every advance — lets us see where
-    // prospects drop out of the 4-step funnel in GA4.
+    if (!answered || !currentStep) return
     trackWizardStep({
       step: stepIdx + 1,
-      stepKey: String(currentStepKey),
-      answerKey: answers[currentStepKey] || '',
-      answerLabel: currentStep!.options.find((o) => o.value === answers[currentStepKey])?.label || '',
+      stepKey: currentStep.key,
+      answerKey: answers[currentStep.key] || '',
+      answerLabel: currentStep.options.find((o) => o.value === answers[currentStep.key])?.label || '',
       tenant: __siteSlug,
     })
     if (isLastStep) {
-      // Compute the recommendation eagerly here so the wizard_complete
-      // event carries the correct `recommended_tier` instead of firing
-      // on a subsequent render cycle.
       const tier = recommendTier({
         goal: answers.goal || '',
         income: answers.income || '',
@@ -65,31 +91,31 @@ export function IntakeWizardSection({
       needs: answers.needs || '',
       timeline: answers.timeline || '',
     })
-    const info = tl[tier]
+    const info = resolvedTiers[tier]
     return (
       <section className="bg-[var(--surface-light)] py-16 sm:py-24">
         <Container size="md">
           <div className="mx-auto max-w-2xl rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-8 shadow-card sm:p-12">
             <div className="mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-[var(--secondary)]">
-              <Check size={16} /> {ui.result}
+              <Check size={16} /> {resolvedUi.result}
             </div>
             <Heading level={2} className="mb-3 text-3xl font-bold text-[var(--primary)]" style={{ fontFamily: 'var(--font-heading)' }}>
-              {info.name}
+              {info?.name}
             </Heading>
-            <p className="mb-6 text-lg leading-relaxed text-[var(--text-light)]">{info.pitch}</p>
+            <p className="mb-6 text-lg leading-relaxed text-[var(--text-light)]">{info?.pitch}</p>
             <div className="flex flex-col gap-3 sm:flex-row">
               <a
                 href={`/s/${locale}/${__siteSlug}/contacto?programa=${tier}`}
                 className="inline-flex items-center justify-center rounded-md bg-[var(--secondary)] px-6 py-3 text-sm font-semibold text-[var(--secondary-foreground)] shadow-button"
               >
-                {ui.viewProgram} →
+                {resolvedUi.viewProgram} →
               </a>
               <button
                 type="button"
                 onClick={handleRestart}
                 className="inline-flex items-center justify-center rounded-md border border-[var(--border)] px-6 py-3 text-sm font-medium text-[var(--text)] hover:bg-[var(--surface-light)]"
               >
-                {ui.restart}
+                {resolvedUi.restart}
               </button>
             </div>
           </div>
@@ -97,6 +123,8 @@ export function IntakeWizardSection({
       </section>
     )
   }
+
+  if (!currentStep) return null
 
   return (
     <section className="bg-[var(--surface-light)] py-16 sm:py-24">
@@ -109,31 +137,31 @@ export function IntakeWizardSection({
         )}
         <div className="mx-auto max-w-2xl rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-8 shadow-card sm:p-12">
           <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-[var(--text-muted)]">
-            {ui.step} {stepIdx + 1} {ui.of} {STEP_KEYS.length}
+            {resolvedUi.step} {stepIdx + 1} {resolvedUi.of} {stepList.length}
           </p>
           <div className="mb-6 h-1 overflow-hidden rounded bg-[var(--surface-light)]">
             <div
               className="h-full bg-[var(--secondary)] transition-all"
-              style={{ width: `${((stepIdx + 1) / STEP_KEYS.length) * 100}%` }}
+              style={{ width: `${((stepIdx + 1) / stepList.length) * 100}%` }}
             />
           </div>
-          <Heading level={3} className="mb-6 text-xl font-semibold text-[var(--primary)]">{currentStep!.question}</Heading>
+          <Heading level={3} className="mb-6 text-xl font-semibold text-[var(--primary)]">{currentStep.question}</Heading>
           <div className="space-y-2">
-            {currentStep!.options.map((opt) => (
+            {currentStep.options.map((opt) => (
               <label
                 key={opt.value}
                 className={`flex cursor-pointer items-center gap-3 rounded-md border p-3 text-sm transition-colors ${
-                  answers[currentStepKey] === opt.value
+                  answers[currentStep.key] === opt.value
                     ? 'border-[var(--secondary)] bg-[var(--secondary)]/5'
                     : 'border-[var(--border)] hover:bg-[var(--surface-light)]'
                 }`}
               >
                 <input
                   type="radio"
-                  name={currentStepKey}
+                  name={currentStep.key}
                   value={opt.value}
-                  checked={answers[currentStepKey] === opt.value}
-                  onChange={(e) => setAnswers({ ...answers, [currentStepKey]: e.target.value })}
+                  checked={answers[currentStep.key] === opt.value}
+                  onChange={(e) => setAnswers({ ...answers, [currentStep.key]: e.target.value })}
                   className="accent-[var(--secondary)]"
                 />
                 <span className="text-[var(--text)]">{opt.label}</span>
@@ -147,7 +175,7 @@ export function IntakeWizardSection({
               disabled={stepIdx === 0}
               className="inline-flex items-center gap-1 rounded-md px-3 py-2 text-sm text-[var(--text-muted)] disabled:opacity-40 enabled:hover:text-[var(--text)]"
             >
-              <ArrowLeft size={16} /> {ui.back}
+              <ArrowLeft size={16} /> {resolvedUi.back}
             </button>
             <button
               type="button"
@@ -155,7 +183,7 @@ export function IntakeWizardSection({
               disabled={!answered}
               className="inline-flex items-center gap-1 rounded-md bg-[var(--secondary)] px-5 py-2.5 text-sm font-semibold text-[var(--secondary-foreground)] shadow-button disabled:opacity-50"
             >
-              {ui.next} <ArrowRight size={16} />
+              {resolvedUi.next} <ArrowRight size={16} />
             </button>
           </div>
         </div>

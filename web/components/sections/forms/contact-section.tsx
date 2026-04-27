@@ -33,6 +33,16 @@ export interface ContactSectionProps {
    * caveats that don't fit into a weekday grid.
    */
   hoursNote?: string
+  /** Locale-keyed UI labels. Falls back to CONTACT_LABELS inline constant when not supplied. */
+  labels?: Record<string, {
+    address: string
+    contact: string
+    whatsappCta: string
+    email: string
+    hours: string
+    mapAlt: (city: string) => string
+    weekdayOrder: string[]
+  }>
   __locale?: string
 }
 
@@ -110,8 +120,10 @@ export function ContactSection({
   hours,
   hoursNote,
   __locale = 'es',
+  labels: labelsProp,
 }: ContactSectionProps) {
-  const labels = CONTACT_LABELS[__locale] ?? CONTACT_LABELS.es
+  const resolvedLabels = labelsProp ?? CONTACT_LABELS
+  const labels = resolvedLabels[__locale] ?? resolvedLabels.es
   const hasContactInfo = phone || email || whatsapp
   // `hours` can be a free-form string or a weekday map. Normalize the
   // two early so downstream rendering code branches in exactly one place.

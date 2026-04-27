@@ -3,7 +3,10 @@
   "businessType": "general_practice_lawyer",
   "country": "Paraguay",
   "defaultLocale": "es",
-  "locales": ["es", "en"],
+  "locales": [
+    "es",
+    "en"
+  ],
   "contact": {
     "whatsapp": "+595981324569",
     "email": "alejandro@villamayorlaw.com.py",
@@ -29,9 +32,22 @@
       "content": "navigation"
     },
     "footer": [
-      { "id": "contact-strip", "variant": "standard", "content": "home.contact" },
-      { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
-      { "id": "footer", "variant": "standard", "content": "footer" }
+      {
+        "id": "contact-strip",
+        "variant": "standard",
+        "content": "home.contact"
+      },
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
     ]
-  }
+  },
+  "domain": "alejandrovillamayor.com"
 }

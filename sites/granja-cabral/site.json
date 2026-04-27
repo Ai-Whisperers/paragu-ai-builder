@@ -6,7 +6,8 @@
   "stagingDomain": "staging.granjacabral.com.py",
   "defaultLocale": "es",
   "locales": [
-    "es"
+    "es",
+    "en"
   ],
   "contact": {
     "phone": "+595982911935",

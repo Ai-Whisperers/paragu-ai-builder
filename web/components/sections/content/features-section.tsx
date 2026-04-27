@@ -1,4 +1,4 @@
-import * as Icons from 'lucide-react'
+import { ArrowDownToLine, ArrowUpRight, Shield, Download, ExternalLink, CheckCircle, Star, Zap, Heart, Target, TrendingUp, Users, Clock, DollarSign, Award } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -19,6 +19,8 @@ interface FeaturesSectionProps {
   subtitle?: string
   features: Feature[]
   columns?: 2 | 3 | 4
+  /** Locale-keyed UI labels. Falls back to inline defaults when not supplied. */
+  labels?: Record<string, { title: string; download: string; open: string }>
   /** Active URL locale — picks a localized default for `title` when caller omits it. */
   __locale?: string
 }
@@ -38,9 +40,25 @@ const OPEN_LABEL: Record<string, string> = {
   es: 'Ver más',
 }
 
+const FEATURE_ICONS: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
+  shield: Shield,
+  download: Download,
+  'external-link': ExternalLink,
+  check: CheckCircle,
+  star: Star,
+  zap: Zap,
+  heart: Heart,
+  target: Target,
+  trending: TrendingUp,
+  users: Users,
+  clock: Clock,
+  dollar: DollarSign,
+  award: Award,
+}
+
 function FeatureIcon({ name }: { name?: string }) {
   if (!name) return null
-  const Icon = (Icons as unknown as Record<string, React.ComponentType<{ size?: number; className?: string }>>)[name]
+  const Icon = FEATURE_ICONS[name.toLowerCase()]
   if (!Icon) return null
   return <Icon size={24} className="text-[var(--primary-foreground)]" />
 }
@@ -61,8 +79,11 @@ export function FeaturesSection({
   features = [],
   columns = 3,
   __locale,
+  labels: labelsProp,
 }: FeaturesSectionProps) {
-  const resolvedTitle = title || FEATURES_DEFAULT_TITLE[__locale ?? 'es'] || FEATURES_DEFAULT_TITLE.es
+  const resolvedLabels = labelsProp
+  const fallbackTitle = resolvedLabels?.[__locale ?? 'es']?.title || FEATURES_DEFAULT_TITLE[__locale ?? 'es'] || FEATURES_DEFAULT_TITLE.es
+  const resolvedTitle = title || fallbackTitle
   const gridCols = {
     2: 'md:grid-cols-2',
     3: 'md:grid-cols-3',
@@ -89,8 +110,8 @@ export function FeaturesSection({
           {features.map((feature, index) => {
             const downloadable = feature.href ? isDownloadableAsset(feature.href) : false
             const ctaLabel = downloadable
-              ? DOWNLOAD_LABEL[__locale ?? 'es'] || DOWNLOAD_LABEL.es
-              : OPEN_LABEL[__locale ?? 'es'] || OPEN_LABEL.es
+              ? (resolvedLabels?.[__locale ?? 'es']?.download || DOWNLOAD_LABEL[__locale ?? 'es'] || DOWNLOAD_LABEL.es)
+              : (resolvedLabels?.[__locale ?? 'es']?.open || OPEN_LABEL[__locale ?? 'es'] || OPEN_LABEL.es)
             const cardClass = `flex h-full flex-col rounded-xl p-6 ${
               feature.href
                 ? 'transition-all duration-300 hover:-translate-y-1 hover:shadow-lg'
@@ -131,7 +152,7 @@ export function FeaturesSection({
                     style={{ color: 'var(--primary)' }}
                   >
                     {ctaLabel}
-                    {downloadable ? <Icons.ArrowDownToLine size={16} /> : <Icons.ArrowUpRight size={16} />}
+                    {downloadable ? <ArrowDownToLine size={16} /> : <ArrowUpRight size={16} />}
                   </span>
                 )}
               </>

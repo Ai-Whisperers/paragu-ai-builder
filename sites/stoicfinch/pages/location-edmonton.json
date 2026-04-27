@@ -5,6 +5,8 @@
   "sections": [
     { "id": "header", "variant": "standard", "content": "navigation" },
     { "id": "hero", "variant": "minimal", "content": "location-edmonton.hero" },
+    { "id": "features", "variant": "three-col", "content": "location-edmonton.features" },
+    { "id": "contact", "variant": "split", "content": "location-edmonton.cta" },
     { "id": "footer", "variant": "standard", "content": "footer" }
   ]
 }

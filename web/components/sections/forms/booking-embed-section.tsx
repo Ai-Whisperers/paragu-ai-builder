@@ -71,7 +71,6 @@ const BOOKING_LABELS: Record<string, BookingLabels> = {
 function isPlaceholderUrl(url: string | undefined): boolean {
   if (!url || url.trim() === '' || url === '#') return true
   const placeholders = [
-    'calendly.com/nexaparaguay/consulta', // documented placeholder in LAUNCH.md
     'calendly.com/your-account',
     'example.com',
   ]

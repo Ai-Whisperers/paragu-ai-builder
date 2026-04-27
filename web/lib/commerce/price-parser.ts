@@ -10,6 +10,4 @@ export function parsePygPrice(input: string | number): number {
   return value
 }
 
-export function formatPyg(value: number): string {
-  return `Gs ${value.toLocaleString('es-PY')}`
-}
+export { formatPyg } from '@/lib/format'

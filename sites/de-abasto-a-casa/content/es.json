@@ -18,7 +18,7 @@
   },
   "home": {
     "seo": {
-      "title": "De Abasto a Casa \u2014 Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
+      "title": "De Abasto a Casa — Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
       "description": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo."
     },
     "hero": {
@@ -28,7 +28,7 @@
       "ctaPrimaryHref": "https://wa.me/595981324569",
       "trustBadges": [
         "Puerta a puerta",
-        "Entrega en el d\u00eda",
+        "Entrega en el día",
         "San Lorenzo"
       ],
       "backgroundImage": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1920&q=80"
@@ -37,7 +37,7 @@
       "title": "Nuestros Servicios",
       "items": [
         {
-          "name": "Compra b\u00e1sica semanal",
+          "name": "Compra básica semanal",
           "price": "250.000 Gs/semana",
           "duration": 120,
           "description": "Lista corta, 1 proveedor. Hasta 15 productos. Delivery incluido.",
@@ -47,21 +47,21 @@
           "name": "Compra completa semanal",
           "price": "400.000 Gs/semana",
           "duration": 180,
-          "description": "Lista completa + Abasto + mercado + almac\u00e9n. Delivery y organizado.",
+          "description": "Lista completa + Abasto + mercado + almacén. Delivery y organizado.",
           "category": "Compras (Raw)"
         },
         {
           "name": "Mise-en-place individual",
           "price": "400.000 Gs/semana",
           "duration": 240,
-          "description": "1 persona. Prep b\u00e1sico: prote\u00edna + carbos + vegetales, sellado al vacio.",
+          "description": "1 persona. Prep básico: proteína + carbos + vegetales, sellado al vacio.",
           "category": "Mise-en-Place"
         },
         {
           "name": "Mise-en-place para parejas",
           "price": "650.000 Gs/semana",
           "duration": 300,
-          "description": "2 personas. Prep completo + organizaci\u00f3n de heladera/freezer.",
+          "description": "2 personas. Prep completo + organización de heladera/freezer.",
           "category": "Mise-en-Place"
         },
         {
@@ -125,7 +125,7 @@
           "rating": 5
         },
         {
-          "quote": "La prote\u00edna sellada al vacio dura 4 meses en freezer sin perder sabor. Cambia todo.",
+          "quote": "La proteína sellada al vacio dura 4 meses en freezer sin perder sabor. Cambia todo.",
           "author": "Profesional Medico",
           "role": "Cliente",
           "rating": 5
@@ -223,7 +223,7 @@
   "footer": {
     "businessName": "De Abasto a Casa",
     "city": "San Lorenzo",
-    "copyright": "\u00a9 2026 De Abasto a Casa",
+    "copyright": "© 2026 De Abasto a Casa",
     "navLinks": [
       {
         "label": "Inicio",
@@ -246,7 +246,7 @@
   },
   "contacto": {
     "seo": {
-      "title": "Contacto \u2014 De Abasto a Casa",
+      "title": "Contacto — De Abasto a Casa",
       "description": "Contactanos para coordinar tu compra semanal."
     },
     "hero": {
@@ -254,5 +254,29 @@
       "subtitle": "Respondemos por WhatsApp en el dia",
       "trustBadgesEnabled": false
     }
+  },
+  "faqPage": {
+    "seo": {
+      "title": "Preguntas Frecuentes — De Abasto a Casa",
+      "description": "Preguntas frecuentes sobre pedidos, delivery y productos de De Abasto a Casa."
+    },
+    "hero": {
+      "headline": "Preguntas Frecuentes",
+      "subheadline": "Respuestas a las preguntas más comunes sobre nuestro servicio."
+    },
+    "faq": [
+      {
+        "q": "¿Cómo hago un pedido?",
+        "a": "Podés escribirnos por WhatsApp o completar el formulario de contacto. Te responderemos en minutos."
+      },
+      {
+        "q": "¿Cuáles son los horarios de entrega?",
+        "a": "Realizamos entregas de lunes a sábado en horario de 8:00 a 18:00."
+      },
+      {
+        "q": "¿Cuál es el costo de envío?",
+        "a": "El envío es gratis en compras mayores a Gs. 50.000. Para montos menores, el costo es de Gs. 5.000."
+      }
+    ]
   }
 }

@@ -25,6 +25,8 @@ import {
 } from './site-loader'
 import { loadImagesManifest } from './images-loader'
 import { fillDeep, mergeOverrides, resolveRef } from './resolve-copy'
+import { buildSectionData, SECTION_MAP } from './compose'
+import type { BusinessData, RegistryType } from './compose'
 import { resolveSiteTokens } from './resolve-site-tokens'
 import {
   hasSection,
@@ -158,20 +160,53 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
       }
 
       try {
-        // Fall back to {} if content ref can't resolve — stoicfinch and a
-        // few other tenants have page configs referencing content keys
-        // that don't exist yet. A missing ref should render an empty
-        // section rather than crash the whole page with `.length on
-        // undefined` in a downstream section component.
-        const resolved = s.content ? resolveRef(s.content, copyCtx) : {}
-        const base = (resolved && typeof resolved === 'object'
-          ? (resolved as Record<string, unknown>)
-          : {})
-        const merged = mergeOverrides(base, s.overrides)
-        const filled = fillDeep(merged, placeholders) as Record<string, unknown>
+        // Try section builder first for sections that have a registered builder.
+        // Currently enabled for sections where the builder doesn't need registry
+        // or content data beyond what's available in the site content.
+        // Falls through to content-ref when no builder exists or it returns null.
+        let normalized: Record<string, unknown> | null = null
+        const sectionType = SECTION_MAP[s.id]
+        if (sectionType) {
+          try {
+            const miniBusiness: Partial<BusinessData> = {
+              name: (siteContent.siteName as string) || site.slug,
+              slug: siteSlug,
+              type: site.vertical as never,
+              whatsapp: siteContent.whatsapp as string | undefined,
+              phone: siteContent.phone as string | undefined,
+              email: siteContent.email as string | undefined,
+              city: siteContent.city as string || '',
+            }
+            const builderResult = buildSectionData(
+              sectionType,
+              miniBusiness as BusinessData,
+              // Content is passed as empty — builders that need content will
+              // fall through to the content-ref path below. This is intentional
+              // until we can provide the full ContentTemplate.
+              {} as never,
+              placeholders as Record<string, string | number>,
+              [],
+              {} as RegistryType,
+            )
+            if (builderResult) {
+              const withOverrides = mergeOverrides(builderResult, s.overrides)
+              normalized = fillDeep(withOverrides, placeholders) as Record<string, unknown>
+            }
+          } catch {
+            // Builder failed — fall through to content-ref resolution
+          }
+        }
 
-        // Normalize legacy prop names for known section components
-        const normalized = normalizeSectionProps(s.id, filled)
+        if (!normalized) {
+          // Fall back to content ref resolution (original Pipeline B path)
+          const resolved = s.content ? resolveRef(s.content, copyCtx) : {}
+          const base = (resolved && typeof resolved === 'object'
+            ? (resolved as Record<string, unknown>)
+            : {})
+          const merged = mergeOverrides(base, s.overrides)
+          const filled = fillDeep(merged, placeholders) as Record<string, unknown>
+          normalized = normalizeSectionProps(s.id, filled)
+        }
 
         // Rewrite bare-'/' navItem hrefs to the tenant's home URL.
         // Content authors reasonably write href:"/" for "Home", but on

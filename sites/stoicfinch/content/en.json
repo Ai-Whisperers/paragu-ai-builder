@@ -5,7 +5,7 @@
     "source": "https://stoicfinch.com/",
     "researchDoc": "sites/stoicfinch/docs/RESEARCH.md",
     "lastReviewed": "2026-04-21",
-    "warning": "Tenant is is_demo:true. Copy mirrors public stoicfinch.com messaging \u2014 replace with authorized content before any paid traffic."
+    "warning": "Tenant is is_demo:true. Copy mirrors public stoicfinch.com messaging — replace with authorized content before any paid traffic."
   },
   "siteName": "Stoic Finch Corporation",
   "tagline": "Use your data like a pro",
@@ -48,7 +48,7 @@
   },
   "home": {
     "seo": {
-      "title": "Stoic Finch Corporation \u2014 Use your data like a pro",
+      "title": "Stoic Finch Corporation — Use your data like a pro",
       "description": "Calgary-born, globally delivered data consulting. Reports, analysis, data science, engineering and strategy by experts you can trust."
     },
     "hero": {
@@ -61,11 +61,11 @@
       "trustBadges": [
         "No commitments",
         "No hassle",
-        "Born in Calgary \ud83c\udf41",
-        "Delivered Globally \ud83c\udf0e"
+        "Born in Calgary 🍁",
+        "Delivered Globally 🌎"
       ],
       "disclaimerBanner": {
-        "title": "\u26a0\ufe0f Demo Site - Illustrative Examples Only",
+        "title": "⚠️ Demo Site - Illustrative Examples Only",
         "description": "This site contains AI-generated content for demonstration purposes only.",
         "buttonText": "Contact Stoic Finch",
         "buttonLink": "mailto:hello@stoicfinch.com",
@@ -76,7 +76,7 @@
     "trust": {
       "eyebrow": "About Stoic Finch",
       "title": "We provide the data professionals you need.",
-      "subtitle": "Five specialized areas, one trusted team \u2014 built to address current and future organizational data requirements.",
+      "subtitle": "Five specialized areas, one trusted team — built to address current and future organizational data requirements.",
       "items": [
         {
           "icon": "BarChart",
@@ -114,7 +114,7 @@
           "icon": "Trophy",
           "title": "Brag a Little",
           "subtitle": "Showcase the value your team adds.",
-          "description": "Automated dashboards give leadership clear visibility \u2014 and free your team from administrative reporting."
+          "description": "Automated dashboards give leadership clear visibility — and free your team from administrative reporting."
         },
         {
           "icon": "Zap",
@@ -126,14 +126,14 @@
           "icon": "Target",
           "title": "Focus on your priorities",
           "subtitle": "Focus on what needs to get done.",
-          "description": "Embedded data experts work directly with your stakeholders \u2014 independently of your engineering backlog."
+          "description": "Embedded data experts work directly with your stakeholders — independently of your engineering backlog."
         }
       ]
     },
     "services": {
       "eyebrow": "Services",
       "title": "Five service areas. One trusted team.",
-      "subtitle": "We meet you wherever you are on your data journey \u2014 from your first dashboard to managing data at scale.",
+      "subtitle": "We meet you wherever you are on your data journey — from your first dashboard to managing data at scale.",
       "items": [
         {
           "name": "Reports & Dashboarding",
@@ -148,7 +148,7 @@
         },
         {
           "name": "Data Analysis",
-          "description": "Discovery analyses, deep dives and recurring analytics. Answers to the questions you keep asking \u2014 and the ones you should be.",
+          "description": "Discovery analyses, deep dives and recurring analytics. Answers to the questions you keep asking — and the ones you should be.",
           "deliverables": [
             "Ad-hoc analyses",
             "Cohort and segmentation studies",
@@ -159,7 +159,7 @@
         },
         {
           "name": "Data Science",
-          "description": "Predictive models, classification, forecasting and recommendation systems \u2014 designed to be deployed, not just demoed.",
+          "description": "Predictive models, classification, forecasting and recommendation systems — designed to be deployed, not just demoed.",
           "deliverables": [
             "Forecasting models",
             "Classification & scoring",
@@ -199,7 +199,7 @@
       "highlights": [
         {
           "title": "Attain Your Source of Truth",
-          "description": "One model, one place, one number \u2014 that everyone agrees on."
+          "description": "One model, one place, one number — that everyone agrees on."
         },
         {
           "title": "Manage Data at Scale",
@@ -269,12 +269,12 @@
     "workingWithUs": {
       "eyebrow": "Working with Us",
       "title": "Simple working models to ensure you succeed.",
-      "subtitle": "Three engagement modes \u2014 pick the one that fits where you are.",
+      "subtitle": "Three engagement modes — pick the one that fits where you are.",
       "steps": [
         {
           "title": "Consultation",
           "description": "Discovery and advisory. We assess your data landscape and recommend a path forward.",
-          "duration": "1\u20134 weeks"
+          "duration": "1–4 weeks"
         },
         {
           "title": "Development",
@@ -320,20 +320,20 @@
           }
         ],
         "submitText": "Get Started Today",
-        "successMessage": "Thanks \u2014 we'll be in touch within one business day."
+        "successMessage": "Thanks — we'll be in touch within one business day."
       },
       "linkedin": "https://www.linkedin.com/company/stoicfinch/",
-      "footnote": "Born in Calgary \ud83c\udf41 Inspired by the Rockies \ud83c\udfd4 Delivered Globally \ud83c\udf0e"
+      "footnote": "Born in Calgary 🍁 Inspired by the Rockies 🏔 Delivered Globally 🌎"
     }
   },
   "aboutPage": {
     "seo": {
-      "title": "About Stoic Finch \u2014 Calgary-born data consultancy",
+      "title": "About Stoic Finch — Calgary-born data consultancy",
       "description": "Stoic Finch is a Calgary-born data consultancy delivering Reports & Dashboarding, Data Analysis, Data Science, Data Engineering and Data Strategy to clients worldwide."
     },
     "hero": {
       "headline": "About Stoic Finch",
-      "subheadline": "Born in Calgary \ud83c\udf41  Inspired by the Rockies \ud83c\udfd4  Delivered Globally \ud83c\udf0e",
+      "subheadline": "Born in Calgary 🍁  Inspired by the Rockies 🏔  Delivered Globally 🌎",
       "ctaPrimaryText": "Get Started Today",
       "ctaPrimaryHref": "/s/en/stoicfinch/contact"
     },
@@ -384,7 +384,7 @@
   },
   "contactPage": {
     "seo": {
-      "title": "Contact Stoic Finch \u2014 Get started with your data",
+      "title": "Contact Stoic Finch — Get started with your data",
       "description": "Tell us about your data problem. We'll be in touch within one business day. No commitments, no hassle."
     },
     "hero": {
@@ -403,8 +403,8 @@
   },
   "founderPage": {
     "seo": {
-      "title": "Founder \u2014 Stoic Finch",
-      "description": "Meet the founder of Stoic Finch \u2014 a Calgary-born data consultancy."
+      "title": "Founder — Stoic Finch",
+      "description": "Meet the founder of Stoic Finch — a Calgary-born data consultancy."
     },
     "hero": {
       "headline": "The founder",
@@ -415,7 +415,7 @@
     "ourStory": {
       "eyebrow": "Why Stoic Finch",
       "title": "Set yourself up to be a market leader in data-driven value creation.",
-      "subtitle": "Most organizations hit the same three walls: their data is scattered, their team spends cycles figuring out 'the right version,' and engineering is backed up. Stoic Finch was built to solve all three \u2014 as one calm, senior team.",
+      "subtitle": "Most organizations hit the same three walls: their data is scattered, their team spends cycles figuring out 'the right version,' and engineering is backed up. Stoic Finch was built to solve all three — as one calm, senior team.",
       "items": [
         {
           "icon": "Target",
@@ -425,7 +425,7 @@
         {
           "icon": "Zap",
           "title": "Scale processing infinitely",
-          "description": "Tailor a modern data platform to your needs \u2014 automated processing, built-in quality checks, batch and real-time."
+          "description": "Tailor a modern data platform to your needs — automated processing, built-in quality checks, batch and real-time."
         },
         {
           "icon": "Users",
@@ -437,12 +437,12 @@
   },
   "industriesIndexPage": {
     "seo": {
-      "title": "Industries we serve \u2014 Stoic Finch",
+      "title": "Industries we serve — Stoic Finch",
       "description": "Stoic Finch partners with organizations across B2B SaaS, healthcare, financial services, manufacturing, and oil & gas."
     },
     "hero": {
       "headline": "Industries we serve",
-      "subheadline": "Our consultants bring domain experience across five industries \u2014 each with distinct data patterns and regulatory contexts.",
+      "subheadline": "Our consultants bring domain experience across five industries — each with distinct data patterns and regulatory contexts.",
       "ctaPrimaryText": "Start a conversation",
       "ctaPrimaryHref": "/s/en/stoicfinch/contact"
     },
@@ -484,7 +484,7 @@
   },
   "faqPage": {
     "seo": {
-      "title": "FAQ \u2014 Stoic Finch",
+      "title": "FAQ — Stoic Finch",
       "description": "Common questions about engagements, pricing, team composition, tools and timelines."
     },
     "hero": {
@@ -498,29 +498,29 @@
       "items": [
         {
           "question": "How do you typically engage?",
-          "answer": "Three models: Consultation (1\u20134 weeks discovery + advisory), Development (project-based build with milestones), Ongoing Maintenance (monthly retainer for managed analytics/pipelines/models)."
+          "answer": "Three models: Consultation (1–4 weeks discovery + advisory), Development (project-based build with milestones), Ongoing Maintenance (monthly retainer for managed analytics/pipelines/models)."
         },
         {
           "question": "What tools do you work with?",
-          "answer": "Python, Power BI, Tableau, PostgreSQL, Pandas, Apache Spark, Delta Lake, Jupyter, Git \u2014 plus cloud-native stacks on Azure, AWS and GCP. We pick the tool that fits your existing ecosystem."
+          "answer": "Python, Power BI, Tableau, PostgreSQL, Pandas, Apache Spark, Delta Lake, Jupyter, Git — plus cloud-native stacks on Azure, AWS and GCP. We pick the tool that fits your existing ecosystem."
         },
         {
           "question": "Where are you based?",
-          "answer": "Born in Calgary, Alberta \ud83c\udde8\ud83c\udde6. Delivered globally \u2014 most engagements are remote or hybrid, with on-site options for Calgary/Alberta clients."
+          "answer": "Born in Calgary, Alberta 🇨🇦. Delivered globally — most engagements are remote or hybrid, with on-site options for Calgary/Alberta clients."
         },
         {
           "question": "Do you publish pricing?",
-          "answer": "No \u2014 scope, seniority, and timeline vary too much. We quote per engagement after a free consultation. Typical engagements range from single-sprint discoveries to multi-quarter retainers."
+          "answer": "No — scope, seniority, and timeline vary too much. We quote per engagement after a free consultation. Typical engagements range from single-sprint discoveries to multi-quarter retainers."
         },
         {
           "question": "What's the smallest engagement you take?",
-          "answer": "A 1\u20132 week discovery is a common starting point. We use it to map your data landscape and agree on where to invest first."
+          "answer": "A 1–2 week discovery is a common starting point. We use it to map your data landscape and agree on where to invest first."
         }
       ]
     },
     "cta": {
       "title": "Didn't see your question?",
-      "subtitle": "Get in touch \u2014 we respond within one business day.",
+      "subtitle": "Get in touch — we respond within one business day.",
       "email": "hello@stoicfinch.com"
     }
   },
@@ -580,9 +580,9 @@
         ]
       }
     ],
-    "address": "Calgary, Alberta, Canada \ud83c\udde8\ud83c\udde6",
-    "tagline2": "Born in Calgary \ud83c\udf41 Inspired by the Rockies \ud83c\udfd4 Delivered Globally \ud83c\udf0e",
-    "copyright": "\u00a9 2026 Stoic Finch Corporation. All rights reserved.",
+    "address": "Calgary, Alberta, Canada 🇨🇦",
+    "tagline2": "Born in Calgary 🍁 Inspired by the Rockies 🏔 Delivered Globally 🌎",
+    "copyright": "© 2026 Stoic Finch Corporation. All rights reserved.",
     "navLinks": [
       {
         "label": "Home",
@@ -607,8 +607,80 @@
   },
   "seo": {
     "home": {
-      "title": "Stoic Finch \u2014 Data Analytics Consulting",
+      "title": "Stoic Finch — Data Analytics Consulting",
       "description": "Data strategy, engineering, science and BI for growing companies."
+    }
+  },
+  "location-edmonton": {
+    "seo": {
+      "title": "Data Engineering Edmonton | StoicFinch",
+      "description": "Data engineering services in Edmonton, Alberta."
+    },
+    "hero": {
+      "headline": "Data Engineering in Edmonton",
+      "subheadline": "Expert data solutions for Edmonton businesses."
+    },
+    "features": {
+      "title": "Why Edmonton?",
+      "items": [
+        {
+          "title": "Local Expertise",
+          "description": "We understand Edmonton's business landscape.",
+          "icon": "MapPin"
+        },
+        {
+          "title": "On-site Support",
+          "description": "Regular on-site visits available.",
+          "icon": "Users"
+        },
+        {
+          "title": "Custom Solutions",
+          "description": "Tailored data pipelines for your industry.",
+          "icon": "Settings"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Get in Touch",
+      "subtitle": "Ready to discuss your Edmonton data project?",
+      "buttonText": "Contact Us",
+      "buttonHref": "/contact"
+    }
+  },
+  "location-vancouver": {
+    "seo": {
+      "title": "Data Engineering Vancouver | StoicFinch",
+      "description": "Data engineering services in Vancouver, BC."
+    },
+    "hero": {
+      "headline": "Data Engineering in Vancouver",
+      "subheadline": "West coast data expertise for growing companies."
+    },
+    "features": {
+      "title": "Why Vancouver?",
+      "items": [
+        {
+          "title": "Tech Hub Access",
+          "description": "Deep integration with Vancouver's tech ecosystem.",
+          "icon": "Zap"
+        },
+        {
+          "title": "Remote-First",
+          "description": "Efficient remote collaboration with local presence.",
+          "icon": "Wifi"
+        },
+        {
+          "title": "Scalable Solutions",
+          "description": "Built for startups and scale-ups alike.",
+          "icon": "TrendingUp"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Get in Touch",
+      "subtitle": "Ready to discuss your Vancouver data project?",
+      "buttonText": "Contact Us",
+      "buttonHref": "/contact"
     }
   }
 }

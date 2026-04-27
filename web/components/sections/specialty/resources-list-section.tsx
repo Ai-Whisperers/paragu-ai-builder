@@ -15,6 +15,7 @@ interface ResourcesListSectionProps {
   features?: ResourceItem[]
   items?: ResourceItem[]
   columns?: 2 | 3 | 4
+  downloadLabel?: string
   locale?: string
 }
 
@@ -53,11 +54,12 @@ export function ResourcesListSection({
   features,
   items,
   columns = 3,
+  downloadLabel: downloadLabelProp,
   locale = 'es',
 }: ResourcesListSectionProps) {
   const list = features || items || []
   if (list.length === 0) return null
-  const downloadLabel = DOWNLOAD_LABEL[locale] || DOWNLOAD_LABEL.es
+  const downloadLabel = downloadLabelProp || DOWNLOAD_LABEL[locale] || DOWNLOAD_LABEL.es
 
   return (
     <section className="bg-[var(--background)] py-16 sm:py-20">

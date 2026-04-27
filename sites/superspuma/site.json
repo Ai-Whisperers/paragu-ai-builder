@@ -61,7 +61,7 @@
     "linkedin": "superspuma-del-paraguay-saeca"
   },
   "location": {
-    "address": "Ruta Ypan\u00e9 - Villeta y Arroyo Avay",
+    "address": "Ruta Ypané - Villeta y Arroyo Avay",
     "city": "Villeta",
     "department": "Central",
     "country": "Paraguay",
@@ -73,7 +73,7 @@
   },
   "hours": {
     "Lunes a Viernes": "07:30 - 17:00",
-    "S\u00e1bado": "07:30 - 12:00",
+    "Sábado": "07:30 - 12:00",
     "Domingo": "Cerrado"
   },
   "settings": {
@@ -84,26 +84,26 @@
       "enabled": true,
       "freeThresholdGs": 1000000,
       "zones": [
-        "Asunci\u00f3n",
+        "Asunción",
         "Central",
-        "Paraguar\u00ed",
+        "Paraguarí",
         "Cordillera",
         "Interior"
       ],
       "national": true,
       "pickupAvailable": true,
       "pickupAddresses": [
-        "Villamorra Shopping (Asunci\u00f3n)",
-        "Paseo La Galer\u00eda (Asunci\u00f3n)",
-        "Fuente Shopping (Asunci\u00f3n)",
-        "Lillo 2779 (Asunci\u00f3n Centro)",
+        "Villamorra Shopping (Asunción)",
+        "Paseo La Galería (Asunción)",
+        "Fuente Shopping (Asunción)",
+        "Lillo 2779 (Asunción Centro)",
         "Fernando de la Mora",
-        "Luisito (\u00d1emby)",
+        "Luisito (Ñemby)",
         "Saldos Mariano (Mariano Roque Alonso)",
         "Planta Villeta",
         "Ciudad del Este",
-        "Encarnaci\u00f3n",
-        "Caaguaz\u00fa",
+        "Encarnación",
+        "Caaguazú",
         "Santa Rosa",
         "Filadelfia (Chaco)"
       ]
@@ -123,7 +123,7 @@
         "Mastercard",
         "Credicard",
         "Cabal",
-        "P\u00e1nal"
+        "Pánal"
       ]
     },
     "services": {
@@ -172,5 +172,19 @@
       }
     ]
   },
-  "isLiveProduction": true
+  "isLiveProduction": true,
+  "features": {
+    "whatsappFloat": {
+      "enabled": true
+    },
+    "productCatalog": {
+      "enabled": true
+    },
+    "testimonials": {
+      "enabled": true
+    },
+    "ageGate": {
+      "enabled": false
+    }
+  }
 }

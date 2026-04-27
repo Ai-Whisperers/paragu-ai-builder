@@ -157,7 +157,7 @@ export function resolveSiteTokens(
   // dark color (text pops against dark bg), but breaks when tenants choose
   // a LIGHT primary color for contrast against their dark page bg: the pill
   // then has white-ish text on light-ish bg → invisible.
-  const pc = colors as Record<string, string | undefined>
+  const pc = colors as unknown as Record<string, string | undefined>
   const vars: Record<string, string> = {
     '--primary': colors.primary,
     '--primary-foreground': pc.primaryForeground || (theme === 'dark' ? colors.text : '#ffffff'),

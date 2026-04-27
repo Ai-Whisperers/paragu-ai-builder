@@ -174,11 +174,18 @@ const nextConfig = {
     serverActions: {
       bodySizeLimit: '2mb',
     },
-    // Enable tree shaking and optimization
     optimizePackageImports: [
       'lucide-react',
       '@supabase/supabase-js',
     ],
+    outputFileTracingExcludes: {
+      '*': [
+        'node_modules/@swc/core-linux-x64-gnu/**',
+        'node_modules/@next/swc-linux-x64-gnu/**',
+        'node_modules/caniuse-lite/**',
+        'node_modules/typescript/**',
+      ],
+    },
   },
 
   // Compress output

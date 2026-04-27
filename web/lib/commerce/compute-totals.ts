@@ -20,10 +20,4 @@ export function computeOrderTotal(parts: {
   return total < 0 ? 0 : total
 }
 
-export function formatCents(cents: number, currency = 'PYG'): string {
-  if (currency === 'PYG') {
-    return `Gs ${Math.round(cents).toLocaleString('es-PY')}`
-  }
-  const formatter = new Intl.NumberFormat('es-PY', { style: 'currency', currency })
-  return formatter.format(cents / 100)
-}
+export { formatCents } from '@/lib/format'

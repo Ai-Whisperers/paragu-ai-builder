@@ -14,11 +14,6 @@
       "content": "sobre.bio"
     },
     {
-      "id": "features",
-      "variant": "grid",
-      "content": "sobre.highlightsBlock"
-    },
-    {
       "id": "process",
       "variant": "steps",
       "content": "home.process"

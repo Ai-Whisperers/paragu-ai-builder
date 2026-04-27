@@ -56,6 +56,12 @@ const DELIVERY_DAYS = [
 ]
 
 
+export interface SubscriptionSectionProps {
+  phone?: string
+  products?: Array<{ name: string; price: string }>
+  className?: string
+}
+
 import { SubscriptionForm } from './subscription-form'
 
 export function SubscriptionSection({ phone, products, className }: SubscriptionSectionProps) {
@@ -74,7 +80,7 @@ export function SubscriptionSection({ phone, products, className }: Subscription
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-start">
-          <SubscriptionForm phone={phone} products={products} />
+          <SubscriptionForm phone={phone!} products={(products || []).map((p, i) => ({ id: String(i), name: p.name, price: Number(p.price) || 0, unit: 'unidad' }))} />
 
           <div className="space-y-6">
             <Card>

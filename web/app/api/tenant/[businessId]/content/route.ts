@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
 import { requireTenant } from '@/lib/auth/tenant'
+import { getBusinessContent } from '@/lib/business-content'
 
 export const runtime = 'nodejs'
 
@@ -23,7 +24,7 @@ export async function PUT(
     .eq('id', businessId)
     .single()
 
-  const existing = (business?.data_json as any) || {}
+  const existing = getBusinessContent(business || { data_json: null })
   const updated = {
     ...existing,
     content: { ...(existing.content || {}), ...body },

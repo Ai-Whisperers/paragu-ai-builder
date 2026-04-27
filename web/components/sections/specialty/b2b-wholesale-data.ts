@@ -1,30 +1,8 @@
 /** Business data types and defaults for B2BWholesaleSection */
-import { CheckCircle, Shield, Truck, Leaf, Award, Users, Package, Clock, HeartHandshake, type LucideIcon } from 'lucide-react'
+import { CheckCircle, Shield, Truck, Leaf, Award, Users, Package, Clock, HeartHandshake, Phone, MessageCircle, Building2, ChefHat, Store, Coffee, School, MapPin, Calculator, type LucideIcon } from 'lucide-react'
 
-import {
-  Phone,
-  MessageCircle,
-  Building2,
-  Users,
-  ChefHat,
-  Store,
-  Coffee,
-  School,
-  CheckCircle,
-  Truck,
-  Award,
-  Clock,
-  MapPin,
-  Package,
-  Calculator,
-  type LucideIcon,
-} from 'lucide-react'
-import Link from 'next/link'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Heading } from '@/components/ui/heading'
 
-interface BusinessData {
+export interface BusinessData {
   name: string
   whatsapp: string
   phone?: string
@@ -33,7 +11,7 @@ interface BusinessData {
   city: string
 }
 
-interface Industry {
+export interface Industry {
   icon?: string
   title: string
   description: string
@@ -41,7 +19,7 @@ interface Industry {
   author: string
 }
 
-interface PricingTier {
+export interface PricingTier {
   name: string
   volume: string
   discount: string
@@ -49,29 +27,29 @@ interface PricingTier {
   recommended?: boolean
 }
 
-interface FaqItem {
+export interface FaqItem {
   question: string
   answer: string
 }
 
-interface WhyItem {
+export interface WhyItem {
   icon?: string
   title: string
   desc: string
 }
 
-interface ProcessStep {
+export interface ProcessStep {
   step: string
   title: string
   desc: string
 }
 
-interface Guarantee {
+export interface Guarantee {
   title: string
   desc: string
 }
 
-interface B2BPageProps {
+export interface B2BPageProps {
   business: BusinessData
   industries?: Industry[]
   pricingTiers?: PricingTier[]
@@ -89,7 +67,7 @@ interface B2BPageProps {
 // Icon registry — maps string names in JSON content to Lucide components.
 // Content files can't store component refs; this bridges that gap.
 
-const ICONS: Record<string, LucideIcon> = {
+export const ICONS: Record<string, LucideIcon> = {
   ChefHat,
   Store,
   Coffee,
@@ -105,7 +83,7 @@ const ICONS: Record<string, LucideIcon> = {
   MessageCircle,
 }
 
-const DEFAULT_INDUSTRIES: Industry[] = [
+export const DEFAULT_INDUSTRIES: Industry[] = [
   {
     icon: 'ChefHat',
     title: 'Restaurantes',
@@ -150,7 +128,7 @@ const DEFAULT_INDUSTRIES: Industry[] = [
   },
 ]
 
-const DEFAULT_PRICING_TIERS: PricingTier[] = [
+export const DEFAULT_PRICING_TIERS: PricingTier[] = [
   {
     name: 'Bronce',
     volume: '100-300 huevos/semana',
@@ -178,7 +156,7 @@ const DEFAULT_PRICING_TIERS: PricingTier[] = [
   },
 ]
 
-const DEFAULT_FAQS: FaqItem[] = [
+export const DEFAULT_FAQS: FaqItem[] = [
   {
     question: '¿Cuál es el mínimo de compra para obtener precios mayoristas?',
     answer: 'El descuento mayorista aplica desde 100 huevos por semana. Sin embargo, podemos cotizar cualquier volumen. Consultanos sin compromiso.',
@@ -201,7 +179,7 @@ const DEFAULT_FAQS: FaqItem[] = [
   },
 ]
 
-const DEFAULT_WHY_CHOOSE_US: WhyItem[] = [
+export const DEFAULT_WHY_CHOOSE_US: WhyItem[] = [
   { icon: 'Package', title: 'Frescura Garantizada', desc: 'Recolección diaria y entrega el mismo día. Máxima frescura para tus clientes.' },
   { icon: 'Award', title: 'Calidad Superior', desc: 'Yemas doradas intensamente coloreadas. Perfectas para presentación.' },
   { icon: 'Truck', title: 'Entrega Confiable', desc: 'Rutas de entrega semanales establecidas. Nunca te quedes sin stock.' },
@@ -210,14 +188,14 @@ const DEFAULT_WHY_CHOOSE_US: WhyItem[] = [
   { icon: 'Clock', title: 'Flexibilidad Total', desc: 'Cantidades específicas y entregas urgentes. Nos adaptamos a vos.' },
 ]
 
-const DEFAULT_PROCESS_STEPS: ProcessStep[] = [
+export const DEFAULT_PROCESS_STEPS: ProcessStep[] = [
   { step: '1', title: 'Consulta', desc: 'Nos escribís por WhatsApp. Nos contás sobre tu negocio: tipo, consumo estimado, zona y horarios.' },
   { step: '2', title: 'Cotización', desc: 'Te enviamos precios especiales según tu volumen. Sin compromiso. Sin contratos forzosos.' },
   { step: '3', title: 'Prueba', desc: 'Hacé tu primer pedido pequeño. Probá la frescura y calidad. Sin riesgo. Sin mínimos forzados.' },
   { step: '4', title: 'Suministro Regular', desc: 'Establecemos día y hora fijos de entrega. Cantidad semanal definida. Contacto directo.' },
 ]
 
-const DEFAULT_GUARANTEES: Guarantee[] = [
+export const DEFAULT_GUARANTEES: Guarantee[] = [
   { title: 'Garantía de Frescura', desc: 'Si un huevo llega roto o en mal estado, lo reemplazamos sin costo en tu próxima entrega.' },
   { title: 'Garantía de Puntualidad', desc: 'Si llegamos tarde a una entrega programada, 10% de descuento en esa entrega.' },
   { title: 'Garantía de Calidad', desc: 'Si la calidad no cumple tus expectativas, te devolvemos el dinero. Sin preguntas.' },

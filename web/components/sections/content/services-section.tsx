@@ -43,6 +43,8 @@ export interface ServicesSectionProps {
   hoverEffect?: boolean
   /** Active URL locale — picks localized defaults for "From" price prefix and "Other" category fallback. */
   __locale?: string
+  /** Locale-keyed UI labels for price prefixes, categories, etc. Falls back to SERVICE_LABELS when not supplied. */
+  serviceLabels?: Record<string, { from: string; otherCategory: string; includes: string; delivery: string }>
 }
 
 const SERVICE_LABELS: Record<string, { from: string; otherCategory: string; includes: string; delivery: string }> = {
@@ -94,11 +96,13 @@ export function ServicesSection({
   cardStyle = 'default',
   hoverEffect = true,
   __locale,
+  serviceLabels,
 }: ServicesSectionProps) {
   const services = servicesProp || items || []
   if (services.length === 0) return null
 
-  const L = SERVICE_LABELS[__locale ?? 'es'] || SERVICE_LABELS.es
+  const labels = serviceLabels ?? SERVICE_LABELS
+  const L = labels[__locale ?? 'es'] || labels.es
 
   // Group services by category if categories exist
   const hasCategories = services.some((s) => s.category)

@@ -3,11 +3,35 @@
   "titleKey": "productosPage.seo.title",
   "descriptionKey": "productosPage.seo.description",
   "sections": [
-    { "id": "header", "variant": "standard", "content": "navigation" },
-    { "id": "hero", "variant": "minimal", "content": "productosPage.hero" },
-    { "id": "services", "variant": "cards", "content": "home.services" },
-    { "id": "contact", "variant": "split", "content": "home.contact" },
-    { "id": "footer", "variant": "standard", "content": "footer" },
-    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "productosPage.hero"
+    },
+    {
+      "id": "product-catalog",
+      "variant": "grid",
+      "content": "home.products"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
   ]
 }

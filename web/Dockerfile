@@ -22,25 +22,26 @@ FROM node:20-alpine AS deps
 WORKDIR /app
 RUN apk add --no-cache libc6-compat python3 make g++
 COPY web/package.json web/package-lock.json* ./
-RUN npm install --legacy-peer-deps
+RUN --mount=type=cache,target=/root/.npm \
+    npm install --legacy-peer-deps
 
 # Stage 2: Builder
 FROM node:20-alpine AS builder
 WORKDIR /app
 
+# Public build args — safe to embed (exposed in browser)
 ARG NEXT_PUBLIC_SUPABASE_URL
 ARG NEXT_PUBLIC_SUPABASE_ANON_KEY
-ARG SUPABASE_SERVICE_ROLE_KEY
 ARG NEXT_PUBLIC_APP_URL
-ARG GOOGLE_PLACES_API_KEY
 
-# Hardcoded defaults for build-time — these are public values (exposed in browser)
-# They get overridden by --build-arg when passed, or by Swarm runtime env when set
+# Private secrets passed via BuildKit --secret (not embedded in image)
+#   docker build --secret id=supabase_key,env=SUPABASE_SERVICE_ROLE_KEY ...
+#   Run with: echo $SUPABASE_SERVICE_ROLE_KEY
 ENV NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL:-https://qyvokpribmbrosafntqa.supabase.co}
 ENV NEXT_PUBLIC_SUPABASE_ANON_KEY=${NEXT_PUBLIC_SUPABASE_ANON_KEY:-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF5dm9rcHJpYm1icm9zYWZudHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzMTgxNTUsImV4cCI6MjA5MTg5NDE1NX0.ww_-gt4beuTcr_HbUCv0HmuKCw-J-HWTAI441yDSXRg}
-ENV SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
 ENV NEXT_PUBLIC_APP_URL=${NEXT_PUBLIC_APP_URL:-https://paragu-ai.com}
-ENV GOOGLE_PLACES_API_KEY=${GOOGLE_PLACES_API_KEY}
+# Secrets are made available at build time via BuildKit --secret mounts
+# and consumed in the build stage below.
 
 # Copy source tree (repo root is build context)
 COPY --from=deps /app/node_modules ./web/node_modules
@@ -59,7 +60,9 @@ ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 ENV SRC_DIR=/app/src
 ENV SITES_DIR=/app/sites
-RUN npm run build
+RUN --mount=type=secret,id=supabase_key,env=SUPABASE_SERVICE_ROLE_KEY \
+    --mount=type=secret,id=google_places_key,env=GOOGLE_PLACES_API_KEY \
+    npm run build
 
 # Stage 3: Runner (Production)
 FROM node:20-alpine AS runner

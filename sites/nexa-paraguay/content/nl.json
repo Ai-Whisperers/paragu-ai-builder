@@ -322,6 +322,129 @@
     "taxCalculator": {
       "title": "Belastingbesparing-calculator",
       "subtitle": "Schat hoeveel u bespaart aan belastingen door zich in Paraguay te vestigen."
+    },
+    "intakeWizard": {
+      "steps": [
+        {
+          "key": "goal",
+          "question": "Wat is uw hoofddoel bij verhuizing naar Paraguay?",
+          "options": [
+            {
+              "value": "residency",
+              "label": "Verblijfsvergunning krijgen"
+            },
+            {
+              "value": "business",
+              "label": "Bedrijf oprichten"
+            },
+            {
+              "value": "investor",
+              "label": "Investeren in Paraguay"
+            },
+            {
+              "value": "land",
+              "label": "Grond kopen"
+            }
+          ]
+        },
+        {
+          "key": "income",
+          "question": "Hoe genereert u momenteel uw inkomen?",
+          "options": [
+            {
+              "value": "employed",
+              "label": "Werknemer"
+            },
+            {
+              "value": "self-employed",
+              "label": "Zelfstandig / freelance"
+            },
+            {
+              "value": "founder",
+              "label": "Oprichter / ondernemer"
+            },
+            {
+              "value": "investor",
+              "label": "Investeerder"
+            },
+            {
+              "value": "retired",
+              "label": "Gepensioneerd"
+            }
+          ]
+        },
+        {
+          "key": "needs",
+          "question": "Wat heeft u naast verblijf nodig?",
+          "options": [
+            {
+              "value": "residency-only",
+              "label": "Alleen verblijf"
+            },
+            {
+              "value": "company-and-bank",
+              "label": "Vennootschap + bankrekening"
+            },
+            {
+              "value": "company-plus-advisory",
+              "label": "Vennootschap + bank + 12 maanden advies"
+            },
+            {
+              "value": "land-only",
+              "label": "Alleen grondaankoop"
+            }
+          ]
+        },
+        {
+          "key": "timeline",
+          "question": "Wanneer wilt u beginnen?",
+          "options": [
+            {
+              "value": "asap",
+              "label": "Zo snel mogelijk"
+            },
+            {
+              "value": "quarter",
+              "label": "Volgend kwartaal"
+            },
+            {
+              "value": "year",
+              "label": "Binnen het jaar"
+            },
+            {
+              "value": "researching",
+              "label": "Alleen onderzoek"
+            }
+          ]
+        }
+      ],
+      "tierLabels": {
+        "base": {
+          "name": "Paraguay Base",
+          "pitch": "Permanente verblijfsvergunning + ID. Eenvoudigste pakket."
+        },
+        "business": {
+          "name": "Paraguay Business",
+          "pitch": "Verblijf + vennootschap + bankrekening. Meest gekozen programma."
+        },
+        "investor": {
+          "name": "Paraguay Investor Program",
+          "pitch": "Alles van Business + 12 maanden boekhouding en fiscaal advies."
+        },
+        "tierras": {
+          "name": "Grondaankoop",
+          "pitch": "Volledig advies bij grondaankoop."
+        }
+      },
+      "ui": {
+        "back": "Terug",
+        "next": "Volgende",
+        "step": "Stap",
+        "of": "van",
+        "result": "Uw aanbevolen programma",
+        "viewProgram": "Zie programmadetails",
+        "restart": "Opnieuw beginnen"
+      }
     }
   },
   "programasPage": {
@@ -1066,6 +1189,29 @@
       {
         "label": "Pers",
         "href": "/s/nl/nexa-paraguay/prensa"
+      }
+    ],
+    "siblingSites": [
+      {
+        "slug": "nexa-paraguay",
+        "label": "Nexa Paraguay",
+        "defaultLocale": "nl",
+        "locales": [
+          "nl",
+          "en",
+          "de",
+          "es"
+        ]
+      },
+      {
+        "slug": "nexa-propiedades",
+        "label": "Nexa Propiedades",
+        "defaultLocale": "es",
+        "locales": [
+          "es",
+          "en",
+          "pt"
+        ]
       }
     ]
   },

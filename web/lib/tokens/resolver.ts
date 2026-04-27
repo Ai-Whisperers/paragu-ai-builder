@@ -152,7 +152,7 @@ export function resolveTokens(
     throw new Error(`[TokenResolver] Palette "${paletteName}" not found for ${businessType}`)
   }
   const colors = palette.colors
-  const pc = colors as Record<string, string | undefined>
+  const pc = colors as unknown as Record<string, string | undefined>
 
   const vars: Record<string, string> = {}
 

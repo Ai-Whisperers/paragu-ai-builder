@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { useDashboard } from '../dashboard-layout'
 import { createClient } from '@/lib/supabase/client'
 
 interface Booking {

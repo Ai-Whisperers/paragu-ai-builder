@@ -154,32 +154,10 @@
     },
     "listings": {
       "title": "Available Properties",
-      "properties": [
-        {
-          "id": "prop-1",
-          "title": "Modern House in Asunci\u00f3n",
-          "location": "Barrio Jara, Asunci\u00f3n",
-          "price": "$250,000",
-          "type": "House",
-          "bedrooms": 4,
-          "bathrooms": 3,
-          "area": "350 m\u00b2",
-          "image": "/sites/nexa-propiedades/images/properties/casa-1.jpg"
-        },
-        {
-          "id": "prop-2",
-          "title": "Luxury Apartment",
-          "location": "Villa Morra, Asunci\u00f3n",
-          "price": "$180,000",
-          "type": "Apartment",
-          "bedrooms": 2,
-          "bathrooms": 2,
-          "area": "120 m\u00b2",
-          "image": "/sites/nexa-propiedades/images/properties/depto-1.jpg"
-        }
-      ]
+      "fetchFromApi": { "siteSlug": "nexa-propiedades" },
+      "properties": []
     },
-    "cta": {
+        "cta": {
       "title": "Didn't find what you were looking for?",
       "buttonText": "Contact an Agent",
       "buttonHref": "/s/en/nexa-propiedades/contacto"

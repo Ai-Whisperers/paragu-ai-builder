@@ -343,11 +343,43 @@ function generate(): string {
   return header + body
 }
 
+function emitPerTenantFiles(sites: DiscoveredSite[], verticals: DiscoveredVertical[]): void {
+  const tenantsDir = path.join(OUT_DIR, 'tenants')
+  fs.mkdirSync(tenantsDir, { recursive: true })
+  let files = 0
+
+  for (const s of sites) {
+    for (const [locale, content] of Object.entries(s.content)) {
+      const filePath = path.join(tenantsDir, `${s.slug}.${locale}.ts`)
+      const data = `// AUTO-GENERATED — do not edit.\nexport default ${formatValue(sortKeys(content))} as Record<string, unknown>\n`
+      fs.writeFileSync(filePath, data, 'utf-8')
+      files++
+    }
+  }
+
+  // Emit vertical copy files too
+  const vertDir = path.join(OUT_DIR, 'tenants', 'verticals')
+  fs.mkdirSync(vertDir, { recursive: true })
+  for (const v of verticals) {
+    for (const [locale, copy] of Object.entries(v.copy)) {
+      const filePath = path.join(vertDir, `${v.id}.${locale}.ts`)
+      const data = `// AUTO-GENERATED — do not edit.\nexport default ${formatValue(sortKeys(copy))} as Record<string, unknown>\n`
+      fs.writeFileSync(filePath, data, 'utf-8')
+      files++
+    }
+  }
+
+  console.log(`[tenant-data] wrote ${files} per-tenant chunk files`)
+}
+
 // ---------- main ----------
 
 fs.mkdirSync(OUT_DIR, { recursive: true })
+const sites = discoverSites()
+const verticals = discoverVerticals()
 const output = generate()
 fs.writeFileSync(OUT_FILE, output, 'utf-8')
+emitPerTenantFiles(sites, verticals)
 
 const lines = output.split('\n').length
 const bytes = Buffer.byteLength(output, 'utf-8')

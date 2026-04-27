@@ -349,7 +349,7 @@ const buildFeaturedProducts: SectionBuilder = ({ business, content }) => {
 const buildProductCatalog: SectionBuilder = ({ business, content, registry }) => {
   const products = business.products || []
   if (products.length === 0) return null
-  const catalogContent = (content as { productCatalogPage?: { title?: string; subtitle?: string; categories?: string[]; orderButtonText?: string; orderMessageTemplate?: string } }).productCatalogPage
+  const catalogContent = (content as { productCatalogPage?: { title?: string; subtitle?: string; categories?: string[]; orderButtonText?: string; orderMessageTemplate?: string }; catalogLabels?: Record<string, unknown> }).productCatalogPage
   return {
     title: catalogContent?.title || 'Catalogo',
     subtitle: catalogContent?.subtitle,
@@ -361,6 +361,7 @@ const buildProductCatalog: SectionBuilder = ({ business, content, registry }) =>
     orderMessageTemplate: catalogContent?.orderMessageTemplate ||
       'Hola! Me interesa: {{productName}} (${{productPrice}}). Quisiera mas informacion.',
     emailAddress: business.email,
+    catalogLabels: content.catalogLabels,
   }
 }
 
@@ -562,6 +563,52 @@ const buildPreorder: SectionBuilder = ({ business }) => ({
   phone: business.whatsapp || business.phone || '',
 })
 
+/**
+ * Multi-step intake wizard section — rendered on relocation-type business
+ * homepages. Questions, tier labels, and UI copy flow from
+ * content.intakeWizard (set in the content JSON for the business type).
+ * The decision tree lives in the component as a pure function so it's
+ * simple to override per-tenant with a custom recommendTier prop.
+ */
+const buildB2BWholesale: SectionBuilder = ({ business, content }) => {
+  const cfg = (content as { b2bWholesale?: Record<string, unknown> }).b2bWholesale
+  if (!cfg) return null
+  return {
+    ...cfg,
+    business,
+    __siteSlug: business.slug,
+  }
+}
+
+const buildOurStory: SectionBuilder = ({ business, content }) => {
+  const cfg = (content as { ourStory?: Record<string, unknown> }).ourStory
+  if (!cfg) return null
+  return {
+    ...cfg,
+    business,
+    __siteSlug: business.slug,
+  }
+}
+
+const buildIntakeWizard: SectionBuilder = ({ business, content, registry }) => {
+  const feat = (registry.features as { intakeWizard?: { enabled?: boolean } } | undefined)?.intakeWizard
+  if (!feat?.enabled) return null
+  const cfg = (content as { intakeWizard?: {
+    steps: Record<string, Array<{ key: string; question: string; options: Array<{ value: string; label: string }> }>>
+    tierLabels: Record<string, Record<string, { name: string; pitch: string }>>
+    ui: Record<string, { back: string; next: string; step: string; of: string; result: string; viewProgram: string; restart: string }>
+  } }).intakeWizard
+  if (!cfg) return null
+  // Compose pipeline passes locale-keyed data (from src/content/); resolve to ES
+  return {
+    steps: cfg.steps.es,
+    tierLabels: cfg.tierLabels.es,
+    ui: cfg.ui.es,
+    __locale: 'es',
+    __siteSlug: business.slug,
+  }
+}
+
 const buildGoogleReviews: SectionBuilder = ({ business, content }) => {
   const reviewContent = content as { reviewsWidget?: { title?: string; subtitle?: string; reviews?: Array<{ author: string; rating: number; text: string }> } }
   const reviews = reviewContent?.reviewsWidget?.reviews || []
@@ -653,9 +700,12 @@ export const SECTION_BUILDERS: Record<SectionType, SectionBuilder> = {
   referral: buildReferral,
   priceList: buildPriceList,
   preorder: buildPreorder,
+  intakeWizard: buildIntakeWizard,
   googleReviews: buildGoogleReviews,
   packagesGiftcards: buildPackagesGiftcards,
   branches: buildBranches,
+  b2bWholesale: buildB2BWholesale,
+  ourStory: buildOurStory,
   instagramFeed: buildInstagramFeed,
 }
 

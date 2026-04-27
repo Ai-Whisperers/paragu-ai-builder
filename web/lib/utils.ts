@@ -67,9 +67,10 @@ export function slugify(text: string): string {
  * fillTemplate('Missing: {{key}}', {}) // 'Missing: {{key}}'
  */
 export function fillTemplate(
-  template: string,
+  template: unknown,
   data: Record<string, string | number | undefined>
 ): string {
+  if (typeof template !== 'string') return String(template ?? '')
   return template.replace(/\{\{(\w+)\}\}/g, (match, key) => {
     const value = data[key]
     return value !== undefined ? String(value) : match

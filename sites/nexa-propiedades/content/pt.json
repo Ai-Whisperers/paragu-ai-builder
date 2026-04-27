@@ -135,33 +135,11 @@
       "subheadline": "Encontre o imóvel perfeito para você."
     },
     "listings": {
-      "title": "Imóveis Disponíveis",
-      "properties": [
-        {
-          "id": "prop-1",
-          "title": "Casa Moderna em Assunção",
-          "location": "Barrio Jara, Assunção",
-          "price": "$250.000",
-          "type": "Casa",
-          "bedrooms": 4,
-          "bathrooms": 3,
-          "area": "350 m²",
-          "image": "/sites/nexa-propiedades/images/properties/casa-1.jpg"
-        },
-        {
-          "id": "prop-2",
-          "title": "Apartamento de Luxo",
-          "location": "Villa Morra, Assunção",
-          "price": "$180.000",
-          "type": "Apartamento",
-          "bedrooms": 2,
-          "bathrooms": 2,
-          "area": "120 m²",
-          "image": "/sites/nexa-propiedades/images/properties/depto-1.jpg"
-        }
-      ]
+      "title": "Propriedades Disponíveis",
+      "fetchFromApi": { "siteSlug": "nexa-propiedades" },
+      "properties": []
     },
-    "cta": {
+        "cta": {
       "title": "Não encontrou o que procurava?",
       "buttonText": "Falar com Corretor",
       "buttonHref": "/s/pt/nexa-propiedades/contacto"
