@@ -393,47 +393,26 @@
     "eventos": {
       "title": "Pr\u00f3ximas Fechas",
       "subtitle": "N\u00fcdo en vivo \u2014 momentos que rompen",
-      "venues": [
+      "items": [
         {
-          "id": "tunako",
-          "name": "Tunak\u00f3 Pool Party",
-          "description": "Una de las mejores fechas del verano 2026. N\u00fcdo rompiendo en la pileta.",
-          "capacity": 500,
-          "idealFor": [
-            "Verano 2026",
-            "Pileta",
-            "Mosh"
-          ]
+          "icon": "Calendar",
+          "title": "Tunak\u00f3 Pool Party",
+          "description": " \u2014 . Una de las mejores fechas del verano 2026. N\u00fcdo rompiendo en la pileta."
         },
         {
-          "id": "rock-metalcore",
-          "name": "Rock & Metalcore Fest",
-          "description": "N\u00fcdo en el Rock & Metalcore Fest. Momentos que quedan grabados.",
-          "capacity": 300,
-          "idealFor": [
-            "Metalcore",
-            "Festival"
-          ]
+          "icon": "Calendar",
+          "title": "Rock & Metalcore Fest",
+          "description": " \u2014 . N\u00fcdo en el Rock & Metalcore Fest. Momentos que quedan grabados."
         },
         {
-          "id": "breakdown-fest",
-          "name": "BREAKDOWN FEST",
-          "description": "Presentaci\u00f3n en el BREAKDOWN FEST edici\u00f3n 2023.",
-          "capacity": 200,
-          "idealFor": [
-            "Breakdown",
-            "Metal"
-          ]
+          "icon": "Calendar",
+          "title": "BREAKDOWN FEST",
+          "description": " \u2014 . Presentaci\u00f3n en el BREAKDOWN FEST edici\u00f3n 2023."
         },
         {
-          "id": "black-mango",
-          "name": "Black Mango",
-          "description": "Concierto compartido con Drakengard.",
-          "capacity": 150,
-          "idealFor": [
-            "Concierto",
-            "Compartido"
-          ]
+          "icon": "Calendar",
+          "title": "Black Mango",
+          "description": " \u2014 . Concierto compartido con Drakengard."
         }
       ]
     }
