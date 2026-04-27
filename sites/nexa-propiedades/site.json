@@ -65,9 +65,30 @@
     "instagram": "https://instagram.com/nexapropiedades"
   },
   "seoDefaults": {
-    "titleTemplate": "{{pageTitle}} — Nexa Propiedades Paraguay",
-    "defaultDescription": "Encuentra tu hogar ideal en Paraguay. Casas, departamentos y terrenos en Asunción."
+    "titleTemplate": "{{pageTitle}} \u2014 Nexa Propiedades Paraguay",
+    "defaultDescription": "Encuentra tu hogar ideal en Paraguay. Casas, departamentos y terrenos en Asunci\u00f3n."
   },
   "is_demo": false,
-  "isLiveProduction": true
+  "isLiveProduction": true,
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  },
+  "path": "/s/es/nexa-propiedades",
+  "publicUrl": "https://paragu-ai.com/s/es/nexa-propiedades"
 }

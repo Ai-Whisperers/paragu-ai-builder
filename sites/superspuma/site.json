@@ -6,7 +6,6 @@
   "businessType": "mattress_store",
   "country": "Paraguay",
   "domain": null,
-
   "path": "/s/es/superspuma",
   "publicUrl": "https://paragu-ai.com/s/es/superspuma",
   "defaultLocale": "es",
@@ -62,7 +61,7 @@
     "linkedin": "superspuma-del-paraguay-saeca"
   },
   "location": {
-    "address": "Ruta Ypané - Villeta y Arroyo Avay",
+    "address": "Ruta Ypan\u00e9 - Villeta y Arroyo Avay",
     "city": "Villeta",
     "department": "Central",
     "country": "Paraguay",
@@ -74,7 +73,7 @@
   },
   "hours": {
     "Lunes a Viernes": "07:30 - 17:00",
-    "Sábado": "07:30 - 12:00",
+    "S\u00e1bado": "07:30 - 12:00",
     "Domingo": "Cerrado"
   },
   "settings": {
@@ -85,26 +84,26 @@
       "enabled": true,
       "freeThresholdGs": 1000000,
       "zones": [
-        "Asunción",
+        "Asunci\u00f3n",
         "Central",
-        "Paraguarí",
+        "Paraguar\u00ed",
         "Cordillera",
         "Interior"
       ],
       "national": true,
       "pickupAvailable": true,
       "pickupAddresses": [
-        "Villamorra Shopping (Asunción)",
-        "Paseo La Galería (Asunción)",
-        "Fuente Shopping (Asunción)",
-        "Lillo 2779 (Asunción Centro)",
+        "Villamorra Shopping (Asunci\u00f3n)",
+        "Paseo La Galer\u00eda (Asunci\u00f3n)",
+        "Fuente Shopping (Asunci\u00f3n)",
+        "Lillo 2779 (Asunci\u00f3n Centro)",
         "Fernando de la Mora",
-        "Luisito (Ñemby)",
+        "Luisito (\u00d1emby)",
         "Saldos Mariano (Mariano Roque Alonso)",
         "Planta Villeta",
         "Ciudad del Este",
-        "Encarnación",
-        "Caaguazú",
+        "Encarnaci\u00f3n",
+        "Caaguaz\u00fa",
         "Santa Rosa",
         "Filadelfia (Chaco)"
       ]
@@ -124,7 +123,7 @@
         "Mastercard",
         "Credicard",
         "Cabal",
-        "Pánal"
+        "P\u00e1nal"
       ]
     },
     "services": {

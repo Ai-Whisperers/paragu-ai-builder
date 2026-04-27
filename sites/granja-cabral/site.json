@@ -45,5 +45,26 @@
   "migratedFrom": "web/lib/engine/demo-data.ts",
   "migratedAt": "2026-04-20",
   "is_demo": false,
-  "isLiveProduction": true
+  "isLiveProduction": true,
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  },
+  "path": "/s/es/granja-cabral",
+  "publicUrl": "https://paragu-ai.com/s/es/granja-cabral"
 }

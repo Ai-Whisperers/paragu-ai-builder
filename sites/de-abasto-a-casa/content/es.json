@@ -18,7 +18,7 @@
   },
   "home": {
     "seo": {
-      "title": "De Abasto a Casa — Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
+      "title": "De Abasto a Casa \u2014 Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
       "description": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo."
     },
     "hero": {
@@ -28,7 +28,7 @@
       "ctaPrimaryHref": "https://wa.me/595981324569",
       "trustBadges": [
         "Puerta a puerta",
-        "Entrega en el día",
+        "Entrega en el d\u00eda",
         "San Lorenzo"
       ]
     },
@@ -36,7 +36,7 @@
       "title": "Nuestros Servicios",
       "items": [
         {
-          "name": "Compra básica semanal",
+          "name": "Compra b\u00e1sica semanal",
           "price": "250.000 Gs/semana",
           "duration": 120,
           "description": "Lista corta, 1 proveedor. Hasta 15 productos. Delivery incluido.",
@@ -46,21 +46,21 @@
           "name": "Compra completa semanal",
           "price": "400.000 Gs/semana",
           "duration": 180,
-          "description": "Lista completa + Abasto + mercado + almacén. Delivery y organizado.",
+          "description": "Lista completa + Abasto + mercado + almac\u00e9n. Delivery y organizado.",
           "category": "Compras (Raw)"
         },
         {
           "name": "Mise-en-place individual",
           "price": "400.000 Gs/semana",
           "duration": 240,
-          "description": "1 persona. Prep básico: proteína + carbos + vegetales, sellado al vacio.",
+          "description": "1 persona. Prep b\u00e1sico: prote\u00edna + carbos + vegetales, sellado al vacio.",
           "category": "Mise-en-Place"
         },
         {
           "name": "Mise-en-place para parejas",
           "price": "650.000 Gs/semana",
           "duration": 300,
-          "description": "2 personas. Prep completo + organización de heladera/freezer.",
+          "description": "2 personas. Prep completo + organizaci\u00f3n de heladera/freezer.",
           "category": "Mise-en-Place"
         },
         {
@@ -124,7 +124,7 @@
           "rating": 5
         },
         {
-          "quote": "La proteína sellada al vacio dura 4 meses en freezer sin perder sabor. Cambia todo. [Testimonio ilustrativo]",
+          "quote": "La prote\u00edna sellada al vacio dura 4 meses en freezer sin perder sabor. Cambia todo. [Testimonio ilustrativo]",
           "author": "Profesional Medico",
           "role": "Cliente ilustrativo",
           "rating": 5
@@ -147,9 +147,25 @@
   "footer": {
     "businessName": "De Abasto a Casa",
     "city": "San Lorenzo",
-    "copyright": "© 2026 De Abasto a Casa"
+    "copyright": "\u00a9 2026 De Abasto a Casa",
+    "navLinks": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/de-abasto-a-casa"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/de-abasto-a-casa/contacto"
+      }
+    ]
   },
   "whatsapp": {
     "defaultMessage": "Hola, me interesa el servicio de De Abasto a Casa"
+  },
+  "seo": {
+    "home": {
+      "title": "de-abasto-a-casa - Paraguay",
+      "description": "Sitio web de de-abasto-a-casa"
+    }
   }
 }

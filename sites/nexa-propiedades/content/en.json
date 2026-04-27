@@ -3,7 +3,7 @@
   "tagline": "Your new home in Paraguay awaits",
   "placeholders": {
     "country": "Paraguay",
-    "city": "Asunción",
+    "city": "Asunci\u00f3n",
     "propertyCount": "500+",
     "agentCount": "15",
     "experienceYears": "10"
@@ -33,12 +33,12 @@
   },
   "home": {
     "seo": {
-      "title": "Nexa Propiedades — Houses and Apartments in Paraguay",
-      "description": "Find your ideal home in Paraguay. Houses, apartments and land in Asunción and surroundings."
+      "title": "Nexa Propiedades \u2014 Houses and Apartments in Paraguay",
+      "description": "Find your ideal home in Paraguay. Houses, apartments and land in Asunci\u00f3n and surroundings."
     },
     "hero": {
       "headline": "Find your dream home in Paraguay",
-      "subheadline": "Over 500 properties available in Asunción and the best areas of the country.",
+      "subheadline": "Over 500 properties available in Asunci\u00f3n and the best areas of the country.",
       "ctaPrimaryText": "View Properties",
       "ctaPrimaryHref": "/s/en/nexa-propiedades/propiedades",
       "ctaSecondaryText": "Contact Agent",
@@ -76,12 +76,12 @@
     "subtitle": "We are here to help you",
     "phone": "+595 982 515 138",
     "email": "info@nexapropiedades.com",
-    "address": "Av. Aviadores del Chaco 1234, Asunción",
+    "address": "Av. Aviadores del Chaco 1234, Asunci\u00f3n",
     "hours": "Monday to Friday: 9:00 - 18:00"
   },
   "privacyPage": {
     "seo": {
-      "title": "Privacy policy — Nexa Propiedades",
+      "title": "Privacy policy \u2014 Nexa Propiedades",
       "description": "Privacy and cookie policy for Nexa Propiedades Paraguay."
     },
     "hero": {
@@ -117,9 +117,27 @@
   "footer": {
     "businessName": "Nexa Propiedades",
     "tagline": "Your trusted real estate partner",
-    "address": "Av. Aviadores del Chaco 1234, Asunción, Paraguay",
+    "address": "Av. Aviadores del Chaco 1234, Asunci\u00f3n, Paraguay",
     "phone": "+595 982 515 138",
-    "email": "info@nexapropiedades.com"
+    "email": "info@nexapropiedades.com",
+    "navLinks": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/nexa-propiedades"
+      },
+      {
+        "label": "Propiedades",
+        "href": "/s/es/nexa-propiedades/propiedades"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/nexa-propiedades/servicios"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/nexa-propiedades/contacto"
+      }
+    ]
   },
   "whatsapp": {
     "phone": "+595 982 515 138",
@@ -127,7 +145,7 @@
   },
   "propertiesPage": {
     "seo": {
-      "title": "Properties for Sale — Nexa Propiedades Paraguay",
+      "title": "Properties for Sale \u2014 Nexa Propiedades Paraguay",
       "description": "Explore our selection of houses, apartments and land in Paraguay."
     },
     "hero": {
@@ -139,24 +157,24 @@
       "properties": [
         {
           "id": "prop-1",
-          "title": "Modern House in Asunción",
-          "location": "Barrio Jara, Asunción",
+          "title": "Modern House in Asunci\u00f3n",
+          "location": "Barrio Jara, Asunci\u00f3n",
           "price": "$250,000",
           "type": "House",
           "bedrooms": 4,
           "bathrooms": 3,
-          "area": "350 m²",
+          "area": "350 m\u00b2",
           "image": "/sites/nexa-propiedades/images/properties/casa-1.jpg"
         },
         {
           "id": "prop-2",
           "title": "Luxury Apartment",
-          "location": "Villa Morra, Asunción",
+          "location": "Villa Morra, Asunci\u00f3n",
           "price": "$180,000",
           "type": "Apartment",
           "bedrooms": 2,
           "bathrooms": 2,
-          "area": "120 m²",
+          "area": "120 m\u00b2",
           "image": "/sites/nexa-propiedades/images/properties/depto-1.jpg"
         }
       ]
@@ -169,7 +187,7 @@
   },
   "servicesPage": {
     "seo": {
-      "title": "Real Estate Services — Nexa Propiedades",
+      "title": "Real Estate Services \u2014 Nexa Propiedades",
       "description": "Buy, sell, rent and legal advice for properties in Paraguay."
     },
     "hero": {
@@ -209,7 +227,7 @@
   },
   "contactPage": {
     "seo": {
-      "title": "Contact — Nexa Propiedades Paraguay",
+      "title": "Contact \u2014 Nexa Propiedades Paraguay",
       "description": "Talk to our expert real estate agents."
     },
     "hero": {
@@ -220,7 +238,13 @@
       "title": "Contact Information",
       "phone": "+595 982 515 138",
       "email": "info@nexapropiedades.com",
-      "address": "Av. Aviadores del Chaco 1234, Asunción"
+      "address": "Av. Aviadores del Chaco 1234, Asunci\u00f3n"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "nexa-propiedades - Paraguay",
+      "description": "Sitio web de nexa-propiedades"
     }
   }
 }
