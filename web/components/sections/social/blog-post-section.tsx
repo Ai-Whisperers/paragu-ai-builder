@@ -1,4 +1,4 @@
-import { BlogSocialShare } from './blog-social-share'
+import { BlogSocialShare } from '@/components/sections/social/blog-social-share'
 import { Container } from '@/components/ui/container'
 
 function categoryToSlug(s: string): string {
