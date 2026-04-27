@@ -202,7 +202,15 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
         const withBlog = injectBlogIndexPosts(s.id, withCommerce, siteSlug, locale)
         const withTestimonials = injectTestimonialItems(s.id, withBlog, siteSlug)
         const props = injectBusinessMetadata(s.id, withTestimonials, siteContent)
-        return { id: s.id, variant, props }
+        // Pass through section styling and visibility config
+        // so the renderer can apply per-section overrides.
+        return {
+          id: s.id,
+          variant,
+          props,
+          styling: s.styling,
+          visibility: s.visibility,
+        }
       } catch (err) {
         logger.error('Site composition: section content resolution failed', {
           ...baseContext,

@@ -70,12 +70,34 @@ export interface SiteDefinition {
   }
 }
 
+export interface SectionStyling {
+  padding?: 'none' | 'sm' | 'md' | 'lg' | 'xl'
+  background?: 'default' | 'alt' | 'accent' | 'dark' | 'image' | 'gradient' | 'transparent'
+  backgroundImage?: string
+  backgroundOverlay?: boolean
+  maxWidth?: 'narrow' | 'default' | 'wide' | 'full'
+  animation?: 'none' | 'fade' | 'slide-up' | 'slide-left' | 'stagger' | 'zoom'
+  textAlign?: 'left' | 'center' | 'right'
+  textColor?: 'default' | 'light' | 'dark' | 'accent'
+  divider?: 'none' | 'top' | 'bottom' | 'both'
+}
+
+export interface SectionVisibility {
+  desktop?: boolean
+  mobile?: boolean
+  afterDate?: string
+  beforeDate?: string
+  loggedIn?: boolean
+}
+
 export interface PageSection {
   id: string
   variant?: string
   content?: string
   overrides?: Record<string, unknown>
   enabledWhen?: string
+  styling?: SectionStyling
+  visibility?: SectionVisibility
 }
 
 export interface PageDefinition {
@@ -116,6 +138,8 @@ export interface ResolvedPage {
     id: string
     variant: string
     props: Record<string, unknown>
+    styling?: SectionStyling
+    visibility?: SectionVisibility
   }>
   meta: {
     title: string
