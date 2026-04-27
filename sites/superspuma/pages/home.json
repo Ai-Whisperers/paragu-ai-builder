@@ -9,6 +9,11 @@
       "content": "home.hero"
     },
     {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats"
+    },
+    {
       "id": "promo-banner",
       "variant": "carousel",
       "content": "home.activePromos"

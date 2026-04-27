@@ -5,14 +5,14 @@
   "schemaType": "RealEstateAgent",
   "sections": [
     {
-      "id": "header",
-      "variant": "standard",
-      "content": "navigation"
-    },
-    {
       "id": "hero",
       "variant": "split",
       "content": "home.hero"
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats"
     },
     {
       "id": "services",
@@ -23,16 +23,6 @@
       "id": "contact",
       "variant": "split",
       "content": "contact"
-    },
-    {
-      "id": "footer",
-      "variant": "standard",
-      "content": "footer"
-    },
-    {
-      "id": "whatsapp-float",
-      "variant": "standard",
-      "content": "whatsapp"
     }
   ]
 }

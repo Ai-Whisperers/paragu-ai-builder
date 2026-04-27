@@ -582,15 +582,33 @@
     ],
     "address": "Calgary, Alberta, Canada \ud83c\udde8\ud83c\udde6",
     "tagline2": "Born in Calgary \ud83c\udf41 Inspired by the Rockies \ud83c\udfd4 Delivered Globally \ud83c\udf0e",
-    "copyright": "\u00a9 2026 Stoic Finch Corporation. All rights reserved."
+    "copyright": "\u00a9 2026 Stoic Finch Corporation. All rights reserved.",
+    "navLinks": [
+      {
+        "label": "Home",
+        "href": "/s/en/stoicfinch"
+      },
+      {
+        "label": "Services",
+        "href": "/s/en/stoicfinch/services"
+      },
+      {
+        "label": "About",
+        "href": "/s/en/stoicfinch/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/s/en/stoicfinch/contact"
+      }
+    ]
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el sitio de stoicfinch y quiero mas informacion."
   },
   "seo": {
     "home": {
-      "title": "stoicfinch - Paraguay",
-      "description": "Sitio web de stoicfinch"
+      "title": "Stoic Finch \u2014 Data Analytics Consulting",
+      "description": "Data strategy, engineering, science and BI for growing companies."
     }
   }
 }

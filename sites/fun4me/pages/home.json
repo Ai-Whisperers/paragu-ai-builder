@@ -14,14 +14,14 @@
       "content": "home.promoBanner"
     },
     {
-      "id": "header",
-      "variant": "standard",
-      "content": "navigation"
-    },
-    {
       "id": "hero",
       "variant": "image",
       "content": "home.hero"
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats"
     },
     {
       "id": "trust-badges",
@@ -74,19 +74,9 @@
       "content": "home.contact"
     },
     {
-      "id": "footer",
-      "variant": "standard",
-      "content": "footer"
-    },
-    {
       "id": "compliance-disclaimer-footer",
       "variant": "standard",
       "content": "compliance"
-    },
-    {
-      "id": "whatsapp-float",
-      "variant": "standard",
-      "content": "whatsapp"
     }
   ]
 }

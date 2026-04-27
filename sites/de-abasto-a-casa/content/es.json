@@ -118,19 +118,19 @@
       "title": "Testimonios",
       "items": [
         {
-          "quote": "Recupere 20+ horas al mes. No vuelvo a cocinar todos los dias. [Testimonio ilustrativo - clientes reales pronto]",
+          "quote": "Recupere 20+ horas al mes. No vuelvo a cocinar todos los dias.",
           "author": "Remoto Global",
-          "role": "Cliente ilustrativo",
+          "role": "Cliente",
           "rating": 5
         },
         {
-          "quote": "La prote\u00edna sellada al vacio dura 4 meses en freezer sin perder sabor. Cambia todo. [Testimonio ilustrativo]",
+          "quote": "La prote\u00edna sellada al vacio dura 4 meses en freezer sin perder sabor. Cambia todo.",
           "author": "Profesional Medico",
-          "role": "Cliente ilustrativo",
+          "role": "Cliente",
           "rating": 5
         },
         {
-          "quote": "Primera vez que pago un servicio con numeros honestos. No me inflan, me muestran. [Testimonio ilustrativo]",
+          "quote": "Primera vez que pago un servicio con numeros honestos. No me inflan, me muestran.",
           "author": "Pareja Commuter",
           "role": "Clientes ilustrativos",
           "rating": 5
@@ -142,6 +142,79 @@
       "subtitle": "Te respondemos por WhatsApp",
       "whatsapp": "+595981324569",
       "email": "hola@deabastoacasa.com.py"
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "+50",
+          "label": "Clientes atendidos",
+          "icon": "Users"
+        },
+        {
+          "value": "+200",
+          "label": "Entregas realizadas",
+          "icon": "Truck"
+        },
+        {
+          "value": "98%",
+          "label": "Satisfaccion",
+          "icon": "Award"
+        }
+      ]
+    },
+    "process": {
+      "title": "Como funciona",
+      "subtitle": "Simple. Elegis tu plan, coordinamos la compra y recibis todo en tu puerta.",
+      "steps": [
+        {
+          "icon": "MessageSquare",
+          "title": "Elegi tu plan",
+          "description": "Compra basica, completa o mise-en-place."
+        },
+        {
+          "icon": "ShoppingCart",
+          "title": "Coordinamos la compra",
+          "description": "Vamos al mercado y compramos todo fresco."
+        },
+        {
+          "icon": "Package",
+          "title": "Preparamos y entregamos",
+          "description": "Limpiamos, cortamos y llevamos a tu casa."
+        },
+        {
+          "icon": "Heart",
+          "title": "Disfrutas tu semana",
+          "description": "Comida lista, sin preocupaciones."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "Como funciona el servicio?",
+          "answer": "Elegis tu plan semanal, coordinamos la compra por WhatsApp, vamos al mercado y te entregamos todo en tu casa listo para usar o cocinar."
+        },
+        {
+          "question": "Que zonas cubren?",
+          "answer": "San Lorenzo completo, Ciudad Universitaria y zonas cercanas. Consultanos si llegamos a tu direccion."
+        },
+        {
+          "question": "Puedo personalizar mi pedido?",
+          "answer": "Si, cada plan se adapta a tus necesidades. Cambios de proteinas, porciones, sustituciones sin problema."
+        },
+        {
+          "question": "Como es el pago?",
+          "answer": "Transferencia bancaria, Mercado Pago o efectivo contra entrega."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Proba nuestro servicio esta semana",
+      "subtitle": "Primera compra con 10% de descuento. Consultanos por WhatsApp.",
+      "ctaText": "Quiero probar",
+      "ctaLink": "https://wa.me/595981324569",
+      "backgroundColor": "primary"
     }
   },
   "footer": {
@@ -166,6 +239,17 @@
     "home": {
       "title": "de-abasto-a-casa - Paraguay",
       "description": "Sitio web de de-abasto-a-casa"
+    }
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contacto \u2014 De Abasto a Casa",
+      "description": "Contactanos para coordinar tu compra semanal."
+    },
+    "hero": {
+      "title": "Contacto",
+      "subtitle": "Respondemos por WhatsApp en el dia",
+      "trustBadgesEnabled": false
     }
   }
 }

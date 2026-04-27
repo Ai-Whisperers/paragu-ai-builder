@@ -657,6 +657,25 @@
         "privacyLabel": "Al participar acepto los t\u00e9rminos y condiciones",
         "privacyHref": "/s/es/superspuma/terminos"
       }
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "+5000",
+          "label": "Colchones vendidos",
+          "icon": "Bed"
+        },
+        {
+          "value": "+10",
+          "label": "Tiendas en Paraguay",
+          "icon": "Store"
+        },
+        {
+          "value": "98%",
+          "label": "Clientes satisfechos",
+          "icon": "Award"
+        }
+      ]
     }
   },
   "nosotros": {

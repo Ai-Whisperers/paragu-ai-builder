@@ -43,6 +43,25 @@
       "ctaPrimaryHref": "/s/es/nexa-propiedades/propiedades",
       "ctaSecondaryText": "Contactar Agente",
       "ctaSecondaryHref": "/s/es/nexa-propiedades/contacto"
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "+200",
+          "label": "Propiedades gestionadas",
+          "icon": "Building"
+        },
+        {
+          "value": "+15",
+          "label": "Anos de experiencia",
+          "icon": "Calendar"
+        },
+        {
+          "value": "100%",
+          "label": "Clientes satisfechos",
+          "icon": "Award"
+        }
+      ]
     }
   },
   "servicesPage": {

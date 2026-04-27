@@ -576,6 +576,25 @@
           "answer": "\u00a1S\u00ed! \"Recomienda y Gan\u00e1\": tu amigo obtiene 10% de descuento en su primera compra usando tu c\u00f3digo. Vos te llev\u00e1s un maple de 30 huevos GRATIS por cada referido que hace su primera compra."
         }
       ]
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "+200",
+          "label": "Familias abastecidas",
+          "icon": "Users"
+        },
+        {
+          "value": "100%",
+          "label": "Huevos de campo",
+          "icon": "Egg"
+        },
+        {
+          "value": "+15",
+          "label": "Anos de tradicion",
+          "icon": "Calendar"
+        }
+      ]
     }
   },
   "recetasPage": {

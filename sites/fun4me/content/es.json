@@ -210,23 +210,21 @@
       "ctaHref": "/fun4me/tienda"
     },
     "stats": {
-      "title": "Numeros que nos respaldan",
       "items": [
         {
-          "value": "7+",
-          "label": "Anos de Experiencia"
+          "value": "+1000",
+          "label": "Productos disponibles",
+          "icon": "Package"
         },
         {
-          "value": "5.000+",
-          "label": "Clientes Satisfechos"
+          "value": "+500",
+          "label": "Clientes felices",
+          "icon": "Heart"
         },
         {
-          "value": "200+",
-          "label": "Productos Disponibles"
-        },
-        {
-          "value": "100%",
-          "label": "Envio Discreto"
+          "value": "24/7",
+          "label": "Atencion discreta",
+          "icon": "Shield"
         }
       ]
     },

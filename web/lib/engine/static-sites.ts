@@ -47,7 +47,7 @@ export const SITES = {
     domain: 'deabastoacasa.com.py',
     defaultLocale: 'es',
     locales: ['es'],
-    pages: ['home'],
+    pages: ['home', 'contacto'],
   },
   'granja-cabral': {
     slug: 'granja-cabral',

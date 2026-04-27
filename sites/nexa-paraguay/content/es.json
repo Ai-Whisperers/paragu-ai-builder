@@ -322,6 +322,25 @@
     "taxCalculator": {
       "title": "Calculadora de ahorro fiscal",
       "subtitle": "Estim\u00e1 cu\u00e1nto ahorr\u00e1s en impuestos al establecerte en Paraguay."
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "+500",
+          "label": "Familias reubicadas",
+          "icon": "Users"
+        },
+        {
+          "value": "+10",
+          "label": "Anos de experiencia",
+          "icon": "Calendar"
+        },
+        {
+          "value": "98%",
+          "label": "Tasa de exito",
+          "icon": "Award"
+        }
+      ]
     }
   },
   "programasPage": {

@@ -322,6 +322,25 @@
     "taxCalculator": {
       "title": "Tax savings calculator",
       "subtitle": "Estimate how much you save in taxes by establishing in Paraguay."
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "+500",
+          "label": "Families relocated",
+          "icon": "Users"
+        },
+        {
+          "value": "+10",
+          "label": "Years experience",
+          "icon": "Calendar"
+        },
+        {
+          "value": "98%",
+          "label": "Success rate",
+          "icon": "Award"
+        }
+      ]
     }
   },
   "programasPage": {
