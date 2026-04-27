@@ -1,0 +1,10 @@
+{
+  "slug": "servicios",
+  "titleKey": "servicios.seo.title",
+  "descriptionKey": "servicios.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "servicios.hero" },
+    { "id": "services", "variant": "cards", "content": "home.services" },
+    { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" }
+  ]
+}

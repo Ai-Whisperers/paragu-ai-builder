@@ -103,6 +103,15 @@ export const SITES = {
     locales: ['es'],
     pages: ['home', 'servicios', 'equipo', 'contacto'],
   },
+  'alejandro-villamayor': {
+    slug: 'alejandro-villamayor',
+    vertical: 'b2b-professional',
+    country: 'Paraguay',
+    domain: '',
+    defaultLocale: 'es',
+    locales: ['es', 'en'],
+    pages: ['home', 'servicios', 'investor-pass', 'inversionista', 'sobre-mi', 'faq', 'contacto'],
+  },
 } as const
 
 export type SiteSlug = keyof typeof SITES

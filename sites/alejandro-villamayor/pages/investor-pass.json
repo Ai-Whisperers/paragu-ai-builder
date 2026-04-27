@@ -1,0 +1,13 @@
+{
+  "slug": "investor-pass",
+  "titleKey": "investorPass.seo.title",
+  "descriptionKey": "investorPass.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "investorPass.hero" },
+    { "id": "services", "variant": "cards", "content": "investorPass.vias" },
+    { "id": "process", "variant": "steps", "content": "investorPass.proceso" },
+    { "id": "features", "variant": "three-col", "content": "investorPass.beneficios" },
+    { "id": "faq", "variant": "accordion", "content": "investorPass.faq" },
+    { "id": "cta-banner", "variant": "gradient", "content": "investorPass.cta" }
+  ]
+}

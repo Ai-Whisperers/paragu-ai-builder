@@ -1,0 +1,10 @@
+{
+  "slug": "contacto",
+  "titleKey": "contacto.seo.title",
+  "descriptionKey": "contacto.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "contacto.hero" },
+    { "id": "contact", "variant": "split", "content": "home.contact" },
+    { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" }
+  ]
+}
