@@ -14,6 +14,11 @@
       "content": "home.promoBanner"
     },
     {
+      "id": "features",
+      "variant": "three-col",
+      "content": "home.features"
+    },
+    {
       "id": "hero",
       "variant": "image",
       "content": "home.hero"

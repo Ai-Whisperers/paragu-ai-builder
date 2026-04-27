@@ -210,32 +210,7 @@
     },
     "faq": {
       "title": "Preguntas Frecuentes",
-      "items": [
-        {
-          "q": "\u00bfQu\u00e9 g\u00e9nero tocan?",
-          "a": "Hardcore Metal / Metalcore con influencias de nu metal y hardcore. Puro peso desde Capiat\u00e1."
-        },
-        {
-          "q": "\u00bfDe d\u00f3nde son?",
-          "a": "Somos de Capiat\u00e1, Paraguay. Fundados en 2017 por Edilson Gauto."
-        },
-        {
-          "q": "\u00bfD\u00f3nde puedo escuchar su m\u00fasica?",
-          "a": "En todas las plataformas digitales: Spotify, YouTube, Apple Music. Buscanos como N\u00fcdo. Nuestro EP DESAHOGO ya est\u00e1 disponible."
-        },
-        {
-          "q": "\u00bfC\u00f3mo puedo contratarlos para un evento?",
-          "a": "Contactanos por Instagram @nudo_band, WhatsApp o email. Tocamos en vivo y armamos mosh pit."
-        },
-        {
-          "q": "\u00bfQu\u00e9 es Bad Vibes Records?",
-          "a": "Es nuestro sello discogr\u00e1fico. Un colectivo de artistas independientes de Asunci\u00f3n, Paraguay."
-        },
-        {
-          "q": "\u00bfTienen shows pr\u00f3ximos?",
-          "a": "Seguinos en Instagram @nudo_band para enterarte de las pr\u00f3ximas fechas. Siempre estamos rompiendo en vivo."
-        }
-      ]
+      "items": []
     },
     "contact": {
       "title": "Contacto",

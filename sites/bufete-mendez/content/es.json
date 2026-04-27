@@ -49,16 +49,16 @@
     },
     "hero": {
       "headline": "Bufete M\u00e9ndez & Asociados",
-      "subheadline": "M\u00e1s de 20 a\u00f1os defendiendo sus intereses en Asunci\u00f3n y todo Paraguay. Derecho corporativo, civil, laboral, penal e inmobiliario.",
+      "subheadline": "Derecho corporativo, civil, laboral e inmobiliario en Asunci\u00f3n. +20 a\u00f1os de trayectoria.",
       "ctaPrimaryText": "Consulta Gratis",
       "ctaPrimaryHref": "https://wa.me/595981123456",
       "ctaSecondaryText": "Nuestros Servicios",
       "ctaSecondaryHref": "/s/es/bufete-mendez/servicios",
       "trustBadges": [
         "Fundado en 2005",
-        "1000+ casos exitosos",
-        "Miembros del CAP",
-        "Urgencias 24h"
+        "1000+ casos",
+        "CAP Miembros",
+        "WhatsApp 24h"
       ],
       "backgroundImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=2000&q=80"
     },
@@ -266,25 +266,25 @@
         {
           "step": 1,
           "title": "Consulta Inicial",
-          "description": "Primera reuni\u00f3n sin costo para entender tu caso. Presencial o por videollamada.",
+          "description": "Primera reuni\u00f3n sin cargo. Presencial o por videollamada.",
           "icon": "MessageCircle"
         },
         {
           "step": 2,
           "title": "Evaluaci\u00f3n Estrat\u00e9gica",
-          "description": "Analizamos el caso, identificamos riesgos y definimos la mejor estrategia legal.",
+          "description": "An\u00e1lisis del caso y definici\u00f3n de la estrategia.",
           "icon": "Search"
         },
         {
           "step": 3,
           "title": "Ejecuci\u00f3n",
-          "description": "Iniciamos las acciones legales necesarias con comunicaci\u00f3n constante de avances.",
+          "description": "Inicio de las acciones con comunicaci\u00f3n constante.",
           "icon": "Zap"
         },
         {
           "step": 4,
           "title": "Cierre y Seguimiento",
-          "description": "Resoluci\u00f3n del caso y acompa\u00f1amiento post-cierre para garantizar resultados.",
+          "description": "Resoluci\u00f3n y acompa\u00f1amiento post-cierre.",
           "icon": "Shield"
         }
       ]

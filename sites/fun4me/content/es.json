@@ -114,29 +114,19 @@
       "title": "Por qu\u00e9 comprar ac\u00e1"
     },
     "features": {
-      "badge": "Nuestras Ventajas",
-      "title": "Por que elegirnos?",
-      "subtitle": "Discrecion, calidad y variedad en cada compra.",
+      "title": "Por qu\u00e9 elegir Fun4Me",
       "items": [
         {
-          "icon": "lock",
-          "title": "100% Discreto",
-          "text": "Empaque neutro, facturacion discreta y envio confidencial garantizado."
+          "title": "Env\u00edo discreto",
+          "description": "Paquete sellado sin identificaci\u00f3n del contenido."
         },
         {
-          "icon": "truck",
-          "title": "Delivery a Todo el Pais",
-          "text": "Envios rapidos y seguros a cualquier punto de Paraguay."
+          "title": "Pago seguro",
+          "description": "Todos los m\u00e9todos de pago con cifrado."
         },
         {
-          "icon": "shield-check",
-          "title": "Productos de Calidad",
-          "text": "Seleccion de las mejores marcas con garantia de calidad."
-        },
-        {
-          "icon": "heart",
-          "title": "Atencion Personalizada",
-          "text": "Te asesoramos para encontrar el producto perfecto para vos."
+          "title": "Entrega r\u00e1pida",
+          "description": "En 24-48hs en Asunci\u00f3n y \u00e1rea metropolitana."
         }
       ]
     },
@@ -295,44 +285,7 @@
     },
     "faq": {
       "title": "Preguntas Frecuentes",
-      "items": [
-        {
-          "q": "El envio es realmente discreto?",
-          "a": "100% discreto. El paquete no tiene logos, nombres ni ninguna indicacion del contenido. Nadie sabra que hay dentro excepto vos."
-        },
-        {
-          "q": "Que formas de pago aceptan?",
-          "a": "Tarjetas de credito/debito (Visa, Mastercard), transferencia bancaria, billeteras electronicas (Tigo Money, Personal Pay), y efectivo contra entrega en Asuncion."
-        },
-        {
-          "q": "Que aparece en mi estado de cuenta?",
-          "a": "El cargo aparece de forma discreta sin referencias explicitas al tipo de productos."
-        },
-        {
-          "q": "Cuanto tarda el envio?",
-          "a": "Asuncion: 24-48 horas. Gran Asuncion: 48-72 horas. Interior: 3-5 dias habiles. Envio express disponible con entrega el mismo dia en Asuncion."
-        },
-        {
-          "q": "Puedo devolver un producto?",
-          "a": "Por razones de higiene, no aceptamos devoluciones de productos intimos una vez abiertos. Si el producto llega defectuoso o danado, lo reemplazamos sin costo. Lenceria sin usar con etiquetas puede devolverse en 7 dias."
-        },
-        {
-          "q": "Los productos son seguros?",
-          "a": "Trabajamos con productos de marcas reconocidas. Todos nuestros vibradores son de silicona, ABS libre de ftalatos, o materiales seguros para el cuerpo."
-        },
-        {
-          "q": "Tienen envio gratis?",
-          "a": "Si, el envio es gratis en compras mayores a Gs. 200.000 a todo el pais."
-        },
-        {
-          "q": "Puedo visitar la tienda fisica?",
-          "a": "Claro! Te esperamos en Herrera 875, Asuncion. Lunes a viernes de 09:00 a 20:00 y sabados de 09:00 a 18:00."
-        },
-        {
-          "q": "Los productos tienen garantia?",
-          "a": "Los productos electronicos tienen garantia segun el fabricante. Satisfyer tiene 15 anos de garantia, LELO 1 ano, We-Vibe 2 anos."
-        }
-      ]
+      "items": []
     },
     "enhancedFaq": {
       "title": "Preguntas frecuentes",
@@ -1799,5 +1752,12 @@
       "title": "fun4me - Paraguay",
       "description": "Sitio web de fun4me"
     }
+  },
+  "ageGate": {
+    "title": "Confirm\u00e1 tu edad",
+    "message": "Este contenido es solo para mayores de 18 a\u00f1os.",
+    "confirmText": "Soy mayor de 18",
+    "denyText": "Soy menor de 18",
+    "minAge": 18
   }
 }

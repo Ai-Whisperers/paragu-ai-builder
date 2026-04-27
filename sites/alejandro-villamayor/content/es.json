@@ -39,7 +39,7 @@
         "href": "/s/es/alejandro-villamayor/contacto"
       }
     ],
-    "ctaText": "Consult\u00e1 gratis",
+    "ctaText": "Agend\u00e1 una reuni\u00f3n",
     "ctaHref": "https://wa.me/595981324569"
   },
   "home": {
@@ -49,7 +49,7 @@
     },
     "hero": {
       "headline": "Alejandro Villamayor",
-      "subheadline": "Asesor\u00eda legal estrat\u00e9gica en Paraguay. Especialista en Paraguay Investor Pass, inversiones extranjeras y derecho corporativo.",
+      "subheadline": "Asesor\u00eda legal en Asunci\u00f3n. Especializado en Paraguay Investor Pass, estructuraci\u00f3n de inversiones extranjeras y derecho corporativo.",
       "ctaPrimaryText": "Consult\u00e1 gratis",
       "ctaPrimaryHref": "https://wa.me/595981324569",
       "ctaSecondaryText": "Gu\u00eda del Investor Pass",
@@ -85,7 +85,7 @@
     "services": {
       "eyebrow": "\u00c1reas de pr\u00e1ctica",
       "title": "Soluciones legales para cada necesidad",
-      "subtitle": "Te acompa\u00f1o en cada etapa con un enfoque estrat\u00e9gico y cercano.",
+      "subtitle": "Derecho corporativo, inversiones, contratos y m\u00e1s para personas y empresas en Paraguay.",
       "items": [
         {
           "icon": "Passport",
@@ -122,27 +122,27 @@
     },
     "process": {
       "title": "\u00bfC\u00f3mo trabajo?",
-      "subtitle": "Un proceso claro y transparente desde el primer contacto.",
+      "subtitle": "Desde la primera consulta hasta el cierre, sab\u00e9s exactamente qu\u00e9 esperar.",
       "steps": [
         {
           "icon": "MessageSquare",
           "title": "Consulta inicial",
-          "description": "Primera conversaci\u00f3n sin costo para entender tu caso."
+          "description": "Conversaci\u00f3n sin costo para conocer tu situaci\u00f3n y objetivos."
         },
         {
           "icon": "Search",
           "title": "An\u00e1lisis y estrategia",
-          "description": "Estudio del caso y definici\u00f3n de la mejor estrategia legal."
+          "description": "Estudio del caso, revisi\u00f3n de documentos y plan de acci\u00f3n."
         },
         {
           "icon": "Zap",
           "title": "Ejecuci\u00f3n",
-          "description": "Implementaci\u00f3n con comunicaci\u00f3n constante y transparencia total."
+          "description": "Gesti\u00f3n de tr\u00e1mites con actualizaciones peri\u00f3dicas."
         },
         {
           "icon": "Shield",
           "title": "Seguimiento",
-          "description": "Acompa\u00f1amiento continuo post-cierre para garantizar resultados."
+          "description": "Cierre del caso y disponibilidad para consultas futuras."
         }
       ]
     },
@@ -157,7 +157,7 @@
         {
           "icon": "MessageCircle",
           "title": "Cercan\u00eda y disponibilidad",
-          "description": "Respondo consultas por WhatsApp de forma \u00e1gil."
+          "description": "Respondo consultas por WhatsApp. Sin vueltas."
         },
         {
           "icon": "Shield",
@@ -223,7 +223,7 @@
     "cta": {
       "title": "\u00bfNecesit\u00e1s asesor\u00eda legal?",
       "subtitle": "Primera consulta gratuita sin compromiso. Llamame al +595 981 324 569 o escribime por WhatsApp.",
-      "ctaText": "Consult\u00e1 gratis",
+      "ctaText": "Agend\u00e1 una reuni\u00f3n",
       "ctaLink": "https://wa.me/595981324569",
       "backgroundColor": "primary"
     },

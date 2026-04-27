@@ -1793,20 +1793,32 @@
         "href": "/s/es/superspuma"
       },
       {
-        "label": "Tienda",
-        "href": "/s/es/superspuma/tienda"
+        "label": "Cat\u00e1logo",
+        "href": "/s/es/superspuma#catalogo"
       },
       {
-        "label": "Combos",
-        "href": "/s/es/superspuma/combos"
+        "label": "Tiendas",
+        "href": "/s/es/superspuma/tiendas"
       },
       {
-        "label": "FAQ",
-        "href": "/s/es/superspuma/faq"
+        "label": "Gu\u00eda de compra",
+        "href": "/s/es/superspuma/guias"
       },
       {
-        "label": "Contacto",
-        "href": "/s/es/superspuma/contacto"
+        "label": "Env\u00edos",
+        "href": "/s/es/superspuma/envios"
+      },
+      {
+        "label": "Financiaci\u00f3n",
+        "href": "/s/es/superspuma/financiacion"
+      },
+      {
+        "label": "Garant\u00eda",
+        "href": "/s/es/superspuma/garantia"
+      },
+      {
+        "label": "Nosotros",
+        "href": "/s/es/superspuma/nosotros"
       }
     ]
   },

@@ -602,56 +602,7 @@
     },
     "faq": {
       "title": "Preguntas Frecuentes",
-      "items": [
-        {
-          "q": "\u00bfCu\u00e1nto tarda una portada personalizada?",
-          "a": "Entre 1 y 3 semanas dependiendo de la complejidad del proyecto. Las premades se entregan en 1\u20132 semanas."
-        },
-        {
-          "q": "\u00bfCu\u00e1ntas revisiones incluye?",
-          "a": "Las revisiones est\u00e1n incluidas dentro del plan predefinido. Cambios adicionales fuera del scope pueden tener costo extra."
-        },
-        {
-          "q": "\u00bfC\u00f3mo es el proceso de pago?",
-          "a": "Se requiere un anticipo del 50% para comenzar. El resto al aprobar el dise\u00f1o final. Aceptamos Western Union, transferencia bancaria y efectivo."
-        },
-        {
-          "q": "\u00bfEn qu\u00e9 moneda cobran?",
-          "a": "Cobramos en USD y en guaran\u00edes (\u20b2). Los precios en guaran\u00edes est\u00e1n en nuestra tabla de servicios."
-        },
-        {
-          "q": "\u00bfPuedo usar la portada en Amazon KDP / Wattpad / editorial?",
-          "a": "S\u00ed. Los derechos del dise\u00f1o pertenecen a Dayah LitWorks hasta el pago completo. Una vez pago al 100%, pod\u00e9s usar la portada en la plataforma que elijas."
-        },
-        {
-          "q": "\u00bfQu\u00e9 es un mockup 3D?",
-          "a": "Es una imagen realista de tu libro renderizada en 3D. Ideal para promocionar en redes sociales y marketing."
-        },
-        {
-          "q": "\u00bfQu\u00e9 pasa si cancelo el proyecto?",
-          "a": "Si el cliente decide rescindir el contrato una vez iniciado el proyecto, el anticipo no es reembolsable."
-        },
-        {
-          "q": "\u00bfHac\u00e9s redise\u00f1os de portadas existentes?",
-          "a": "S\u00ed, pod\u00e9s contratar un redise\u00f1o como portada personalizada. Envianos la portada actual y tus nuevas ideas."
-        },
-        {
-          "q": "\u00bfQu\u00e9 necesito enviar para empezar?",
-          "a": "T\u00edtulo del libro, sinopsis, g\u00e9nero, referencias visuales (ideas, tipograf\u00edas, colores, estilos). Es importante enviar las referencias ANTES de solicitar el dise\u00f1o."
-        },
-        {
-          "q": "\u00bfEn qu\u00e9 idioma dise\u00f1\u00e1s?",
-          "a": "Dise\u00f1amos portadas en espa\u00f1ol e ingl\u00e9s. Los textos tipogr\u00e1ficos se adaptan al idioma de tu libro."
-        },
-        {
-          "q": "\u00bfPuedo contratar urgente (48\u201372h)?",
-          "a": "Cont\u00e1ctanos por WhatsApp para verificar disponibilidad. Los proyectos urgentes pueden tener un recargo."
-        },
-        {
-          "q": "\u00bfC\u00f3mo se entregan los archivos finales?",
-          "a": "Archivos en alta resoluci\u00f3n (JPG, PDF, PNG) listos para subir a tu plataforma. Los mockups se entregan como im\u00e1genes renderizadas."
-        }
-      ]
+      "items": []
     },
     "testimonials": {
       "title": "Testimonios",
