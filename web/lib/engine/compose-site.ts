@@ -199,8 +199,17 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
               {} as RegistryType,
             )
             if (builderResult) {
-              const withOverrides = mergeOverrides(builderResult, s.overrides)
-              normalized = fillDeep(withOverrides, placeholders) as Record<string, unknown>
+              // Only use builder result if it has at least one meaningful
+              // (non-empty) string value. Builders that receive empty content
+              // return objects with all-empty fields — we should fall through
+              // to the content-ref path in that case.
+              const hasContent = Object.values(builderResult).some(
+                (v) => typeof v === 'string' && v.length > 0,
+              )
+              if (hasContent) {
+                const withOverrides = mergeOverrides(builderResult, s.overrides)
+                normalized = fillDeep(withOverrides, placeholders) as Record<string, unknown>
+              }
             }
           } catch {
             // Builder failed — fall through to content-ref resolution
