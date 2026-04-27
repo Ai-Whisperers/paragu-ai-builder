@@ -55,7 +55,7 @@ function RecipeCard({ recipe, business }: { recipe: Recipe; business: RecipePage
           <Badge variant="outline" className={difficultyColor}>
             {recipe.difficulty}
           </Badge>
-          <span className="text-xs text-gray-500 flex items-center gap-1">
+          <span className="text-xs text-[var(--text-muted)] flex items-center gap-1">
             <Clock className="w-3 h-3" />
             {recipe.prepTime + recipe.cookTime} min
           </span>
@@ -64,7 +64,7 @@ function RecipeCard({ recipe, business }: { recipe: Recipe; business: RecipePage
         <Heading level={3} className="text-lg font-bold text-[var(--text)] mb-2">{recipe.title}</Heading>
         <p className="text-sm text-[var(--text-muted)] mb-4 line-clamp-2">{recipe.description}</p>
         
-        <div className="flex items-center gap-1 text-xs text-gray-500 mb-4">
+        <div className="flex items-center gap-1 text-xs text-[var(--text-muted)] mb-4">
           <Users className="w-4 h-4" />
           <span>{recipe.servings} porciones</span>
         </div>
@@ -333,7 +333,7 @@ export function RecipeSection({
             {searchQuery ? `Resultados para "${searchQuery}"` :
              selectedCategory === 'all' ? 'Todas las Recetas' :
              categories.find(c => c.id === selectedCategory)?.label}
-            <span className="text-lg font-normal text-gray-500 ml-2">
+            <span className="text-lg font-normal text-[var(--text-muted)] ml-2">
               ({filteredRecipes.length} recetas)
             </span>
           </Heading>
@@ -349,7 +349,7 @@ export function RecipeSection({
           ) : (
             <div className="text-center py-12">
               <ChefHatIcon className="w-16 h-16 text-[var(--text-light)] mx-auto mb-4" />
-              <p className="text-gray-500">No encontramos recetas con esos criterios.</p>
+              <p className="text-[var(--text-muted)]">No encontramos recetas con esos criterios.</p>
               <Button 
                 variant="outline" 
                 className="mt-4"

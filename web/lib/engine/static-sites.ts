@@ -112,6 +112,16 @@ export const SITES = {
     locales: ['es', 'en'],
     pages: ['home', 'servicios', 'investor-pass', 'inversionista', 'sobre-mi', 'faq', 'blog', 'contacto'],
   },
+
+  'superspuma': {
+    slug: 'superspuma',
+    vertical: 'retail-local',
+    country: 'Paraguay',
+    domain: '',
+    defaultLocale: 'es',
+    locales: ['es'],
+    pages: ['home', 'tienda', 'combos', 'faq', 'contacto', 'envios', 'garantia', 'financiacion', 'guias', 'nosotros', 'privacidad', 'promociones', 'terminos', 'tiendas', 'cambio', 'producto', 'guia-compra'],
+  },
 } as const
 
 export type SiteSlug = keyof typeof SITES

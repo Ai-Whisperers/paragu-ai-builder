@@ -117,7 +117,7 @@ export function B2BWholesaleSection({
                     <p className="text-[var(--text-muted)] mb-4 text-sm">{industry.description}</p>
                     <blockquote className="border-l-4 border-orange-400 pl-4 italic text-[var(--text)] text-sm bg-orange-50 p-3 rounded-r">
                       {industry.testimonial}
-                      <footer className="text-xs text-gray-500 mt-2 not-italic">— {industry.author}</footer>
+                      <footer className="text-xs text-[var(--text-muted)] mt-2 not-italic">— {industry.author}</footer>
                     </blockquote>
                   </CardContent>
                 </Card>
@@ -145,7 +145,7 @@ export function B2BWholesaleSection({
                 )}
                 <CardHeader className="pb-4">
                   <CardTitle className="text-2xl font-bold text-[var(--text)]">{tier.name}</CardTitle>
-                  <p className="text-sm text-gray-500">{tier.volume}</p>
+                  <p className="text-sm text-[var(--text-muted)]">{tier.volume}</p>
                 </CardHeader>
                 <CardContent>
                   <div className="text-3xl font-bold text-orange-600 mb-4">{tier.discount}</div>
@@ -313,14 +313,14 @@ export function B2BWholesaleSection({
               <Heading level={3} className="font-semibold mb-1">Ubicación</Heading>
               <p className="text-sm text-[var(--text-muted)]">{business.address}</p>
               <p className="text-sm text-[var(--text-muted)]">{business.city}</p>
-              <p className="text-xs text-gray-500 mt-1">Visitas con cita previa</p>
+              <p className="text-xs text-[var(--text-muted)] mt-1">Visitas con cita previa</p>
             </div>
             <div>
               <Clock className="w-8 h-8 text-yellow-400 mx-auto mb-3" />
               <Heading level={3} className="font-semibold mb-1">Horario Comercial</Heading>
               <p className="text-sm text-[var(--text-muted)]">Lunes - Sábado</p>
               <p className="text-sm text-[var(--text-muted)]">7:00 - 18:00</p>
-              <p className="text-xs text-gray-500 mt-1">Domingo: Cerrado</p>
+              <p className="text-xs text-[var(--text-muted)] mt-1">Domingo: Cerrado</p>
             </div>
           </div>
         </div>

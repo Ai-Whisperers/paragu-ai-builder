@@ -293,7 +293,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
                         ),
                       )}
                       {overrides?.visit?.hoursNote !== '' ? (
-                        <p className="text-sm text-gray-500">
+                        <p className="text-sm text-[var(--text-muted)]">
                           {overrides?.visit?.hoursNote ?? '(Con cita previa)'}
                         </p>
                       ) : null}
@@ -322,7 +322,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
                   <div className="text-center p-8">
                     <MapPin className="w-16 h-16 text-[var(--text-muted)] mx-auto mb-4" />
                     <p className="text-[var(--text-muted)] font-medium">Mapa de Ubicación</p>
-                    <p className="text-sm text-gray-500 mt-2">(Integrar Google Maps)</p>
+                    <p className="text-sm text-[var(--text-muted)] mt-2">(Integrar Google Maps)</p>
                   </div>
                 </div>
               </div>

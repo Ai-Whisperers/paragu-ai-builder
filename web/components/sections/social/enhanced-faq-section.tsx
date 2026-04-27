@@ -129,9 +129,9 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
                     </div>
                     <div className="flex-shrink-0 mt-1" aria-hidden="true">
                       {openIndex === index ? (
-                        <ChevronUp className="w-5 h-5 text-gray-500" />
+                        <ChevronUp className="w-5 h-5 text-[var(--text-muted)]" />
                       ) : (
-                        <ChevronDown className="w-5 h-5 text-gray-500" />
+                        <ChevronDown className="w-5 h-5 text-[var(--text-muted)]" />
                       )}
                     </div>
                   </div>
@@ -160,7 +160,7 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
         {/* No Results */}
         {filteredFAQs.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-gray-500 mb-4">No encontramos preguntas con esos criterios.</p>
+            <p className="text-[var(--text-muted)] mb-4">No encontramos preguntas con esos criterios.</p>
             <Button 
               variant="outline" 
               onClick={() => {setSearchQuery(''); setSelectedCategory('Todas')}}
