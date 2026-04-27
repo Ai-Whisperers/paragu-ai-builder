@@ -53,6 +53,7 @@ export function HeaderSection({
   ctaText,
   ctaHref = '#contacto',
   enableSearch = false,
+  variant = 'standard',
   __siteSlug,
   __locale,
   __availableLocales,
