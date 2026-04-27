@@ -732,7 +732,5 @@ export default {
     }
   },
   "tagline": "Asesoría legal estratégica para personas y empresas en Paraguay",
-  "whatsapp": {
-    "defaultMessage": "Hola Alejandro, vi tu sitio web y quiero consultarte sobre un caso legal."
-  }
+  "whatsapp": "+595981324569"
 } as Record<string, unknown>

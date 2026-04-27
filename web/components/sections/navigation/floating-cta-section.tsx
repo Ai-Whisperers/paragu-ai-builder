@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { cleanPhone } from '@/lib/format'
 
 export interface FloatingCTAItem {
   label: string
@@ -42,12 +43,16 @@ export function FloatingCTASection({
 
   const handleAction = (item: FloatingCTAItem) => {
     switch (item.type) {
-      case 'whatsapp':
-        if (whatsapp) window.open(`https://wa.me/${whatsapp.replace(/\D/g, '')}`, '_blank')
+      case 'whatsapp': {
+        const wa = cleanPhone(whatsapp)
+        if (wa) window.open(`https://wa.me/${wa}`, '_blank')
         break
-      case 'phone':
-        if (phone) window.location.href = `tel:${phone.replace(/\D/g, '')}`
+      }
+      case 'phone': {
+        const ph = cleanPhone(phone)
+        if (ph) window.location.href = `tel:${ph}`
         break
+      }
       case 'scroll':
         const el = document.querySelector(item.action)
         if (el) el.scrollIntoView({ behavior: 'smooth' })

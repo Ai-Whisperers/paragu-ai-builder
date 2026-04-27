@@ -221,8 +221,5 @@ export default {
   },
   "siteName": "Nexa Propiedades",
   "tagline": "Tu nuevo hogar en Paraguay te espera",
-  "whatsapp": {
-    "message": "Hola, me interesa conocer más sobre las propiedades disponibles.",
-    "phone": "+595 982 515 138"
-  }
+  "whatsapp": "595981123456"
 } as Record<string, unknown>

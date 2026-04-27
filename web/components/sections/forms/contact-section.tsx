@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, Clock, MessageCircle, ArrowRight } from 'lucide-react'
+import { cleanPhone } from '@/lib/format'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
@@ -134,8 +135,9 @@ export function ContactSection({
     : hoursMap
     ? Object.keys(hoursMap).length > 0
     : false
-  const whatsappHref = whatsapp
-    ? `https://wa.me/${whatsapp.replace(/\D/g, '')}${whatsappMessage ? `?text=${encodeURIComponent(whatsappMessage)}` : ''}`
+  const waClean = cleanPhone(whatsapp)
+  const whatsappHref = waClean
+    ? `https://wa.me/${waClean}${whatsappMessage ? `?text=${encodeURIComponent(whatsappMessage)}` : ''}`
     : ''
 
   return (

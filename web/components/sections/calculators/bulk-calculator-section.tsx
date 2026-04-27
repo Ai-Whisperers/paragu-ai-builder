@@ -7,6 +7,7 @@ import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
 import { Heading } from '@/components/ui/heading'
+import { cleanPhone } from '@/lib/format'
 
 export function BulkCalculator({ phone, className }: { phone: string; className?: string }) {
   const [quantity, setQuantity] = useState(100)
@@ -61,7 +62,7 @@ export function BulkCalculator({ phone, className }: { phone: string; className?
               </div>
             </div>
 
-            <a href={`https://wa.me/${phone.replace(/\D/g, '')}?text=Hola! Vi su calculadora mayorista. Me interesa hacer un pedido de ${quantity} huevos.`} target="_blank" rel="noopener noreferrer">
+            <a href={`https://wa.me/${cleanPhone(phone)}?text=Hola! Vi su calculadora mayorista. Me interesa hacer un pedido de ${quantity} huevos.`} target="_blank" rel="noopener noreferrer">
               <button className="w-full bg-[var(--primary)] text-white py-3 rounded-lg font-medium hover:opacity-90">
                 Solicitar cotización por WhatsApp
               </button>

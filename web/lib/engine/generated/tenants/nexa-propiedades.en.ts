@@ -224,8 +224,5 @@ export default {
   },
   "siteName": "Nexa Propiedades",
   "tagline": "Your new home in Paraguay awaits",
-  "whatsapp": {
-    "message": "Hello, I'm interested in learning more about available properties.",
-    "phone": "+595 982 515 138"
-  }
+  "whatsapp": "595981123456"
 } as Record<string, unknown>

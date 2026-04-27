@@ -64,6 +64,24 @@ export function formatTime(time: string, locale = 'es-PY'): string {
   })
 }
 
+/**
+ * Safely strip non-digit characters from a phone number.
+ * Returns empty string for non-string input to prevent .replace crashes.
+ */
+export function cleanPhone(phone: unknown): string {
+  if (typeof phone !== 'string' || !phone) return ''
+  return phone.replace(/\D/g, '')
+}
+
+/**
+ * Safely strip @ prefix from an Instagram handle.
+ * Returns empty string for non-string input.
+ */
+export function cleanInstagram(handle: unknown): string {
+  if (typeof handle !== 'string' || !handle) return ''
+  return handle.replace(/^@/, '')
+}
+
 // ---- Numbers ----
 
 export function formatPercent(rate: number): string {

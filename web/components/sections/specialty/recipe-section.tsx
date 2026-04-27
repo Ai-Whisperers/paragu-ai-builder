@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Clock, Users, ChefHat, ArrowLeft, Share2, MessageCircle, Search, Flame, Timer, ChefHat as ChefHatIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { cleanPhone } from '@/lib/format'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
@@ -27,7 +28,8 @@ interface RecipePageProps {
 
 function RecipeCard({ recipe, business }: { recipe: Recipe; business: RecipePageProps['business'] }) {
   const whatsappMessage = `Hola! Vi la receta de ${recipe.title} en su web y me encantó. ¿Tienen todos los ingredientes disponibles?`
-  const whatsappUrl = `https://wa.me/${business.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`
+  const waClean = cleanPhone(business.whatsapp)
+  const whatsappUrl = `https://wa.me/${waClean}?text=${encodeURIComponent(whatsappMessage)}`
 
   const difficultyColor = {
     'Fácil': 'bg-green-100 text-green-800',
@@ -88,7 +90,8 @@ function RecipeCard({ recipe, business }: { recipe: Recipe; business: RecipePage
 
 function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: RecipePageProps['business']; onBack: () => void }) {
   const whatsappMessage = `Hola! Vi la receta de ${recipe.title} en su web y me encantó. Quiero hacerla y necesito los ingredientes. ¿Me podés ayudar?`
-  const whatsappUrl = `https://wa.me/${business.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`
+  const waClean = cleanPhone(business.whatsapp)
+  const whatsappUrl = `https://wa.me/${waClean}?text=${encodeURIComponent(whatsappMessage)}`
 
   return (
     <div className="max-w-4xl mx-auto">
@@ -369,7 +372,7 @@ export function RecipeSection({
             Las mejores recetas usando huevos frescos de {business.name}.
           </p>
           <Link
-            href={`https://wa.me/${business.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(`Hola! Tengo una receta familiar que quiero compartir con ${business.name}.`)}`}
+            href={`https://wa.me/${cleanPhone(business.whatsapp)}?text=${encodeURIComponent(`Hola! Tengo una receta familiar que quiero compartir con ${business.name}.`)}`}
             target="_blank"
             rel="noopener noreferrer"
           >

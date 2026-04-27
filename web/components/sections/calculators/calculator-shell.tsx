@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
+import { cleanPhone } from '@/lib/format'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
 
@@ -153,7 +154,7 @@ export function CalculatorShell({
               )}
               {whatsapp && (
                 <Button
-                  href={`https://wa.me/${whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage || '')}`}
+                  href={`https://wa.me/${cleanPhone(whatsapp)}?text=${encodeURIComponent(whatsappMessage || '')}`}
                   variant="outline"
                   size="lg"
                 >

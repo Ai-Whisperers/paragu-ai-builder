@@ -754,8 +754,5 @@ export default {
     }
   },
   "tagline": "Huevos frescos de granja en Coronel Oviedo",
-  "whatsapp": {
-    "message": "¡Hola! Vi su página web y me interesa hacer un pedido de huevos. ¿Me podés dar más información?",
-    "phone": "+595981324569"
-  }
+  "whatsapp": "+595982911935"
 } as Record<string, unknown>

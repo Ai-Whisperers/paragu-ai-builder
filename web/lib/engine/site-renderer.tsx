@@ -3,6 +3,7 @@ import { logger } from '@/lib/logger'
 import { GENERATED_MAP } from './generated/renderer-map'
 import { SectionWrapper } from '@/components/ui/section-wrapper'
 import { WhatsAppFloat } from '@/components/sections/navigation/whatsapp-float'
+import { SectionErrorBoundary } from '@/components/ui/section-error-boundary'
 
 // GENERATED_MAP is auto-generated but may miss some edge-case components
 // (e.g. files named without -section suffix where export name differs).
@@ -35,9 +36,11 @@ export function renderPage(page: ResolvedPage): React.ReactNode {
     } as Record<string, unknown>
 
     return (
-      <SectionWrapper key={`wrap-${s.id}-${i}`} styling={s.styling} id={s.id}>
-        <C {...props} />
-      </SectionWrapper>
+      <SectionErrorBoundary key={`seb-${s.id}-${i}`} sectionId={s.id} index={i}>
+        <SectionWrapper key={`wrap-${s.id}-${i}`} styling={s.styling} id={s.id}>
+          <C {...props} />
+        </SectionWrapper>
+      </SectionErrorBoundary>
     )
   })
 }

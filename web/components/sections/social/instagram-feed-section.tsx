@@ -1,5 +1,6 @@
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
+import { cleanInstagram } from '@/lib/format'
 
 /**
  * Instagram feed — renders a 2×N grid of post thumbnails. Content is passed
@@ -27,14 +28,14 @@ export function InstagramFeedSection({
       <Container>
         <div className="text-center mb-6">
           <Heading level={2}>{title}</Heading>
-          {handle && (
+          {handle && typeof handle === 'string' && (
             <a
-              href={`https://instagram.com/${handle.replace(/^@/, '')}`}
+              href={`https://instagram.com/${cleanInstagram(handle)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-1 text-[var(--primary)]"
             >
-              @{handle.replace(/^@/, '')}
+              @{cleanInstagram(handle)}
             </a>
           )}
         </div>
@@ -56,10 +57,10 @@ export function InstagramFeedSection({
             </a>
           ))}
         </div>
-        {ctaText && handle && (
+        {ctaText && handle && typeof handle === 'string' && (
           <div className="text-center mt-6">
             <a
-              href={`https://instagram.com/${handle.replace(/^@/, '')}`}
+              href={`https://instagram.com/${cleanInstagram(handle)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-medium text-[var(--primary)]"

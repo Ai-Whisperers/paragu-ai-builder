@@ -5,6 +5,7 @@ import { MessageCircle, Truck, Building, Calendar } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
+import { cleanPhone } from '@/lib/format'
 
 export type WhatsAppContext = 'product' | 'wholesale' | 'delivery' | 'chicken' | 'subscription' | 'general'
 
@@ -73,7 +74,7 @@ export function SmartWhatsAppButton({
   const [isHovered, setIsHovered] = useState(false)
 
   const buildWhatsAppUrl = (): string => {
-    const cleanPhone = phone.replace(/\D/g, '')
+    const cleaned = cleanPhone(phone)
     
     let message = 'Hola! Vi su pagina web y me interesa hacer un pedido.'
     
@@ -81,7 +82,7 @@ export function SmartWhatsAppButton({
       message = `Hola! Vi el ${productName} a ${price} en su web. Esta disponible? Quiero ${quantity}.`
     }
     
-    return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`
+    return `https://wa.me/${cleaned}?text=${encodeURIComponent(message)}`
   }
 
   return (
@@ -126,26 +127,29 @@ export function WhatsAppQuickActions({
   const [selectedAction, setSelectedAction] = useState<string | null>(null)
 
   const buildActionUrl = (template: WhatsAppTemplate): string => {
-    const cleanPhone = phone.replace(/\D/g, '')
-    let message = template.template
-
-    // Replace variables based on context
-    if (template.context === 'product' && productName && price) {
+    const cleaned = cleanPhone(phone)
+    const ctx = template.context
+    
+    let message = 'Hola! Vi su pagina web y me interesa hacer un pedido.'
+    
+    if (ctx === 'product' && productName && price) {
       message = message
         .replace('{{productName}}', productName)
         .replace('{{price}}', price)
         .replace('{{quantity}}', '1')
-    } else if (template.context === 'wholesale') {
+    }
+    if (ctx === 'subscription') {
       message = message.replace('{{weeklyVolume}}', '500')
-    } else if (template.context === 'delivery') {
+    }
+    if (ctx === 'delivery') {
       message = message
         .replace('{{address}}', '[mi direccion]')
         .replace('{{productList}}', productName || '[productos]')
-    } else if (template.context === 'subscription') {
+    }
+    if (ctx === 'chicken') {
       message = message.replace('{{familySize}}', '[numero]')
     }
-
-    return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`
+    return `https://wa.me/${cleaned}?text=${encodeURIComponent(message)}`
   }
 
   return (
@@ -188,8 +192,8 @@ export function FloatingWhatsApp({
   phone, 
   message = 'Hola! Vi su pagina web y me interesa hacer un pedido.' 
 }: FloatingWhatsAppProps) {
-  const cleanPhone = phone.replace(/\D/g, '')
-  const url = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`
+  const cleaned = cleanPhone(phone)
+  const url = `https://wa.me/${cleaned}?text=${encodeURIComponent(message)}`
 
   return (
     <a

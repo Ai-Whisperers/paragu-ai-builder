@@ -5,7 +5,7 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
-import { formatGs } from '@/lib/format-gs'
+import { formatGs, cleanPhone } from '@/lib/format'
 import type { BaseCalculatorSectionProps } from '@/types/sections'
 
 /**
@@ -38,7 +38,7 @@ export function CalcIpsSection({
   }, [salary])
 
   const whatsappHref = whatsapp
-    ? `https://wa.me/${whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Hola, necesito ayuda con los aportes mensuales al IPS.')}`
+    ? `https://wa.me/${cleanPhone(whatsapp)}?text=${encodeURIComponent('Hola, necesito ayuda con los aportes mensuales al IPS.')}`
     : null
 
   return (

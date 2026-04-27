@@ -5,7 +5,7 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
-import { formatGs } from '@/lib/format-gs'
+import { formatGs, cleanPhone } from '@/lib/format'
 
 export interface SavingsCalculatorTierOption {
   key: string
@@ -92,8 +92,8 @@ export function SavingsCalculatorSection({
     const text = whatsappMessageTemplate
       ? base
       : lines.join('\n')
-    const cleanPhone = whatsappPhone.replace(/[^0-9]/g, '')
-    return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(text)}`
+    const cleaned = cleanPhone(whatsappPhone)
+    return `https://wa.me/${cleaned}?text=${encodeURIComponent(text)}`
   }, [whatsappPhone, whatsappMessageTemplate, household, cashTotal, timeValue, hoursPerMonth, hourlyValue, totalToday, tier, savings])
 
   const positive = savings > 0

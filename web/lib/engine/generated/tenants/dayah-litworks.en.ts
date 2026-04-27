@@ -1264,7 +1264,5 @@ export default {
     "title": "Terms & Conditions",
     "trustBadgesEnabled": false
   },
-  "whatsapp": {
-    "defaultMessage": "Hi! I'm interested in a book cover design"
-  }
+  "whatsapp": "+595986868241"
 } as Record<string, unknown>

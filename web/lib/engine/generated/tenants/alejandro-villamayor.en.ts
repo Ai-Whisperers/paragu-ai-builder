@@ -484,7 +484,5 @@ export default {
     }
   },
   "tagline": "Strategic legal counsel for individuals and businesses in Paraguay",
-  "whatsapp": {
-    "defaultMessage": "Hi Alejandro, I saw your website and I'd like to consult about a legal matter."
-  }
+  "whatsapp": "+595981324569"
 } as Record<string, unknown>

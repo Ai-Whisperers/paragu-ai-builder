@@ -281,7 +281,5 @@ export default {
   },
   "siteName": "Demo Contador Asunción",
   "tagline": "Contabilidad, impuestos y asesoramiento para empresas y profesionales en Asunción.",
-  "whatsapp": {
-    "defaultMessage": "Hola, vi el demo de Contador y me interesa un sitio para mi negocio"
-  }
+  "whatsapp": "+595981234567"
 } as Record<string, unknown>

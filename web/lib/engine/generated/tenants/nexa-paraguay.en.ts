@@ -2138,10 +2138,7 @@ export default {
   },
   "siteName": "Nexa Paraguay",
   "tagline": "Your new start in Paraguay, simple and calm",
-  "whatsapp": {
-    "message": "Hi, I would like to know more about Nexa Paraguay's programs.",
-    "phone": "595982515138"
-  },
+  "whatsapp": "595982515138",
   "whyCountryPage": {
     "cta": {
       "buttonHref": "/s/en/nexa-paraguay/contacto",

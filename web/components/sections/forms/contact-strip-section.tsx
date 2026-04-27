@@ -1,5 +1,6 @@
 import { MapPin, MessageCircle, Phone, Clock } from 'lucide-react'
 import { Container } from '@/components/ui/container'
+import { cleanPhone } from '@/lib/format'
 
 export interface ContactStripSectionProps {
   address?: string
@@ -41,8 +42,9 @@ export function ContactStripSection({
 }: ContactStripSectionProps) {
   const resolvedLabels = labelsProp ?? DEFAULT_LABELS
   const L = resolvedLabels[__locale] ?? resolvedLabels.es
-  const whatsappHref = whatsapp
-    ? `https://wa.me/${whatsapp.replace(/\D/g, '')}${whatsappMessage ? `?text=${encodeURIComponent(whatsappMessage)}` : ''}`
+  const waClean = cleanPhone(whatsapp)
+  const whatsappHref = waClean
+    ? `https://wa.me/${waClean}${whatsappMessage ? `?text=${encodeURIComponent(whatsappMessage)}` : ''}`
     : null
 
   const addressLine = [address, neighborhood, city].filter(Boolean).join(' · ')

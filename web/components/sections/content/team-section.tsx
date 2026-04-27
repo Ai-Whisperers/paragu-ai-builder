@@ -2,6 +2,7 @@ import Image from 'next/image'
 import * as Icons from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
+import { cleanInstagram } from '@/lib/format'
 import { Card, CardContent } from '@/components/ui/card'
 
 export interface TeamMember {
@@ -113,14 +114,14 @@ export function TeamSection({ title, subtitle, members = [], variant = 'cards' }
                         {member.bio && (
                           <p className="mt-3 text-sm text-[var(--text-muted)]">{member.bio}</p>
                         )}
-                        {member.instagram && (
+                        {typeof member.instagram === 'string' && member.instagram && (
                           <a
-                            href={`https://instagram.com/${member.instagram.replace('@', '')}`}
+                            href={`https://instagram.com/${cleanInstagram(member.instagram)}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="mt-3 inline-block text-sm text-[var(--secondary)] hover:underline"
                           >
-                            @{member.instagram.replace('@', '')}
+                            @{cleanInstagram(member.instagram)}
                           </a>
                         )}
                       </div>

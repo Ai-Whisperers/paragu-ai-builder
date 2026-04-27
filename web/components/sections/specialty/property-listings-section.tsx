@@ -2,6 +2,7 @@
 
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
+import { cleanPhone } from '@/lib/format'
 import { Card, CardContent, CardImage } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -99,11 +100,11 @@ const TRANSACTION_LABELS: Record<PropertyListing['type'], string> = {
 }
 
 function buildWhatsAppUrl(phone: string, property: PropertyListing, transactionLabels: Record<string, string>): string {
-  const cleanPhone = phone.replace(/\D/g, '')
+  const cleaned = cleanPhone(phone)
   const message =
     property.whatsappMessage ??
     `Hola, me interesa la propiedad "${property.title}" (${transactionLabels[property.type]}). Quisiera mas informacion.`
-  return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`
+  return `https://wa.me/${cleaned}?text=${encodeURIComponent(message)}`
 }
 
 export function PropertyListingsSection({

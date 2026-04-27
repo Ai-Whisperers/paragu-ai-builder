@@ -277,7 +277,5 @@ export default {
   },
   "siteName": "De Abasto a Casa",
   "tagline": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
-  "whatsapp": {
-    "defaultMessage": "Hola, me interesa el servicio de De Abasto a Casa"
-  }
+  "whatsapp": "+595981324569"
 } as Record<string, unknown>

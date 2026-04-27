@@ -1258,7 +1258,5 @@ export default {
     "title": "Términos y Condiciones",
     "trustBadgesEnabled": false
   },
-  "whatsapp": {
-    "defaultMessage": "Hola, me interesa una portada para mi libro"
-  }
+  "whatsapp": "+595986868241"
 } as Record<string, unknown>

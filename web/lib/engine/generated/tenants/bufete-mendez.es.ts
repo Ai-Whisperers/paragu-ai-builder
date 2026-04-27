@@ -785,7 +785,5 @@ export default {
     "subtitle": "Condiciones generales de prestación de servicios legales",
     "title": "Términos y Condiciones"
   },
-  "whatsapp": {
-    "defaultMessage": "Hola, necesito asesoría legal. ¿Me pueden ayudar?"
-  }
+  "whatsapp": "+595981123456"
 } as Record<string, unknown>

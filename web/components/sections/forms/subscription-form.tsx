@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Plus, Minus, Check, Calendar, ChevronRight, ArrowRight, Repeat, CheckCircle } from 'lucide-react'
+import { cleanPhone } from '@/lib/format'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Heading } from '@/components/ui/heading'
@@ -321,7 +322,7 @@ ${productList}
                 Atras
               </Button>
               <a
-                href={`https://wa.me/${phone.replace(/\D/g, '')}?text=${encodeURIComponent(buildWhatsAppMessage())}`}
+                href={`https://wa.me/${cleanPhone(phone)}?text=${encodeURIComponent(buildWhatsAppMessage())}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1"

@@ -2112,10 +2112,7 @@ export default {
   },
   "siteName": "Nexa Paraguay",
   "tagline": "Uw nieuwe start in Paraguay, eenvoudig en met vertrouwen",
-  "whatsapp": {
-    "message": "Hallo, ik wil meer weten over de programma's van Nexa Paraguay.",
-    "phone": "595982515138"
-  },
+  "whatsapp": "595982515138",
   "whyCountryPage": {
     "cta": {
       "buttonHref": "/s/nl/nexa-paraguay/contacto",

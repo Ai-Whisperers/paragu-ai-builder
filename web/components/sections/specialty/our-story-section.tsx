@@ -1,4 +1,5 @@
 import { OurStorySectionProps, OurStoryOverrides, ICONS, DEFAULT_SUSTAINABILITY_ITEMS, DEFAULT_PROCESS_STEPS, DEFAULT_VALUES, resolveIcon } from './our-story-data'
+import { cleanPhone } from '@/lib/format'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -8,7 +9,8 @@ import Link from 'next/link'
 import { Heart, Leaf, Award, MapPin, Clock, Phone, MessageCircle, CheckCircle, Egg, Bird, Sprout, Shield, TreePine, Users, Sparkles, Droplets, Recycle, ArrowRight, Check } from 'lucide-react'
 
 export function OurStorySection({ business, overrides }: OurStorySectionProps) {
-  const whatsappUrl = `https://wa.me/${business.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(
+  const waClean = cleanPhone(business.whatsapp)
+  const whatsappUrl = `https://wa.me/${waClean}?text=${encodeURIComponent(
     overrides?.whatsappMessage ?? 'Hola! Quiero visitar la granja para conocer sus instalaciones.',
   )}`
 

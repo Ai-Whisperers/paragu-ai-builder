@@ -1829,8 +1829,5 @@ export default {
       "title": "Tiendas y puntos de venta"
     }
   },
-  "whatsapp": {
-    "defaultMessage": "Hola! Quiero consultar por un colchón Superspuma.",
-    "phoneNumber": "+595974202025"
-  }
+  "whatsapp": "+595974202025"
 } as Record<string, unknown>

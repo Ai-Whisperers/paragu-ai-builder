@@ -9739,9 +9739,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "tagline": "Strategic legal counsel for individuals and businesses in Paraguay",
-    "whatsapp": {
-      "defaultMessage": "Hi Alejandro, I saw your website and I'd like to consult about a legal matter."
-    }
+    "whatsapp": "+595981324569"
   },
   "alejandro-villamayor:es": {
     "_meta": {
@@ -10476,9 +10474,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "tagline": "Asesoría legal estratégica para personas y empresas en Paraguay",
-    "whatsapp": {
-      "defaultMessage": "Hola Alejandro, vi tu sitio web y quiero consultarte sobre un caso legal."
-    }
+    "whatsapp": "+595981324569"
   },
   "bufete-mendez:es": {
     "_meta": {
@@ -11266,9 +11262,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "subtitle": "Condiciones generales de prestación de servicios legales",
       "title": "Términos y Condiciones"
     },
-    "whatsapp": {
-      "defaultMessage": "Hola, necesito asesoría legal. ¿Me pueden ayudar?"
-    }
+    "whatsapp": "+595981123456"
   },
   "dayah-litworks:en": {
     "_meta": {
@@ -12535,9 +12529,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "title": "Terms & Conditions",
       "trustBadgesEnabled": false
     },
-    "whatsapp": {
-      "defaultMessage": "Hi! I'm interested in a book cover design"
-    }
+    "whatsapp": "+595986868241"
   },
   "dayah-litworks:es": {
     "_meta": {
@@ -13798,9 +13790,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "title": "Términos y Condiciones",
       "trustBadgesEnabled": false
     },
-    "whatsapp": {
-      "defaultMessage": "Hola, me interesa una portada para mi libro"
-    }
+    "whatsapp": "+595986868241"
   },
   "de-abasto-a-casa:es": {
     "_meta": {
@@ -14080,9 +14070,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "De Abasto a Casa",
     "tagline": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
-    "whatsapp": {
-      "defaultMessage": "Hola, me interesa el servicio de De Abasto a Casa"
-    }
+    "whatsapp": "+595981324569"
   },
   "demo-contador:es": {
     "_meta": {
@@ -14366,9 +14354,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Demo Contador Asunción",
     "tagline": "Contabilidad, impuestos y asesoramiento para empresas y profesionales en Asunción.",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Contador y me interesa un sitio para mi negocio"
-    }
+    "whatsapp": "+595981234567"
   },
   "demo-estudio-contable:es": {
     "_meta": {
@@ -14840,9 +14826,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Estudio Contable Asunción",
     "tagline": "Contabilidad, impuestos y sueldos para PYMES en Paraguay",
-    "whatsapp": {
-      "defaultMessage": "Hola, vi el demo de Estudio Contable y quiero un sitio para mi estudio"
-    }
+    "whatsapp": "+595985724135"
   },
   "fun4me:bundles": {
     "_meta": {
@@ -17041,11 +17025,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "tagline": "Tu tienda de placer — envio discreto a todo Paraguay",
-    "whatsapp": {
-      "label": "Chat con Fun4Me",
-      "message": "Hola! Quiero consultar sobre un producto.",
-      "phone": "595976569739"
-    }
+    "whatsapp": "+595976569739"
   },
   "fun4me:gift-cards": {
     "_meta": {
@@ -18650,10 +18630,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "tagline": "Huevos frescos de granja en Coronel Oviedo",
-    "whatsapp": {
-      "message": "¡Hola! Vi su página web y me interesa hacer un pedido de huevos. ¿Me podés dar más información?",
-      "phone": "+595981324569"
-    }
+    "whatsapp": "+595982911935"
   },
   "nexa-paraguay:de": {
     "_meta": {
@@ -20771,10 +20748,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Nexa Paraguay",
     "tagline": "Ihr neuer Anfang in Paraguay, einfach und souverän",
-    "whatsapp": {
-      "message": "Hallo, ich möchte mehr über die Programme von Nexa Paraguay erfahren.",
-      "phone": "595982515138"
-    },
+    "whatsapp": "595982515138",
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
@@ -23037,10 +23011,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Nexa Paraguay",
     "tagline": "Your new start in Paraguay, simple and calm",
-    "whatsapp": {
-      "message": "Hi, I would like to know more about Nexa Paraguay's programs.",
-      "phone": "595982515138"
-    },
+    "whatsapp": "595982515138",
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
@@ -25288,10 +25259,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Nexa Paraguay",
     "tagline": "Tu nuevo comienzo en Paraguay, simple y tranquilo",
-    "whatsapp": {
-      "message": "Hola, quiero saber más sobre los programas de Nexa Paraguay.",
-      "phone": "595982515138"
-    },
+    "whatsapp": "595982515138",
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
@@ -27528,10 +27496,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Nexa Paraguay",
     "tagline": "Uw nieuwe start in Paraguay, eenvoudig en met vertrouwen",
-    "whatsapp": {
-      "message": "Hallo, ik wil meer weten over de programma's van Nexa Paraguay.",
-      "phone": "595982515138"
-    },
+    "whatsapp": "595982515138",
     "whyCountryPage": {
       "cta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
@@ -27880,10 +27845,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Nexa Propiedades",
     "tagline": "Your new home in Paraguay awaits",
-    "whatsapp": {
-      "message": "Hello, I'm interested in learning more about available properties.",
-      "phone": "+595 982 515 138"
-    }
+    "whatsapp": "595981123456"
   },
   "nexa-propiedades:es": {
     "contact": {
@@ -28107,10 +28069,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Nexa Propiedades",
     "tagline": "Tu nuevo hogar en Paraguay te espera",
-    "whatsapp": {
-      "message": "Hola, me interesa conocer más sobre las propiedades disponibles.",
-      "phone": "+595 982 515 138"
-    }
+    "whatsapp": "595981123456"
   },
   "nexa-propiedades:pt": {
     "contact": {
@@ -28313,10 +28272,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Nexa Propiedades",
     "tagline": "Sua nova casa no Paraguai o aguarda",
-    "whatsapp": {
-      "message": "Olá, tenho interesse em saber mais sobre os imóveis disponíveis.",
-      "phone": "+595 982 515 138"
-    }
+    "whatsapp": "595981123456"
   },
   "nudo:es": {
     "_meta": {
@@ -28799,9 +28755,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Videos — Nüdo"
       }
     },
-    "whatsapp": {
-      "defaultMessage": "Hola Nüdo! Queremos contactarlos."
-    }
+    "whatsapp": "+595981324569"
   },
   "polki-squad:es": {
     "adoptionProcess": {
@@ -31611,10 +31565,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Tiendas y puntos de venta"
       }
     },
-    "whatsapp": {
-      "defaultMessage": "Hola! Quiero consultar por un colchón Superspuma.",
-      "phoneNumber": "+595974202025"
-    }
+    "whatsapp": "+595974202025"
   },
 }
 

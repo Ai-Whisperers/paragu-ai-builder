@@ -480,7 +480,5 @@ export default {
       "title": "Videos — Nüdo"
     }
   },
-  "whatsapp": {
-    "defaultMessage": "Hola Nüdo! Queremos contactarlos."
-  }
+  "whatsapp": "+595981324569"
 } as Record<string, unknown>

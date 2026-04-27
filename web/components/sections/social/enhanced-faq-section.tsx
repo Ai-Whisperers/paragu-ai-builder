@@ -8,6 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { Heading } from '@/components/ui/heading'
+import { cleanPhone } from '@/lib/format'
 
 export interface EnhancedFAQItem {
   question: string
@@ -58,7 +59,7 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
     return matchesCategory && matchesSearch
   })
 
-  const whatsappUrl = `https://wa.me/${business.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Hola! Tengo una pregunta que no encontré en las FAQs...')}`
+  const whatsappUrl = `https://wa.me/${cleanPhone(business.whatsapp)}?text=${encodeURIComponent('Hola! Tengo una pregunta que no encontré en las FAQs...')}`
   const resolvedTitle = title ?? 'Preguntas Frecuentes'
   const resolvedSubtitle =
     subtitle ?? 'Encontrá respuestas a las dudas más comunes sobre nuestros productos y servicios.'

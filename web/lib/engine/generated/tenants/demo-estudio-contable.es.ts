@@ -469,7 +469,5 @@ export default {
   },
   "siteName": "Estudio Contable Asunción",
   "tagline": "Contabilidad, impuestos y sueldos para PYMES en Paraguay",
-  "whatsapp": {
-    "defaultMessage": "Hola, vi el demo de Estudio Contable y quiero un sitio para mi estudio"
-  }
+  "whatsapp": "+595985724135"
 } as Record<string, unknown>

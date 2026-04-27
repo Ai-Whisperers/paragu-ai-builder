@@ -5,7 +5,7 @@ import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
-import { formatGs } from '@/lib/format-gs'
+import { formatGs, cleanPhone } from '@/lib/format'
 import type { BaseCalculatorSectionProps } from '@/types/sections'
 
 /**
@@ -45,7 +45,7 @@ export function CalcCostoEmpleadoSection({
   }, [monthlySalary, headcount])
 
   const whatsappHref = whatsapp
-    ? `https://wa.me/${whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Hola, quiero tercerizar la liquidacion de sueldos de mi empresa.')}`
+    ? `https://wa.me/${cleanPhone(whatsapp)}?text=${encodeURIComponent('Hola, quiero tercerizar la liquidacion de sueldos de mi empresa.')}`
     : null
 
   return (

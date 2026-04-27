@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Card, CardContent, CardImage, CardTitle, CardDescription } from '@/components/ui/card'
+import { cleanPhone } from '@/lib/format'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { AnimateOnScroll, AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
@@ -136,11 +137,11 @@ export function buildWhatsAppUrl(
   product: ProductItem,
   messageTemplate: string
 ): string {
-  const cleanPhone = phone.replace(/\D/g, '')
+  const cleaned = cleanPhone(phone)
   const message = messageTemplate
     .replace('{{productName}}', product.name)
     .replace('{{productPrice}}', product.price || 'consultar')
-  return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`
+  return `https://wa.me/${cleaned}?text=${encodeURIComponent(message)}`
 }
 
 export function buildEmailUrl(

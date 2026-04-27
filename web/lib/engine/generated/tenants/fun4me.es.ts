@@ -1756,9 +1756,5 @@ export default {
     }
   },
   "tagline": "Tu tienda de placer — envio discreto a todo Paraguay",
-  "whatsapp": {
-    "label": "Chat con Fun4Me",
-    "message": "Hola! Quiero consultar sobre un producto.",
-    "phone": "595976569739"
-  }
+  "whatsapp": "+595976569739"
 } as Record<string, unknown>

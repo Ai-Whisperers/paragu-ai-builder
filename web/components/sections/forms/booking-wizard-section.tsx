@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
+import { cleanPhone } from '@/lib/format'
 
 interface BookingService {
   id: string
@@ -87,8 +88,9 @@ export function BookingWizardSection({
   const handleConfirm = () => {
     const service = services.find(s => s.id === selectedService)
     const msg = `Hola${businessName ? ' ' + businessName : ''}! Quiero agendar una consulta${service ? ' de ' + service.name : ''}${selectedDate ? ' para el ' + formatDate(selectedDate) + ' a las ' + selectedTime : ''}.`
-    if (whatsapp) {
-      window.open(`https://wa.me/${whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(msg)}`, '_blank')
+    const waClean = cleanPhone(whatsapp)
+    if (waClean) {
+      window.open(`https://wa.me/${waClean}?text=${encodeURIComponent(msg)}`, '_blank')
     }
   }
 

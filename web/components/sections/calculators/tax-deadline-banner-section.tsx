@@ -3,6 +3,7 @@
 import { useMemo } from 'react'
 import { Container } from '@/components/ui/container'
 import { Button } from '@/components/ui/button'
+import { cleanPhone } from '@/lib/format'
 import { getUpcomingDeadlines } from '@/lib/data/py-tax-calendar'
 
 /**
@@ -87,7 +88,7 @@ export function TaxDeadlineBannerSection({
   if (deadlines.length === 0) return null
 
   const whatsappHref = whatsapp
-    ? `https://wa.me/${whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(
+    ? `https://wa.me/${cleanPhone(whatsapp)}?text=${encodeURIComponent(
         locale === 'pt'
           ? 'Ola, quero ajuda com os proximos vencimentos fiscais'
           : locale === 'en'
