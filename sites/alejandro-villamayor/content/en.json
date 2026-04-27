@@ -30,14 +30,6 @@
       "ctaSecondaryHref": "/s/en/alejandro-villamayor/investor-pass",
       "trustBadges": ["Asunción, Paraguay", "English · Spanish", "CAP Member"]
     },
-    "stats": {
-      "items": [
-        { "value": "+50", "label": "Satisfied clients", "icon": "Users" },
-        { "value": "+8", "label": "Years of experience", "icon": "Calendar" },
-        { "value": "+30", "label": "Foreign investment cases", "icon": "Globe" },
-        { "value": "98%", "label": "Success rate", "icon": "Award" }
-      ]
-    },
     "credenciales": {
       "eyebrow": "Credentials",
       "title": "Member of the Paraguayan Bar Association",

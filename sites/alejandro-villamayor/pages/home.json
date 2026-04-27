@@ -4,7 +4,6 @@
   "descriptionKey": "home.seo.description",
   "sections": [
     { "id": "hero", "variant": "image", "content": "home.hero" },
-    { "id": "stats-counter", "variant": "standard", "content": "home.stats" },
     { "id": "trust-signals", "variant": "credentials", "content": "home.credenciales" },
     { "id": "services", "variant": "cards", "content": "home.services" },
     { "id": "process", "variant": "steps", "content": "home.process" },
