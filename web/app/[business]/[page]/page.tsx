@@ -8,6 +8,9 @@ import type { Metadata } from 'next'
 import type { PageType } from '@/lib/types'
 
 export const runtime = 'nodejs'
+// Dynamic to avoid prerender errors with the legacy renderer
+// (which doesn't pass all props like variant to section components).
+export const dynamic = 'force-dynamic'
 
 interface Props {
   params: Promise<{ business: string; page: string }>
