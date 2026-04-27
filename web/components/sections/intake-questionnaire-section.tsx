@@ -143,7 +143,7 @@ export function IntakeQuestionnaireSection({
             />
           ))}
 
-          {error && <p className="text-sm text-red-600">{error}</p>}
+          {error && <p className="text-sm text-[var(--primary)]">{error}</p>}
 
           <div className="flex items-center justify-between gap-4">
             <Button type="submit" disabled={submitting}>
@@ -182,7 +182,7 @@ function QuestionField({
   const label = (
     <label htmlFor={question.id} className={labelClasses}>
       {question.label}
-      {question.required && <span className="text-red-600 ml-1">*</span>}
+      {question.required && <span className="text-[var(--primary)] ml-1">*</span>}
     </label>
   )
 

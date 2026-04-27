@@ -72,7 +72,7 @@ export function FloatingCTASection({
             onClick={() => handleAction(item)}
             className={`flex-1 py-3 text-sm font-medium flex items-center justify-center gap-2 transition-colors ${
               item.type === 'whatsapp'
-                ? 'bg-green-600 text-white hover:bg-green-700'
+                ? 'bg-[var(--success)] text-white hover:bg-green-700'
                 : 'bg-[var(--surface)] text-[var(--text)] hover:bg-[var(--surface-light)]'
             }`}
           >

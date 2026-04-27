@@ -98,15 +98,15 @@ export function PriceListGenerator({ data, className }: PriceListGeneratorProps)
           </p>
           <ul className="text-sm space-y-1 text-[var(--text)]">
             <li className="flex items-center gap-2">
-              <CheckCircle className="w-4 h-4 text-green-600" />
+              <CheckCircle className="w-4 h-4 text-[var(--success)]" />
               Precios minoristas y mayoristas
             </li>
             <li className="flex items-center gap-2">
-              <CheckCircle className="w-4 h-4 text-green-600" />
+              <CheckCircle className="w-4 h-4 text-[var(--success)]" />
               Costos de delivery por zona
             </li>
             <li className="flex items-center gap-2">
-              <CheckCircle className="w-4 h-4 text-green-600" />
+              <CheckCircle className="w-4 h-4 text-[var(--success)]" />
               Pedidos minimos y condiciones
             </li>
           </ul>

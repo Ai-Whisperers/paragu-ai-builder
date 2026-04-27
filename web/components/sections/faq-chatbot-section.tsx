@@ -258,7 +258,7 @@ export function FAQChatbot({ phone, className }: FAQChatbotProps) {
                 phone={phone}
                 context="general"
                 size="lg"
-                className="bg-white text-[var(--primary)] hover:bg-gray-100"
+                className="bg-white text-[var(--primary)] hover:bg-[var(--surface-light)]"
               >
                 <MessageCircle className="w-5 h-5 mr-2" />
                 Preguntar por WhatsApp

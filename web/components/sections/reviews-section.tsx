@@ -143,7 +143,7 @@ export function ReviewCard({ review, className, onHelpful }: ReviewCardProps) {
                 'w-4 h-4',
                 i < review.rating 
                   ? 'text-amber-400 fill-amber-400' 
-                  : 'text-gray-300'
+                  : 'text-[var(--text-light)]'
               )}
             />
           ))}
@@ -219,7 +219,7 @@ export function ReviewForm({ onSubmit, className }: ReviewFormProps) {
     return (
       <div className="text-center py-8">
         <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-          <CheckCircle className="w-8 h-8 text-green-600" />
+          <CheckCircle className="w-8 h-8 text-[var(--success)]" />
         </div>
         <h4 className="font-semibold text-lg mb-2">Gracias por tu opinion!</h4>
         <p className="text-[var(--text-muted)]">
@@ -249,7 +249,7 @@ export function ReviewForm({ onSubmit, className }: ReviewFormProps) {
                   'w-8 h-8',
                   i < (hoverRating || rating)
                     ? 'text-amber-400 fill-amber-400'
-                    : 'text-gray-300'
+                    : 'text-[var(--text-light)]'
                 )}
               />
             </button>
@@ -383,7 +383,7 @@ export function ReviewsSection({
                     'w-6 h-6',
                     i < Math.round(averageRating)
                       ? 'text-amber-400 fill-amber-400'
-                      : 'text-gray-300'
+                      : 'text-[var(--text-light)]'
                   )}
                 />
               ))}

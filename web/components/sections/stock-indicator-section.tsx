@@ -89,7 +89,7 @@ export function StockIndicator({
         
         {!subscribed ? (
           <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-            <p className="text-sm text-red-800 mb-3">
+            <p className="text-sm text-[var(--primary)] mb-3">
               Dejanos tu email y te avisamos cuando tengamos stock:
             </p>
             {showNotifyForm ? (
@@ -112,7 +112,7 @@ export function StockIndicator({
                 variant="outline" 
                 size="sm" 
                 onClick={() => setShowNotifyForm(true)}
-                className="border-red-300 text-red-700 hover:bg-red-100"
+                className="border-[var(--primary)] text-[var(--primary)] hover:bg-red-100"
               >
                 <Bell className="w-4 h-4 mr-1" />
                 Avisarme cuando haya
@@ -136,7 +136,7 @@ export function StockIndicator({
       <div className={cn('space-y-2', className)}>
         <Badge 
           variant="outline" 
-          className="flex items-center gap-1.5 px-3 py-1.5 border-blue-500 text-blue-700"
+          className="flex items-center gap-1.5 px-3 py-1.5 border-blue-500 text-[var(--primary)]"
         >
           {config.icon}
           {config.label}
@@ -156,7 +156,7 @@ export function StockIndicator({
         variant={config.badgeVariant}
         className={cn(
           'flex items-center gap-1.5 px-3 py-1.5',
-          status === 'in_stock' && 'bg-green-600 hover:bg-green-700'
+          status === 'in_stock' && 'bg-[var(--success)] hover:bg-green-700'
         )}
       >
         {config.icon}

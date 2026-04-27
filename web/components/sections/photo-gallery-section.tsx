@@ -72,8 +72,8 @@ const GALLERY_ITEMS = [
 
 const STATS = [
   { icon: Heart, value: '500+', label: 'Gallinas felices', color: 'text-pink-500' },
-  { icon: MapPin, value: '100%', label: 'Producción local', color: 'text-green-500' },
-  { icon: Users, value: '200+', label: 'Clientes activos', color: 'text-blue-500' },
+  { icon: MapPin, value: '100%', label: 'Producción local', color: 'text-[var(--success)]' },
+  { icon: Users, value: '200+', label: 'Clientes activos', color: 'text-[var(--primary)]' },
   { icon: Award, value: '5+', label: 'Años de experiencia', color: 'text-amber-500' }
 ]
 

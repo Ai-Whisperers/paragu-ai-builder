@@ -225,7 +225,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-orange-100 text-orange-800 hover:bg-orange-100">{heroBadge}</Badge>
-              <Heading level={2} className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              <Heading level={2} className="text-4xl md:text-5xl font-bold text-[var(--text)] mb-6">
                 {heroHeadPrefix}
                 {heroHeadAccent ? (
                   <>
@@ -235,13 +235,13 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
                 ) : null}
               </Heading>
               {heroIntro.map((para, i) => (
-                <p key={i} className="text-lg text-gray-600 mb-6 leading-relaxed last:mb-8">
+                <p key={i} className="text-lg text-[var(--text-muted)] mb-6 leading-relaxed last:mb-8">
                   {para}
                 </p>
               ))}
               <div className="flex flex-wrap gap-4">
                 <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                  <Button className="bg-green-600 hover:bg-green-700">
+                  <Button className="bg-[var(--success)] hover:bg-green-700">
                     <MessageCircle className="w-4 h-4 mr-2" />
                     {overrides?.visit?.enabled === false ? 'Escribinos' : 'Agendar Visita'}
                   </Button>
@@ -279,10 +279,10 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
               {business.stats.map((stat, index) => (
-                <Card key={index} className="text-center border-gray-100">
+                <Card key={index} className="text-center border-[var(--border)]">
                   <CardContent className="p-6">
                     <div className="text-3xl md:text-4xl font-bold text-orange-600 mb-2">{stat.value}</div>
-                    <div className="text-sm text-gray-600">{stat.label}</div>
+                    <div className="text-sm text-[var(--text-muted)]">{stat.label}</div>
                   </CardContent>
                 </Card>
               ))}
@@ -293,7 +293,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
 
       {/* Mission & Vision */}
       {missionVisionEnabled && (business.story?.mission || business.story?.vision) ? (
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-light)]">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <Card className="border-orange-200">
@@ -304,7 +304,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-[var(--text-muted)] leading-relaxed">
                     {business.story?.mission ??
                       'Producir alimentos frescos, saludables y accesibles para las familias de Coronel Oviedo y zona, manteniendo prácticas sostenibles y apoyando el desarrollo local.'}
                   </p>
@@ -314,12 +314,12 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
               <Card className="border-green-200">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-2xl">
-                    <Award className="w-6 h-6 text-green-600" />
+                    <Award className="w-6 h-6 text-[var(--success)]" />
                     {overrides?.missionVision?.visionTitle ?? 'Nuestra Visión'}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-[var(--text-muted)] leading-relaxed">
                     {business.story?.vision ??
                       'Ser la granja avícola de referencia en Caaguazú, reconocida por calidad, sostenibilidad y compromiso comunitario. Expandir nuestro alcance mientras mantenemos los valores familiares que nos caracterizan.'}
                   </p>
@@ -335,10 +335,10 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <Heading level={2} className="text-3xl font-bold text-gray-900 mb-4">
+              <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
                 {overrides?.values?.title ?? 'Nuestros Valores'}
               </Heading>
-              <p className="text-lg text-gray-600">
+              <p className="text-lg text-[var(--text-muted)]">
                 {overrides?.values?.subtitle ?? 'Los principios que guían cada decisión'}
               </p>
             </div>
@@ -347,13 +347,13 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
               {valuesList.map((value, index) => {
                 const [title, description] = value.split(': ')
                 return (
-                  <Card key={index} className="border-gray-100">
+                  <Card key={index} className="border-[var(--border)]">
                     <CardContent className="p-6">
-                      <CheckCircle className="w-8 h-8 text-green-500 mb-3" />
-                      <Heading level={3} className="font-semibold text-gray-900 mb-2">
+                      <CheckCircle className="w-8 h-8 text-[var(--success)] mb-3" />
+                      <Heading level={3} className="font-semibold text-[var(--text)] mb-2">
                         {title}
                       </Heading>
-                      <p className="text-sm text-gray-600">{description}</p>
+                      <p className="text-sm text-[var(--text-muted)]">{description}</p>
                     </CardContent>
                   </Card>
                 )
@@ -368,23 +368,23 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-amber-50 to-orange-50">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <Heading level={2} className="text-3xl font-bold text-gray-900 mb-4">
+              <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
                 {overrides?.process?.title ?? 'Nuestro Proceso'}
               </Heading>
-              <p className="text-lg text-gray-600">
+              <p className="text-lg text-[var(--text-muted)]">
                 {overrides?.process?.subtitle ?? 'De la granja a tu mesa'}
               </p>
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {processSteps.map((step, index) => (
-                <Card key={index} className="text-center border-gray-100">
+                <Card key={index} className="text-center border-[var(--border)]">
                   <CardContent className="p-6">
                     <step.icon className="w-12 h-12 text-orange-600 mx-auto mb-4" />
-                    <Heading level={3} className="font-semibold text-gray-900 mb-2">
+                    <Heading level={3} className="font-semibold text-[var(--text)] mb-2">
                       {step.title}
                     </Heading>
-                    <p className="text-sm text-gray-600">{step.description}</p>
+                    <p className="text-sm text-[var(--text-muted)]">{step.description}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -399,10 +399,10 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <Badge className="mb-4 bg-green-100 text-green-800">Compromiso Ambiental</Badge>
-              <Heading level={2} className="text-3xl font-bold text-gray-900 mb-4">
+              <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
                 Sostenibilidad
               </Heading>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
                 Creemos en producir alimentos de manera responsable con el medio ambiente. Nuestra granja implementa
                 prácticas sostenibles que benefician a todos.
               </p>
@@ -412,11 +412,11 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
               {sustainabilityItems.map((item, index) => (
                 <Card key={index} className="border-green-200">
                   <CardContent className="p-6">
-                    <item.icon className="w-10 h-10 text-green-600 mb-3" />
-                    <Heading level={3} className="font-semibold text-gray-900 mb-2">
+                    <item.icon className="w-10 h-10 text-[var(--success)] mb-3" />
+                    <Heading level={3} className="font-semibold text-[var(--text)] mb-2">
                       {item.title}
                     </Heading>
-                    <p className="text-sm text-gray-600">{item.description}</p>
+                    <p className="text-sm text-[var(--text-muted)]">{item.description}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -424,7 +424,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
 
             {business.sustainability.description && (
               <div className="mt-8 text-center">
-                <p className="text-gray-600 italic">&ldquo;{business.sustainability.description}&rdquo;</p>
+                <p className="text-[var(--text-muted)] italic">&ldquo;{business.sustainability.description}&rdquo;</p>
               </div>
             )}
           </div>
@@ -437,10 +437,10 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <Heading level={2} className="text-3xl font-bold text-gray-900 mb-6">
+                <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-6">
                   {overrides?.visit?.title ?? 'Visítanos'}
                 </Heading>
-                <p className="text-lg text-gray-600 mb-6">
+                <p className="text-lg text-[var(--text-muted)] mb-6">
                   {overrides?.visit?.description ??
                     'Te invitamos a conocer nuestras instalaciones y ver cómo trabajamos. Podés ver a nuestras gallinas, el proceso de recolección y entender por qué nuestros huevos son diferentes.'}
                 </p>
@@ -449,21 +449,21 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-orange-600 mt-1" />
                     <div>
-                      <p className="font-medium text-gray-900">Ubicación</p>
-                      <p className="text-gray-600">{business.address}</p>
-                      {business.city ? <p className="text-gray-600">{business.city}, Paraguay</p> : null}
+                      <p className="font-medium text-[var(--text)]">Ubicación</p>
+                      <p className="text-[var(--text-muted)]">{business.address}</p>
+                      {business.city ? <p className="text-[var(--text-muted)]">{business.city}, Paraguay</p> : null}
                     </div>
                   </div>
 
                   <div className="flex items-start gap-3">
                     <Clock className="w-5 h-5 text-orange-600 mt-1" />
                     <div>
-                      <p className="font-medium text-gray-900">
+                      <p className="font-medium text-[var(--text)]">
                         {overrides?.visit?.hoursLabel ?? 'Horario de Visitas'}
                       </p>
                       {(overrides?.visit?.hoursLines ?? ['Lunes a Sábado', '9:00 - 11:00 o 15:00 - 17:00']).map(
                         (line, i) => (
-                          <p key={i} className="text-gray-600">
+                          <p key={i} className="text-[var(--text-muted)]">
                             {line}
                           </p>
                         ),
@@ -479,14 +479,14 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
                   <div className="flex items-start gap-3">
                     <Phone className="w-5 h-5 text-orange-600 mt-1" />
                     <div>
-                      <p className="font-medium text-gray-900">Contacto</p>
-                      <p className="text-gray-600">{business.whatsapp}</p>
+                      <p className="font-medium text-[var(--text)]">Contacto</p>
+                      <p className="text-[var(--text-muted)]">{business.whatsapp}</p>
                     </div>
                   </div>
                 </div>
 
                 <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" className="bg-green-600 hover:bg-green-700">
+                  <Button size="lg" className="bg-[var(--success)] hover:bg-green-700">
                     <MessageCircle className="w-5 h-5 mr-2" />
                     Agendar Visita por WhatsApp
                   </Button>
@@ -496,8 +496,8 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
               <div className="relative">
                 <div className="aspect-video rounded-2xl bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
                   <div className="text-center p-8">
-                    <MapPin className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                    <p className="text-gray-600 font-medium">Mapa de Ubicación</p>
+                    <MapPin className="w-16 h-16 text-[var(--text-muted)] mx-auto mb-4" />
+                    <p className="text-[var(--text-muted)] font-medium">Mapa de Ubicación</p>
                     <p className="text-sm text-gray-500 mt-2">(Integrar Google Maps)</p>
                   </div>
                 </div>
@@ -520,7 +520,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                <Button size="lg" className="bg-white text-orange-600 hover:bg-gray-100 px-8">
+                <Button size="lg" className="bg-white text-orange-600 hover:bg-[var(--surface-light)] px-8">
                   <MessageCircle className="w-5 h-5 mr-2" />
                   {overrides?.cta?.primaryLabel ?? 'Hacer Pedido por WhatsApp'}
                 </Button>

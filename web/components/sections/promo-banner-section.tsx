@@ -239,13 +239,13 @@ export function PromoBannerSection({
 
             {/* Promo Code */}
             {currentPromo.code && (
-              <code className="px-3 py-1.5 bg-white/90 text-gray-900 rounded-lg text-sm font-bold">
+              <code className="px-3 py-1.5 bg-white/90 text-[var(--text)] rounded-lg text-sm font-bold">
                 Código: {currentPromo.code}
               </code>
             )}
 
             {/* CTA */}
-            <button className="px-4 py-1.5 bg-white text-gray-900 rounded-full text-sm font-bold hover:bg-white/90 transition-colors">
+            <button className="px-4 py-1.5 bg-white text-[var(--text)] rounded-full text-sm font-bold hover:bg-white/90 transition-colors">
               Reservar Ahora
             </button>
           </div>

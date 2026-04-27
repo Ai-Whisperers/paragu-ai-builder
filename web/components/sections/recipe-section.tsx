@@ -32,11 +32,11 @@ function RecipeCard({ recipe, business }: { recipe: Recipe; business: RecipePage
   const difficultyColor = {
     'Fácil': 'bg-green-100 text-green-800',
     'Media': 'bg-yellow-100 text-yellow-800',
-    'Difícil': 'bg-red-100 text-red-800'
+    'Difícil': 'bg-red-100 text-[var(--primary)]'
   }[recipe.difficulty]
 
   return (
-    <Card className="overflow-hidden border-gray-200 hover:shadow-lg transition-shadow">
+    <Card className="overflow-hidden border-[var(--border)] hover:shadow-lg transition-shadow">
       <div className="relative h-48 bg-gradient-to-br from-orange-100 to-amber-100 flex items-center justify-center">
         <div className="text-center p-4">
           <ChefHatIcon className="w-16 h-16 text-orange-400 mx-auto mb-2" />
@@ -61,8 +61,8 @@ function RecipeCard({ recipe, business }: { recipe: Recipe; business: RecipePage
           </span>
         </div>
         
-        <Heading level={3} className="text-lg font-bold text-gray-900 mb-2">{recipe.title}</Heading>
-        <p className="text-sm text-gray-600 mb-4 line-clamp-2">{recipe.description}</p>
+        <Heading level={3} className="text-lg font-bold text-[var(--text)] mb-2">{recipe.title}</Heading>
+        <p className="text-sm text-[var(--text-muted)] mb-4 line-clamp-2">{recipe.description}</p>
         
         <div className="flex items-center gap-1 text-xs text-gray-500 mb-4">
           <Users className="w-4 h-4" />
@@ -76,7 +76,7 @@ function RecipeCard({ recipe, business }: { recipe: Recipe; business: RecipePage
             </Button>
           </Link>
           <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-            <Button size="icon" className="bg-green-600 hover:bg-green-700">
+            <Button size="icon" className="bg-[var(--success)] hover:bg-green-700">
               <MessageCircle className="w-4 h-4" />
             </Button>
           </Link>
@@ -99,7 +99,7 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
 
       <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 mb-8">
         <div className="flex flex-wrap gap-2 mb-4">
-          <Badge className={recipe.difficulty === 'Fácil' ? 'bg-green-100 text-green-800' : recipe.difficulty === 'Media' ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-red-800'}>
+          <Badge className={recipe.difficulty === 'Fácil' ? 'bg-green-100 text-green-800' : recipe.difficulty === 'Media' ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-[var(--primary)]'}>
             {recipe.difficulty}
           </Badge>
           <Badge variant="outline">{recipe.category}</Badge>
@@ -111,36 +111,36 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
           )}
         </div>
 
-        <Heading level={1} className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{recipe.title}</Heading>
-        <p className="text-lg text-gray-600 mb-6">{recipe.description}</p>
+        <Heading level={1} className="text-3xl md:text-4xl font-bold text-[var(--text)] mb-4">{recipe.title}</Heading>
+        <p className="text-lg text-[var(--text-muted)] mb-6">{recipe.description}</p>
 
         <div className="flex flex-wrap gap-6 text-sm">
           <div className="flex items-center gap-2">
             <Timer className="w-5 h-5 text-orange-600" />
             <div>
-              <p className="font-semibold text-gray-900">Preparación</p>
-              <p className="text-gray-600">{recipe.prepTime} minutos</p>
+              <p className="font-semibold text-[var(--text)]">Preparación</p>
+              <p className="text-[var(--text-muted)]">{recipe.prepTime} minutos</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
             <Flame className="w-5 h-5 text-orange-600" />
             <div>
-              <p className="font-semibold text-gray-900">Cocción</p>
-              <p className="text-gray-600">{recipe.cookTime} minutos</p>
+              <p className="font-semibold text-[var(--text)]">Cocción</p>
+              <p className="text-[var(--text-muted)]">{recipe.cookTime} minutos</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
             <Clock className="w-5 h-5 text-orange-600" />
             <div>
-              <p className="font-semibold text-gray-900">Total</p>
-              <p className="text-gray-600">{recipe.prepTime + recipe.cookTime} minutos</p>
+              <p className="font-semibold text-[var(--text)]">Total</p>
+              <p className="text-[var(--text-muted)]">{recipe.prepTime + recipe.cookTime} minutos</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
             <Users className="w-5 h-5 text-orange-600" />
             <div>
-              <p className="font-semibold text-gray-900">Porciones</p>
-              <p className="text-gray-600">{recipe.servings} personas</p>
+              <p className="font-semibold text-[var(--text)]">Porciones</p>
+              <p className="text-[var(--text-muted)]">{recipe.servings} personas</p>
             </div>
           </div>
         </div>
@@ -159,7 +159,7 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
               {recipe.ingredients.map((ingredient, index) => (
                 <li key={index} className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-gray-700">{ingredient}</span>
+                  <span className="text-[var(--text)]">{ingredient}</span>
                 </li>
               ))}
             </ul>
@@ -180,7 +180,7 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
                   <span className="w-7 h-7 bg-orange-100 text-orange-700 rounded-full flex items-center justify-center text-sm font-semibold flex-shrink-0">
                     {index + 1}
                   </span>
-                  <span className="text-gray-700">{step}</span>
+                  <span className="text-[var(--text)]">{step}</span>
                 </li>
               ))}
             </ol>
@@ -220,7 +220,7 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
         </p>
         <div className="flex flex-wrap gap-3">
           <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-            <Button className="bg-white text-orange-600 hover:bg-gray-100">
+            <Button className="bg-white text-orange-600 hover:bg-[var(--surface-light)]">
               <MessageCircle className="w-4 h-4 mr-2" />
               Pedir Ingredientes
             </Button>
@@ -273,10 +273,10 @@ export function RecipeSection({
       <div className="max-w-6xl mx-auto">
         {/* Hero */}
         <div className="text-center mb-12">
-          <Heading level={2} className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <Heading level={2} className="text-4xl md:text-5xl font-bold text-[var(--text)] mb-4">
             Recetas con <span className="text-orange-600">Huevos Frescos</span>
           </Heading>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-[var(--text-muted)] max-w-2xl mx-auto">
             Deliciosas recetas paraguayas usando nuestros huevos de granja. 
             Desde clásicos tradicionales hasta platos modernos.
           </p>
@@ -285,7 +285,7 @@ export function RecipeSection({
         {/* Search */}
         <div className="max-w-md mx-auto mb-8">
           <div className="relative">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--text-muted)]" />
             <Input
               type="text"
               placeholder="Buscar recetas o ingredientes..."
@@ -313,7 +313,7 @@ export function RecipeSection({
         {/* Featured Recipes */}
         {selectedCategory === 'all' && !searchQuery && (
           <div className="mb-12">
-            <Heading level={2} className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+            <Heading level={2} className="text-2xl font-bold text-[var(--text)] mb-6 flex items-center gap-2">
               <Flame className="w-6 h-6 text-orange-500" />
               Recetas Destacadas
             </Heading>
@@ -329,7 +329,7 @@ export function RecipeSection({
 
         {/* All Recipes */}
         <div>
-          <Heading level={2} className="text-2xl font-bold text-gray-900 mb-6">
+          <Heading level={2} className="text-2xl font-bold text-[var(--text)] mb-6">
             {searchQuery ? `Resultados para "${searchQuery}"` :
              selectedCategory === 'all' ? 'Todas las Recetas' :
              categories.find(c => c.id === selectedCategory)?.label}
@@ -348,7 +348,7 @@ export function RecipeSection({
             </div>
           ) : (
             <div className="text-center py-12">
-              <ChefHatIcon className="w-16 h-16 text-gray-300 mx-auto mb-4" />
+              <ChefHatIcon className="w-16 h-16 text-[var(--text-light)] mx-auto mb-4" />
               <p className="text-gray-500">No encontramos recetas con esos criterios.</p>
               <Button 
                 variant="outline" 
@@ -373,7 +373,7 @@ export function RecipeSection({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button size="lg" className="bg-white text-orange-600 hover:bg-gray-100">
+            <Button size="lg" className="bg-white text-orange-600 hover:bg-[var(--surface-light)]">
               <MessageCircle className="w-5 h-5 mr-2" />
               Enviar mi Receta
             </Button>

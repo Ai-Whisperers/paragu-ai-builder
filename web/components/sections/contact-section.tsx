@@ -312,7 +312,7 @@ export function ContactSection({
                       <dl className="space-y-2">
                         {orderHours(hoursMap as Record<string, string>, labels.weekdayOrder).map(([day, time]) => (
                           <div key={day}
-                            className="flex justify-between gap-4 text-sm sm:text-base py-1 border-b border-gray-100 last:border-0"
+                            className="flex justify-between gap-4 text-sm sm:text-base py-1 border-b border-[var(--border)] last:border-0"
                           >
                             <dt style={{ color: 'var(--text)' }}>{day}</dt>
                             <dd className="font-medium" style={{ color: 'var(--text-light)' }}>{time}</dd>

@@ -126,7 +126,7 @@ ${productList}
       <Card className={cn('text-center', className)}>
         <CardContent className="pt-6 pb-6">
           <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-            <CheckCircle className="w-8 h-8 text-green-600" />
+            <CheckCircle className="w-8 h-8 text-[var(--success)]" />
           </div>
           <Heading level={3} className="text-xl font-semibold mb-2">Solicitud Enviada!</Heading>
           <p className="text-[var(--text-muted)] mb-4">
@@ -199,7 +199,7 @@ ${productList}
                             variant="ghost"
                             size="sm"
                             onClick={() => removeProduct(product.id)}
-                            className="text-red-500"
+                            className="text-[var(--primary)]"
                           >
                             ✕
                           </Button>
@@ -420,7 +420,7 @@ export function SubscriptionSection({ phone, products, className }: Subscription
                   'Facturacion mensual (B2B)'
                 ].map((benefit, idx) => (
                   <div key={idx} className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0" />
                     <span className="text-[var(--text)]">{benefit}</span>
                   </div>
                 ))}

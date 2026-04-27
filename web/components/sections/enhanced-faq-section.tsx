@@ -68,15 +68,15 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10">
-          <Heading level={2} className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <Heading level={2} className="text-3xl md:text-4xl font-bold text-[var(--text)] mb-4">
             {resolvedTitle}
           </Heading>
-          <p className="text-lg text-gray-600">{resolvedSubtitle}</p>
+          <p className="text-lg text-[var(--text-muted)]">{resolvedSubtitle}</p>
         </div>
 
         {/* Search */}
         <div className="relative mb-6">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--text-muted)]" />
           <Input
             type="text"
             placeholder="Buscar preguntas..."
@@ -105,7 +105,7 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
           {filteredFAQs.map((faq, index) => (
             <Card 
               key={index} 
-              className={`border-gray-200 transition-all ${openIndex === index ? 'ring-2 ring-orange-200' : ''}`}
+              className={`border-[var(--border)] transition-all ${openIndex === index ? 'ring-2 ring-orange-200' : ''}`}
             >
               <button
                 id={`enhanced-faq-trigger-${index}`}
@@ -123,7 +123,7 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
                           {faq.category}
                         </Badge>
                       </div>
-                      <CardTitle className="text-base font-semibold text-gray-900">
+                      <CardTitle className="text-base font-semibold text-[var(--text)]">
                         {faq.question}
                       </CardTitle>
                     </div>
@@ -145,8 +145,8 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
                   aria-labelledby={`enhanced-faq-trigger-${index}`}
                 >
                   <CardContent className="pt-0 pb-4">
-                    <div className="border-t border-gray-100 pt-4">
-                      <p className="text-gray-600 leading-relaxed">
+                    <div className="border-t border-[var(--border)] pt-4">
+                      <p className="text-[var(--text-muted)] leading-relaxed">
                         {faq.answer}
                       </p>
                     </div>
@@ -174,15 +174,15 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
         <Card className="mt-10 bg-gradient-to-r from-orange-50 to-amber-50 border-orange-200">
           <CardContent className="p-8">
             <div className="text-center">
-              <Heading level={3} className="text-xl font-bold text-gray-900 mb-3">
+              <Heading level={3} className="text-xl font-bold text-[var(--text)] mb-3">
                 ¿No encontraste lo que buscabas?
               </Heading>
-              <p className="text-gray-600 mb-6">
+              <p className="text-[var(--text-muted)] mb-6">
                 Estamos para ayudarte. Escribinos por WhatsApp y te respondemos en minutos.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                  <Button className="bg-green-600 hover:bg-green-700">
+                  <Button className="bg-[var(--success)] hover:bg-green-700">
                     <MessageCircle className="w-4 h-4 mr-2" />
                     Preguntar por WhatsApp
                   </Button>

@@ -136,7 +136,7 @@ export function TestimonialsSection({
                           'transition-colors',
                           i < testimonial.rating!
                             ? 'fill-[var(--secondary)] text-[var(--secondary)]'
-                            : 'fill-gray-100 text-gray-200'
+                            : 'fill-gray-100 text-[var(--surface-light)]'
                         )}
                       />
                     ))}

@@ -63,9 +63,9 @@ export function PreOrderCalendar({ availability, phone, productName, className }
   }
 
   const statusConfig: Record<AvailabilityStatus, { label: string; color: string; bgColor: string }> = {
-    available: { label: 'Disponible', color: '#27ae60', bgColor: 'bg-green-500' },
+    available: { label: 'Disponible', color: '#27ae60', bgColor: 'bg-[var(--success)]' },
     limited: { label: 'Pocos cupos', color: '#f39c12', bgColor: 'bg-amber-500' },
-    booked: { label: 'Agotado', color: '#e74c3c', bgColor: 'bg-red-500' },
+    booked: { label: 'Agotado', color: '#e74c3c', bgColor: 'bg-[var(--primary)]' },
     closed: { label: 'Cerrado', color: '#95a5a6', bgColor: 'bg-gray-400' }
   }
 
@@ -224,7 +224,7 @@ export function PreOrderCalendar({ availability, phone, productName, className }
 
         {/* Info */}
         <div className="mt-4 bg-blue-50 border border-blue-200 rounded-lg p-3 flex items-start gap-2">
-          <AlertCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+          <AlertCircle className="w-5 h-5 text-[var(--primary)] flex-shrink-0 mt-0.5" />
           <p className="text-sm text-blue-800">
             Los pollos se preparan el dia anterior a la fecha de retiro seleccionada. 
             Debes confirmar tu reserva via WhatsApp.
@@ -340,19 +340,19 @@ export function PreOrderSection({ phone, className }: PreOrderSectionProps) {
               <CardContent>
                 <ul className="space-y-2 text-sm text-[var(--text)]">
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0 mt-0.5" />
                     Pollos limpios y listos para cocinar
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0 mt-0.5" />
                     Reserva con 24 horas de anticipacion
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0 mt-0.5" />
                     Retiro en granja o delivery (costo adicional)
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0 mt-0.5" />
                     Pago contra entrega o transferencia
                   </li>
                 </ul>

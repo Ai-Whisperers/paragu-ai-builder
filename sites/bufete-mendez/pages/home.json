@@ -6,27 +6,45 @@
     {
       "id": "hero",
       "variant": "image",
-      "content": "home.hero"
+      "content": "home.hero",
+      "styling": {
+        "padding": "xl",
+        "background": "dark",
+        "textColor": "light"
+      }
     },
     {
       "id": "trust-badges",
       "variant": "strip",
-      "content": "home.trustBadges"
+      "content": "home.trustBadges",
+      "styling": {
+        "padding": "md",
+        "background": "alt"
+      }
     },
     {
       "id": "services",
       "variant": "cards",
-      "content": "home.services"
+      "content": "home.services",
+      "styling": {
+        "background": "default"
+      }
     },
     {
       "id": "process-timeline",
       "variant": "horizontal",
-      "content": "home.process"
+      "content": "home.process",
+      "styling": {
+        "background": "alt"
+      }
     },
     {
       "id": "team",
       "variant": "cards",
-      "content": "home.team"
+      "content": "home.team",
+      "styling": {
+        "background": "default"
+      }
     },
     {
       "id": "case-studies",
@@ -36,7 +54,11 @@
     {
       "id": "cta-banner",
       "variant": "gradient",
-      "content": "ctaBanner"
+      "content": "ctaBanner",
+      "styling": {
+        "padding": "lg",
+        "background": "accent"
+      }
     }
   ]
 }

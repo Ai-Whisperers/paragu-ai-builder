@@ -117,7 +117,7 @@ export function MultiStepFormSection({
               <div key={f.id}>
                 <label className="block text-sm font-medium text-[var(--text)] mb-1">
                   {f.label}
-                  {f.required && <span className="text-red-600 ml-1">*</span>}
+                  {f.required && <span className="text-[var(--primary)] ml-1">*</span>}
                 </label>
                 {f.kind === 'textarea' ? (
                   <textarea
@@ -151,7 +151,7 @@ export function MultiStepFormSection({
             ))}
           </div>
 
-          {error && <p className="mt-3 text-sm text-red-600">{error}</p>}
+          {error && <p className="mt-3 text-sm text-[var(--primary)]">{error}</p>}
 
           <div className="mt-6 flex items-center justify-between gap-3">
             <Button

@@ -6,27 +6,46 @@
     {
       "id": "hero",
       "variant": "image",
-      "content": "home.hero"
+      "content": "home.hero",
+      "styling": {
+        "padding": "xl",
+        "background": "dark",
+        "textColor": "light",
+        "textAlign": "center"
+      }
     },
     {
       "id": "video-embed",
       "variant": "aspect-16-9",
-      "content": "home.spotifyEmbed"
+      "content": "home.spotifyEmbed",
+      "styling": {
+        "padding": "md",
+        "background": "alt"
+      }
     },
     {
       "id": "gallery",
       "variant": "grid",
-      "content": "home.gallery"
+      "content": "home.gallery",
+      "styling": {
+        "background": "default"
+      }
     },
     {
       "id": "team",
       "variant": "cards",
-      "content": "home.team"
+      "content": "home.team",
+      "styling": {
+        "background": "alt"
+      }
     },
     {
       "id": "portfolio",
       "variant": "grid",
-      "content": "home.portfolio"
+      "content": "home.portfolio",
+      "styling": {
+        "background": "default"
+      }
     },
     {
       "id": "instagram-feed",
@@ -36,17 +55,28 @@
     {
       "id": "testimonials",
       "variant": "carousel",
-      "content": "home.testimonials"
+      "content": "home.testimonials",
+      "styling": {
+        "background": "alt"
+      }
     },
     {
       "id": "faq",
       "variant": "accordion",
-      "content": "home.faq"
+      "content": "home.faq",
+      "styling": {
+        "background": "default"
+      }
     },
     {
       "id": "newsletter-signup",
       "variant": "standard",
-      "content": "home.newsletter"
+      "content": "home.newsletter",
+      "styling": {
+        "padding": "lg",
+        "background": "accent",
+        "textColor": "light"
+      }
     },
     {
       "id": "cta-banner",

@@ -189,8 +189,8 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
                 ))}
                 {tier.excluded?.map((item, i) => (
                   <li key={`exc-${i}`} className="flex gap-3 text-sm sm:text-base leading-relaxed opacity-50" style={{ color: 'var(--text-muted)' }}>
-                    <span className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-gray-100">
-                      <Minus size={12} strokeWidth={3} className="text-gray-400" />
+                    <span className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[var(--surface-light)]">
+                      <Minus size={12} strokeWidth={3} className="text-[var(--text-muted)]" />
                     </span>
                     <span className="line-through">{item}</span>
                   </li>
@@ -254,8 +254,8 @@ function renderValue(val: string | boolean) {
     </span>
   )
   if (val === false) return (
-    <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-gray-100">
-      <Minus size={16} strokeWidth={3} className="text-gray-300" />
+    <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[var(--surface-light)]">
+      <Minus size={16} strokeWidth={3} className="text-[var(--text-light)]" />
     </span>
   )
   return <span className="font-medium">{val}</span>

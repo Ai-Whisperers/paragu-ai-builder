@@ -128,7 +128,7 @@ export function PackagesSection({
                   <ul className="space-y-2 mb-6">
                     {(pkg?.services || []).map((service, idx) => (
                       <li key={idx} className="flex items-start gap-2 text-sm">
-                        <Check className="w-4 h-4 text-green-500 mt-0.5" />
+                        <Check className="w-4 h-4 text-[var(--success)] mt-0.5" />
                         {service}
                       </li>
                     ))}

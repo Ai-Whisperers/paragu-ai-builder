@@ -56,8 +56,8 @@ export function BulkCalculator({ phone, className }: { phone: string; className?
                 <p className="text-xl font-bold text-[var(--primary)]">{(wholesalePrice * quantity).toLocaleString()} Gs</p>
               </div>
               <div className="p-4 bg-green-100 rounded-lg">
-                <p className="text-sm text-green-700">Tu ahorro</p>
-                <p className="text-xl font-bold text-green-700">{savings.toLocaleString()} Gs</p>
+                <p className="text-sm text-[var(--success)]">Tu ahorro</p>
+                <p className="text-xl font-bold text-[var(--success)]">{savings.toLocaleString()} Gs</p>
               </div>
             </div>
 

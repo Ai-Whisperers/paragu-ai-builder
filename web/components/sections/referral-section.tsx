@@ -107,7 +107,7 @@ O escribime por WhatsApp: ${phone}`
               variant="outline"
               size="icon"
               onClick={copyToClipboard}
-              className={cn(copied && 'text-green-600')}
+              className={cn(copied && 'text-[var(--success)]')}
             >
               {copied ? <CheckCircle className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
             </Button>
@@ -196,19 +196,19 @@ export function ReferralSection({ phone, businessName, className }: ReferralSect
               <CardContent>
                 <ul className="space-y-2 text-sm text-[var(--text)]">
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0 mt-0.5" />
                     Comparti en tus grupos de WhatsApp
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0 mt-0.5" />
                     Publica en tu historia de Instagram/Facebook
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0 mt-0.5" />
                     Menciona a {businessName} en tus recetas
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0 mt-0.5" />
                     Recomienda a vecinos y familia
                   </li>
                 </ul>

@@ -72,7 +72,7 @@ export function ServiceAreaMapZonesSection({
                 </div>
                 {z.note && <p className="mt-2 text-xs text-[var(--text-muted)]">{z.note}</p>}
                 {z.available === false && (
-                  <p className="mt-2 text-xs text-red-600">Temporalmente no disponible</p>
+                  <p className="mt-2 text-xs text-[var(--primary)]">Temporalmente no disponible</p>
                 )}
               </div>
             ))}

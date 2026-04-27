@@ -166,7 +166,7 @@ export function DeliveryCalculator({
               <span className="text-[var(--text-muted)]">Costo de envio:</span>
               <div className="flex items-center gap-2">
                 {calculation.freeDelivery ? (
-                  <Badge variant="default" className="bg-green-600">
+                  <Badge variant="default" className="bg-[var(--success)]">
                     <CheckCircle className="w-3 h-3 mr-1" />
                     GRATIS
                   </Badge>
@@ -197,7 +197,7 @@ export function DeliveryCalculator({
             {/* Free Delivery Threshold */}
             {!calculation.freeDelivery && zone.freeDeliveryOver > 0 && (
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 flex items-start gap-2">
-                <Info className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                <Info className="w-5 h-5 text-[var(--primary)] flex-shrink-0 mt-0.5" />
                 <p className="text-sm text-blue-800">
                   Te faltan ${(zone.freeDeliveryOver - calculation.total).toLocaleString()} Gs 
                   para envio gratis!

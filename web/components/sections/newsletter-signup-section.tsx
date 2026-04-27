@@ -82,7 +82,7 @@ export function NewsletterSignupSection({
                 />
                 <span>{consentLabel}</span>
               </label>
-              {state === 'err' && <p className="text-xs text-red-600">Error. Intenta de nuevo.</p>}
+              {state === 'err' && <p className="text-xs text-[var(--primary)]">Error. Intenta de nuevo.</p>}
             </form>
           )}
         </div>

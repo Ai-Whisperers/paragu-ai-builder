@@ -6,47 +6,78 @@
     {
       "id": "hero",
       "variant": "image",
-      "content": "home.hero"
+      "content": "home.hero",
+      "styling": {
+        "padding": "xl",
+        "background": "gradient",
+        "textColor": "light"
+      }
     },
     {
       "id": "stats-counter",
       "variant": "inline",
-      "content": "home.stats"
+      "content": "home.stats",
+      "styling": {
+        "padding": "md",
+        "background": "alt"
+      }
     },
     {
       "id": "trust-signals",
       "variant": "credentials",
-      "content": "home.credenciales"
+      "content": "home.credenciales",
+      "styling": {
+        "background": "default"
+      }
     },
     {
       "id": "services",
       "variant": "cards",
-      "content": "home.services"
+      "content": "home.services",
+      "styling": {
+        "background": "alt"
+      }
     },
     {
       "id": "process-timeline",
       "variant": "horizontal",
-      "content": "home.process"
+      "content": "home.process",
+      "styling": {
+        "background": "default"
+      }
     },
     {
       "id": "features",
       "variant": "three-col",
-      "content": "home.credentials"
+      "content": "home.credentials",
+      "styling": {
+        "background": "alt"
+      }
     },
     {
       "id": "testimonials",
       "variant": "carousel",
-      "content": "home.testimonials"
+      "content": "home.testimonials",
+      "styling": {
+        "background": "default"
+      }
     },
     {
       "id": "faq",
       "variant": "accordion",
-      "content": "home.faq"
+      "content": "home.faq",
+      "styling": {
+        "background": "alt"
+      }
     },
     {
       "id": "cta-banner",
       "variant": "gradient",
-      "content": "home.cta"
+      "content": "home.cta",
+      "styling": {
+        "padding": "lg",
+        "background": "accent"
+      }
     }
   ]
 }

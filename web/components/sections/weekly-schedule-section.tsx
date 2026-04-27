@@ -29,9 +29,9 @@ interface WeeklyScheduleProps {
 
 const DAYS = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb']
 const INTENSITY_COLORS = {
-  low: 'bg-green-100 text-green-700 border-green-200',
+  low: 'bg-green-100 text-[var(--success)] border-green-200',
   medium: 'bg-yellow-100 text-yellow-700 border-yellow-200',
-  high: 'bg-red-100 text-red-700 border-red-200',
+  high: 'bg-red-100 text-[var(--primary)] border-red-200',
 }
 const INTENSITY_LABELS = {
   low: 'Baja',
@@ -181,7 +181,7 @@ export function WeeklySchedule({ classes, onBookClass }: WeeklyScheduleProps) {
                               <Users className="w-3 h-3 text-[var(--muted-foreground)]" />
                               <span className={cn(
                                 "text-xs",
-                                availabilityPercent >= 90 ? "text-red-500" : "text-[var(--muted-foreground)]"
+                                availabilityPercent >= 90 ? "text-[var(--primary)]" : "text-[var(--muted-foreground)]"
                               )}>
                                 {cls.current_bookings}/{cls.max_capacity}
                               </span>
@@ -193,7 +193,7 @@ export function WeeklySchedule({ classes, onBookClass }: WeeklyScheduleProps) {
                             <div 
                               className={cn(
                                 "h-full transition-all",
-                                availabilityPercent >= 90 ? "bg-red-500" : "bg-[var(--primary)]"
+                                availabilityPercent >= 90 ? "bg-[var(--primary)]" : "bg-[var(--primary)]"
                               )}
                               style={{ width: `${availabilityPercent}%` }}
                             />
