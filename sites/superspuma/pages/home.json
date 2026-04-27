@@ -6,7 +6,12 @@
     {
       "id": "hero",
       "variant": "image",
-      "content": "home.hero"
+      "content": "home.hero",
+      "styling": {
+        "backgroundImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1920&q=80",
+        "background": "image",
+        "textColor": "light"
+      }
     },
     {
       "id": "stats-counter",

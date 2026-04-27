@@ -30,7 +30,8 @@
         "Puerta a puerta",
         "Entrega en el d\u00eda",
         "San Lorenzo"
-      ]
+      ],
+      "backgroundImage": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1920&q=80"
     },
     "services": {
       "title": "Nuestros Servicios",
@@ -141,7 +142,9 @@
       "title": "Contactanos",
       "subtitle": "Te respondemos por WhatsApp",
       "whatsapp": "+595981324569",
-      "email": "hola@deabastoacasa.com.py"
+      "email": "hola@deabastoacasa.com.py",
+      "address": "San Lorenzo, Paraguay. Coordinamos por WhatsApp.",
+      "city": "San Lorenzo"
     },
     "stats": {
       "items": [

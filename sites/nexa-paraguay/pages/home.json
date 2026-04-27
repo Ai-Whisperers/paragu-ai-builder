@@ -22,7 +22,10 @@
     {
       "id": "programs-comparison",
       "variant": "tiered",
-      "content": "home.programs"
+      "content": "home.programs",
+      "styling": {
+        "padding": "sm"
+      }
     },
     {
       "id": "tax-savings-calculator",
@@ -32,12 +35,18 @@
     {
       "id": "why-destination",
       "variant": "three-col",
-      "content": "home.whyCountry"
+      "content": "home.whyCountry",
+      "styling": {
+        "padding": "sm"
+      }
     },
     {
       "id": "process-timeline",
       "variant": "horizontal",
-      "content": "home.process"
+      "content": "home.process",
+      "styling": {
+        "padding": "sm"
+      }
     },
     {
       "id": "testimonials",

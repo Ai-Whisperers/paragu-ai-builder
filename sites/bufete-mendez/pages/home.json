@@ -9,8 +9,9 @@
       "content": "home.hero",
       "styling": {
         "padding": "xl",
-        "background": "dark",
-        "textColor": "light"
+        "background": "image",
+        "textColor": "light",
+        "backgroundImage": "https://images.unsplash.com/photo-1447968954315-3f0c44f7313c?w=1920&q=80"
       }
     },
     {

@@ -36,6 +36,11 @@
       }
     },
     {
+      "id": "portfolio",
+      "variant": "grid",
+      "content": "home.portfolio"
+    },
+    {
       "id": "product-catalog",
       "variant": "grid",
       "content": "home.products"

@@ -659,6 +659,30 @@
           "icon": "Globe"
         }
       ]
+    },
+    "portfolio": {
+      "title": "Trabajos Recientes",
+      "subtitle": "Dise\u00f1o gr\u00e1fico, editorial y branding",
+      "items": [
+        {
+          "title": "Branding Corporativo",
+          "category": "Branding",
+          "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80",
+          "description": "Identidad visual para empresa tecnol\u00f3gica"
+        },
+        {
+          "title": "Dise\u00f1o Editorial",
+          "category": "Editorial",
+          "imageUrl": "https://images.unsplash.com/photo-1550399105-c4db5fb85c18?w=600&q=80",
+          "description": "Revista corporativa y cat\u00e1logo de productos"
+        },
+        {
+          "title": "Illustraci\u00f3n",
+          "category": "Ilustraci\u00f3n",
+          "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80",
+          "description": "Illustraciones para campa\u00f1a publicitaria"
+        }
+      ]
     }
   },
   "portfolio": {

@@ -9,8 +9,9 @@
       "content": "home.hero",
       "styling": {
         "padding": "xl",
-        "background": "gradient",
-        "textColor": "light"
+        "background": "image",
+        "textColor": "light",
+        "backgroundImage": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1920&q=80"
       }
     },
     {
@@ -57,15 +58,6 @@
       "content": "home.faq",
       "styling": {
         "background": "alt"
-      }
-    },
-    {
-      "id": "cta-banner",
-      "variant": "gradient",
-      "content": "home.cta",
-      "styling": {
-        "padding": "lg",
-        "background": "accent"
       }
     },
     {

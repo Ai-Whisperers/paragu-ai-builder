@@ -7,7 +7,13 @@
     {
       "id": "hero",
       "variant": "image",
-      "content": "home.hero"
+      "content": "home.hero",
+      "styling": {
+        "backgroundImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&q=80",
+        "background": "image",
+        "textColor": "light",
+        "padding": "xl"
+      }
     },
     {
       "id": "trust-signals",
