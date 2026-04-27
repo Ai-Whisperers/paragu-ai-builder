@@ -3,13 +3,50 @@
   "titleKey": "home.seo.title",
   "descriptionKey": "home.seo.description",
   "sections": [
-    { "id": "hero", "variant": "image", "content": "home.hero" },
-    { "id": "trust-signals", "variant": "credentials", "content": "home.credenciales" },
-    { "id": "services", "variant": "cards", "content": "home.services" },
-    { "id": "process", "variant": "steps", "content": "home.process" },
-    { "id": "features", "variant": "three-col", "content": "home.credentials" },
-    { "id": "testimonials", "variant": "carousel", "content": "home.testimonials" },
-    { "id": "faq", "variant": "accordion", "content": "home.faq" },
-    { "id": "cta-banner", "variant": "gradient", "content": "home.cta" }
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "home.hero"
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats"
+    },
+    {
+      "id": "trust-signals",
+      "variant": "credentials",
+      "content": "home.credenciales"
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "home.services"
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "home.process"
+    },
+    {
+      "id": "features",
+      "variant": "three-col",
+      "content": "home.credentials"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "home.faq"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.cta"
+    }
   ]
 }

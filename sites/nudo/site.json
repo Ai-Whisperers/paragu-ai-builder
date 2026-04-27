@@ -5,7 +5,9 @@
   "domain": null,
   "stagingDomain": null,
   "defaultLocale": "es",
-  "locales": ["es"],
+  "locales": [
+    "es"
+  ],
   "contact": {
     "email": "nudobandpy@gmail.com",
     "whatsapp": "+595981324569",
@@ -20,7 +22,7 @@
     "appleMusic": "https://music.apple.com/us/artist/nudo/1794063016"
   },
   "location": {
-    "city": "Capiatá",
+    "city": "Capiat\u00e1",
     "department": "Central",
     "country": "Paraguay"
   },

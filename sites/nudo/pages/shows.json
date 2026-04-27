@@ -9,8 +9,8 @@
       "content": "shows.hero"
     },
     {
-      "id": "event-venues",
-      "variant": "cards",
+      "id": "features",
+      "variant": "three-col",
       "content": "shows.eventos"
     }
   ]

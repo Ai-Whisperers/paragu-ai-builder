@@ -9,6 +9,11 @@
       "content": "musica.hero"
     },
     {
+      "id": "video-embed",
+      "variant": "aspect-16-9",
+      "content": "musica.spotifyEmbed"
+    },
+    {
       "id": "gallery",
       "variant": "grid",
       "content": "videos.gallery"

@@ -11,24 +11,22 @@
       "IG rockenpy, fragmentospyoficial"
     ]
   },
-  "siteName": "Nüdo",
-  "tagline": "Hardcore Metal desde Capiatá, Paraguay",
-
+  "siteName": "N\u00fcdo",
+  "tagline": "Hardcore Metal desde Capiat\u00e1, Paraguay",
   "placeholders": {
-    "businessName": "Nüdo",
-    "city": "Capiatá",
+    "businessName": "N\u00fcdo",
+    "city": "Capiat\u00e1",
     "year": 2026
   },
-
   "navigation": {
-    "businessName": "Nüdo",
+    "businessName": "N\u00fcdo",
     "items": [
       {
         "label": "Inicio",
         "href": "/s/es/nudo"
       },
       {
-        "label": "Música",
+        "label": "M\u00fasica",
         "href": "/s/es/nudo/musica"
       },
       {
@@ -44,7 +42,7 @@
         "href": "/s/es/nudo/shows"
       },
       {
-        "label": "Galería",
+        "label": "Galer\u00eda",
         "href": "/s/es/nudo/galeria"
       },
       {
@@ -55,16 +53,15 @@
     "ctaText": "Escuchanos en Spotify",
     "ctaHref": "https://open.spotify.com/artist/2N3Z6SOIw7MOSxtRyzgJLv"
   },
-
   "home": {
     "seo": {
-      "title": "Nüdo — Banda de Hardcore Metal desde Capiatá, Paraguay",
-      "description": "Nüdo es una banda de Hardcore Metal originaria de Capiatá, Paraguay. Fundada en 2017 por Edilson Gauto. Escuchá nuestro EP DESAHOGO en todas las plataformas. Bad Vibes Records."
+      "title": "N\u00fcdo \u2014 Banda de Hardcore Metal desde Capiat\u00e1, Paraguay",
+      "description": "N\u00fcdo es una banda de Hardcore Metal originaria de Capiat\u00e1, Paraguay. Fundada en 2017 por Edilson Gauto. Escuch\u00e1 nuestro EP DESAHOGO en todas las plataformas. Bad Vibes Records."
     },
     "hero": {
-      "headline": "NÜDO",
-      "subheadline": "Hardcore Metal desde Capiatá, Paraguay. Fundada en 2017.",
-      "ctaPrimaryText": "Escuchá DESAHOGO EP",
+      "headline": "N\u00dcDO",
+      "subheadline": "Hardcore Metal desde Capiat\u00e1, Paraguay. Fundada en 2017.",
+      "ctaPrimaryText": "Escuch\u00e1 DESAHOGO EP",
       "ctaPrimaryHref": "#discografia",
       "ctaSecondaryText": "Seguinos en Instagram",
       "ctaSecondaryHref": "https://instagram.com/nudo_band",
@@ -75,61 +72,101 @@
       ]
     },
     "gallery": {
-      "title": "Galería",
-      "subtitle": "Nüdo en vivo — momentos que rompen",
+      "title": "Galer\u00eda",
+      "subtitle": "N\u00fcdo en vivo \u2014 momentos que rompen",
       "images": [
-        { "src": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=800&q=80", "alt": "Nüdo en vivo - concierto de hardcore", "category": "En Vivo" },
-        { "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80", "alt": "Nüdo tocando en vivo", "category": "En Vivo" },
-        { "src": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=800&q=80", "alt": "Multitud en show de Nüdo", "category": "En Vivo" },
-        { "src": "https://images.unsplash.com/photo-1501612780327-45045538702b?w=800&q=80", "alt": "Nüdo - hardcore metal desde Capiatá", "category": "En Vivo" },
-        { "src": "https://images.unsplash.com/photo-1574169208507-84376144848b?w=800&q=80", "alt": "Nüdo en el BREAKDOWN FEST", "category": "Festivales" },
-        { "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80", "alt": "Guitarra de Nüdo rompiendo escenario", "category": "En Vivo" },
-        { "src": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&q=80", "alt": "Nüdo - banda desde 2017", "category": "Banda" },
-        { "src": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=800&q=80", "alt": "Mauricio Arce - voz de Nüdo", "category": "Banda" },
-        { "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80", "alt": "Nüdo en Tunakó Pool Party", "category": "Festivales" }
+        {
+          "src": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=800&q=80",
+          "alt": "N\u00fcdo en vivo - concierto de hardcore",
+          "category": "En Vivo"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80",
+          "alt": "N\u00fcdo tocando en vivo",
+          "category": "En Vivo"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=800&q=80",
+          "alt": "Multitud en show de N\u00fcdo",
+          "category": "En Vivo"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1501612780327-45045538702b?w=800&q=80",
+          "alt": "N\u00fcdo - hardcore metal desde Capiat\u00e1",
+          "category": "En Vivo"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1574169208507-84376144848b?w=800&q=80",
+          "alt": "N\u00fcdo en el BREAKDOWN FEST",
+          "category": "Festivales"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80",
+          "alt": "Guitarra de N\u00fcdo rompiendo escenario",
+          "category": "En Vivo"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&q=80",
+          "alt": "N\u00fcdo - banda desde 2017",
+          "category": "Banda"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=800&q=80",
+          "alt": "Mauricio Arce - voz de N\u00fcdo",
+          "category": "Banda"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
+          "alt": "N\u00fcdo en Tunak\u00f3 Pool Party",
+          "category": "Festivales"
+        }
       ],
       "columns": 3,
       "lightbox": true
     },
     "team": {
       "title": "La Banda",
-      "subtitle": "Nüdo está integrada por:",
+      "subtitle": "N\u00fcdo est\u00e1 integrada por:",
       "members": [
         {
           "name": "Mauricio Arce",
           "role": "Voz",
-          "bio": "Vocalista de Nüdo. La potencia frontal de la banda."
+          "bio": "Vocalista de N\u00fcdo. La potencia frontal de la banda."
         },
         {
-          "name": "Manuel Díaz",
+          "name": "Manuel D\u00edaz",
           "role": "Guitarra",
-          "bio": "Guitarrista de Nüdo."
+          "bio": "Guitarrista de N\u00fcdo."
         },
         {
           "name": "Edilson Gauto",
-          "role": "Guitarra Líder",
-          "bio": "Fundador de Nüdo en 2017. Guitarra líder y compositor."
+          "role": "Guitarra L\u00edder",
+          "bio": "Fundador de N\u00fcdo en 2017. Guitarra l\u00edder y compositor."
         },
         {
-          "name": "Fidel Dávalos",
+          "name": "Fidel D\u00e1valos",
           "role": "Bajo",
-          "bio": "Bajista de Nüdo. Las bases sólidas del sonido."
+          "bio": "Bajista de N\u00fcdo. Las bases s\u00f3lidas del sonido."
         },
         {
-          "name": "Víctor Maldonado",
-          "role": "Batería",
-          "bio": "Baterista de Nüdo. La máquina de la percusión."
+          "name": "V\u00edctor Maldonado",
+          "role": "Bater\u00eda",
+          "bio": "Baterista de N\u00fcdo. La m\u00e1quina de la percusi\u00f3n."
         }
       ]
     },
     "portfolio": {
-      "title": "Discografía",
-      "subtitle": "DESAHOGO — EP 2025. Escuchalo en todas las plataformas.",
-      "categories": ["Todos", "EPs", "Sencillos"],
+      "title": "Discograf\u00eda",
+      "subtitle": "DESAHOGO \u2014 EP 2025. Escuchalo en todas las plataformas.",
+      "categories": [
+        "Todos",
+        "EPs",
+        "Sencillos"
+      ],
       "items": [
         {
           "title": "DESAHOGO",
-          "description": "Primer EP de Nüdo. 5 temas que rompen. Lanzado el 24 de enero de 2025 bajo Bad Vibes Records. Grabado en The Beach Homestudio.",
+          "description": "Primer EP de N\u00fcdo. 5 temas que rompen. Lanzado el 24 de enero de 2025 bajo Bad Vibes Records. Grabado en The Beach Homestudio.",
           "category": "EPs",
           "imageUrl": "https://i.scdn.co/image/ab67616d00001e029eb75be054c928ad5c3576e3",
           "releaseDate": "2025-01-24",
@@ -137,7 +174,7 @@
         },
         {
           "title": "CULPA",
-          "description": "Single de 2023. El primer lanzamiento oficial de Nüdo.",
+          "description": "Single de 2023. El primer lanzamiento oficial de N\u00fcdo.",
           "category": "Sencillos",
           "imageUrl": "https://i.scdn.co/image/ab67616d00001e02bcb531a6e29d197d153d3e4d",
           "releaseDate": "2023",
@@ -149,7 +186,7 @@
       "title": "Seguinos en Instagram",
       "handle": "@nudo_band",
       "posts": [],
-      "ctaText": "Ver más en Instagram"
+      "ctaText": "Ver m\u00e1s en Instagram"
     },
     "testimonials": {
       "title": "Lo que dicen",
@@ -160,12 +197,12 @@
           "rating": 5
         },
         {
-          "quote": "Aguante Nüdooooo!",
+          "quote": "Aguante N\u00fcdooooo!",
           "author": "@_diandra.martinez",
           "rating": 5
         },
         {
-          "quote": "Antes tenía depresión, después escuché este EP y sigo teniendo depresión pero qué buen EP.",
+          "quote": "Antes ten\u00eda depresi\u00f3n, despu\u00e9s escuch\u00e9 este EP y sigo teniendo depresi\u00f3n pero qu\u00e9 buen EP.",
           "author": "Fan en YouTube",
           "rating": 5
         }
@@ -175,57 +212,61 @@
       "title": "Preguntas Frecuentes",
       "items": [
         {
-          "q": "¿Qué género tocan?",
-          "a": "Hardcore Metal / Metalcore con influencias de nu metal y hardcore. Puro peso desde Capiatá."
+          "q": "\u00bfQu\u00e9 g\u00e9nero tocan?",
+          "a": "Hardcore Metal / Metalcore con influencias de nu metal y hardcore. Puro peso desde Capiat\u00e1."
         },
         {
-          "q": "¿De dónde son?",
-          "a": "Somos de Capiatá, Paraguay. Fundados en 2017 por Edilson Gauto."
+          "q": "\u00bfDe d\u00f3nde son?",
+          "a": "Somos de Capiat\u00e1, Paraguay. Fundados en 2017 por Edilson Gauto."
         },
         {
-          "q": "¿Dónde puedo escuchar su música?",
-          "a": "En todas las plataformas digitales: Spotify, YouTube, Apple Music. Buscanos como Nüdo. Nuestro EP DESAHOGO ya está disponible."
+          "q": "\u00bfD\u00f3nde puedo escuchar su m\u00fasica?",
+          "a": "En todas las plataformas digitales: Spotify, YouTube, Apple Music. Buscanos como N\u00fcdo. Nuestro EP DESAHOGO ya est\u00e1 disponible."
         },
         {
-          "q": "¿Cómo puedo contratarlos para un evento?",
+          "q": "\u00bfC\u00f3mo puedo contratarlos para un evento?",
           "a": "Contactanos por Instagram @nudo_band, WhatsApp o email. Tocamos en vivo y armamos mosh pit."
         },
         {
-          "q": "¿Qué es Bad Vibes Records?",
-          "a": "Es nuestro sello discográfico. Un colectivo de artistas independientes de Asunción, Paraguay."
+          "q": "\u00bfQu\u00e9 es Bad Vibes Records?",
+          "a": "Es nuestro sello discogr\u00e1fico. Un colectivo de artistas independientes de Asunci\u00f3n, Paraguay."
         },
         {
-          "q": "¿Tienen shows próximos?",
-          "a": "Seguinos en Instagram @nudo_band para enterarte de las próximas fechas. Siempre estamos rompiendo en vivo."
+          "q": "\u00bfTienen shows pr\u00f3ximos?",
+          "a": "Seguinos en Instagram @nudo_band para enterarte de las pr\u00f3ximas fechas. Siempre estamos rompiendo en vivo."
         }
       ]
     },
     "contact": {
       "title": "Contacto",
-      "subtitle": "Booking, shows, lo que sea — mandá mensaje",
+      "subtitle": "Booking, shows, lo que sea \u2014 mand\u00e1 mensaje",
       "whatsapp": "+595981324569",
       "email": "nudobandpy@gmail.com",
       "instagram": "@nudo_band",
-      "whatsappMessage": "Hola Nüdo! Queremos contactarlos para un show.",
+      "whatsappMessage": "Hola N\u00fcdo! Queremos contactarlos para un show.",
       "hours": {
         "Siempre activos": "Seguinos en Instagram"
       }
+    },
+    "spotifyEmbed": {
+      "title": "Escuch\u00e1 a N\u00fcdo",
+      "url": "https://open.spotify.com/embed/artist/2N3Z6SOIw7MOSxtRyzgJLv?utm_source=generator",
+      "caption": "DESAHOGO EP (2025) \u2014 Hardcore Metal desde Capiat\u00e1"
     }
   },
-
   "musica": {
     "seo": {
-      "title": "Música — Nüdo",
-      "description": "Discografía de Nüdo: EP DESAHOGO (2025), single CULPA (2023). Hardcore Metal desde Paraguay."
+      "title": "M\u00fasica \u2014 N\u00fcdo",
+      "description": "Discograf\u00eda de N\u00fcdo: EP DESAHOGO (2025), single CULPA (2023). Hardcore Metal desde Paraguay."
     },
     "hero": {
-      "title": "Música",
-      "subtitle": "DESAHOGO EP (2025) — disponible en todas las plataformas",
+      "title": "M\u00fasica",
+      "subtitle": "DESAHOGO EP (2025) \u2014 disponible en todas las plataformas",
       "trustBadgesEnabled": false
     },
     "spotify": {
-      "title": "Escuchá a Nüdo",
-      "subtitle": "Seguinos en Spotify — 47 oyentes mensuales",
+      "title": "Escuch\u00e1 a N\u00fcdo",
+      "subtitle": "Seguinos en Spotify \u2014 47 oyentes mensuales",
       "src": "https://open.spotify.com/embed/artist/2N3Z6SOIw7MOSxtRyzgJLv?utm_source=generator",
       "height": 352
     },
@@ -235,36 +276,46 @@
         "year": "2025",
         "type": "EP",
         "label": "Bad Vibes Records",
-        "tracks": ["JUICIO", "ESPEJO", "CULPA", "APOCALIPSIS"]
+        "tracks": [
+          "JUICIO",
+          "ESPEJO",
+          "CULPA",
+          "APOCALIPSIS"
+        ]
       },
       {
         "title": "CULPA (Single)",
         "year": "2023",
         "type": "Single",
         "label": "Independiente",
-        "tracks": ["CULPA"]
+        "tracks": [
+          "CULPA"
+        ]
       }
-    ]
+    ],
+    "spotifyEmbed": {
+      "title": "Escuch\u00e1 a N\u00fcdo en Spotify",
+      "url": "https://open.spotify.com/embed/artist/2N3Z6SOIw7MOSxtRyzgJLv?utm_source=generator",
+      "caption": "47 oyentes mensuales \u2014 seguinos en Spotify"
+    }
   },
-
   "letras_page": {
     "seo": {
-      "title": "Letras — Nüdo",
-      "description": "Letras de las canciones de Nüdo: CULPA, JUICIO, ESPEJO, APOCALIPSIS. Hardcore Metal desde Capiatá, Paraguay."
+      "title": "Letras \u2014 N\u00fcdo",
+      "description": "Letras de las canciones de N\u00fcdo: CULPA, JUICIO, ESPEJO, APOCALIPSIS. Hardcore Metal desde Capiat\u00e1, Paraguay."
     },
     "hero": {
       "title": "Letras",
-      "subtitle": "Canciones de Nüdo — letras y significado",
+      "subtitle": "Canciones de N\u00fcdo \u2014 letras y significado",
       "trustBadgesEnabled": false
     }
   },
-
   "lyrics": {
     "culpa": {
       "title": "CULPA",
       "album": "DESAHOGO EP (2025)",
       "lyrics": [
-        "No tiene sentido seguir acá",
+        "No tiene sentido seguir ac\u00e1",
         "Siento impotencia si la culpa me desgasta",
         "Ya no aguanto todo este dolor",
         "",
@@ -272,145 +323,160 @@
         "Agonizando en el suelo",
         "Otra vez",
         "",
-        "Ya lo intenté",
+        "Ya lo intent\u00e9",
         "Arrancarme todos los pelos",
         "Y en el recuerdo queda el olvido",
-        "Mis demonios me atormentan y me piden mi destrucción",
+        "Mis demonios me atormentan y me piden mi destrucci\u00f3n",
         "",
-        "La sangre se siente fría",
+        "La sangre se siente fr\u00eda",
         "en esta lluvia de cuchillas",
         "",
         "En esta lluvia de cuchillas",
-        "la sangre se siente fría",
+        "la sangre se siente fr\u00eda",
         "",
         "La plaga y el miedo me dominan",
-        "Tanto tiempo, no puedo más",
+        "Tanto tiempo, no puedo m\u00e1s",
         "Fui impulsado para acabar",
         "No es lo correcto",
-        "Dios está en silencio",
+        "Dios est\u00e1 en silencio",
         "",
-        "Pensás que soy imbécil",
+        "Pens\u00e1s que soy imb\u00e9cil",
         "Hijo de puta",
         "",
-        "Es mi maldición",
-        "Por qué tiemblas?",
+        "Es mi maldici\u00f3n",
+        "Por qu\u00e9 tiemblas?",
         "Cobarde",
         "",
-        "No hay salvación"
+        "No hay salvaci\u00f3n"
       ]
     }
   },
-
   "videos": {
     "seo": {
-      "title": "Videos — Nüdo",
-      "description": "Videos de Nüdo en vivo: shows, ensayos, y más. Hardcore Metal desde Capiatá, Paraguay."
+      "title": "Videos \u2014 N\u00fcdo",
+      "description": "Videos de N\u00fcdo en vivo: shows, ensayos, y m\u00e1s. Hardcore Metal desde Capiat\u00e1, Paraguay."
     },
     "hero": {
       "title": "Videos",
-      "subtitle": "Nüdo en YouTube — segui @Nudo-fd7mz",
+      "subtitle": "N\u00fcdo en YouTube \u2014 segui @Nudo-fd7mz",
       "trustBadgesEnabled": false
     },
     "gallery": {
       "title": "Videos",
-      "subtitle": "Momentos de Nüdo en vivo y estudio",
+      "subtitle": "Momentos de N\u00fcdo en vivo y estudio",
       "images": [
-        { "src": "https://i.scdn.co/image/ab67616d00001e029eb75be054c928ad5c3576e3", "alt": "DESAHOGO EP - Escuchalo en Spotify", "category": "Música" },
-        { "src": "https://i.scdn.co/image/ab67616d00001e02bcb531a6e29d197d153d3e4d", "alt": "CULPA - Single 2023", "category": "Música" }
+        {
+          "src": "https://i.scdn.co/image/ab67616d00001e029eb75be054c928ad5c3576e3",
+          "alt": "DESAHOGO EP - Escuchalo en Spotify",
+          "category": "M\u00fasica"
+        },
+        {
+          "src": "https://i.scdn.co/image/ab67616d00001e02bcb531a6e29d197d153d3e4d",
+          "alt": "CULPA - Single 2023",
+          "category": "M\u00fasica"
+        }
       ],
       "columns": 2,
       "lightbox": true
     }
   },
-
   "shows": {
     "seo": {
-      "title": "Shows — Nüdo",
-      "description": "Próximas fechas y shows de Nüdo en vivo. Hardcore Metal desde Capiatá, Paraguay."
+      "title": "Shows \u2014 N\u00fcdo",
+      "description": "Pr\u00f3ximas fechas y shows de N\u00fcdo en vivo. Hardcore Metal desde Capiat\u00e1, Paraguay."
     },
     "hero": {
       "title": "Shows",
-      "subtitle": "Seguí @nudo_band para las próximas fechas",
+      "subtitle": "Segu\u00ed @nudo_band para las pr\u00f3ximas fechas",
       "trustBadgesEnabled": false
     },
     "eventos": {
-      "title": "Próximas Fechas",
-      "subtitle": "Nüdo en vivo — momentos que rompen",
+      "title": "Pr\u00f3ximas Fechas",
+      "subtitle": "N\u00fcdo en vivo \u2014 momentos que rompen",
       "venues": [
         {
           "id": "tunako",
-          "name": "Tunakó Pool Party",
-          "description": "Una de las mejores fechas del verano 2026. Nüdo rompiendo en la pileta.",
+          "name": "Tunak\u00f3 Pool Party",
+          "description": "Una de las mejores fechas del verano 2026. N\u00fcdo rompiendo en la pileta.",
           "capacity": 500,
-          "idealFor": ["Verano 2026", "Pileta", "Mosh"]
+          "idealFor": [
+            "Verano 2026",
+            "Pileta",
+            "Mosh"
+          ]
         },
         {
           "id": "rock-metalcore",
           "name": "Rock & Metalcore Fest",
-          "description": "Nüdo en el Rock & Metalcore Fest. Momentos que quedan grabados.",
+          "description": "N\u00fcdo en el Rock & Metalcore Fest. Momentos que quedan grabados.",
           "capacity": 300,
-          "idealFor": ["Metalcore", "Festival"]
+          "idealFor": [
+            "Metalcore",
+            "Festival"
+          ]
         },
         {
           "id": "breakdown-fest",
           "name": "BREAKDOWN FEST",
-          "description": "Presentación en el BREAKDOWN FEST edición 2023.",
+          "description": "Presentaci\u00f3n en el BREAKDOWN FEST edici\u00f3n 2023.",
           "capacity": 200,
-          "idealFor": ["Breakdown", "Metal"]
+          "idealFor": [
+            "Breakdown",
+            "Metal"
+          ]
         },
         {
           "id": "black-mango",
           "name": "Black Mango",
           "description": "Concierto compartido con Drakengard.",
           "capacity": 150,
-          "idealFor": ["Concierto", "Compartido"]
+          "idealFor": [
+            "Concierto",
+            "Compartido"
+          ]
         }
       ]
     }
   },
-
   "galeria": {
     "seo": {
-      "title": "Galería — Nüdo",
-      "description": "Fotos de Nüdo en vivo — Tunakó Pool Party, BREAKDOWN FEST, Rock & Metalcore Fest y más."
+      "title": "Galer\u00eda \u2014 N\u00fcdo",
+      "description": "Fotos de N\u00fcdo en vivo \u2014 Tunak\u00f3 Pool Party, BREAKDOWN FEST, Rock & Metalcore Fest y m\u00e1s."
     },
     "hero": {
-      "title": "Galería",
-      "subtitle": "Nüdo en vivo — la furia hecha música",
+      "title": "Galer\u00eda",
+      "subtitle": "N\u00fcdo en vivo \u2014 la furia hecha m\u00fasica",
       "trustBadgesEnabled": false
     }
   },
-
   "contacto": {
     "seo": {
-      "title": "Contacto — Nüdo",
-      "description": "Contactate con Nüdo para shows, booking y más. Hardcore Metal desde Capiatá, Paraguay."
+      "title": "Contacto \u2014 N\u00fcdo",
+      "description": "Contactate con N\u00fcdo para shows, booking y m\u00e1s. Hardcore Metal desde Capiat\u00e1, Paraguay."
     },
     "hero": {
       "title": "Contacto",
-      "subtitle": "Escribinos — respondemos rápido",
+      "subtitle": "Escribinos \u2014 respondemos r\u00e1pido",
       "trustBadgesEnabled": false
     }
   },
-
-    "newsletter": {
-      "title": "Enterate de los próximos shows",
-      "subtitle": "Dejanos tu email y te avisamos cuando toquemos en vivo. Sin spam, solo metal.",
-      "placeholder": "tu@email.com",
-      "submitLabel": "Suscribirme"
-    },
-
-    "footer": {
-    "businessName": "Nüdo",
-    "city": "Capiatá",
-    "copyright": "© 2026 Nüdo. Todos los derechos reservados. Bad Vibes Records.",
+  "newsletter": {
+    "title": "Enterate de los pr\u00f3ximos shows",
+    "subtitle": "Dejanos tu email y te avisamos cuando toquemos en vivo. Sin spam, solo metal.",
+    "placeholder": "tu@email.com",
+    "submitLabel": "Suscribirme"
+  },
+  "footer": {
+    "businessName": "N\u00fcdo",
+    "city": "Capiat\u00e1",
+    "copyright": "\u00a9 2026 N\u00fcdo. Todos los derechos reservados. Bad Vibes Records.",
     "navLinks": [
       {
         "label": "Inicio",
         "href": "/s/es/nudo"
       },
       {
-        "label": "Música",
+        "label": "M\u00fasica",
         "href": "/s/es/nudo/musica"
       },
       {
@@ -431,38 +497,35 @@
       }
     ]
   },
-
   "whatsapp": {
-    "defaultMessage": "Hola Nüdo! Queremos contactarlos."
+    "defaultMessage": "Hola N\u00fcdo! Queremos contactarlos."
   },
-
   "ctaBanner": {
-    "title": "¿Querés contratar a Nüdo?",
+    "title": "\u00bfQuer\u00e9s contratar a N\u00fcdo?",
     "subtitle": "Contactanos por Instagram o WhatsApp y armamos algo",
-    "ctaText": "Escuchá DESAHOGO EP",
+    "ctaText": "Escuch\u00e1 DESAHOGO EP",
     "ctaHref": "https://open.spotify.com/album/6X6mvKVxK5uLqPe9yPaB3r"
   },
-
   "seo": {
     "faq": {
-      "title": "Preguntas — Nüdo",
-      "description": "Preguntas frecuentes sobre la banda de Hardcore Metal Nüdo."
+      "title": "Preguntas \u2014 N\u00fcdo",
+      "description": "Preguntas frecuentes sobre la banda de Hardcore Metal N\u00fcdo."
     },
     "musica": {
-      "title": "Música — Nüdo",
-      "description": "Discografía de Nüdo. DESAHOGO EP y más."
+      "title": "M\u00fasica \u2014 N\u00fcdo",
+      "description": "Discograf\u00eda de N\u00fcdo. DESAHOGO EP y m\u00e1s."
     },
     "shows": {
-      "title": "Shows — Nüdo",
-      "description": "Próximas fechas de Nüdo en Paraguay."
+      "title": "Shows \u2014 N\u00fcdo",
+      "description": "Pr\u00f3ximas fechas de N\u00fcdo en Paraguay."
     },
     "videos": {
-      "title": "Videos — Nüdo",
-      "description": "Videos de Nüdo en vivo. Hardcore Metal desde Capiatá."
+      "title": "Videos \u2014 N\u00fcdo",
+      "description": "Videos de N\u00fcdo en vivo. Hardcore Metal desde Capiat\u00e1."
     },
     "galeria": {
-      "title": "Galería — Nüdo",
-      "description": "Fotos de Nüdo en vivo."
+      "title": "Galer\u00eda \u2014 N\u00fcdo",
+      "description": "Fotos de N\u00fcdo en vivo."
     }
   }
 }
