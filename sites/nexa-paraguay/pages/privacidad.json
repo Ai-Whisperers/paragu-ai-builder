@@ -20,7 +20,7 @@
     },
     {
       "id": "intake-questionnaire",
-      "variant": "default",
+      "variant": "standard",
       "content": "privacyPage.dataRequest"
     },
     {

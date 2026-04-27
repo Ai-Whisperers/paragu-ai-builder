@@ -5,6 +5,7 @@ import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { AnimatedSectionHeader } from '@/components/ui/animate-on-scroll'
+import { cleanPhone } from '@/lib/format'
 import { useState } from 'react'
 
 /**
@@ -151,7 +152,7 @@ export function IntakeQuestionnaireSection({
             </Button>
             {whatsappPhone && (
               <a
-                href={`https://wa.me/${whatsappPhone.replace(/\D/g, '')}`}
+                href={`https://wa.me/${cleanPhone(whatsappPhone)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-[var(--primary)] underline"
