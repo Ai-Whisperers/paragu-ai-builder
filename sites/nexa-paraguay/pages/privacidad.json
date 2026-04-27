@@ -19,11 +19,6 @@
       "content": "privacyPage.body"
     },
     {
-      "id": "intake-questionnaire",
-      "variant": "standard",
-      "content": "privacyPage.dataRequest"
-    },
-    {
       "id": "footer",
       "variant": "standard",
       "content": "footer"
