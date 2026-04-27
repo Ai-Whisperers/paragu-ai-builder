@@ -5,7 +5,7 @@
   "sections": [
     {
       "id": "header",
-      "variant": "gradient",
+      "variant": "standard",
       "content": "navigation"
     },
     {
@@ -60,12 +60,12 @@
     },
     {
       "id": "footer",
-      "variant": "gradient",
+      "variant": "standard",
       "content": "footer"
     },
     {
       "id": "whatsapp-float",
-      "variant": "gradient",
+      "variant": "standard",
       "content": "whatsapp"
     }
   ]
