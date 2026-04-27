@@ -5,6 +5,6 @@
   "sections": [
     { "id": "hero", "variant": "minimal", "content": "contacto.hero" },
     { "id": "contact", "variant": "split", "content": "home.contact" },
-    { "id": "cta-banner", "variant": "standard", "content": "home.cta" }
+    { "id": "cta-banner", "variant": "gradient", "content": "home.cta" }
   ]
 }

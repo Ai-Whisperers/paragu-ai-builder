@@ -50,7 +50,14 @@
     "stats-counter",
     "logo-strip",
     "product-catalog",
-    "contact-strip"
+    "contact-strip",
+    "tax-deadline-banner",
+    "calc-irp",
+    "calc-iva",
+    "calc-costo-empleado",
+    "calc-aguinaldo",
+    "calc-finiquito",
+    "calc-ire"
   ],
   "defaultStarterKit": "minimal",
   "locales": [

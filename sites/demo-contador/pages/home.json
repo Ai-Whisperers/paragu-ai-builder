@@ -5,7 +5,7 @@
   "sections": [
     {
       "id": "header",
-      "variant": "standard",
+      "variant": "gradient",
       "content": "navigation"
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "id": "cta-banner",
-      "variant": "standard",
+      "variant": "gradient",
       "content": "home.cta"
     },
     {
@@ -60,12 +60,12 @@
     },
     {
       "id": "footer",
-      "variant": "standard",
+      "variant": "gradient",
       "content": "footer"
     },
     {
       "id": "whatsapp-float",
-      "variant": "standard",
+      "variant": "gradient",
       "content": "whatsapp"
     }
   ]
