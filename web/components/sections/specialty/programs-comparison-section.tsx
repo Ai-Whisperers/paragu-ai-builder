@@ -127,7 +127,7 @@ export function ProgramsComparisonSection({
 
 function TierCards({ tiers }: { tiers: ProgramTier[] }) {
   return (
-    <div className="grid gap-6 sm:gap-8 lg:grid-cols-2 xl:grid-cols-4">
+    <div className="grid gap-8 sm:gap-10 lg:grid-cols-2 xl:grid-cols-4">
       {tiers.map((tier, idx) => (
         <AnimateOnScroll key={tier.id} stagger={((idx % 4) + 1) as 1 | 2 | 3 | 4}>
           <article className={cn('relative flex h-full flex-col overflow-hidden rounded-2xl transition-all duration-300',
@@ -159,25 +159,25 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
               )
             })()}
 
-            <div className={cn("p-6 sm:p-8 pb-6", tier.highlighted && !tier.image && "pt-10")}>
+            <div className={cn("p-6 sm:p-8 lg:p-10 pb-6", tier.highlighted && !tier.image && "pt-10")}>
               <Heading level={3} className="text-xl sm:text-2xl font-bold mb-2" style={{ fontFamily: 'var(--font-heading)', color: 'var(--primary)' }}>
                 {tier.name}
               </Heading>
               {tier.description && (
-                <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>{tier.description}</p>
+                <p className="text-sm sm:text-base leading-relaxed" style={{ color: 'var(--text-muted)' }}>{tier.description}</p>
               )}
               
               {tier.price && (
                 <div className="mt-5">
                   <p className="text-3xl sm:text-4xl font-bold tracking-tight" style={{ color: 'var(--text)' }}>{tier.price}</p>
                   {tier.priceNote && (
-                    <p className="mt-1.5 text-sm" style={{ color: 'var(--text-muted)' }}>{tier.priceNote}</p>
+                    <p className="mt-1.5 text-sm sm:text-base" style={{ color: 'var(--text-muted)' }}>{tier.priceNote}</p>
                   )}
                 </div>
               )}
             </div>
 
-            <div className="flex-1 px-6 sm:px-8 py-4">
+            <div className="flex-1 px-6 sm:px-8 lg:px-10 py-4">
               <ul className="space-y-3">
                 {(tier.included || []).map((item, i) => (
                   <li key={`inc-${i}`} className="flex gap-3 text-sm sm:text-base leading-relaxed" style={{ color: 'var(--text)' }}>
@@ -198,7 +198,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
               </ul>
             </div>
 
-            <div className="p-6 sm:p-8 pt-4">
+            <div className="p-6 sm:p-8 lg:p-10 pt-4">
               <Button variant={tier.highlighted ? 'primary' : 'secondary'} size="lg" href={tier.ctaHref}
                 className="w-full min-h-[52px] text-base font-semibold tracking-wide transition-all duration-300 hover:scale-[1.02]"
                 style={tier.highlighted ? { backgroundColor: 'var(--secondary)', color: '#ffffff', boxShadow: '0 4px 16px rgba(184, 134, 11, 0.35)' } : undefined}>

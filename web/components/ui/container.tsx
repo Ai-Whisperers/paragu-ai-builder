@@ -1,13 +1,14 @@
 import { cn } from '@/lib/utils'
 
-interface ContainerProps extends React.HTMLAttributes<HTMLDivElement> {
-  size?: 'sm' | 'md' | 'lg' | 'full'
+export interface ContainerProps extends React.HTMLAttributes<HTMLDivElement> {
+  size?: 'sm' | 'md' | 'lg' | 'xl' | 'full'
 }
 
 const sizes = {
-  sm: 'max-w-3xl',
+  sm: 'max-w-4xl',
   md: 'max-w-5xl',
-  lg: 'max-w-7xl',
+  lg: 'max-w-[1400px]',
+  xl: 'max-w-[1600px]',
   full: 'max-w-full',
 }
 
