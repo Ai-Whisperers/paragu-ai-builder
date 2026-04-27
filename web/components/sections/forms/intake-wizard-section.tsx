@@ -51,6 +51,9 @@ export function IntakeWizardSection({
   const [answers, setAnswers] = useState<Record<string, string>>({})
   const [done, setDone] = useState(false)
 
+  // No steps configured — don't render anything
+  if (!stepList.length && !done) return null
+
   const currentStep = stepList[stepIdx]
   const answered = currentStep ? !!answers[currentStep.key] : false
   const isLastStep = stepIdx === stepList.length - 1
