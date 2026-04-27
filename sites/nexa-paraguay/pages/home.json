@@ -41,6 +41,11 @@
       }
     },
     {
+      "id": "features",
+      "variant": "three-col",
+      "content": "home.beneluxDesk"
+    },
+    {
       "id": "process-timeline",
       "variant": "horizontal",
       "content": "home.process",

@@ -17,16 +17,21 @@
         "href": "/s/es/nexa-paraguay"
       },
       {
-        "label": "Programas",
-        "href": "/s/es/nexa-paraguay/programas"
-      },
-      {
-        "label": "Por qué Paraguay",
-        "href": "/s/es/nexa-paraguay/por-que-paraguay"
-      },
-      {
-        "label": "Proceso",
-        "href": "/s/es/nexa-paraguay/proceso"
+        "label": "Reubicación",
+        "children": [
+          {
+            "label": "Programas",
+            "href": "/s/es/nexa-paraguay/programas"
+          },
+          {
+            "label": "Por qué Paraguay",
+            "href": "/s/es/nexa-paraguay/por-que-paraguay"
+          },
+          {
+            "label": "Proceso",
+            "href": "/s/es/nexa-paraguay/proceso"
+          }
+        ]
       },
       {
         "label": "Sobre Nexa",
@@ -37,16 +42,25 @@
         "href": "/s/es/nexa-paraguay/faq"
       },
       {
-        "label": "Blog",
-        "href": "/s/es/nexa-paraguay/blog"
+        "label": "Benelux",
+        "href": "/s/es/nexa-paraguay/benelux"
       },
       {
         "label": "Recursos",
-        "href": "/s/es/nexa-paraguay/recursos"
-      },
-      {
-        "label": "Prensa",
-        "href": "/s/es/nexa-paraguay/prensa"
+        "children": [
+          {
+            "label": "Blog",
+            "href": "/s/es/nexa-paraguay/blog"
+          },
+          {
+            "label": "Recursos",
+            "href": "/s/es/nexa-paraguay/recursos"
+          },
+          {
+            "label": "Prensa",
+            "href": "/s/es/nexa-paraguay/prensa"
+          }
+        ]
       },
       {
         "label": "Contacto",
@@ -464,6 +478,27 @@
         "viewProgram": "Ver detalles del programa",
         "restart": "Empezar de nuevo"
       }
+    },
+    "beneluxDesk": {
+      "title": "Atención especial para Benelux",
+      "subtitle": "Holandés, belga o luxemburgués? Tenemos un equipo dedicado para ti.",
+      "items": [
+        {
+          "title": "Atención en Neerlandés",
+          "description": "Coordinación y acompañamiento en tu idioma nativo, sin barreras.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Conocemos tu contexto",
+          "description": "Entendemos el sistema fiscal europeo y cómo se relaciona con el régimen tributario paraguayo.",
+          "icon": "Globe"
+        },
+        {
+          "title": "Comunidad Activa",
+          "description": "Más de 200 familias neerlandesas y belgas ya se han reubicado con nuestra ayuda.",
+          "icon": "Users"
+        }
+      ]
     }
   },
   "programasPage": {
@@ -1084,7 +1119,7 @@
     "booking": {
       "title": "Agende su consulta",
       "subtitle": "Elija el horario que mejor le convenga.",
-      "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+      "bookingUrl": "#",
       "provider": "calendly",
       "ctaLabel": "Abrir calendario",
       "fallbackWhatsapp": "595982515138",
@@ -1233,7 +1268,8 @@
           "pt"
         ]
       }
-    ]
+    ],
+    "copyright": "© {year} Nexa Paraguay. Todos los derechos reservados."
   },
   "complianceDisclaimer": {
     "paragraphs": [

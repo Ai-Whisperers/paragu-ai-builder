@@ -17,16 +17,21 @@
         "href": "/s/nl/nexa-paraguay"
       },
       {
-        "label": "Programma's",
-        "href": "/s/nl/nexa-paraguay/programas"
-      },
-      {
-        "label": "Waarom Paraguay",
-        "href": "/s/nl/nexa-paraguay/por-que-paraguay"
-      },
-      {
-        "label": "Proces",
-        "href": "/s/nl/nexa-paraguay/proceso"
+        "label": "Verhuizing",
+        "children": [
+          {
+            "label": "Programma's",
+            "href": "/s/nl/nexa-paraguay/programas"
+          },
+          {
+            "label": "Waarom Paraguay",
+            "href": "/s/nl/nexa-paraguay/por-que-paraguay"
+          },
+          {
+            "label": "Proces",
+            "href": "/s/nl/nexa-paraguay/proceso"
+          }
+        ]
       },
       {
         "label": "Over Nexa",
@@ -37,16 +42,25 @@
         "href": "/s/nl/nexa-paraguay/faq"
       },
       {
-        "label": "Blog",
-        "href": "/s/nl/nexa-paraguay/blog"
+        "label": "Benelux",
+        "href": "/s/nl/nexa-paraguay/benelux"
       },
       {
-        "label": "Bronnen",
-        "href": "/s/nl/nexa-paraguay/recursos"
-      },
-      {
-        "label": "Pers",
-        "href": "/s/nl/nexa-paraguay/prensa"
+        "label": "Inzichten",
+        "children": [
+          {
+            "label": "Blog",
+            "href": "/s/nl/nexa-paraguay/blog"
+          },
+          {
+            "label": "Bronnen",
+            "href": "/s/nl/nexa-paraguay/recursos"
+          },
+          {
+            "label": "Pers",
+            "href": "/s/nl/nexa-paraguay/prensa"
+          }
+        ]
       },
       {
         "label": "Contact",
@@ -465,6 +479,27 @@
         }
       ],
       "title": "Cijfers"
+    },
+    "beneluxDesk": {
+      "title": "Specialistische Benelux Afdeling",
+      "subtitle": "Nederlands, Belgisch of Luxemburgs? Wij hebben een speciaal team voor u.",
+      "items": [
+        {
+          "title": "Nederlandstalige Ondersteuning",
+          "description": "Volledige begeleiding in uw eigen taal — geen communicatiebarrières.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Wij Kennen Uw Context",
+          "description": "Inzicht in Europese belastingstelsels en hoe deze samenwerken met het territoriale regime van Paraguay.",
+          "icon": "Globe"
+        },
+        {
+          "title": "Actieve Gemeenschap",
+          "description": "Meer dan 200 Nederlandse en Belgische families zijn u al voorgegaan.",
+          "icon": "Users"
+        }
+      ]
     }
   },
   "programasPage": {
@@ -1085,7 +1120,7 @@
     "booking": {
       "title": "Plan uw consult",
       "subtitle": "Kies een moment dat u schikt.",
-      "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+      "bookingUrl": "#",
       "provider": "calendly",
       "ctaLabel": "Open agenda",
       "fallbackWhatsapp": "595982515138",
@@ -1233,7 +1268,8 @@
           "pt"
         ]
       }
-    ]
+    ],
+    "copyright": "© {year} Nexa Paraguay. Alle rechten voorbehouden."
   },
   "complianceDisclaimer": {
     "paragraphs": [
