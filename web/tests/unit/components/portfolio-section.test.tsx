@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
-import { PortfolioSection } from '@/components/sections/portfolio-section'
+import { PortfolioSection } from '@/components/sections/media/portfolio-section'
 
 // next/image's default loader validates URLs, so use real-looking paths.
 const mockItems = [

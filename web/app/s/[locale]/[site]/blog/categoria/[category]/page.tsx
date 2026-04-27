@@ -4,7 +4,7 @@ import { isLocale, type Locale } from '@/lib/i18n/config'
 import { listSiteSlugs, loadSite } from '@/lib/engine/site-loader'
 import { listBlogPosts } from '@/lib/engine/blog-loader'
 import { resolveSiteTokens } from '@/lib/engine/resolve-site-tokens'
-import { BlogIndexSection } from '@/components/sections/blog-index-section'
+import { BlogIndexSection } from '@/components/sections/social/blog-index-section'
 
 export const runtime = 'nodejs'
 
