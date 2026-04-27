@@ -1,0 +1,22 @@
+{
+  "id": "furniture_assembly_service",
+  "nameEs": "Armado Muebles",
+  "nameEn": "Furniture Assembly",
+  "verticalId": "trades-home-services",
+  "subVertical": "handyman",
+  "extends": "trades_base",
+  "tokens": "furniture_assembly_service",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Armado Muebles en {{city}}",
+    "descriptionTemplate": "Armado Muebles profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "armado muebles {{city}}",
+      "furniture assembly {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Armado Muebles",
+    "subheadlineTemplate": "Armado Muebles profesional en {{city}}."
+  }
+}

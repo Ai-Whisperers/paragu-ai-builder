@@ -1,0 +1,25 @@
+{
+  "id": "bi_dashboard_agency",
+  "nameEs": "Agencia BI",
+  "nameEn": "BI Agency",
+  "verticalId": "technology-digital",
+  "subVertical": "data-analytics",
+  "extends": "technology_base",
+  "tokens": "bi_dashboard_agency",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Agencia BI en {{city}}",
+    "descriptionTemplate": "Agencia BI profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agencia bi {{city}}",
+      "bi agency {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agencia BI",
+    "subheadlineTemplate": "Agencia BI profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

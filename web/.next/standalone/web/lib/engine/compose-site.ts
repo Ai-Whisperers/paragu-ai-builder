@@ -1,0 +1,543 @@
+/**
+ * Tenant page composition engine.
+ *
+ * Input:   site slug + locale + page slug
+ * Output:  ResolvedPage ready for rendering
+ *
+ * Pipeline:
+ *   sites/<slug>/site.json           → tenant config (vertical, locales, nav, integrations)
+ *   sites/<slug>/pages/<page>.json   → section composition chosen by tenant
+ *   sites/<slug>/content/<loc>.json  → tenant content values
+ *   src/verticals/<v>/copy/<loc>.json→ vertical copy templates with {{placeholders}}
+ *   src/verticals/<v>/schema.json    → data shape hints
+ *   resolveSiteTokens()              → merged CSS vars
+ */
+import type { Locale } from '@/lib/i18n/config'
+import { buildLocaleUrl } from '@/lib/i18n/routing'
+import type { ResolvedPage, SiteDefinition, PageDefinition, PageSection } from './site-types'
+import {
+  loadSite,
+  loadPage,
+  loadSiteContent,
+  loadSiteTestimonials,
+  loadVerticalCopy,
+  loadVertical,
+} from './site-loader'
+import { loadImagesManifest } from './images-loader'
+import { fillDeep, mergeOverrides, resolveRef } from './resolve-copy'
+import { buildSectionData, SECTION_MAP } from './compose'
+import type { BusinessData, RegistryType } from './compose'
+import { resolveSiteTokens } from './resolve-site-tokens'
+import {
+  hasSection,
+  hasVariant,
+  defaultVariant,
+} from './section-registry'
+import { listBlogPosts } from './blog-loader'
+import { logger } from '@/lib/logger'
+import { metrics } from '@/lib/obs/metrics'
+
+const DEFAULT_PAGE_SLUG = 'home'
+
+/**
+ * Wrap the page with chrome sections declared on the site config.
+ *
+ * `site.chrome.header` gets prepended; `site.chrome.footer[]` gets appended.
+ * Dedup by section id: if the page already contains a section with a given
+ * id, the explicit page entry wins and the default is skipped. Pages can
+ * also opt out of specific defaults via `page.skipDefaults`.
+ *
+ * This lets tenant page configs list only the page-specific middle
+ * sections instead of repeating the same header/contact/whatsapp-float/
+ * footer chrome on every single page.
+ */
+export function applyChromeDefaults(
+  page: PageDefinition,
+  site: SiteDefinition,
+): PageDefinition {
+  const chrome = site.chrome
+  if (!chrome) return page
+
+  const skip = new Set(page.skipDefaults ?? [])
+  const existingIds = new Set(page.sections.map((s) => s.id))
+
+  const prepend: PageSection[] = []
+  if (chrome.header && !skip.has(chrome.header.id) && !existingIds.has(chrome.header.id)) {
+    prepend.push(chrome.header)
+  }
+
+  const append: PageSection[] = []
+  for (const fs of chrome.footer ?? []) {
+    if (skip.has(fs.id)) continue
+    if (existingIds.has(fs.id)) continue
+    append.push(fs)
+  }
+
+  if (prepend.length === 0 && append.length === 0) return page
+  return {
+    ...page,
+    sections: [...prepend, ...page.sections, ...append],
+  }
+}
+
+export interface ComposeInput {
+  siteSlug: string
+  locale: Locale
+  pageSlug?: string
+}
+
+export function composeSitePage(input: ComposeInput): ResolvedPage {
+  const { siteSlug, locale } = input
+  const pageSlug = input.pageSlug || DEFAULT_PAGE_SLUG
+  const start = performance.now()
+  const baseContext = { action: 'composeSitePage', siteSlug, locale, pageSlug }
+
+  // Per-step timing. Emitted in the final log object as `steps: {...}`
+  // so we can spot the slow step when overall composeSitePage time is
+  // outside the budget. Resets on every call; no global state.
+  const stepTimings: Record<string, number> = {}
+  const step = <T,>(name: string, fn: () => T): T => {
+    const t = performance.now()
+    const result = fn()
+    stepTimings[name] = Math.round(performance.now() - t)
+    return result
+  }
+
+  const site: SiteDefinition = step('loadSite', () => loadSite(siteSlug))
+
+  if (!site.locales.includes(locale)) {
+    logger.error('Site composition: locale not enabled', {
+      ...baseContext,
+      enabledLocales: site.locales,
+    })
+    throw new Error(
+      `[compose-site] Locale "${locale}" not enabled for site "${siteSlug}"`,
+    )
+  }
+
+  const rawPage: PageDefinition | null = step('loadPage', () => loadPage(siteSlug, pageSlug))
+  if (!rawPage) {
+    logger.error('Site composition: page not found', baseContext)
+    throw new Error(`[compose-site] Page "${pageSlug}" not found for site "${siteSlug}"`)
+  }
+  const page = applyChromeDefaults(rawPage, site)
+
+  const siteContent = step('loadSiteContent', () => loadSiteContent(siteSlug, locale))
+  const verticalCopy = step('loadVerticalCopy', () => loadVerticalCopy(site.vertical, locale))
+  const vertical = step('loadVertical', () => loadVertical(site.vertical))
+  const imagesManifest = step('loadImagesManifest', () => loadImagesManifest(siteSlug))
+
+  const placeholders = {
+    siteName: (siteContent.siteName as string) || site.slug,
+    country: site.country,
+    ...(siteContent.placeholders as Record<string, string | number | undefined> || {}),
+    year: new Date().getFullYear(),
+    __locale: locale,
+  }
+
+  const copyCtx = { siteContent, verticalCopy, placeholders, images: imagesManifest, locale }
+
+  const sectionsStart = performance.now()
+  const resolvedSections = page.sections
+    .filter((s) => shouldInclude(s.enabledWhen, site.features))
+    .map((s) => {
+      if (!hasSection(s.id)) {
+        logger.error('Site composition: unknown section id', { ...baseContext, sectionId: s.id })
+        throw new Error(
+          `[compose-site] Unknown section id "${s.id}" on page "${pageSlug}"`,
+        )
+      }
+      const variant = s.variant || defaultVariant(s.id)
+      if (!hasVariant(s.id, variant)) {
+        logger.error('Site composition: unknown section variant', {
+          ...baseContext,
+          sectionId: s.id,
+          variant,
+        })
+        throw new Error(
+          `[compose-site] Variant "${variant}" not available for section "${s.id}"`,
+        )
+      }
+
+      try {
+        // Try section builder first for sections that have a registered builder.
+        // Currently enabled for sections where the builder doesn't need registry
+        // or content data beyond what's available in the site content.
+        // Falls through to content-ref when no builder exists or it returns null.
+        let normalized: Record<string, unknown> | null = null
+        const sectionType = SECTION_MAP[s.id]
+        if (sectionType) {
+          try {
+            const miniBusiness: Partial<BusinessData> = {
+              name: (siteContent.siteName as string) || site.slug,
+              slug: siteSlug,
+              type: site.vertical as never,
+              whatsapp: siteContent.whatsapp as string | undefined,
+              phone: siteContent.phone as string | undefined,
+              email: siteContent.email as string | undefined,
+              city: siteContent.city as string || '',
+            }
+            const builderResult = buildSectionData(
+              sectionType,
+              miniBusiness as BusinessData,
+              // Content is passed as empty — builders that need content will
+              // fall through to the content-ref path below. This is intentional
+              // until we can provide the full ContentTemplate.
+              {} as never,
+              placeholders as Record<string, string | number>,
+              [],
+              {} as RegistryType,
+            )
+            if (builderResult) {
+              const withOverrides = mergeOverrides(builderResult, s.overrides)
+              normalized = fillDeep(withOverrides, placeholders) as Record<string, unknown>
+            }
+          } catch {
+            // Builder failed — fall through to content-ref resolution
+          }
+        }
+
+        if (!normalized) {
+          // Fall back to content ref resolution (original Pipeline B path)
+          const resolved = s.content ? resolveRef(s.content, copyCtx) : {}
+          const base = (resolved && typeof resolved === 'object'
+            ? (resolved as Record<string, unknown>)
+            : {})
+          const merged = mergeOverrides(base, s.overrides)
+          const filled = fillDeep(merged, placeholders) as Record<string, unknown>
+          normalized = normalizeSectionProps(s.id, filled)
+        }
+
+        // Rewrite bare-'/' navItem hrefs to the tenant's home URL.
+        // Content authors reasonably write href:"/" for "Home", but on
+        // a tenant page that would bounce the shopper to the platform
+        // root (paragu-ai.com) instead of keeping them inside the
+        // tenant. Does nothing when navItems isn't an array or no item
+        // needs rewriting — safe on every section.
+        if (s.id === 'header' && Array.isArray(normalized.navItems)) {
+          const tenantHome = site.path ?? `/s/${locale}/${siteSlug}`
+          normalized.navItems = (normalized.navItems as Array<Record<string, unknown>>).map(
+            (item) => {
+              const href = typeof item.href === 'string' ? item.href : ''
+              if (href === '' || href === '/') return { ...item, href: tenantHome }
+              return item
+            },
+          )
+        }
+
+        const propsWithContext: Record<string, unknown> = {
+          ...normalized,
+          __siteSlug: site.slug,
+          __locale: locale,
+          __country: site.country,
+          __availableLocales: site.locales,
+          __currentPath: pageSlug === DEFAULT_PAGE_SLUG ? '' : pageSlug,
+        }
+        const withCommerce = injectCommerceSiteContext(s.id, propsWithContext, siteContent.siteName)
+        const withBlog = injectBlogIndexPosts(s.id, withCommerce, siteSlug, locale)
+        const withTestimonials = injectTestimonialItems(s.id, withBlog, siteSlug)
+        const props = injectBusinessMetadata(s.id, withTestimonials, siteContent)
+        // Pass through section styling and visibility config
+        // so the renderer can apply per-section overrides.
+        return {
+          id: s.id,
+          variant,
+          props,
+          styling: s.styling,
+          visibility: s.visibility,
+        }
+      } catch (err) {
+        logger.error('Site composition: section content resolution failed', {
+          ...baseContext,
+          sectionId: s.id,
+          variant,
+          contentRef: s.content,
+          error: err instanceof Error ? err.message : String(err),
+        })
+        throw err
+      }
+    })
+
+  if (vertical.allowedSections) {
+    const disallowed = resolvedSections.find(
+      (s) => !vertical.allowedSections!.includes(s.id),
+    )
+    if (disallowed) {
+      logger.error('Site composition: section disallowed for vertical', {
+        ...baseContext,
+        vertical: site.vertical,
+        disallowedSection: disallowed.id,
+      })
+      throw new Error(
+        `[compose-site] Section "${disallowed.id}" not allowed for vertical "${site.vertical}"`,
+      )
+    }
+  }
+
+  stepTimings.sectionsLoop = Math.round(performance.now() - sectionsStart)
+
+  const title = resolveMeta(page.titleKey, copyCtx) || (siteContent.siteName as string) || site.slug
+  const description = resolveMeta(page.descriptionKey, copyCtx) || ''
+  const path = pageSlug === DEFAULT_PAGE_SLUG ? '' : pageSlug
+  const tokens = step('resolveSiteTokens', () => resolveSiteTokens(site.vertical, siteSlug))
+
+  const duration = Math.round(performance.now() - start)
+  // Per-step timings included alongside total. When one tenant is slow
+  // (e.g. nexa-paraguay at 10s LCP vs ~3s for other tenants) this tells
+  // us WHICH step is responsible without needing a server profiler.
+  logger.info('Site composition completed', {
+    ...baseContext,
+    vertical: site.vertical,
+    sectionCount: resolvedSections.length,
+    durationMs: duration,
+    steps: stepTimings,
+  })
+  metrics.timing('compose.duration', duration, {
+    siteSlug,
+    vertical: site.vertical,
+    locale,
+    pageSlug,
+  })
+
+  return {
+    site,
+    locale,
+    page,
+    sections: resolvedSections,
+    meta: {
+      title: String(title),
+      description: String(description),
+      schemaType: page.schemaType,
+      path: buildLocaleUrl(locale, siteSlug, path),
+    },
+    theme: {
+      cssString: tokens.cssString,
+      googleFontsUrl: tokens.googleFontsUrl,
+      isDark: tokens.isDark,
+    },
+  }
+}
+
+function resolveMeta(key: string | undefined, ctx: Parameters<typeof resolveRef>[1]): string | undefined {
+  if (!key) return undefined
+  const hit = resolveRef(key, ctx)
+  return typeof hit === 'string' ? hit : undefined
+}
+
+function shouldInclude(
+  enabledWhen: string | undefined,
+  features: Record<string, boolean> | undefined,
+): boolean {
+  if (!enabledWhen) return true
+  const truthy = enabledWhen.startsWith('!')
+    ? !features?.[enabledWhen.slice(1)]
+    : !!features?.[enabledWhen]
+  return truthy
+}
+
+/**
+ * Normalize legacy/alternative prop names to canonical names that components expect.
+ * This handles cases where content files use different field names (e.g., `items` vs `services`).
+ */
+function normalizeSectionProps(sectionId: string, props: Record<string, unknown>): Record<string, unknown> {
+  const normalized = { ...props }
+
+  switch (sectionId) {
+    case 'header':
+      if (normalized.items && !normalized.navItems) {
+        normalized.navItems = normalized.items
+      }
+      if (normalized.businessName === undefined && normalized.siteName) {
+        normalized.businessName = normalized.siteName
+      }
+      break
+    case 'hero':
+      // Content files commonly ship `title`/`subtitle`, component expects `headline`/`subheadline`.
+      // This mapping is what was silently making inner-page heroes render empty text.
+      if (normalized.title && !normalized.headline) {
+        normalized.headline = normalized.title
+      }
+      if (normalized.subtitle && !normalized.subheadline) {
+        normalized.subheadline = normalized.subtitle
+      }
+      break
+    case 'services':
+      if (normalized.items && !normalized.services) {
+        normalized.services = normalized.items
+      }
+      break
+    case 'testimonials':
+      if (normalized.items && !normalized.testimonials) {
+        normalized.testimonials = normalized.items
+      }
+      break
+    case 'faq':
+      if (normalized.questions && !normalized.items) {
+        normalized.items = normalized.questions
+      }
+      break
+    case 'gallery':
+      if (normalized.logos && !normalized.images) {
+        normalized.images = (normalized.logos as Array<Record<string, unknown>>).map((logo) => ({
+          src: (logo.src as string) || (logo.image as string) || '',
+          alt: (logo.alt as string) || (logo.name as string) || '',
+        }))
+      }
+      break
+    case 'promo-banner':
+      // PromoBannerSection uses `promotions`; tenant content commonly ships `items`.
+      if (normalized.items && !normalized.promotions) {
+        normalized.promotions = normalized.items
+      }
+      break
+    case 'footer': {
+      // `normalized` values are `unknown`; narrow location/contact before
+      // forwarding fields so TS stops complaining (matches runtime shape).
+      const loc = normalized.location as { city?: string; address?: string } | undefined
+      const con = normalized.contact as { phone?: string; email?: string; whatsapp?: string } | undefined
+      if (normalized.city === undefined && loc?.city) normalized.city = loc.city
+      if (normalized.address === undefined && loc?.address) normalized.address = loc.address
+      if (normalized.phone === undefined && con?.phone) normalized.phone = con.phone
+      if (normalized.email === undefined && con?.email) normalized.email = con.email
+      if (normalized.whatsapp === undefined && con?.whatsapp) normalized.whatsapp = con.whatsapp
+      break
+    }
+    case 'whatsapp-float':
+    case 'whatsappFloat':
+      if (normalized.number && !normalized.phone) {
+        normalized.phone = normalized.number
+      }
+      break
+    case 'product-catalog':
+      if (normalized.items && !normalized.products) {
+        normalized.products = normalized.items
+      }
+      break
+  }
+
+  return normalized
+}
+
+/**
+ * Sections whose components expect `siteSlug` / `businessName` as regular
+ * props — the compose-site pipeline normally injects only `__siteSlug`
+ * etc., so these commerce-aware sections get an explicit mapping to the
+ * unprefixed names after the rest of the props pipeline runs.
+ *
+ * Kept separate from `normalizeSectionProps` so it can run AFTER the
+ * `__` keys are merged in (normalizeSectionProps runs before).
+ */
+const COMMERCE_SECTIONS_NEEDING_SITE_CONTEXT = new Set<string>([
+  'commerce-catalog',
+  'featured-products',
+])
+
+function injectCommerceSiteContext(
+  sectionId: string,
+  props: Record<string, unknown>,
+  siteName: unknown,
+): Record<string, unknown> {
+  if (!COMMERCE_SECTIONS_NEEDING_SITE_CONTEXT.has(sectionId)) return props
+  const next = { ...props }
+  if (next.siteSlug === undefined && typeof next.__siteSlug === 'string') {
+    next.siteSlug = next.__siteSlug
+  }
+  if (next.businessName === undefined && typeof siteName === 'string') {
+    next.businessName = siteName
+  }
+  return next
+}
+
+/**
+ * Connects the blog-index section to the blog-loader.
+ *
+ * The content config (`blog.index`) only carries the header copy
+ * (title / subtitle / seo). The actual post list lives under
+ * `sites/<slug>/blog/<locale>/*.mdx` and gets loaded via
+ * `listBlogPosts`. Without this, every blog-index renders empty.
+ *
+ * Callers can still override by providing `posts` in the content ref
+ * (escape hatch for mock data or fully-manual post lists).
+ */
+function injectBlogIndexPosts(
+  sectionId: string,
+  props: Record<string, unknown>,
+  siteSlug: string,
+  locale: Locale,
+): Record<string, unknown> {
+  if (sectionId !== 'blog-index') return props
+  if (Array.isArray(props.posts) && props.posts.length > 0) return props
+  const posts = listBlogPosts(siteSlug, locale).map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    excerpt: p.excerpt,
+    date: p.date,
+    category: p.category,
+    coverImage: p.coverImage,
+    readingMinutes: p.readingMinutes,
+    href: `/s/${locale}/${siteSlug}/blog/${p.slug}`,
+  }))
+  return { ...props, posts }
+}
+
+/**
+ * Connects the `testimonials` section to `sites/<slug>/testimonials.json`.
+ *
+ * The content ref (`home.testimonials`) typically only ships the header
+ * copy (eyebrow / title / subtitle / CTA). The actual client list lives
+ * at the tenant root in `testimonials.json` — mapping its fields to the
+ * component's Testimonial shape (`name → author`, `image → avatar`).
+ *
+ * Caller escape hatch: if the content ref already provided `items` or
+ * `testimonials`, that wins (manual override stays authoritative).
+ */
+function injectTestimonialItems(
+  sectionId: string,
+  props: Record<string, unknown>,
+  siteSlug: string,
+): Record<string, unknown> {
+  if (sectionId !== 'testimonials') return props
+  if (Array.isArray(props.items) && props.items.length > 0) return props
+  if (Array.isArray(props.testimonials) && props.testimonials.length > 0) return props
+  const payload = loadSiteTestimonials(siteSlug)
+  if (!payload) return props
+  const container = (payload.testimonials as Record<string, unknown> | undefined) ?? payload
+  const raw = (container?.items as Array<Record<string, unknown>> | undefined) ?? []
+  if (raw.length === 0) return props
+  const items = raw.map((t) => ({
+    quote: (t.quote as string) ?? '',
+    author: (t.author as string) ?? (t.name as string) ?? '',
+    role: (t.role as string) ?? undefined,
+    rating: typeof t.rating === 'number' ? (t.rating as number) : undefined,
+    avatar: (t.avatar as string) ?? (t.image as string) ?? undefined,
+    videoUrl: (t.videoUrl as string) || undefined,
+    videoPoster: (t.videoPoster as string) || undefined,
+  }))
+  return { ...props, items }
+}
+
+/**
+ * Sections that render tenant-wide business metadata (name, contact, address,
+ * hours, story, stats, sustainability). If the tenant's content file carries a
+ * top-level `business` object, inject it so the section JSON can stay empty
+ * and DRY instead of re-duplicating the same business block inside each
+ * section's content ref. Explicit `business` on the section wins.
+ */
+const BUSINESS_METADATA_SECTIONS = new Set<string>([
+  'our-story',
+  'b2b-wholesale',
+  'recipes',
+  'enhanced-faq',
+])
+
+function injectBusinessMetadata(
+  sectionId: string,
+  props: Record<string, unknown>,
+  siteContent: Record<string, unknown>,
+): Record<string, unknown> {
+  if (!BUSINESS_METADATA_SECTIONS.has(sectionId)) return props
+  if (props.business && typeof props.business === 'object') return props
+  const business = siteContent.business
+  if (!business || typeof business !== 'object') return props
+  return { ...props, business }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "performance_tuning_shop",
+  "nameEs": "Tuning",
+  "nameEn": "Performance Shop",
+  "verticalId": "automotive",
+  "subVertical": "tuning-performance",
+  "extends": "automotive_base",
+  "tokens": "performance_tuning_shop",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Tuning en {{city}}",
+    "descriptionTemplate": "Tuning profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tuning {{city}}",
+      "performance shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tuning",
+    "subheadlineTemplate": "Tuning profesional en {{city}}."
+  }
+}

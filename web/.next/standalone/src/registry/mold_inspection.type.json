@@ -1,0 +1,22 @@
+{
+  "id": "mold_inspection",
+  "nameEs": "Inspector Moho",
+  "nameEn": "Mold Inspection",
+  "verticalId": "real-estate-relocation",
+  "subVertical": "appraisal-inspection",
+  "extends": "inmobiliaria",
+  "tokens": "mold_inspection",
+  "seo": {
+    "schemaType": "RealEstateAgent",
+    "titleTemplate": "{{businessName}} - Inspector Moho en {{city}}",
+    "descriptionTemplate": "Inspector Moho profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "inspector moho {{city}}",
+      "mold inspection {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Inspector Moho",
+    "subheadlineTemplate": "Inspector Moho profesional en {{city}}."
+  }
+}

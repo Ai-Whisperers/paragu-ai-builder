@@ -1,0 +1,22 @@
+{
+  "id": "retaining_wall_builder",
+  "nameEs": "Muros de Contencion",
+  "nameEn": "Retaining Wall",
+  "verticalId": "trades-home-services",
+  "subVertical": "landscaping",
+  "extends": "trades_base",
+  "tokens": "retaining_wall_builder",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Muros de Contencion en {{city}}",
+    "descriptionTemplate": "Muros de Contencion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "muros de contencion {{city}}",
+      "retaining wall {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Muros de Contencion",
+    "subheadlineTemplate": "Muros de Contencion profesional en {{city}}."
+  }
+}

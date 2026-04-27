@@ -1,0 +1,22 @@
+{
+  "id": "snowmobile_tour",
+  "nameEs": "Tour Motos Nieve",
+  "nameEn": "Snowmobile Tour",
+  "verticalId": "sports-recreation",
+  "subVertical": "winter-sports",
+  "extends": "sports_base",
+  "tokens": "snowmobile_tour",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Tour Motos Nieve en {{city}}",
+    "descriptionTemplate": "Tour Motos Nieve profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tour motos nieve {{city}}",
+      "snowmobile tour {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tour Motos Nieve",
+    "subheadlineTemplate": "Tour Motos Nieve profesional en {{city}}."
+  }
+}

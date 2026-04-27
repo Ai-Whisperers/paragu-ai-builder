@@ -1,0 +1,22 @@
+{
+  "id": "arepa_shop",
+  "nameEs": "Arepera",
+  "nameEn": "Arepa Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "quick-service",
+  "extends": "restaurant",
+  "tokens": "arepa_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Arepera en {{city}}",
+    "descriptionTemplate": "Arepera profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "arepera {{city}}",
+      "arepa shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Arepera",
+    "subheadlineTemplate": "Arepera profesional en {{city}}."
+  }
+}

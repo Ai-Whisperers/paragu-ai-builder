@@ -1,0 +1,28 @@
+{
+  "id": "veterinaria",
+  "nameEs": "Veterinaria",
+  "nameEn": "Veterinary Clinic",
+  "verticalId": "health-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "veterinaria",
+  "features": {
+    "onlineBooking": { "enabled": true, "method": "whatsapp" },
+    "serviceMenu": { "enabled": true, "showPrices": true, "filterable": true },
+    "emergencyIndicator": { "enabled": true, "available24h": true }
+  },
+  "serviceCategories": ["consultas", "vacunacion", "cirugia", "peluqueria_canina", "emergencias", "internacion"],
+  "seo": {
+    "schemaType": "VeterinaryCare",
+    "titleTemplate": "{{businessName}} - Veterinaria en {{city}}",
+    "descriptionTemplate": "Atencion veterinaria integral en {{city}}. Consultas, vacunas, cirugias y emergencias 24h.",
+    "keywords": ["veterinaria {{city}}", "veterinario {{city}}", "vacunas mascotas {{city}}", "emergencia veterinaria {{city}}"]
+  },
+  "nav": {
+    "items": ["Inicio", "Servicios", "Equipo", "Emergencias", "Contacto"],
+    "cta": { "text": "Agendar Turno", "action": "whatsapp" }
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cuidamos a tu mejor amigo",
+    "subheadlineTemplate": "Atencion veterinaria integral en {{city}} con emergencia 24 horas"
+  }
+}

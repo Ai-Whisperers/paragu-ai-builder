@@ -1,0 +1,25 @@
+{
+  "id": "exhibit_tradeshow_logistics",
+  "nameEs": "Logistica Ferias",
+  "nameEn": "Tradeshow Logistics",
+  "verticalId": "logistics-transport",
+  "subVertical": "moving-specialty",
+  "extends": "logistics_base",
+  "tokens": "exhibit_tradeshow_logistics",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Logistica Ferias en {{city}}",
+    "descriptionTemplate": "Logistica Ferias profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "logistica ferias {{city}}",
+      "tradeshow logistics {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Logistica Ferias",
+    "subheadlineTemplate": "Logistica Ferias profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

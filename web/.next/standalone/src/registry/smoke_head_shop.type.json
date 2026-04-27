@@ -1,0 +1,25 @@
+{
+  "id": "smoke_head_shop",
+  "nameEs": "Smoke Shop",
+  "nameEn": "Smoke Shop",
+  "verticalId": "retail-local",
+  "subVertical": "tobacco-vape",
+  "extends": "retail_base",
+  "tokens": "smoke_head_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Smoke Shop en {{city}}",
+    "descriptionTemplate": "Smoke Shop profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "smoke shop {{city}}",
+      "smoke shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Smoke Shop",
+    "subheadlineTemplate": "Smoke Shop profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

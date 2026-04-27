@@ -1,0 +1,25 @@
+{
+  "id": "fumigation_service",
+  "nameEs": "Fumigacion",
+  "nameEn": "Fumigation",
+  "verticalId": "trades-home-services",
+  "subVertical": "pest-control",
+  "extends": "trades_base",
+  "tokens": "fumigation_service",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Fumigacion en {{city}}",
+    "descriptionTemplate": "Fumigacion profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "fumigacion {{city}}",
+      "fumigation {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Fumigacion",
+    "subheadlineTemplate": "Fumigacion profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

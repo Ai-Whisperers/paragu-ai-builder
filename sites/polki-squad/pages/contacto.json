@@ -1,0 +1,36 @@
+{
+  "slug": "contacto",
+  "title": "Contacto - Polki Squad",
+  "description": "Contáctanos por WhatsApp, teléfono o redes sociales. Visítanos en Luque.",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "standard",
+      "title": "Contacto",
+      "subtitle": "Estamos aquí para ayudarte"
+    },
+    {
+      "id": "contact",
+      "variant": "full",
+      "content": "contact",
+      "title": "Información de Contacto",
+      "subtitle": "Escríbenos o visítanos"
+    },
+    {
+      "id": "google-maps",
+      "variant": "full-width",
+      "content": "contact.address",
+      "title": "Nuestra Ubicación",
+      "subtitle": "Benigno González, Luque"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "solid",
+      "content": "cta",
+      "title": "¿Prefieres WhatsApp?",
+      "subtitle": "Es nuestro canal más rápido",
+      "buttonText": "WhatsApp",
+      "buttonLink": "https://api.whatsapp.com/send?phone=+595971771371&text=Hola!%20quiero%20informacion%20sobre%20Polki%20Squad"
+    }
+  ]
+}

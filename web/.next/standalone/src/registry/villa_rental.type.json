@@ -1,0 +1,22 @@
+{
+  "id": "villa_rental",
+  "nameEs": "Alquiler de Villa",
+  "nameEn": "Villa Rental",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "short-term-rental",
+  "extends": "restaurant",
+  "tokens": "villa_rental",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler de Villa en {{city}}",
+    "descriptionTemplate": "Alquiler de Villa profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler de villa {{city}}",
+      "villa rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler de Villa",
+    "subheadlineTemplate": "Alquiler de Villa profesional en {{city}}."
+  }
+}

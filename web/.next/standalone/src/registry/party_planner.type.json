@@ -1,0 +1,22 @@
+{
+  "id": "party_planner",
+  "nameEs": "Organizador de Fiestas",
+  "nameEn": "Party Planner",
+  "verticalId": "service-booking",
+  "subVertical": "events-entertainment",
+  "extends": "gimnasio",
+  "tokens": "party_planner",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Organizador de Fiestas en {{city}}",
+    "descriptionTemplate": "Organizador de Fiestas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "organizador de fiestas {{city}}",
+      "party planner {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Organizador de Fiestas",
+    "subheadlineTemplate": "Organizador de Fiestas profesional en {{city}}."
+  }
+}

@@ -1819,10 +1819,7 @@
       ]
     }
   },
-  "whatsapp": {
-    "phone": "595982515138",
-    "message": "Hi, I would like to know more about Nexa Paraguay's programs."
-  },
+  "whatsapp": "595982515138",
   "resourcesPage": {
     "seo": {
       "title": "Resources — Nexa Paraguay",

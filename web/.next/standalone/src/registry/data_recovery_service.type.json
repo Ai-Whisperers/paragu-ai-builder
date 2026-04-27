@@ -1,0 +1,22 @@
+{
+  "id": "data_recovery_service",
+  "nameEs": "Recuperacion Datos",
+  "nameEn": "Data Recovery",
+  "verticalId": "technology-digital",
+  "subVertical": "repair-tech",
+  "extends": "technology_base",
+  "tokens": "data_recovery_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Recuperacion Datos en {{city}}",
+    "descriptionTemplate": "Recuperacion Datos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "recuperacion datos {{city}}",
+      "data recovery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Recuperacion Datos",
+    "subheadlineTemplate": "Recuperacion Datos profesional en {{city}}."
+  }
+}

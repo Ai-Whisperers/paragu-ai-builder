@@ -1,0 +1,22 @@
+{
+  "id": "junk_removal_service",
+  "nameEs": "Desechos",
+  "nameEn": "Junk Removal",
+  "verticalId": "trades-industrial",
+  "subVertical": "recycling-waste",
+  "extends": "industrial_base",
+  "tokens": "junk_removal_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Desechos en {{city}}",
+    "descriptionTemplate": "Desechos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "desechos {{city}}",
+      "junk removal {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Desechos",
+    "subheadlineTemplate": "Desechos profesional en {{city}}."
+  }
+}

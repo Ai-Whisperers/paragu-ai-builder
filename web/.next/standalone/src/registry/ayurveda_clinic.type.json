@@ -1,0 +1,22 @@
+{
+  "id": "ayurveda_clinic",
+  "nameEs": "Clinica de Ayurveda",
+  "nameEn": "Ayurveda Clinic",
+  "verticalId": "health-wellness",
+  "subVertical": "alternative-medicine",
+  "extends": "health_wellness_base",
+  "tokens": "ayurveda_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Clinica de Ayurveda en {{city}}",
+    "descriptionTemplate": "Clinica de Ayurveda profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clinica de ayurveda {{city}}",
+      "ayurveda clinic {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clinica de Ayurveda",
+    "subheadlineTemplate": "Clinica de Ayurveda profesional en {{city}}."
+  }
+}

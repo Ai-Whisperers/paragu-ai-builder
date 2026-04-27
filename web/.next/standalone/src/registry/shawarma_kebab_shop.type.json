@@ -1,0 +1,22 @@
+{
+  "id": "shawarma_kebab_shop",
+  "nameEs": "Shawarma",
+  "nameEn": "Shawarma Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "quick-service",
+  "extends": "restaurant",
+  "tokens": "shawarma_kebab_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Shawarma en {{city}}",
+    "descriptionTemplate": "Shawarma profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "shawarma {{city}}",
+      "shawarma shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Shawarma",
+    "subheadlineTemplate": "Shawarma profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ethiopian_restaurant",
+  "nameEs": "Restaurante Etiope",
+  "nameEn": "Ethiopian Restaurant",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "ethiopian_restaurant",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Restaurante Etiope en {{city}}",
+    "descriptionTemplate": "Restaurante Etiope profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "restaurante etiope {{city}}",
+      "ethiopian restaurant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Restaurante Etiope",
+    "subheadlineTemplate": "Restaurante Etiope profesional en {{city}}."
+  }
+}

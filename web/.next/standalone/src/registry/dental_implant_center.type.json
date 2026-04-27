@@ -1,0 +1,22 @@
+{
+  "id": "dental_implant_center",
+  "nameEs": "Centro de Implantes",
+  "nameEn": "Implant Center",
+  "verticalId": "health-wellness",
+  "subVertical": "dental",
+  "extends": "health_wellness_base",
+  "tokens": "dental_implant_center",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Centro de Implantes en {{city}}",
+    "descriptionTemplate": "Centro de Implantes profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "centro de implantes {{city}}",
+      "implant center {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Centro de Implantes",
+    "subheadlineTemplate": "Centro de Implantes profesional en {{city}}."
+  }
+}

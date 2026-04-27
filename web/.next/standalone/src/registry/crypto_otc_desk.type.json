@@ -1,0 +1,25 @@
+{
+  "id": "crypto_otc_desk",
+  "nameEs": "Mesa OTC Crypto",
+  "nameEn": "Crypto OTC",
+  "verticalId": "finance-insurance",
+  "subVertical": "crypto-local",
+  "extends": "finance_insurance_base",
+  "tokens": "crypto_otc_desk",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Mesa OTC Crypto en {{city}}",
+    "descriptionTemplate": "Mesa OTC Crypto profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mesa otc crypto {{city}}",
+      "crypto otc {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mesa OTC Crypto",
+    "subheadlineTemplate": "Mesa OTC Crypto profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "parenting_coach",
+  "nameEs": "Coach Parental",
+  "nameEn": "Parenting Coach",
+  "verticalId": "service-booking",
+  "subVertical": "coaching",
+  "extends": "gimnasio",
+  "tokens": "parenting_coach",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Coach Parental en {{city}}",
+    "descriptionTemplate": "Coach Parental profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "coach parental {{city}}",
+      "parenting coach {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Coach Parental",
+    "subheadlineTemplate": "Coach Parental profesional en {{city}}."
+  }
+}

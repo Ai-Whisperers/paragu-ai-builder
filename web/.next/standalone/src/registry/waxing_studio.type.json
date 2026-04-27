@@ -1,0 +1,22 @@
+{
+  "id": "waxing_studio",
+  "nameEs": "Centro de Depilacion con Cera",
+  "nameEn": "Waxing Studio",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "body-hair-removal",
+  "extends": "beauty_base",
+  "tokens": "waxing_studio",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Centro de Depilacion con Cera en {{city}}",
+    "descriptionTemplate": "Centro de Depilacion con Cera profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "centro de depilacion con cera {{city}}",
+      "waxing studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Centro de Depilacion con Cera",
+    "subheadlineTemplate": "Centro de Depilacion con Cera profesional en {{city}}."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "automotive_locksmith",
+  "nameEs": "Cerrajero Automotriz",
+  "nameEn": "Auto Locksmith",
+  "verticalId": "trades-home-services",
+  "subVertical": "locksmith-security",
+  "extends": "trades_base",
+  "tokens": "automotive_locksmith",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Cerrajero Automotriz en {{city}}",
+    "descriptionTemplate": "Cerrajero Automotriz profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cerrajero automotriz {{city}}",
+      "auto locksmith {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cerrajero Automotriz",
+    "subheadlineTemplate": "Cerrajero Automotriz profesional en {{city}}."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "diseno_web",
+  "nameEs": "Diseño Web",
+  "nameEn": "Web Design",
+  "verticalId": "portfolio-professional",
+  "extends": "diseno_grafico",
+  "tokens": "diseno_web",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Diseño Web en {{city}}",
+    "descriptionTemplate": "Diseño web responsive, optimizado para mobile y Google, con foco en conversion.",
+    "keywords": [
+      "diseño web {{city}}",
+      "pagina web {{city}}",
+      "desarrollo web {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sitios web que convierten",
+    "subheadlineTemplate": "Diseño web responsive, optimizado para mobile y Google, con foco en conversion."
+  },
+  "serviceCategories": [
+    "landing",
+    "corporativas",
+    "ecommerce"
+  ]
+}

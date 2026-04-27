@@ -1,0 +1,22 @@
+{
+  "id": "rv_motorhome_rental",
+  "nameEs": "Alquiler Motorhome",
+  "nameEn": "RV Rental",
+  "verticalId": "automotive",
+  "subVertical": "rental",
+  "extends": "automotive_base",
+  "tokens": "rv_motorhome_rental",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Alquiler Motorhome en {{city}}",
+    "descriptionTemplate": "Alquiler Motorhome profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "alquiler motorhome {{city}}",
+      "rv rental {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Alquiler Motorhome",
+    "subheadlineTemplate": "Alquiler Motorhome profesional en {{city}}."
+  }
+}

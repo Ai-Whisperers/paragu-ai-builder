@@ -1,0 +1,22 @@
+{
+  "id": "skate_shop",
+  "nameEs": "Tienda Skate",
+  "nameEn": "Skate Shop",
+  "verticalId": "retail-local",
+  "subVertical": "sporting-goods",
+  "extends": "retail_base",
+  "tokens": "skate_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Tienda Skate en {{city}}",
+    "descriptionTemplate": "Tienda Skate profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tienda skate {{city}}",
+      "skate shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tienda Skate",
+    "subheadlineTemplate": "Tienda Skate profesional en {{city}}."
+  }
+}

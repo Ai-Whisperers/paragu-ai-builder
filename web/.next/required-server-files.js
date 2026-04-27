@@ -350,6 +350,14 @@ self.__SERVER_FILES_MANIFEST={
         "react-icons/vsc",
         "react-icons/wi"
       ],
+      "outputFileTracingExcludes": {
+        "*": [
+          "node_modules/@swc/core-linux-x64-gnu/**",
+          "node_modules/@next/swc-linux-x64-gnu/**",
+          "node_modules/caniuse-lite/**",
+          "node_modules/typescript/**"
+        ]
+      },
       "trustHostHeader": false,
       "isExperimentalCompile": false
     },
@@ -358,6 +366,14 @@ self.__SERVER_FILES_MANIFEST={
     "configFileName": "next.config.mjs",
     "turbopack": {
       "root": "/home/ai-whisperers/paragu-ai-builder"
+    },
+    "outputFileTracingExcludes": {
+      "*": [
+        "node_modules/@swc/core-linux-x64-gnu/**",
+        "node_modules/@next/swc-linux-x64-gnu/**",
+        "node_modules/caniuse-lite/**",
+        "node_modules/typescript/**"
+      ]
     },
     "distDirRoot": ".next",
     "_originalRedirects": [

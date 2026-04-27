@@ -1,0 +1,25 @@
+{
+  "id": "bingo_hall",
+  "nameEs": "Bingo",
+  "nameEn": "Bingo Hall",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "casino-gambling",
+  "extends": "entertainment_base",
+  "tokens": "bingo_hall",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Bingo en {{city}}",
+    "descriptionTemplate": "Bingo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "bingo {{city}}",
+      "bingo hall {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Bingo",
+    "subheadlineTemplate": "Bingo profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

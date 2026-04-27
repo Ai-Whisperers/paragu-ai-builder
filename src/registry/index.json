@@ -229,6 +229,17 @@
       "categories": ["accountant", "tax_advisor", "auditor", "payroll"],
       "sections": ["hero", "services", "pricing", "process", "team", "testimonials", "faq", "leadForm", "contact"]
     },
+    "animal_rescue_nonprofit": {
+      "id": "animal_rescue_nonprofit",
+      "nameEs": "Rescate Animal",
+      "nameEn": "Animal Rescue",
+      "icon": "heart",
+      "tokens": "animal_rescue_nonprofit",
+      "content": "polki-squad",
+      "schema": "animal_rescue_nonprofit",
+      "categories": ["animal_rescue", "shelter", "non_profit"],
+      "sections": ["hero", "services", "gallery", "process", "testimonials", "pricing-table", "cta-banner", "newsletter-signup", "team", "faq", "contact", "google-maps", "footer", "whatsapp-float", "instagram-feed"]
+    },
     "educacion": {
       "id": "educacion",
       "nameEs": "Educacion",

@@ -1,0 +1,22 @@
+{
+  "id": "livestream_service",
+  "nameEs": "Produccion Streaming",
+  "nameEn": "Livestream Production",
+  "verticalId": "portfolio-professional",
+  "subVertical": "videography-film",
+  "extends": "diseno_grafico",
+  "tokens": "livestream_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Produccion Streaming en {{city}}",
+    "descriptionTemplate": "Produccion Streaming profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "produccion streaming {{city}}",
+      "livestream production {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Produccion Streaming",
+    "subheadlineTemplate": "Produccion Streaming profesional en {{city}}."
+  }
+}

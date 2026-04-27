@@ -1,0 +1,22 @@
+{
+  "id": "hearing_aid_store",
+  "nameEs": "Audifonos",
+  "nameEn": "Hearing Aid Store",
+  "verticalId": "health-wellness",
+  "subVertical": "vision-hearing",
+  "extends": "health_wellness_base",
+  "tokens": "hearing_aid_store",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Audifonos en {{city}}",
+    "descriptionTemplate": "Audifonos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "audifonos {{city}}",
+      "hearing aid store {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Audifonos",
+    "subheadlineTemplate": "Audifonos profesional en {{city}}."
+  }
+}

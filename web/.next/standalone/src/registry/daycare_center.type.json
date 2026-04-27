@@ -1,0 +1,22 @@
+{
+  "id": "daycare_center",
+  "nameEs": "Guarderia",
+  "nameEn": "Daycare Center",
+  "verticalId": "education-training",
+  "subVertical": "early-childhood",
+  "extends": "educacion",
+  "tokens": "daycare_center",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Guarderia en {{city}}",
+    "descriptionTemplate": "Guarderia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "guarderia {{city}}",
+      "daycare center {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Guarderia",
+    "subheadlineTemplate": "Guarderia profesional en {{city}}."
+  }
+}

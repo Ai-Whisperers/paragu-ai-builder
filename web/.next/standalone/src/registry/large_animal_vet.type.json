@@ -1,0 +1,22 @@
+{
+  "id": "large_animal_vet",
+  "nameEs": "Veterinaria de Campo",
+  "nameEn": "Large Animal Vet",
+  "verticalId": "health-wellness",
+  "subVertical": "veterinary",
+  "extends": "health_wellness_base",
+  "tokens": "large_animal_vet",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Veterinaria de Campo en {{city}}",
+    "descriptionTemplate": "Veterinaria de Campo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "veterinaria de campo {{city}}",
+      "large animal vet {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Veterinaria de Campo",
+    "subheadlineTemplate": "Veterinaria de Campo profesional en {{city}}."
+  }
+}

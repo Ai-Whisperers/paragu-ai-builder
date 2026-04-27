@@ -1,0 +1,22 @@
+{
+  "id": "handbag_leather_shop",
+  "nameEs": "Marroquineria",
+  "nameEn": "Handbag Shop",
+  "verticalId": "retail-local",
+  "subVertical": "apparel-fashion",
+  "extends": "retail_base",
+  "tokens": "handbag_leather_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Marroquineria en {{city}}",
+    "descriptionTemplate": "Marroquineria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "marroquineria {{city}}",
+      "handbag shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Marroquineria",
+    "subheadlineTemplate": "Marroquineria profesional en {{city}}."
+  }
+}

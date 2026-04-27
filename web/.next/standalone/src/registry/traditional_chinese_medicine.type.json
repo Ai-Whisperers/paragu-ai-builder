@@ -1,0 +1,22 @@
+{
+  "id": "traditional_chinese_medicine",
+  "nameEs": "Medicina China",
+  "nameEn": "Chinese Medicine",
+  "verticalId": "health-wellness",
+  "subVertical": "alternative-medicine",
+  "extends": "health_wellness_base",
+  "tokens": "traditional_chinese_medicine",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Medicina China en {{city}}",
+    "descriptionTemplate": "Medicina China profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "medicina china {{city}}",
+      "chinese medicine {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Medicina China",
+    "subheadlineTemplate": "Medicina China profesional en {{city}}."
+  }
+}

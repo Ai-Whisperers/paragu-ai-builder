@@ -1814,10 +1814,7 @@
       ]
     }
   },
-  "whatsapp": {
-    "phone": "595982515138",
-    "message": "Hallo, ik wil meer weten over de programma's van Nexa Paraguay."
-  },
+  "whatsapp": "595982515138",
   "resourcesPage": {
     "seo": {
       "title": "Bronnen — Nexa Paraguay",

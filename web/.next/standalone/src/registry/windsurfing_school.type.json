@@ -1,0 +1,22 @@
+{
+  "id": "windsurfing_school",
+  "nameEs": "Escuela Windsurf",
+  "nameEn": "Windsurfing School",
+  "verticalId": "sports-recreation",
+  "subVertical": "water-sports",
+  "extends": "sports_base",
+  "tokens": "windsurfing_school",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Escuela Windsurf en {{city}}",
+    "descriptionTemplate": "Escuela Windsurf profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela windsurf {{city}}",
+      "windsurfing school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela Windsurf",
+    "subheadlineTemplate": "Escuela Windsurf profesional en {{city}}."
+  }
+}

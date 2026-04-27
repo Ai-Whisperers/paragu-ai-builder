@@ -1,0 +1,22 @@
+{
+  "id": "yarn_knitting_shop",
+  "nameEs": "Lana y Tejido",
+  "nameEn": "Yarn Shop",
+  "verticalId": "retail-local",
+  "subVertical": "bookstore-hobby",
+  "extends": "retail_base",
+  "tokens": "yarn_knitting_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Lana y Tejido en {{city}}",
+    "descriptionTemplate": "Lana y Tejido profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lana y tejido {{city}}",
+      "yarn shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lana y Tejido",
+    "subheadlineTemplate": "Lana y Tejido profesional en {{city}}."
+  }
+}

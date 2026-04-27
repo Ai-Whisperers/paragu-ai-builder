@@ -1,0 +1,25 @@
+{
+  "id": "industrial_equipment_dealer",
+  "nameEs": "Distribuidor Equipos",
+  "nameEn": "Equipment Dealer",
+  "verticalId": "trades-industrial",
+  "subVertical": "industrial-equipment",
+  "extends": "industrial_base",
+  "tokens": "industrial_equipment_dealer",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Distribuidor Equipos en {{city}}",
+    "descriptionTemplate": "Distribuidor Equipos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "distribuidor equipos {{city}}",
+      "equipment dealer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Distribuidor Equipos",
+    "subheadlineTemplate": "Distribuidor Equipos profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

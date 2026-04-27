@@ -1,0 +1,21 @@
+{
+  "id": "desarrollo_software_empresa",
+  "nameEs": "Software House",
+  "nameEn": "Software Agency",
+  "verticalId": "b2b-professional",
+  "extends": "professional_services_base",
+  "tokens": "desarrollo_software_empresa",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Software House en {{city}}",
+    "descriptionTemplate": "Desarrollo corporativo: sistemas internos, integraciones, automatizacion.",
+    "keywords": [
+      "software house {{city}}",
+      "desarrollo empresa {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Software a medida para tu empresa",
+    "subheadlineTemplate": "Desarrollo corporativo: sistemas internos, integraciones, automatizacion."
+  }
+}

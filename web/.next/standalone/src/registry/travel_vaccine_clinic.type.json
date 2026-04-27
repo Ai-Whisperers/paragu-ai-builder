@@ -1,0 +1,22 @@
+{
+  "id": "travel_vaccine_clinic",
+  "nameEs": "Clinica del Viajero",
+  "nameEn": "Travel Clinic",
+  "verticalId": "health-wellness",
+  "subVertical": "primary-care",
+  "extends": "health_wellness_base",
+  "tokens": "travel_vaccine_clinic",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Clinica del Viajero en {{city}}",
+    "descriptionTemplate": "Clinica del Viajero profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "clinica del viajero {{city}}",
+      "travel clinic {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Clinica del Viajero",
+    "subheadlineTemplate": "Clinica del Viajero profesional en {{city}}."
+  }
+}

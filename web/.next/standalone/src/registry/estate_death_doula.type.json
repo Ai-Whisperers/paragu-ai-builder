@@ -1,0 +1,22 @@
+{
+  "id": "estate_death_doula",
+  "nameEs": "Doula Muerte",
+  "nameEn": "Death Doula",
+  "verticalId": "death-care",
+  "subVertical": "pre-planning",
+  "extends": "death_care_base",
+  "tokens": "estate_death_doula",
+  "seo": {
+    "schemaType": "FuneralHome",
+    "titleTemplate": "{{businessName}} - Doula Muerte en {{city}}",
+    "descriptionTemplate": "Doula Muerte profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "doula muerte {{city}}",
+      "death doula {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Doula Muerte",
+    "subheadlineTemplate": "Doula Muerte profesional en {{city}}."
+  }
+}

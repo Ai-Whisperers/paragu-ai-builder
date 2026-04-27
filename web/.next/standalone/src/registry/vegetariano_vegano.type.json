@@ -1,0 +1,21 @@
+{
+  "id": "vegetariano_vegano",
+  "nameEs": "Vegetariano / Vegano",
+  "nameEn": "Vegetarian / Vegan",
+  "verticalId": "food-beverage",
+  "extends": "restaurant",
+  "tokens": "vegetariano_vegano",
+  "seo": {
+    "schemaType": "Restaurant",
+    "titleTemplate": "{{businessName}} - Vegetariano / Vegano en {{city}}",
+    "descriptionTemplate": "Platos vegetarianos y veganos hechos con productos de estacion.",
+    "keywords": [
+      "restaurante vegano {{city}}",
+      "comida vegetariana {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cocina sin carne, sin renunciar al sabor",
+    "subheadlineTemplate": "Platos vegetarianos y veganos hechos con productos de estacion."
+  }
+}

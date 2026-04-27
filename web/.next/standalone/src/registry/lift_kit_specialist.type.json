@@ -1,0 +1,22 @@
+{
+  "id": "lift_kit_specialist",
+  "nameEs": "Elevadores",
+  "nameEn": "Lift Kit Specialist",
+  "verticalId": "automotive",
+  "subVertical": "specialty-service",
+  "extends": "automotive_base",
+  "tokens": "lift_kit_specialist",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Elevadores en {{city}}",
+    "descriptionTemplate": "Elevadores profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "elevadores {{city}}",
+      "lift kit specialist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Elevadores",
+    "subheadlineTemplate": "Elevadores profesional en {{city}}."
+  }
+}

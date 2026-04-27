@@ -1,0 +1,22 @@
+{
+  "id": "endodontist",
+  "nameEs": "Endodoncista",
+  "nameEn": "Endodontist",
+  "verticalId": "health-wellness",
+  "subVertical": "dental",
+  "extends": "health_wellness_base",
+  "tokens": "endodontist",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Endodoncista en {{city}}",
+    "descriptionTemplate": "Endodoncista profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "endodoncista {{city}}",
+      "endodontist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Endodoncista",
+    "subheadlineTemplate": "Endodoncista profesional en {{city}}."
+  }
+}

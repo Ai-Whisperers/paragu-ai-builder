@@ -1,0 +1,22 @@
+{
+  "id": "health_advocacy_nonprofit",
+  "nameEs": "ONG Salud",
+  "nameEn": "Health Nonprofit",
+  "verticalId": "membership-community",
+  "subVertical": "nonprofit-charity",
+  "extends": "membership_base",
+  "tokens": "health_advocacy_nonprofit",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - ONG Salud en {{city}}",
+    "descriptionTemplate": "ONG Salud profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ong salud {{city}}",
+      "health nonprofit {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - ONG Salud",
+    "subheadlineTemplate": "ONG Salud profesional en {{city}}."
+  }
+}

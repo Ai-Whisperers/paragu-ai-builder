@@ -1,0 +1,3 @@
+{
+  "/api/cron/commerce-merchant-digest/route": "app/api/cron/commerce-merchant-digest/route.js"
+}

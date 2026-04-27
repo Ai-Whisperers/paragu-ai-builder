@@ -1,0 +1,22 @@
+{
+  "id": "beauty_supply_store",
+  "nameEs": "Insumos de Belleza",
+  "nameEn": "Beauty Supply Store",
+  "verticalId": "beauty-personal-care",
+  "subVertical": "beauty-retail",
+  "extends": "beauty_base",
+  "tokens": "beauty_supply_store",
+  "seo": {
+    "schemaType": "BeautySalon",
+    "titleTemplate": "{{businessName}} - Insumos de Belleza en {{city}}",
+    "descriptionTemplate": "Insumos de Belleza profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "insumos de belleza {{city}}",
+      "beauty supply store {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Insumos de Belleza",
+    "subheadlineTemplate": "Insumos de Belleza profesional en {{city}}."
+  }
+}

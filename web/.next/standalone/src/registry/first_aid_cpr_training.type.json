@@ -1,0 +1,22 @@
+{
+  "id": "first_aid_cpr_training",
+  "nameEs": "Capacitacion RCP",
+  "nameEn": "CPR Training",
+  "verticalId": "education-training",
+  "subVertical": "corporate-training",
+  "extends": "educacion",
+  "tokens": "first_aid_cpr_training",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Capacitacion RCP en {{city}}",
+    "descriptionTemplate": "Capacitacion RCP profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "capacitacion rcp {{city}}",
+      "cpr training {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Capacitacion RCP",
+    "subheadlineTemplate": "Capacitacion RCP profesional en {{city}}."
+  }
+}

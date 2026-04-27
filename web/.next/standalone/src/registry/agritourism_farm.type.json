@@ -1,0 +1,22 @@
+{
+  "id": "agritourism_farm",
+  "nameEs": "Agroturismo",
+  "nameEn": "Agritourism",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "csa-direct",
+  "extends": "agriculture_base",
+  "tokens": "agritourism_farm",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Agroturismo en {{city}}",
+    "descriptionTemplate": "Agroturismo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "agroturismo {{city}}",
+      "agritourism {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Agroturismo",
+    "subheadlineTemplate": "Agroturismo profesional en {{city}}."
+  }
+}

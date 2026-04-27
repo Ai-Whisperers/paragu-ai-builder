@@ -1,0 +1,25 @@
+{
+  "id": "dairy_processor",
+  "nameEs": "Lacteos",
+  "nameEn": "Dairy Processor",
+  "verticalId": "trades-industrial",
+  "subVertical": "food-processing",
+  "extends": "industrial_base",
+  "tokens": "dairy_processor",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Lacteos en {{city}}",
+    "descriptionTemplate": "Lacteos profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lacteos {{city}}",
+      "dairy processor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lacteos",
+    "subheadlineTemplate": "Lacteos profesional en {{city}}."
+  },
+  "flags": [
+    "B2B regulated"
+  ]
+}

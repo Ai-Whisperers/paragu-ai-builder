@@ -20,7 +20,7 @@ import { CalcIvaSection } from '@/components/sections/calculators/calc-iva-secti
 import { CalcIreSection } from '@/components/sections/calculators/calc-ire-section'
 import { CalcIpsSection } from '@/components/sections/calculators/calc-ips-section'
 import { CalcCostoEmpleadoSection } from '@/components/sections/calculators/calc-costo-empleado-section'
-import { IntakeWizardSection } from '@/components/sections/forms/intake-wizard-section'
+import { recommendTier } from '@/components/sections/forms/intake-wizard-section'
 import { MattressQuizSection } from '@/components/sections/specialty/mattress-quiz-section'
 import { GallerySection } from '@/components/sections/media/gallery-section'
 import { IllustrationSection } from '@/components/sections/media/illustration-section'
@@ -105,11 +105,11 @@ import { PriceListGenerator } from '@/components/sections/specialty/price-list-s
 import { RecipeSection } from '@/components/sections/specialty/recipe-section'
 import { ReferralProgram } from '@/components/sections/specialty/referral-section'
 import { RelatedPostsSection } from '@/components/sections/specialty/related-posts-section'
-import { ReviewCard } from '@/components/sections/social/review-card'
+import { ReviewsSection } from '@/components/sections/social/reviews-section'
 import { ServiceAreaMapZonesSection } from '@/components/sections/specialty/service-area-map-zones-section'
 import { SmartWhatsAppButton } from '@/components/sections/navigation/smart-whatsapp-section'
 import { StockIndicator } from '@/components/sections/specialty/stock-indicator-section'
-import { SubscriptionForm } from '@/components/sections/forms/subscription-form'
+import { SubscriptionSection } from '@/components/sections/forms/subscription-section'
 import { SuccessStories } from '@/components/sections/specialty/success-stories'
 import { FeaturedMenuSection } from '@/components/sections/navigation/sushi-menu-sections'
 import { TestimonialVideoSection } from '@/components/sections/social/testimonial-video-section'
@@ -134,7 +134,7 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'calc-ire': CalcIreSection,
   'calc-ips': CalcIpsSection,
   'calc-costo-empleado': CalcCostoEmpleadoSection,
-  'intake-wizard': IntakeWizardSection,
+  'intake-wizard': recommendTier,
   'mattress-quiz': MattressQuizSection,
   gallery: GallerySection,
   illustration: IllustrationSection,
@@ -219,11 +219,11 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   recipe: RecipeSection,
   referral: ReferralProgram,
   'related-posts': RelatedPostsSection,
-  reviews: ReviewCard,
+  reviews: ReviewsSection,
   'service-area-map-zones': ServiceAreaMapZonesSection,
   'smart-whatsapp': SmartWhatsAppButton,
   'stock-indicator': StockIndicator,
-  subscription: SubscriptionForm,
+  subscription: SubscriptionSection,
   'success-stories': SuccessStories,
   'sushi-menu-sections': FeaturedMenuSection,
   'testimonial-video': TestimonialVideoSection,

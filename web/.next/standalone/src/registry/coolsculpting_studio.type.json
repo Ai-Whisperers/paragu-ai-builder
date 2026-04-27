@@ -1,0 +1,22 @@
+{
+  "id": "coolsculpting_studio",
+  "nameEs": "CoolSculpting",
+  "nameEn": "CoolSculpting",
+  "verticalId": "health-wellness",
+  "subVertical": "medical-aesthetics",
+  "extends": "health_wellness_base",
+  "tokens": "coolsculpting_studio",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - CoolSculpting en {{city}}",
+    "descriptionTemplate": "CoolSculpting profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "coolsculpting {{city}}",
+      "coolsculpting {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - CoolSculpting",
+    "subheadlineTemplate": "CoolSculpting profesional en {{city}}."
+  }
+}

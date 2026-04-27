@@ -1,0 +1,22 @@
+{
+  "id": "scatter_memorial_service",
+  "nameEs": "Servicio Esparcimiento",
+  "nameEn": "Scatter Service",
+  "verticalId": "death-care",
+  "subVertical": "cremation",
+  "extends": "death_care_base",
+  "tokens": "scatter_memorial_service",
+  "seo": {
+    "schemaType": "FuneralHome",
+    "titleTemplate": "{{businessName}} - Servicio Esparcimiento en {{city}}",
+    "descriptionTemplate": "Servicio Esparcimiento profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "servicio esparcimiento {{city}}",
+      "scatter service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Servicio Esparcimiento",
+    "subheadlineTemplate": "Servicio Esparcimiento profesional en {{city}}."
+  }
+}

@@ -5,13 +5,13 @@
     "lastReviewed": "2026-04-21",
     "notes": "Content ported from vete/web/.content_data/fun4me/. Original source: home.json, about.json, testimonials.json, faq.json, config.json. Placeholders flagged in site.json.placeholderFields. Awaiting owner confirmation.",
     "placeholders": [
-      "home.partners.logos use placeholder SVGs \u2014 replace with real Satisfyer/LELO/We-Vibe logos",
-      "about.team empty \u2014 decide whether to publish team or keep anonymous for privacy",
-      "location.googleMapsId is ChIJxxxxxxxxxx \u2014 needs real Google Place ID for Herrera 875"
+      "home.partners.logos use placeholder SVGs — replace with real Satisfyer/LELO/We-Vibe logos",
+      "about.team empty — decide whether to publish team or keep anonymous for privacy",
+      "location.googleMapsId is ChIJxxxxxxxxxx — needs real Google Place ID for Herrera 875"
     ]
   },
   "siteName": "Fun4Me",
-  "tagline": "Tu tienda de placer \u2014 envio discreto a todo Paraguay",
+  "tagline": "Tu tienda de placer — envio discreto a todo Paraguay",
   "placeholders": {
     "businessName": "Fun4Me",
     "city": "Asuncion",
@@ -46,7 +46,7 @@
         "href": "/fun4me/blog"
       },
       {
-        "label": "Regal\u00e1",
+        "label": "Regalá",
         "href": "/fun4me/gift-cards"
       },
       {
@@ -64,12 +64,12 @@
   },
   "home": {
     "seo": {
-      "title": "Fun4Me \u2014 Sex Shop Online en Paraguay | Envio Discreto",
+      "title": "Fun4Me — Sex Shop Online en Paraguay | Envio Discreto",
       "description": "Juguetes para adultos, lenceria, accesorios y mas. Compra online con envio discreto a todo Paraguay. Tienda fisica en Asuncion. Solo mayores de 18."
     },
     "ageGate": {
       "title": "Verificacion de Edad",
-      "message": "Este sitio contiene contenido para adultos. Ten\u00e9s que ser mayor de 18 a\u00f1os para continuar.",
+      "message": "Este sitio contiene contenido para adultos. Tenés que ser mayor de 18 años para continuar.",
       "confirmText": "Soy mayor de 18",
       "denyText": "Salir",
       "denyHref": "https://google.com"
@@ -85,11 +85,11 @@
       "trustBadges": [
         "Delivery 48 h",
         "Empaque discreto",
-        "Env\u00edo nacional"
+        "Envío nacional"
       ],
       "disclaimerBanner": {
-        "title": "\u26a0\ufe0f Sitio en Modo Beta",
-        "description": "Fun4Me est\u00e1 actualmente en modo beta con algunas caracter\u00edsticas que utilizan datos temporales.",
+        "title": "⚠️ Sitio en Modo Beta",
+        "description": "Fun4Me está actualmente en modo beta con algunas características que utilizan datos temporales.",
         "buttonText": "Contactar por WhatsApp",
         "buttonLink": "https://wa.me/595976569739",
         "cssClasses": "bg-amber-100 border-l-2 border-amber-500 p-4 text-center",
@@ -111,22 +111,22 @@
           "text": "Empaque Discreto"
         }
       ],
-      "title": "Por qu\u00e9 comprar ac\u00e1"
+      "title": "Por qué comprar acá"
     },
     "features": {
-      "title": "Por qu\u00e9 elegir Fun4Me",
+      "title": "Por qué elegir Fun4Me",
       "items": [
         {
-          "title": "Env\u00edo discreto",
-          "description": "Paquete sellado sin identificaci\u00f3n del contenido."
+          "title": "Envío discreto",
+          "description": "Paquete sellado sin identificación del contenido."
         },
         {
           "title": "Pago seguro",
-          "description": "Todos los m\u00e9todos de pago con cifrado."
+          "description": "Todos los métodos de pago con cifrado."
         },
         {
-          "title": "Entrega r\u00e1pida",
-          "description": "En 24-48hs en Asunci\u00f3n y \u00e1rea metropolitana."
+          "title": "Entrega rápida",
+          "description": "En 24-48hs en Asunción y área metropolitana."
         }
       ]
     },
@@ -137,7 +137,7 @@
     },
     "categories": {
       "title": "Categorias Destacadas",
-      "subtitle": "Todo lo que necesit\u00e1s para disfrutar",
+      "subtitle": "Todo lo que necesitás para disfrutar",
       "items": [
         {
           "id": "vibradores",
@@ -157,7 +157,7 @@
           "id": "anal",
           "name": "Juguetes Anales",
           "icon": "arrow-uturn-down",
-          "description": "Explor\u00e1 nuevos territorios de placer",
+          "description": "Explorá nuevos territorios de placer",
           "href": "/fun4me/tienda/categoria/anal"
         },
         {
@@ -289,7 +289,7 @@
     },
     "enhancedFaq": {
       "title": "Preguntas frecuentes",
-      "subtitle": "Busc\u00e1 por palabra clave o filtr\u00e1 por tema. Si no encontr\u00e1s lo que busc\u00e1s, escribinos por WhatsApp.",
+      "subtitle": "Buscá por palabra clave o filtrá por tema. Si no encontrás lo que buscás, escribinos por WhatsApp.",
       "business": {
         "name": "Fun4Me",
         "whatsapp": "+595976569739",
@@ -297,84 +297,84 @@
       },
       "items": [
         {
-          "question": "\u00bfEl env\u00edo es realmente discreto?",
-          "answer": "100% discreto. El paquete no tiene logos, nombres ni ninguna indicaci\u00f3n del contenido. Nadie sabr\u00e1 qu\u00e9 hay dentro excepto vos.",
+          "question": "¿El envío es realmente discreto?",
+          "answer": "100% discreto. El paquete no tiene logos, nombres ni ninguna indicación del contenido. Nadie sabrá qué hay dentro excepto vos.",
           "category": "Privacidad"
         },
         {
-          "question": "\u00bfQu\u00e9 aparece en mi estado de cuenta?",
-          "answer": "El cargo aparece como 'F4M COMERCIAL' \u2014 sin referencias expl\u00edcitas al tipo de productos. Pod\u00e9s pedir tambi\u00e9n facturaci\u00f3n a otro nombre comercial si lo prefer\u00eds.",
+          "question": "¿Qué aparece en mi estado de cuenta?",
+          "answer": "El cargo aparece como 'F4M COMERCIAL' — sin referencias explícitas al tipo de productos. Podés pedir también facturación a otro nombre comercial si lo preferís.",
           "category": "Privacidad"
         },
         {
-          "question": "\u00bfPueden usar un nombre distinto al m\u00edo para el env\u00edo?",
-          "answer": "S\u00ed. En el checkout pod\u00e9s ingresar cualquier nombre para el destinatario. Solo necesitamos un documento v\u00e1lido al momento de la entrega.",
+          "question": "¿Pueden usar un nombre distinto al mío para el envío?",
+          "answer": "Sí. En el checkout podés ingresar cualquier nombre para el destinatario. Solo necesitamos un documento válido al momento de la entrega.",
           "category": "Privacidad"
         },
         {
-          "question": "\u00bfQu\u00e9 formas de pago aceptan?",
-          "answer": "Tarjetas de cr\u00e9dito/d\u00e9bito (Visa, Mastercard), transferencia bancaria, billeteras electr\u00f3nicas (Tigo Money, Personal Pay), y efectivo contra entrega en Asunci\u00f3n.",
+          "question": "¿Qué formas de pago aceptan?",
+          "answer": "Tarjetas de crédito/débito (Visa, Mastercard), transferencia bancaria, billeteras electrónicas (Tigo Money, Personal Pay), y efectivo contra entrega en Asunción.",
           "category": "Pagos"
         },
         {
-          "question": "\u00bfTienen env\u00edo gratis?",
-          "answer": "S\u00ed, el env\u00edo es gratis en compras mayores a Gs. 200.000 a todo el pa\u00eds.",
+          "question": "¿Tienen envío gratis?",
+          "answer": "Sí, el envío es gratis en compras mayores a Gs. 200.000 a todo el país.",
           "category": "Pagos"
         },
         {
-          "question": "\u00bfCu\u00e1nto tarda el env\u00edo?",
-          "answer": "Asunci\u00f3n: 24-48 horas. Gran Asunci\u00f3n: 48-72 horas. Interior: 3-5 d\u00edas h\u00e1biles. Env\u00edo express disponible con entrega el mismo d\u00eda en Asunci\u00f3n (si ped\u00eds antes de las 15:00, Gs. 50.000 extra).",
-          "category": "Env\u00edo"
+          "question": "¿Cuánto tarda el envío?",
+          "answer": "Asunción: 24-48 horas. Gran Asunción: 48-72 horas. Interior: 3-5 días hábiles. Envío express disponible con entrega el mismo día en Asunción (si pedís antes de las 15:00, Gs. 50.000 extra).",
+          "category": "Envío"
         },
         {
-          "question": "\u00bfA qu\u00e9 ciudades env\u00edan?",
-          "answer": "Enviamos a todo Paraguay. Gran Asunci\u00f3n (Asunci\u00f3n, Fernando de la Mora, San Lorenzo, Lambar\u00e9, Luque) en 24-72 h. Interior v\u00eda encomienda rastreable. Consult\u00e1 por WhatsApp para tiempos espec\u00edficos.",
-          "category": "Env\u00edo"
+          "question": "¿A qué ciudades envían?",
+          "answer": "Enviamos a todo Paraguay. Gran Asunción (Asunción, Fernando de la Mora, San Lorenzo, Lambaré, Luque) en 24-72 h. Interior vía encomienda rastreable. Consultá por WhatsApp para tiempos específicos.",
+          "category": "Envío"
         },
         {
-          "question": "\u00bfPuedo retirar en la tienda f\u00edsica en vez de esperar env\u00edo?",
-          "answer": "S\u00ed. Eleg\u00ed 'retiro en tienda' en el checkout y te esperamos en Herrera 875, Asunci\u00f3n. Lunes a viernes 09:00-20:00, s\u00e1bados 09:00-18:00.",
-          "category": "Env\u00edo"
+          "question": "¿Puedo retirar en la tienda física en vez de esperar envío?",
+          "answer": "Sí. Elegí 'retiro en tienda' en el checkout y te esperamos en Herrera 875, Asunción. Lunes a viernes 09:00-20:00, sábados 09:00-18:00.",
+          "category": "Envío"
         },
         {
-          "question": "\u00bfQu\u00e9 hago si nadie est\u00e1 cuando llegue el pedido?",
-          "answer": "El moto te avisa por WhatsApp antes de llegar. Si no pod\u00e9s recibirlo, coordinamos una segunda entrega sin costo o retiro en la tienda.",
-          "category": "Env\u00edo"
+          "question": "¿Qué hago si nadie está cuando llegue el pedido?",
+          "answer": "El moto te avisa por WhatsApp antes de llegar. Si no podés recibirlo, coordinamos una segunda entrega sin costo o retiro en la tienda.",
+          "category": "Envío"
         },
         {
-          "question": "\u00bfPuedo devolver un producto?",
-          "answer": "Por razones de higiene, no aceptamos devoluciones de productos \u00edntimos una vez abiertos. Si el producto llega defectuoso o da\u00f1ado, lo reemplazamos sin costo. Lencer\u00eda sin usar con etiquetas puede devolverse en 7 d\u00edas.",
-          "category": "Garant\u00eda"
+          "question": "¿Puedo devolver un producto?",
+          "answer": "Por razones de higiene, no aceptamos devoluciones de productos íntimos una vez abiertos. Si el producto llega defectuoso o dañado, lo reemplazamos sin costo. Lencería sin usar con etiquetas puede devolverse en 7 días.",
+          "category": "Garantía"
         },
         {
-          "question": "\u00bfLos productos tienen garant\u00eda?",
-          "answer": "Los productos electr\u00f3nicos tienen garant\u00eda seg\u00fan el fabricante. Satisfyer: 15 a\u00f1os. LELO: 1 a\u00f1o. We-Vibe: 2 a\u00f1os. Para hacer efectiva la garant\u00eda, contactanos por WhatsApp con el n\u00famero de pedido.",
-          "category": "Garant\u00eda"
+          "question": "¿Los productos tienen garantía?",
+          "answer": "Los productos electrónicos tienen garantía según el fabricante. Satisfyer: 15 años. LELO: 1 año. We-Vibe: 2 años. Para hacer efectiva la garantía, contactanos por WhatsApp con el número de pedido.",
+          "category": "Garantía"
         },
         {
-          "question": "\u00bfLos productos son seguros?",
-          "answer": "Trabajamos con productos de marcas reconocidas. Todos nuestros vibradores son de silicona m\u00e9dica, ABS libre de ftalatos, o materiales seguros para el cuerpo certificados por los fabricantes.",
+          "question": "¿Los productos son seguros?",
+          "answer": "Trabajamos con productos de marcas reconocidas. Todos nuestros vibradores son de silicona médica, ABS libre de ftalatos, o materiales seguros para el cuerpo certificados por los fabricantes.",
           "category": "Productos"
         },
         {
-          "question": "\u00bfQu\u00e9 es el lubricante ideal para juguetes de silicona?",
-          "answer": "Lubricante a base de agua. Los lubricantes a base de silicona reaccionan con los juguetes de silicona y los da\u00f1an. Tenemos ambos tipos; al agregar al carrito te sugerimos el compatible.",
+          "question": "¿Qué es el lubricante ideal para juguetes de silicona?",
+          "answer": "Lubricante a base de agua. Los lubricantes a base de silicona reaccionan con los juguetes de silicona y los dañan. Tenemos ambos tipos; al agregar al carrito te sugerimos el compatible.",
           "category": "Productos"
         },
         {
-          "question": "\u00bfC\u00f3mo limpio mis juguetes?",
-          "answer": "Agua tibia + jab\u00f3n neutro o limpiador espec\u00edfico para juguetes (disponible en la tienda). Secar al aire. Tenemos una gu\u00eda completa en el blog: 'C\u00f3mo limpiar juguetes sexuales'.",
+          "question": "¿Cómo limpio mis juguetes?",
+          "answer": "Agua tibia + jabón neutro o limpiador específico para juguetes (disponible en la tienda). Secar al aire. Tenemos una guía completa en el blog: 'Cómo limpiar juguetes sexuales'.",
           "category": "Productos"
         },
         {
-          "question": "\u00bfPuedo visitar la tienda f\u00edsica?",
-          "answer": "\u00a1Claro! Te esperamos en Herrera 875, Asunci\u00f3n. Lunes a viernes de 09:00 a 20:00 y s\u00e1bados de 09:00 a 18:00. Asesor\u00eda discreta y sin compromiso.",
-          "category": "Tienda f\u00edsica"
+          "question": "¿Puedo visitar la tienda física?",
+          "answer": "¡Claro! Te esperamos en Herrera 875, Asunción. Lunes a viernes de 09:00 a 20:00 y sábados de 09:00 a 18:00. Asesoría discreta y sin compromiso.",
+          "category": "Tienda física"
         },
         {
-          "question": "\u00bfNecesito presentar documento al entrar a la tienda?",
-          "answer": "S\u00ed. Como toda tienda del rubro, verificamos que seas mayor de 18 a\u00f1os al entrar. Aceptamos c\u00e9dula paraguaya o pasaporte vigente.",
-          "category": "Tienda f\u00edsica"
+          "question": "¿Necesito presentar documento al entrar a la tienda?",
+          "answer": "Sí. Como toda tienda del rubro, verificamos que seas mayor de 18 años al entrar. Aceptamos cédula paraguaya o pasaporte vigente.",
+          "category": "Tienda física"
         }
       ]
     },
@@ -391,12 +391,12 @@
       "address": "Herrera 875, Asuncion, Paraguay",
       "phone": "+595 976 569 739",
       "email": "hola@fun4me.com.py",
-      "hours": "Lun-Vie 09:00-20:00 \u00b7 Sab 09:00-18:00 \u00b7 Dom Cerrado",
+      "hours": "Lun-Vie 09:00-20:00 · Sab 09:00-18:00 · Dom Cerrado",
       "googleMapsUrl": "https://maps.google.com/?q=Herrera+875+Asuncion+Paraguay"
     },
     "trustSignals": {
-      "eyebrow": "Por qu\u00e9 confiar en nosotros",
-      "title": "Un servicio dise\u00f1ado para tu privacidad",
+      "eyebrow": "Por qué confiar en nosotros",
+      "title": "Un servicio diseñado para tu privacidad",
       "items": [
         {
           "icon": "Shield",
@@ -406,7 +406,7 @@
         {
           "icon": "Package",
           "title": "Empaque neutro",
-          "description": "Cajas sin marca, sin referencias al contenido. Nadie sabe qu\u00e9 hay adentro."
+          "description": "Cajas sin marca, sin referencias al contenido. Nadie sabe qué hay adentro."
         },
         {
           "icon": "Lock",
@@ -415,77 +415,77 @@
         },
         {
           "icon": "Users",
-          "title": "Asesor\u00eda discreta",
+          "title": "Asesoría discreta",
           "description": "Consultas por WhatsApp privado. Te respondemos con el nombre que prefieras."
         }
       ]
     },
     "whyFun4me": {
-      "eyebrow": "Por qu\u00e9 fun4me",
+      "eyebrow": "Por qué fun4me",
       "title": "Una experiencia de compra pensada para vos",
       "pillars": [
         {
           "icon": "Heart",
-          "title": "Cat\u00e1logo curado",
-          "description": "Seleccionamos productos de marcas reconocidas y testeadas. No vendemos nada que no recomendar\u00edamos.",
+          "title": "Catálogo curado",
+          "description": "Seleccionamos productos de marcas reconocidas y testeadas. No vendemos nada que no recomendaríamos.",
           "bullets": [
             "Marcas internacionales",
             "Productos certificados",
-            "Gu\u00edas de uso incluidas"
+            "Guías de uso incluidas"
           ]
         },
         {
           "icon": "Truck",
-          "title": "Env\u00edo discreto a todo el pa\u00eds",
-          "description": "Empaque neutro, motoenv\u00edo r\u00e1pido en Gran Asunci\u00f3n y encomienda al interior. Rastreable en todo momento.",
+          "title": "Envío discreto a todo el país",
+          "description": "Empaque neutro, motoenvío rápido en Gran Asunción y encomienda al interior. Rastreable en todo momento.",
           "bullets": [
-            "Gran Asunci\u00f3n: 2-24 hs",
-            "Interior: 2-5 d\u00edas h\u00e1biles",
+            "Gran Asunción: 2-24 hs",
+            "Interior: 2-5 días hábiles",
             "Gratis desde Gs 300.000"
           ]
         },
         {
           "icon": "Shield",
           "title": "Privacidad total",
-          "description": "Tu nombre, tu direcci\u00f3n, tu pedido \u2014 solo vos y nosotros. Factura a nombre gen\u00e9rico si lo prefer\u00eds.",
+          "description": "Tu nombre, tu dirección, tu pedido — solo vos y nosotros. Factura a nombre genérico si lo preferís.",
           "bullets": [
             "Factura opcional",
             "WhatsApp privado",
-            "Sin registro en perfil p\u00fablico"
+            "Sin registro en perfil público"
           ]
         }
       ],
-      "honestNote": "Comprar este tipo de productos sigue siendo un tema sensible en Paraguay. Por eso dise\u00f1amos cada detalle \u2014 del empaque al checkout \u2014 para que la experiencia sea completamente discreta."
+      "honestNote": "Comprar este tipo de productos sigue siendo un tema sensible en Paraguay. Por eso diseñamos cada detalle — del empaque al checkout — para que la experiencia sea completamente discreta."
     },
     "process": {
-      "eyebrow": "C\u00f3mo funciona",
+      "eyebrow": "Cómo funciona",
       "title": "Tu pedido en 4 pasos simples",
-      "totalDuration": "En Gran Asunci\u00f3n: mismo d\u00eda. Interior: 2-5 d\u00edas h\u00e1biles.",
-      "ctaLabel": "Ver cat\u00e1logo",
+      "totalDuration": "En Gran Asunción: mismo día. Interior: 2-5 días hábiles.",
+      "ctaLabel": "Ver catálogo",
       "ctaHref": "/s/es/fun4me/tienda",
       "steps": [
         {
           "number": 1,
-          "title": "Eleg\u00eds tus productos",
-          "description": "Agreg\u00e1s al carrito lo que quer\u00e9s. Pod\u00e9s pedir asesor\u00eda por WhatsApp si ten\u00e9s dudas.",
+          "title": "Elegís tus productos",
+          "description": "Agregás al carrito lo que querés. Podés pedir asesoría por WhatsApp si tenés dudas.",
           "icon": "ShoppingBag"
         },
         {
           "number": 2,
-          "title": "Pag\u00e1s de forma segura",
+          "title": "Pagás de forma segura",
           "description": "Pagopar con tarjeta, transferencia o efectivo. Sin que aparezca fun4me en tu estado de cuenta.",
           "icon": "CreditCard"
         },
         {
           "number": 3,
           "title": "Empacamos discreto",
-          "description": "Caja sin marca, sin logos, sin referencias. Nadie sabe qu\u00e9 hay adentro.",
+          "description": "Caja sin marca, sin logos, sin referencias. Nadie sabe qué hay adentro.",
           "icon": "Package"
         },
         {
           "number": 4,
           "title": "Llega a tu puerta",
-          "description": "Motoenv\u00edo r\u00e1pido en Gran Asunci\u00f3n o encomienda al interior. Siempre con tracking.",
+          "description": "Motoenvío rápido en Gran Asunción o encomienda al interior. Siempre con tracking.",
           "icon": "Truck"
         }
       ]
@@ -494,8 +494,8 @@
       "promotions": [
         {
           "id": "bienvenida10",
-          "title": "Cup\u00f3n BIENVENIDA10 \u2014 10% OFF en tu primera compra",
-          "description": "Us\u00e1 el c\u00f3digo BIENVENIDA10 al pagar y ahorr\u00e1 10%. V\u00e1lido hasta fin de mes.",
+          "title": "Cupón BIENVENIDA10 — 10% OFF en tu primera compra",
+          "description": "Usá el código BIENVENIDA10 al pagar y ahorrá 10%. Válido hasta fin de mes.",
           "code": "BIENVENIDA10",
           "bgColor": "#7c3aed",
           "textColor": "#ffffff",
@@ -503,8 +503,8 @@
         },
         {
           "id": "envio-gratis",
-          "title": "Env\u00edo gratis en pedidos sobre Gs 300.000",
-          "description": "Motoenv\u00edo gratis en Gran Asunci\u00f3n y encomienda sin cargo al interior.",
+          "title": "Envío gratis en pedidos sobre Gs 300.000",
+          "description": "Motoenvío gratis en Gran Asunción y encomienda sin cargo al interior.",
           "bgColor": "#0891b2",
           "textColor": "#ffffff",
           "link": "/s/es/fun4me/tienda"
@@ -518,32 +518,32 @@
     },
     "newsletter": {
       "title": "Novedades fun4me",
-      "subtitle": "Recib\u00ed avisos de lanzamientos, cupones exclusivos y gu\u00edas de uso. Sin spam, sin compartir tu email.",
+      "subtitle": "Recibí avisos de lanzamientos, cupones exclusivos y guías de uso. Sin spam, sin compartir tu email.",
       "placeholder": "tu@email.com",
       "submitLabel": "Suscribirme",
-      "successMessage": "Listo. Revis\u00e1 tu casilla para confirmar.",
+      "successMessage": "Listo. Revisá tu casilla para confirmar.",
       "consentLabel": "Acepto recibir novedades y promociones de fun4me.",
       "tenantSlug": "fun4me"
     }
   },
   "about": {
     "seo": {
-      "title": "Sobre Fun4Me \u2014 Sex Shop en Paraguay",
-      "description": "Conoc\u00e9 la historia de Fun4Me, tu tienda de bienestar \u00edntimo en Asunci\u00f3n. Productos de calidad, env\u00edo discreto y atenci\u00f3n personalizada."
+      "title": "Sobre Fun4Me — Sex Shop en Paraguay",
+      "description": "Conocé la historia de Fun4Me, tu tienda de bienestar íntimo en Asunción. Productos de calidad, envío discreto y atención personalizada."
     },
     "hero": {
-      "headline": "M\u00e1s que un sex shop",
-      "subheadline": "Somos un espacio de bienestar \u00edntimo, sin tab\u00faes ni prejuicios"
+      "headline": "Más que un sex shop",
+      "subheadline": "Somos un espacio de bienestar íntimo, sin tabúes ni prejuicios"
     },
     "story": {
       "title": "Nuestra historia",
-      "content": "Fun4Me naci\u00f3 en Asunci\u00f3n con una misi\u00f3n clara: crear un espacio donde la salud \u00edntima y el placer se hablen sin verg\u00fcenza. Desde nuestra tienda en Herrera 875, ofrecemos productos seleccionados cuidadosamente, envases discretos y atenci\u00f3n cercana. Creemos en el derecho de todas las personas a explorar su sexualidad de forma segura, informada y placentera."
+      "content": "Fun4Me nació en Asunción con una misión clara: crear un espacio donde la salud íntima y el placer se hablen sin vergüenza. Desde nuestra tienda en Herrera 875, ofrecemos productos seleccionados cuidadosamente, envases discretos y atención cercana. Creemos en el derecho de todas las personas a explorar su sexualidad de forma segura, informada y placentera."
     },
     "values": [
       {
         "icon": "Shield",
-        "title": "Discreci\u00f3n total",
-        "description": "Env\u00edo en empaque neutro sin identificaci\u00f3n de la tienda."
+        "title": "Discreción total",
+        "description": "Envío en empaque neutro sin identificación de la tienda."
       },
       {
         "icon": "Heart",
@@ -557,8 +557,8 @@
       },
       {
         "icon": "Users",
-        "title": "Atenci\u00f3n personalizada",
-        "description": "Consult\u00e1 sin compromiso. Te guiamos seg\u00fan tus intereses."
+        "title": "Atención personalizada",
+        "description": "Consultá sin compromiso. Te guiamos según tus intereses."
       }
     ]
   },
@@ -569,7 +569,7 @@
     },
     "hero": {
       "headline": "Politicas y Legal",
-      "subheadline": "Todo lo que necesit\u00e1s saber sobre tus derechos al comprar en Fun4Me.",
+      "subheadline": "Todo lo que necesitás saber sobre tus derechos al comprar en Fun4Me.",
       "ctaPrimaryText": "Contactar legal@fun4me.com.py",
       "ctaPrimaryHref": "mailto:legal@fun4me.com.py"
     },
@@ -595,7 +595,7 @@
         },
         {
           "q": "Limitacion de responsabilidad",
-          "a": "Fun4Me no se responsabiliza por uso indebido de productos (especialmente BDSM), reacciones alergicas no informadas, o da\u00f1os derivados de no seguir instrucciones de uso. Nuestra responsabilidad maxima se limita al monto pagado por el producto."
+          "a": "Fun4Me no se responsabiliza por uso indebido de productos (especialmente BDSM), reacciones alergicas no informadas, o daños derivados de no seguir instrucciones de uso. Nuestra responsabilidad maxima se limita al monto pagado por el producto."
         },
         {
           "q": "Ley aplicable",
@@ -625,11 +625,11 @@
         },
         {
           "q": "Cuanto tiempo guardamos datos",
-          "a": "Datos de cuenta activa: mientras la mantengas. Pedidos: 5 a\u00f1os (obligacion fiscal). Navegacion: 30 dias en bruto, luego agregados anonimos. Logs de seguridad: 90 dias. Marketing: hasta que te des de baja."
+          "a": "Datos de cuenta activa: mientras la mantengas. Pedidos: 5 años (obligacion fiscal). Navegacion: 30 dias en bruto, luego agregados anonimos. Logs de seguridad: 90 dias. Marketing: hasta que te des de baja."
         },
         {
           "q": "Seguridad",
-          "a": "HTTPS en todo el sitio (TLS 1.3+), contrase\u00f1as hasheadas, acceso interno con 2FA, auditorias periodicas, backups cifrados. Si hay brecha de seguridad te avisamos en 72hs con que datos se vieron afectados y que medidas tomamos."
+          "a": "HTTPS en todo el sitio (TLS 1.3+), contraseñas hasheadas, acceso interno con 2FA, auditorias periodicas, backups cifrados. Si hay brecha de seguridad te avisamos en 72hs con que datos se vieron afectados y que medidas tomamos."
         }
       ]
     },
@@ -643,7 +643,7 @@
         },
         {
           "q": "Garantia de fabricante",
-          "a": "Satisfyer: 15 a\u00f1os lineas premium, 2 a\u00f1os entry. LELO: 1 a\u00f1o. We-Vibe: 2 a\u00f1os. Otras marcas: segun empaque. Tiempo tipico de resolucion 30-60 dias."
+          "a": "Satisfyer: 15 años lineas premium, 2 años entry. LELO: 1 año. We-Vibe: 2 años. Otras marcas: segun empaque. Tiempo tipico de resolucion 30-60 dias."
         },
         {
           "q": "Cambio de lenceria por talle",
@@ -669,7 +669,7 @@
       "items": [
         {
           "q": "Por que verificamos edad",
-          "a": "Paraguay establece mayoria de edad para contratar a los 18 a\u00f1os (Codigo Civil). Ley 1680/01 prohibe contenido sexualmente explicito dirigido a menores. Aplicamos ademas estandares internacionales 18+ universal."
+          "a": "Paraguay establece mayoria de edad para contratar a los 18 años (Codigo Civil). Ley 1680/01 prohibe contenido sexualmente explicito dirigido a menores. Aplicamos ademas estandares internacionales 18+ universal."
         },
         {
           "q": "Modal al ingresar",
@@ -677,7 +677,7 @@
         },
         {
           "q": "Al crear cuenta",
-          "a": "Solicitamos fecha de nacimiento. Si la edad calculada < 18 la cuenta se rechaza automaticamente. Queda registrado para auditoria y regalo de cumplea\u00f1os."
+          "a": "Solicitamos fecha de nacimiento. Si la edad calculada < 18 la cuenta se rechaza automaticamente. Queda registrado para auditoria y regalo de cumpleaños."
         },
         {
           "q": "Al comprar",
@@ -702,7 +702,7 @@
   },
   "footer": {
     "businessName": "Fun4Me",
-    "city": "Asunci\u00f3n, Paraguay",
+    "city": "Asunción, Paraguay",
     "address": "Herrera 875",
     "phone": "+595976569739",
     "whatsapp": "+595976569739",
@@ -735,7 +735,7 @@
         "href": "/s/es/fun4me/placer-plus"
       },
       {
-        "label": "Qui\u00e9nes somos",
+        "label": "Quiénes somos",
         "href": "/s/es/fun4me/quienes-somos"
       },
       {
@@ -747,7 +747,7 @@
         "href": "/s/es/fun4me/reserva-en-tienda"
       },
       {
-        "label": "Gu\u00eda de talles",
+        "label": "Guía de talles",
         "href": "/s/es/fun4me/size-guide"
       },
       {
@@ -759,31 +759,27 @@
         "href": "/s/es/fun4me/legal"
       },
       {
-        "label": "T\u00e9rminos",
+        "label": "Términos",
         "href": "/s/es/fun4me/legal"
       }
     ],
     "rights": "Todos los derechos reservados.",
-    "privacy": "Pol\u00edtica de Privacidad",
+    "privacy": "Política de Privacidad",
     "privacyHref": "/s/es/fun4me/legal",
-    "terms": "T\u00e9rminos y Condiciones",
+    "terms": "Términos y Condiciones",
     "termsHref": "/s/es/fun4me/legal",
-    "legalText": "Solo mayores de 18 a\u00f1os. Empaque y facturaci\u00f3n discretos. Datos cifrados.",
+    "legalText": "Solo mayores de 18 años. Empaque y facturación discretos. Datos cifrados.",
     "legalHref": "/s/es/fun4me/legal"
   },
-  "whatsapp": {
-    "message": "Hola! Quiero consultar sobre un producto.",
-    "label": "Chat con Fun4Me",
-    "phone": "595976569739"
-  },
+  "whatsapp": "+595976569739",
   "store": {
     "seo": {
       "title": "Tienda Fun4Me | Catalogo online con envio discreto",
-      "description": "Explor\u00e1 todo el catalogo de Fun4Me. Vibradores, lenceria, lubricantes, BDSM y mas. Envio 100% discreto a todo Paraguay."
+      "description": "Explorá todo el catalogo de Fun4Me. Vibradores, lenceria, lubricantes, BDSM y mas. Envio 100% discreto a todo Paraguay."
     },
     "hero": {
       "headline": "Tu Placer, Nuestra Prioridad",
-      "subheadline": "Encontr\u00e1 productos de calidad con envio discreto a todo Paraguay. Envio gratis en compras mayores a 200.000 Gs."
+      "subheadline": "Encontrá productos de calidad con envio discreto a todo Paraguay. Envio gratis en compras mayores a 200.000 Gs."
     },
     "bundlesPreview": {
       "title": "Kits Curados",
@@ -807,7 +803,7 @@
       ]
     },
     "trust": {
-      "title": "Por que comprar ac\u00e1",
+      "title": "Por que comprar acá",
       "items": [
         {
           "icon": "shield",
@@ -832,9 +828,9 @@
       ]
     },
     "catalog": {
-      "title": "Todo el cat\u00e1logo",
-      "subtitle": "Explor\u00e1 nuestros productos. Agregalos al carrito y pag\u00e1 con env\u00edo discreto.",
-      "viewAllText": "Ver m\u00e1s productos",
+      "title": "Todo el catálogo",
+      "subtitle": "Explorá nuestros productos. Agregalos al carrito y pagá con envío discreto.",
+      "viewAllText": "Ver más productos",
       "limit": 24
     }
   },
@@ -914,7 +910,7 @@
     },
     "hero": {
       "headline": "Regala Placer",
-      "subheadline": "El regalo perfecto cuando no sab\u00e9s qu\u00e9 elegir. Sin talles, sin preferencias, sin errores."
+      "subheadline": "El regalo perfecto cuando no sabés qué elegir. Sin talles, sin preferencias, sin errores."
     },
     "denominations": {
       "title": "Elegi el monto",
@@ -922,7 +918,7 @@
         {
           "name": "Gs. 100.000",
           "price": "Gs. 100.000",
-          "description": "Para probar algo peque\u00f1o."
+          "description": "Para probar algo pequeño."
         },
         {
           "name": "Gs. 150.000",
@@ -980,7 +976,7 @@
           "image": "/branding/fun4me/images/gift-cards/classic.svg"
         },
         {
-          "name": "Cumplea\u00f1os",
+          "name": "Cumpleaños",
           "image": "/branding/fun4me/images/gift-cards/birthday.svg"
         },
         {
@@ -1036,13 +1032,13 @@
     },
     "hero": {
       "headline": "Placer Plus",
-      "subheadline": "Mas compr\u00e1s, mas beneficios. Sin suscripcion. Sin trampas."
+      "subheadline": "Mas comprás, mas beneficios. Sin suscripcion. Sin trampas."
     },
     "howItWorks": {
       "title": "Como funciona",
       "items": [
         {
-          "name": "Compr\u00e1s",
+          "name": "Comprás",
           "description": "Ganas 1 punto por cada Gs. 1.000 gastados (base Plata)."
         },
         {
@@ -1065,17 +1061,17 @@
         {
           "name": "Plata",
           "price": "Gratis desde el primer dia",
-          "description": "10% descuento cumplea\u00f1os. 1 pt por Gs. 1.000."
+          "description": "10% descuento cumpleaños. 1 pt por Gs. 1.000."
         },
         {
           "name": "Oro",
           "price": "Desde Gs. 1.500.000 anuales",
-          "description": "15% cumplea\u00f1os. 1.5x puntos. Envio gratis desde Gs. 100k. Acceso anticipado 48hs."
+          "description": "15% cumpleaños. 1.5x puntos. Envio gratis desde Gs. 100k. Acceso anticipado 48hs."
         },
         {
           "name": "Platino",
           "price": "Desde Gs. 5.000.000 anuales",
-          "description": "20% cumplea\u00f1os + sorpresa. 2x puntos. Envio express siempre gratis. Atencion VIP. Consulta trimestral."
+          "description": "20% cumpleaños + sorpresa. 2x puntos. Envio express siempre gratis. Atencion VIP. Consulta trimestral."
         }
       ]
     },
@@ -1103,7 +1099,7 @@
           "description": "+50 pts por resena aprobada."
         },
         {
-          "name": "Cumplea\u00f1os",
+          "name": "Cumpleaños",
           "description": "+500 pts anuales."
         },
         {
@@ -1156,11 +1152,11 @@
         },
         {
           "q": "Puedo bajar de nivel?",
-          "a": "Solo al momento de la revision anual si las compras anuales bajan. Una vez que llegas a un nivel, queda asegurado por ese a\u00f1o."
+          "a": "Solo al momento de la revision anual si las compras anuales bajan. Una vez que llegas a un nivel, queda asegurado por ese año."
         },
         {
           "q": "Cuando se revisa el nivel?",
-          "a": "Cada a\u00f1o, con base en los 12 meses anteriores."
+          "a": "Cada año, con base en los 12 meses anteriores."
         },
         {
           "q": "Que pasa si devuelvo un producto?",
@@ -1182,7 +1178,7 @@
   "subscriptions": {
     "seo": {
       "title": "Cajas Sorpresa Fun4Me | Suscripcion mensual",
-      "description": "Caja mensual con productos curados. 3 niveles: Discovery (Gs. 149k), Premium (Gs. 299k), VIP (Gs. 599k). Cancelas cuando quer\u00e9s."
+      "description": "Caja mensual con productos curados. 3 niveles: Discovery (Gs. 149k), Premium (Gs. 299k), VIP (Gs. 599k). Cancelas cuando querés."
     },
     "hero": {
       "headline": "Caja Sorpresa Mensual",
@@ -1193,18 +1189,18 @@
       "subtitle": "Todas las cajas llegan en empaque discreto. Cancelas cuando quieras, sin penalidad.",
       "items": [
         {
-          "name": "Discovery \u2014 Gs. 149.000/mes",
-          "price": "Gs. 1.590.000/a\u00f1o (ahorra 198k)",
+          "name": "Discovery — Gs. 149.000/mes",
+          "price": "Gs. 1.590.000/año (ahorra 198k)",
           "description": "3-4 productos mensuales. Valor de mercado Gs. 200-280k. Para explorar sin compromiso."
         },
         {
-          "name": "Premium \u2014 Gs. 299.000/mes",
-          "price": "Gs. 3.190.000/a\u00f1o (ahorra 398k)",
+          "name": "Premium — Gs. 299.000/mes",
+          "price": "Gs. 3.190.000/año (ahorra 398k)",
           "description": "Producto premium + 2-3 complementos + cupon 15% off. Marcas reconocidas (Satisfyer, We-Vibe, LELO). Valor Gs. 450-550k."
         },
         {
-          "name": "VIP \u2014 Gs. 599.000/mes",
-          "price": "Gs. 6.490.000/a\u00f1o (ahorra 698k)",
+          "name": "VIP — Gs. 599.000/mes",
+          "price": "Gs. 6.490.000/año (ahorra 698k)",
           "description": "Producto flagship + complementos premium + consulta pre-caja 30min + cupon 25% + envio express. Valor Gs. 900k+. Solo 20 cupos/mes."
         }
       ]
@@ -1218,7 +1214,7 @@
         },
         {
           "name": "2. Personalizas preferencias",
-          "description": "Que categorias prefer\u00eds, que evitar, talle si aplica."
+          "description": "Que categorias preferís, que evitar, talle si aplica."
         },
         {
           "name": "3. Enviamos el 10 de cada mes",
@@ -1288,23 +1284,23 @@
       "buttonHref": "/fun4me/suscripciones#elegir-nivel"
     },
     "comparison": {
-      "eyebrow": "Comparaci\u00f3n completa",
-      "title": "Qu\u00e9 incluye cada caja",
-      "subtitle": "Eleg\u00ed la opci\u00f3n que mejor se adapta a vos. Pod\u00e9s cambiar o cancelar cuando quieras.",
+      "eyebrow": "Comparación completa",
+      "title": "Qué incluye cada caja",
+      "subtitle": "Elegí la opción que mejor se adapta a vos. Podés cambiar o cancelar cuando quieras.",
       "tiers": [
         {
           "id": "basica",
-          "name": "B\u00e1sica",
+          "name": "Básica",
           "price": "Gs 250.000",
           "priceNote": "/mes",
           "ctaLabel": "Suscribirme",
           "ctaHref": "/s/es/fun4me/tienda?subscription=basica",
           "included": [
             "1 caja sorpresa por mes",
-            "Env\u00edo gratis Asunci\u00f3n",
+            "Envío gratis Asunción",
             "10% descuento en tienda",
             "Acceso a comunidad privada",
-            "Cancelaci\u00f3n libre"
+            "Cancelación libre"
           ]
         },
         {
@@ -1312,18 +1308,18 @@
           "name": "Plus",
           "price": "Gs 450.000",
           "priceNote": "/mes",
-          "badge": "M\u00e1s popular",
+          "badge": "Más popular",
           "highlighted": true,
           "ctaLabel": "Suscribirme",
           "ctaHref": "/s/es/fun4me/tienda?subscription=plus",
           "included": [
             "1 caja sorpresa por mes",
-            "Env\u00edo gratis a todo Paraguay",
+            "Envío gratis a todo Paraguay",
             "15% descuento en tienda",
             "Acceso a comunidad privada",
             "Producto sorpresa adicional",
             "Prioridad en lanzamientos",
-            "Cancelaci\u00f3n libre"
+            "Cancelación libre"
           ]
         },
         {
@@ -1335,13 +1331,13 @@
           "ctaHref": "/s/es/fun4me/tienda?subscription=premium",
           "included": [
             "2 cajas sorpresa por mes",
-            "Env\u00edo gratis a todo Paraguay",
+            "Envío gratis a todo Paraguay",
             "20% descuento en tienda",
             "Acceso a comunidad VIP",
             "Producto sorpresa adicional",
             "Prioridad en lanzamientos",
-            "Consultor\u00eda \u00edntima 1:1",
-            "Cancelaci\u00f3n libre"
+            "Consultoría íntima 1:1",
+            "Cancelación libre"
           ]
         }
       ],
@@ -1363,7 +1359,7 @@
           ]
         },
         {
-          "feature": "Env\u00edo discreto gratis",
+          "feature": "Envío discreto gratis",
           "values": [
             true,
             true,
@@ -1379,7 +1375,7 @@
           ]
         },
         {
-          "feature": "Consultor\u00eda sexual 1:1",
+          "feature": "Consultoría sexual 1:1",
           "values": [
             false,
             false,
@@ -1395,7 +1391,7 @@
           ]
         },
         {
-          "feature": "Cancelaci\u00f3n libre",
+          "feature": "Cancelación libre",
           "values": [
             true,
             true,
@@ -1481,7 +1477,7 @@
         },
         {
           "q": "Marcas importadas premium",
-          "a": "Tallan segun europeo (mas ce\u00f1ido). Misma logica o un talle arriba si estas entre dos."
+          "a": "Tallan segun europeo (mas ceñido). Misma logica o un talle arriba si estas entre dos."
         },
         {
           "q": "Lenceria erotica (Leg Avenue, Dreamgirl)",
@@ -1489,7 +1485,7 @@
         },
         {
           "q": "Plus size / curvy",
-          "a": "Empez\u00e1 en XL (= L/M de marcas regulares). Verific\u00e1 la tabla especifica del producto."
+          "a": "Empezá en XL (= L/M de marcas regulares). Verificá la tabla especifica del producto."
         },
         {
           "q": "One size",
@@ -1497,7 +1493,7 @@
         },
         {
           "q": "Corsets",
-          "a": "Restan 5cm a tu cintura natural. El corset esta disenado para ce\u00f1ir."
+          "a": "Restan 5cm a tu cintura natural. El corset esta disenado para ceñir."
         }
       ]
     },
@@ -1522,7 +1518,7 @@
       "items": [
         {
           "name": "1. Elegis productos online",
-          "description": "Arm\u00e1s tu carrito como cualquier compra online."
+          "description": "Armás tu carrito como cualquier compra online."
         },
         {
           "name": "2. Seleccionas 'Retiro en tienda'",
@@ -1540,7 +1536,7 @@
     },
     "location": {
       "title": "Donde estamos",
-      "subtitle": "Herrera 875, Asuncion \u2014 Lun-Vie 09:00-20:00, Sab 09:00-18:00.",
+      "subtitle": "Herrera 875, Asuncion — Lun-Vie 09:00-20:00, Sab 09:00-18:00.",
       "address": "Herrera 875, Asuncion, Paraguay",
       "phone": "+595 976 569 739",
       "email": "hola@fun4me.com.py"
@@ -1555,18 +1551,18 @@
   "blog": {
     "seo": {
       "title": "Blog Fun4Me | Guias, educacion y consejos para adultos",
-      "description": "Guias de principiantes, materiales seguros, comunicacion de pareja, privacidad. Aprend\u00e9 sin verguenza."
+      "description": "Guias de principiantes, materiales seguros, comunicacion de pareja, privacidad. Aprendé sin verguenza."
     },
     "hero": {
       "headline": "Blog Fun4Me",
-      "subheadline": "Guias, educacion y consejos. Aprend\u00e9 sin juicios."
+      "subheadline": "Guias, educacion y consejos. Aprendé sin juicios."
     },
     "categories": {
-      "title": "Explor\u00e1 por categoria",
+      "title": "Explorá por categoria",
       "items": [
         {
           "name": "Guias para principiantes",
-          "description": "Lo b\u00e1sico que deber\u00edas saber antes de comprar tu primer producto."
+          "description": "Lo básico que deberías saber antes de comprar tu primer producto."
         },
         {
           "name": "Seguridad y cuidado",
@@ -1596,43 +1592,43 @@
       "items": [
         {
           "slug": "como-limpiar-juguetes-sexuales",
-          "title": "C\u00f3mo limpiar tus juguetes sexuales correctamente",
+          "title": "Cómo limpiar tus juguetes sexuales correctamente",
           "excerpt": "",
           "date": "2026-04-01"
         },
         {
           "slug": "comunicacion-sexual-pareja",
-          "title": "C\u00f3mo hablar de sexualidad con tu pareja sin tab\u00faes",
+          "title": "Cómo hablar de sexualidad con tu pareja sin tabúes",
           "excerpt": "",
           "date": "2026-04-01"
         },
         {
           "slug": "ftalatos-materiales-seguros",
-          "title": "\"Materiales seguros en juguetes sexuales: qu\u00e9 evitar\"",
+          "title": "\"Materiales seguros en juguetes sexuales: qué evitar\"",
           "excerpt": "",
           "date": "2026-04-01"
         },
         {
           "slug": "guia-lenceria-talles",
-          "title": "C\u00f3mo elegir tu talle de lencer\u00eda sin probarlo",
+          "title": "Cómo elegir tu talle de lencería sin probarlo",
           "excerpt": "",
           "date": "2026-04-01"
         },
         {
           "slug": "guia-vibradores-principiantes",
-          "title": "Gu\u00eda de vibradores para principiantes en Paraguay",
+          "title": "Guía de vibradores para principiantes en Paraguay",
           "excerpt": "",
           "date": "2026-04-01"
         },
         {
           "slug": "juguetes-anal-principiantes",
-          "title": "\"Juguetes anales para principiantes: gu\u00eda segura\"",
+          "title": "\"Juguetes anales para principiantes: guía segura\"",
           "excerpt": "",
           "date": "2026-04-01"
         },
         {
           "slug": "lubricante-agua-vs-silicona",
-          "title": "\"Lubricante base agua vs silicona: cu\u00e1l elegir\"",
+          "title": "\"Lubricante base agua vs silicona: cuál elegir\"",
           "excerpt": "",
           "date": "2026-04-01"
         },
@@ -1644,7 +1640,7 @@
         },
         {
           "slug": "primera-vez-bdsm-consenso",
-          "title": "\"Primera vez con BDSM: gu\u00eda de consenso y seguridad\"",
+          "title": "\"Primera vez con BDSM: guía de consenso y seguridad\"",
           "excerpt": "",
           "date": "2026-04-01"
         },
@@ -1736,15 +1732,15 @@
   },
   "compliance": {
     "paragraphs": [
-      "fun4me es un comercio de venta de productos para adultos. El acceso al sitio est\u00e1 restringido a personas mayores de 18 a\u00f1os. Al ingresar, confirm\u00e1s que sos mayor de edad bajo las leyes de la Rep\u00fablica del Paraguay.",
-      "Las im\u00e1genes y descripciones de productos son de car\u00e1cter comercial. Los productos se comercializan conforme a la Ley de Defensa del Consumidor N\u00ba 1334/98 y dem\u00e1s normativa aplicable.",
-      "Los env\u00edos se realizan en empaque neutro sin referencias al contenido. fun4me no comparte datos personales con terceros salvo lo estrictamente necesario para procesar el pedido (empresa de env\u00edos, procesador de pagos)."
+      "fun4me es un comercio de venta de productos para adultos. El acceso al sitio está restringido a personas mayores de 18 años. Al ingresar, confirmás que sos mayor de edad bajo las leyes de la República del Paraguay.",
+      "Las imágenes y descripciones de productos son de carácter comercial. Los productos se comercializan conforme a la Ley de Defensa del Consumidor Nº 1334/98 y demás normativa aplicable.",
+      "Los envíos se realizan en empaque neutro sin referencias al contenido. fun4me no comparte datos personales con terceros salvo lo estrictamente necesario para procesar el pedido (empresa de envíos, procesador de pagos)."
     ],
     "licenseNumbers": [
-      "Registro MSPBS N\u00b0 1234/2024",
-      "INAN Registro N\u00b0 PY-5678-24"
+      "Registro MSPBS N° 1234/2024",
+      "INAN Registro N° PY-5678-24"
     ],
-    "linkText": "Leer pol\u00edtica de privacidad completa",
+    "linkText": "Leer política de privacidad completa",
     "linkHref": "/s/es/fun4me/legal"
   },
   "seo": {
@@ -1754,8 +1750,8 @@
     }
   },
   "ageGate": {
-    "title": "Confirm\u00e1 tu edad",
-    "message": "Este contenido es solo para mayores de 18 a\u00f1os.",
+    "title": "Confirmá tu edad",
+    "message": "Este contenido es solo para mayores de 18 años.",
     "confirmText": "Soy mayor de 18",
     "denyText": "Soy menor de 18",
     "minAge": 18

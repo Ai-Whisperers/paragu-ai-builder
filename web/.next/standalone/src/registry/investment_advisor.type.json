@@ -1,0 +1,25 @@
+{
+  "id": "investment_advisor",
+  "nameEs": "Asesor Inversiones",
+  "nameEn": "Investment Advisor",
+  "verticalId": "finance-insurance",
+  "subVertical": "financial-advisory",
+  "extends": "finance_insurance_base",
+  "tokens": "investment_advisor",
+  "seo": {
+    "schemaType": "FinancialService",
+    "titleTemplate": "{{businessName}} - Asesor Inversiones en {{city}}",
+    "descriptionTemplate": "Asesor Inversiones profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "asesor inversiones {{city}}",
+      "investment advisor {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Asesor Inversiones",
+    "subheadlineTemplate": "Asesor Inversiones profesional en {{city}}."
+  },
+  "flags": [
+    "regulated"
+  ]
+}

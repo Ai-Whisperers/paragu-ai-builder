@@ -1,0 +1,22 @@
+{
+  "id": "aquarium",
+  "nameEs": "Acuario",
+  "nameEn": "Aquarium",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "museum-gallery",
+  "extends": "entertainment_base",
+  "tokens": "aquarium",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Acuario en {{city}}",
+    "descriptionTemplate": "Acuario profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "acuario {{city}}",
+      "aquarium {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Acuario",
+    "subheadlineTemplate": "Acuario profesional en {{city}}."
+  }
+}

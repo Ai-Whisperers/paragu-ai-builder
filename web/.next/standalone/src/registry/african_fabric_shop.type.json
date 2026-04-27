@@ -1,0 +1,22 @@
+{
+  "id": "african_fabric_shop",
+  "nameEs": "Tela Africana",
+  "nameEn": "African Fabric Shop",
+  "verticalId": "retail-local",
+  "subVertical": "apparel-fashion",
+  "extends": "retail_base",
+  "tokens": "african_fabric_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Tela Africana en {{city}}",
+    "descriptionTemplate": "Tela Africana profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tela africana {{city}}",
+      "african fabric shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tela Africana",
+    "subheadlineTemplate": "Tela Africana profesional en {{city}}."
+  }
+}

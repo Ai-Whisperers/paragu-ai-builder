@@ -1,0 +1,22 @@
+{
+  "id": "kitchen_remodeler",
+  "nameEs": "Remodelador Cocinas",
+  "nameEn": "Kitchen Remodeler",
+  "verticalId": "trades-home-services",
+  "subVertical": "general-contracting",
+  "extends": "trades_base",
+  "tokens": "kitchen_remodeler",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Remodelador Cocinas en {{city}}",
+    "descriptionTemplate": "Remodelador Cocinas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "remodelador cocinas {{city}}",
+      "kitchen remodeler {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Remodelador Cocinas",
+    "subheadlineTemplate": "Remodelador Cocinas profesional en {{city}}."
+  }
+}

@@ -168,14 +168,24 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
         const sectionType = SECTION_MAP[s.id]
         if (sectionType) {
           try {
+            // Resolve phone/whatsapp from the correct source:
+            // footer.whatsapp (phone string) > contact.whatsapp > whatsapp.defaultMessage
+            const footer = siteContent.footer as Record<string, unknown> | undefined
+            const contactSection = siteContent.contact as Record<string, unknown> | undefined
+            const waConfig = siteContent.whatsapp as Record<string, unknown> | undefined
+            const resolvedWhatsapp = (
+              (typeof footer?.whatsapp === 'string' ? footer.whatsapp : undefined)
+              ?? (typeof contactSection?.whatsapp === 'string' ? contactSection.whatsapp : undefined)
+              ?? ''
+            ) as string
             const miniBusiness: Partial<BusinessData> = {
               name: (siteContent.siteName as string) || site.slug,
               slug: siteSlug,
               type: site.vertical as never,
-              whatsapp: siteContent.whatsapp as string | undefined,
-              phone: siteContent.phone as string | undefined,
-              email: siteContent.email as string | undefined,
-              city: siteContent.city as string || '',
+              whatsapp: resolvedWhatsapp,
+              phone: typeof siteContent.phone === 'string' ? siteContent.phone : resolvedWhatsapp,
+              email: (siteContent.email as string) || '',
+              city: (siteContent.city as string) || '',
             }
             const builderResult = buildSectionData(
               sectionType,

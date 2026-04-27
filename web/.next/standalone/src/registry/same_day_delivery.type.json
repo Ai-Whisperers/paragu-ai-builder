@@ -1,0 +1,22 @@
+{
+  "id": "same_day_delivery",
+  "nameEs": "Entrega Mismo Dia",
+  "nameEn": "Same Day Delivery",
+  "verticalId": "logistics-transport",
+  "subVertical": "courier-lastmile",
+  "extends": "logistics_base",
+  "tokens": "same_day_delivery",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Entrega Mismo Dia en {{city}}",
+    "descriptionTemplate": "Entrega Mismo Dia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "entrega mismo dia {{city}}",
+      "same day delivery {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Entrega Mismo Dia",
+    "subheadlineTemplate": "Entrega Mismo Dia profesional en {{city}}."
+  }
+}

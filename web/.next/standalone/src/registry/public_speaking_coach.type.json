@@ -1,0 +1,22 @@
+{
+  "id": "public_speaking_coach",
+  "nameEs": "Coach de Oratoria",
+  "nameEn": "Public Speaking",
+  "verticalId": "service-booking",
+  "subVertical": "coaching",
+  "extends": "gimnasio",
+  "tokens": "public_speaking_coach",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Coach de Oratoria en {{city}}",
+    "descriptionTemplate": "Coach de Oratoria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "coach de oratoria {{city}}",
+      "public speaking {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Coach de Oratoria",
+    "subheadlineTemplate": "Coach de Oratoria profesional en {{city}}."
+  }
+}

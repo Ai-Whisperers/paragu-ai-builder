@@ -1,0 +1,22 @@
+{
+  "id": "boxing_kickboxing_gym",
+  "nameEs": "Gimnasio de Boxeo",
+  "nameEn": "Boxing Gym",
+  "verticalId": "health-wellness",
+  "subVertical": "fitness-wellness",
+  "extends": "health_wellness_base",
+  "tokens": "boxing_kickboxing_gym",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Gimnasio de Boxeo en {{city}}",
+    "descriptionTemplate": "Gimnasio de Boxeo profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "gimnasio de boxeo {{city}}",
+      "boxing gym {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Gimnasio de Boxeo",
+    "subheadlineTemplate": "Gimnasio de Boxeo profesional en {{city}}."
+  }
+}

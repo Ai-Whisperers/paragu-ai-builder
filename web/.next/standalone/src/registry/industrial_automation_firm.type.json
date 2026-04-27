@@ -1,0 +1,25 @@
+{
+  "id": "industrial_automation_firm",
+  "nameEs": "Automatizacion Industrial",
+  "nameEn": "Automation Firm",
+  "verticalId": "technology-digital",
+  "subVertical": "hardware-iot",
+  "extends": "technology_base",
+  "tokens": "industrial_automation_firm",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Automatizacion Industrial en {{city}}",
+    "descriptionTemplate": "Automatizacion Industrial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "automatizacion industrial {{city}}",
+      "automation firm {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Automatizacion Industrial",
+    "subheadlineTemplate": "Automatizacion Industrial profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

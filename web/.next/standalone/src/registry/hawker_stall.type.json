@@ -1,0 +1,22 @@
+{
+  "id": "hawker_stall",
+  "nameEs": "Puesto Hawker",
+  "nameEn": "Hawker Stall",
+  "verticalId": "food-beverage",
+  "subVertical": "food-truck",
+  "extends": "restaurant",
+  "tokens": "hawker_stall",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Puesto Hawker en {{city}}",
+    "descriptionTemplate": "Puesto Hawker profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "puesto hawker {{city}}",
+      "hawker stall {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Puesto Hawker",
+    "subheadlineTemplate": "Puesto Hawker profesional en {{city}}."
+  }
+}

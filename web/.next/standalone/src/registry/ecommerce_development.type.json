@@ -1,0 +1,25 @@
+{
+  "id": "ecommerce_development",
+  "nameEs": "Desarrollo Ecommerce",
+  "nameEn": "Ecommerce Dev",
+  "verticalId": "technology-digital",
+  "subVertical": "web-digital-agency",
+  "extends": "technology_base",
+  "tokens": "ecommerce_development",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Desarrollo Ecommerce en {{city}}",
+    "descriptionTemplate": "Desarrollo Ecommerce profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "desarrollo ecommerce {{city}}",
+      "ecommerce dev {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Desarrollo Ecommerce",
+    "subheadlineTemplate": "Desarrollo Ecommerce profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

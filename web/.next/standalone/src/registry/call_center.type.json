@@ -1,0 +1,25 @@
+{
+  "id": "call_center",
+  "nameEs": "Call Center",
+  "nameEn": "Call Center",
+  "verticalId": "b2b-professional",
+  "subVertical": "business-process-outsource",
+  "extends": "professional_services_base",
+  "tokens": "call_center",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Call Center en {{city}}",
+    "descriptionTemplate": "Call Center profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "call center {{city}}",
+      "call center {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Call Center",
+    "subheadlineTemplate": "Call Center profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

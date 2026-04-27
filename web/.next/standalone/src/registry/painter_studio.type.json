@@ -1,0 +1,22 @@
+{
+  "id": "painter_studio",
+  "nameEs": "Taller de Pintura",
+  "nameEn": "Painter Studio",
+  "verticalId": "portfolio-professional",
+  "subVertical": "fine-arts",
+  "extends": "diseno_grafico",
+  "tokens": "painter_studio",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Taller de Pintura en {{city}}",
+    "descriptionTemplate": "Taller de Pintura profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "taller de pintura {{city}}",
+      "painter studio {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Taller de Pintura",
+    "subheadlineTemplate": "Taller de Pintura profesional en {{city}}."
+  }
+}

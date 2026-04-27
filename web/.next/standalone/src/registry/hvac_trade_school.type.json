@@ -1,0 +1,22 @@
+{
+  "id": "hvac_trade_school",
+  "nameEs": "Escuela HVAC",
+  "nameEn": "HVAC Trade School",
+  "verticalId": "education-training",
+  "subVertical": "trade-vocational",
+  "extends": "educacion",
+  "tokens": "hvac_trade_school",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Escuela HVAC en {{city}}",
+    "descriptionTemplate": "Escuela HVAC profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escuela hvac {{city}}",
+      "hvac trade school {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escuela HVAC",
+    "subheadlineTemplate": "Escuela HVAC profesional en {{city}}."
+  }
+}

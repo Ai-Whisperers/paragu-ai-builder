@@ -1,0 +1,22 @@
+{
+  "id": "assisted_living_facility",
+  "nameEs": "Residencia Asistida",
+  "nameEn": "Assisted Living",
+  "verticalId": "health-wellness",
+  "subVertical": "senior-homecare",
+  "extends": "health_wellness_base",
+  "tokens": "assisted_living_facility",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Residencia Asistida en {{city}}",
+    "descriptionTemplate": "Residencia Asistida profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "residencia asistida {{city}}",
+      "assisted living {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Residencia Asistida",
+    "subheadlineTemplate": "Residencia Asistida profesional en {{city}}."
+  }
+}

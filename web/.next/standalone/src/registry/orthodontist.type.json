@@ -1,0 +1,22 @@
+{
+  "id": "orthodontist",
+  "nameEs": "Ortodoncista",
+  "nameEn": "Orthodontist",
+  "verticalId": "health-wellness",
+  "subVertical": "dental",
+  "extends": "health_wellness_base",
+  "tokens": "orthodontist",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Ortodoncista en {{city}}",
+    "descriptionTemplate": "Ortodoncista profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "ortodoncista {{city}}",
+      "orthodontist {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Ortodoncista",
+    "subheadlineTemplate": "Ortodoncista profesional en {{city}}."
+  }
+}

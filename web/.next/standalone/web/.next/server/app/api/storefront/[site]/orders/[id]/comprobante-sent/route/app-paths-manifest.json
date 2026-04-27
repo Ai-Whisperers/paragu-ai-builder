@@ -1,0 +1,3 @@
+{
+  "/api/storefront/[site]/orders/[id]/comprobante-sent/route": "app/api/storefront/[site]/orders/[id]/comprobante-sent/route.js"
+}

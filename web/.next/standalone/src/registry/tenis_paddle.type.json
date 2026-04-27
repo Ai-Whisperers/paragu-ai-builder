@@ -1,0 +1,27 @@
+{
+  "id": "tenis_paddle",
+  "nameEs": "Tenis y Paddle",
+  "nameEn": "Tennis & Padel",
+  "verticalId": "service-booking",
+  "extends": "gimnasio",
+  "tokens": "tenis_paddle",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Tenis y Paddle en {{city}}",
+    "descriptionTemplate": "Canchas de tenis y paddle con profesores disponibles en {{city}}.",
+    "keywords": [
+      "paddle {{city}}",
+      "cancha paddle {{city}}",
+      "tenis {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Juga, entrena, divertite",
+    "subheadlineTemplate": "Canchas de tenis y paddle con profesores disponibles en {{city}}."
+  },
+  "serviceCategories": [
+    "alquiler",
+    "clases",
+    "torneos"
+  ]
+}

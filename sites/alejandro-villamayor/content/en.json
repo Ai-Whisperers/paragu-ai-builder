@@ -8,7 +8,7 @@
   "tagline": "Strategic legal counsel for individuals and businesses in Paraguay",
   "placeholders": {
     "businessName": "Alejandro Villamayor",
-    "city": "Asunci\u00f3n",
+    "city": "Asunción",
     "year": 2026
   },
   "navigation": {
@@ -44,19 +44,19 @@
   },
   "home": {
     "seo": {
-      "title": "Alejandro Villamayor \u2014 Lawyer in Asunci\u00f3n | Paraguay Investor Pass & Corporate Law",
-      "description": "Lawyer in Asunci\u00f3n, Paraguay. Specialist in Paraguay Investor Pass 2026, investment residency, corporate law, and foreign investments. Free consultation."
+      "title": "Alejandro Villamayor — Lawyer in Asunción | Paraguay Investor Pass & Corporate Law",
+      "description": "Lawyer in Asunción, Paraguay. Specialist in Paraguay Investor Pass 2026, investment residency, corporate law, and foreign investments. Free consultation."
     },
     "hero": {
       "headline": "Alejandro Villamayor",
-      "subheadline": "Legal counsel in Asunci\u00f3n. Specialized in Paraguay Investor Pass, foreign investment structuring, and corporate law.",
+      "subheadline": "Legal counsel in Asunción. Specialized in Paraguay Investor Pass, foreign investment structuring, and corporate law.",
       "ctaPrimaryText": "Free consultation",
       "ctaPrimaryHref": "https://wa.me/595981324569",
       "ctaSecondaryText": "Investor Pass Guide",
       "ctaSecondaryHref": "/s/en/alejandro-villamayor/investor-pass",
       "trustBadges": [
-        "Asunci\u00f3n, Paraguay",
-        "English \u00b7 Spanish",
+        "Asunción, Paraguay",
+        "English · Spanish",
         "CAP Member"
       ]
     },
@@ -230,8 +230,8 @@
     "contact": {
       "title": "Contact",
       "subtitle": "I respond to WhatsApp inquiries the same day",
-      "address": "Asunci\u00f3n, Paraguay",
-      "city": "Asunci\u00f3n",
+      "address": "Asunción, Paraguay",
+      "city": "Asunción",
       "phone": "+595981324569",
       "email": "alejandro@villamayorlaw.com.py",
       "whatsapp": "+595981324569"
@@ -239,7 +239,7 @@
   },
   "servicios": {
     "seo": {
-      "title": "Legal Services \u2014 Alejandro Villamayor | Lawyer in Asunci\u00f3n",
+      "title": "Legal Services — Alejandro Villamayor | Lawyer in Asunción",
       "description": "Corporate law, foreign investments, Paraguay Investor Pass, commercial contracts, litigation and real estate law."
     },
     "hero": {
@@ -250,7 +250,7 @@
   },
   "investorPass": {
     "seo": {
-      "title": "Paraguay Investor Pass 2026 \u2014 Permanent Residency by Investment",
+      "title": "Paraguay Investor Pass 2026 — Permanent Residency by Investment",
       "description": "Permanent residency in Paraguay via Investor Pass from USD 70,000. New 2026 program. Free consultation."
     },
     "hero": {
@@ -264,17 +264,17 @@
       "items": [
         {
           "icon": "Umbrella",
-          "title": "Tourism \u2014 USD 150,000",
+          "title": "Tourism — USD 150,000",
           "description": "Investment in MIC-approved tourism projects."
         },
         {
           "icon": "BarChart3",
-          "title": "Securities Market \u2014 USD 200,000",
+          "title": "Securities Market — USD 200,000",
           "description": "Bonds, stocks or securities in the Paraguayan market."
         },
         {
           "icon": "Home",
-          "title": "Real Estate \u2014 USD 200,000",
+          "title": "Real Estate — USD 200,000",
           "description": "Residential or commercial property acquisition."
         }
       ]
@@ -334,7 +334,7 @@
       "items": [
         {
           "question": "When was it launched?",
-          "answer": "April 17, 2026. Resolution N.\u00ba 0283/2026."
+          "answer": "April 17, 2026. Resolution N.º 0283/2026."
         },
         {
           "question": "Difference from traditional residency?",
@@ -360,7 +360,7 @@
   },
   "sobre": {
     "seo": {
-      "title": "About \u2014 Alejandro Villamayor | Lawyer in Paraguay",
+      "title": "About — Alejandro Villamayor | Lawyer in Paraguay",
       "description": "Lawyer specializing in foreign investments and Paraguay Investor Pass. CAP member."
     },
     "hero": {
@@ -391,7 +391,7 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog \u2014 Alejandro Villamayor | Legal Guide for Investors",
+      "title": "Blog — Alejandro Villamayor | Legal Guide for Investors",
       "description": "Guides on Paraguay Investor Pass, investment residency, taxes and corporate law."
     },
     "hero": {
@@ -431,7 +431,7 @@
   },
   "faqPage": {
     "seo": {
-      "title": "FAQ \u2014 Alejandro Villamayor",
+      "title": "FAQ — Alejandro Villamayor",
       "description": "Frequently asked questions about legal services, Investor Pass and investments in Paraguay."
     },
     "hero": {
@@ -442,19 +442,19 @@
   },
   "contacto": {
     "seo": {
-      "title": "Contact \u2014 Alejandro Villamayor | Lawyer in Asunci\u00f3n",
+      "title": "Contact — Alejandro Villamayor | Lawyer in Asunción",
       "description": "Contact me for a free consultation. WhatsApp, phone or email."
     },
     "hero": {
       "title": "Contact",
-      "subtitle": "Here to help \u2014 free consultation",
+      "subtitle": "Here to help — free consultation",
       "trustBadgesEnabled": false
     }
   },
   "footer": {
     "businessName": "Alejandro Villamayor",
-    "city": "Asunci\u00f3n, Paraguay",
-    "copyright": "\u00a9 {{year}} Alejandro Villamayor \u2014 Attorney. Member of the Paraguayan Bar Association.",
+    "city": "Asunción, Paraguay",
+    "copyright": "© {{year}} Alejandro Villamayor — Attorney. Member of the Paraguayan Bar Association.",
     "disclaimer": "This site contains general information and does not constitute legal advice.",
     "navLinks": [
       {
@@ -483,7 +483,5 @@
       }
     ]
   },
-  "whatsapp": {
-    "defaultMessage": "Hi Alejandro, I saw your website and I'd like to consult about a legal matter."
-  }
+  "whatsapp": "+595981324569"
 }

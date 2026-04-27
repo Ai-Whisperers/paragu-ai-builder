@@ -1,0 +1,22 @@
+{
+  "id": "visa_passport_service",
+  "nameEs": "Tramite de Visas",
+  "nameEn": "Visa Service",
+  "verticalId": "hospitality-tourism",
+  "subVertical": "travel-agency",
+  "extends": "restaurant",
+  "tokens": "visa_passport_service",
+  "seo": {
+    "schemaType": "LodgingBusiness",
+    "titleTemplate": "{{businessName}} - Tramite de Visas en {{city}}",
+    "descriptionTemplate": "Tramite de Visas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "tramite de visas {{city}}",
+      "visa service {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Tramite de Visas",
+    "subheadlineTemplate": "Tramite de Visas profesional en {{city}}."
+  }
+}

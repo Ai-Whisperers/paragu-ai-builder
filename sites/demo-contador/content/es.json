@@ -14,10 +14,22 @@
   "navigation": {
     "businessName": "Contador",
     "items": [
-      { "label": "Inicio", "href": "/s/es/demo-contador" },
-      { "label": "Servicios", "href": "/s/es/demo-contador/servicios" },
-      { "label": "Equipo", "href": "/s/es/demo-contador/team" },
-      { "label": "Contacto", "href": "/s/es/demo-contador/contacto" }
+      {
+        "label": "Inicio",
+        "href": "/s/es/demo-contador"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/demo-contador/servicios"
+      },
+      {
+        "label": "Equipo",
+        "href": "/s/es/demo-contador/team"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/demo-contador/contacto"
+      }
     ],
     "ctaText": "Contactar",
     "ctaHref": "https://wa.me/595981234567"
@@ -250,13 +262,23 @@
     "copyright": "© {{year}} Contador Asunción",
     "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real.",
     "navLinks": [
-      { "label": "Inicio", "href": "/s/es/demo-contador" },
-      { "label": "Servicios", "href": "/s/es/demo-contador/servicios" },
-      { "label": "Equipo", "href": "/s/es/demo-contador/team" },
-      { "label": "Contacto", "href": "/s/es/demo-contador/contacto" }
+      {
+        "label": "Inicio",
+        "href": "/s/es/demo-contador"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/demo-contador/servicios"
+      },
+      {
+        "label": "Equipo",
+        "href": "/s/es/demo-contador/team"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/demo-contador/contacto"
+      }
     ]
   },
-  "whatsapp": {
-    "defaultMessage": "Hola, vi el demo de Contador y me interesa un sitio para mi negocio"
-  }
+  "whatsapp": "+595981234567"
 }

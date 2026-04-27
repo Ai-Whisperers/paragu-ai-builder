@@ -1,0 +1,22 @@
+{
+  "id": "mead_honey_products",
+  "nameEs": "Hidromiel y Miel",
+  "nameEn": "Mead Honey Shop",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "apiary",
+  "extends": "agriculture_base",
+  "tokens": "mead_honey_products",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Hidromiel y Miel en {{city}}",
+    "descriptionTemplate": "Hidromiel y Miel profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "hidromiel y miel {{city}}",
+      "mead honey shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Hidromiel y Miel",
+    "subheadlineTemplate": "Hidromiel y Miel profesional en {{city}}."
+  }
+}

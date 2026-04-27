@@ -1,0 +1,21 @@
+{
+  "id": "vivero",
+  "nameEs": "Vivero / Plantas",
+  "nameEn": "Nursery Garden Center",
+  "verticalId": "retail-local",
+  "extends": "retail_base",
+  "tokens": "vivero",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Vivero / Plantas en {{city}}",
+    "descriptionTemplate": "Amplio surtido de plantas de interior y exterior, macetas, tierra y asesoramiento.",
+    "keywords": [
+      "vivero {{city}}",
+      "plantas {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Plantas que alegran tu hogar",
+    "subheadlineTemplate": "Amplio surtido de plantas de interior y exterior, macetas, tierra y asesoramiento."
+  }
+}

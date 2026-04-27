@@ -121,10 +121,7 @@
     "phone": "+595 982 515 138",
     "email": "info@nexapropiedades.com"
   },
-  "whatsapp": {
-    "phone": "+595 982 515 138",
-    "message": "Olá, tenho interesse em saber mais sobre os imóveis disponíveis."
-  },
+  "whatsapp": "595981123456",
   "propertiesPage": {
     "seo": {
       "title": "Imóveis à Venda — Nexa Propiedades Paraguai",
@@ -136,10 +133,12 @@
     },
     "listings": {
       "title": "Propriedades Disponíveis",
-      "fetchFromApi": { "siteSlug": "nexa-propiedades" },
+      "fetchFromApi": {
+        "siteSlug": "nexa-propiedades"
+      },
       "properties": []
     },
-        "cta": {
+    "cta": {
       "title": "Não encontrou o que procurava?",
       "buttonText": "Falar com Corretor",
       "buttonHref": "/s/pt/nexa-propiedades/contacto"

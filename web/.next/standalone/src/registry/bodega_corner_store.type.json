@@ -1,0 +1,22 @@
+{
+  "id": "bodega_corner_store",
+  "nameEs": "Despensa Bodega",
+  "nameEn": "Corner Store",
+  "verticalId": "retail-local",
+  "subVertical": "grocery-market",
+  "extends": "retail_base",
+  "tokens": "bodega_corner_store",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Despensa Bodega en {{city}}",
+    "descriptionTemplate": "Despensa Bodega profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "despensa bodega {{city}}",
+      "corner store {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Despensa Bodega",
+    "subheadlineTemplate": "Despensa Bodega profesional en {{city}}."
+  }
+}

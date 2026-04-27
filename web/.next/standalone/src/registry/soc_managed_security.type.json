@@ -1,0 +1,25 @@
+{
+  "id": "soc_managed_security",
+  "nameEs": "Proveedor SOC",
+  "nameEn": "SOC Provider",
+  "verticalId": "technology-digital",
+  "subVertical": "cybersecurity",
+  "extends": "technology_base",
+  "tokens": "soc_managed_security",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Proveedor SOC en {{city}}",
+    "descriptionTemplate": "Proveedor SOC profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "proveedor soc {{city}}",
+      "soc provider {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Proveedor SOC",
+    "subheadlineTemplate": "Proveedor SOC profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

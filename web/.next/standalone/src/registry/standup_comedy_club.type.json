@@ -1,0 +1,25 @@
+{
+  "id": "standup_comedy_club",
+  "nameEs": "Club de Comedia",
+  "nameEn": "Standup Club",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "comedy-club",
+  "extends": "entertainment_base",
+  "tokens": "standup_comedy_club",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Club de Comedia en {{city}}",
+    "descriptionTemplate": "Club de Comedia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "club de comedia {{city}}",
+      "standup club {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Club de Comedia",
+    "subheadlineTemplate": "Club de Comedia profesional en {{city}}."
+  },
+  "flags": [
+    "age-gated"
+  ]
+}

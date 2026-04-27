@@ -1,0 +1,27 @@
+{
+  "id": "pintor",
+  "nameEs": "Pintor",
+  "nameEn": "Painter",
+  "verticalId": "trades-home-services",
+  "extends": "trades_base",
+  "tokens": "pintor",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Pintor en {{city}}",
+    "descriptionTemplate": "Pintura interior y exterior, residencial y comercial en {{city}}.",
+    "keywords": [
+      "pintor {{city}}",
+      "pintura casa {{city}}",
+      "pintura fachada {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Colores que transforman",
+    "subheadlineTemplate": "Pintura interior y exterior, residencial y comercial en {{city}}."
+  },
+  "serviceCategories": [
+    "interior",
+    "exterior",
+    "especiales"
+  ]
+}

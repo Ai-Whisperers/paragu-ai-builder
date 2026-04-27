@@ -1,0 +1,22 @@
+{
+  "id": "mobile_veterinary_service",
+  "nameEs": "Veterinaria Domicilio",
+  "nameEn": "Mobile Vet",
+  "verticalId": "health-wellness",
+  "subVertical": "veterinary",
+  "extends": "health_wellness_base",
+  "tokens": "mobile_veterinary_service",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Veterinaria Domicilio en {{city}}",
+    "descriptionTemplate": "Veterinaria Domicilio profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "veterinaria domicilio {{city}}",
+      "mobile vet {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Veterinaria Domicilio",
+    "subheadlineTemplate": "Veterinaria Domicilio profesional en {{city}}."
+  }
+}

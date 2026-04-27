@@ -1,0 +1,25 @@
+{
+  "id": "diversity_inclusion_training",
+  "nameEs": "Capacitacion DEI",
+  "nameEn": "DEI Training",
+  "verticalId": "education-training",
+  "subVertical": "corporate-training",
+  "extends": "educacion",
+  "tokens": "diversity_inclusion_training",
+  "seo": {
+    "schemaType": "EducationalOrganization",
+    "titleTemplate": "{{businessName}} - Capacitacion DEI en {{city}}",
+    "descriptionTemplate": "Capacitacion DEI profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "capacitacion dei {{city}}",
+      "dei training {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Capacitacion DEI",
+    "subheadlineTemplate": "Capacitacion DEI profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

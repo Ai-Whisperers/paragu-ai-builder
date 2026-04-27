@@ -1,29 +1,111 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "animal_rescue_nonprofit",
-  "title": "Rescate Animal Business Input Schema (SCAFFOLD)",
-  "description": "Additional fields for Rescate Animal businesses beyond Base Business. Generated scaffold - review and extend with domain-specific fields.",
+  "title": "Rescate Animal Business Input Schema",
+  "description": "Fields for animal rescue businesses: adoption process, donation, sponsorship, volunteer management.",
   "allOf": [
-    {
-      "$ref": "#base-business"
-    }
+    { "$ref": "#base-business" }
   ],
-  "properties": {},
+  "properties": {
+    "adoption": {
+      "type": "object",
+      "properties": {
+        "feeDogGs": { "type": "string", "description": "Adoption reimbursement for dogs in Guaraníes" },
+        "feeCatGs": { "type": "string", "description": "Adoption reimbursement for cats in Guaraníes" },
+        "whatsappForm": { "type": "string", "description": "WhatsApp URL with pre-filled adoption message" },
+        "requirements": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "donation": {
+      "type": "object",
+      "properties": {
+        "mercadoPago": { "type": "string", "description": "MercadoPago donation URL" },
+        "whatsapp": { "type": "string", "description": "WhatsApp donation link" }
+      }
+    },
+    "sponsor": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "benefits": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "rescues": { "type": "string" },
+        "adoptions": { "type": "string" },
+        "yearsActive": { "type": "string" }
+      }
+    },
+    "founded": { "type": "string" },
+    "mission": { "type": "string" },
+    "values": { "type": "array", "items": { "type": "string" } },
+    "successStories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "story": { "type": "string" },
+          "quote": { "type": "string" },
+          "outcome": { "type": "string" }
+        }
+      }
+    },
+    "featuredAnimals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "hashtag": { "type": "string" },
+          "description": { "type": "string" },
+          "status": { "type": "string" },
+          "age": { "type": "string" },
+          "image": { "type": "string" }
+        }
+      }
+    },
+    "newsMentions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "outlet": { "type": "string" },
+          "title": { "type": "string" },
+          "date": { "type": "string" },
+          "url": { "type": "string" },
+          "quote": { "type": "string" }
+        }
+      }
+    }
+  },
   "inputForm": {
     "priority1": [
       "businessName",
       "contact.phone",
+      "contact.whatsapp",
       "contact.email"
     ],
     "priority2": [
       "location.address",
       "location.city",
-      "services"
+      "services",
+      "founded",
+      "stats.rescues",
+      "stats.adoptions"
     ],
     "priority3": [
       "branding.logoUrl",
       "team",
-      "seo.googleBusinessProfileUrl"
+      "seo.googleBusinessProfileUrl",
+      "donation.mercadoPago",
+      "adoption.whatsappForm"
     ]
   }
 }

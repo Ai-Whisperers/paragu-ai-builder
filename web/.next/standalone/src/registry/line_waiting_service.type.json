@@ -1,0 +1,22 @@
+{
+  "id": "line_waiting_service",
+  "nameEs": "Servicio de Filas",
+  "nameEn": "Line Waiting",
+  "verticalId": "service-booking",
+  "subVertical": "errands-concierge",
+  "extends": "gimnasio",
+  "tokens": "line_waiting_service",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Servicio de Filas en {{city}}",
+    "descriptionTemplate": "Servicio de Filas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "servicio de filas {{city}}",
+      "line waiting {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Servicio de Filas",
+    "subheadlineTemplate": "Servicio de Filas profesional en {{city}}."
+  }
+}

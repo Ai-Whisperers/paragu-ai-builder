@@ -1,0 +1,22 @@
+{
+  "id": "youth_sports_league",
+  "nameEs": "Liga Juvenil",
+  "nameEn": "Youth League",
+  "verticalId": "sports-recreation",
+  "subVertical": "team-sports-league",
+  "extends": "sports_base",
+  "tokens": "youth_sports_league",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Liga Juvenil en {{city}}",
+    "descriptionTemplate": "Liga Juvenil profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "liga juvenil {{city}}",
+      "youth league {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Liga Juvenil",
+    "subheadlineTemplate": "Liga Juvenil profesional en {{city}}."
+  }
+}

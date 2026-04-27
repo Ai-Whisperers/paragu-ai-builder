@@ -1,0 +1,22 @@
+{
+  "id": "chocolate_shop",
+  "nameEs": "Chocolateria",
+  "nameEn": "Chocolatier",
+  "verticalId": "food-beverage",
+  "subVertical": "cafe-bakery",
+  "extends": "restaurant",
+  "tokens": "chocolate_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Chocolateria en {{city}}",
+    "descriptionTemplate": "Chocolateria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "chocolateria {{city}}",
+      "chocolatier {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Chocolateria",
+    "subheadlineTemplate": "Chocolateria profesional en {{city}}."
+  }
+}

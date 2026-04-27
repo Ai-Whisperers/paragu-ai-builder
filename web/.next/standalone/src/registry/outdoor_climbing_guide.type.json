@@ -1,0 +1,22 @@
+{
+  "id": "outdoor_climbing_guide",
+  "nameEs": "Guia Escalada",
+  "nameEn": "Climbing Guide",
+  "verticalId": "sports-recreation",
+  "subVertical": "climbing-adventure",
+  "extends": "sports_base",
+  "tokens": "outdoor_climbing_guide",
+  "seo": {
+    "schemaType": "SportsActivityLocation",
+    "titleTemplate": "{{businessName}} - Guia Escalada en {{city}}",
+    "descriptionTemplate": "Guia Escalada profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "guia escalada {{city}}",
+      "climbing guide {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Guia Escalada",
+    "subheadlineTemplate": "Guia Escalada profesional en {{city}}."
+  }
+}

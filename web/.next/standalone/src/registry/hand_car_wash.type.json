@@ -1,0 +1,22 @@
+{
+  "id": "hand_car_wash",
+  "nameEs": "Lavadero a Mano",
+  "nameEn": "Hand Car Wash",
+  "verticalId": "automotive",
+  "subVertical": "wash-detail",
+  "extends": "automotive_base",
+  "tokens": "hand_car_wash",
+  "seo": {
+    "schemaType": "AutomotiveBusiness",
+    "titleTemplate": "{{businessName}} - Lavadero a Mano en {{city}}",
+    "descriptionTemplate": "Lavadero a Mano profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "lavadero a mano {{city}}",
+      "hand car wash {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Lavadero a Mano",
+    "subheadlineTemplate": "Lavadero a Mano profesional en {{city}}."
+  }
+}

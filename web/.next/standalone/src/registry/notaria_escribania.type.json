@@ -1,0 +1,27 @@
+{
+  "id": "notaria_escribania",
+  "nameEs": "Escribania",
+  "nameEn": "Notary",
+  "verticalId": "b2b-professional",
+  "extends": "professional_services_base",
+  "tokens": "notaria_escribania",
+  "seo": {
+    "schemaType": "Notary",
+    "titleTemplate": "{{businessName}} - Escribania en {{city}}",
+    "descriptionTemplate": "Servicios notariales para personas y empresas en {{city}}.",
+    "keywords": [
+      "escribania {{city}}",
+      "notaria {{city}}",
+      "escritura publica {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escrituras y poderes, rapido y seguro",
+    "subheadlineTemplate": "Servicios notariales para personas y empresas en {{city}}."
+  },
+  "serviceCategories": [
+    "escrituras",
+    "poderes",
+    "empresas"
+  ]
+}

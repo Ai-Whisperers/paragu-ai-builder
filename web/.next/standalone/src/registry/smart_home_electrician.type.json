@@ -1,0 +1,22 @@
+{
+  "id": "smart_home_electrician",
+  "nameEs": "Electricista Domotica",
+  "nameEn": "Smart Home",
+  "verticalId": "trades-home-services",
+  "subVertical": "electrical",
+  "extends": "trades_base",
+  "tokens": "smart_home_electrician",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Electricista Domotica en {{city}}",
+    "descriptionTemplate": "Electricista Domotica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "electricista domotica {{city}}",
+      "smart home {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Electricista Domotica",
+    "subheadlineTemplate": "Electricista Domotica profesional en {{city}}."
+  }
+}

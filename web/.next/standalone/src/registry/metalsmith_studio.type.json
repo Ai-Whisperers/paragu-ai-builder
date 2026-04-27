@@ -1,0 +1,22 @@
+{
+  "id": "metalsmith_studio",
+  "nameEs": "Taller Metalurgia Artistica",
+  "nameEn": "Metalsmith",
+  "verticalId": "portfolio-professional",
+  "subVertical": "fine-arts",
+  "extends": "diseno_grafico",
+  "tokens": "metalsmith_studio",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Taller Metalurgia Artistica en {{city}}",
+    "descriptionTemplate": "Taller Metalurgia Artistica profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "taller metalurgia artistica {{city}}",
+      "metalsmith {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Taller Metalurgia Artistica",
+    "subheadlineTemplate": "Taller Metalurgia Artistica profesional en {{city}}."
+  }
+}

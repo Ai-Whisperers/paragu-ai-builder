@@ -1,0 +1,22 @@
+{
+  "id": "ghostwriter",
+  "nameEs": "Escritor Fantasma",
+  "nameEn": "Ghostwriter",
+  "verticalId": "portfolio-professional",
+  "subVertical": "writing-editorial",
+  "extends": "diseno_grafico",
+  "tokens": "ghostwriter",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Escritor Fantasma en {{city}}",
+    "descriptionTemplate": "Escritor Fantasma profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "escritor fantasma {{city}}",
+      "ghostwriter {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Escritor Fantasma",
+    "subheadlineTemplate": "Escritor Fantasma profesional en {{city}}."
+  }
+}

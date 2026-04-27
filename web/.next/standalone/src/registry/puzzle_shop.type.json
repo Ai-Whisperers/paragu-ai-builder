@@ -1,0 +1,22 @@
+{
+  "id": "puzzle_shop",
+  "nameEs": "Rompecabezas",
+  "nameEn": "Puzzle Shop",
+  "verticalId": "retail-local",
+  "subVertical": "bookstore-hobby",
+  "extends": "retail_base",
+  "tokens": "puzzle_shop",
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Rompecabezas en {{city}}",
+    "descriptionTemplate": "Rompecabezas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "rompecabezas {{city}}",
+      "puzzle shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Rompecabezas",
+    "subheadlineTemplate": "Rompecabezas profesional en {{city}}."
+  }
+}

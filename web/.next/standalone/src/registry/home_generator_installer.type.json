@@ -1,0 +1,22 @@
+{
+  "id": "home_generator_installer",
+  "nameEs": "Instalador Generadores",
+  "nameEn": "Generator Installer",
+  "verticalId": "trades-home-services",
+  "subVertical": "electrical",
+  "extends": "trades_base",
+  "tokens": "home_generator_installer",
+  "seo": {
+    "schemaType": "HomeAndConstructionBusiness",
+    "titleTemplate": "{{businessName}} - Instalador Generadores en {{city}}",
+    "descriptionTemplate": "Instalador Generadores profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "instalador generadores {{city}}",
+      "generator installer {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Instalador Generadores",
+    "subheadlineTemplate": "Instalador Generadores profesional en {{city}}."
+  }
+}

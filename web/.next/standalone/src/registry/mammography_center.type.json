@@ -1,0 +1,22 @@
+{
+  "id": "mammography_center",
+  "nameEs": "Mamografia",
+  "nameEn": "Mammography Center",
+  "verticalId": "health-wellness",
+  "subVertical": "diagnostics-imaging",
+  "extends": "health_wellness_base",
+  "tokens": "mammography_center",
+  "seo": {
+    "schemaType": "MedicalBusiness",
+    "titleTemplate": "{{businessName}} - Mamografia en {{city}}",
+    "descriptionTemplate": "Mamografia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mamografia {{city}}",
+      "mammography center {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mamografia",
+    "subheadlineTemplate": "Mamografia profesional en {{city}}."
+  }
+}

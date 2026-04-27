@@ -1,0 +1,82 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "schemaType": "LocalBusiness",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "home.hero",
+      "image": "https://www.polkisquad.com/images/img13.webp"
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "stats",
+      "items": [
+        { "value": "+7.000", "label": "Rescates" },
+        { "value": "+3.000", "label": "Adopciones" },
+        { "value": "10+", "label": "Años Ayudando" },
+        { "value": "100%", "label": "Corazón" }
+      ]
+    },
+    {
+      "id": "services",
+      "variant": "grid",
+      "content": "services"
+    },
+    {
+      "id": "gallery",
+      "variant": "masonry",
+      "content": "featuredAnimals",
+      "title": "Conoce los Peluditos",
+      "subtitle": "Estos son algunos de los animalitos que buscan un hogar"
+    },
+    {
+      "id": "process",
+      "variant": "horizontal",
+      "content": "adoptionProcess",
+      "title": "Proceso de Adopción",
+      "subtitle": "Pasos simples para darle un hogar a un peludito"
+    },
+    {
+      "id": "testimonials",
+      "variant": "grid",
+      "content": "testimonials",
+      "title": "Historias de Éxito",
+      "subtitle": "Familias que transformaron la vida de un peludito"
+    },
+    {
+      "id": "pricing-table",
+      "variant": "simple",
+      "content": "adoptionProcess.fees",
+      "title": "Reembolso de Adopción",
+      "subtitle": "Lo que incluye tu donación"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "cta"
+    },
+    {
+      "id": "team",
+      "variant": "grid",
+      "content": "team",
+      "title": "Nuestro Equipo",
+      "subtitle": "Las personas detrás de Polki Squad"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "faq"
+    },
+    {
+      "id": "newsletter-signup",
+      "variant": "inline",
+      "content": "sponsor",
+      "title": "Sé Padrino o Madrina",
+      "subtitle": "Con tu donación mensual ayudas a un peludito específico"
+    }
+  ]
+}

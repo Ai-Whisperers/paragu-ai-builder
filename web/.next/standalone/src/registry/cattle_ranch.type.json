@@ -1,0 +1,22 @@
+{
+  "id": "cattle_ranch",
+  "nameEs": "Estancia",
+  "nameEn": "Cattle Ranch",
+  "verticalId": "agriculture-agribusiness",
+  "subVertical": "livestock-ranch",
+  "extends": "agriculture_base",
+  "tokens": "cattle_ranch",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Estancia en {{city}}",
+    "descriptionTemplate": "Estancia profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "estancia {{city}}",
+      "cattle ranch {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Estancia",
+    "subheadlineTemplate": "Estancia profesional en {{city}}."
+  }
+}

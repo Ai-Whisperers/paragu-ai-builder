@@ -1,0 +1,22 @@
+{
+  "id": "horse_tack_shop",
+  "nameEs": "Talabarteria",
+  "nameEn": "Tack Shop",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-retail",
+  "extends": "pets_base",
+  "tokens": "horse_tack_shop",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Talabarteria en {{city}}",
+    "descriptionTemplate": "Talabarteria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "talabarteria {{city}}",
+      "tack shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Talabarteria",
+    "subheadlineTemplate": "Talabarteria profesional en {{city}}."
+  }
+}

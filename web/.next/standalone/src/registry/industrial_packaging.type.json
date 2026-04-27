@@ -1,0 +1,25 @@
+{
+  "id": "industrial_packaging",
+  "nameEs": "Empaque Industrial",
+  "nameEn": "Industrial Packaging",
+  "verticalId": "trades-industrial",
+  "subVertical": "packaging-labeling",
+  "extends": "industrial_base",
+  "tokens": "industrial_packaging",
+  "seo": {
+    "schemaType": "ProfessionalService",
+    "titleTemplate": "{{businessName}} - Empaque Industrial en {{city}}",
+    "descriptionTemplate": "Empaque Industrial profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "empaque industrial {{city}}",
+      "industrial packaging {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Empaque Industrial",
+    "subheadlineTemplate": "Empaque Industrial profesional en {{city}}."
+  },
+  "flags": [
+    "B2B"
+  ]
+}

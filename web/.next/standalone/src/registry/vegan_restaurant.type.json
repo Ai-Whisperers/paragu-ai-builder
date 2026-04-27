@@ -1,0 +1,22 @@
+{
+  "id": "vegan_restaurant",
+  "nameEs": "Restaurante Vegano",
+  "nameEn": "Vegan Restaurant",
+  "verticalId": "food-beverage",
+  "subVertical": "full-service-restaurant",
+  "extends": "restaurant",
+  "tokens": "vegan_restaurant",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Restaurante Vegano en {{city}}",
+    "descriptionTemplate": "Restaurante Vegano profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "restaurante vegano {{city}}",
+      "vegan restaurant {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Restaurante Vegano",
+    "subheadlineTemplate": "Restaurante Vegano profesional en {{city}}."
+  }
+}

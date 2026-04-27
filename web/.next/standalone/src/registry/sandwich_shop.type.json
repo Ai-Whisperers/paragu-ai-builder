@@ -1,0 +1,22 @@
+{
+  "id": "sandwich_shop",
+  "nameEs": "Sanducheria",
+  "nameEn": "Sandwich Shop",
+  "verticalId": "food-beverage",
+  "subVertical": "quick-service",
+  "extends": "restaurant",
+  "tokens": "sandwich_shop",
+  "seo": {
+    "schemaType": "FoodEstablishment",
+    "titleTemplate": "{{businessName}} - Sanducheria en {{city}}",
+    "descriptionTemplate": "Sanducheria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "sanducheria {{city}}",
+      "sandwich shop {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Sanducheria",
+    "subheadlineTemplate": "Sanducheria profesional en {{city}}."
+  }
+}

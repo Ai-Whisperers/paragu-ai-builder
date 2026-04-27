@@ -1,0 +1,22 @@
+{
+  "id": "puppet_marionette_theater",
+  "nameEs": "Teatro Titeres",
+  "nameEn": "Puppet Theater",
+  "verticalId": "arts-entertainment-venues",
+  "subVertical": "theater-performing",
+  "extends": "entertainment_base",
+  "tokens": "puppet_marionette_theater",
+  "seo": {
+    "schemaType": "EntertainmentBusiness",
+    "titleTemplate": "{{businessName}} - Teatro Titeres en {{city}}",
+    "descriptionTemplate": "Teatro Titeres profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "teatro titeres {{city}}",
+      "puppet theater {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Teatro Titeres",
+    "subheadlineTemplate": "Teatro Titeres profesional en {{city}}."
+  }
+}

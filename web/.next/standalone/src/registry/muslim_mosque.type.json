@@ -1,0 +1,22 @@
+{
+  "id": "muslim_mosque",
+  "nameEs": "Mezquita",
+  "nameEn": "Mosque",
+  "verticalId": "membership-community",
+  "subVertical": "religious-congregation",
+  "extends": "membership_base",
+  "tokens": "muslim_mosque",
+  "seo": {
+    "schemaType": "Organization",
+    "titleTemplate": "{{businessName}} - Mezquita en {{city}}",
+    "descriptionTemplate": "Mezquita profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "mezquita {{city}}",
+      "mosque {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Mezquita",
+    "subheadlineTemplate": "Mezquita profesional en {{city}}."
+  }
+}

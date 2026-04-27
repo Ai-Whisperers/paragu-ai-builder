@@ -1,0 +1,80 @@
+{
+  "type": "animal_rescue_nonprofit",
+  "vertical": "pets-animals",
+  "country": "Paraguay",
+  "domain": "polkisquad.com",
+  "stagingDomain": "staging.polkisquad.com",
+  "defaultLocale": "es",
+  "locales": ["es"],
+  "navigation": [
+    {
+      "labelKey": "navigation.home",
+      "path": ""
+    },
+    {
+      "label": "Nuestros Servicios",
+      "path": "servicios"
+    },
+    {
+      "label": "Conoce los Peluditos",
+      "path": "peluditos"
+    },
+    {
+      "label": "Proceso de Adopción",
+      "path": "proceso-adopcion"
+    },
+    {
+      "label": "Historias de Éxito",
+      "path": "historias-exito"
+    },
+    {
+      "label": "Sé Padrino",
+      "path": "se-padrino"
+    },
+    {
+      "label": "Contacto",
+      "path": "contacto"
+    }
+  ],
+  "images": {
+    "manifest": "/sites/polki-squad/images.json",
+    "hero": "https://www.polkisquad.com/images/img13.webp"
+  },
+  "contact": {
+    "phone": "+595 971 771 371",
+    "whatsapp": "595971771371",
+    "email": "polkisquad@gmail.com",
+    "address": "Benigno González, Luque, Paraguay",
+    "hours": "Lunes a Viernes 9:30-16:30, Sábados 9:30-13:00"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/polkisquad/",
+    "facebook": "https://www.facebook.com/Polki-Squad-100064415962714/",
+    "youtube": "https://www.youtube.com/watch?v=Wz4v9ovuRq8"
+  },
+  "features": {
+    "instagramFeed": true,
+    "newsletterSignup": true,
+    "donationCta": true
+  },
+  "donation": {
+    "mercadoPago": "https://www.mercadopago.com/polki-squad",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+595971771371&text=Hola!%20quiero%20donar%20a%20Polki%20Squad%20%F0%9F%98%83"
+  },
+  "adoption": {
+    "feeDogGs": "G. 100.000",
+    "feeCatGs": "G. 50.000",
+    "requirements": [
+      "Patio cerrado",
+      "Mayor de edad",
+      "Capacidad económica para veterinaria",
+      "Fotos del hogar",
+      "Sin antecedentes de maltrato"
+    ],
+    "whatsappForm": "https://api.whatsapp.com/send?phone=+595971771371&text=Hola!%20quiero%20adoptar%20a%20un%20peludito%20%F0%9F%90%BE"
+  },
+  "is_demo": false,
+  "isLiveProduction": true,
+  "path": "/s/polki-squad",
+  "publicUrl": "https://polkisquad.com/s/polki-squad"
+}

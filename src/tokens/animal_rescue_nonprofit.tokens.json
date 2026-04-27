@@ -1,4 +1,23 @@
 {
-  "$comment": "Inherits pets-animals vertical defaults",
-  "extends": "vertical:pets-animals"
+  "$comment": "Inherits pets-animals vertical defaults — Pet Friendly theme",
+  "extends": "vertical:pets-animals",
+  "overrides": {
+    "palettes": {
+      "polki": {
+        "name": "Polki Squad",
+        "colors": {
+          "primary": "#E85D04",
+          "secondary": "#1B496F",
+          "accent": "#F4A261",
+          "background": "#FFF9F0",
+          "surface": "#FFFFFF",
+          "surfaceLight": "#FFF9F0",
+          "text": "#2D3436",
+          "textLight": "#636E72",
+          "textMuted": "#8395A3"
+        }
+      }
+    },
+    "defaultPalette": "polki"
+  }
 }

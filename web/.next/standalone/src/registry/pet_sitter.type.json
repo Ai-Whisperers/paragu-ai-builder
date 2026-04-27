@@ -1,0 +1,22 @@
+{
+  "id": "pet_sitter",
+  "nameEs": "Cuidador Mascotas",
+  "nameEn": "Pet Sitter",
+  "verticalId": "pets-animals",
+  "subVertical": "pet-sitting-walking",
+  "extends": "pets_base",
+  "tokens": "pet_sitter",
+  "seo": {
+    "schemaType": "LocalBusiness",
+    "titleTemplate": "{{businessName}} - Cuidador Mascotas en {{city}}",
+    "descriptionTemplate": "Cuidador Mascotas profesional en {{city}}. Servicios de calidad con atencion personalizada.",
+    "keywords": [
+      "cuidador mascotas {{city}}",
+      "pet sitter {{city}}"
+    ]
+  },
+  "hero": {
+    "headlineTemplate": "{{businessName}} - Cuidador Mascotas",
+    "subheadlineTemplate": "Cuidador Mascotas profesional en {{city}}."
+  }
+}
