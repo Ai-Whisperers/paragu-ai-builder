@@ -4,6 +4,9 @@
 
 import type React from 'react'
 
+import { HeaderSection } from '@/components/sections/header-section'
+import { HeroSection } from '@/components/sections/hero-section'
+import { ServicesSection } from '@/components/sections/services-section'
 import { ProgramsComparisonSection } from '@/components/sections/programs-comparison-section'
 import { ProcessTimelineSection } from '@/components/sections/process-timeline-section'
 import { WhyDestinationSection } from '@/components/sections/why-destination-section'
@@ -19,7 +22,13 @@ import { CalcIpsSection } from '@/components/sections/calc-ips-section'
 import { CalcCostoEmpleadoSection } from '@/components/sections/calc-costo-empleado-section'
 import { IntakeWizardSection } from '@/components/sections/intake-wizard-section'
 import { MattressQuizSection } from '@/components/sections/mattress-quiz-section'
+import { GallerySection } from '@/components/sections/gallery-section'
+import { IllustrationSection } from '@/components/sections/illustration-section'
 import { ContactStripSection } from '@/components/sections/contact-strip-section'
+import { TeamSection } from '@/components/sections/team-section'
+import { TestimonialsSection } from '@/components/sections/testimonials-section'
+import { ContactSection } from '@/components/sections/contact-section'
+import { FAQSection } from '@/components/sections/faq-section'
 import { CTABannerSection } from '@/components/sections/cta-banner-section'
 import { BookingEmbedSection } from '@/components/sections/booking-embed-section'
 import { BookingWizardSection } from '@/components/sections/booking-wizard-section'
@@ -31,12 +40,16 @@ import { BlogPostSection } from '@/components/sections/blog-post-section'
 import { ProductCatalogSection } from '@/components/sections/product-catalog-section'
 import { AgeGateSection } from '@/components/sections/age-gate-section'
 import { TrustBadgesSection } from '@/components/sections/trust-badges-section'
+import { FooterSection } from '@/components/sections/footer-section'
 import { BeforeAfterSection } from '@/components/sections/before-after-section'
+import { BookingSection } from '@/components/sections/booking-section'
 import { InstagramFeedSection } from '@/components/sections/instagram-feed-section'
+import { BranchesSection } from '@/components/sections/branches-section'
 import { ClassScheduleSection } from '@/components/sections/class-schedule-section'
 import { EmergencyIndicatorSection } from '@/components/sections/emergency-indicator-section'
 import { EventVenuesSection } from '@/components/sections/event-venues-section'
 import { MembershipPlansSection } from '@/components/sections/membership-plans-section'
+import { PortfolioSection } from '@/components/sections/portfolio-section'
 import { QuoteFormSection } from '@/components/sections/quote-form-section'
 import { RoomBookingSection } from '@/components/sections/room-booking-section'
 import { LeadFormSection } from '@/components/sections/lead-form-section'
@@ -45,8 +58,11 @@ import { PricingRangeSection } from '@/components/sections/pricing-range-section
 import { PricingTableSection } from '@/components/sections/pricing-table-section'
 import { FaqCategorizedSection } from '@/components/sections/faq-categorized-section'
 import { PropertyListingsSection } from '@/components/sections/property-listings-section'
+import { FeaturesSection } from '@/components/sections/features-section'
 import { ResourcesListSection } from '@/components/sections/resources-list-section'
+import { ProcessSection } from '@/components/sections/process-section'
 import { SavingsCalculatorSection } from '@/components/sections/savings-calculator-section'
+import { OmakaseSection } from '@/components/sections/omakase-section'
 import { SakeMenuSection } from '@/components/sections/sake-menu-section'
 import { ConveyorBeltSection } from '@/components/sections/conveyor-belt-section'
 import { IntakeQuestionnaireSection } from '@/components/sections/intake-questionnaire-section'
@@ -74,8 +90,8 @@ import { CalcResimpleQualifierSection } from '@/components/sections/calc-resimpl
 import { ColorCodedMenuSection } from '@/components/sections/color-coded-menu-section'
 import { CountdownTimerSection } from '@/components/sections/countdown-timer-section'
 import { CurrencyToggleSection } from '@/components/sections/currency-toggle-section'
-import { DEFAULT } from '@/components/sections/delivery-calculator-section'
-import { FAQ } from '@/components/sections/faq-chatbot-section'
+import { DeliveryCalculator } from '@/components/sections/delivery-calculator-section'
+import { FAQChatbot } from '@/components/sections/faq-chatbot-section'
 import { GoogleReviewsWidgetSection } from '@/components/sections/google-reviews-widget-section'
 import { LanguageSelectorSection } from '@/components/sections/language-selector-section'
 import { MaturityAssessmentSection } from '@/components/sections/maturity-assessment-section'
@@ -86,10 +102,10 @@ import { PriceListGenerator } from '@/components/sections/price-list-section'
 import { RecipeSection } from '@/components/sections/recipe-section'
 import { ReferralProgram } from '@/components/sections/referral-section'
 import { RelatedPostsSection } from '@/components/sections/related-posts-section'
-import { SAMPLE } from '@/components/sections/reviews-section'
+import { ReviewCard } from '@/components/sections/reviews-section'
 import { ServiceAreaMapZonesSection } from '@/components/sections/service-area-map-zones-section'
-import { WHATSAPP } from '@/components/sections/smart-whatsapp-section'
-import { STOCK } from '@/components/sections/stock-indicator-section'
+import { SmartWhatsAppButton } from '@/components/sections/smart-whatsapp-section'
+import { StockIndicator } from '@/components/sections/stock-indicator-section'
 import { SubscriptionForm } from '@/components/sections/subscription-section'
 import { TestimonialVideoSection } from '@/components/sections/testimonial-video-section'
 import { TimelineHistorySection } from '@/components/sections/timeline-history-section'
@@ -97,6 +113,9 @@ import { TrustSignalsLogosSection } from '@/components/sections/trust-signals-lo
 import { WeeklySchedule } from '@/components/sections/weekly-schedule-section'
 
 export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
+  header: HeaderSection,
+  hero: HeroSection,
+  services: ServicesSection,
   'programs-comparison': ProgramsComparisonSection,
   'process-timeline': ProcessTimelineSection,
   'why-destination': WhyDestinationSection,
@@ -112,7 +131,13 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'calc-costo-empleado': CalcCostoEmpleadoSection,
   'intake-wizard': IntakeWizardSection,
   'mattress-quiz': MattressQuizSection,
+  gallery: GallerySection,
+  illustration: IllustrationSection,
   'contact-strip': ContactStripSection,
+  team: TeamSection,
+  testimonials: TestimonialsSection,
+  contact: ContactSection,
+  faq: FAQSection,
   'cta-banner': CTABannerSection,
   'booking-embed': BookingEmbedSection,
   'booking-wizard': BookingWizardSection,
@@ -124,12 +149,16 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'product-catalog': ProductCatalogSection,
   'age-gate': AgeGateSection,
   'trust-badges': TrustBadgesSection,
+  footer: FooterSection,
   'before-after': BeforeAfterSection,
+  booking: BookingSection,
   'instagram-feed': InstagramFeedSection,
+  branches: BranchesSection,
   'class-schedule': ClassScheduleSection,
   'emergency-indicator': EmergencyIndicatorSection,
   'event-venues': EventVenuesSection,
   'membership-plans': MembershipPlansSection,
+  portfolio: PortfolioSection,
   'quote-form': QuoteFormSection,
   'room-booking': RoomBookingSection,
   'lead-form': LeadFormSection,
@@ -138,8 +167,11 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'pricing-table': PricingTableSection,
   'faq-categorized': FaqCategorizedSection,
   'property-listings': PropertyListingsSection,
+  features: FeaturesSection,
   'resources-list': ResourcesListSection,
+  process: ProcessSection,
   'savings-calculator': SavingsCalculatorSection,
+  omakase: OmakaseSection,
   'sake-menu': SakeMenuSection,
   'conveyor-belt': ConveyorBeltSection,
   'intake-questionnaire': IntakeQuestionnaireSection,
@@ -167,8 +199,8 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'color-coded-menu': ColorCodedMenuSection,
   'countdown-timer': CountdownTimerSection,
   'currency-toggle': CurrencyToggleSection,
-  'delivery-calculator': DEFAULT,
-  'faq-chatbot': FAQ,
+  'delivery-calculator': DeliveryCalculator,
+  'faq-chatbot': FAQChatbot,
   'google-reviews-widget': GoogleReviewsWidgetSection,
   'language-selector': LanguageSelectorSection,
   'maturity-assessment': MaturityAssessmentSection,
@@ -179,10 +211,10 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   recipe: RecipeSection,
   referral: ReferralProgram,
   'related-posts': RelatedPostsSection,
-  reviews: SAMPLE,
+  reviews: ReviewCard,
   'service-area-map-zones': ServiceAreaMapZonesSection,
-  'smart-whatsapp': WHATSAPP,
-  'stock-indicator': STOCK,
+  'smart-whatsapp': SmartWhatsAppButton,
+  'stock-indicator': StockIndicator,
   subscription: SubscriptionForm,
   'testimonial-video': TestimonialVideoSection,
   'timeline-history': TimelineHistorySection,

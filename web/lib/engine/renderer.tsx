@@ -164,13 +164,14 @@ export function renderSection(section: ComposedSection): React.ReactNode {
     return null
   }
 
-  // Spread section.data + add variant + compose defaults so components
-  // that accept __styling / variant work identically in both renderers.
+  // The legacy compose system doesn't pass variant in section.data,
+  // but some section components reference `variant` from props.
+  // Provide a fallback to prevent ReferenceError.
   return (
     <Component
       key={`${kebab}-${section.order}`}
       {...section.data}
-      variant={section.data.variant}
+      variant={section.data.variant as string | undefined}
     />
   )
 }

@@ -28,9 +28,9 @@ const OUTPUT_PATH = path.join(OUTPUT_DIR, 'renderer-map.ts')
 const registry = fs.readFileSync(REGISTRY_PATH, 'utf-8')
 
 // Extract section IDs from the SECTION_CATALOG
-// Pattern: "'section-id': {"
+// Pattern: "'section-id': {" or "sectionId: {"
 const sectionIds: string[] = []
-const catalogRegex = /  '([a-z0-9-]+)':\s*\{/g
+const catalogRegex = /  '?([a-z0-9-]+)'?:\s*\{/g
 let match
 while ((match = catalogRegex.exec(registry)) !== null) {
   sectionIds.push(match[1])
@@ -49,10 +49,10 @@ interface ComponentInfo {
 const components: ComponentInfo[] = []
 
 for (const sid of sectionIds) {
-  // The section file could be named:
-  // 1. {sectionId}-section.tsx  (standard)
-  // 2. {sectionId}.tsx (edge case)
-  const possibleNames = [`${sid}-section.tsx`]
+    // The section file could be named:
+    // 1. {sectionId}-section.tsx  (standard)
+    // 2. {sectionId}.tsx (edge case, e.g. whatsapp-float.tsx)
+    const possibleNames = [`${sid}-section.tsx`, `${sid}.tsx`]
   const found = possibleNames.find((name) => sectionFiles.includes(name))
 
   if (found) {
@@ -60,10 +60,10 @@ for (const sid of sectionIds) {
     const content = fs.readFileSync(filePath, 'utf-8')
 
     // Extract the exported component name
-    // Pattern: "export function XxxSection" or "export const XxxSection"
+    // Pattern: "export function XxxSection(..." or "export const XxxSection"
     const exportMatch = content.match(
-      /export (?:function|const) ([A-Za-z0-9]+)(?:Section|[^s])/
-    ) || content.match(/export (?:function|const) ([A-Za-z0-9]+)/)
+      /export (?:function|const) (\w+)\s*[/{\(]/
+    ) || content.match(/export (?:function|const) (\w+)\s*[:<;]/)
 
     if (exportMatch) {
       components.push({
