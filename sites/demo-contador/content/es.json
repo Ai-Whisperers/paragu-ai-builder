@@ -13,30 +13,47 @@
   },
   "navigation": {
     "businessName": "Contador",
-    "navItems": [
-      {
-        "label": "Inicio",
-        "path": ""
-      },
-      {
-        "label": "Servicios",
-        "path": "#servicios"
-      },
-      {
-        "label": "Proceso",
-        "path": "#proceso"
-      },
-      {
-        "label": "Blog",
-        "path": "#blog"
-      },
-      {
-        "label": "Contacto",
-        "path": "#contacto"
-      }
+    "items": [
+      { "label": "Inicio", "href": "/s/es/demo-contador" },
+      { "label": "Servicios", "href": "/s/es/demo-contador/servicios" },
+      { "label": "Equipo", "href": "/s/es/demo-contador/team" },
+      { "label": "Contacto", "href": "/s/es/demo-contador/contacto" }
     ],
     "ctaText": "Contactar",
-    "ctaHref": "#contacto"
+    "ctaHref": "https://wa.me/595981234567"
+  },
+  "servicios": {
+    "seo": {
+      "title": "Servicios — Contador Asunción",
+      "description": "Servicios contables en Asunción: contabilidad general, liquidación de impuestos, planillas, constitución de empresas."
+    },
+    "hero": {
+      "title": "Servicios",
+      "subtitle": "Soluciones contables integrales para tu negocio",
+      "trustBadgesEnabled": false
+    }
+  },
+  "equipo": {
+    "seo": {
+      "title": "Equipo — Contador Asunción",
+      "description": "Conocé nuestro equipo de profesionales en contabilidad y finanzas."
+    },
+    "hero": {
+      "title": "Nuestro Equipo",
+      "subtitle": "Profesionales a tu servicio",
+      "trustBadgesEnabled": false
+    }
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contacto — Contador Asunción",
+      "description": "Contactanos para una consulta gratuita. Estudio contable en Asunción."
+    },
+    "hero": {
+      "title": "Contacto",
+      "subtitle": "Estamos para ayudarte",
+      "trustBadgesEnabled": false
+    }
   },
   "home": {
     "seo": {
@@ -228,9 +245,16 @@
     }
   },
   "footer": {
-    "businessName": "Demo Contador Asunción",
-    "copyright": "© {{year}} Demo Contador Asunción",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+    "businessName": "Contador Asunción",
+    "city": "Asunción",
+    "copyright": "© {{year}} Contador Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real.",
+    "navLinks": [
+      { "label": "Inicio", "href": "/s/es/demo-contador" },
+      { "label": "Servicios", "href": "/s/es/demo-contador/servicios" },
+      { "label": "Equipo", "href": "/s/es/demo-contador/team" },
+      { "label": "Contacto", "href": "/s/es/demo-contador/contacto" }
+    ]
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Contador y me interesa un sitio para mi negocio"

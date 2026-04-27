@@ -16,12 +16,12 @@
   "navigation": {
     "businessName": "Bufete Mendez",
     "items": [
-      { "label": "Inicio", "href": "/s/es/preview-bufete-mendez" },
-      { "label": "Servicios", "href": "/s/es/preview-bufete-mendez/servicios" },
-      { "label": "Equipo", "href": "/s/es/preview-bufete-mendez/equipo" },
-      { "label": "Casos", "href": "/s/es/preview-bufete-mendez/casos" },
-      { "label": "FAQ", "href": "/s/es/preview-bufete-mendez/faq" },
-      { "label": "Contacto", "href": "/s/es/preview-bufete-mendez/contacto" }
+      { "label": "Inicio", "href": "/s/es/bufete-mendez" },
+      { "label": "Servicios", "href": "/s/es/bufete-mendez/servicios" },
+      { "label": "Equipo", "href": "/s/es/bufete-mendez/equipo" },
+      { "label": "Casos", "href": "/s/es/bufete-mendez/casos" },
+      { "label": "FAQ", "href": "/s/es/bufete-mendez/faq" },
+      { "label": "Contacto", "href": "/s/es/bufete-mendez/contacto" }
     ],
     "ctaText": "Consulta Gratis",
     "ctaHref": "https://wa.me/595981123456"
@@ -38,7 +38,7 @@
       "ctaPrimaryText": "Consulta Gratis",
       "ctaPrimaryHref": "https://wa.me/595981123456",
       "ctaSecondaryText": "Nuestros Servicios",
-      "ctaSecondaryHref": "/s/es/preview-bufete-mendez/servicios",
+      "ctaSecondaryHref": "/s/es/bufete-mendez/servicios",
       "trustBadges": [
         "+20 años de experiencia",
         "1000+ casos resueltos",
@@ -355,14 +355,14 @@
     "founded": "2005",
     "copyright": "© 2026 Bufete Mendez & Asociados. Todos los derechos reservados.",
     "navLinks": [
-      { "label": "Inicio", "href": "/s/es/preview-bufete-mendez" },
-      { "label": "Servicios", "href": "/s/es/preview-bufete-mendez/servicios" },
-      { "label": "Equipo", "href": "/s/es/preview-bufete-mendez/equipo" },
-      { "label": "Casos", "href": "/s/es/preview-bufete-mendez/casos" },
-      { "label": "FAQ", "href": "/s/es/preview-bufete-mendez/faq" },
-      { "label": "Contacto", "href": "/s/es/preview-bufete-mendez/contacto" },
-      { "label": "Privacidad", "href": "/s/es/preview-bufete-mendez/privacidad" },
-      { "label": "Términos", "href": "/s/es/preview-bufete-mendez/terminos" }
+      { "label": "Inicio", "href": "/s/es/bufete-mendez" },
+      { "label": "Servicios", "href": "/s/es/bufete-mendez/servicios" },
+      { "label": "Equipo", "href": "/s/es/bufete-mendez/equipo" },
+      { "label": "Casos", "href": "/s/es/bufete-mendez/casos" },
+      { "label": "FAQ", "href": "/s/es/bufete-mendez/faq" },
+      { "label": "Contacto", "href": "/s/es/bufete-mendez/contacto" },
+      { "label": "Privacidad", "href": "/s/es/bufete-mendez/privacidad" },
+      { "label": "Términos", "href": "/s/es/bufete-mendez/terminos" }
     ]
   },
 

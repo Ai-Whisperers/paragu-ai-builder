@@ -38,5 +38,7 @@
   "noindex": true,
   "createdAt": "2026-04-26",
   "source": "manual-upgrade",
-  "is_demo": true
+  "is_demo": true,
+  "path": "/s/es/demo-estudio-contable",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-estudio-contable"
 }

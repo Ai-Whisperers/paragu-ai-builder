@@ -13,17 +13,47 @@
   },
   "navigation": {
     "businessName": "Estudio Contable",
-    "navItems": [
-      { "label": "Inicio", "href": "#hero" },
-      { "label": "Servicios", "href": "#servicios" },
-      { "label": "Planes", "href": "#planes" },
-      { "label": "Equipo", "href": "#equipo" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Calculadoras", "href": "#calculadoras" },
-      { "label": "Contacto", "href": "#contacto" }
+    "items": [
+      { "label": "Inicio", "href": "/s/es/demo-estudio-contable" },
+      { "label": "Servicios", "href": "/s/es/demo-estudio-contable/servicios" },
+      { "label": "Equipo", "href": "/s/es/demo-estudio-contable/equipo" },
+      { "label": "Contacto", "href": "/s/es/demo-estudio-contable/contacto" }
     ],
     "ctaText": "Consulta Gratuita",
     "ctaHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20el%20demo%20de%20Estudio%20Contable%20y%20quiero%20un%20sitio%20para%20mi%20estudio"
+  },
+  "serviciosPage": {
+    "seo": {
+      "title": "Servicios — Estudio Contable Asunción",
+      "description": "Servicios contables en Asunción: contabilidad mensual, liquidación de impuestos, sueldos, auditoría y constitución de empresas."
+    },
+    "hero": {
+      "title": "Servicios",
+      "subtitle": "Elegí el servicio que mejor se adapte a tu negocio",
+      "trustBadgesEnabled": false
+    }
+  },
+  "equipoPage": {
+    "seo": {
+      "title": "Equipo — Estudio Contable Asunción",
+      "description": "Conocé nuestro equipo de contadores públicos certificados en Asunción."
+    },
+    "hero": {
+      "title": "Nuestro Equipo",
+      "subtitle": "Contadores públicos certificados por el CCP",
+      "trustBadgesEnabled": false
+    }
+  },
+  "contactoPage": {
+    "seo": {
+      "title": "Contacto — Estudio Contable Asunción",
+      "description": "Contactanos para una consulta gratuita. Estudio contable en Asunción."
+    },
+    "hero": {
+      "title": "Contacto",
+      "subtitle": "Agendá tu consulta gratuita sin compromiso",
+      "trustBadgesEnabled": false
+    }
   },
   "home": {
     "seo": {
@@ -226,9 +256,16 @@
   },
   "footer": {
     "businessName": "Estudio Contable Asunción",
+    "city": "Asunción",
     "copyright": "© {{year}} Estudio Contable Asunción",
     "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu estudio contable. El sitio final se personaliza con tu información real.",
-    "legalText": "Contadores Públicos CCP | Asunción, Paraguay | Matrícula CCP N° 8.901"
+    "legalText": "Contadores Públicos CCP | Asunción, Paraguay | Matrícula CCP N° 8.901",
+    "navLinks": [
+      { "label": "Inicio", "href": "/s/es/demo-estudio-contable" },
+      { "label": "Servicios", "href": "/s/es/demo-estudio-contable/servicios" },
+      { "label": "Equipo", "href": "/s/es/demo-estudio-contable/equipo" },
+      { "label": "Contacto", "href": "/s/es/demo-estudio-contable/contacto" }
+    ]
   },
   "whatsapp": {
     "defaultMessage": "Hola, vi el demo de Estudio Contable y quiero un sitio para mi estudio"

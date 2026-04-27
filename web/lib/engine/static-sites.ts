@@ -76,6 +76,33 @@ export const SITES = {
     locales: ['es'],
     pages: ['home', 'musica', 'videos', 'letras', 'shows', 'galeria', 'contacto'],
   },
+  'bufete-mendez': {
+    slug: 'bufete-mendez',
+    vertical: 'b2b-professional',
+    country: 'Paraguay',
+    domain: '',
+    defaultLocale: 'es',
+    locales: ['es'],
+    pages: ['home', 'servicios', 'equipo', 'casos', 'faq', 'contacto', 'privacidad', 'terminos'],
+  },
+  'demo-contador': {
+    slug: 'demo-contador',
+    vertical: 'b2b-professional',
+    country: 'Paraguay',
+    domain: '',
+    defaultLocale: 'es',
+    locales: ['es'],
+    pages: ['home', 'servicios', 'team', 'contacto'],
+  },
+  'demo-estudio-contable': {
+    slug: 'demo-estudio-contable',
+    vertical: 'b2b-professional',
+    country: 'Paraguay',
+    domain: '',
+    defaultLocale: 'es',
+    locales: ['es'],
+    pages: ['home', 'servicios', 'equipo', 'contacto'],
+  },
 } as const
 
 export type SiteSlug = keyof typeof SITES
