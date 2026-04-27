@@ -22,6 +22,10 @@ import { MattressQuizSection } from '@/components/sections/mattress-quiz-section
 import { ContactStripSection } from '@/components/sections/contact-strip-section'
 import { CTABannerSection } from '@/components/sections/cta-banner-section'
 import { BookingEmbedSection } from '@/components/sections/booking-embed-section'
+import { BookingWizardSection } from '@/components/sections/booking-wizard-section'
+import { GoogleMapsSection } from '@/components/sections/google-maps-section'
+import { FloatingCTASection } from '@/components/sections/floating-cta-section'
+import { HeroVideoSection } from '@/components/sections/hero-video-section'
 import { BlogIndexSection } from '@/components/sections/blog-index-section'
 import { BlogPostSection } from '@/components/sections/blog-post-section'
 import { ProductCatalogSection } from '@/components/sections/product-catalog-section'
@@ -111,6 +115,10 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'contact-strip': ContactStripSection,
   'cta-banner': CTABannerSection,
   'booking-embed': BookingEmbedSection,
+  'booking-wizard': BookingWizardSection,
+  'google-maps': GoogleMapsSection,
+  'floating-cta': FloatingCTASection,
+  'hero-video': HeroVideoSection,
   'blog-index': BlogIndexSection,
   'blog-post': BlogPostSection,
   'product-catalog': ProductCatalogSection,
