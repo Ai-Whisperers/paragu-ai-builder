@@ -1,7 +1,7 @@
 /** Types and defaults for OurStorySection */
 import { Shield, TreePine, Heart, Users, Leaf, Sparkles, Droplets, Recycle, CheckCircle, type LucideIcon } from 'lucide-react'
 
-import Link from 'next/link'
+
 import {
   Heart,
   Leaf,

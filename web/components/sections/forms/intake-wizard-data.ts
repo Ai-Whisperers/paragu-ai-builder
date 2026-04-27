@@ -1,7 +1,6 @@
 /** Types, steps, labels for IntakeWizardSection */
 import type { LucideIcon } from 'lucide-react'
 
-'use client'
 
 import { useState } from 'react'
 import { trackWizardStep, trackWizardComplete } from '@/lib/analytics/marketing-events'
