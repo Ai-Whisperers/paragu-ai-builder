@@ -36,14 +36,35 @@ while ((match = catalogRegex.exec(registry)) !== null) {
   sectionIds.push(match[1])
 }
 
-// Scan available section component files
-const sectionFiles = fs.readdirSync(SECTIONS_DIR).filter((f) => f.endsWith('-section.tsx'))
+// Scan available section component files (now in subdirectories)
+const sectionFiles: string[] = []
+function scanDir(dir: string) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name)
+    if (entry.isDirectory()) scanDir(full)
+    else if (entry.name.endsWith('-section.tsx') || entry.name.endsWith('.tsx'))
+      sectionFiles.push(entry.name)
+  }
+}
+scanDir(SECTIONS_DIR)
 
 // Build a map: section-id → component file info
 interface ComponentInfo {
   sectionId: string
   fileName: string
   exportName: string
+  subdir: string
+}
+
+// Find which subdirectory a file is in
+function findFile(name: string): string | null {
+  for (const entry of fs.readdirSync(SECTIONS_DIR, { withFileTypes: true })) {
+    if (entry.isDirectory()) {
+      const p = path.join(SECTIONS_DIR, entry.name, name)
+      if (fs.existsSync(p)) return entry.name
+    }
+  }
+  return null
 }
 
 const components: ComponentInfo[] = []
@@ -56,7 +77,8 @@ for (const sid of sectionIds) {
   const found = possibleNames.find((name) => sectionFiles.includes(name))
 
   if (found) {
-    const filePath = path.join(SECTIONS_DIR, found)
+    const subdir = findFile(found) || '.'
+    const filePath = path.join(SECTIONS_DIR, subdir, found)
     const content = fs.readFileSync(filePath, 'utf-8')
 
     // Extract the exported component name
@@ -69,15 +91,16 @@ for (const sid of sectionIds) {
       components.push({
         sectionId: sid,
         fileName: found,
+        subdir,
         exportName: exportMatch[1],
       })
     } else {
-      // Try to find any React component export
       const altMatch = content.match(/export (?:function|const|class) (\w+)/)
       if (altMatch) {
         components.push({
           sectionId: sid,
           fileName: found,
+          subdir,
           exportName: altMatch[1],
         })
       }
@@ -95,9 +118,10 @@ const lines: string[] = [
   '',
 ]
 
-// Add imports
+// Add imports (files are in subdirectories now)
 for (const c of components) {
-  const importPath = `@/components/sections/${c.fileName.replace('.tsx', '')}`
+  const subPath = c.subdir ? `${c.subdir}/` : ''
+  const importPath = `@/components/sections/${subPath}${c.fileName.replace('.tsx', '')}`
   lines.push(`import { ${c.exportName} } from '${importPath}'`)
 }
 
