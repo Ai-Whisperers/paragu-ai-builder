@@ -467,6 +467,28 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['standard'],
     requiredContentFields: ['hours'],
   },
+  // ── Unified grid (replaces gallery, portfolio, features, services, team, etc.)
+  'content-grid': {
+    id: 'content-grid',
+    defaultVariant: 'cards',
+    variants: ['cards', 'grid', 'masonry', 'list', 'detailed', 'carousel', 'icon-cards'],
+  },
+  // ── Core sections (added 2026-04-26) ───────────────────────────
+  'stats-counter': {
+    id: 'stats-counter',
+    defaultVariant: 'inline',
+    variants: ['inline', 'cards', 'minimal'],
+  },
+  'logo-strip': {
+    id: 'logo-strip',
+    defaultVariant: 'grid',
+    variants: ['grid', 'carousel', 'single-row'],
+  },
+  'video-embed': {
+    id: 'video-embed',
+    defaultVariant: 'aspect-16-9',
+    variants: ['aspect-16-9', 'aspect-4-3', 'square', 'full-width'],
+  },
   // ── Unregistered sections (BATCH 4.27 audit) ──────────────────
   'before-after-split': { id: 'before-after-split', defaultVariant: 'split', variants: ['split'] },
   'blog': { id: 'blog', defaultVariant: 'grid', variants: ['grid'] },
@@ -535,15 +557,15 @@ const SECTION_ALIASES: Record<string, string> = {
   ctaBanner: 'cta-banner',
   whatsappFloat: 'whatsapp-float',
   pricingTable: 'pricing-table',
-  pricingRange: 'pricing-range',
-  faqCategorized: 'faq-categorized',
+  pricingRange: 'pricing-table',
+  faqCategorized: 'faq',
   // Creative-commission-process has no dedicated component — route to
   // process-timeline (same UX: numbered steps timeline).
   creativeCommissionProcess: 'process-timeline',
   'creative-commission-process': 'process-timeline',
   emergencyIndicator: 'emergency-indicator',
   classSchedule: 'class-schedule',
-  membershipPlans: 'membership-plans',
+  membershipPlans: 'pricing-table',
   roomBooking: 'room-booking',
   eventVenues: 'event-venues',
   quoteForm: 'quote-form',
@@ -561,10 +583,10 @@ const SECTION_ALIASES: Record<string, string> = {
   reservations: 'booking',
   reservationForm: 'booking',
   availabilityCalendar: 'booking',
-  packages: 'packages-giftcards',
-  packageBuilder: 'packages-giftcards',
-  giftCards: 'packages-giftcards',
-  giftcards: 'packages-giftcards',
+  packages: 'pricing-table',
+  packageBuilder: 'pricing-table',
+  giftCards: 'pricing-table',
+  giftcards: 'pricing-table',
   googleReviews: 'google-reviews',
   'google-reviews': 'google-reviews',
   instagramFeed: 'instagram-feed',

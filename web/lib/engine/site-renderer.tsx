@@ -76,6 +76,10 @@ import { GoogleReviewsWidgetSection } from '@/components/sections/google-reviews
 import { PackagesSection } from '@/components/sections/packages-section'
 import { BranchesSection } from '@/components/sections/branches-section'
 import { InstagramFeedSection } from '@/components/sections/instagram-feed-section'
+import { StatsCounterSection } from '@/components/sections/stats-counter-section'
+import { LogoStripSection } from '@/components/sections/logo-strip-section'
+import { VideoEmbedSection } from '@/components/sections/video-embed-section'
+import { ContentGridSection } from '@/components/sections/content-grid-section'
 
 // Exported so tests (and any future tooling) can assert that every
 // registered section in section-registry has a matching render binding.
@@ -154,6 +158,10 @@ export const COMPONENTS: Record<string, React.ComponentType<any>> = {
   'packages-giftcards': PackagesSection,
   'instagram-feed': InstagramFeedSection,
   branches: BranchesSection,
+  'stats-counter': StatsCounterSection,
+  'logo-strip': LogoStripSection,
+  'video-embed': VideoEmbedSection,
+  'content-grid': ContentGridSection,
 }
 
 export function renderPage(page: ResolvedPage): React.ReactNode {
