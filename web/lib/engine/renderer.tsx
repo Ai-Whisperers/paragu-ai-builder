@@ -164,7 +164,15 @@ export function renderSection(section: ComposedSection): React.ReactNode {
     return null
   }
 
-  return <Component key={`${kebab}-${section.order}`} {...section.data} />
+  // Spread section.data + add variant + compose defaults so components
+  // that accept __styling / variant work identically in both renderers.
+  return (
+    <Component
+      key={`${kebab}-${section.order}`}
+      {...section.data}
+      variant={section.data.variant}
+    />
+  )
 }
 
 export function renderSections(sections: ComposedSection[]): React.ReactNode[] {
