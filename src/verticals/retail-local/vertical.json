@@ -16,6 +16,7 @@
     "header",
     "hero",
     "product-catalog",
+    "content-grid",
     "product-grid",
     "services",
     "gallery",
@@ -66,6 +67,7 @@
     "video-embed",
     "stats-counter",
     "logo-strip"
+    "content-grid",
   ],
   "defaultStarterKit": "minimal",
   "locales": [

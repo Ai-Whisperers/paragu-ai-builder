@@ -17,6 +17,7 @@
     "about",
     "services",
     "product-catalog",
+    "content-grid",
     "gallery",
     "testimonials",
     "faq",
@@ -56,6 +57,7 @@
     "video-embed",
     "stats-counter",
     "logo-strip"
+    "content-grid",
   ],
   "defaultStarterKit": "minimal",
   "locales": [

@@ -56,7 +56,9 @@
     "video-embed",
     "stats-counter",
     "logo-strip",
+    "content-grid",
     "product-catalog"
+    "content-grid",
   ],
   "defaultStarterKit": "minimal",
   "locales": [

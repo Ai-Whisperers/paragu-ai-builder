@@ -532,6 +532,27 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
  * stay consistent.
  */
 const SECTION_ALIASES: Record<string, string> = {
+  blog-social-share: 'blog-post',
+  conveyor-belt-strip: 'features',
+  success-stories: 'testimonials',
+  sushi-menu-sections: 'menu-categorized-priced',
+  testimonial-video: 'testimonials',
+
+  booking-wizard: 'booking-embed',
+  business-hours: 'open-hours-status',
+  case-studies: 'features',
+  delivery-links: 'cta-banner',
+  events-calendar: 'event-venues',
+  google-maps: 'contact',
+  insurance-list: 'features',
+  legal-disclaimer: 'compliance-disclaimer-footer',
+  product-grid: 'product-catalog',
+  resource-list: 'resources-list',
+  reviews-widget: 'reviews',
+  service-area-map: 'why-destination',
+  service-menu: 'services',
+  staff-selector: 'features',
+
   // camelCase/snake_case singular → canonical kebab
   servicesPreview: 'services',
   services_preview: 'services',
