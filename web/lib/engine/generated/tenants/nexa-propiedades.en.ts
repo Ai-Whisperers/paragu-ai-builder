@@ -151,9 +151,73 @@ export default {
     }
   },
   "seo": {
+    "blog": {
+      "hero": {
+        "headline": "Real Estate Blog",
+        "subheadline": "Tips, guides and news from the Paraguayan market."
+      },
+      "newsletter": {
+        "subtitle": "Subscribe to receive the latest properties in your inbox.",
+        "title": "Get updates"
+      },
+      "posts": {
+        "title": "Latest Articles"
+      },
+      "seo": {
+        "description": "Tips and guides about the Paraguayan real estate market.",
+        "title": "Blog — Nexa Propiedades"
+      }
+    },
+    "equipo": {
+      "agents": {
+        "items": [
+          {
+            "bio": "15 years in the Asunción real estate market. Specialist in luxury residential properties.",
+            "name": "Carlos Mendoza",
+            "rating": 5,
+            "role": "Senior Agent"
+          },
+          {
+            "bio": "Expert in commercial and investment properties. Bilingual Spanish/English.",
+            "name": "Ana Rivas",
+            "rating": 5,
+            "role": "Commercial Agent"
+          }
+        ],
+        "title": "Real Estate Agents"
+      },
+      "cta": {
+        "buttonHref": "/s/en/nexa-propiedades/contacto",
+        "buttonText": "Contact",
+        "title": "Work with us"
+      },
+      "hero": {
+        "headline": "Our Team",
+        "subheadline": "Dedicated professionals finding your ideal home."
+      },
+      "seo": {
+        "description": "Meet our expert real estate agents in Paraguay.",
+        "title": "Our Team — Nexa Propiedades"
+      }
+    },
     "home": {
       "description": "Sitio web de nexa-propiedades",
       "title": "nexa-propiedades - Paraguay"
+    },
+    "testimonios": {
+      "cta": {
+        "buttonHref": "/s/en/nexa-propiedades/contacto",
+        "buttonText": "Contact us",
+        "title": "Want to share your experience?"
+      },
+      "hero": {
+        "headline": "Testimonials",
+        "subheadline": "Our clients' opinions are our best business card."
+      },
+      "seo": {
+        "description": "What our clients say about Nexa Propiedades.",
+        "title": "Testimonials — Nexa Propiedades"
+      }
     }
   },
   "services": {

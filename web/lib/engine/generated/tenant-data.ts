@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=15, pages=181, content=30, blog=34, images=15, verticals=23. */
+/** Counts: sites=15, pages=200, content=30, blog=34, images=15, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "alejandro-villamayor",
   "bufete-mendez",
@@ -3184,6 +3184,38 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "sobre-mi",
     "titleKey": "sobre.seo.title"
   },
+  "bufete-mendez:blog": {
+    "descriptionKey": "blog.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blog.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blog.posts",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blog.seo.title"
+  },
   "bufete-mendez:casos": {
     "descriptionKey": "casos.seo.description",
     "sections": [
@@ -3415,6 +3447,43 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "terminos",
     "titleKey": "terminos.title"
+  },
+  "bufete-mendez:testimonios": {
+    "descriptionKey": "testimonios.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "testimonios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "grid"
+      },
+      {
+        "content": "testimonios.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "testimonios",
+    "titleKey": "testimonios.seo.title"
   },
   "dayah-litworks:blog": {
     "descriptionKey": "blog.seo.description",
@@ -3693,6 +3762,43 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "terminos",
     "titleKey": "terminos.seo.title"
   },
+  "de-abasto-a-casa:blog": {
+    "descriptionKey": "blogPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blogPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blogPage.blog",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.cta",
+        "id": "newsletter-signup",
+        "variant": "standard"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blogPage.seo.title"
+  },
   "de-abasto-a-casa:contacto": {
     "descriptionKey": "contacto.seo.description",
     "sections": [
@@ -3741,6 +3847,38 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "faq",
     "titleKey": "faqPage.seo.title"
+  },
+  "de-abasto-a-casa:galeria": {
+    "descriptionKey": "galeriaPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "galeriaPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "galeriaPage.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "galeria",
+    "titleKey": "galeriaPage.seo.title"
   },
   "de-abasto-a-casa:home": {
     "descriptionKey": "home.seo.description",
@@ -3811,6 +3949,211 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
+  "de-abasto-a-casa:menu": {
+    "descriptionKey": "menuPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "menuPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "menuPage.dailyMenu",
+        "id": "daily-menu",
+        "variant": "grid"
+      },
+      {
+        "content": "pedidosPage.cta",
+        "id": "online-ordering",
+        "variant": "inline"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "menu",
+    "titleKey": "menuPage.seo.title"
+  },
+  "de-abasto-a-casa:pedidos": {
+    "descriptionKey": "pedidosPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "pedidosPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "pedidosPage.orderSteps",
+        "id": "process",
+        "variant": "steps"
+      },
+      {
+        "content": "zonasPage.zones",
+        "id": "delivery-zones",
+        "variant": "list"
+      },
+      {
+        "content": "pedidosPage.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "pedidos",
+    "titleKey": "pedidosPage.seo.title"
+  },
+  "de-abasto-a-casa:zonas": {
+    "descriptionKey": "zonasPage.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "zonasPage.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "zonasPage.zones",
+        "id": "delivery-zones",
+        "variant": "cards"
+      },
+      {
+        "content": "home.location",
+        "id": "google-maps",
+        "variant": "default"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "zonas",
+    "titleKey": "zonasPage.seo.title"
+  },
+  "demo-contador:blog": {
+    "descriptionKey": "blog.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blog.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blog.posts",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blog.seo.title"
+  },
+  "demo-contador:calculadoras": {
+    "descriptionKey": "calculadoras.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "calculadoras.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "calculadoras.iva",
+        "id": "calc-iva",
+        "variant": "default"
+      },
+      {
+        "content": "calculadoras.ire",
+        "id": "calc-ire",
+        "variant": "default"
+      },
+      {
+        "content": "calculadoras.irp",
+        "id": "calc-irp",
+        "variant": "default"
+      },
+      {
+        "content": "calculadoras.aguinaldo",
+        "id": "calc-aguinaldo",
+        "variant": "default"
+      },
+      {
+        "content": "calculadoras.finiquito",
+        "id": "calc-finiquito",
+        "variant": "default"
+      },
+      {
+        "content": "calculadoras.costo",
+        "id": "calc-costo-empleado",
+        "variant": "default"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "calculadoras",
+    "titleKey": "calculadoras.seo.title"
+  },
   "demo-contador:contacto": {
     "descriptionKey": "contacto.seo.description",
     "sections": [
@@ -3832,6 +4175,38 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
+  },
+  "demo-contador:faq": {
+    "descriptionKey": "faq.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "faq.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "faq",
+    "titleKey": "faq.seo.title"
   },
   "demo-contador:home": {
     "descriptionKey": "home.seo.description",
@@ -3933,6 +4308,43 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "team",
     "titleKey": "equipo.seo.title"
+  },
+  "demo-contador:testimonios": {
+    "descriptionKey": "testimonios.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "testimonios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "grid"
+      },
+      {
+        "content": "testimonios.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "testimonios",
+    "titleKey": "testimonios.seo.title"
   },
   "demo-estudio-contable:contacto": {
     "descriptionKey": "contactoPage.seo.description",
@@ -6014,6 +6426,43 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "trust",
     "titleKey": "landingTrust.seo.title"
   },
+  "nexa-propiedades:blog": {
+    "descriptionKey": "blog.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blog.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blog.posts",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "blog.newsletter",
+        "id": "newsletter-signup",
+        "variant": "standard"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blog.seo.title"
+  },
   "nexa-propiedades:contacto": {
     "descriptionKey": "contactPage.seo.description",
     "schemaType": "RealEstateAgent",
@@ -6046,6 +6495,53 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "contacto",
     "titleKey": "contactPage.seo.title"
+  },
+  "nexa-propiedades:equipo": {
+    "descriptionKey": "equipo.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "equipo.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "cards"
+      },
+      {
+        "content": "equipo.agents",
+        "id": "agent-profile",
+        "variant": "card"
+      },
+      {
+        "content": "equipo.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "home.location",
+        "id": "google-maps",
+        "variant": "default"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "equipo",
+    "titleKey": "equipo.seo.title"
   },
   "nexa-propiedades:home": {
     "descriptionKey": "home.seo.description",
@@ -6177,6 +6673,75 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "servicios",
     "titleKey": "servicesPage.seo.title"
+  },
+  "nexa-propiedades:testimonios": {
+    "descriptionKey": "testimonios.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "testimonios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "grid"
+      },
+      {
+        "content": "testimonios.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "testimonios",
+    "titleKey": "testimonios.seo.title"
+  },
+  "nudo:blog": {
+    "descriptionKey": "blog.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "blog.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blog.posts",
+        "id": "blog-index",
+        "variant": "grid"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blog.seo.title"
   },
   "nudo:contacto": {
     "descriptionKey": "contacto.seo.description",
@@ -6391,6 +6956,43 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "shows",
     "titleKey": "shows.seo.title"
   },
+  "nudo:tienda": {
+    "descriptionKey": "tienda.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "tienda.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "tienda.tickets",
+        "id": "ticket-purchase",
+        "variant": "form"
+      },
+      {
+        "content": "tienda.events",
+        "id": "event-calendar",
+        "variant": "grid"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "tienda",
+    "titleKey": "tienda.seo.title"
+  },
   "nudo:videos": {
     "descriptionKey": "videos.seo.description",
     "sections": [
@@ -6407,6 +7009,43 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "videos",
     "titleKey": "videos.seo.title"
+  },
+  "polki-squad:adopcion": {
+    "descriptionKey": "adopcion.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "adopcion.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "adopcion.pets",
+        "id": "pet-profile",
+        "variant": "card"
+      },
+      {
+        "content": "adopcion.form",
+        "id": "adoption-form",
+        "variant": "form"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "adopcion",
+    "titleKey": "adopcion.seo.title"
   },
   "polki-squad:contacto": {
     "description": "Contáctanos por WhatsApp, teléfono o redes sociales. Visítanos en Luque.",
@@ -9843,6 +10482,43 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
   },
+  "viajero-comercio:equipo": {
+    "descriptionKey": "equipo.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "equipo.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "equipo.team",
+        "id": "team",
+        "variant": "cards"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "home.location",
+        "id": "google-maps",
+        "variant": "default"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "equipo",
+    "titleKey": "equipo.seo.title"
+  },
   "viajero-comercio:faq": {
     "descriptionKey": "faq.seo.description",
     "schemaType": "Store",
@@ -10026,6 +10702,38 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "promociones",
     "titleKey": "promociones.seo.title"
+  },
+  "viajero-comercio:reservas": {
+    "descriptionKey": "reservas.seo.description",
+    "sections": [
+      {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "reservas.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "reservas.booking",
+        "id": "booking-embed",
+        "variant": "iframe"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
+      }
+    ],
+    "slug": "reservas",
+    "titleKey": "reservas.seo.title"
   },
   "viajero-comercio:terminos": {
     "description": "Terminos y condiciones de uso de El Viajero Comercio.",
@@ -15155,6 +15863,19 @@ export const CONTENT: Record<string, JsonRecord> = {
       "lastReviewed": "2026-04-20",
       "translationQuality": "human"
     },
+    "blogPage": {
+      "blog": {
+        "title": "Últimos Artículos"
+      },
+      "hero": {
+        "headline": "Blog",
+        "subheadline": "Consejos de alimentación saludable."
+      },
+      "seo": {
+        "description": "Consejos de alimentación y novedades.",
+        "title": "Blog — De Abasto a Casa"
+      }
+    },
     "contacto": {
       "hero": {
         "subtitle": "Respondemos por WhatsApp en el dia",
@@ -15200,10 +15921,40 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Inicio"
         },
         {
+          "href": "/s/es/de-abasto-a-casa/menu",
+          "label": "Menú"
+        },
+        {
+          "href": "/s/es/de-abasto-a-casa/pedidos",
+          "label": "Cómo Pedir"
+        },
+        {
+          "href": "/s/es/de-abasto-a-casa/zonas",
+          "label": "Zonas"
+        },
+        {
+          "href": "/s/es/de-abasto-a-casa/blog",
+          "label": "Blog"
+        },
+        {
           "href": "/s/es/de-abasto-a-casa/contacto",
           "label": "Contacto"
         }
       ]
+    },
+    "galeriaPage": {
+      "gallery": {
+        "images": [],
+        "title": "Nuestros Platos"
+      },
+      "hero": {
+        "headline": "Galería",
+        "subheadline": "Así preparamos tus comidas."
+      },
+      "seo": {
+        "description": "Mirá fotos de nuestros preparados y entregas.",
+        "title": "Galería — De Abasto a Casa"
+      }
     },
     "home": {
       "contact": {
@@ -15409,10 +16160,144 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Testimonios"
       }
     },
+    "menuPage": {
+      "dailyMenu": {
+        "items": [
+          {
+            "day": "Lunes",
+            "items": [
+              {
+                "name": "Pollo al horno con vegetales",
+                "price": "35.000 Gs"
+              },
+              {
+                "name": "Ensalada César con pollo",
+                "price": "28.000 Gs"
+              }
+            ]
+          },
+          {
+            "day": "Martes",
+            "items": [
+              {
+                "name": "Milanesa de carne con puré",
+                "price": "32.000 Gs"
+              },
+              {
+                "name": "Wok de verduras con tofu",
+                "price": "25.000 Gs"
+              }
+            ]
+          },
+          {
+            "day": "Miércoles",
+            "items": [
+              {
+                "name": "Pasta bolognesa",
+                "price": "30.000 Gs"
+              },
+              {
+                "name": "Sopa de verduras",
+                "price": "22.000 Gs"
+              }
+            ]
+          },
+          {
+            "day": "Jueves",
+            "items": [
+              {
+                "name": "Pescado al limón con arroz",
+                "price": "38.000 Gs"
+              },
+              {
+                "name": "Tarta de espinaca y queso",
+                "price": "28.000 Gs"
+              }
+            ]
+          },
+          {
+            "day": "Viernes",
+            "items": [
+              {
+                "name": "Lomito saltado",
+                "price": "35.000 Gs"
+              },
+              {
+                "name": "Pizza casera vegetariana",
+                "price": "30.000 Gs"
+              }
+            ]
+          }
+        ],
+        "title": "Menú de la Semana"
+      },
+      "hero": {
+        "headline": "Menú Semanal",
+        "subheadline": "Planificá tus comidas de la semana."
+      },
+      "seo": {
+        "description": "Planificá tu menú semanal con nosotros.",
+        "title": "Menú Semanal — De Abasto a Casa"
+      }
+    },
     "navigation": {
       "businessName": "De Abasto a Casa",
       "ctaHref": "https://wa.me/595981324569",
-      "ctaText": "Contactanos"
+      "ctaText": "Contactanos",
+      "navItems": [
+        {
+          "href": "/s/es/de-abasto-a-casa",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/de-abasto-a-casa/menu",
+          "label": "Menú"
+        },
+        {
+          "href": "/s/es/de-abasto-a-casa/pedidos",
+          "label": "Pedidos"
+        },
+        {
+          "href": "/s/es/de-abasto-a-casa/blog",
+          "label": "Blog"
+        },
+        {
+          "href": "/s/es/de-abasto-a-casa/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "pedidosPage": {
+      "cta": {
+        "buttonHref": "https://wa.me/595981324569",
+        "buttonText": "Pedir por WhatsApp",
+        "title": "Pedí tu primera semana"
+      },
+      "hero": {
+        "headline": "Hacé tu Pedido",
+        "subheadline": "Elegí tu plan y recibilo en la puerta de tu casa."
+      },
+      "orderSteps": {
+        "steps": [
+          {
+            "description": "Seleccioná el nivel que mejor se adapte a tus necesidades.",
+            "title": "Elegí tu plan"
+          },
+          {
+            "description": "Decinos tus preferencias, alergias y sustituciones.",
+            "title": "Personalizá"
+          },
+          {
+            "description": "Te lo llevamos a tu puerta en San Lorenzo.",
+            "title": "Recibí"
+          }
+        ],
+        "title": "Tres pasos simples"
+      },
+      "seo": {
+        "description": "Hacé tu pedido online y recibilo en casa.",
+        "title": "Cómo Pedir — De Abasto a Casa"
+      }
     },
     "placeholders": {
       "businessName": "De Abasto a Casa",
@@ -15427,7 +16312,47 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "De Abasto a Casa",
     "tagline": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
-    "whatsapp": "+595981324569"
+    "whatsapp": "+595981324569",
+    "zonasPage": {
+      "hero": {
+        "headline": "Zonas de Entrega",
+        "subheadline": "Hacemos entregas en San Lorenzo completo."
+      },
+      "seo": {
+        "description": "Llegamos a todo San Lorenzo y zonas cercanas.",
+        "title": "Zonas de Delivery — De Abasto a Casa"
+      },
+      "zones": {
+        "items": [
+          {
+            "description": "Entrega en el día",
+            "name": "San Lorenzo Centro",
+            "price": "Gratis"
+          },
+          {
+            "description": "Entrega en el día",
+            "name": "Ciudad Universitaria",
+            "price": "Gratis"
+          },
+          {
+            "description": "Entrega en 24hs",
+            "name": "Barrio Obrero",
+            "price": "Gs 5.000"
+          },
+          {
+            "description": "Entrega en 24hs",
+            "name": "Zona Norte",
+            "price": "Gs 8.000"
+          },
+          {
+            "description": "Entrega en 48hs",
+            "name": "Fernando de la Mora",
+            "price": "Gs 15.000"
+          }
+        ],
+        "title": "Cobertura"
+      }
+    }
   },
   "demo-contador:es": {
     "_meta": {
@@ -29373,9 +30298,73 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "seo": {
+      "blog": {
+        "hero": {
+          "headline": "Real Estate Blog",
+          "subheadline": "Tips, guides and news from the Paraguayan market."
+        },
+        "newsletter": {
+          "subtitle": "Subscribe to receive the latest properties in your inbox.",
+          "title": "Get updates"
+        },
+        "posts": {
+          "title": "Latest Articles"
+        },
+        "seo": {
+          "description": "Tips and guides about the Paraguayan real estate market.",
+          "title": "Blog — Nexa Propiedades"
+        }
+      },
+      "equipo": {
+        "agents": {
+          "items": [
+            {
+              "bio": "15 years in the Asunción real estate market. Specialist in luxury residential properties.",
+              "name": "Carlos Mendoza",
+              "rating": 5,
+              "role": "Senior Agent"
+            },
+            {
+              "bio": "Expert in commercial and investment properties. Bilingual Spanish/English.",
+              "name": "Ana Rivas",
+              "rating": 5,
+              "role": "Commercial Agent"
+            }
+          ],
+          "title": "Real Estate Agents"
+        },
+        "cta": {
+          "buttonHref": "/s/en/nexa-propiedades/contacto",
+          "buttonText": "Contact",
+          "title": "Work with us"
+        },
+        "hero": {
+          "headline": "Our Team",
+          "subheadline": "Dedicated professionals finding your ideal home."
+        },
+        "seo": {
+          "description": "Meet our expert real estate agents in Paraguay.",
+          "title": "Our Team — Nexa Propiedades"
+        }
+      },
       "home": {
         "description": "Sitio web de nexa-propiedades",
         "title": "nexa-propiedades - Paraguay"
+      },
+      "testimonios": {
+        "cta": {
+          "buttonHref": "/s/en/nexa-propiedades/contacto",
+          "buttonText": "Contact us",
+          "title": "Want to share your experience?"
+        },
+        "hero": {
+          "headline": "Testimonials",
+          "subheadline": "Our clients' opinions are our best business card."
+        },
+        "seo": {
+          "description": "What our clients say about Nexa Propiedades.",
+          "title": "Testimonials — Nexa Propiedades"
+        }
       }
     },
     "services": {
@@ -29549,6 +30538,14 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Servicios"
         },
         {
+          "href": "/s/es/nexa-propiedades/equipo",
+          "label": "Equipo"
+        },
+        {
+          "href": "/s/es/nexa-propiedades/blog",
+          "label": "Blog"
+        },
+        {
           "href": "/s/es/nexa-propiedades/contacto",
           "label": "Contacto"
         }
@@ -29619,9 +30616,79 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "seo": {
+      "blog": {
+        "hero": {
+          "headline": "Blog Inmobiliario",
+          "subheadline": "Consejos, guías y novedades del mercado paraguayo."
+        },
+        "newsletter": {
+          "subtitle": "Suscribite para recibir las últimas propiedades en tu correo.",
+          "title": "Recibí novedades"
+        },
+        "posts": {
+          "title": "Últimos Artículos"
+        },
+        "seo": {
+          "description": "Consejos y guías sobre el mercado inmobiliario en Paraguay.",
+          "title": "Blog — Nexa Propiedades"
+        }
+      },
+      "equipo": {
+        "agents": {
+          "items": [
+            {
+              "bio": "15 años en el mercado inmobiliario de Asunción. Especialista en propiedades residenciales de lujo.",
+              "name": "Carlos Mendoza",
+              "rating": 5,
+              "role": "Agente Senior"
+            },
+            {
+              "bio": "Experta en propiedades comerciales y de inversión. Bilingüe español/inglés.",
+              "name": "Ana Rivas",
+              "rating": 5,
+              "role": "Agente Comercial"
+            },
+            {
+              "bio": "Especializado en alquileres temporarios y permanentes para extranjeros.",
+              "name": "Pedro Silva",
+              "rating": 5,
+              "role": "Agente de Alquileres"
+            }
+          ],
+          "title": "Agentes Inmobiliarios"
+        },
+        "cta": {
+          "buttonHref": "/s/es/nexa-propiedades/contacto",
+          "buttonText": "Contactar",
+          "title": "Trabajá con nosotros"
+        },
+        "hero": {
+          "headline": "Nuestro Equipo",
+          "subheadline": "Profesionales dedicados a encontrar tu hogar ideal."
+        },
+        "seo": {
+          "description": "Conocé a nuestros agentes inmobiliarios expertos en Paraguay.",
+          "title": "Nuestro Equipo — Nexa Propiedades"
+        }
+      },
       "home": {
         "description": "Sitio web de nexa-propiedades",
         "title": "nexa-propiedades - Paraguay"
+      },
+      "testimonios": {
+        "cta": {
+          "buttonHref": "/s/es/nexa-propiedades/contacto",
+          "buttonText": "Contactanos",
+          "title": "¿Querés compartir tu experiencia?"
+        },
+        "hero": {
+          "headline": "Testimonios",
+          "subheadline": "La opinión de nuestros clientes es nuestra mejor carta de presentación."
+        },
+        "seo": {
+          "description": "Lo que dicen nuestros clientes sobre Nexa Propiedades.",
+          "title": "Testimonios — Nexa Propiedades"
+        }
       }
     },
     "servicesPage": {

@@ -20,7 +20,7 @@ export const SITES = {
     domain: 'nexapropiedades.com',
     defaultLocale: 'es',
     locales: ['es', 'en', 'pt'],
-    pages: ['home', 'propiedades', 'servicios', 'contacto', 'privacidad'],
+    pages: ['home', 'propiedades', 'servicios', 'equipo', 'testimonios', 'blog', 'contacto', 'privacidad'],
   },
   'fun4me': {
     slug: 'fun4me',
@@ -47,7 +47,7 @@ export const SITES = {
     domain: 'deabastoacasa.com.py',
     defaultLocale: 'es',
     locales: ['es'],
-    pages: ['home', 'contacto'],
+    pages: ['home', 'menu', 'pedidos', 'zonas', 'galeria', 'blog', 'faq', 'contacto'],
   },
   'granja-cabral': {
     slug: 'granja-cabral',
@@ -56,7 +56,7 @@ export const SITES = {
     domain: 'granjacabral.com.py',
     defaultLocale: 'es',
     locales: ['es'],
-    pages: ['home'],
+    pages: ['home', 'blog', 'faq', 'contacto'],
   },
   'stoicfinch': {
     slug: 'stoicfinch',
@@ -65,7 +65,7 @@ export const SITES = {
     domain: 'stoicfinch.com',
     defaultLocale: 'en',
     locales: ['en'],
-    pages: ['home'],
+    pages: ['home', 'blog', 'pricing', 'faq', 'contacto'],
   },
   'nudo': {
     slug: 'nudo',
@@ -74,7 +74,7 @@ export const SITES = {
     domain: '',
     defaultLocale: 'es',
     locales: ['es'],
-    pages: ['home', 'musica', 'videos', 'letras', 'shows', 'galeria', 'contacto'],
+    pages: ['home', 'musica', 'videos', 'letras', 'shows', 'galeria', 'tienda', 'blog', 'contacto'],
   },
   'bufete-mendez': {
     slug: 'bufete-mendez',
@@ -83,7 +83,7 @@ export const SITES = {
     domain: '',
     defaultLocale: 'es',
     locales: ['es'],
-    pages: ['home', 'servicios', 'equipo', 'casos', 'faq', 'contacto', 'privacidad', 'terminos'],
+    pages: ['home', 'servicios', 'equipo', 'casos', 'testimonios', 'faq', 'blog', 'contacto', 'privacidad', 'terminos'],
   },
   'demo-contador': {
     slug: 'demo-contador',
@@ -92,7 +92,7 @@ export const SITES = {
     domain: '',
     defaultLocale: 'es',
     locales: ['es'],
-    pages: ['home', 'servicios', 'team', 'contacto'],
+    pages: ['home', 'servicios', 'calculadoras', 'equipo', 'testimonios', 'faq', 'blog', 'contacto'],
   },
   'demo-estudio-contable': {
     slug: 'demo-estudio-contable',
@@ -129,7 +129,7 @@ export const SITES = {
     domain: '',
     defaultLocale: 'es',
     locales: ['es'],
-    pages: ['home', 'productos', 'nosotros', 'contacto'],
+    pages: ['home', 'productos', 'equipo', 'reservas', 'blog', 'nosotros', 'contacto'],
   },
 } as const
 

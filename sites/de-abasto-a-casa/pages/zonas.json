@@ -1,0 +1,13 @@
+{
+  "slug": "zonas",
+  "titleKey": "zonasPage.seo.title",
+  "descriptionKey": "zonasPage.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "zonasPage.hero" },
+    { "id": "delivery-zones", "variant": "cards", "content": "zonasPage.zones" },
+    { "id": "google-maps", "variant": "default", "content": "home.location" },
+    { "id": "contact", "variant": "split", "content": "home.contact" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

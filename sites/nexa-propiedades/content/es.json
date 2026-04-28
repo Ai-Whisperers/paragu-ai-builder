@@ -11,22 +11,12 @@
   "navigation": {
     "businessName": "Nexa Propiedades",
     "navItems": [
-      {
-        "label": "Inicio",
-        "href": "/s/es/nexa-propiedades"
-      },
-      {
-        "label": "Propiedades",
-        "href": "/s/es/nexa-propiedades/propiedades"
-      },
-      {
-        "label": "Servicios",
-        "href": "/s/es/nexa-propiedades/servicios"
-      },
-      {
-        "label": "Contacto",
-        "href": "/s/es/nexa-propiedades/contacto"
-      }
+      { "label": "Inicio", "href": "/s/es/nexa-propiedades" },
+      { "label": "Propiedades", "href": "/s/es/nexa-propiedades/propiedades" },
+      { "label": "Servicios", "href": "/s/es/nexa-propiedades/servicios" },
+      { "label": "Equipo", "href": "/s/es/nexa-propiedades/equipo" },
+      { "label": "Blog", "href": "/s/es/nexa-propiedades/blog" },
+      { "label": "Contacto", "href": "/s/es/nexa-propiedades/contacto" }
     ],
     "ctaText": "Buscar Propiedad",
     "ctaHref": "/s/es/nexa-propiedades/contacto"
@@ -216,7 +206,31 @@
     }
   },
   "seo": {
-    "home": {
+  "equipo": {
+    "seo": { "title": "Nuestro Equipo — Nexa Propiedades", "description": "Conocé a nuestros agentes inmobiliarios expertos en Paraguay." },
+    "hero": { "headline": "Nuestro Equipo", "subheadline": "Profesionales dedicados a encontrar tu hogar ideal." },
+    "agents": {
+      "title": "Agentes Inmobiliarios",
+      "items": [
+        { "name": "Carlos Mendoza", "role": "Agente Senior", "bio": "15 años en el mercado inmobiliario de Asunción. Especialista en propiedades residenciales de lujo.", "rating": 5 },
+        { "name": "Ana Rivas", "role": "Agente Comercial", "bio": "Experta en propiedades comerciales y de inversión. Bilingüe español/inglés.", "rating": 5 },
+        { "name": "Pedro Silva", "role": "Agente de Alquileres", "bio": "Especializado en alquileres temporarios y permanentes para extranjeros.", "rating": 5 }
+      ]
+    },
+    "cta": { "title": "Trabajá con nosotros", "buttonText": "Contactar", "buttonHref": "/s/es/nexa-propiedades/contacto" }
+  },
+  "testimonios": {
+    "seo": { "title": "Testimonios — Nexa Propiedades", "description": "Lo que dicen nuestros clientes sobre Nexa Propiedades." },
+    "hero": { "headline": "Testimonios", "subheadline": "La opinión de nuestros clientes es nuestra mejor carta de presentación." },
+    "cta": { "title": "¿Querés compartir tu experiencia?", "buttonText": "Contactanos", "buttonHref": "/s/es/nexa-propiedades/contacto" }
+  },
+  "blog": {
+    "seo": { "title": "Blog — Nexa Propiedades", "description": "Consejos y guías sobre el mercado inmobiliario en Paraguay." },
+    "hero": { "headline": "Blog Inmobiliario", "subheadline": "Consejos, guías y novedades del mercado paraguayo." },
+    "posts": { "title": "Últimos Artículos" },
+    "newsletter": { "title": "Recibí novedades", "subtitle": "Suscribite para recibir las últimas propiedades en tu correo." }
+  },
+  "home": {
       "title": "nexa-propiedades - Paraguay",
       "description": "Sitio web de nexa-propiedades"
     }

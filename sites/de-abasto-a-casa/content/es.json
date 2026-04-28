@@ -13,6 +13,13 @@
   },
   "navigation": {
     "businessName": "De Abasto a Casa",
+    "navItems": [
+      { "label": "Inicio", "href": "/s/es/de-abasto-a-casa" },
+      { "label": "Menú", "href": "/s/es/de-abasto-a-casa/menu" },
+      { "label": "Pedidos", "href": "/s/es/de-abasto-a-casa/pedidos" },
+      { "label": "Blog", "href": "/s/es/de-abasto-a-casa/blog" },
+      { "label": "Contacto", "href": "/s/es/de-abasto-a-casa/contacto" }
+    ],
     "ctaText": "Contactanos",
     "ctaHref": "https://wa.me/595981324569"
   },
@@ -225,15 +232,55 @@
     "city": "San Lorenzo",
     "copyright": "© 2026 De Abasto a Casa",
     "navLinks": [
-      {
-        "label": "Inicio",
-        "href": "/s/es/de-abasto-a-casa"
-      },
-      {
-        "label": "Contacto",
-        "href": "/s/es/de-abasto-a-casa/contacto"
-      }
+      { "label": "Inicio", "href": "/s/es/de-abasto-a-casa" },
+      { "label": "Menú", "href": "/s/es/de-abasto-a-casa/menu" },
+      { "label": "Cómo Pedir", "href": "/s/es/de-abasto-a-casa/pedidos" },
+      { "label": "Zonas", "href": "/s/es/de-abasto-a-casa/zonas" },
+      { "label": "Blog", "href": "/s/es/de-abasto-a-casa/blog" },
+      { "label": "Contacto", "href": "/s/es/de-abasto-a-casa/contacto" }
     ]
+  },
+  "menuPage": {
+    "seo": { "title": "Menú Semanal — De Abasto a Casa", "description": "Planificá tu menú semanal con nosotros." },
+    "hero": { "headline": "Menú Semanal", "subheadline": "Planificá tus comidas de la semana." },
+    "dailyMenu": { "title": "Menú de la Semana", "items": [
+      { "day": "Lunes", "items": [{"name": "Pollo al horno con vegetales", "price": "35.000 Gs"}, {"name": "Ensalada César con pollo", "price": "28.000 Gs"}] },
+      { "day": "Martes", "items": [{"name": "Milanesa de carne con puré", "price": "32.000 Gs"}, {"name": "Wok de verduras con tofu", "price": "25.000 Gs"}] },
+      { "day": "Miércoles", "items": [{"name": "Pasta bolognesa", "price": "30.000 Gs"}, {"name": "Sopa de verduras", "price": "22.000 Gs"}] },
+      { "day": "Jueves", "items": [{"name": "Pescado al limón con arroz", "price": "38.000 Gs"}, {"name": "Tarta de espinaca y queso", "price": "28.000 Gs"}] },
+      { "day": "Viernes", "items": [{"name": "Lomito saltado", "price": "35.000 Gs"}, {"name": "Pizza casera vegetariana", "price": "30.000 Gs"}] }
+    ]}
+  },
+  "pedidosPage": {
+    "seo": { "title": "Cómo Pedir — De Abasto a Casa", "description": "Hacé tu pedido online y recibilo en casa." },
+    "hero": { "headline": "Hacé tu Pedido", "subheadline": "Elegí tu plan y recibilo en la puerta de tu casa." },
+    "orderSteps": { "title": "Tres pasos simples", "steps": [
+      {"title": "Elegí tu plan", "description": "Seleccioná el nivel que mejor se adapte a tus necesidades."},
+      {"title": "Personalizá", "description": "Decinos tus preferencias, alergias y sustituciones."},
+      {"title": "Recibí", "description": "Te lo llevamos a tu puerta en San Lorenzo."}
+    ]},
+    "cta": { "title": "Pedí tu primera semana", "buttonText": "Pedir por WhatsApp", "buttonHref": "https://wa.me/595981324569" }
+  },
+  "zonasPage": {
+    "seo": { "title": "Zonas de Delivery — De Abasto a Casa", "description": "Llegamos a todo San Lorenzo y zonas cercanas." },
+    "hero": { "headline": "Zonas de Entrega", "subheadline": "Hacemos entregas en San Lorenzo completo." },
+    "zones": { "title": "Cobertura", "items": [
+      {"name": "San Lorenzo Centro", "description": "Entrega en el día", "price": "Gratis"},
+      {"name": "Ciudad Universitaria", "description": "Entrega en el día", "price": "Gratis"},
+      {"name": "Barrio Obrero", "description": "Entrega en 24hs", "price": "Gs 5.000"},
+      {"name": "Zona Norte", "description": "Entrega en 24hs", "price": "Gs 8.000"},
+      {"name": "Fernando de la Mora", "description": "Entrega en 48hs", "price": "Gs 15.000"}
+    ]}
+  },
+  "galeriaPage": {
+    "seo": { "title": "Galería — De Abasto a Casa", "description": "Mirá fotos de nuestros preparados y entregas." },
+    "hero": { "headline": "Galería", "subheadline": "Así preparamos tus comidas." },
+    "gallery": { "title": "Nuestros Platos", "images": [] }
+  },
+  "blogPage": {
+    "seo": { "title": "Blog — De Abasto a Casa", "description": "Consejos de alimentación y novedades." },
+    "hero": { "headline": "Blog", "subheadline": "Consejos de alimentación saludable." },
+    "blog": { "title": "Últimos Artículos" }
   },
   "whatsapp": "+595981324569",
   "seo": {

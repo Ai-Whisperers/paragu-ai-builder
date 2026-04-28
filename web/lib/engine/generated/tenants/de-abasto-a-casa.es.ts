@@ -5,6 +5,19 @@ export default {
     "lastReviewed": "2026-04-20",
     "translationQuality": "human"
   },
+  "blogPage": {
+    "blog": {
+      "title": "Últimos Artículos"
+    },
+    "hero": {
+      "headline": "Blog",
+      "subheadline": "Consejos de alimentación saludable."
+    },
+    "seo": {
+      "description": "Consejos de alimentación y novedades.",
+      "title": "Blog — De Abasto a Casa"
+    }
+  },
   "contacto": {
     "hero": {
       "subtitle": "Respondemos por WhatsApp en el dia",
@@ -50,10 +63,40 @@ export default {
         "label": "Inicio"
       },
       {
+        "href": "/s/es/de-abasto-a-casa/menu",
+        "label": "Menú"
+      },
+      {
+        "href": "/s/es/de-abasto-a-casa/pedidos",
+        "label": "Cómo Pedir"
+      },
+      {
+        "href": "/s/es/de-abasto-a-casa/zonas",
+        "label": "Zonas"
+      },
+      {
+        "href": "/s/es/de-abasto-a-casa/blog",
+        "label": "Blog"
+      },
+      {
         "href": "/s/es/de-abasto-a-casa/contacto",
         "label": "Contacto"
       }
     ]
+  },
+  "galeriaPage": {
+    "gallery": {
+      "images": [],
+      "title": "Nuestros Platos"
+    },
+    "hero": {
+      "headline": "Galería",
+      "subheadline": "Así preparamos tus comidas."
+    },
+    "seo": {
+      "description": "Mirá fotos de nuestros preparados y entregas.",
+      "title": "Galería — De Abasto a Casa"
+    }
   },
   "home": {
     "contact": {
@@ -259,10 +302,144 @@ export default {
       "title": "Testimonios"
     }
   },
+  "menuPage": {
+    "dailyMenu": {
+      "items": [
+        {
+          "day": "Lunes",
+          "items": [
+            {
+              "name": "Pollo al horno con vegetales",
+              "price": "35.000 Gs"
+            },
+            {
+              "name": "Ensalada César con pollo",
+              "price": "28.000 Gs"
+            }
+          ]
+        },
+        {
+          "day": "Martes",
+          "items": [
+            {
+              "name": "Milanesa de carne con puré",
+              "price": "32.000 Gs"
+            },
+            {
+              "name": "Wok de verduras con tofu",
+              "price": "25.000 Gs"
+            }
+          ]
+        },
+        {
+          "day": "Miércoles",
+          "items": [
+            {
+              "name": "Pasta bolognesa",
+              "price": "30.000 Gs"
+            },
+            {
+              "name": "Sopa de verduras",
+              "price": "22.000 Gs"
+            }
+          ]
+        },
+        {
+          "day": "Jueves",
+          "items": [
+            {
+              "name": "Pescado al limón con arroz",
+              "price": "38.000 Gs"
+            },
+            {
+              "name": "Tarta de espinaca y queso",
+              "price": "28.000 Gs"
+            }
+          ]
+        },
+        {
+          "day": "Viernes",
+          "items": [
+            {
+              "name": "Lomito saltado",
+              "price": "35.000 Gs"
+            },
+            {
+              "name": "Pizza casera vegetariana",
+              "price": "30.000 Gs"
+            }
+          ]
+        }
+      ],
+      "title": "Menú de la Semana"
+    },
+    "hero": {
+      "headline": "Menú Semanal",
+      "subheadline": "Planificá tus comidas de la semana."
+    },
+    "seo": {
+      "description": "Planificá tu menú semanal con nosotros.",
+      "title": "Menú Semanal — De Abasto a Casa"
+    }
+  },
   "navigation": {
     "businessName": "De Abasto a Casa",
     "ctaHref": "https://wa.me/595981324569",
-    "ctaText": "Contactanos"
+    "ctaText": "Contactanos",
+    "navItems": [
+      {
+        "href": "/s/es/de-abasto-a-casa",
+        "label": "Inicio"
+      },
+      {
+        "href": "/s/es/de-abasto-a-casa/menu",
+        "label": "Menú"
+      },
+      {
+        "href": "/s/es/de-abasto-a-casa/pedidos",
+        "label": "Pedidos"
+      },
+      {
+        "href": "/s/es/de-abasto-a-casa/blog",
+        "label": "Blog"
+      },
+      {
+        "href": "/s/es/de-abasto-a-casa/contacto",
+        "label": "Contacto"
+      }
+    ]
+  },
+  "pedidosPage": {
+    "cta": {
+      "buttonHref": "https://wa.me/595981324569",
+      "buttonText": "Pedir por WhatsApp",
+      "title": "Pedí tu primera semana"
+    },
+    "hero": {
+      "headline": "Hacé tu Pedido",
+      "subheadline": "Elegí tu plan y recibilo en la puerta de tu casa."
+    },
+    "orderSteps": {
+      "steps": [
+        {
+          "description": "Seleccioná el nivel que mejor se adapte a tus necesidades.",
+          "title": "Elegí tu plan"
+        },
+        {
+          "description": "Decinos tus preferencias, alergias y sustituciones.",
+          "title": "Personalizá"
+        },
+        {
+          "description": "Te lo llevamos a tu puerta en San Lorenzo.",
+          "title": "Recibí"
+        }
+      ],
+      "title": "Tres pasos simples"
+    },
+    "seo": {
+      "description": "Hacé tu pedido online y recibilo en casa.",
+      "title": "Cómo Pedir — De Abasto a Casa"
+    }
   },
   "placeholders": {
     "businessName": "De Abasto a Casa",
@@ -277,5 +454,45 @@ export default {
   },
   "siteName": "De Abasto a Casa",
   "tagline": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
-  "whatsapp": "+595981324569"
+  "whatsapp": "+595981324569",
+  "zonasPage": {
+    "hero": {
+      "headline": "Zonas de Entrega",
+      "subheadline": "Hacemos entregas en San Lorenzo completo."
+    },
+    "seo": {
+      "description": "Llegamos a todo San Lorenzo y zonas cercanas.",
+      "title": "Zonas de Delivery — De Abasto a Casa"
+    },
+    "zones": {
+      "items": [
+        {
+          "description": "Entrega en el día",
+          "name": "San Lorenzo Centro",
+          "price": "Gratis"
+        },
+        {
+          "description": "Entrega en el día",
+          "name": "Ciudad Universitaria",
+          "price": "Gratis"
+        },
+        {
+          "description": "Entrega en 24hs",
+          "name": "Barrio Obrero",
+          "price": "Gs 5.000"
+        },
+        {
+          "description": "Entrega en 24hs",
+          "name": "Zona Norte",
+          "price": "Gs 8.000"
+        },
+        {
+          "description": "Entrega en 48hs",
+          "name": "Fernando de la Mora",
+          "price": "Gs 15.000"
+        }
+      ],
+      "title": "Cobertura"
+    }
+  }
 } as Record<string, unknown>

@@ -219,7 +219,27 @@
     }
   },
   "seo": {
-    "home": {
+  "equipo": {
+    "seo": { "title": "Our Team — Nexa Propiedades", "description": "Meet our expert real estate agents in Paraguay." },
+    "hero": { "headline": "Our Team", "subheadline": "Dedicated professionals finding your ideal home." },
+    "agents": { "title": "Real Estate Agents", "items": [
+      { "name": "Carlos Mendoza", "role": "Senior Agent", "bio": "15 years in the Asunción real estate market. Specialist in luxury residential properties.", "rating": 5 },
+      { "name": "Ana Rivas", "role": "Commercial Agent", "bio": "Expert in commercial and investment properties. Bilingual Spanish/English.", "rating": 5 }
+    ]},
+    "cta": { "title": "Work with us", "buttonText": "Contact", "buttonHref": "/s/en/nexa-propiedades/contacto" }
+  },
+  "testimonios": {
+    "seo": { "title": "Testimonials — Nexa Propiedades", "description": "What our clients say about Nexa Propiedades." },
+    "hero": { "headline": "Testimonials", "subheadline": "Our clients' opinions are our best business card." },
+    "cta": { "title": "Want to share your experience?", "buttonText": "Contact us", "buttonHref": "/s/en/nexa-propiedades/contacto" }
+  },
+  "blog": {
+    "seo": { "title": "Blog — Nexa Propiedades", "description": "Tips and guides about the Paraguayan real estate market." },
+    "hero": { "headline": "Real Estate Blog", "subheadline": "Tips, guides and news from the Paraguayan market." },
+    "posts": { "title": "Latest Articles" },
+    "newsletter": { "title": "Get updates", "subtitle": "Subscribe to receive the latest properties in your inbox." }
+  },
+  "home": {
       "title": "nexa-propiedades - Paraguay",
       "description": "Sitio web de nexa-propiedades"
     }

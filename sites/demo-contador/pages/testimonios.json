@@ -1,0 +1,13 @@
+{
+  "slug": "testimonios",
+  "titleKey": "testimonios.seo.title",
+  "descriptionKey": "testimonios.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "testimonios.hero" },
+    { "id": "testimonials", "variant": "grid", "content": "home.testimonials" },
+    { "id": "cta-banner", "variant": "gradient", "content": "testimonios.cta" },
+    { "id": "contact", "variant": "split", "content": "home.contact" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}
