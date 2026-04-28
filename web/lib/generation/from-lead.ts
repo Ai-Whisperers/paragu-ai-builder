@@ -1,50 +1,44 @@
-/**
- * Stub for the lead → preview-site config mapper. The real implementation
- * was supposed to land alongside `app/api/leads/[id]/generate-preview`
- * (commit 34a5313, PR #150) but the module file was never committed,
- * leaving Main with a broken typecheck.
- *
- * This stub exposes the types the route needs and a throwing implementation
- * so the codebase compiles. The route itself is admin-only, so until a real
- * mapper lands the only effect is a 500 to an admin who tries to trigger it
- * — preferable to keeping Main red for everyone else.
- */
-
 export interface BusinessSchema {
   businessName: string
-  contact: {
-    email?: string
-    phone?: string
-    whatsapp?: string
-  }
+  contact: { email?: string; phone?: string; whatsapp?: string }
   location?: Record<string, unknown>
   hours?: Record<string, unknown>
   seo?: Record<string, unknown>
+  services?: Array<{ name: string; price?: string; duration?: number; description?: string }>
+  team?: Array<{ name: string; role?: string; bio?: string }>
+  gallery?: string[]
+  testimonials?: Array<{ quote: string; author: string; rating?: number }>
 }
 
 export interface PreviewConfig {
   siteSlug: string
   verticalId: string
-  businessType: 'gimnasio' | 'peluqueria' | string
+  businessType: string
   schema: BusinessSchema
   source: string
 }
 
 const TYPE_TO_VERTICAL: Record<string, string> = {
-  peluqueria: 'beauty-personal-care',
-  salon_belleza: 'beauty-personal-care',
-  barberia: 'service-booking',
-  gimnasio: 'sports-recreation',
-  spa: 'health-wellness',
-  depilacion: 'beauty-personal-care',
-  maquillaje: 'portfolio-professional',
-  estetica: 'beauty-personal-care',
-  unas: 'beauty-personal-care',
-  tatuajes: 'portfolio-professional',
-  peluqueria_canina: 'pets-animals',
-  masajes: 'health-wellness',
-  yoga: 'sports-recreation',
-  pilates: 'sports-recreation',
+  peluqueria: 'beauty-personal-care', salon_belleza: 'beauty-personal-care',
+  barberia: 'service-booking', gimnasio: 'sports-recreation',
+  spa: 'health-wellness', depilacion: 'beauty-personal-care',
+  maquillaje: 'portfolio-professional', estetica: 'beauty-personal-care',
+  unas: 'beauty-personal-care', tatuajes: 'portfolio-professional',
+  peluqueria_canina: 'pets-animals', masajes: 'health-wellness',
+  yoga: 'sports-recreation', pilates: 'sports-recreation',
+  restaurant: 'food-beverage', cafeteria: 'food-beverage',
+  panaderia: 'food-beverage', parrilla: 'food-beverage',
+  pizzeria: 'food-beverage', taller_mecanico: 'automotive',
+  gomeria: 'automotive', lavadero_autos: 'automotive',
+  ferreteria: 'retail-local', farmacia: 'health-wellness',
+  carniceria: 'retail-local', bodega_corner_store: 'retail-local',
+  inmobiliaria: 'real-estate-relocation', contador: 'b2b-professional',
+  electricista: 'trades-home-services', plomero: 'trades-home-services',
+  cerrajero: 'trades-home-services', herreria: 'trades-home-services',
+  veterinaria: 'pets-animals', clinica_integral: 'health-wellness',
+  consultorio_odontologico: 'health-wellness', psicologia: 'health-wellness',
+  educacion: 'education-training', consultoria: 'b2b-professional',
+  diseno_grafico: 'portfolio-professional',
 }
 
 export function mapLeadToPreviewConfig(lead: Record<string, unknown>): PreviewConfig {
@@ -55,53 +49,32 @@ export function mapLeadToPreviewConfig(lead: Record<string, unknown>): PreviewCo
   const whatsapp = (lead.whatsapp as string) || phone
   const instagram = (lead.instagram as string) || ''
   const address = (lead.address as string) || ''
-  const coordinates = lead.coordinates as Record<string, number> | null
   const hours = lead.hours as Record<string, string> | null
-  const yearsInOp = lead.years_in_operation as number | null
-  const rating = lead.rating as number | null
-  const reviewCount = lead.review_count as number | null
 
-  const slug = `preview-${lead.id as string}`
+  const slug = `demo-${businessName.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').slice(0, 40)}`
   const verticalId = TYPE_TO_VERTICAL[businessType] || 'beauty-personal-care'
+
+  const services = (lead.services as Array<Record<string, unknown>>) || []
+  const mappedServices = services.map((s) => ({
+    name: (s.name as string) || '',
+    price: s.price as string,
+    duration: s.duration as number,
+    description: s.description as string,
+  }))
 
   const schema: BusinessSchema = {
     businessName,
-    contact: {
-      email: (lead.email as string) || '',
-      phone,
-      whatsapp,
-    },
-    location: {
-      city,
-      address,
-      coordinates,
-    },
+    contact: { email: (lead.email as string) || '', phone, whatsapp },
+    location: { city, address },
     hours: hours || {},
     seo: {
       titleTemplate: `${businessName} — ${businessType.replace(/_/g, ' ')} en ${city}`,
-      descriptionTemplate: `${businessName} en ${city}. ${businessType.replace(/_/g, ' ')} profesional con atención personalizada.`,
+      descriptionTemplate: `${businessName} en ${city}. Profesional con atención personalizada.`,
     },
   }
 
-  const extended = schema as unknown as Record<string, unknown>
-  if (instagram) {
-    extended.instagram = instagram
-  }
-  if (yearsInOp) {
-    extended.yearsInOperation = yearsInOp
-  }
-  if (rating) {
-    extended.rating = rating
-  }
-  if (reviewCount) {
-    extended.reviewCount = reviewCount
-  }
+  if (mappedServices.length > 0) schema.services = mappedServices
+  if (instagram) (schema as unknown as Record<string, unknown>).instagram = instagram
 
-  return {
-    siteSlug: slug,
-    verticalId,
-    businessType,
-    schema,
-    source: 'lead_generation',
-  }
+  return { siteSlug: slug, verticalId, businessType, schema, source: 'lead_generation' }
 }

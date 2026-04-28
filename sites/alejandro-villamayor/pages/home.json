@@ -8,16 +8,12 @@
       "variant": "split",
       "overrides": {
         "variant": "split",
-        "secondaryCtaModal": true
+        "secondaryCtaModal": true,
+        "backgroundImage": "https://images.unsplash.com/photo-1560258729-4e7f86c9fc1f?w=1200&q=90",
+        "backgroundImageMobile": "https://images.unsplash.com/photo-1560258729-4e7f86c9fc1f?w=600&q=80"
       },
       "content": "home.hero",
-      "image": "https://images.unsplash.com/photo-1560258729-4e7f86c9fc1f?w=1200&q=90",
-      "styling": {
-        "padding": "xl",
-        "background": "image",
-        "textColor": "light",
-        "backgroundImage": "https://images.unsplash.com/photo-1560258729-4e7f86c9fc1f?w=1200&q=90"
-      }
+      "image": "https://images.unsplash.com/photo-1560258729-4e7f86c9fc1f?w=1200&q=90"
     },
     {
       "id": "stats-counter",

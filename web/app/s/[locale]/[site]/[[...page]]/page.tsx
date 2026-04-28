@@ -143,10 +143,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default async function TenantPage({ params }: Props) {
+export default async function TenantPage({ params, searchParams }: Props & { searchParams?: Promise<Record<string, string>> }) {
   const { locale, site: siteSlug, page } = await params
   if (!isLocale(locale)) notFound()
   const pageSlug = page?.[0] || 'home'
+  const sp = searchParams ? await searchParams : {}
+  const demoName = sp.demo_name
+  const demoCity = sp.demo_city
 
   let composed
   try {

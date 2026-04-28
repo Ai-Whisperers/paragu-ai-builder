@@ -6,82 +6,78 @@ import { BUSINESS_TYPES } from '@/lib/types'
 export const runtime = 'nodejs'
 
 const TYPE_LABELS: Record<string, string> = {
-  peluqueria: 'Peluqueria',
-  salon_belleza: 'Salon de Belleza',
-  gimnasio: 'Gimnasio',
-  spa: 'Spa',
-  unas: 'Unas',
-  tatuajes: 'Tatuajes',
-  barberia: 'Barberia',
-  estetica: 'Estetica',
-  maquillaje: 'Maquillaje',
-  depilacion: 'Depilacion',
+  peluqueria: 'Peluqueria', salon_belleza: 'Salon de Belleza', gimnasio: 'Gimnasio',
+  spa: 'Spa', unas: 'Unas', tatuajes: 'Tatuajes', barberia: 'Barberia',
+  estetica: 'Estetica', maquillaje: 'Maquillaje', depilacion: 'Depilacion',
   pestanas: 'Pestanas y Cejas',
 }
 
 const STATUS_COLORS: Record<string, string> = {
-  generated: 'bg-[var(--color-success-surface)] text-[var(--color-success)]',
-  draft: 'bg-gray-100 text-gray-800',
-  error: 'bg-[var(--color-error-surface)] text-[var(--color-error)]',
+  generated: 'bg-green-50 text-green-700', draft: 'bg-gray-100 text-gray-800',
+  error: 'bg-red-50 text-red-700',
+}
+
+function fmt(gs: number): string {
+  if (gs >= 1000000) return `Gs ${(gs / 1000000).toFixed(1)}M`
+  if (gs >= 1000) return `Gs ${(gs / 1000).toFixed(0)}.${String(Math.floor((gs % 1000) / 100))}00`
+  return `Gs ${gs}`
 }
 
 export default async function AdminDashboard() {
+  const supabase = await createClient()
   const businesses = await loadAllBusinesses()
 
-  // Live inbox counts for the tile badge. Best-effort — failures show 0
-  // rather than blocking the dashboard render.
   let inboxNewCount = 0
   let inboxOverdueCount = 0
-  try {
-    const supabase = await createClient()
-    const { data } = await supabase
-      .from('leads')
-      .select('status, created_at, contacted_at')
-      .in('status', ['new', 'contacted'])
-      .limit(1000)
-    // eslint-disable-next-line react-hooks/purity -- Server Component; Date.now() is a deliberate request-time value, not a hook-triggering side-effect.
-    const now = Date.now()
-    for (const l of (data ?? []) as Array<{ status: string; created_at: string; contacted_at: string | null }>) {
-      if (l.status === 'new') {
-        inboxNewCount++
-        const age = (now - new Date(l.created_at).getTime()) / 3_600_000
-        if (age > 48) inboxOverdueCount++
-      } else if (l.status === 'contacted' && l.contacted_at) {
-        const age = (now - new Date(l.contacted_at).getTime()) / 3_600_000
-        if (age > 144) inboxOverdueCount++
-      }
-    }
-  } catch {
-    // Silent — show zeros.
-  }
-
-  // Commerce tile counts — awaiting_payment + of-those-with-comprobante-sent
-  // + low-stock products across ALL tenants. Best-effort; failures show 0.
   let commerceAwaitingCount = 0
   let commerceComprobanteSentCount = 0
   let commerceLowStockCount = 0
+  let leadFunnel: Record<string, number> = {}
+  let totalRevenueCents = 0
+  let activeSubs = 0
+  let trialingSubs = 0
+  let monthlyRecurringCents = 0
+
   try {
-    const supabase = await createClient()
-    const { data: orders } = await supabase
-      .from('orders')
-      .select('status, comprobante_sent_at')
-      .eq('status', 'awaiting_payment')
-      .limit(1000)
-    const oRows = (orders ?? []) as Array<{ status: string; comprobante_sent_at: string | null }>
-    commerceAwaitingCount = oRows.length
-    commerceComprobanteSentCount = oRows.filter((o) => o.comprobante_sent_at).length
-    const { data: products } = await supabase
-      .from('products')
-      .select('inventory_qty, low_stock_threshold, inventory_policy, status')
-      .eq('inventory_policy', 'deny')
-      .eq('status', 'active')
-      .lte('inventory_qty', 10)
-      .limit(500)
-    commerceLowStockCount = ((products ?? []) as Array<{ inventory_qty: number; low_stock_threshold: number | null }>)
-      .filter((p) => p.inventory_qty <= (p.low_stock_threshold ?? 3)).length
-  } catch {
-    // Silent.
-  }
+    const [leadsResult, ordersResult, productsResult, subsResult, paymentsResult] = await Promise.all([
+      supabase.from('leads').select('status').limit(5000),
+      supabase.from('orders').select('status, total_cents, comprobante_sent_at').in('status', ['awaiting_payment', 'paid', 'completed']).limit(5000),
+      supabase.from('products').select('inventory_qty, low_stock_threshold, inventory_policy, status').eq('inventory_policy', 'deny').eq('status', 'active').lte('inventory_qty', 10).limit(500),
+      supabase.from('subscriptions').select('plan_tier, status, price_monthly').limit(1000),
+      supabase.from('payments').select('amount, status').eq('status', 'completed').limit(2000),
+    ])
+
+    const leads = (leadsResult.data ?? []) as Array<{ status: string }>
+    for (const l of leads) {
+      leadFunnel[l.status] = (leadFunnel[l.status] || 0) + 1
+      if (l.status === 'new') { inboxNewCount++ }
+    }
+
+    const orders = (ordersResult.data ?? []) as Array<{ status: string; total_cents: number; comprobante_sent_at: string | null }>
+    commerceAwaitingCount = orders.filter((o) => o.status === 'awaiting_payment').length
+    commerceComprobanteSentCount = orders.filter((o) => o.comprobante_sent_at).length
+
+    const subs = (subsResult.data ?? []) as Array<{ status: string; price_monthly: number }>
+    for (const s of subs) {
+      if (s.status === 'active') { activeSubs++; monthlyRecurringCents += s.price_monthly }
+      if (s.status === 'trialing') trialingSubs++
+    }
+
+    const payments = (paymentsResult.data ?? []) as Array<{ amount: number }>
+    totalRevenueCents = payments.reduce((sum, p) => sum + p.amount, 0)
+
+    const products = (productsResult.data ?? []) as Array<{ inventory_qty: number; low_stock_threshold: number | null }>
+    commerceLowStockCount = products.filter((p) => p.inventory_qty <= (p.low_stock_threshold ?? 3)).length
+
+    const { data: newLeads } = await supabase.from('leads').select('status, created_at').in('status', ['new', 'contacted']).limit(1000)
+    const now = Date.now()
+    for (const l of (newLeads ?? []) as Array<{ status: string; created_at: string }>) {
+      if (l.status === 'new') {
+        const age = (now - new Date(l.created_at).getTime()) / 3_600_000
+        if (age > 48) inboxOverdueCount++
+      }
+    }
+  } catch {}
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -113,9 +109,47 @@ export default async function AdminDashboard() {
           </div>
           <div className="rounded-lg border bg-white p-6">
             <p className="text-sm font-medium text-gray-500">Sitios Generados</p>
-            <p className="mt-1 text-3xl font-bold text-[var(--color-success)]">{businesses.length}</p>
+            <p className="mt-1 text-3xl font-bold text-green-600">{businesses.length}</p>
+          </div>
+          <div className="rounded-lg border bg-white p-6">
+            <p className="text-sm font-medium text-gray-500">Ingresos totales</p>
+            <p className="mt-1 text-3xl font-bold text-emerald-600">{fmt(totalRevenueCents)}</p>
+          </div>
+          <div className="rounded-lg border bg-white p-6">
+            <p className="text-sm font-medium text-gray-500">MRR</p>
+            <p className="mt-1 text-3xl font-bold text-blue-600">{fmt(monthlyRecurringCents)}</p>
+          </div>
+          <div className="rounded-lg border bg-white p-6">
+            <p className="text-sm font-medium text-gray-500">Suscripciones</p>
+            <p className="mt-1 text-3xl font-bold text-gray-900">{activeSubs}<span className="text-base font-normal text-gray-500 ml-1">activas</span></p>
+            <p className="text-xs text-amber-600">{trialingSubs} en prueba</p>
           </div>
         </div>
+
+        {/* Funnel */}
+        {Object.keys(leadFunnel).length > 0 && (
+          <div className="mb-8 rounded-xl border bg-white p-6">
+            <h3 className="text-sm font-semibold text-gray-900 mb-3">Lead funnel</h3>
+            <div className="flex flex-wrap gap-2">
+              {['new', 'contacted', 'demo_ready', 'paying', 'disqualified'].map((stage) => {
+                const count = leadFunnel[stage] || 0
+                if (count === 0) return null
+                const pct = businesses.length > 0 ? Math.round((count / businesses.length) * 100) : 0
+                const colors: Record<string, string> = {
+                  new: 'bg-blue-50 text-blue-700', contacted: 'bg-amber-50 text-amber-700',
+                  demo_ready: 'bg-purple-50 text-purple-700', paying: 'bg-green-50 text-green-700',
+                  disqualified: 'bg-gray-100 text-gray-600',
+                }
+                return (
+                  <div key={stage} className={`rounded-lg px-4 py-2 text-sm ${colors[stage] || 'bg-gray-50'}`}>
+                    <span className="font-semibold">{count}</span>
+                    <span className="ml-1.5 text-xs opacity-75">{stage.replace(/_/g, ' ')}</span>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        )}
 
         {/* Quick links to admin tools */}
         <div className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
