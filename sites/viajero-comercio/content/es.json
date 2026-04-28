@@ -9,6 +9,7 @@
     "ctaHref": "https://wa.me/595981234567?text=Hola!%20Quisiera%20informacion%20sobre%20productos",
     "items": [
       { "label": "Inicio", "href": "/s/es/viajero-comercio" },
+      { "label": "Tienda", "href": "/s/es/viajero-comercio/tienda" },
       { "label": "Productos", "href": "/s/es/viajero-comercio/productos" },
       { "label": "Nosotros", "href": "/s/es/viajero-comercio/nosotros" },
       { "label": "Contacto", "href": "/s/es/viajero-comercio/contacto" }
@@ -126,6 +127,12 @@
       "buttonLink": "https://wa.me/595981234567?text=Hola!%20Quisiera%20informacion%20sobre%20productos",
       "secondaryText": "Ver Catalogo",
       "secondaryLink": "#catalogo"
+    },
+    "newsletter": {
+      "title": "Recibi Novedades",
+      "description": "Suscribite para recibir ofertas exclusivas, lanzamientos y tips de aventura.",
+      "placeholder": "tu@email.com",
+      "buttonText": "Suscribirme"
     },
     "contact": {
       "title": "Contacto",
@@ -266,6 +273,89 @@
   "whatsapp": {
     "defaultMessage": "Hola! Quisiera informacion sobre productos de El Viajero Comercio",
     "serviceMessage": "Hola! Quisiera consultar por {{productName}}"
+  },
+  "tienda": {
+    "seo": {
+      "title": "Tienda Online - El Viajero Comercio | Compra en Asuncion",
+      "description": "Compra online en El Viajero Comercio. Camping, pesca, accesorios para auto y moto. Hacemos envios en Asuncion y zonas aledanas."
+    },
+    "hero": {
+      "headline": "Tienda Online",
+      "subheadline": "Compra desde casa y recibi en tu puerta"
+    },
+    "trustBadges": {
+      "title": "Compra con confianza",
+      "items": [
+        { "icon": "Truck", "text": "Envio a tu domicilio", "description": "En Asuncion y area metropolitana" },
+        { "icon": "ShieldCheck", "text": "Pago seguro", "description": "Pagopar, Mercado Pago, transferencia" },
+        { "icon": "MessageCircle", "text": "Atencion por WhatsApp", "description": "Te asesoramos antes de comprar" },
+        { "icon": "RotateCcw", "text": "Cambios y garantia", "description": "Consulta terminos con nuestro equipo" }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas sobre la tienda online",
+      "items": [
+        { "question": "Como comprar online?", "answer": "Navega los productos, elegi los que te interesen y hace tu pedido por WhatsApp. Te pasamos precio final, disponibilidad y opciones de pago." },
+        { "question": "Cual es el costo de envio?", "answer": "Envio gratis en compras desde Gs. 300.000 para Asuncion, Fernando de la Mora, San Lorenzo, Lambare, Luque y Capiatá. Fuera de esas zonas consultanos." },
+        { "question": "Cuanto tarda la entrega?", "answer": "Las entregas en Asuncion y area metropolitana se realizan dentro de las 24-48hs habiles posteriores a la confirmacion del pedido." }
+      ]
+    }
+  },
+  "faq": {
+    "seo": {
+      "title": "Preguntas Frecuentes - El Viajero Comercio",
+      "description": "Resolvemos tus dudas sobre productos, envios, pagos, garantia y cambios en El Viajero Comercio."
+    },
+    "hero": {
+      "headline": "Preguntas Frecuentes",
+      "subheadline": "Todo lo que necesitas saber"
+    },
+    "title": "Preguntas Frecuentes",
+    "items": [
+      { "question": "Donde estan ubicados?", "answer": "Estamos en Av. Mariscal Lopez 1234, Asuncion, casi San Martin. Tambien podes contactarnos por WhatsApp al +595 981 234 567." },
+      { "question": "Cual es el horario de atencion?", "answer": "Atendemos de Lunes a Viernes de 08:00 a 19:00, Sabados de 08:00 a 17:00 y Domingos de 09:00 a 13:00." },
+      { "question": "Hacen envios?", "answer": "Si, hacemos entregas en Asuncion, Fernando de la Mora, San Lorenzo, Lambare, Luque y Capiatá. Envio gratis en compras desde Gs. 300.000." },
+      { "question": "Como puedo pedir un producto?", "answer": "Escribinos por WhatsApp al +595 981 234 567 con el producto que te interesa. Te pasamos precio, disponibilidad y formas de pago." },
+      { "question": "Que metodos de pago aceptan?", "answer": "Aceptamos efectivo (Gs. / USD), transferencia bancaria, tarjetas de credito y debito (Bancard), Mercado Pago y Pagopar." },
+      { "question": "Tienen garantia?", "answer": "Si, todos nuestros productos cuentan con garantia. Consulta los detalles con nuestro equipo." },
+      { "question": "Puedo cambiar un producto?", "answer": "Aceptamos cambios dentro de los 7 dias posteriores a la compra, con producto en estado original y su empaque." }
+    ]
+  },
+  "promociones": {
+    "seo": {
+      "title": "Promociones - El Viajero Comercio | Ofertas en Camping y Pesca",
+      "description": "Aprovecha nuestras promociones en camping, pesca, accesorios para auto y moto. Ofertas por tiempo limitado en Asuncion."
+    },
+    "hero": {
+      "headline": "Promociones",
+      "subheadline": "No te pierdas nuestras ofertas"
+    },
+    "promotions": [
+      {
+        "title": "Kit Camping Completo",
+        "description": "Carpa 4 pers + 2 bolsas de dormir + colchon inflable. Ahorra Gs. 80.000",
+        "badge": "-15%",
+        "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
+        "ctaText": "Consultar por WhatsApp",
+        "ctaHref": "https://wa.me/595981234567?text=Hola!%20Quiero%20info%20del%20Kit%20Camping%20Completo"
+      },
+      {
+        "title": "Combo Pesca Inicial",
+        "description": "Caña + caja de herramientas + señuelos. Ideal para empezar.",
+        "badge": "-10%",
+        "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+        "ctaText": "Consultar por WhatsApp",
+        "ctaHref": "https://wa.me/595981234567?text=Hola!%20Quiero%20info%20del%20Combo%20Pesca%20Inicial"
+      },
+      {
+        "title": "Envio Gratis",
+        "description": "En compras mayores a Gs. 300.000 en Asuncion y area metropolitana.",
+        "badge": "GRATIS",
+        "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "ctaText": "Ver productos",
+        "ctaHref": "/s/es/viajero-comercio/tienda"
+      }
+    ]
   },
   "footer": {
     "description": "El Viajero Comercio - Todo para tu aventura en Asuncion. Camping, pesca, accesorios para auto y moto, equipo outdoor y mas. Desde 2018 equipando a los aventureros paraguayos.",

@@ -5,6 +5,11 @@
   "schemaType": "Store",
   "sections": [
     {
+      "id": "promo-banner",
+      "variant": "carousel",
+      "content": "promociones.promotions"
+    },
+    {
       "id": "hero",
       "variant": "image",
       "content": "home.hero",
@@ -25,6 +30,10 @@
       "content": "home.features"
     },
     {
+      "id": "commerce-catalog",
+      "variant": "grid"
+    },
+    {
       "id": "gallery",
       "variant": "grid",
       "content": "home.gallery",
@@ -36,6 +45,13 @@
       "variant": "carousel",
       "content": "home.testimonials",
       "title": "Lo que dicen nuestros clientes"
+    },
+    {
+      "id": "newsletter-signup",
+      "variant": "standard",
+      "content": "home.newsletter",
+      "title": "Recibi Novedades",
+      "subtitle": "Suscribite para recibir ofertas y nuevos productos"
     },
     {
       "id": "cta-banner",

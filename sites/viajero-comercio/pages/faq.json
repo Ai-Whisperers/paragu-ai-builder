@@ -1,0 +1,24 @@
+{
+  "slug": "faq",
+  "titleKey": "faq.seo.title",
+  "descriptionKey": "faq.seo.description",
+  "schemaType": "Store",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "faq.hero"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "faq",
+      "title": "Preguntas Frecuentes"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}

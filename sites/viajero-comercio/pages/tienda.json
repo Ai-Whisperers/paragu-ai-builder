@@ -1,0 +1,33 @@
+{
+  "slug": "tienda",
+  "titleKey": "tienda.seo.title",
+  "descriptionKey": "tienda.seo.description",
+  "schemaType": "Store",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "tienda.hero"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "tienda.trustBadges"
+    },
+    {
+      "id": "commerce-catalog",
+      "variant": "grid"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "tienda.faq",
+      "title": "Preguntas sobre la tienda online"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}

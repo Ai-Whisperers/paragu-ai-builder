@@ -11,14 +11,21 @@
   "locales": ["es"],
   "pages": [
     "home",
+    "tienda",
     "productos",
     "nosotros",
-    "contacto"
+    "contacto",
+    "faq",
+    "promociones"
   ],
   "navigation": [
     {
       "labelKey": "navigation.home",
       "path": ""
+    },
+    {
+      "label": "Tienda",
+      "path": "tienda"
     },
     {
       "label": "Productos",
@@ -59,6 +66,7 @@
     "delivery": {
       "enabled": true,
       "freeThresholdGs": 300000,
+      "freeThresholdLabel": "Envios gratis desde Gs. 300.000",
       "zones": [
         "Asuncion",
         "Fernando de la Mora",
@@ -68,6 +76,8 @@
         "Capiatá"
       ],
       "national": false,
+      "expressAvailable": true,
+      "expressFee": 30000,
       "pickupAvailable": true,
       "pickupAddresses": [
         "Av. Mariscal Lopez 1234, Asuncion"
@@ -105,7 +115,7 @@
     "testimonials": { "enabled": true },
     "featuresGrid": { "enabled": true },
     "statsCounter": { "enabled": true },
-    "promoBanner": { "enabled": false },
-    "ageGate": { "enabled": false }
+    "promoBanner": { "enabled": true },
+    "newsletterSignup": { "enabled": true }
   }
 }

@@ -1,0 +1,23 @@
+{
+  "slug": "promociones",
+  "titleKey": "promociones.seo.title",
+  "descriptionKey": "promociones.seo.description",
+  "schemaType": "Store",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "promociones.hero"
+    },
+    {
+      "id": "promo-banner",
+      "variant": "carousel",
+      "content": "promociones.promotions"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}
