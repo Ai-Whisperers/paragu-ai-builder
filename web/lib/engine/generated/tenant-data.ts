@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=15, pages=182, content=30, blog=34, images=6, verticals=23. */
+/** Counts: sites=15, pages=180, content=30, blog=34, images=6, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "alejandro-villamayor",
   "bufete-mendez",
@@ -2175,8 +2175,6 @@ export const SITES: Record<string, JsonRecord> = {
       "faq",
       "promociones",
       "blog",
-      "carrito",
-      "checkout",
       "privacidad",
       "terminos"
     ],
@@ -2502,14 +2500,39 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
     }
   },
   "viajero-comercio": {
-    "color": {
-      "accent": "#E65100",
-      "primary": "#1B5E20",
-      "secondary": "#37474F"
+    "defaultPalette": "viajero",
+    "googleFonts": [
+      "Inter:wght@400;500;600;700",
+      "Poppins:wght@500;600;700"
+    ],
+    "palettes": {
+      "viajero": {
+        "colors": {
+          "accent": "#E65100",
+          "accentForeground": "#FFFFFF",
+          "background": "#FFFFFF",
+          "error": "#C62828",
+          "primary": "#1B5E20",
+          "primaryForeground": "#FFFFFF",
+          "secondary": "#37474F",
+          "secondaryForeground": "#FFFFFF",
+          "success": "#2E7D32",
+          "surface": "#FAFAFA",
+          "surfaceLight": "#F0F7F0",
+          "text": "#1B2A1B",
+          "textLight": "#4A5A4A",
+          "textMuted": "#6B7B6B",
+          "warning": "#EF6C00"
+        },
+        "name": "El Viajero Comercio"
+      }
     },
-    "font": {
-      "body": "Inter",
-      "heading": "Poppins"
+    "theme": "light",
+    "typography": {
+      "body": "'Inter', sans-serif",
+      "bodyWeight": "400",
+      "heading": "'Poppins', sans-serif",
+      "headingWeight": "700"
     }
   },
 }
@@ -9504,44 +9527,6 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "blog",
     "titleKey": "blog.seo.title"
-  },
-  "viajero-comercio:carrito": {
-    "description": "Revisa tu carrito de compras en El Viajero Comercio. Finaliza tu pedido por WhatsApp o paga online.",
-    "schemaType": "Store",
-    "sections": [
-      {
-        "id": "hero",
-        "subtitle": "Tus productos seleccionados",
-        "title": "Carrito",
-        "variant": "minimal"
-      },
-      {
-        "content": "home.finalCta",
-        "id": "cta-banner",
-        "variant": "gradient"
-      }
-    ],
-    "slug": "carrito",
-    "title": "Carrito de Compras - El Viajero Comercio"
-  },
-  "viajero-comercio:checkout": {
-    "description": "Completa tu compra en El Viajero Comercio. Paga con Pagopar, Mercado Pago, transferencia bancaria o coordiná por WhatsApp.",
-    "schemaType": "Store",
-    "sections": [
-      {
-        "id": "hero",
-        "subtitle": "Un paso mas para tu aventura",
-        "title": "Finalizar Compra",
-        "variant": "minimal"
-      },
-      {
-        "content": "home.finalCta",
-        "id": "cta-banner",
-        "variant": "gradient"
-      }
-    ],
-    "slug": "checkout",
-    "title": "Finalizar Compra - El Viajero Comercio"
   },
   "viajero-comercio:contacto": {
     "descriptionKey": "contacto.seo.description",

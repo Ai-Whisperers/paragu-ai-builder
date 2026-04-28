@@ -63,7 +63,7 @@ export async function generateMetadata({
     })
   return {
     title: `Tienda — ${business.name}`,
-    description: `Catálogo completo de ${business.name}. Envío discreto a todo Paraguay. Pago con tarjeta, transferencia o WhatsApp.`,
+    description: `Catálogo completo de ${business.name}. Envío a domicilio, pago seguro por Pagopar, Mercado Pago o transferencia.`,
     alternates: { canonical },
     openGraph: { url: canonical, title: `Tienda — ${business.name}` },
     robots: hasSearchyParam

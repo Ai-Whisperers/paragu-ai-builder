@@ -78,7 +78,7 @@ export async function generateMetadata({
   const fallbackDesc = [
     product.category ? `${product.category.charAt(0).toUpperCase()}${product.category.slice(1)}` : null,
     product.brand,
-    `Disponible en ${business.name}. Envío discreto.`,
+    `Disponible en ${business.name}. Envío a todo Asunción.`,
   ]
     .filter(Boolean)
     .join(' · ')
@@ -310,10 +310,10 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
             variant="compact"
             className="mt-4"
             items={[
-              { icon: '📦', title: 'Envío discreto', description: 'Empaque neutro sin logos.' },
-              { icon: '🔒', title: 'Pago seguro', description: 'Tarjeta aparece como "F4M Comercial".' },
-              { icon: '⚡', title: 'Entrega 24-48h', description: 'Asunción y GBA.' },
-              { icon: '↩️', title: 'Cambios 7 días', description: 'Sin abrir, por talle o defecto.' },
+              { icon: '📦', title: 'Envio gratis', description: 'Desde Gs. 300.000 en Asuncion y area.' },
+              { icon: '🔒', title: 'Pago seguro', description: 'Pagopar, Mercado Pago, transferencia.' },
+              { icon: '⚡', title: 'Entrega 24-48h', description: 'Asuncion y area metropolitana.' },
+              { icon: '↩️', title: 'Cambios 7 dias', description: 'Producto sin uso, con empaque original.' },
             ]}
           />
 

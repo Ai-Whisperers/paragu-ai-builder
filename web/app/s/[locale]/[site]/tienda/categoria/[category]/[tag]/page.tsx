@@ -64,7 +64,7 @@ export async function generateMetadata({
   const title = `Comprar ${prettyTag} ${prettyCat} en Paraguay | ${business.name}`
   const description = count > 0
     ? `${prettyTag} · ${prettyCat} en ${business.name}: ${count} producto${count === 1 ? '' : 's'} con envío discreto a todo Paraguay. Pagá por transferencia, tarjeta o WhatsApp.`
-    : `${prettyTag} · ${prettyCat} en ${business.name}. Envío discreto a todo Paraguay.`
+    : `${prettyTag} · ${prettyCat} en ${business.name}. Envío a domicilio en Asunción y área metropolitana.`
   // noindex if any filter param set — the clean nested URL is the one
   // that should rank, permutations of it are duplicates.
   const hasFilterParam = ['q', 'min', 'max', 'sort', 'page', 'in_stock', 'on_sale']

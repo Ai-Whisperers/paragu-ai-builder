@@ -4,9 +4,8 @@
  * payment / returns), right at the moment the shopper is filling in
  * their address. Pure server-component presentation — no client JS.
  *
- * Copy is generic enough to apply to any commerce tenant, not just
- * adult-retail. The specific icons are intentionally emoji so we don't
- * ship another lucide import for three items.
+ * Copy applies to any commerce tenant. The specific icons are emoji so we
+ * don't ship another lucide import for three items.
  */
 export function CheckoutTrustStrip() {
   return (
@@ -17,15 +16,15 @@ export function CheckoutTrustStrip() {
       <div className="flex items-center gap-2">
         <span aria-hidden="true">📦</span>
         <div>
-          <p className="font-semibold text-[color:var(--text,#111)]">Envío discreto</p>
-          <p className="text-xs text-[color:var(--text-muted,#6b7280)]">Caja neutra sin marcas.</p>
+          <p className="font-semibold text-[color:var(--text,#111)]">Envío rápido</p>
+          <p className="text-xs text-[color:var(--text-muted,#6b7280)]">24-48hs en Asunción y área.</p>
         </div>
       </div>
       <div className="flex items-center gap-2">
         <span aria-hidden="true">🔒</span>
         <div>
           <p className="font-semibold text-[color:var(--text,#111)]">Pago seguro</p>
-          <p className="text-xs text-[color:var(--text-muted,#6b7280)]">Datos cifrados, factura discreta.</p>
+          <p className="text-xs text-[color:var(--text-muted,#6b7280)]">Pagopar, Mercado Pago, transferencia.</p>
         </div>
       </div>
       <div className="flex items-center gap-2">
