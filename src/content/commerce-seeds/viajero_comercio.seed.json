@@ -9,9 +9,19 @@
       "priceCents": 450000,
       "compareAtPriceCents": 550000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80", "alt": "Carpa para 4 personas en el bosque", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80",
+          "alt": "Carpa para 4 personas en el bosque",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Coleman"
     },
     {
       "slug": "carpa-2-personas-ligera",
@@ -19,9 +29,19 @@
       "category": "camping",
       "priceCents": 250000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80", "alt": "Carpa ligera automatica para 2 personas", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Carpa ligera automatica para 2 personas",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 12
+      "inventoryQty": 12,
+      "brand": "Coleman"
     },
     {
       "slug": "carpa-6-personas-familiar",
@@ -30,9 +50,19 @@
       "priceCents": 650000,
       "compareAtPriceCents": 780000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80", "alt": "Carpa familiar grande para 6 personas", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80",
+          "alt": "Carpa familiar grande para 6 personas",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 5
+      "inventoryQty": 5,
+      "brand": "Coleman"
     },
     {
       "slug": "carpa-3-personas-camuflada",
@@ -41,9 +71,19 @@
       "priceCents": 150000,
       "compareAtPriceCents": 200000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80", "alt": "Carpa camuflada para 3 personas", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Carpa camuflada para 3 personas",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Coleman"
     },
     {
       "slug": "bolsa-dormir-0c",
@@ -51,9 +91,19 @@
       "category": "camping",
       "priceCents": 180000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80", "alt": "Bolsa de dormir para temperatura 0 grados", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80",
+          "alt": "Bolsa de dormir para temperatura 0 grados",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 15
+      "inventoryQty": 15,
+      "brand": "Coleman"
     },
     {
       "slug": "bolsa-dormir-10c",
@@ -62,9 +112,19 @@
       "priceCents": 280000,
       "compareAtPriceCents": 350000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80", "alt": "Bolsa de dormir para clima frio", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80",
+          "alt": "Bolsa de dormir para clima frio",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Coleman"
     },
     {
       "slug": "colchon-inflable-queen",
@@ -72,9 +132,19 @@
       "category": "camping",
       "priceCents": 120000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80", "alt": "Colchon inflable queen size", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80",
+          "alt": "Colchon inflable queen size",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Coleman"
     },
     {
       "slug": "colchon-inflable-2-plazas",
@@ -82,9 +152,19 @@
       "category": "camping",
       "priceCents": 160000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80", "alt": "Colchon inflable con bomba incluida", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80",
+          "alt": "Colchon inflable con bomba incluida",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 7
+      "inventoryQty": 7,
+      "brand": "Coleman"
     },
     {
       "slug": "silla-plegable-pescador",
@@ -92,9 +172,19 @@
       "category": "camping",
       "priceCents": 85000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1200&q=80", "alt": "Silla plegable tipo pescador", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1200&q=80",
+          "alt": "Silla plegable tipo pescador",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 20
+      "inventoryQty": 20,
+      "brand": "Coleman"
     },
     {
       "slug": "silla-plegable-playera",
@@ -102,9 +192,19 @@
       "category": "camping",
       "priceCents": 65000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1200&q=80", "alt": "Silla playera plegable reclinable", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1200&q=80",
+          "alt": "Silla playera plegable reclinable",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 15
+      "inventoryQty": 15,
+      "brand": "Coleman"
     },
     {
       "slug": "mesa-plegable-camping",
@@ -112,9 +212,19 @@
       "category": "camping",
       "priceCents": 140000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1200&q=80", "alt": "Mesa plegable de camping", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1200&q=80",
+          "alt": "Mesa plegable de camping",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Coleman"
     },
     {
       "slug": "hamaca-paraguaya",
@@ -122,9 +232,19 @@
       "category": "camping",
       "priceCents": 75000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80", "alt": "Hamaca paraguaya de algodon", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Hamaca paraguaya de algodon",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 18
+      "inventoryQty": 18,
+      "brand": "Coleman"
     },
     {
       "slug": "hamaca-portatil-camping",
@@ -132,9 +252,19 @@
       "category": "camping",
       "priceCents": 55000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80", "alt": "Hamaca portatil de nylon", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Hamaca portatil de nylon",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 12
+      "inventoryQty": 12,
+      "brand": "Coleman"
     },
     {
       "slug": "linterna-led-1000lm",
@@ -143,9 +273,19 @@
       "priceCents": 65000,
       "compareAtPriceCents": 80000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80", "alt": "Linterna LED recargable potente", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Linterna LED recargable potente",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 25
+      "inventoryQty": 25,
+      "brand": "Coleman"
     },
     {
       "slug": "linterna-frontal-led",
@@ -153,9 +293,19 @@
       "category": "camping",
       "priceCents": 45000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80", "alt": "Linterna frontal LED para cabeza", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Linterna frontal LED para cabeza",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 20
+      "inventoryQty": 20,
+      "brand": "Coleman"
     },
     {
       "slug": "lamp-recargable-camping",
@@ -163,9 +313,19 @@
       "category": "camping",
       "priceCents": 95000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80", "alt": "Lampara recargable LED para camping", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Lampara recargable LED para camping",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Coleman"
     },
     {
       "slug": "parrilla-portatil-plegable",
@@ -173,9 +333,19 @@
       "category": "camping",
       "priceCents": 150000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80", "alt": "Parrilla portatil plegable", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80",
+          "alt": "Parrilla portatil plegable",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 6
+      "inventoryQty": 6,
+      "brand": "Coleman"
     },
     {
       "slug": "cocina-gas-portatil",
@@ -184,9 +354,19 @@
       "priceCents": 220000,
       "compareAtPriceCents": 280000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80", "alt": "Cocina a gas portatil para camping", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80",
+          "alt": "Cocina a gas portatil para camping",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 7
+      "inventoryQty": 7,
+      "brand": "Coleman"
     },
     {
       "slug": "garrafa-gas-portatil",
@@ -194,9 +374,19 @@
       "category": "camping",
       "priceCents": 15000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80", "alt": "Garrafa de gas portatil", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80",
+          "alt": "Garrafa de gas portatil",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 50
+      "inventoryQty": 50,
+      "brand": "Coleman"
     },
     {
       "slug": "conservadora-cooler-20l",
@@ -204,9 +394,19 @@
       "category": "camping",
       "priceCents": 65000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80", "alt": "Conservadora termica para camping", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80",
+          "alt": "Conservadora termica para camping",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Coleman"
     },
     {
       "slug": "conservadora-cooler-40l",
@@ -215,9 +415,19 @@
       "priceCents": 120000,
       "compareAtPriceCents": 150000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80", "alt": "Conservadora grande con ruedas", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80",
+          "alt": "Conservadora grande con ruedas",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 6
+      "inventoryQty": 6,
+      "brand": "Coleman"
     },
     {
       "slug": "aislante-termico-eva",
@@ -225,9 +435,19 @@
       "category": "camping",
       "priceCents": 45000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80", "alt": "Aislante termico EVA", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80",
+          "alt": "Aislante termico EVA",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 14
+      "inventoryQty": 14,
+      "brand": "Coleman"
     },
     {
       "slug": "toldo-sombra-3x3",
@@ -236,9 +456,19 @@
       "priceCents": 400000,
       "compareAtPriceCents": 500000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80", "alt": "Toldo plegable para sombra", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80",
+          "alt": "Toldo plegable para sombra",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 4
+      "inventoryQty": 4,
+      "brand": "Coleman"
     },
     {
       "slug": "catre-plegable-camping",
@@ -246,9 +476,19 @@
       "category": "camping",
       "priceCents": 180000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80", "alt": "Catre plegable para camping", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80",
+          "alt": "Catre plegable para camping",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 9
+      "inventoryQty": 9,
+      "brand": "Coleman"
     },
     {
       "slug": "alfombra-termica-camping",
@@ -256,9 +496,19 @@
       "category": "camping",
       "priceCents": 35000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80", "alt": "Alfombra termica para carpa", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80",
+          "alt": "Alfombra termica para carpa",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80",
+          "alt": "Vista alternativa de producto de camping",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 20
+      "inventoryQty": 20,
+      "brand": "Coleman"
     },
     {
       "slug": "cana-pescar-telescopica-3m",
@@ -266,9 +516,19 @@
       "category": "pesca",
       "priceCents": 140000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Caña de pescar telescopica", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Caña de pescar telescopica",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Shimano"
     },
     {
       "slug": "cana-pescar-4-5m",
@@ -277,9 +537,19 @@
       "priceCents": 220000,
       "compareAtPriceCents": 280000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Caña de pescar profesional", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Caña de pescar profesional",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 6
+      "inventoryQty": 6,
+      "brand": "Shimano"
     },
     {
       "slug": "reel-rotativo-pesca",
@@ -288,9 +558,19 @@
       "priceCents": 250000,
       "compareAtPriceCents": 320000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Reel rotativo para pesca", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Reel rotativo para pesca",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 5
+      "inventoryQty": 5,
+      "brand": "Shimano"
     },
     {
       "slug": "molinete-pesca-basico",
@@ -298,9 +578,19 @@
       "category": "pesca",
       "priceCents": 85000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Molinete de pesca basico", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Molinete de pesca basico",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 12
+      "inventoryQty": 12,
+      "brand": "Shimano"
     },
     {
       "slug": "caja-herramientas-pesca",
@@ -308,9 +598,19 @@
       "category": "pesca",
       "priceCents": 95000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80", "alt": "Caja de herramientas para pesca", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Caja de herramientas para pesca",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 7
+      "inventoryQty": 7,
+      "brand": "Shimano"
     },
     {
       "slug": "chaleco-salvavidas",
@@ -318,9 +618,19 @@
       "category": "pesca",
       "priceCents": 110000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Chaleco salvavidas aprobado", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Chaleco salvavidas aprobado",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 15
+      "inventoryQty": 15,
+      "brand": "Shimano"
     },
     {
       "slug": "senuelo-superficie",
@@ -328,9 +638,19 @@
       "category": "pesca",
       "priceCents": 45000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Señuelo de pesca de superficie", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Señuelo de pesca de superficie",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 25
+      "inventoryQty": 25,
+      "brand": "Shimano"
     },
     {
       "slug": "kit-senuelos-pesca",
@@ -338,9 +658,19 @@
       "category": "pesca",
       "priceCents": 120000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Kit de señuelos de pesca", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Kit de señuelos de pesca",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Shimano"
     },
     {
       "slug": "anzuelos-pesca-kit",
@@ -348,9 +678,19 @@
       "category": "pesca",
       "priceCents": 25000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Kit de anzuelos de pesca", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Kit de anzuelos de pesca",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 30
+      "inventoryQty": 30,
+      "brand": "Shimano"
     },
     {
       "slug": "hilo-multifilamento-pesca",
@@ -358,9 +698,19 @@
       "category": "pesca",
       "priceCents": 35000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Hilo de pesca multifilamento", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Hilo de pesca multifilamento",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 20
+      "inventoryQty": 20,
+      "brand": "Shimano"
     },
     {
       "slug": "linana-pesca-nylon",
@@ -368,9 +718,19 @@
       "category": "pesca",
       "priceCents": 15000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Liñada de pesca de nylon", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Liñada de pesca de nylon",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 40
+      "inventoryQty": 40,
+      "brand": "Shimano"
     },
     {
       "slug": "plomadas-pesca-kit",
@@ -378,9 +738,19 @@
       "category": "pesca",
       "priceCents": 12000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Plomadas de pesca", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Plomadas de pesca",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 35
+      "inventoryQty": 35,
+      "brand": "Shimano"
     },
     {
       "slug": "flotadores-pesca-kit",
@@ -388,9 +758,19 @@
       "category": "pesca",
       "priceCents": 18000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Flotadores de pesca", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Flotadores de pesca",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 30
+      "inventoryQty": 30,
+      "brand": "Shimano"
     },
     {
       "slug": "alicate-pesca-acero",
@@ -398,9 +778,19 @@
       "category": "pesca",
       "priceCents": 60000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80", "alt": "Alicate de pesca con funda", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Alicate de pesca con funda",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 12
+      "inventoryQty": 12,
+      "brand": "Shimano"
     },
     {
       "slug": "cuchillo-fileteador-pesca",
@@ -408,9 +798,19 @@
       "category": "pesca",
       "priceCents": 55000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Cuchillo fileteador para pesca", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Cuchillo fileteador para pesca",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Shimano"
     },
     {
       "slug": "red-pesca-tirita",
@@ -418,9 +818,19 @@
       "category": "pesca",
       "priceCents": 45000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Red de pesca", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Red de pesca",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Shimano"
     },
     {
       "slug": "boya-pesca-luminosa",
@@ -428,9 +838,19 @@
       "category": "pesca",
       "priceCents": 35000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Boya luminosa para pesca nocturna", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80",
+          "alt": "Boya luminosa para pesca nocturna",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80",
+          "alt": "Equipo de pesca visto desde arriba",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 15
+      "inventoryQty": 15,
+      "brand": "Shimano"
     },
     {
       "slug": "mochila-60l-impermeable",
@@ -439,9 +859,19 @@
       "priceCents": 220000,
       "compareAtPriceCents": 280000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Mochila grande impermeable 60 litros", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Mochila grande impermeable 60 litros",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 9
+      "inventoryQty": 9,
+      "brand": "Tramontina"
     },
     {
       "slug": "mochila-30l-diaria",
@@ -449,9 +879,19 @@
       "category": "accesorios-personales",
       "priceCents": 110000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Mochila urbana outdoor", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Mochila urbana outdoor",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 14
+      "inventoryQty": 14,
+      "brand": "Tramontina"
     },
     {
       "slug": "cuchillo-multiuso-plegable",
@@ -459,9 +899,19 @@
       "category": "accesorios-personales",
       "priceCents": 75000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Cuchillo multiuso plegable", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Cuchillo multiuso plegable",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 18
+      "inventoryQty": 18,
+      "brand": "Tramontina"
     },
     {
       "slug": "cuchillo-tactico-fijo",
@@ -470,9 +920,19 @@
       "priceCents": 85000,
       "compareAtPriceCents": 110000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Cuchillo tactico fijo", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Cuchillo tactico fijo",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Tramontina"
     },
     {
       "slug": "brujula-profesional",
@@ -480,9 +940,19 @@
       "category": "accesorios-personales",
       "priceCents": 55000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1583324113626-796346309cb4?w=1200&q=80", "alt": "Brujula profesional", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1583324113626-796346309cb4?w=1200&q=80",
+          "alt": "Brujula profesional",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 5
+      "inventoryQty": 5,
+      "brand": "Tramontina"
     },
     {
       "slug": "binoculares-12x50",
@@ -491,9 +961,19 @@
       "priceCents": 180000,
       "compareAtPriceCents": 220000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1583324113626-796346309cb4?w=1200&q=80", "alt": "Binoculares profesionales", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1583324113626-796346309cb4?w=1200&q=80",
+          "alt": "Binoculares profesionales",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 4
+      "inventoryQty": 4,
+      "brand": "Tramontina"
     },
     {
       "slug": "cantimplora-1l",
@@ -501,9 +981,19 @@
       "category": "accesorios-personales",
       "priceCents": 35000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Cantimplora de acero inoxidable", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Cantimplora de acero inoxidable",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 20
+      "inventoryQty": 20,
+      "brand": "Tramontina"
     },
     {
       "slug": "termo-1l-acero",
@@ -512,9 +1002,19 @@
       "priceCents": 65000,
       "compareAtPriceCents": 80000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Termo de acero inoxidable", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Termo de acero inoxidable",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 15
+      "inventoryQty": 15,
+      "brand": "Tramontina"
     },
     {
       "slug": "machete-campo-18",
@@ -522,9 +1022,19 @@
       "category": "accesorios-personales",
       "priceCents": 65000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Machete de monte", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Machete de monte",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Tramontina"
     },
     {
       "slug": "sombrero-explorador",
@@ -532,9 +1042,19 @@
       "category": "accesorios-personales",
       "priceCents": 35000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Sombrero explorador para outdoor", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Sombrero explorador para outdoor",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 12
+      "inventoryQty": 12,
+      "brand": "Tramontina"
     },
     {
       "slug": "kepis-tactico-militar",
@@ -542,9 +1062,19 @@
       "category": "accesorios-personales",
       "priceCents": 25000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Kepis tactico", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Kepis tactico",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 15
+      "inventoryQty": 15,
+      "brand": "Tramontina"
     },
     {
       "slug": "guantes-tacticos-outdoor",
@@ -552,9 +1082,19 @@
       "category": "accesorios-personales",
       "priceCents": 45000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Guantes tacticos para outdoor", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Guantes tacticos para outdoor",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Tramontina"
     },
     {
       "slug": "mochila-tactica-50l",
@@ -562,9 +1102,19 @@
       "category": "accesorios-personales",
       "priceCents": 180000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Mochila tactica con sistema molle", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Mochila tactica con sistema molle",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 6
+      "inventoryQty": 6,
+      "brand": "Tramontina"
     },
     {
       "slug": "botiquin-primeros-auxilios",
@@ -572,9 +1122,19 @@
       "category": "accesorios-personales",
       "priceCents": 45000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Botiquin portatil de primeros auxilios", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Botiquin portatil de primeros auxilios",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Detalle de accesorio outdoor",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Tramontina"
     },
     {
       "slug": "dashcam-full-hd",
@@ -582,9 +1142,19 @@
       "category": "automoviles",
       "priceCents": 280000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Camara dashcam para vehiculo", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Camara dashcam para vehiculo",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 6
+      "inventoryQty": 6,
+      "brand": "Garmin"
     },
     {
       "slug": "dashcam-4k-wifi",
@@ -593,9 +1163,19 @@
       "priceCents": 450000,
       "compareAtPriceCents": 550000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Camara dashcam 4K con WiFi", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Camara dashcam 4K con WiFi",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 4
+      "inventoryQty": 4,
+      "brand": "Garmin"
     },
     {
       "slug": "inflador-12v-compresor",
@@ -603,9 +1183,19 @@
       "category": "automoviles",
       "priceCents": 95000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Inflador de ruedas compresor portatil", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Inflador de ruedas compresor portatil",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 12
+      "inventoryQty": 12,
+      "brand": "Garmin"
     },
     {
       "slug": "gps-navegador-auto",
@@ -613,9 +1203,19 @@
       "category": "automoviles",
       "priceCents": 350000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "GPS navegador para automovil", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "GPS navegador para automovil",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 4
+      "inventoryQty": 4,
+      "brand": "Garmin"
     },
     {
       "slug": "eslinga-remolque-3t",
@@ -623,9 +1223,19 @@
       "category": "automoviles",
       "priceCents": 65000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Eslinga de remolque para vehiculo", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Eslinga de remolque para vehiculo",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Garmin"
     },
     {
       "slug": "catraca-amarre-5m",
@@ -633,9 +1243,19 @@
       "category": "automoviles",
       "priceCents": 35000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Catraca de amarre para vehiculo", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Catraca de amarre para vehiculo",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 15
+      "inventoryQty": 15,
+      "brand": "Garmin"
     },
     {
       "slug": "extintor-polvo-quimico",
@@ -643,9 +1263,19 @@
       "category": "automoviles",
       "priceCents": 55000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Extintor de incendios para vehiculo", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Extintor de incendios para vehiculo",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Garmin"
     },
     {
       "slug": "limpiaparabrisas-par",
@@ -653,9 +1283,19 @@
       "category": "automoviles",
       "priceCents": 45000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Escobillas limpiaparabrisas", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Escobillas limpiaparabrisas",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 20
+      "inventoryQty": 20,
+      "brand": "Garmin"
     },
     {
       "slug": "organizador-baul-auto",
@@ -663,9 +1303,19 @@
       "category": "automoviles",
       "priceCents": 55000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Organizador de baul para auto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Organizador de baul para auto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Garmin"
     },
     {
       "slug": "asiento-coche-bebe",
@@ -674,9 +1324,19 @@
       "priceCents": 380000,
       "compareAtPriceCents": 450000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Asiento de coche para bebe", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Asiento de coche para bebe",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 5
+      "inventoryQty": 5,
+      "brand": "Garmin"
     },
     {
       "slug": "cargador-usb-auto",
@@ -684,9 +1344,19 @@
       "category": "automoviles",
       "priceCents": 15000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Cargador USB para automovil", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Cargador USB para automovil",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 30
+      "inventoryQty": 30,
+      "brand": "Garmin"
     },
     {
       "slug": "soporte-celular-auto",
@@ -694,9 +1364,19 @@
       "category": "automoviles",
       "priceCents": 25000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Soporte para celular en auto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Soporte para celular en auto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 25
+      "inventoryQty": 25,
+      "brand": "Garmin"
     },
     {
       "slug": "cable-auxiliar-audio",
@@ -704,9 +1384,19 @@
       "category": "automoviles",
       "priceCents": 10000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Cable auxiliar de audio", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Cable auxiliar de audio",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80",
+          "alt": "Accesorio para automovil en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 40
+      "inventoryQty": 40,
+      "brand": "Garmin"
     },
     {
       "slug": "casco-integral-moto",
@@ -715,9 +1405,19 @@
       "priceCents": 320000,
       "compareAtPriceCents": 400000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "Casco integral para moto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Casco integral para moto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Accesorio para motocicleta detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "LS2"
     },
     {
       "slug": "casco-abierto-moto",
@@ -726,9 +1426,19 @@
       "priceCents": 180000,
       "compareAtPriceCents": 240000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "Casco abierto para moto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Casco abierto para moto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Accesorio para motocicleta detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "LS2"
     },
     {
       "slug": "casco-moto-infantil",
@@ -736,9 +1446,19 @@
       "category": "motos",
       "priceCents": 120000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "Casco infantil para moto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Casco infantil para moto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Accesorio para motocicleta detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 6
+      "inventoryQty": 6,
+      "brand": "LS2"
     },
     {
       "slug": "guantes-moto-cuero",
@@ -746,9 +1466,19 @@
       "category": "motos",
       "priceCents": 85000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "Guantes de cuero para moto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Guantes de cuero para moto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Accesorio para motocicleta detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 14
+      "inventoryQty": 14,
+      "brand": "LS2"
     },
     {
       "slug": "guantes-moto-lluvia",
@@ -756,9 +1486,19 @@
       "category": "motos",
       "priceCents": 55000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "Guantes impermeables para moto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Guantes impermeables para moto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Accesorio para motocicleta detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "LS2"
     },
     {
       "slug": "camara-casco-moto",
@@ -767,9 +1507,19 @@
       "priceCents": 220000,
       "compareAtPriceCents": 300000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "Camara de accion para casco de moto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Camara de accion para casco de moto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Accesorio para motocicleta detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 5
+      "inventoryQty": 5,
+      "brand": "LS2"
     },
     {
       "slug": "gps-antirrobo-moto",
@@ -777,9 +1527,19 @@
       "category": "motos",
       "priceCents": 180000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "GPS antirrobo para motocicleta", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "GPS antirrobo para motocicleta",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Accesorio para motocicleta detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 5
+      "inventoryQty": 5,
+      "brand": "LS2"
     },
     {
       "slug": "candado-moto-seguridad",
@@ -787,9 +1547,19 @@
       "category": "motos",
       "priceCents": 65000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "Candado de seguridad para moto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Candado de seguridad para moto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Accesorio para motocicleta detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "LS2"
     },
     {
       "slug": "funda-cubierta-moto",
@@ -797,9 +1567,19 @@
       "category": "motos",
       "priceCents": 55000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "Funda impermeable para moto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Funda impermeable para moto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Accesorio para motocicleta detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "LS2"
     },
     {
       "slug": "intercomunicador-moto",
@@ -807,9 +1587,19 @@
       "category": "motos",
       "priceCents": 150000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "Intercomunicador bluetooth para casco", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Intercomunicador bluetooth para casco",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80",
+          "alt": "Accesorio para motocicleta detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 4
+      "inventoryQty": 4,
+      "brand": "LS2"
     },
     {
       "slug": "kit-herramientas-campo",
@@ -817,9 +1607,19 @@
       "category": "campo-granja",
       "priceCents": 160000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Kit de herramientas para campo", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Kit de herramientas para campo",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 7
+      "inventoryQty": 7,
+      "brand": "Tramontina"
     },
     {
       "slug": "pala-punta-campo",
@@ -827,9 +1627,19 @@
       "category": "campo-granja",
       "priceCents": 65000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Pala agricola reforzada", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Pala agricola reforzada",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Tramontina"
     },
     {
       "slug": "azada-agricola",
@@ -837,9 +1647,19 @@
       "category": "campo-granja",
       "priceCents": 45000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Azada agricola", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Azada agricola",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Tramontina"
     },
     {
       "slug": "machete-agricola",
@@ -847,9 +1667,19 @@
       "category": "campo-granja",
       "priceCents": 55000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Machete agricola", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Machete agricola",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 12
+      "inventoryQty": 12,
+      "brand": "Tramontina"
     },
     {
       "slug": "rastrillo-jardin",
@@ -857,9 +1687,19 @@
       "category": "campo-granja",
       "priceCents": 25000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Rastrillo de jardin", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Rastrillo de jardin",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Tramontina"
     },
     {
       "slug": "horquilla-campo",
@@ -867,9 +1707,19 @@
       "category": "campo-granja",
       "priceCents": 55000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Horquilla agricola", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Horquilla agricola",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 6
+      "inventoryQty": 6,
+      "brand": "Tramontina"
     },
     {
       "slug": "carretilla-construccion",
@@ -878,9 +1728,19 @@
       "priceCents": 150000,
       "compareAtPriceCents": 190000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Carretilla de construccion", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Carretilla de construccion",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 5
+      "inventoryQty": 5,
+      "brand": "Tramontina"
     },
     {
       "slug": "bebedero-gallinas",
@@ -888,9 +1748,19 @@
       "category": "campo-granja",
       "priceCents": 25000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Bebedero para gallinas", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Bebedero para gallinas",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 15
+      "inventoryQty": 15,
+      "brand": "Tramontina"
     },
     {
       "slug": "comedero-animales",
@@ -898,9 +1768,19 @@
       "category": "campo-granja",
       "priceCents": 35000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Comedero para animales de granja", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Comedero para animales de granja",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 12
+      "inventoryQty": 12,
+      "brand": "Tramontina"
     },
     {
       "slug": "cerca-electrica-kit",
@@ -908,9 +1788,19 @@
       "category": "campo-granja",
       "priceCents": 280000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Kit de cerca electrica", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Kit de cerca electrica",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 4
+      "inventoryQty": 4,
+      "brand": "Tramontina"
     },
     {
       "slug": "malla-alambre-campo",
@@ -918,9 +1808,19 @@
       "category": "campo-granja",
       "priceCents": 85000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Malla de alambre tejido", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Malla de alambre tejido",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 6
+      "inventoryQty": 6,
+      "brand": "Tramontina"
     },
     {
       "slug": "fumigador-mochila",
@@ -929,9 +1829,19 @@
       "priceCents": 120000,
       "compareAtPriceCents": 150000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Fumigador de mochila manual", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Fumigador de mochila manual",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 5
+      "inventoryQty": 5,
+      "brand": "Tramontina"
     },
     {
       "slug": "tijera-poda-profesional",
@@ -939,9 +1849,19 @@
       "category": "campo-granja",
       "priceCents": 45000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Tijera de poda profesional", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Tijera de poda profesional",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Tramontina"
     },
     {
       "slug": "serrucho-poda",
@@ -949,9 +1869,19 @@
       "category": "campo-granja",
       "priceCents": 35000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Serrucho de poda curvo", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Serrucho de poda curvo",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Tramontina"
     },
     {
       "slug": "guantes-trabajo-campo",
@@ -959,9 +1889,19 @@
       "category": "campo-granja",
       "priceCents": 25000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Guantes de trabajo para campo", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Guantes de trabajo para campo",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 20
+      "inventoryQty": 20,
+      "brand": "Tramontina"
     },
     {
       "slug": "balde-plastico-20l",
@@ -969,9 +1909,19 @@
       "category": "campo-granja",
       "priceCents": 15000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Balde plastico reforzado", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Balde plastico reforzado",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 30
+      "inventoryQty": 30,
+      "brand": "Tramontina"
     },
     {
       "slug": "tractor-juguete-infantil",
@@ -979,9 +1929,19 @@
       "category": "campo-granja",
       "priceCents": 35000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Tractor de juguete infantil", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Tractor de juguete infantil",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80",
+          "alt": "Herramienta de campo en uso",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Tramontina"
     },
     {
       "slug": "cuchillo-tactico-tanto",
@@ -990,9 +1950,19 @@
       "priceCents": 95000,
       "compareAtPriceCents": 130000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Cuchillo tactico tanto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Cuchillo tactico tanto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "cuchillo-tactico-plegable",
@@ -1000,9 +1970,19 @@
       "category": "tactico-defensa",
       "priceCents": 65000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Cuchillo tactico plegable", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Cuchillo tactico plegable",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 12
+      "inventoryQty": 12,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "naveja-multiuso-tactica",
@@ -1010,9 +1990,19 @@
       "category": "tactico-defensa",
       "priceCents": 55000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Navaja multiuso tactica", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Navaja multiuso tactica",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 15
+      "inventoryQty": 15,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "gas-pimienta-defensa",
@@ -1020,9 +2010,19 @@
       "category": "tactico-defensa",
       "priceCents": 45000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Gas pimienta defensa personal", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Gas pimienta defensa personal",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 20
+      "inventoryQty": 20,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "picana-electrica-defensa",
@@ -1030,9 +2030,19 @@
       "category": "tactico-defensa",
       "priceCents": 85000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Picana electrica defensa personal", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Picana electrica defensa personal",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 6
+      "inventoryQty": 6,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "linterna-tactica-led",
@@ -1041,9 +2051,19 @@
       "priceCents": 85000,
       "compareAtPriceCents": 110000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80", "alt": "Linterna tactica LED", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Linterna tactica LED",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 10
+      "inventoryQty": 10,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "linterna-frontal-tactica",
@@ -1051,9 +2071,19 @@
       "category": "tactico-defensa",
       "priceCents": 55000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80", "alt": "Linterna frontal tactica", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Linterna frontal tactica",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 14
+      "inventoryQty": 14,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "baston-tactico-extensible",
@@ -1061,9 +2091,19 @@
       "category": "tactico-defensa",
       "priceCents": 75000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Baston tactico extensible", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Baston tactico extensible",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "chaleco-tactico-multibolsillos",
@@ -1072,9 +2112,19 @@
       "priceCents": 120000,
       "compareAtPriceCents": 160000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Chaleco tactico", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Chaleco tactico",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 5
+      "inventoryQty": 5,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "guantes-tacticos-antideslizantes",
@@ -1082,9 +2132,19 @@
       "category": "tactico-defensa",
       "priceCents": 35000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Guantes tacticos antideslizantes", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Guantes tacticos antideslizantes",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 15
+      "inventoryQty": 15,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "walkie-talkie-profesional",
@@ -1092,9 +2152,19 @@
       "category": "tactico-defensa",
       "priceCents": 140000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Walkie talkie profesional", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Walkie talkie profesional",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 6
+      "inventoryQty": 6,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "brújula-tactica-militar",
@@ -1102,9 +2172,19 @@
       "category": "tactico-defensa",
       "priceCents": 45000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1583324113626-796346309cb4?w=1200&q=80", "alt": "Brujula tactica militar", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1583324113626-796346309cb4?w=1200&q=80",
+          "alt": "Brujula tactica militar",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 8
+      "inventoryQty": 8,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "mochila-tactica-asalto-35l",
@@ -1112,9 +2192,19 @@
       "category": "tactico-defensa",
       "priceCents": 150000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Mochila tactica de asalto", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+          "alt": "Mochila tactica de asalto",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 5
+      "inventoryQty": 5,
+      "brand": "Smith & Wesson"
     },
     {
       "slug": "kit-supervivencia-18pzs",
@@ -1123,9 +2213,19 @@
       "priceCents": 85000,
       "compareAtPriceCents": 110000,
       "images": [
-        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Kit de supervivencia", "isCover": true }
+        {
+          "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80",
+          "alt": "Kit de supervivencia",
+          "isCover": true
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80",
+          "alt": "Equipo tactico vista detalle",
+          "isCover": false
+        }
       ],
-      "inventoryQty": 7
+      "inventoryQty": 7,
+      "brand": "Smith & Wesson"
     }
   ]
 }

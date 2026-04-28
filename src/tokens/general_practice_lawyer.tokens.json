@@ -1,4 +1,32 @@
 {
-  "$comment": "Inherits b2b-professional vertical defaults",
-  "extends": "vertical:b2b-professional"
+  "$comment": "Premium law firm aesthetic — navy, warm gold, ivory, serif typography.",
+  "palettes": {
+    "general_practice_lawyer": {
+      "name": "Law Firm Premium",
+      "colors": {
+        "primary": "#1B2A4A",
+        "primaryForeground": "#FFFFFF",
+        "secondary": "#C5A55A",
+        "secondaryForeground": "#1B2A4A",
+        "accent": "#C5A55A",
+        "accentForeground": "#1B2A4A",
+        "background": "#FFFFFF",
+        "surface": "#F8F7F4",
+        "surfaceLight": "#EFEDE8",
+        "text": "#1B1B1B",
+        "textLight": "#4A4A4A",
+        "textMuted": "#7A7A7A",
+        "border": "#E2DFD8",
+        "success": "#2E7D32",
+        "error": "#C62828",
+        "warning": "#F59E0B"
+      }
+    }
+  },
+  "defaultPalette": "general_practice_lawyer",
+  "theme": "light",
+  "typography": {
+    "heading": "'Cormorant Garamond', 'Georgia', serif",
+    "body": "'Inter', 'Segoe UI', sans-serif"
+  }
 }

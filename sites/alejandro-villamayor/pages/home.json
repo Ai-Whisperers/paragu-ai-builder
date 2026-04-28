@@ -7,12 +7,12 @@
       "id": "hero",
       "variant": "image",
       "content": "home.hero",
-      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80",
       "styling": {
         "padding": "xl",
         "background": "image",
         "textColor": "light",
-        "backgroundImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80"
+        "backgroundImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80"
       }
     },
     {
@@ -30,6 +30,14 @@
       "content": "home.credenciales",
       "styling": {
         "background": "default"
+      }
+    },
+    {
+      "id": "international-standards",
+      "variant": "features",
+      "content": "home.internationalStandards",
+      "styling": {
+        "background": "alt"
       }
     },
     {
@@ -73,11 +81,12 @@
       }
     },
     {
-      "id": "gallery",
-      "variant": "grid",
-      "content": "home.blogPreview",
-      "title": "Guías y Novedades",
-      "subtitle": "Artículos sobre Investor Pass, residencia e inversiones en Paraguay"
+      "id": "case-studies",
+      "variant": "testimonials",
+      "content": "home.successStories",
+      "styling": {
+        "background": "alt"
+      }
     },
     {
       "id": "cta-banner",
