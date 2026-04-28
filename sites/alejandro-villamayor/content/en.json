@@ -51,7 +51,7 @@
       "headline": "Permanent Residency & Asset Protection in Paraguay",
       "subheadline": "Specialized legal counsel for foreign investors: Investor Pass, corporate structuring, preferential tax treatment, and residency acquisition. Delivered to international service standards.",
       "ctaPrimaryText": "Schedule your strategic evaluation",
-      "ctaPrimaryHref": "https://wa.me/595981324569",
+      "ctaPrimaryHref": "https://wa.me/595981324569?text=Hi%20Alejandro%2C%20I%20visited%20your%20website%20and%20want%20to%20schedule%20a%20strategic%20evaluation%20for%20investing%20in%20Paraguay.",
       "ctaSecondaryText": "Investor Pass 2026 Guide",
       "ctaSecondaryHref": "/s/en/alejandro-villamayor/investor-pass",
       "trustBadges": [
@@ -654,7 +654,12 @@
         "label": "Contact",
         "href": "/s/en/alejandro-villamayor/contacto"
       }
-    ]
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/alejandrovillamayor",
+      "email": "alejandro@villamayorlaw.com.py",
+      "whatsapp": "https://wa.me/595981324569"
+    }
   },
   "whatsapp": "+595981324569"
 }
