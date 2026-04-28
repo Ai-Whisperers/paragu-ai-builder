@@ -4,10 +4,15 @@
   "tagline": "Todo para tu Aventura",
   "founded": "2018",
   "navigation": {
-    "home": "Inicio",
-    "productos": "Productos",
-    "nosotros": "Nosotros",
-    "contacto": "Contacto"
+    "businessName": "El Viajero Comercio",
+    "ctaText": "Pedir por WhatsApp",
+    "ctaHref": "https://wa.me/595981234567?text=Hola!%20Quisiera%20informacion%20sobre%20productos",
+    "items": [
+      { "label": "Inicio", "href": "/s/es/viajero-comercio" },
+      { "label": "Productos", "href": "/s/es/viajero-comercio/productos" },
+      { "label": "Nosotros", "href": "/s/es/viajero-comercio/nosotros" },
+      { "label": "Contacto", "href": "/s/es/viajero-comercio/contacto" }
+    ]
   },
   "home": {
     "seo": {
