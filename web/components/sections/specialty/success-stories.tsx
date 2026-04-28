@@ -107,7 +107,7 @@ export function SuccessStories({
 
   return (
     <Section fullWidth spacing="md" className="bg-gradient-to-b from-surface to-surface-light" id="testimonials">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto  px-6">
         {title && (
           <div className="mb-12 text-center">
             <h2 className="text-xl sm:text-3xl font-bold text-foreground">{title[locale] || title.es}</h2>

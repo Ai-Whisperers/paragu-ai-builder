@@ -32,7 +32,7 @@ export function TestimonialVideoSection({ title = 'Historias de clientes', subti
           <Heading level={2}>{title}</Heading>
           {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3  mx-auto">
           {videos.map((v, i) => {
             const url = embedUrl(v.src)
             const isEmbed = url !== v.src

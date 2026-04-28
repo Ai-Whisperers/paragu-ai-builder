@@ -54,7 +54,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
     <div className="w-full">
       {/* Hero Story */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100">
-        <div className="max-w-6xl mx-auto">
+        <div className=" mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-orange-100 text-orange-800 hover:bg-orange-100">{heroBadge}</Badge>
@@ -109,7 +109,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
       {/* Stats */}
       {business.stats && business.stats.length > 0 && (
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-          <div className="max-w-6xl mx-auto">
+          <div className=" mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
               {business.stats.map((stat, index) => (
                 <Card key={index} className="text-center border-border">
@@ -127,7 +127,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
       {/* Mission & Vision */}
       {missionVisionEnabled && (business.story?.mission || business.story?.vision) ? (
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-surface-light">
-          <div className="max-w-6xl mx-auto">
+          <div className=" mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <Card className="border-orange-200">
                 <CardHeader>
@@ -166,7 +166,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
       {/* Values */}
       {valuesEnabled && valuesList.length > 0 ? (
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-          <div className="max-w-6xl mx-auto">
+          <div className=" mx-auto">
             <div className="text-center mb-12">
               <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
                 {overrides?.values?.title ?? 'Nuestros Valores'}
@@ -199,7 +199,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
       {/* Our Process */}
       {processEnabled ? (
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-amber-50 to-orange-50">
-          <div className="max-w-6xl mx-auto">
+          <div className=" mx-auto">
             <div className="text-center mb-12">
               <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
                 {overrides?.process?.title ?? 'Nuestro Proceso'}
@@ -229,7 +229,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
       {/* Sustainability */}
       {business.sustainability && (
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-green-50">
-          <div className="max-w-6xl mx-auto">
+          <div className=" mx-auto">
             <div className="text-center mb-12">
               <Badge className="mb-4 bg-green-100 text-green-800">Compromiso Ambiental</Badge>
               <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
@@ -267,7 +267,7 @@ export function OurStorySection({ business, overrides }: OurStorySectionProps) {
       {/* Visit Us */}
       {visitEnabled && business.address ? (
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-          <div className="max-w-6xl mx-auto">
+          <div className=" mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-6">

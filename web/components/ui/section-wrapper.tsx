@@ -28,9 +28,9 @@ const BG_MAP: Record<string, string> = {
 }
 
 const WIDTH_MAP: Record<string, string> = {
-  narrow: 'max-w-3xl',
-  default: 'max-w-6xl',
-  wide: 'max-w-7xl',
+  narrow: 'max-w-5xl',
+  default: 'max-w-[1440px]',
+  wide: 'max-w-[1600px]',
   full: 'max-w-full',
 }
 

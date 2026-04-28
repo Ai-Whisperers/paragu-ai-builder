@@ -108,7 +108,7 @@ export function BlogSection({
 
   return (
     <Section fullWidth spacing="md" background="surface-light" id="blog">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto  px-6">
         {title && (
           <div className="mb-12 text-center">
             <h2 className="text-xl sm:text-3xl font-bold text-foreground">{title[locale] || title.es}</h2>

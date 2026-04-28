@@ -33,7 +33,7 @@ export function B2BWholesaleSection({
     <div className="w-full">
       {/* Hero Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100">
-        <div className="max-w-6xl mx-auto text-center">
+        <div className=" mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-100 text-orange-800 text-sm font-medium mb-6">
             <Building2 className="w-4 h-4" />
             Soluciones para Negocios
@@ -80,7 +80,7 @@ export function B2BWholesaleSection({
 
       {/* Why Choose Us */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-6xl mx-auto">
+        <div className=" mx-auto">
           <div className="text-center mb-12">
             <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">¿Por Qué Negocios Nos Eligen?</Heading>
             <p className="text-lg text-muted-foreground">Ventajas que marcan la diferencia</p>
@@ -105,7 +105,7 @@ export function B2BWholesaleSection({
 
       {/* Industries We Serve */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-surface-light">
-        <div className="max-w-6xl mx-auto">
+        <div className=" mx-auto">
           <div className="text-center mb-12">
             <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">Atendemos Diversos Negocios</Heading>
             <p className="text-lg text-muted-foreground">Soluciones adaptadas a tu industria</p>
@@ -136,7 +136,7 @@ export function B2BWholesaleSection({
 
       {/* Pricing Tiers */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-6xl mx-auto">
+        <div className=" mx-auto">
           <div className="text-center mb-12">
             <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">Descuentos por Volumen</Heading>
             <p className="text-lg text-muted-foreground">Planes diseñados para diferentes necesidades</p>
@@ -180,7 +180,7 @@ export function B2BWholesaleSection({
 
       {/* How It Works */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-50 to-amber-50">
-        <div className="max-w-6xl mx-auto">
+        <div className=" mx-auto">
           <div className="text-center mb-12">
             <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">Proceso Simple en 4 Pasos</Heading>
             <p className="text-lg text-muted-foreground">Empezar es fácil y rápido</p>
@@ -202,7 +202,7 @@ export function B2BWholesaleSection({
 
       {/* Guarantees */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-6xl mx-auto">
+        <div className=" mx-auto">
           <div className="text-center mb-12">
             <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">Nuestras Promesas</Heading>
             <p className="text-lg text-muted-foreground">Garantías que nos comprometen</p>
@@ -299,7 +299,7 @@ export function B2BWholesaleSection({
 
       {/* Contact Info Footer */}
       <section className="py-12 px-4 sm:px-6 lg:px-8 bg-surface text-white">
-        <div className="max-w-6xl mx-auto">
+        <div className=" mx-auto">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
               <MessageCircle className="w-8 h-8 text-green-400 mx-auto mb-3" />

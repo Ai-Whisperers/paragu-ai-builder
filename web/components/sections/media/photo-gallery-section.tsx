@@ -89,7 +89,7 @@ export function PhotoGallery({ className }: PhotoGalleryProps) {
 
   return (
     <Section fullWidth spacing="md" className={className}>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className=" mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-10">
           <Badge className="mb-4 bg-primary">

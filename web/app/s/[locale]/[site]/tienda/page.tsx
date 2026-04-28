@@ -256,7 +256,7 @@ export default async function StorePage({
       />
       <TiendaSearchTracker query={search} />
 
-      <main className="mx-auto max-w-6xl px-4 py-8">
+      <main className="mx-auto  px-4 py-8">
         <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>
 
         <TrustStrip variant="prominent" />

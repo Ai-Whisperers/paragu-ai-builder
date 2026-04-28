@@ -127,7 +127,7 @@ export function ReviewsSection({
 
   return (
     <Section fullWidth spacing="md" className={className}>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className=" mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
           <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">

@@ -28,7 +28,7 @@ export function BeforeAfterSection({
 
   return (
     <Section spacing="md" background="surface" className="font-heading">
-      <div className="font-heading mx-auto max-w-6xl px-4">
+      <div className="font-heading mx-auto  px-4">
         <div className="font-heading text-center mb-12">
           <Heading level={2} className="font-heading text-xl sm:text-3xl font-bold text-foreground">
             {title}

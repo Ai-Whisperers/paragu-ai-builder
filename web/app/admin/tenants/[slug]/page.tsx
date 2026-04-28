@@ -152,7 +152,7 @@ export default async function TenantDetailPage({ params }: { params: Promise<Par
   return (
     <main className="min-h-screen bg-gray-50">
       <header className="border-b bg-white">
-        <div className="mx-auto max-w-6xl px-6 py-4">
+        <div className="mx-auto  px-6 py-4">
           <Link href="/admin/tenants" className="text-sm text-gray-500 hover:underline">
             ← Tenants
           </Link>
@@ -192,7 +192,7 @@ export default async function TenantDetailPage({ params }: { params: Promise<Par
         </div>
       </header>
 
-      <div className="mx-auto max-w-6xl px-6 py-8 grid gap-6 md:grid-cols-3">
+      <div className="mx-auto  px-6 py-8 grid gap-6 md:grid-cols-3">
         {/* Left: contact + subscription */}
         <aside className="space-y-4 md:col-span-1">
           <Card title="Suscripción">

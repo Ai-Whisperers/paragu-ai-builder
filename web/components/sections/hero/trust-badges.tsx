@@ -49,7 +49,7 @@ export function TrustBadges({
 
   return (
     <Section fullWidth spacing="md" className="bg-gradient-to-b from-surface to-surface-light">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto  px-6">
         {title && (
           <div className="mb-10 text-center">
             <h2 className="text-2xl font-bold text-foreground">{title.es}</h2>

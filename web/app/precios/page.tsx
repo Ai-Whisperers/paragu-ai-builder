@@ -98,7 +98,7 @@ export default function PreciosPage() {
         {/* Plans grid */}
         <section className="py-12">
           <Container>
-            <div className="mx-auto grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mx-auto grid  gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {PLANS.map((plan) => (
                 <div
                   key={plan.id}

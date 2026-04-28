@@ -44,7 +44,7 @@ export function SampleWeekPreviewSection({
           )}
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl mx-auto">
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  mx-auto">
           {items.map((it, i) => (
             <Card key={i}>
               {it.imageUrl && <CardImage src={it.imageUrl} alt={it.name} />}

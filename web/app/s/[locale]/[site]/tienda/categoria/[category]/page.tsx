@@ -164,7 +164,7 @@ export default async function CategoryPage({
         ]}
       />
 
-      <main className="mx-auto max-w-6xl px-4 py-8">
+      <main className="mx-auto  px-4 py-8">
 
         <div className="mb-6 rounded-lg bg-primary p-6 text-[color:var(--primary-foreground,#fff)] sm:p-8">
           <h1 className="text-3xl font-bold capitalize">{match}</h1>
