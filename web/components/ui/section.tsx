@@ -11,10 +11,10 @@ export interface SectionProps extends React.HTMLAttributes<HTMLElement> {
 }
 
 const spacingClasses = {
-  sm: 'py-8 sm:py-12',
-  md: 'py-12 sm:py-16',
-  lg: 'py-16 sm:py-20',
-  xl: 'py-20 sm:py-24',
+  sm: 'py-0',
+  md: 'py-0',
+  lg: 'py-0',
+  xl: 'py-0',
 }
 
 const backgroundClasses = {
