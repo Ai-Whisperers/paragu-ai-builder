@@ -14,7 +14,7 @@ const sizes = {
 
 export function Container({ size = 'lg', className, children, ...props }: ContainerProps) {
   return (
-    <div className={cn('mx-auto w-full px-5 sm:px-8 lg:px-12', sizes[size], className)} {...props}>
+    <div className={cn('mx-auto w-full px-5 sm:px-8', sizes[size], className)} {...props}>
       {children}
     </div>
   )
