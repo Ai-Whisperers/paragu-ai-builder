@@ -231,24 +231,26 @@ export default {
       "title": "Miembro del Colegio de Abogados del Paraguay"
     },
     "credentials": {
+      "eyebrow": "El Estándar Alejandro",
       "items": [
         {
-          "description": "Cada caso recibe una estrategia a medida. No hay soluciones genéricas.",
+          "description": "Cada caso recibe un análisis individual. Sin soluciones genéricas ni copia de documentos. Diseño la estructura legal óptima para tu perfil, monto de inversión y país de origen.",
           "icon": "Target",
-          "title": "Estrategia personalizada"
+          "title": "Estrategia personalizada, no plantillas"
         },
         {
-          "description": "Respondo consultas por WhatsApp. Sin vueltas.",
+          "description": "Respondo consultas directamente por WhatsApp. Sin asistentes ni formularios. Si tenés una duda urgente un domingo a las 9 PM, te respondo en minutos. No es promesa, es mi forma de trabajar.",
           "icon": "MessageCircle",
-          "title": "Cercanía y disponibilidad"
+          "title": "Disponibilidad real, sin filtros"
         },
         {
-          "description": "Defiendo tus intereses con dedicación total.",
+          "description": "Cada caso tiene un plan de acción con plazos definidos y costos transparentes. Si un trámite se extiende por causas administrativas, te mantengo informado sin necesidad de que preguntes.",
           "icon": "Shield",
-          "title": "Compromiso total"
+          "title": "Responsabilidad profesional total"
         }
       ],
-      "title": "Por qué elegirme"
+      "subtitle": "Tres compromisos que diferencian mi práctica del asesoramiento legal tradicional.",
+      "title": "Por qué elegirme para tu inversión en Paraguay"
     },
     "cta": {
       "backgroundColor": "primary",
@@ -441,13 +443,13 @@ export default {
           "author": "Marcelo R.",
           "quote": "Alejandro estructuró mi inversión bajo la Ley 60/90 y gestionó todo el Investor Pass en tiempo récord. En 3 meses tenía mi residencia permanente sin necesidad de viajar. Su conocimiento del marco legal paraguayo y su enfoque práctico fueron determinantes.",
           "rating": 5,
-          "role": "CTO · Empresa de SaaS · Inversor Investor Pass"
+          "role": "CEO · SaaS Startup · Peru"
         },
         {
           "author": "Carolina D.",
           "quote": "Necesitábamos reestructurar un joint venture con un socio brasileño. Alejandro resolvió una situación contractual compleja que llevaba 8 meses estancada en solo 3 semanas. Nos ahorró USD 120.000 en contingencias legales.",
           "rating": 5,
-          "role": "CEO · Importadora (USD 8M annual revenue)"
+          "role": "CEO · Importadora · USD 8M annual revenue · Paraguay"
         },
         {
           "author": "James T.",
@@ -459,7 +461,7 @@ export default {
           "author": "Laura M.",
           "quote": "Constituyó mi EAS en 5 días hábiles, me registró en el RUC y me explicó todo el régimen tributario. Facturé al mes siguiente. Tuve una duda un domingo a las 9 pm y me respondió en 10 minutos.",
           "rating": 5,
-          "role": "Founder · E-commerce · First-time Entrepreneur"
+          "role": "Founder · E-commerce · First-time Entrepreneur · Paraguay"
         }
       ],
       "title": "Lo que dicen mis clientes"

@@ -228,24 +228,26 @@ export default {
       "title": "Member of the Paraguayan Bar Association"
     },
     "credentials": {
+      "eyebrow": "The Alejandro Standard",
       "items": [
         {
-          "description": "Every case gets a tailored solution.",
+          "description": "Every case receives an individual analysis. No generic solutions or document copies. I design the optimal legal structure for your profile, investment amount, and country of origin.",
           "icon": "Target",
-          "title": "Personalized strategy"
+          "title": "Tailored strategy, not templates"
         },
         {
-          "description": "Fast responses via WhatsApp.",
+          "description": "I respond directly via WhatsApp. No assistants, no forms. If you have an urgent question on a Sunday at 9 PM, I answer in minutes. That's not a promise — it's how I work.",
           "icon": "MessageCircle",
-          "title": "Availability"
+          "title": "Real availability, no gatekeepers"
         },
         {
-          "description": "Dedicated to protecting your interests.",
+          "description": "Every case has an action plan with defined timelines and transparent costs. If a process is delayed for administrative reasons, I keep you informed without you having to ask.",
           "icon": "Shield",
-          "title": "Total commitment"
+          "title": "Full professional accountability"
         }
       ],
-      "title": "Why choose me"
+      "subtitle": "Three commitments that set my practice apart from traditional legal counsel.",
+      "title": "Why choose me for your Paraguay investment"
     },
     "cta": {
       "backgroundColor": "primary",
@@ -438,13 +440,13 @@ export default {
           "author": "Marcelo R.",
           "quote": "Alejandro structured my investment under Law 60/90 and managed the entire Investor Pass process. I had my permanent residency in 3 months without needing to travel. His knowledge of Paraguayan law was decisive.",
           "rating": 5,
-          "role": "CTO · SaaS Company · Investor Pass Client"
+          "role": "CEO · SaaS Startup · Peru"
         },
         {
           "author": "Carolina D.",
           "quote": "We needed to restructure a joint venture with a Brazilian partner. Alejandro resolved a contractual situation that had been stalled for 8 months in just 3 weeks. Saved us USD 120,000 in legal contingencies.",
           "rating": 5,
-          "role": "CEO · Import Company (USD 8M annual revenue)"
+          "role": "CEO · Import Company · USD 8M annual revenue · Paraguay"
         },
         {
           "author": "James T.",
@@ -456,7 +458,7 @@ export default {
           "author": "Laura M.",
           "quote": "He incorporated my company in 5 business days, registered me for taxes, and explained the entire tax regime. I was invoicing the following month. Had a question on a Sunday at 9 PM — answered in 10 minutes.",
           "rating": 5,
-          "role": "Founder · E-commerce · First-time Entrepreneur"
+          "role": "Founder · E-commerce · First-time Entrepreneur · Paraguay"
         }
       ],
       "title": "What clients say"
