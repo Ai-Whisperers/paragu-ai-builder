@@ -11,6 +11,7 @@ export const dynamic = 'force-dynamic'
 
 interface Props {
   params: Promise<{ section: string }>
+  searchParams: Promise<{ variant?: string }>
 }
 
 // Section metadata — single source matching the gallery
@@ -187,11 +188,14 @@ function buildSampleProps(sectionId: string): Record<string, unknown> {
   return samples[sectionId] || common
 }
 
-export default async function SectionPreviewPage({ params }: Props) {
+export default async function SectionPreviewPage({ params, searchParams }: Props) {
   const { section: sectionId } = await params
+  const { variant: variantParam } = await searchParams
 
   const meta = SECTION_CATALOG[sectionId]
   if (!meta) notFound()
+
+  const activeVariant = variantParam && meta.variants.includes(variantParam) ? variantParam : meta.defaultVariant
 
   return (
     <main className="min-h-screen bg-background">
@@ -211,9 +215,9 @@ export default async function SectionPreviewPage({ params }: Props) {
             </span>
           </div>
           <div className="flex items-center gap-2">
-            <Link href={`/preview/${sectionId}?variant=${meta.defaultVariant}`}>
-              <span className={`rounded-lg px-3 py-1.5 text-xs font-medium ${'bg-[var(--primary)] text-white'}`}>
-                {meta.defaultVariant}
+            <Link href={`/preview/${sectionId}?variant=${activeVariant}`}>
+              <span className="rounded-lg bg-[var(--primary)] px-3 py-1.5 text-xs font-medium text-white">
+                {activeVariant}
               </span>
             </Link>
           </div>
@@ -228,7 +232,9 @@ export default async function SectionPreviewPage({ params }: Props) {
             <Link
               key={v}
               href={`/preview/${sectionId}?variant=${v}`}
-              className="rounded-lg border border-border px-3 py-1.5 text-xs font-medium transition-all hover:border-[var(--primary)]/30 hover:bg-surface-light"
+              className={`rounded-lg border px-3 py-1.5 text-xs font-medium transition-all hover:border-[var(--primary)]/30 hover:bg-surface-light ${
+                v === activeVariant ? 'border-[var(--primary)] bg-[var(--primary)]/10 text-primary' : 'border-border'
+              }`}
             >
               {v}
             </Link>
@@ -240,11 +246,11 @@ export default async function SectionPreviewPage({ params }: Props) {
           <div className="border-b border-border px-4 py-2">
             <p className="text-xs text-muted-foreground">
               Preview — <code className="font-mono">{sectionId}</code> with{' '}
-              <code className="font-mono">{meta.defaultVariant}</code> variant
+              <code className="font-mono">{activeVariant}</code> variant
             </p>
           </div>
           <div className="min-h-[200px]">
-            <SectionRenderer sectionId={sectionId} variant={meta.defaultVariant} sampleProps={buildSampleProps(sectionId)} />
+            <SectionRenderer sectionId={sectionId} variant={activeVariant} sampleProps={buildSampleProps(sectionId)} />
           </div>
         </div>
 
