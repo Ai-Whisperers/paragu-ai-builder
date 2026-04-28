@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { CreditCard, CircleCheck, CircleX, Clock, ExternalLink } from 'lucide-react'
+import { CreditCard, CircleCheck, CircleX, Clock, ExternalLink, ArrowUp, ArrowDown } from 'lucide-react'
 
 interface Subscription {
   id: string
@@ -65,16 +65,19 @@ export default function BillingPage() {
   const [payLink, setPayLink] = useState<string | null>(null)
   const [generating, setGenerating] = useState(false)
   const [payError, setPayError] = useState('')
+  const [planOptions, setPlanOptions] = useState<{ upgradeOptions: Array<{ tier: string; price: { monthlyCents: number }; upgradePriceCents: number }>; downgradeOptions: Array<{ tier: string; price: { monthlyCents: number } }> } | null>(null)
+  const [changingPlan, setChangingPlan] = useState(false)
 
   useEffect(() => {
-    fetch('/api/portal/subscription')
-      .then((r) => r.json())
-      .then((d) => {
-        setSubscription(d.subscription)
-        setPayments(d.payments ?? [])
-        setLoading(false)
-      })
-      .catch(() => setLoading(false))
+    Promise.all([
+      fetch('/api/portal/subscription').then((r) => r.json()),
+      fetch('/api/portal/plans').then((r) => r.json()),
+    ]).then(([subData, plansData]) => {
+      setSubscription(subData.subscription)
+      setPayments(subData.payments ?? [])
+      setPlanOptions(plansData)
+      setLoading(false)
+    }).catch(() => setLoading(false))
   }, [])
 
   const generatePayLink = async () => {
@@ -90,6 +93,20 @@ export default function BillingPage() {
       setPayError('Error de conexión')
     } finally {
       setGenerating(false)
+    }
+  }
+
+  const changePlan = async (targetTier: string) => {
+    setChangingPlan(true)
+    try {
+      await fetch('/api/portal/plans', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ targetTier }),
+      })
+      window.location.reload()
+    } finally {
+      setChangingPlan(false)
     }
   }
 
@@ -188,6 +205,52 @@ export default function BillingPage() {
               </div>
             )}
           </div>
+
+          {/* Upgrade/Downgrade options */}
+          {planOptions && (planOptions.upgradeOptions.length > 0 || planOptions.downgradeOptions.length > 0) && (
+            <div className="rounded-xl border bg-white p-6 mt-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4">Cambiar de plan</h2>
+              {planOptions.upgradeOptions.length > 0 && (
+                <div className="mb-6">
+                  <p className="text-sm font-medium text-gray-700 mb-3 flex items-center gap-1"><ArrowUp className="h-4 w-4 text-green-600" /> Mejorar plan</p>
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    {planOptions.upgradeOptions.map((opt) => (
+                      <button
+                        key={opt.tier}
+                        onClick={() => changePlan(opt.tier)}
+                        disabled={changingPlan}
+                        className="rounded-xl border border-green-200 bg-green-50 p-4 text-left transition-all hover:border-green-400 hover:shadow-sm disabled:opacity-50"
+                      >
+                        <p className="font-semibold text-gray-900 capitalize">{opt.tier}</p>
+                        <p className="text-sm text-gray-600">Gs {opt.price.monthlyCents.toLocaleString('es-PY')}/mes</p>
+                        {opt.upgradePriceCents > 0 && (
+                          <p className="text-xs text-green-700 mt-1">Diferencia: Gs {opt.upgradePriceCents.toLocaleString('es-PY')}/mes</p>
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {planOptions.downgradeOptions.length > 0 && (
+                <div>
+                  <p className="text-sm font-medium text-gray-700 mb-3 flex items-center gap-1"><ArrowDown className="h-4 w-4 text-amber-600" /> Cambiar a plan inferior</p>
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    {planOptions.downgradeOptions.map((opt) => (
+                      <button
+                        key={opt.tier}
+                        onClick={() => changePlan(opt.tier)}
+                        disabled={changingPlan}
+                        className="rounded-xl border border-gray-200 bg-gray-50 p-4 text-left transition-all hover:border-gray-400 hover:shadow-sm disabled:opacity-50"
+                      >
+                        <p className="font-semibold text-gray-900 capitalize">{opt.tier}</p>
+                        <p className="text-sm text-gray-600">Gs {opt.price.monthlyCents.toLocaleString('es-PY')}/mes</p>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Payment history */}
           <div className="rounded-xl border bg-white">

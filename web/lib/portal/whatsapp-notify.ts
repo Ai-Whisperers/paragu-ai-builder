@@ -3,7 +3,7 @@ import { logger } from '@/lib/logger'
 
 const EVOLUTION_API_BASE = process.env.EVOLUTION_API_BASE || 'https://whatsapp.agentzero.ai'
 
-async function sendWhatsApp(instanceName: string, to: string, message: string): Promise<void> {
+export async function sendWhatsApp(instanceName: string, to: string, message: string): Promise<void> {
   const apiKey = process.env.EVOLUTION_API_KEY
   if (!apiKey) {
     logger.warn('[whatsapp-notify] EVOLUTION_API_KEY not configured')
