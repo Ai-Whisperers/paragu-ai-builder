@@ -10,11 +10,6 @@
       "content": "about.hero"
     },
     {
-      "id": "our-story",
-      "variant": "narrative",
-      "content": "about.story"
-    },
-    {
       "id": "features",
       "variant": "grid",
       "content": "about.values",

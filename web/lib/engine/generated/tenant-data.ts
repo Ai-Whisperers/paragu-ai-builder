@@ -9387,35 +9387,16 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "contacto.hero",
         "id": "hero",
-        "subtitle": "Estamos para ayudarte",
-        "title": "Contacto",
         "variant": "minimal"
       },
       {
         "content": "contacto.info",
         "id": "contact",
-        "subtitle": "Escribinos o visitanos",
-        "title": "Informacion de Contacto",
         "variant": "split"
-      },
-      {
-        "content": "contacto.form",
-        "id": "lead-form",
-        "subtitle": "Te respondemos a la brevedad",
-        "title": "Envianos un Mensaje",
-        "variant": "default"
-      },
-      {
-        "content": "contacto.info.address",
-        "id": "google-maps",
-        "subtitle": "Av. Mariscal Lopez 1234, Asuncion",
-        "title": "Nuestra Ubicacion",
-        "variant": "full-width"
       },
       {
         "content": "faq",
         "id": "faq",
-        "subtitle": "Todo lo que necesitas saber",
         "title": "Preguntas Frecuentes",
         "variant": "accordion"
       },
@@ -9443,33 +9424,8 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
-        "content": "home.stats",
-        "id": "stats-counter",
-        "variant": "inline"
-      },
-      {
-        "content": "home.features",
-        "id": "features",
-        "subtitle": "6 razones para confiar en nosotros",
-        "title": "¿Por que elegir El Viajero?",
-        "variant": "grid"
-      },
-      {
-        "content": "home.productCatalog",
-        "id": "product-catalog",
-        "variant": "grid"
-      },
-      {
-        "content": "home.gallery",
-        "id": "gallery",
-        "subtitle": "Conoce nuestra variedad",
-        "title": "Galeria de Productos",
-        "variant": "grid"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
-        "subtitle": "La opinion de quienes ya confiaron en nosotros",
         "title": "Lo que dicen nuestros clientes",
         "variant": "carousel"
       },
@@ -9490,11 +9446,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "about.hero",
         "id": "hero",
         "variant": "minimal"
-      },
-      {
-        "content": "about.story",
-        "id": "our-story",
-        "variant": "narrative"
       },
       {
         "content": "about.values",
@@ -9519,11 +9470,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "productos.hero",
         "id": "hero",
         "variant": "minimal"
-      },
-      {
-        "content": "productos.productCatalog",
-        "id": "product-catalog",
-        "variant": "grid"
       },
       {
         "content": "home.finalCta",
@@ -20517,6 +20463,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "label": "Ablauf"
             }
           ],
+          "href": "/s/de/nexa-paraguay/sobre",
           "label": "Umzug"
         },
         {
@@ -20546,6 +20493,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "label": "Presse"
             }
           ],
+          "href": "/s/de/nexa-paraguay/blog",
           "label": "Einblicke"
         },
         {
@@ -21896,7 +21844,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaPrimaryText": "Book a free consultation",
         "ctaSecondaryHref": "/s/en/nexa-paraguay/programas",
         "ctaSecondaryText": "See programs",
-        "headline": "Establish your operation in Paraguay. Professional, integrated, no surprises.",
+        "headline": "Your Paraguay move, handled end-to-end.",
         "subheadline": "Residency, company, bank account and land purchase — coordinated by Nexa Paraguay, executed by our trusted technical team.",
         "trustBadges": [
           "8–12 weeks",
@@ -22225,31 +22173,31 @@ export const CONTENT: Record<string, JsonRecord> = {
         "eyebrow": "Why Nexa Paraguay",
         "items": [
           {
-            "description": "Residency, company and bank account integrated.",
+            "description": "Residency, company and bank account — all in one flow.",
             "icon": "Package",
             "image": "@src:trust.certificate",
-            "title": "One program"
+            "title": "Integrated program"
           },
           {
-            "description": "All in-person steps done in a single coordinated day.",
+            "description": "All in-person steps, one coordinated day.",
             "icon": "Plane",
             "image": "@src:trust.migraciones",
-            "title": "One trip"
+            "title": "Single trip"
           },
           {
             "description": "Lawyers, accountants, notaries and financial advisors.",
             "icon": "Users",
             "image": "@src:trust.cedula",
-            "title": "One team"
+            "title": "Dedicated team"
           },
           {
-            "description": "All-inclusive. No hidden fees.",
+            "description": "All-inclusive, no hidden fees.",
             "icon": "Shield",
             "image": "@src:trust.registry",
-            "title": "Transparent pricing"
+            "title": "Fixed pricing"
           }
         ],
-        "title": "An integrated system, not a paperwork agency"
+        "title": "More than an agency — an integrated system"
       },
       "whyCountry": {
         "eyebrow": "Why Paraguay",
@@ -22810,6 +22758,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "label": "Process"
             }
           ],
+          "href": "/s/en/nexa-paraguay/programas",
           "label": "Relocation"
         },
         {
@@ -22839,6 +22788,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "label": "Press"
             }
           ],
+          "href": "/s/en/nexa-paraguay/blog",
           "label": "Insights"
         },
         {
@@ -25094,6 +25044,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "label": "Proceso"
             }
           ],
+          "href": "/s/es/nexa-paraguay/sobre",
           "label": "Reubicación"
         },
         {
@@ -25123,6 +25074,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "label": "Prensa"
             }
           ],
+          "href": "/s/es/nexa-paraguay/recursos",
           "label": "Recursos"
         },
         {
@@ -27393,6 +27345,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "label": "Proces"
             }
           ],
+          "href": "/s/nl/nexa-paraguay/sobre",
           "label": "Verhuizing"
         },
         {
@@ -27422,6 +27375,7 @@ export const CONTENT: Record<string, JsonRecord> = {
               "label": "Pers"
             }
           ],
+          "href": "/s/nl/nexa-paraguay/blog",
           "label": "Inzichten"
         },
         {
