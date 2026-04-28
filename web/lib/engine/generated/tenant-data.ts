@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=15, pages=180, content=30, blog=34, images=6, verticals=23. */
+/** Counts: sites=15, pages=181, content=30, blog=34, images=6, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "alejandro-villamayor",
   "bufete-mendez",
@@ -629,6 +629,15 @@ export const BASE_TOKENS: JsonRecord = {
 
 export const SITES: Record<string, JsonRecord> = {
   "alejandro-villamayor": {
+    "blog": {
+      "categories": [
+        "Inversiones",
+        "Tributario",
+        "Residencia",
+        "Corporativo"
+      ],
+      "enabled": true
+    },
     "businessType": "general_practice_lawyer",
     "chrome": {
       "footer": [
@@ -661,13 +670,40 @@ export const SITES: Record<string, JsonRecord> = {
     },
     "country": "Paraguay",
     "defaultLocale": "es",
+    "description": "Abogado en Asunción, Paraguay — especializado en Paraguay Investor Pass, inversiones extranjeras, derecho corporativo y litigios.",
     "domain": "alejandrovillamayor.com",
     "features": {
-      "blog": true,
-      "dualCurrency": true,
-      "testimonials": true,
-      "whatsappFloat": true
+      "blog": {
+        "enabled": true
+      },
+      "dualCurrency": {
+        "enabled": true
+      },
+      "faq": {
+        "enabled": true
+      },
+      "featuresGrid": {
+        "enabled": true
+      },
+      "newsletterSignup": {
+        "enabled": true
+      },
+      "statsCounter": {
+        "enabled": true
+      },
+      "testimonials": {
+        "enabled": true
+      },
+      "whatsappFloat": {
+        "enabled": true
+      }
     },
+    "hours": {
+      "Domingo": "Cerrado",
+      "Lunes a Viernes": "09:00 - 18:00",
+      "Sabado": "09:00 - 12:00 (con cita)"
+    },
+    "isLiveProduction": true,
     "is_demo": false,
     "locales": [
       "es",
@@ -675,10 +711,63 @@ export const SITES: Record<string, JsonRecord> = {
     ],
     "location": {
       "address": "Asunción, Paraguay",
-      "city": "Asunción"
+      "city": "Asunción",
+      "country": "Paraguay"
     },
+    "navigation": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "servicios"
+      },
+      {
+        "label": "Investor Pass",
+        "path": "investor-pass"
+      },
+      {
+        "label": "Sobre Mí",
+        "path": "sobre-mi"
+      },
+      {
+        "label": "Blog",
+        "path": "blog"
+      },
+      {
+        "label": "FAQ",
+        "path": "faq"
+      },
+      {
+        "label": "Contacto",
+        "path": "contacto"
+      }
+    ],
+    "pages": [
+      "home",
+      "servicios",
+      "investor-pass",
+      "inversionista",
+      "sobre-mi",
+      "blog",
+      "faq",
+      "contacto",
+      "privacidad"
+    ],
     "path": "/s/es/alejandro-villamayor",
     "publicUrl": "https://paragu-ai.com/s/es/alejandro-villamayor",
+    "settings": {
+      "currency": "USD",
+      "dualCurrency": {
+        "enabled": true,
+        "primary": "USD",
+        "secondary": "PYG"
+      },
+      "locale": "es-PY",
+      "timezone": "America/Asuncion"
+    },
+    "title": "Alejandro Villamayor",
     "vertical": "b2b-professional"
   },
   "bufete-mendez": {
@@ -711,22 +800,45 @@ export const SITES: Record<string, JsonRecord> = {
       "email": "contacto@bufetemendez.com.py",
       "facebook": "https://facebook.com/bufetemendez",
       "instagram": "@bufetemendez",
+      "phone": "+595981123456",
       "whatsapp": "+595981123456"
     },
     "country": "Paraguay",
     "defaultLocale": "es",
+    "description": "Bufete de abogados en Asunción, Paraguay — derecho corporativo, civil, laboral y familiar.",
     "domain": "bufetemendez.com.py",
     "features": {
-      "dualCurrency": true,
-      "testimonials": true,
-      "whatsappFloat": true
+      "blog": {
+        "enabled": true
+      },
+      "dualCurrency": {
+        "enabled": true
+      },
+      "faq": {
+        "enabled": true
+      },
+      "featuresGrid": {
+        "enabled": true
+      },
+      "newsletterSignup": {
+        "enabled": true
+      },
+      "statsCounter": {
+        "enabled": true
+      },
+      "testimonials": {
+        "enabled": true
+      },
+      "whatsappFloat": {
+        "enabled": true
+      }
     },
     "founded": "2005-03-15",
     "hours": {
       "Domingo": "Cerrado",
-      "Emergencias": "24h vía WhatsApp",
+      "Emergencias": "24h via WhatsApp",
       "Lunes a Viernes": "08:00 - 18:00",
-      "Sábado": "09:00 - 12:00 (con cita previa)"
+      "Sabado": "09:00 - 12:00 (con cita previa)"
     },
     "integrations": {
       "analytics": {
@@ -743,6 +855,7 @@ export const SITES: Record<string, JsonRecord> = {
         "audienceId": "audience-paragu-ai-newsletter"
       }
     },
+    "isLiveProduction": false,
     "is_demo": true,
     "legalName": "Bufete Mendez & Asociados",
     "locales": [
@@ -752,10 +865,60 @@ export const SITES: Record<string, JsonRecord> = {
     "location": {
       "address": "Av. Mariscal López 1234, c/ Curupayty",
       "city": "Asunción",
+      "country": "Paraguay",
       "neighborhood": "Barrio San Roque"
     },
+    "navigation": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "servicios"
+      },
+      {
+        "label": "Equipo",
+        "path": "equipo"
+      },
+      {
+        "label": "Casos",
+        "path": "casos"
+      },
+      {
+        "label": "FAQ",
+        "path": "faq"
+      },
+      {
+        "label": "Contacto",
+        "path": "contacto"
+      }
+    ],
     "noindex": true,
+    "pages": [
+      "home",
+      "servicios",
+      "equipo",
+      "casos",
+      "faq",
+      "contacto",
+      "privacidad",
+      "terminos"
+    ],
+    "path": "/s/es/bufete-mendez",
+    "publicUrl": "https://paragu-ai.com/s/es/bufete-mendez",
     "ruc": "80012345-6",
+    "settings": {
+      "currency": "PYG",
+      "dualCurrency": {
+        "enabled": true,
+        "primary": "PYG",
+        "secondary": "USD"
+      },
+      "locale": "es-PY",
+      "timezone": "America/Asuncion"
+    },
+    "title": "Bufete Méndez & Asociados",
     "vertical": "b2b-professional"
   },
   "dayah-litworks": {
@@ -1055,6 +1218,9 @@ export const SITES: Record<string, JsonRecord> = {
         {
           "content": "footer",
           "id": "footer",
+          "styling": {
+            "padding": "none"
+          },
           "variant": "standard"
         }
       ],
@@ -1275,6 +1441,9 @@ export const SITES: Record<string, JsonRecord> = {
         {
           "content": "footer",
           "id": "footer",
+          "styling": {
+            "padding": "none"
+          },
           "variant": "standard"
         }
       ],
@@ -1346,6 +1515,9 @@ export const SITES: Record<string, JsonRecord> = {
         {
           "content": "footer",
           "id": "footer",
+          "styling": {
+            "padding": "none"
+          },
           "variant": "standard"
         }
       ],
@@ -1454,6 +1626,9 @@ export const SITES: Record<string, JsonRecord> = {
         {
           "content": "footer",
           "id": "footer",
+          "styling": {
+            "padding": "none"
+          },
           "variant": "standard"
         }
       ],
@@ -2125,7 +2300,7 @@ export const SITES: Record<string, JsonRecord> = {
       "Lunes a Viernes": "08:00 - 19:00",
       "Sabado": "08:00 - 17:00"
     },
-    "isLiveProduction": false,
+    "isLiveProduction": true,
     "locales": [
       "es"
     ],
@@ -2584,9 +2759,45 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       },
       {
-        "content": "whatsapp",
-        "id": "whatsapp-float",
-        "variant": "standard"
+        "descriptionKey": "contacto.seo.description",
+        "schemaType": "ProfessionalService",
+        "sections": [
+          {
+            "content": "contacto.hero",
+            "id": "hero",
+            "variant": "minimal"
+          },
+          {
+            "content": "home.contact",
+            "id": "contact",
+            "variant": "split"
+          },
+          {
+            "content": "contacto.form",
+            "id": "lead-form",
+            "subtitle": "Te respondemos a la brevedad",
+            "title": "Envianos un mensaje",
+            "variant": "standard"
+          },
+          {
+            "content": "home.contact",
+            "id": "google-maps",
+            "variant": "default"
+          },
+          {
+            "content": "home.faq",
+            "id": "faq",
+            "title": "Preguntas Frecuentes",
+            "variant": "accordion"
+          },
+          {
+            "content": "home.cta",
+            "id": "cta-banner",
+            "variant": "gradient"
+          }
+        ],
+        "slug": "contacto",
+        "titleKey": "contacto.seo.title"
       }
     ],
     "slug": "contacto",
@@ -2630,6 +2841,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.hero",
         "id": "hero",
+        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80",
         "styling": {
           "background": "image",
           "backgroundImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80",
@@ -2697,7 +2909,9 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "home.blogPreview",
-        "id": "blog-index",
+        "id": "gallery",
+        "subtitle": "Artículos sobre Investor Pass, residencia e inversiones en Paraguay",
+        "title": "Guías y Novedades",
         "variant": "grid"
       },
       {
@@ -2806,6 +3020,25 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "investor-pass",
     "titleKey": "investorPass.seo.title"
+  },
+  "alejandro-villamayor:privacidad": {
+    "description": "Politica de privacidad del estudio juridico Alejandro Villamayor.",
+    "schemaType": "WebPage",
+    "sections": [
+      {
+        "id": "hero",
+        "subtitle": "Proteccion de tus datos personales",
+        "title": "Politica de Privacidad",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "solid"
+      }
+    ],
+    "slug": "privacidad",
+    "title": "Politica de Privacidad — Alejandro Villamayor"
   },
   "alejandro-villamayor:servicios": {
     "descriptionKey": "servicios.seo.description",
@@ -2951,18 +3184,33 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
-        "content": "quoteForm",
-        "id": "quote-form",
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "contacto.form",
+        "id": "lead-form",
+        "subtitle": "Te respondemos a la brevedad",
+        "title": "Envianos un mensaje",
         "variant": "standard"
       },
       {
         "content": "home.contact",
-        "id": "contact",
-        "variant": "split"
+        "id": "google-maps",
+        "variant": "default"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "title": "Preguntas Frecuentes",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
-    ],
-    "skipDefaults": [
-      "contact-strip"
     ],
     "slug": "contacto",
     "titleKey": "contactHero.title"
@@ -3286,11 +3534,6 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.portfolio",
         "id": "portfolio",
-        "variant": "grid"
-      },
-      {
-        "content": "home.products",
-        "id": "product-catalog",
         "variant": "grid"
       },
       {
@@ -6232,7 +6475,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "services",
         "id": "services",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "featuredAnimals",
@@ -6260,7 +6503,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "id": "pricing-table",
         "subtitle": "Lo que incluye tu donación",
         "title": "Reembolso de Adopción",
-        "variant": "simple"
+        "variant": "default"
       },
       {
         "content": "cta",
@@ -6272,7 +6515,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "id": "team",
         "subtitle": "Las personas detrás de Polki Squad",
         "title": "Nuestro Equipo",
-        "variant": "grid"
+        "variant": "cards"
       },
       {
         "content": "faq",
@@ -6284,7 +6527,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "id": "newsletter-signup",
         "subtitle": "Con tu donación mensual ayudas a un peludito específico",
         "title": "Sé Padrino o Madrina",
-        "variant": "inline"
+        "variant": "standard"
       }
     ],
     "slug": "",
@@ -7882,8 +8125,8 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "strip"
       },
       {
-        "content": "home.productCatalog",
-        "id": "product-catalog"
+        "id": "commerce-catalog",
+        "variant": "grid"
       },
       {
         "content": "home.quiz",
@@ -9383,8 +9626,8 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "carousel"
       },
       {
-        "content": "promociones.onSaleProducts",
-        "id": "product-catalog"
+        "id": "commerce-catalog",
+        "variant": "grid"
       },
       {
         "content": "promociones.active",
@@ -9441,8 +9684,8 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
-        "content": "tienda.productCatalog",
-        "id": "product-catalog"
+        "id": "commerce-catalog",
+        "variant": "grid"
       },
       {
         "content": "home.activePromos",
@@ -10345,6 +10588,16 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "contacto": {
+      "form": {
+        "fields": [
+          "name",
+          "phone",
+          "email",
+          "message"
+        ],
+        "submitText": "Enviar consulta",
+        "title": "Envianos tu consulta"
+      },
       "hero": {
         "subtitle": "Estoy para ayudarte — consultá sin costo",
         "title": "Contacto",
@@ -10546,24 +10799,24 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "La primera consulta es gratuita y sin compromiso.",
-            "question": "¿Cuánto cuesta una consulta?"
+            "a": "La primera consulta es gratuita y sin compromiso.",
+            "q": "¿Cuánto cuesta una consulta?"
           },
           {
-            "answer": "Sí, es una de mis principales áreas. Asesoro a inversores de Europa, EE.UU. y América Latina.",
-            "question": "¿Atendés casos de inversores extranjeros?"
+            "a": "Sí, es una de mis principales áreas. Asesoro a inversores de Europa, EE.UU. y América Latina.",
+            "q": "¿Atendés casos de inversores extranjeros?"
           },
           {
-            "answer": "Sí, ofrezco servicios legales completos en español e inglés.",
-            "question": "¿Trabajás en inglés?"
+            "a": "Sí, ofrezco servicios legales completos en español e inglés.",
+            "q": "¿Trabajás en inglés?"
           },
           {
-            "answer": "Entre 2 y 4 meses desde la presentación de documentación completa.",
-            "question": "¿Cuánto tiempo toma obtener la residencia?"
+            "a": "Entre 2 y 4 meses desde la presentación de documentación completa.",
+            "q": "¿Cuánto tiempo toma obtener la residencia?"
           },
           {
-            "answer": "Sí, la mayoría de los trámites se gestionan de forma remota.",
-            "question": "¿Hacés trámites online?"
+            "a": "Sí, la mayoría de los trámites se gestionan de forma remota.",
+            "q": "¿Hacés trámites online?"
           }
         ],
         "title": "Preguntas frecuentes"
@@ -10676,26 +10929,26 @@ export const CONTENT: Record<string, JsonRecord> = {
       "testimonials": {
         "items": [
           {
-            "content": "Alejandro me guió en todo el proceso del Investor Pass. Su conocimiento del marco legal paraguayo y su enfoque práctico hicieron la diferencia. En 3 meses tenía mi residencia permanente.",
-            "name": "Marcelo R.",
+            "author": "Marcelo R.",
+            "quote": "Alejandro me guió en todo el proceso del Investor Pass. Su conocimiento del marco legal paraguayo y su enfoque práctico hicieron la diferencia. En 3 meses tenía mi residencia permanente.",
             "rating": 5,
             "role": "Inversor, Sector Tecnológico"
           },
           {
-            "content": "Excelente asesoramiento corporativo. Resolvió una situación contractual compleja con rapidez y profesionalismo.",
-            "name": "Carolina D.",
+            "author": "Carolina D.",
+            "quote": "Excelente asesoramiento corporativo. Resolvió una situación contractual compleja con rapidez y profesionalismo.",
             "rating": 5,
             "role": "CEO, Empresa de Comercio"
           },
           {
-            "content": "Alejandro helped me structure my real estate investment in Paraguay. His bilingual capability and knowledge of both local and international law made the process smooth.",
-            "name": "James T.",
+            "author": "James T.",
+            "quote": "Alejandro helped me structure my real estate investment in Paraguay. His bilingual capability and knowledge of both local and international law made the process smooth.",
             "rating": 5,
             "role": "Inversor Inmobiliario, EE.UU."
           },
           {
-            "content": "Me ayudó a constituir mi empresa y entender el régimen tributario. Siempre respondió rápido y con claridad.",
-            "name": "Laura M.",
+            "author": "Laura M.",
+            "quote": "Me ayudó a constituir mi empresa y entender el régimen tributario. Siempre respondió rápido y con claridad.",
             "rating": 5,
             "role": "Emprendedora"
           }
@@ -11174,36 +11427,36 @@ export const CONTENT: Record<string, JsonRecord> = {
       "faq": {
         "items": [
           {
-            "answer": "Sí. Ofrecemos una primera consulta de 30 minutos sin costo para conocer tu caso y explicarte cómo podemos ayudarte. Presencial o por videollamada.",
-            "question": "¿La primera consulta es realmente gratis?"
+            "a": "Sí. Ofrecemos una primera consulta de 30 minutos sin costo para conocer tu caso y explicarte cómo podemos ayudarte. Presencial o por videollamada.",
+            "q": "¿La primera consulta es realmente gratis?"
           },
           {
-            "answer": "Depende del tipo de caso y su complejidad. Un divorcio por mutuo acuerdo puede resolver en 2-3 meses; un juicio penal puede llevar de 6 meses a 2 años. En la consulta inicial te damos un timeline realista.",
-            "question": "¿Cuánto tiempo toma resolver un caso?"
+            "a": "Depende del tipo de caso y su complejidad. Un divorcio por mutuo acuerdo puede resolver en 2-3 meses; un juicio penal puede llevar de 6 meses a 2 años. En la consulta inicial te damos un timeline realista.",
+            "q": "¿Cuánto tiempo toma resolver un caso?"
           },
           {
-            "answer": "Sí. Tenemos guardia permanente para urgencias legales: detenciones, allanamientos, medidas cautelares y cualquier situación que no pueda esperar.",
-            "question": "¿Manejan casos de urgencia?"
+            "a": "Sí. Tenemos guardia permanente para urgencias legales: detenciones, allanamientos, medidas cautelares y cualquier situación que no pueda esperar.",
+            "q": "¿Manejan casos de urgencia?"
           },
           {
-            "answer": "Trabajamos con honorarios fijos por servicio, cuotas mensuales para empresas y honorarios de éxito en ciertos casos. Todo se acuerda por escrito antes de iniciar.",
-            "question": "¿Cuáles son los honorarios?"
+            "a": "Trabajamos con honorarios fijos por servicio, cuotas mensuales para empresas y honorarios de éxito en ciertos casos. Todo se acuerda por escrito antes de iniciar.",
+            "q": "¿Cuáles son los honorarios?"
           },
           {
-            "answer": "Nuestra sede está en Asunción pero litigamos en todo el país. También hacemos consultas por videollamada para clientes del interior y del extranjero.",
-            "question": "¿Atienden solo en Asunción?"
+            "a": "Nuestra sede está en Asunción pero litigamos en todo el país. También hacemos consultas por videollamada para clientes del interior y del extranjero.",
+            "q": "¿Atienden solo en Asunción?"
           },
           {
-            "answer": "Sí. Tenemos planes de asesoría legal corporativa con honorarios mensuales fijos. Ideal para startups, pymes y empresas que necesitan acompañamiento legal continuo sin contratar un abogado interno.",
-            "question": "¿Ofrecen servicios a empresas como outsourcing legal?"
+            "a": "Sí. Tenemos planes de asesoría legal corporativa con honorarios mensuales fijos. Ideal para startups, pymes y empresas que necesitan acompañamiento legal continuo sin contratar un abogado interno.",
+            "q": "¿Ofrecen servicios a empresas como outsourcing legal?"
           },
           {
-            "answer": "Depende del caso. Para temas corporativos: contratos, estatutos sociales. Para civiles/laborales: documentación relacionada al caso. Si no estás seguro, ven igual — nosotros te decimos qué falta.",
-            "question": "¿Qué documentos debo traer a la primera consulta?"
+            "a": "Depende del caso. Para temas corporativos: contratos, estatutos sociales. Para civiles/laborales: documentación relacionada al caso. Si no estás seguro, ven igual — nosotros te decimos qué falta.",
+            "q": "¿Qué documentos debo traer a la primera consulta?"
           },
           {
-            "answer": "Sí. Siempre exploramos la mediación y otros métodos alternativos antes de litigar. Muchos casos se resuelven más rápido y con menor costo fuera del juzgado.",
-            "question": "¿Hacen mediación o resolución alternativa?"
+            "a": "Sí. Siempre exploramos la mediación y otros métodos alternativos antes de litigar. Muchos casos se resuelven más rápido y con menor costo fuera del juzgado.",
+            "q": "¿Hacen mediación o resolución alternativa?"
           }
         ],
         "title": "Preguntas Frecuentes"
@@ -19647,63 +19900,76 @@ export const CONTENT: Record<string, JsonRecord> = {
     "footer": {
       "businessName": "Nexa Paraguay",
       "city": "Asunción",
+      "columns": [
+        {
+          "links": [
+            {
+              "href": "/s/de/nexa-paraguay/programas",
+              "label": "Programs"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/proceso",
+              "label": "Process"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/por-que-paraguay",
+              "label": "Why Paraguay"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/calidad-de-vida",
+              "label": "Quality of life"
+            }
+          ],
+          "title": "Services"
+        },
+        {
+          "links": [
+            {
+              "href": "/s/de/nexa-paraguay/blog",
+              "label": "Blog"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/glosario",
+              "label": "Glossary"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/recursos",
+              "label": "Resources"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/prensa",
+              "label": "Press"
+            }
+          ],
+          "title": "Resources"
+        },
+        {
+          "links": [
+            {
+              "href": "/s/de/nexa-paraguay/sobre",
+              "label": "About"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/faq",
+              "label": "FAQ"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/privacidad",
+              "label": "Privacy"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/benelux",
+              "label": "Benelux desk"
+            }
+          ],
+          "title": "Company"
+        }
+      ],
       "copyright": "© {year} Nexa Paraguay. Alle Rechte vorbehalten.",
       "email": "hola@nexaparaguay.com",
       "instagram": "https://instagram.com/nexaparaguay",
-      "navLinks": [
-        {
-          "href": "/s/de/nexa-paraguay/programas",
-          "label": "Programme"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/proceso",
-          "label": "Ablauf"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/sobre",
-          "label": "Über"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/privacidad",
-          "label": "Datenschutz"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/faq",
-          "label": "FAQ"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/blog",
-          "label": "Blog"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/contacto",
-          "label": "Kontakt"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/por-que-paraguay",
-          "label": "Warum Paraguay"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/benelux",
-          "label": "Benelux Desk"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/calidad-de-vida",
-          "label": "Lebensqualität"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/glosario",
-          "label": "Glossar"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/recursos",
-          "label": "Ressourcen"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/prensa",
-          "label": "Presse"
-        }
-      ],
+      "navLinks": [],
+      "phone": "",
       "siblingSites": [
         {
           "defaultLocale": "nl",
@@ -21942,64 +22208,77 @@ export const CONTENT: Record<string, JsonRecord> = {
     "footer": {
       "businessName": "Nexa Paraguay",
       "city": "Asunción",
+      "columns": [
+        {
+          "links": [
+            {
+              "href": "/s/en/nexa-paraguay/programas",
+              "label": "Programs"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/proceso",
+              "label": "Process"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/por-que-paraguay",
+              "label": "Why Paraguay"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/calidad-de-vida",
+              "label": "Quality of life"
+            }
+          ],
+          "title": "Services"
+        },
+        {
+          "links": [
+            {
+              "href": "/s/en/nexa-paraguay/blog",
+              "label": "Blog"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/glosario",
+              "label": "Glossary"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/recursos",
+              "label": "Resources"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/prensa",
+              "label": "Press"
+            }
+          ],
+          "title": "Resources"
+        },
+        {
+          "links": [
+            {
+              "href": "/s/en/nexa-paraguay/sobre",
+              "label": "About"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/faq",
+              "label": "FAQ"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/privacidad",
+              "label": "Privacy"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/benelux",
+              "label": "Benelux desk"
+            }
+          ],
+          "title": "Company"
+        }
+      ],
       "copyright": "© {year} Nexa Paraguay. All rights reserved.",
       "email": "hola@nexaparaguay.com",
       "facebook": null,
       "instagram": "https://instagram.com/nexaparaguay",
-      "navLinks": [
-        {
-          "href": "/s/en/nexa-paraguay/programas",
-          "label": "Programs"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/proceso",
-          "label": "Process"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/sobre",
-          "label": "About"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/privacidad",
-          "label": "Privacy"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/faq",
-          "label": "FAQ"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/blog",
-          "label": "Blog"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/contacto",
-          "label": "Contact"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/por-que-paraguay",
-          "label": "Why Paraguay"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/benelux",
-          "label": "Benelux desk"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/calidad-de-vida",
-          "label": "Quality of life"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/glosario",
-          "label": "Glossary"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/recursos",
-          "label": "Resources"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/prensa",
-          "label": "Press"
-        }
-      ],
+      "navLinks": [],
+      "phone": "",
       "siblingSites": [
         {
           "defaultLocale": "nl",
@@ -24228,64 +24507,77 @@ export const CONTENT: Record<string, JsonRecord> = {
     "footer": {
       "businessName": "Nexa Paraguay",
       "city": "Asunción",
+      "columns": [
+        {
+          "links": [
+            {
+              "href": "/s/es/nexa-paraguay/programas",
+              "label": "Programs"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/proceso",
+              "label": "Process"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/por-que-paraguay",
+              "label": "Why Paraguay"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/calidad-de-vida",
+              "label": "Quality of life"
+            }
+          ],
+          "title": "Services"
+        },
+        {
+          "links": [
+            {
+              "href": "/s/es/nexa-paraguay/blog",
+              "label": "Blog"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/glosario",
+              "label": "Glossary"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/recursos",
+              "label": "Resources"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/prensa",
+              "label": "Press"
+            }
+          ],
+          "title": "Resources"
+        },
+        {
+          "links": [
+            {
+              "href": "/s/es/nexa-paraguay/sobre",
+              "label": "About"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/faq",
+              "label": "FAQ"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/privacidad",
+              "label": "Privacy"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/benelux",
+              "label": "Benelux desk"
+            }
+          ],
+          "title": "Company"
+        }
+      ],
       "copyright": "© {year} Nexa Paraguay. Todos los derechos reservados.",
       "email": "hola@nexaparaguay.com",
       "facebook": null,
       "instagram": "https://instagram.com/nexaparaguay",
-      "navLinks": [
-        {
-          "href": "/s/es/nexa-paraguay/programas",
-          "label": "Programas"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/proceso",
-          "label": "Proceso"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/sobre",
-          "label": "Sobre"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/privacidad",
-          "label": "Privacidad"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/faq",
-          "label": "FAQ"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/blog",
-          "label": "Blog"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/contacto",
-          "label": "Contacto"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/por-que-paraguay",
-          "label": "Por qué Paraguay"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/benelux",
-          "label": "Benelux desk"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/calidad-de-vida",
-          "label": "Calidad de vida"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/glosario",
-          "label": "Glosario"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/recursos",
-          "label": "Recursos"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/prensa",
-          "label": "Prensa"
-        }
-      ],
+      "navLinks": [],
+      "phone": "",
       "siblingSites": [
         {
           "defaultLocale": "nl",
@@ -26529,63 +26821,76 @@ export const CONTENT: Record<string, JsonRecord> = {
     "footer": {
       "businessName": "Nexa Paraguay",
       "city": "Asunción",
+      "columns": [
+        {
+          "links": [
+            {
+              "href": "/s/nl/nexa-paraguay/programas",
+              "label": "Programs"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/proceso",
+              "label": "Process"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/por-que-paraguay",
+              "label": "Why Paraguay"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/calidad-de-vida",
+              "label": "Quality of life"
+            }
+          ],
+          "title": "Services"
+        },
+        {
+          "links": [
+            {
+              "href": "/s/nl/nexa-paraguay/blog",
+              "label": "Blog"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/glosario",
+              "label": "Glossary"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/recursos",
+              "label": "Resources"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/prensa",
+              "label": "Press"
+            }
+          ],
+          "title": "Resources"
+        },
+        {
+          "links": [
+            {
+              "href": "/s/nl/nexa-paraguay/sobre",
+              "label": "About"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/faq",
+              "label": "FAQ"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/privacidad",
+              "label": "Privacy"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/benelux",
+              "label": "Benelux desk"
+            }
+          ],
+          "title": "Company"
+        }
+      ],
       "copyright": "© {year} Nexa Paraguay. Alle rechten voorbehouden.",
       "email": "hola@nexaparaguay.com",
       "instagram": "https://instagram.com/nexaparaguay",
-      "navLinks": [
-        {
-          "href": "/s/nl/nexa-paraguay/programas",
-          "label": "Programma's"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/proceso",
-          "label": "Proces"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/sobre",
-          "label": "Over"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/privacidad",
-          "label": "Privacy"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/faq",
-          "label": "FAQ"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/blog",
-          "label": "Blog"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/contacto",
-          "label": "Contact"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/por-que-paraguay",
-          "label": "Waarom Paraguay"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/benelux",
-          "label": "Benelux desk"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/calidad-de-vida",
-          "label": "Levenskwaliteit"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/glosario",
-          "label": "Woordenlijst"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/recursos",
-          "label": "Bronnen"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/prensa",
-          "label": "Pers"
-        }
-      ],
+      "navLinks": [],
+      "phone": "",
       "siblingSites": [
         {
           "defaultLocale": "nl",

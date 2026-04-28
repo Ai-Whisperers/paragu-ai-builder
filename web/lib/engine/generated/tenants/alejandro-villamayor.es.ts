@@ -49,6 +49,16 @@ export default {
     }
   },
   "contacto": {
+    "form": {
+      "fields": [
+        "name",
+        "phone",
+        "email",
+        "message"
+      ],
+      "submitText": "Enviar consulta",
+      "title": "Envianos tu consulta"
+    },
     "hero": {
       "subtitle": "Estoy para ayudarte — consultá sin costo",
       "title": "Contacto",
@@ -250,24 +260,24 @@ export default {
     "faq": {
       "items": [
         {
-          "answer": "La primera consulta es gratuita y sin compromiso.",
-          "question": "¿Cuánto cuesta una consulta?"
+          "a": "La primera consulta es gratuita y sin compromiso.",
+          "q": "¿Cuánto cuesta una consulta?"
         },
         {
-          "answer": "Sí, es una de mis principales áreas. Asesoro a inversores de Europa, EE.UU. y América Latina.",
-          "question": "¿Atendés casos de inversores extranjeros?"
+          "a": "Sí, es una de mis principales áreas. Asesoro a inversores de Europa, EE.UU. y América Latina.",
+          "q": "¿Atendés casos de inversores extranjeros?"
         },
         {
-          "answer": "Sí, ofrezco servicios legales completos en español e inglés.",
-          "question": "¿Trabajás en inglés?"
+          "a": "Sí, ofrezco servicios legales completos en español e inglés.",
+          "q": "¿Trabajás en inglés?"
         },
         {
-          "answer": "Entre 2 y 4 meses desde la presentación de documentación completa.",
-          "question": "¿Cuánto tiempo toma obtener la residencia?"
+          "a": "Entre 2 y 4 meses desde la presentación de documentación completa.",
+          "q": "¿Cuánto tiempo toma obtener la residencia?"
         },
         {
-          "answer": "Sí, la mayoría de los trámites se gestionan de forma remota.",
-          "question": "¿Hacés trámites online?"
+          "a": "Sí, la mayoría de los trámites se gestionan de forma remota.",
+          "q": "¿Hacés trámites online?"
         }
       ],
       "title": "Preguntas frecuentes"
@@ -380,26 +390,26 @@ export default {
     "testimonials": {
       "items": [
         {
-          "content": "Alejandro me guió en todo el proceso del Investor Pass. Su conocimiento del marco legal paraguayo y su enfoque práctico hicieron la diferencia. En 3 meses tenía mi residencia permanente.",
-          "name": "Marcelo R.",
+          "author": "Marcelo R.",
+          "quote": "Alejandro me guió en todo el proceso del Investor Pass. Su conocimiento del marco legal paraguayo y su enfoque práctico hicieron la diferencia. En 3 meses tenía mi residencia permanente.",
           "rating": 5,
           "role": "Inversor, Sector Tecnológico"
         },
         {
-          "content": "Excelente asesoramiento corporativo. Resolvió una situación contractual compleja con rapidez y profesionalismo.",
-          "name": "Carolina D.",
+          "author": "Carolina D.",
+          "quote": "Excelente asesoramiento corporativo. Resolvió una situación contractual compleja con rapidez y profesionalismo.",
           "rating": 5,
           "role": "CEO, Empresa de Comercio"
         },
         {
-          "content": "Alejandro helped me structure my real estate investment in Paraguay. His bilingual capability and knowledge of both local and international law made the process smooth.",
-          "name": "James T.",
+          "author": "James T.",
+          "quote": "Alejandro helped me structure my real estate investment in Paraguay. His bilingual capability and knowledge of both local and international law made the process smooth.",
           "rating": 5,
           "role": "Inversor Inmobiliario, EE.UU."
         },
         {
-          "content": "Me ayudó a constituir mi empresa y entender el régimen tributario. Siempre respondió rápido y con claridad.",
-          "name": "Laura M.",
+          "author": "Laura M.",
+          "quote": "Me ayudó a constituir mi empresa y entender el régimen tributario. Siempre respondió rápido y con claridad.",
           "rating": 5,
           "role": "Emprendedora"
         }
