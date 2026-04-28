@@ -57,7 +57,7 @@ export function OpenHoursStatusSection({
           <span
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full"
             style={{
-              backgroundColor: open ? '#DEF7EC' : '#FEE2E2',
+              backgroundColor: open ? 'var(--color-success-surface)' : 'var(--color-error-surface)',
               color: open ? '#03543F' : '#991B1B',
             }}
           >

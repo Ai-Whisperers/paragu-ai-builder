@@ -110,7 +110,7 @@ export function ProgramsComparisonSection({
             {title}
           </Heading>
           {subtitle && (
-            <p className="font-heading text-primary mx-auto mt-5 max-w-2xl text-lg sm:text-xl leading-relaxed" style={{ color: 'var(--text-light)' }}>
+            <p className="font-heading text-primary mx-auto mt-5 max-w-2xl text-lg sm:text-xl leading-relaxed" className='text-muted-foreground'>
               {subtitle}
             </p>
           )}
@@ -172,14 +172,14 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
                 {tier.name}
               </Heading>
               {tier.description && (
-                <p className="font-heading text-primary text-sm sm:text-base leading-relaxed" style={{ color: 'var(--text-muted)' }}>{tier.description}</p>
+                <p className="font-heading text-primary text-sm sm:text-base leading-relaxed" className='text-muted-foreground'>{tier.description}</p>
               )}
               
               {tier.price && (
                 <div className="font-heading text-primary mt-5">
-                  <p className="font-heading text-primary text-2xl sm:text-3xl sm:text-4xl font-extrabold tracking-tight" style={{ color: 'var(--text)' }}>{tier.price}</p>
+                  <p className="font-heading text-primary text-2xl sm:text-3xl sm:text-4xl font-extrabold tracking-tight">{tier.price}</p>
                   {tier.priceNote && (
-                    <p className="font-heading text-primary mt-1.5 text-sm sm:text-base" style={{ color: 'var(--text-muted)' }}>{tier.priceNote}</p>
+                    <p className="font-heading text-primary mt-1.5 text-sm sm:text-base" className='text-muted-foreground'>{tier.priceNote}</p>
                   )}
                 </div>
               )}
@@ -188,7 +188,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
             <div className="font-heading text-primary flex-1 px-8 sm:px-10 lg:px-12 py-4">
               <ul className="font-heading text-primary space-y-3 min-h-[180px]">
                 {(tier.included || []).map((item, i) => (
-                  <li key={`inc-${i}`} className="font-heading text-primary flex gap-3 text-sm sm:text-base leading-relaxed" style={{ color: 'var(--text)' }}>
+                  <li key={`inc-${i}`} className="font-heading text-primary flex gap-3 text-sm sm:text-base leading-relaxed">
                     <span className="font-heading text-primary flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5" style={{ backgroundColor: 'rgba(184, 134, 11, 0.15)' }}>
                       <Check size={12} strokeWidth={3} />
                     </span>
@@ -196,7 +196,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
                   </li>
                 ))}
                 {tier.excluded?.map((item, i) => (
-                  <li key={`exc-${i}`} className="font-heading text-primary flex gap-3 text-sm sm:text-base leading-relaxed opacity-50" style={{ color: 'var(--text-muted)' }}>
+                  <li key={`exc-${i}`} className="font-heading text-primary flex gap-3 text-sm sm:text-base leading-relaxed opacity-50" className='text-muted-foreground'>
                     <span className="font-heading text-primary flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-surface-light">
                       <Minus size={12} strokeWidth={3} className="font-heading text-primary text-muted-foreground" />
                     </span>
@@ -226,7 +226,7 @@ function MatrixTable({ tiers, rows, featureLabel }: { tiers: ProgramTier[]; rows
       <table className="font-heading text-primary w-full border-collapse text-sm sm:text-base">
         <thead>
           <tr style={{ backgroundColor: 'var(--surface-light)' }}>
-            <th className="font-heading text-primary p-4 sm:p-6 text-left font-semibold" style={{ color: 'var(--text)' }}>{featureLabel}</th>
+            <th className="font-heading text-primary p-4 sm:p-6 text-left font-semibold">{featureLabel}</th>
             {tiers.map((t) => (
               <th key={t.id} className="font-heading text-primary p-4 sm:p-6 text-left font-bold" style={{ color: 'var(--primary)', minWidth: '180px' }}>{t.name}</th>
             ))}
@@ -235,9 +235,9 @@ function MatrixTable({ tiers, rows, featureLabel }: { tiers: ProgramTier[]; rows
         <tbody>
           {rows.map((row, i) => (
             <tr key={i} className={cn("transition-colors", i % 2 === 1 ? 'bg-surface-light/50' : '')}>
-              <th className="font-heading text-primary p-4 sm:p-6 text-left font-medium" style={{ color: 'var(--text)' }}>{row.feature}</th>
+              <th className="font-heading text-primary p-4 sm:p-6 text-left font-medium">{row.feature}</th>
               {row.values.map((val, j) => (
-                <td key={j} className="font-heading text-primary p-4 sm:p-6" style={{ color: 'var(--text-light)' }}>{renderValue(val)}</td>
+                <td key={j} className="font-heading text-primary p-4 sm:p-6" className='text-muted-foreground'>{renderValue(val)}</td>
               ))}
             </tr>
           ))}
