@@ -159,7 +159,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
               )
             })()}
 
-            <div className={cn("p-6 sm:p-8 lg:p-10 pb-6", tier.highlighted && !tier.image && "pt-10")}>
+            <div className={cn("p-8 sm:p-10 lg:p-12 pb-6", tier.highlighted && !tier.image && "pt-10")}>
               <Heading level={3} className="font-heading text-primary text-xl sm:text-2xl font-bold mb-2">
                 {tier.name}
               </Heading>
@@ -169,7 +169,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
               
               {tier.price && (
                 <div className="font-heading text-primary mt-5">
-                  <p className="font-heading text-primary text-xl sm:text-3xl sm:text-4xl font-bold tracking-tight" style={{ color: 'var(--text)' }}>{tier.price}</p>
+                  <p className="font-heading text-primary text-2xl sm:text-3xl sm:text-4xl font-extrabold tracking-tight" style={{ color: 'var(--text)' }}>{tier.price}</p>
                   {tier.priceNote && (
                     <p className="font-heading text-primary mt-1.5 text-sm sm:text-base" style={{ color: 'var(--text-muted)' }}>{tier.priceNote}</p>
                   )}
@@ -177,7 +177,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
               )}
             </div>
 
-            <div className="font-heading text-primary flex-1 px-6 sm:px-8 lg:px-10 py-4">
+            <div className="font-heading text-primary flex-1 px-8 sm:px-10 lg:px-12 py-4">
               <ul className="font-heading text-primary space-y-3 min-h-[180px]">
                 {(tier.included || []).map((item, i) => (
                   <li key={`inc-${i}`} className="font-heading text-primary flex gap-3 text-sm sm:text-base leading-relaxed" style={{ color: 'var(--text)' }}>
@@ -198,9 +198,9 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
               </ul>
             </div>
 
-            <div className="font-heading text-primary p-6 sm:p-8 lg:p-10 pt-4">
+            <div className="font-heading text-primary p-8 sm:p-10 lg:p-12 pt-6">
               <Button variant={tier.highlighted ? 'primary' : 'secondary'} size="lg" href={tier.ctaHref}
-                className="font-heading text-primary w-full min-h-[52px] text-base font-semibold tracking-wide transition-all duration-300 hover:scale-[1.02]"
+                className="font-heading text-primary mt-auto w-full min-h-[52px] text-base font-semibold tracking-wide transition-all duration-300 hover:scale-[1.02]"
                 style={tier.highlighted ? { backgroundColor: 'var(--secondary)', color: '#ffffff', boxShadow: '0 4px 16px rgba(184, 134, 11, 0.35)' } : undefined}>
                 {tier.ctaLabel}
               </Button>

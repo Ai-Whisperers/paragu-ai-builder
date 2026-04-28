@@ -684,7 +684,7 @@ export default {
       "ctaPrimaryText": "Book a free consultation",
       "ctaSecondaryHref": "/s/en/nexa-paraguay/programas",
       "ctaSecondaryText": "See programs",
-      "headline": "Establish your operation in Paraguay. Professional, integrated, no surprises.",
+      "headline": "Your Paraguay move, handled end-to-end.",
       "subheadline": "Residency, company, bank account and land purchase — coordinated by Nexa Paraguay, executed by our trusted technical team.",
       "trustBadges": [
         "8–12 weeks",
@@ -1013,31 +1013,31 @@ export default {
       "eyebrow": "Why Nexa Paraguay",
       "items": [
         {
-          "description": "Residency, company and bank account integrated.",
+          "description": "Residency, company and bank account — all in one flow.",
           "icon": "Package",
           "image": "@src:trust.certificate",
-          "title": "One program"
+          "title": "Integrated program"
         },
         {
-          "description": "All in-person steps done in a single coordinated day.",
+          "description": "All in-person steps, one coordinated day.",
           "icon": "Plane",
           "image": "@src:trust.migraciones",
-          "title": "One trip"
+          "title": "Single trip"
         },
         {
           "description": "Lawyers, accountants, notaries and financial advisors.",
           "icon": "Users",
           "image": "@src:trust.cedula",
-          "title": "One team"
+          "title": "Dedicated team"
         },
         {
-          "description": "All-inclusive. No hidden fees.",
+          "description": "All-inclusive, no hidden fees.",
           "icon": "Shield",
           "image": "@src:trust.registry",
-          "title": "Transparent pricing"
+          "title": "Fixed pricing"
         }
       ],
-      "title": "An integrated system, not a paperwork agency"
+      "title": "More than an agency — an integrated system"
     },
     "whyCountry": {
       "eyebrow": "Why Paraguay",
@@ -1598,6 +1598,7 @@ export default {
             "label": "Process"
           }
         ],
+        "href": "/s/en/nexa-paraguay/programas",
         "label": "Relocation"
       },
       {
@@ -1627,6 +1628,7 @@ export default {
             "label": "Press"
           }
         ],
+        "href": "/s/en/nexa-paraguay/blog",
         "label": "Insights"
       },
       {

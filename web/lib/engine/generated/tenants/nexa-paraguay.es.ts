@@ -1598,6 +1598,7 @@ export default {
             "label": "Proceso"
           }
         ],
+        "href": "/s/es/nexa-paraguay/sobre",
         "label": "Reubicación"
       },
       {
@@ -1627,6 +1628,7 @@ export default {
             "label": "Prensa"
           }
         ],
+        "href": "/s/es/nexa-paraguay/recursos",
         "label": "Recursos"
       },
       {

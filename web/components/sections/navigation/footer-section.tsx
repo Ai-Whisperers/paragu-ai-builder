@@ -115,7 +115,7 @@ export function FooterSection({
               >
                 {labels.links}
               </h4>
-              <ul className="font-heading space-y-3">
+              <ul className="font-heading space-y-4">
                 {navLinks.map((link) => (
                   <li key={link.href}>
                     <a
@@ -139,7 +139,7 @@ export function FooterSection({
             >
               {labels.contact}
             </h4>
-            <ul className="font-heading space-y-3 text-sm">
+            <ul className="font-heading space-y-4 text-sm">
               {phone && (
                 <li>
                   <a 

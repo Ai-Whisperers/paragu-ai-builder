@@ -1,5 +1,6 @@
 'use client'
 
+import { Section } from '@/components/ui/section'
 import { useMemo, useState } from 'react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -206,26 +207,26 @@ export function TaxSavingsCalculatorSection({
   const resolvedCtaLabel = ctaLabel || L.cta
 
   return (
-    <section className="bg-secondary text-white font-heading text-primary">
+    <Section fullWidth spacing="lg" className="bg-secondary text-white">
       <Container>
         <AnimatedSectionHeader>
-          <p className="bg-secondary text-white font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">
             {resolvedEyebrow}
           </p>
           <Heading level={2}>{resolvedTitle}</Heading>
-          <p className="bg-secondary text-white font-heading text-primary mx-auto mt-4 max-w-2xl text-muted-foreground">{resolvedSubtitle}</p>
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{resolvedSubtitle}</p>
         </AnimatedSectionHeader>
 
         <div className="rounded-xl bg-surface p-6 shadow-card">
-          <div className="bg-secondary text-white font-heading text-primary grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-2">
             {/* Inputs */}
-            <div className="bg-secondary text-white font-heading text-primary space-y-5">
-              <label className="bg-secondary text-white font-heading text-primary block">
-                <span className="bg-secondary text-white font-heading text-primary mb-2 block text-sm font-medium text-foreground">{L.countryLabel}</span>
+            <div className="space-y-5">
+              <label className="block">
+                <span className="mb-2 block text-sm font-medium text-foreground">{L.countryLabel}</span>
                 <select
                   value={countryCode}
                   onChange={(e) => setCountryCode(e.target.value)}
-                  className="bg-secondary text-white font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
+                  className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 >
                   {COUNTRIES.map((c) => (
                     <option key={c.code} value={c.code}>
@@ -235,8 +236,8 @@ export function TaxSavingsCalculatorSection({
                 </select>
               </label>
 
-              <label className="bg-secondary text-white font-heading text-primary block">
-                <span className="bg-secondary text-white font-heading text-primary mb-2 block text-sm font-medium text-foreground">{L.incomeLabel}</span>
+              <label className="block">
+                <span className="mb-2 block text-sm font-medium text-foreground">{L.incomeLabel}</span>
                 <input
                   type="number"
                   inputMode="numeric"
@@ -244,18 +245,18 @@ export function TaxSavingsCalculatorSection({
                   step={10_000}
                   value={income}
                   onChange={(e) => setIncome(Math.max(0, Number(e.target.value) || 0))}
-                  className="bg-secondary text-white font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
+                  className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 />
               </label>
 
-              <fieldset className="bg-secondary text-white font-heading text-primary block">
-                <legend className="bg-secondary text-white font-heading text-primary mb-2 block text-sm font-medium text-foreground">{L.sourceLabel}</legend>
-                <div className="bg-secondary text-white font-heading text-primary flex flex-col gap-2 sm:flex-row">
-                  <label className="bg-secondary text-white font-heading text-primary flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-border bg-surface px-3 py-2 text-sm">
+              <fieldset className="block">
+                <legend className="mb-2 block text-sm font-medium text-foreground">{L.sourceLabel}</legend>
+                <div className="flex flex-col gap-2 sm:flex-row">
+                  <label className="flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-border bg-surface px-3 py-2 text-sm">
                     <input type="radio" name="tax-source" value="foreign" checked={source === 'foreign'} onChange={() => setSource('foreign')} />
                     <span>{L.sourceForeign}</span>
                   </label>
-                  <label className="bg-secondary text-white font-heading text-primary flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-border bg-surface px-3 py-2 text-sm">
+                  <label className="flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-border bg-surface px-3 py-2 text-sm">
                     <input type="radio" name="tax-source" value="local" checked={source === 'local'} onChange={() => setSource('local')} />
                     <span>{L.sourceLocal}</span>
                   </label>
@@ -264,20 +265,20 @@ export function TaxSavingsCalculatorSection({
             </div>
 
             {/* Results */}
-            <div className="bg-secondary text-white font-heading text-primary flex flex-col justify-center rounded-xl bg-surface-light p-6">
-              <dl className="bg-secondary text-white font-heading text-primary space-y-4">
+            <div className="flex flex-col justify-center rounded-xl bg-surface-light p-6">
+              <dl className="space-y-4">
                 <div>
-                  <dt className="bg-secondary text-white font-heading text-primary text-xs uppercase tracking-wider text-muted-foreground">{L.currentTax}</dt>
-                  <dd className="bg-secondary text-white font-heading text-primary text-xl font-semibold text-foreground">{formatUSD(currentTax)}</dd>
+                  <dt className="text-xs uppercase tracking-wider text-muted-foreground">{L.currentTax}</dt>
+                  <dd className="text-xl font-semibold text-foreground">{formatUSD(currentTax)}</dd>
                 </div>
                 <div>
-                  <dt className="bg-secondary text-white font-heading text-primary text-xs uppercase tracking-wider text-muted-foreground">{L.paraguayTax}</dt>
-                  <dd className="bg-secondary text-white font-heading text-primary text-xl font-semibold text-foreground">{formatUSD(paraguayTax)}</dd>
+                  <dt className="text-xs uppercase tracking-wider text-muted-foreground">{L.paraguayTax}</dt>
+                  <dd className="text-xl font-semibold text-foreground">{formatUSD(paraguayTax)}</dd>
                 </div>
-                <div className="bg-secondary text-white font-heading text-primary border-t border-border pt-4">
-                  <dt className="bg-secondary text-white font-heading text-primary text-xs uppercase tracking-wider text-secondary">{L.annualSavings}</dt>
+                <div className="border-t border-border pt-4">
+                  <dt className="text-xs uppercase tracking-wider text-secondary">{L.annualSavings}</dt>
                   <dd
-                    className="bg-secondary text-white font-heading text-primary text-xl sm:text-3xl font-bold"
+                    className="text-xl sm:text-3xl font-bold"
                    
                   >
                     {formatUSD(annualSavings)}
@@ -287,11 +288,11 @@ export function TaxSavingsCalculatorSection({
             </div>
           </div>
 
-          <p className="bg-secondary text-white font-heading text-primary mt-6 text-xs leading-relaxed text-muted-foreground">
+          <p className="mt-6 text-xs leading-relaxed text-muted-foreground">
             {resolvedDisclaimer}
           </p>
 
-          <div className="bg-secondary text-white font-heading text-primary mt-6 flex justify-center">
+          <div className="mt-6 flex justify-center">
             <Button
               variant="primary"
               size="lg"
@@ -303,6 +304,6 @@ export function TaxSavingsCalculatorSection({
           </div>
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

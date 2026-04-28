@@ -1598,6 +1598,7 @@ export default {
             "label": "Proces"
           }
         ],
+        "href": "/s/nl/nexa-paraguay/sobre",
         "label": "Verhuizing"
       },
       {
@@ -1627,6 +1628,7 @@ export default {
             "label": "Pers"
           }
         ],
+        "href": "/s/nl/nexa-paraguay/blog",
         "label": "Inzichten"
       },
       {

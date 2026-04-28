@@ -114,7 +114,7 @@ function Horizontal({ steps }: { steps: ProcessStep[] }) {
     : 'md:grid-cols-6'
   )
   return (
-    <div className={`mt-12 grid gap-x-4 gap-y-10 ${gridColsClass} items-start`}>
+    <div className={`mt-8 grid gap-x-4 gap-y-10 ${gridColsClass} items-start`}>
       {steps.map((step, i) => {
         const isLast = i === steps.length - 1
         return (

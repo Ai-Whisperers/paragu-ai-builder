@@ -1601,6 +1601,7 @@ export default {
             "label": "Ablauf"
           }
         ],
+        "href": "/s/de/nexa-paraguay/sobre",
         "label": "Umzug"
       },
       {
@@ -1630,6 +1631,7 @@ export default {
             "label": "Presse"
           }
         ],
+        "href": "/s/de/nexa-paraguay/blog",
         "label": "Einblicke"
       },
       {

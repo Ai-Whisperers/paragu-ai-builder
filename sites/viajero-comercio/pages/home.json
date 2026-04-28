@@ -25,10 +25,49 @@
       "content": "home.features"
     },
     {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "home.gallery",
+      "title": "Galeria de Productos",
+      "subtitle": "Conoce nuestra variedad"
+    },
+    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials",
       "title": "Lo que dicen nuestros clientes"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "home.features"
+    },
+    {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "home.gallery",
+      "title": "Galeria de Productos",
+      "subtitle": "Conoce nuestra variedad"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials",
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "La opinion de quienes ya confiaron en nosotros"
     },
     {
       "id": "cta-banner",

@@ -28,16 +28,16 @@ export function StatsCounterSection({
   const gridCols = {
     2: 'grid-cols-2',
     3: 'grid-cols-3',
-    4: 'grid-cols-4',
+    4: 'grid-cols-4 divide-x divide-border/50',
   }
 
   return (
     <Section spacing="sm" background="surface">
       <Container>
-        <div className={`grid ${gridCols[columns] || 'grid-cols-4'} gap-6 sm:gap-8`}>
+        <div className={`grid ${gridCols[columns] || 'grid-cols-4 divide-x divide-border/50'} gap-6 sm:gap-8`}>
           {items.map((item, i) => (
             <AnimateOnScroll key={i} stagger={(i % columns) as 1 | 2 | 3 | 4}>
-              <div className="text-center">
+              <div className="text-center relative">
                 <div className="text-xl sm:text-3xl sm:text-4xl font-bold text-primary">
                   {item.value}
                 </div>

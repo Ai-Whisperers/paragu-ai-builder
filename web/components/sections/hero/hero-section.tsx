@@ -160,13 +160,13 @@ export function HeroSection({
             </Heading>
           </FloatingElement>
         ) : (
-          <Heading level={1} className={cn("mb-6 sm:mb-8 hero-animate-delay-1")}
+          <Heading level={1} className={cn("mb-4 sm:mb-6 hero-animate-delay-1")}
             style={{ fontFamily: 'var(--font-heading)', fontWeight: '800', fontSize: 'clamp(2.25rem, 5vw, 4rem)', lineHeight: '1.1', letterSpacing: '-0.02em', color: backgroundImage ? '#ffffff' : (useGradient ? '#ffffff' : 'var(--primary-foreground)') }}>
             {headline}
           </Heading>
         )}
         
-        <p className={cn("mx-auto mb-10 sm:mb-12 max-w-2xl", enhanced && "hero-animate-delay-2")}
+        <p className={cn("mx-auto mb-8 sm:mb-10 max-w-2xl", enhanced && "hero-animate-delay-2")}
           style={{ fontFamily: 'var(--font-body)', fontSize: 'clamp(1.125rem, 2vw, 1.375rem)', lineHeight: '1.65', fontWeight: '400', color: backgroundImage ? 'rgba(255,255,255,0.95)' : (useGradient ? 'rgba(255,255,255,0.95)' : 'var(--text-light)') }}>
           {subheadline}
         </p>
@@ -175,14 +175,14 @@ export function HeroSection({
           <div className={cn("flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6", enhanced && "hero-animate-delay-3")}>
             {ctaPrimaryText && (
               <Button variant="primary" size="lg" href={ctaPrimaryHref}
-                className={cn("w-full sm:w-auto min-h-[56px] px-8 text-base font-semibold tracking-wide", enhanced && "hero-btn-primary hover:scale-[1.02] transition-transform duration-300")}
+                className={cn("w-full sm:w-auto min-h-[60px] px-10 text-base font-semibold tracking-wide", enhanced && "hero-btn-primary hover:scale-[1.02] transition-transform duration-300")}
                 style={{ backgroundColor: 'var(--secondary)', color: '#ffffff', boxShadow: '0 8px 24px rgba(184, 134, 11, 0.35)' }}>
                 {ctaPrimaryText}
               </Button>
             )}
             {ctaSecondaryText && (
               <Button variant="secondary" size="lg" href={ctaSecondaryHref}
-                className={cn("w-full sm:w-auto min-h-[56px] px-8 text-base font-semibold tracking-wide", useGradient && "border-2 border-white/40 text-white hover:bg-white/10 hover:border-white/60", enhanced && "hero-btn-secondary transition-all duration-300")}>
+                className={cn("w-full sm:w-auto min-h-[60px] px-10 text-base font-semibold tracking-wide", useGradient && "border-2 border-white/40 text-white hover:bg-white/10 hover:border-white/60", enhanced && "hero-btn-secondary transition-all duration-300")}>
                 {ctaSecondaryText}
               </Button>
             )}

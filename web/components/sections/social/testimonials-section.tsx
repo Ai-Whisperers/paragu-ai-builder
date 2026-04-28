@@ -106,7 +106,7 @@ export function TestimonialsSection({
             >
               <article 
                 className={cn(
-                  'group h-full rounded-2xl p-6 sm:p-8 transition-all duration-300',
+                  'group h-full rounded-2xl p-8 sm:p-10 transition-all duration-300',
                   enhanced && 'hover:-translate-y-1'
                 )}
                 style={{
