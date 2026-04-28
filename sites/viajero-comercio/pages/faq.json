@@ -2,23 +2,11 @@
   "slug": "faq",
   "titleKey": "faq.seo.title",
   "descriptionKey": "faq.seo.description",
-  "schemaType": "Store",
   "sections": [
-    {
-      "id": "hero",
-      "variant": "minimal",
-      "content": "faq.hero"
-    },
-    {
-      "id": "faq",
-      "variant": "accordion",
-      "content": "faq",
-      "title": "Preguntas Frecuentes"
-    },
-    {
-      "id": "cta-banner",
-      "variant": "gradient",
-      "content": "home.finalCta"
-    }
-  ]
+    { "id": "hero", "variant": "minimal", "content": "faq.hero" },
+    { "id": "faq", "variant": "accordion", "content": "faq" },
+    { "id": "cta-banner", "variant": "gradient", "content": "home.finalCta" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ],
+  "skipDefaults": ["header", "footer"]
 }

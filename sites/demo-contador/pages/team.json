@@ -1,22 +1,11 @@
 {
   "slug": "team",
-  "titleKey": "equipo.seo.title",
-  "descriptionKey": "equipo.seo.description",
+  "titleKey": "team.seo.title",
+  "descriptionKey": "team.seo.description",
   "sections": [
-    {
-      "id": "hero",
-      "variant": "minimal",
-      "content": "equipo.hero"
-    },
-    {
-      "id": "team",
-      "variant": "cards",
-      "content": "home.team"
-    },
-    {
-      "id": "cta-banner",
-      "variant": "gradient",
-      "content": "home.cta"
-    }
-  ]
+    { "id": "hero", "variant": "minimal", "content": "team.hero" },
+    { "id": "team", "variant": "cards", "content": "home.team" },
+    { "id": "cta-banner", "variant": "gradient", "content": "home.cta" }
+  ],
+  "skipDefaults": ["header", "footer"]
 }

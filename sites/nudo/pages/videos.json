@@ -3,15 +3,9 @@
   "titleKey": "videos.seo.title",
   "descriptionKey": "videos.seo.description",
   "sections": [
-    {
-      "id": "hero",
-      "variant": "minimal",
-      "content": "videos.hero"
-    },
-    {
-      "id": "gallery",
-      "variant": "grid",
-      "content": "videos.gallery"
-    }
-  ]
+    { "id": "hero", "variant": "minimal", "content": "videos.hero" },
+    { "id": "gallery", "variant": "grid", "content": "videos.gallery" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ],
+  "skipDefaults": ["header", "footer"]
 }

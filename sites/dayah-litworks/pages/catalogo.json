@@ -1,17 +1,12 @@
 {
   "slug": "catalogo",
-  "titleKey": "home.products.title",
-  "descriptionKey": "home.products.subtitle",
+  "titleKey": "catalogo.seo.title",
+  "descriptionKey": "catalogo.seo.description",
   "sections": [
-    {
-      "id": "product-catalog",
-      "variant": "grid",
-      "content": "home.products"
-    },
-    {
-      "id": "cta-banner",
-      "variant": "gradient",
-      "content": "infoCta"
-    }
-  ]
+    { "id": "hero", "variant": "minimal", "content": "catalogo.hero" },
+    { "id": "product-catalog", "variant": "grid", "content": "catalogo.products" },
+    { "id": "cta-banner", "variant": "gradient", "content": "catalogo.cta" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ],
+  "skipDefaults": ["header", "footer"]
 }

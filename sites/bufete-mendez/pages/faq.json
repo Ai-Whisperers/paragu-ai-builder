@@ -1,10 +1,12 @@
 {
   "slug": "faq",
-  "titleKey": "faqPage.seo.title",
-  "descriptionKey": "faqPage.seo.description",
+  "titleKey": "faq.seo.title",
+  "descriptionKey": "faq.seo.description",
   "sections": [
-    { "id": "hero", "variant": "minimal", "content": "faqPage.hero" },
+    { "id": "hero", "variant": "minimal", "content": "faq.hero" },
     { "id": "faq", "variant": "accordion", "content": "home.faq" },
-    { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" }
-  ]
+    { "id": "cta-banner", "variant": "gradient", "content": "home.cta" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ],
+  "skipDefaults": ["header", "footer"]
 }
