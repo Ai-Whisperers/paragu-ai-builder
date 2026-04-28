@@ -1,0 +1,34 @@
+{
+  "slug": "music",
+  "titleKey": "music.seo.title",
+  "descriptionKey": "music.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "music.hero",
+      "styling": {
+        "padding": "lg",
+        "background": "default"
+      }
+    },
+    {
+      "id": "streaming-links",
+      "variant": "single-row",
+      "content": "streaming",
+      "styling": {
+        "padding": "sm",
+        "background": "alt"
+      }
+    },
+    {
+      "id": "album-tracklist",
+      "variant": "full",
+      "content": "music",
+      "styling": {
+        "padding": "lg",
+        "background": "alt"
+      }
+    }
+  ]
+}

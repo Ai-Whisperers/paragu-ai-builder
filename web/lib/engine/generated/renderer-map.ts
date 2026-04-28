@@ -162,6 +162,11 @@ import { FarmGallerySection } from '@/components/sections/media/farm-gallery-sec
 import { PetProfileSection } from '@/components/sections/specialty/pet-profile-section'
 import { AdoptionFormSection } from '@/components/sections/forms/adoption-form-section'
 import { VetServicesSection } from '@/components/sections/specialty/vet-services-section'
+import { AlbumTracklistSection } from '@/components/sections/music/album-tracklist-section'
+import { LyricsDisplaySection } from '@/components/sections/music/lyrics-display-section'
+import { EpkCreditsSection } from '@/components/sections/music/epk-credits-section'
+import { StreamingLinksSection } from '@/components/sections/music/streaming-links-section'
+import { GuestbookSection } from '@/components/sections/music/guestbook-section'
 import { AnalyticsDashboardSection } from '@/components/sections/admin/analytics-dashboard-section'
 import { TenantSettingsSection } from '@/components/sections/admin/tenant-settings-section'
 import { ContentEditorSection } from '@/components/sections/admin/content-editor-section'
@@ -200,7 +205,7 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'hero-video': HeroVideoSection,
   'blog-index': BlogIndexSection,
   'blog-post': BlogPostSection,
-  'product-catalog': buildWhatsAppUrl,
+  'product-catalog': buildWhatsAppUrl as unknown as import('react').ComponentType,
   'age-gate': AgeGateSection,
   'trust-badges': TrustBadgesSection,
   footer: FooterSection,
@@ -325,6 +330,11 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'pet-profile': PetProfileSection,
   'adoption-form': AdoptionFormSection,
   'vet-services': VetServicesSection,
+  'album-tracklist': AlbumTracklistSection,
+  'lyrics-display': LyricsDisplaySection,
+  'epk-credits': EpkCreditsSection,
+  'streaming-links': StreamingLinksSection,
+  guestbook: GuestbookSection,
   'analytics-dashboard': AnalyticsDashboardSection,
   'tenant-settings': TenantSettingsSection,
   'content-editor': ContentEditorSection,

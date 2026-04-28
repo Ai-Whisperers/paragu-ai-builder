@@ -1,0 +1,62 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "home.hero",
+      "styling": {
+        "padding": "xl",
+        "background": "default",
+        "textColor": "dark"
+      }
+    },
+    {
+      "id": "streaming-links",
+      "variant": "single-row",
+      "content": "streaming",
+      "styling": {
+        "padding": "sm",
+        "background": "alt"
+      }
+    },
+    {
+      "id": "album-tracklist",
+      "variant": "album-spotlight",
+      "content": "home.albumSpotlight",
+      "styling": {
+        "padding": "lg",
+        "background": "alt"
+      }
+    },
+    {
+      "id": "our-story",
+      "variant": "narrative",
+      "content": "home.bio",
+      "styling": {
+        "padding": "lg",
+        "background": "default"
+      }
+    },
+    {
+      "id": "newsletter-signup",
+      "variant": "standard",
+      "content": "newsletter",
+      "styling": {
+        "padding": "lg",
+        "background": "alt"
+      }
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.connect",
+      "styling": {
+        "padding": "md",
+        "background": "accent"
+      }
+    }
+  ]
+}
