@@ -12,12 +12,18 @@
     {
       "id": "stats-counter",
       "variant": "inline",
-      "content": "home.stats"
+      "content": "home.stats",
+      "styling": {
+        "padding": "none"
+      }
     },
     {
       "id": "trust-signals",
       "variant": "credentials",
-      "content": "home.trust"
+      "content": "home.trust",
+      "styling": {
+        "padding": "none"
+      }
     },
     {
       "id": "programs-comparison",
@@ -30,7 +36,10 @@
     {
       "id": "tax-savings-calculator",
       "variant": "default",
-      "content": "home.taxCalculator"
+      "content": "home.taxCalculator",
+      "styling": {
+        "padding": "none"
+      }
     },
     {
       "id": "why-destination",
@@ -43,7 +52,10 @@
     {
       "id": "features",
       "variant": "three-col",
-      "content": "home.beneluxDesk"
+      "content": "home.beneluxDesk",
+      "styling": {
+        "padding": "none"
+      }
     },
     {
       "id": "process-timeline",
@@ -57,7 +69,10 @@
       "id": "testimonials",
       "variant": "grid",
       "content": "home.testimonials",
-      "enabledWhen": "testimonials"
+      "enabledWhen": "testimonials",
+      "styling": {
+        "padding": "none"
+      }
     },
     {
       "id": "cta-banner",
