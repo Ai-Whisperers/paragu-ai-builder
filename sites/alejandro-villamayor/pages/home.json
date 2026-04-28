@@ -57,8 +57,8 @@
       }
     },
     {
-      "id": "pricing-table",
-      "variant": "default",
+      "id": "case-studies",
+      "variant": "three-col",
       "content": "home.credentials",
       "styling": {
         "background": "alt"
@@ -76,14 +76,6 @@
       "id": "faq",
       "variant": "accordion",
       "content": "home.faq",
-      "styling": {
-        "background": "alt"
-      }
-    },
-    {
-      "id": "case-studies",
-      "variant": "three-col",
-      "content": "home.successStories",
       "styling": {
         "background": "alt"
       }

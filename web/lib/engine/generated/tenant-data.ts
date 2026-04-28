@@ -2893,11 +2893,11 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "home.credentials",
-        "id": "pricing-table",
+        "id": "case-studies",
         "styling": {
           "background": "alt"
         },
-        "variant": "default"
+        "variant": "three-col"
       },
       {
         "content": "home.testimonials",
@@ -2914,14 +2914,6 @@ export const PAGES: Record<string, JsonRecord> = {
           "background": "alt"
         },
         "variant": "accordion"
-      },
-      {
-        "content": "home.successStories",
-        "id": "case-studies",
-        "styling": {
-          "background": "alt"
-        },
-        "variant": "three-col"
       },
       {
         "content": "home.cta",
