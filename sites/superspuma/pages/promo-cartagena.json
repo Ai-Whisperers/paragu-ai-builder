@@ -12,9 +12,15 @@
       "id": "lead-form",
       "variant": "standard",
       "content": "home.promo-cartagena.lead-form"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
     }
   ],
   "skipDefaults": [
-    "contact-strip"
+    "header",
+    "footer"
   ]
 }

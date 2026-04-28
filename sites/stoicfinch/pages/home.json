@@ -36,11 +36,6 @@
       "content": "home.seriousCta"
     },
     {
-      "id": "trust-signals",
-      "variant": "credentials",
-      "content": "home.techStack"
-    },
-    {
       "id": "process-timeline",
       "variant": "horizontal",
       "content": "home.workingWithUs"

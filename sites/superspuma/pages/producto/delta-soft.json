@@ -19,11 +19,6 @@
       "content": "producto.delta-soft.trustBadges"
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "producto.delta-soft.specs"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"

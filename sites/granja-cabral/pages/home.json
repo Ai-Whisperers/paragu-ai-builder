@@ -60,15 +60,6 @@
       "content": "home.testimonials"
     },
     {
-      "id": "cta-banner",
-      "variant": "solid",
-      "content": "home.ctaToRecetas",
-      "styling": {
-        "padding": "lg",
-        "background": "accent"
-      }
-    },
-    {
       "id": "newsletter-signup",
       "variant": "standard",
       "content": "home.newsletter"

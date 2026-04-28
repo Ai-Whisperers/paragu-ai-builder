@@ -19,11 +19,6 @@
       "content": "producto.almohada-superspuma.trustBadges"
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "producto.almohada-superspuma.specs"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"

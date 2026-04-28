@@ -24,11 +24,6 @@
       "content": "producto.ortopedico.sizes"
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "producto.ortopedico.specs"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"

@@ -24,11 +24,6 @@
       "content": "sizeGuide.instructions"
     },
     {
-      "id": "services",
-      "variant": "cards",
-      "content": "sizeGuide.charts"
-    },
-    {
       "id": "faq",
       "variant": "accordion",
       "content": "sizeGuide.brandNotes"

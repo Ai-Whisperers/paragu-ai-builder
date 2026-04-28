@@ -24,11 +24,6 @@
       "content": "producto.harmony.sizes"
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "producto.harmony.specs"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"

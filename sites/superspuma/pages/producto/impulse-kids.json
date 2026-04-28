@@ -24,11 +24,6 @@
       "content": "producto.impulse-kids.sizes"
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "producto.impulse-kids.specs"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"

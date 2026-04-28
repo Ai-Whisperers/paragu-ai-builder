@@ -19,11 +19,6 @@
       "content": "investorPass.proceso"
     },
     {
-      "id": "services",
-      "variant": "cards",
-      "content": "investorPass.beneficios"
-    },
-    {
       "id": "case-studies",
       "variant": "three-col",
       "content": "investorPass.comparison"

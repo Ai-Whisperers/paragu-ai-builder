@@ -19,11 +19,6 @@
       "content": "producto.superteen.trustBadges"
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "producto.superteen.specs"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"

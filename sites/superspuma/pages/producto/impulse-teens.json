@@ -19,11 +19,6 @@
       "content": "producto.impulse-teens.trustBadges"
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "producto.impulse-teens.specs"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"

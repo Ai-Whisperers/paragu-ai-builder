@@ -14,11 +14,6 @@
       "content": "home.trustSignals"
     },
     {
-      "id": "trust-signals",
-      "variant": "credentials",
-      "content": "nosotros.values"
-    },
-    {
       "id": "gallery",
       "variant": "grid",
       "content": "home.gallery"

@@ -19,11 +19,6 @@
       "content": "producto.essential-top.trustBadges"
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "producto.essential-top.specs"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"

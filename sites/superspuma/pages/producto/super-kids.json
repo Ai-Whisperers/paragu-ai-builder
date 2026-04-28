@@ -24,11 +24,6 @@
       "content": "producto.super-kids.sizes"
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "producto.super-kids.specs"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"

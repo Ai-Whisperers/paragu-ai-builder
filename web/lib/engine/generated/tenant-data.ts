@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=15, pages=200, content=30, blog=34, images=15, verticals=23. */
+/** Counts: sites=15, pages=201, content=30, blog=34, images=15, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "alejandro-villamayor",
   "bufete-mendez",
@@ -1785,6 +1785,30 @@ export const SITES: Record<string, JsonRecord> = {
       ],
       "whatsappForm": "https://api.whatsapp.com/send?phone=+595971771371&text=Hola!%20quiero%20adoptar%20a%20un%20peludito%20%F0%9F%90%BE"
     },
+    "chrome": {
+      "footer": [
+        {
+          "content": "home.contact",
+          "id": "contact-strip",
+          "variant": "standard"
+        },
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
     "contact": {
       "address": "Benigno González, Luque, Paraguay",
       "email": "polkisquad@gmail.com",
@@ -2767,7 +2791,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.cta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "blog",
     "titleKey": "blog.seo.title"
@@ -2999,11 +3032,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "steps"
       },
       {
-        "content": "investorPass.beneficios",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
         "content": "investorPass.comparison",
         "id": "case-studies",
         "variant": "three-col"
@@ -3033,23 +3061,35 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "investorPass.seo.title"
   },
   "alejandro-villamayor:privacidad": {
-    "description": "Politica de privacidad del estudio juridico Alejandro Villamayor.",
-    "schemaType": "WebPage",
+    "descriptionKey": "privacidad.seo.description",
     "sections": [
       {
+        "content": "privacidad.hero",
         "id": "hero",
-        "subtitle": "Proteccion de tus datos personales",
-        "title": "Politica de Privacidad",
         "variant": "minimal"
+      },
+      {
+        "content": "privacidad.faq",
+        "id": "faq",
+        "variant": "accordion"
       },
       {
         "content": "home.cta",
         "id": "cta-banner",
-        "variant": "solid"
+        "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "privacidad",
-    "title": "Politica de Privacidad — Alejandro Villamayor"
+    "titleKey": "privacidad.seo.title"
   },
   "alejandro-villamayor:servicios": {
     "descriptionKey": "servicios.seo.description",
@@ -3225,15 +3265,24 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
-        "content": "home.caseStudies",
+        "content": "casos.cases",
         "id": "case-studies",
-        "variant": "cards"
+        "variant": "grid"
       },
       {
-        "content": "ctaBanner",
+        "content": "home.cta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "casos",
     "titleKey": "casos.seo.title"
@@ -3292,19 +3341,28 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "ctaBanner",
+        "content": "home.cta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "equipo",
     "titleKey": "equipo.seo.title"
   },
   "bufete-mendez:faq": {
-    "descriptionKey": "faqPage.seo.description",
+    "descriptionKey": "faq.seo.description",
     "sections": [
       {
-        "content": "faqPage.hero",
+        "content": "faq.hero",
         "id": "hero",
         "variant": "minimal"
       },
@@ -3314,13 +3372,22 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "accordion"
       },
       {
-        "content": "ctaBanner",
+        "content": "home.cta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "faq",
-    "titleKey": "faqPage.seo.title"
+    "titleKey": "faq.seo.title"
   },
   "bufete-mendez:home": {
     "descriptionKey": "home.seo.description",
@@ -3388,21 +3455,35 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "home.seo.title"
   },
   "bufete-mendez:privacidad": {
-    "descriptionKey": "privacidad.subtitle",
+    "descriptionKey": "privacidad.seo.description",
     "sections": [
       {
-        "content": "privacidad",
+        "content": "privacidad.hero",
         "id": "hero",
         "variant": "minimal"
       },
       {
-        "content": "privacidad.sectionsBlock",
+        "content": "privacidad.faq",
         "id": "faq",
         "variant": "accordion"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "privacidad",
-    "titleKey": "privacidad.title"
+    "titleKey": "privacidad.seo.title"
   },
   "bufete-mendez:servicios": {
     "descriptionKey": "servicios.hero.subtitle",
@@ -3427,26 +3508,35 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "servicios.hero.title"
   },
   "bufete-mendez:terminos": {
-    "descriptionKey": "terminos.subtitle",
+    "descriptionKey": "terminos.seo.description",
     "sections": [
       {
-        "content": "terminos",
+        "content": "terminos.hero",
         "id": "hero",
         "variant": "minimal"
       },
       {
-        "content": "terminos.sectionsBlock",
+        "content": "terminos.faq",
         "id": "faq",
         "variant": "accordion"
       },
       {
-        "content": "terminosPage.faq",
-        "id": "faq",
-        "variant": "simple"
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "terminos",
-    "titleKey": "terminos.title"
+    "titleKey": "terminos.seo.title"
   },
   "bufete-mendez:testimonios": {
     "descriptionKey": "testimonios.seo.description",
@@ -3528,21 +3618,35 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "blog.seo.title"
   },
   "dayah-litworks:catalogo": {
-    "descriptionKey": "home.products.subtitle",
+    "descriptionKey": "catalogo.seo.description",
     "sections": [
       {
-        "content": "home.products",
+        "content": "catalogo.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "catalogo.products",
         "id": "product-catalog",
         "variant": "grid"
       },
       {
-        "content": "infoCta",
+        "content": "catalogo.cta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "catalogo",
-    "titleKey": "home.products.title"
+    "titleKey": "catalogo.seo.title"
   },
   "dayah-litworks:contacto": {
     "descriptionKey": "contactHero.subtitle",
@@ -3655,22 +3759,22 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "home.seo.title"
   },
   "dayah-litworks:privacidad": {
-    "descriptionKey": "privacidad.subtitle",
+    "descriptionKey": "privacidad.seo.description",
     "sections": [
       {
-        "content": "privacidad",
+        "content": "privacidad.hero",
         "id": "hero",
         "variant": "minimal"
       },
       {
-        "content": "privacidad.sectionsBlock",
+        "content": "privacidad.faq",
         "id": "faq",
         "variant": "accordion"
       },
       {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
       },
       {
         "content": "whatsapp",
@@ -3678,8 +3782,12 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "privacidad",
-    "titleKey": "privacidad.title"
+    "titleKey": "privacidad.seo.title"
   },
   "dayah-litworks:servicios": {
     "descriptionKey": "home.services.subtitle",
@@ -3739,25 +3847,29 @@ export const PAGES: Record<string, JsonRecord> = {
     "descriptionKey": "terminos.seo.description",
     "sections": [
       {
-        "content": "terminos",
+        "content": "terminos.hero",
         "id": "hero",
         "variant": "minimal"
       },
       {
-        "content": "terminos.sectionsBlock",
+        "content": "terminos.faq",
         "id": "faq",
         "variant": "accordion"
       },
       {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
       },
       {
         "content": "whatsapp",
         "id": "whatsapp-float",
         "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "terminos",
     "titleKey": "terminos.seo.title"
@@ -3808,10 +3920,19 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
-        "content": "home.contact",
+        "content": "contacto.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -4284,14 +4405,18 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "gradient"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "servicios",
     "titleKey": "servicios.seo.title"
   },
   "demo-contador:team": {
-    "descriptionKey": "equipo.seo.description",
+    "descriptionKey": "team.seo.description",
     "sections": [
       {
-        "content": "equipo.hero",
+        "content": "team.hero",
         "id": "hero",
         "variant": "minimal"
       },
@@ -4306,8 +4431,12 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "gradient"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "team",
-    "titleKey": "equipo.seo.title"
+    "titleKey": "team.seo.title"
   },
   "demo-contador:testimonios": {
     "descriptionKey": "testimonios.seo.description",
@@ -4345,6 +4474,57 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "testimonios",
     "titleKey": "testimonios.seo.title"
+  },
+  "demo-estudio-contable:calculadoras": {
+    "descriptionKey": "calculadoras.seo.description",
+    "sections": [
+      {
+        "content": "calculadoras.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "calculadoras.irp",
+        "id": "calc-irp",
+        "variant": "default"
+      },
+      {
+        "content": "calculadoras.iva",
+        "id": "calc-iva",
+        "variant": "default"
+      },
+      {
+        "content": "calculadoras.costoEmpleado",
+        "id": "calc-costo-empleado",
+        "variant": "default"
+      },
+      {
+        "content": "calculadoras.aguinaldo",
+        "id": "calc-aguinaldo",
+        "variant": "default"
+      },
+      {
+        "content": "calculadoras.finiquito",
+        "id": "calc-finiquito",
+        "variant": "default"
+      },
+      {
+        "content": "calculadoras.ire",
+        "id": "calc-ire",
+        "variant": "default"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
+    "slug": "calculadoras",
+    "titleKey": "calculadoras.seo.title"
   },
   "demo-estudio-contable:contacto": {
     "descriptionKey": "contactoPage.seo.description",
@@ -5024,11 +5204,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "cards"
       },
       {
-        "content": "sizeGuide.charts",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
         "content": "sizeGuide.brandNotes",
         "id": "faq",
         "variant": "accordion"
@@ -5077,11 +5252,6 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "subscriptions.boxes",
-        "id": "services",
-        "variant": "cards"
-      },
-      {
-        "content": "subscriptions.howItWorks",
         "id": "services",
         "variant": "cards"
       },
@@ -5261,15 +5431,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
-      },
-      {
-        "content": "home.ctaToRecetas",
-        "id": "cta-banner",
-        "styling": {
-          "background": "accent",
-          "padding": "lg"
-        },
-        "variant": "solid"
       },
       {
         "content": "home.newsletter",
@@ -6464,16 +6625,10 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "blog.seo.title"
   },
   "nexa-propiedades:contacto": {
-    "descriptionKey": "contactPage.seo.description",
-    "schemaType": "RealEstateAgent",
+    "descriptionKey": "contacto.seo.description",
     "sections": [
       {
-        "content": "navigation",
-        "id": "header",
-        "variant": "standard"
-      },
-      {
-        "content": "contactPage.hero",
+        "content": "contacto.hero",
         "id": "hero",
         "variant": "minimal"
       },
@@ -6483,18 +6638,17 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "split"
       },
       {
-        "content": "footer",
-        "id": "footer",
-        "variant": "standard"
-      },
-      {
         "content": "whatsapp",
         "id": "whatsapp-float",
         "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "contacto",
-    "titleKey": "contactPage.seo.title"
+    "titleKey": "contacto.seo.title"
   },
   "nexa-propiedades:equipo": {
     "descriptionKey": "equipo.seo.description",
@@ -6755,7 +6909,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -6772,7 +6935,21 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "galeria",
     "titleKey": "galeria.seo.title"
@@ -6906,20 +7083,34 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
-        "content": "musica.spotifyEmbed",
+        "content": "musica.videos",
         "id": "video-embed",
         "variant": "aspect-16-9"
       },
       {
-        "content": "videos.gallery",
+        "content": "musica.gallery",
         "id": "gallery",
         "variant": "grid"
       },
       {
-        "content": "home.portfolio",
+        "content": "musica.portfolio",
         "id": "portfolio",
         "variant": "grid"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "musica",
     "titleKey": "musica.seo.title"
@@ -7005,7 +7196,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "videos.gallery",
         "id": "gallery",
         "variant": "grid"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "videos",
     "titleKey": "videos.seo.title"
@@ -7048,66 +7248,76 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "adopcion.seo.title"
   },
   "polki-squad:contacto": {
-    "description": "Contáctanos por WhatsApp, teléfono o redes sociales. Visítanos en Luque.",
+    "descriptionKey": "contacto.seo.description",
     "sections": [
       {
+        "content": "contacto.hero",
         "id": "hero",
-        "subtitle": "Estamos aquí para ayudarte",
-        "title": "Contacto",
-        "variant": "standard"
+        "variant": "minimal"
       },
       {
-        "content": "contact",
+        "content": "home.contact",
         "id": "contact",
-        "subtitle": "Escríbenos o visítanos",
-        "title": "Información de Contacto",
-        "variant": "full"
+        "variant": "split"
       },
       {
-        "content": "contact.address",
+        "content": "home.location",
         "id": "google-maps",
-        "subtitle": "Benigno González, Luque",
-        "title": "Nuestra Ubicación",
-        "variant": "full-width"
+        "variant": "default"
       },
       {
-        "buttonLink": "https://api.whatsapp.com/send?phone=+595971771371&text=Hola!%20quiero%20informacion%20sobre%20Polki%20Squad",
-        "buttonText": "WhatsApp",
-        "content": "cta",
+        "content": "home.cta",
         "id": "cta-banner",
-        "subtitle": "Es nuestro canal más rápido",
-        "title": "¿Prefieres WhatsApp?",
-        "variant": "solid"
+        "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
-    "title": "Contacto - Polki Squad"
+    "titleKey": "contacto.seo.title"
   },
   "polki-squad:historias-exito": {
-    "description": "Conoce las historias de los peluditos que encontraron un hogar gracias a Polki Squad.",
+    "descriptionKey": "historias-exito.seo.description",
     "sections": [
       {
+        "content": "historias-exito.hero",
         "id": "hero",
-        "subtitle": "Vidas transformadas a través de la adopción responsable",
-        "title": "Historias de Éxito",
-        "variant": "standard"
+        "variant": "minimal"
       },
       {
-        "content": "successStories",
+        "content": "home.testimonials",
         "id": "testimonials",
-        "showImages": true,
-        "variant": "featured"
+        "variant": "grid"
       },
       {
-        "content": "successStories",
+        "content": "home.gallery",
         "id": "gallery",
-        "subtitle": "Cada uno encontró su familia perfecta",
-        "title": "Nuestros Adoptados",
-        "variant": "masonry"
+        "variant": "grid"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "historias-exito",
-    "title": "Historias de Éxito - Polki Squad"
+    "titleKey": "historias-exito.seo.title"
   },
   "polki-squad:home": {
     "descriptionKey": "home.seo.description",
@@ -7204,44 +7414,45 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "home.seo.title"
   },
   "polki-squad:peluditos": {
-    "description": "Conoce a los perros y gatos que buscan un hogar en Polki Squad. Adopta, no compres.",
+    "descriptionKey": "peluditos.seo.description",
     "sections": [
       {
+        "content": "peluditos.hero",
         "id": "hero",
-        "subtitle": "Cada uno tiene una historia única y much amor que dar",
-        "title": "Conoce los Peluditos",
-        "variant": "standard"
+        "variant": "minimal"
       },
       {
-        "content": "featuredAnimals",
-        "filters": [
-          "perro",
-          "gato",
-          "cachorro",
-          "adulto"
-        ],
+        "content": "peluditos.gallery",
         "id": "gallery",
-        "showFilters": true,
-        "variant": "masonry"
+        "variant": "grid"
       },
       {
-        "buttonLink": "https://api.whatsapp.com/send?phone=+595971771371&text=Hola!%20quiero%20adoptar%20a%20un%20peludito",
-        "buttonText": "WhatsApp",
-        "content": "cta",
+        "content": "home.cta",
         "id": "cta-banner",
-        "subtitle": "Contáctanos por WhatsApp para iniciar el proceso",
-        "title": "¿Te enamoraste de alguno?",
         "variant": "gradient"
       },
       {
+        "content": "peluditos.instagram",
         "id": "instagram-feed",
-        "subtitle": "Siguenos @polkisquad para ver los últimos rescatados",
-        "title": "Más Peluditos en Instagram",
         "variant": "grid"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "peluditos",
-    "title": "Conoce los Peluditos - Polki Squad"
+    "titleKey": "peluditos.seo.title"
   },
   "polki-squad:proceso-adopcion": {
     "description": "Conoce los pasos para adoptar un peludito en Polki Squad. Requisitos y formulario.",
@@ -7723,11 +7934,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.seriousCta",
         "id": "cta-banner",
         "variant": "gradient"
-      },
-      {
-        "content": "home.techStack",
-        "id": "trust-signals",
-        "variant": "credentials"
       },
       {
         "content": "home.workingWithUs",
@@ -8542,21 +8748,35 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "envios.seo.title"
   },
   "superspuma:faq": {
-    "descriptionKey": "faqPage.seo.description",
+    "descriptionKey": "faq.seo.description",
     "sections": [
       {
-        "content": "faqPage.hero",
+        "content": "faq.hero",
         "id": "hero",
-        "variant": "image"
+        "variant": "minimal"
       },
       {
-        "content": "home.enhancedFaq",
+        "content": "faq.items",
         "id": "enhanced-faq",
         "variant": "searchable"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "faq",
-    "titleKey": "faqPage.seo.title"
+    "titleKey": "faq.seo.title"
   },
   "superspuma:financiacion": {
     "descriptionKey": "financiacion.seo.description",
@@ -8686,11 +8906,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
-        "content": "guias.lifeCalcBlock",
-        "id": "features",
-        "variant": "grid"
-      },
-      {
         "content": "infoCta",
         "id": "cta-banner",
         "variant": "gradient"
@@ -8729,11 +8944,6 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "guias.comparisonBlock",
-        "id": "features",
-        "variant": "grid"
-      },
-      {
-        "content": "guias.lifeCalcBlock",
         "id": "features",
         "variant": "grid"
       },
@@ -8846,11 +9056,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "credentials"
       },
       {
-        "content": "nosotros.values",
-        "id": "trust-signals",
-        "variant": "credentials"
-      },
-      {
         "content": "home.gallery",
         "id": "gallery",
         "variant": "grid"
@@ -8915,11 +9120,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "strip"
       },
       {
-        "content": "producto.almohada-superspuma.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -8977,11 +9177,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "producto.base-box-baul.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -9034,11 +9229,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "strip"
       },
       {
-        "content": "producto.cubre-colchon.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -9087,11 +9277,6 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "producto.delta-soft.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "producto.delta-soft.specs",
         "id": "trust-badges",
         "variant": "strip"
       },
@@ -9153,11 +9338,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "producto.duo-confort.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -9206,11 +9386,6 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "producto.essential-top.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "producto.essential-top.specs",
         "id": "trust-badges",
         "variant": "strip"
       },
@@ -9272,11 +9447,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "producto.golden.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -9332,11 +9502,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "producto.harmony.sizes",
         "id": "programs-comparison",
         "variant": "tiered"
-      },
-      {
-        "content": "producto.harmony.specs",
-        "id": "trust-badges",
-        "variant": "strip"
       },
       {
         "content": "home.testimonials",
@@ -9396,11 +9561,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "producto.imperial.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -9458,11 +9618,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "producto.impulse-kids.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -9511,11 +9666,6 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "producto.impulse-teens.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "producto.impulse-teens.specs",
         "id": "trust-badges",
         "variant": "strip"
       },
@@ -9577,11 +9727,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "producto.luna-soft.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -9637,11 +9782,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "producto.ortopedico.sizes",
         "id": "programs-comparison",
         "variant": "tiered"
-      },
-      {
-        "content": "producto.ortopedico.specs",
-        "id": "trust-badges",
-        "variant": "strip"
       },
       {
         "content": "home.testimonials",
@@ -9701,11 +9841,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "producto.pop-kids.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -9754,11 +9889,6 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "producto.pop-plus.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "producto.pop-plus.specs",
         "id": "trust-badges",
         "variant": "strip"
       },
@@ -9815,11 +9945,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "strip"
       },
       {
-        "content": "producto.pop-teen.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -9868,11 +9993,6 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "producto.protector-colchon.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "producto.protector-colchon.specs",
         "id": "trust-badges",
         "variant": "strip"
       },
@@ -9929,11 +10049,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "strip"
       },
       {
-        "content": "producto.renovate.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -9986,11 +10101,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "strip"
       },
       {
-        "content": "producto.serena.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -10039,11 +10149,6 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "producto.serrat.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "producto.serrat.specs",
         "id": "trust-badges",
         "variant": "strip"
       },
@@ -10105,11 +10210,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "producto.super-kids.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -10158,11 +10258,6 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "producto.superteen.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
-        "content": "producto.superteen.specs",
         "id": "trust-badges",
         "variant": "strip"
       },
@@ -10224,11 +10319,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "producto.titanium.specs",
-        "id": "trust-badges",
-        "variant": "strip"
-      },
-      {
         "content": "home.testimonials",
         "id": "testimonials",
         "variant": "carousel"
@@ -10274,10 +10364,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.promo-cartagena.lead-form",
         "id": "lead-form",
         "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
     "skipDefaults": [
-      "contact-strip"
+      "header",
+      "footer"
     ],
     "slug": "promo-cartagena",
     "titleKey": "home.promo-cartagena.title"
@@ -10301,11 +10397,6 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "promociones.active",
-        "id": "features",
-        "variant": "grid"
-      },
-      {
-        "content": "promociones.terms",
         "id": "features",
         "variant": "grid"
       },
@@ -10395,11 +10486,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "tiered"
       },
       {
-        "content": "tiendas.logistics",
-        "id": "programs-comparison",
-        "variant": "tiered"
-      },
-      {
         "content": "home.trustBadges",
         "id": "trust-badges",
         "variant": "strip"
@@ -10418,7 +10504,6 @@ export const PAGES: Record<string, JsonRecord> = {
   },
   "viajero-comercio:blog": {
     "descriptionKey": "blog.seo.description",
-    "schemaType": "Blog",
     "sections": [
       {
         "content": "blog.hero",
@@ -10428,15 +10513,22 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "blog.index",
         "id": "blog-index",
-        "subtitle": "Todo para tu proxima aventura",
-        "title": "Guías y Consejos",
         "variant": "grid"
       },
       {
         "content": "home.finalCta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "blog",
     "titleKey": "blog.seo.title"
@@ -10521,7 +10613,6 @@ export const PAGES: Record<string, JsonRecord> = {
   },
   "viajero-comercio:faq": {
     "descriptionKey": "faq.seo.description",
-    "schemaType": "Store",
     "sections": [
       {
         "content": "faq.hero",
@@ -10531,14 +10622,22 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "faq",
         "id": "faq",
-        "title": "Preguntas Frecuentes",
         "variant": "accordion"
       },
       {
         "content": "home.finalCta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "faq",
     "titleKey": "faq.seo.title"
@@ -10614,7 +10713,6 @@ export const PAGES: Record<string, JsonRecord> = {
   },
   "viajero-comercio:nosotros": {
     "descriptionKey": "about.seo.description",
-    "schemaType": "Store",
     "sections": [
       {
         "content": "about.hero",
@@ -10624,40 +10722,59 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "about.values",
         "id": "features",
-        "title": "Nuestros Valores",
         "variant": "grid"
       },
       {
         "content": "home.finalCta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "nosotros",
     "titleKey": "about.seo.title"
   },
   "viajero-comercio:privacidad": {
-    "description": "Politica de privacidad de El Viajero Comercio. Conoce como protegemos tus datos personales.",
-    "schemaType": "WebPage",
+    "descriptionKey": "privacidad.seo.description",
     "sections": [
       {
+        "content": "privacidad.hero",
         "id": "hero",
-        "subtitle": "Proteccion de tus datos personales",
-        "title": "Politica de Privacidad",
         "variant": "minimal"
+      },
+      {
+        "content": "privacidad.faq",
+        "id": "faq",
+        "variant": "accordion"
       },
       {
         "content": "home.finalCta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "privacidad",
-    "title": "Politica de Privacidad - El Viajero Comercio"
+    "titleKey": "privacidad.seo.title"
   },
   "viajero-comercio:productos": {
     "descriptionKey": "productos.seo.description",
-    "schemaType": "Store",
     "sections": [
       {
         "content": "productos.hero",
@@ -10667,22 +10784,28 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.gallery",
         "id": "gallery",
-        "subtitle": "Explora todas nuestras categorias",
-        "title": "Nuestros Productos",
         "variant": "grid"
       },
       {
         "content": "home.finalCta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "productos",
     "titleKey": "productos.seo.title"
   },
   "viajero-comercio:promociones": {
     "descriptionKey": "promociones.seo.description",
-    "schemaType": "Store",
     "sections": [
       {
         "content": "promociones.hero",
@@ -10698,7 +10821,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.finalCta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "promociones",
     "titleKey": "promociones.seo.title"
@@ -10736,27 +10868,38 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "reservas.seo.title"
   },
   "viajero-comercio:terminos": {
-    "description": "Terminos y condiciones de uso de El Viajero Comercio.",
-    "schemaType": "WebPage",
+    "descriptionKey": "terminos.seo.description",
     "sections": [
       {
+        "content": "terminos.hero",
         "id": "hero",
-        "subtitle": "Informacion legal",
-        "title": "Terminos y Condiciones",
         "variant": "minimal"
+      },
+      {
+        "content": "terminos.faq",
+        "id": "faq",
+        "variant": "accordion"
       },
       {
         "content": "home.finalCta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
     ],
+    "skipDefaults": [
+      "header",
+      "footer"
+    ],
     "slug": "terminos",
-    "title": "Terminos y Condiciones - El Viajero Comercio"
+    "titleKey": "terminos.seo.title"
   },
   "viajero-comercio:tienda": {
     "descriptionKey": "tienda.seo.description",
-    "schemaType": "Store",
     "sections": [
       {
         "content": "tienda.hero",
@@ -10775,14 +10918,22 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "tienda.faq",
         "id": "faq",
-        "title": "Preguntas sobre la tienda online",
         "variant": "accordion"
       },
       {
         "content": "home.finalCta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "tienda",
     "titleKey": "tienda.seo.title"

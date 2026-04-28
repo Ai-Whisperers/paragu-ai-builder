@@ -24,11 +24,6 @@
       "content": "subscriptions.boxes"
     },
     {
-      "id": "services",
-      "variant": "cards",
-      "content": "subscriptions.howItWorks"
-    },
-    {
       "id": "programs-comparison",
       "variant": "matrix",
       "content": "subscriptions.comparison"

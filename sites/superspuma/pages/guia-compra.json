@@ -34,11 +34,6 @@
       "content": "guias.comparisonBlock"
     },
     {
-      "id": "features",
-      "variant": "grid",
-      "content": "guias.lifeCalcBlock"
-    },
-    {
       "id": "cta-banner",
       "variant": "gradient",
       "content": "infoCta"

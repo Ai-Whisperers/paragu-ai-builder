@@ -23,11 +23,6 @@
       "content": "promociones.active"
     },
     {
-      "id": "features",
-      "variant": "grid",
-      "content": "promociones.terms"
-    },
-    {
       "id": "cta-banner",
       "variant": "gradient",
       "content": "home.finalCta"

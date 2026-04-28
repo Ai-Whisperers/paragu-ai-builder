@@ -19,11 +19,6 @@
       "content": "tiendas.stores"
     },
     {
-      "id": "programs-comparison",
-      "variant": "tiered",
-      "content": "tiendas.logistics"
-    },
-    {
       "id": "trust-badges",
       "variant": "strip",
       "content": "home.trustBadges"

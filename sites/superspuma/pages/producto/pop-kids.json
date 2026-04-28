@@ -24,11 +24,6 @@
       "content": "producto.pop-kids.sizes"
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "producto.pop-kids.specs"
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials"

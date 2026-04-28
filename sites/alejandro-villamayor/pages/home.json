@@ -57,14 +57,6 @@
       }
     },
     {
-      "id": "case-studies",
-      "variant": "three-col",
-      "content": "home.credentials",
-      "styling": {
-        "background": "alt"
-      }
-    },
-    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials",

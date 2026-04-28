@@ -101,7 +101,7 @@ export const SITES = {
     domain: '',
     defaultLocale: 'es',
     locales: ['es'],
-    pages: ['home', 'servicios', 'equipo', 'contacto'],
+    pages: ['home', 'servicios', 'calculadoras', 'equipo', 'faq', 'blog', 'contacto'],
   },
   'alejandro-villamayor': {
     slug: 'alejandro-villamayor',
