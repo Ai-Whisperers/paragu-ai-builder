@@ -1,0 +1,19 @@
+{
+  "slug": "terminos",
+  "title": "Terminos y Condiciones - El Viajero Comercio",
+  "description": "Terminos y condiciones de uso de El Viajero Comercio.",
+  "schemaType": "WebPage",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "title": "Terminos y Condiciones",
+      "subtitle": "Informacion legal"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}

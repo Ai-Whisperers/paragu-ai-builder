@@ -1,0 +1,19 @@
+{
+  "slug": "checkout",
+  "title": "Finalizar Compra - El Viajero Comercio",
+  "description": "Completa tu compra en El Viajero Comercio. Paga con Pagopar, Mercado Pago, transferencia bancaria o coordiná por WhatsApp.",
+  "schemaType": "Store",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "title": "Finalizar Compra",
+      "subtitle": "Un paso mas para tu aventura"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}

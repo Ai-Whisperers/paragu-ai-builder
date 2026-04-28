@@ -16,7 +16,12 @@
     "nosotros",
     "contacto",
     "faq",
-    "promociones"
+    "promociones",
+    "blog",
+    "carrito",
+    "checkout",
+    "privacidad",
+    "terminos"
   ],
   "navigation": [
     {
@@ -32,8 +37,16 @@
       "path": "productos"
     },
     {
-      "label": "Nosotros",
-      "path": "nosotros"
+      "label": "Blog",
+      "path": "blog"
+    },
+    {
+      "label": "Ofertas",
+      "path": "promociones"
+    },
+    {
+      "labelKey": "navigation.faq",
+      "path": "faq"
     },
     {
       "label": "Contacto",
@@ -66,7 +79,7 @@
     "delivery": {
       "enabled": true,
       "freeThresholdGs": 300000,
-      "freeThresholdLabel": "Envios gratis desde Gs. 300.000",
+      "freeThresholdLabel": "Envio gratis desde Gs. 300.000",
       "zones": [
         "Asuncion",
         "Fernando de la Mora",
@@ -83,6 +96,41 @@
         "Av. Mariscal Lopez 1234, Asuncion"
       ]
     }
+  },
+  "commerce": {
+    "enabled": true,
+    "currency": "PYG",
+    "locale": "es-PY",
+    "reviews": {
+      "enabled": true,
+      "moderation": "auto"
+    },
+    "wishlist": {
+      "enabled": true
+    },
+    "recentlyViewed": {
+      "enabled": true
+    },
+    "backInStock": {
+      "enabled": true
+    },
+    "abandonedCart": {
+      "enabled": true,
+      "whatsappReminder": true
+    },
+    "storePickup": {
+      "enabled": true
+    }
+  },
+  "blog": {
+    "enabled": true,
+    "categories": [
+      "camping",
+      "pesca",
+      "aventura",
+      "mantenimiento",
+      "consejos"
+    ]
   },
   "chrome": {
     "header": {
@@ -116,6 +164,15 @@
     "featuresGrid": { "enabled": true },
     "statsCounter": { "enabled": true },
     "promoBanner": { "enabled": true },
-    "newsletterSignup": { "enabled": true }
+    "newsletterSignup": { "enabled": true },
+    "blog": { "enabled": true },
+    "wishlist": { "enabled": true },
+    "reviews": { "enabled": true },
+    "faq": { "enabled": true },
+    "backInStockNotifications": { "enabled": true },
+    "storePickupReserve": { "enabled": true },
+    "giftCards": { "enabled": false },
+    "loyalty": { "enabled": false },
+    "referral": { "enabled": false }
   }
 }

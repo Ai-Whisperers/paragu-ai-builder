@@ -1,0 +1,19 @@
+{
+  "slug": "privacidad",
+  "title": "Politica de Privacidad - El Viajero Comercio",
+  "description": "Politica de privacidad de El Viajero Comercio. Conoce como protegemos tus datos personales.",
+  "schemaType": "WebPage",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "title": "Politica de Privacidad",
+      "subtitle": "Proteccion de tus datos personales"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}

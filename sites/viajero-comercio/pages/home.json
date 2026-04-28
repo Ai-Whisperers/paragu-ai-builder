@@ -34,6 +34,14 @@
       "variant": "grid"
     },
     {
+      "id": "features",
+      "variant": "grid",
+      "content": "blog.index",
+      "title": "Tips y Consejos de Nuestro Blog",
+      "subtitle": "Aprendé antes de tu proxima aventura"
+      "variant": "grid"
+    },
+    {
       "id": "gallery",
       "variant": "grid",
       "content": "home.gallery",

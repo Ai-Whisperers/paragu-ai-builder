@@ -1,0 +1,25 @@
+{
+  "slug": "blog",
+  "titleKey": "blog.seo.title",
+  "descriptionKey": "blog.seo.description",
+  "schemaType": "Blog",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "blog.hero"
+    },
+    {
+      "id": "blog-index",
+      "variant": "grid",
+      "content": "blog.index",
+      "title": "Guías y Consejos",
+      "subtitle": "Todo para tu proxima aventura"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}
