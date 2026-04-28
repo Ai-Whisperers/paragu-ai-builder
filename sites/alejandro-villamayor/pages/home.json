@@ -81,8 +81,8 @@
       }
     },
     {
-      "id": "success-stories",
-      "variant": "carousel",
+      "id": "case-studies",
+      "variant": "three-col",
       "content": "home.successStories",
       "styling": {
         "background": "alt"
