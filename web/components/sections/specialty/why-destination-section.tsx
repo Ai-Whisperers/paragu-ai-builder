@@ -39,7 +39,7 @@ export function WhyDestinationSection({
 }: WhyDestinationSectionProps) {
   return (
     <section id="por-que" className="font-heading bg-background py-16 sm:py-24">
-      <Container>
+      <Container size="md">
         <AnimatedSectionHeader>
           {eyebrow && (
             <p className="font-heading mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">

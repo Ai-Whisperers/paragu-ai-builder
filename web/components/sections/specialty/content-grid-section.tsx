@@ -68,7 +68,7 @@ export function ContentGridSection({
 
   return (
     <Section spacing="md" background="background">
-      <Container>
+      <Container size="md">
         {(title || subtitle) && (
           <AnimatedSectionHeader>
             {title && <Heading level={2}>{title}</Heading>}

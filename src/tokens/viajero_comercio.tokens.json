@@ -1,0 +1,12 @@
+{
+  "$comment": "El Viajero Comercio — outdoor/adventure brand. Earthy greens, sky blues, warm adventure oranges.",
+  "color": {
+    "primary": "#1B5E20",
+    "secondary": "#37474F",
+    "accent": "#E65100"
+  },
+  "font": {
+    "body": "Inter",
+    "heading": "Poppins"
+  }
+}

@@ -98,7 +98,7 @@ export function GallerySection({
 
   return (
     <section id="galeria" className="bg-background py-16 sm:py-20">
-      <Container>
+      <Container size="md">
         <div className="mb-12 text-center">
           <Heading level={2}>{title}</Heading>
           {subtitle && (

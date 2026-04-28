@@ -155,7 +155,7 @@ export function SpecialOrderSection({
 
   return (
     <section id="special-order" className="bg-surface py-16 sm:py-20">
-      <Container>
+      <Container size="md">
         <div className="mx-auto max-w-5xl overflow-hidden rounded-2xl border border-[var(--primary)]/10 bg-background shadow-lg">
           <div className="grid gap-0 md:grid-cols-[1fr_1.5fr]">
             <div className="relative flex items-center justify-center bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] p-10 text-[var(--primary-foreground)]">

@@ -41,7 +41,7 @@ export function EventVenuesSection({
 
   return (
     <section id="eventos" className="bg-background py-16 sm:py-20">
-      <Container>
+      <Container size="md">
         <div className="text-center mb-12">
           <Heading level={2}>{title}</Heading>
           {subtitle && (

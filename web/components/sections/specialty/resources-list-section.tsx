@@ -64,7 +64,7 @@ export function ResourcesListSection({
 
   return (
     <Section spacing="md" background="background">
-      <Container>
+      <Container size="md">
         {(title || subtitle) && (
           <div className="mb-12 text-center">
             {title && <Heading level={2}>{title}</Heading>}

@@ -23,7 +23,7 @@ export function SakeMenuSection({
 }: SakeMenuSectionProps) {
   return (
     <section id="sake" className="bg-background py-16 sm:py-20">
-      <Container>
+      <Container size="md">
         <AnimatedSectionHeader className="mb-12 text-center">
           <Heading as="h2" level={2} className="mb-4">
             {title}

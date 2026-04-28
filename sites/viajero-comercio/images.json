@@ -1,0 +1,11 @@
+{
+  "hero": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1920&q=80",
+  "categories": {
+    "camping": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
+    "pesca": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+    "accesorios-personales": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+    "automoviles": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+    "motos": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80",
+    "campo-granja": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=800&q=80"
+  }
+}

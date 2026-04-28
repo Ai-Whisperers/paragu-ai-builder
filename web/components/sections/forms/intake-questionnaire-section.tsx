@@ -113,7 +113,7 @@ export function IntakeQuestionnaireSection({
   if (submitted) {
     return (
       <Section spacing="md" background="background">
-        <Container>
+        <Container size="md">
           <Card className="max-w-xl mx-auto">
             <CardContent className="p-8 text-center">
               <Heading level={3}>{successMessage}</Heading>
@@ -126,7 +126,7 @@ export function IntakeQuestionnaireSection({
 
   return (
     <Section spacing="md" background="background">
-      <Container>
+      <Container size="md">
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
           {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}

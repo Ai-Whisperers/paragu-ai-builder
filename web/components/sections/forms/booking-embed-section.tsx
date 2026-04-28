@@ -93,7 +93,7 @@ export function BookingEmbedSection({
 
   return (
     <section id="agendar" className="bg-background py-16 sm:py-20">
-      <Container>
+      <Container size="md">
         {(title || subtitle) && (
           <AnimatedSectionHeader>
             {title && <Heading level={2}>{title}</Heading>}

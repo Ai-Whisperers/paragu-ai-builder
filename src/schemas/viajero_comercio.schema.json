@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "viajero_comercio",
+  "title": "El Viajero Comercio",
+  "description": "Multi-category outdoor, camping, fishing, and automotive accessories retail store",
+  "type": "object",
+  "extends": {
+    "$ref": "retail_base.schema.json"
+  },
+  "properties": {
+    "type": {
+      "const": "viajero_comercio"
+    },
+    "productCategories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "camping",
+          "pesca",
+          "accesorios-personales",
+          "automoviles",
+          "motos",
+          "campo-granja"
+        ]
+      }
+    },
+    "deliveryZones": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "productCatalog": {
+      "type": "object",
+      "properties": {
+        "whatsappOrder": { "type": "boolean" },
+        "showPrices": { "type": "boolean" },
+        "categories": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  },
+  "required": ["type"]
+}

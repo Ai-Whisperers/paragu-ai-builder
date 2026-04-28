@@ -33,7 +33,7 @@ export function IllustrationSection({
   const bg = background === 'surface' ? 'var(--surface)' : 'var(--background)'
   return (
     <section className="py-16 sm:py-20" style={{ backgroundColor: bg }}>
-      <Container>
+      <Container size="md">
         {(title || subtitle) && (
           <div className="mb-10 text-center">
             {title && <Heading level={2}>{title}</Heading>}

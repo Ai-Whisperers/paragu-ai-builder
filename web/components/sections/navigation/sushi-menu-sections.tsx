@@ -50,7 +50,7 @@ export function FeaturedMenuSection({
 
   return (
     <section id="featured-menu" className="bg-background py-16 sm:py-20">
-      <Container>
+      <Container size="md">
         <AnimatedSectionHeader className="mb-12 text-center">
           <Heading as="h2" level={2} className="mb-4">
             {title}
@@ -166,7 +166,7 @@ export function FullMenuSection({
 }: FullMenuSectionProps) {
   return (
     <section id="full-menu" className="bg-background py-16 sm:py-20">
-      <Container>
+      <Container size="md">
         <AnimatedSectionHeader className="mb-12 text-center">
           <Heading as="h1" level={1} className="mb-4">
             {title}

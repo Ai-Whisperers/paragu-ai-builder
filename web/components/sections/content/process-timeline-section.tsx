@@ -58,7 +58,7 @@ export function ProcessTimelineSection({
 }: ProcessTimelineSectionProps) {
   return (
     <section id="proceso" className="font-heading bg-surface-light py-16 sm:py-24">
-      <Container>
+      <Container size="md">
         <AnimatedSectionHeader>
           {eyebrow && (
             <p className="font-heading mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">

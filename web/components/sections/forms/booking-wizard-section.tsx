@@ -97,7 +97,7 @@ export function BookingWizardSection({
 
   return (
     <Section spacing="md" background="background">
-      <Container>
+      <Container size="md">
         <div className="mx-auto max-w-2xl">
           {title && <Heading level={2} className="text-center">{title}</Heading>}
           {subtitle && <p className="mt-2 text-center text-muted-foreground">{subtitle}</p>}

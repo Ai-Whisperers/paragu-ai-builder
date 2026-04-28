@@ -98,7 +98,7 @@ export function ProgramsComparisonSection({
 
   return (
     <section id="programas" className="font-heading text-primary bg-background py-20 sm:py-28 lg:py-32">
-      <Container>
+      <Container size="md">
         <AnimatedSectionHeader className="font-heading text-primary mb-12 sm:mb-16">
           {eyebrow && (
             <p className="font-heading text-primary mb-4 text-sm font-semibold uppercase tracking-widest">

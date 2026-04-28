@@ -1,0 +1,227 @@
+{
+  "businessName": "El Viajero Comercio",
+  "tagline": "Todo para tu Aventura",
+  "founded": "",
+  "navigation": {
+    "home": "Inicio",
+    "productos": "Productos",
+    "nosotros": "Nosotros",
+    "contacto": "Contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "El Viajero Comercio - Camping, Pesca y Aventura en {{city}}",
+      "description": "Todo para tu aventura: camping, pesca, accesorios para auto y moto, equipo outdoor. Visitanos o pedi por WhatsApp."
+    },
+    "hero": {
+      "headline": "El Viajero Comercio - Tu Aventura Empieza Aca",
+      "subheadline": "Camping, pesca, accesorios para auto y moto, equipo outdoor. Todo lo que necesitas para tu proxima aventura.",
+      "ctaPrimaryText": "Ver Catalogo",
+      "ctaSecondaryText": "Pedir por WhatsApp"
+    },
+    "stats": {
+      "title": "El Viajero en Numeros",
+      "items": [
+        { "value": "6", "label": "Categorias" },
+        { "value": "+500", "label": "Productos" },
+        { "value": "100%", "label": "Atencion" },
+        { "value": "Outdoor", "label": "Pasion" }
+      ]
+    },
+    "features": {
+      "title": "Por que elegir El Viajero?",
+      "items": [
+        {
+          "title": "Todo en un Solo Lugar",
+          "description": "Camping, pesca, auto, moto y mas — no necesitas ir a varias tiendas.",
+          "icon": "package"
+        },
+        {
+          "title": "Productos de Calidad",
+          "description": "Trabajamos con marcas confiables para que tu equipo dure.",
+          "icon": "shield"
+        },
+        {
+          "title": "Asesoramiento Experto",
+          "description": "Te ayudamos a elegir el equipo correcto para cada aventura.",
+          "icon": "message-circle"
+        },
+        {
+          "title": "Pedido por WhatsApp",
+          "description": "Consulta disponibilidad, hace tu pedido y recibilo sin salir de casa.",
+          "icon": "phone"
+        },
+        {
+          "title": "Entrega en {{city}}",
+          "description": "Hacemos envios en {{city}} y sus alrededores.",
+          "icon": "truck"
+        },
+        {
+          "title": "Precios Accesibles",
+          "description": "Buena relacion precio-calidad para que arranques tu aventura.",
+          "icon": "wallet"
+        }
+      ]
+    },
+    "productCatalog": {
+      "title": "Nuestros Productos",
+      "subtitle": "Todo para tu proxima aventura",
+      "categories": [
+        {
+          "id": "camping",
+          "name": "Camping",
+          "description": "Carpas, catres, colchonetas, sillas plegables, linternas, parrillas, cocinas a gas y mas para tu proxima acampada.",
+          "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80"
+        },
+        {
+          "id": "pesca",
+          "name": "Pesca",
+          "description": "Cañas, rieles, señuelos, liñadas, plomadas, flotadores, redes y todo el equipo para el pescador.",
+          "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80"
+        },
+        {
+          "id": "accesorios-personales",
+          "name": "Accesorios Personales",
+          "description": "Mochilas, cuchillos, brujulas, linternas frontales, botas, cantimploras, binoculares y equipo de exploracion.",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80"
+        },
+        {
+          "id": "automoviles",
+          "name": "Automoviles",
+          "description": "Camaras dashcam, GPS, infladores 12V, eslingas de remolque, catracas, extintores y accesorios para tu vehiculo.",
+          "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+        },
+        {
+          "id": "motos",
+          "name": "Motos",
+          "description": "Cascos, camaras para cascos, guantes, GPS antirrobo y accesorios para motociclistas.",
+          "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80"
+        },
+        {
+          "id": "campo-granja",
+          "name": "Campo y Granja",
+          "description": "Herramientas y accesorios para el campo, la granja y el agro.",
+          "image": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=800&q=80"
+        }
+      ],
+      "orderButtonText": "Consultar por WhatsApp",
+      "orderMessageTemplate": "Hola! Quisiera consultar por {{productName}} de {{businessName}}"
+    },
+    "gallery": {
+      "title": "Galeria",
+      "subtitle": "Nuestros productos"
+    },
+    "testimonials": [
+      {
+        "name": "Cliente Satisfecho",
+        "text": "Excelente atencion y buenos precios. Encontre todo lo que necesitaba para mi viaje de camping.",
+        "rating": 5
+      },
+      {
+        "name": "Pesca Py",
+        "text": "Me asesoraron muy bien para elegir mi caña de pescar. Muy recomendados.",
+        "rating": 5
+      },
+      {
+        "name": "Aventurero Viajero",
+        "text": "Compre mi carpa y accesorios para la moto. Todo de buena calidad y a buen precio.",
+        "rating": 4
+      }
+    ],
+    "finalCta": {
+      "title": "Listo para tu proxima aventura?",
+      "description": "Contactanos por WhatsApp y te asesoramos sobre los productos que necesitas.",
+      "buttonText": "Escribinos Ahora",
+      "buttonLink": "https://wa.me/",
+      "secondaryText": "Ver Catalogo",
+      "secondaryLink": "#catalogo"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Escribinos o visitanos",
+      "description": "Estamos en {{city}}. Consultanos por WhatsApp para direccion exacta y horarios."
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Sobre El Viajero Comercio | Tu Tienda Outdoor en {{city}}",
+      "description": "Conoce la historia de El Viajero Comercio. Apasionados por la aventura y el aire libre en {{city}}."
+    },
+    "hero": {
+      "headline": "Sobre El Viajero Comercio",
+      "subheadline": "Apasionados por la aventura"
+    },
+    "story": {
+      "paragraphs": [
+        "En {{businessName}} somos apasionados por la aventura y el aire libre. Desde {{city}} ofrecemos todo lo necesario para tus escapadas: camping, pesca, accesorios para auto y moto, equipo outdoor y mas.",
+        "Nos enorgullece brindar atencion personalizada y asesoramiento experto para que cada cliente encuentre exactamente lo que necesita para su proxima aventura. Creemos que el equipo correcto hace la diferencia entre un buen viaje y una experiencia inolvidable.",
+        "Trabajamos con proveedores confiables para ofrecer productos de calidad a precios accesibles. Ya sea que estes planeando una acampada en familia, un dia de pesca o un viaje en moto, en El Viajero encontras todo lo que necesitas."
+      ]
+    },
+    "values": [
+      {
+        "title": "Calidad",
+        "description": "Seleccionamos productos que cumplen con nuestros estandares de durabilidad y rendimiento."
+      },
+      {
+        "title": "Atencion",
+        "description": "Cada cliente recibe asesoramiento personalizado segun sus necesidades."
+      },
+      {
+        "title": "Variedad",
+        "description": "Seis categorias de productos para que encuentres todo en un solo lugar."
+      },
+      {
+        "title": "Confianza",
+        "description": "Trabajamos con transparencia y compromiso con nuestros clientes."
+      }
+    ]
+  },
+  "productos": {
+    "seo": {
+      "title": "Productos - El Viajero Comercio | Catalogo Completo",
+      "description": "Explora nuestro catalogo completo de camping, pesca, accesorios para auto y moto. Pedi por WhatsApp."
+    },
+    "hero": {
+      "headline": "Nuestros Productos",
+      "subheadline": "Todo para tu aventura en un solo lugar"
+    },
+    "productCatalog": {
+      "title": "Catalogo Completo",
+      "subtitle": "Explora todas nuestras categorias"
+    }
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contacto - El Viajero Comercio",
+      "description": "Contactanos por WhatsApp, telefono o visitanos en {{city}}."
+    },
+    "hero": {
+      "headline": "Contacto",
+      "subheadline": "Estamos para ayudarte"
+    },
+    "info": {
+      "title": "Informacion de Contacto",
+      "phone": "",
+      "whatsapp": "",
+      "email": "",
+      "address": "",
+      "hours": "Consultar horarios por WhatsApp"
+    },
+    "form": {
+      "title": "Envianos un Mensaje",
+      "fields": ["name", "phone", "product", "message"],
+      "submitText": "Enviar Consulta"
+    }
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera informacion sobre productos de {{businessName}}",
+    "serviceMessage": "Hola! Quisiera consultar por {{productName}} de {{businessName}}"
+  },
+  "footer": {
+    "description": "{{businessName}} - Todo para tu aventura en {{city}}. Camping, pesca, accesorios para auto y moto, equipo outdoor y mas.",
+    "address": "",
+    "phone": "",
+    "hours": "Consultar horarios por WhatsApp"
+  }
+}

@@ -226,7 +226,7 @@ export function ServicesSection({
 
   return (
     <section id="servicios" className="font-heading bg-background py-16 sm:py-20">
-      <Container>
+      <Container size="md">
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
           {subtitle && (

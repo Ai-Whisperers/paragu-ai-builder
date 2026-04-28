@@ -1,0 +1,34 @@
+{
+  "slug": "contacto",
+  "titleKey": "contacto.seo.title",
+  "descriptionKey": "contacto.seo.description",
+  "schemaType": "Store",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "contacto.hero"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "contacto.info"
+    },
+    {
+      "id": "lead-form",
+      "variant": "default",
+      "content": "contacto.form"
+    },
+    {
+      "id": "google-maps",
+      "variant": "embed",
+      "content": "contacto.info"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "faq",
+      "title": "Preguntas Frecuentes"
+    }
+  ]
+}

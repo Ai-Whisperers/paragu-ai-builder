@@ -34,7 +34,7 @@ export function BlogIndexSection({
   
   return (
     <Section fullWidth spacing="lg" background="background" className="font-heading">
-      <Container>
+      <Container size="md">
         <AnimatedSectionHeader>
           <Heading level={1}>{title}</Heading>
           {subtitle && (

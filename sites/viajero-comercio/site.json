@@ -1,0 +1,98 @@
+{
+  "title": "El Viajero Comercio",
+  "description": "Tienda de articulos de camping, pesca, accesorios para auto y moto, equipo outdoor y mas. Todo para tu aventura en Paraguay.",
+  "businessType": "viajero_comercio",
+  "vertical": "retail-local",
+  "country": "Paraguay",
+  "domain": null,
+  "path": "/s/es/viajero-comercio",
+  "publicUrl": "https://paragu-ai.com/s/es/viajero-comercio",
+  "defaultLocale": "es",
+  "locales": ["es"],
+  "pages": [
+    "home",
+    "productos",
+    "nosotros",
+    "contacto"
+  ],
+  "navigation": [
+    {
+      "labelKey": "navigation.home",
+      "path": ""
+    },
+    {
+      "label": "Productos",
+      "path": "productos"
+    },
+    {
+      "label": "Nosotros",
+      "path": "nosotros"
+    },
+    {
+      "label": "Contacto",
+      "path": "contacto"
+    }
+  ],
+  "contact": {
+    "phone": "",
+    "email": "",
+    "whatsapp": "",
+    "instagram": "",
+    "facebook": ""
+  },
+  "location": {
+    "address": "",
+    "city": "",
+    "department": "Central",
+    "country": "Paraguay",
+    "googleMapsUrl": ""
+  },
+  "hours": {
+    "Lunes a Viernes": "",
+    "Sabado": "",
+    "Domingo": "Cerrado"
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion",
+    "delivery": {
+      "enabled": false,
+      "zones": []
+    }
+  },
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "contact-strip",
+        "variant": "standard",
+        "content": "home.contact"
+      },
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  },
+  "isLiveProduction": false,
+  "features": {
+    "whatsappFloat": { "enabled": true },
+    "productCatalog": { "enabled": true },
+    "testimonials": { "enabled": true },
+    "featuresGrid": { "enabled": true },
+    "statsCounter": { "enabled": true },
+    "promoBanner": { "enabled": false },
+    "ageGate": { "enabled": false }
+  }
+}

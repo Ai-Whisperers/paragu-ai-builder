@@ -1,0 +1,113 @@
+{
+  "id": "viajero_comercio",
+  "nameEs": "Articulos de Camping, Pesca y Aventura",
+  "nameEn": "Camping, Fishing & Outdoor Store",
+  "verticalId": "retail-local",
+  "subVertical": "outdoor-sporting-goods",
+  "extends": "retail_base",
+  "tokens": "viajero_comercio",
+  "pages": {
+    "homepage": {
+      "sections": [
+        "header",
+        "hero",
+        "stats-counter",
+        "features",
+        "productCatalog",
+        "gallery",
+        "testimonials",
+        "ctaBanner",
+        "googleMaps",
+        "contact",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "hero",
+        "productCatalog",
+        "contact",
+        "footer"
+      ]
+    }
+  },
+  "features": {
+    "productCatalog": {
+      "enabled": true,
+      "whatsappOrder": true,
+      "showPrices": true,
+      "categories": [
+        "camping",
+        "pesca",
+        "accesorios-personales",
+        "automoviles",
+        "motos",
+        "campo-granja"
+      ]
+    },
+    "gallery": { "enabled": true },
+    "businessHours": { "enabled": true },
+    "whatsappFloat": { "enabled": true },
+    "googleMapsEmbed": { "enabled": true },
+    "beforeAfter": { "enabled": false },
+    "staffProfiles": { "enabled": false },
+    "blog": { "enabled": true, "optional": true },
+    "testimonials": { "enabled": true },
+    "statsCounter": { "enabled": true },
+    "featuresGrid": { "enabled": true },
+    "promoBanner": { "enabled": true, "optional": true }
+  },
+  "commerce": {
+    "enabled": true,
+    "launchPhase": "beta",
+    "provider": "pagopar",
+    "currency": "PYG",
+    "catalog": { "source": "supabase" },
+    "checkout": {
+      "anonymousAllowed": true,
+      "shippingRequired": true,
+      "phoneRequired": true
+    },
+    "shopperUx": {
+      "productAspectRatio": "1:1",
+      "showLowStockBadge": false,
+      "showWhatsappShare": true
+    }
+  },
+  "seo": {
+    "schemaType": "Store",
+    "titleTemplate": "{{businessName}} - Camping, Pesca y Aventura en {{city}}",
+    "descriptionTemplate": "Todo para tu aventura: camping, pesca, accesorios para auto y moto, y mas. Visitanos en {{city}} o pedi por WhatsApp.",
+    "keywords": [
+      "camping {{city}}",
+      "pesca {{city}}",
+      "articulos de camping {{city}}",
+      "accesorios outdoor {{city}}",
+      "el viajero {{city}}"
+    ]
+  },
+  "nav": {
+    "items": [
+      "Inicio",
+      "Productos",
+      "Nosotros",
+      "Contacto"
+    ],
+    "cta": {
+      "text": "Pedir por WhatsApp",
+      "action": "whatsapp"
+    }
+  },
+  "hero": {
+    "style": "image",
+    "headlineTemplate": "{{businessName}} - Tu Aventura Empieza Aca",
+    "subheadlineTemplate": "Camping, pesca, accesorios para auto y moto, equipo outdoor. Todo lo que necesitas para tu proxima aventura en {{city}}.",
+    "ctaPrimary": {
+      "text": "Ver Catalogo",
+      "action": "scrollTo:productCatalog"
+    },
+    "ctaSecondary": {
+      "text": "Pedir por WhatsApp",
+      "action": "whatsapp"
+    }
+  }
+}
