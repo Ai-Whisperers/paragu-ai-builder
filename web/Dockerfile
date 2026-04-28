@@ -18,12 +18,10 @@
 # =============================================================================
 
 # Stage 1: Dependencies
-FROM node:20-alpine AS deps
+FROM oven/bun:1.3 AS deps
 WORKDIR /app
-RUN apk add --no-cache libc6-compat python3 make g++
-COPY web/package.json web/package-lock.json* ./
-RUN --mount=type=cache,target=/root/.npm \
-    npm install --legacy-peer-deps
+COPY web/package.json web/bun.lock* ./
+RUN bun install --frozen-lockfile --production
 
 # Stage 2: Builder
 FROM node:20-alpine AS builder
