@@ -542,15 +542,6 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
   'timeline-history': { id: 'timeline-history', defaultVariant: 'vertical', variants: ['vertical'] },
   'trust-signals-logos': { id: 'trust-signals-logos', defaultVariant: 'logo-row', variants: ['logo-row'] },
   'weekly-schedule': { id: 'weekly-schedule', defaultVariant: 'grid', variants: ['grid'] },
-}
-
-/**
- * Legacy section aliases — hand-curated types (peluqueria, gimnasio, etc.)
- * reference sections by non-canonical names that predate kebab-case
- * standardization. `resolveSectionAlias()` converts any of these to their
- * canonical kebab-case id so the renderer, hasSection, and contract tests
- * stay consistent.
- */
 
   // === Phase 1: Paraguay-Local Essentials ===
   'payment-methods': {
@@ -808,6 +799,16 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     defaultVariant: 'inline',
     variants: ['inline'],
   },
+
+}
+
+/**
+ * Legacy section aliases — hand-curated types (peluqueria, gimnasio, etc.)
+ * reference sections by non-canonical names that predate kebab-case
+ * standardization. `resolveSectionAlias()` converts any of these to their
+ * canonical kebab-case id so the renderer, hasSection, and contract tests
+ * stay consistent.
+ */
 
 const SECTION_ALIASES: Record<string, string> = {
   blogSocialShare: 'blog-post',
