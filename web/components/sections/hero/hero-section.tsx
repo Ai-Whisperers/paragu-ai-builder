@@ -77,6 +77,7 @@ export function HeroSection({
   __locale,
   trustBadgesEnabled = true,
   trustBadges: trustBadgesProp,
+  secondaryCtaModal,
   disclaimerBanner,
 }: HeroSectionProps) {
   const [isBannerDismissed, setIsBannerDismissed] = useState(false)

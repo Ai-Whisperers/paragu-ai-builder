@@ -11,6 +11,7 @@ import { buildLcpPreloadTags } from '@/lib/seo/lcp-preload'
 import { CookieBanner } from '@/components/consent/cookie-banner'
 import { Ga4Loader } from '@/components/analytics/ga4-loader'
 import { DemoBadge } from '@/components/universal/demo-badge'
+import { DemoLeadBar } from '@/components/universal/demo-lead-bar'
 import { loadVerticalCopy } from '@/lib/engine/site-loader'
 import { logger } from '@/lib/logger'
 
@@ -238,6 +239,7 @@ export default async function TenantPage({ params }: Props) {
       </div>
 
       <DemoBadge isDemo={Boolean((composed.site as { is_demo?: boolean }).is_demo)} vertical={composed.site.vertical} locale={locale} />
+      <DemoLeadBar isDemo={Boolean((composed.site as { is_demo?: boolean }).is_demo)} siteSlug={siteSlug} vertical={composed.site.vertical} locale={locale} />
 
       {ga4MeasurementId && <Ga4Loader measurementId={ga4MeasurementId} />}
 
