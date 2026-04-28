@@ -1,0 +1,10 @@
+{
+  "vertical": "service-booking", "businessType": "barberia",
+  "country": "Paraguay", "defaultLocale": "es", "locales": ["es"],
+  "contact": { "whatsapp": "+595983429300", "email": "info@guillenbarber.com.py", "phone": "+595983429300" },
+  "location": { "city": "Fernando de la Mora", "address": "11 de Setiembre, Fernando de la Mora", "neighborhood": "Zona Sur" },
+  "features": { "whatsappFloat": true, "testimonials": true, "booking": true, "gallery": true },
+  "noindex": true, "is_demo": true,
+  "path": "/s/es/preview-guillen-barber", "publicUrl": "https://paragu-ai.com/s/es/preview-guillen-barber",
+  "chrome": { "header": { "id": "header", "variant": "standard", "content": "navigation" }, "footer": [ { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }, { "id": "footer", "variant": "standard", "content": "footer" } ] }
+}

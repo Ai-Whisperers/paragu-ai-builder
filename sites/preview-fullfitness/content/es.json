@@ -1,0 +1,52 @@
+{
+  "siteName": "Full Fitness Gym",
+  "tagline": "Gimnasio en Luque — Musculación, crossfit y funcional — 197 reseñas ⭐4.7",
+  "whatsapp": "+59521640740",
+  "navigation": {
+    "businessName": "Full Fitness Gym",
+    "navItems": [
+      { "label": "Inicio", "href": "/s/es/preview-fullfitness" },
+      { "label": "Planes", "href": "/s/es/preview-fullfitness/planes" },
+      { "label": "Contacto", "href": "/s/es/preview-fullfitness/contacto" }
+    ],
+    "ctaText": "Probá gratis",
+    "ctaHref": "https://wa.me/59521640740"
+  },
+  "home": {
+    "seo": { "title": "Full Fitness Gym — Gimnasio en Luque | 197 reseñas ⭐4.7", "description": "Gimnasio en Luque con 197 reseñas ⭐4.7. Musculación, crossfit, yoga y funcional. Primer clase gratis. Sumate!" },
+    "hero": { "headline": "Transformá tu cuerpo, transformá tu vida", "subheadline": "Musculación, crossfit, yoga y funcional en Luque. 197 socios nos califican con ⭐4.7. Tu primera clase es gratis — vení a conocernos.", "ctaPrimaryText": "Probá gratis", "ctaSecondaryText": "Ver planes" },
+    "stats": { "items": [
+      { "value": "197", "label": "Reseñas ⭐4.7", "icon": "Star" },
+      { "value": "8+", "label": "Años en Luque", "icon": "Calendar" },
+      { "value": "Mariscal López", "label": "Luque", "icon": "MapPin" }
+    ]},
+    "services": { "title": "Nuestras Actividades", "items": [
+      { "name": "Musculación", "price": "120.000 Gs/mes", "description": "Sala completa con pesas libres, máquinas de última generación y barras olímpicas. Acceso libre en horario del gym.", "category": "Entrenamiento" },
+      { "name": "Crossfit", "price": "180.000 Gs/mes", "description": "Clases de alta intensidad todos los días. Workouts supervisados por instructores certificados. Mejorá tu condición física.", "category": "Clases" },
+      { "name": "Yoga y Stretching", "price": "120.000 Gs/mes", "description": "Clases semanales de yoga para todos los niveles. Mejorá tu flexibilidad, equilibrio y concentración.", "category": "Clases" },
+      { "name": "Funcional", "price": "120.000 Gs/mes", "description": "Entrenamiento con peso corporal, kettlebells, TRX y accesorios. Quemá calorías y tonificá todo el cuerpo.", "category": "Clases" },
+      { "name": "Plan Full Access", "price": "200.000 Gs/mes", "description": "Acceso ilimitado a todas las actividades del gym. La mejor relación precio-servicio de Luque.", "category": "Planes" }
+    ]},
+    "pricing": { "title": "Elegí tu plan", "plans": [
+      { "name": "Básico", "price": "120.000", "period": "mes", "description": "Acceso a sala de musculación", "features": ["Sala de pesas y máquinas", "Vestuarios", "Agua gratis"], "popular": false },
+      { "name": "Clases Ilimitadas", "price": "180.000", "period": "mes", "description": "Todas las actividades incluidas", "features": ["Musculación", "Crossfit", "Yoga", "Funcional", "Sin límite de horario"], "popular": true },
+      { "name": "Premium", "price": "300.000", "period": "mes", "description": "Experiencia Full Fitness", "features": ["Todo incluido", "4 sesiones de trainer", "Plan nutricional básico", "Acceso a app"], "popular": false }
+    ]},
+    "team": { "title": "Nuestros Instructores", "items": [
+      { "name": "Carlos", "role": "Instructor Principal", "bio": "Certificado internacional. 10 años de experiencia en entrenamiento de fuerza y Crossfit." }
+    ]},
+    "testimonials": { "title": "Lo que dicen nuestros socios", "items": [
+      { "quote": "Voy al Full Fitness hace 2 años y los resultados son increíbles. Los instructores siempre atentos y el ambiente es súper motivador.", "author": "Socio en Google ⭐⭐⭐⭐⭐", "rating": 5 },
+      { "quote": "Arranqué con el plan Clases Ilimitadas y ya no falto ni un día. La combos musculación + crossfit es lo mejor.", "author": "Socio en Google ⭐⭐⭐⭐⭐", "rating": 5 }
+    ]},
+    "cta": { "title": "Venís a probar? Primer clase gratis", "subtitle": "Sin compromiso, sin inscripción. Traé tu ropa de entrenar.", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/59521640740" },
+    "contact": { "title": "Contacto", "phone": "+595 21 640 740", "address": "Mariscal López, Luque", "hours": "Lun a Vie: 6:00 - 22:00 | Sáb: 8:00 - 18:00" }
+  },
+  "servicios": { "seo": { "title": "Planes — Full Fitness Gym", "description": "Planes de membresía." }, "hero": { "headline": "Nuestros Planes", "subheadline": "Elegí el que mejor se adapte a vos" } },
+  "contacto": { "seo": { "title": "Contacto — Full Fitness Gym", "description": "Contactanos para tu clase gratis." }, "hero": { "headline": "Contacto", "subheadline": "Probá tu primera clase gratis" } },
+  "footer": { "businessName": "Full Fitness Gym", "city": "Luque", "navLinks": [
+    { "label": "Inicio", "href": "/s/es/preview-fullfitness" },
+    { "label": "Planes", "href": "/s/es/preview-fullfitness/planes" },
+    { "label": "Contacto", "href": "/s/es/preview-fullfitness/contacto" }
+  ]}
+}
