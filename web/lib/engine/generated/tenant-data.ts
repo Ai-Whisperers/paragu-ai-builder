@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=15, pages=177, content=30, blog=34, images=6, verticals=23. */
+/** Counts: sites=15, pages=182, content=30, blog=34, images=6, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "alejandro-villamayor",
   "bufete-mendez",
@@ -1999,6 +1999,16 @@ export const SITES: Record<string, JsonRecord> = {
     "vertical": "retail-local"
   },
   "viajero-comercio": {
+    "blog": {
+      "categories": [
+        "camping",
+        "pesca",
+        "aventura",
+        "mantenimiento",
+        "consejos"
+      ],
+      "enabled": true
+    },
     "businessType": "viajero_comercio",
     "chrome": {
       "footer": [
@@ -2024,6 +2034,31 @@ export const SITES: Record<string, JsonRecord> = {
         "variant": "standard"
       }
     },
+    "commerce": {
+      "abandonedCart": {
+        "enabled": true,
+        "whatsappReminder": true
+      },
+      "backInStock": {
+        "enabled": true
+      },
+      "currency": "PYG",
+      "enabled": true,
+      "locale": "es-PY",
+      "recentlyViewed": {
+        "enabled": true
+      },
+      "reviews": {
+        "enabled": true,
+        "moderation": "auto"
+      },
+      "storePickup": {
+        "enabled": true
+      },
+      "wishlist": {
+        "enabled": true
+      }
+    },
     "contact": {
       "email": "info@elviajerocomerc.io.com.py",
       "facebook": "elviajerocomerc.io",
@@ -2036,8 +2071,23 @@ export const SITES: Record<string, JsonRecord> = {
     "description": "Tienda de articulos de camping, pesca, accesorios para auto y moto, equipo outdoor y mas. Todo para tu aventura en Paraguay.",
     "domain": null,
     "features": {
+      "backInStockNotifications": {
+        "enabled": true
+      },
+      "blog": {
+        "enabled": true
+      },
+      "faq": {
+        "enabled": true
+      },
       "featuresGrid": {
         "enabled": true
+      },
+      "giftCards": {
+        "enabled": false
+      },
+      "loyalty": {
+        "enabled": false
       },
       "newsletterSignup": {
         "enabled": true
@@ -2048,13 +2098,25 @@ export const SITES: Record<string, JsonRecord> = {
       "promoBanner": {
         "enabled": true
       },
+      "referral": {
+        "enabled": false
+      },
+      "reviews": {
+        "enabled": true
+      },
       "statsCounter": {
+        "enabled": true
+      },
+      "storePickupReserve": {
         "enabled": true
       },
       "testimonials": {
         "enabled": true
       },
       "whatsappFloat": {
+        "enabled": true
+      },
+      "wishlist": {
         "enabled": true
       }
     },
@@ -2088,8 +2150,16 @@ export const SITES: Record<string, JsonRecord> = {
         "path": "productos"
       },
       {
-        "label": "Nosotros",
-        "path": "nosotros"
+        "label": "Blog",
+        "path": "blog"
+      },
+      {
+        "label": "Ofertas",
+        "path": "promociones"
+      },
+      {
+        "labelKey": "navigation.faq",
+        "path": "faq"
       },
       {
         "label": "Contacto",
@@ -2103,7 +2173,12 @@ export const SITES: Record<string, JsonRecord> = {
       "nosotros",
       "contacto",
       "faq",
-      "promociones"
+      "promociones",
+      "blog",
+      "carrito",
+      "checkout",
+      "privacidad",
+      "terminos"
     ],
     "path": "/s/es/viajero-comercio",
     "publicUrl": "https://paragu-ai.com/s/es/viajero-comercio",
@@ -2114,7 +2189,7 @@ export const SITES: Record<string, JsonRecord> = {
         "expressAvailable": true,
         "expressFee": 30000,
         "freeThresholdGs": 300000,
-        "freeThresholdLabel": "Envios gratis desde Gs. 300.000",
+        "freeThresholdLabel": "Envio gratis desde Gs. 300.000",
         "national": false,
         "pickupAddresses": [
           "Av. Mariscal Lopez 1234, Asuncion"
@@ -9405,6 +9480,69 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "tiendas",
     "titleKey": "tiendas.seo.title"
   },
+  "viajero-comercio:blog": {
+    "descriptionKey": "blog.seo.description",
+    "schemaType": "Blog",
+    "sections": [
+      {
+        "content": "blog.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "blog.index",
+        "id": "blog-index",
+        "subtitle": "Todo para tu proxima aventura",
+        "title": "Guías y Consejos",
+        "variant": "grid"
+      },
+      {
+        "content": "home.finalCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "blog",
+    "titleKey": "blog.seo.title"
+  },
+  "viajero-comercio:carrito": {
+    "description": "Revisa tu carrito de compras en El Viajero Comercio. Finaliza tu pedido por WhatsApp o paga online.",
+    "schemaType": "Store",
+    "sections": [
+      {
+        "id": "hero",
+        "subtitle": "Tus productos seleccionados",
+        "title": "Carrito",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.finalCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "carrito",
+    "title": "Carrito de Compras - El Viajero Comercio"
+  },
+  "viajero-comercio:checkout": {
+    "description": "Completa tu compra en El Viajero Comercio. Paga con Pagopar, Mercado Pago, transferencia bancaria o coordiná por WhatsApp.",
+    "schemaType": "Store",
+    "sections": [
+      {
+        "id": "hero",
+        "subtitle": "Un paso mas para tu aventura",
+        "title": "Finalizar Compra",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.finalCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "checkout",
+    "title": "Finalizar Compra - El Viajero Comercio"
+  },
   "viajero-comercio:contacto": {
     "descriptionKey": "contacto.seo.description",
     "schemaType": "Store",
@@ -9504,6 +9642,13 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "grid"
       },
       {
+        "content": "blog.index",
+        "id": "blog-index",
+        "subtitle": "Aprendé antes de tu proxima aventura",
+        "title": "Tips y Consejos",
+        "variant": "grid"
+      },
+      {
         "content": "home.gallery",
         "id": "gallery",
         "subtitle": "Conoce nuestra variedad",
@@ -9556,6 +9701,25 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "nosotros",
     "titleKey": "about.seo.title"
   },
+  "viajero-comercio:privacidad": {
+    "description": "Politica de privacidad de El Viajero Comercio. Conoce como protegemos tus datos personales.",
+    "schemaType": "WebPage",
+    "sections": [
+      {
+        "id": "hero",
+        "subtitle": "Proteccion de tus datos personales",
+        "title": "Politica de Privacidad",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.finalCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "privacidad",
+    "title": "Politica de Privacidad - El Viajero Comercio"
+  },
   "viajero-comercio:productos": {
     "descriptionKey": "productos.seo.description",
     "schemaType": "Store",
@@ -9603,6 +9767,25 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "promociones",
     "titleKey": "promociones.seo.title"
+  },
+  "viajero-comercio:terminos": {
+    "description": "Terminos y condiciones de uso de El Viajero Comercio.",
+    "schemaType": "WebPage",
+    "sections": [
+      {
+        "id": "hero",
+        "subtitle": "Informacion legal",
+        "title": "Terminos y Condiciones",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.finalCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "terminos",
+    "title": "Terminos y Condiciones - El Viajero Comercio"
   },
   "viajero-comercio:tienda": {
     "descriptionKey": "tienda.seo.description",
@@ -32253,9 +32436,83 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "footer": {
       "address": "Av. Mariscal Lopez 1234, Asuncion",
+      "columns": [
+        {
+          "links": [
+            {
+              "href": "/s/es/viajero-comercio",
+              "label": "Inicio"
+            },
+            {
+              "href": "/s/es/viajero-comercio/tienda",
+              "label": "Tienda"
+            },
+            {
+              "href": "/s/es/viajero-comercio/blog",
+              "label": "Blog"
+            },
+            {
+              "href": "/s/es/viajero-comercio/nosotros",
+              "label": "Nosotros"
+            },
+            {
+              "href": "/s/es/viajero-comercio/contacto",
+              "label": "Contacto"
+            }
+          ],
+          "title": "El Viajero"
+        },
+        {
+          "links": [
+            {
+              "href": "/s/es/viajero-comercio/faq",
+              "label": "FAQ"
+            },
+            {
+              "href": "/s/es/viajero-comercio/faq",
+              "label": "Envios"
+            },
+            {
+              "href": "/s/es/viajero-comercio/faq",
+              "label": "Cambios y devoluciones"
+            },
+            {
+              "href": "/s/es/viajero-comercio/faq",
+              "label": "Medios de pago"
+            }
+          ],
+          "title": "Ayuda"
+        },
+        {
+          "links": [
+            {
+              "href": "/s/es/viajero-comercio/privacidad",
+              "label": "Privacidad"
+            },
+            {
+              "href": "/s/es/viajero-comercio/terminos",
+              "label": "Terminos"
+            }
+          ],
+          "title": "Legales"
+        }
+      ],
       "description": "El Viajero Comercio - Todo para tu aventura en Asuncion. Camping, pesca, accesorios para auto y moto, equipo outdoor y mas. Desde 2018 equipando a los aventureros paraguayos.",
       "hours": "Lun-Vie 08:00-19:00 | Sab 08:00-17:00 | Dom 09:00-13:00",
-      "phone": "+595 981 234 567"
+      "paymentMethods": [
+        "efectivo",
+        "transferencia",
+        "bancard",
+        "mercadopago",
+        "pagopar"
+      ],
+      "phone": "+595 981 234 567",
+      "trustSignals": [
+        "Envio gratis desde Gs. 300.000",
+        "Cambios hasta 7 dias",
+        "Garantia incluida",
+        "Pago 100% seguro"
+      ]
     },
     "founded": "2018",
     "home": {
@@ -32498,8 +32755,16 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Productos"
         },
         {
-          "href": "/s/es/viajero-comercio/nosotros",
-          "label": "Nosotros"
+          "href": "/s/es/viajero-comercio/blog",
+          "label": "Blog"
+        },
+        {
+          "href": "/s/es/viajero-comercio/promociones",
+          "label": "Ofertas"
+        },
+        {
+          "href": "/s/es/viajero-comercio/faq",
+          "label": "FAQ"
         },
         {
           "href": "/s/es/viajero-comercio/contacto",
@@ -32642,9 +32907,105 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Promociones - El Viajero Comercio | Ofertas en Camping y Pesca"
       }
     },
+    "reviews": {
+      "ctaText": "Escribir una opinion",
+      "subtitle": "Valoraciones reales de quienes ya compraron con nosotros",
+      "title": "Opiniones de nuestros clientes"
+    },
     "siteName": "El Viajero Comercio",
     "tagline": "Todo para tu Aventura",
     "tienda": {
+      "blog": {
+        "hero": {
+          "headline": "Blog El Viajero",
+          "subheadline": "Guias, consejos y aventuras para tus escapadas"
+        },
+        "index": {
+          "categories": [
+            {
+              "description": "Todo para armar el campamento perfecto",
+              "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
+              "name": "Camping"
+            },
+            {
+              "description": "Tecnicas, señuelos y equipamiento",
+              "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+              "name": "Pesca"
+            },
+            {
+              "description": "Destinos y tips para explorar Paraguay",
+              "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&q=80",
+              "name": "Aventura"
+            },
+            {
+              "description": "Cuidado y reparacion de tu equipo",
+              "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+              "name": "Mantenimiento"
+            }
+          ],
+          "posts": [
+            {
+              "author": "Equipo El Viajero",
+              "category": "Camping",
+              "date": "2026-04-15",
+              "excerpt": "Tipos de carpa, materiales, capacidad y presupuesto. Todo lo que necesitas saber para acertar en tu compra.",
+              "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
+              "slug": "guia-elegir-carpa",
+              "title": "Guia Completa para Elegir tu Primera Carpa"
+            },
+            {
+              "author": "Equipo El Viajero",
+              "category": "Pesca",
+              "date": "2026-04-10",
+              "excerpt": "Descubri los mejores rios y lagunas para pescar en Paraguay. Tips por temporada y especies.",
+              "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+              "slug": "mejores-lugares-pesca-paraguay",
+              "title": "Los 5 Mejores Lugares para Pescar en Paraguay"
+            },
+            {
+              "author": "Equipo El Viajero",
+              "category": "Camping",
+              "date": "2026-04-05",
+              "excerpt": "No te olvides de nada. Checklist completa de equipo esencial para tu proxima acampada.",
+              "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&q=80",
+              "slug": "checklist-camping",
+              "title": "Checklist de Camping: Que Llevar en tu Mochila"
+            },
+            {
+              "author": "Equipo El Viajero",
+              "category": "Pesca",
+              "date": "2026-03-28",
+              "excerpt": "Materiales, longitudes, accion y mas. Guia para principiantes y expertos.",
+              "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+              "slug": "elegir-cana-pescar",
+              "title": "Como Elegir tu Caña de Pescar Ideal"
+            },
+            {
+              "author": "Equipo El Viajero",
+              "category": "Mantenimiento",
+              "date": "2026-03-20",
+              "excerpt": "Como limpiar y guardar tu carpa, bolsa de dormir y demas equipo para que duren años.",
+              "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+              "slug": "mantenimiento-equipo-camping",
+              "title": "Mantenimiento Basico de tu Equipo de Camping"
+            },
+            {
+              "author": "Equipo El Viajero",
+              "category": "Aventura",
+              "date": "2026-03-15",
+              "excerpt": "Saltos del Monday, Cerro Cora, San Bernardino y mas. Planifica tu proxima escapada.",
+              "image": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=800&q=80",
+              "slug": "destinos-aventura-paraguay",
+              "title": "Destinos de Aventura en Paraguay que Debes Conocer"
+            }
+          ],
+          "title": "Todas las guias"
+        },
+        "seo": {
+          "description": "Consejos, guias y tutoriales de camping, pesca, y equipo outdoor. Aprendé a elegir y cuidar tus productos.",
+          "title": "Blog El Viajero | Guias de Camping, Pesca y Aventura en Paraguay"
+        }
+      },
       "faq": {
         "items": [
           {

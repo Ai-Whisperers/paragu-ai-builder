@@ -107,9 +107,83 @@ export default {
   },
   "footer": {
     "address": "Av. Mariscal Lopez 1234, Asuncion",
+    "columns": [
+      {
+        "links": [
+          {
+            "href": "/s/es/viajero-comercio",
+            "label": "Inicio"
+          },
+          {
+            "href": "/s/es/viajero-comercio/tienda",
+            "label": "Tienda"
+          },
+          {
+            "href": "/s/es/viajero-comercio/blog",
+            "label": "Blog"
+          },
+          {
+            "href": "/s/es/viajero-comercio/nosotros",
+            "label": "Nosotros"
+          },
+          {
+            "href": "/s/es/viajero-comercio/contacto",
+            "label": "Contacto"
+          }
+        ],
+        "title": "El Viajero"
+      },
+      {
+        "links": [
+          {
+            "href": "/s/es/viajero-comercio/faq",
+            "label": "FAQ"
+          },
+          {
+            "href": "/s/es/viajero-comercio/faq",
+            "label": "Envios"
+          },
+          {
+            "href": "/s/es/viajero-comercio/faq",
+            "label": "Cambios y devoluciones"
+          },
+          {
+            "href": "/s/es/viajero-comercio/faq",
+            "label": "Medios de pago"
+          }
+        ],
+        "title": "Ayuda"
+      },
+      {
+        "links": [
+          {
+            "href": "/s/es/viajero-comercio/privacidad",
+            "label": "Privacidad"
+          },
+          {
+            "href": "/s/es/viajero-comercio/terminos",
+            "label": "Terminos"
+          }
+        ],
+        "title": "Legales"
+      }
+    ],
     "description": "El Viajero Comercio - Todo para tu aventura en Asuncion. Camping, pesca, accesorios para auto y moto, equipo outdoor y mas. Desde 2018 equipando a los aventureros paraguayos.",
     "hours": "Lun-Vie 08:00-19:00 | Sab 08:00-17:00 | Dom 09:00-13:00",
-    "phone": "+595 981 234 567"
+    "paymentMethods": [
+      "efectivo",
+      "transferencia",
+      "bancard",
+      "mercadopago",
+      "pagopar"
+    ],
+    "phone": "+595 981 234 567",
+    "trustSignals": [
+      "Envio gratis desde Gs. 300.000",
+      "Cambios hasta 7 dias",
+      "Garantia incluida",
+      "Pago 100% seguro"
+    ]
   },
   "founded": "2018",
   "home": {
@@ -352,8 +426,16 @@ export default {
         "label": "Productos"
       },
       {
-        "href": "/s/es/viajero-comercio/nosotros",
-        "label": "Nosotros"
+        "href": "/s/es/viajero-comercio/blog",
+        "label": "Blog"
+      },
+      {
+        "href": "/s/es/viajero-comercio/promociones",
+        "label": "Ofertas"
+      },
+      {
+        "href": "/s/es/viajero-comercio/faq",
+        "label": "FAQ"
       },
       {
         "href": "/s/es/viajero-comercio/contacto",
@@ -496,9 +578,105 @@ export default {
       "title": "Promociones - El Viajero Comercio | Ofertas en Camping y Pesca"
     }
   },
+  "reviews": {
+    "ctaText": "Escribir una opinion",
+    "subtitle": "Valoraciones reales de quienes ya compraron con nosotros",
+    "title": "Opiniones de nuestros clientes"
+  },
   "siteName": "El Viajero Comercio",
   "tagline": "Todo para tu Aventura",
   "tienda": {
+    "blog": {
+      "hero": {
+        "headline": "Blog El Viajero",
+        "subheadline": "Guias, consejos y aventuras para tus escapadas"
+      },
+      "index": {
+        "categories": [
+          {
+            "description": "Todo para armar el campamento perfecto",
+            "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
+            "name": "Camping"
+          },
+          {
+            "description": "Tecnicas, señuelos y equipamiento",
+            "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+            "name": "Pesca"
+          },
+          {
+            "description": "Destinos y tips para explorar Paraguay",
+            "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&q=80",
+            "name": "Aventura"
+          },
+          {
+            "description": "Cuidado y reparacion de tu equipo",
+            "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+            "name": "Mantenimiento"
+          }
+        ],
+        "posts": [
+          {
+            "author": "Equipo El Viajero",
+            "category": "Camping",
+            "date": "2026-04-15",
+            "excerpt": "Tipos de carpa, materiales, capacidad y presupuesto. Todo lo que necesitas saber para acertar en tu compra.",
+            "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
+            "slug": "guia-elegir-carpa",
+            "title": "Guia Completa para Elegir tu Primera Carpa"
+          },
+          {
+            "author": "Equipo El Viajero",
+            "category": "Pesca",
+            "date": "2026-04-10",
+            "excerpt": "Descubri los mejores rios y lagunas para pescar en Paraguay. Tips por temporada y especies.",
+            "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+            "slug": "mejores-lugares-pesca-paraguay",
+            "title": "Los 5 Mejores Lugares para Pescar en Paraguay"
+          },
+          {
+            "author": "Equipo El Viajero",
+            "category": "Camping",
+            "date": "2026-04-05",
+            "excerpt": "No te olvides de nada. Checklist completa de equipo esencial para tu proxima acampada.",
+            "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&q=80",
+            "slug": "checklist-camping",
+            "title": "Checklist de Camping: Que Llevar en tu Mochila"
+          },
+          {
+            "author": "Equipo El Viajero",
+            "category": "Pesca",
+            "date": "2026-03-28",
+            "excerpt": "Materiales, longitudes, accion y mas. Guia para principiantes y expertos.",
+            "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+            "slug": "elegir-cana-pescar",
+            "title": "Como Elegir tu Caña de Pescar Ideal"
+          },
+          {
+            "author": "Equipo El Viajero",
+            "category": "Mantenimiento",
+            "date": "2026-03-20",
+            "excerpt": "Como limpiar y guardar tu carpa, bolsa de dormir y demas equipo para que duren años.",
+            "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+            "slug": "mantenimiento-equipo-camping",
+            "title": "Mantenimiento Basico de tu Equipo de Camping"
+          },
+          {
+            "author": "Equipo El Viajero",
+            "category": "Aventura",
+            "date": "2026-03-15",
+            "excerpt": "Saltos del Monday, Cerro Cora, San Bernardino y mas. Planifica tu proxima escapada.",
+            "image": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=800&q=80",
+            "slug": "destinos-aventura-paraguay",
+            "title": "Destinos de Aventura en Paraguay que Debes Conocer"
+          }
+        ],
+        "title": "Todas las guias"
+      },
+      "seo": {
+        "description": "Consejos, guias y tutoriales de camping, pesca, y equipo outdoor. Aprendé a elegir y cuidar tus productos.",
+        "title": "Blog El Viajero | Guias de Camping, Pesca y Aventura en Paraguay"
+      }
+    },
     "faq": {
       "items": [
         {
