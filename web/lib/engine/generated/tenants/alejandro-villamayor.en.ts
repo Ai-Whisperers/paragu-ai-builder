@@ -290,7 +290,7 @@ export default {
       "ctaPrimaryHref": "https://wa.me/595981324569",
       "ctaPrimaryText": "Schedule your strategic evaluation",
       "ctaSecondaryHref": "/s/en/alejandro-villamayor/investor-pass",
-      "ctaSecondaryText": "Download the Investor Pass 2026 Guide",
+      "ctaSecondaryText": "Investor Pass 2026 Guide",
       "headline": "Permanent Residency & Asset Protection in Paraguay",
       "subheadline": "Specialized legal counsel for foreign investors: Investor Pass, corporate structuring, preferential tax treatment, and residency acquisition. Delivered to international service standards.",
       "trustBadges": [
@@ -439,25 +439,21 @@ export default {
         {
           "author": "Marcelo R.",
           "quote": "Alejandro structured my investment under Law 60/90 and managed the entire Investor Pass process. I had my permanent residency in 3 months without needing to travel. His knowledge of Paraguayan law was decisive.",
-          "rating": 5,
           "role": "CEO · SaaS Startup · Peru"
         },
         {
           "author": "Carolina D.",
           "quote": "We needed to restructure a joint venture with a Brazilian partner. Alejandro resolved a contractual situation that had been stalled for 8 months in just 3 weeks. Saved us USD 120,000 in legal contingencies.",
-          "rating": 5,
           "role": "CEO · Import Company · USD 8M annual revenue · Paraguay"
         },
         {
           "author": "James T.",
           "quote": "I was looking at 4 properties across Asunción. Alejandro did due diligence on all, identified title risks on 2, and closed the other 2 in under 60 days. Saved me from a costly mistake.",
-          "rating": 5,
           "role": "Real Estate Fund Manager · USA"
         },
         {
           "author": "Laura M.",
           "quote": "He incorporated my company in 5 business days, registered me for taxes, and explained the entire tax regime. I was invoicing the following month. Had a question on a Sunday at 9 PM — answered in 10 minutes.",
-          "rating": 5,
           "role": "Founder · E-commerce · First-time Entrepreneur · Paraguay"
         }
       ],

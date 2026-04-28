@@ -293,7 +293,7 @@ export default {
       "ctaPrimaryHref": "https://wa.me/595981324569",
       "ctaPrimaryText": "Agendá tu evaluación estratégica",
       "ctaSecondaryHref": "/s/es/alejandro-villamayor/investor-pass",
-      "ctaSecondaryText": "Descargá la Guía del Investor Pass 2026",
+      "ctaSecondaryText": "Guía del Investor Pass 2026",
       "headline": "Residencia Permanente y Protección de Activos en Paraguay",
       "subheadline": "Asesoría legal especializada para inversores extranjeros: Investor Pass, estructuración corporativa, régimen tributario preferencial y obtención de residencia. Con estándares de servicio internacionales.",
       "trustBadges": [
@@ -442,25 +442,21 @@ export default {
         {
           "author": "Marcelo R.",
           "quote": "Alejandro estructuró mi inversión bajo la Ley 60/90 y gestionó todo el Investor Pass en tiempo récord. En 3 meses tenía mi residencia permanente sin necesidad de viajar. Su conocimiento del marco legal paraguayo y su enfoque práctico fueron determinantes.",
-          "rating": 5,
           "role": "CEO · SaaS Startup · Peru"
         },
         {
           "author": "Carolina D.",
           "quote": "Necesitábamos reestructurar un joint venture con un socio brasileño. Alejandro resolvió una situación contractual compleja que llevaba 8 meses estancada en solo 3 semanas. Nos ahorró USD 120.000 en contingencias legales.",
-          "rating": 5,
           "role": "CEO · Importadora · USD 8M annual revenue · Paraguay"
         },
         {
           "author": "James T.",
           "quote": "I was looking at 4 properties across Asunción and didn't know how to navigate the legal side. Alejandro did the due diligence on all of them, identified title risks on 2, and closed the other 2 in under 60 days. Saved me from a costly mistake.",
-          "rating": 5,
           "role": "Real Estate Fund Manager · USA"
         },
         {
           "author": "Laura M.",
           "quote": "Constituyó mi EAS en 5 días hábiles, me registró en el RUC y me explicó todo el régimen tributario. Facturé al mes siguiente. Tuve una duda un domingo a las 9 pm y me respondió en 10 minutos.",
-          "rating": 5,
           "role": "Founder · E-commerce · First-time Entrepreneur · Paraguay"
         }
       ],

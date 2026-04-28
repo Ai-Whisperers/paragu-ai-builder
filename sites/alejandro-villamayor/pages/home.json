@@ -7,12 +7,12 @@
       "id": "hero",
       "variant": "image",
       "content": "home.hero",
-      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=85",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=90",
       "styling": {
         "padding": "xl",
         "background": "image",
         "textColor": "light",
-        "backgroundImage": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=85"
+        "backgroundImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=90"
       }
     },
     {

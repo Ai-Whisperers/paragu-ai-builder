@@ -1,22 +1,23 @@
 {
-  "$comment": "Premium law firm aesthetic — navy, warm gold, ivory, serif typography.",
+  "$comment": "Premium law firm — British Racing Green, burnished gold, warm parchment. Serif headings, sans body.",
   "palettes": {
     "general_practice_lawyer": {
       "name": "Law Firm Premium",
       "colors": {
-        "primary": "#0B2F1C",
+        "primary": "#004225",
         "primaryForeground": "#FFFFFF",
-        "secondary": "#C5A55A",
-        "secondaryForeground": "#0B2F1C",
-        "accent": "#C5A55A",
-        "accentForeground": "#0B2F1C",
+        "secondary": "#D4AF37",
+        "secondaryForeground": "#004225",
+        "accent": "#D4AF37",
+        "accentForeground": "#004225",
         "background": "#FFFFFF",
-        "surface": "#F8F7F4",
-        "surfaceLight": "#EFEDE8",
+        "surface": "#F9F8F5",
+        "surfaceLight": "#F0EDE5",
+        "surfaceDark": "#00331C",
         "text": "#1B1B1B",
         "textLight": "#4A4A4A",
         "textMuted": "#7A7A7A",
-        "border": "#E2DFD8",
+        "border": "#E6DFD0",
         "success": "#2E7D32",
         "error": "#C62828",
         "warning": "#F59E0B"
