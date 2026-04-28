@@ -20,7 +20,10 @@ import { getReviewAggregatesByBusiness } from '@/lib/commerce/reviews'
 import { isCommerceEnabled } from '@/lib/commerce/capability'
 import { CommerceHeader } from '@/components/commerce/commerce-header'
 import { CommerceChrome } from '@/components/commerce/commerce-chrome'
-import { TrustStrip } from '@/components/commerce/trust-strip'
+import { TrustStrip, type TrustItem } from '@/components/commerce/trust-strip'
+import { CommerceErrorBoundary } from '@/components/commerce/error-boundary'
+import { TiendaHero } from '@/components/commerce/tienda-hero'
+import { getConfig } from '@/lib/commerce/tenant-config'
 import { TiendaCategoryTiles } from '@/components/commerce/tienda-category-tiles'
 import { QuizFab } from '@/components/commerce/quiz-fab'
 import type { Locale } from '@/lib/i18n/config'
@@ -242,6 +245,14 @@ export default async function StorePage({
     ? await getCartBySessionToken(business.id, sessionToken).catch(() => null)
     : null
 
+  const trustItems: TrustItem[] = site === "viajero-comercio"
+    ? [
+        { icon: '🚚', title: 'Envio gratis desde Gs. 300.000', description: 'Asuncion y area metropolitana en 24-48 hs.' },
+        { icon: '💬', title: 'Pedi por WhatsApp', description: 'Consulta disponibilidad antes de comprar.' },
+        { icon: '🔒', title: 'Pago seguro', description: 'Efectivo, transferencia, Bancard, Mercado Pago.' },
+        { icon: '🔙', title: 'Cambios hasta 7 dias', description: 'Producto sin usar con su empaque original.' },
+      ]
+    : []
   return (
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
       <CartStoreHydrator siteSlug={site} initialCart={initialCart} />
@@ -257,9 +268,18 @@ export default async function StorePage({
       <TiendaSearchTracker query={search} />
 
       <main className="mx-auto  px-4 py-8">
-        <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">Nuestra tienda</h1>
+        <h1 className="mb-6 text-3xl font-bold text-[color:var(--text,#111)]">
+          {search
+            ? `Resultados para "${search}"`
+            : categories.length > 0
+            ? categories.join(", ")
+            : hasActiveFilters
+            ? `${totalCount} productos filtrados`
+            : "Nuestra tienda"}
+        </h1>
 
-        <TrustStrip variant="prominent" />
+        <TiendaHero siteSlug={site} locale={locale} whatsappNumber={business.whatsappNumber} />
+        <TrustStrip variant="prominent" items={trustItems} />
 
         <TiendaCategoryTiles
           siteSlug={site}
@@ -296,6 +316,7 @@ export default async function StorePage({
         ) : null}
         <TiendaToolbar
           initialQuery={search}
+          siteSlug={site}
           initialSort={sortKey}
           resultCount={products.length}
           totalCount={totalCount}
@@ -339,7 +360,15 @@ export default async function StorePage({
                 </div>
               </div>
             ) : null}
-            {!hasActiveFilters && business.whatsappNumber ? (
+            {hasActiveFilters ? (
+              <Link
+                href={`/s/${locale}/${site}/tienda`}
+                className="mt-4 inline-flex items-center gap-2 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface px-4 py-2 text-sm font-semibold text-[color:var(--text,#111)] hover:bg-surface-light"
+              >
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 6l12 12M6 18L18 6"/></svg>
+                Limpiar filtros
+              </Link>
+            ) : business.whatsappNumber ? (
               <a
                 href={`https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(`Hola, me interesa comprar en ${business.name}.`)}`}
                 target="_blank"
@@ -353,7 +382,8 @@ export default async function StorePage({
           </div>
         ) : (
           <>
-            <div className="mt-6 grid grid-cols-1 gap-5 min-[420px]:grid-cols-2 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4 lg:gap-8">
+            <CommerceErrorBoundary>
+            <div id="catalogo" className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 lg:grid-cols-3 lg:gap-10">
               {products.map((product, idx) => (
                 <ProductCard
                   key={product.id}
@@ -367,6 +397,7 @@ export default async function StorePage({
                 />
               ))}
             </div>
+            </CommerceErrorBoundary>
 
             {totalPages > 1 ? (
               <div className="mt-10">
@@ -378,7 +409,7 @@ export default async function StorePage({
 
         <RecentlyViewedRail siteSlug={site} locale={locale} />
       </main>
-      <QuizFab href={`/s/${locale}/${site}/quiz`} />
+      {getConfig(site).showQuizFab ? <QuizFab href={`/s/${locale}/${site}/quiz`} /> : null}
       <CommerceChrome siteSlug={site} locale={locale as Locale} />
     </div>
   )

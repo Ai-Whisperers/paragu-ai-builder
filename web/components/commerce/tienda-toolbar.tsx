@@ -4,88 +4,17 @@ import { useState, useTransition } from 'react'
 import { useRouter, useSearchParams, usePathname } from 'next/navigation'
 import type { ProductSort } from '@/lib/commerce/products'
 import { cn } from '@/lib/utils'
+import { getConfig } from '@/lib/commerce/tenant-config'
 
-interface Props {
-  initialQuery: string
-  initialSort: ProductSort
-  resultCount: number
-  totalCount: number
-  /** Active category filter (empty string = all). Deprecated — use initialCategories. */
-  initialCategory: string
-  /** Active categories (multi-select). Empty array = all. */
-  initialCategories: string[]
-  /** Distinct categories offered (from DB). */
-  availableCategories: string[]
-  /** Product counts per category for faceted display. */
-  categoryCounts?: Record<string, number>
-  /** Active brand filters (multi). */
-  initialBrands: string[]
-  /** Distinct brands offered by the tenant. */
-  availableBrands: string[]
-  /** Active tag filters (must all match). */
-  initialTags: string[]
-  /** Distinct tags across active products. */
-  availableTags: string[]
-  /** Price bounds in cents, active filter (0 = no bound). */
-  initialMinPrice: number
-  initialMaxPrice: number
-  initialInStockOnly: boolean
-  initialOnSaleOnly: boolean
-  /** Current page size. Defaults to 12. */
-  initialPerPage: number
+const CATEGORY_ICONS: Record<string, string> = {
+  Camping: '\u{1F3D4}\uFE0F',
+  Pesca: '\u{1F3A3}',
+  'Acc. Personales': '\u{1F392}',
+  Automoviles: '\u{1F697}',
+  Motos: '\u{1F3CD}\uFE0F',
+  Campo: '\u{1F33F}',
+  'Tactico/Defensa': '\u{1F5E1}\uFE0F',
 }
-
-/**
- * Tag buckets for the filter toolbar. Flat wall of 20+ chips (which is
- * what this shop actually ships) is unnavigable; grouping them by
- * intent lets the shopper scan "what kind of filter is this" fast.
- *
- * Curated for the adult-retail niche — feel free to grow or rebalance.
- * Tags not in any bucket fall back to an "Otros" group.
- */
-const TAG_GROUPS: Array<{ id: string; label: string; tags: string[] }> = [
-  {
-    id: 'material',
-    label: 'Material',
-    tags: [
-      'silicona',
-      'base-agua',
-      'base-silicona',
-      'tela',
-      'apto-latex',
-      'apto-piel',
-      'encaje',
-    ],
-  },
-  {
-    id: 'caracteristicas',
-    label: 'Características',
-    tags: [
-      'silencioso',
-      'recargable',
-      'impermeable',
-      'larga-duracion',
-      'progresivo',
-      'sensible',
-      'estimulador',
-    ],
-  },
-  {
-    id: 'experiencia',
-    label: 'Nivel de experiencia',
-    tags: ['principiantes', 'clasico', 'sensorial', 'realista'],
-  },
-  {
-    id: 'contexto',
-    label: 'Pensado para',
-    tags: ['parejas', 'regalo', 'roleplay', 'corporal', 'kit'],
-  },
-  {
-    id: 'estilo',
-    label: 'Estilo',
-    tags: ['elegante'],
-  },
-]
 
 const SORT_OPTIONS: Array<{ value: ProductSort; label: string }> = [
   { value: 'newest', label: 'Más nuevos' },
@@ -110,6 +39,27 @@ type FilterUpdate = {
   tag?: string | null
 }
 
+interface Props {
+  siteSlug: string
+  initialQuery: string
+  initialSort: ProductSort
+  resultCount: number
+  totalCount: number
+  initialCategory: string
+  initialCategories: string[]
+  availableCategories: string[]
+  categoryCounts?: Record<string, number>
+  initialBrands: string[]
+  availableBrands: string[]
+  initialTags: string[]
+  availableTags: string[]
+  initialMinPrice: number
+  initialMaxPrice: number
+  initialInStockOnly: boolean
+  initialOnSaleOnly: boolean
+  initialPerPage: number
+}
+
 function formatPyg(cents: number): string {
   return `Gs ${new Intl.NumberFormat('es-PY').format(cents)}`
 }
@@ -120,6 +70,7 @@ function formatPyg(cents: number): string {
  * re-queries on every change. No client cache.
  */
 export function TiendaToolbar({
+  siteSlug,
   initialQuery,
   initialSort,
   resultCount,
@@ -139,6 +90,8 @@ export function TiendaToolbar({
   availableTags,
 }: Props) {
   const router = useRouter()
+  const tenantConfig = getConfig(siteSlug)
+  const TAG_GROUPS = tenantConfig.tagGroups
   const pathname = usePathname()
   const searchParams = useSearchParams()
   const [query, setQuery] = useState(initialQuery)
@@ -377,6 +330,7 @@ export function TiendaToolbar({
               cat.toLowerCase() === 'bdsm'
                 ? 'BDSM'
                 : cat.charAt(0).toUpperCase() + cat.slice(1)
+            const icon = CATEGORY_ICONS[cat] ?? ''
             return (
               <button
                 key={cat}
@@ -389,6 +343,7 @@ export function TiendaToolbar({
                     : 'border-[color:var(--border,#e5e7eb)] hover:bg-surface-light'
                 }`}
               >
+                {icon ? <span aria-hidden="true" className="mr-1">{icon}</span> : null}
                 {label}
                 {typeof count === 'number' && count >= 2 ? (
                   <span className="ml-1 opacity-70">({count})</span>

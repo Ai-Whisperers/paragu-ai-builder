@@ -8,20 +8,18 @@ import { CurrencyToggle } from './currency-toggle'
 import { HeaderSearch } from './header-search'
 import { WishlistBadge } from './wishlist-badge'
 import { DiscreetModeToggle } from './discreet-mode-toggle'
+import { getConfig } from '@/lib/commerce/tenant-config'
 
 interface Props {
   siteSlug: string
   businessName: string
-  /** Active locale slug from the URL — threaded through to cart links so
-   * `/s/pt/...` sites don't get sent back to `/s/es/...`. */
   locale?: string
-  /** Optional tenant WhatsApp number. Passed through to CartDrawer to
-   *  power the "Pedir por WhatsApp" secondary CTA. */
   whatsappNumber?: string
 }
 
 export function CommerceHeader({ siteSlug, businessName, locale = 'es', whatsappNumber }: Props) {
   const [open, setOpen] = useState(false)
+  const tenantConfig = getConfig(siteSlug)
   return (
     <>
       <header className="sticky top-0 z-30 border-b border-[color:var(--border,#e5e7eb)] bg-surface shadow-sm">
@@ -41,8 +39,8 @@ export function CommerceHeader({ siteSlug, businessName, locale = 'es', whatsapp
             >
               Mi orden
             </Link>
-            <DiscreetModeToggle />
-            <CurrencyToggle />
+            {!tenantConfig.hideDiscreetMode ? <DiscreetModeToggle /> : null}
+            {!tenantConfig.hideCurrencyToggle ? <CurrencyToggle /> : null}
             <MiniCartBadge onClick={() => setOpen(true)} />
           </nav>
         </div>

@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "type": "tool",
+      "description": "Supabase database and project management. Execute SQL, list tables, apply migrations, manage edge functions.",
+      "command": "supabase"
+    },
+    "firecrawl": {
+      "type": "tool",
+      "description": "Web scraping, search, and crawling. Scrape product pages, search for competitors, extract structured data.",
+      "command": "firecrawl"
+    }
+  },
+  "rules": [
+    "No hardcodear copy de fun4me en componentes commerce compartidos",
+    "Usar tenant-config.ts para valores per-site (trust items, category icons, thresholds)",
+    "TrustStrip defaults deben ser genericos, no de fun4me",
+    "Toda categoria nueva necesita icono en CATEGORY_STYLES en tienda-category-tiles.tsx",
+    "No agregar dependencias npm sin aprobacion explicita",
+    "Prefer Server Components sobre Client Components cuando no se necesita interactividad",
+    "Los filtros de tienda deben ser URL-driven (no estado cliente)"
+  ]
+}

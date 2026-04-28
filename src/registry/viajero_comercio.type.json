@@ -41,7 +41,8 @@
         "accesorios-personales",
         "automoviles",
         "motos",
-        "campo-granja"
+        "campo-granja",
+        "tactico-defensa"
       ]
     },
     "gallery": { "enabled": true },
@@ -76,11 +77,13 @@
   "seo": {
     "schemaType": "Store",
     "titleTemplate": "{{businessName}} - Camping, Pesca y Aventura en {{city}}",
-    "descriptionTemplate": "Todo para tu aventura: camping, pesca, accesorios para auto y moto, y mas. Visitanos en {{city}} o pedi por WhatsApp.",
+    "descriptionTemplate": "Todo para tu aventura: camping, pesca, equipo tactico, accesorios para auto y moto. Visitanos en {{city}} o pedi por WhatsApp.",
     "keywords": [
       "camping {{city}}",
       "pesca {{city}}",
       "articulos de camping {{city}}",
+      "equipo tactico {{city}}",
+      "defensa personal {{city}}",
       "accesorios outdoor {{city}}",
       "el viajero {{city}}"
     ]
@@ -100,7 +103,7 @@
   "hero": {
     "style": "image",
     "headlineTemplate": "{{businessName}} - Tu Aventura Empieza Aca",
-    "subheadlineTemplate": "Camping, pesca, accesorios para auto y moto, equipo outdoor. Todo lo que necesitas para tu proxima aventura en {{city}}.",
+    "subheadlineTemplate": "Camping, pesca, equipo tactico, accesorios para auto y moto. Todo lo que necesitas para tu proxima aventura en {{city}}.",
     "ctaPrimary": {
       "text": "Ver Catalogo",
       "action": "scrollTo:productCatalog"

@@ -460,63 +460,76 @@ export default {
   "footer": {
     "businessName": "Nexa Paraguay",
     "city": "Asunción",
+    "columns": [
+      {
+        "links": [
+          {
+            "href": "/s/de/nexa-paraguay/programas",
+            "label": "Programs"
+          },
+          {
+            "href": "/s/de/nexa-paraguay/proceso",
+            "label": "Process"
+          },
+          {
+            "href": "/s/de/nexa-paraguay/por-que-paraguay",
+            "label": "Why Paraguay"
+          },
+          {
+            "href": "/s/de/nexa-paraguay/calidad-de-vida",
+            "label": "Quality of life"
+          }
+        ],
+        "title": "Services"
+      },
+      {
+        "links": [
+          {
+            "href": "/s/de/nexa-paraguay/blog",
+            "label": "Blog"
+          },
+          {
+            "href": "/s/de/nexa-paraguay/glosario",
+            "label": "Glossary"
+          },
+          {
+            "href": "/s/de/nexa-paraguay/recursos",
+            "label": "Resources"
+          },
+          {
+            "href": "/s/de/nexa-paraguay/prensa",
+            "label": "Press"
+          }
+        ],
+        "title": "Resources"
+      },
+      {
+        "links": [
+          {
+            "href": "/s/de/nexa-paraguay/sobre",
+            "label": "About"
+          },
+          {
+            "href": "/s/de/nexa-paraguay/faq",
+            "label": "FAQ"
+          },
+          {
+            "href": "/s/de/nexa-paraguay/privacidad",
+            "label": "Privacy"
+          },
+          {
+            "href": "/s/de/nexa-paraguay/benelux",
+            "label": "Benelux desk"
+          }
+        ],
+        "title": "Company"
+      }
+    ],
     "copyright": "© {year} Nexa Paraguay. Alle Rechte vorbehalten.",
     "email": "hola@nexaparaguay.com",
     "instagram": "https://instagram.com/nexaparaguay",
-    "navLinks": [
-      {
-        "href": "/s/de/nexa-paraguay/programas",
-        "label": "Programme"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/proceso",
-        "label": "Ablauf"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/sobre",
-        "label": "Über"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/privacidad",
-        "label": "Datenschutz"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/faq",
-        "label": "FAQ"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/blog",
-        "label": "Blog"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/contacto",
-        "label": "Kontakt"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/por-que-paraguay",
-        "label": "Warum Paraguay"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/benelux",
-        "label": "Benelux Desk"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/calidad-de-vida",
-        "label": "Lebensqualität"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/glosario",
-        "label": "Glossar"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/recursos",
-        "label": "Ressourcen"
-      },
-      {
-        "href": "/s/de/nexa-paraguay/prensa",
-        "label": "Presse"
-      }
-    ],
+    "navLinks": [],
+    "phone": "",
     "siblingSites": [
       {
         "defaultLocale": "nl",

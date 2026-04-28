@@ -51,13 +51,24 @@ const PANELS_ADULT: Array<{ title: string; body: string }> = [
 const PANELS_GENERIC: Array<{ title: string; body: string }> = [
   {
     title: 'Cuidado y mantenimiento',
-    body: 'Seguí las indicaciones específicas de la etiqueta del producto.',
+    body:
+      'Seguí las instrucciones del fabricante. ' +
+      'Guardá el producto en un lugar seco y fresco, ' +
+      'protegido del polvo y la luz directa del sol.',
   },
   {
     title: 'Envío y cambios',
     body:
       'Despachamos dentro de las 24hs hábiles. ' +
-      'Tenés 7 días para cambios si viene sin uso o con defecto.',
+      'Envío gratis en compras desde Gs. 300.000 para Asunción y área metropolitana. ' +
+      'Tenés 7 días para cambios si el producto está sin uso, en su empaque original.',
+  },
+  {
+    title: 'Formas de pago',
+    body:
+      'Aceptamos efectivo (Gs. / USD), transferencia bancaria, ' +
+      'tarjetas de crédito y débito (Bancard), Mercado Pago y Pagopar. ' +
+      'Consultá por financiación sin interés.',
   },
 ]
 

@@ -218,13 +218,24 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
               ¡Últimas {product.inventoryQty}!
             </span>
           ) : null}
+
+          {/* Free shipping badge — bottom center, only for PYG products
+              at or above the free-shipping threshold (Gs. 300.000). */}
+          {!outOfStock && product.currency === 'PYG' && product.priceCents >= 300000 ? (
+            <span className="absolute bottom-12 left-1/2 -translate-x-1/2 inline-flex items-center gap-1 rounded-full bg-emerald-600/90 px-2.5 py-0.5 text-[10px] font-semibold text-white shadow-sm backdrop-blur-sm">
+              <svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 17h14M5 12h14M5 7h14"/></svg>
+              Envío gratis
+            </span>
+          ) : null}
         </div>
       </Link>
 
       <div className="mt-3 flex flex-1 flex-col">
-        {/* Title — quiet, single-focus. The buyer reads this once to
-            confirm they're looking at the right thing, then eyes drop to
-            the decision unit (price + CTA) below. */}
+        {product.brand ? (
+          <p className="text-[11px] font-semibold uppercase tracking-wider text-[color:var(--text-muted,#6b7280)]">
+            {product.brand}
+          </p>
+        ) : null}
         <h3 className="text-sm font-medium leading-snug text-[color:var(--text,#111)] line-clamp-2">
           {highlight ? <Highlight text={product.name} term={highlight} /> : product.name}
         </h3>
@@ -232,6 +243,8 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
           <div className="mt-1">
             <ReviewStars rating={reviewAggregate.avg} count={reviewAggregate.count} size="sm" />
           </div>
+        ) : !product.isSeed ? (
+          <p className="mt-1 text-[11px] text-[color:var(--text-muted,#9ca3af)]">Nuevo · Se el primero en opinar</p>
         ) : null}
 
         {/* Decision unit — price + CTA as one visual block separated from

@@ -197,6 +197,7 @@ export default async function CategoryPage({
 
         <TiendaToolbar
           initialQuery={search}
+          siteSlug={site}
           initialSort={sortKey}
           resultCount={products.length}
           totalCount={totalCount}

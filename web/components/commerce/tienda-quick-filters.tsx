@@ -17,34 +17,34 @@ interface QuickFilter {
  * sets or clears a handful of params in one click — no separate state.
  * When a chip is already "active", clicking it clears its params.
  */
-const FILTERS: QuickFilter[] = [
+const QUICK_FILTERS: QuickFilter[] = [
   {
     key: 'on-sale',
-    label: 'En oferta',
+    label: '\u{1F525} En oferta',
     params: { on_sale: '1', min: null, max: null },
     matches: (sp) => sp.get('on_sale') === '1',
   },
   {
     key: 'under-100k',
-    label: 'Hasta Gs 100k',
+    label: '\u{1F4B0} Hasta Gs 100.000',
     params: { min: null, max: '10000000', on_sale: null },
     matches: (sp) => !sp.get('min') && sp.get('max') === '10000000',
   },
   {
     key: '100-300k',
-    label: 'Gs 100k – 300k',
+    label: '\u{1F4B0} Gs 100.000 \u2013 300.000',
     params: { min: '10000000', max: '30000000', on_sale: null },
     matches: (sp) => sp.get('min') === '10000000' && sp.get('max') === '30000000',
   },
   {
     key: 'over-300k',
-    label: 'Más de Gs 300k',
+    label: '\u{1F4B0} Gs 300.000+',
     params: { min: '30000000', max: null, on_sale: null },
     matches: (sp) => sp.get('min') === '30000000' && !sp.get('max'),
   },
   {
     key: 'in-stock',
-    label: 'Solo en stock',
+    label: '\u{2705} Solo en stock',
     params: { in_stock: '1' },
     matches: (sp) => sp.get('in_stock') === '1',
   },
@@ -76,8 +76,7 @@ export function TiendaQuickFilters() {
 
   return (
     <div className="mb-3 flex flex-wrap items-center gap-2" aria-label="Filtros rápidos">
-      <span className="text-xs font-medium text-[color:var(--text-muted,#6b7280)]">Rápido:</span>
-      {FILTERS.map((f) => {
+      {QUICK_FILTERS.map((f) => {
         const active = f.matches(searchParams)
         return (
           <button

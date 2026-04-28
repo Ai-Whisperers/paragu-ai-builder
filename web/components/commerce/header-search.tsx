@@ -160,7 +160,7 @@ export function HeaderSearch({ siteSlug, locale }: Props) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onFocus={() => setFocused(true)}
-        placeholder="Buscar…"
+        placeholder='Buscas carpa, bolsa de dormir, equipo de pesca...'
         autoComplete="off"
         className="w-32 bg-transparent text-xs outline-none placeholder:text-[color:var(--text-muted,#9ca3af)] md:w-48"
         disabled={pending}

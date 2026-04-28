@@ -3,14 +3,14 @@
   "locale": "es-PY",
   "hero": {
     "headline": "{{businessName}} - Tu Aventura Empieza Aca",
-    "subheadline": "Camping, pesca, accesorios para auto y moto, equipo outdoor. Todo lo que necesitas para tu proxima aventura en {{city}}.",
+    "subheadline": "Camping, pesca, equipo tactico, accesorios para auto y moto. Todo lo que necesitas para tu proxima aventura en {{city}}.",
     "ctaPrimary": "Ver Catalogo",
     "ctaSecondary": "Pedir por WhatsApp"
   },
   "stats": {
     "title": "El Viajero en Numeros",
     "items": [
-      { "value": "6", "label": "Categorias de Productos" },
+      { "value": "7", "label": "Categorias de Productos" },
       { "value": "+500", "label": "Productos en Stock" },
       { "value": "100%", "label": "Atencion Personalizada" },
       { "value": "Outdoor", "label": "Pasion por la Aventura" }
@@ -90,6 +90,12 @@
         "name": "Campo y Granja",
         "description": "Herramientas y accesorios para el campo, la granja y el agro.",
         "image": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=800&q=80"
+      },
+      {
+        "id": "tactico-defensa",
+        "name": "Tactico y Defensa",
+        "description": "Cuchillos tacticos, navajas multiuso, linternas tacticas, gas pimienta, bastones extensibles y equipo de defensa personal.",
+        "image": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=800&q=80"
       }
     ],
     "orderButtonText": "Consultar por WhatsApp",

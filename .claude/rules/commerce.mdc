@@ -1,0 +1,18 @@
+---
+description: "Reglas para componentes commerce en Paragu-AI Builder"
+---
+
+<rule>
+- No hardcodear copy de fun4me en componentes commerce compartidos (trust-strip, tienda-toolbar, product-finder-quiz, discreet-mode-toggle)
+- Usar `lib/commerce/tenant-config.ts` para valores per-site: trust items, category icons, thresholds, installments, feature flags
+- `TrustStrip` defaults deben ser genericos, no de fun4me
+- Toda categoria nueva necesita icono SVG en `CATEGORY_STYLES` en `tienda-category-tiles.tsx`
+- No agregar dependencias npm sin aprobacion explicita
+- Prefer Server Components sobre Client Components cuando no se necesita interactividad
+- Los filtros de tienda deben ser URL-driven (no estado cliente)
+- Siempre usar `sizes` prop en next/Image para responsive images
+- Las imagenes de producto deben estar en remotePatterns de next.config.js
+- Los productos nuevos deben tener `brand` si esta disponible en el schema
+- `isSeed: true` evita el badge "Nuevo" automatico
+- Free shipping badge en product-card: umbral Gs 300.000 para viajero-comercio
+</rule>

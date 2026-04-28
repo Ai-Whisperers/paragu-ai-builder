@@ -24,6 +24,9 @@ const CONFIG: Readonly<Record<string, Config>> = {
   // Fun4Me uses Bancard-backed Pagopar; 6 cuotas sin interés matches the
   // default Bancard merchant plan for mid-ticket retail in PY.
   fun4me: { maxCuotas: 6, minAmountCents: 5_000_000 }, // Gs 50.000 floor
+  // Viajero Comercio: higher ticket items (carpas Gs 450K, cascos 320K).
+  // 3 cuotas sin interés for Gs 100K+; no point showing it on plomadas.
+  'viajero-comercio': { maxCuotas: 3, minAmountCents: 10_000_000 }, // Gs 100.000 floor
 }
 
 export interface InstallmentDisplay {

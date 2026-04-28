@@ -551,6 +551,264 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
  * canonical kebab-case id so the renderer, hasSection, and contract tests
  * stay consistent.
  */
+
+  // === Phase 1: Paraguay-Local Essentials ===
+  'payment-methods': {
+    id: 'payment-methods',
+    defaultVariant: 'strip',
+    variants: ['strip', 'grid', 'compact'],
+  },
+  'currency-display': {
+    id: 'currency-display',
+    defaultVariant: 'toggle',
+    variants: ['toggle', 'inline', 'dropdown'],
+  },
+  'delivery-zones': {
+    id: 'delivery-zones',
+    defaultVariant: 'list',
+    variants: ['list', 'cards'],
+  },
+  'shipping-calculator': {
+    id: 'shipping-calculator',
+    defaultVariant: 'form',
+    variants: ['form', 'simple'],
+  },
+  'ruc-timbrado-display': {
+    id: 'ruc-timbrado-display',
+    defaultVariant: 'footer',
+    variants: ['footer', 'inline', 'badge'],
+  },
+  'horarios-atencion': {
+    id: 'horarios-atencion',
+    defaultVariant: 'table',
+    variants: ['table', 'list', 'badge', 'inline'],
+  },
+  'whatsapp-order-form': {
+    id: 'whatsapp-order-form',
+    defaultVariant: 'inline',
+    variants: ['inline', 'modal'],
+  },
+  // === Phase 2: Business Operations ===
+  'appointment-list': {
+    id: 'appointment-list',
+    defaultVariant: 'cards',
+    variants: ['cards', 'list'],
+  },
+  'invoice-display': {
+    id: 'invoice-display',
+    defaultVariant: 'table',
+    variants: ['table', 'card'],
+  },
+  'service-packages': {
+    id: 'service-packages',
+    defaultVariant: 'cards',
+    variants: ['cards', 'tiered'],
+  },
+  'membership-card': {
+    id: 'membership-card',
+    defaultVariant: 'card',
+    variants: ['card', 'inline', 'badge'],
+  },
+  'appointment-reminder': {
+    id: 'appointment-reminder',
+    defaultVariant: 'banner',
+    variants: ['banner', 'card', 'inline'],
+  },
+  'order-tracking': {
+    id: 'order-tracking',
+    defaultVariant: 'timeline',
+    variants: ['timeline', 'steps', 'card'],
+  },
+  'warranty-info': {
+    id: 'warranty-info',
+    defaultVariant: 'accordion',
+    variants: ['accordion', 'cards'],
+  },
+  'loyalty-progress': {
+    id: 'loyalty-progress',
+    defaultVariant: 'bar',
+    variants: ['bar', 'card', 'tier'],
+  },
+  // === Phase 3: Healthcare ===
+  'doctor-profile': {
+    id: 'doctor-profile',
+    defaultVariant: 'card',
+    variants: ['card', 'list', 'detailed'],
+  },
+  'insurance-accepted': {
+    id: 'insurance-accepted',
+    defaultVariant: 'grid',
+    variants: ['grid', 'list'],
+  },
+  'symptom-checker': {
+    id: 'symptom-checker',
+    defaultVariant: 'wizard',
+    variants: ['wizard'],
+  },
+  'health-tips-carousel': {
+    id: 'health-tips-carousel',
+    defaultVariant: 'carousel',
+    variants: ['carousel', 'grid'],
+  },
+  'telemedicine-banner': {
+    id: 'telemedicine-banner',
+    defaultVariant: 'banner',
+    variants: ['banner', 'card', 'float'],
+  },
+  // === Phase 4: Food & Beverage ===
+  'daily-menu': {
+    id: 'daily-menu',
+    defaultVariant: 'grid',
+    variants: ['grid', 'list'],
+  },
+  'online-ordering': {
+    id: 'online-ordering',
+    defaultVariant: 'inline',
+    variants: ['inline'],
+  },
+  'delivery-status': {
+    id: 'delivery-status',
+    defaultVariant: 'timeline',
+    variants: ['timeline', 'card'],
+  },
+  'nutrition-info': {
+    id: 'nutrition-info',
+    defaultVariant: 'table',
+    variants: ['table', 'cards'],
+  },
+  'reservation-form': {
+    id: 'reservation-form',
+    defaultVariant: 'standard',
+    variants: ['standard', 'compact'],
+  },
+  // === Phase 5: Education ===
+  'course-catalog': {
+    id: 'course-catalog',
+    defaultVariant: 'grid',
+    variants: ['grid', 'cards'],
+  },
+  'class-enrollment': {
+    id: 'class-enrollment',
+    defaultVariant: 'form',
+    variants: ['form', 'compact'],
+  },
+  'instructor-profile': {
+    id: 'instructor-profile',
+    defaultVariant: 'card',
+    variants: ['card', 'list'],
+  },
+  'course-progress': {
+    id: 'course-progress',
+    defaultVariant: 'bar',
+    variants: ['bar', 'steps'],
+  },
+  // === Phase 6: Real Estate ===
+  'property-detail': {
+    id: 'property-detail',
+    defaultVariant: 'gallery',
+    variants: ['gallery', 'split'],
+  },
+  'property-search': {
+    id: 'property-search',
+    defaultVariant: 'full',
+    variants: ['full', 'compact'],
+  },
+  'agent-profile': {
+    id: 'agent-profile',
+    defaultVariant: 'card',
+    variants: ['card', 'list'],
+  },
+  // === Phase 7: Automotive ===
+  'vehicle-listing': {
+    id: 'vehicle-listing',
+    defaultVariant: 'grid',
+    variants: ['grid', 'list'],
+  },
+  'service-scheduler': {
+    id: 'service-scheduler',
+    defaultVariant: 'form',
+    variants: ['form', 'compact'],
+  },
+  'part-finder': {
+    id: 'part-finder',
+    defaultVariant: 'form',
+    variants: ['form'],
+  },
+  'test-drive-form': {
+    id: 'test-drive-form',
+    defaultVariant: 'form',
+    variants: ['form', 'compact'],
+  },
+  // === Phase 8: Events ===
+  'event-calendar': {
+    id: 'event-calendar',
+    defaultVariant: 'grid',
+    variants: ['grid', 'list'],
+  },
+  'ticket-purchase': {
+    id: 'ticket-purchase',
+    defaultVariant: 'form',
+    variants: ['form'],
+  },
+  'event-detail': {
+    id: 'event-detail',
+    defaultVariant: 'hero',
+    variants: ['hero', 'split'],
+  },
+  'venue-map': {
+    id: 'venue-map',
+    defaultVariant: 'static',
+    variants: ['interactive', 'static'],
+  },
+  // === Phase 9: Agriculture ===
+  'seasonal-calendar': {
+    id: 'seasonal-calendar',
+    defaultVariant: 'grid',
+    variants: ['grid', 'list'],
+  },
+  'wholesale-inquiry': {
+    id: 'wholesale-inquiry',
+    defaultVariant: 'form',
+    variants: ['form', 'compact'],
+  },
+  'farm-gallery': {
+    id: 'farm-gallery',
+    defaultVariant: 'grid',
+    variants: ['grid'],
+  },
+  // === Phase 10: Pets ===
+  'pet-profile': {
+    id: 'pet-profile',
+    defaultVariant: 'card',
+    variants: ['card', 'list'],
+  },
+  'adoption-form': {
+    id: 'adoption-form',
+    defaultVariant: 'form',
+    variants: ['multi-step', 'form'],
+  },
+  'vet-services': {
+    id: 'vet-services',
+    defaultVariant: 'cards',
+    variants: ['cards', 'list'],
+  },
+  // === Phase 11: Admin ===
+  'analytics-dashboard': {
+    id: 'analytics-dashboard',
+    defaultVariant: 'grid',
+    variants: ['grid'],
+  },
+  'tenant-settings': {
+    id: 'tenant-settings',
+    defaultVariant: 'form',
+    variants: ['form'],
+  },
+  'content-editor': {
+    id: 'content-editor',
+    defaultVariant: 'inline',
+    variants: ['inline'],
+  },
+
 const SECTION_ALIASES: Record<string, string> = {
   blogSocialShare: 'blog-post',
   conveyorBeltStrip: 'features',
@@ -653,6 +911,51 @@ const SECTION_ALIASES: Record<string, string> = {
   programs: 'features',
   'staff-selector': 'features',
   ctaBanners: 'cta-banner',
+
+  // === New aliases ===
+  paymentMethods: 'payment-methods',
+  currencyToggle: 'currency-display',
+  deliveryZones: 'delivery-zones',
+  shippingCalculator: 'shipping-calculator',
+  rucInfo: 'ruc-timbrado-display',
+  businessHours: 'horarios-atencion',
+  whatsappOrder: 'whatsapp-order-form',
+  appointments: 'appointment-list',
+  invoices: 'invoice-display',
+  servicePackages: 'service-packages',
+  membershipCard: 'membership-card',
+  orderTracking: 'order-tracking',
+  warrantyInfo: 'warranty-info',
+  loyaltyProgress: 'loyalty-progress',
+  doctors: 'doctor-profile',
+  insuranceAccepted: 'insurance-accepted',
+  dailyMenu: 'daily-menu',
+  onlineOrdering: 'online-ordering',
+  deliveryStatus: 'delivery-status',
+  nutritionInfo: 'nutrition-info',
+  courseCatalog: 'course-catalog',
+  classEnrollment: 'class-enrollment',
+  instructorProfile: 'instructor-profile',
+  courseProgress: 'course-progress',
+  propertyDetail: 'property-detail',
+  propertySearch: 'property-search',
+  agentProfile: 'agent-profile',
+  vehicleListing: 'vehicle-listing',
+  serviceScheduler: 'service-scheduler',
+  partFinder: 'part-finder',
+  testDriveForm: 'test-drive-form',
+  eventCalendar: 'event-calendar',
+  ticketPurchase: 'ticket-purchase',
+  eventDetail: 'event-detail',
+  seasonalCalendar: 'seasonal-calendar',
+  wholesaleInquiry: 'wholesale-inquiry',
+  farmGallery: 'farm-gallery',
+  petProfile: 'pet-profile',
+  adoptionForm: 'adoption-form',
+  vetServices: 'vet-services',
+  analyticsDashboard: 'analytics-dashboard',
+  tenantSettings: 'tenant-settings',
+  contentEditor: 'content-editor',
 }
 
 export function resolveSectionAlias(id: string): string {

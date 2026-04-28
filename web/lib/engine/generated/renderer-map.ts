@@ -37,7 +37,7 @@ import { FloatingCTASection } from '@/components/sections/navigation/floating-ct
 import { HeroVideoSection } from '@/components/sections/hero/hero-video-section'
 import { BlogIndexSection } from '@/components/sections/social/blog-index-section'
 import { BlogPostSection } from '@/components/sections/social/blog-post-section'
-import { ProductCatalogSection } from '@/components/sections/commerce/product-catalog-section'
+import { buildWhatsAppUrl } from '@/components/sections/commerce/product-catalog-section'
 import { AgeGateSection } from '@/components/sections/specialty/age-gate-section'
 import { TrustBadgesSection } from '@/components/sections/hero/trust-badges-section'
 import { FooterSection } from '@/components/sections/navigation/footer-section'
@@ -116,6 +116,55 @@ import { TestimonialVideoSection } from '@/components/sections/social/testimonia
 import { TimelineHistorySection } from '@/components/sections/specialty/timeline-history-section'
 import { TrustSignalsLogosSection } from '@/components/sections/hero/trust-signals-logos-section'
 import { WeeklySchedule } from '@/components/sections/specialty/weekly-schedule-section'
+import { PaymentMethodsSection } from '@/components/sections/commerce/payment-methods-section'
+import { CurrencyDisplaySection } from '@/components/sections/commerce/currency-display-section'
+import { DeliveryZonesSection } from '@/components/sections/specialty/delivery-zones-section'
+import { ShippingCalculatorSection } from '@/components/sections/commerce/shipping-calculator-section'
+import { RucTimbradoDisplaySection } from '@/components/sections/compliance/ruc-timbrado-display-section'
+import { HorariosAtencionSection } from '@/components/sections/specialty/horarios-atencion-section'
+import { WhatsAppOrderFormSection } from '@/components/sections/commerce/whatsapp-order-form-section'
+import { AppointmentListSection } from '@/components/sections/forms/appointment-list-section'
+import { InvoiceDisplaySection } from '@/components/sections/commerce/invoice-display-section'
+import { ServicePackagesSection } from '@/components/sections/commerce/service-packages-section'
+import { MembershipCardSection } from '@/components/sections/commerce/membership-card-section'
+import { AppointmentReminderSection } from '@/components/sections/forms/appointment-reminder-section'
+import { OrderTrackingSection } from '@/components/sections/commerce/order-tracking-section'
+import { WarrantyInfoSection } from '@/components/sections/commerce/warranty-info-section'
+import { LoyaltyProgressSection } from '@/components/sections/commerce/loyalty-progress-section'
+import { DoctorProfileSection } from '@/components/sections/specialty/doctor-profile-section'
+import { InsuranceAcceptedSection } from '@/components/sections/specialty/insurance-accepted-section'
+import { SymptomCheckerSection } from '@/components/sections/forms/symptom-checker-section'
+import { HealthTipsCarouselSection } from '@/components/sections/social/health-tips-carousel-section'
+import { TelemedicineBannerSection } from '@/components/sections/hero/telemedicine-banner-section'
+import { DailyMenuSection } from '@/components/sections/specialty/daily-menu-section'
+import { OnlineOrderingSection } from '@/components/sections/commerce/online-ordering-section'
+import { DeliveryStatusSection } from '@/components/sections/commerce/delivery-status-section'
+import { NutritionInfoSection } from '@/components/sections/specialty/nutrition-info-section'
+import { ReservationFormSection } from '@/components/sections/forms/reservation-form-section'
+import { CourseCatalogSection } from '@/components/sections/specialty/course-catalog-section'
+import { ClassEnrollmentSection } from '@/components/sections/forms/class-enrollment-section'
+import { InstructorProfileSection } from '@/components/sections/specialty/instructor-profile-section'
+import { CourseProgressSection } from '@/components/sections/specialty/course-progress-section'
+import { PropertyDetailSection } from '@/components/sections/specialty/property-detail-section'
+import { PropertySearchSection } from '@/components/sections/forms/property-search-section'
+import { AgentProfileSection } from '@/components/sections/specialty/agent-profile-section'
+import { VehicleListingSection } from '@/components/sections/specialty/vehicle-listing-section'
+import { ServiceSchedulerSection } from '@/components/sections/forms/service-scheduler-section'
+import { PartFinderSection } from '@/components/sections/forms/part-finder-section'
+import { TestDriveFormSection } from '@/components/sections/forms/test-drive-form-section'
+import { EventCalendarSection } from '@/components/sections/specialty/event-calendar-section'
+import { TicketPurchaseSection } from '@/components/sections/commerce/ticket-purchase-section'
+import { EventDetailSection } from '@/components/sections/specialty/event-detail-section'
+import { VenueMapSection } from '@/components/sections/specialty/venue-map-section'
+import { SeasonalCalendarSection } from '@/components/sections/specialty/seasonal-calendar-section'
+import { WholesaleInquirySection } from '@/components/sections/forms/wholesale-inquiry-section'
+import { FarmGallerySection } from '@/components/sections/media/farm-gallery-section'
+import { PetProfileSection } from '@/components/sections/specialty/pet-profile-section'
+import { AdoptionFormSection } from '@/components/sections/forms/adoption-form-section'
+import { VetServicesSection } from '@/components/sections/specialty/vet-services-section'
+import { AnalyticsDashboardSection } from '@/components/sections/admin/analytics-dashboard-section'
+import { TenantSettingsSection } from '@/components/sections/admin/tenant-settings-section'
+import { ContentEditorSection } from '@/components/sections/admin/content-editor-section'
 
 export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   header: HeaderSection,
@@ -151,7 +200,7 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'hero-video': HeroVideoSection,
   'blog-index': BlogIndexSection,
   'blog-post': BlogPostSection,
-  'product-catalog': ProductCatalogSection,
+  'product-catalog': buildWhatsAppUrl,
   'age-gate': AgeGateSection,
   'trust-badges': TrustBadgesSection,
   footer: FooterSection,
@@ -230,4 +279,53 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'timeline-history': TimelineHistorySection,
   'trust-signals-logos': TrustSignalsLogosSection,
   'weekly-schedule': WeeklySchedule,
+  'payment-methods': PaymentMethodsSection,
+  'currency-display': CurrencyDisplaySection,
+  'delivery-zones': DeliveryZonesSection,
+  'shipping-calculator': ShippingCalculatorSection,
+  'ruc-timbrado-display': RucTimbradoDisplaySection,
+  'horarios-atencion': HorariosAtencionSection,
+  'whatsapp-order-form': WhatsAppOrderFormSection,
+  'appointment-list': AppointmentListSection,
+  'invoice-display': InvoiceDisplaySection,
+  'service-packages': ServicePackagesSection,
+  'membership-card': MembershipCardSection,
+  'appointment-reminder': AppointmentReminderSection,
+  'order-tracking': OrderTrackingSection,
+  'warranty-info': WarrantyInfoSection,
+  'loyalty-progress': LoyaltyProgressSection,
+  'doctor-profile': DoctorProfileSection,
+  'insurance-accepted': InsuranceAcceptedSection,
+  'symptom-checker': SymptomCheckerSection,
+  'health-tips-carousel': HealthTipsCarouselSection,
+  'telemedicine-banner': TelemedicineBannerSection,
+  'daily-menu': DailyMenuSection,
+  'online-ordering': OnlineOrderingSection,
+  'delivery-status': DeliveryStatusSection,
+  'nutrition-info': NutritionInfoSection,
+  'reservation-form': ReservationFormSection,
+  'course-catalog': CourseCatalogSection,
+  'class-enrollment': ClassEnrollmentSection,
+  'instructor-profile': InstructorProfileSection,
+  'course-progress': CourseProgressSection,
+  'property-detail': PropertyDetailSection,
+  'property-search': PropertySearchSection,
+  'agent-profile': AgentProfileSection,
+  'vehicle-listing': VehicleListingSection,
+  'service-scheduler': ServiceSchedulerSection,
+  'part-finder': PartFinderSection,
+  'test-drive-form': TestDriveFormSection,
+  'event-calendar': EventCalendarSection,
+  'ticket-purchase': TicketPurchaseSection,
+  'event-detail': EventDetailSection,
+  'venue-map': VenueMapSection,
+  'seasonal-calendar': SeasonalCalendarSection,
+  'wholesale-inquiry': WholesaleInquirySection,
+  'farm-gallery': FarmGallerySection,
+  'pet-profile': PetProfileSection,
+  'adoption-form': AdoptionFormSection,
+  'vet-services': VetServicesSection,
+  'analytics-dashboard': AnalyticsDashboardSection,
+  'tenant-settings': TenantSettingsSection,
+  'content-editor': ContentEditorSection,
 }

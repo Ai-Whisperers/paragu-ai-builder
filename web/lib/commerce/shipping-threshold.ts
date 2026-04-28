@@ -12,6 +12,7 @@
  */
 const THRESHOLDS: Readonly<Record<string, number>> = {
   fun4me: 20_000_000,
+  'viajero-comercio': 30_000_000, // Gs. 300.000
 }
 
 export function getFreeShippingThresholdCents(siteSlug: string): number {
