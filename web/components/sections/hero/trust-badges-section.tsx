@@ -89,7 +89,7 @@ export function TrustBadgesSection({ items, badges, title, eyebrow }: TrustBadge
         {eyebrow || title ? (
           <div className="mb-4 text-center">
             {eyebrow ? (
-              <p className="text-xs font-semibold uppercase tracking-wider text-[color:var(--text-muted,#6b7280)]">
+              <p className="text-xs font-semibold uppercase tracking-wider text-[color:var(--text-muted)]">
                 {eyebrow}
               </p>
             ) : null}
@@ -98,7 +98,7 @@ export function TrustBadgesSection({ items, badges, title, eyebrow }: TrustBadge
             ) : null}
           </div>
         ) : null}
-        <ul className="grid grid-cols-2 gap-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4 sm:grid-cols-3 md:grid-cols-4">
+        <ul className="grid grid-cols-2 gap-4 rounded-lg border border-[color:var(--border)] bg-surface p-4 sm:grid-cols-3 md:grid-cols-4">
           {list.map((b, i) => {
             const label = b.text ?? b.title ?? ''
             return (
@@ -109,7 +109,7 @@ export function TrustBadgesSection({ items, badges, title, eyebrow }: TrustBadge
                 <div>
                   <p className="font-medium text-[color:var(--text,#111)]">{label}</p>
                   {b.description ? (
-                    <p className="text-xs text-[color:var(--text-muted,#6b7280)]">{b.description}</p>
+                    <p className="text-xs text-[color:var(--text-muted)]">{b.description}</p>
                   ) : null}
                 </div>
               </li>

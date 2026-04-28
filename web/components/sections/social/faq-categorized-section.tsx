@@ -43,7 +43,7 @@ export function FaqCategorizedSection({
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder={searchPlaceholder}
-            className="w-full mb-4 px-3 py-2 border border-[var(--surface-light)] rounded bg-surface text-foreground"
+            className="w-full mb-4 px-3 py-2 border border-surface-light rounded bg-surface text-foreground"
           />
 
           {!query && (
@@ -68,7 +68,7 @@ export function FaqCategorizedSection({
             {filtered.map((item, i) => (
               <details
                 key={i}
-                className="rounded-lg bg-surface border border-[var(--surface-light)] p-3"
+                className="rounded-lg bg-surface border border-surface-light p-3"
               >
                 <summary className="cursor-pointer font-medium text-foreground">
                   {item.q}

@@ -179,7 +179,7 @@ function QuestionField({
 }) {
   const labelClasses = 'block text-sm font-medium text-foreground mb-1'
   const inputClasses =
-    'w-full border border-[var(--surface-light)] rounded-md px-3 py-2 bg-surface text-foreground'
+    'w-full border border-surface-light rounded-md px-3 py-2 bg-surface text-foreground'
 
   const label = (
     <label htmlFor={question.id} className={labelClasses}>

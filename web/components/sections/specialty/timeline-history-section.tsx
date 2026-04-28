@@ -18,7 +18,7 @@ export function TimelineHistorySection({ title = 'Nuestra historia', subtitle, m
           {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
         </div>
         <div className="max-w-3xl mx-auto">
-          <div className="relative border-l-2 border-[var(--surface-light)] pl-6 space-y-8">
+          <div className="relative border-l-2 border-surface-light pl-6 space-y-8">
             {milestones.map((m, i) => (
               <div key={i} className="relative">
                 <div

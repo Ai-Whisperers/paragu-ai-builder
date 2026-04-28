@@ -62,7 +62,7 @@ export function TrustBadges({
             return (
               <div
                 key={badge.id}
-                className="group relative rounded-2xl border border-border bg-surface p-6 text-center transition-colors hover:border-[var(--primary)]/30 hover:shadow-lg"
+                className="group relative rounded-2xl border border-border bg-surface p-6 text-center transition-colors hover:border-primary/30 hover:shadow-lg"
                 onMouseEnter={() => setHoveredBadge(badge.id)}
                 onMouseLeave={() => setHoveredBadge(null)}
               >

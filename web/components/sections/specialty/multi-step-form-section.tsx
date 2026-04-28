@@ -125,13 +125,13 @@ export function MultiStepFormSection({
                     rows={3}
                     value={answers[f.id] || ''}
                     onChange={(e) => update(f.id, e.target.value)}
-                    className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-surface"
+                    className="w-full border border-surface-light rounded px-3 py-2 bg-surface"
                   />
                 ) : f.kind === 'select' ? (
                   <select
                     value={answers[f.id] || ''}
                     onChange={(e) => update(f.id, e.target.value)}
-                    className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-surface"
+                    className="w-full border border-surface-light rounded px-3 py-2 bg-surface"
                   >
                     <option value="">—</option>
                     {(f.options || []).map((o) => (
@@ -145,7 +145,7 @@ export function MultiStepFormSection({
                     type="text"
                     value={answers[f.id] || ''}
                     onChange={(e) => update(f.id, e.target.value)}
-                    className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-surface"
+                    className="w-full border border-surface-light rounded px-3 py-2 bg-surface"
                   />
                 )}
               </div>

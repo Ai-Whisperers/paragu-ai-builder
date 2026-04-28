@@ -96,8 +96,8 @@ export function ReviewForm({ onSubmit, className }: ReviewFormProps) {
               className={cn(
                 'px-4 py-2 rounded-lg border text-sm capitalize transition-all',
                 formData.type === type
-                  ? 'border-[var(--primary)] bg-surface text-primary'
-                  : 'border-border text-muted-foreground hover:border-[var(--primary)]'
+                  ? 'border-primary bg-surface text-primary'
+                  : 'border-border text-muted-foreground hover:border-primary'
               )}
             >
               {type}

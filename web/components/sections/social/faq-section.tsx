@@ -42,7 +42,7 @@ function FAQAccordion({ item, index }: { item: FAQItem; index: number }) {
   const triggerId = `faq-trigger-${index}`
   return (
     <AnimateOnScroll stagger={index}>
-      <div className="border-b border-[var(--surface-light)]">
+      <div className="border-b border-surface-light">
         <button
           id={triggerId}
           type="button"

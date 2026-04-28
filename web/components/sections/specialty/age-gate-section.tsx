@@ -121,7 +121,7 @@ export function AgeGateSection({
         <Heading level={2} id="agegate-title" className="mb-2 text-xl font-bold text-[color:var(--text,#111)]">
           {title}
         </Heading>
-        <p id="agegate-message" className="mb-6 text-sm text-[color:var(--text-muted,#6b7280)]">
+        <p id="agegate-message" className="mb-6 text-sm text-[color:var(--text-muted)]">
           {resolvedMessage}
         </p>
         <div className="flex flex-col gap-2 sm:flex-row sm:justify-center">
@@ -134,7 +134,7 @@ export function AgeGateSection({
           </button>
           <a
             href={denyHref}
-            className="rounded-lg border border-[color:var(--border,#e5e7eb)] px-5 py-2.5 text-sm font-medium text-[color:var(--text-muted,#6b7280)] hover:bg-surface-light"
+            className="rounded-lg border border-[color:var(--border)] px-5 py-2.5 text-sm font-medium text-[color:var(--text-muted)] hover:bg-surface-light"
           >
             {denyText}
           </a>

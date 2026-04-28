@@ -135,8 +135,8 @@ ${productList}
                       className={cn(
                         'flex items-center justify-between p-3 rounded-lg border transition-all',
                         selected 
-                          ? 'border-[var(--primary)] bg-surface' 
-                          : 'border-border hover:border-[var(--primary)]'
+                          ? 'border-primary bg-surface' 
+                          : 'border-border hover:border-primary'
                       )}
                     >
                       <div>
@@ -229,8 +229,8 @@ ${productList}
                         htmlFor={freq}
                         className={cn(
                           'flex flex-col items-center justify-center rounded-lg border-2 border-border bg-background p-4',
-                          'hover:bg-surface hover:border-[var(--primary)] cursor-pointer',
-                          'peer-data-[state=checked]:border-[var(--primary)] peer-data-[state=checked]:bg-surface'
+                          'hover:bg-surface hover:border-primary cursor-pointer',
+                          'peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-surface'
                         )}
                       >
                         <Repeat className="w-5 h-5 mb-1 text-primary" />

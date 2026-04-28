@@ -194,7 +194,7 @@ export function SavingsCalculatorSection({
               <select
                 value={tierKey}
                 onChange={(e) => setTierKey(e.target.value)}
-                className="w-full rounded-lg border border-[var(--surface-light)] bg-background px-4 py-3 text-foreground focus:border-[var(--primary)] focus:outline-none"
+                className="w-full rounded-lg border border-surface-light bg-background px-4 py-3 text-foreground focus:border-primary focus:outline-none"
               >
                 {tierOptions.map((t) => (
                   <option key={t.key} value={t.key}>
@@ -210,7 +210,7 @@ export function SavingsCalculatorSection({
             <div className="space-y-3 text-sm">
               <ResultRow label={o.cashTotalLabel} value={formatGs(cashTotal)} />
               <ResultRow label={o.timeValueLabel} value={formatGs(timeValue)} />
-              <div className="border-t border-[var(--surface-light)] pt-3">
+              <div className="border-t border-surface-light pt-3">
                 <ResultRow label={o.totalTodayLabel} value={formatGs(totalToday)} bold />
               </div>
               <ResultRow label={o.ourServiceLabel} value={formatGs(ourService)} />
@@ -290,7 +290,7 @@ function NumberField({
             if (!Number.isFinite(n)) return
             onChange(n)
           }}
-          className="w-full rounded-lg border border-[var(--surface-light)] bg-background px-4 py-3 text-foreground focus:border-[var(--primary)] focus:outline-none"
+          className="w-full rounded-lg border border-surface-light bg-background px-4 py-3 text-foreground focus:border-primary focus:outline-none"
         />
         {suffix && (
           <span className="shrink-0 text-sm text-muted-foreground">{suffix}</span>

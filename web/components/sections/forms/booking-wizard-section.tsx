@@ -134,8 +134,8 @@ export function BookingWizardSection({
                       onClick={() => { setSelectedService(svc.id); setStep('staff') }}
                       className={`w-full text-left p-4 rounded-lg border transition-colors ${
                         selectedService === svc.id
-                          ? 'border-[var(--primary)] bg-primary/5'
-                          : 'border-border hover:border-[var(--primary)]'
+                          ? 'border-primary bg-primary/5'
+                          : 'border-border hover:border-primary'
                       }`}
                     >
                       <div className="font-medium">{svc.name}</div>
@@ -155,7 +155,7 @@ export function BookingWizardSection({
                 <div className="grid grid-cols-2 gap-3">
                   <button
                     onClick={() => { setSelectedStaff(null); setStep('datetime') }}
-                    className="p-4 rounded-lg border border-border hover:border-[var(--primary)] text-center"
+                    className="p-4 rounded-lg border border-border hover:border-primary text-center"
                   >
                     <div className="font-medium">Sin preferencia</div>
                     <div className="text-xs text-muted-foreground">El primero disponible</div>
@@ -165,7 +165,7 @@ export function BookingWizardSection({
                       key={s.id}
                       onClick={() => { setSelectedStaff(s.id); setStep('datetime') }}
                       className={`p-4 rounded-lg border transition-colors text-center ${
-                        selectedStaff === s.id ? 'border-[var(--primary)] bg-primary/5' : 'border-border hover:border-[var(--primary)]'
+                        selectedStaff === s.id ? 'border-primary bg-primary/5' : 'border-border hover:border-primary'
                       }`}
                     >
                       <div className="font-medium">{s.name}</div>
@@ -186,7 +186,7 @@ export function BookingWizardSection({
                       key={d}
                       onClick={() => setSelectedDate(d)}
                       className={`flex-shrink-0 p-3 rounded-lg border text-center min-w-[80px] transition-colors ${
-                        selectedDate === d ? 'border-[var(--primary)] bg-primary/5' : 'border-border hover:border-[var(--primary)]'
+                        selectedDate === d ? 'border-primary bg-primary/5' : 'border-border hover:border-primary'
                       }`}
                     >
                       <div className="text-xs text-muted-foreground">{DAYS_ES[new Date(d + 'T12:00:00').getDay()]}</div>
@@ -204,7 +204,7 @@ export function BookingWizardSection({
                         onClick={() => setSelectedTime(slot.time)}
                         className={`p-2 rounded-lg border text-sm transition-colors ${
                           !slot.available ? 'opacity-30 cursor-not-allowed' :
-                          selectedTime === slot.time ? 'border-[var(--primary)] bg-primary/5' : 'border-border hover:border-[var(--primary)]'
+                          selectedTime === slot.time ? 'border-primary bg-primary/5' : 'border-border hover:border-primary'
                         }`}
                       >
                         {slot.time}

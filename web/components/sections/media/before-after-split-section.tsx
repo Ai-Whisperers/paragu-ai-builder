@@ -34,7 +34,7 @@ export function BeforeAfterSplitSection({
         )}
 
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          <div className="rounded-lg border border-[var(--surface-light)] p-6 bg-surface">
+          <div className="rounded-lg border border-surface-light p-6 bg-surface">
             <Heading level={3} className="font-semibold text-muted-foreground mb-3">{before.label}</Heading>
             <ul className="space-y-2">
               {before.items.map((x, i) => (
@@ -45,7 +45,7 @@ export function BeforeAfterSplitSection({
               ))}
             </ul>
           </div>
-          <div className="rounded-lg border-2 border-[var(--primary)] p-6 bg-surface">
+          <div className="rounded-lg border-2 border-primary p-6 bg-surface">
             <Heading level={3} className="font-semibold text-primary mb-3">{after.label}</Heading>
             <ul className="space-y-2">
               {after.items.map((x, i) => (

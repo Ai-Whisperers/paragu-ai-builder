@@ -168,7 +168,7 @@ export function WhatsAppQuickActions({
               className={cn(
                 'flex items-center gap-2 p-3 rounded-lg text-sm transition-all duration-200',
                 'hover:bg-surface border border-transparent',
-                selectedAction === template.id && 'border-[var(--primary)] bg-surface',
+                selectedAction === template.id && 'border-primary bg-surface',
                 'text-foreground hover:text-primary'
               )}
               onClick={() => setSelectedAction(template.id)}

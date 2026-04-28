@@ -97,7 +97,7 @@ export function PackagesSection({
                 key={pkg.id}
                 className={cn(
                   "relative overflow-hidden",
-                  pkg.popular && "border-2 border-[var(--primary)]"
+                  pkg.popular && "border-2 border-primary"
                 )}
               >
                 {pkg.popular && (
@@ -108,7 +108,7 @@ export function PackagesSection({
                 
                 <CardHeader className="pb-4">
                   <Heading level={3} className="text-xl font-bold">{pkg.name}</Heading>
-                  <p className="text-sm text-[var(--muted-foreground)]">{pkg.description}</p>
+                  <p className="text-sm text-muted-foreground">{pkg.description}</p>
                 </CardHeader>
                 
                 <CardContent>
@@ -117,7 +117,7 @@ export function PackagesSection({
                     <span className="text-xl sm:text-3xl font-bold text-primary">
                       {formatPrice(pkg.sale_price)}
                     </span>
-                    <span className="text-lg text-[var(--muted-foreground)] line-through">
+                    <span className="text-lg text-muted-foreground line-through">
                       {formatPrice(pkg.original_price)}
                     </span>
                     <Badge variant="secondary" className="ml-auto">
@@ -151,12 +151,12 @@ export function PackagesSection({
               {(giftCards || []).map((card) => (
                 <Card 
                   key={card.id}
-                  className="cursor-pointer hover:border-[var(--primary)] transition-colors"
+                  className="cursor-pointer hover:border-primary transition-colors"
                 >
                   <CardContent className="p-6 text-center">
                     <Gift className="w-8 h-8 mx-auto mb-3 text-primary" />
                     <div className="text-2xl font-bold">{formatPrice(card.amount)}</div>
-                    <p className="text-xs text-[var(--muted-foreground)] mt-1">
+                    <p className="text-xs text-muted-foreground mt-1">
                       {card.description}
                     </p>
                   </CardContent>
@@ -166,7 +166,7 @@ export function PackagesSection({
             
             <div className="mt-8 bg-muted rounded-lg p-6">
               <h4 className="font-semibold mb-2">&iquest;C&oacute;mo funcionan las Gift Cards?</h4>
-              <ul className="text-sm text-[var(--muted-foreground)] space-y-1">
+              <ul className="text-sm text-muted-foreground space-y-1">
                 <li>1. Selecciona el monto</li>
                 <li>2. Ingresa los datos del destinatario</li>
                 <li>3. Agrega un mensaje personalizado</li>

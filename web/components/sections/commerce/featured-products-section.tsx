@@ -69,7 +69,7 @@ export async function FeaturedProductsSection({
             <Heading level={2} id="featured-products-heading" className="text-xl sm:text-3xl font-bold text-[color:var(--text,#111)]">
               {title}
             </Heading>
-            {subtitle ? <p className="mt-1 text-[color:var(--text-muted,#6b7280)]">{subtitle}</p> : null}
+            {subtitle ? <p className="mt-1 text-[color:var(--text-muted)]">{subtitle}</p> : null}
           </div>
           <Link
             href={`/s/${locale}/${siteSlug}/tienda`}
@@ -86,7 +86,7 @@ export async function FeaturedProductsSection({
               <Link
                 key={p.id}
                 href={`/s/${locale}/${siteSlug}/producto/${p.slug}`}
-                className="group block overflow-hidden rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface transition hover:border-[color:var(--primary,#111)]"
+                className="group block overflow-hidden rounded-lg border border-[color:var(--border)] bg-surface transition hover:border-[color:var(--primary,#111)]"
               >
                 {cover?.url ? (
                   // eslint-disable-next-line @next/next/no-img-element

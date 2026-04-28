@@ -51,7 +51,7 @@ export function ServiceAreaMapZonesSection({
             {zones.map((z, i) => (
               <div
                 key={i}
-                className="rounded-lg border border-[var(--surface-light)] bg-surface p-4"
+                className="rounded-lg border border-surface-light bg-surface p-4"
               >
                 <div className="flex items-start justify-between gap-3">
                   <div>

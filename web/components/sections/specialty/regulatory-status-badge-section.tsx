@@ -105,7 +105,7 @@ export function RegulatoryStatusBadgeSection({
 function BadgeCard({ item }: { item: RegulatoryItem }) {
   const palette = STATUS_COLORS[item.status]
   return (
-    <div className="rounded-lg p-4 border border-[var(--surface-light)] bg-surface">
+    <div className="rounded-lg p-4 border border-surface-light bg-surface">
       <div className="flex items-start justify-between gap-3 mb-2">
         <div className="font-semibold text-foreground">{item.name}</div>
         <span

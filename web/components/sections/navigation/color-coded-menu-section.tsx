@@ -156,7 +156,7 @@ export function SpecialOrderSection({
   return (
     <section id="special-order" className="bg-surface py-16 sm:py-20">
       <Container size="md">
-        <div className="mx-auto max-w-5xl overflow-hidden rounded-2xl border border-[var(--primary)]/10 bg-background shadow-lg">
+        <div className="mx-auto max-w-5xl overflow-hidden rounded-2xl border border-primary/10 bg-background shadow-lg">
           <div className="grid gap-0 md:grid-cols-[1fr_1.5fr]">
             <div className="relative flex items-center justify-center bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] p-10 text-[var(--primary-foreground)]">
               <div className="relative z-10 text-center">
@@ -212,7 +212,7 @@ export function SpecialOrderSection({
               <div className="grid gap-3 sm:grid-cols-2">
                 {normalized.map((item, i) => (
                   <AnimateOnScroll key={i} stagger={i}>
-                    <div className="flex items-start gap-3 rounded-lg border border-[var(--surface-light)] p-3 transition-colors hover:border-[var(--primary)]/30 hover:bg-surface-light">
+                    <div className="flex items-start gap-3 rounded-lg border border-surface-light p-3 transition-colors hover:border-primary/30 hover:bg-surface-light">
                       <div className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">
                         {i + 1}
                       </div>

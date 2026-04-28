@@ -91,7 +91,7 @@ export async function CommerceCatalogSection({
           <Heading level={2} id="commerce-catalog-heading" className="text-xl sm:text-3xl font-bold text-[color:var(--text,#111)]">
             {title}
           </Heading>
-          {subtitle ? <p className="mt-1 text-[color:var(--text-muted,#6b7280)]">{subtitle}</p> : null}
+          {subtitle ? <p className="mt-1 text-[color:var(--text-muted)]">{subtitle}</p> : null}
         </div>
 
         <div className="grid grid-cols-2 gap-4 min-[420px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 lg:gap-6">

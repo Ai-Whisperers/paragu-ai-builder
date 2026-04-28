@@ -105,7 +105,7 @@ export function HeaderSection({
     if (!showLocaleSwitch) return null
     const wrapperClass =
       variant === 'desktop'
-        ? 'ml-3 hidden items-center gap-1 border-l border-[var(--surface-light)] pl-4 md:flex'
+        ? 'ml-3 hidden items-center gap-1 border-l border-surface-light pl-4 md:flex'
         : 'mt-4 flex items-center gap-2 border-t border-white/10 pt-4'
     return (
       <nav aria-label="Language" className={wrapperClass}>
@@ -149,7 +149,7 @@ export function HeaderSection({
       }}
     >
       <Container>
-        <div className="font-heading flex h-[70px] sm:h-20 items-center justify-between">
+        <div className="font-heading flex h-16 sm:h-20 items-center justify-between">
           {/* Logo / Name */}
           <a
             href="#"
@@ -260,7 +260,7 @@ export function HeaderSection({
             mobileOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
           )}
         >
-          <nav className="font-heading border-t border-[var(--surface-light)] py-4">
+          <nav className="font-heading border-t border-surface-light py-4">
             {enableSearch && __siteSlug ? (
               <div className="font-heading mb-3 px-1">
                 <HeaderSearch siteSlug={__siteSlug} locale={__locale ?? 'es'} />

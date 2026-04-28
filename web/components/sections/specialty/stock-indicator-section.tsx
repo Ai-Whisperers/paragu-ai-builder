@@ -112,7 +112,7 @@ export function StockIndicator({
                 variant="outline" 
                 size="sm" 
                 onClick={() => setShowNotifyForm(true)}
-                className="border-[var(--primary)] text-primary hover:bg-red-100"
+                className="border-primary text-primary hover:bg-red-100"
               >
                 <Bell className="w-4 h-4 mr-1" />
                 Avisarme cuando haya

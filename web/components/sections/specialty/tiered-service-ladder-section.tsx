@@ -73,7 +73,7 @@ export function TieredServiceLadderSection({
 
         {/* Connector line (desktop only) */}
         <div className="hidden md:block relative h-0 mb-[-1rem]">
-          <div className="absolute top-1/2 left-0 right-0 border-t-2 border-dashed border-[var(--surface-light)]" />
+          <div className="absolute top-1/2 left-0 right-0 border-t-2 border-dashed border-surface-light" />
         </div>
 
         <div className="grid gap-5 md:grid-cols-3 relative">
@@ -118,7 +118,7 @@ export function TieredServiceLadderSection({
                 )}
 
                 {tier.upgradesFromPrevious && tier.upgradesFromPrevious.length > 0 && (
-                  <div className="mb-4 pb-4 border-b border-[var(--surface-light)]">
+                  <div className="mb-4 pb-4 border-b border-surface-light">
                     <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">
                       Sube al nivel {tier.level}:
                     </p>

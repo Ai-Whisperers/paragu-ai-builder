@@ -210,8 +210,8 @@ export function MattressQuizSection({
                     className={cn(
                       'flex cursor-pointer items-center gap-3 rounded-lg border-2 p-4 transition-colors',
                       selected === opt.value
-                        ? 'border-[var(--primary)] bg-primary/5'
-                        : 'border-border hover:border-[var(--primary)]/40',
+                        ? 'border-primary bg-primary/5'
+                        : 'border-border hover:border-primary/40',
                     )}
                   >
                     <input
@@ -234,7 +234,7 @@ export function MattressQuizSection({
                 size="sm"
                 onClick={back}
                 disabled={idx === 0}
-                className="min-h-[44px]"
+                className="h-11"
               >
                 <ChevronLeft size={16} /> {labels.back}
               </Button>
@@ -243,7 +243,7 @@ export function MattressQuizSection({
                 size="md"
                 onClick={next}
                 disabled={!selected}
-                className="min-h-[44px]"
+                className="h-11"
               >
                 {isLast ? labels.submit : labels.next}
                 {!isLast && <ChevronRight size={16} />}
@@ -267,7 +267,7 @@ export function MattressQuizSection({
                   className={cn(
                     'rounded-xl border p-5 transition-transform',
                     i === 0
-                      ? 'border-[var(--primary)] bg-primary/5 md:scale-105'
+                      ? 'border-primary bg-primary/5 md:scale-105'
                       : 'border-border',
                   )}
                 >
@@ -298,7 +298,7 @@ export function MattressQuizSection({
                     variant={i === 0 ? 'primary' : 'outline'}
                     size="sm"
                     href={entry.product.ctaHref}
-                    className="min-h-[44px] w-full"
+                    className="h-11 w-full"
                   >
                     <Check size={16} /> {entry.product.ctaLabel ?? 'Consultar'}
                   </Button>
@@ -306,7 +306,7 @@ export function MattressQuizSection({
               ))}
             </div>
             <div className="mt-8 text-center">
-              <Button variant="ghost" size="sm" onClick={restart} className="min-h-[44px]">
+              <Button variant="ghost" size="sm" onClick={restart} className="h-11">
                 <RotateCcw size={16} /> {labels.restart}
               </Button>
             </div>

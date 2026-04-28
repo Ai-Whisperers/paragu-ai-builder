@@ -69,7 +69,7 @@ export function NewsletterSignupSection({
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder={placeholder}
-                  className="flex-1 border border-[var(--surface-light)] rounded px-3 py-2 bg-background"
+                  className="flex-1 border border-surface-light rounded px-3 py-2 bg-background"
                 />
                 <Button type="submit" disabled={!consent || state === 'submitting'}>
                   {state === 'submitting' ? '...' : submitLabel}

@@ -190,7 +190,7 @@ export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
                     setOpenItems([faq.id])
                     document.getElementById(`faq-${faq.id}`)?.scrollIntoView({ behavior: 'smooth' })
                   }}
-                  className="text-left p-4 bg-white rounded-lg border border-border hover:border-[var(--primary)] hover:shadow-sm transition-all"
+                  className="text-left p-4 bg-white rounded-lg border border-border hover:border-primary hover:shadow-sm transition-all"
                 >
                   <p className="font-medium text-foreground text-sm">{faq.question}</p>
                   <Badge variant="secondary" className="mt-2 text-xs">{faq.category}</Badge>
@@ -217,7 +217,7 @@ export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
                 id={`faq-${faq.id}`}
                 className={cn(
                   'overflow-hidden transition-all duration-300',
-                  openItems.includes(faq.id) ? 'border-[var(--primary)]' : 'border-border'
+                  openItems.includes(faq.id) ? 'border-primary' : 'border-border'
                 )}
               >
                 <button

@@ -87,7 +87,7 @@ export function FeaturedMenuSection({
                       {category.items.slice(0, 4).map((item, i) => (
                         <li
                           key={i}
-                          className="flex items-center justify-between gap-2 border-t border-[var(--surface-light)] pt-2 text-sm first:border-t-0 first:pt-0"
+                          className="flex items-center justify-between gap-2 border-t border-surface-light pt-2 text-sm first:border-t-0 first:pt-0"
                         >
                           <div className="flex-1">
                             <span className="font-medium text-foreground">
@@ -196,7 +196,7 @@ export function FullMenuSection({
           {categories.map((category, index) => (
             <AnimateOnScroll key={category.key} stagger={Math.min(index, 5)}>
               <div>
-                <div className="mb-6 flex items-center gap-4 border-b border-[var(--surface-light)] pb-4">
+                <div className="mb-6 flex items-center gap-4 border-b border-surface-light pb-4">
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
                     <SushiCategoryIcon category={category.key} width="28" height="28" />
                   </div>

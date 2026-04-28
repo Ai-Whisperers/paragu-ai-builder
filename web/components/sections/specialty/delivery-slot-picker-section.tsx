@@ -115,8 +115,8 @@ export function DeliverySlotPickerSection({
                     !w.available
                       ? 'bg-surface-light text-muted-foreground line-through cursor-not-allowed'
                       : selected
-                        ? 'border-[var(--primary)] bg-primary text-[var(--primary-foreground)]'
-                        : 'border-[var(--surface-light)] bg-surface hover:border-[var(--primary)]'
+                        ? 'border-primary bg-primary text-[var(--primary-foreground)]'
+                        : 'border-surface-light bg-surface hover:border-primary'
                   }`}
                 >
                   {w.from} – {w.to}

@@ -139,7 +139,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
       {tiers.map((tier, idx) => (
         <AnimateOnScroll key={tier.id} stagger={((idx % 4) + 1) as 1 | 2 | 3 | 4}>
           <article className={cn('relative flex h-full flex-col overflow-hidden rounded-2xl transition-all duration-300',
-              tier.highlighted ? 'bg-surface shadow-xl ring-2 ring-[var(--secondary)]' : 'bg-surface shadow-md hover:shadow-lg border border-[var(--surface-light)]'
+              tier.highlighted ? 'bg-surface shadow-xl ring-2 ring-[var(--secondary)]' : 'bg-surface shadow-md hover:shadow-lg border border-surface-light'
             )} style={{ boxShadow: tier.highlighted ? '0 20px 50px -12px rgba(184, 134, 11, 0.25)' : undefined }}>
             {tier.badge && (
               <div className="font-heading text-primary absolute -top-4 left-1/2 -translate-x-1/2 z-10">
@@ -245,7 +245,7 @@ function MatrixTable({ tiers, rows, featureLabel }: { tiers: ProgramTier[]; rows
             <th className="font-heading text-primary p-4 sm:p-6">&nbsp;</th>
             {tiers.map((t) => (
               <td key={t.id} className="font-heading text-primary p-4 sm:p-6">
-                <Button variant="primary" size="sm" href={t.ctaHref} className="font-heading text-primary min-h-[44px] px-6">{t.ctaLabel}</Button>
+                <Button variant="primary" size="sm" href={t.ctaHref} className="font-heading text-primary h-11 px-6">{t.ctaLabel}</Button>
               </td>
             ))}
           </tr>

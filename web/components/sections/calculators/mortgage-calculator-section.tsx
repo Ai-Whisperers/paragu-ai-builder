@@ -75,7 +75,7 @@ export function MortgageCalculatorSection({
                 type="number"
                 value={principal}
                 onChange={(e) => setPrincipal(Number(e.target.value) || 0)}
-                className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-background"
+                className="w-full border border-surface-light rounded px-3 py-2 bg-background"
               />
             </div>
 
@@ -85,7 +85,7 @@ export function MortgageCalculatorSection({
                 <select
                   value={years}
                   onChange={(e) => setYears(Number(e.target.value))}
-                  className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-background"
+                  className="w-full border border-surface-light rounded px-3 py-2 bg-background"
                 >
                   {termYearsOptions.map((y) => (
                     <option key={y} value={y}>
@@ -102,7 +102,7 @@ export function MortgageCalculatorSection({
                   onChange={(e) =>
                     setRatePreset(ratePresets.find((r) => r.label === e.target.value) || ratePresets[0])
                   }
-                  className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-background"
+                  className="w-full border border-surface-light rounded px-3 py-2 bg-background"
                 >
                   {ratePresets.map((r) => (
                     <option key={r.label} value={r.label}>
@@ -113,7 +113,7 @@ export function MortgageCalculatorSection({
               </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-3 pt-4 border-t border-[var(--surface-light)] text-center">
+            <div className="grid grid-cols-3 gap-3 pt-4 border-t border-surface-light text-center">
               <div>
                 <div className="text-xs text-muted-foreground">Cuota mensual</div>
                 <div className="text-xl font-bold text-primary">

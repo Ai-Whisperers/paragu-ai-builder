@@ -91,7 +91,7 @@ export function WeeklySchedule({ classes, onBookClass }: WeeklyScheduleProps) {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div>
           <Heading level={2} className="text-xl sm:text-3xl font-bold">Horario de Clases</Heading>
-          <p className="text-[var(--muted-foreground)] mt-1">
+          <p className="text-muted-foreground mt-1">
             Reserva tu lugar en nuestras clases grupales
           </p>
         </div>
@@ -138,7 +138,7 @@ export function WeeklySchedule({ classes, onBookClass }: WeeklyScheduleProps) {
               {/* Classes */}
               <div className="space-y-2 mt-2">
                 {dayClasses.length === 0 ? (
-                  <div className="text-center py-8 text-sm text-[var(--muted-foreground)]">
+                  <div className="text-center py-8 text-sm text-muted-foreground">
                     Sin clases
                   </div>
                 ) : (
@@ -167,21 +167,21 @@ export function WeeklySchedule({ classes, onBookClass }: WeeklyScheduleProps) {
                             </Badge>
                           </div>
                           
-                          <div className="text-xs text-[var(--muted-foreground)] mb-2">
+                          <div className="text-xs text-muted-foreground mb-2">
                             {formatTime(cls.start_time)} · {cls.duration_minutes} min
                           </div>
                           
                           <div className="flex items-center justify-between">
-                            <span className="text-xs text-[var(--muted-foreground)]">
+                            <span className="text-xs text-muted-foreground">
                               {cls.instructor_name}
                             </span>
                             
                             {/* Capacity indicator */}
                             <div className="flex items-center gap-1">
-                              <Users className="w-3 h-3 text-[var(--muted-foreground)]" />
+                              <Users className="w-3 h-3 text-muted-foreground" />
                               <span className={cn(
                                 "text-xs",
-                                availabilityPercent >= 90 ? "text-primary" : "text-[var(--muted-foreground)]"
+                                availabilityPercent >= 90 ? "text-primary" : "text-muted-foreground"
                               )}>
                                 {cls.current_bookings}/{cls.max_capacity}
                               </span>

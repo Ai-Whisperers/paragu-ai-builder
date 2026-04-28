@@ -123,7 +123,7 @@ export function SuccessStories({
                 onClick={() => setActiveStory(idx)}
                 className={`group w-full text-left transition-all ${
                   activeStory === idx
-                    ? 'rounded-2xl border-2 border-[var(--primary)] bg-surface p-4'
+                    ? 'rounded-2xl border-2 border-primary bg-surface p-4'
                     : 'rounded-2xl border border-border bg-surface p-4 opacity-70 hover:opacity-100'
                 }`}
               >

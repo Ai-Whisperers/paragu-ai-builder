@@ -181,7 +181,7 @@ export function PropertyListingsSection({
             <select
               value={transactionFilter}
               onChange={(e) => setTransactionFilter(e.target.value)}
-              className="px-4 py-2 rounded-lg border border-[var(--surface-light)] bg-surface text-foreground"
+              className="px-4 py-2 rounded-lg border border-surface-light bg-surface text-foreground"
             >
               <option value="all">Todas las operaciones</option>
               <option value="venta">Venta</option>
@@ -191,7 +191,7 @@ export function PropertyListingsSection({
             <select
               value={propertyTypeFilter}
               onChange={(e) => setPropertyTypeFilter(e.target.value)}
-              className="px-4 py-2 rounded-lg border border-[var(--surface-light)] bg-surface text-foreground"
+              className="px-4 py-2 rounded-lg border border-surface-light bg-surface text-foreground"
             >
               <option value="all">Todos los tipos</option>
               {propertyTypes.map((t) => (
@@ -240,7 +240,7 @@ export function PropertyListingsSection({
                   </p>
                 )}
 
-                <div className="mt-auto pt-3 flex items-center justify-between gap-2 border-t border-[var(--surface-light)]">
+                <div className="mt-auto pt-3 flex items-center justify-between gap-2 border-t border-surface-light">
                   <span className="font-bold text-primary">{property.price}</span>
                   {whatsappPhone && (
                     <Button asChild size="sm">
