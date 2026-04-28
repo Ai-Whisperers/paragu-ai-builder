@@ -56,12 +56,16 @@ export async function POST(request: Request) {
 
     if (email) {
       const name = ownerName || businessName
-      await supabase.from('tenant_users').insert({
-        business_id: business.id,
-        email: email.toLowerCase().trim(),
-        name,
-        role: 'owner',
-      }).catch(() => {})
+      try {
+        await supabase.from('tenant_users').insert({
+          business_id: business.id,
+          email: email.toLowerCase().trim(),
+          name,
+          role: 'owner',
+        })
+      } catch {
+        // invite is best-effort
+      }
     }
 
     await Promise.all([
