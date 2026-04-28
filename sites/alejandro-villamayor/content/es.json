@@ -697,6 +697,11 @@
       "title": "Contacto",
       "subtitle": "Estoy para ayudarte — consultá sin costo",
       "trustBadgesEnabled": false
+    },
+    "form": {
+      "title": "Envianos tu consulta",
+      "fields": ["name", "phone", "email", "message"],
+      "submitText": "Enviar consulta"
     }
   },
   "footer": {

@@ -1,0 +1,19 @@
+{
+  "slug": "privacidad",
+  "title": "Politica de Privacidad — Alejandro Villamayor",
+  "description": "Politica de privacidad del estudio juridico Alejandro Villamayor.",
+  "schemaType": "WebPage",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "title": "Politica de Privacidad",
+      "subtitle": "Proteccion de tus datos personales"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "solid",
+      "content": "home.cta"
+    }
+  ]
+}
