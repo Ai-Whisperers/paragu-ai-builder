@@ -61,7 +61,14 @@
     "resource-list",
     "video-embed",
     "stats-counter",
-    "logo-strip"
+    "logo-strip",
+    "album-tracklist",
+    "lyrics-display",
+    "streaming-links",
+    "epk-credits",
+    "guestbook",
+    "our-story",
+    "tech-rider"
   ],
   "defaultStarterKit": "full",
   "locales": [
