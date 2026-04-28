@@ -10,11 +10,6 @@
       "content": "productos.hero"
     },
     {
-      "id": "product-catalog",
-      "variant": "grid",
-      "content": "productos.productCatalog"
-    },
-    {
       "id": "cta-banner",
       "variant": "gradient",
       "content": "home.finalCta"
