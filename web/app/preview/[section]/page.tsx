@@ -28,7 +28,7 @@ const SECTION_CATALOG: Record<string, SectionMeta> = {
   'whatsapp-float': { id: 'whatsapp-float', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' },
   'contact-strip': { id: 'contact-strip', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' },
   'floating-cta': { id: 'floating-cta', variants: ['default', 'minimal'], defaultVariant: 'default', category: 'Navigation' },
-  'compliance-disclaimer-footer': { id: 'compliance-disclaimer-footer', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' }, { key: 'description', label: 'Descripción', type: 'textarea', value: 'Texto de ejemplo' }] },
+  'compliance-disclaimer-footer': { id: 'compliance-disclaimer-footer', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' },
   'language-selector': { id: 'language-selector', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' },
   'currency-toggle': { id: 'currency-toggle', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' },
   hero: { id: 'hero', variants: ['image', 'split', 'minimal'], defaultVariant: 'image', category: 'Hero' },
