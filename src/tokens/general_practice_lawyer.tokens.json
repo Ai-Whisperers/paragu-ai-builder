@@ -4,12 +4,12 @@
     "general_practice_lawyer": {
       "name": "Law Firm Premium",
       "colors": {
-        "primary": "#1B2A4A",
+        "primary": "#0B2F1C",
         "primaryForeground": "#FFFFFF",
         "secondary": "#C5A55A",
-        "secondaryForeground": "#1B2A4A",
+        "secondaryForeground": "#0B2F1C",
         "accent": "#C5A55A",
-        "accentForeground": "#1B2A4A",
+        "accentForeground": "#0B2F1C",
         "background": "#FFFFFF",
         "surface": "#F8F7F4",
         "surfaceLight": "#EFEDE8",

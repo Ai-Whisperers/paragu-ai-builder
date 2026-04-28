@@ -2841,10 +2841,10 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.hero",
         "id": "hero",
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80",
+        "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=85",
         "styling": {
           "background": "image",
-          "backgroundImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80",
+          "backgroundImage": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=85",
           "padding": "xl",
           "textColor": "light"
         },
@@ -2893,11 +2893,11 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "home.credentials",
-        "id": "features",
+        "id": "trust-signals",
         "styling": {
           "background": "alt"
         },
-        "variant": "three-col"
+        "variant": "credentials"
       },
       {
         "content": "home.testimonials",
@@ -10359,15 +10359,26 @@ export const CONTENT: Record<string, JsonRecord> = {
         ]
       },
       "internationalStandards": {
-        "eyebrow": "International standards",
-        "features": [
-          "Full bilingual service — English and Spanish",
-          "International-standard due diligence",
-          "Clear communication with defined timelines",
-          "Corporate structuring for global investors"
+        "eyebrow": "Strategic advantages",
+        "items": [
+          {
+            "description": "IRE 10%, the lowest in South America. Foreign-source income not taxed. No currency controls or capital repatriation restrictions.",
+            "icon": "Percent",
+            "title": "Tax Optimization"
+          },
+          {
+            "description": "International-standard due diligence, corporate structuring to isolate liabilities, and cross-border succession planning.",
+            "icon": "Shield",
+            "title": "Asset Protection"
+          },
+          {
+            "description": "Investor Pass from USD 70,000. Direct permanent residency with no temporary stage. 100% remote process. Passport in 3 years.",
+            "icon": "Passport",
+            "title": "Permanent Residency"
+          }
         ],
-        "highlight": "I work with investors from Europe, the United States, and Latin America. My practice combines deep knowledge of Paraguayan law with the service standards, confidentiality, and communication expectations of international legal practice.",
-        "title": "Global experience, local expertise"
+        "subtitle": "Three pillars that make the difference for international investors.",
+        "title": "Why invest in Paraguay with local legal counsel"
       },
       "process": {
         "steps": [
@@ -10486,27 +10497,27 @@ export const CONTENT: Record<string, JsonRecord> = {
         "items": [
           {
             "author": "Marcelo R.",
-            "quote": "Alejandro structured my investment under Law 60/90 and managed the entire Investor Pass process in record time. I had my permanent residency in 3 months without needing to travel. His knowledge of Paraguayan law was decisive.",
+            "quote": "Alejandro structured my investment under Law 60/90 and managed the entire Investor Pass process. I had my permanent residency in 3 months without needing to travel. His knowledge of Paraguayan law was decisive.",
             "rating": 5,
-            "role": "Investor, Tech Sector"
+            "role": "CTO · SaaS Company · Investor Pass Client"
           },
           {
             "author": "Carolina D.",
             "quote": "We needed to restructure a joint venture with a Brazilian partner. Alejandro resolved a contractual situation that had been stalled for 8 months in just 3 weeks. Saved us USD 120,000 in legal contingencies.",
             "rating": 5,
-            "role": "CEO, Import Company"
+            "role": "CEO · Import Company (USD 8M annual revenue)"
           },
           {
             "author": "James T.",
             "quote": "I was looking at 4 properties across Asunción. Alejandro did due diligence on all, identified title risks on 2, and closed the other 2 in under 60 days. Saved me from a costly mistake.",
             "rating": 5,
-            "role": "Real Estate Investor, USA"
+            "role": "Real Estate Fund Manager · USA"
           },
           {
             "author": "Laura M.",
             "quote": "He incorporated my company in 5 business days, registered me for taxes, and explained the entire tax regime. I was invoicing the following month. Had a question on a Sunday at 9 PM — answered in 10 minutes.",
             "rating": 5,
-            "role": "Entrepreneur, E-commerce"
+            "role": "Founder · E-commerce · First-time Entrepreneur"
           }
         ],
         "title": "What clients say"
@@ -11141,15 +11152,26 @@ export const CONTENT: Record<string, JsonRecord> = {
         ]
       },
       "internationalStandards": {
-        "eyebrow": "Estándares internacionales",
-        "features": [
-          "Atención bilingüe español-inglés sin barreras",
-          "Debida diligencia con estándares internacionales",
-          "Comunicación clara y plazos definidos",
-          "Estructuración corporativa para inversores globales"
+        "eyebrow": "Ventajas estratégicas",
+        "items": [
+          {
+            "description": "IRE 10%, el más bajo de Sudamérica. Rentas de fuente extranjera no gravadas. Sin control de cambios ni restricciones a la repatriación de capitales.",
+            "icon": "Percent",
+            "title": "Optimización Tributaria"
+          },
+          {
+            "description": "Due diligence con estándares internacionales, estructuración corporativa para aislar responsabilidades, y planificación sucesoria transfronteriza.",
+            "icon": "Shield",
+            "title": "Protección Patrimonial"
+          },
+          {
+            "description": "Investor Pass desde USD 70.000. Residencia permanente directa sin etapa temporaria. Proceso 100% remoto. Pasaporte en 3 años.",
+            "icon": "Passport",
+            "title": "Residencia Permanente"
+          }
         ],
-        "highlight": "Trabajo con inversores de Europa, Estados Unidos y América Latina. Mi práctica combina el conocimiento profundo del marco legal paraguayo con estándares de servicio, confidencialidad y comunicación propios de la abogacía internacional.",
-        "title": "Experiencia global, conocimiento local"
+        "subtitle": "Tres pilares que marcan la diferencia para inversores internacionales.",
+        "title": "Por qué invertir en Paraguay con asesoría legal local"
       },
       "process": {
         "steps": [
@@ -11270,25 +11292,25 @@ export const CONTENT: Record<string, JsonRecord> = {
             "author": "Marcelo R.",
             "quote": "Alejandro estructuró mi inversión bajo la Ley 60/90 y gestionó todo el Investor Pass en tiempo récord. En 3 meses tenía mi residencia permanente sin necesidad de viajar. Su conocimiento del marco legal paraguayo y su enfoque práctico fueron determinantes.",
             "rating": 5,
-            "role": "Inversor, Sector Tecnológico"
+            "role": "CTO · Empresa de SaaS · Inversor Investor Pass"
           },
           {
             "author": "Carolina D.",
             "quote": "Necesitábamos reestructurar un joint venture con un socio brasileño. Alejandro resolvió una situación contractual compleja que llevaba 8 meses estancada en solo 3 semanas. Nos ahorró USD 120.000 en contingencias legales.",
             "rating": 5,
-            "role": "CEO, Importadora"
+            "role": "CEO · Importadora (USD 8M annual revenue)"
           },
           {
             "author": "James T.",
             "quote": "I was looking at 4 properties across Asunción and didn't know how to navigate the legal side. Alejandro did the due diligence on all of them, identified title risks on 2, and closed the other 2 in under 60 days. Saved me from a costly mistake.",
             "rating": 5,
-            "role": "Inversor Inmobiliario, EE.UU."
+            "role": "Real Estate Fund Manager · USA"
           },
           {
             "author": "Laura M.",
             "quote": "Constituyó mi EAS en 5 días hábiles, me registró en el RUC y me explicó todo el régimen tributario. Facturé al mes siguiente. Tuve una duda un domingo a las 9 pm y me respondió en 10 minutos.",
             "rating": 5,
-            "role": "Emprendedora, E-commerce"
+            "role": "Founder · E-commerce · First-time Entrepreneur"
           }
         ],
         "title": "Lo que dicen mis clientes"

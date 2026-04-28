@@ -83,14 +83,25 @@
       ]
     },
     "internationalStandards": {
-      "eyebrow": "International standards",
-      "title": "Global experience, local expertise",
-      "highlight": "I work with investors from Europe, the United States, and Latin America. My practice combines deep knowledge of Paraguayan law with the service standards, confidentiality, and communication expectations of international legal practice.",
-      "features": [
-        "Full bilingual service — English and Spanish",
-        "International-standard due diligence",
-        "Clear communication with defined timelines",
-        "Corporate structuring for global investors"
+      "eyebrow": "Strategic advantages",
+      "title": "Why invest in Paraguay with local legal counsel",
+      "subtitle": "Three pillars that make the difference for international investors.",
+      "items": [
+        {
+          "icon": "Percent",
+          "title": "Tax Optimization",
+          "description": "IRE 10%, the lowest in South America. Foreign-source income not taxed. No currency controls or capital repatriation restrictions."
+        },
+        {
+          "icon": "Shield",
+          "title": "Asset Protection",
+          "description": "International-standard due diligence, corporate structuring to isolate liabilities, and cross-border succession planning."
+        },
+        {
+          "icon": "Passport",
+          "title": "Permanent Residency",
+          "description": "Investor Pass from USD 70,000. Direct permanent residency with no temporary stage. 100% remote process. Passport in 3 years."
+        }
       ]
     },
     "services": {
@@ -190,25 +201,25 @@
       "items": [
         {
           "author": "Marcelo R.",
-          "role": "Investor, Tech Sector",
-          "quote": "Alejandro structured my investment under Law 60/90 and managed the entire Investor Pass process in record time. I had my permanent residency in 3 months without needing to travel. His knowledge of Paraguayan law was decisive.",
+          "role": "CTO · SaaS Company · Investor Pass Client",
+          "quote": "Alejandro structured my investment under Law 60/90 and managed the entire Investor Pass process. I had my permanent residency in 3 months without needing to travel. His knowledge of Paraguayan law was decisive.",
           "rating": 5
         },
         {
           "author": "Carolina D.",
-          "role": "CEO, Import Company",
+          "role": "CEO · Import Company (USD 8M annual revenue)",
           "quote": "We needed to restructure a joint venture with a Brazilian partner. Alejandro resolved a contractual situation that had been stalled for 8 months in just 3 weeks. Saved us USD 120,000 in legal contingencies.",
           "rating": 5
         },
         {
           "author": "James T.",
-          "role": "Real Estate Investor, USA",
+          "role": "Real Estate Fund Manager · USA",
           "quote": "I was looking at 4 properties across Asunción. Alejandro did due diligence on all, identified title risks on 2, and closed the other 2 in under 60 days. Saved me from a costly mistake.",
           "rating": 5
         },
         {
           "author": "Laura M.",
-          "role": "Entrepreneur, E-commerce",
+          "role": "Founder · E-commerce · First-time Entrepreneur",
           "quote": "He incorporated my company in 5 business days, registered me for taxes, and explained the entire tax regime. I was invoicing the following month. Had a question on a Sunday at 9 PM — answered in 10 minutes.",
           "rating": 5
         }

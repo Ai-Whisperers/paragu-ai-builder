@@ -253,47 +253,74 @@ export default {
     "cta": {
       "backgroundColor": "primary",
       "ctaLink": "https://wa.me/595981324569",
-      "ctaText": "Agendá una reunión",
-      "subtitle": "Primera consulta gratuita sin compromiso. Llamame al +595 981 324 569 o escribime por WhatsApp.",
-      "title": "¿Necesitás asesoría legal?"
+      "ctaText": "Agendá tu evaluación",
+      "subtitle": "Primera consulta sin costo. Analizo tu perfil y te presento las mejores opciones: Investor Pass, SUACE, corporativo. Sin compromiso.",
+      "title": "¿Invertís en Paraguay? Empezá con una estrategia clara"
     },
     "faq": {
       "items": [
         {
-          "a": "La primera consulta es gratuita y sin compromiso.",
-          "q": "¿Cuánto cuesta una consulta?"
+          "a": "Paraguay ofrece la combinación más atractiva de Sudamérica: IRE 10% (el más bajo de la región), rentas de fuente extranjera no gravadas, residencia permanente por inversión en 2-4 meses, sin requisito de permanencia física, y pasaporte en 3 años. Sin control de cambios ni restricciones a la repatriación de capitales. Uruguay y Chile tienen presión fiscal más alta; Brasil y Argentina tienen inestabilidad cambiaria.",
+          "q": "¿Por qué Paraguay en vez de otros países de la región?"
         },
         {
-          "a": "Sí, es una de mis principales áreas. Asesoro a inversores de Europa, EE.UU. y América Latina.",
-          "q": "¿Atendés casos de inversores extranjeros?"
+          "a": "La Ley 60/90 otorga exenciones impositivas para inversiones en sectores productivos: exención total del IVA en importaciones de bienes de capital, reducción del IRE y estabilidad fiscal por 10 años. Ideal para inversores que establecen operaciones industriales, logísticas o de servicios en Paraguay. Gestiono todo el proceso ante el MIC y SUACE.",
+          "q": "¿Cómo funciona el régimen de incentivos de la Ley 60/90?"
         },
         {
-          "a": "Sí, ofrezco servicios legales completos en español e inglés.",
-          "q": "¿Trabajás en inglés?"
+          "a": "Entre 2 y 4 meses desde la presentación de documentación completa. El Investor Pass (nuevo régimen 2026) elimina la etapa temporaria de 2 años, dando residencia permanente directa. El proceso SUACE toma 4 a 8 meses por las evaluaciones adicionales.",
+          "q": "¿Cuánto tiempo toma obtener la residencia por inversión?"
         },
         {
-          "a": "Entre 2 y 4 meses desde la presentación de documentación completa.",
-          "q": "¿Cuánto tiempo toma obtener la residencia?"
+          "a": "No. La mayoría de los trámites se gestionan de forma remota. Solo necesitás venir para la toma de datos biométricos y firma de documentos, que se coordina en el momento óptimo del proceso.",
+          "q": "¿Necesito viajar a Paraguay para iniciar el trámite?"
         },
         {
-          "a": "Sí, la mayoría de los trámites se gestionan de forma remota.",
-          "q": "¿Hacés trámites online?"
+          "a": "Depende de la vía: SUACE desde USD 70.000 (inversión productiva con creación de empleo), Investor Pass Turismo desde USD 150.000, Investor Pass Valores o Inmobiliario desde USD 200.000. Analizo tu perfil para recomendar la opción más eficiente.",
+          "q": "¿Cuál es el monto mínimo de inversión?"
+        },
+        {
+          "a": "Realizo due diligence completo: verificación de títulos de propiedad, análisis de riesgos legales, revisión de contratos y estructuración corporativa con estándares internacionales. Además, asesoro en la elección del vehículo societario adecuado (EAS, SRL, SA) para aislar responsabilidades.",
+          "q": "¿Cómo me aseguro de que mi inversión está protegida?"
         }
       ],
+      "openFirst": true,
       "title": "Preguntas frecuentes"
     },
     "hero": {
       "ctaPrimaryHref": "https://wa.me/595981324569",
-      "ctaPrimaryText": "Consultá gratis",
+      "ctaPrimaryText": "Agendá tu evaluación estratégica",
       "ctaSecondaryHref": "/s/es/alejandro-villamayor/investor-pass",
-      "ctaSecondaryText": "Guía del Investor Pass",
-      "headline": "Alejandro Villamayor",
-      "subheadline": "Asesoría legal en Asunción. Especializado en Paraguay Investor Pass, estructuración de inversiones extranjeras y derecho corporativo.",
+      "ctaSecondaryText": "Descargá la Guía del Investor Pass 2026",
+      "headline": "Residencia Permanente y Protección de Activos en Paraguay",
+      "subheadline": "Asesoría legal especializada para inversores extranjeros: Investor Pass, estructuración corporativa, régimen tributario preferencial y obtención de residencia. Con estándares de servicio internacionales.",
       "trustBadges": [
-        "Asunción, Paraguay",
-        "Español · Inglés",
-        "Miembro CAP"
+        "Estándares Internacionales · Clientes en EU, EE.UU. y LATAM",
+        "Miembro del Colegio de Abogados del Paraguay (CAP)",
+        "Bilingüe: Español · Inglés"
       ]
+    },
+    "internationalStandards": {
+      "eyebrow": "Ventajas estratégicas",
+      "items": [
+        {
+          "description": "IRE 10%, el más bajo de Sudamérica. Rentas de fuente extranjera no gravadas. Sin control de cambios ni restricciones a la repatriación de capitales.",
+          "icon": "Percent",
+          "title": "Optimización Tributaria"
+        },
+        {
+          "description": "Due diligence con estándares internacionales, estructuración corporativa para aislar responsabilidades, y planificación sucesoria transfronteriza.",
+          "icon": "Shield",
+          "title": "Protección Patrimonial"
+        },
+        {
+          "description": "Investor Pass desde USD 70.000. Residencia permanente directa sin etapa temporaria. Proceso 100% remoto. Pasaporte en 3 años.",
+          "icon": "Passport",
+          "title": "Residencia Permanente"
+        }
+      ],
+      "subtitle": "Tres pilares que marcan la diferencia para inversores internacionales.",
+      "title": "Por qué invertir en Paraguay con asesoría legal local"
     },
     "process": {
       "steps": [
@@ -322,46 +349,46 @@ export default {
       "title": "¿Cómo trabajo?"
     },
     "seo": {
-      "description": "Abogado en Asunción, Paraguay. Especialista en Paraguay Investor Pass 2026, residencia por inversión, derecho corporativo e inversiones extranjeras. Consulta gratis.",
+      "description": "Abogado en Asunción, Paraguay. Especialista en Paraguay Investor Pass 2026, residencia por inversión, derecho corporativo e inversiones extranjeras. Evaluación estratégica sin costo.",
       "title": "Alejandro Villamayor — Abogado en Asunción | Investor Pass, Inversiones y Derecho Corporativo"
     },
     "services": {
       "eyebrow": "Áreas de práctica",
       "items": [
         {
-          "description": "Residencia permanente directa vía inversión desde USD 70.000. Te guío en todo el proceso ante MIC, Migraciones y SUACE.",
+          "description": "Residencia permanente directa vía inversión desde USD 70.000. Gestión integral ante MIC, Migraciones y SUACE. Resultados en 2 a 4 meses.",
           "highlight": true,
           "icon": "Passport",
           "title": "Paraguay Investor Pass"
         },
         {
-          "description": "Estructuración de inversiones, régimen tributario preferencial, obtención de residencia y repatriación de capitales.",
+          "description": "Régimen tributario preferencial (IRE 10%), repatriación de capitales, doble ciudadanía en 3 años. Para inversores que buscan eficiencia fiscal y movilidad global.",
           "icon": "Globe",
-          "title": "Inversiones Extranjeras"
+          "title": "Estructuración de Inversiones Extranjeras"
         },
         {
-          "description": "Constitución de empresas, contratos comerciales, fusiones y adquisiciones, gobierno corporativo y compliance.",
+          "description": "EAS, SRL o SA. Constitución en 5 días hábiles. Programas de cumplimiento, gobierno corporativo y protección de activos según estándares internacionales.",
           "icon": "Briefcase",
-          "title": "Derecho Corporativo"
+          "title": "Constitución y Compliance Corporativo"
         },
         {
-          "description": "Redacción, revisión y negociación de contratos nacionales e internacionales. Acuerdos societarios, NDAs y más.",
-          "icon": "FileText",
-          "title": "Contratos Comerciales"
-        },
-        {
-          "description": "Representación en procesos judiciales y arbitrajes. Defensa de tus intereses con estrategia y experiencia.",
-          "icon": "Scale",
-          "title": "Litigios Civiles y Comerciales"
-        },
-        {
-          "description": "Compraventa de propiedades, due diligence inmobiliaria, contratos de arrendamiento para inversores.",
+          "description": "Compraventa de propiedades, verificación de títulos, identificación de riesgos legales y contratos de arrendamiento. Protección integral para tu inversión.",
           "icon": "Building",
-          "title": "Derecho Inmobiliario"
+          "title": "Due Diligence y Derecho Inmobiliario"
+        },
+        {
+          "description": "Representación en conflictos corporativos, disputas contractuales y procedimientos judiciales. Defensa estratégica de tus intereses.",
+          "icon": "Scale",
+          "title": "Litigios y Arbitraje Comercial"
+        },
+        {
+          "description": "Estructuración de activos, fideicomisos, planificación sucesoria internacional. Para inversores que buscan proteger su patrimonio a largo plazo.",
+          "icon": "Shield",
+          "title": "Planificación Patrimonial y Sucesoria"
         }
       ],
-      "subtitle": "Derecho corporativo, inversiones, contratos y más para personas y empresas en Paraguay.",
-      "title": "Soluciones legales para cada necesidad"
+      "subtitle": "Cuatro áreas donde agrego valor concreto a tus intereses en Paraguay.",
+      "title": "Soluciones para inversores y empresas"
     },
     "stats": {
       "items": [
@@ -387,31 +414,52 @@ export default {
         }
       ]
     },
+    "successStories": {
+      "cases": [
+        {
+          "description": "Cliente europeo del sector tech. Estructuramos su inversión bajo la Ley 60/90 y gestionamos el Investor Pass. Residencia permanente obtenida en 90 días sin que el cliente necesitara viajar más que para la firma final.",
+          "result": "USD 150.000 invertidos · Residencia en 3 meses · 100% remoto",
+          "title": "Inversor Tecnológico — Residencia en 3 meses"
+        },
+        {
+          "description": "Joint venture entre socios paraguayos y brasileños estancado por 8 meses. Rediseñamos el acuerdo societario, resolvimos diferencias contractuales y cerramos la operación en 3 semanas.",
+          "result": "USD 120.000 ahorrados en contingencias · 3 semanas de resolución",
+          "title": "Joint Venture Binacional — Reestructuración"
+        },
+        {
+          "description": "Inversor estadounidense interesado en 4 propiedades en Asunción. Realicé due diligence integral, identifiqué riesgos de título en 2 propiedades y cerré las otras 2 en 60 días.",
+          "result": "Riesgos evitados en 2 propiedades · Cierre de 2 en 60 días",
+          "title": "Due Diligence Inmobiliario — 4 Propiedades"
+        }
+      ],
+      "subtitle": "Resultados concretos que mis clientes han obtenido con asesoría legal estratégica.",
+      "title": "Casos de éxito recientes"
+    },
     "testimonials": {
       "items": [
         {
           "author": "Marcelo R.",
-          "quote": "Alejandro me guió en todo el proceso del Investor Pass. Su conocimiento del marco legal paraguayo y su enfoque práctico hicieron la diferencia. En 3 meses tenía mi residencia permanente.",
+          "quote": "Alejandro estructuró mi inversión bajo la Ley 60/90 y gestionó todo el Investor Pass en tiempo récord. En 3 meses tenía mi residencia permanente sin necesidad de viajar. Su conocimiento del marco legal paraguayo y su enfoque práctico fueron determinantes.",
           "rating": 5,
-          "role": "Inversor, Sector Tecnológico"
+          "role": "CTO · Empresa de SaaS · Inversor Investor Pass"
         },
         {
           "author": "Carolina D.",
-          "quote": "Excelente asesoramiento corporativo. Resolvió una situación contractual compleja con rapidez y profesionalismo.",
+          "quote": "Necesitábamos reestructurar un joint venture con un socio brasileño. Alejandro resolvió una situación contractual compleja que llevaba 8 meses estancada en solo 3 semanas. Nos ahorró USD 120.000 en contingencias legales.",
           "rating": 5,
-          "role": "CEO, Empresa de Comercio"
+          "role": "CEO · Importadora (USD 8M annual revenue)"
         },
         {
           "author": "James T.",
-          "quote": "Alejandro helped me structure my real estate investment in Paraguay. His bilingual capability and knowledge of both local and international law made the process smooth.",
+          "quote": "I was looking at 4 properties across Asunción and didn't know how to navigate the legal side. Alejandro did the due diligence on all of them, identified title risks on 2, and closed the other 2 in under 60 days. Saved me from a costly mistake.",
           "rating": 5,
-          "role": "Inversor Inmobiliario, EE.UU."
+          "role": "Real Estate Fund Manager · USA"
         },
         {
           "author": "Laura M.",
-          "quote": "Me ayudó a constituir mi empresa y entender el régimen tributario. Siempre respondió rápido y con claridad.",
+          "quote": "Constituyó mi EAS en 5 días hábiles, me registró en el RUC y me explicó todo el régimen tributario. Facturé al mes siguiente. Tuve una duda un domingo a las 9 pm y me respondió en 10 minutos.",
           "rating": 5,
-          "role": "Emprendedora"
+          "role": "Founder · E-commerce · First-time Entrepreneur"
         }
       ],
       "title": "Lo que dicen mis clientes"

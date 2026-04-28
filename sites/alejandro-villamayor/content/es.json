@@ -83,14 +83,25 @@
       ]
     },
     "internationalStandards": {
-      "eyebrow": "Estándares internacionales",
-      "title": "Experiencia global, conocimiento local",
-      "highlight": "Trabajo con inversores de Europa, Estados Unidos y América Latina. Mi práctica combina el conocimiento profundo del marco legal paraguayo con estándares de servicio, confidencialidad y comunicación propios de la abogacía internacional.",
-      "features": [
-        "Atención bilingüe español-inglés sin barreras",
-        "Debida diligencia con estándares internacionales",
-        "Comunicación clara y plazos definidos",
-        "Estructuración corporativa para inversores globales"
+      "eyebrow": "Ventajas estratégicas",
+      "title": "Por qué invertir en Paraguay con asesoría legal local",
+      "subtitle": "Tres pilares que marcan la diferencia para inversores internacionales.",
+      "items": [
+        {
+          "icon": "Percent",
+          "title": "Optimización Tributaria",
+          "description": "IRE 10%, el más bajo de Sudamérica. Rentas de fuente extranjera no gravadas. Sin control de cambios ni restricciones a la repatriación de capitales."
+        },
+        {
+          "icon": "Shield",
+          "title": "Protección Patrimonial",
+          "description": "Due diligence con estándares internacionales, estructuración corporativa para aislar responsabilidades, y planificación sucesoria transfronteriza."
+        },
+        {
+          "icon": "Passport",
+          "title": "Residencia Permanente",
+          "description": "Investor Pass desde USD 70.000. Residencia permanente directa sin etapa temporaria. Proceso 100% remoto. Pasaporte en 3 años."
+        }
       ]
     },
     "services": {
@@ -182,25 +193,25 @@
       "items": [
         {
           "author": "Marcelo R.",
-          "role": "Inversor, Sector Tecnológico",
+          "role": "CTO · Empresa de SaaS · Inversor Investor Pass",
           "quote": "Alejandro estructuró mi inversión bajo la Ley 60/90 y gestionó todo el Investor Pass en tiempo récord. En 3 meses tenía mi residencia permanente sin necesidad de viajar. Su conocimiento del marco legal paraguayo y su enfoque práctico fueron determinantes.",
           "rating": 5
         },
         {
           "author": "Carolina D.",
-          "role": "CEO, Importadora",
+          "role": "CEO · Importadora (USD 8M annual revenue)",
           "quote": "Necesitábamos reestructurar un joint venture con un socio brasileño. Alejandro resolvió una situación contractual compleja que llevaba 8 meses estancada en solo 3 semanas. Nos ahorró USD 120.000 en contingencias legales.",
           "rating": 5
         },
         {
           "author": "James T.",
-          "role": "Inversor Inmobiliario, EE.UU.",
+          "role": "Real Estate Fund Manager · USA",
           "quote": "I was looking at 4 properties across Asunción and didn't know how to navigate the legal side. Alejandro did the due diligence on all of them, identified title risks on 2, and closed the other 2 in under 60 days. Saved me from a costly mistake.",
           "rating": 5
         },
         {
           "author": "Laura M.",
-          "role": "Emprendedora, E-commerce",
+          "role": "Founder · E-commerce · First-time Entrepreneur",
           "quote": "Constituyó mi EAS en 5 días hábiles, me registró en el RUC y me explicó todo el régimen tributario. Facturé al mes siguiente. Tuve una duda un domingo a las 9 pm y me respondió en 10 minutos.",
           "rating": 5
         }

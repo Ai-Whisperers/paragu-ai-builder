@@ -2,7 +2,7 @@
 
 import { useRouter, useSearchParams, usePathname } from 'next/navigation'
 import { useTransition } from 'react'
-import { cn } from '@/lib/utils'
+import { PriceChip } from '@/components/ui/pill'
 
 interface QuickFilter {
   key: string
@@ -76,24 +76,15 @@ export function TiendaQuickFilters() {
 
   return (
     <div className="mb-3 flex flex-wrap items-center gap-2" aria-label="Filtros rápidos">
-      {QUICK_FILTERS.map((f) => {
+        {QUICK_FILTERS.map((f) => {
         const active = f.matches(searchParams)
         return (
-          <button
+          <PriceChip
             key={f.key}
-            type="button"
+            active={active}
             onClick={() => toggle(f)}
-            disabled={pending}
-            aria-pressed={active}
-            className={cn(
-              'rounded-full border px-3 py-1 text-xs font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] disabled:opacity-50',
-              active
-                ? 'border-[color:var(--secondary,#b8860b)] bg-[color:var(--secondary,#b8860b)] text-white'
-                : 'border-[color:var(--border,#e5e7eb)] bg-surface hover:bg-surface-light',
-            )}
-          >
-            {f.label}
-          </button>
+            label={f.label}
+          />
         )
       })}
     </div>

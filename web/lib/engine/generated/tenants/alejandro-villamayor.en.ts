@@ -46,6 +46,16 @@ export default {
     }
   },
   "contacto": {
+    "form": {
+      "fields": [
+        "name",
+        "phone",
+        "email",
+        "message"
+      ],
+      "submitText": "Send inquiry",
+      "title": "Send your inquiry"
+    },
     "hero": {
       "subtitle": "Here to help — free consultation",
       "title": "Contact",
@@ -54,6 +64,88 @@ export default {
     "seo": {
       "description": "Contact me for a free consultation. WhatsApp, phone or email.",
       "title": "Contact — Alejandro Villamayor | Lawyer in Asunción"
+    }
+  },
+  "corporativo": {
+    "areas": {
+      "eyebrow": "Practice areas",
+      "items": [
+        {
+          "description": "EAS, SRL, SA. Full support before the Public Registry.",
+          "icon": "Building2",
+          "title": "Company Incorporation"
+        },
+        {
+          "description": "Drafting and negotiation of domestic and international contracts.",
+          "icon": "FileSignature",
+          "title": "Commercial Contracts"
+        },
+        {
+          "description": "Due diligence, structuring and closing.",
+          "icon": "GitMerge",
+          "title": "Mergers & Acquisitions"
+        },
+        {
+          "description": "Compliance programs, AML and corporate ethics.",
+          "icon": "Shield",
+          "title": "Compliance"
+        }
+      ],
+      "title": "Corporate services"
+    },
+    "cta": {
+      "backgroundColor": "primary",
+      "ctaLink": "https://wa.me/595981324569",
+      "ctaText": "Schedule your evaluation",
+      "subtitle": "Free first consultation",
+      "title": "Need corporate counsel?"
+    },
+    "faq": {
+      "items": [
+        {
+          "answer": "EAS for small businesses, SRL for SMEs, SA for large enterprises.",
+          "question": "Which company type is right for me?"
+        },
+        {
+          "answer": "Contact me for a free personalized quote.",
+          "question": "How much does incorporation cost?"
+        }
+      ],
+      "title": "Corporate law FAQ"
+    },
+    "hero": {
+      "subtitle": "Comprehensive legal counsel for your business in Paraguay",
+      "title": "Corporate Law",
+      "trustBadgesEnabled": false
+    },
+    "proceso": {
+      "steps": [
+        {
+          "description": "We analyze your current situation.",
+          "icon": "Search",
+          "title": "Diagnosis"
+        },
+        {
+          "description": "Work plan with transparent costs.",
+          "icon": "FileText",
+          "title": "Proposal"
+        },
+        {
+          "description": "Implementation with defined timelines.",
+          "icon": "Zap",
+          "title": "Execution"
+        },
+        {
+          "description": "Keeping your company compliant.",
+          "icon": "RefreshCw",
+          "title": "Follow-up"
+        }
+      ],
+      "title": "How we work"
+    },
+    "seo": {
+      "description": "Corporate legal counsel in Paraguay: company incorporation, contracts, M&A and compliance.",
+      "title": "Corporate Law — Alejandro Villamayor"
     }
   },
   "faqPage": {
@@ -100,6 +192,10 @@ export default {
     ]
   },
   "home": {
+    "blogPreview": {
+      "subtitle": "Articles on Investor Pass, residency, and investing in Paraguay",
+      "title": "Guides & News"
+    },
     "contact": {
       "address": "Asunción, Paraguay",
       "city": "Asunción",
@@ -154,47 +250,74 @@ export default {
     "cta": {
       "backgroundColor": "primary",
       "ctaLink": "https://wa.me/595981324569",
-      "ctaText": "Book a meeting",
-      "subtitle": "Free first consultation. Contact me via WhatsApp or phone.",
-      "title": "Need legal advice?"
+      "ctaText": "Schedule your evaluation",
+      "subtitle": "Free first consultation. I analyze your profile and present the best options: Investor Pass, SUACE, corporate. No commitment.",
+      "title": "Investing in Paraguay? Start with a clear strategy"
     },
     "faq": {
       "items": [
         {
-          "answer": "The first consultation is free and without obligation.",
-          "question": "How much does a consultation cost?"
+          "a": "Paraguay offers the most attractive combination in South America: IRE 10% (the region's lowest), foreign-source income not taxed, investment residency in 2-4 months, no physical presence requirement, and a passport in 3 years. No currency controls or capital repatriation restrictions. Uruguay and Chile have higher tax burdens; Brazil and Argentina face currency instability.",
+          "q": "Why Paraguay over other South American markets?"
         },
         {
-          "answer": "Yes, it's one of my main practice areas.",
-          "question": "Do you handle cases for foreign investors?"
+          "a": "Law 60/90 provides tax exemptions for productive investments: full VAT exemption on capital goods imports, reduced IRE, and 10-year tax stability. Ideal for investors establishing industrial, logistics, or service operations in Paraguay. I handle the entire process before MIC and SUACE.",
+          "q": "How does the Law 60/90 incentive regime work?"
         },
         {
-          "answer": "Yes, I offer full legal services in English and Spanish.",
-          "question": "Do you work in English?"
+          "a": "Between 2 and 4 months from complete documentation submission. The Investor Pass (2026 program) eliminates the 2-year temporary stage for direct permanent residency. SUACE takes 4-8 months due to additional evaluations.",
+          "q": "How long does investment residency take?"
         },
         {
-          "answer": "Between 2 and 4 months from complete documentation.",
-          "question": "How long does the residency process take?"
+          "a": "No. Most of the process is handled remotely. You only need to come for biometrics and document signing, scheduled at the optimal point in your process.",
+          "q": "Do I need to travel to Paraguay to start?"
         },
         {
-          "answer": "Yes, most steps can be handled remotely.",
-          "question": "Can the process be done remotely?"
+          "a": "It depends on the path: SUACE from USD 70,000 (productive investment with job creation), Investor Pass Tourism from USD 150,000, Investor Pass Securities or Real Estate from USD 200,000. I analyze your profile to recommend the most efficient option.",
+          "q": "What is the minimum investment amount?"
+        },
+        {
+          "a": "I conduct complete due diligence: title verification, legal risk analysis, contract review, and corporate structuring to international standards. Additionally, I advise on the appropriate corporate vehicle (EAS, SRL, SA) to isolate liabilities.",
+          "q": "How do I ensure my investment is protected?"
         }
       ],
+      "openFirst": true,
       "title": "Frequently asked questions"
     },
     "hero": {
       "ctaPrimaryHref": "https://wa.me/595981324569",
-      "ctaPrimaryText": "Free consultation",
+      "ctaPrimaryText": "Schedule your strategic evaluation",
       "ctaSecondaryHref": "/s/en/alejandro-villamayor/investor-pass",
-      "ctaSecondaryText": "Investor Pass Guide",
-      "headline": "Alejandro Villamayor",
-      "subheadline": "Legal counsel in Asunción. Specialized in Paraguay Investor Pass, foreign investment structuring, and corporate law.",
+      "ctaSecondaryText": "Download the Investor Pass 2026 Guide",
+      "headline": "Permanent Residency & Asset Protection in Paraguay",
+      "subheadline": "Specialized legal counsel for foreign investors: Investor Pass, corporate structuring, preferential tax treatment, and residency acquisition. Delivered to international service standards.",
       "trustBadges": [
-        "Asunción, Paraguay",
-        "English · Spanish",
-        "CAP Member"
+        "International Standards · Clients in EU, US, and LATAM",
+        "Member of the Paraguayan Bar Association (CAP)",
+        "Bilingual: English · Spanish"
       ]
+    },
+    "internationalStandards": {
+      "eyebrow": "Strategic advantages",
+      "items": [
+        {
+          "description": "IRE 10%, the lowest in South America. Foreign-source income not taxed. No currency controls or capital repatriation restrictions.",
+          "icon": "Percent",
+          "title": "Tax Optimization"
+        },
+        {
+          "description": "International-standard due diligence, corporate structuring to isolate liabilities, and cross-border succession planning.",
+          "icon": "Shield",
+          "title": "Asset Protection"
+        },
+        {
+          "description": "Investor Pass from USD 70,000. Direct permanent residency with no temporary stage. 100% remote process. Passport in 3 years.",
+          "icon": "Passport",
+          "title": "Permanent Residency"
+        }
+      ],
+      "subtitle": "Three pillars that make the difference for international investors.",
+      "title": "Why invest in Paraguay with local legal counsel"
     },
     "process": {
       "steps": [
@@ -223,75 +346,226 @@ export default {
       "title": "How I work"
     },
     "seo": {
-      "description": "Lawyer in Asunción, Paraguay. Specialist in Paraguay Investor Pass 2026, investment residency, corporate law, and foreign investments. Free consultation.",
+      "description": "Lawyer in Asunción, Paraguay. Specialist in Paraguay Investor Pass 2026, investment residency, corporate law, and foreign investments. Free strategic evaluation.",
       "title": "Alejandro Villamayor — Lawyer in Asunción | Paraguay Investor Pass & Corporate Law"
     },
     "services": {
       "eyebrow": "Practice areas",
       "items": [
         {
-          "description": "Direct permanent residency via investment from USD 70,000. Full process support.",
+          "description": "Direct permanent residency via investment from USD 70,000. Full management before MIC, Immigration and SUACE. Results in 2 to 4 months.",
           "highlight": true,
           "icon": "Passport",
           "title": "Paraguay Investor Pass"
         },
         {
-          "description": "Investment structuring, tax optimization, residency, and capital repatriation.",
+          "description": "Preferential tax regime (IRE 10%), capital repatriation, dual citizenship in 3 years. For investors seeking tax efficiency and global mobility.",
           "icon": "Globe",
-          "title": "Foreign Investments"
+          "title": "Foreign Investment Structuring"
         },
         {
-          "description": "Company incorporation, commercial contracts, M&A, corporate governance and compliance.",
+          "description": "EAS, SRL or SA. Incorporation in 5 business days. Compliance programs, corporate governance, and asset protection to international standards.",
           "icon": "Briefcase",
-          "title": "Corporate Law"
+          "title": "Incorporation & Corporate Compliance"
         },
         {
-          "description": "Drafting and negotiation of domestic and international contracts.",
-          "icon": "FileText",
-          "title": "Commercial Contracts"
-        },
-        {
-          "description": "Judicial representation and arbitration.",
-          "icon": "Scale",
-          "title": "Civil & Commercial Litigation"
-        },
-        {
-          "description": "Property transactions, due diligence, lease agreements for investors.",
+          "description": "Property transactions, title verification, legal risk identification, and lease agreements. Comprehensive protection for your investment.",
           "icon": "Building",
-          "title": "Real Estate Law"
+          "title": "Due Diligence & Real Estate Law"
+        },
+        {
+          "description": "Representation in corporate disputes, contractual conflicts, and judicial proceedings. Strategic defense of your interests.",
+          "icon": "Scale",
+          "title": "Litigation & Commercial Arbitration"
+        },
+        {
+          "description": "Asset structuring, trusts, international succession planning. For investors seeking long-term asset protection.",
+          "icon": "Shield",
+          "title": "Estate & Succession Planning"
         }
       ],
-      "subtitle": "Corporate law, investments, contracts and more for individuals and businesses in Paraguay.",
-      "title": "Legal solutions for every need"
+      "subtitle": "Four areas where I deliver concrete value for your interests in Paraguay.",
+      "title": "Solutions for investors and businesses"
+    },
+    "stats": {
+      "items": [
+        {
+          "icon": "Users",
+          "label": "Satisfied clients",
+          "value": "+50"
+        },
+        {
+          "icon": "Calendar",
+          "label": "Years of experience",
+          "value": "+8"
+        },
+        {
+          "icon": "Globe",
+          "label": "Foreign investment cases",
+          "value": "+30"
+        },
+        {
+          "icon": "Award",
+          "label": "Success rate",
+          "value": "98%"
+        }
+      ]
+    },
+    "successStories": {
+      "cases": [
+        {
+          "description": "European tech sector client. We structured his investment under Law 60/90 and managed the Investor Pass. Permanent residency obtained in 90 days with the client only traveling for the final signature.",
+          "result": "USD 150,000 invested · Residency in 3 months · 100% remote",
+          "title": "Tech Investor — Residency in 3 Months"
+        },
+        {
+          "description": "Joint venture between Paraguayan and Brazilian partners stalled for 8 months. Redesigned the shareholder agreement, resolved contractual differences, and closed in 3 weeks.",
+          "result": "USD 120,000 saved in contingencies · 3-week resolution",
+          "title": "Binational Joint Venture — Restructuring"
+        },
+        {
+          "description": "US investor interested in 4 properties in Asunción. Conducted full due diligence, identified title risks on 2 properties, and closed the other 2 in 60 days.",
+          "result": "Risks avoided on 2 properties · 2 closed in 60 days",
+          "title": "Real Estate Due Diligence — 4 Properties"
+        }
+      ],
+      "subtitle": "Concrete results my clients have achieved with strategic legal counsel.",
+      "title": "Recent success stories"
     },
     "testimonials": {
       "items": [
         {
-          "content": "Alejandro guided me through the entire Investor Pass process. His knowledge of Paraguayan law and practical approach made all the difference. I had my permanent residency in 3 months.",
-          "name": "Marcelo R.",
+          "author": "Marcelo R.",
+          "quote": "Alejandro structured my investment under Law 60/90 and managed the entire Investor Pass process. I had my permanent residency in 3 months without needing to travel. His knowledge of Paraguayan law was decisive.",
           "rating": 5,
-          "role": "Investor, Tech Sector"
+          "role": "CTO · SaaS Company · Investor Pass Client"
         },
         {
-          "content": "Excellent corporate counsel. He resolved a complex contractual situation quickly and professionally.",
-          "name": "Carolina D.",
+          "author": "Carolina D.",
+          "quote": "We needed to restructure a joint venture with a Brazilian partner. Alejandro resolved a contractual situation that had been stalled for 8 months in just 3 weeks. Saved us USD 120,000 in legal contingencies.",
           "rating": 5,
-          "role": "CEO, Trading Company"
+          "role": "CEO · Import Company (USD 8M annual revenue)"
         },
         {
-          "content": "Alejandro helped me structure my real estate investment in Paraguay. His bilingual capability and knowledge of both local and international law made the process smooth.",
-          "name": "James T.",
+          "author": "James T.",
+          "quote": "I was looking at 4 properties across Asunción. Alejandro did due diligence on all, identified title risks on 2, and closed the other 2 in under 60 days. Saved me from a costly mistake.",
           "rating": 5,
-          "role": "Real Estate Investor, USA"
+          "role": "Real Estate Fund Manager · USA"
         },
         {
-          "content": "He helped me incorporate my company and understand the Paraguayan tax system. Always responsive and clear.",
-          "name": "Laura M.",
+          "author": "Laura M.",
+          "quote": "He incorporated my company in 5 business days, registered me for taxes, and explained the entire tax regime. I was invoicing the following month. Had a question on a Sunday at 9 PM — answered in 10 minutes.",
           "rating": 5,
-          "role": "Entrepreneur"
+          "role": "Founder · E-commerce · First-time Entrepreneur"
         }
       ],
       "title": "What clients say"
+    }
+  },
+  "inversiones": {
+    "beneficios": {
+      "items": [
+        {
+          "description": "IRE 10%. Foreign income not taxed.",
+          "icon": "Percent",
+          "title": "Low tax burden"
+        },
+        {
+          "description": "Stable legal framework with investment protections.",
+          "icon": "Shield",
+          "title": "Legal security"
+        },
+        {
+          "description": "Paraguayan passport in 3 years.",
+          "icon": "Globe",
+          "title": "Dual citizenship"
+        }
+      ],
+      "title": "Benefits of investing in Paraguay"
+    },
+    "cta": {
+      "backgroundColor": "primary",
+      "ctaLink": "https://wa.me/595981324569",
+      "ctaText": "Schedule your evaluation",
+      "subtitle": "Free consultation",
+      "title": "Ready to invest?"
+    },
+    "faq": {
+      "items": [
+        {
+          "answer": "From USD 70,000 via SUACE or USD 150,000 via Investor Pass.",
+          "question": "What is the minimum investment?"
+        },
+        {
+          "answer": "IRE 10%. Foreign-source income is not taxed in Paraguay.",
+          "question": "What taxes do investors pay?"
+        },
+        {
+          "answer": "Most of the process is handled remotely.",
+          "question": "Do I need to travel?"
+        }
+      ],
+      "title": "Investment FAQ"
+    },
+    "hero": {
+      "subtitle": "Invest in Paraguay with expert legal guidance.",
+      "title": "Foreign Investments",
+      "trustBadgesEnabled": false
+    },
+    "proceso": {
+      "steps": [
+        {
+          "description": "Profile assessment and strategy definition.",
+          "icon": "MessageSquare",
+          "title": "Consult"
+        },
+        {
+          "description": "Complete document preparation.",
+          "icon": "FileText",
+          "title": "Due diligence"
+        },
+        {
+          "description": "Processing with MIC, Immigration and SUACE.",
+          "icon": "Send",
+          "title": "Official filing"
+        },
+        {
+          "description": "Approval and ongoing support.",
+          "icon": "Shield",
+          "title": "Residency"
+        }
+      ],
+      "title": "Step-by-step process"
+    },
+    "seo": {
+      "description": "Legal counsel for foreign investors: structuring, tax regime, Investor Pass and residency.",
+      "title": "Foreign Investments in Paraguay — Alejandro Villamayor"
+    },
+    "vias": {
+      "eyebrow": "Investment paths",
+      "items": [
+        {
+          "description": "New 2026 program. Direct permanent residency. Three paths: tourism, securities, real estate.",
+          "icon": "TrendingUp",
+          "title": "Investor Pass — From USD 70,000"
+        },
+        {
+          "description": "From USD 70,000 with job creation. SUACE approval required.",
+          "icon": "Building",
+          "title": "SUACE — Productive Investment"
+        },
+        {
+          "description": "For regular passive income. No minimum investment.",
+          "icon": "DollarSign",
+          "title": "Income-Based Residency"
+        },
+        {
+          "description": "Tax optimization. IRE 10%. Foreign-source income not taxed.",
+          "icon": "PieChart",
+          "title": "Tax Structuring"
+        }
+      ],
+      "title": "Options to invest and obtain residency"
     }
   },
   "investorPass": {
@@ -320,10 +594,39 @@ export default {
       ],
       "title": "Benefits"
     },
+    "comparison": {
+      "rows": [
+        {
+          "monto": "USD 150,000",
+          "plazo": "2-4 months",
+          "sector": "Tourism projects",
+          "via": "Tourism"
+        },
+        {
+          "monto": "USD 200,000",
+          "plazo": "2-4 months",
+          "sector": "Bonds, stocks",
+          "via": "Securities"
+        },
+        {
+          "monto": "USD 200,000",
+          "plazo": "2-4 months",
+          "sector": "Properties",
+          "via": "Real Estate"
+        },
+        {
+          "monto": "USD 70,000+",
+          "plazo": "4-8 months",
+          "sector": "Business + jobs",
+          "via": "SUACE (Productive)"
+        }
+      ],
+      "title": "Investment path comparison"
+    },
     "cta": {
       "backgroundColor": "primary",
       "ctaLink": "https://wa.me/595981324569",
-      "ctaText": "Free consultation",
+      "ctaText": "Schedule your evaluation",
       "subtitle": "Free no-obligation consultation",
       "title": "Start your process today"
     },

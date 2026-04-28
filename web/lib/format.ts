@@ -54,7 +54,22 @@ export function formatCents(cents: number, currency = 'PYG'): string {
 
 export function formatShortDate(date: Date | string, locale = 'es-PY'): string {
   const d = typeof date === 'string' ? new Date(date) : date
+  if (!isFinite(d.getTime())) return ''
   return d.toLocaleDateString(locale, { day: 'numeric', month: 'short', year: 'numeric' })
+}
+
+export function formatRelativeDate(date: Date | string): string {
+  const d = typeof date === 'string' ? new Date(date) : date
+  if (!isFinite(d.getTime())) return ''
+  const diff = Date.now() - d.getTime()
+  const minutes = Math.floor(diff / 60000)
+  if (minutes < 1) return 'ahora'
+  if (minutes < 60) return `hace ${minutes} min`
+  const hours = Math.floor(minutes / 60)
+  if (hours < 24) return `hace ${hours}h`
+  const days = Math.floor(hours / 24)
+  if (days < 7) return `hace ${days} dias`
+  return formatShortDate(d)
 }
 
 export function formatTime(time: string, locale = 'es-PY'): string {

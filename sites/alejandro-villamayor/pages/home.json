@@ -7,12 +7,12 @@
       "id": "hero",
       "variant": "image",
       "content": "home.hero",
-      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=85",
       "styling": {
         "padding": "xl",
         "background": "image",
         "textColor": "light",
-        "backgroundImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80"
+        "backgroundImage": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=85"
       }
     },
     {
@@ -57,8 +57,8 @@
       }
     },
     {
-      "id": "features",
-      "variant": "three-col",
+      "id": "trust-signals",
+      "variant": "credentials",
       "content": "home.credentials",
       "styling": {
         "background": "alt"
