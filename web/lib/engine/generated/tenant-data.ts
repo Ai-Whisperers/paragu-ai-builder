@@ -2774,6 +2774,7 @@ export const PAGES: Record<string, JsonRecord> = {
   },
   "alejandro-villamayor:contacto": {
     "descriptionKey": "contacto.seo.description",
+    "schemaType": "ProfessionalService",
     "sections": [
       {
         "content": "contacto.hero",
@@ -2786,55 +2787,27 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "split"
       },
       {
-        "content": "ctaBanner",
-        "id": "cta-banner",
-        "variant": "gradient"
-      },
-      {
-        "content": "footer",
-        "id": "footer",
+        "content": "contacto.form",
+        "id": "lead-form",
+        "subtitle": "Te respondemos a la brevedad",
+        "title": "Envianos un mensaje",
         "variant": "standard"
       },
       {
-        "descriptionKey": "contacto.seo.description",
-        "schemaType": "ProfessionalService",
-        "sections": [
-          {
-            "content": "contacto.hero",
-            "id": "hero",
-            "variant": "minimal"
-          },
-          {
-            "content": "home.contact",
-            "id": "contact",
-            "variant": "split"
-          },
-          {
-            "content": "contacto.form",
-            "id": "lead-form",
-            "subtitle": "Te respondemos a la brevedad",
-            "title": "Envianos un mensaje",
-            "variant": "standard"
-          },
-          {
-            "content": "home.contact",
-            "id": "google-maps",
-            "variant": "default"
-          },
-          {
-            "content": "home.faq",
-            "id": "faq",
-            "title": "Preguntas Frecuentes",
-            "variant": "accordion"
-          },
-          {
-            "content": "home.cta",
-            "id": "cta-banner",
-            "variant": "gradient"
-          }
-        ],
-        "slug": "contacto",
-        "titleKey": "contacto.seo.title"
+        "content": "home.credenciales",
+        "id": "trust-signals",
+        "variant": "credentials"
+      },
+      {
+        "content": "home.faq",
+        "id": "faq",
+        "title": "Preguntas Frecuentes",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
     ],
     "slug": "contacto",

@@ -54,7 +54,13 @@ export function PricingTableSection({
   }
 
   if (!plans.length) {
-    return null
+    return (
+      <section className="bg-background py-16">
+        <Container className="text-center">
+          <p className="text-muted-foreground">Paquetes próximamente.</p>
+        </Container>
+      </section>
+    )
   }
 
   return (

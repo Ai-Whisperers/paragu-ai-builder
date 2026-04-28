@@ -99,7 +99,15 @@ export function ServicesSection({
   serviceLabels,
 }: ServicesSectionProps) {
   const services = servicesProp || items || []
-  if (services.length === 0) return null
+  if (services.length === 0) {
+    return (
+      <section className="bg-background py-16">
+        <Container size="md" className="text-center">
+          <p className="text-muted-foreground">Servicios próximamente.</p>
+        </Container>
+      </section>
+    )
+  }
 
   const labels = serviceLabels ?? SERVICE_LABELS
   const L = labels[__locale ?? 'es'] || labels.es
@@ -142,9 +150,9 @@ export function ServicesSection({
             />
           </div>
         )}
-        <div className="font-heading p-6">
-          <div className="font-heading flex items-start justify-between gap-2">
-            <Heading level={3} className="font-heading text-lg font-semibold text-foreground">
+        <div className="p-6">
+          <div className="flex items-start justify-between gap-2">
+            <Heading level={3} className="text-lg font-semibold text-foreground">
               {service.name}
             </Heading>
             {showPrices && renderPriceLabel(service, L.from) && (
@@ -154,29 +162,29 @@ export function ServicesSection({
             )}
           </div>
           {service.description && (
-            <p className="font-heading mt-1 text-sm text-muted-foreground">{service.description}</p>
+            <p className="mt-1 text-sm text-muted-foreground">{service.description}</p>
           )}
           {service.delivery && (
-            <p className="font-heading mt-3 flex items-center gap-1 text-xs text-muted-foreground">
+            <p className="mt-3 flex items-center gap-1 text-xs text-muted-foreground">
               <Clock size={12} />
               {L.delivery}: {service.delivery}
             </p>
           )}
           {showDuration && service.duration && !service.delivery && (
-            <p className="font-heading mt-3 flex items-center gap-1 text-xs text-muted-foreground">
+            <p className="mt-3 flex items-center gap-1 text-xs text-muted-foreground">
               <Clock size={12} />
               {service.duration} min
             </p>
           )}
           {service.includes && service.includes.length > 0 && (
-            <div className="font-heading mt-4">
-              <p className="font-heading text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+            <div className="mt-4">
+              <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                 {L.includes}
               </p>
-              <ul className="font-heading mt-2 space-y-1">
+              <ul className="mt-2 space-y-1">
                 {service.includes.map((item, i) => (
-                  <li key={i} className="font-heading flex gap-2 text-sm text-foreground">
-                    <span className="font-heading text-primary">•</span>
+                  <li key={i} className="flex gap-2 text-sm text-foreground">
+                    <span className="text-primary">•</span>
                     <span>{item}</span>
                   </li>
                 ))}
@@ -191,7 +199,7 @@ export function ServicesSection({
       service.href ? (
         <a
           href={service.href}
-          className="font-heading block focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--secondary)] rounded-xl"
+          className="block focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--secondary)] rounded-xl"
         >
           {inner}
         </a>
@@ -225,23 +233,23 @@ export function ServicesSection({
   }
 
   return (
-    <section id="servicios" className="font-heading bg-background py-16 sm:py-20">
+    <section id="servicios" className="bg-background py-16 sm:py-20">
       <Container size="md">
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="font-heading mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
           )}
         </AnimatedSectionHeader>
 
         {grouped ? (
           // Render grouped by category
-          <div className="font-heading space-y-12">
+          <div className="space-y-12">
             {Object.entries(grouped).map(([category, categoryServices]) => (
               <div key={category}>
                 <AnimateOnScroll>
                   <Heading level={3} 
-                    className="font-heading mb-6 text-xl font-semibold text-foreground" 
+                    className="mb-6 text-xl font-semibold text-foreground" 
                    
                   >
                     {category}
@@ -252,14 +260,14 @@ export function ServicesSection({
                   <StaggerContainer 
                     staggerDelay={100} 
                     animation="fade-up"
-                    className="font-heading grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+                    className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
                   >
                     {categoryServices.map((service, index) => (
                       <ServiceCard key={index} service={service} index={index} />
                     ))}
                   </StaggerContainer>
                 ) : (
-                  <div className="font-heading grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                     {categoryServices.map((service, index) => (
                       <AnimateOnScroll key={index} stagger={index}>
                         <ServiceCard service={service} index={index} />
@@ -276,14 +284,14 @@ export function ServicesSection({
             <StaggerContainer 
               staggerDelay={100} 
               animation="fade-up"
-              className="font-heading grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+              className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
             >
               {services.map((service, index) => (
                 <ServiceCard key={index} service={service} index={index} />
               ))}
             </StaggerContainer>
           ) : (
-            <div className="font-heading grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {services.map((service, index) => (
                 <AnimateOnScroll key={index} stagger={index}>
                   <ServiceCard service={service} index={index} />

@@ -35,9 +35,16 @@ export function renderPage(page: ResolvedPage): React.ReactNode {
       locale: page.locale,
     } as Record<string, unknown>
 
+    // Auto-alternate backgrounds for consecutive default sections
+    // to create visual depth: every section after the first gets
+    // 'alt' background unless it explicitly set one.
+    const styling = s.styling
+      ? { ...s.styling, background: (s.styling.background || (i % 2 === 1 ? 'alt' as const : 'default' as const)) }
+      : { background: (i % 2 === 1 ? 'alt' as const : 'default' as const) as 'default' | 'alt' }
+
     return (
       <SectionErrorBoundary key={`seb-${s.id}-${i}`} sectionId={s.id} index={i}>
-        <SectionWrapper key={`wrap-${s.id}-${i}`} styling={s.styling} id={s.id}>
+        <SectionWrapper key={`wrap-${s.id}-${i}`} styling={styling} id={s.id}>
           <C {...props} />
         </SectionWrapper>
       </SectionErrorBoundary>

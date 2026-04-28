@@ -22,9 +22,9 @@
       "subtitle": "Te respondemos a la brevedad"
     },
     {
-      "id": "google-maps",
-      "variant": "default",
-      "content": "home.contact"
+      "id": "trust-signals",
+      "variant": "credentials",
+      "content": "home.credenciales"
     },
     {
       "id": "faq",

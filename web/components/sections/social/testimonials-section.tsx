@@ -48,7 +48,15 @@ export function TestimonialsSection({
   columns = 3,
 }: TestimonialsSectionProps) {
   const resolved = testimonials || items || []
-  if (resolved.length === 0) return null
+  if (resolved.length === 0) {
+    return (
+      <Section fullWidth spacing="xl" background="surface-light">
+        <Container className="text-center">
+          <p className="text-muted-foreground">Testimonios próximamente.</p>
+        </Container>
+      </Section>
+    )
+  }
 
   const gridCols = columns === 2 ? 'md:grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-3'
 
