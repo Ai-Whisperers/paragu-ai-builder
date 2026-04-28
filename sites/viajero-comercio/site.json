@@ -8,7 +8,9 @@
   "path": "/s/es/viajero-comercio",
   "publicUrl": "https://paragu-ai.com/s/es/viajero-comercio",
   "defaultLocale": "es",
-  "locales": ["es"],
+  "locales": [
+    "es"
+  ],
   "pages": [
     "home",
     "tienda",
@@ -154,23 +156,55 @@
       }
     ]
   },
-  "isLiveProduction": false,
+  "isLiveProduction": true,
   "features": {
-    "whatsappFloat": { "enabled": true },
-    "productCatalog": { "enabled": true },
-    "testimonials": { "enabled": true },
-    "featuresGrid": { "enabled": true },
-    "statsCounter": { "enabled": true },
-    "promoBanner": { "enabled": true },
-    "newsletterSignup": { "enabled": true },
-    "blog": { "enabled": true },
-    "wishlist": { "enabled": true },
-    "reviews": { "enabled": true },
-    "faq": { "enabled": true },
-    "backInStockNotifications": { "enabled": true },
-    "storePickupReserve": { "enabled": true },
-    "giftCards": { "enabled": false },
-    "loyalty": { "enabled": false },
-    "referral": { "enabled": false }
+    "whatsappFloat": {
+      "enabled": true
+    },
+    "productCatalog": {
+      "enabled": true
+    },
+    "testimonials": {
+      "enabled": true
+    },
+    "featuresGrid": {
+      "enabled": true
+    },
+    "statsCounter": {
+      "enabled": true
+    },
+    "promoBanner": {
+      "enabled": true
+    },
+    "newsletterSignup": {
+      "enabled": true
+    },
+    "blog": {
+      "enabled": true
+    },
+    "wishlist": {
+      "enabled": true
+    },
+    "reviews": {
+      "enabled": true
+    },
+    "faq": {
+      "enabled": true
+    },
+    "backInStockNotifications": {
+      "enabled": true
+    },
+    "storePickupReserve": {
+      "enabled": true
+    },
+    "giftCards": {
+      "enabled": false
+    },
+    "loyalty": {
+      "enabled": false
+    },
+    "referral": {
+      "enabled": false
+    }
   }
 }

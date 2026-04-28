@@ -9,8 +9,8 @@
       "content": "tienda.hero"
     },
     {
-      "id": "product-catalog",
-      "content": "tienda.productCatalog"
+      "id": "commerce-catalog",
+      "variant": "grid"
     },
     {
       "id": "promo-banner",

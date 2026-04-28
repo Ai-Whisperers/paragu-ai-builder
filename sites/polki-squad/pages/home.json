@@ -15,15 +15,27 @@
       "variant": "inline",
       "content": "stats",
       "items": [
-        { "value": "+7.000", "label": "Rescates" },
-        { "value": "+3.000", "label": "Adopciones" },
-        { "value": "10+", "label": "Años Ayudando" },
-        { "value": "100%", "label": "Corazón" }
+        {
+          "value": "+7.000",
+          "label": "Rescates"
+        },
+        {
+          "value": "+3.000",
+          "label": "Adopciones"
+        },
+        {
+          "value": "10+",
+          "label": "Años Ayudando"
+        },
+        {
+          "value": "100%",
+          "label": "Corazón"
+        }
       ]
     },
     {
       "id": "services",
-      "variant": "grid",
+      "variant": "cards",
       "content": "services"
     },
     {

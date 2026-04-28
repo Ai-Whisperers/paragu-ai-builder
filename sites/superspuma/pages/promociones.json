@@ -14,8 +14,8 @@
       "content": "home.activePromos"
     },
     {
-      "id": "product-catalog",
-      "content": "promociones.onSaleProducts"
+      "id": "commerce-catalog",
+      "variant": "grid"
     },
     {
       "id": "features",

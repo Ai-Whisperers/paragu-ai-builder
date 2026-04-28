@@ -29,8 +29,8 @@
       "content": "home.trustBadges"
     },
     {
-      "id": "product-catalog",
-      "content": "home.productCatalog"
+      "id": "commerce-catalog",
+      "variant": "grid"
     },
     {
       "id": "mattress-quiz",

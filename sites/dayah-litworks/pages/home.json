@@ -41,11 +41,6 @@
       "content": "home.portfolio"
     },
     {
-      "id": "product-catalog",
-      "variant": "grid",
-      "content": "home.products"
-    },
-    {
       "id": "process",
       "variant": "steps",
       "content": "home.process"
