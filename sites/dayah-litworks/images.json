@@ -1,0 +1,13 @@
+{
+  "tenant": "dayah-litworks",
+  "totalImages": 4,
+  "basePath": "/sites/dayah-litworks/images",
+  "fallback": "/sites/dayah-litworks/images/brand/logo.png",
+  "images": {
+    "brand": {
+      "favicon": { "src": "/sites/dayah-litworks/images/brand/favicon.png", "alt": "favicon", "width": 32, "height": 32 },
+      "appleTouchIcon": { "src": "/sites/dayah-litworks/images/brand/apple-touch-icon.png", "alt": "Dayah Litworks", "width": 180, "height": 180 },
+      "ogDefault": { "src": "/sites/dayah-litworks/images/brand/og-default.png", "alt": "Dayah Litworks — Diseño Gráfico", "width": 1200, "height": 630 }
+    }
+  }
+}

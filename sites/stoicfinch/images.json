@@ -1,0 +1,13 @@
+{
+  "tenant": "stoicfinch",
+  "totalImages": 4,
+  "basePath": "/sites/stoicfinch/images",
+  "fallback": "/sites/stoicfinch/images/brand/logo.png",
+  "images": {
+    "brand": {
+      "favicon": { "src": "/sites/stoicfinch/images/brand/favicon.png", "alt": "favicon", "width": 32, "height": 32 },
+      "appleTouchIcon": { "src": "/sites/stoicfinch/images/brand/apple-touch-icon.png", "alt": "StoicFinch", "width": 180, "height": 180 },
+      "ogDefault": { "src": "/sites/stoicfinch/images/brand/og-default.png", "alt": "StoicFinch — Data Analytics Consulting", "width": 1200, "height": 630 }
+    }
+  }
+}

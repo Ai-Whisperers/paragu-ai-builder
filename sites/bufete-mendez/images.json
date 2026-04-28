@@ -1,0 +1,13 @@
+{
+  "tenant": "bufete-mendez",
+  "totalImages": 4,
+  "basePath": "/sites/bufete-mendez/images",
+  "fallback": "/sites/bufete-mendez/images/brand/logo.png",
+  "images": {
+    "brand": {
+      "favicon": { "src": "/sites/bufete-mendez/images/brand/favicon.png", "alt": "favicon", "width": 32, "height": 32 },
+      "appleTouchIcon": { "src": "/sites/bufete-mendez/images/brand/apple-touch-icon.png", "alt": "Bufete Méndez & Asociados", "width": 180, "height": 180 },
+      "ogDefault": { "src": "/sites/bufete-mendez/images/brand/og-default.png", "alt": "Bufete Méndez & Asociados — Abogados en Asunción", "width": 1200, "height": 630 }
+    }
+  }
+}

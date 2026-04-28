@@ -1,0 +1,13 @@
+{
+  "tenant": "superspuma",
+  "totalImages": 4,
+  "basePath": "/sites/superspuma/images",
+  "fallback": "/sites/superspuma/images/brand/logo.png",
+  "images": {
+    "brand": {
+      "favicon": { "src": "/sites/superspuma/images/brand/favicon.png", "alt": "favicon", "width": 32, "height": 32 },
+      "appleTouchIcon": { "src": "/sites/superspuma/images/brand/apple-touch-icon.png", "alt": "Superspuma", "width": 180, "height": 180 },
+      "ogDefault": { "src": "/sites/superspuma/images/brand/og-default.png", "alt": "Superspuma — Colchones y Sommiers en Paraguay", "width": 1200, "height": 630 }
+    }
+  }
+}
