@@ -117,7 +117,7 @@ export function HeroSection({
                     size="sm"
                     href={disclaimerBanner.buttonLink}
                     className="font-heading inline-flex items-center gap-2"
-                    style={{ backgroundColor: '#d97706', color: '#ffffff' }}
+                    style={{ backgroundColor: 'var(--secondary)', color: '#ffffff' }}
                   >
                     {disclaimerBanner.buttonText}
                   </Button>
@@ -139,8 +139,8 @@ export function HeroSection({
         )}
         {eyebrow && (
           <div className="font-heading mb-6 hero-animate-delay-0">
-            <span className="font-heading inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium uppercase tracking-wider"
-              style={{ backgroundColor: 'rgba(255,255,255,0.15)', color: '#ffffff', border: '1px solid rgba(255,255,255,0.2)' }}>
+              <span className="font-heading inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium uppercase tracking-wider"
+                style={{ backgroundColor: 'color-mix(in srgb, var(--primary) 15%, transparent)', color: 'var(--primary-foreground)', border: '1px solid color-mix(in srgb, var(--primary) 30%, transparent)' }}>
               {eyebrow}
             </span>
           </div>
@@ -149,19 +149,19 @@ export function HeroSection({
         {floatingHeadline && enhanced ? (
           <FloatingElement amplitude={8} duration={5}>
             <Heading level={1} className="font-heading mb-6 sm:mb-8"
-              style={{ fontFamily: 'var(--font-heading)', fontWeight: '800', fontSize: 'clamp(2.25rem, 5vw, 4rem)', lineHeight: '1.1', letterSpacing: '-0.02em', color: backgroundImage ? '#ffffff' : (useGradient ? '#ffffff' : 'var(--primary-foreground)') }}>
+              style={{ fontFamily: 'var(--font-heading)', fontWeight: '800', fontSize: 'clamp(2.25rem, 5vw, 4rem)', lineHeight: '1.1', letterSpacing: '-0.02em',               color: backgroundImage ? 'var(--primary-foreground)' : (useGradient ? 'var(--primary-foreground)' : 'var(--primary-foreground)') }}>
               {headline}
             </Heading>
           </FloatingElement>
         ) : (
           <Heading level={1} className={cn("mb-4 sm:mb-6 hero-animate-delay-1")}
-            style={{ fontFamily: 'var(--font-heading)', fontWeight: '800', fontSize: 'clamp(2.25rem, 5vw, 4rem)', lineHeight: '1.1', letterSpacing: '-0.02em', color: backgroundImage ? '#ffffff' : (useGradient ? '#ffffff' : 'var(--primary-foreground)') }}>
+            style={{ fontFamily: 'var(--font-heading)', fontWeight: '800', fontSize: 'clamp(2.25rem, 5vw, 4rem)', lineHeight: '1.1', letterSpacing: '-0.02em', color: backgroundImage ? 'var(--primary-foreground)' : (useGradient ? 'var(--primary-foreground)' : 'var(--primary-foreground)') }}>
             {headline}
           </Heading>
         )}
         
         <p className={cn("mx-auto mb-8 sm:mb-10 max-w-2xl", enhanced && "hero-animate-delay-2")}
-          style={{ fontFamily: 'var(--font-body)', fontSize: 'clamp(1.125rem, 2vw, 1.375rem)', lineHeight: '1.65', fontWeight: '400', color: backgroundImage ? 'rgba(255,255,255,0.95)' : (useGradient ? 'rgba(255,255,255,0.95)' : 'var(--text-light)') }}>
+          style={{ fontFamily: 'var(--font-body)', fontSize: 'clamp(1.125rem, 2vw, 1.375rem)', lineHeight: '1.65', fontWeight: '400', color: backgroundImage ? 'var(--primary-foreground)' : (useGradient ? 'var(--primary-foreground)' : 'var(--text-light)') }}>
           {subheadline}
         </p>
         
@@ -170,7 +170,7 @@ export function HeroSection({
             {ctaPrimaryText && (
               <Button variant="primary" size="lg" href={ctaPrimaryHref}
                 className={cn("w-full sm:w-auto min-h-[60px] px-10 text-base font-semibold tracking-wide", enhanced && "hero-btn-primary hover:scale-[1.02] transition-transform duration-300")}
-                style={{ backgroundColor: 'var(--secondary)', color: '#ffffff', boxShadow: '0 8px 24px rgba(184, 134, 11, 0.35)' }}>
+                style={{ backgroundColor: 'var(--secondary)', color: 'var(--secondary-foreground, #ffffff)', boxShadow: '0 8px 24px color-mix(in srgb, var(--secondary) 35%, transparent)' }}>
                 {ctaPrimaryText}
               </Button>
             )}
@@ -217,7 +217,7 @@ export function HeroSection({
   // an absolute layer above the picture.
   const useResponsivePicture = Boolean(backgroundImage && backgroundImageMobile)
   const backgroundStyle = backgroundImage && !useResponsivePicture
-    ? { backgroundImage: `linear-gradient(rgba(15, 30, 50, 0.7), rgba(15, 30, 50, 0.8)), url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
+    ? { backgroundImage: `linear-gradient(color-mix(in srgb, var(--primary) 70%, transparent), color-mix(in srgb, var(--primary) 80%, transparent)), url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
     : undefined
 
   // Split layout: text on dark left half, image on right half
@@ -306,7 +306,7 @@ export function HeroSection({
         </picture>
       )}
       {useResponsivePicture && (
-        <div className="font-heading absolute inset-0 bg-gradient-to-b from-[rgba(15,30,50,0.7)] to-[rgba(15,30,50,0.8)] pointer-events-none" />
+        <div className="font-heading absolute inset-0 bg-gradient-to-b from-[color-mix(in_srgb,var(--primary)_70%,transparent)] to-[color-mix(in_srgb,var(--primary)_80%,transparent)] pointer-events-none" />
       )}
       {useGradient && !backgroundImage && (
         <GradientBackground variant={gradientVariant} animated={enhanced} className="font-heading absolute inset-0" />
