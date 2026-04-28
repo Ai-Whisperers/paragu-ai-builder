@@ -11,10 +11,10 @@ interface SectionWrapperProps {
 
 const PAD_MAP: Record<string, string> = {
   none: 'py-0',
-  sm: 'py-0',
-  md: 'py-0',
-  lg: 'py-0',
-  xl: 'py-0',
+  sm: 'py-4 sm:py-6',
+  md: 'py-6 sm:py-8',
+  lg: 'py-8 sm:py-10',
+  xl: 'py-10 sm:py-12',
 }
 
 const BG_MAP: Record<string, string> = {
