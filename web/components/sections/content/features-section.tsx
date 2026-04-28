@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { ArrowDownToLine, ArrowUpRight, Shield, Download, ExternalLink, CheckCircle, Star, Zap, Heart, Target, TrendingUp, Users, Clock, DollarSign, Award } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -95,7 +96,7 @@ export function FeaturesSection({
   }
 
   return (
-    <section className="bg-background py-16 sm:py-20">
+    <Section spacing="md" background="background">
       <Container>
         {resolvedTitle && (
           <div className="text-center mb-12">
@@ -175,7 +176,7 @@ export function FeaturesSection({
           })}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }
 

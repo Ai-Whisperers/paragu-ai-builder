@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { cleanInstagram } from '@/lib/format'
@@ -24,7 +25,7 @@ export function InstagramFeedSection({
 }: InstagramFeedProps) {
   if (!posts?.length) return null
   return (
-    <section className="py-14 bg-background">
+    <Section spacing="sm" background="background">
       <Container>
         <div className="text-center mb-6">
           <Heading level={2}>{title}</Heading>
@@ -70,6 +71,6 @@ export function InstagramFeedSection({
           </div>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }

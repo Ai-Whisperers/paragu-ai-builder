@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -49,7 +50,7 @@ export function MenuCategorizedPricedSection({
   )
 
   return (
-    <section className="py-16 bg-background">
+    <Section spacing="md" background="background">
       <Container>
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
@@ -108,6 +109,6 @@ export function MenuCategorizedPricedSection({
           <p className="text-center text-muted-foreground py-8">No hay platos en esta categoria.</p>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }

@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import EmergencyIndicatorComponent from '@/components/location/emergency-indicator'
 
 interface EmergencyIndicatorSectionProps {
@@ -14,7 +15,7 @@ export function EmergencyIndicatorSection({
   if (!phone) return null
 
   return (
-    <section className="py-8">
+    <Section className="py-8">
       <div className="max-w-4xl mx-auto px-4">
         <EmergencyIndicatorComponent
           service={type}
@@ -22,6 +23,6 @@ export function EmergencyIndicatorSection({
           description={description}
         />
       </div>
-    </section>
+    </Section>
   )
 }

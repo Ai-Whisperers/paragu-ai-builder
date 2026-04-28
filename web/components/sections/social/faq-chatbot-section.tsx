@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { Search, MessageCircle, ChevronDown, ChevronUp, HelpCircle, Phone } from 'lucide-react'
@@ -129,7 +130,7 @@ export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
   }
 
   return (
-    <section className={cn('py-16 bg-surface', className)}>
+    <Section fullWidth spacing="md" background="surface" className={className}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-10">
@@ -276,7 +277,7 @@ export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
           </CardContent>
         </Card>
       </div>
-    </section>
+    </Section>
   )
 }
 

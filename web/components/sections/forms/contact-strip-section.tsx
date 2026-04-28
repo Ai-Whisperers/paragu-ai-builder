@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { MapPin, MessageCircle, Phone, Clock } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { cleanPhone } from '@/lib/format'
@@ -40,7 +41,7 @@ export function ContactStripSection({
   const addressLine = [address, neighborhood, city].filter(Boolean).join(' · ')
 
   return (
-    <section className="py-10 sm:py-12 border-t border-b border-border">
+    <Section fullWidth className="py-10 sm:py-12 border-t border-b border-border">
       <Container>
         <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           {addressLine && (
@@ -80,7 +81,7 @@ export function ContactStripSection({
           </div>
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }
 

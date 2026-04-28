@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -59,7 +60,7 @@ export function MortgageCalculatorSection({
   const totalInterest = totalPaid - principal
 
   return (
-    <section className="py-14 bg-background">
+    <Section spacing="sm" background="background">
       <Container>
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-6">
@@ -137,6 +138,6 @@ export function MortgageCalculatorSection({
           )}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

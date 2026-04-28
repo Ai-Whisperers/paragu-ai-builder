@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import * as Icons from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -62,7 +63,7 @@ export function ResourcesListSection({
   const downloadLabel = downloadLabelProp || DOWNLOAD_LABEL[locale] || DOWNLOAD_LABEL.es
 
   return (
-    <section className="bg-background py-16 sm:py-20">
+    <Section spacing="md" background="background">
       <Container>
         {(title || subtitle) && (
           <div className="mb-12 text-center">
@@ -135,7 +136,7 @@ export function ResourcesListSection({
           })}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }
 

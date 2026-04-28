@@ -49,12 +49,12 @@ export function CalcIpsSection({
         <AnimatedSectionHeader>
           <p className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow}</p>
           <Heading level={2}>{title}</Heading>
-          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-[var(--text-light,#475569)]">{subtitle}</p>
+          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
         </AnimatedSectionHeader>
 
         <CalcCard size="sm">
           <label className="font-heading text-primary block">
-            <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Salario bruto mensual (Gs)</span>
+            <span className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">Salario bruto mensual (Gs)</span>
             <input
               type="number"
               inputMode="numeric"
@@ -62,30 +62,30 @@ export function CalcIpsSection({
               step={100_000}
               value={salary}
               onChange={(e) => setSalary(Math.max(0, Number(e.target.value) || 0))}
-              className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
+              className="font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
             />
-            <span className="font-heading text-primary mt-1 block text-xs text-[var(--text-muted,#64748b)]">{formatGs(salary)}</span>
+            <span className="font-heading text-primary mt-1 block text-xs text-muted-foreground">{formatGs(salary)}</span>
           </label>
 
           <div className="font-heading text-primary mt-8 grid gap-6 md:grid-cols-2">
-            <div className="font-heading text-primary rounded-xl border border-[var(--border,#e2e8f0)] bg-surface-light p-6">
-              <p className="font-heading text-primary text-xs font-semibold uppercase tracking-wider text-[var(--text-muted,#64748b)]">Vista del empleado</p>
+            <div className="font-heading text-primary rounded-xl border border-border bg-surface-light p-6">
+              <p className="font-heading text-primary text-xs font-semibold uppercase tracking-wider text-muted-foreground">Vista del empleado</p>
               <dl className="font-heading text-primary mt-3 space-y-2 text-sm">
                 <div className="font-heading text-primary flex justify-between"><dt>Salario bruto</dt><dd className="font-heading text-primary font-semibold">{formatGs(r.salary)}</dd></div>
                 <div className="font-heading text-primary flex justify-between"><dt>Descuento IPS obrero (9%)</dt><dd className="font-heading text-primary font-semibold text-rose-700">- {formatGs(r.obrero)}</dd></div>
-                <div className="font-heading text-primary flex justify-between border-t border-[var(--border,#e2e8f0)] pt-2">
+                <div className="font-heading text-primary flex justify-between border-t border-border pt-2">
                   <dt className="font-heading text-primary text-xs uppercase tracking-wider text-secondary">Salario neto</dt>
                   <dd className="font-heading text-primary text-2xl font-bold">{formatGs(r.neto)}</dd>
                 </div>
               </dl>
             </div>
 
-            <div className="font-heading text-primary rounded-xl border border-[var(--border,#e2e8f0)] bg-surface-light p-6">
-              <p className="font-heading text-primary text-xs font-semibold uppercase tracking-wider text-[var(--text-muted,#64748b)]">Vista del empleador</p>
+            <div className="font-heading text-primary rounded-xl border border-border bg-surface-light p-6">
+              <p className="font-heading text-primary text-xs font-semibold uppercase tracking-wider text-muted-foreground">Vista del empleador</p>
               <dl className="font-heading text-primary mt-3 space-y-2 text-sm">
                 <div className="font-heading text-primary flex justify-between"><dt>Aporte obrero (9%)</dt><dd className="font-heading text-primary font-semibold">{formatGs(r.obrero)}</dd></div>
                 <div className="font-heading text-primary flex justify-between"><dt>Aporte patronal (16.5%)</dt><dd className="font-heading text-primary font-semibold">{formatGs(r.patronal)}</dd></div>
-                <div className="font-heading text-primary flex justify-between border-t border-[var(--border,#e2e8f0)] pt-2">
+                <div className="font-heading text-primary flex justify-between border-t border-border pt-2">
                   <dt className="font-heading text-primary text-xs uppercase tracking-wider text-secondary">Total IPS a pagar</dt>
                   <dd className="font-heading text-primary text-2xl font-bold">{formatGs(r.total)}</dd>
                 </div>
@@ -93,7 +93,7 @@ export function CalcIpsSection({
             </div>
           </div>
 
-          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-[var(--text-muted,#64748b)]">
+          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-muted-foreground">
             {disclaimer ||
               'IPS art. 21 Ley 98/92. Vencimiento: dia 10 del mes siguiente. El aporte patronal adicional financia ANDE (6.5%). Aguinaldo y vacaciones tambien generan aporte IPS. Consulta con un contador para casos especiales (directores, autonomos, rural).'}
           </p>

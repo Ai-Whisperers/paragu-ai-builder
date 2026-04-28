@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import Link from 'next/link'
@@ -106,7 +107,7 @@ export function BlogSection({
   })
 
   return (
-    <section className="bg-surface-light py-16" id="blog">
+    <Section fullWidth spacing="md" background="surface-light" id="blog">
       <div className="mx-auto max-w-6xl px-6">
         {title && (
           <div className="mb-12 text-center">
@@ -212,6 +213,6 @@ export function BlogSection({
           </div>
         )}
       </div>
-    </section>
+    </Section>
   )
 }

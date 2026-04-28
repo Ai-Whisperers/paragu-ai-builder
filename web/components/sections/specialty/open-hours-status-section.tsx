@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { Container } from '@/components/ui/container'
 import { useEffect, useState } from 'react'
@@ -50,7 +51,7 @@ export function OpenHoursStatusSection({
 
   if (open === null) return null
   return (
-    <section className="py-4 bg-surface">
+    <Section spacing="sm" background="surface" className="py-4">
       <Container>
         <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
           <span
@@ -74,6 +75,6 @@ export function OpenHoursStatusSection({
           )}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import Link from 'next/link'
 import { unstable_noStore as noStore } from 'next/cache'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
@@ -83,7 +84,7 @@ export async function CommerceCatalogSection({
   const shown = products.slice(0, limit)
 
   return (
-    <section className="py-12" aria-labelledby="commerce-catalog-heading">
+    <Section spacing="sm" aria-labelledby="commerce-catalog-heading">
       <CartStoreHydrator siteSlug={siteSlug} initialCart={null} />
       <Container>
         <div className="mb-6 text-center">
@@ -117,6 +118,6 @@ export async function CommerceCatalogSection({
           </div>
         ) : null}
       </Container>
-    </section>
+    </Section>
   )
 }

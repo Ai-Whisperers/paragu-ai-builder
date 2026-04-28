@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { Check, Award, Users, Clock, Shield, Star } from 'lucide-react'
@@ -47,7 +48,7 @@ export function TrustBadges({
   const [hoveredBadge, setHoveredBadge] = useState<string | null>(null)
 
   return (
-    <section className="bg-gradient-to-b from-[var(--surface)] to-[var(--surface-light)] py-16">
+    <Section fullWidth spacing="md" className="bg-gradient-to-b from-surface to-surface-light">
       <div className="mx-auto max-w-6xl px-6">
         {title && (
           <div className="mb-10 text-center">
@@ -95,7 +96,7 @@ export function TrustBadges({
           </div>
         )}
       </div>
-    </section>
+    </Section>
   )
 }
 

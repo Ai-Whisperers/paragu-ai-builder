@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Card, CardContent, CardImage } from '@/components/ui/card'
@@ -31,7 +32,7 @@ export function SampleWeekPreviewSection({
 }: SampleWeekPreviewProps) {
   if (!items?.length) return null
   return (
-    <section className="py-14 bg-surface">
+    <Section spacing="sm" background="surface">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
@@ -71,6 +72,6 @@ export function SampleWeekPreviewSection({
           <p className="mt-6 text-center text-xs italic text-muted-foreground">{footnote}</p>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }

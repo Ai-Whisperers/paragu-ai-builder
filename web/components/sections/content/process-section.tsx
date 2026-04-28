@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { Heading } from '@/components/ui/heading'
 
@@ -63,7 +64,7 @@ export function ProcessSection({
   }
 
   return (
-    <section className="py-16 md:py-24">
+    <Section spacing="lg">
       <div className="mx-auto max-w-6xl px-4">
         {resolvedTitle && (
           <Heading level={2} className="mb-4 text-xl sm:text-3xl font-bold md:text-2xl sm:text-4xl" style={{ color: 'var(--primary)' }}>
@@ -156,7 +157,7 @@ export function ProcessSection({
           </div>
         )}
       </div>
-    </section>
+    </Section>
   )
 }
 

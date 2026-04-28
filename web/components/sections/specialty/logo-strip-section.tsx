@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -23,7 +24,7 @@ export function LogoStripSection({
   if (!logos || logos.length === 0) return null
 
   return (
-    <section className="bg-surface py-12 sm:py-16">
+    <Section spacing="sm" background="surface">
       <Container>
         {title && (
           <div className="text-center mb-8">
@@ -60,6 +61,6 @@ export function LogoStripSection({
           })}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

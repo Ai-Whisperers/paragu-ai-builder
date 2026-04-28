@@ -78,12 +78,12 @@ export function CalcResimpleQualifierSection({
         <AnimatedSectionHeader>
           <p className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow}</p>
           <Heading level={2}>{title}</Heading>
-          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-[var(--text-light,#475569)]">{subtitle}</p>
+          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
         </AnimatedSectionHeader>
 
         <CalcCard size="sm">
           <label className="font-heading text-primary block">
-            <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Facturacion anual estimada (Gs)</span>
+            <span className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">Facturacion anual estimada (Gs)</span>
             <input
               type="number"
               inputMode="numeric"
@@ -91,9 +91,9 @@ export function CalcResimpleQualifierSection({
               step={10_000_000}
               value={revenue}
               onChange={(e) => setRevenue(Math.max(0, Number(e.target.value) || 0))}
-              className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
+              className="font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
             />
-            <span className="font-heading text-primary mt-1 block text-xs text-[var(--text-muted,#64748b)]">{formatGs(revenue)}</span>
+            <span className="font-heading text-primary mt-1 block text-xs text-muted-foreground">{formatGs(revenue)}</span>
           </label>
 
           <div className="font-heading text-primary mt-8 rounded-xl bg-surface-light p-6">
@@ -103,30 +103,30 @@ export function CalcResimpleQualifierSection({
                 <p className="font-heading text-primary mt-1 text-xl sm:text-3xl font-bold">
                   {formatGs(result.monthlyFee)}/mes
                 </p>
-                <p className="font-heading text-primary mt-2 text-sm text-[var(--text-light,#475569)]">
+                <p className="font-heading text-primary mt-2 text-sm text-muted-foreground">
                   {result.bracket.label} — facturacion hasta {formatGs(result.bracket.max)}/ano
                 </p>
-                <p className="font-heading text-primary mt-2 text-sm text-[var(--text,#0f172a)]">
+                <p className="font-heading text-primary mt-2 text-sm text-foreground">
                   Costo anual total: <strong>{formatGs(result.annualFee)}</strong>
                 </p>
-                <p className="font-heading text-primary mt-3 text-xs text-[var(--text-muted,#64748b)]">{result.recommendation}</p>
+                <p className="font-heading text-primary mt-3 text-xs text-muted-foreground">{result.recommendation}</p>
               </>
             ) : (
               <>
                 <p className="font-heading text-primary text-xs uppercase tracking-wider text-rose-700">No calificas</p>
-                <p className="font-heading text-primary mt-1 text-lg font-bold text-[var(--text,#0f172a)]">{result.message}</p>
-                <p className="font-heading text-primary mt-2 text-sm text-[var(--text-light,#475569)]">{result.recommendation}</p>
+                <p className="font-heading text-primary mt-1 text-lg font-bold text-foreground">{result.message}</p>
+                <p className="font-heading text-primary mt-2 text-sm text-muted-foreground">{result.recommendation}</p>
               </>
             )}
           </div>
 
           <div className="font-heading text-primary mt-6 overflow-x-auto">
-            <h3 className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--text-muted,#64748b)]">
+            <h3 className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
               Tabla RESIMPLE 2026
             </h3>
             <table className="font-heading text-primary w-full text-sm">
               <thead>
-                <tr className="font-heading text-primary border-b border-[var(--border,#e2e8f0)] text-left text-xs uppercase tracking-wider text-[var(--text-muted,#64748b)]">
+                <tr className="font-heading text-primary border-b border-border text-left text-xs uppercase tracking-wider text-muted-foreground">
                   <th className="font-heading text-primary py-2 pr-3">Tramo</th>
                   <th className="font-heading text-primary py-2 pr-3">Facturacion hasta</th>
                   <th className="font-heading text-primary py-2 text-right">Cuota mensual</th>
@@ -136,7 +136,7 @@ export function CalcResimpleQualifierSection({
                 {RESIMPLE_BRACKETS.map((b) => (
                   <tr
                     key={b.label}
-                    className={`border-b border-[var(--border,#e2e8f0)] last:border-0 ${
+                    className={`border-b border-border last:border-0 ${
                       result.qualifies && result.bracket?.label === b.label ? 'bg-emerald-50 font-semibold' : ''
                     }`}
                   >
@@ -149,7 +149,7 @@ export function CalcResimpleQualifierSection({
             </table>
           </div>
 
-          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-[var(--text-muted,#64748b)]">
+          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-muted-foreground">
             {disclaimer ||
               'RESIMPLE no aplica a: sociedades de hecho con socios diferentes a conyuges, empresas con empleados > X (variable), actividades reguladas (banca, seguros). Tambien hay limitaciones por rubro. Consulta con un contador para confirmar.'}
           </p>

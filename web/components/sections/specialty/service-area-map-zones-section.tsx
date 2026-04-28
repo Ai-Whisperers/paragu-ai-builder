@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -28,7 +29,7 @@ export function ServiceAreaMapZonesSection({
   zones,
 }: ServiceAreaMapZonesProps) {
   return (
-    <section className="py-14 bg-background">
+    <Section spacing="sm" background="background">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
@@ -77,6 +78,6 @@ export function ServiceAreaMapZonesSection({
           </div>
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

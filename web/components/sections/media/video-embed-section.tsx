@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -46,7 +47,7 @@ export function VideoEmbedSection({
   }
 
   return (
-    <section className="bg-background py-12 sm:py-16">
+    <Section spacing="sm" background="background">
       <Container>
         {title && (
           <div className="text-center mb-8">
@@ -67,6 +68,6 @@ export function VideoEmbedSection({
           />
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

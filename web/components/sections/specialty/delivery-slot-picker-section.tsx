@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -64,18 +65,18 @@ export function DeliverySlotPickerSection({
 
   if (done) {
     return (
-      <section className="py-12 bg-background">
+      <Section spacing="sm" background="background">
         <Container>
           <p className="text-center text-primary font-medium">
             Listo — tu horario esta reservado.
           </p>
         </Container>
-      </section>
+      </Section>
     )
   }
 
   return (
-    <section className="py-12 bg-background">
+    <Section spacing="sm" background="background">
       <Container>
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-6">
@@ -131,6 +132,6 @@ export function DeliverySlotPickerSection({
           </div>
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

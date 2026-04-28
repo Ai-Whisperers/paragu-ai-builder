@@ -109,7 +109,7 @@ export function TaxDeadlineBannerSection({
                 {subtitle || L.subtitle}
               </p>
               <h2
-                className="font-heading mt-1 text-2xl font-bold text-[var(--text,#0f172a)]"
+                className="font-heading mt-1 text-2xl font-bold text-foreground"
                
               >
                 {title || L.title}
@@ -137,7 +137,7 @@ export function TaxDeadlineBannerSection({
             {deadlines.map((d, i) => (
               <li
                 key={`${d.kind}-${d.month}-${i}`}
-                className="font-heading flex items-center gap-4 rounded-lg border border-[var(--border,#e2e8f0)] bg-surface p-4"
+                className="font-heading flex items-center gap-4 rounded-lg border border-border bg-surface p-4"
               >
                 <span
                   className={`inline-flex min-w-[60px] justify-center rounded-md px-2.5 py-1 text-xs font-bold uppercase ${
@@ -147,8 +147,8 @@ export function TaxDeadlineBannerSection({
                   {d.kind.toUpperCase()}
                 </span>
                 <div className="font-heading min-w-0 flex-1">
-                  <p className="font-heading truncate font-semibold text-[var(--text,#0f172a)]">{d.label}</p>
-                  <p className="font-heading truncate text-sm text-[var(--text-light,#475569)]">{d.description}</p>
+                  <p className="font-heading truncate font-semibold text-foreground">{d.label}</p>
+                  <p className="font-heading truncate text-sm text-muted-foreground">{d.description}</p>
                 </div>
                 <div className="font-heading text-right">
                   <p className="font-heading text-sm font-semibold text-primary">
@@ -157,7 +157,7 @@ export function TaxDeadlineBannerSection({
                       month: 'short',
                     })}
                   </p>
-                  <p className="font-heading text-xs text-[var(--text-muted,#64748b)]">{L.inDays(d.daysAway)}</p>
+                  <p className="font-heading text-xs text-muted-foreground">{L.inDays(d.daysAway)}</p>
                 </div>
               </li>
             ))}

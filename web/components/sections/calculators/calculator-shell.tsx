@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState, useMemo } from 'react'
 import { Container } from '@/components/ui/container'
@@ -68,7 +69,7 @@ export function CalculatorShell({
   }
 
   return (
-    <section className={`bg-surface py-16 sm:py-20 ${className ?? ''}`}>
+    <Section fullWidth spacing="md" background="surface" className={className}>
       <Container>
         <AnimatedSectionHeader>
           {eyebrow && (
@@ -165,6 +166,6 @@ export function CalculatorShell({
           )}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

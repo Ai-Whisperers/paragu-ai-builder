@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Card, CardContent } from '@/components/ui/card'
@@ -63,7 +64,7 @@ export function TieredServiceLadderSection({
   }
 
   return (
-    <section className="py-16 bg-background">
+    <Section spacing="md" background="background">
       <Container>
         <div className="text-center mb-10">
           <Heading level={2}>{title}</Heading>
@@ -156,6 +157,6 @@ export function TieredServiceLadderSection({
           <p className="mt-8 text-center text-sm text-muted-foreground">{footerNote}</p>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }

@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { ArrowRight, Quote, MapPin, Calendar, TrendingUp, Users } from 'lucide-react'
@@ -105,7 +106,7 @@ export function SuccessStories({
   const [activeStory, setActiveStory] = useState(0)
 
   return (
-    <section className="bg-gradient-to-b from-[var(--surface)] to-[var(--surface-light)] py-16" id="testimonials">
+    <Section fullWidth spacing="md" className="bg-gradient-to-b from-surface to-surface-light" id="testimonials">
       <div className="mx-auto max-w-6xl px-6">
         {title && (
           <div className="mb-12 text-center">
@@ -210,6 +211,6 @@ export function SuccessStories({
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   )
 }

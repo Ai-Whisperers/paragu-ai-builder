@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Badge } from '@/components/ui/badge'
@@ -63,7 +64,7 @@ export function RegulatoryStatusBadgeSection({
 
   if (variant === 'inline') {
     return (
-      <section className="py-6 bg-surface-light">
+      <Section spacing="sm" background="surface-light" className="py-6">
         <Container>
           <div className="flex flex-wrap items-center justify-center gap-3 text-sm text-muted-foreground">
             {items.map((it, i) => (
@@ -74,13 +75,13 @@ export function RegulatoryStatusBadgeSection({
             <p className="mt-3 text-center text-xs text-muted-foreground italic">{footnote}</p>
           )}
         </Container>
-      </section>
+      </Section>
     )
   }
 
   // Badge (grid) variant
   return (
-    <section className="py-12 bg-background">
+    <Section spacing="sm" background="background">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
@@ -97,7 +98,7 @@ export function RegulatoryStatusBadgeSection({
           <p className="mt-6 text-center text-xs text-muted-foreground italic">{footnote}</p>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }
 

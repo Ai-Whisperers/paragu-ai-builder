@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { AnimatedSectionHeader, AnimateOnScroll } from '@/components/ui/animate-on-scroll'
@@ -32,7 +33,7 @@ export function BlogIndexSection({
   const safePosts = posts || []
   
   return (
-    <section className="font-heading bg-background py-16 sm:py-24">
+    <Section fullWidth spacing="lg" background="background" className="font-heading">
       <Container>
         <AnimatedSectionHeader>
           <Heading level={1}>{title}</Heading>
@@ -49,7 +50,7 @@ export function BlogIndexSection({
           <Grid posts={safePosts} />
         )}
       </Container>
-    </section>
+    </Section>
   )
 }
 

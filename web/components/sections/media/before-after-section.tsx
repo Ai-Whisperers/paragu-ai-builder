@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Heading } from '@/components/ui/heading'
 
 import BeforeAfterComponent from '@/components/portfolio/before-after'
@@ -26,7 +27,7 @@ export function BeforeAfterSection({
   }
 
   return (
-    <section className="font-heading bg-surface py-16 sm:py-20">
+    <Section spacing="md" background="surface" className="font-heading">
       <div className="font-heading mx-auto max-w-6xl px-4">
         <div className="font-heading text-center mb-12">
           <Heading level={2} className="font-heading text-xl sm:text-3xl font-bold text-foreground">
@@ -50,6 +51,6 @@ export function BeforeAfterSection({
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   )
 }

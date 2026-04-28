@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -10,7 +11,7 @@ export interface TimelineHistoryProps {
 export function TimelineHistorySection({ title = 'Nuestra historia', subtitle, milestones }: TimelineHistoryProps) {
   if (!milestones?.length) return null
   return (
-    <section className="py-16 bg-background">
+    <Section spacing="md" background="background">
       <Container>
         <div className="text-center mb-10">
           <Heading level={2}>{title}</Heading>
@@ -36,6 +37,6 @@ export function TimelineHistorySection({ title = 'Nuestra historia', subtitle, m
           </div>
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

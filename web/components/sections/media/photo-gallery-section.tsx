@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { Camera, MapPin, Users, Heart, Award } from 'lucide-react'
@@ -87,7 +88,7 @@ export function PhotoGallery({ className }: PhotoGalleryProps) {
     : GALLERY_ITEMS.filter(item => item.category === selectedCategory)
 
   return (
-    <section className={cn('py-16', className)}>
+    <Section fullWidth spacing="md" className={className}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-10">
@@ -172,7 +173,7 @@ export function PhotoGallery({ className }: PhotoGalleryProps) {
           </p>
         </div>
       </div>
-    </section>
+    </Section>
   )
 }
 

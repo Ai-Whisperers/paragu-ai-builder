@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 
 export interface TrustSignalsLogosProps {
@@ -13,7 +14,7 @@ export function TrustSignalsLogosSection({
 }: TrustSignalsLogosProps) {
   if (!logos?.length) return null
   return (
-    <section className="py-10 bg-surface">
+    <Section spacing="sm" background="surface" className="py-10">
       <Container>
         {title && (
           <p className="text-center text-sm uppercase tracking-wide text-muted-foreground mb-6">
@@ -48,6 +49,6 @@ export function TrustSignalsLogosSection({
           })}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

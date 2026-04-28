@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -45,7 +46,7 @@ export function CountdownTimerSection({
   }, [targetDate]) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <section className="py-12 bg-surface">
+    <Section spacing="sm" background="surface">
       <Container>
         <div className="max-w-2xl mx-auto text-center">
           {title && <Heading level={2}>{title}</Heading>}
@@ -81,6 +82,6 @@ export function CountdownTimerSection({
           )}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

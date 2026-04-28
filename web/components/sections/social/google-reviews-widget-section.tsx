@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Card, CardContent } from '@/components/ui/card'
@@ -35,7 +36,7 @@ export function GoogleReviewsWidgetSection({
 }: GoogleReviewsWidgetProps) {
   if (!reviews?.length) return null
   return (
-    <section className="py-14 bg-background">
+    <Section spacing="sm" background="background">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
@@ -81,6 +82,6 @@ export function GoogleReviewsWidgetSection({
           </div>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }

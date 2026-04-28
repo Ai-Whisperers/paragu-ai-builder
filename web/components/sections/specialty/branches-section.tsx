@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { Container } from '@/components/ui/container'
@@ -31,7 +32,7 @@ export function BranchesSection({
   if (!branches?.length) return null
 
   return (
-    <section className="py-16 bg-surface">
+    <Section spacing="md" background="surface">
       <Container>
         <div className="text-center mb-10">
           <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground">
@@ -85,6 +86,6 @@ export function BranchesSection({
           ))}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

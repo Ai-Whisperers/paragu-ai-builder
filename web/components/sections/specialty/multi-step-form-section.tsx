@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -80,16 +81,16 @@ export function MultiStepFormSection({
 
   if (submitted) {
     return (
-      <section className="py-16 bg-background">
+      <Section spacing="md" background="background">
         <Container>
           <p className="text-center text-foreground">{successMessage}</p>
         </Container>
-      </section>
+      </Section>
     )
   }
 
   return (
-    <section className="py-16 bg-background">
+    <Section spacing="md" background="background">
       <Container>
         <div className="text-center mb-6">
           <Heading level={2}>{title}</Heading>
@@ -174,6 +175,6 @@ export function MultiStepFormSection({
           </div>
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

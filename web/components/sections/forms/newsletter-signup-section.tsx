@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -51,7 +52,7 @@ export function NewsletterSignupSection({
   }
 
   return (
-    <section className="py-12 bg-surface">
+    <Section spacing="sm" background="surface">
       <Container>
         <div className="max-w-xl mx-auto text-center">
           <Heading level={3}>{title}</Heading>
@@ -87,6 +88,6 @@ export function NewsletterSignupSection({
           )}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

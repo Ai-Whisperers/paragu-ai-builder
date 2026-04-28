@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -168,7 +169,7 @@ export function PropertyListingsSection({
   )
 
   return (
-    <section className="py-16 bg-background">
+    <Section spacing="md" background="background">
       <Container>
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
@@ -265,6 +266,6 @@ export function PropertyListingsSection({
           </p>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }

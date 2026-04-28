@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 
 export interface TrustBadgeItem {
@@ -83,7 +84,7 @@ export function TrustBadgesSection({ items, badges, title, eyebrow }: TrustBadge
   if (list.length === 0) return null
 
   return (
-    <section className="py-8">
+    <Section className="py-8">
       <Container>
         {eyebrow || title ? (
           <div className="mb-4 text-center">
@@ -116,6 +117,6 @@ export function TrustBadgesSection({ items, badges, title, eyebrow }: TrustBadge
           })}
         </ul>
       </Container>
-    </section>
+    </Section>
   )
 }

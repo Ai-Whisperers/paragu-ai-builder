@@ -114,7 +114,7 @@ export function CalcFiniquitoSection({
             {eyebrow || 'Calculadora Finiquito'}
           </p>
           <Heading level={2}>{title || 'Calcula tu liquidacion final'}</Heading>
-          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-[var(--text-light,#475569)]">
+          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-muted-foreground">
             {subtitle ||
               'Liquidacion final segun Codigo del Trabajo Paraguay: sueldo pendiente + aguinaldo + vacaciones + preaviso + indemnizacion.'}
           </p>
@@ -124,7 +124,7 @@ export function CalcFiniquitoSection({
           <div className="font-heading text-primary grid gap-8 lg:grid-cols-2">
             <div className="font-heading text-primary space-y-5">
               <label className="font-heading text-primary block">
-                <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Sueldo mensual bruto (Gs)</span>
+                <span className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">Sueldo mensual bruto (Gs)</span>
                 <input
                   type="number"
                   inputMode="numeric"
@@ -132,13 +132,13 @@ export function CalcFiniquitoSection({
                   step={100_000}
                   value={monthlySalary}
                   onChange={(e) => setMonthlySalary(Math.max(0, Number(e.target.value) || 0))}
-                  className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
+                  className="font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 />
-                <span className="font-heading text-primary mt-1 block text-xs text-[var(--text-muted,#64748b)]">{formatGs(monthlySalary)}</span>
+                <span className="font-heading text-primary mt-1 block text-xs text-muted-foreground">{formatGs(monthlySalary)}</span>
               </label>
 
               <label className="font-heading text-primary block">
-                <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Anos completos de antiguedad</span>
+                <span className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">Anos completos de antiguedad</span>
                 <input
                   type="number"
                   inputMode="numeric"
@@ -147,15 +147,15 @@ export function CalcFiniquitoSection({
                   step={1}
                   value={yearsService}
                   onChange={(e) => setYearsService(Math.max(0, Math.min(60, Number(e.target.value) || 0)))}
-                  className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
+                  className="font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 />
-                <p className="font-heading text-primary mt-1 text-xs text-[var(--text-muted,#64748b)]">
+                <p className="font-heading text-primary mt-1 text-xs text-muted-foreground">
                   Preaviso aplicable: {preavisoDays(yearsService)} dias
                 </p>
               </label>
 
               <label className="font-heading text-primary block">
-                <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Meses trabajados este ano (1-12)</span>
+                <span className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">Meses trabajados este ano (1-12)</span>
                 <input
                   type="number"
                   inputMode="numeric"
@@ -164,12 +164,12 @@ export function CalcFiniquitoSection({
                   step={1}
                   value={monthsThisYear}
                   onChange={(e) => setMonthsThisYear(Math.min(12, Math.max(0, Number(e.target.value) || 0)))}
-                  className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
+                  className="font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 />
               </label>
 
               <label className="font-heading text-primary block">
-                <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Dias pendientes del mes final (0-30)</span>
+                <span className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">Dias pendientes del mes final (0-30)</span>
                 <input
                   type="number"
                   inputMode="numeric"
@@ -178,12 +178,12 @@ export function CalcFiniquitoSection({
                   step={1}
                   value={daysPending}
                   onChange={(e) => setDaysPending(Math.min(30, Math.max(0, Number(e.target.value) || 0)))}
-                  className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
+                  className="font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 />
               </label>
 
               <fieldset>
-                <legend className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Causa del cese</legend>
+                <legend className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">Causa del cese</legend>
                 <div className="font-heading text-primary grid gap-2 sm:grid-cols-2">
                   {(
                     [
@@ -195,7 +195,7 @@ export function CalcFiniquitoSection({
                   ).map((opt) => (
                     <label
                       key={opt.v}
-                      className="font-heading text-primary flex cursor-pointer items-center gap-2 rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2 text-sm"
+                      className="font-heading text-primary flex cursor-pointer items-center gap-2 rounded-md border border-border bg-surface px-3 py-2 text-sm"
                     >
                       <input
                         type="radio"
@@ -218,11 +218,11 @@ export function CalcFiniquitoSection({
                 <Row label="Vacaciones proporcionales" value={formatGs(result.vacacionesProp)} />
                 <Row label="Preaviso" value={formatGs(result.preaviso)} muted={result.preaviso === 0} />
                 <Row label="Indemnizacion" value={formatGs(result.indemnizacion)} muted={result.indemnizacion === 0} />
-                <div className="font-heading text-primary border-t border-[var(--border,#e2e8f0)] pt-3">
+                <div className="font-heading text-primary border-t border-border pt-3">
                   <Row label="Subtotal" value={formatGs(result.subtotal)} bold />
                 </div>
                 <Row label="Descuento IPS (9%)" value={`- ${formatGs(result.ipsDeduction)}`} negative />
-                <div className="font-heading text-primary border-t border-[var(--border,#e2e8f0)] pt-3">
+                <div className="font-heading text-primary border-t border-border pt-3">
                   <dt className="font-heading text-primary text-xs uppercase tracking-wider text-secondary">Liquidacion neta a cobrar</dt>
                   <dd
                     className="font-heading text-primary mt-1 text-xl sm:text-3xl font-bold"
@@ -235,7 +235,7 @@ export function CalcFiniquitoSection({
             </div>
           </div>
 
-          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-[var(--text-muted,#64748b)]">
+          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-muted-foreground">
             {disclaimer ||
               'Calculo referencial segun Codigo del Trabajo Paraguay. Casos reales dependen de convenio colectivo, comisiones variables, justificacion de causa, bonificaciones habituales y comunicaciones al MTESS. Consulta con un contador o abogado laboral antes de firmar liquidacion.'}
           </p>
@@ -264,10 +264,10 @@ export function CalcFiniquitoSection({
 function Row({ label, value, bold, muted, negative }: { label: string; value: string; bold?: boolean; muted?: boolean; negative?: boolean }) {
   return (
     <div className="font-heading text-primary flex items-baseline justify-between gap-4">
-      <dt className={`${muted ? 'text-[var(--text-muted,#64748b)]' : 'text-[var(--text-light,#475569)]'}`}>{label}</dt>
+      <dt className={`${muted ? 'text-muted-foreground' : 'text-muted-foreground'}`}>{label}</dt>
       <dd
         className={`font-semibold ${
-          negative ? 'text-rose-700' : muted ? 'text-[var(--text-muted,#64748b)]' : bold ? 'text-lg text-[var(--text,#0f172a)]' : 'text-[var(--text,#0f172a)]'
+          negative ? 'text-rose-700' : muted ? 'text-muted-foreground' : bold ? 'text-lg text-foreground' : 'text-foreground'
         }`}
       >
         {value}

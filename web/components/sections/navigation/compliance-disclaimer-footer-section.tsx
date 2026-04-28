@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 
 /**
@@ -21,7 +22,7 @@ export function ComplianceDisclaimerFooterSection({
 }: ComplianceDisclaimerFooterProps) {
   if (!paragraphs?.length && !licenseNumbers?.length) return null
   return (
-    <section className="py-6 bg-background border-t border-[var(--surface-light)]">
+    <Section spacing="sm" background="background" className="border-t border-border">
       <Container>
         <div className="max-w-4xl mx-auto text-xs text-muted-foreground space-y-2">
           {paragraphs.map((p, i) => (
@@ -45,6 +46,6 @@ export function ComplianceDisclaimerFooterSection({
           )}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

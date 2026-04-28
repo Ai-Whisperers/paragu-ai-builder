@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -23,7 +24,7 @@ export function BeforeAfterSplitSection({
   after,
 }: BeforeAfterSplitProps) {
   return (
-    <section className="py-14 bg-background">
+    <Section spacing="sm" background="background">
       <Container>
         {title && (
           <div className="text-center mb-10">
@@ -57,6 +58,6 @@ export function BeforeAfterSplitSection({
           </div>
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

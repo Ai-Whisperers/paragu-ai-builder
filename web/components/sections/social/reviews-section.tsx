@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { Star, Quote, ThumbsUp, CheckCircle, Send } from 'lucide-react'
@@ -125,7 +126,7 @@ export function ReviewsSection({
   }
 
   return (
-    <section className={cn('py-16', className)}>
+    <Section fullWidth spacing="md" className={className}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
@@ -248,7 +249,7 @@ export function ReviewsSection({
           </div>
         )}
       </div>
-    </section>
+    </Section>
   )
 }
 

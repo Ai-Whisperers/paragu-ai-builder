@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -36,7 +37,7 @@ export function WeeklyCadenceCalendarSection({
   })
 
   return (
-    <section className="py-14 bg-background">
+    <Section spacing="sm" background="background">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
@@ -84,6 +85,6 @@ export function WeeklyCadenceCalendarSection({
           <p className="mt-4 text-center text-xs text-muted-foreground italic">{footnote}</p>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }

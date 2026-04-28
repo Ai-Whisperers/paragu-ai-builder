@@ -179,14 +179,14 @@ export function CalcIrpSection({
             {eyebrow || L.eyebrow}
           </p>
           <Heading level={2}>{title || L.title}</Heading>
-          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-[var(--text-light,#475569)]">{subtitle || L.subtitle}</p>
+          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle || L.subtitle}</p>
         </AnimatedSectionHeader>
 
         <CalcCard>
           <div className="font-heading text-primary grid gap-8 md:grid-cols-2">
             <div className="font-heading text-primary space-y-5">
               <label className="font-heading text-primary block">
-                <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">{L.incomeLabel}</span>
+                <span className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">{L.incomeLabel}</span>
                 <input
                   type="number"
                   inputMode="numeric"
@@ -194,13 +194,13 @@ export function CalcIrpSection({
                   step={1_000_000}
                   value={income}
                   onChange={(e) => setIncome(Math.max(0, Number(e.target.value) || 0))}
-                  className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
+                  className="font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 />
-                <span className="font-heading text-primary mt-1 block text-xs text-[var(--text-muted,#64748b)]">{formatGs(income)}</span>
+                <span className="font-heading text-primary mt-1 block text-xs text-muted-foreground">{formatGs(income)}</span>
               </label>
 
               <label className="font-heading text-primary block">
-                <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">{L.deductionsLabel}</span>
+                <span className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">{L.deductionsLabel}</span>
                 <input
                   type="number"
                   inputMode="numeric"
@@ -208,21 +208,21 @@ export function CalcIrpSection({
                   step={500_000}
                   value={deductions}
                   onChange={(e) => setDeductions(Math.max(0, Number(e.target.value) || 0))}
-                  className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
+                  className="font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 />
-                <span className="font-heading text-primary mt-1 block text-xs text-[var(--text-muted,#64748b)]">{formatGs(deductions)}</span>
+                <span className="font-heading text-primary mt-1 block text-xs text-muted-foreground">{formatGs(deductions)}</span>
               </label>
 
-              <div className="font-heading text-primary rounded-lg border border-dashed border-[var(--border,#e2e8f0)] bg-surface-light p-4">
-                <p className="font-heading text-primary text-xs uppercase tracking-wider text-[var(--text-muted,#64748b)]">{L.baseLabel}</p>
-                <p className="font-heading text-primary text-lg font-semibold text-[var(--text,#0f172a)]">{formatGs(base)}</p>
+              <div className="font-heading text-primary rounded-lg border border-dashed border-border bg-surface-light p-4">
+                <p className="font-heading text-primary text-xs uppercase tracking-wider text-muted-foreground">{L.baseLabel}</p>
+                <p className="font-heading text-primary text-lg font-semibold text-foreground">{formatGs(base)}</p>
               </div>
             </div>
 
             <div className="font-heading text-primary flex flex-col justify-center rounded-xl bg-surface-light p-6">
               <dl className="font-heading text-primary space-y-4">
                 <div>
-                  <dt className="font-heading text-primary text-xs uppercase tracking-wider text-[var(--text-muted,#64748b)]">{L.annualTax}</dt>
+                  <dt className="font-heading text-primary text-xs uppercase tracking-wider text-muted-foreground">{L.annualTax}</dt>
                   <dd
                     className="font-heading text-primary text-xl sm:text-3xl font-bold"
                    
@@ -231,12 +231,12 @@ export function CalcIrpSection({
                   </dd>
                 </div>
                 <div>
-                  <dt className="font-heading text-primary text-xs uppercase tracking-wider text-[var(--text-muted,#64748b)]">{L.monthlyTax}</dt>
-                  <dd className="font-heading text-primary text-xl font-semibold text-[var(--text,#0f172a)]">{formatGs(tax / 12)}</dd>
+                  <dt className="font-heading text-primary text-xs uppercase tracking-wider text-muted-foreground">{L.monthlyTax}</dt>
+                  <dd className="font-heading text-primary text-xl font-semibold text-foreground">{formatGs(tax / 12)}</dd>
                 </div>
-                <div className="font-heading text-primary border-t border-[var(--border,#e2e8f0)] pt-4">
+                <div className="font-heading text-primary border-t border-border pt-4">
                   <dt className="font-heading text-primary text-xs uppercase tracking-wider text-secondary">{L.effectiveRate}</dt>
-                  <dd className="font-heading text-primary text-xl font-semibold text-[var(--text,#0f172a)]">
+                  <dd className="font-heading text-primary text-xl font-semibold text-foreground">
                     {(effectiveRate * 100).toFixed(2)}%
                   </dd>
                 </div>
@@ -246,13 +246,13 @@ export function CalcIrpSection({
 
           {base > 0 && (
             <div className="font-heading text-primary mt-8">
-              <h3 className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--text-muted,#64748b)]">
+              <h3 className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
                 {L.breakdownTitle}
               </h3>
               <div className="font-heading text-primary overflow-x-auto">
                 <table className="font-heading text-primary w-full text-sm">
                   <thead>
-                    <tr className="font-heading text-primary border-b border-[var(--border,#e2e8f0)] text-left text-xs uppercase tracking-wider text-[var(--text-muted,#64748b)]">
+                    <tr className="font-heading text-primary border-b border-border text-left text-xs uppercase tracking-wider text-muted-foreground">
                       <th className="font-heading text-primary py-2 pr-3">{L.bandCol}</th>
                       <th className="font-heading text-primary py-2 pr-3 text-right">{L.taxedCol}</th>
                       <th className="font-heading text-primary py-2 pr-3 text-right">{L.rateCol}</th>
@@ -263,11 +263,11 @@ export function CalcIrpSection({
                     {breakdown
                       .filter((b) => b.taxed > 0)
                       .map((b, i) => (
-                        <tr key={i} className="font-heading text-primary border-b border-[var(--border,#e2e8f0)] last:border-0">
-                          <td className="font-heading text-primary py-2 pr-3 text-[var(--text-light,#475569)]">{b.band}</td>
+                        <tr key={i} className="font-heading text-primary border-b border-border last:border-0">
+                          <td className="font-heading text-primary py-2 pr-3 text-muted-foreground">{b.band}</td>
                           <td className="font-heading text-primary py-2 pr-3 text-right">{formatGs(b.taxed)}</td>
                           <td className="font-heading text-primary py-2 pr-3 text-right">{(b.rate * 100).toFixed(0)}%</td>
-                          <td className="font-heading text-primary py-2 text-right font-semibold text-[var(--text,#0f172a)]">{formatGs(b.tax)}</td>
+                          <td className="font-heading text-primary py-2 text-right font-semibold text-foreground">{formatGs(b.tax)}</td>
                         </tr>
                       ))}
                   </tbody>
@@ -276,7 +276,7 @@ export function CalcIrpSection({
             </div>
           )}
 
-          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-[var(--text-muted,#64748b)]">
+          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-muted-foreground">
             {disclaimer || L.disclaimer}
           </p>
 

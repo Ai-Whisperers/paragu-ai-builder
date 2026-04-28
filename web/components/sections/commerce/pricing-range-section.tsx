@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -27,7 +28,7 @@ export function PricingRangeSection({
   ctaHref = '#contacto',
 }: PricingRangeProps) {
   return (
-    <section className="py-14 bg-surface">
+    <Section spacing="sm" background="surface">
       <Container>
         <div className="max-w-2xl mx-auto text-center">
           <Heading level={2}>{title}</Heading>
@@ -61,6 +62,6 @@ export function PricingRangeSection({
           </a>
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

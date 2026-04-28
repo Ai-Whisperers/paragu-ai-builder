@@ -56,14 +56,14 @@ export function CalcCostoEmpleadoSection({
         <AnimatedSectionHeader>
           <p className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow}</p>
           <Heading level={2}>{title}</Heading>
-          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-[var(--text-light,#475569)]">{subtitle}</p>
+          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
         </AnimatedSectionHeader>
 
         <CalcCard>
           <div className="font-heading text-primary grid gap-8 md:grid-cols-2">
             <div className="font-heading text-primary space-y-5">
               <label className="font-heading text-primary block">
-                <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Sueldo mensual bruto (Gs)</span>
+                <span className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">Sueldo mensual bruto (Gs)</span>
                 <input
                   type="number"
                   inputMode="numeric"
@@ -71,13 +71,13 @@ export function CalcCostoEmpleadoSection({
                   step={100_000}
                   value={monthlySalary}
                   onChange={(e) => setMonthlySalary(Math.max(0, Number(e.target.value) || 0))}
-                  className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
+                  className="font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 />
-                <span className="font-heading text-primary mt-1 block text-xs text-[var(--text-muted,#64748b)]">{formatGs(monthlySalary)}</span>
+                <span className="font-heading text-primary mt-1 block text-xs text-muted-foreground">{formatGs(monthlySalary)}</span>
               </label>
 
               <label className="font-heading text-primary block">
-                <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Cantidad de empleados</span>
+                <span className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">Cantidad de empleados</span>
                 <input
                   type="number"
                   inputMode="numeric"
@@ -86,7 +86,7 @@ export function CalcCostoEmpleadoSection({
                   step={1}
                   value={headcount}
                   onChange={(e) => setHeadcount(Math.max(1, Math.min(500, Number(e.target.value) || 1)))}
-                  className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
+                  className="font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 />
               </label>
 
@@ -102,18 +102,18 @@ export function CalcCostoEmpleadoSection({
                 <Row label="IPS patronal (16.5%)" value={`+ ${formatGs(r.ipsPatronal)}`} positive />
                 <Row label="Provision aguinaldo (1/12)" value={`+ ${formatGs(r.aguinaldoProvision)}`} positive />
                 <Row label="Provision vacaciones" value={`+ ${formatGs(r.vacProvision)}`} positive />
-                <div className="font-heading text-primary border-t border-[var(--border,#e2e8f0)] pt-3">
+                <div className="font-heading text-primary border-t border-border pt-3">
                   <dt className="font-heading text-primary text-xs uppercase tracking-wider text-secondary">Costo mensual real por empleado</dt>
                   <dd className="font-heading text-primary text-xl sm:text-3xl font-bold">
                     {formatGs(r.monthlyCost)}
                   </dd>
                 </div>
-                <div className="font-heading text-primary border-t border-dashed border-[var(--border,#e2e8f0)] pt-3">
+                <div className="font-heading text-primary border-t border-dashed border-border pt-3">
                   <Row label="Costo anual por empleado" value={formatGs(r.annualCost)} bold />
                 </div>
                 {headcount > 1 && (
                   <>
-                    <div className="font-heading text-primary border-t border-[var(--border,#e2e8f0)] pt-3">
+                    <div className="font-heading text-primary border-t border-border pt-3">
                       <Row label={`Total mensual (${headcount} emp.)`} value={formatGs(r.totalHeadcountMonthly)} bold />
                     </div>
                     <Row label={`Total anual (${headcount} emp.)`} value={formatGs(r.totalHeadcountAnnual)} bold />
@@ -123,7 +123,7 @@ export function CalcCostoEmpleadoSection({
             </div>
           </div>
 
-          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-[var(--text-muted,#64748b)]">
+          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-muted-foreground">
             {disclaimer ||
               'Calculo incluye IPS patronal (16.5%), provision de aguinaldo y provision de vacaciones minimas (12 dias/ano). No incluye: seguro medico privado, bonificaciones, horas extra, carga por despido (15d/ano), seguro de riesgos, ART. Consulta con contador para calculo exacto por rubro.'}
           </p>
@@ -145,8 +145,8 @@ export function CalcCostoEmpleadoSection({
 function Row({ label, value, bold, positive }: { label: string; value: string; bold?: boolean; positive?: boolean }) {
   return (
     <div className="font-heading text-primary flex items-baseline justify-between gap-4">
-      <dt className="font-heading text-primary text-[var(--text-light,#475569)]">{label}</dt>
-      <dd className={`font-semibold ${positive ? 'text-emerald-700' : bold ? 'text-lg text-[var(--text,#0f172a)]' : 'text-[var(--text,#0f172a)]'}`}>{value}</dd>
+      <dt className="font-heading text-primary text-muted-foreground">{label}</dt>
+      <dd className={`font-semibold ${positive ? 'text-emerald-700' : bold ? 'text-lg text-foreground' : 'text-foreground'}`}>{value}</dd>
     </div>
   )
 }

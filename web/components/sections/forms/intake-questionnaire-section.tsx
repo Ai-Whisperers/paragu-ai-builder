@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -111,7 +112,7 @@ export function IntakeQuestionnaireSection({
 
   if (submitted) {
     return (
-      <section className="py-16 bg-background">
+      <Section spacing="md" background="background">
         <Container>
           <Card className="max-w-xl mx-auto">
             <CardContent className="p-8 text-center">
@@ -119,12 +120,12 @@ export function IntakeQuestionnaireSection({
             </CardContent>
           </Card>
         </Container>
-      </section>
+      </Section>
     )
   }
 
   return (
-    <section className="py-16 bg-background">
+    <Section spacing="md" background="background">
       <Container>
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
@@ -163,7 +164,7 @@ export function IntakeQuestionnaireSection({
           </div>
         </form>
       </Container>
-    </section>
+    </Section>
   )
 }
 

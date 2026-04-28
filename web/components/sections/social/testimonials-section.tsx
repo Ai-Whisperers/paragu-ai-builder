@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Star, Quote } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -52,7 +53,7 @@ export function TestimonialsSection({
   const gridCols = columns === 2 ? 'md:grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-3'
 
   return (
-    <section className="relative overflow-hidden bg-background py-20 sm:py-28 lg:py-32">
+    <Section fullWidth spacing="xl" background="background" className="relative overflow-hidden">
       {/* Decorative elements when enhanced */}
       {enhanced && (
         <>
@@ -192,7 +193,7 @@ export function TestimonialsSection({
           ))}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }
 

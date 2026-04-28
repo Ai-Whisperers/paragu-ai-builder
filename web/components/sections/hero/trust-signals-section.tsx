@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import * as Icons from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -70,7 +71,7 @@ export function TrustSignalsSection({
       }
     : undefined
   return (
-    <section className="font-heading bg-surface-light py-12 sm:py-16" style={sectionStyle}>
+    <Section fullWidth spacing="sm" background="surface-light" className="font-heading" style={sectionStyle}>
       <Container>
         {(title || subtitle) && (
           <AnimatedSectionHeader>
@@ -88,7 +89,7 @@ export function TrustSignalsSection({
 
         {variant === 'logos-row' ? <LogosRow items={resolvedItems} /> : <Credentials items={resolvedItems} />}
       </Container>
-    </section>
+    </Section>
   )
 }
 

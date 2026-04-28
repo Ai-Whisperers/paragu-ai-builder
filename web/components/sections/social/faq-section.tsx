@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useMemo, useState } from 'react'
 import { ChevronDown, Search } from 'lucide-react'
@@ -90,7 +91,7 @@ export function FAQSection({ title, items, questions, searchEnabled, searchPlace
 
   if (resolved.length === 0) return null
   return (
-    <section className="bg-surface py-16 sm:py-20">
+    <Section spacing="md" background="surface">
       <Container size="md">
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
@@ -121,6 +122,6 @@ export function FAQSection({ title, items, questions, searchEnabled, searchPlace
           )}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

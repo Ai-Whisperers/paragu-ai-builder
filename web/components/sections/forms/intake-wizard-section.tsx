@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { trackWizardStep, trackWizardComplete } from '@/lib/analytics/marketing-events'
@@ -96,7 +97,7 @@ export function IntakeWizardSection({
     })
     const info = resolvedTiers[tier]
     return (
-      <section className="font-heading bg-surface-light py-16 sm:py-24">
+      <Section spacing="lg" background="surface-light" className="font-heading">
         <Container size="md">
           <div className="font-heading mx-auto max-w-2xl rounded-2xl border border-border bg-surface p-8 shadow-card sm:p-12">
             <div className="font-heading mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-secondary">
@@ -123,14 +124,14 @@ export function IntakeWizardSection({
             </div>
           </div>
         </Container>
-      </section>
+      </Section>
     )
   }
 
   if (!currentStep) return null
 
   return (
-    <section className="font-heading bg-surface-light py-16 sm:py-24">
+    <Section spacing="lg" background="surface-light" className="font-heading">
       <Container size="md">
         {(title || subtitle) && (
           <div className="font-heading mb-10 text-center">
@@ -191,6 +192,6 @@ export function IntakeWizardSection({
           </div>
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { Container } from '@/components/ui/container'
@@ -95,7 +96,7 @@ export function BookingWizardSection({
   }
 
   return (
-    <section className="bg-background py-16 sm:py-20">
+    <Section spacing="md" background="background">
       <Container>
         <div className="mx-auto max-w-2xl">
           {title && <Heading level={2} className="text-center">{title}</Heading>}
@@ -268,6 +269,6 @@ export function BookingWizardSection({
           </div>
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

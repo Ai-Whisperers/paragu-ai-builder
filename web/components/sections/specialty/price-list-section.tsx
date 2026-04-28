@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { Download, FileText, CheckCircle, Calendar, Truck, Phone } from 'lucide-react'
@@ -255,7 +256,7 @@ export interface PriceListSectionProps {
 
 export function PriceListSection({ data, className }: PriceListSectionProps) {
   return (
-    <section className={cn('py-16 bg-surface', className)}>
+    <Section fullWidth spacing="md" background="surface" className={className}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
@@ -310,7 +311,7 @@ export function PriceListSection({ data, className }: PriceListSectionProps) {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   )
 }
 

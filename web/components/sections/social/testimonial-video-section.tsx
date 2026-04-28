@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -25,7 +26,7 @@ function embedUrl(src: string): string {
 export function TestimonialVideoSection({ title = 'Historias de clientes', subtitle, videos }: TestimonialVideoProps) {
   if (!videos?.length) return null
   return (
-    <section className="py-16 bg-surface">
+    <Section spacing="md" background="surface">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
@@ -60,6 +61,6 @@ export function TestimonialVideoSection({ title = 'Historias de clientes', subti
           })}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

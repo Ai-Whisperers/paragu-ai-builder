@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -26,7 +27,7 @@ export function GoogleMapsSection({
   const dirUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodedQuery}`
 
   return (
-    <section className="bg-background py-12 sm:py-16">
+    <Section spacing="sm" background="background">
       <Container>
         {(title || subtitle) && (
           <div className="text-center mb-8">
@@ -60,6 +61,6 @@ export function GoogleMapsSection({
           </div>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }

@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { Calendar, Repeat, Truck, Package, CheckCircle, ArrowRight } from 'lucide-react'
@@ -66,7 +67,7 @@ import { SubscriptionForm } from './subscription-form'
 
 export function SubscriptionSection({ phone, products, className }: SubscriptionSectionProps) {
   return (
-    <section className={cn('py-16 bg-surface', className)}>
+    <Section fullWidth spacing="md" background="surface" className={className}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <Badge className="mb-4 bg-primary">Nuevo Servicio</Badge>
@@ -137,7 +138,7 @@ export function SubscriptionSection({ phone, products, className }: Subscription
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   )
 }
 

@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { Container } from '@/components/ui/container'
@@ -51,7 +52,7 @@ export function PackagesSection({
   }
   
   return (
-    <section className="py-16 bg-surface">
+    <Section spacing="md" background="surface">
       <Container>
         {/* Header */}
         <div className="text-center mb-12">
@@ -176,6 +177,6 @@ export function PackagesSection({
           </div>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }

@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { AnimatedSectionHeader, AnimateOnScroll } from '@/components/ui/animate-on-scroll'
@@ -31,7 +32,7 @@ export function StatsCounterSection({
   }
 
   return (
-    <section className="bg-surface py-12 sm:py-16">
+    <Section spacing="sm" background="surface">
       <Container>
         <div className={`grid ${gridCols[columns] || 'grid-cols-4'} gap-6 sm:gap-8`}>
           {items.map((item, i) => (
@@ -48,6 +49,6 @@ export function StatsCounterSection({
           ))}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

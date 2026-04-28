@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import Link from 'next/link'
 import { unstable_noStore as noStore } from 'next/cache'
 import { resolveBusinessBySlug } from '@/lib/commerce/resolve-business'
@@ -61,7 +62,7 @@ export async function FeaturedProductsSection({
   if (products.length === 0) return null
 
   return (
-    <section className="py-12" aria-labelledby="featured-products-heading">
+    <Section spacing="sm" aria-labelledby="featured-products-heading">
       <Container>
         <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
           <div>
@@ -109,6 +110,6 @@ export async function FeaturedProductsSection({
           })}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

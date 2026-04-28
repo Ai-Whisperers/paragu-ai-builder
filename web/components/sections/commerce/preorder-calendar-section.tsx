@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import { Calendar as CalendarIcon, Clock, ChevronLeft, ChevronRight, CheckCircle, AlertCircle } from 'lucide-react'
@@ -291,7 +292,7 @@ export function PreOrderSection({ phone, className }: PreOrderSectionProps) {
   const [availability] = useState(generateSampleAvailability())
 
   return (
-    <section className={cn('py-16', className)}>
+    <Section fullWidth spacing="md" className={className}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
@@ -369,7 +370,7 @@ export function PreOrderSection({ phone, className }: PreOrderSectionProps) {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   )
 }
 

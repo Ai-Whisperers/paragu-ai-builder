@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 
@@ -24,7 +25,7 @@ export function RelatedPostsSection({ title, posts }: RelatedPostsSectionProps) 
   if (!posts || posts.length === 0) return null
   const visible = posts.slice(0, 3)
   return (
-    <section className="border-t border-border bg-surface-light py-16">
+    <Section spacing="md" background="surface-light" className="border-t border-border">
       <Container>
         <Heading level={2} className="mb-8 text-2xl font-semibold text-primary">
           {title}
@@ -65,6 +66,6 @@ export function RelatedPostsSection({ title, posts }: RelatedPostsSectionProps) 
           ))}
         </div>
       </Container>
-    </section>
+    </Section>
   )
 }

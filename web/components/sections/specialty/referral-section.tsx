@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState, useEffect } from 'react'
 import { Gift, Share2, Copy, CheckCircle, MessageCircle, Users, TrendingUp } from 'lucide-react'
@@ -146,7 +147,7 @@ export interface ReferralSectionProps {
 
 export function ReferralSection({ phone, businessName, className }: ReferralSectionProps) {
   return (
-    <section className={cn('py-16 bg-surface', className)}>
+    <Section fullWidth spacing="md" background="surface" className={className}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <Badge className="mb-4 bg-primary">Gana Huevos Gratis</Badge>
@@ -217,7 +218,7 @@ export function ReferralSection({ phone, businessName, className }: ReferralSect
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   )
 }
 

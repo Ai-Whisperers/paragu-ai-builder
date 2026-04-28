@@ -1,4 +1,5 @@
 'use client'
+import { Section } from '@/components/ui/section'
 
 import { useState } from 'react'
 import Image from 'next/image'
@@ -66,7 +67,7 @@ export function ContentGridSection({
     : 'rounded-lg'
 
   return (
-    <section className="bg-background py-16 sm:py-20">
+    <Section spacing="md" background="background">
       <Container>
         {(title || subtitle) && (
           <AnimatedSectionHeader>
@@ -176,6 +177,6 @@ export function ContentGridSection({
           </div>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }

@@ -1,3 +1,4 @@
+import { Section } from '@/components/ui/section'
 import { BlogSocialShare } from '@/components/sections/social/blog-social-share'
 import { Container } from '@/components/ui/container'
 
@@ -86,7 +87,7 @@ export function BlogPostSection({
         {shareUrl && <BlogSocialShare url={shareUrl} title={title} locale={locale} />}
 
         {relatedPosts && relatedPosts.length > 0 && (
-          <section className="font-heading mt-16 border-t border-border pt-12">
+          <Section fullWidth spacing="none" className="font-heading mt-16 border-t border-border pt-12">
             <Heading level={2} className="font-heading mb-6 text-2xl font-semibold text-primary">
               {relatedLabel}
             </Heading>
@@ -128,7 +129,7 @@ export function BlogPostSection({
                 </a>
               ))}
             </div>
-          </section>
+          </Section>
         )}
       </Container>
     </article>

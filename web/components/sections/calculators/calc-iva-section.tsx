@@ -52,17 +52,17 @@ export function CalcIvaSection({
         <AnimatedSectionHeader>
           <p className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow}</p>
           <Heading level={2}>{title}</Heading>
-          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-[var(--text-light,#475569)]">{subtitle}</p>
+          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
         </AnimatedSectionHeader>
 
         <CalcCard>
           <div className="font-heading text-primary grid gap-8 md:grid-cols-2">
             <div className="font-heading text-primary space-y-5">
-              <h3 className="font-heading text-primary text-sm font-semibold uppercase tracking-wider text-[var(--text-muted,#64748b)]">Ventas gravadas del mes (montos CON IVA)</h3>
+              <h3 className="font-heading text-primary text-sm font-semibold uppercase tracking-wider text-muted-foreground">Ventas gravadas del mes (montos CON IVA)</h3>
               <Field label="Ventas IVA 10%" value={sales10} onChange={setSales10} />
               <Field label="Ventas IVA 5% (canasta basica)" value={sales5} onChange={setSales5} />
 
-              <h3 className="font-heading text-primary pt-4 text-sm font-semibold uppercase tracking-wider text-[var(--text-muted,#64748b)]">Compras gravadas del mes (montos CON IVA)</h3>
+              <h3 className="font-heading text-primary pt-4 text-sm font-semibold uppercase tracking-wider text-muted-foreground">Compras gravadas del mes (montos CON IVA)</h3>
               <Field label="Compras IVA 10% con comprobante" value={purchases10} onChange={setPurchases10} />
               <Field label="Compras IVA 5% con comprobante" value={purchases5} onChange={setPurchases5} />
             </div>
@@ -71,7 +71,7 @@ export function CalcIvaSection({
               <dl className="font-heading text-primary space-y-4 text-sm">
                 <Row label="Debito fiscal (IVA en ventas)" value={formatGs(r.debito)} />
                 <Row label="Credito fiscal (IVA en compras)" value={`- ${formatGs(r.credito)}`} negative />
-                <div className="font-heading text-primary border-t border-[var(--border,#e2e8f0)] pt-4">
+                <div className="font-heading text-primary border-t border-border pt-4">
                   {r.toPay > 0 ? (
                     <>
                       <dt className="font-heading text-primary text-xs uppercase tracking-wider text-secondary">IVA a pagar</dt>
@@ -92,7 +92,7 @@ export function CalcIvaSection({
             </div>
           </div>
 
-          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-[var(--text-muted,#64748b)]">
+          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-muted-foreground">
             {disclaimer ||
               'Calculo referencial. El IVA real depende de retenciones de IVA (Res. DNIT), exportaciones (tasa 0%), operaciones exentas (art. 100) y comprobantes con credito fiscal valido. Consulta con un contador antes de presentar.'}
           </p>
@@ -114,7 +114,7 @@ export function CalcIvaSection({
 function Field({ label, value, onChange }: { label: string; value: number; onChange: (n: number) => void }) {
   return (
     <label className="font-heading text-primary block">
-      <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">{label}</span>
+      <span className="font-heading text-primary mb-2 block text-sm font-medium text-foreground">{label}</span>
       <input
         type="number"
         inputMode="numeric"
@@ -122,9 +122,9 @@ function Field({ label, value, onChange }: { label: string; value: number; onCha
         step={100_000}
         value={value}
         onChange={(e) => onChange(Math.max(0, Number(e.target.value) || 0))}
-        className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
+        className="font-heading text-primary w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
       />
-      <span className="font-heading text-primary mt-1 block text-xs text-[var(--text-muted,#64748b)]">{formatGs(value)}</span>
+      <span className="font-heading text-primary mt-1 block text-xs text-muted-foreground">{formatGs(value)}</span>
     </label>
   )
 }
@@ -132,8 +132,8 @@ function Field({ label, value, onChange }: { label: string; value: number; onCha
 function Row({ label, value, negative }: { label: string; value: string; negative?: boolean }) {
   return (
     <div className="font-heading text-primary flex items-baseline justify-between gap-4">
-      <dt className="font-heading text-primary text-[var(--text-light,#475569)]">{label}</dt>
-      <dd className={`font-semibold ${negative ? 'text-rose-700' : 'text-[var(--text,#0f172a)]'}`}>{value}</dd>
+      <dt className="font-heading text-primary text-muted-foreground">{label}</dt>
+      <dd className={`font-semibold ${negative ? 'text-rose-700' : 'text-foreground'}`}>{value}</dd>
     </div>
   )
 }
