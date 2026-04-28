@@ -28,7 +28,7 @@ const SECTION_CATALOG: Record<string, SectionMeta> = {
   'whatsapp-float': { id: 'whatsapp-float', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' },
   'contact-strip': { id: 'contact-strip', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' },
   'floating-cta': { id: 'floating-cta', variants: ['default', 'minimal'], defaultVariant: 'default', category: 'Navigation' },
-  'compliance-disclaimer-footer': { id: 'compliance-disclaimer-footer', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' },
+  'compliance-disclaimer-footer': { id: 'compliance-disclaimer-footer', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' }, { key: 'description', label: 'Descripción', type: 'textarea', value: 'Texto de ejemplo' }] },
   'language-selector': { id: 'language-selector', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' },
   'currency-toggle': { id: 'currency-toggle', variants: ['standard'], defaultVariant: 'standard', category: 'Navigation' },
   hero: { id: 'hero', variants: ['image', 'split', 'minimal'], defaultVariant: 'image', category: 'Hero' },
@@ -234,7 +234,6 @@ function buildSampleProps(sectionId: string): Record<string, unknown> {
     branches: { ...common, title: 'Sucursales', items: [{ name: 'Sucursal Centro', address: 'Av. Principal 123', phone: '+595 981 000 000', hours: 'Lun-Vie 08:00-18:00' }, { name: 'Sucursal Sur', address: 'Av. Secundaria 456', phone: '+595 981 000 001', hours: 'Lun-Sáb 09:00-20:00' }] },
     'property-listings': { ...common, title: 'Propiedades', items: [{ title: 'Casa 3 dormitorios', price: 'USD 150.000', image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&q=80', location: 'Asunción' }, { title: 'Departamento 2 dorm.', price: 'USD 80.000', image: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=400&q=80', location: 'Asunción' }] },
     'compliance-disclaimer-footer': { ...common, paragraphs: ['Este es un sitio demo. La información es ilustrativa.'] },
-  }
 
     'payment-methods': { ...common, title: 'Medios de pago', methods: ['bancard', 'pagopar', 'mercadopago', 'visa', 'mastercard', 'efectivo'] },
     'currency-display': { ...common, currencies: [{ code: 'PYG', symbol: 'Gs.', label: 'Guaraníes' }, { code: 'USD', symbol: '$', label: 'Dólares' }] },
@@ -284,7 +283,8 @@ function buildSampleProps(sectionId: string): Record<string, unknown> {
     'vet-services': { ...common, title: 'Servicios', services: [{ name: 'Consulta general', price: 'Gs. 80.000', duration: '30 min' }, { name: 'Vacunación', price: 'Gs. 50.000', duration: '15 min' }] },
     'analytics-dashboard': { ...common, title: 'Dashboard', stats: [{ label: 'Visitas', value: '1.234', change: '+12%' }, { label: 'Ventas', value: 'Gs. 5.6M', change: '+8%' }] },
     'tenant-settings': { ...common, title: 'Configuración', fields: [{ id: 'name', label: 'Nombre', type: 'text', value: 'Mi Negocio' }, { id: 'phone', label: 'Teléfono', type: 'tel', value: '+595 981 000 000' }] },
-    'content-editor': { ...common, title: 'Editor', fields: [{ key: 'headline', label: 'Título', type: 'text', value: 'Bienvenidos' }, { key: 'description', label: 'Descripción', type: 'textarea', value: 'Texto de ejemplo' }] },
+    'content-editor': { ...common, title: 'Editor', fields: [{ key: 'headline', label: 'Título', type: 'text', value: 'Bienvenidos' },
+  }
 
   return samples[sectionId] || common
 }
