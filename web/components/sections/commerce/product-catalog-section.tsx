@@ -190,9 +190,10 @@ export function ProductCatalogSection({
   ]
   const hasCategories = allCategories.length > 0
 
+  const safeProducts = Array.isArray(products) ? products.filter(Boolean) : []
   const filteredProducts = activeCategory
-    ? products.filter((p) => p.category === activeCategory)
-    : products
+    ? safeProducts.filter((p) => p.category === activeCategory)
+    : safeProducts
 
   return (
     <section id="catalogo" className="bg-surface-light py-16 sm:py-20">

@@ -24,6 +24,7 @@ export function ProductCard({
   unavailableText,
   detailHref,
 }: {
+  product?: ProductItem
   product: ProductItem
   showPrices: boolean
   whatsappPhone?: string
