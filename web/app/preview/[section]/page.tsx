@@ -283,7 +283,7 @@ function buildSampleProps(sectionId: string): Record<string, unknown> {
     'vet-services': { ...common, title: 'Servicios', services: [{ name: 'Consulta general', price: 'Gs. 80.000', duration: '30 min' }, { name: 'Vacunación', price: 'Gs. 50.000', duration: '15 min' }] },
     'analytics-dashboard': { ...common, title: 'Dashboard', stats: [{ label: 'Visitas', value: '1.234', change: '+12%' }, { label: 'Ventas', value: 'Gs. 5.6M', change: '+8%' }] },
     'tenant-settings': { ...common, title: 'Configuración', fields: [{ id: 'name', label: 'Nombre', type: 'text', value: 'Mi Negocio' }, { id: 'phone', label: 'Teléfono', type: 'tel', value: '+595 981 000 000' }] },
-    'content-editor': { ...common, title: 'Editor', fields: [{ key: 'headline', label: 'Título', type: 'text', value: 'Bienvenidos' },
+    'content-editor': { ...common, title: 'Editor', fields: [{ key: 'headline', label: 'Título', type: 'text', value: 'Bienvenidos' }, { key: 'description', label: 'Descripción', type: 'textarea', value: 'Texto de ejemplo' }] },
   }
 
   return samples[sectionId] || common
