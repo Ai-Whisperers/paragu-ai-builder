@@ -25,16 +25,19 @@ export function StatsCounterSection({
 }: StatsCounterProps) {
   if (!items || items.length === 0) return null
 
-  const gridCols = {
-    2: 'grid-cols-2',
-    3: 'grid-cols-3',
-    4: 'grid-cols-4 divide-x divide-border/50',
-  }
+  const count = items.length
+  const cols = Math.min(columns || count, count, 4)
+  const gridClass = (
+    cols === 1 ? 'grid-cols-1'
+    : cols === 2 ? 'grid-cols-2'
+    : cols === 3 ? 'grid-cols-3'
+    : 'grid-cols-4 divide-x divide-border/50'
+  )
 
   return (
     <Section spacing="sm" background="surface">
       <Container>
-        <div className={`grid ${gridCols[columns] || 'grid-cols-4 divide-x divide-border/50'} gap-6 sm:gap-8`}>
+        <div className={`grid ${gridClass} gap-6 sm:gap-8`}>
           {items.map((item, i) => (
             <AnimateOnScroll key={i} stagger={(i % columns) as 1 | 2 | 3 | 4}>
               <div className="text-center relative">
