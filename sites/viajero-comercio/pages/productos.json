@@ -10,6 +10,13 @@
       "content": "productos.hero"
     },
     {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "home.gallery",
+      "title": "Nuestros Productos",
+      "subtitle": "Explora todas nuestras categorias"
+    },
+    {
       "id": "cta-banner",
       "variant": "gradient",
       "content": "home.finalCta"
