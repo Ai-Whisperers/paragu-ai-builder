@@ -9,10 +9,10 @@ const filterBadgeVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-[var(--secondary)] text-white hover:bg-[var(--secondary)]/90",
-        secondary: "border-2 border-[var(--secondary)] text-[var(--secondary)] bg-transparent hover:bg-[var(--secondary)] hover:text-white",
-        outline: "border-2 border-[var(--text-muted)] text-[var(--text)] bg-transparent hover:bg-[var(--surface-light)]",
-        muted: "bg-[var(--surface-light)] text-[var(--text)] hover:bg-[var(--surface)]",
+        default: "bg-secondary text-white hover:bg-secondary/90",
+        secondary: "border-2 border-secondary text-secondary bg-transparent hover:bg-secondary hover:text-white",
+        outline: "border-2 border-muted-foreground text-foreground bg-transparent hover:bg-surface-light",
+        muted: "bg-surface-light text-foreground hover:bg-surface",
         success: "bg-[var(--color-success)] text-white",
         destructive: "bg-[var(--color-error)] text-white",
         warning: "bg-[var(--color-warning)] text-white",
@@ -172,11 +172,11 @@ const legacyBadgeVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-[var(--secondary)] text-white",
-        secondary: "border border-[var(--secondary)] text-[var(--secondary)] bg-transparent",
-        outline: "border border-[var(--text-muted)] text-[var(--text)]",
-        muted: "bg-[var(--surface-light)] text-[var(--text-muted)]",
-        success: "bg-[var(--success)] text-white",
+        default: "bg-secondary text-white",
+        secondary: "border border-secondary text-secondary bg-transparent",
+        outline: "border border-muted-foreground text-foreground",
+        muted: "bg-surface-light text-muted-foreground",
+        success: "bg-success text-white",
         destructive: "bg-red-600 text-white",
       },
     },

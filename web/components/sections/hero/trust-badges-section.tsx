@@ -97,7 +97,7 @@ export function TrustBadgesSection({ items, badges, title, eyebrow }: TrustBadge
             ) : null}
           </div>
         ) : null}
-        <ul className="grid grid-cols-2 gap-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4 sm:grid-cols-3 md:grid-cols-4">
+        <ul className="grid grid-cols-2 gap-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4 sm:grid-cols-3 md:grid-cols-4">
           {list.map((b, i) => {
             const label = b.text ?? b.title ?? ''
             return (

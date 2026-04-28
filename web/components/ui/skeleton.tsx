@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils"
 import { cva, type VariantProps } from "class-variance-authority"
 
 const skeletonVariants = cva(
-  "animate-pulse bg-[var(--surface-light)] rounded-md",
+  "animate-pulse bg-surface-light rounded-md",
   {
     variants: {
       variant: {

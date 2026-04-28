@@ -120,7 +120,7 @@ export function PaymentCredentialsManager({ businessId, initialCredentials }: Pr
         </div>
       ) : (
         credentials.map((cred) => (
-          <div key={cred.id} className="flex items-center justify-between rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+          <div key={cred.id} className="flex items-center justify-between rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
             <div>
               <p className="font-medium">{TEMPLATES.find((t) => t.provider === cred.provider)?.label ?? cred.provider}</p>
               <p className="text-xs text-[color:var(--text-muted,#6b7280)]">
@@ -133,7 +133,7 @@ export function PaymentCredentialsManager({ businessId, initialCredentials }: Pr
               <button
                 type="button"
                 onClick={() => setOpenProvider(cred.provider)}
-                className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-sm hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-sm hover:bg-surface-light"
               >
                 Editar
               </button>
@@ -157,7 +157,7 @@ export function PaymentCredentialsManager({ businessId, initialCredentials }: Pr
               key={t.provider}
               type="button"
               onClick={() => setOpenProvider(t.provider)}
-              className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4 text-left hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+              className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4 text-left hover:bg-surface-light"
             >
               <p className="font-medium">+ {t.label}</p>
             </button>
@@ -226,7 +226,7 @@ function CredentialFormModal({
       <form
         onClick={(e) => e.stopPropagation()}
         onSubmit={handleSubmit}
-        className="w-full max-w-md rounded-lg bg-[color:var(--surface,#fff)] p-6 shadow-xl"
+        className="w-full max-w-md rounded-lg bg-surface p-6 shadow-xl"
       >
         <h3 className="mb-1 text-lg font-semibold">{template.label}</h3>
         {existing ? (
@@ -273,14 +273,14 @@ function CredentialFormModal({
           <button
             type="button"
             onClick={onClose}
-            className="rounded px-3 py-2 text-sm hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+            className="rounded px-3 py-2 text-sm hover:bg-surface-light"
           >
             Cancelar
           </button>
           <button
             type="submit"
             disabled={submitting}
-            className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
+            className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
           >
             {submitting ? 'Guardando…' : 'Guardar'}
           </button>

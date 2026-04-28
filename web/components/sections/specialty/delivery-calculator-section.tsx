@@ -107,16 +107,16 @@ export function DeliveryCalculator({
 
   return (
     <Card className={cn('overflow-hidden', className)}>
-      <CardHeader className="bg-[var(--surface)] border-b border-[var(--border)]">
+      <CardHeader className="bg-surface border-b border-border">
         <CardTitle className="flex items-center gap-2 text-lg">
-          <Truck className="w-5 h-5 text-[var(--primary)]" />
+          <Truck className="w-5 h-5 text-primary" />
           Calculadora de Delivery
         </CardTitle>
       </CardHeader>
       <CardContent className="p-6 space-y-6">
         {/* Zone Selection */}
         <div className="space-y-2">
-          <label className="text-sm font-medium text-[var(--text)]">
+          <label className="text-sm font-medium text-foreground">
             Selecciona tu zona
           </label>
           <Select onValueChange={handleZoneChange} value={selectedZone}>
@@ -128,7 +128,7 @@ export function DeliveryCalculator({
                 <SelectItem key={zone.id} value={zone.id}>
                   <div className="flex flex-col items-start">
                     <span>{zone.name}</span>
-                    <span className="text-xs text-[var(--text-muted)]">
+                    <span className="text-xs text-muted-foreground">
                       {zone.fee === 0 ? 'Gratis' : `${zone.fee.toLocaleString()} Gs`}
                     </span>
                   </div>
@@ -140,7 +140,7 @@ export function DeliveryCalculator({
 
         {/* Order Total Input */}
         <div className="space-y-2">
-          <label className="text-sm font-medium text-[var(--text)]">
+          <label className="text-sm font-medium text-foreground">
             Total de tu pedido (Gs)
           </label>
           <div className="relative">
@@ -152,7 +152,7 @@ export function DeliveryCalculator({
               className="pl-12"
               min={0}
             />
-            <span className="absolute left-3 top-1/2 -translate-y-1/2 text-[var(--text-muted)]">
+            <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">
               Gs
             </span>
           </div>
@@ -160,13 +160,13 @@ export function DeliveryCalculator({
 
         {/* Results */}
         {calculation && zone && (
-          <div className="space-y-4 pt-4 border-t border-[var(--border)]">
+          <div className="space-y-4 pt-4 border-t border-border">
             {/* Delivery Fee */}
             <div className="flex items-center justify-between">
-              <span className="text-[var(--text-muted)]">Costo de envio:</span>
+              <span className="text-muted-foreground">Costo de envio:</span>
               <div className="flex items-center gap-2">
                 {calculation.freeDelivery ? (
-                  <Badge variant="default" className="bg-[var(--success)]">
+                  <Badge variant="default" className="bg-success">
                     <CheckCircle className="w-3 h-3 mr-1" />
                     GRATIS
                   </Badge>
@@ -197,7 +197,7 @@ export function DeliveryCalculator({
             {/* Free Delivery Threshold */}
             {!calculation.freeDelivery && zone.freeDeliveryOver > 0 && (
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 flex items-start gap-2">
-                <Info className="w-5 h-5 text-[var(--primary)] flex-shrink-0 mt-0.5" />
+                <Info className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <p className="text-sm text-blue-800">
                   Te faltan ${(zone.freeDeliveryOver - calculation.total).toLocaleString()} Gs 
                   para envio gratis!
@@ -207,16 +207,16 @@ export function DeliveryCalculator({
 
             {/* Estimated Time */}
             <div className="flex items-center gap-2 text-sm">
-              <MapPin className="w-4 h-4 text-[var(--primary)]" />
-              <span className="text-[var(--text-muted)]">Tiempo estimado:</span>
+              <MapPin className="w-4 h-4 text-primary" />
+              <span className="text-muted-foreground">Tiempo estimado:</span>
               <span className="font-medium">{zone.estimatedTime}</span>
             </div>
 
             {/* Final Total */}
-            <div className="pt-3 border-t border-[var(--border)]">
+            <div className="pt-3 border-t border-border">
               <div className="flex items-center justify-between">
-                <span className="font-semibold text-[var(--text)]">Total con envio:</span>
-                <span className="text-2xl font-bold text-[var(--primary)]">
+                <span className="font-semibold text-foreground">Total con envio:</span>
+                <span className="text-2xl font-bold text-primary">
                   {calculation.finalTotal.toLocaleString()} Gs
                 </span>
               </div>
@@ -226,23 +226,23 @@ export function DeliveryCalculator({
 
         {/* Zone Info */}
         {zone && !calculation && (
-          <div className="bg-[var(--surface)] rounded-lg p-4 space-y-2">
+          <div className="bg-surface rounded-lg p-4 space-y-2">
             <h4 className="font-medium flex items-center gap-2">
-              <MapPin className="w-4 h-4 text-[var(--primary)]" />
+              <MapPin className="w-4 h-4 text-primary" />
               {zone.name}
             </h4>
             {zone.description && (
-              <p className="text-sm text-[var(--text-muted)]">{zone.description}</p>
+              <p className="text-sm text-muted-foreground">{zone.description}</p>
             )}
             <div className="grid grid-cols-2 gap-2 text-sm pt-2">
               <div>
-                <span className="text-[var(--text-muted)]">Costo:</span>
+                <span className="text-muted-foreground">Costo:</span>
                 <p className="font-medium">
                   {zone.fee === 0 ? 'Gratis' : `${zone.fee.toLocaleString()} Gs`}
                 </p>
               </div>
               <div>
-                <span className="text-[var(--text-muted)]">Minimo:</span>
+                <span className="text-muted-foreground">Minimo:</span>
                 <p className="font-medium">
                   {zone.minOrder === 0 ? 'Sin minimo' : `${zone.minOrder.toLocaleString()} Gs`}
                 </p>
@@ -264,12 +264,12 @@ export function DeliveryZoneBadge({ zone, className }: DeliveryZoneBadgeProps) {
   return (
     <div className={cn(
       'inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm',
-      'bg-[var(--surface)] border border-[var(--border)]',
+      'bg-surface border border-border',
       className
     )}>
-      <MapPin className="w-4 h-4 text-[var(--primary)]" />
+      <MapPin className="w-4 h-4 text-primary" />
       <span className="font-medium">{zone.name}</span>
-      <span className="text-[var(--text-muted)]">
+      <span className="text-muted-foreground">
         ({zone.fee === 0 ? 'Gratis' : `+${zone.fee.toLocaleString()} Gs`})
       </span>
     </div>

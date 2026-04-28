@@ -66,7 +66,7 @@ export default async function SubscriptionPage({
       </p>
 
       {active ? (
-        <div className="mb-6 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+        <div className="mb-6 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
           <div className="mb-4 flex items-center justify-between">
             <div>
               <p className="text-xs font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">Plan actual</p>
@@ -112,7 +112,7 @@ export default async function SubscriptionPage({
       {subs.length > 0 ? (
         <div>
           <h2 className="mb-2 mt-8 text-sm font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">Historial</h2>
-          <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)]">
+          <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface">
             <table className="w-full text-sm">
               <thead className="bg-[color:var(--surface-muted,#f9fafb)] text-left">
                 <tr>

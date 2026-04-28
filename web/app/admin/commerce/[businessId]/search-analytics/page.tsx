@@ -51,7 +51,7 @@ export default async function SearchAnalyticsPage({
         Lo que tus visitantes están buscando en la tienda. Las búsquedas sin resultados son oportunidades de inventario.
       </p>
 
-      <div className="mb-6 flex flex-wrap items-center gap-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-3 text-sm">
+      <div className="mb-6 flex flex-wrap items-center gap-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-3 text-sm">
         <span>Últimos</span>
         {[7, 14, 30, 60, 90].map((d) => (
           <Link
@@ -59,8 +59,8 @@ export default async function SearchAnalyticsPage({
             href={`?days=${d}${zeroResultOnly ? '&zero=1' : ''}`}
             className={`rounded border px-2 py-0.5 text-xs ${
               d === windowDays
-                ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
-                : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+                ? 'border-[color:var(--primary,#111)] bg-primary text-[color:var(--primary-foreground,#fff)]'
+                : 'border-[color:var(--border,#e5e7eb)] hover:bg-surface-light'
             }`}
           >
             {d} días
@@ -76,8 +76,8 @@ export default async function SearchAnalyticsPage({
           href={`?days=${windowDays}`}
           className={`rounded-full border px-3 py-1 text-xs ${
             !zeroResultOnly
-              ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
-              : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+              ? 'border-[color:var(--primary,#111)] bg-primary text-[color:var(--primary-foreground,#fff)]'
+              : 'border-[color:var(--border,#e5e7eb)] hover:bg-surface-light'
           }`}
         >
           Todas
@@ -87,7 +87,7 @@ export default async function SearchAnalyticsPage({
           className={`rounded-full border px-3 py-1 text-xs ${
             zeroResultOnly
               ? 'border-red-600 bg-red-600 text-white'
-              : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+              : 'border-[color:var(--border,#e5e7eb)] hover:bg-surface-light'
           }`}
         >
           Solo sin resultados
@@ -101,7 +101,7 @@ export default async function SearchAnalyticsPage({
             : 'Todavía no tenemos datos de búsqueda. Volvé después de que los visitantes empiecen a buscar.'}
         </div>
       ) : (
-        <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)]">
+        <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface">
           <table className="w-full text-sm">
             <thead className="bg-[color:var(--surface-muted,#f9fafb)] text-left">
               <tr>

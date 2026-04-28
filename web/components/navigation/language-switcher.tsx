@@ -27,8 +27,8 @@ export function LanguageSwitcher({
             aria-current={active ? 'true' : undefined}
             className={
               active
-                ? 'font-semibold uppercase tracking-wider text-[var(--secondary)]'
-                : 'uppercase tracking-wider text-[var(--text-muted)] hover:text-[var(--text)]'
+                ? 'font-semibold uppercase tracking-wider text-secondary'
+                : 'uppercase tracking-wider text-muted-foreground hover:text-foreground'
             }
             title={LOCALE_LABELS[loc]}
           >

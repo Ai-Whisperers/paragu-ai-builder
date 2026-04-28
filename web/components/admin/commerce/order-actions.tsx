@@ -74,7 +74,7 @@ export function OrderActions({ businessId, orderId, currentStatus }: Props) {
               type="button"
               onClick={() => setShowShipForm(true)}
               disabled={busy}
-              className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
+              className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
             >
               {a.label}
             </button>
@@ -116,7 +116,7 @@ export function OrderActions({ businessId, orderId, currentStatus }: Props) {
                 <button
                   type="submit"
                   disabled={busy}
-                  className="rounded bg-[color:var(--primary,#111)] px-3 py-1.5 text-xs font-semibold text-white disabled:opacity-50"
+                  className="rounded bg-primary px-3 py-1.5 text-xs font-semibold text-white disabled:opacity-50"
                 >
                   {busy ? 'Enviando…' : 'Confirmar envío'}
                 </button>
@@ -124,7 +124,7 @@ export function OrderActions({ businessId, orderId, currentStatus }: Props) {
                   type="button"
                   onClick={() => setShowShipForm(false)}
                   disabled={busy}
-                  className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs hover:bg-[color:var(--surface,#fff)]"
+                  className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs hover:bg-surface"
                 >
                   Cancelar
                 </button>
@@ -138,7 +138,7 @@ export function OrderActions({ businessId, orderId, currentStatus }: Props) {
             type="button"
             onClick={() => transitionTo(a.status)}
             disabled={busy}
-            className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
+            className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
           >
             {busy ? 'Actualizando…' : a.label}
           </button>

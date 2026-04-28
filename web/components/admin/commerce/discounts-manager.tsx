@@ -85,7 +85,7 @@ export function DiscountsManager({
         <button
           type="button"
           onClick={() => setShowForm(true)}
-          className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-white"
+          className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white"
         >
           + Nuevo código
         </button>
@@ -100,7 +100,7 @@ export function DiscountsManager({
           Sin códigos todavía. Creá el primero — promociones típicas: <code>BIENVENIDO10</code>, <code>ENVIOGRATIS</code>.
         </div>
       ) : (
-        <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)]">
+        <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface">
           <table className="w-full text-sm">
             <thead className="bg-[color:var(--surface-muted,#f9fafb)] text-left">
               <tr>
@@ -214,7 +214,7 @@ function NewDiscountForm({
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4"
+      className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4"
     >
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         <label className="block">
@@ -296,14 +296,14 @@ function NewDiscountForm({
         <button
           type="submit"
           disabled={submitting}
-          className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
+          className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
         >
           {submitting ? 'Creando…' : 'Crear código'}
         </button>
         <button
           type="button"
           onClick={onCancel}
-          className="rounded border border-[color:var(--border,#e5e7eb)] px-4 py-2 text-sm hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+          className="rounded border border-[color:var(--border,#e5e7eb)] px-4 py-2 text-sm hover:bg-surface-light"
         >
           Cancelar
         </button>

@@ -10,10 +10,10 @@ const copyButtonVariants = cva(
   {
     variants: {
       variant: {
-        default: "text-[var(--text-muted)] hover:text-[var(--secondary)]",
-        primary: "bg-[var(--secondary)] text-white rounded-md hover:bg-[var(--secondary)]/90",
-        ghost: "text-[var(--text)] hover:bg-[var(--surface-light)] rounded-md",
-        outline: "border border-[var(--border)] text-[var(--text)] rounded-md hover:bg-[var(--surface-light)]",
+        default: "text-muted-foreground hover:text-secondary",
+        primary: "bg-secondary text-white rounded-md hover:bg-secondary/90",
+        ghost: "text-foreground hover:bg-surface-light rounded-md",
+        outline: "border border-border text-foreground rounded-md hover:bg-surface-light",
       },
       size: {
         sm: "p-1.5 text-xs",

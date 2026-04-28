@@ -49,7 +49,7 @@ export function ProductShare({ productName, productUrl }: Props) {
       <button
         type="button"
         onClick={handleNativeShare}
-        className="inline-flex items-center gap-1 rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+        className="inline-flex items-center gap-1 rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs hover:bg-surface-light"
       >
         <span aria-hidden="true">↗</span>
         Compartir
@@ -66,7 +66,7 @@ export function ProductShare({ productName, productUrl }: Props) {
       <button
         type="button"
         onClick={handleCopy}
-        className="inline-flex items-center gap-1 rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+        className="inline-flex items-center gap-1 rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs hover:bg-surface-light"
       >
         <span aria-hidden="true">{copied ? '✓' : '🔗'}</span>
         {copied ? '¡Copiado!' : 'Copiar enlace'}

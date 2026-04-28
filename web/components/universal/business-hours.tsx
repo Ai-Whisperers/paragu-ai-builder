@@ -20,7 +20,7 @@ export default function BusinessHours({ hours = {} }: BusinessHoursProps) {
 
   return (
     <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-      <h3 className="text-lg font-semibold mb-4 text-[var(--primary)]">Horario de Atención</h3>
+      <h3 className="text-lg font-semibold mb-4 text-primary">Horario de Atención</h3>
       
       <div className="space-y-2">
         {days.map((day, idx) => {
@@ -30,14 +30,14 @@ export default function BusinessHours({ hours = {} }: BusinessHoursProps) {
           return (
             <div 
               key={day}
-              className={`flex justify-between items-center py-2 ${isToday(idx) ? 'bg-[var(--primary)]/5 -mx-4 px-4 rounded-lg' : ''}`}
+              className={`flex justify-between items-center py-2 ${isToday(idx) ? 'bg-primary/5 -mx-4 px-4 rounded-lg' : ''}`}
             >
               <div className="flex items-center gap-2">
-                <span className={`font-medium ${isToday(idx) ? 'text-[var(--primary)]' : 'text-gray-700'}`}>
+                <span className={`font-medium ${isToday(idx) ? 'text-primary' : 'text-gray-700'}`}>
                   {formatDay(day)}
                 </span>
                 {isToday(idx) && (
-                  <span className="text-xs bg-[var(--primary)] text-white px-2 py-0.5 rounded">Hoy</span>
+                  <span className="text-xs bg-primary text-white px-2 py-0.5 rounded">Hoy</span>
                 )}
               </div>
               <span className={`${isClosed ? 'text-gray-400' : 'text-gray-900'}`}>

@@ -28,15 +28,15 @@ export function ServiceAreaMapZonesSection({
   zones,
 }: ServiceAreaMapZonesProps) {
   return (
-    <section className="py-14 bg-[var(--background)]">
+    <section className="py-14 bg-background">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
         </div>
         <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           {mapEmbedUrl && (
-            <div className="aspect-video md:aspect-square rounded-lg overflow-hidden bg-[var(--surface-light)]">
+            <div className="aspect-video md:aspect-square rounded-lg overflow-hidden bg-surface-light">
               <iframe
                 src={mapEmbedUrl}
                 className="w-full h-full"
@@ -50,27 +50,27 @@ export function ServiceAreaMapZonesSection({
             {zones.map((z, i) => (
               <div
                 key={i}
-                className="rounded-lg border border-[var(--surface-light)] bg-[var(--surface)] p-4"
+                className="rounded-lg border border-[var(--surface-light)] bg-surface p-4"
               >
                 <div className="flex items-start justify-between gap-3">
                   <div>
-                    <div className="font-semibold text-[var(--text)]">{z.name}</div>
+                    <div className="font-semibold text-foreground">{z.name}</div>
                     {z.neighborhoods && z.neighborhoods.length > 0 && (
-                      <div className="text-xs text-[var(--text-muted)]">
+                      <div className="text-xs text-muted-foreground">
                         {z.neighborhoods.join(', ')}
                       </div>
                     )}
                   </div>
                   <div className="text-right text-sm">
-                    {z.price && <div className="font-semibold text-[var(--primary)]">{z.price}</div>}
+                    {z.price && <div className="font-semibold text-primary">{z.price}</div>}
                     {z.etaMinutes !== undefined && (
-                      <div className="text-xs text-[var(--text-muted)]">{z.etaMinutes} min</div>
+                      <div className="text-xs text-muted-foreground">{z.etaMinutes} min</div>
                     )}
                   </div>
                 </div>
-                {z.note && <p className="mt-2 text-xs text-[var(--text-muted)]">{z.note}</p>}
+                {z.note && <p className="mt-2 text-xs text-muted-foreground">{z.note}</p>}
                 {z.available === false && (
-                  <p className="mt-2 text-xs text-[var(--primary)]">Temporalmente no disponible</p>
+                  <p className="mt-2 text-xs text-primary">Temporalmente no disponible</p>
                 )}
               </div>
             ))}

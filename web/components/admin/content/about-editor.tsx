@@ -18,7 +18,7 @@ export function AboutEditor({ businessId, initial }: { businessId: string; initi
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+    <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
       <FieldInput
         name="title"
         label="Título"

@@ -53,7 +53,7 @@ export function TrustStrip({
 }: TrustStripProps) {
   const prominent = variant === 'prominent'
   const base =
-    'grid grid-cols-2 gap-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4 text-sm sm:grid-cols-4'
+    'grid grid-cols-2 gap-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4 text-sm sm:grid-cols-4'
   const spacing = prominent ? 'my-6 sm:p-5' : 'mb-4'
   return (
     <aside

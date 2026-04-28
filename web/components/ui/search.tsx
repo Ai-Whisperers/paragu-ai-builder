@@ -384,13 +384,13 @@ export function SearchModal({
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/50 pt-[10vh] backdrop-blur-sm">
       <div 
-        className="w-full max-w-2xl overflow-hidden rounded-xl bg-[var(--background)] shadow-2xl"
+        className="w-full max-w-2xl overflow-hidden rounded-xl bg-background shadow-2xl"
         onClick={e => e.stopPropagation()}
       >
         {/* Search input */}
-        <div className="border-b border-[var(--border)] p-4">
+        <div className="border-b border-border p-4">
           <div className="relative">
-            <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-[var(--text-muted)]" />
+            <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
             <Input
               ref={inputRef}
               type="text"
@@ -405,13 +405,13 @@ export function SearchModal({
               autoComplete="off"
             />
             <div className="absolute right-2 top-1/2 flex -translate-y-1/2 items-center gap-1">
-              {isLoading && <Loader2 className="h-4 w-4 animate-spin text-[var(--text-muted)]" />}
-              <kbd className="hidden rounded border border-[var(--border)] bg-[var(--surface-light)] px-1.5 py-0.5 text-xs text-[var(--text-muted)] sm:inline">
+              {isLoading && <Loader2 className="h-4 w-4 animate-spin text-muted-foreground" />}
+              <kbd className="hidden rounded border border-border bg-surface-light px-1.5 py-0.5 text-xs text-muted-foreground sm:inline">
                 ESC
               </kbd>
               <button
                 onClick={onClose}
-                className="rounded p-1 text-[var(--text-muted)] hover:bg-[var(--surface-light)]"
+                className="rounded p-1 text-muted-foreground hover:bg-surface-light"
               >
                 <X className="h-4 w-4" />
               </button>
@@ -421,14 +421,14 @@ export function SearchModal({
 
         {/* Category filters */}
         {availableCategories.length > 0 && (
-          <div className="flex gap-2 border-b border-[var(--border)] p-2">
+          <div className="flex gap-2 border-b border-border p-2">
             <button
               onClick={() => setActiveCategory('all')}
               className={cn(
                 'rounded-full px-3 py-1 text-sm transition-colors',
                 activeCategory === 'all'
-                  ? 'bg-[var(--primary)] text-[var(--primary-foreground)]'
-                  : 'bg-[var(--surface-light)] text-[var(--text)] hover:bg-[var(--surface)]'
+                  ? 'bg-primary text-[var(--primary-foreground)]'
+                  : 'bg-surface-light text-foreground hover:bg-surface'
               )}
             >
               All
@@ -440,8 +440,8 @@ export function SearchModal({
                 className={cn(
                   'rounded-full px-3 py-1 text-sm capitalize transition-colors',
                   activeCategory === type
-                    ? 'bg-[var(--primary)] text-[var(--primary-foreground)]'
-                    : 'bg-[var(--surface-light)] text-[var(--text)] hover:bg-[var(--surface)]'
+                    ? 'bg-primary text-[var(--primary-foreground)]'
+                    : 'bg-surface-light text-foreground hover:bg-surface'
                 )}
               >
                 {typeLabels[type]}
@@ -457,7 +457,7 @@ export function SearchModal({
             <div className="p-4">
               {recentSearches.length > 0 && (
                 <div className="mb-6">
-                  <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)]">
+                  <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                     Recent Searches
                   </h3>
                   <div className="flex flex-wrap gap-2">
@@ -465,7 +465,7 @@ export function SearchModal({
                       <button
                         key={index}
                         onClick={() => setQuery(search)}
-                        className="rounded-full bg-[var(--surface-light)] px-3 py-1 text-sm text-[var(--text)] hover:bg-[var(--surface)]"
+                        className="rounded-full bg-surface-light px-3 py-1 text-sm text-foreground hover:bg-surface"
                       >
                         {search}
                       </button>
@@ -476,7 +476,7 @@ export function SearchModal({
               
               {popularSearches.length > 0 && (
                 <div>
-                  <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)]">
+                  <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                     Popular Searches
                   </h3>
                   <div className="flex flex-wrap gap-2">
@@ -484,7 +484,7 @@ export function SearchModal({
                       <button
                         key={index}
                         onClick={() => setQuery(search)}
-                        className="rounded-full border border-[var(--border)] px-3 py-1 text-sm text-[var(--text)] hover:bg-[var(--surface-light)]"
+                        className="rounded-full border border-border px-3 py-1 text-sm text-foreground hover:bg-surface-light"
                       >
                         {search}
                       </button>
@@ -496,8 +496,8 @@ export function SearchModal({
           ) : results.length === 0 && !isLoading ? (
             // No results
             <div className="p-8 text-center">
-              <p className="text-[var(--text-muted)]">No results found for &quot;{query}&quot;</p>
-              <p className="mt-1 text-sm text-[var(--text-muted)]">
+              <p className="text-muted-foreground">No results found for &quot;{query}&quot;</p>
+              <p className="mt-1 text-sm text-muted-foreground">
                 Try different keywords or check your spelling
               </p>
             </div>
@@ -506,7 +506,7 @@ export function SearchModal({
             <div className="py-2">
               {Object.entries(groupedResults).map(([type, items]) => (
                 <div key={type}>
-                  <h3 className="sticky top-0 bg-[var(--background)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)]">
+                  <h3 className="sticky top-0 bg-background px-4 py-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                     {typeLabels[type as SearchResultType]} ({items.length})
                   </h3>
                   {items.map((result, index) => {
@@ -521,23 +521,23 @@ export function SearchModal({
                         onClick={() => handleResultClick(result)}
                         className={cn(
                           'flex items-center gap-3 px-4 py-3 transition-colors',
-                          isSelected ? 'bg-[var(--surface-light)]' : 'hover:bg-[var(--surface-light)]'
+                          isSelected ? 'bg-surface-light' : 'hover:bg-surface-light'
                         )}
                       >
-                        <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[var(--surface)]">
-                          <Icon className="h-5 w-5 text-[var(--text-muted)]" />
+                        <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-surface">
+                          <Icon className="h-5 w-5 text-muted-foreground" />
                         </div>
                         <div className="flex-1 min-w-0">
-                          <p className="font-medium text-[var(--text)] truncate">
+                          <p className="font-medium text-foreground truncate">
                             {result.title}
                           </p>
                           {result.description && (
-                            <p className="text-sm text-[var(--text-muted)] truncate">
+                            <p className="text-sm text-muted-foreground truncate">
                               {result.description}
                             </p>
                           )}
                         </div>
-                        <ArrowRight className="h-4 w-4 flex-shrink-0 text-[var(--text-muted)]" />
+                        <ArrowRight className="h-4 w-4 flex-shrink-0 text-muted-foreground" />
                       </Link>
                     )
                   })}
@@ -548,7 +548,7 @@ export function SearchModal({
         </div>
 
         {/* Footer */}
-        <div className="flex items-center justify-between border-t border-[var(--border)] px-4 py-2 text-xs text-[var(--text-muted)]">
+        <div className="flex items-center justify-between border-t border-border px-4 py-2 text-xs text-muted-foreground">
           <div className="flex items-center gap-4">
             <span>↑↓ Navigate</span>
             <span>↵ Select</span>
@@ -658,7 +658,7 @@ export function SearchInput({
     <div ref={containerRef} className={cn('relative', className)}>
       <form onSubmit={handleSubmit}>
         <div className="relative">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[var(--text-muted)]" />
+          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <Input
             ref={inputRef}
             type="text"
@@ -678,7 +678,7 @@ export function SearchInput({
                 setQuery('')
                 inputRef.current?.focus()
               }}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-[var(--text-muted)] hover:text-[var(--text)]"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
             >
               <X className="h-4 w-4" />
             </button>
@@ -688,25 +688,25 @@ export function SearchInput({
 
       {/* Suggestions dropdown */}
       {showSuggestions && suggestionsList.length > 0 && (
-        <div className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-lg border border-[var(--border)] bg-[var(--background)] shadow-lg">
+        <div className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-lg border border-border bg-background shadow-lg">
           {suggestionsList.map((result) => {
             const Icon = typeIcons[result.type]
             return (
               <button
                 key={result.id}
                 onClick={() => handleSuggestionClick(result)}
-                className="flex w-full items-center gap-3 px-4 py-2 text-left transition-colors hover:bg-[var(--surface-light)]"
+                className="flex w-full items-center gap-3 px-4 py-2 text-left transition-colors hover:bg-surface-light"
               >
-                <Icon className="h-4 w-4 text-[var(--text-muted)]" />
+                <Icon className="h-4 w-4 text-muted-foreground" />
                 <div className="flex-1">
-                  <p className="text-sm font-medium text-[var(--text)]">{result.title}</p>
+                  <p className="text-sm font-medium text-foreground">{result.title}</p>
                 </div>
               </button>
             )
           })}
           <button
             onClick={handleSubmit}
-            className="flex w-full items-center justify-center gap-2 border-t border-[var(--border)] px-4 py-2 text-sm text-[var(--primary)] hover:bg-[var(--surface-light)]"
+            className="flex w-full items-center justify-center gap-2 border-t border-border px-4 py-2 text-sm text-primary hover:bg-surface-light"
           >
             Search for &quot;{query}&quot;
             <ArrowRight className="h-4 w-4" />
@@ -741,13 +741,13 @@ export function SearchButton({ onClick, headerStyle = false, className }: Search
       <button
         onClick={onClick}
         className={cn(
-          'flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-light)] hover:text-[var(--text)]',
+          'flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-surface-light hover:text-foreground',
           className
         )}
       >
         <Search className="h-4 w-4" />
         <span className="hidden sm:inline">Search...</span>
-        <kbd className="hidden rounded border border-[var(--border)] bg-[var(--background)] px-1.5 py-0.5 text-xs lg:inline">
+        <kbd className="hidden rounded border border-border bg-background px-1.5 py-0.5 text-xs lg:inline">
           ⌘K
         </kbd>
       </button>

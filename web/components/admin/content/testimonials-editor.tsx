@@ -47,7 +47,7 @@ export function TestimonialsEditor({ businessId, initial }: { businessId: string
       {items.map((item, idx) => (
         <div
           key={idx}
-          className="space-y-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4"
+          className="space-y-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4"
         >
           <div className="flex items-center justify-between">
             <span className="text-xs font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">
@@ -114,7 +114,7 @@ export function TestimonialsEditor({ businessId, initial }: { businessId: string
       <button
         type="button"
         onClick={add}
-        className="w-full rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] px-4 py-3 text-sm font-medium text-[color:var(--text-muted,#6b7280)] hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+        className="w-full rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] px-4 py-3 text-sm font-medium text-[color:var(--text-muted,#6b7280)] hover:bg-surface-light"
       >
         + Agregar testimonio
       </button>

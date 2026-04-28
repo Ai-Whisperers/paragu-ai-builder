@@ -87,7 +87,7 @@ export default function BookingForm({
           required
           value={formData.name}
           onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
           placeholder="Juan Pérez"
         />
       </div>
@@ -101,7 +101,7 @@ export default function BookingForm({
             required
             value={formData.email}
             onChange={handleChange}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
             placeholder="juan@email.com"
           />
         </div>
@@ -113,7 +113,7 @@ export default function BookingForm({
             required
             value={formData.phone}
             onChange={handleChange}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
             placeholder="+595 9xx xxx xxx"
           />
         </div>
@@ -126,7 +126,7 @@ export default function BookingForm({
           rows={2}
           value={formData.notes}
           onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
           placeholder="Alguna solicitud especial..."
         />
       </div>
@@ -146,7 +146,7 @@ export default function BookingForm({
         size="lg"
         isLoading={status === 'submitting'}
         loadingText="Confirmando…"
-        className="w-full bg-[var(--primary)] hover:opacity-90"
+        className="w-full bg-primary hover:opacity-90"
       >
         Confirmar Reserva
       </Button>

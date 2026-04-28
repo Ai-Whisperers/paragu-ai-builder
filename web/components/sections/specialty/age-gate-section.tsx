@@ -117,7 +117,7 @@ export function AgeGateSection({
       aria-describedby="agegate-message"
       className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 px-4"
     >
-      <div className="max-w-md rounded-lg bg-[color:var(--surface,#fff)] p-6 text-center shadow-xl">
+      <div className="max-w-md rounded-lg bg-surface p-6 text-center shadow-xl">
         <Heading level={2} id="agegate-title" className="mb-2 text-xl font-bold text-[color:var(--text,#111)]">
           {title}
         </Heading>
@@ -128,13 +128,13 @@ export function AgeGateSection({
           <button
             type="button"
             onClick={confirm}
-            className="rounded-lg bg-[color:var(--primary,#111)] px-5 py-2.5 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90"
+            className="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90"
           >
             {resolvedConfirm}
           </button>
           <a
             href={denyHref}
-            className="rounded-lg border border-[color:var(--border,#e5e7eb)] px-5 py-2.5 text-sm font-medium text-[color:var(--text-muted,#6b7280)] hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+            className="rounded-lg border border-[color:var(--border,#e5e7eb)] px-5 py-2.5 text-sm font-medium text-[color:var(--text-muted,#6b7280)] hover:bg-surface-light"
           >
             {denyText}
           </a>

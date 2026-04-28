@@ -21,13 +21,13 @@ export default function CaseStudiesIndexPage() {
       <main id="main-content" className="pt-24 pb-20">
         <Container>
           <div className="mx-auto mb-16 max-w-2xl text-center">
-            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
+            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-primary">
               Casos reales
             </p>
-            <h1 className="mb-4 text-4xl font-bold text-[var(--text)] sm:text-5xl">
+            <h1 className="mb-4 text-4xl font-bold text-foreground sm:text-5xl">
               No son maquetas. Son sitios online hoy.
             </h1>
-            <p className="text-lg text-[var(--text-light)]">
+            <p className="text-lg text-muted-foreground">
               Cada caso es un negocio real, con una historia real y un sitio que podés visitar
               ahora mismo. Click para leer cómo lo construimos.
             </p>
@@ -40,15 +40,15 @@ export default function CaseStudiesIndexPage() {
               return (
                 <article
                   key={cs.slug}
-                  className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-7 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-xl"
+                  className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface p-7 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-xl"
                 >
                   <div className="mb-5 h-1.5 w-16 rounded-full" style={{ backgroundColor: color }} />
-                  <p className="mb-2 text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">
+                  <p className="mb-2 text-xs font-bold uppercase tracking-wider text-muted-foreground">
                     {cs.vertical} · {cs.period}
                   </p>
-                  <h2 className="mb-3 text-xl font-bold text-[var(--text)]">{cs.headline}</h2>
-                  <p className="mb-6 text-sm text-[var(--text-light)]">{cs.lead}</p>
-                  <ul className="mb-6 space-y-1.5 text-sm text-[var(--text)]">
+                  <h2 className="mb-3 text-xl font-bold text-foreground">{cs.headline}</h2>
+                  <p className="mb-6 text-sm text-muted-foreground">{cs.lead}</p>
+                  <ul className="mb-6 space-y-1.5 text-sm text-foreground">
                     {cs.outcomes.slice(0, 3).map((o) => (
                       <li key={o} className="flex items-start gap-2">
                         <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full" style={{ backgroundColor: color }} />
@@ -59,14 +59,14 @@ export default function CaseStudiesIndexPage() {
                   <div className="mt-auto flex items-center justify-between gap-3">
                     <Link
                       href={`/casos/${cs.slug}`}
-                      className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--primary)]"
+                      className="inline-flex items-center gap-1 text-sm font-semibold text-primary"
                     >
                       Leer caso completo
                       <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
                     </Link>
                     <Link
                       href={cs.liveUrl}
-                      className="inline-flex items-center gap-1 text-sm text-[var(--text-light)] hover:text-[var(--text)]"
+                      className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
                     >
                       Sitio en vivo
                       <ExternalLink size={12} />

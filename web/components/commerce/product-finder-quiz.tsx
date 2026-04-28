@@ -78,7 +78,7 @@ export function ProductFinderQuiz({ siteSlug, locale }: Props) {
   }
 
   return (
-    <div className="mx-auto max-w-lg rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+    <div className="mx-auto max-w-lg rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
       <div className="mb-4 flex items-center justify-between text-xs text-[color:var(--text-muted,#6b7280)]">
         <span>Paso {step} de 3</span>
         <div className="flex gap-1">
@@ -86,7 +86,7 @@ export function ProductFinderQuiz({ siteSlug, locale }: Props) {
             <span
               key={n}
               className={`h-1.5 w-6 rounded-full ${
-                n <= step ? 'bg-[color:var(--primary,#111)]' : 'bg-[color:var(--border,#e5e7eb)]'
+                n <= step ? 'bg-primary' : 'bg-[color:var(--border,#e5e7eb)]'
               }`}
             />
           ))}

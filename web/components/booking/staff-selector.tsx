@@ -28,7 +28,7 @@ export default function StaffSelector({
           onClick={() => onSelect(null)}
           className={`flex-shrink-0 px-4 py-2 rounded-full border transition-colors ${
             !selectedStaff 
-              ? 'border-[var(--primary)] bg-[var(--primary)] text-white' 
+              ? 'border-[var(--primary)] bg-primary text-white' 
               : 'border-gray-200 hover:border-[var(--primary)]'
           }`}
         >
@@ -40,7 +40,7 @@ export default function StaffSelector({
             onClick={() => onSelect(member)}
             className={`flex-shrink-0 flex items-center gap-2 px-3 py-2 rounded-full border transition-colors ${
               selectedStaff?.name === member.name
-                ? 'border-[var(--primary)] bg-[var(--primary)] text-white' 
+                ? 'border-[var(--primary)] bg-primary text-white' 
                 : 'border-gray-200 hover:border-[var(--primary)]'
             }`}
           >

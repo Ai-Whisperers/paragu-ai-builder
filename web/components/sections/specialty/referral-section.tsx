@@ -63,15 +63,15 @@ O escribime por WhatsApp: ${phone}`
       <CardContent className="p-6 space-y-6">
         {/* Stats */}
         <div className="grid grid-cols-2 gap-4">
-          <div className="bg-[var(--surface)] rounded-lg p-4 text-center">
-            <Users className="w-6 h-6 mx-auto mb-2 text-[var(--primary)]" />
+          <div className="bg-surface rounded-lg p-4 text-center">
+            <Users className="w-6 h-6 mx-auto mb-2 text-primary" />
             <p className="text-2xl font-bold">{referralCount}</p>
-            <p className="text-sm text-[var(--text-muted)]">Amigos referidos</p>
+            <p className="text-sm text-muted-foreground">Amigos referidos</p>
           </div>
-          <div className="bg-[var(--surface)] rounded-lg p-4 text-center">
-            <Gift className="w-6 h-6 mx-auto mb-2 text-[var(--primary)]" />
+          <div className="bg-surface rounded-lg p-4 text-center">
+            <Gift className="w-6 h-6 mx-auto mb-2 text-primary" />
             <p className="text-2xl font-bold">{rewardsEarned}</p>
-            <p className="text-sm text-[var(--text-muted)]">Premios ganados</p>
+            <p className="text-sm text-muted-foreground">Premios ganados</p>
           </div>
         </div>
 
@@ -80,23 +80,23 @@ O escribime por WhatsApp: ${phone}`
           <h4 className="font-medium">Como funciona:</h4>
           <div className="space-y-2">
             <div className="flex items-center gap-3 text-sm">
-              <span className="w-6 h-6 rounded-full bg-[var(--primary)] text-white flex items-center justify-center text-xs font-medium">1</span>
-              <span className="text-[var(--text)]">Comparti tu codigo con amigos</span>
+              <span className="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs font-medium">1</span>
+              <span className="text-foreground">Comparti tu codigo con amigos</span>
             </div>
             <div className="flex items-center gap-3 text-sm">
-              <span className="w-6 h-6 rounded-full bg-[var(--primary)] text-white flex items-center justify-center text-xs font-medium">2</span>
-              <span className="text-[var(--text)]">Ellos obtienen 10% OFF en su primera compra</span>
+              <span className="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs font-medium">2</span>
+              <span className="text-foreground">Ellos obtienen 10% OFF en su primera compra</span>
             </div>
             <div className="flex items-center gap-3 text-sm">
-              <span className="w-6 h-6 rounded-full bg-[var(--primary)] text-white flex items-center justify-center text-xs font-medium">3</span>
-              <span className="text-[var(--text)]">Vos ganas un maple de huevos GRATIS</span>
+              <span className="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs font-medium">3</span>
+              <span className="text-foreground">Vos ganas un maple de huevos GRATIS</span>
             </div>
           </div>
         </div>
 
         {/* Referral Code */}
-        <div className="bg-[var(--surface)] rounded-lg p-4">
-          <Label className="text-sm text-[var(--text-muted)] mb-2 block">Tu codigo:</Label>
+        <div className="bg-surface rounded-lg p-4">
+          <Label className="text-sm text-muted-foreground mb-2 block">Tu codigo:</Label>
           <div className="flex gap-2">
             <Input
               value={referralCode}
@@ -127,7 +127,7 @@ O escribime por WhatsApp: ${phone}`
         </div>
 
         {/* Terms */}
-        <p className="text-xs text-center text-[var(--text-muted)]">
+        <p className="text-xs text-center text-muted-foreground">
           El descuento aplica solo en la primera compra de nuevos clientes. 
           Válido hasta agotar stock de premios.
         </p>
@@ -146,14 +146,14 @@ export interface ReferralSectionProps {
 
 export function ReferralSection({ phone, businessName, className }: ReferralSectionProps) {
   return (
-    <section className={cn('py-16 bg-[var(--surface)]', className)}>
+    <section className={cn('py-16 bg-surface', className)}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <Badge className="mb-4 bg-[var(--primary)]">Gana Huevos Gratis</Badge>
-          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Badge className="mb-4 bg-primary">Gana Huevos Gratis</Badge>
+          <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
             Recomienda y Gana
           </Heading>
-          <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Comparte {businessName} con tus amigos y familia. 
             Ambos ganan: ellos 10% de descuento y vos un maple de huevos.
           </p>
@@ -166,22 +166,22 @@ export function ReferralSection({ phone, businessName, className }: ReferralSect
             <Card>
               <CardHeader>
                 <CardTitle className="text-lg flex items-center gap-2">
-                  <TrendingUp className="w-5 h-5 text-[var(--primary)]" />
+                  <TrendingUp className="w-5 h-5 text-primary" />
                   Ejemplo de Ganancias
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="flex items-center justify-between py-2 border-b border-[var(--border)]">
-                  <span className="text-[var(--text)]">5 amigos referidos</span>
+                <div className="flex items-center justify-between py-2 border-b border-border">
+                  <span className="text-foreground">5 amigos referidos</span>
                   <Badge variant="secondary">5 maples gratis</Badge>
                 </div>
-                <div className="flex items-center justify-between py-2 border-b border-[var(--border)]">
-                  <span className="text-[var(--text)]">10 amigos referidos</span>
+                <div className="flex items-center justify-between py-2 border-b border-border">
+                  <span className="text-foreground">10 amigos referidos</span>
                   <Badge variant="secondary">10 maples gratis</Badge>
                 </div>
                 <div className="flex items-center justify-between py-2">
-                  <span className="text-[var(--text)]">20 amigos referidos</span>
-                  <Badge className="bg-[var(--primary)]">20 maples + Premio especial</Badge>
+                  <span className="text-foreground">20 amigos referidos</span>
+                  <Badge className="bg-primary">20 maples + Premio especial</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -189,12 +189,12 @@ export function ReferralSection({ phone, businessName, className }: ReferralSect
             <Card>
               <CardHeader>
                 <CardTitle className="text-lg flex items-center gap-2">
-                  <Share2 className="w-5 h-5 text-[var(--primary)]" />
+                  <Share2 className="w-5 h-5 text-primary" />
                   Ideas para Compartir
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 text-sm text-[var(--text)]">
+                <ul className="space-y-2 text-sm text-foreground">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0 mt-0.5" />
                     Comparti en tus grupos de WhatsApp

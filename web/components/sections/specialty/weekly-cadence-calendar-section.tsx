@@ -36,11 +36,11 @@ export function WeeklyCadenceCalendarSection({
   })
 
   return (
-    <section className="py-14 bg-[var(--background)]">
+    <section className="py-14 bg-background">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
         </div>
 
         <div className="grid grid-cols-7 gap-2 max-w-3xl mx-auto">
@@ -72,8 +72,8 @@ export function WeeklyCadenceCalendarSection({
                   style={{ backgroundColor: p.color || 'var(--primary)' }}
                 />
                 <div className="text-sm">
-                  <div className="font-semibold text-[var(--text)]">{p.label}</div>
-                  {p.description && <div className="text-[var(--text-muted)]">{p.description}</div>}
+                  <div className="font-semibold text-foreground">{p.label}</div>
+                  {p.description && <div className="text-muted-foreground">{p.description}</div>}
                 </div>
               </div>
             ))}
@@ -81,7 +81,7 @@ export function WeeklyCadenceCalendarSection({
         )}
 
         {footnote && (
-          <p className="mt-4 text-center text-xs text-[var(--text-muted)] italic">{footnote}</p>
+          <p className="mt-4 text-center text-xs text-muted-foreground italic">{footnote}</p>
         )}
       </Container>
     </section>

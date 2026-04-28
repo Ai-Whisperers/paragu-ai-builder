@@ -153,7 +153,7 @@ export default async function ReconciliationPage({
           Sin datos en los últimos 14 días.
         </div>
       ) : (
-        <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)]">
+        <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface">
           <table className="w-full text-sm">
             <thead className="bg-[color:var(--surface-muted,#f9fafb)] text-left">
               <tr>
@@ -215,7 +215,7 @@ function SummaryCard({
       ? 'bg-green-50 text-green-800'
       : tone === 'warn'
       ? 'bg-yellow-50 text-yellow-800'
-      : 'bg-[color:var(--surface,#fff)]'
+      : 'bg-surface'
   return (
     <div className={`rounded-lg border border-[color:var(--border,#e5e7eb)] p-4 ${toneClass}`}>
       <p className="text-xs font-semibold uppercase opacity-70">{label}</p>

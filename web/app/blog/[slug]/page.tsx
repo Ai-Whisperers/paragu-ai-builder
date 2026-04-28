@@ -36,11 +36,11 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 function renderParagraph(text: string, key: number) {
   const parts = text.split(/(\*\*[^*]+\*\*)/g)
   return (
-    <p key={key} className="mb-5 leading-relaxed text-[var(--text-light)]">
+    <p key={key} className="mb-5 leading-relaxed text-muted-foreground">
       {parts.map((part, i) => {
         if (part.startsWith('**') && part.endsWith('**')) {
           return (
-            <strong key={i} className="text-[var(--text)]">
+            <strong key={i} className="text-foreground">
               {part.slice(2, -2)}
             </strong>
           )
@@ -64,12 +64,12 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
           <article className="mx-auto max-w-3xl">
             <Link
               href="/blog"
-              className="mb-6 inline-flex items-center gap-1 text-sm font-medium text-[var(--text-light)] hover:text-[var(--primary)]"
+              className="mb-6 inline-flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-primary"
             >
               <ArrowLeft size={14} />
               Todos los artículos
             </Link>
-            <p className="mb-3 flex items-center gap-3 text-xs uppercase tracking-wider text-[var(--text-muted)]">
+            <p className="mb-3 flex items-center gap-3 text-xs uppercase tracking-wider text-muted-foreground">
               <span>{post.tag.split(':')[1] ?? post.tag}</span>
               <span className="inline-flex items-center gap-1">
                 <Clock size={12} />
@@ -83,18 +83,18 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
                 })}
               </span>
             </p>
-            <h1 className="mb-6 text-4xl font-bold leading-tight text-[var(--text)] sm:text-5xl">
+            <h1 className="mb-6 text-4xl font-bold leading-tight text-foreground sm:text-5xl">
               {post.title}
             </h1>
-            <p className="mb-10 text-xl leading-relaxed text-[var(--text-light)]">{post.excerpt}</p>
+            <p className="mb-10 text-xl leading-relaxed text-muted-foreground">{post.excerpt}</p>
 
             <div className="prose prose-lg max-w-none text-lg">
               {post.body.map((p, i) => renderParagraph(p, i))}
             </div>
 
-            <footer className="mt-12 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 text-center">
-              <p className="mb-4 text-sm text-[var(--text-muted)]">
-                Por <strong className="text-[var(--text)]">{post.author}</strong>
+            <footer className="mt-12 rounded-2xl border border-border bg-surface p-6 text-center">
+              <p className="mb-4 text-sm text-muted-foreground">
+                Por <strong className="text-foreground">{post.author}</strong>
               </p>
               <a
                 href={waLink('Hola, leí un artículo en el blog y quiero hablar de mi negocio.')}

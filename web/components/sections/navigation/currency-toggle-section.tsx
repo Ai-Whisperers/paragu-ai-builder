@@ -32,14 +32,14 @@ export function CurrencyToggleSection({
   }
 
   return (
-    <div className="inline-flex items-center gap-1 p-1 bg-[var(--surface-light)] rounded-full text-xs">
+    <div className="inline-flex items-center gap-1 p-1 bg-surface-light rounded-full text-xs">
       {options.map((opt) => (
         <button
           key={opt.code}
           type="button"
           onClick={() => onPick(opt.code)}
           className={`px-3 py-1 rounded-full ${
-            active === opt.code ? 'bg-[var(--primary)] text-[var(--primary-foreground)]' : 'text-[var(--text)]'
+            active === opt.code ? 'bg-primary text-[var(--primary-foreground)]' : 'text-foreground'
           }`}
         >
           {opt.label}

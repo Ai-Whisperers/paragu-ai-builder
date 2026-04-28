@@ -37,8 +37,8 @@ export function SiteNav() {
       <nav
         className={`fixed top-0 z-50 w-full transition-all duration-300 ${
           scrolled
-            ? 'border-b border-[var(--border)] bg-[var(--background)]/95 backdrop-blur-xl shadow-sm'
-            : 'bg-[var(--background)]/70 backdrop-blur-sm'
+            ? 'border-b border-border bg-background/95 backdrop-blur-xl shadow-sm'
+            : 'bg-background/70 backdrop-blur-sm'
         }`}
       >
         <Container>
@@ -48,8 +48,8 @@ export function SiteNav() {
                 <Wand2 size={20} />
               </div>
               <span className="text-lg font-bold">
-                <span className="text-[var(--text)]">Paragu</span>
-                <span className="text-[var(--primary)]">AI</span>
+                <span className="text-foreground">Paragu</span>
+                <span className="text-primary">AI</span>
               </span>
             </Link>
 
@@ -58,7 +58,7 @@ export function SiteNav() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="rounded-lg px-4 py-2 text-sm font-medium text-[var(--text-light)] transition-colors hover:text-[var(--text)]"
+                  className="rounded-lg px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
                 >
                   {link.label}
                 </Link>
@@ -68,7 +68,7 @@ export function SiteNav() {
             <div className="flex items-center gap-3">
               <Link
                 href="/admin"
-                className="hidden text-sm font-medium text-[var(--text-light)] hover:text-[var(--primary)] md:block"
+                className="hidden text-sm font-medium text-muted-foreground hover:text-primary md:block"
               >
                 Acceso clientes
               </Link>
@@ -76,7 +76,7 @@ export function SiteNav() {
                 href={waLink(demoMessage)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden rounded-xl bg-[var(--primary)] px-5 py-2.5 text-sm font-semibold text-[var(--primary-foreground)] transition-all hover:opacity-90 hover:shadow-lg md:inline-flex md:items-center md:gap-2"
+                className="hidden rounded-xl bg-primary px-5 py-2.5 text-sm font-semibold text-[var(--primary-foreground)] transition-all hover:opacity-90 hover:shadow-lg md:inline-flex md:items-center md:gap-2"
               >
                 <MessageCircle size={16} />
                 Pedir demo
@@ -84,7 +84,7 @@ export function SiteNav() {
               <button
                 onClick={() => setMobileMenuOpen(true)}
                 aria-label="Abrir menú"
-                className="rounded-lg p-2 text-[var(--text)] md:hidden"
+                className="rounded-lg p-2 text-foreground md:hidden"
               >
                 <Menu size={24} />
               </button>
@@ -94,21 +94,21 @@ export function SiteNav() {
       </nav>
 
       {mobileMenuOpen && (
-        <div className="fixed inset-0 z-[60] bg-[var(--background)] md:hidden">
+        <div className="fixed inset-0 z-[60] bg-background md:hidden">
           <div className="flex h-16 items-center justify-between px-4">
             <Link href="/" className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-[var(--primary)] to-[var(--accent)] text-[var(--primary-foreground)]">
                 <Wand2 size={20} />
               </div>
               <span className="text-lg font-bold">
-                <span className="text-[var(--text)]">Paragu</span>
-                <span className="text-[var(--primary)]">AI</span>
+                <span className="text-foreground">Paragu</span>
+                <span className="text-primary">AI</span>
               </span>
             </Link>
             <button
               onClick={() => setMobileMenuOpen(false)}
               aria-label="Cerrar menú"
-              className="rounded-lg p-2 text-[var(--text)]"
+              className="rounded-lg p-2 text-foreground"
             >
               <XIcon size={24} />
             </button>
@@ -119,7 +119,7 @@ export function SiteNav() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="rounded-xl px-4 py-4 text-lg font-medium text-[var(--text)] hover:bg-[var(--surface-light)]"
+                className="rounded-xl px-4 py-4 text-lg font-medium text-foreground hover:bg-surface-light"
               >
                 {link.label}
               </Link>
@@ -129,7 +129,7 @@ export function SiteNav() {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
-              className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--primary)] px-4 py-4 text-center text-lg font-semibold text-[var(--primary-foreground)]"
+              className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-4 py-4 text-center text-lg font-semibold text-[var(--primary-foreground)]"
             >
               <MessageCircle size={18} />
               Pedir demo por WhatsApp
@@ -137,7 +137,7 @@ export function SiteNav() {
             <Link
               href="/admin"
               onClick={() => setMobileMenuOpen(false)}
-              className="rounded-xl border border-[var(--border)] px-4 py-3 text-center text-sm font-medium text-[var(--text-light)]"
+              className="rounded-xl border border-border px-4 py-3 text-center text-sm font-medium text-muted-foreground"
             >
               Acceso clientes
             </Link>

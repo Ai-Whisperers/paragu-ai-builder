@@ -126,18 +126,18 @@ export default function ChangelogPage() {
       <main id="main-content" className="pt-24 pb-20">
         <Container>
           <div className="mx-auto max-w-3xl">
-            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
+            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-primary">
               Engineering velocity, in público
             </p>
             <Heading level={1} className="mb-4 text-3xl md:text-4xl font-bold">
               Changelog
             </Heading>
-            <p className="mb-8 text-lg text-[var(--text-muted)]">
+            <p className="mb-8 text-lg text-muted-foreground">
               Cada cambio relevante a la plataforma. Actualizado continuamente.
               Para el detalle a nivel commit, mirá{' '}
               <a
                 href="https://github.com/Ai-Whisperers/paragu-ai-builder/pulls?q=is%3Apr+is%3Aclosed"
-                className="underline hover:text-[var(--primary)]"
+                className="underline hover:text-primary"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -156,19 +156,19 @@ export default function ChangelogPage() {
                 prose-h4:mt-4 prose-h4:mb-1 prose-h4:text-base
                 prose-p:my-3 prose-p:leading-relaxed
                 prose-li:my-1
-                prose-code:bg-[var(--surface-light)] prose-code:px-1 prose-code:rounded
-                prose-a:text-[var(--primary)] prose-a:underline
+                prose-code:bg-surface-light prose-code:px-1 prose-code:rounded
+                prose-a:text-primary prose-a:underline
               "
               dangerouslySetInnerHTML={{ __html: html }}
             />
 
-            <div className="mt-16 rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6">
+            <div className="mt-16 rounded-xl border border-border bg-surface p-6">
               <Heading level={3} className="mb-2 font-bold">
                 ¿Algo no anda?
               </Heading>
-              <p className="text-sm text-[var(--text-muted)]">
+              <p className="text-sm text-muted-foreground">
                 Escribinos por WhatsApp y lo mirames.{' '}
-                <Link href="/" className="text-[var(--primary)] underline">
+                <Link href="/" className="text-primary underline">
                   Volver al inicio →
                 </Link>
               </p>

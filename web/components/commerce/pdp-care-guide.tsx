@@ -68,7 +68,7 @@ export function PdpCareGuide({ vertical = 'adult-retail' }: Props) {
       {panels.map((p) => (
         <details
           key={p.title}
-          className="group rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] open:shadow-sm"
+          className="group rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface open:shadow-sm"
         >
           <summary className="flex cursor-pointer items-center justify-between px-4 py-3 text-sm font-medium text-[color:var(--text,#111)] marker:hidden [&::-webkit-details-marker]:hidden">
             <span>{p.title}</span>

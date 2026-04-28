@@ -71,17 +71,17 @@ export function CalcResimpleQualifierSection({
     : null
 
   return (
-    <section className="py-16 bg-[var(--surface,#ffffff)] sm:py-24">
+    <section className="font-heading text-primary py-16 bg-surface sm:py-24">
       <Container>
         <AnimatedSectionHeader>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--secondary)]">{eyebrow}</p>
+          <p className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow}</p>
           <Heading level={2}>{title}</Heading>
-          <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light,#475569)]">{subtitle}</p>
+          <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-[var(--text-light,#475569)]">{subtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="mx-auto mt-12 max-w-3xl rounded-2xl border border-[var(--border,#e2e8f0)] bg-[var(--surface,#ffffff)] p-6 shadow-sm sm:p-10">
-          <label className="block">
-            <span className="mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Facturacion anual estimada (Gs)</span>
+        <div className="font-heading text-primary mx-auto mt-12 max-w-3xl rounded-2xl border border-[var(--border,#e2e8f0)] bg-surface p-6 shadow-sm sm:p-10">
+          <label className="font-heading text-primary block">
+            <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Facturacion anual estimada (Gs)</span>
             <input
               type="number"
               inputMode="numeric"
@@ -89,45 +89,45 @@ export function CalcResimpleQualifierSection({
               step={10_000_000}
               value={revenue}
               onChange={(e) => setRevenue(Math.max(0, Number(e.target.value) || 0))}
-              className="w-full rounded-md border border-[var(--border,#e2e8f0)] bg-[var(--surface,#ffffff)] px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-[var(--secondary)] focus:outline-none"
+              className="font-heading text-primary w-full rounded-md border border-[var(--border,#e2e8f0)] bg-surface px-3 py-2.5 text-base text-[var(--text,#0f172a)] focus:border-secondary focus:outline-none"
             />
-            <span className="mt-1 block text-xs text-[var(--text-muted,#64748b)]">{formatGs(revenue)}</span>
+            <span className="font-heading text-primary mt-1 block text-xs text-[var(--text-muted,#64748b)]">{formatGs(revenue)}</span>
           </label>
 
-          <div className="mt-8 rounded-xl bg-[var(--surface-light,#f8fafc)] p-6">
+          <div className="font-heading text-primary mt-8 rounded-xl bg-surface-light p-6">
             {result.qualifies && result.bracket ? (
               <>
-                <p className="text-xs uppercase tracking-wider text-emerald-700">Calificas para RESIMPLE</p>
-                <p className="mt-1 text-3xl font-bold" style={{ color: 'var(--primary)', fontFamily: 'var(--font-heading)' }}>
+                <p className="font-heading text-primary text-xs uppercase tracking-wider text-emerald-700">Calificas para RESIMPLE</p>
+                <p className="font-heading text-primary mt-1 text-xl sm:text-3xl font-bold">
                   {formatGs(result.monthlyFee)}/mes
                 </p>
-                <p className="mt-2 text-sm text-[var(--text-light,#475569)]">
+                <p className="font-heading text-primary mt-2 text-sm text-[var(--text-light,#475569)]">
                   {result.bracket.label} — facturacion hasta {formatGs(result.bracket.max)}/ano
                 </p>
-                <p className="mt-2 text-sm text-[var(--text,#0f172a)]">
+                <p className="font-heading text-primary mt-2 text-sm text-[var(--text,#0f172a)]">
                   Costo anual total: <strong>{formatGs(result.annualFee)}</strong>
                 </p>
-                <p className="mt-3 text-xs text-[var(--text-muted,#64748b)]">{result.recommendation}</p>
+                <p className="font-heading text-primary mt-3 text-xs text-[var(--text-muted,#64748b)]">{result.recommendation}</p>
               </>
             ) : (
               <>
-                <p className="text-xs uppercase tracking-wider text-rose-700">No calificas</p>
-                <p className="mt-1 text-lg font-bold text-[var(--text,#0f172a)]">{result.message}</p>
-                <p className="mt-2 text-sm text-[var(--text-light,#475569)]">{result.recommendation}</p>
+                <p className="font-heading text-primary text-xs uppercase tracking-wider text-rose-700">No calificas</p>
+                <p className="font-heading text-primary mt-1 text-lg font-bold text-[var(--text,#0f172a)]">{result.message}</p>
+                <p className="font-heading text-primary mt-2 text-sm text-[var(--text-light,#475569)]">{result.recommendation}</p>
               </>
             )}
           </div>
 
-          <div className="mt-6 overflow-x-auto">
-            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--text-muted,#64748b)]">
+          <div className="font-heading text-primary mt-6 overflow-x-auto">
+            <h3 className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--text-muted,#64748b)]">
               Tabla RESIMPLE 2026
             </h3>
-            <table className="w-full text-sm">
+            <table className="font-heading text-primary w-full text-sm">
               <thead>
-                <tr className="border-b border-[var(--border,#e2e8f0)] text-left text-xs uppercase tracking-wider text-[var(--text-muted,#64748b)]">
-                  <th className="py-2 pr-3">Tramo</th>
-                  <th className="py-2 pr-3">Facturacion hasta</th>
-                  <th className="py-2 text-right">Cuota mensual</th>
+                <tr className="font-heading text-primary border-b border-[var(--border,#e2e8f0)] text-left text-xs uppercase tracking-wider text-[var(--text-muted,#64748b)]">
+                  <th className="font-heading text-primary py-2 pr-3">Tramo</th>
+                  <th className="font-heading text-primary py-2 pr-3">Facturacion hasta</th>
+                  <th className="font-heading text-primary py-2 text-right">Cuota mensual</th>
                 </tr>
               </thead>
               <tbody>
@@ -138,23 +138,23 @@ export function CalcResimpleQualifierSection({
                       result.qualifies && result.bracket?.label === b.label ? 'bg-emerald-50 font-semibold' : ''
                     }`}
                   >
-                    <td className="py-2 pr-3">{b.label}</td>
-                    <td className="py-2 pr-3">{formatGs(b.max)}</td>
-                    <td className="py-2 text-right">{formatGs(b.monthlyFee)}</td>
+                    <td className="font-heading text-primary py-2 pr-3">{b.label}</td>
+                    <td className="font-heading text-primary py-2 pr-3">{formatGs(b.max)}</td>
+                    <td className="font-heading text-primary py-2 text-right">{formatGs(b.monthlyFee)}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
 
-          <p className="mt-6 text-xs leading-relaxed text-[var(--text-muted,#64748b)]">
+          <p className="font-heading text-primary mt-6 text-xs leading-relaxed text-[var(--text-muted,#64748b)]">
             {disclaimer ||
               'RESIMPLE no aplica a: sociedades de hecho con socios diferentes a conyuges, empresas con empleados > X (variable), actividades reguladas (banca, seguros). Tambien hay limitaciones por rubro. Consulta con un contador para confirmar.'}
           </p>
 
-          <div className="mt-6 flex flex-wrap justify-center gap-3">
+          <div className="font-heading text-primary mt-6 flex flex-wrap justify-center gap-3">
             {whatsappHref && (
-              <Button href={whatsappHref} variant="secondary" size="lg" style={{ backgroundColor: '#25d366', color: '#ffffff', borderColor: '#25d366' }}>
+              <Button href={whatsappHref} variant="whatsapp" size="lg">
                 Consultar por WhatsApp
               </Button>
             )}

@@ -51,7 +51,7 @@ export function InvoiceIssueForm({
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="mt-6 rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs font-semibold hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+        className="mt-6 rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs font-semibold hover:bg-surface-light"
       >
         🧾 Emitir factura
       </button>
@@ -94,7 +94,7 @@ export function InvoiceIssueForm({
   return (
     <form
       onSubmit={handleSubmit}
-      className="mt-6 space-y-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4"
+      className="mt-6 space-y-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4"
     >
       <h3 className="text-sm font-semibold">Emitir factura manualmente</h3>
       <p className="text-xs text-[color:var(--text-muted,#6b7280)]">
@@ -162,7 +162,7 @@ export function InvoiceIssueForm({
         <button
           type="submit"
           disabled={submitting || !form.invoiceNumber.trim() || !form.legalName.trim()}
-          className="rounded-md bg-[color:var(--primary,#111)] px-3 py-1.5 text-xs font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 disabled:opacity-50"
+          className="rounded-md bg-primary px-3 py-1.5 text-xs font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 disabled:opacity-50"
         >
           {submitting ? 'Guardando…' : 'Emitir factura'}
         </button>

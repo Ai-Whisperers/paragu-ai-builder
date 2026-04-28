@@ -95,23 +95,23 @@ export function TimelineEstimator({ eyebrow, title, subtitle, __locale = 'en' }:
   }, [timeline, documents, inCountry])
 
   return (
-    <section className="bg-[var(--surface-light)] py-16 sm:py-24">
+    <section className="bg-surface-light py-16 sm:py-24">
       <Container>
         <AnimatedSectionHeader>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--secondary)]">{eyebrow || L.eyebrow}</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow || L.eyebrow}</p>
           <Heading level={2}>{title || L.title}</Heading>
-          <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{subtitle || L.subtitle}</p>
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle || L.subtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="mx-auto mt-12 max-w-4xl rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 shadow-card sm:p-10">
+        <div className="mx-auto mt-12 max-w-4xl rounded-2xl border border-border bg-surface p-6 shadow-card sm:p-10">
           <div className="grid gap-6 md:grid-cols-2">
             <div className="space-y-5">
               <label className="block">
-                <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.residency}</span>
+                <span className="mb-2 block text-sm font-medium text-foreground">{L.residency}</span>
                 <select
                   value={residency}
                   onChange={(e) => setResidency(e.target.value as typeof residency)}
-                  className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base"
+                  className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base"
                 >
                   <option value="temporary">{TIMELINES.temporary.name[__locale as 'es' | 'en'] || TIMELINES.temporary.name.en}</option>
                   <option value="permanent">{TIMELINES.permanent.name[__locale as 'es' | 'en'] || TIMELINES.permanent.name.en}</option>
@@ -120,11 +120,11 @@ export function TimelineEstimator({ eyebrow, title, subtitle, __locale = 'en' }:
               </label>
 
               <label className="block">
-                <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.documents}</span>
+                <span className="mb-2 block text-sm font-medium text-foreground">{L.documents}</span>
                 <select
                   value={documents}
                   onChange={(e) => setDocuments(e.target.value as typeof documents)}
-                  className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base"
+                  className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base"
                 >
                   <option value="yes">{L.documentsYes}</option>
                   <option value="partial">{L.documentsPartial}</option>
@@ -133,13 +133,13 @@ export function TimelineEstimator({ eyebrow, title, subtitle, __locale = 'en' }:
               </label>
 
               <fieldset className="block">
-                <legend className="mb-2 block text-sm font-medium text-[var(--text)]">{L.travel}</legend>
+                <legend className="mb-2 block text-sm font-medium text-foreground">{L.travel}</legend>
                 <div className="flex gap-2">
-                  <label className="flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2 text-sm">
+                  <label className="flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-border bg-surface px-3 py-2 text-sm">
                     <input type="radio" name="in-country" value="yes" checked={inCountry === true} onChange={() => setInCountry(true)} />
                     <span>{__locale === 'es' ? 'Sí' : __locale === 'de' ? 'Ja' : __locale === 'nl' ? 'Ja' : 'Yes'}</span>
                   </label>
-                  <label className="flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2 text-sm">
+                  <label className="flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-border bg-surface px-3 py-2 text-sm">
                     <input type="radio" name="in-country" value="no" checked={inCountry === false} onChange={() => setInCountry(false)} />
                     <span>{__locale === 'es' ? 'No' : __locale === 'de' ? 'Nein' : __locale === 'nl' ? 'Nee' : 'No'}</span>
                   </label>
@@ -148,32 +148,32 @@ export function TimelineEstimator({ eyebrow, title, subtitle, __locale = 'en' }:
             </div>
 
             <div className="space-y-6">
-              <div className="flex items-center justify-center gap-8 rounded-xl bg-[var(--surface-light)] p-6">
+              <div className="flex items-center justify-center gap-8 rounded-xl bg-surface-light p-6">
                 <div className="text-center">
-                  <p className="text-xs uppercase tracking-wider text-[var(--text-muted)]">{L.minimum}</p>
-                  <p className="text-2xl font-bold text-[var(--primary)]">{formatMonths(getActualTimeline.min / 4)}</p>
+                  <p className="text-xs uppercase tracking-wider text-muted-foreground">{L.minimum}</p>
+                  <p className="text-2xl font-bold text-primary">{formatMonths(getActualTimeline.min / 4)}</p>
                 </div>
-                <div className="h-10 w-px bg-[var(--border)]"></div>
+                <div className="h-10 w-px bg-border"></div>
                 <div className="text-center">
-                  <p className="text-xs uppercase tracking-wider text-[var(--text-muted)]">{L.maximum}</p>
-                  <p className="text-2xl font-bold text-[var(--text)]">{formatMonths(getActualTimeline.max / 4)}</p>
+                  <p className="text-xs uppercase tracking-wider text-muted-foreground">{L.maximum}</p>
+                  <p className="text-2xl font-bold text-foreground">{formatMonths(getActualTimeline.max / 4)}</p>
                 </div>
               </div>
 
               <div className="space-y-3">
-                <p className="text-sm font-medium text-[var(--text)]">{L.milestones}</p>
+                <p className="text-sm font-medium text-foreground">{L.milestones}</p>
                 {timeline.steps.map((step, idx) => (
                   <div key={idx} className="flex items-center gap-3 text-sm">
-                    <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[var(--secondary)] text-xs font-bold text-white">{idx + 1}</div>
-                    <span className="flex-1 text-[var(--text)]">{step.name[__locale as 'es' | 'en'] || step.name.en}</span>
-                    <span className="text-[var(--text-muted)]">{formatWeeks(step.weeks)}</span>
+                    <div className="flex h-6 w-6 items-center justify-center rounded-full bg-secondary text-xs font-bold text-white">{idx + 1}</div>
+                    <span className="flex-1 text-foreground">{step.name[__locale as 'es' | 'en'] || step.name.en}</span>
+                    <span className="text-muted-foreground">{formatWeeks(step.weeks)}</span>
                   </div>
                 ))}
               </div>
             </div>
           </div>
 
-          <p className="mt-6 text-xs text-[var(--text-muted)]">{L.disclaimer}</p>
+          <p className="mt-6 text-xs text-muted-foreground">{L.disclaimer}</p>
         </div>
       </Container>
     </section>

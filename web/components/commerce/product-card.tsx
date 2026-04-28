@@ -285,7 +285,7 @@ export function ProductCard({ siteSlug, product, priority, rates, locale = 'es',
             type="button"
             onClick={handleAdd}
             disabled={outOfStock || adding}
-            className="mt-2 w-full rounded-md bg-[color:var(--primary,#111)] px-3 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] shadow-sm transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] disabled:cursor-not-allowed disabled:opacity-50"
+            className="mt-2 w-full rounded-md bg-primary px-3 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] shadow-sm transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] disabled:cursor-not-allowed disabled:opacity-50"
           >
             {outOfStock ? 'Agotado' : adding ? 'Agregando…' : 'Agregar al carrito'}
           </button>

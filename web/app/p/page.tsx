@@ -23,19 +23,19 @@ export default function TemplatesIndexPage() {
       <main id="main-content" className="pt-24 pb-20">
         <Container>
           <div className="mx-auto mb-16 max-w-2xl text-center">
-            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
+            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-primary">
               Plantillas
             </p>
-            <h1 className="mb-4 text-4xl font-bold text-[var(--text)] sm:text-5xl">
+            <h1 className="mb-4 text-4xl font-bold text-foreground sm:text-5xl">
               Diseños especializados por rubro
             </h1>
-            <p className="text-lg text-[var(--text-light)]">
+            <p className="text-lg text-muted-foreground">
               Cada plantilla está pensada para un tipo de negocio específico — con las secciones,
               el lenguaje y los flujos que tu rubro realmente necesita.
             </p>
           </div>
 
-          <h2 className="mb-6 text-xl font-bold text-[var(--text)]">Disponibles ahora</h2>
+          <h2 className="mb-6 text-xl font-bold text-foreground">Disponibles ahora</h2>
           <div className="mb-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {live.map((t) => {
               const seoSlug = t.seoSlug ?? t.id.replace(/_/g, '-')
@@ -43,7 +43,7 @@ export default function TemplatesIndexPage() {
                 <Link
                   key={t.id}
                   href={`/p/${seoSlug}`}
-                  className="group block rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-xl"
+                  className="group block rounded-2xl border border-border bg-surface p-6 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-xl"
                 >
                   <div
                     className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl"
@@ -52,15 +52,15 @@ export default function TemplatesIndexPage() {
                   >
                     <Sparkles size={20} />
                   </div>
-                  <h3 className="text-lg font-bold text-[var(--text)]">{t.name}</h3>
+                  <h3 className="text-lg font-bold text-foreground">{t.name}</h3>
                   {t.leads > 0 ? (
-                    <p className="mt-1 text-sm text-[var(--text-muted)]">
+                    <p className="mt-1 text-sm text-muted-foreground">
                       Mercado PY: {t.leads.toLocaleString('es-PY')} negocios · {t.pct}% sin web
                     </p>
                   ) : (
-                    <p className="mt-1 text-sm text-[var(--text-muted)]">Demo lista para ver</p>
+                    <p className="mt-1 text-sm text-muted-foreground">Demo lista para ver</p>
                   )}
-                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[var(--primary)]">
+                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary">
                     Ver landing y demo
                     <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
                   </span>
@@ -69,15 +69,15 @@ export default function TemplatesIndexPage() {
             })}
           </div>
 
-          <h2 className="mb-6 text-xl font-bold text-[var(--text)]">Próximamente</h2>
+          <h2 className="mb-6 text-xl font-bold text-foreground">Próximamente</h2>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {upcoming.map((t) => (
               <div
                 key={t.id}
-                className="rounded-xl border border-dashed border-[var(--border)] bg-[var(--surface)]/50 p-4 text-sm"
+                className="rounded-xl border border-dashed border-border bg-surface/50 p-4 text-sm"
               >
-                <p className="font-semibold text-[var(--text)]">{t.name}</p>
-                <p className="text-xs text-[var(--text-muted)]">Plantilla en desarrollo</p>
+                <p className="font-semibold text-foreground">{t.name}</p>
+                <p className="text-xs text-muted-foreground">Plantilla en desarrollo</p>
               </div>
             ))}
           </div>

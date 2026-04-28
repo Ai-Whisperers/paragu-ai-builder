@@ -66,13 +66,13 @@ export function ContentGridSection({
     : 'rounded-lg'
 
   return (
-    <section className="bg-[var(--background)] py-16 sm:py-20">
+    <section className="bg-background py-16 sm:py-20">
       <Container>
         {(title || subtitle) && (
           <AnimatedSectionHeader>
             {title && <Heading level={2}>{title}</Heading>}
             {subtitle && (
-              <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{subtitle}</p>
+              <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
             )}
           </AnimatedSectionHeader>
         )}
@@ -85,8 +85,8 @@ export function ContentGridSection({
                 onClick={() => setActiveFilter(cat)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                   activeFilter === cat
-                    ? 'bg-[var(--primary)] text-white'
-                    : 'bg-[var(--surface-light)] text-[var(--text)] hover:bg-[var(--primary)] hover:text-white'
+                    ? 'bg-primary text-white'
+                    : 'bg-surface-light text-foreground hover:bg-primary hover:text-white'
                 }`}
               >
                 {cat === 'all' ? (variant === 'icon-cards' ? 'Todos' : 'All') : cat}
@@ -98,15 +98,15 @@ export function ContentGridSection({
         {variant === 'list' ? (
           <div className="space-y-6">
             {filtered.map((item, i) => (
-              <div key={i} className="flex gap-6 p-6 bg-[var(--surface)] rounded-lg border border-[var(--border)]">
+              <div key={i} className="flex gap-6 p-6 bg-surface rounded-lg border border-border">
                 {item.image && (
                   <img src={item.image} alt={item.title} className={`w-24 h-24 object-cover ${imgClass}`} />
                 )}
                 <div className="flex-1">
                   <Heading level={3} className="text-lg font-semibold">{item.title}</Heading>
-                  {item.description && <p className="mt-2 text-[var(--text-muted)]">{item.description}</p>}
+                  {item.description && <p className="mt-2 text-muted-foreground">{item.description}</p>}
                   {item.badge && (
-                    <span className="inline-block mt-2 text-xs px-2 py-1 bg-[var(--primary)]/10 text-[var(--primary)] rounded-full">
+                    <span className="inline-block mt-2 text-xs px-2 py-1 bg-primary/10 text-primary rounded-full">
                       {item.badge}
                     </span>
                   )}
@@ -118,7 +118,7 @@ export function ContentGridSection({
           <div className={`grid ${gridCols[safeColumns]} gap-6`}>
             {filtered.map((item, i) => (
               <AnimateOnScroll key={i} stagger={((i % safeColumns) + 1) as 1 | 2 | 3 | 4}>
-                <div className="group bg-[var(--surface)] rounded-xl border border-[var(--border)] overflow-hidden transition-all hover:shadow-card-hover">
+                <div className="group bg-surface rounded-xl border border-border overflow-hidden transition-shadow hover:shadow-card-hover">
                   {item.image && (
                     <div className="aspect-video overflow-hidden">
                       <img
@@ -131,15 +131,15 @@ export function ContentGridSection({
                   <div className="p-5">
                     <Heading level={3} className="text-lg font-semibold">{item.title}</Heading>
                     {item.description && (
-                      <p className="mt-2 text-sm text-[var(--text-muted)] line-clamp-3">{item.description}</p>
+                      <p className="mt-2 text-sm text-muted-foreground line-clamp-3">{item.description}</p>
                     )}
                     {item.badge && (
-                      <span className="inline-block mt-3 text-xs px-2 py-1 bg-[var(--primary)]/10 text-[var(--primary)] rounded-full">
+                      <span className="inline-block mt-3 text-xs px-2 py-1 bg-primary/10 text-primary rounded-full">
                         {item.badge}
                       </span>
                     )}
                     {item.href && (
-                      <a href={item.href} className="mt-3 inline-block text-sm text-[var(--primary)] font-medium hover:underline">
+                      <a href={item.href} className="mt-3 inline-block text-sm text-primary font-medium hover:underline">
                         Ver más →
                       </a>
                     )}
@@ -152,21 +152,21 @@ export function ContentGridSection({
           <div className={`grid ${gridCols[safeColumns]} gap-6`}>
             {filtered.map((item, i) => (
               <AnimateOnScroll key={i} stagger={((i % safeColumns) + 1) as 1 | 2 | 3 | 4}>
-                <div className="bg-[var(--surface)] rounded-xl border border-[var(--border)] p-5 transition-all hover:shadow-card-hover">
+                <div className="bg-surface rounded-xl border border-border p-5 transition-shadow hover:shadow-card-hover">
                   {item.image && (
                     <img src={item.image} alt={item.title} className={`w-full h-40 object-cover mb-4 ${imgClass}`} />
                   )}
                   {item.icon && (
-                    <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-[var(--primary)]/10 text-[var(--primary)] mb-4">
+                    <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-primary/10 text-primary mb-4">
                       <span className="text-xl">{item.icon}</span>
                     </div>
                   )}
                   <Heading level={3} className="text-lg font-semibold">{item.title}</Heading>
                   {item.description && (
-                    <p className="mt-2 text-sm text-[var(--text-muted)] line-clamp-3">{item.description}</p>
+                    <p className="mt-2 text-sm text-muted-foreground line-clamp-3">{item.description}</p>
                   )}
                   {item.badge && (
-                    <span className="inline-block mt-3 text-xs px-2 py-1 bg-[var(--primary)]/10 text-[var(--primary)] rounded-full">
+                    <span className="inline-block mt-3 text-xs px-2 py-1 bg-primary/10 text-primary rounded-full">
                       {item.badge}
                     </span>
                   )}

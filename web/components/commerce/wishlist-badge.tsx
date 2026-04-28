@@ -23,7 +23,7 @@ export function WishlistBadge({ siteSlug, locale = 'es' }: { siteSlug: string; l
     <Link
       href={`/s/${locale}/${siteSlug}/favoritos`}
       aria-label={`Mis favoritos${count > 0 ? ` (${count})` : ''}`}
-      className="relative inline-flex items-center gap-1 rounded-full p-1.5 text-sm text-[color:var(--text-muted,#6b7280)] hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+      className="relative inline-flex items-center gap-1 rounded-full p-1.5 text-sm text-[color:var(--text-muted,#6b7280)] hover:bg-surface-light"
     >
       <svg aria-hidden="true" className="h-5 w-5" fill={count > 0 ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24" strokeWidth={count > 0 ? 0 : 1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />

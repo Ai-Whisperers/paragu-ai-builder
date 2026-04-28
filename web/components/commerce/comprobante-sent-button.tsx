@@ -47,7 +47,7 @@ export function ComprobanteSentButton({ siteSlug, orderId }: Props) {
         type="button"
         onClick={handleClick}
         disabled={submitting}
-        className="inline-flex items-center gap-2 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-4 py-2 text-sm font-medium hover:bg-[color:var(--surface-muted,#f3f4f6)] disabled:opacity-60"
+        className="inline-flex items-center gap-2 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface px-4 py-2 text-sm font-medium hover:bg-surface-light disabled:opacity-60"
       >
         {submitting ? 'Registrando…' : 'Ya envié el comprobante'}
       </button>

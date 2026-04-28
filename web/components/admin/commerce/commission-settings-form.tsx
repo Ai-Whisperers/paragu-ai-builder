@@ -56,7 +56,7 @@ export function CommissionSettingsForm({
     : ''
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+    <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
       <label className="block">
         <span className="mb-1 block text-xs font-medium text-[color:var(--text-muted,#6b7280)]">
           Porcentaje de comisión (%)
@@ -118,7 +118,7 @@ export function CommissionSettingsForm({
       <button
         type="submit"
         disabled={submitting}
-        className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
+        className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
       >
         {submitting ? 'Guardando…' : 'Guardar'}
       </button>

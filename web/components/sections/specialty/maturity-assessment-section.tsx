@@ -242,7 +242,7 @@ export function MaturityAssessmentSection({
                       {tier?.name ?? 'Unscored'}
                     </Heading>
                     <p
-                      className="text-3xl font-bold"
+                      className="text-xl sm:text-3xl font-bold"
                       style={{ color: 'var(--accent)' }}
                     >
                       Score: {totalScore} / {questions.length * 4}

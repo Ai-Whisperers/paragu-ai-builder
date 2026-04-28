@@ -109,16 +109,16 @@ export function ResidencyQualifier({ eyebrow, title, subtitle, ctaHref = '#conta
 
   if (showResult) {
     return (
-      <section className="bg-[var(--surface-light)] py-16 sm:py-24">
+      <section className="bg-surface-light py-16 sm:py-24">
         <Container>
           <AnimatedSectionHeader>
             <Heading level={2}>{title || L.title}</Heading>
           </AnimatedSectionHeader>
 
-          <div className="mx-auto mt-12 max-w-2xl rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-8 text-center shadow-card">
+          <div className="mx-auto mt-12 max-w-2xl rounded-2xl border border-border bg-surface p-8 text-center shadow-card">
             <div className="mb-8">
-              <p className="text-sm text-[var(--text-muted)]">{L.yourScore}</p>
-              <p className="text-5xl font-bold text-[var(--primary)]">{totalScore}</p>
+              <p className="text-sm text-muted-foreground">{L.yourScore}</p>
+              <p className="text-5xl font-bold text-primary">{totalScore}</p>
             </div>
             <div className="mb-8 rounded-xl bg-green-50 p-4">
               <p className="text-lg font-semibold text-green-800">{recommendation.message[__locale as 'es' | 'en'] || recommendation.message.en}</p>
@@ -127,7 +127,7 @@ export function ResidencyQualifier({ eyebrow, title, subtitle, ctaHref = '#conta
               <Button variant="primary" href={ctaHref} style={{ backgroundColor: 'var(--secondary)', color: '#ffffff' }} className="w-full">
                 {L.cta}
               </Button>
-              <button onClick={handleReset} className="w-full text-sm text-[var(--text-muted)] underline">
+              <button onClick={handleReset} className="w-full text-sm text-muted-foreground underline">
                 {__locale === 'es' ? 'Comenzar de nuevo' : __locale === 'de' ? 'Neu starten' : __locale === 'nl' ? 'Opnieuw beginnen' : 'Start over'}
               </button>
             </div>
@@ -140,24 +140,24 @@ export function ResidencyQualifier({ eyebrow, title, subtitle, ctaHref = '#conta
   const currentQ = QUESTIONS[currentQuestion]
 
   return (
-    <section className="bg-[var(--surface-light)] py-16 sm:py-24">
+    <section className="bg-surface-light py-16 sm:py-24">
       <Container>
         <AnimatedSectionHeader>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--secondary)]">{eyebrow || L.eyebrow}</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow || L.eyebrow}</p>
           <Heading level={2}>{title || L.title}</Heading>
-          <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{subtitle || L.subtitle}</p>
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle || L.subtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="mx-auto mt-12 max-w-2xl rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-8 shadow-card">
-          <p className="mb-4 text-sm text-[var(--text-muted)]">
+        <div className="mx-auto mt-12 max-w-2xl rounded-2xl border border-border bg-surface p-8 shadow-card">
+          <p className="mb-4 text-sm text-muted-foreground">
             {__locale === 'es' ? 'Pregunta' : __locale === 'de' ? 'Frage' : __locale === 'nl' ? 'Vraag' : 'Question'} {currentQuestion + 1}/{QUESTIONS.length}
           </p>
-          <h3 className="mb-6 text-xl font-semibold text-[var(--text)]">{currentQ.question[__locale as 'es' | 'en'] || currentQ.question.en}</h3>
+          <h3 className="mb-6 text-xl font-semibold text-foreground">{currentQ.question[__locale as 'es' | 'en'] || currentQ.question.en}</h3>
 
           <div className="space-y-3">
             {currentQ.options.map((opt, idx) => (
-              <button key={idx} onClick={() => handleAnswer(currentQuestion, opt.score)} className="w-full rounded-lg border border-[var(--border)] bg-[var(--surface-light)] p-4 text-left transition-all hover:border-[var(--secondary)]">
-                <span className="text-[var(--text)]">{opt.label[__locale as 'es' | 'en'] || opt.label.en}</span>
+              <button key={idx} onClick={() => handleAnswer(currentQuestion, opt.score)} className="w-full rounded-lg border border-border bg-surface-light p-4 text-left transition-all hover:border-secondary">
+                <span className="text-foreground">{opt.label[__locale as 'es' | 'en'] || opt.label.en}</span>
               </button>
             ))}
           </div>

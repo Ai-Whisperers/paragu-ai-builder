@@ -48,7 +48,7 @@ function IconByName({ name, size = 24 }: { name?: string; size?: number }) {
   if (!name) return null
   const Icon = (Icons as unknown as Record<string, React.ComponentType<{ size?: number; className?: string }>>)[name]
   if (!Icon) return null
-  return <Icon size={size} className="text-[var(--secondary)]" />
+  return <Icon size={size} className="font-heading text-secondary" />
 }
 
 export function TrustSignalsSection({
@@ -70,18 +70,18 @@ export function TrustSignalsSection({
       }
     : undefined
   return (
-    <section className="bg-[var(--surface-light)] py-12 sm:py-16" style={sectionStyle}>
+    <section className="font-heading bg-surface-light py-12 sm:py-16" style={sectionStyle}>
       <Container>
         {(title || subtitle) && (
           <AnimatedSectionHeader>
             {eyebrow && (
-              <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--secondary)]">
+              <p className="font-heading mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">
                 {eyebrow}
               </p>
             )}
             {title && <Heading level={2}>{title}</Heading>}
             {subtitle && (
-              <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{subtitle}</p>
+              <p className="font-heading mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
             )}
           </AnimatedSectionHeader>
         )}
@@ -94,41 +94,41 @@ export function TrustSignalsSection({
 
 function Credentials({ items }: { items: TrustItem[] }) {
   return (
-    <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-stretch">
+    <div className="font-heading mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-stretch">
       {items.map((item, i) => {
         const img = itemImage(item.image)
         return (
-        <AnimateOnScroll key={i} stagger={((i % 4) + 1) as 1 | 2 | 3 | 4} className="h-full">
-          <div className="flex h-full flex-col rounded-lg bg-[var(--surface)] p-6 text-center shadow-card">
+        <AnimateOnScroll key={i} stagger={((i % 4) + 1) as 1 | 2 | 3 | 4} className="font-heading h-full">
+          <div className="font-heading flex h-full flex-col rounded-lg bg-surface p-6 text-center shadow-card">
             {img ? (
-              <div className="mx-auto mb-3 h-10 w-10 shrink-0 overflow-hidden rounded-md bg-[var(--surface-light)]">
+              <div className="font-heading mx-auto mb-3 h-10 w-10 shrink-0 overflow-hidden rounded-md bg-surface-light">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={img.src}
                   alt={img.alt || item.title || ''}
-                  className="h-full w-full object-cover"
+                  className="font-heading h-full w-full object-cover"
                   loading="lazy"
                   decoding="async"
                 />
               </div>
             ) : (
-              <div className="mx-auto mb-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--secondary)]/10">
+              <div className="font-heading mx-auto mb-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-secondary/10">
                 <IconByName name={item.icon} />
               </div>
             )}
             {item.value && (
               <p
-                className="mb-1 text-2xl font-bold text-[var(--primary)]"
-                style={{ fontFamily: 'var(--font-heading)' }}
+                className="font-heading mb-1 text-2xl font-bold text-primary"
+               
               >
                 {item.value}
               </p>
             )}
             {item.title && (
-              <p className="text-sm font-semibold text-[var(--text)]">{item.title}</p>
+              <p className="font-heading text-sm font-semibold text-foreground">{item.title}</p>
             )}
             {item.description && (
-              <p className="mt-1 text-xs text-[var(--text-muted)]">{item.description}</p>
+              <p className="font-heading mt-1 text-xs text-muted-foreground">{item.description}</p>
             )}
           </div>
         </AnimateOnScroll>
@@ -140,19 +140,19 @@ function Credentials({ items }: { items: TrustItem[] }) {
 
 function LogosRow({ items }: { items: TrustItem[] }) {
   return (
-    <div className="mt-8 flex flex-wrap items-center justify-center gap-8 opacity-70">
+    <div className="font-heading mt-8 flex flex-wrap items-center justify-center gap-8 opacity-70">
       {items.map((item, i) => (
-        <div key={i} className="flex h-12 items-center">
+        <div key={i} className="font-heading flex h-12 items-center">
           {item.logoUrl ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={item.logoUrl}
               alt={item.title || 'partner'}
-              className="h-full w-auto grayscale transition-all hover:grayscale-0"
+              className="font-heading h-full w-auto grayscale transition-all hover:grayscale-0"
               loading="lazy"
             />
           ) : (
-            <span className="text-sm font-semibold uppercase tracking-wider text-[var(--text-muted)]">
+            <span className="font-heading text-sm font-semibold uppercase tracking-wider text-muted-foreground">
               {item.title}
             </span>
           )}

@@ -98,10 +98,10 @@ export default async function VerticalLandingEnPage({ params }: { params: Promis
               <p className="mb-3 text-sm font-bold uppercase tracking-wider" style={{ color: t.color }}>
                 {en.name} template
               </p>
-              <h1 className="mb-6 text-4xl font-bold leading-tight text-[var(--text)] sm:text-5xl md:text-6xl">
+              <h1 className="mb-6 text-4xl font-bold leading-tight text-foreground sm:text-5xl md:text-6xl">
                 Website for {en.name.toLowerCase()} in Paraguay, live in 48 hours
               </h1>
-              <p className="mx-auto mb-10 max-w-2xl text-lg text-[var(--text-light)] md:text-xl">
+              <p className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground md:text-xl">
                 {en.tagline}
               </p>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -109,7 +109,7 @@ export default async function VerticalLandingEnPage({ params }: { params: Promis
                   href={waLink(waMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-2 rounded-2xl bg-[var(--primary)] px-8 py-4 text-lg font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
+                  className="group inline-flex items-center gap-2 rounded-2xl bg-primary px-8 py-4 text-lg font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
                 >
                   <MessageCircle size={20} />
                   Request free demo
@@ -118,7 +118,7 @@ export default async function VerticalLandingEnPage({ params }: { params: Promis
                 {t.demoSlug && (
                   <Link
                     href={`/${t.demoSlug}`}
-                    className="inline-flex items-center gap-2 rounded-2xl border-2 border-[var(--border)] bg-[var(--surface)] px-8 py-4 text-lg font-bold text-[var(--text)] transition-all hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                    className="inline-flex items-center gap-2 rounded-2xl border-2 border-border bg-surface px-8 py-4 text-lg font-bold text-foreground transition-all hover:border-[var(--primary)] hover:text-primary"
                   >
                     See live demo
                     <ExternalLink size={18} />
@@ -127,8 +127,8 @@ export default async function VerticalLandingEnPage({ params }: { params: Promis
               </div>
 
               {t.leads > 0 && (
-                <p className="mt-8 text-sm text-[var(--text-muted)]">
-                  PY market: <strong className="text-[var(--text)]">{t.leads.toLocaleString('en-US')}</strong> mapped businesses · <strong className="text-[var(--text)]">{t.pct}%</strong> without their own website
+                <p className="mt-8 text-sm text-muted-foreground">
+                  PY market: <strong className="text-foreground">{t.leads.toLocaleString('en-US')}</strong> mapped businesses · <strong className="text-foreground">{t.pct}%</strong> without their own website
                 </p>
               )}
             </div>
@@ -136,10 +136,10 @@ export default async function VerticalLandingEnPage({ params }: { params: Promis
         </section>
 
         {/* What's included */}
-        <section className="border-y border-[var(--border)] bg-[var(--surface-light)] py-20">
+        <section className="border-y border-border bg-surface-light py-20">
           <Container>
             <div className="mx-auto max-w-3xl">
-              <h2 className="mb-8 text-center text-3xl font-bold text-[var(--text)]">
+              <h2 className="mb-8 text-center text-3xl font-bold text-foreground">
                 What your site includes
               </h2>
               <ul className="grid gap-4 sm:grid-cols-2">
@@ -155,12 +155,12 @@ export default async function VerticalLandingEnPage({ params }: { params: Promis
                 ].map((feat) => (
                   <li
                     key={feat}
-                    className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--surface)] p-4"
+                    className="flex items-start gap-3 rounded-xl border border-border bg-surface p-4"
                   >
-                    <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[var(--success)]/10 text-[var(--success)]">
+                    <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-success/10 text-[var(--success)]">
                       <Check size={14} />
                     </span>
-                    <span className="text-sm text-[var(--text)]">{feat}</span>
+                    <span className="text-sm text-foreground">{feat}</span>
                   </li>
                 ))}
               </ul>
@@ -172,8 +172,8 @@ export default async function VerticalLandingEnPage({ params }: { params: Promis
         <section className="py-20">
           <Container>
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="mb-4 text-3xl font-bold text-[var(--text)]">Live in 48 hours</h2>
-              <p className="mb-8 text-[var(--text-light)]">
+              <h2 className="mb-4 text-3xl font-bold text-foreground">Live in 48 hours</h2>
+              <p className="mb-8 text-muted-foreground">
                 Send your business name through WhatsApp. We deliver a personalized demo before
                 you pay a single guarani.
               </p>
@@ -187,7 +187,7 @@ export default async function VerticalLandingEnPage({ params }: { params: Promis
                 Request free demo
               </a>
               <div className="mt-8 text-sm">
-                <Link href={`/p/${rubro}`} className="text-[var(--primary)] hover:underline">
+                <Link href={`/p/${rubro}`} className="text-primary hover:underline">
                   ¿Hablás español? Ver esta página en español →
                 </Link>
               </div>

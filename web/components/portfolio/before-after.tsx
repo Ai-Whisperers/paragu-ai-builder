@@ -68,7 +68,7 @@ export default function BeforeAfter({
             alt={afterLabel}
             className="w-full h-full object-cover"
            loading="lazy" decoding="async" />
-          <span className="absolute top-4 right-4 bg-[var(--primary)] text-white px-3 py-1 rounded-full text-sm">
+          <span className="absolute top-4 right-4 bg-primary text-white px-3 py-1 rounded-full text-sm">
             {afterLabel}
           </span>
         </div>

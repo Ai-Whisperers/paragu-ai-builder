@@ -287,7 +287,7 @@ export default async function StorePage({
               <Link
                 key={q}
                 href={`/s/${locale}/${site}/tienda?q=${encodeURIComponent(q)}`}
-                className="rounded-full border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-3 py-1 hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                className="rounded-full border border-[color:var(--border,#e5e7eb)] bg-surface px-3 py-1 hover:bg-surface-light"
               >
                 {q}
               </Link>
@@ -315,7 +315,7 @@ export default async function StorePage({
         />
 
         {products.length === 0 ? (
-          <div className="mt-6 rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-12 text-center">
+          <div className="mt-6 rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-surface p-12 text-center">
             <p className="text-[color:var(--text-muted,#6b7280)]">
               {hasActiveFilters
                 ? 'No encontramos productos con esos filtros. Probá quitar alguno o buscar otra palabra.'
@@ -331,7 +331,7 @@ export default async function StorePage({
                     <Link
                       key={c}
                       href={`/s/${locale}/${site}/tienda/categoria/${encodeURIComponent(c)}`}
-                      className="rounded-full border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs capitalize hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                      className="rounded-full border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs capitalize hover:bg-surface-light"
                     >
                       {c}
                     </Link>

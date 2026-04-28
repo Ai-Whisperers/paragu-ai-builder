@@ -58,15 +58,15 @@ export function ActivityTicker() {
   if (!current) return null
 
   return (
-    <div className="mx-auto inline-flex items-center gap-3 rounded-full border border-[var(--border)] bg-[var(--surface)]/80 px-4 py-2 text-sm shadow-sm backdrop-blur-sm">
-      <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[var(--success)]/10 text-[var(--success)]">
+    <div className="mx-auto inline-flex items-center gap-3 rounded-full border border-border bg-surface/80 px-4 py-2 text-sm shadow-sm backdrop-blur-sm">
+      <span className="flex h-6 w-6 items-center justify-center rounded-full bg-success/10 text-[var(--success)]">
         <Activity size={14} />
       </span>
-      <span className="text-[var(--text-muted)]">
+      <span className="text-muted-foreground">
         {current.ago ? `Lanzado ${current.ago}` : 'Online ahora'} ·{' '}
         <a
           href={current.href}
-          className="font-semibold text-[var(--text)] underline-offset-2 hover:underline"
+          className="font-semibold text-foreground underline-offset-2 hover:underline"
         >
           {current.name}
         </a>

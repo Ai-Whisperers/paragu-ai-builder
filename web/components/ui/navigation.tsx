@@ -156,7 +156,7 @@ export function AnchorNav({
         {/* Mobile toggle button */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[var(--primary)] text-white shadow-lg lg:hidden"
+          className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-primary text-white shadow-lg lg:hidden"
           aria-label="Toggle navigation"
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
@@ -165,13 +165,13 @@ export function AnchorNav({
         {/* Mobile drawer */}
         <div
           className={cn(
-            'fixed inset-x-0 bottom-0 z-40 transform bg-[var(--background)] shadow-2xl transition-transform duration-300 lg:hidden',
+            'fixed inset-x-0 bottom-0 z-40 transform bg-background shadow-2xl transition-transform duration-300 lg:hidden',
             mobileOpen ? 'translate-y-0' : 'translate-y-full'
           )}
           style={{ maxHeight: '60vh' }}
         >
           <nav className="p-6">
-            <p className="mb-4 text-sm font-medium text-[var(--text-muted)]">Jump to section</p>
+            <p className="mb-4 text-sm font-medium text-muted-foreground">Jump to section</p>
             <div className="space-y-2">
               {items.map((item) => (
                 <a
@@ -181,8 +181,8 @@ export function AnchorNav({
                   className={cn(
                     'flex items-center gap-3 rounded-lg px-4 py-3 transition-colors',
                     currentActive === item.id
-                      ? 'bg-[var(--primary)] text-white'
-                      : 'text-[var(--text)] hover:bg-[var(--surface-light)]'
+                      ? 'bg-primary text-white'
+                      : 'text-foreground hover:bg-surface-light'
                   )}
                 >
                   {item.icon && <span className="flex-shrink-0">{item.icon}</span>}
@@ -198,12 +198,12 @@ export function AnchorNav({
           className={cn(
             'hidden lg:block',
             sticky && 'sticky top-0 z-30',
-            activeBg && 'bg-[var(--background)]/80 backdrop-blur-md',
+            activeBg && 'bg-background/80 backdrop-blur-md',
             className
           )}
         >
           <Container>
-            <div className="flex items-center gap-1 border-b border-[var(--border)] py-3">
+            <div className="flex items-center gap-1 border-b border-border py-3">
               {items.map((item) => (
                 <a
                   key={item.id}
@@ -212,8 +212,8 @@ export function AnchorNav({
                   className={cn(
                     'flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors',
                     currentActive === item.id
-                      ? 'bg-[var(--primary)] text-[var(--primary-foreground)]'
-                      : 'text-[var(--text)] hover:bg-[var(--surface-light)]'
+                      ? 'bg-primary text-[var(--primary-foreground)]'
+                      : 'text-foreground hover:bg-surface-light'
                   )}
                 >
                   {item.icon && <span className="flex-shrink-0">{item.icon}</span>}
@@ -232,7 +232,7 @@ export function AnchorNav({
     <nav
       className={cn(
         sticky && 'sticky top-0 z-30',
-        activeBg && 'bg-[var(--background)]/80 backdrop-blur-md',
+        activeBg && 'bg-background/80 backdrop-blur-md',
         className
       )}
     >
@@ -249,8 +249,8 @@ export function AnchorNav({
               className={cn(
                 'flex items-center gap-2 whitespace-nowrap rounded-lg px-4 py-2 text-sm font-medium transition-colors',
                 currentActive === item.id
-                  ? 'bg-[var(--primary)] text-[var(--primary-foreground)]'
-                  : 'text-[var(--text)] hover:bg-[var(--surface-light)]'
+                  ? 'bg-primary text-[var(--primary-foreground)]'
+                  : 'text-foreground hover:bg-surface-light'
               )}
             >
               {item.icon && <span className="flex-shrink-0">{item.icon}</span>}
@@ -339,7 +339,7 @@ export function MegaMenuNav({
   }[mobileBreakpoint]
 
   return (
-    <header className={cn('relative z-50 bg-[var(--background)]', className)}>
+    <header className={cn('relative z-50 bg-background', className)}>
       <Container>
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
@@ -359,7 +359,7 @@ export function MegaMenuNav({
                 {item.children ? (
                   <>
                     <button
-                      className="flex items-center gap-1 py-2 text-[var(--text)] hover:text-[var(--primary)] transition-colors"
+                      className="flex items-center gap-1 py-2 text-foreground hover:text-primary transition-colors"
                       onClick={() => setActiveDropdown(activeDropdown === item.label ? null : item.label)}
                     >
                       {item.label}
@@ -375,11 +375,11 @@ export function MegaMenuNav({
                     {/* Mega Menu Dropdown */}
                     {activeDropdown === item.label && (
                       <div className="absolute left-1/2 top-full z-50 w-screen max-w-3xl -translate-x-1/2 pt-4">
-                        <div className="rounded-xl bg-[var(--surface)] shadow-card-hover p-6">
+                        <div className="rounded-xl bg-surface shadow-card-hover p-6">
                           <div className={cn('grid gap-8', columnsClass)}>
                             {Object.entries(groupByCategory(item.children)).map(([groupName, groupItems]) => (
                               <div key={groupName}>
-                                <h4 className="mb-3 text-sm font-semibold text-[var(--text-muted)] uppercase tracking-wide">
+                                <h4 className="mb-3 text-sm font-semibold text-muted-foreground uppercase tracking-wide">
                                   {groupName}
                                 </h4>
                                 <ul className="space-y-2">
@@ -387,7 +387,7 @@ export function MegaMenuNav({
                                     <li key={child.href}>
                                       <Link
                                         href={child.href}
-                                        className="flex items-center gap-2 text-[var(--text)] hover:text-[var(--primary)] transition-colors"
+                                        className="flex items-center gap-2 text-foreground hover:text-primary transition-colors"
                                       >
                                         {child.icon}
                                         {child.label}
@@ -408,8 +408,8 @@ export function MegaMenuNav({
                     className={cn(
                       'py-2 transition-colors',
                       item.active
-                        ? 'text-[var(--primary)] font-medium'
-                        : 'text-[var(--text)] hover:text-[var(--primary)]'
+                        ? 'text-primary font-medium'
+                        : 'text-foreground hover:text-primary'
                     )}
                   >
                     {item.label}
@@ -444,15 +444,15 @@ export function MegaMenuNav({
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className={`${breakpointClass}:hidden bg-[var(--surface)] border-t border-[var(--border)]`}>
+        <div className={`${breakpointClass}:hidden bg-surface border-t border-border`}>
           <Container>
             <nav className="py-4">
               {items.filter(item => !item.hidden).map((item) => (
-                <div key={item.href} className="border-b border-[var(--border)] last:border-0">
+                <div key={item.href} className="border-b border-border last:border-0">
                   {item.children ? (
                     <>
                       <button
-                        className="flex w-full items-center justify-between py-3 text-[var(--text)]"
+                        className="flex w-full items-center justify-between py-3 text-foreground"
                         onClick={() => setMobileSubmenu(mobileSubmenu === item.label ? null : item.label)}
                       >
                         {item.label}
@@ -468,12 +468,12 @@ export function MegaMenuNav({
                         <div className="pb-3 pl-4">
                           {Object.entries(groupByCategory(item.children)).map(([groupName, groupItems]) => (
                             <div key={groupName} className="mb-3">
-                              <p className="mb-2 text-sm text-[var(--text-muted)]">{groupName}</p>
+                              <p className="mb-2 text-sm text-muted-foreground">{groupName}</p>
                               {groupItems.map((child) => (
                                 <Link
                                   key={child.href}
                                   href={child.href}
-                                  className="block py-2 text-[var(--text)] hover:text-[var(--primary)]"
+                                  className="block py-2 text-foreground hover:text-primary"
                                   onClick={() => setMobileMenuOpen(false)}
                                 >
                                   {child.icon && <span className="mr-2">{child.icon}</span>}
@@ -488,7 +488,7 @@ export function MegaMenuNav({
                   ) : (
                     <Link
                       href={item.href}
-                      className="block py-3 text-[var(--text)] hover:text-[var(--primary)]"
+                      className="block py-3 text-foreground hover:text-primary"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.label}
@@ -497,7 +497,7 @@ export function MegaMenuNav({
                 </div>
               ))}
               {cta && (
-                <div className="mt-4 pt-4 border-t border-[var(--border)]">
+                <div className="mt-4 pt-4 border-t border-border">
                   <Button
                     href={cta.href}
                     variant={cta.variant || 'primary'}
@@ -557,10 +557,10 @@ export function BreadcrumbNav({
   includeSchema = true,
 }: BreadcrumbNavProps) {
   const separators = {
-    chevron: <span className="text-[var(--text-muted)]">/</span>,
-    slash: <span className="text-[var(--text-muted)]">/</span>,
-    arrow: <span className="text-[var(--text-muted)]">→</span>,
-    dot: <span className="text-[var(--text-muted)]">•</span>,
+    chevron: <span className="text-muted-foreground">/</span>,
+    slash: <span className="text-muted-foreground">/</span>,
+    arrow: <span className="text-muted-foreground">→</span>,
+    dot: <span className="text-muted-foreground">•</span>,
   }
 
   // Schema.org BreadcrumbList JSON-LD
@@ -594,13 +594,13 @@ export function BreadcrumbNav({
               {item.href ? (
                 <Link
                   href={item.href}
-                  className="flex items-center gap-1 text-[var(--text-muted)] hover:text-[var(--text)] transition-colors"
+                  className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   {index === 0 && showHomeIcon && item.icon}
                   {item.label}
                 </Link>
               ) : (
-                <span className="flex items-center gap-1 text-[var(--text)] font-medium" aria-current="page">
+                <span className="flex items-center gap-1 text-foreground font-medium" aria-current="page">
                   {index === 0 && showHomeIcon && item.icon}
                   {item.label}
                 </span>
@@ -682,7 +682,7 @@ export function Pagination({
         {showFirstLast && currentPage > 1 && (
           <Link
             href={getHref(currentPage - 1)}
-            className="rounded-lg px-3 py-2 text-[var(--text)] hover:bg-[var(--surface-light)] transition-colors"
+            className="rounded-lg px-3 py-2 text-foreground hover:bg-surface-light transition-colors"
             aria-label="Previous page"
           >
             ← Prev
@@ -693,7 +693,7 @@ export function Pagination({
         <div className="flex items-center gap-1">
           {pages.map((page, index) => (
             page === '...' ? (
-              <span key={index} className="px-3 py-2 text-[var(--text-muted)]">...</span>
+              <span key={index} className="px-3 py-2 text-muted-foreground">...</span>
             ) : (
               <Link
                 key={page}
@@ -701,8 +701,8 @@ export function Pagination({
                 className={cn(
                   'min-w-[40px] rounded-lg px-3 py-2 text-center transition-colors',
                   page === currentPage
-                    ? 'bg-[var(--primary)] text-[var(--primary-foreground)] font-medium'
-                    : 'text-[var(--text)] hover:bg-[var(--surface-light)]'
+                    ? 'bg-primary text-[var(--primary-foreground)] font-medium'
+                    : 'text-foreground hover:bg-surface-light'
                 )}
                 aria-current={page === currentPage ? 'page' : undefined}
               >
@@ -716,7 +716,7 @@ export function Pagination({
         {showFirstLast && currentPage < totalPages && (
           <Link
             href={getHref(currentPage + 1)}
-            className="rounded-lg px-3 py-2 text-[var(--text)] hover:bg-[var(--surface-light)] transition-colors"
+            className="rounded-lg px-3 py-2 text-foreground hover:bg-surface-light transition-colors"
             aria-label="Next page"
           >
             Next →

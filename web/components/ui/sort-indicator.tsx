@@ -11,8 +11,8 @@ const sortIndicatorVariants = cva(
   {
     variants: {
       variant: {
-        default: "text-[var(--text)] hover:text-[var(--secondary)]",
-        muted: "text-[var(--text-muted)] hover:text-[var(--text)]",
+        default: "text-foreground hover:text-secondary",
+        muted: "text-muted-foreground hover:text-foreground",
       },
       active: {
         true: "font-medium",
@@ -58,7 +58,7 @@ export function SortIndicator({
         <svg
           className={cn(
             "w-3 h-3 -mb-0.5",
-            direction === "asc" ? "text-[var(--secondary)]" : "text-[var(--text-muted)] opacity-30"
+            direction === "asc" ? "text-secondary" : "text-muted-foreground opacity-30"
           )}
           fill="currentColor"
           viewBox="0 0 24 24"
@@ -68,7 +68,7 @@ export function SortIndicator({
         <svg
           className={cn(
             "w-3 h-3 -mt-0.5",
-            direction === "desc" ? "text-[var(--secondary)]" : "text-[var(--text-muted)] opacity-30"
+            direction === "desc" ? "text-secondary" : "text-muted-foreground opacity-30"
           )}
           fill="currentColor"
           viewBox="0 0 24 24"

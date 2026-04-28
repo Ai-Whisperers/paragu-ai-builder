@@ -69,15 +69,15 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10">
-          <Heading level={2} className="text-3xl md:text-4xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-xl sm:text-3xl md:text-2xl sm:text-4xl font-bold text-foreground mb-4">
             {resolvedTitle}
           </Heading>
-          <p className="text-lg text-[var(--text-muted)]">{resolvedSubtitle}</p>
+          <p className="text-lg text-muted-foreground">{resolvedSubtitle}</p>
         </div>
 
         {/* Search */}
         <div className="relative mb-6">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--text-muted)]" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
           <Input
             type="text"
             placeholder="Buscar preguntas..."
@@ -106,7 +106,7 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
           {filteredFAQs.map((faq, index) => (
             <Card 
               key={index} 
-              className={`border-[var(--border)] transition-all ${openIndex === index ? 'ring-2 ring-orange-200' : ''}`}
+              className={`border-border transition-all ${openIndex === index ? 'ring-2 ring-orange-200' : ''}`}
             >
               <button
                 id={`enhanced-faq-trigger-${index}`}
@@ -124,15 +124,15 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
                           {faq.category}
                         </Badge>
                       </div>
-                      <CardTitle className="text-base font-semibold text-[var(--text)]">
+                      <CardTitle className="text-base font-semibold text-foreground">
                         {faq.question}
                       </CardTitle>
                     </div>
                     <div className="flex-shrink-0 mt-1" aria-hidden="true">
                       {openIndex === index ? (
-                        <ChevronUp className="w-5 h-5 text-[var(--text-muted)]" />
+                        <ChevronUp className="w-5 h-5 text-muted-foreground" />
                       ) : (
-                        <ChevronDown className="w-5 h-5 text-[var(--text-muted)]" />
+                        <ChevronDown className="w-5 h-5 text-muted-foreground" />
                       )}
                     </div>
                   </div>
@@ -146,8 +146,8 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
                   aria-labelledby={`enhanced-faq-trigger-${index}`}
                 >
                   <CardContent className="pt-0 pb-4">
-                    <div className="border-t border-[var(--border)] pt-4">
-                      <p className="text-[var(--text-muted)] leading-relaxed">
+                    <div className="border-t border-border pt-4">
+                      <p className="text-muted-foreground leading-relaxed">
                         {faq.answer}
                       </p>
                     </div>
@@ -161,7 +161,7 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
         {/* No Results */}
         {filteredFAQs.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-[var(--text-muted)] mb-4">No encontramos preguntas con esos criterios.</p>
+            <p className="text-muted-foreground mb-4">No encontramos preguntas con esos criterios.</p>
             <Button 
               variant="outline" 
               onClick={() => {setSearchQuery(''); setSelectedCategory('Todas')}}
@@ -175,15 +175,15 @@ export function EnhancedFAQSection({ business, items, title, subtitle }: FAQSect
         <Card className="mt-10 bg-gradient-to-r from-orange-50 to-amber-50 border-orange-200">
           <CardContent className="p-8">
             <div className="text-center">
-              <Heading level={3} className="text-xl font-bold text-[var(--text)] mb-3">
+              <Heading level={3} className="text-xl font-bold text-foreground mb-3">
                 ¿No encontraste lo que buscabas?
               </Heading>
-              <p className="text-[var(--text-muted)] mb-6">
+              <p className="text-muted-foreground mb-6">
                 Estamos para ayudarte. Escribinos por WhatsApp y te respondemos en minutos.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                  <Button className="bg-[var(--success)] hover:bg-green-700">
+                  <Button className="bg-success hover:bg-green-700">
                     <MessageCircle className="w-4 h-4 mr-2" />
                     Preguntar por WhatsApp
                   </Button>

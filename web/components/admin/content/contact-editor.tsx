@@ -46,7 +46,7 @@ export function ContactEditor({ businessId, initial }: { businessId: string; ini
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
-      <section className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+      <section className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
         <h3 className="text-sm font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">Contacto</h3>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <FieldInput name="phone" label="Teléfono" defaultValue={initial?.phone ?? ''} placeholder="+595 21 123 456" />
@@ -69,7 +69,7 @@ export function ContactEditor({ businessId, initial }: { businessId: string; ini
         </div>
       </section>
 
-      <section className="space-y-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+      <section className="space-y-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
         <h3 className="text-sm font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">Horarios</h3>
         <div className="divide-y divide-[color:var(--border,#e5e7eb)]">
           {hours.map((row) => (
@@ -81,7 +81,7 @@ export function ContactEditor({ businessId, initial }: { businessId: string; ini
                   value={row.open ?? ''}
                   onChange={(e) => updateHour(row.day, { open: e.target.value })}
                   disabled={row.closed}
-                  className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 text-sm disabled:bg-[color:var(--surface-muted,#f3f4f6)]"
+                  className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 text-sm disabled:bg-surface-light"
                 />
                 <span className="text-xs text-[color:var(--text-muted,#6b7280)]">a</span>
                 <input
@@ -89,7 +89,7 @@ export function ContactEditor({ businessId, initial }: { businessId: string; ini
                   value={row.close ?? ''}
                   onChange={(e) => updateHour(row.day, { close: e.target.value })}
                   disabled={row.closed}
-                  className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 text-sm disabled:bg-[color:var(--surface-muted,#f3f4f6)]"
+                  className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 text-sm disabled:bg-surface-light"
                 />
               </div>
               <label className="flex items-center gap-2 text-xs">

@@ -9,8 +9,8 @@ const breadcrumbVariants = cva(
   {
     variants: {
       variant: {
-        default: "text-[var(--text-muted)]",
-        muted: "text-[var(--text-muted)] opacity-70",
+        default: "text-muted-foreground",
+        muted: "text-muted-foreground opacity-70",
       },
     },
     defaultVariants: {
@@ -59,14 +59,14 @@ export function Breadcrumb({
         {items.map((item, index) => (
           <li key={index} className="flex items-center gap-2">
             {index > 0 && (
-              <span className="text-[var(--text-muted)] opacity-50">
+              <span className="text-muted-foreground opacity-50">
                 {separator || defaultSeparator}
               </span>
             )}
             {item.href && index < items.length - 1 ? (
               <a
                 href={item.href}
-                className="flex items-center gap-1.5 hover:text-[var(--secondary)] transition-colors"
+                className="flex items-center gap-1.5 hover:text-secondary transition-colors"
               >
                 {item.icon && <span className="w-4 h-4">{item.icon}</span>}
                 <span>{item.label}</span>
@@ -76,7 +76,7 @@ export function Breadcrumb({
                 className={cn(
                   "flex items-center gap-1.5",
                   index === items.length - 1
-                    ? "font-medium text-[var(--text)]"
+                    ? "font-medium text-foreground"
                     : ""
                 )}
                 aria-current={index === items.length - 1 ? "page" : undefined}

@@ -57,7 +57,7 @@ export function OrderNoteForm({ businessId, orderId }: Props) {
         <button
           type="submit"
           disabled={!note.trim() || state === 'submitting'}
-          className="rounded-md bg-[color:var(--primary,#111)] px-3 py-1.5 text-xs font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 disabled:opacity-50"
+          className="rounded-md bg-primary px-3 py-1.5 text-xs font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 disabled:opacity-50"
         >
           {state === 'submitting' ? 'Guardando…' : 'Guardar nota'}
         </button>

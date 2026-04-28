@@ -111,23 +111,23 @@ export function TaxSavingsCalculator({
   const [showLeadModal, setShowLeadModal] = useState(false)
 
   return (
-    <section className="bg-[var(--surface-light)] py-16 sm:py-24">
+    <section className="bg-surface-light py-16 sm:py-24">
       <Container>
         <AnimatedSectionHeader>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--secondary)]">{resolvedEyebrow}</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{resolvedEyebrow}</p>
           <Heading level={2}>{resolvedTitle}</Heading>
-          <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{resolvedSubtitle}</p>
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{resolvedSubtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="mx-auto mt-12 max-w-4xl rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 shadow-card sm:p-10">
+        <div className="mx-auto mt-12 max-w-4xl rounded-2xl border border-border bg-surface p-6 shadow-card sm:p-10">
           <div className="grid gap-8 md:grid-cols-2">
             <div className="space-y-5">
               <label className="block">
-                <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.currentCountry}</span>
+                <span className="mb-2 block text-sm font-medium text-foreground">{L.currentCountry}</span>
                 <select
                   value={countryCode}
                   onChange={(e) => setCountryCode(e.target.value)}
-                  className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base text-[var(--text)] focus:border-[var(--secondary)] focus:outline-none"
+                  className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 >
                   {COUNTRIES.map((c) => (
                     <option key={c.code} value={c.code}>
@@ -138,7 +138,7 @@ export function TaxSavingsCalculator({
               </label>
 
               <label className="block">
-                <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.income}</span>
+                <span className="mb-2 block text-sm font-medium text-foreground">{L.income}</span>
                 <input
                   type="number"
                   inputMode="numeric"
@@ -146,16 +146,16 @@ export function TaxSavingsCalculator({
                   step={5000}
                   value={income}
                   onChange={(e) => setIncome(Math.max(0, Number(e.target.value) || 0))}
-                  className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base text-[var(--text)] focus:border-[var(--secondary)] focus:outline-none"
+                  className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 />
               </label>
 
               <label className="block">
-                <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.incomeType}</span>
+                <span className="mb-2 block text-sm font-medium text-foreground">{L.incomeType}</span>
                 <select
                   value={incomeType}
                   onChange={(e) => setIncomeType(e.target.value as typeof incomeType)}
-                  className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base text-[var(--text)] focus:border-[var(--secondary)] focus:outline-none"
+                  className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
                 >
                   <option value="employment">{__locale === 'es' ? 'Empleado' : __locale === 'de' ? 'Angestellt' : __locale === 'nl' ? 'Werknemer' : 'Employee'}</option>
                   <option value="freelance">{__locale === 'es' ? 'Freelance' : __locale === 'de' || __locale === 'nl' ? 'Freelancer' : 'Freelance'}</option>
@@ -165,13 +165,13 @@ export function TaxSavingsCalculator({
               </label>
 
               <fieldset className="block">
-                <legend className="mb-2 block text-sm font-medium text-[var(--text)]">{L.source}</legend>
+                <legend className="mb-2 block text-sm font-medium text-foreground">{L.source}</legend>
                 <div className="flex flex-col gap-2 sm:flex-row">
-                  <label className="flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2 text-sm">
+                  <label className="flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-border bg-surface px-3 py-2 text-sm">
                     <input type="radio" name="income-source" value="foreign" checked={source === 'foreign'} onChange={() => setSource('foreign')} />
                     <span>{L.sourceForeign}</span>
                   </label>
-                  <label className="flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2 text-sm">
+                  <label className="flex flex-1 cursor-pointer items-center gap-2 rounded-md border border-border bg-surface px-3 py-2 text-sm">
                     <input type="radio" name="income-source" value="local" checked={source === 'local'} onChange={() => setSource('local')} />
                     <span>{L.sourceLocal}</span>
                   </label>
@@ -179,31 +179,31 @@ export function TaxSavingsCalculator({
               </fieldset>
             </div>
 
-            <div className="flex flex-col justify-center rounded-xl bg-[var(--surface-light)] p-6">
+            <div className="flex flex-col justify-center rounded-xl bg-surface-light p-6">
               <dl className="space-y-4">
                 <div>
-                  <dt className="text-xs uppercase tracking-wider text-[var(--text-muted)]">{L.currentTax}</dt>
-                  <dd className="text-xl font-semibold text-[var(--text)]">{formatEUR(currentTax)}</dd>
+                  <dt className="text-xs uppercase tracking-wider text-muted-foreground">{L.currentTax}</dt>
+                  <dd className="text-xl font-semibold text-foreground">{formatEUR(currentTax)}</dd>
                 </div>
                 <div>
-                  <dt className="text-xs uppercase tracking-wider text-[var(--text-muted)]">{L.pyTax}</dt>
-                  <dd className="text-xl font-semibold text-[var(--text)]">€{formatUSD(paraguayTax).replace('$', '')}</dd>
+                  <dt className="text-xs uppercase tracking-wider text-muted-foreground">{L.pyTax}</dt>
+                  <dd className="text-xl font-semibold text-foreground">€{formatUSD(paraguayTax).replace('$', '')}</dd>
                 </div>
-                <div className="border-t border-[var(--border)] pt-4">
-                  <dt className="text-xs uppercase tracking-wider text-[var(--secondary)]">{L.savings}</dt>
+                <div className="border-t border-border pt-4">
+                  <dt className="text-xs uppercase tracking-wider text-secondary">{L.savings}</dt>
                   <dd className="text-3xl font-bold" style={{ color: 'var(--primary)', fontFamily: 'var(--font-heading)' }}>
                     {formatEUR(savings)}
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-xs uppercase tracking-wider text-[var(--text-muted)]">{L.fiveYear}</dt>
-                  <dd className="text-lg font-semibold text-[var(--text)]">{formatEUR(fiveYear)}</dd>
+                  <dt className="text-xs uppercase tracking-wider text-muted-foreground">{L.fiveYear}</dt>
+                  <dd className="text-lg font-semibold text-foreground">{formatEUR(fiveYear)}</dd>
                 </div>
               </dl>
             </div>
           </div>
 
-          <p className="mt-6 text-xs leading-relaxed text-[var(--text-muted)]">{L.disclaimer}</p>
+          <p className="mt-6 text-xs leading-relaxed text-muted-foreground">{L.disclaimer}</p>
 
           <div className="mt-6 flex justify-center">
             <Button variant="primary" size="lg" href={ctaHref} style={{ backgroundColor: 'var(--secondary)', color: '#ffffff' }}>

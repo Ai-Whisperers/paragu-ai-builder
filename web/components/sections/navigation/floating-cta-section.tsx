@@ -69,7 +69,7 @@ export function FloatingCTASection({
   if (!visible) return null
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-[var(--surface)] border-t border-[var(--border)] shadow-lg transition-transform duration-300 md:hidden">
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-surface border-t border-border shadow-lg transition-transform duration-300 md:hidden">
       <div className="flex">
         {ctaItems.map((item, i) => (
           <button
@@ -77,8 +77,8 @@ export function FloatingCTASection({
             onClick={() => handleAction(item)}
             className={`flex-1 py-3 text-sm font-medium flex items-center justify-center gap-2 transition-colors ${
               item.type === 'whatsapp'
-                ? 'bg-[var(--success)] text-white hover:bg-green-700'
-                : 'bg-[var(--surface)] text-[var(--text)] hover:bg-[var(--surface-light)]'
+                ? 'bg-success text-white hover:bg-green-700'
+                : 'bg-surface text-foreground hover:bg-surface-light'
             }`}
           >
             {item.icon && <span>{item.icon}</span>}

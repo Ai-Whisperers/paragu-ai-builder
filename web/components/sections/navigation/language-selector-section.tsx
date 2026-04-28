@@ -38,7 +38,7 @@ export function LanguageSelectorSection({
           const href = hrefFor(e.target.value)
           if (typeof window !== 'undefined') window.location.href = href
         }}
-        className="text-sm bg-[var(--surface)] border border-[var(--surface-light)] rounded px-2 py-1 text-[var(--text)]"
+        className="text-sm bg-surface border border-[var(--surface-light)] rounded px-2 py-1 text-foreground"
         aria-label="Seleccionar idioma"
       >
         {locales.map((l) => (

@@ -140,24 +140,24 @@ export function LeadFormSection({
   const compact = variant === 'compact'
 
   return (
-    <section id="lead" className="bg-[var(--surface)] py-16 sm:py-20">
+    <section id="lead" className="bg-surface py-16 sm:py-20">
       <Container>
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{subtitle}</p>
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
           )}
         </AnimatedSectionHeader>
 
         {status === 'success' ? (
-          <div className="mx-auto mt-10 max-w-2xl rounded-lg border border-[var(--secondary)]/30 bg-[var(--surface-light)] p-8 text-center">
-            <p className="text-lg font-medium text-[var(--primary)]">{successMessage}</p>
+          <div className="mx-auto mt-10 max-w-2xl rounded-lg border border-secondary/30 bg-surface-light p-8 text-center">
+            <p className="text-lg font-medium text-primary">{successMessage}</p>
           </div>
         ) : (
           <form
             onSubmit={handleSubmit}
             className={
-              'mx-auto mt-10 grid gap-4 rounded-lg bg-[var(--surface-light)] p-6 sm:p-8 ' +
+              'mx-auto mt-10 grid gap-4 rounded-lg bg-surface-light p-6 sm:p-8 ' +
               (compact ? 'max-w-xl' : 'max-w-2xl sm:grid-cols-2')
             }
           >
@@ -175,7 +175,7 @@ export function LeadFormSection({
               <label
                 key={f.name}
                 className={
-                  'flex flex-col gap-1 text-sm text-[var(--text)] ' +
+                  'flex flex-col gap-1 text-sm text-foreground ' +
                   (f.type === 'textarea' || compact ? 'sm:col-span-2' : '')
                 }
               >
@@ -189,13 +189,13 @@ export function LeadFormSection({
                     required={f.required}
                     rows={4}
                     placeholder={f.placeholder}
-                    className="rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2 text-[var(--text)] focus:border-[var(--secondary)] focus:outline-none"
+                    className="rounded-md border border-border bg-surface px-3 py-2 text-foreground focus:border-secondary focus:outline-none"
                   />
                 ) : f.type === 'select' ? (
                   <select
                     name={f.name}
                     required={f.required}
-                    className="rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2 text-[var(--text)] focus:border-[var(--secondary)] focus:outline-none"
+                    className="rounded-md border border-border bg-surface px-3 py-2 text-foreground focus:border-secondary focus:outline-none"
                   >
                     <option value="">—</option>
                     {f.options?.map((opt) => (
@@ -210,13 +210,13 @@ export function LeadFormSection({
                     name={f.name}
                     required={f.required}
                     placeholder={f.placeholder}
-                    className="rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2 text-[var(--text)] focus:border-[var(--secondary)] focus:outline-none"
+                    className="rounded-md border border-border bg-surface px-3 py-2 text-foreground focus:border-secondary focus:outline-none"
                   />
                 )}
               </label>
             ))}
 
-            <label className="flex items-start gap-2 text-sm text-[var(--text)] sm:col-span-2">
+            <label className="flex items-start gap-2 text-sm text-foreground sm:col-span-2">
               <input type="checkbox" name="privacy" required className="mt-1" />
               <span>
                 {privacyLabel}{' '}
@@ -226,7 +226,7 @@ export function LeadFormSection({
               </span>
             </label>
 
-            <label className="flex items-start gap-2 text-sm text-[var(--text)] sm:col-span-2">
+            <label className="flex items-start gap-2 text-sm text-foreground sm:col-span-2">
               <input type="checkbox" name="marketing" className="mt-1" />
               <span>{marketingLabel}</span>
             </label>

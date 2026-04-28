@@ -61,7 +61,7 @@ export function TiendaPagination({ currentPage, totalPages }: Props) {
         type="button"
         onClick={() => goto(currentPage - 1)}
         disabled={currentPage <= 1 || pending}
-        className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-sm disabled:opacity-40 hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+        className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-sm disabled:opacity-40 hover:bg-surface-light"
       >
         ← Anterior
       </button>
@@ -80,8 +80,8 @@ export function TiendaPagination({ currentPage, totalPages }: Props) {
                 disabled={pending}
                 className={`min-w-[2.25rem] rounded px-2 py-1.5 text-sm ${
                   p === currentPage
-                    ? 'bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
-                    : 'border border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+                    ? 'bg-primary text-[color:var(--primary-foreground,#fff)]'
+                    : 'border border-[color:var(--border,#e5e7eb)] hover:bg-surface-light'
                 }`}
               >
                 {p}
@@ -94,7 +94,7 @@ export function TiendaPagination({ currentPage, totalPages }: Props) {
         type="button"
         onClick={() => goto(currentPage + 1)}
         disabled={currentPage >= totalPages || pending}
-        className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-sm disabled:opacity-40 hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+        className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-sm disabled:opacity-40 hover:bg-surface-light"
       >
         Siguiente →
       </button>

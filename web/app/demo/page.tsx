@@ -18,13 +18,13 @@ export default function DemoPage() {
       <main id="main-content" className="pt-24 pb-20">
         <Container>
           <div className="mx-auto mb-10 max-w-2xl text-center">
-            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
+            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-primary">
               Demo gratis
             </p>
-            <h1 className="mb-4 text-4xl font-bold text-[var(--text)] sm:text-5xl">
+            <h1 className="mb-4 text-4xl font-bold text-foreground sm:text-5xl">
               Tres preguntas y armamos tu demo
             </h1>
-            <p className="text-lg text-[var(--text-light)]">
+            <p className="text-lg text-muted-foreground">
               Cuanto más sepamos, mejor te llega la primera versión. Igual podés saltarte esto y
               escribirnos por WhatsApp directamente — pero esto nos ahorra ida y vuelta.
             </p>

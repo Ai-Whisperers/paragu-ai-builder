@@ -34,11 +34,11 @@ function RecipeCard({ recipe, business }: { recipe: Recipe; business: RecipePage
   const difficultyColor = {
     'Fácil': 'bg-green-100 text-green-800',
     'Media': 'bg-yellow-100 text-yellow-800',
-    'Difícil': 'bg-red-100 text-[var(--primary)]'
+    'Difícil': 'bg-red-100 text-primary'
   }[recipe.difficulty]
 
   return (
-    <Card className="overflow-hidden border-[var(--border)] hover:shadow-lg transition-shadow">
+    <Card className="overflow-hidden border-border hover:shadow-lg transition-shadow">
       <div className="relative h-48 bg-gradient-to-br from-orange-100 to-amber-100 flex items-center justify-center">
         <div className="text-center p-4">
           <ChefHatIcon className="w-16 h-16 text-orange-400 mx-auto mb-2" />
@@ -57,16 +57,16 @@ function RecipeCard({ recipe, business }: { recipe: Recipe; business: RecipePage
           <Badge variant="outline" className={difficultyColor}>
             {recipe.difficulty}
           </Badge>
-          <span className="text-xs text-[var(--text-muted)] flex items-center gap-1">
+          <span className="text-xs text-muted-foreground flex items-center gap-1">
             <Clock className="w-3 h-3" />
             {recipe.prepTime + recipe.cookTime} min
           </span>
         </div>
         
-        <Heading level={3} className="text-lg font-bold text-[var(--text)] mb-2">{recipe.title}</Heading>
-        <p className="text-sm text-[var(--text-muted)] mb-4 line-clamp-2">{recipe.description}</p>
+        <Heading level={3} className="text-lg font-bold text-foreground mb-2">{recipe.title}</Heading>
+        <p className="text-sm text-muted-foreground mb-4 line-clamp-2">{recipe.description}</p>
         
-        <div className="flex items-center gap-1 text-xs text-[var(--text-muted)] mb-4">
+        <div className="flex items-center gap-1 text-xs text-muted-foreground mb-4">
           <Users className="w-4 h-4" />
           <span>{recipe.servings} porciones</span>
         </div>
@@ -78,7 +78,7 @@ function RecipeCard({ recipe, business }: { recipe: Recipe; business: RecipePage
             </Button>
           </Link>
           <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-            <Button size="icon" className="bg-[var(--success)] hover:bg-green-700">
+            <Button size="icon" className="bg-success hover:bg-green-700">
               <MessageCircle className="w-4 h-4" />
             </Button>
           </Link>
@@ -102,7 +102,7 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
 
       <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 mb-8">
         <div className="flex flex-wrap gap-2 mb-4">
-          <Badge className={recipe.difficulty === 'Fácil' ? 'bg-green-100 text-green-800' : recipe.difficulty === 'Media' ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-[var(--primary)]'}>
+          <Badge className={recipe.difficulty === 'Fácil' ? 'bg-green-100 text-green-800' : recipe.difficulty === 'Media' ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-primary'}>
             {recipe.difficulty}
           </Badge>
           <Badge variant="outline">{recipe.category}</Badge>
@@ -114,36 +114,36 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
           )}
         </div>
 
-        <Heading level={1} className="text-3xl md:text-4xl font-bold text-[var(--text)] mb-4">{recipe.title}</Heading>
-        <p className="text-lg text-[var(--text-muted)] mb-6">{recipe.description}</p>
+        <Heading level={1} className="text-xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">{recipe.title}</Heading>
+        <p className="text-lg text-muted-foreground mb-6">{recipe.description}</p>
 
         <div className="flex flex-wrap gap-6 text-sm">
           <div className="flex items-center gap-2">
             <Timer className="w-5 h-5 text-orange-600" />
             <div>
-              <p className="font-semibold text-[var(--text)]">Preparación</p>
-              <p className="text-[var(--text-muted)]">{recipe.prepTime} minutos</p>
+              <p className="font-semibold text-foreground">Preparación</p>
+              <p className="text-muted-foreground">{recipe.prepTime} minutos</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
             <Flame className="w-5 h-5 text-orange-600" />
             <div>
-              <p className="font-semibold text-[var(--text)]">Cocción</p>
-              <p className="text-[var(--text-muted)]">{recipe.cookTime} minutos</p>
+              <p className="font-semibold text-foreground">Cocción</p>
+              <p className="text-muted-foreground">{recipe.cookTime} minutos</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
             <Clock className="w-5 h-5 text-orange-600" />
             <div>
-              <p className="font-semibold text-[var(--text)]">Total</p>
-              <p className="text-[var(--text-muted)]">{recipe.prepTime + recipe.cookTime} minutos</p>
+              <p className="font-semibold text-foreground">Total</p>
+              <p className="text-muted-foreground">{recipe.prepTime + recipe.cookTime} minutos</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
             <Users className="w-5 h-5 text-orange-600" />
             <div>
-              <p className="font-semibold text-[var(--text)]">Porciones</p>
-              <p className="text-[var(--text-muted)]">{recipe.servings} personas</p>
+              <p className="font-semibold text-foreground">Porciones</p>
+              <p className="text-muted-foreground">{recipe.servings} personas</p>
             </div>
           </div>
         </div>
@@ -162,7 +162,7 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
               {recipe.ingredients.map((ingredient, index) => (
                 <li key={index} className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-[var(--text)]">{ingredient}</span>
+                  <span className="text-foreground">{ingredient}</span>
                 </li>
               ))}
             </ul>
@@ -183,7 +183,7 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
                   <span className="w-7 h-7 bg-orange-100 text-orange-700 rounded-full flex items-center justify-center text-sm font-semibold flex-shrink-0">
                     {index + 1}
                   </span>
-                  <span className="text-[var(--text)]">{step}</span>
+                  <span className="text-foreground">{step}</span>
                 </li>
               ))}
             </ol>
@@ -223,7 +223,7 @@ function RecipeDetail({ recipe, business, onBack }: { recipe: Recipe; business: 
         </p>
         <div className="flex flex-wrap gap-3">
           <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-            <Button className="bg-white text-orange-600 hover:bg-[var(--surface-light)]">
+            <Button className="bg-white text-orange-600 hover:bg-surface-light">
               <MessageCircle className="w-4 h-4 mr-2" />
               Pedir Ingredientes
             </Button>
@@ -276,10 +276,10 @@ export function RecipeSection({
       <div className="max-w-6xl mx-auto">
         {/* Hero */}
         <div className="text-center mb-12">
-          <Heading level={2} className="text-4xl md:text-5xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             Recetas con <span className="text-orange-600">Huevos Frescos</span>
           </Heading>
-          <p className="text-xl text-[var(--text-muted)] max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Deliciosas recetas paraguayas usando nuestros huevos de granja. 
             Desde clásicos tradicionales hasta platos modernos.
           </p>
@@ -288,7 +288,7 @@ export function RecipeSection({
         {/* Search */}
         <div className="max-w-md mx-auto mb-8">
           <div className="relative">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--text-muted)]" />
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
             <Input
               type="text"
               placeholder="Buscar recetas o ingredientes..."
@@ -316,7 +316,7 @@ export function RecipeSection({
         {/* Featured Recipes */}
         {selectedCategory === 'all' && !searchQuery && (
           <div className="mb-12">
-            <Heading level={2} className="text-2xl font-bold text-[var(--text)] mb-6 flex items-center gap-2">
+            <Heading level={2} className="text-2xl font-bold text-foreground mb-6 flex items-center gap-2">
               <Flame className="w-6 h-6 text-orange-500" />
               Recetas Destacadas
             </Heading>
@@ -332,11 +332,11 @@ export function RecipeSection({
 
         {/* All Recipes */}
         <div>
-          <Heading level={2} className="text-2xl font-bold text-[var(--text)] mb-6">
+          <Heading level={2} className="text-2xl font-bold text-foreground mb-6">
             {searchQuery ? `Resultados para "${searchQuery}"` :
              selectedCategory === 'all' ? 'Todas las Recetas' :
              categories.find(c => c.id === selectedCategory)?.label}
-            <span className="text-lg font-normal text-[var(--text-muted)] ml-2">
+            <span className="text-lg font-normal text-muted-foreground ml-2">
               ({filteredRecipes.length} recetas)
             </span>
           </Heading>
@@ -351,8 +351,8 @@ export function RecipeSection({
             </div>
           ) : (
             <div className="text-center py-12">
-              <ChefHatIcon className="w-16 h-16 text-[var(--text-light)] mx-auto mb-4" />
-              <p className="text-[var(--text-muted)]">No encontramos recetas con esos criterios.</p>
+              <ChefHatIcon className="w-16 h-16 text-muted-foreground mx-auto mb-4" />
+              <p className="text-muted-foreground">No encontramos recetas con esos criterios.</p>
               <Button 
                 variant="outline" 
                 className="mt-4"
@@ -376,7 +376,7 @@ export function RecipeSection({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button size="lg" className="bg-white text-orange-600 hover:bg-[var(--surface-light)]">
+            <Button size="lg" className="bg-white text-orange-600 hover:bg-surface-light">
               <MessageCircle className="w-5 h-5 mr-2" />
               Enviar mi Receta
             </Button>

@@ -126,7 +126,7 @@ export default async function AdminBookingsPage({
         </select>
         <button
           type="submit"
-          className="rounded-md bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90"
+          className="rounded-md bg-primary px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90"
         >
           Buscar
         </button>
@@ -156,7 +156,7 @@ export default async function AdminBookingsPage({
         </div>
       ) : (
         <>
-          <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)]">
+          <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface">
             <table className="w-full text-sm">
               <thead className="bg-[color:var(--surface-muted,#f9fafb)] text-left">
                 <tr>
@@ -219,7 +219,7 @@ export default async function AdminBookingsPage({
                 {page > 1 ? (
                   <Link
                     href={pageHref({ page: page - 1 })}
-                    className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                    className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 hover:bg-surface-light"
                   >
                     ← Anterior
                   </Link>
@@ -231,7 +231,7 @@ export default async function AdminBookingsPage({
                 {page < totalPages ? (
                   <Link
                     href={pageHref({ page: page + 1 })}
-                    className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                    className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 hover:bg-surface-light"
                   >
                     Siguiente →
                   </Link>

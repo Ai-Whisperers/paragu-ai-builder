@@ -94,21 +94,21 @@ export function ComparisonTool({ eyebrow, title, subtitle, __locale = 'en' }: Co
   }
 
   return (
-    <section className="bg-[var(--surface)] py-16 sm:py-24">
+    <section className="bg-surface py-16 sm:py-24">
       <Container>
         <AnimatedSectionHeader>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--secondary)]">{eyebrow || L.eyebrow}</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow || L.eyebrow}</p>
           <Heading level={2}>{title || L.title}</Heading>
-          <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{subtitle || L.subtitle}</p>
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle || L.subtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="mt-12 overflow-x-auto rounded-2xl border border-[var(--border)] bg-[var(--surface)] shadow-card">
+        <div className="mt-12 overflow-x-auto rounded-2xl border border-border bg-surface shadow-card">
           <table className="w-full min-w-[700px]">
             <thead>
-              <tr className="border-b border-[var(--border)]">
-                <th className="px-4 py-3 text-left text-sm font-medium text-[var(--text)]">Destination</th>
+              <tr className="border-b border-border">
+                <th className="px-4 py-3 text-left text-sm font-medium text-foreground">Destination</th>
                 {columns.map((col) => (
-                  <th key={col.key} onClick={() => handleSort(col.key)} className="cursor-pointer px-4 py-3 text-right text-sm font-medium text-[var(--text)] hover:text-[var(--secondary)]">
+                  <th key={col.key} onClick={() => handleSort(col.key)} className="cursor-pointer px-4 py-3 text-right text-sm font-medium text-foreground hover:text-secondary">
                     {col.label}
                   </th>
                 ))}
@@ -116,10 +116,10 @@ export function ComparisonTool({ eyebrow, title, subtitle, __locale = 'en' }: Co
             </thead>
             <tbody>
               {sorted.map((dest) => (
-                <tr key={dest.id} className="border-b border-[var(--border)] last:border-0">
-                  <td className="px-4 py-3 text-left text-sm font-medium text-[var(--text)]">{dest.name[__locale] || dest.name.en}</td>
+                <tr key={dest.id} className="border-b border-border last:border-0">
+                  <td className="px-4 py-3 text-left text-sm font-medium text-foreground">{dest.name[__locale] || dest.name.en}</td>
                   {columns.map((col) => (
-                    <td key={col.key} className="px-4 py-3 text-right text-sm text-[var(--text-light)]">
+                    <td key={col.key} className="px-4 py-3 text-right text-sm text-muted-foreground">
                       {formatCell((dest as unknown as Record<string, unknown>)[col.key], col.format)}
                     </td>
                   ))}

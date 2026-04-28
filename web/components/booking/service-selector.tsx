@@ -37,7 +37,7 @@ export default function ServiceSelector({
             onClick={() => setSelectedCategory('all')}
             className={`px-4 py-2 rounded-full text-sm whitespace-nowrap transition-colors ${
               selectedCategory === 'all' 
-                ? 'bg-[var(--primary)] text-white' 
+                ? 'bg-primary text-white' 
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
             }`}
           >
@@ -49,7 +49,7 @@ export default function ServiceSelector({
               onClick={() => setSelectedCategory(cat)}
               className={`px-4 py-2 rounded-full text-sm whitespace-nowrap transition-colors ${
                 selectedCategory === cat 
-                  ? 'bg-[var(--primary)] text-white' 
+                  ? 'bg-primary text-white' 
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
@@ -66,7 +66,7 @@ export default function ServiceSelector({
             onClick={() => onSelect(service)}
             className={`w-full p-4 rounded-lg border-2 text-left transition-all ${
               selectedService?.name === service.name
-                ? 'border-[var(--primary)] bg-[var(--primary)]/5'
+                ? 'border-[var(--primary)] bg-primary/5'
                 : 'border-gray-200 hover:border-[var(--primary)]'
             }`}
           >
@@ -79,7 +79,7 @@ export default function ServiceSelector({
               </div>
               <div className="text-right">
                 {service.price && (
-                  <p className="font-semibold text-[var(--primary)]">{service.price}</p>
+                  <p className="font-semibold text-primary">{service.price}</p>
                 )}
                 {service.priceFrom && !service.price && (
                   <p className="text-sm text-gray-500">Desde {service.priceFrom}</p>

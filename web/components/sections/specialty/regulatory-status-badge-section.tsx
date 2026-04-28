@@ -63,15 +63,15 @@ export function RegulatoryStatusBadgeSection({
 
   if (variant === 'inline') {
     return (
-      <section className="py-6 bg-[var(--surface-light)]">
+      <section className="py-6 bg-surface-light">
         <Container>
-          <div className="flex flex-wrap items-center justify-center gap-3 text-sm text-[var(--text-muted)]">
+          <div className="flex flex-wrap items-center justify-center gap-3 text-sm text-muted-foreground">
             {items.map((it, i) => (
               <InlineItem key={i} item={it} />
             ))}
           </div>
           {footnote && (
-            <p className="mt-3 text-center text-xs text-[var(--text-muted)] italic">{footnote}</p>
+            <p className="mt-3 text-center text-xs text-muted-foreground italic">{footnote}</p>
           )}
         </Container>
       </section>
@@ -80,11 +80,11 @@ export function RegulatoryStatusBadgeSection({
 
   // Badge (grid) variant
   return (
-    <section className="py-12 bg-[var(--background)]">
+    <section className="py-12 bg-background">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="mt-2 text-[var(--text-muted)]">{subtitle}</p>}
+          {subtitle && <p className="mt-2 text-muted-foreground">{subtitle}</p>}
         </div>
 
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
@@ -94,7 +94,7 @@ export function RegulatoryStatusBadgeSection({
         </div>
 
         {footnote && (
-          <p className="mt-6 text-center text-xs text-[var(--text-muted)] italic">{footnote}</p>
+          <p className="mt-6 text-center text-xs text-muted-foreground italic">{footnote}</p>
         )}
       </Container>
     </section>
@@ -104,9 +104,9 @@ export function RegulatoryStatusBadgeSection({
 function BadgeCard({ item }: { item: RegulatoryItem }) {
   const palette = STATUS_COLORS[item.status]
   return (
-    <div className="rounded-lg p-4 border border-[var(--surface-light)] bg-[var(--surface)]">
+    <div className="rounded-lg p-4 border border-[var(--surface-light)] bg-surface">
       <div className="flex items-start justify-between gap-3 mb-2">
-        <div className="font-semibold text-[var(--text)]">{item.name}</div>
+        <div className="font-semibold text-foreground">{item.name}</div>
         <span
           className="text-xs font-medium px-2 py-0.5 rounded-full"
           style={{ backgroundColor: palette.bg, color: palette.text }}
@@ -114,7 +114,7 @@ function BadgeCard({ item }: { item: RegulatoryItem }) {
           {item.statusLabel || palette.label}
         </span>
       </div>
-      <div className="text-xs text-[var(--text-muted)] space-y-0.5">
+      <div className="text-xs text-muted-foreground space-y-0.5">
         {item.issuer && <div>{item.issuer}</div>}
         {item.number && <div>N° {item.number}</div>}
         {item.since && <div>Desde {item.since}</div>}
@@ -125,7 +125,7 @@ function BadgeCard({ item }: { item: RegulatoryItem }) {
           href={item.verifyUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-2 inline-block text-xs text-[var(--primary)] underline"
+          className="mt-2 inline-block text-xs text-primary underline"
         >
           Verificar en registro oficial
         </a>

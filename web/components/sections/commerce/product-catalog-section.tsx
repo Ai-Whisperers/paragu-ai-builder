@@ -194,12 +194,12 @@ export function ProductCatalogSection({
     : products
 
   return (
-    <section id="catalogo" className="bg-[var(--surface-light)] py-16 sm:py-20">
+    <section id="catalogo" className="bg-surface-light py-16 sm:py-20">
       <Container>
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
           )}
         </AnimatedSectionHeader>
 
@@ -210,8 +210,8 @@ export function ProductCatalogSection({
               onClick={() => setActiveCategory(null)}
               className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-normal ${
                 activeCategory === null
-                  ? 'bg-[var(--secondary)] text-white shadow-button'
-                  : 'bg-[var(--surface)] text-[var(--text-muted)] hover:bg-[var(--surface)] hover:text-[var(--text)]'
+                  ? 'bg-secondary text-white shadow-button'
+                  : 'bg-surface text-muted-foreground hover:bg-surface hover:text-foreground'
               }`}
             >
               {labels.all}
@@ -222,8 +222,8 @@ export function ProductCatalogSection({
                 onClick={() => setActiveCategory(cat)}
                 className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-normal ${
                   activeCategory === cat
-                    ? 'bg-[var(--secondary)] text-white shadow-button'
-                    : 'bg-[var(--surface)] text-[var(--text-muted)] hover:bg-[var(--surface)] hover:text-[var(--text)]'
+                    ? 'bg-secondary text-white shadow-button'
+                    : 'bg-surface text-muted-foreground hover:bg-surface hover:text-foreground'
                 }`}
               >
                 {cat}
@@ -262,7 +262,7 @@ export function ProductCatalogSection({
         </div>
 
         {filteredProducts.length === 0 && (
-          <p className="py-12 text-center text-[var(--text-muted)]">
+          <p className="py-12 text-center text-muted-foreground">
             {__locale === 'en'
               ? 'No products available in this category.'
               : 'No hay productos disponibles en esta categoria.'}

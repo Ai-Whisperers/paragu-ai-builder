@@ -31,13 +31,13 @@ export function SampleWeekPreviewSection({
 }: SampleWeekPreviewProps) {
   if (!items?.length) return null
   return (
-    <section className="py-14 bg-[var(--surface)]">
+    <section className="py-14 bg-surface">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
           {weekOf && (
-            <p className="mt-1 text-xs uppercase tracking-wide text-[var(--primary)]">
+            <p className="mt-1 text-xs uppercase tracking-wide text-primary">
               Semana del {weekOf}
             </p>
           )}
@@ -49,16 +49,16 @@ export function SampleWeekPreviewSection({
               {it.imageUrl && <CardImage src={it.imageUrl} alt={it.name} />}
               <CardContent className="p-4">
                 <div className="flex items-start justify-between gap-2">
-                  <Heading level={3} className="font-semibold text-[var(--text)]">{it.name}</Heading>
+                  <Heading level={3} className="font-semibold text-foreground">{it.name}</Heading>
                   {it.quantity && (
-                    <span className="text-xs text-[var(--text-muted)] whitespace-nowrap">
+                    <span className="text-xs text-muted-foreground whitespace-nowrap">
                       {it.quantity}
                     </span>
                   )}
                 </div>
-                {it.description && <p className="mt-1 text-xs text-[var(--text-muted)]">{it.description}</p>}
+                {it.description && <p className="mt-1 text-xs text-muted-foreground">{it.description}</p>}
                 {it.tag && (
-                  <span className="mt-2 inline-block text-xs px-2 py-0.5 rounded-full bg-[var(--background)] text-[var(--text-muted)]">
+                  <span className="mt-2 inline-block text-xs px-2 py-0.5 rounded-full bg-background text-muted-foreground">
                     {it.tag}
                   </span>
                 )}
@@ -68,7 +68,7 @@ export function SampleWeekPreviewSection({
         </div>
 
         {footnote && (
-          <p className="mt-6 text-center text-xs italic text-[var(--text-muted)]">{footnote}</p>
+          <p className="mt-6 text-center text-xs italic text-muted-foreground">{footnote}</p>
         )}
       </Container>
     </section>

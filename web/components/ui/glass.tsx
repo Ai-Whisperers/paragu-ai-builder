@@ -264,7 +264,7 @@ export function GlassButton({
         'transition-all duration-300',
         glow && 'hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.4)]',
         'hover:-translate-y-0.5',
-        'focus:outline-none focus:ring-2 focus:ring-[var(--primary)]',
+        'focus:outline-none focus:ring-2 focus:ring-primary',
         sizeClasses[size],
         className
       )}

@@ -55,7 +55,7 @@ export function ProductDetailActions({ siteSlug, productId, inventoryQty, invent
           type="button"
           onClick={handleAdd}
           disabled={outOfStock || adding}
-          className="flex-1 rounded-lg bg-[color:var(--primary,#111)] px-4 py-3 font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+          className="flex-1 rounded-lg bg-primary px-4 py-3 font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
         >
           {outOfStock ? 'Agotado' : adding ? 'Agregando…' : 'Agregar al carrito'}
         </button>

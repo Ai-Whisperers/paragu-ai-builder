@@ -48,7 +48,7 @@ export function RecentlyViewedRail({ siteSlug, locale, excludeId, limit = 6 }: P
           <li key={it.id} className="w-32 flex-shrink-0 snap-start">
             <Link
               href={`/s/${locale}/${siteSlug}/producto/${it.slug}`}
-              className="block rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-2 hover:border-[color:var(--primary,#111)]"
+              className="block rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-2 hover:border-[color:var(--primary,#111)]"
             >
               {it.imageUrl ? (
                 // eslint-disable-next-line @next/next/no-img-element
@@ -59,7 +59,7 @@ export function RecentlyViewedRail({ siteSlug, locale, excludeId, limit = 6 }: P
                   className="aspect-square w-full rounded object-cover"
                 />
               ) : (
-                <div className="aspect-square w-full rounded bg-[color:var(--surface-muted,#f3f4f6)]" />
+                <div className="aspect-square w-full rounded bg-surface-light" />
               )}
               <p className="mt-2 line-clamp-2 text-xs font-medium text-[color:var(--text,#111)]">{it.name}</p>
               <p className="mt-1 text-xs font-semibold text-[color:var(--text,#111)]">

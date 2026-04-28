@@ -184,7 +184,7 @@ export default async function CategoryTagPage({
       />
 
       <main className="mx-auto max-w-6xl px-4 py-8">
-        <div className="mb-6 rounded-lg bg-[color:var(--primary,#111)] p-6 text-[color:var(--primary-foreground,#fff)] sm:p-8">
+        <div className="mb-6 rounded-lg bg-primary p-6 text-[color:var(--primary-foreground,#fff)] sm:p-8">
           <h1 className="text-3xl font-bold">
             {prettyTagTitle} · <span className="opacity-80">{prettyCat}</span>
           </h1>
@@ -194,13 +194,13 @@ export default async function CategoryTagPage({
         </div>
 
         {products.length === 0 ? (
-          <div className="rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-12 text-center">
+          <div className="rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-surface p-12 text-center">
             <p className="text-[color:var(--text-muted,#6b7280)]">
               No hay productos en <strong>{prettyTag}</strong> dentro de {prettyCat}.
             </p>
             <Link
               href={`/s/${locale}/${site}/tienda/categoria/${encodeURIComponent(matchCat)}`}
-              className="mt-4 inline-block rounded-md bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)]"
+              className="mt-4 inline-block rounded-md bg-primary px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)]"
             >
               Ver toda la categoría {prettyCat}
             </Link>
@@ -246,7 +246,7 @@ export default async function CategoryTagPage({
                   <li key={t.tag}>
                     <Link
                       href={`/s/${locale}/${site}/tienda/categoria/${encodeURIComponent(matchCat)}/${encodeURIComponent(t.tag)}`}
-                      className="rounded-full border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-3 py-1 capitalize hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                      className="rounded-full border border-[color:var(--border,#e5e7eb)] bg-surface px-3 py-1 capitalize hover:bg-surface-light"
                     >
                       {t.tag.replace(/-/g, ' ')}{' '}
                       <span className="opacity-60">({t.count})</span>

@@ -80,7 +80,7 @@ export function BankTransferInstructions(props: Props) {
           <button
             type="button"
             onClick={() => copy('alias', PARAGU_AI_BANK_ALIAS)}
-            className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+            className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-surface-light"
           >
             {copied === 'alias' ? 'Copiado ✓' : 'Copiar'}
           </button>
@@ -93,7 +93,7 @@ export function BankTransferInstructions(props: Props) {
           <button
             type="button"
             onClick={() => copy('whatsapp', PARAGU_AI_COMPROBANTE_WHATSAPP)}
-            className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+            className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-surface-light"
           >
             {copied === 'whatsapp' ? 'Copiado ✓' : 'Copiar'}
           </button>
@@ -106,7 +106,7 @@ export function BankTransferInstructions(props: Props) {
           <button
             type="button"
             onClick={() => copy('message', messageBody)}
-            className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+            className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-surface-light"
           >
             {copied === 'message' ? 'Copiado ✓' : 'Copiar mensaje'}
           </button>

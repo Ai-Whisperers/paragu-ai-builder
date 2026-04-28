@@ -38,7 +38,7 @@ export function IllustrationSection({
           <div className="mb-10 text-center">
             {title && <Heading level={2}>{title}</Heading>}
             {subtitle && (
-              <p className="mx-auto mt-3 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
+              <p className="mx-auto mt-3 max-w-2xl text-muted-foreground">{subtitle}</p>
             )}
           </div>
         )}
@@ -57,7 +57,7 @@ export function IllustrationSection({
             />
           </div>
           {caption && (
-            <p className="mt-3 text-center text-sm italic text-[var(--text-muted)]">{caption}</p>
+            <p className="mt-3 text-center text-sm italic text-muted-foreground">{caption}</p>
           )}
         </div>
       </Container>

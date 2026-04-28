@@ -24,7 +24,7 @@ export function InstagramFeedSection({
 }: InstagramFeedProps) {
   if (!posts?.length) return null
   return (
-    <section className="py-14 bg-[var(--background)]">
+    <section className="py-14 bg-background">
       <Container>
         <div className="text-center mb-6">
           <Heading level={2}>{title}</Heading>
@@ -33,7 +33,7 @@ export function InstagramFeedSection({
               href={`https://instagram.com/${cleanInstagram(handle)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-1 text-[var(--primary)]"
+              className="inline-block mt-1 text-primary"
             >
               @{cleanInstagram(handle)}
             </a>
@@ -63,7 +63,7 @@ export function InstagramFeedSection({
               href={`https://instagram.com/${cleanInstagram(handle)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-medium text-[var(--primary)]"
+              className="text-sm font-medium text-primary"
             >
               {ctaText}
             </a>

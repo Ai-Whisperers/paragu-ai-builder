@@ -96,7 +96,7 @@ ${productList}
             <CheckCircle className="w-8 h-8 text-[var(--success)]" />
           </div>
           <Heading level={3} className="text-xl font-semibold mb-2">Solicitud Enviada!</Heading>
-          <p className="text-[var(--text-muted)] mb-4">
+          <p className="text-muted-foreground mb-4">
             Te contactaremos por WhatsApp para confirmar tu suscripcion.
           </p>
           <SmartWhatsAppButton
@@ -113,9 +113,9 @@ ${productList}
 
   return (
     <Card className={cn('overflow-hidden', className)}>
-      <CardHeader className="bg-[var(--surface)] border-b border-[var(--border)]">
+      <CardHeader className="bg-surface border-b border-border">
         <CardTitle className="flex items-center gap-2 text-lg">
-          <Repeat className="w-5 h-5 text-[var(--primary)]" />
+          <Repeat className="w-5 h-5 text-primary" />
           Pedidos Recurrentes
         </CardTitle>
       </CardHeader>
@@ -135,13 +135,13 @@ ${productList}
                       className={cn(
                         'flex items-center justify-between p-3 rounded-lg border transition-all',
                         selected 
-                          ? 'border-[var(--primary)] bg-[var(--surface)]' 
-                          : 'border-[var(--border)] hover:border-[var(--primary)]'
+                          ? 'border-[var(--primary)] bg-surface' 
+                          : 'border-border hover:border-[var(--primary)]'
                       )}
                     >
                       <div>
                         <p className="font-medium">{product.name}</p>
-                        <p className="text-sm text-[var(--text-muted)]">
+                        <p className="text-sm text-muted-foreground">
                           {product.price.toLocaleString()} Gs/{product.unit}
                         </p>
                       </div>
@@ -166,7 +166,7 @@ ${productList}
                             variant="ghost"
                             size="sm"
                             onClick={() => removeProduct(product.id)}
-                            className="text-[var(--primary)]"
+                            className="text-primary"
                           >
                             ✕
                           </Button>
@@ -187,10 +187,10 @@ ${productList}
             </div>
 
             {formData.products.length > 0 && (
-              <div className="bg-[var(--surface)] rounded-lg p-4">
+              <div className="bg-surface rounded-lg p-4">
                 <div className="flex justify-between items-center">
                   <span className="font-medium">Total por entrega:</span>
-                  <span className="text-xl font-bold text-[var(--primary)]">
+                  <span className="text-xl font-bold text-primary">
                     {calculateTotal().toLocaleString()} Gs
                   </span>
                 </div>
@@ -228,12 +228,12 @@ ${productList}
                       <Label
                         htmlFor={freq}
                         className={cn(
-                          'flex flex-col items-center justify-center rounded-lg border-2 border-[var(--border)] bg-[var(--background)] p-4',
-                          'hover:bg-[var(--surface)] hover:border-[var(--primary)] cursor-pointer',
-                          'peer-data-[state=checked]:border-[var(--primary)] peer-data-[state=checked]:bg-[var(--surface)]'
+                          'flex flex-col items-center justify-center rounded-lg border-2 border-border bg-background p-4',
+                          'hover:bg-surface hover:border-[var(--primary)] cursor-pointer',
+                          'peer-data-[state=checked]:border-[var(--primary)] peer-data-[state=checked]:bg-surface'
                         )}
                       >
-                        <Repeat className="w-5 h-5 mb-1 text-[var(--primary)]" />
+                        <Repeat className="w-5 h-5 mb-1 text-primary" />
                         <span className="text-sm font-medium">{FREQUENCY_LABELS[freq]}</span>
                       </Label>
                     </div>
@@ -308,12 +308,12 @@ ${productList}
             </div>
 
             {/* Summary */}
-            <div className="bg-[var(--surface)] rounded-lg p-4 space-y-2">
+            <div className="bg-surface rounded-lg p-4 space-y-2">
               <h4 className="font-medium">Resumen:</h4>
-              <div className="text-sm space-y-1 text-[var(--text-muted)]">
-                <p>Frecuencia: <span className="text-[var(--text)]">{FREQUENCY_LABELS[formData.frequency]}</span></p>
-                <p>Dia: <span className="text-[var(--text)]">{formData.deliveryDay}</span></p>
-                <p>Total: <span className="text-[var(--primary)] font-medium">{calculateTotal().toLocaleString()} Gs</span></p>
+              <div className="text-sm space-y-1 text-muted-foreground">
+                <p>Frecuencia: <span className="text-foreground">{FREQUENCY_LABELS[formData.frequency]}</span></p>
+                <p>Dia: <span className="text-foreground">{formData.deliveryDay}</span></p>
+                <p>Total: <span className="text-primary font-medium">{calculateTotal().toLocaleString()} Gs</span></p>
               </div>
             </div>
 

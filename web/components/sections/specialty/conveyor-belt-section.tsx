@@ -32,14 +32,14 @@ export function ConveyorBeltSection({
   tips
 }: ConveyorBeltSectionProps) {
   return (
-    <section id="como-funciona" className="bg-[var(--surface)] py-16 sm:py-20">
+    <section id="como-funciona" className="bg-surface py-16 sm:py-20">
       <Container>
         <AnimatedSectionHeader className="mb-12 text-center">
           <Heading as="h2" level={2} className="mb-4">
             {title}
           </Heading>
           {subtitle && (
-            <p className="mx-auto max-w-2xl text-lg text-[var(--secondary)]">{subtitle}</p>
+            <p className="mx-auto max-w-2xl text-lg text-secondary">{subtitle}</p>
           )}
         </AnimatedSectionHeader>
 
@@ -49,11 +49,11 @@ export function ConveyorBeltSection({
             {steps.map((step, index) => (
               <AnimateOnScroll key={step.number} stagger={index}>
                 <div className="text-center">
-                  <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[var(--primary)] text-2xl font-bold text-[var(--primary-foreground)]">
+                  <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary text-2xl font-bold text-[var(--primary-foreground)]">
                     {step.number}
                   </div>
                   <Heading level={3} className="mb-2 text-lg font-semibold">{step.title}</Heading>
-                  <p className="text-sm text-[var(--text-muted)]">{step.description}</p>
+                  <p className="text-sm text-muted-foreground">{step.description}</p>
                 </div>
               </AnimateOnScroll>
             ))}
@@ -79,8 +79,8 @@ export function ConveyorBeltSection({
                       style={{ borderColor: plate.color, backgroundColor: `${plate.color}20` }}
                     />
                     <CardTitle className="mb-1 text-lg">{plate.name}</CardTitle>
-                    <p className="mb-1 text-2xl font-bold text-[var(--primary)]">{plate.price}</p>
-                    <p className="text-xs text-[var(--text-muted)]">{plate.description}</p>
+                    <p className="mb-1 text-2xl font-bold text-primary">{plate.price}</p>
+                    <p className="text-xs text-muted-foreground">{plate.description}</p>
                   </CardContent>
                 </Card>
               </AnimateOnScroll>
@@ -90,7 +90,7 @@ export function ConveyorBeltSection({
 
         {/* Tips */}
         {tips && tips.length > 0 && (
-          <div className="mx-auto max-w-3xl rounded-lg bg-[var(--surface-light)] p-8">
+          <div className="mx-auto max-w-3xl rounded-lg bg-surface-light p-8">
             <Heading as="h4" level={4} className="mb-4 text-center">
               Tips para tu Primera Visita
             </Heading>
@@ -98,7 +98,7 @@ export function ConveyorBeltSection({
               {tips.map((tip, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <span className="text-[var(--success)]">💡</span>
-                  <span className="text-[var(--text-light)]">{tip}</span>
+                  <span className="text-muted-foreground">{tip}</span>
                 </li>
               ))}
             </ul>

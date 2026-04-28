@@ -59,7 +59,7 @@ export function BackInStockSignup({ siteSlug, productId, locale = 'es' }: Props)
   }
 
   return (
-    <form onSubmit={onSubmit} className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+    <form onSubmit={onSubmit} className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
       <p className="mb-1 text-sm font-semibold text-[color:var(--text,#111)]">Avisame cuando vuelva</p>
       <p className="mb-3 text-xs text-[color:var(--text-muted,#6b7280)]">
         Te mandamos un solo email cuando esté disponible. Nada más.
@@ -80,7 +80,7 @@ export function BackInStockSignup({ siteSlug, productId, locale = 'es' }: Props)
         <button
           type="submit"
           disabled={status === 'sending'}
-          className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] disabled:opacity-50"
+          className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] disabled:opacity-50"
         >
           {status === 'sending' ? 'Enviando…' : 'Avisame'}
         </button>

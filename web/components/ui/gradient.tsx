@@ -74,7 +74,7 @@ export function GradientBackground({
     >
       {pattern !== 'none' && (
         <div
-          className="pointer-events-none absolute inset-0 text-[var(--text-muted)]"
+          className="pointer-events-none absolute inset-0 text-muted-foreground"
           style={patternStyles}
         />
       )}
@@ -141,7 +141,7 @@ export function GradientBorder({
         className
       )}
     >
-      <div className={cn('h-full w-full bg-[var(--background)]', roundedClasses[rounded])}>
+      <div className={cn('h-full w-full bg-background', roundedClasses[rounded])}>
         {children}
       </div>
     </div>

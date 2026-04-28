@@ -8,7 +8,7 @@ export function Card({ className, hover = true, children, ...props }: CardProps)
   return (
     <div
       className={cn(
-        'rounded-lg bg-[var(--surface)] shadow-card',
+        'rounded-lg bg-surface shadow-card',
         hover && 'transition-all duration-normal hover:shadow-card-hover hover:-translate-y-1',
         className
       )}
@@ -38,7 +38,7 @@ export function CardContent({ className, children }: { className?: string; child
 
 export function CardTitle({ className, children }: { className?: string; children: React.ReactNode }) {
   return (
-    <h3 className={cn('text-lg font-semibold text-[var(--text)]', className)}>
+    <h3 className={cn('text-lg font-semibold text-foreground', className)}>
       {children}
     </h3>
   )
@@ -46,7 +46,7 @@ export function CardTitle({ className, children }: { className?: string; childre
 
 export function CardDescription({ className, children }: { className?: string; children: React.ReactNode }) {
   return (
-    <p className={cn('mt-1 text-sm text-[var(--text-muted)]', className)}>
+    <p className={cn('mt-1 text-sm text-muted-foreground', className)}>
       {children}
     </p>
   )

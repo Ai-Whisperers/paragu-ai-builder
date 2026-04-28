@@ -207,33 +207,33 @@ export function SiteSearch({ siteSlug, locale }: { siteSlug: string; locale: str
       className="fixed inset-0 z-[80] flex items-start justify-center bg-black/40 px-4 pt-20 backdrop-blur-sm"
       onClick={(e) => { if (e.target === e.currentTarget) setOpen(false) }}
     >
-      <div className="w-[min(42rem,100%)] overflow-hidden rounded-xl bg-[var(--surface)] shadow-2xl">
-        <div className="flex items-center gap-2 border-b border-[var(--border)] px-4 py-3">
-          <Search size={18} className="text-[var(--text-muted)]" />
+      <div className="w-[min(42rem,100%)] overflow-hidden rounded-xl bg-surface shadow-2xl">
+        <div className="flex items-center gap-2 border-b border-border px-4 py-3">
+          <Search size={18} className="text-muted-foreground" />
           <input
             autoFocus
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder={PLACEHOLDERS[locale] || PLACEHOLDERS.es}
-            className="flex-1 border-0 bg-transparent text-base text-[var(--text)] outline-none"
+            className="flex-1 border-0 bg-transparent text-base text-foreground outline-none"
             onKeyDown={(e) => {
               if (e.key === 'Enter' && results[0]) { window.location.href = results[0].href }
             }}
           />
-          <kbd className="hidden rounded bg-[var(--surface-light)] px-2 py-1 text-xs text-[var(--text-muted)] sm:inline">Esc</kbd>
+          <kbd className="hidden rounded bg-surface-light px-2 py-1 text-xs text-muted-foreground sm:inline">Esc</kbd>
           <button
             type="button"
             onClick={() => setOpen(false)}
             aria-label="Close"
-            className="rounded-full p-1 text-[var(--text-muted)] hover:bg-[var(--surface-light)] hover:text-[var(--text)]"
+            className="rounded-full p-1 text-muted-foreground hover:bg-surface-light hover:text-foreground"
           >
             <X size={18} />
           </button>
         </div>
         {!query.trim() && (
-          <ul className="border-b border-[var(--border)] py-2">
-            <li className="px-4 pb-1 pt-2 text-xs font-semibold uppercase tracking-wider text-[var(--text-muted)]">
+          <ul className="border-b border-border py-2">
+            <li className="px-4 pb-1 pt-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
               Acciones rápidas
             </li>
             {(ACTIONS[locale] || ACTIONS.es).map((a) => {
@@ -242,10 +242,10 @@ export function SiteSearch({ siteSlug, locale }: { siteSlug: string; locale: str
                 <li key={a.href}>
                   <a
                     href={`/s/${locale}/${siteSlug}${a.href}`}
-                    className="flex items-center gap-3 px-4 py-2 text-sm hover:bg-[var(--surface-light)]"
+                    className="flex items-center gap-3 px-4 py-2 text-sm hover:bg-surface-light"
                   >
-                    <Icon size={18} className="flex-shrink-0 text-[var(--secondary)]" />
-                    <span className="text-[var(--text)]">{a.label}</span>
+                    <Icon size={18} className="flex-shrink-0 text-secondary" />
+                    <span className="text-foreground">{a.label}</span>
                   </a>
                 </li>
               )
@@ -254,7 +254,7 @@ export function SiteSearch({ siteSlug, locale }: { siteSlug: string; locale: str
         )}
         <ul className="max-h-[60vh] overflow-y-auto py-2">
           {results.length === 0 ? (
-            <li className="px-6 py-8 text-center text-sm text-[var(--text-muted)]">—</li>
+            <li className="px-6 py-8 text-center text-sm text-muted-foreground">—</li>
           ) : (
             results.map((it, i) => {
               const Icon = iconFor(it.type)
@@ -262,25 +262,25 @@ export function SiteSearch({ siteSlug, locale }: { siteSlug: string; locale: str
                 <li key={`${it.href}-${i}`}>
                   <a
                     href={it.href}
-                    className="flex items-start gap-3 px-4 py-3 text-sm hover:bg-[var(--surface-light)]"
+                    className="flex items-start gap-3 px-4 py-3 text-sm hover:bg-surface-light"
                   >
-                    <Icon size={18} className="mt-0.5 flex-shrink-0 text-[var(--secondary)]" />
+                    <Icon size={18} className="mt-0.5 flex-shrink-0 text-secondary" />
                     <div className="flex-1">
-                      <p className="font-medium text-[var(--text)]">{it.title}</p>
+                      <p className="font-medium text-foreground">{it.title}</p>
                       {it.excerpt && (
-                        <p className="mt-1 line-clamp-1 text-xs text-[var(--text-muted)]">{it.excerpt}</p>
+                        <p className="mt-1 line-clamp-1 text-xs text-muted-foreground">{it.excerpt}</p>
                       )}
                     </div>
-                    <span className="rounded bg-[var(--surface-light)] px-1.5 py-0.5 text-[10px] uppercase tracking-wider text-[var(--text-muted)]">{it.type}</span>
+                    <span className="rounded bg-surface-light px-1.5 py-0.5 text-[10px] uppercase tracking-wider text-muted-foreground">{it.type}</span>
                   </a>
                 </li>
               )
             })
           )}
         </ul>
-        <div className="border-t border-[var(--border)] px-4 py-2 text-xs text-[var(--text-muted)]">
-          <kbd className="mr-1 rounded bg-[var(--surface-light)] px-1.5 py-0.5">↵</kbd> open
-          <kbd className="ml-3 mr-1 rounded bg-[var(--surface-light)] px-1.5 py-0.5">⌘K</kbd> open search
+        <div className="border-t border-border px-4 py-2 text-xs text-muted-foreground">
+          <kbd className="mr-1 rounded bg-surface-light px-1.5 py-0.5">↵</kbd> open
+          <kbd className="ml-3 mr-1 rounded bg-surface-light px-1.5 py-0.5">⌘K</kbd> open search
         </div>
       </div>
     </div>

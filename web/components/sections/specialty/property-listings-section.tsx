@@ -168,11 +168,11 @@ export function PropertyListingsSection({
   )
 
   return (
-    <section className="py-16 bg-[var(--background)]">
+    <section className="py-16 bg-background">
       <Container>
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
         </AnimatedSectionHeader>
 
         {showFilters && (
@@ -180,7 +180,7 @@ export function PropertyListingsSection({
             <select
               value={transactionFilter}
               onChange={(e) => setTransactionFilter(e.target.value)}
-              className="px-4 py-2 rounded-lg border border-[var(--surface-light)] bg-[var(--surface)] text-[var(--text)]"
+              className="px-4 py-2 rounded-lg border border-[var(--surface-light)] bg-surface text-foreground"
             >
               <option value="all">Todas las operaciones</option>
               <option value="venta">Venta</option>
@@ -190,7 +190,7 @@ export function PropertyListingsSection({
             <select
               value={propertyTypeFilter}
               onChange={(e) => setPropertyTypeFilter(e.target.value)}
-              className="px-4 py-2 rounded-lg border border-[var(--surface-light)] bg-[var(--surface)] text-[var(--text)]"
+              className="px-4 py-2 rounded-lg border border-[var(--surface-light)] bg-surface text-foreground"
             >
               <option value="all">Todos los tipos</option>
               {propertyTypes.map((t) => (
@@ -216,31 +216,31 @@ export function PropertyListingsSection({
               )}
               <CardContent className="p-5 flex-1 flex flex-col">
                 <div className="mb-2">
-                  <span className="text-xs uppercase tracking-wide text-[var(--text-muted)]">
+                  <span className="text-xs uppercase tracking-wide text-muted-foreground">
                     {property.propertyType}
                   </span>
-                  <Heading level={3} className="font-semibold text-lg text-[var(--text)] mt-1">{property.title}</Heading>
+                  <Heading level={3} className="font-semibold text-lg text-foreground mt-1">{property.title}</Heading>
                   {(property.neighborhood || property.city) && (
-                    <p className="text-sm text-[var(--text-muted)]">
+                    <p className="text-sm text-muted-foreground">
                       {[property.neighborhood, property.city].filter(Boolean).join(', ')}
                     </p>
                   )}
                 </div>
 
-                <div className="flex gap-4 text-sm text-[var(--text-muted)] mb-3">
+                <div className="flex gap-4 text-sm text-muted-foreground mb-3">
                   {property.bedrooms !== undefined && <span>{property.bedrooms} dorm.</span>}
                   {property.bathrooms !== undefined && <span>{property.bathrooms} baños</span>}
                   {property.area && <span>{property.area}</span>}
                 </div>
 
                 {property.description && (
-                  <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-4 line-clamp-3">
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-4 line-clamp-3">
                     {property.description}
                   </p>
                 )}
 
                 <div className="mt-auto pt-3 flex items-center justify-between gap-2 border-t border-[var(--surface-light)]">
-                  <span className="font-bold text-[var(--primary)]">{property.price}</span>
+                  <span className="font-bold text-primary">{property.price}</span>
                   {whatsappPhone && (
                     <Button asChild size="sm">
                       <a href={buildWhatsAppUrl(whatsappPhone, property, labels)} target="_blank" rel="noopener noreferrer">
@@ -255,10 +255,10 @@ export function PropertyListingsSection({
         </div>
 
         {isLoading && (
-          <p className="text-center text-[var(--text-muted)] py-8">Cargando propiedades…</p>
+          <p className="text-center text-muted-foreground py-8">Cargando propiedades…</p>
         )}
         {!isLoading && visible.length === 0 && (
-          <p className="text-center text-[var(--text-muted)] py-8">
+          <p className="text-center text-muted-foreground py-8">
             {apiError
               ? 'No hay propiedades publicadas todavía.'
               : 'No hay propiedades que coincidan con los filtros seleccionados.'}

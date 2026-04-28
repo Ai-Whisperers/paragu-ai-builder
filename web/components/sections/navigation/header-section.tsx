@@ -123,12 +123,12 @@ export function HeaderSection({
               className={cn(
                 'px-2.5 py-1.5 rounded-md text-xs font-medium uppercase tracking-wider transition-all duration-200',
                 active
-                  ? 'bg-[var(--secondary)] text-white'
-                  : 'text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-[var(--surface-light)]'
+                  ? 'bg-secondary text-white'
+                  : 'text-muted-foreground hover:text-foreground hover:bg-surface-light'
               )}
             >
               <span aria-hidden="true">{loc}</span>
-              <span className="sr-only">{LOCALE_LABELS[loc]}</span>
+              <span className="font-heading sr-only">{LOCALE_LABELS[loc]}</span>
             </a>
           )
         })}
@@ -140,8 +140,8 @@ export function HeaderSection({
     <header
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-transform duration-300 will-change-transform',
-        variant === 'transparent' && !scrolled ? 'bg-transparent backdrop-blur-sm' : 'bg-[var(--surface)]',
-        scrolled ? 'shadow-md bg-[var(--surface)]' : variant === 'transparent' ? 'shadow-none' : 'shadow-sm',
+        variant === 'transparent' && !scrolled ? 'bg-transparent backdrop-blur-sm' : 'bg-surface',
+        scrolled ? 'shadow-md bg-surface' : variant === 'transparent' ? 'shadow-none' : 'shadow-sm',
         hidden ? '-translate-y-full' : 'translate-y-0'
       )}
       style={{
@@ -149,11 +149,11 @@ export function HeaderSection({
       }}
     >
       <Container>
-        <div className="flex h-[70px] sm:h-20 items-center justify-between">
+        <div className="font-heading flex h-[70px] sm:h-20 items-center justify-between">
           {/* Logo / Name */}
           <a
             href="#"
-            className="whitespace-nowrap text-lg sm:text-xl font-bold transition-colors hover:opacity-80"
+            className="font-heading whitespace-nowrap text-lg sm:text-xl font-bold transition-colors hover:opacity-80"
             style={{
               fontFamily: 'var(--font-heading)',
               color: 'var(--primary)',
@@ -165,37 +165,37 @@ export function HeaderSection({
           {/* Desktop search (opt-in via content). Hidden on mobile where the
               nav's hamburger is the entry point. */}
           {enableSearch && __siteSlug ? (
-            <div className="mx-4 hidden max-w-sm flex-1 md:block">
+            <div className="font-heading mx-4 hidden max-w-sm flex-1 md:block">
               <HeaderSearch siteSlug={__siteSlug} locale={__locale ?? 'es'} />
             </div>
           ) : null}
 
           {/* Desktop Nav */}
-          <nav className="hidden items-center gap-1 md:flex">
+          <nav className="font-heading hidden items-center gap-1 md:flex">
             {navItems.map((item) =>
               item.children && item.children.length > 0 ? (
-                <div key={item.href} className="group relative">
+                <div key={item.href} className="font-heading group relative">
                   <button
                     type="button"
-                    className="inline-flex items-center gap-1 px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 hover:bg-[var(--surface-light)]"
+                    className="font-heading inline-flex items-center gap-1 px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 hover:bg-surface-light"
                     style={{ color: 'var(--text)' }}
                   >
                     {item.label}
-                    <ChevronDown size={14} className="transition-transform group-hover:rotate-180" />
+                    <ChevronDown size={14} className="font-heading transition-transform group-hover:rotate-180" />
                   </button>
                   <div
-                    className="invisible absolute left-0 top-full min-w-[200px] translate-y-1 opacity-0 transition-all duration-150 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100"
+                    className="font-heading invisible absolute left-0 top-full min-w-[200px] translate-y-1 opacity-0 transition-all duration-150 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100"
                     style={{ zIndex: 60 }}
                   >
                     <div
-                      className="mt-1 rounded-lg py-2 shadow-lg"
+                      className="font-heading mt-1 rounded-lg py-2 shadow-lg"
                       style={{ backgroundColor: 'var(--surface)', border: '1px solid var(--border)' }}
                     >
                       {item.children.map((child) => (
                         <a
                           key={child.href}
                           href={child.href}
-                          className="block px-4 py-2 text-sm transition-colors hover:bg-[var(--surface-light)]"
+                          className="font-heading block px-4 py-2 text-sm transition-colors hover:bg-surface-light"
                           style={{ color: 'var(--text)' }}
                         >
                           {child.label}
@@ -208,7 +208,7 @@ export function HeaderSection({
                 <a
                   key={item.href}
                   href={item.href}
-                  className="px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 hover:bg-[var(--surface-light)]"
+                  className="font-heading px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 hover:bg-surface-light"
                   style={{ color: 'var(--text)' }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.color = 'var(--secondary)'
@@ -226,7 +226,7 @@ export function HeaderSection({
                 variant="primary" 
                 size="sm" 
                 href={ctaHref}
-                className="ml-3 min-h-[40px] px-5"
+                className="font-heading ml-3 min-h-[40px] px-5"
                 style={{
                   backgroundColor: 'var(--secondary)',
                   color: '#ffffff',
@@ -240,7 +240,7 @@ export function HeaderSection({
 
           {/* Mobile toggle */}
           <button
-            className="flex h-10 w-10 items-center justify-center rounded-lg transition-colors hover:bg-[var(--surface-light)] md:hidden"
+            className="font-heading flex h-10 w-10 items-center justify-center rounded-lg transition-colors hover:bg-surface-light md:hidden"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
             aria-expanded={mobileOpen}
@@ -260,17 +260,17 @@ export function HeaderSection({
             mobileOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
           )}
         >
-          <nav className="border-t border-[var(--surface-light)] py-4">
+          <nav className="font-heading border-t border-[var(--surface-light)] py-4">
             {enableSearch && __siteSlug ? (
-              <div className="mb-3 px-1">
+              <div className="font-heading mb-3 px-1">
                 <HeaderSearch siteSlug={__siteSlug} locale={__locale ?? 'es'} />
               </div>
             ) : null}
             {navItems.map((item) =>
               item.children && item.children.length > 0 ? (
-                <div key={item.href} className="mb-1">
+                <div key={item.href} className="font-heading mb-1">
                   <div
-                    className="px-2 py-2 text-xs font-bold uppercase tracking-wider"
+                    className="font-heading px-2 py-2 text-xs font-bold uppercase tracking-wider"
                     style={{ color: 'var(--text-muted)' }}
                   >
                     {item.label}
@@ -280,7 +280,7 @@ export function HeaderSection({
                       key={child.href}
                       href={child.href}
                       onClick={() => setMobileOpen(false)}
-                      className="block px-4 py-2.5 rounded-lg text-base font-medium transition-colors hover:bg-[var(--surface-light)]"
+                      className="font-heading block px-4 py-2.5 rounded-lg text-base font-medium transition-colors hover:bg-surface-light"
                       style={{ color: 'var(--text)' }}
                     >
                       {child.label}
@@ -292,7 +292,7 @@ export function HeaderSection({
                   key={item.href}
                   href={item.href}
                   onClick={() => setMobileOpen(false)}
-                  className="block px-2 py-3 rounded-lg text-base font-medium transition-colors hover:bg-[var(--surface-light)]"
+                  className="font-heading block px-2 py-3 rounded-lg text-base font-medium transition-colors hover:bg-surface-light"
                   style={{ color: 'var(--text)' }}
                 >
                   {item.label}
@@ -304,7 +304,7 @@ export function HeaderSection({
                 variant="primary" 
                 size="lg" 
                 href={ctaHref} 
-                className="mt-4 w-full min-h-[48px]"
+                className="font-heading mt-4 w-full min-h-[48px]"
                 style={{
                   backgroundColor: 'var(--secondary)',
                   color: '#ffffff',

@@ -97,12 +97,12 @@ export function GallerySection({
   )
 
   return (
-    <section id="galeria" className="bg-[var(--background)] py-16 sm:py-20">
+    <section id="galeria" className="bg-background py-16 sm:py-20">
       <Container>
         <div className="mb-12 text-center">
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
           )}
         </div>
 
@@ -120,7 +120,7 @@ export function GallerySection({
                   key={index}
                   type="button"
                   onClick={() => open(index)}
-                  className="group relative aspect-square overflow-hidden rounded-lg bg-[var(--surface-light)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2"
+                  className="group relative aspect-square overflow-hidden rounded-lg bg-surface-light focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                   aria-label={`${labels.open}: ${image.alt}`}
                 >
                   {tileContent(image)}
@@ -132,7 +132,7 @@ export function GallerySection({
           grid((image, index) => (
             <div
               key={index}
-              className="group relative aspect-square overflow-hidden rounded-lg bg-[var(--surface-light)]"
+              className="group relative aspect-square overflow-hidden rounded-lg bg-surface-light"
             >
               {tileContent(image)}
             </div>

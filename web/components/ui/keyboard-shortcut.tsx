@@ -105,7 +105,7 @@ export function KeyboardShortcutDisplay({
   return (
     <kbd
       className={cn(
-        "inline-flex items-center gap-1 font-mono font-medium bg-[var(--surface-light)] text-[var(--text-muted)] rounded border border-[var(--border)]",
+        "inline-flex items-center gap-1 font-mono font-medium bg-surface-light text-muted-foreground rounded border border-border",
         sizeClasses[size],
         className
       )}
@@ -114,7 +114,7 @@ export function KeyboardShortcutDisplay({
       {shortcut.split("+").map((key, index, arr) => (
         <React.Fragment key={index}>
           <span>{formatKey(key.trim())}</span>
-          {index < arr.length - 1 && <span className="text-[var(--text-muted)] opacity-50">+</span>}
+          {index < arr.length - 1 && <span className="text-muted-foreground opacity-50">+</span>}
         </React.Fragment>
       ))}
     </kbd>

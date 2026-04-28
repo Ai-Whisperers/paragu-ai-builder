@@ -29,7 +29,7 @@ export function CartPageClient({ siteSlug, locale = 'es', whatsappNumber, busine
 
   if (!cart || cart.items.length === 0) {
     return (
-      <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-12 text-center">
+      <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-12 text-center">
         <p className="text-[color:var(--text-muted,#6b7280)]">Tu carrito está vacío.</p>
         <Link href={`/s/${locale}/${siteSlug}/tienda`} className="mt-4 inline-block text-sm font-medium text-[color:var(--primary,#111)] underline">
           Ir a la tienda
@@ -46,7 +46,7 @@ export function CartPageClient({ siteSlug, locale = 'es', whatsappNumber, busine
         {cart.items.map((it) => {
           const displayName = it.productName ?? 'Producto'
           return (
-            <li key={it.id} className="flex items-center gap-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+            <li key={it.id} className="flex items-center gap-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
               {it.productImageUrl ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
@@ -92,7 +92,7 @@ export function CartPageClient({ siteSlug, locale = 'es', whatsappNumber, busine
         })}
       </ul>
 
-      <aside className="h-fit rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+      <aside className="h-fit rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
         <div className="flex justify-between text-lg font-semibold">
           <span>Subtotal</span>
           <span>{formatCents(subtotal, cart.currency)}</span>
@@ -100,7 +100,7 @@ export function CartPageClient({ siteSlug, locale = 'es', whatsappNumber, busine
         <p className="mt-1 text-xs text-[color:var(--text-muted,#6b7280)]">El envío se calcula al confirmar la dirección.</p>
         <Link
           href={`/s/${locale}/${siteSlug}/checkout`}
-          className="mt-4 block w-full rounded-lg bg-[color:var(--primary,#111)] px-4 py-3 text-center font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)]"
+          className="mt-4 block w-full rounded-lg bg-primary px-4 py-3 text-center font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)]"
         >
           {status === 'syncing' ? 'Actualizando…' : 'Finalizar compra'}
         </Link>

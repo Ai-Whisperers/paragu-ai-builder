@@ -65,7 +65,7 @@ export async function FeaturedProductsSection({
       <Container>
         <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
           <div>
-            <Heading level={2} id="featured-products-heading" className="text-3xl font-bold text-[color:var(--text,#111)]">
+            <Heading level={2} id="featured-products-heading" className="text-xl sm:text-3xl font-bold text-[color:var(--text,#111)]">
               {title}
             </Heading>
             {subtitle ? <p className="mt-1 text-[color:var(--text-muted,#6b7280)]">{subtitle}</p> : null}
@@ -85,7 +85,7 @@ export async function FeaturedProductsSection({
               <Link
                 key={p.id}
                 href={`/s/${locale}/${siteSlug}/producto/${p.slug}`}
-                className="group block overflow-hidden rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] transition hover:border-[color:var(--primary,#111)]"
+                className="group block overflow-hidden rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface transition hover:border-[color:var(--primary,#111)]"
               >
                 {cover?.url ? (
                   // eslint-disable-next-line @next/next/no-img-element
@@ -96,7 +96,7 @@ export async function FeaturedProductsSection({
                     className="aspect-square w-full object-cover transition group-hover:scale-[1.02]"
                   />
                 ) : (
-                  <div className="aspect-square w-full bg-[color:var(--surface-muted,#f3f4f6)]" />
+                  <div className="aspect-square w-full bg-surface-light" />
                 )}
                 <div className="p-3">
                   <p className="line-clamp-2 text-sm font-medium text-[color:var(--text,#111)]">{p.name}</p>

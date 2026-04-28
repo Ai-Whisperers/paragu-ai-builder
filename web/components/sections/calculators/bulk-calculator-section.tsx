@@ -16,21 +16,21 @@ export function BulkCalculator({ phone, className }: { phone: string; className?
   const savings = (unitPrice - wholesalePrice) * quantity
 
   return (
-    <section className={cn('py-16 bg-[var(--surface)]', className)}>
+    <section className={cn('py-16 bg-surface', className)}>
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-10">
-          <Badge className="mb-4 bg-[var(--primary)]">
+          <Badge className="mb-4 bg-primary">
             <Building2 className="w-4 h-4 mr-1" />
             Precios Mayoristas
           </Badge>
-          <Heading level={2} className="text-3xl font-bold mb-4">Calculadora Mayorista</Heading>
-          <p className="text-[var(--text-muted)]">Calculá tu ahorro al instante</p>
+          <Heading level={2} className="text-xl sm:text-3xl font-bold mb-4">Calculadora Mayorista</Heading>
+          <p className="text-muted-foreground">Calculá tu ahorro al instante</p>
         </div>
 
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              <Calculator className="w-5 h-5 text-[var(--primary)]" />
+              <Calculator className="w-5 h-5 text-primary" />
               Calculá tu pedido
             </CardTitle>
           </CardHeader>
@@ -44,17 +44,17 @@ export function BulkCalculator({ phone, className }: { phone: string; className?
                 min={100}
                 className="text-lg"
               />
-              <p className="text-xs text-[var(--text-muted)] mt-1">Mínimo 100 unidades para precio mayorista</p>
+              <p className="text-xs text-muted-foreground mt-1">Mínimo 100 unidades para precio mayorista</p>
             </div>
 
             <div className="grid grid-cols-3 gap-4 text-center">
               <div className="p-4 bg-white rounded-lg">
-                <p className="text-sm text-[var(--text-muted)]">Precio normal</p>
+                <p className="text-sm text-muted-foreground">Precio normal</p>
                 <p className="text-xl font-bold">{(unitPrice * quantity).toLocaleString()} Gs</p>
               </div>
-              <div className="p-4 bg-[var(--primary)]/10 rounded-lg">
-                <p className="text-sm text-[var(--primary)]">Precio mayorista</p>
-                <p className="text-xl font-bold text-[var(--primary)]">{(wholesalePrice * quantity).toLocaleString()} Gs</p>
+              <div className="p-4 bg-primary/10 rounded-lg">
+                <p className="text-sm text-primary">Precio mayorista</p>
+                <p className="text-xl font-bold text-primary">{(wholesalePrice * quantity).toLocaleString()} Gs</p>
               </div>
               <div className="p-4 bg-green-100 rounded-lg">
                 <p className="text-sm text-[var(--success)]">Tu ahorro</p>
@@ -63,7 +63,7 @@ export function BulkCalculator({ phone, className }: { phone: string; className?
             </div>
 
             <a href={`https://wa.me/${cleanPhone(phone)}?text=Hola! Vi su calculadora mayorista. Me interesa hacer un pedido de ${quantity} huevos.`} target="_blank" rel="noopener noreferrer">
-              <button className="w-full bg-[var(--primary)] text-white py-3 rounded-lg font-medium hover:opacity-90">
+              <button className="w-full bg-primary text-white py-3 rounded-lg font-medium hover:opacity-90">
                 Solicitar cotización por WhatsApp
               </button>
             </a>

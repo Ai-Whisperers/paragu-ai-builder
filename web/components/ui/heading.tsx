@@ -19,7 +19,7 @@ export function Heading({ level = 2, as, className, children, ...props }: Headin
     <Tag
       className={cn(
         headingStyles[level],
-        'font-[var(--font-heading)] text-[var(--text)]',
+        'font-[var(--font-heading)] text-foreground',
         className
       )}
       style={{ textTransform: 'var(--heading-transform)' as React.CSSProperties['textTransform'] }}

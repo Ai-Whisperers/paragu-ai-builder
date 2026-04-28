@@ -43,7 +43,7 @@ export default async function PreviewsPage() {
         <SiteNav />
         <main className="pt-24 pb-20">
           <Container>
-            <p className="text-center text-[var(--text-light)]">No se pudieron cargar los previews.</p>
+            <p className="text-center text-muted-foreground">No se pudieron cargar los previews.</p>
           </Container>
         </main>
         <SiteFooter />
@@ -71,13 +71,13 @@ export default async function PreviewsPage() {
       <main id="main-content" className="pt-24 pb-20">
         <Container>
           <div className="mx-auto mb-8 max-w-2xl text-center">
-            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
+            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-primary">
               {businesses.length} sitios demo
             </p>
-            <h1 className="mb-4 text-4xl font-bold text-[var(--text)] sm:text-5xl">
+            <h1 className="mb-4 text-4xl font-bold text-foreground sm:text-5xl">
               Sitios que podés tener
             </h1>
-            <p className="text-lg text-[var(--text-light)]">
+            <p className="text-lg text-muted-foreground">
               Cada preview se ve igual que un sitio real. Hacé click para verlo, y si te gusta
               pedinos el tuyo por WhatsApp.
             </p>
@@ -91,7 +91,7 @@ export default async function PreviewsPage() {
                 <a
                   key={t}
                   href={`#${t}`}
-                  className="rounded-full border border-[var(--border)] px-4 py-1.5 text-sm font-medium text-[var(--text-light)] transition-colors hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                  className="rounded-full border border-border px-4 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:border-[var(--primary)] hover:text-primary"
                 >
                   {TYPE_LABELS[t] || t}
                   <span className="ml-1.5 text-xs opacity-60">({grouped[t].length})</span>
@@ -105,9 +105,9 @@ export default async function PreviewsPage() {
             if (!items) return null
             return (
               <section key={type} id={type} className="mb-12 scroll-mt-24">
-                <h2 className="mb-4 text-xl font-bold text-[var(--text)]">
+                <h2 className="mb-4 text-xl font-bold text-foreground">
                   {TYPE_LABELS[type] || type}
-                  <span className="ml-2 text-sm font-normal text-[var(--text-muted)]">
+                  <span className="ml-2 text-sm font-normal text-muted-foreground">
                     {items.length} sitios
                   </span>
                 </h2>
@@ -119,19 +119,19 @@ export default async function PreviewsPage() {
                         key={biz.slug}
                         href={`/s/es/${biz.slug}`}
                         target="_blank"
-                        className="group flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--surface)] p-4 transition-all hover:-translate-y-0.5 hover:border-[var(--primary)]/30 hover:shadow-md"
+                        className="group flex items-center justify-between rounded-xl border border-border bg-surface p-4 transition-all hover:-translate-y-0.5 hover:border-[var(--primary)]/30 hover:shadow-md"
                       >
                         <div className="min-w-0 flex-1">
-                          <p className="truncate text-sm font-semibold text-[var(--text)]">
+                          <p className="truncate text-sm font-semibold text-foreground">
                             {name}
                           </p>
                           {biz.city && (
-                            <p className="text-xs text-[var(--text-muted)]">{biz.city}</p>
+                            <p className="text-xs text-muted-foreground">{biz.city}</p>
                           )}
                         </div>
                         <ExternalLink
                           size={14}
-                          className="ml-2 shrink-0 text-[var(--text-muted)] transition-colors group-hover:text-[var(--primary)]"
+                          className="ml-2 shrink-0 text-muted-foreground transition-colors group-hover:text-primary"
                         />
                       </Link>
                     )

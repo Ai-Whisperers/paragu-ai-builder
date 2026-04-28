@@ -31,16 +31,16 @@ export function StatsCounterSection({
   }
 
   return (
-    <section className="bg-[var(--surface)] py-12 sm:py-16">
+    <section className="bg-surface py-12 sm:py-16">
       <Container>
         <div className={`grid ${gridCols[columns] || 'grid-cols-4'} gap-6 sm:gap-8`}>
           {items.map((item, i) => (
             <AnimateOnScroll key={i} stagger={(i % columns) as 1 | 2 | 3 | 4}>
               <div className="text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-[var(--primary)]">
+                <div className="text-xl sm:text-3xl sm:text-4xl font-bold text-primary">
                   {item.value}
                 </div>
-                <div className="mt-2 text-sm text-[var(--text-muted)]">
+                <div className="mt-2 text-sm text-muted-foreground">
                   {item.label}
                 </div>
               </div>

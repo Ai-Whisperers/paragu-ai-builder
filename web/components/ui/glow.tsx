@@ -77,7 +77,7 @@ export function GlowCard({
     <div
       className={cn(
         'relative overflow-hidden',
-        'bg-[var(--surface)]',
+        'bg-surface',
         roundedClasses[rounded],
         className
       )}
@@ -164,7 +164,7 @@ export function SpotlightCard({
     <div
       className={cn(
         'relative overflow-hidden',
-        'bg-[var(--surface)]',
+        'bg-surface',
         'transition-shadow duration-300',
         borderGlow && isHovering && 'shadow-[0_0_30px_rgba(var(--primary-rgb),0.15)]',
         roundedClasses[rounded],
@@ -341,10 +341,10 @@ export function MagneticButton({
   }
 
   const variantClasses = {
-    primary: 'bg-[var(--secondary)] text-white shadow-button',
-    secondary: 'border-2 border-[var(--secondary)] text-[var(--secondary)] bg-transparent hover:bg-[var(--secondary)] hover:text-white',
-    outline: 'border border-[var(--border)] text-[var(--text)] hover:bg-[var(--surface-light)]',
-    ghost: 'text-[var(--text)] hover:bg-[var(--surface-light)]',
+    primary: 'bg-secondary text-white shadow-button',
+    secondary: 'border-2 border-secondary text-secondary bg-transparent hover:bg-secondary hover:text-white',
+    outline: 'border border-border text-foreground hover:bg-surface-light',
+    ghost: 'text-foreground hover:bg-surface-light',
   }
 
   const Component = href ? 'a' : 'button'
@@ -362,7 +362,7 @@ export function MagneticButton({
           'inline-flex items-center justify-center',
           'rounded-lg font-medium',
           'transition-all duration-200 ease-out',
-          'focus:outline-none focus:ring-2 focus:ring-[var(--primary)]',
+          'focus:outline-none focus:ring-2 focus:ring-primary',
           sizeClasses[size],
           variantClasses[variant],
           className
@@ -412,7 +412,7 @@ export function MorphingCard({
   return (
     <div
       className={cn(
-        'relative overflow-hidden bg-[var(--surface)]',
+        'relative overflow-hidden bg-surface',
         morphRadius && 'animate-blob',
         className
       )}

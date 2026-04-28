@@ -38,11 +38,11 @@ export function BlogSocialShare({ url, title, locale = 'es', shareLabel, copiedL
     } catch { /* clipboard blocked — other buttons still work */ }
   }
 
-  const btnClass = 'flex h-10 w-10 items-center justify-center rounded-full bg-[var(--surface-light)] text-[var(--text-muted)] transition-colors hover:bg-[var(--secondary)]/10 hover:text-[var(--secondary)]'
+  const btnClass = 'flex h-10 w-10 items-center justify-center rounded-full bg-surface-light text-muted-foreground transition-colors hover:bg-secondary/10 hover:text-secondary'
 
   return (
-    <div className="mt-10 flex items-center gap-3 border-t border-[var(--border)] pt-6">
-      <span className="mr-2 text-sm font-medium text-[var(--text-muted)]">{resolvedShare}</span>
+    <div className="mt-10 flex items-center gap-3 border-t border-border pt-6">
+      <span className="mr-2 text-sm font-medium text-muted-foreground">{resolvedShare}</span>
       <a href={`https://wa.me/?text=${encodedTitle}%20${encoded}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className={btnClass}>
         <MessageCircle size={18} />
       </a>
@@ -55,7 +55,7 @@ export function BlogSocialShare({ url, title, locale = 'es', shareLabel, copiedL
       <button type="button" onClick={handleCopy} aria-label={copied ? resolvedCopied : 'Copy link'} className={btnClass}>
         {copied ? <Check size={18} /> : <Link2 size={18} />}
       </button>
-      {copied && <span className="text-sm text-[var(--secondary)]" aria-live="polite">{resolvedCopied}</span>}
+      {copied && <span className="text-sm text-secondary" aria-live="polite">{resolvedCopied}</span>}
     </div>
   )
 }

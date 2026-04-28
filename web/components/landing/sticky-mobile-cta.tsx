@@ -30,12 +30,12 @@ export function StickyMobileCTA({
     <div
       role="region"
       aria-label="Demo gratis"
-      className="fixed inset-x-0 bottom-0 z-40 border-t border-[var(--border)] bg-[var(--background)]/95 px-4 py-3 backdrop-blur-md md:hidden"
+      className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-background/95 px-4 py-3 backdrop-blur-md md:hidden"
     >
       <div className="flex items-center justify-between gap-3">
         <div className="min-w-0 flex-1">
-          <p className="truncate text-sm font-bold text-[var(--text)]">Demo gratis · 48h</p>
-          <p className="truncate text-xs text-[var(--text-muted)]">
+          <p className="truncate text-sm font-bold text-foreground">Demo gratis · 48h</p>
+          <p className="truncate text-xs text-muted-foreground">
             Pagás solo si te gusta · Gs {SITE_CONFIG.marketSize.toLocaleString('es-PY')} negocios PY
           </p>
         </div>
@@ -43,7 +43,7 @@ export function StickyMobileCTA({
           href={waLink(message)}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-[var(--primary)] px-4 py-2.5 text-sm font-bold text-[var(--primary-foreground)] shadow-lg"
+          className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-primary px-4 py-2.5 text-sm font-bold text-[var(--primary-foreground)] shadow-lg"
         >
           <MessageCircle size={16} />
           Pedir demo

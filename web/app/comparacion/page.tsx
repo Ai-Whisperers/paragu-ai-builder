@@ -34,13 +34,13 @@ const ROWS: { label: string; paraguai: Cell; wix: Cell; agencia: Cell }[] = [
 function Marker({ value }: { value: Cell }) {
   if (value === 'yes')
     return (
-      <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[var(--success)]/10 text-[var(--success)]">
+      <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-success/10 text-[var(--success)]">
         <Check size={16} />
       </span>
     )
   if (value === 'no')
     return (
-      <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[var(--border)] text-[var(--text-muted)]">
+      <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-border text-muted-foreground">
         <X size={16} />
       </span>
     )
@@ -50,7 +50,7 @@ function Marker({ value }: { value: Cell }) {
         <Minus size={16} />
       </span>
     )
-  return <span className="text-sm font-medium text-[var(--text)]">{value}</span>
+  return <span className="text-sm font-medium text-foreground">{value}</span>
 }
 
 export default function ComparacionPage() {
@@ -60,32 +60,32 @@ export default function ComparacionPage() {
       <main id="main-content" className="pt-24 pb-20">
         <Container>
           <div className="mx-auto mb-12 max-w-2xl text-center">
-            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
+            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-primary">
               Comparación honesta
             </p>
-            <h1 className="mb-4 text-4xl font-bold text-[var(--text)] sm:text-5xl">
+            <h1 className="mb-4 text-4xl font-bold text-foreground sm:text-5xl">
               ParaguAI vs Wix vs Agencia local
             </h1>
-            <p className="text-lg text-[var(--text-light)]">
+            <p className="text-lg text-muted-foreground">
               Las tres opciones funcionan. Pero cada una tiene un perfil diferente. Mirá la
               comparación con datos reales del mercado paraguayo y elegí la que mejor te calza.
             </p>
           </div>
 
-          <div className="mx-auto max-w-5xl overflow-x-auto rounded-2xl border border-[var(--border)] shadow-sm">
+          <div className="mx-auto max-w-5xl overflow-x-auto rounded-2xl border border-border shadow-sm">
             <table className="w-full text-left">
-              <thead className="bg-[var(--surface-light)]">
+              <thead className="bg-surface-light">
                 <tr>
-                  <th className="p-4 text-sm font-semibold text-[var(--text)]">Característica</th>
-                  <th className="p-4 text-center text-sm font-bold text-[var(--primary)]">ParaguAI</th>
-                  <th className="p-4 text-center text-sm font-semibold text-[var(--text)]">Wix / WordPress</th>
-                  <th className="p-4 text-center text-sm font-semibold text-[var(--text)]">Agencia local</th>
+                  <th className="p-4 text-sm font-semibold text-foreground">Característica</th>
+                  <th className="p-4 text-center text-sm font-bold text-primary">ParaguAI</th>
+                  <th className="p-4 text-center text-sm font-semibold text-foreground">Wix / WordPress</th>
+                  <th className="p-4 text-center text-sm font-semibold text-foreground">Agencia local</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-[var(--border)] bg-[var(--surface)]">
+              <tbody className="divide-y divide-[var(--border)] bg-surface">
                 {ROWS.map((row) => (
                   <tr key={row.label}>
-                    <td className="p-4 text-sm font-medium text-[var(--text)]">{row.label}</td>
+                    <td className="p-4 text-sm font-medium text-foreground">{row.label}</td>
                     <td className="p-4 text-center">
                       <Marker value={row.paraguai} />
                     </td>
@@ -130,7 +130,7 @@ export default function ComparacionPage() {
             <div className="mt-6">
               <Link
                 href="/precios"
-                className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--primary)]"
+                className="inline-flex items-center gap-1 text-sm font-semibold text-primary"
               >
                 Ver precios y planes en detalle
                 <ArrowRight size={14} />
@@ -150,11 +150,11 @@ function Card({ title, body, highlighted }: { title: string; body: string; highl
       className={`rounded-2xl border p-6 ${
         highlighted
           ? 'border-[var(--primary)] bg-gradient-to-b from-[var(--primary)]/5 to-transparent'
-          : 'border-[var(--border)] bg-[var(--surface)]'
+          : 'border-border bg-surface'
       }`}
     >
-      <h3 className="mb-3 text-lg font-bold text-[var(--text)]">{title}</h3>
-      <p className="text-sm text-[var(--text-light)]">{body}</p>
+      <h3 className="mb-3 text-lg font-bold text-foreground">{title}</h3>
+      <p className="text-sm text-muted-foreground">{body}</p>
     </div>
   )
 }

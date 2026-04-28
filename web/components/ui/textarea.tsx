@@ -13,7 +13,7 @@ export function Textarea({ className, error, ...props }: TextareaProps) {
     <div className="w-full">
       <textarea
         className={cn(
-          "w-full min-h-[80px] px-3 py-2 rounded-md border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] placeholder:text-[var(--text-muted)] focus:outline-none focus:ring-2 focus:ring-[var(--secondary)] focus:border-transparent resize-y",
+          "w-full min-h-[80px] px-3 py-2 rounded-md border border-border bg-surface text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[var(--secondary)] focus:border-transparent resize-y",
           error && "border-red-500 focus:ring-red-500",
           className
         )}

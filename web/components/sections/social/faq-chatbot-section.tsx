@@ -129,25 +129,25 @@ export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
   }
 
   return (
-    <section className={cn('py-16 bg-[var(--surface)]', className)}>
+    <section className={cn('py-16 bg-surface', className)}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-10">
-          <Badge className="mb-4 bg-[var(--primary)]">
+          <Badge className="mb-4 bg-primary">
             <HelpCircle className="w-4 h-4 mr-1" />
             Preguntas Frecuentes
           </Badge>
-          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
             ¿Tenés dudas? Tenemos respuestas
           </Heading>
-          <p className="text-lg text-[var(--text-muted)]">
+          <p className="text-lg text-muted-foreground">
             Buscá en nuestras preguntas frecuentes o escribinos por WhatsApp
           </p>
         </div>
 
         {/* Search */}
         <div className="relative mb-6">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--text-muted)]" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
           <Input
             type="text"
             placeholder="¿Qué querés saber? Ej: delivery, precios, pedidos..."
@@ -166,8 +166,8 @@ export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
               className={cn(
                 'px-4 py-2 rounded-full text-sm font-medium transition-all',
                 selectedCategory === category
-                  ? 'bg-[var(--primary)] text-white'
-                  : 'bg-white text-[var(--text)] hover:bg-[var(--surface)]'
+                  ? 'bg-primary text-white'
+                  : 'bg-white text-foreground hover:bg-surface'
               )}
             >
               {category}
@@ -178,7 +178,7 @@ export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
         {/* Popular Questions (when no search) */}
         {!searchQuery && selectedCategory === 'Todas' && (
           <div className="mb-8">
-            <Heading level={3} className="text-sm font-semibold text-[var(--text-muted)] uppercase tracking-wide mb-4">
+            <Heading level={3} className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-4">
               Preguntas más populares
             </Heading>
             <div className="grid md:grid-cols-2 gap-3">
@@ -189,9 +189,9 @@ export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
                     setOpenItems([faq.id])
                     document.getElementById(`faq-${faq.id}`)?.scrollIntoView({ behavior: 'smooth' })
                   }}
-                  className="text-left p-4 bg-white rounded-lg border border-[var(--border)] hover:border-[var(--primary)] hover:shadow-sm transition-all"
+                  className="text-left p-4 bg-white rounded-lg border border-border hover:border-[var(--primary)] hover:shadow-sm transition-all"
                 >
-                  <p className="font-medium text-[var(--text)] text-sm">{faq.question}</p>
+                  <p className="font-medium text-foreground text-sm">{faq.question}</p>
                   <Badge variant="secondary" className="mt-2 text-xs">{faq.category}</Badge>
                 </button>
               ))}
@@ -203,7 +203,7 @@ export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
         <div className="space-y-3 mb-10">
           {filteredFAQs.length === 0 ? (
             <div className="text-center py-10">
-              <p className="text-[var(--text-muted)] mb-4">No encontramos preguntas con &ldquo;{searchQuery}&rdquo;</p>
+              <p className="text-muted-foreground mb-4">No encontramos preguntas con &ldquo;{searchQuery}&rdquo;</p>
               <Button onClick={() => setShowContactForm(true)} variant="outline">
                 <MessageCircle className="w-4 h-4 mr-2" />
                 Preguntar por WhatsApp
@@ -216,32 +216,32 @@ export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
                 id={`faq-${faq.id}`}
                 className={cn(
                   'overflow-hidden transition-all duration-300',
-                  openItems.includes(faq.id) ? 'border-[var(--primary)]' : 'border-[var(--border)]'
+                  openItems.includes(faq.id) ? 'border-[var(--primary)]' : 'border-border'
                 )}
               >
                 <button
                   onClick={() => toggleItem(faq.id)}
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-[var(--surface)] transition-colors"
+                  className="w-full flex items-center justify-between p-5 text-left hover:bg-surface transition-colors"
                 >
                   <div className="flex items-start gap-3">
-                    <span className="text-[var(--primary)] font-bold">{faq.id}.</span>
+                    <span className="text-primary font-bold">{faq.id}.</span>
                     <div>
-                      <p className="font-semibold text-[var(--text)]">{faq.question}</p>
+                      <p className="font-semibold text-foreground">{faq.question}</p>
                       <Badge variant="outline" className="mt-1 text-xs">
                         {faq.category}
                       </Badge>
                     </div>
                   </div>
                   {openItems.includes(faq.id) ? (
-                    <ChevronUp className="w-5 h-5 text-[var(--text-muted)]" />
+                    <ChevronUp className="w-5 h-5 text-muted-foreground" />
                   ) : (
-                    <ChevronDown className="w-5 h-5 text-[var(--text-muted)]" />
+                    <ChevronDown className="w-5 h-5 text-muted-foreground" />
                   )}
                 </button>
                 
                 {openItems.includes(faq.id) && (
                   <CardContent className="pt-0 pb-5 px-5 pl-12">
-                    <p className="text-[var(--text)] leading-relaxed">{faq.answer}</p>
+                    <p className="text-foreground leading-relaxed">{faq.answer}</p>
                   </CardContent>
                 )}
               </Card>
@@ -261,7 +261,7 @@ export function FAQChatbot({ phone, className, items }: FAQChatbotProps) {
                 phone={phone}
                 context="general"
                 size="lg"
-                className="bg-white text-[var(--primary)] hover:bg-[var(--surface-light)]"
+                className="bg-white text-primary hover:bg-surface-light"
               >
                 <MessageCircle className="w-5 h-5 mr-2" />
                 Preguntar por WhatsApp

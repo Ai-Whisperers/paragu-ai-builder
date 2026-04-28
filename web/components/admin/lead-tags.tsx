@@ -185,7 +185,7 @@ export function LeadTags({
                     <div className="flex gap-2">
                       <button
                         onClick={handleCreateTag}
-                        className="flex-1 bg-[var(--primary)] text-white text-xs py-1.5 rounded 
+                        className="flex-1 bg-primary text-white text-xs py-1.5 rounded 
                                  hover:opacity-90 transition-colors"
                       >
                         Crear
@@ -343,7 +343,7 @@ export function TagManagement({
         <button
           onClick={handleCreate}
           disabled={!newTagName.trim()}
-          className="px-4 py-2 bg-[var(--primary)] text-white rounded-lg text-sm font-medium 
+          className="px-4 py-2 bg-primary text-white rounded-lg text-sm font-medium 
                    hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed 
                    transition-colors"
         >

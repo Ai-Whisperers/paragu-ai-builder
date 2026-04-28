@@ -48,7 +48,7 @@ export default function ServiceMenu({
         
         return (
           <div key={category} className="service-category">
-            <h3 className="text-lg font-semibold mb-4 text-[var(--primary)]">{category}</h3>
+            <h3 className="text-lg font-semibold mb-4 text-primary">{category}</h3>
             <div className="space-y-3">
               {categoryServices.map((service, idx) => (
                 <div 
@@ -68,7 +68,7 @@ export default function ServiceMenu({
                   </div>
                   <div className="text-right flex-shrink-0">
                     {showPrices && (service.price || service.priceFrom) && (
-                      <p className="font-semibold text-[var(--primary)]">
+                      <p className="font-semibold text-primary">
                         {service.priceFrom && !service.price ? 'Desde ' : ''}
                         {service.price || service.priceFrom}
                       </p>
@@ -76,7 +76,7 @@ export default function ServiceMenu({
                     {onSelectService && (
                       <button
                         onClick={() => onSelectService(service)}
-                        className="mt-2 text-sm text-[var(--primary)] hover:underline"
+                        className="mt-2 text-sm text-primary hover:underline"
                       >
                         {ctaText}
                       </button>
@@ -109,7 +109,7 @@ export default function ServiceMenu({
               </div>
               <div className="text-right flex-shrink-0">
                 {showPrices && (service.price || service.priceFrom) && (
-                  <p className="font-semibold text-[var(--primary)]">
+                  <p className="font-semibold text-primary">
                     {service.priceFrom && !service.price ? 'Desde ' : ''}
                     {service.price || service.priceFrom}
                   </p>

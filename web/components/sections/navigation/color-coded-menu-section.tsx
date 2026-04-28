@@ -34,7 +34,7 @@ export function ColorCodedMenuSection({
   return (
     <section
       id="menu"
-      className="relative overflow-hidden bg-[var(--background)] py-16 sm:py-20"
+      className="relative overflow-hidden bg-background py-16 sm:py-20"
     >
       <div className="pointer-events-none absolute inset-0">
         <SeigaihaPattern id="color-menu-seigaiha" color="var(--primary)" opacity={0.04} />
@@ -46,29 +46,29 @@ export function ColorCodedMenuSection({
             {title}
           </Heading>
           {subtitle && (
-            <p className="mx-auto max-w-2xl text-lg text-[var(--secondary)]">{subtitle}</p>
+            <p className="mx-auto max-w-2xl text-lg text-secondary">{subtitle}</p>
           )}
           {description && (
-            <p className="mx-auto mt-4 max-w-2xl text-sm text-[var(--text-muted)]">
+            <p className="mx-auto mt-4 max-w-2xl text-sm text-muted-foreground">
               {description}
             </p>
           )}
         </AnimatedSectionHeader>
 
-        <div className="mx-auto mb-10 flex max-w-3xl flex-wrap items-center justify-center gap-3 rounded-full bg-[var(--surface-light)] p-3 shadow-sm">
-          <span className="px-2 text-sm font-semibold text-[var(--text-muted)]">
+        <div className="mx-auto mb-10 flex max-w-3xl flex-wrap items-center justify-center gap-3 rounded-full bg-surface-light p-3 shadow-sm">
+          <span className="px-2 text-sm font-semibold text-muted-foreground">
             {legendTitle}:
           </span>
           {plates.map((plate) => (
             <div
               key={plate.key}
-              className="flex items-center gap-2 rounded-full bg-[var(--background)] px-3 py-1.5"
+              className="flex items-center gap-2 rounded-full bg-background px-3 py-1.5"
             >
               <span
                 className="inline-block h-4 w-4 rounded-full ring-2 ring-white"
                 style={{ backgroundColor: plate.color }}
               />
-              <span className="text-sm font-medium text-[var(--text)]">{plate.price}</span>
+              <span className="text-sm font-medium text-foreground">{plate.price}</span>
             </div>
           ))}
         </div>
@@ -102,7 +102,7 @@ export function ColorCodedMenuSection({
                     </div>
                   </div>
                   {plate.description && (
-                    <p className="mb-3 text-sm text-[var(--text-muted)]">
+                    <p className="mb-3 text-sm text-muted-foreground">
                       {plate.description}
                     </p>
                   )}
@@ -110,7 +110,7 @@ export function ColorCodedMenuSection({
                     {plate.items.map((item, i) => (
                       <li
                         key={i}
-                        className="flex items-start gap-2 text-sm text-[var(--text-light)]"
+                        className="flex items-start gap-2 text-sm text-muted-foreground"
                       >
                         <span
                           className="mt-1.5 inline-block h-1.5 w-1.5 shrink-0 rounded-full"
@@ -154,9 +154,9 @@ export function SpecialOrderSection({
   )
 
   return (
-    <section id="special-order" className="bg-[var(--surface)] py-16 sm:py-20">
+    <section id="special-order" className="bg-surface py-16 sm:py-20">
       <Container>
-        <div className="mx-auto max-w-5xl overflow-hidden rounded-2xl border border-[var(--primary)]/10 bg-[var(--background)] shadow-lg">
+        <div className="mx-auto max-w-5xl overflow-hidden rounded-2xl border border-[var(--primary)]/10 bg-background shadow-lg">
           <div className="grid gap-0 md:grid-cols-[1fr_1.5fr]">
             <div className="relative flex items-center justify-center bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] p-10 text-[var(--primary-foreground)]">
               <div className="relative z-10 text-center">
@@ -207,19 +207,19 @@ export function SpecialOrderSection({
                 {title}
               </Heading>
               {description && (
-                <p className="mb-6 text-[var(--text-muted)]">{description}</p>
+                <p className="mb-6 text-muted-foreground">{description}</p>
               )}
               <div className="grid gap-3 sm:grid-cols-2">
                 {normalized.map((item, i) => (
                   <AnimateOnScroll key={i} stagger={i}>
-                    <div className="flex items-start gap-3 rounded-lg border border-[var(--surface-light)] p-3 transition-colors hover:border-[var(--primary)]/30 hover:bg-[var(--surface-light)]">
-                      <div className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[var(--primary)]/10 text-xs font-bold text-[var(--primary)]">
+                    <div className="flex items-start gap-3 rounded-lg border border-[var(--surface-light)] p-3 transition-colors hover:border-[var(--primary)]/30 hover:bg-surface-light">
+                      <div className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">
                         {i + 1}
                       </div>
                       <div className="flex-1">
-                        <p className="font-medium text-[var(--text)]">{item.name}</p>
+                        <p className="font-medium text-foreground">{item.name}</p>
                         {item.description && (
-                          <p className="text-xs text-[var(--text-muted)]">
+                          <p className="text-xs text-muted-foreground">
                             {item.description}
                           </p>
                         )}

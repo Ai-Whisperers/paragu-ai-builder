@@ -96,27 +96,27 @@ export function IntakeWizardSection({
     })
     const info = resolvedTiers[tier]
     return (
-      <section className="bg-[var(--surface-light)] py-16 sm:py-24">
+      <section className="font-heading bg-surface-light py-16 sm:py-24">
         <Container size="md">
-          <div className="mx-auto max-w-2xl rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-8 shadow-card sm:p-12">
-            <div className="mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-[var(--secondary)]">
+          <div className="font-heading mx-auto max-w-2xl rounded-2xl border border-border bg-surface p-8 shadow-card sm:p-12">
+            <div className="font-heading mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-secondary">
               <Check size={16} /> {resolvedUi.result}
             </div>
-            <Heading level={2} className="mb-3 text-3xl font-bold text-[var(--primary)]" style={{ fontFamily: 'var(--font-heading)' }}>
+            <Heading level={2} className="font-heading mb-3 text-xl sm:text-3xl font-bold text-primary">
               {info?.name}
             </Heading>
-            <p className="mb-6 text-lg leading-relaxed text-[var(--text-light)]">{info?.pitch}</p>
-            <div className="flex flex-col gap-3 sm:flex-row">
+            <p className="font-heading mb-6 text-lg leading-relaxed text-muted-foreground">{info?.pitch}</p>
+            <div className="font-heading flex flex-col gap-3 sm:flex-row">
               <a
                 href={`/s/${locale}/${__siteSlug}/contacto?programa=${tier}`}
-                className="inline-flex items-center justify-center rounded-md bg-[var(--secondary)] px-6 py-3 text-sm font-semibold text-[var(--secondary-foreground)] shadow-button"
+                className="font-heading inline-flex items-center justify-center rounded-md bg-secondary px-6 py-3 text-sm font-semibold text-[var(--secondary-foreground)] shadow-button"
               >
                 {resolvedUi.viewProgram} →
               </a>
               <button
                 type="button"
                 onClick={handleRestart}
-                className="inline-flex items-center justify-center rounded-md border border-[var(--border)] px-6 py-3 text-sm font-medium text-[var(--text)] hover:bg-[var(--surface-light)]"
+                className="font-heading inline-flex items-center justify-center rounded-md border border-border px-6 py-3 text-sm font-medium text-foreground hover:bg-surface-light"
               >
                 {resolvedUi.restart}
               </button>
@@ -130,33 +130,33 @@ export function IntakeWizardSection({
   if (!currentStep) return null
 
   return (
-    <section className="bg-[var(--surface-light)] py-16 sm:py-24">
+    <section className="font-heading bg-surface-light py-16 sm:py-24">
       <Container size="md">
         {(title || subtitle) && (
-          <div className="mb-10 text-center">
+          <div className="font-heading mb-10 text-center">
             {title && <Heading level={2}>{title}</Heading>}
-            {subtitle && <p className="mx-auto mt-3 max-w-xl text-[var(--text-light)]">{subtitle}</p>}
+            {subtitle && <p className="font-heading mx-auto mt-3 max-w-xl text-muted-foreground">{subtitle}</p>}
           </div>
         )}
-        <div className="mx-auto max-w-2xl rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-8 shadow-card sm:p-12">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-[var(--text-muted)]">
+        <div className="font-heading mx-auto max-w-2xl rounded-2xl border border-border bg-surface p-8 shadow-card sm:p-12">
+          <p className="font-heading mb-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
             {resolvedUi.step} {stepIdx + 1} {resolvedUi.of} {stepList.length}
           </p>
-          <div className="mb-6 h-1 overflow-hidden rounded bg-[var(--surface-light)]">
+          <div className="font-heading mb-6 h-1 overflow-hidden rounded bg-surface-light">
             <div
-              className="h-full bg-[var(--secondary)] transition-all"
+              className="font-heading h-full bg-secondary transition-all"
               style={{ width: `${((stepIdx + 1) / stepList.length) * 100}%` }}
             />
           </div>
-          <Heading level={3} className="mb-6 text-xl font-semibold text-[var(--primary)]">{currentStep.question}</Heading>
-          <div className="space-y-2">
+          <Heading level={3} className="font-heading mb-6 text-xl font-semibold text-primary">{currentStep.question}</Heading>
+          <div className="font-heading space-y-2">
             {currentStep.options.map((opt) => (
               <label
                 key={opt.value}
                 className={`flex cursor-pointer items-center gap-3 rounded-md border p-3 text-sm transition-colors ${
                   answers[currentStep.key] === opt.value
-                    ? 'border-[var(--secondary)] bg-[var(--secondary)]/5'
-                    : 'border-[var(--border)] hover:bg-[var(--surface-light)]'
+                    ? 'border-secondary bg-secondary/5'
+                    : 'border-border hover:bg-surface-light'
                 }`}
               >
                 <input
@@ -165,18 +165,18 @@ export function IntakeWizardSection({
                   value={opt.value}
                   checked={answers[currentStep.key] === opt.value}
                   onChange={(e) => setAnswers({ ...answers, [currentStep.key]: e.target.value })}
-                  className="accent-[var(--secondary)]"
+                  className="font-heading accent-[var(--secondary)]"
                 />
-                <span className="text-[var(--text)]">{opt.label}</span>
+                <span className="font-heading text-foreground">{opt.label}</span>
               </label>
             ))}
           </div>
-          <div className="mt-8 flex items-center justify-between">
+          <div className="font-heading mt-8 flex items-center justify-between">
             <button
               type="button"
               onClick={() => setStepIdx(Math.max(0, stepIdx - 1))}
               disabled={stepIdx === 0}
-              className="inline-flex items-center gap-1 rounded-md px-3 py-2 text-sm text-[var(--text-muted)] disabled:opacity-40 enabled:hover:text-[var(--text)]"
+              className="font-heading inline-flex items-center gap-1 rounded-md px-3 py-2 text-sm text-muted-foreground disabled:opacity-40 enabled:hover:text-foreground"
             >
               <ArrowLeft size={16} /> {resolvedUi.back}
             </button>
@@ -184,7 +184,7 @@ export function IntakeWizardSection({
               type="button"
               onClick={handleNext}
               disabled={!answered}
-              className="inline-flex items-center gap-1 rounded-md bg-[var(--secondary)] px-5 py-2.5 text-sm font-semibold text-[var(--secondary-foreground)] shadow-button disabled:opacity-50"
+              className="font-heading inline-flex items-center gap-1 rounded-md bg-secondary px-5 py-2.5 text-sm font-semibold text-[var(--secondary-foreground)] shadow-button disabled:opacity-50"
             >
               {resolvedUi.next} <ArrowRight size={16} />
             </button>

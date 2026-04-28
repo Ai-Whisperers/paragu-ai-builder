@@ -92,7 +92,7 @@ export function QuickViewModal({ siteSlug, locale, product, open, onClose }: Pro
         aria-modal="true"
         aria-labelledby="quickview-title"
         onClick={(e) => e.stopPropagation()}
-        className="grid w-full max-w-3xl grid-cols-1 gap-6 overflow-hidden rounded-lg bg-[color:var(--surface,#fff)] p-6 shadow-xl md:grid-cols-2"
+        className="grid w-full max-w-3xl grid-cols-1 gap-6 overflow-hidden rounded-lg bg-surface p-6 shadow-xl md:grid-cols-2"
       >
         <div className="relative">
           {cover?.url ? (
@@ -103,7 +103,7 @@ export function QuickViewModal({ siteSlug, locale, product, open, onClose }: Pro
               className="aspect-square w-full rounded-lg object-cover"
             />
           ) : (
-            <div className="aspect-square w-full rounded-lg bg-[color:var(--surface-muted,#f3f4f6)]" />
+            <div className="aspect-square w-full rounded-lg bg-surface-light" />
           )}
           {discount ? (
             <span className="absolute left-2 top-2 rounded bg-red-600 px-2 py-0.5 text-xs font-semibold text-white">
@@ -121,7 +121,7 @@ export function QuickViewModal({ siteSlug, locale, product, open, onClose }: Pro
               type="button"
               onClick={onClose}
               aria-label="Cerrar vista rápida"
-              className="rounded p-1 text-[color:var(--text-muted,#6b7280)] hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+              className="rounded p-1 text-[color:var(--text-muted,#6b7280)] hover:bg-surface-light"
             >
               <svg aria-hidden="true" className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
@@ -158,7 +158,7 @@ export function QuickViewModal({ siteSlug, locale, product, open, onClose }: Pro
               type="button"
               onClick={handleAdd}
               disabled={outOfStock || adding}
-              className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-3 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] disabled:cursor-not-allowed disabled:opacity-50"
+              className="rounded-lg bg-primary px-4 py-3 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] disabled:cursor-not-allowed disabled:opacity-50"
             >
               {outOfStock ? 'Agotado' : adding ? 'Agregando…' : 'Agregar al carrito'}
             </button>

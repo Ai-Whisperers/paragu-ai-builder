@@ -26,18 +26,18 @@ export function BeforeAfterSection({
   }
 
   return (
-    <section className="bg-[var(--surface)] py-16 sm:py-20">
-      <div className="mx-auto max-w-6xl px-4">
-        <div className="text-center mb-12">
-          <Heading level={2} className="text-3xl font-bold text-[var(--text)]" style={{ fontFamily: 'var(--font-heading)' }}>
+    <section className="font-heading bg-surface py-16 sm:py-20">
+      <div className="font-heading mx-auto max-w-6xl px-4">
+        <div className="font-heading text-center mb-12">
+          <Heading level={2} className="font-heading text-xl sm:text-3xl font-bold text-foreground">
             {title}
           </Heading>
           {subtitle && (
-            <p className="mt-2 text-[var(--text-muted)]">{subtitle}</p>
+            <p className="font-heading mt-2 text-muted-foreground">{subtitle}</p>
           )}
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="font-heading grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item, index) => (
             <BeforeAfterComponent
               key={index}

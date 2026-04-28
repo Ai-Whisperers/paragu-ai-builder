@@ -155,7 +155,7 @@ export function WhatsAppQuickActions({
   return (
     <Card className={cn('overflow-hidden', className)}>
       <CardContent className="p-4">
-        <p className="text-sm text-[var(--text-muted)] mb-3">
+        <p className="text-sm text-muted-foreground mb-3">
           Opciones rapidas de contacto:
         </p>
         <div className="grid grid-cols-2 gap-2">
@@ -167,13 +167,13 @@ export function WhatsAppQuickActions({
               rel="noopener noreferrer"
               className={cn(
                 'flex items-center gap-2 p-3 rounded-lg text-sm transition-all duration-200',
-                'hover:bg-[var(--surface)] border border-transparent',
-                selectedAction === template.id && 'border-[var(--primary)] bg-[var(--surface)]',
-                'text-[var(--text)] hover:text-[var(--primary)]'
+                'hover:bg-surface border border-transparent',
+                selectedAction === template.id && 'border-[var(--primary)] bg-surface',
+                'text-foreground hover:text-primary'
               )}
               onClick={() => setSelectedAction(template.id)}
             >
-              <span className="text-[var(--primary)]">{template.icon}</span>
+              <span className="text-primary">{template.icon}</span>
               <span className="font-medium">{template.label}</span>
             </a>
           ))}
@@ -204,7 +204,7 @@ export function FloatingWhatsApp({
       aria-label="Contactar por WhatsApp"
     >
       <MessageCircle className="w-7 h-7" />
-      <span className="absolute right-16 bg-white text-[var(--text)] px-3 py-1.5 rounded-lg text-sm font-medium shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+      <span className="absolute right-16 bg-white text-foreground px-3 py-1.5 rounded-lg text-sm font-medium shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
         Escribinos
       </span>
     </a>

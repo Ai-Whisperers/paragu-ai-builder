@@ -40,12 +40,12 @@ export function EventVenuesSection({
   }
 
   return (
-    <section id="eventos" className="bg-[var(--background)] py-16 sm:py-20">
+    <section id="eventos" className="bg-background py-16 sm:py-20">
       <Container>
         <div className="text-center mb-12">
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
           )}
         </div>
 
@@ -53,10 +53,10 @@ export function EventVenuesSection({
           {venues.map((venue, idx) => (
             <div
               key={idx}
-              className="bg-[var(--surface)] rounded-2xl border border-[var(--border)] overflow-hidden"
+              className="bg-surface rounded-2xl border border-border overflow-hidden"
             >
               <div className="grid md:grid-cols-2 gap-0">
-                <div className="aspect-video md:aspect-auto bg-[var(--surface-light)]">
+                <div className="aspect-video md:aspect-auto bg-surface-light">
                   {venue.imageUrl ? (
                     <img
                       src={venue.imageUrl}
@@ -76,9 +76,9 @@ export function EventVenuesSection({
 
                 <div className="p-6 flex flex-col">
                   <div className="flex-1">
-                    <Heading level={3} className="text-xl font-bold text-[var(--text)] mb-2">{venue.name}</Heading>
+                    <Heading level={3} className="text-xl font-bold text-foreground mb-2">{venue.name}</Heading>
                     
-                    <div className="flex items-center gap-4 text-sm text-[var(--text-muted)] mb-3">
+                    <div className="flex items-center gap-4 text-sm text-muted-foreground mb-3">
                       <span className="flex items-center gap-1">
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -88,14 +88,14 @@ export function EventVenuesSection({
                     </div>
 
                     {venue.description && (
-                      <p className="text-[var(--text-muted)] mb-4">{venue.description}</p>
+                      <p className="text-muted-foreground mb-4">{venue.description}</p>
                     )}
 
                     <div className="flex flex-wrap gap-2 mb-4">
                       {venue.idealFor.map((use, uidx) => (
                         <span
                           key={uidx}
-                          className="text-xs px-3 py-1 bg-[var(--primary)]/10 text-[var(--primary)] rounded-full font-medium"
+                          className="text-xs px-3 py-1 bg-primary/10 text-primary rounded-full font-medium"
                         >
                           {use}
                         </span>
@@ -107,13 +107,13 @@ export function EventVenuesSection({
                         {venue.amenities.slice(0, 4).map((amenity, aidx) => (
                           <span
                             key={aidx}
-                            className="text-xs px-2 py-1 bg-[var(--surface-light)] rounded text-[var(--text-muted)]"
+                            className="text-xs px-2 py-1 bg-surface-light rounded text-muted-foreground"
                           >
                             {amenity}
                           </span>
                         ))}
                         {venue.amenities.length > 4 && (
-                          <span className="text-xs py-1 text-[var(--text-muted)]">
+                          <span className="text-xs py-1 text-muted-foreground">
                             +{venue.amenities.length - 4} más
                           </span>
                         )}
@@ -121,15 +121,15 @@ export function EventVenuesSection({
                     )}
                   </div>
 
-                  <div className="mt-6 pt-4 border-t border-[var(--border)] flex items-center justify-between">
+                  <div className="mt-6 pt-4 border-t border-border flex items-center justify-between">
                     {venue.priceFrom && (
-                      <span className="text-sm text-[var(--text-muted)]">
-                        Desde <span className="font-semibold text-[var(--primary)]">{venue.priceFrom}</span>
+                      <span className="text-sm text-muted-foreground">
+                        Desde <span className="font-semibold text-primary">{venue.priceFrom}</span>
                       </span>
                     )}
                     <button
                       onClick={() => handleInquire(venue)}
-                      className="px-5 py-2 bg-[var(--primary)] text-white rounded-lg font-medium hover:opacity-90 transition-opacity"
+                      className="px-5 py-2 bg-primary text-white rounded-lg font-medium hover:opacity-90 transition-opacity"
                     >
                       Consultar Disponibilidad
                     </button>

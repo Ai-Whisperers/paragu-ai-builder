@@ -10,7 +10,7 @@ export function ReceiptPrintButton() {
     <button
       type="button"
       onClick={() => window.print()}
-      className="rounded-md bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90"
+      className="rounded-md bg-primary px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90"
     >
       📄 Descargar / Imprimir recibo
     </button>

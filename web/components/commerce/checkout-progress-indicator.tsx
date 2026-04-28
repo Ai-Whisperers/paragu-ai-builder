@@ -30,7 +30,7 @@ export function CheckoutProgressIndicator({ current }: { current: Step }) {
               <span
                 className={
                   isCurrent
-                    ? 'inline-flex h-6 w-6 items-center justify-center rounded-full bg-[color:var(--primary,#111)] text-xs font-semibold text-[color:var(--primary-foreground,#fff)] sm:h-7 sm:w-7'
+                    ? 'inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-semibold text-[color:var(--primary-foreground,#fff)] sm:h-7 sm:w-7'
                     : isDone
                       ? 'inline-flex h-6 w-6 items-center justify-center rounded-full bg-green-600 text-xs font-semibold text-white sm:h-7 sm:w-7'
                       : 'inline-flex h-6 w-6 items-center justify-center rounded-full border border-[color:var(--border,#e5e7eb)] bg-white text-xs font-semibold text-[color:var(--text-muted,#6b7280)] sm:h-7 sm:w-7'

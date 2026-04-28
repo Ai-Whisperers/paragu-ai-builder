@@ -44,7 +44,7 @@ export default function ProductCard({
           <p className="text-sm text-gray-500 mt-1 line-clamp-2">{product.description}</p>
         )}
         {showPrice && (product.price || product.priceFrom) && (
-          <p className="font-semibold text-[var(--primary)] mt-2">
+          <p className="font-semibold text-primary mt-2">
             {product.priceFrom && !product.price ? 'Desde ' : ''}
             {product.price || product.priceFrom}
           </p>

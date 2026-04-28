@@ -95,29 +95,29 @@ export function BookingWizardSection({
   }
 
   return (
-    <section className="bg-[var(--background)] py-16 sm:py-20">
+    <section className="bg-background py-16 sm:py-20">
       <Container>
         <div className="mx-auto max-w-2xl">
           {title && <Heading level={2} className="text-center">{title}</Heading>}
-          {subtitle && <p className="mt-2 text-center text-[var(--text-muted)]">{subtitle}</p>}
+          {subtitle && <p className="mt-2 text-center text-muted-foreground">{subtitle}</p>}
 
           {/* Steps indicator */}
           <div className="flex justify-center gap-2 mt-8 mb-8">
             {(['service', 'staff', 'datetime', 'confirm'] as Step[]).map((s, i) => (
               <div key={s} className="flex items-center gap-2">
                 <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
-                  step === s ? 'bg-[var(--primary)] text-white' :
-                  ['service', 'staff', 'datetime', 'confirm'].indexOf(step) > i ? 'bg-[var(--primary)]/20 text-[var(--primary)]' :
-                  'bg-[var(--surface-light)] text-[var(--text-muted)]'
+                  step === s ? 'bg-primary text-white' :
+                  ['service', 'staff', 'datetime', 'confirm'].indexOf(step) > i ? 'bg-primary/20 text-primary' :
+                  'bg-surface-light text-muted-foreground'
                 }`}>
                   {['service', 'staff', 'datetime', 'confirm'].indexOf(step) > i ? '✓' : i + 1}
                 </div>
-                {i < 3 && <div className="w-8 h-px bg-[var(--border)]" />}
+                {i < 3 && <div className="w-8 h-px bg-border" />}
               </div>
             ))}
           </div>
 
-          <div className="bg-[var(--surface)] rounded-xl border border-[var(--border)] p-6">
+          <div className="bg-surface rounded-xl border border-border p-6">
             {/* Step 1: Service */}
             {step === 'service' && (
               <div>
@@ -133,13 +133,13 @@ export function BookingWizardSection({
                       onClick={() => { setSelectedService(svc.id); setStep('staff') }}
                       className={`w-full text-left p-4 rounded-lg border transition-colors ${
                         selectedService === svc.id
-                          ? 'border-[var(--primary)] bg-[var(--primary)]/5'
-                          : 'border-[var(--border)] hover:border-[var(--primary)]'
+                          ? 'border-[var(--primary)] bg-primary/5'
+                          : 'border-border hover:border-[var(--primary)]'
                       }`}
                     >
                       <div className="font-medium">{svc.name}</div>
-                      {svc.description && <div className="text-sm text-[var(--text-muted)]">{svc.description}</div>}
-                      {svc.duration && <div className="text-xs text-[var(--text-muted)] mt-1">Duración: {svc.duration} min</div>}
+                      {svc.description && <div className="text-sm text-muted-foreground">{svc.description}</div>}
+                      {svc.duration && <div className="text-xs text-muted-foreground mt-1">Duración: {svc.duration} min</div>}
                     </button>
                   ))}
                 </div>
@@ -150,25 +150,25 @@ export function BookingWizardSection({
             {step === 'staff' && (
               <div>
                 <Heading level={3} className="mb-4">Seleccioná un profesional (opcional)</Heading>
-                <p className="text-sm text-[var(--text-muted)] mb-4">Podés elegir con quién querés agendar o dejarlo sin asignar.</p>
+                <p className="text-sm text-muted-foreground mb-4">Podés elegir con quién querés agendar o dejarlo sin asignar.</p>
                 <div className="grid grid-cols-2 gap-3">
                   <button
                     onClick={() => { setSelectedStaff(null); setStep('datetime') }}
-                    className="p-4 rounded-lg border border-[var(--border)] hover:border-[var(--primary)] text-center"
+                    className="p-4 rounded-lg border border-border hover:border-[var(--primary)] text-center"
                   >
                     <div className="font-medium">Sin preferencia</div>
-                    <div className="text-xs text-[var(--text-muted)]">El primero disponible</div>
+                    <div className="text-xs text-muted-foreground">El primero disponible</div>
                   </button>
                   {(staff.length > 0 ? staff : []).map((s) => (
                     <button
                       key={s.id}
                       onClick={() => { setSelectedStaff(s.id); setStep('datetime') }}
                       className={`p-4 rounded-lg border transition-colors text-center ${
-                        selectedStaff === s.id ? 'border-[var(--primary)] bg-[var(--primary)]/5' : 'border-[var(--border)] hover:border-[var(--primary)]'
+                        selectedStaff === s.id ? 'border-[var(--primary)] bg-primary/5' : 'border-border hover:border-[var(--primary)]'
                       }`}
                     >
                       <div className="font-medium">{s.name}</div>
-                      {s.role && <div className="text-xs text-[var(--text-muted)]">{s.role}</div>}
+                      {s.role && <div className="text-xs text-muted-foreground">{s.role}</div>}
                     </button>
                   ))}
                 </div>
@@ -185,10 +185,10 @@ export function BookingWizardSection({
                       key={d}
                       onClick={() => setSelectedDate(d)}
                       className={`flex-shrink-0 p-3 rounded-lg border text-center min-w-[80px] transition-colors ${
-                        selectedDate === d ? 'border-[var(--primary)] bg-[var(--primary)]/5' : 'border-[var(--border)] hover:border-[var(--primary)]'
+                        selectedDate === d ? 'border-[var(--primary)] bg-primary/5' : 'border-border hover:border-[var(--primary)]'
                       }`}
                     >
-                      <div className="text-xs text-[var(--text-muted)]">{DAYS_ES[new Date(d + 'T12:00:00').getDay()]}</div>
+                      <div className="text-xs text-muted-foreground">{DAYS_ES[new Date(d + 'T12:00:00').getDay()]}</div>
                       <div className="text-lg font-bold">{new Date(d + 'T12:00:00').getDate()}</div>
                       <div className="text-xs">{MONTHS_ES[new Date(d + 'T12:00:00').getMonth()]}</div>
                     </button>
@@ -203,7 +203,7 @@ export function BookingWizardSection({
                         onClick={() => setSelectedTime(slot.time)}
                         className={`p-2 rounded-lg border text-sm transition-colors ${
                           !slot.available ? 'opacity-30 cursor-not-allowed' :
-                          selectedTime === slot.time ? 'border-[var(--primary)] bg-[var(--primary)]/5' : 'border-[var(--border)] hover:border-[var(--primary)]'
+                          selectedTime === slot.time ? 'border-[var(--primary)] bg-primary/5' : 'border-border hover:border-[var(--primary)]'
                         }`}
                       >
                         {slot.time}
@@ -217,20 +217,20 @@ export function BookingWizardSection({
             {/* Step 4: Confirm */}
             {step === 'confirm' && (
               <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[var(--primary)]/10 flex items-center justify-center">
-                  <svg className="w-8 h-8 text-[var(--primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
+                  <svg className="w-8 h-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
                 <Heading level={3} className="mb-2">Confirmá tu reserva</Heading>
-                <div className="text-left bg-[var(--surface-light)] rounded-lg p-4 mb-6 space-y-2">
-                  {selectedService && <div className="flex justify-between"><span className="text-[var(--text-muted)]">Servicio:</span><span>{services.find(s => s.id === selectedService)?.name || 'Seleccionado'}</span></div>}
-                  {selectedDate && <div className="flex justify-between"><span className="text-[var(--text-muted)]">Fecha:</span><span>{formatDate(selectedDate)}</span></div>}
-                  {selectedTime && <div className="flex justify-between"><span className="text-[var(--text-muted)]">Hora:</span><span>{selectedTime}</span></div>}
+                <div className="text-left bg-surface-light rounded-lg p-4 mb-6 space-y-2">
+                  {selectedService && <div className="flex justify-between"><span className="text-muted-foreground">Servicio:</span><span>{services.find(s => s.id === selectedService)?.name || 'Seleccionado'}</span></div>}
+                  {selectedDate && <div className="flex justify-between"><span className="text-muted-foreground">Fecha:</span><span>{formatDate(selectedDate)}</span></div>}
+                  {selectedTime && <div className="flex justify-between"><span className="text-muted-foreground">Hora:</span><span>{selectedTime}</span></div>}
                 </div>
                 <button
                   onClick={handleConfirm}
-                  className="w-full py-3 bg-[var(--primary)] text-white rounded-lg font-medium hover:opacity-90"
+                  className="w-full py-3 bg-primary text-white rounded-lg font-medium hover:opacity-90"
                 >
                   Confirmar por WhatsApp
                 </button>
@@ -238,7 +238,7 @@ export function BookingWizardSection({
             )}
 
             {/* Navigation */}
-            <div className="flex justify-between mt-6 pt-4 border-t border-[var(--border)]">
+            <div className="flex justify-between mt-6 pt-4 border-t border-border">
               {step !== 'service' && (
                 <button
                   onClick={() => {
@@ -246,7 +246,7 @@ export function BookingWizardSection({
                     const idx = steps.indexOf(step)
                     setStep(steps[idx - 1])
                   }}
-                  className="px-4 py-2 text-sm text-[var(--text-muted)] hover:text-[var(--text)]"
+                  className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground"
                 >
                   ← Atrás
                 </button>
@@ -259,7 +259,7 @@ export function BookingWizardSection({
                     setStep(steps[idx + 1])
                   }}
                   disabled={!canProceed()}
-                  className="ml-auto px-4 py-2 text-sm bg-[var(--primary)] text-white rounded-lg disabled:opacity-50"
+                  className="ml-auto px-4 py-2 text-sm bg-primary text-white rounded-lg disabled:opacity-50"
                 >
                   Siguiente →
                 </button>

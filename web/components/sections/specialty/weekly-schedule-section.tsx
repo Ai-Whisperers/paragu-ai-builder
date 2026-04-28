@@ -31,7 +31,7 @@ const DAYS = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb']
 const INTENSITY_COLORS = {
   low: 'bg-green-100 text-[var(--success)] border-green-200',
   medium: 'bg-yellow-100 text-yellow-700 border-yellow-200',
-  high: 'bg-red-100 text-[var(--primary)] border-red-200',
+  high: 'bg-red-100 text-primary border-red-200',
 }
 const INTENSITY_LABELS = {
   low: 'Baja',
@@ -90,7 +90,7 @@ export function WeeklySchedule({ classes, onBookClass }: WeeklyScheduleProps) {
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div>
-          <Heading level={2} className="text-3xl font-bold">Horario de Clases</Heading>
+          <Heading level={2} className="text-xl sm:text-3xl font-bold">Horario de Clases</Heading>
           <p className="text-[var(--muted-foreground)] mt-1">
             Reserva tu lugar en nuestras clases grupales
           </p>
@@ -129,7 +129,7 @@ export function WeeklySchedule({ classes, onBookClass }: WeeklyScheduleProps) {
               {/* Day header */}
               <div className={cn(
                 "text-center py-3 rounded-t-lg",
-                today ? "bg-[var(--primary)] text-white" : "bg-[var(--muted)]"
+                today ? "bg-primary text-white" : "bg-muted"
               )}>
                 <div className="text-xs uppercase font-medium">{DAYS[dayIndex]}</div>
                 <div className="text-xl font-bold">{formatDate(day)}</div>
@@ -181,7 +181,7 @@ export function WeeklySchedule({ classes, onBookClass }: WeeklyScheduleProps) {
                               <Users className="w-3 h-3 text-[var(--muted-foreground)]" />
                               <span className={cn(
                                 "text-xs",
-                                availabilityPercent >= 90 ? "text-[var(--primary)]" : "text-[var(--muted-foreground)]"
+                                availabilityPercent >= 90 ? "text-primary" : "text-[var(--muted-foreground)]"
                               )}>
                                 {cls.current_bookings}/{cls.max_capacity}
                               </span>
@@ -189,11 +189,11 @@ export function WeeklySchedule({ classes, onBookClass }: WeeklyScheduleProps) {
                           </div>
                           
                           {/* Progress bar */}
-                          <div className="mt-2 h-1 bg-[var(--muted)] rounded-full overflow-hidden">
+                          <div className="mt-2 h-1 bg-muted rounded-full overflow-hidden">
                             <div 
                               className={cn(
                                 "h-full transition-all",
-                                availabilityPercent >= 90 ? "bg-[var(--primary)]" : "bg-[var(--primary)]"
+                                availabilityPercent >= 90 ? "bg-primary" : "bg-primary"
                               )}
                               style={{ width: `${availabilityPercent}%` }}
                             />

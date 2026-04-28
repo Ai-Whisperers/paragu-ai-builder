@@ -26,12 +26,12 @@ export function GoogleMapsSection({
   const dirUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodedQuery}`
 
   return (
-    <section className="bg-[var(--background)] py-12 sm:py-16">
+    <section className="bg-background py-12 sm:py-16">
       <Container>
         {(title || subtitle) && (
           <div className="text-center mb-8">
             {title && <Heading level={2}>{title}</Heading>}
-            {subtitle && <p className="mt-2 text-[var(--text-muted)]">{subtitle}</p>}
+            {subtitle && <p className="mt-2 text-muted-foreground">{subtitle}</p>}
           </div>
         )}
         <div className="rounded-lg overflow-hidden shadow-card" style={{ height }}>
@@ -48,12 +48,12 @@ export function GoogleMapsSection({
         </div>
         {address && (
           <div className="mt-4 text-center">
-            <p className="text-[var(--text-muted)]">{address}{city ? `, ${city}` : ''}</p>
+            <p className="text-muted-foreground">{address}{city ? `, ${city}` : ''}</p>
             <a
               href={dirUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-2 text-sm text-[var(--primary)] hover:underline"
+              className="inline-block mt-2 text-sm text-primary hover:underline"
             >
               Abrir en Google Maps →
             </a>

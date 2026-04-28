@@ -286,12 +286,12 @@ export function DynamicForm({
   // Render success state
   if (isSuccess) {
     return (
-      <div className="rounded-lg bg-[var(--surface-light)] p-8 text-center">
+      <div className="rounded-lg bg-surface-light p-8 text-center">
         <CheckCircle2 className="mx-auto h-12 w-12 text-[var(--success)]" />
-        <h3 className="mt-4 text-lg font-semibold text-[var(--text)]">
+        <h3 className="mt-4 text-lg font-semibold text-foreground">
           {config.successMessage || 'Thank you!'}
         </h3>
-        <p className="mt-2 text-sm text-[var(--text-muted)]">
+        <p className="mt-2 text-sm text-muted-foreground">
           We&apos;ve received your submission and will get back to you soon.
         </p>
       </div>
@@ -306,10 +306,10 @@ export function DynamicForm({
 
     const baseInputClasses = cn(
       'w-full rounded-lg border px-3 py-2 transition-colors',
-      'focus:outline-none focus:ring-2 focus:ring-[var(--primary)]',
+      'focus:outline-none focus:ring-2 focus:ring-primary',
       error 
         ? 'border-[var(--error)] focus:border-[var(--error)]' 
-        : 'border-[var(--border)]'
+        : 'border-border'
     )
 
     switch (field.type) {
@@ -336,7 +336,7 @@ export function DynamicForm({
                 {error}
               </p>
             )}
-            {field.helpText && <p className="text-xs text-[var(--text-muted)]">{field.helpText}</p>}
+            {field.helpText && <p className="text-xs text-muted-foreground">{field.helpText}</p>}
           </div>
         )
 
@@ -382,7 +382,7 @@ export function DynamicForm({
                 checked={value === 'true'}
                 onChange={(e) => handleChange(field.name, e.target.checked ? 'true' : 'false')}
                 required={field.required}
-                className="mt-1 h-4 w-4 rounded border-[var(--border)] text-[var(--primary)]"
+                className="mt-1 h-4 w-4 rounded border-border text-primary"
               />
               <Label htmlFor={fieldId} className="text-sm font-normal">
                 {field.label}
@@ -415,7 +415,7 @@ export function DynamicForm({
                     checked={value === option.value}
                     onChange={(e) => handleChange(field.name, e.target.value)}
                     required={field.required}
-                    className="h-4 w-4 border-[var(--border)] text-[var(--primary)]"
+                    className="h-4 w-4 border-border text-primary"
                   />
                   <Label htmlFor={`${fieldId}-${option.value}`} className="text-sm font-normal">
                     {option.label}
@@ -448,7 +448,7 @@ export function DynamicForm({
                     'h-8 w-8 rounded-full transition-colors',
                     Number(value) >= rating
                       ? 'bg-[var(--accent)] text-white'
-                      : 'bg-[var(--surface-light)] text-[var(--text-muted)] hover:bg-[var(--surface)]'
+                      : 'bg-surface-light text-muted-foreground hover:bg-surface'
                   )}
                 >
                   ★
@@ -490,7 +490,7 @@ export function DynamicForm({
                 {error}
               </p>
             )}
-            {field.helpText && <p className="text-xs text-[var(--text-muted)]">{field.helpText}</p>}
+            {field.helpText && <p className="text-xs text-muted-foreground">{field.helpText}</p>}
           </div>
         )
     }
@@ -501,9 +501,9 @@ export function DynamicForm({
       {/* Form header */}
       {config.title && (
         <div className="text-center">
-          <h3 className="text-xl font-semibold text-[var(--text)]">{config.title}</h3>
+          <h3 className="text-xl font-semibold text-foreground">{config.title}</h3>
           {config.description && (
-            <p className="mt-1 text-sm text-[var(--text-muted)]">{config.description}</p>
+            <p className="mt-1 text-sm text-muted-foreground">{config.description}</p>
           )}
         </div>
       )}
@@ -518,10 +518,10 @@ export function DynamicForm({
                   className={cn(
                     'flex h-8 w-8 items-center justify-center rounded-full text-sm font-medium',
                     index < currentStep
-                      ? 'bg-[var(--success)] text-white'
+                      ? 'bg-success text-white'
                       : index === currentStep
-                      ? 'bg-[var(--primary)] text-[var(--primary-foreground)]'
-                      : 'bg-[var(--surface-light)] text-[var(--text-muted)]'
+                      ? 'bg-primary text-[var(--primary-foreground)]'
+                      : 'bg-surface-light text-muted-foreground'
                   )}
                 >
                   {index < currentStep ? <Check className="h-4 w-4" /> : index + 1}
@@ -530,7 +530,7 @@ export function DynamicForm({
                   <div
                     className={cn(
                       'mx-2 h-0.5 w-12',
-                      index < currentStep ? 'bg-[var(--success)]' : 'bg-[var(--border)]'
+                      index < currentStep ? 'bg-success' : 'bg-border'
                     )}
                   />
                 )}
@@ -539,9 +539,9 @@ export function DynamicForm({
           </div>
           {currentStepData && (
             <div className="mt-4 text-center">
-              <p className="font-medium text-[var(--text)]">{currentStepData.title}</p>
+              <p className="font-medium text-foreground">{currentStepData.title}</p>
               {currentStepData.description && (
-                <p className="text-sm text-[var(--text-muted)]">{currentStepData.description}</p>
+                <p className="text-sm text-muted-foreground">{currentStepData.description}</p>
               )}
             </div>
           )}

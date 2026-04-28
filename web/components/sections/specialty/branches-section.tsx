@@ -31,38 +31,38 @@ export function BranchesSection({
   if (!branches?.length) return null
 
   return (
-    <section className="py-16 bg-[var(--surface)]">
+    <section className="py-16 bg-surface">
       <Container>
         <div className="text-center mb-10">
-          <Heading level={2} className="text-3xl font-bold text-[var(--text)]">
+          <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground">
             {title}
           </Heading>
-          <p className="mt-2 text-[var(--text-muted)]">{subtitle}</p>
+          <p className="mt-2 text-muted-foreground">{subtitle}</p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {branches.map((branch, idx) => (
             <Card
               key={idx}
-              className="cursor-pointer transition-all hover:shadow-md"
+              className="cursor-pointer transition-shadow hover:shadow-md"
               onClick={() => setSelectedBranch(selectedBranch === idx ? null : idx)}
             >
               <CardContent className="p-5">
-                <h3 className="font-semibold text-lg text-[var(--text)] mb-2">{branch.name}</h3>
-                <div className="space-y-2 text-sm text-[var(--text-muted)]">
+                <h3 className="font-semibold text-lg text-foreground mb-2">{branch.name}</h3>
+                <div className="space-y-2 text-sm text-muted-foreground">
                   <div className="flex items-start gap-2">
-                    <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-[var(--primary)]" />
+                    <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-primary" />
                     <span>{branch.address}</span>
                   </div>
                   {branch.phone && (
                     <div className="flex items-center gap-2">
-                      <Phone className="h-4 w-4 shrink-0 text-[var(--primary)]" />
-                      <a href={`tel:${branch.phone}`} className="hover:text-[var(--primary)]">{branch.phone}</a>
+                      <Phone className="h-4 w-4 shrink-0 text-primary" />
+                      <a href={`tel:${branch.phone}`} className="hover:text-primary">{branch.phone}</a>
                     </div>
                   )}
                   {branch.hours && (
                     <div className="flex items-start gap-2">
-                      <Clock className="h-4 w-4 mt-0.5 shrink-0 text-[var(--primary)]" />
+                      <Clock className="h-4 w-4 mt-0.5 shrink-0 text-primary" />
                       <span>{branch.hours}</span>
                     </div>
                   )}

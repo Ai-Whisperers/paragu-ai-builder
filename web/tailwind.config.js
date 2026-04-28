@@ -75,6 +75,11 @@ module.exports = {
         error: 'var(--error)',
         warning: 'var(--warning)',
       },
+      // Font families mapped from CSS variables
+      fontFamily: {
+        heading: ['var(--font-heading)'],
+        body: ['var(--font-body)'],
+      },
       // Animation keyframes
       keyframes: {
         shimmer: {

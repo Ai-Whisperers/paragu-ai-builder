@@ -109,20 +109,20 @@ export function HeroSection({
       : TRUST_BADGE_LABELS[__locale ?? 'es'] ?? TRUST_BADGE_LABELS.es
 
   const content = (
-    <Container className="relative z-10 py-16 sm:py-24 lg:py-32">
+    <Container className="font-heading relative z-10 py-16 sm:py-24 lg:py-32">
       <div className={cn("max-w-4xl mx-auto text-center", enhanced && "hero-content-animate")}>
         {disclaimerBanner && !isBannerDismissed && (
           <div className={cn(disclaimerBanner.cssClasses || "bg-amber-100 border-l-2 border-amber-500 p-4 text-center", "mb-6 rounded-r-md")}>
-            <div className="flex items-start justify-between gap-4">
-              <div className="flex-1 text-left">
-                <h3 className="font-semibold text-amber-900 mb-1">{disclaimerBanner.title}</h3>
-                <p className="text-sm text-amber-800 mb-3">{disclaimerBanner.description}</p>
+            <div className="font-heading flex items-start justify-between gap-4">
+              <div className="font-heading flex-1 text-left">
+                <h3 className="font-heading font-semibold text-amber-900 mb-1">{disclaimerBanner.title}</h3>
+                <p className="font-heading text-sm text-amber-800 mb-3">{disclaimerBanner.description}</p>
                 {disclaimerBanner.buttonText && (
                   <Button
                     variant="primary"
                     size="sm"
                     href={disclaimerBanner.buttonLink}
-                    className="inline-flex items-center gap-2"
+                    className="font-heading inline-flex items-center gap-2"
                     style={{ backgroundColor: '#d97706', color: '#ffffff' }}
                   >
                     {disclaimerBanner.buttonText}
@@ -132,10 +132,10 @@ export function HeroSection({
               {disclaimerBanner.dismissible && (
                 <button
                   onClick={handleDismissBanner}
-                  className="text-amber-600 hover:text-amber-900 transition-colors p-1 -mt-1 -mr-1"
+                  className="font-heading text-amber-600 hover:text-amber-900 transition-colors p-1 -mt-1 -mr-1"
                   aria-label="Dismiss disclaimer"
                 >
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="font-heading w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   </svg>
                 </button>
@@ -144,8 +144,8 @@ export function HeroSection({
           </div>
         )}
         {eyebrow && (
-          <div className="mb-6 hero-animate-delay-0">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium uppercase tracking-wider"
+          <div className="font-heading mb-6 hero-animate-delay-0">
+            <span className="font-heading inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium uppercase tracking-wider"
               style={{ backgroundColor: 'rgba(255,255,255,0.15)', color: '#ffffff', border: '1px solid rgba(255,255,255,0.2)' }}>
               {eyebrow}
             </span>
@@ -154,7 +154,7 @@ export function HeroSection({
 
         {floatingHeadline && enhanced ? (
           <FloatingElement amplitude={8} duration={5}>
-            <Heading level={1} className="mb-6 sm:mb-8"
+            <Heading level={1} className="font-heading mb-6 sm:mb-8"
               style={{ fontFamily: 'var(--font-heading)', fontWeight: '800', fontSize: 'clamp(2.25rem, 5vw, 4rem)', lineHeight: '1.1', letterSpacing: '-0.02em', color: backgroundImage ? '#ffffff' : (useGradient ? '#ffffff' : 'var(--primary-foreground)') }}>
               {headline}
             </Heading>
@@ -190,11 +190,11 @@ export function HeroSection({
         )}
 
         {enhanced && trustBadgesEnabled && (
-          <div className="mt-12 sm:mt-16 hero-animate-delay-4">
-            <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm font-medium" style={{ color: 'rgba(255,255,255,0.95)' }}>
+          <div className="font-heading mt-12 sm:mt-16 hero-animate-delay-4">
+            <div className="font-heading flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm font-medium" style={{ color: 'rgba(255,255,255,0.95)' }}>
               {trustBadges.map((label) => (
-                <div key={label} className="flex items-center gap-2">
-                  <svg className="w-5 h-5" fill="var(--secondary)" viewBox="0 0 20 20" aria-hidden="true"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
+                <div key={label} className="font-heading flex items-center gap-2">
+                  <svg className="font-heading w-5 h-5" fill="var(--secondary)" viewBox="0 0 20 20" aria-hidden="true"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
                   <span>{label}</span>
                 </div>
               ))}
@@ -206,7 +206,7 @@ export function HeroSection({
   )
 
   const wrappedContent = glassCard && enhanced ? (
-    <GlassCard variant={useGradient ? 'dark' : 'light'} rounded="2xl" className="mx-4 sm:mx-auto max-w-5xl my-8 sm:my-12"
+    <GlassCard variant={useGradient ? 'dark' : 'light'} rounded="2xl" className="font-heading mx-4 sm:mx-auto max-w-5xl my-8 sm:my-12"
       style={{ backgroundColor: 'rgba(255, 255, 255, 0.08)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255, 255, 255, 0.15)' }}>
       {content}
     </GlassCard>
@@ -222,9 +222,9 @@ export function HeroSection({
     : undefined
 
   return (
-    <section className={cn("relative flex min-h-[80vh] sm:min-h-[85vh] items-center justify-center overflow-hidden pt-20 sm:pt-24", !backgroundImage && !useGradient && "bg-[var(--primary)]")} style={backgroundStyle}>
+    <section className={cn("relative flex min-h-[80vh] sm:min-h-[85vh] items-center justify-center overflow-hidden pt-20 sm:pt-24", !backgroundImage && !useGradient && "bg-primary")} style={backgroundStyle}>
       {useResponsivePicture && backgroundImage && (
-        <picture aria-hidden="true" className="pointer-events-none absolute inset-0 h-full w-full">
+        <picture aria-hidden="true" className="font-heading pointer-events-none absolute inset-0 h-full w-full">
           {backgroundImageMobile && (
             <source media="(max-width: 640px)" srcSet={backgroundImageMobile} />
           )}
@@ -232,7 +232,7 @@ export function HeroSection({
           <img
             src={backgroundImage}
             alt=""
-            className="h-full w-full object-cover"
+            className="font-heading h-full w-full object-cover"
             loading="eager"
             fetchPriority="high"
             decoding="async"
@@ -240,12 +240,12 @@ export function HeroSection({
         </picture>
       )}
       {useResponsivePicture && (
-        <div className="absolute inset-0 bg-gradient-to-b from-[rgba(15,30,50,0.7)] to-[rgba(15,30,50,0.8)] pointer-events-none" />
+        <div className="font-heading absolute inset-0 bg-gradient-to-b from-[rgba(15,30,50,0.7)] to-[rgba(15,30,50,0.8)] pointer-events-none" />
       )}
       {useGradient && !backgroundImage && (
-        <GradientBackground variant={gradientVariant} animated={enhanced} className="absolute inset-0" />
+        <GradientBackground variant={gradientVariant} animated={enhanced} className="font-heading absolute inset-0" />
       )}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/20 pointer-events-none" />
+      <div className="font-heading absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/20 pointer-events-none" />
       {enhanced && (
         <>
           <DecorativeBlob variant="accent" size="xl" animated position="absolute" placement={{ top: '-15%', right: '-10%' }} blur="xl" opacity={0.12} />

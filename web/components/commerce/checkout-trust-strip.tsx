@@ -12,7 +12,7 @@ export function CheckoutTrustStrip() {
   return (
     <aside
       aria-label="Por qué comprar acá"
-      className="mb-6 grid grid-cols-1 gap-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4 text-sm sm:grid-cols-3"
+      className="mb-6 grid grid-cols-1 gap-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4 text-sm sm:grid-cols-3"
     >
       <div className="flex items-center gap-2">
         <span aria-hidden="true">📦</span>

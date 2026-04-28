@@ -9,11 +9,11 @@ const toastVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-[var(--surface)] text-[var(--text)] border border-[var(--border)]",
-        success: "bg-[var(--success)] text-white",
+        default: "bg-surface text-foreground border border-border",
+        success: "bg-success text-white",
         error: "bg-[var(--error)] text-white",
         warning: "bg-[var(--warning)] text-white",
-        info: "bg-[var(--secondary)] text-white",
+        info: "bg-secondary text-white",
       },
       position: {
         "top-right": "top-4 right-4",

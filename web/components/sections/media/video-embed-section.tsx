@@ -46,13 +46,13 @@ export function VideoEmbedSection({
   }
 
   return (
-    <section className="bg-[var(--background)] py-12 sm:py-16">
+    <section className="bg-background py-12 sm:py-16">
       <Container>
         {title && (
           <div className="text-center mb-8">
             <Heading level={2}>{title}</Heading>
             {caption && (
-              <p className="mt-2 text-[var(--text-muted)]">{caption}</p>
+              <p className="mt-2 text-muted-foreground">{caption}</p>
             )}
           </div>
         )}

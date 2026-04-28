@@ -80,57 +80,57 @@ export function MultiStepFormSection({
 
   if (submitted) {
     return (
-      <section className="py-16 bg-[var(--background)]">
+      <section className="py-16 bg-background">
         <Container>
-          <p className="text-center text-[var(--text)]">{successMessage}</p>
+          <p className="text-center text-foreground">{successMessage}</p>
         </Container>
       </section>
     )
   }
 
   return (
-    <section className="py-16 bg-[var(--background)]">
+    <section className="py-16 bg-background">
       <Container>
         <div className="text-center mb-6">
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
         </div>
 
-        <div className="max-w-xl mx-auto bg-[var(--surface)] rounded-lg p-6 shadow-sm">
-          <div className="flex items-center justify-between mb-4 text-xs text-[var(--text-muted)]">
+        <div className="max-w-xl mx-auto bg-surface rounded-lg p-6 shadow-sm">
+          <div className="flex items-center justify-between mb-4 text-xs text-muted-foreground">
             <span>
               Paso {idx + 1} de {steps.length}
             </span>
             <span>{Math.round(((idx + 1) / steps.length) * 100)}%</span>
           </div>
-          <div className="h-1 bg-[var(--surface-light)] rounded mb-6">
+          <div className="h-1 bg-surface-light rounded mb-6">
             <div
-              className="h-1 rounded bg-[var(--primary)] transition-all"
+              className="h-1 rounded bg-primary transition-all"
               style={{ width: `${((idx + 1) / steps.length) * 100}%` }}
             />
           </div>
 
-          <Heading level={3} className="font-semibold text-[var(--text)] mb-4">{step.title}</Heading>
+          <Heading level={3} className="font-semibold text-foreground mb-4">{step.title}</Heading>
 
           <div className="space-y-4">
             {step.fields.map((f) => (
               <div key={f.id}>
-                <label className="block text-sm font-medium text-[var(--text)] mb-1">
+                <label className="block text-sm font-medium text-foreground mb-1">
                   {f.label}
-                  {f.required && <span className="text-[var(--primary)] ml-1">*</span>}
+                  {f.required && <span className="text-primary ml-1">*</span>}
                 </label>
                 {f.kind === 'textarea' ? (
                   <textarea
                     rows={3}
                     value={answers[f.id] || ''}
                     onChange={(e) => update(f.id, e.target.value)}
-                    className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-[var(--surface)]"
+                    className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-surface"
                   />
                 ) : f.kind === 'select' ? (
                   <select
                     value={answers[f.id] || ''}
                     onChange={(e) => update(f.id, e.target.value)}
-                    className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-[var(--surface)]"
+                    className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-surface"
                   >
                     <option value="">—</option>
                     {(f.options || []).map((o) => (
@@ -144,14 +144,14 @@ export function MultiStepFormSection({
                     type="text"
                     value={answers[f.id] || ''}
                     onChange={(e) => update(f.id, e.target.value)}
-                    className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-[var(--surface)]"
+                    className="w-full border border-[var(--surface-light)] rounded px-3 py-2 bg-surface"
                   />
                 )}
               </div>
             ))}
           </div>
 
-          {error && <p className="mt-3 text-sm text-[var(--primary)]">{error}</p>}
+          {error && <p className="mt-3 text-sm text-primary">{error}</p>}
 
           <div className="mt-6 flex items-center justify-between gap-3">
             <Button

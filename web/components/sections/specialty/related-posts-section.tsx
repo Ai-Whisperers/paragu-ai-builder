@@ -24,9 +24,9 @@ export function RelatedPostsSection({ title, posts }: RelatedPostsSectionProps) 
   if (!posts || posts.length === 0) return null
   const visible = posts.slice(0, 3)
   return (
-    <section className="border-t border-[var(--border)] bg-[var(--surface-light)] py-16">
+    <section className="border-t border-border bg-surface-light py-16">
       <Container>
-        <Heading level={2} className="mb-8 text-2xl font-semibold text-[var(--primary)]">
+        <Heading level={2} className="mb-8 text-2xl font-semibold text-primary">
           {title}
         </Heading>
         <div className="grid gap-6 md:grid-cols-3">
@@ -34,10 +34,10 @@ export function RelatedPostsSection({ title, posts }: RelatedPostsSectionProps) 
             <a
               key={p.slug}
               href={p.href}
-              className="group flex h-full flex-col overflow-hidden rounded-lg border border-[var(--border)] bg-[var(--surface)] shadow-card transition-all hover:-translate-y-1 hover:shadow-card-hover"
+              className="group flex h-full flex-col overflow-hidden rounded-lg border border-border bg-surface shadow-card transition-transform hover:-translate-y-1 hover:shadow-card-hover"
             >
               {p.coverImage && (
-                <div className="aspect-[16/9] w-full overflow-hidden bg-[var(--surface-light)]">
+                <div className="aspect-[16/9] w-full overflow-hidden bg-surface-light">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={p.coverImage}
@@ -50,15 +50,15 @@ export function RelatedPostsSection({ title, posts }: RelatedPostsSectionProps) 
               )}
               <div className="flex flex-1 flex-col p-5">
                 {p.category && (
-                  <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]">
+                  <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-secondary">
                     {p.category}
                   </p>
                 )}
-                <Heading level={3} className="mb-2 text-base font-semibold text-[var(--text)]">
+                <Heading level={3} className="mb-2 text-base font-semibold text-foreground">
                   {p.title}
                 </Heading>
                 {p.excerpt && (
-                  <p className="text-sm text-[var(--text-muted)] line-clamp-3">{p.excerpt}</p>
+                  <p className="text-sm text-muted-foreground line-clamp-3">{p.excerpt}</p>
                 )}
               </div>
             </a>

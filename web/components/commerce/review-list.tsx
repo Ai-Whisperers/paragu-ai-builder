@@ -40,7 +40,7 @@ export function ReviewList({ reviews, averageRating, totalCount }: Props) {
 
       <ul className="space-y-4">
         {reviews.map((r) => (
-          <li key={r.id} className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+          <li key={r.id} className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
             <div className="mb-2 flex items-center gap-2 text-sm">
               <ReviewStars rating={r.rating} size="sm" />
               <span className="font-medium text-[color:var(--text,#111)]">{r.authorName}</span>

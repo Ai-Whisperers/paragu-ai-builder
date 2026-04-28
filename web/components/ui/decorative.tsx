@@ -57,10 +57,10 @@ export function DecorativeBlob({
   opacity = 0.5,
 }: DecorativeBlobProps) {
   const colorClasses = {
-    primary: 'bg-[var(--primary)]',
-    secondary: 'bg-[var(--secondary)]',
+    primary: 'bg-primary',
+    secondary: 'bg-secondary',
     accent: 'bg-[var(--accent)]',
-    muted: 'bg-[var(--muted)]',
+    muted: 'bg-muted',
   }
 
   const sizeClasses = {

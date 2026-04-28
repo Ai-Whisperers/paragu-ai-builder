@@ -37,7 +37,7 @@ const FOOTER_GROUPS = [
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-[var(--border)] bg-[var(--surface)] py-12">
+    <footer className="border-t border-border bg-surface py-12">
       <Container>
         <div className="grid gap-8 md:grid-cols-4">
           <div className="md:col-span-1">
@@ -46,21 +46,21 @@ export function SiteFooter() {
                 <Wand2 size={20} />
               </div>
               <span className="text-xl font-bold">
-                <span className="text-[var(--text)]">Paragu</span>
-                <span className="text-[var(--primary)]">AI</span>
+                <span className="text-foreground">Paragu</span>
+                <span className="text-primary">AI</span>
               </span>
             </Link>
-            <p className="max-w-sm text-sm text-[var(--text-muted)]">
+            <p className="max-w-sm text-sm text-muted-foreground">
               Sitios web profesionales para negocios paraguayos. Todo incluido, en 48 horas.
             </p>
           </div>
           {FOOTER_GROUPS.map((group) => (
             <div key={group.title}>
-              <Heading level={3} className="mb-4 font-bold text-[var(--text)]">{group.title}</Heading>
-              <ul className="space-y-2 text-[var(--text-muted)]">
+              <Heading level={3} className="mb-4 font-bold text-foreground">{group.title}</Heading>
+              <ul className="space-y-2 text-muted-foreground">
                 {group.links.map((link) => (
                   <li key={link.href}>
-                    <Link href={link.href} className="text-sm hover:text-[var(--primary)]">
+                    <Link href={link.href} className="text-sm hover:text-primary">
                       {link.label}
                     </Link>
                   </li>
@@ -69,7 +69,7 @@ export function SiteFooter() {
             </div>
           ))}
         </div>
-        <div className="mt-12 border-t border-[var(--border)] pt-8 text-center text-sm text-[var(--text-muted)]">
+        <div className="mt-12 border-t border-border pt-8 text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()} ParaguAI Builder. Todos los derechos reservados.
         </div>
       </Container>

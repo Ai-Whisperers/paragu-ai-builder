@@ -32,17 +32,17 @@ export function BlogIndexSection({
   const safePosts = posts || []
   
   return (
-    <section className="bg-[var(--background)] py-16 sm:py-24">
+    <section className="font-heading bg-background py-16 sm:py-24">
       <Container>
         <AnimatedSectionHeader>
           <Heading level={1}>{title}</Heading>
           {subtitle && (
-            <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{subtitle}</p>
+            <p className="font-heading mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
           )}
         </AnimatedSectionHeader>
 
         {safePosts.length === 0 ? (
-          <p className="mt-12 text-center text-[var(--text-muted)]">{emptyLabel}</p>
+          <p className="font-heading mt-12 text-center text-muted-foreground">{emptyLabel}</p>
         ) : variant === 'list' ? (
           <List posts={safePosts} />
         ) : (
@@ -55,27 +55,27 @@ export function BlogIndexSection({
 
 function Grid({ posts }: { posts: BlogPostSummary[] }) {
   return (
-    <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <div className="font-heading mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       {posts.map((p, i) => (
         <AnimateOnScroll key={p.slug} stagger={((i % 3) + 1) as 1 | 2 | 3}>
-          <a href={p.href} className="group block overflow-hidden rounded-lg border border-[var(--border)] bg-[var(--surface)] shadow-card transition-all hover:shadow-card-hover">
-            <div className="aspect-[16/9] bg-[var(--surface-light)]">
+          <a href={p.href} className="font-heading group block overflow-hidden rounded-lg border border-border bg-surface shadow-card transition-shadow hover:shadow-card-hover">
+            <div className="font-heading aspect-[16/9] bg-surface-light">
               {p.coverImage && (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={p.coverImage} alt={p.title} className="h-full w-full object-cover" loading="lazy" />
+                <img src={p.coverImage} alt={p.title} className="font-heading h-full w-full object-cover" loading="lazy" />
               )}
             </div>
-            <div className="p-6">
+            <div className="font-heading p-6">
               {p.category && (
-                <span className="mb-2 inline-block text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]">
+                <span className="font-heading mb-2 inline-block text-xs font-semibold uppercase tracking-wider text-secondary">
                   {p.category}
                 </span>
               )}
-              <Heading level={3} className="mb-2 text-lg font-semibold text-[var(--primary)] group-hover:underline" style={{ fontFamily: 'var(--font-heading)' }}>
+              <Heading level={3} className="font-heading mb-2 text-lg font-semibold text-primary group-hover:underline">
                 {p.title}
               </Heading>
-              {p.excerpt && <p className="mb-3 text-sm text-[var(--text-light)]">{p.excerpt}</p>}
-              <div className="flex items-center gap-3 text-xs text-[var(--text-muted)]">
+              {p.excerpt && <p className="font-heading mb-3 text-sm text-muted-foreground">{p.excerpt}</p>}
+              <div className="font-heading flex items-center gap-3 text-xs text-muted-foreground">
                 {p.date && <time dateTime={p.date}>{p.date}</time>}
                 {p.readingMinutes && <span>· {p.readingMinutes} min</span>}
               </div>
@@ -89,15 +89,15 @@ function Grid({ posts }: { posts: BlogPostSummary[] }) {
 
 function List({ posts }: { posts: BlogPostSummary[] }) {
   return (
-    <ul className="mt-10 divide-y divide-[var(--border)]">
+    <ul className="font-heading mt-10 divide-y divide-[var(--border)]">
       {posts.map((p) => (
-        <li key={p.slug} className="py-6">
-          <a href={p.href} className="group block">
-            <Heading level={3} className="text-xl font-semibold text-[var(--primary)] group-hover:underline">
+        <li key={p.slug} className="font-heading py-6">
+          <a href={p.href} className="font-heading group block">
+            <Heading level={3} className="font-heading text-xl font-semibold text-primary group-hover:underline">
               {p.title}
             </Heading>
-            {p.excerpt && <p className="mt-1 text-[var(--text-light)]">{p.excerpt}</p>}
-            <div className="mt-2 flex items-center gap-3 text-xs text-[var(--text-muted)]">
+            {p.excerpt && <p className="font-heading mt-1 text-muted-foreground">{p.excerpt}</p>}
+            <div className="font-heading mt-2 flex items-center gap-3 text-xs text-muted-foreground">
               {p.date && <time dateTime={p.date}>{p.date}</time>}
               {p.category && <span>· {p.category}</span>}
               {p.readingMinutes && <span>· {p.readingMinutes} min</span>}

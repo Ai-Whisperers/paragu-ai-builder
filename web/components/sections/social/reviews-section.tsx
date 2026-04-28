@@ -129,18 +129,18 @@ export function ReviewsSection({
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
             Lo que dicen nuestros clientes
           </Heading>
-          <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Calidad comprobada por familias, panaderias y restaurantes de la zona
           </p>
         </div>
 
         {/* Stats */}
         <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-[var(--surface)] rounded-2xl p-8 text-center">
-            <div className="text-5xl font-bold text-[var(--primary)] mb-2">
+          <div className="bg-surface rounded-2xl p-8 text-center">
+            <div className="text-xl sm:text-3xl sm:text-5xl font-bold text-primary mb-2">
               {averageRating.toFixed(1)}
             </div>
             <div className="flex justify-center gap-1 mb-2">
@@ -151,12 +151,12 @@ export function ReviewsSection({
                     'w-6 h-6',
                     i < Math.round(averageRating)
                       ? 'text-amber-400 fill-amber-400'
-                      : 'text-[var(--text-light)]'
+                      : 'text-muted-foreground'
                   )}
                 />
               ))}
             </div>
-            <p className="text-[var(--text-muted)]">
+            <p className="text-muted-foreground">
               Basado en {reviews.length} resenas
             </p>
           </div>
@@ -169,13 +169,13 @@ export function ReviewsSection({
                 <div key={rating} className="flex items-center gap-3">
                   <span className="text-sm w-3">{rating}</span>
                   <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
-                  <div className="flex-1 h-2 bg-[var(--surface)] rounded-full overflow-hidden">
+                  <div className="flex-1 h-2 bg-surface rounded-full overflow-hidden">
                     <div
                       className="h-full bg-amber-400 rounded-full transition-all"
                       style={{ width: `${percentage}%` }}
                     />
                   </div>
-                  <span className="text-sm text-[var(--text-muted)] w-10 text-right">
+                  <span className="text-sm text-muted-foreground w-10 text-right">
                     {count}
                   </span>
                 </div>
@@ -239,7 +239,7 @@ export function ReviewsSection({
         {/* CTA */}
         {!showForm && phone && (
           <div className="mt-12 text-center">
-            <p className="text-[var(--text-muted)] mb-4">
+            <p className="text-muted-foreground mb-4">
               Ya probaste nuestros huevos? Comparte tu experiencia
             </p>
             <Button onClick={() => setShowForm(true)} variant="outline" size="lg">

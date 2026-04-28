@@ -51,7 +51,7 @@ export function DialogContent({ className, children, ...props }: DialogContentPr
   return (
     <div
       className={cn(
-        "relative w-full max-w-lg bg-[var(--background)] rounded-lg shadow-xl border border-[var(--border)] p-6",
+        "relative w-full max-w-lg bg-background rounded-lg shadow-xl border border-border p-6",
         className
       )}
       role="dialog"
@@ -82,7 +82,7 @@ export interface DialogTitleProps extends React.HTMLAttributes<HTMLHeadingElemen
 export function DialogTitle({ className, children, ...props }: DialogTitleProps) {
   return (
     <h2
-      className={cn("text-lg font-semibold text-[var(--text)]", className)}
+      className={cn("text-lg font-semibold text-foreground", className)}
       {...props}
     >
       {children}
@@ -97,7 +97,7 @@ export interface DialogDescriptionProps extends React.HTMLAttributes<HTMLParagra
 export function DialogDescription({ className, children, ...props }: DialogDescriptionProps) {
   return (
     <p
-      className={cn("text-sm text-[var(--text-muted)] mt-1", className)}
+      className={cn("text-sm text-muted-foreground mt-1", className)}
       {...props}
     >
       {children}
@@ -198,7 +198,7 @@ export function ConfirmationDialog({
         <DialogFooter>
           <button
             onClick={handleCancel}
-            className="px-4 py-2 text-sm font-medium text-[var(--text)] bg-[var(--surface-light)] rounded-md hover:bg-[var(--surface)] transition-colors"
+            className="px-4 py-2 text-sm font-medium text-foreground bg-surface-light rounded-md hover:bg-surface transition-colors"
             disabled={isLoading}
           >
             {cancelLabel}
@@ -209,7 +209,7 @@ export function ConfirmationDialog({
               "px-4 py-2 text-sm font-medium text-white rounded-md transition-colors",
               variant === "destructive"
                 ? "bg-red-600 hover:bg-red-700"
-                : "bg-[var(--secondary)] hover:bg-[var(--secondary)]/90"
+                : "bg-secondary hover:bg-secondary/90"
             )}
             disabled={isLoading}
           >

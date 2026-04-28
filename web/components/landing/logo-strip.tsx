@@ -16,7 +16,7 @@ const CASE_SLUGS = new Set(CASE_STUDIES.map((c) => c.slug))
 export function LogoStrip({ label = 'Confían en nosotros:' }: { label?: string }) {
   return (
     <div className="mx-auto mt-12 flex max-w-4xl flex-col items-center gap-4">
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]">
+      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
         {label}
       </p>
       <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
@@ -26,7 +26,7 @@ export function LogoStrip({ label = 'Confían en nosotros:' }: { label?: string 
             <Link
               key={c.slug}
               href={href}
-              className="group inline-flex items-center gap-2 text-base font-bold tracking-tight text-[var(--text-light)] transition-colors hover:text-[var(--text)] sm:text-lg"
+              className="group inline-flex items-center gap-2 text-base font-bold tracking-tight text-muted-foreground transition-colors hover:text-foreground sm:text-lg"
             >
               <span
                 className="h-2 w-2 shrink-0 rounded-full opacity-70 transition-opacity group-hover:opacity-100"

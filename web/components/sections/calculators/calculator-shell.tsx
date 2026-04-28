@@ -68,17 +68,17 @@ export function CalculatorShell({
   }
 
   return (
-    <section className={`bg-[var(--surface)] py-16 sm:py-20 ${className ?? ''}`}>
+    <section className={`bg-surface py-16 sm:py-20 ${className ?? ''}`}>
       <Container>
         <AnimatedSectionHeader>
           {eyebrow && (
-            <p className="text-sm font-semibold uppercase tracking-wider text-[var(--secondary)] mb-2">
+            <p className="text-sm font-semibold uppercase tracking-wider text-secondary mb-2">
               {eyebrow}
             </p>
           )}
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
           )}
         </AnimatedSectionHeader>
 
@@ -86,14 +86,14 @@ export function CalculatorShell({
           <div className="grid gap-4 sm:grid-cols-2">
             {fields.map((f) => (
               <div key={f.key}>
-                <label className="block text-sm font-medium text-[var(--text)] mb-1">
+                <label className="block text-sm font-medium text-foreground mb-1">
                   {f.label}
                 </label>
                 {f.type === 'select' && f.options ? (
                   <select
                     value={String(values[f.key] ?? '')}
                     onChange={(e) => updateValue(f.key, e.target.value)}
-                    className="w-full rounded-md border border-[var(--border)] bg-[var(--background)] px-3 py-2 text-sm"
+                    className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm"
                   >
                     {f.options.map((o) => (
                       <option key={o.value} value={o.value}>
@@ -109,7 +109,7 @@ export function CalculatorShell({
                     min={f.min}
                     max={f.max}
                     step={f.step}
-                    className="w-full rounded-md border border-[var(--border)] bg-[var(--background)] px-3 py-2 text-sm"
+                    className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm"
                   />
                 )}
               </div>
@@ -117,9 +117,9 @@ export function CalculatorShell({
           </div>
 
           {results.length > 0 && (
-            <div className="mt-8 space-y-2 rounded-lg bg-[var(--surface-light)] p-6">
+            <div className="mt-8 space-y-2 rounded-lg bg-surface-light p-6">
               {resultHeading && (
-                <p className="text-sm font-semibold text-[var(--text-muted)] mb-3">
+                <p className="text-sm font-semibold text-muted-foreground mb-3">
                   {resultHeading}
                 </p>
               )}
@@ -128,9 +128,9 @@ export function CalculatorShell({
                   key={i}
                   className={`flex justify-between text-sm ${
                     r.highlighted
-                      ? 'text-lg font-bold text-[var(--primary)]'
+                      ? 'text-lg font-bold text-primary'
                       : r.muted
-                        ? 'text-[var(--text-muted)]'
+                        ? 'text-muted-foreground'
                         : ''
                   }`}
                 >
@@ -142,7 +142,7 @@ export function CalculatorShell({
           )}
 
           {disclaimer && (
-            <p className="mt-4 text-xs text-[var(--text-muted)] italic">{disclaimer}</p>
+            <p className="mt-4 text-xs text-muted-foreground italic">{disclaimer}</p>
           )}
 
           {(ctaLabel || whatsapp) && (

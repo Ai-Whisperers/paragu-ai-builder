@@ -100,14 +100,14 @@ export function ProductImageUploader({ businessId, productId, images: initialIma
   }
 
   return (
-    <section className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+    <section className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
       <div className="mb-3 flex items-center justify-between">
         <h3 className="text-sm font-semibold">Imágenes del producto</h3>
         <button
           type="button"
           onClick={() => fileInputRef.current?.click()}
           disabled={uploading}
-          className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)] disabled:opacity-50"
+          className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-surface-light disabled:opacity-50"
         >
           {uploading ? 'Subiendo…' : 'Elegir archivos'}
         </button>
@@ -130,7 +130,7 @@ export function ProductImageUploader({ businessId, productId, images: initialIma
         onDrop={handleDrop}
         className={`rounded-lg border-2 border-dashed px-4 py-8 text-center transition-colors ${
           isDragging
-            ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)]/5'
+            ? 'border-[color:var(--primary,#111)] bg-primary/5'
             : 'border-[color:var(--border,#e5e7eb)]'
         }`}
       >
@@ -163,7 +163,7 @@ export function ProductImageUploader({ businessId, productId, images: initialIma
                 loading="lazy"
               />
               {img.isCover ? (
-                <span className="absolute left-2 top-2 rounded bg-[color:var(--primary,#111)] px-2 py-0.5 text-xs font-semibold text-white">
+                <span className="absolute left-2 top-2 rounded bg-primary px-2 py-0.5 text-xs font-semibold text-white">
                   Portada
                 </span>
               ) : null}

@@ -109,8 +109,8 @@ export function SuccessStories({
       <div className="mx-auto max-w-6xl px-6">
         {title && (
           <div className="mb-12 text-center">
-            <h2 className="text-3xl font-bold text-[var(--text)]">{title[locale] || title.es}</h2>
-            {subtitle && <p className="mt-2 text-[var(--text-muted)]">{subtitle[locale] || subtitle.es}</p>}
+            <h2 className="text-xl sm:text-3xl font-bold text-foreground">{title[locale] || title.es}</h2>
+            {subtitle && <p className="mt-2 text-muted-foreground">{subtitle[locale] || subtitle.es}</p>}
           </div>
         )}
 
@@ -122,29 +122,29 @@ export function SuccessStories({
                 onClick={() => setActiveStory(idx)}
                 className={`group w-full text-left transition-all ${
                   activeStory === idx
-                    ? 'rounded-2xl border-2 border-[var(--primary)] bg-[var(--surface)] p-4'
-                    : 'rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4 opacity-70 hover:opacity-100'
+                    ? 'rounded-2xl border-2 border-[var(--primary)] bg-surface p-4'
+                    : 'rounded-2xl border border-border bg-surface p-4 opacity-70 hover:opacity-100'
                 }`}
               >
                 <div className="flex items-start gap-4">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[var(--primary)]/10 text-[var(--primary)]">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                     <Users size={20} />
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center gap-2">
-                      <span className="font-semibold text-[var(--text)]">{story.name}</span>
+                      <span className="font-semibold text-foreground">{story.name}</span>
                       <span className="flex text-yellow-400">
                         {Array.from({ length: story.rating }).map((_, i) => (
                           <Quote key={i} size={12} fill="currentColor" />
                         ))}
                       </span>
                     </div>
-                    <div className="flex items-center gap-2 text-sm text-[var(--text-muted)]">
+                    <div className="flex items-center gap-2 text-sm text-muted-foreground">
                       <MapPin size={14} />
                       {story.country}
                     </div>
                     {story.program && (
-                      <span className="mt-2 inline-block rounded-full bg-[var(--primary)]/10 px-3 py-1 text-xs font-medium text-[var(--primary)]">
+                      <span className="mt-2 inline-block rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
                         {story.program}
                       </span>
                     )}
@@ -154,13 +154,13 @@ export function SuccessStories({
             ))}
           </div>
 
-          <div className="rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-8">
+          <div className="rounded-3xl border border-border bg-surface p-8">
             <div className="mb-6 flex items-start gap-4">
-              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-[var(--primary)]/10 text-[var(--primary)]">
+              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                 <Quote size={32} />
               </div>
               <div>
-                <p className="text-lg italic text-[var(--text)]">"{items[activeStory].quote[locale] || items[activeStory].quote.es}"</p>
+                <p className="text-lg italic text-foreground">"{items[activeStory].quote[locale] || items[activeStory].quote.es}"</p>
               </div>
             </div>
 
@@ -168,11 +168,11 @@ export function SuccessStories({
               <div className="mb-6 grid grid-cols-2 gap-4">
                 <div className="rounded-xl bg-[var(--error)]/5 p-4">
                   <p className="mb-1 text-xs font-semibold uppercase text-[var(--error)]">Before</p>
-                  <p className="text-sm text-[var(--text)]">{items[activeStory].before?.[locale] || items[activeStory].before?.es}</p>
+                  <p className="text-sm text-foreground">{items[activeStory].before?.[locale] || items[activeStory].before?.es}</p>
                 </div>
-                <div className="rounded-xl bg-[var(--success)]/5 p-4">
+                <div className="rounded-xl bg-success/5 p-4">
                   <p className="mb-1 text-xs font-semibold uppercase text-[var(--success)]">After</p>
-                  <p className="text-sm text-[var(--text)]">{items[activeStory].after?.[locale] || items[activeStory].after?.es}</p>
+                  <p className="text-sm text-foreground">{items[activeStory].after?.[locale] || items[activeStory].after?.es}</p>
                 </div>
               </div>
             )}
@@ -182,26 +182,26 @@ export function SuccessStories({
                 {items[activeStory].metrics?.map((metric, idx) => (
                   <div
                     key={idx}
-                    className="flex-1 rounded-xl border border-[var(--border)] bg-[var(--surface-light)] p-3 text-center"
+                    className="flex-1 rounded-xl border border-border bg-surface-light p-3 text-center"
                   >
                     <div className="flex items-center justify-center gap-2">
                       <TrendingUp size={16} className="text-[var(--success)]" />
-                      <span className="text-lg font-bold text-[var(--text)]">{metric.value}</span>
+                      <span className="text-lg font-bold text-foreground">{metric.value}</span>
                     </div>
-                    <p className="text-xs text-[var(--text-muted)]">{metric.label}</p>
+                    <p className="text-xs text-muted-foreground">{metric.label}</p>
                   </div>
                 ))}
               </div>
             )}
 
             <div className="mt-6 flex items-center justify-between">
-              <div className="flex items-center gap-2 text-sm text-[var(--text-muted)]">
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Calendar size={16} />
                 <span>{items[activeStory].country}</span>
               </div>
               <a
                 href="/contacto"
-                className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--primary)] hover:underline"
+                className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline"
               >
                 Get similar results
                 <ArrowRight size={14} />

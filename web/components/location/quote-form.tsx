@@ -94,7 +94,7 @@ export default function QuoteForm({
 
   const renderField = (f: QuoteFormField) => {
     const commonCls =
-      'w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]'
+      'w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary'
     const inputProps = {
       name: f.name,
       required: f.required,
@@ -158,7 +158,7 @@ export default function QuoteForm({
         size="lg"
         isLoading={status === 'submitting'}
         loadingText="Enviando…"
-        className="w-full bg-[var(--primary)] hover:opacity-90"
+        className="w-full bg-primary hover:opacity-90"
       >
         {submitLabel}
       </Button>

@@ -73,7 +73,7 @@ export function NewProductForm({ businessId }: Props) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+    <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
       <Field
         label="Nombre"
         required
@@ -119,7 +119,7 @@ export function NewProductForm({ businessId }: Props) {
       <button
         type="submit"
         disabled={submitting || !name}
-        className="w-full rounded-lg bg-[color:var(--primary,#111)] px-4 py-3 font-semibold text-white disabled:opacity-50"
+        className="w-full rounded-lg bg-primary px-4 py-3 font-semibold text-white disabled:opacity-50"
       >
         {submitting ? 'Guardando…' : 'Crear producto'}
       </button>

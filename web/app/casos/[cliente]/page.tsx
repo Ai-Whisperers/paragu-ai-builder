@@ -55,21 +55,21 @@ export default async function CaseStudyPage({ params }: { params: Promise<Params
             <div className="mx-auto max-w-3xl">
               <Link
                 href="/casos"
-                className="mb-6 inline-flex items-center gap-1 text-sm font-medium text-[var(--text-light)] hover:text-[var(--primary)]"
+                className="mb-6 inline-flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-primary"
               >
                 ← Todos los casos
               </Link>
               <p className="mb-3 text-sm font-bold uppercase tracking-wider" style={{ color }}>
                 {cs.vertical} · {cs.period}
               </p>
-              <h1 className="mb-6 text-4xl font-bold leading-tight text-[var(--text)] sm:text-5xl">
+              <h1 className="mb-6 text-4xl font-bold leading-tight text-foreground sm:text-5xl">
                 {cs.headline}
               </h1>
-              <p className="mb-8 text-lg text-[var(--text-light)] md:text-xl">{cs.lead}</p>
+              <p className="mb-8 text-lg text-muted-foreground md:text-xl">{cs.lead}</p>
               <div className="flex flex-col gap-3 sm:flex-row">
                 <Link
                   href={cs.liveUrl}
-                  className="inline-flex items-center justify-center gap-2 rounded-2xl border-2 border-[var(--border)] bg-[var(--surface)] px-6 py-3 font-bold text-[var(--text)] transition-all hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                  className="inline-flex items-center justify-center gap-2 rounded-2xl border-2 border-border bg-surface px-6 py-3 font-bold text-foreground transition-all hover:border-[var(--primary)] hover:text-primary"
                 >
                   Ver el sitio en vivo
                   <ExternalLink size={18} />
@@ -78,7 +78,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<Params
                   href={waLink(waMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-2xl bg-[var(--primary)] px-6 py-3 font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:opacity-90"
+                  className="inline-flex items-center justify-center gap-2 rounded-2xl bg-primary px-6 py-3 font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:opacity-90"
                 >
                   <MessageCircle size={18} />
                   Quiero algo así
@@ -89,15 +89,15 @@ export default async function CaseStudyPage({ params }: { params: Promise<Params
         </section>
 
         {/* Outcomes */}
-        <section className="border-y border-[var(--border)] bg-[var(--surface-light)] py-16">
+        <section className="border-y border-border bg-surface-light py-16">
           <Container>
             <div className="mx-auto max-w-3xl">
-              <h2 className="mb-8 text-2xl font-bold text-[var(--text)]">Lo que cambió</h2>
+              <h2 className="mb-8 text-2xl font-bold text-foreground">Lo que cambió</h2>
               <ul className="grid gap-4 sm:grid-cols-2">
                 {cs.outcomes.map((o) => (
                   <li
                     key={o}
-                    className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--surface)] p-4"
+                    className="flex items-start gap-3 rounded-xl border border-border bg-surface p-4"
                   >
                     <span
                       className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full"
@@ -105,7 +105,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<Params
                     >
                       <Check size={14} />
                     </span>
-                    <span className="text-sm text-[var(--text)]">{o}</span>
+                    <span className="text-sm text-foreground">{o}</span>
                   </li>
                 ))}
               </ul>
@@ -118,25 +118,25 @@ export default async function CaseStudyPage({ params }: { params: Promise<Params
           <Container>
             <article className="mx-auto max-w-3xl space-y-10">
               <div>
-                <h2 className="mb-3 text-2xl font-bold text-[var(--text)]">El desafío</h2>
-                <p className="text-lg leading-relaxed text-[var(--text-light)]">{cs.challenge}</p>
+                <h2 className="mb-3 text-2xl font-bold text-foreground">El desafío</h2>
+                <p className="text-lg leading-relaxed text-muted-foreground">{cs.challenge}</p>
               </div>
               <div>
-                <h2 className="mb-3 text-2xl font-bold text-[var(--text)]">Lo que hicimos</h2>
-                <p className="text-lg leading-relaxed text-[var(--text-light)]">{cs.approach}</p>
+                <h2 className="mb-3 text-2xl font-bold text-foreground">Lo que hicimos</h2>
+                <p className="text-lg leading-relaxed text-muted-foreground">{cs.approach}</p>
               </div>
             </article>
           </Container>
         </section>
 
         {/* CTA + next */}
-        <section className="border-t border-[var(--border)] bg-[var(--surface-light)] py-16">
+        <section className="border-t border-border bg-surface-light py-16">
           <Container>
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="mb-4 text-2xl font-bold text-[var(--text)]">
+              <h2 className="mb-4 text-2xl font-bold text-foreground">
                 ¿Tu negocio puede ser el próximo caso?
               </h2>
-              <p className="mb-6 text-[var(--text-light)]">
+              <p className="mb-6 text-muted-foreground">
                 Mandanos los datos por WhatsApp y armamos tu demo en 48 horas.
               </p>
               <a
@@ -153,17 +153,17 @@ export default async function CaseStudyPage({ params }: { params: Promise<Params
             <div className="mx-auto mt-16 max-w-3xl">
               <Link
                 href={`/casos/${next.slug}`}
-                className="group flex items-center justify-between gap-4 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-md"
+                className="group flex items-center justify-between gap-4 rounded-2xl border border-border bg-surface p-6 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-md"
               >
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">
+                  <p className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
                     Próximo caso
                   </p>
-                  <p className="mt-1 font-bold text-[var(--text)]">{next.headline}</p>
+                  <p className="mt-1 font-bold text-foreground">{next.headline}</p>
                 </div>
                 <ArrowRight
                   size={20}
-                  className="shrink-0 text-[var(--primary)] transition-transform group-hover:translate-x-1"
+                  className="shrink-0 text-primary transition-transform group-hover:translate-x-1"
                 />
               </Link>
             </div>

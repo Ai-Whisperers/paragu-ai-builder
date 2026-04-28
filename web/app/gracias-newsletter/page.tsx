@@ -30,21 +30,21 @@ export default function NewsletterThankYouPage() {
       <main className="pt-24 pb-20">
         <Container size="md">
           <div className="mx-auto max-w-2xl text-center">
-            <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-[var(--success)]/10 text-[var(--success)]">
+            <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-success/10 text-[var(--success)]">
               <Check size={32} />
             </div>
-            <h1 className="mb-4 text-4xl font-bold text-[var(--text)] sm:text-5xl">
+            <h1 className="mb-4 text-4xl font-bold text-foreground sm:text-5xl">
               ¡Gracias! Revisá tu email
             </h1>
-            <p className="mb-8 text-lg text-[var(--text-light)]">
+            <p className="mb-8 text-lg text-muted-foreground">
               Te enviamos un correo para confirmar la suscripción. Click al link y empezás a
               recibir novedades sobre nuevas plantillas, tips para tu sitio y casos de estudio.
             </p>
-            <div className="mb-12 rounded-2xl border border-[var(--border)] bg-[var(--surface-light)] p-6 text-left">
-              <p className="mb-2 text-sm font-semibold text-[var(--text)]">
+            <div className="mb-12 rounded-2xl border border-border bg-surface-light p-6 text-left">
+              <p className="mb-2 text-sm font-semibold text-foreground">
                 ¿No te llegó el email?
               </p>
-              <ul className="space-y-1 text-sm text-[var(--text-light)]">
+              <ul className="space-y-1 text-sm text-muted-foreground">
                 <li>· Revisá la carpeta de spam o promociones (suele caer ahí la primera vez).</li>
                 <li>· Esperá un par de minutos — a veces tarda.</li>
                 <li>
@@ -57,39 +57,39 @@ export default function NewsletterThankYouPage() {
                 href={waLink('Hola, no me llegó el email de confirmación de la newsletter de ParaguAI.')}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-2xl border-2 border-[var(--border)] bg-[var(--surface)] px-6 py-3 font-bold text-[var(--text)] transition-all hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                className="inline-flex items-center gap-2 rounded-2xl border-2 border-border bg-surface px-6 py-3 font-bold text-foreground transition-all hover:border-[var(--primary)] hover:text-primary"
               >
                 <MessageCircle size={18} />
                 Escribir por WhatsApp
               </a>
               <Link
                 href="/"
-                className="inline-flex items-center gap-2 rounded-2xl bg-[var(--primary)] px-6 py-3 font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:opacity-90"
+                className="inline-flex items-center gap-2 rounded-2xl bg-primary px-6 py-3 font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:opacity-90"
               >
                 Volver al inicio
               </Link>
             </div>
 
             <div className="mt-16">
-              <p className="mb-3 text-xs uppercase tracking-wider text-[var(--text-muted)]">
+              <p className="mb-3 text-xs uppercase tracking-wider text-muted-foreground">
                 Mientras tanto, mirá esto
               </p>
               <div className="flex flex-wrap items-center justify-center gap-3">
                 <Link
                   href="/casos"
-                  className="rounded-full border border-[var(--border)] bg-[var(--surface)] px-4 py-2 text-sm font-medium text-[var(--text)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                  className="rounded-full border border-border bg-surface px-4 py-2 text-sm font-medium text-foreground hover:border-[var(--primary)] hover:text-primary"
                 >
                   Casos reales
                 </Link>
                 <Link
                   href="/p"
-                  className="rounded-full border border-[var(--border)] bg-[var(--surface)] px-4 py-2 text-sm font-medium text-[var(--text)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                  className="rounded-full border border-border bg-surface px-4 py-2 text-sm font-medium text-foreground hover:border-[var(--primary)] hover:text-primary"
                 >
                   Plantillas
                 </Link>
                 <Link
                   href="/blog"
-                  className="rounded-full border border-[var(--border)] bg-[var(--surface)] px-4 py-2 text-sm font-medium text-[var(--text)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                  className="rounded-full border border-border bg-surface px-4 py-2 text-sm font-medium text-foreground hover:border-[var(--primary)] hover:text-primary"
                 >
                   Blog
                 </Link>

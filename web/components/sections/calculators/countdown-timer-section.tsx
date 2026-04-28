@@ -45,36 +45,36 @@ export function CountdownTimerSection({
   }, [targetDate]) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <section className="py-12 bg-[var(--surface)]">
+    <section className="py-12 bg-surface">
       <Container>
         <div className="max-w-2xl mx-auto text-center">
           {title && <Heading level={2}>{title}</Heading>}
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
 
           {remaining ? (
             <div className="mt-6 flex items-center justify-center gap-4">
               {(['days', 'hours', 'minutes', 'seconds'] as const).map((k) => (
                 <div
                   key={k}
-                  className="bg-[var(--background)] rounded-lg px-4 py-3 min-w-[72px]"
+                  className="bg-background rounded-lg px-4 py-3 min-w-[72px]"
                 >
-                  <div className="text-3xl font-bold text-[var(--primary)]">
+                  <div className="text-xl sm:text-3xl font-bold text-primary">
                     {String(remaining[k]).padStart(2, '0')}
                   </div>
-                  <div className="text-xs text-[var(--text-muted)] uppercase tracking-wide">
+                  <div className="text-xs text-muted-foreground uppercase tracking-wide">
                     {labels[k]}
                   </div>
                 </div>
               ))}
             </div>
           ) : (
-            <p className="mt-6 text-lg font-semibold text-[var(--text)]">{expiredMessage}</p>
+            <p className="mt-6 text-lg font-semibold text-foreground">{expiredMessage}</p>
           )}
 
           {ctaText && ctaHref && remaining && (
             <a
               href={ctaHref}
-              className="inline-block mt-6 bg-[var(--primary)] text-[var(--primary-foreground)] px-6 py-2 rounded"
+              className="inline-block mt-6 bg-primary text-[var(--primary-foreground)] px-6 py-2 rounded"
             >
               {ctaText}
             </a>

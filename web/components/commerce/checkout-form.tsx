@@ -29,7 +29,7 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
 
   if (!cart || cart.items.length === 0) {
     return (
-      <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6 text-center">
+      <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6 text-center">
         <p className="text-[color:var(--text-muted,#6b7280)]">Tu carrito está vacío.</p>
       </div>
     )
@@ -160,7 +160,7 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
   return (
     <form onSubmit={handleSubmit} className="grid gap-6 lg:grid-cols-[1fr_320px]">
       <div className="space-y-6">
-        <section aria-labelledby="contacto-heading" className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+        <section aria-labelledby="contacto-heading" className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
           <h2 id="contacto-heading" className="mb-4 text-lg font-semibold">Contacto</h2>
           <div className="grid gap-4 sm:grid-cols-2">
             <Field label="Nombre completo" name="name" required autoComplete="name" />
@@ -169,7 +169,7 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
           </div>
         </section>
 
-        <section aria-labelledby="envio-heading" className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+        <section aria-labelledby="envio-heading" className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
           <h2 id="envio-heading" className="mb-4 text-lg font-semibold">Envío</h2>
           <div className="grid gap-4 sm:grid-cols-2">
             <Field className="sm:col-span-2" label="Dirección" name="line1" required autoComplete="shipping address-line1" />
@@ -181,7 +181,7 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
           </div>
         </section>
 
-        <section aria-labelledby="notas-heading" className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+        <section aria-labelledby="notas-heading" className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
           <h2 id="notas-heading" className="mb-4 text-lg font-semibold">Notas del pedido</h2>
           <textarea
             name="notes"
@@ -192,7 +192,7 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
         </section>
       </div>
 
-      <aside className="sticky top-0 z-10 order-first h-fit max-h-[60vh] overflow-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6 lg:order-last lg:max-h-none lg:overflow-visible lg:sticky lg:top-4">
+      <aside className="sticky top-0 z-10 order-first h-fit max-h-[60vh] overflow-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6 lg:order-last lg:max-h-none lg:overflow-visible lg:sticky lg:top-4">
         <h2 className="mb-4 text-lg font-semibold">Resumen</h2>
         <ul className="mb-4 space-y-2 text-sm">
           {cart.items.map((it) => {
@@ -228,7 +228,7 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
                 type="button"
                 onClick={applyDiscountCode}
                 disabled={discountStatus.kind === 'checking' || !discountInput.trim()}
-                className="rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-xs font-medium hover:bg-[color:var(--surface-muted,#f3f4f6)] disabled:opacity-50"
+                className="rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-xs font-medium hover:bg-surface-light disabled:opacity-50"
               >
                 {discountStatus.kind === 'checking' ? '…' : 'Aplicar'}
               </button>
@@ -303,7 +303,7 @@ export function CheckoutForm({ siteSlug, locale = 'es' }: Props) {
         <button
           type="submit"
           disabled={submitting}
-          className="mt-4 w-full rounded-lg bg-[color:var(--primary,#111)] px-4 py-3 font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 disabled:opacity-60"
+          className="mt-4 w-full rounded-lg bg-primary px-4 py-3 font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 disabled:opacity-60"
         >
           {submitting ? 'Procesando…' : 'Confirmar pedido'}
         </button>

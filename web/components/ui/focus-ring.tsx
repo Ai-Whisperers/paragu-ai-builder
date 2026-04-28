@@ -9,7 +9,7 @@ const focusRingVariants = cva(
     variants: {
       variant: {
         default: "focus-visible:ring-[var(--secondary)]",
-        primary: "focus-visible:ring-[var(--primary)]",
+        primary: "focus-visible:ring-primary",
         error: "focus-visible:ring-red-500",
         success: "focus-visible:ring-green-500",
       },
@@ -57,7 +57,7 @@ export function FocusRing({
 // Focus ring style constants for use in other components
 export const focusRingStyles = {
   default: "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--secondary)] focus-visible:ring-offset-2",
-  primary: "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--primary)] focus-visible:ring-offset-2",
+  primary: "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2",
   error: "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2",
   success: "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-500 focus-visible:ring-offset-2",
   input: "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--secondary)] focus-visible:ring-offset-0",

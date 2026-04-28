@@ -31,7 +31,7 @@ export default function BusinessInfoCard({
 
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-      <h3 className="text-lg font-semibold mb-4 text-[var(--primary)]">Información de Contacto</h3>
+      <h3 className="text-lg font-semibold mb-4 text-primary">Información de Contacto</h3>
       
       <div className="space-y-4">
         {phone && (
@@ -43,7 +43,7 @@ export default function BusinessInfoCard({
             </div>
             <div>
               <p className="text-sm text-gray-500">Teléfono</p>
-              <a href={`tel:${phone}`} className="font-medium text-[var(--primary)] hover:underline">
+              <a href={`tel:${phone}`} className="font-medium text-primary hover:underline">
                 {phone}
               </a>
             </div>
@@ -62,7 +62,7 @@ export default function BusinessInfoCard({
               <p className="text-sm text-gray-500">Dirección</p>
               <button 
                 onClick={handleDirections}
-                className="font-medium text-[var(--primary)] hover:underline text-left"
+                className="font-medium text-primary hover:underline text-left"
               >
                 {fullAddress}
               </button>
@@ -79,7 +79,7 @@ export default function BusinessInfoCard({
             </div>
             <div>
               <p className="text-sm text-gray-500">Email</p>
-              <a href={`mailto:${email}`} className="font-medium text-[var(--primary)] hover:underline">
+              <a href={`mailto:${email}`} className="font-medium text-primary hover:underline">
                 {email}
               </a>
             </div>

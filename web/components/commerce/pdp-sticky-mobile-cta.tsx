@@ -83,7 +83,7 @@ export function PdpStickyMobileCta({
 
   return (
     <div
-      className={`fixed inset-x-0 bottom-0 z-40 border-t border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] shadow-[0_-4px_12px_rgba(0,0,0,0.08)] transition-transform duration-200 md:hidden ${
+      className={`fixed inset-x-0 bottom-0 z-40 border-t border-[color:var(--border,#e5e7eb)] bg-surface shadow-[0_-4px_12px_rgba(0,0,0,0.08)] transition-transform duration-200 md:hidden ${
         visible ? 'translate-y-0' : 'translate-y-full'
       }`}
       aria-hidden={!visible}
@@ -103,7 +103,7 @@ export function PdpStickyMobileCta({
           type="button"
           onClick={handleAdd}
           disabled={outOfStock || adding}
-          className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] disabled:opacity-50"
+          className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] disabled:opacity-50"
         >
           {outOfStock ? 'Agotado' : adding ? 'Agregando…' : 'Agregar'}
         </button>

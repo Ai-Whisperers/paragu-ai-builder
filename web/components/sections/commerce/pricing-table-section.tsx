@@ -58,12 +58,12 @@ export function PricingTableSection({
   }
 
   return (
-    <section id="paquetes" className="bg-[var(--background)] py-16 sm:py-20">
+    <section id="paquetes" className="bg-background py-16 sm:py-20">
       <Container>
         <div className="text-center mb-12">
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
           )}
         </div>
 
@@ -102,13 +102,13 @@ export function PricingTableSection({
                 {plan.price && (
                   <div className="mt-2">
                     <span
-                      className="text-3xl font-bold"
+                      className="text-xl sm:text-3xl font-bold"
                       style={{ color: 'var(--primary)' }}
                     >
                       {plan.price}
                     </span>
                     {plan.period && (
-                      <span className="text-[var(--text-muted)]">/{plan.period}</span>
+                      <span className="text-muted-foreground">/{plan.period}</span>
                     )}
                   </div>
                 )}

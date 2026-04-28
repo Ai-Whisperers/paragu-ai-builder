@@ -49,14 +49,14 @@ export function FeaturedMenuSection({
   const filtered = categories.filter((c) => (c.items?.length ?? 0) > 0 || c.description)
 
   return (
-    <section id="featured-menu" className="bg-[var(--background)] py-16 sm:py-20">
+    <section id="featured-menu" className="bg-background py-16 sm:py-20">
       <Container>
         <AnimatedSectionHeader className="mb-12 text-center">
           <Heading as="h2" level={2} className="mb-4">
             {title}
           </Heading>
           {subtitle && (
-            <p className="mx-auto max-w-2xl text-lg text-[var(--secondary)]">{subtitle}</p>
+            <p className="mx-auto max-w-2xl text-lg text-secondary">{subtitle}</p>
           )}
         </AnimatedSectionHeader>
 
@@ -65,8 +65,8 @@ export function FeaturedMenuSection({
             <AnimateOnScroll key={category.key} stagger={index}>
               <Card className="group h-full overflow-hidden transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <CardContent className="p-6">
-                  <div className="mb-4 flex items-center gap-3 text-[var(--primary)]">
-                    <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-[var(--primary)]/10 transition-transform duration-300 group-hover:scale-110">
+                  <div className="mb-4 flex items-center gap-3 text-primary">
+                    <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 transition-transform duration-300 group-hover:scale-110">
                       <SushiCategoryIcon
                         category={category.key}
                         width="32"
@@ -90,11 +90,11 @@ export function FeaturedMenuSection({
                           className="flex items-center justify-between gap-2 border-t border-[var(--surface-light)] pt-2 text-sm first:border-t-0 first:pt-0"
                         >
                           <div className="flex-1">
-                            <span className="font-medium text-[var(--text)]">
+                            <span className="font-medium text-foreground">
                               {item.name}
                             </span>
                             {item.nameJa && (
-                              <span className="ml-1 text-xs text-[var(--text-muted)]">
+                              <span className="ml-1 text-xs text-muted-foreground">
                                 ({item.nameJa})
                               </span>
                             )}
@@ -111,7 +111,7 @@ export function FeaturedMenuSection({
                             )}
                           </div>
                           {item.price && (
-                            <span className="shrink-0 font-semibold text-[var(--primary)]">
+                            <span className="shrink-0 font-semibold text-primary">
                               {item.price}
                             </span>
                           )}
@@ -129,7 +129,7 @@ export function FeaturedMenuSection({
           <div className="mt-12 text-center">
             <a
               href={ctaHref ?? '#menu'}
-              className="inline-flex items-center gap-2 rounded-full bg-[var(--primary)] px-8 py-3 font-semibold text-[var(--primary-foreground)] shadow-lg transition-transform hover:-translate-y-0.5 hover:shadow-xl"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-3 font-semibold text-[var(--primary-foreground)] shadow-lg transition-transform hover:-translate-y-0.5 hover:shadow-xl"
             >
               {ctaText}
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
@@ -165,20 +165,20 @@ export function FullMenuSection({
   japaneseTerms,
 }: FullMenuSectionProps) {
   return (
-    <section id="full-menu" className="bg-[var(--background)] py-16 sm:py-20">
+    <section id="full-menu" className="bg-background py-16 sm:py-20">
       <Container>
         <AnimatedSectionHeader className="mb-12 text-center">
           <Heading as="h1" level={1} className="mb-4">
             {title}
           </Heading>
           {subtitle && (
-            <p className="mx-auto max-w-2xl text-lg text-[var(--secondary)]">{subtitle}</p>
+            <p className="mx-auto max-w-2xl text-lg text-secondary">{subtitle}</p>
           )}
         </AnimatedSectionHeader>
 
         {dietaryLabels && Object.keys(dietaryLabels).length > 0 && (
-          <div className="mx-auto mb-12 flex max-w-3xl flex-wrap items-center justify-center gap-3 rounded-2xl bg-[var(--surface-light)] p-4">
-            <span className="text-sm font-semibold text-[var(--text-muted)]">
+          <div className="mx-auto mb-12 flex max-w-3xl flex-wrap items-center justify-center gap-3 rounded-2xl bg-surface-light p-4">
+            <span className="text-sm font-semibold text-muted-foreground">
               Etiquetas:
             </span>
             {Object.entries(dietaryLabels).map(([tag, label]) => (
@@ -186,7 +186,7 @@ export function FullMenuSection({
                 <Badge variant="outline" className="text-[10px] uppercase">
                   {tag}
                 </Badge>
-                <span className="text-xs text-[var(--text-light)]">{label}</span>
+                <span className="text-xs text-muted-foreground">{label}</span>
               </div>
             ))}
           </div>
@@ -197,7 +197,7 @@ export function FullMenuSection({
             <AnimateOnScroll key={category.key} stagger={Math.min(index, 5)}>
               <div>
                 <div className="mb-6 flex items-center gap-4 border-b border-[var(--surface-light)] pb-4">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[var(--primary)]/10 text-[var(--primary)]">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
                     <SushiCategoryIcon category={category.key} width="28" height="28" />
                   </div>
                   <div>
@@ -205,7 +205,7 @@ export function FullMenuSection({
                       {category.title}
                     </Heading>
                     {category.description && (
-                      <p className="text-sm text-[var(--text-muted)]">
+                      <p className="text-sm text-muted-foreground">
                         {category.description}
                       </p>
                     )}
@@ -217,15 +217,15 @@ export function FullMenuSection({
                     {category.items.map((item, i) => (
                       <div
                         key={i}
-                        className="flex items-start justify-between gap-3 rounded-lg p-3 transition-colors hover:bg-[var(--surface-light)]"
+                        className="flex items-start justify-between gap-3 rounded-lg p-3 transition-colors hover:bg-surface-light"
                       >
                         <div className="flex-1">
                           <div className="flex flex-wrap items-baseline gap-2">
-                            <p className="font-semibold text-[var(--text)]">
+                            <p className="font-semibold text-foreground">
                               {item.name}
                             </p>
                             {item.nameJa && (
-                              <p className="text-xs text-[var(--text-muted)]">
+                              <p className="text-xs text-muted-foreground">
                                 {item.nameJa}
                                 {japaneseTerms?.[item.nameJa.toLowerCase()] && (
                                   <span className="ml-1 italic">
@@ -236,7 +236,7 @@ export function FullMenuSection({
                             )}
                           </div>
                           {item.description && (
-                            <p className="mt-1 text-sm text-[var(--text-muted)]">
+                            <p className="mt-1 text-sm text-muted-foreground">
                               {item.description}
                             </p>
                           )}
@@ -256,7 +256,7 @@ export function FullMenuSection({
                         </div>
                         {item.price && (
                           <div className="shrink-0 text-right">
-                            <p className="font-semibold text-[var(--primary)]">
+                            <p className="font-semibold text-primary">
                               {item.price}
                             </p>
                           </div>
@@ -266,7 +266,7 @@ export function FullMenuSection({
                   </div>
                 ) : (
                   category.description === undefined && (
-                    <p className="italic text-[var(--text-muted)]">
+                    <p className="italic text-muted-foreground">
                       Consulta con nuestro equipo por la selección del día.
                     </p>
                   )

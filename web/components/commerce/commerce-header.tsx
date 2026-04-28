@@ -24,7 +24,7 @@ export function CommerceHeader({ siteSlug, businessName, locale = 'es', whatsapp
   const [open, setOpen] = useState(false)
   return (
     <>
-      <header className="sticky top-0 z-30 border-b border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] shadow-sm">
+      <header className="sticky top-0 z-30 border-b border-[color:var(--border,#e5e7eb)] bg-surface shadow-sm">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <Link href={`/s/${locale}/${siteSlug}`} className="text-lg font-semibold">
             {businessName}

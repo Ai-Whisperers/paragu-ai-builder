@@ -41,7 +41,7 @@ function NeutralPlaceholder({
   const ratio = aspectRatio ?? '4:5'
   return (
     <div
-      className={`relative flex items-center justify-center overflow-hidden rounded-lg bg-[color:var(--surface-muted,#f3f4f6)] ${ASPECT_CLASS[ratio]} ${className ?? ''}`}
+      className={`relative flex items-center justify-center overflow-hidden rounded-lg bg-surface-light ${ASPECT_CLASS[ratio]} ${className ?? ''}`}
       aria-label={alt}
     >
       <svg
@@ -82,7 +82,7 @@ export function ProductImage({ image, alt, aspectRatio = '4:5', priority, sizes,
   }
 
   return (
-    <div className={`relative overflow-hidden rounded-lg bg-[color:var(--surface-muted,#f3f4f6)] ${ASPECT_CLASS[aspectRatio]} ${className ?? ''}`}>
+    <div className={`relative overflow-hidden rounded-lg bg-surface-light ${ASPECT_CLASS[aspectRatio]} ${className ?? ''}`}>
       <Image
         src={image.url}
         alt={image.alt ?? alt}

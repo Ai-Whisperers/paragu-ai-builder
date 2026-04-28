@@ -50,7 +50,7 @@ export function OpenHoursStatusSection({
 
   if (open === null) return null
   return (
-    <section className="py-4 bg-[var(--surface)]">
+    <section className="py-4 bg-surface">
       <Container>
         <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
           <span
@@ -64,7 +64,7 @@ export function OpenHoursStatusSection({
             <span>{open ? openLabel : closedLabel}</span>
           </span>
           {showHours && (
-            <div className="text-[var(--text-muted)]">
+            <div className="text-muted-foreground">
               {Object.entries(safeHours).map(([day, range], i) => (
                 <span key={i} className="mr-3">
                   <strong>{day}:</strong> {range}

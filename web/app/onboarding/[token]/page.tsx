@@ -31,11 +31,11 @@ export default function OnboardingPage({ params }: { params: Promise<{ token: st
   }
 
   return (
-    <div className="min-h-screen bg-[var(--background)] py-12">
+    <div className="min-h-screen bg-background py-12">
       <Container className="max-w-2xl">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-[var(--text)]">Configurá tu sitio web</h1>
-          <p className="text-[var(--text-muted)] mt-2">Completá estos datos y tendrás tu sitio listo en 24 horas</p>
+          <h1 className="text-3xl font-bold text-foreground">Configurá tu sitio web</h1>
+          <p className="text-muted-foreground mt-2">Completá estos datos y tendrás tu sitio listo en 24 horas</p>
         </div>
 
         {step === 1 && (
@@ -67,7 +67,7 @@ export default function OnboardingPage({ params }: { params: Promise<{ token: st
                 <input className="w-full border rounded-lg p-2 text-sm" placeholder="Precio (ej: Gs. 50.000)" value={s.price} onChange={e => { const sv = [...form.services]; sv[i].price = e.target.value; update('services', sv) }} />
               </div>
             ))}
-            <button onClick={addService} className="text-sm text-[var(--primary)]">+ Agregar otro servicio</button>
+            <button onClick={addService} className="text-sm text-primary">+ Agregar otro servicio</button>
             <div className="flex gap-3">
               <Button variant="outline" onClick={() => setStep(1)}>← Atrás</Button>
               <Button onClick={() => setStep(3)} className="flex-1">Continuar</Button>
@@ -94,8 +94,8 @@ export default function OnboardingPage({ params }: { params: Promise<{ token: st
         {step === 4 && (
           <Card><CardContent className="p-6 space-y-4 text-center">
             <h2 className="text-xl font-semibold">4. Casi listo! ✅</h2>
-            <p className="text-[var(--text-muted)]">Revisá que todos los datos sean correctos y confirmá para recibir tu sitio web.</p>
-            <div className="bg-[var(--surface)] rounded-lg p-4 text-left text-sm space-y-1">
+            <p className="text-muted-foreground">Revisá que todos los datos sean correctos y confirmá para recibir tu sitio web.</p>
+            <div className="bg-surface rounded-lg p-4 text-left text-sm space-y-1">
               <p><strong>Negocio:</strong> {form.businessName}</p>
               <p><strong>Teléfono:</strong> {form.phone}</p>
               <p><strong>Email:</strong> {form.email}</p>
@@ -112,7 +112,7 @@ export default function OnboardingPage({ params }: { params: Promise<{ token: st
           <Card><CardContent className="p-6 space-y-4 text-center">
             <div className="text-6xl mb-4">🎉</div>
             <h2 className="text-2xl font-bold">Recibimos tus datos!</h2>
-            <p className="text-[var(--text-muted)]">En las próximas 24 horas tendrás tu sitio web listo. Te vamos a notificar por WhatsApp cuando esté online.</p>
+            <p className="text-muted-foreground">En las próximas 24 horas tendrás tu sitio web listo. Te vamos a notificar por WhatsApp cuando esté online.</p>
           </CardContent></Card>
         )}
       </Container>

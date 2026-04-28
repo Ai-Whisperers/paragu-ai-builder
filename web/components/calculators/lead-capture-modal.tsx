@@ -89,9 +89,9 @@ export function LeadCaptureModal({ calculatorName, results, title, subtitle, cta
   }
 
   return (
-    <div className="rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6 shadow-sm">
-      <h3 className="mb-2 text-lg font-semibold text-[var(--text)]">{title || L.title}</h3>
-      <p className="mb-4 text-sm text-[var(--text-light)]">{subtitle || L.subtitle}</p>
+    <div className="rounded-xl border border-border bg-surface p-6 shadow-sm">
+      <h3 className="mb-2 text-lg font-semibold text-foreground">{title || L.title}</h3>
+      <p className="mb-4 text-sm text-muted-foreground">{subtitle || L.subtitle}</p>
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <Input
@@ -116,7 +116,7 @@ export function LeadCaptureModal({ calculatorName, results, title, subtitle, cta
           {ctaLabel || L.cta}
         </Button>
 
-        <p className="text-xs text-[var(--text-muted)]">{L.privacy}</p>
+        <p className="text-xs text-muted-foreground">{L.privacy}</p>
       </form>
     </div>
   )

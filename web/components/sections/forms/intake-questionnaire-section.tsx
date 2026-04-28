@@ -111,7 +111,7 @@ export function IntakeQuestionnaireSection({
 
   if (submitted) {
     return (
-      <section className="py-16 bg-[var(--background)]">
+      <section className="py-16 bg-background">
         <Container>
           <Card className="max-w-xl mx-auto">
             <CardContent className="p-8 text-center">
@@ -124,16 +124,16 @@ export function IntakeQuestionnaireSection({
   }
 
   return (
-    <section className="py-16 bg-[var(--background)]">
+    <section className="py-16 bg-background">
       <Container>
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
         </AnimatedSectionHeader>
 
         <form
           onSubmit={onSubmit}
-          className="max-w-2xl mx-auto space-y-5 bg-[var(--surface)] rounded-lg p-6 shadow-sm"
+          className="max-w-2xl mx-auto space-y-5 bg-surface rounded-lg p-6 shadow-sm"
         >
           {questions.map((q) => (
             <QuestionField
@@ -144,7 +144,7 @@ export function IntakeQuestionnaireSection({
             />
           ))}
 
-          {error && <p className="text-sm text-[var(--primary)]">{error}</p>}
+          {error && <p className="text-sm text-primary">{error}</p>}
 
           <div className="flex items-center justify-between gap-4">
             <Button type="submit" disabled={submitting}>
@@ -155,7 +155,7 @@ export function IntakeQuestionnaireSection({
                 href={`https://wa.me/${cleanPhone(whatsappPhone)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-[var(--primary)] underline"
+                className="text-sm text-primary underline"
               >
                 {whatsappFallbackLabel}
               </a>
@@ -176,19 +176,19 @@ function QuestionField({
   value: AnswerValue
   onChange: (v: AnswerValue) => void
 }) {
-  const labelClasses = 'block text-sm font-medium text-[var(--text)] mb-1'
+  const labelClasses = 'block text-sm font-medium text-foreground mb-1'
   const inputClasses =
-    'w-full border border-[var(--surface-light)] rounded-md px-3 py-2 bg-[var(--surface)] text-[var(--text)]'
+    'w-full border border-[var(--surface-light)] rounded-md px-3 py-2 bg-surface text-foreground'
 
   const label = (
     <label htmlFor={question.id} className={labelClasses}>
       {question.label}
-      {question.required && <span className="text-[var(--primary)] ml-1">*</span>}
+      {question.required && <span className="text-primary ml-1">*</span>}
     </label>
   )
 
   const helpText = question.helpText && (
-    <p className="text-xs text-[var(--text-muted)] mt-1">{question.helpText}</p>
+    <p className="text-xs text-muted-foreground mt-1">{question.helpText}</p>
   )
 
   switch (question.kind) {
@@ -272,7 +272,7 @@ function QuestionField({
                   checked={value === o.value}
                   onChange={() => onChange(o.value)}
                 />
-                <span className="text-sm text-[var(--text)]">{o.label}</span>
+                <span className="text-sm text-foreground">{o.label}</span>
               </label>
             ))}
           </div>
@@ -297,7 +297,7 @@ function QuestionField({
                       onChange(next)
                     }}
                   />
-                  <span className="text-sm text-[var(--text)]">{o.label}</span>
+                  <span className="text-sm text-foreground">{o.label}</span>
                 </label>
               )
             })}

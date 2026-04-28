@@ -40,14 +40,14 @@ export function ROICalculator() {
       : '— no recupera'
 
   return (
-    <div className="mx-auto max-w-3xl rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 md:p-10">
+    <div className="mx-auto max-w-3xl rounded-3xl border border-border bg-surface p-6 md:p-10">
       <div className="mb-6 flex items-center gap-3">
         <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--primary)] to-[var(--accent)] text-[var(--primary-foreground)]">
           <Calculator size={22} />
         </div>
         <div>
           <Heading level={3} className="text-xl">¿Cuándo se paga sola?</Heading>
-          <p className="text-sm text-[var(--text-muted)]">
+          <p className="text-sm text-muted-foreground">
             Estimá tu retorno con tus números reales.
           </p>
         </div>
@@ -55,7 +55,7 @@ export function ROICalculator() {
 
       <div className="grid gap-6 md:grid-cols-2">
         <label className="block">
-          <span className="mb-2 block text-sm font-semibold text-[var(--text)]">
+          <span className="mb-2 block text-sm font-semibold text-foreground">
             Ticket promedio (Gs)
           </span>
           <input
@@ -64,12 +64,12 @@ export function ROICalculator() {
             step={10_000}
             value={ticket}
             onChange={(e) => setTicket(Math.max(0, Number(e.target.value)))}
-            className="w-full rounded-xl border border-[var(--border)] bg-[var(--background)] px-4 py-3 text-[var(--text)] focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]/20"
+            className="w-full rounded-xl border border-border bg-background px-4 py-3 text-foreground focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-primary/20"
           />
         </label>
 
         <label className="block">
-          <span className="mb-2 block text-sm font-semibold text-[var(--text)]">
+          <span className="mb-2 block text-sm font-semibold text-foreground">
             Clientes nuevos por mes (gracias al sitio)
           </span>
           <input
@@ -77,12 +77,12 @@ export function ROICalculator() {
             min={0}
             value={newClients}
             onChange={(e) => setNewClients(Math.max(0, Number(e.target.value)))}
-            className="w-full rounded-xl border border-[var(--border)] bg-[var(--background)] px-4 py-3 text-[var(--text)] focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]/20"
+            className="w-full rounded-xl border border-border bg-background px-4 py-3 text-foreground focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-primary/20"
           />
         </label>
 
         <div className="md:col-span-2">
-          <span className="mb-2 block text-sm font-semibold text-[var(--text)]">Plan</span>
+          <span className="mb-2 block text-sm font-semibold text-foreground">Plan</span>
           <div className="grid grid-cols-2 gap-3">
             {(['presencia', 'crecimiento'] as const).map((key) => (
               <button
@@ -91,8 +91,8 @@ export function ROICalculator() {
                 onClick={() => setPlanKey(key)}
                 className={`rounded-xl border-2 px-4 py-3 text-sm font-semibold transition-all ${
                   planKey === key
-                    ? 'border-[var(--primary)] bg-[var(--primary)]/5 text-[var(--text)]'
-                    : 'border-[var(--border)] text-[var(--text-light)] hover:border-[var(--primary)]/50'
+                    ? 'border-[var(--primary)] bg-primary/5 text-foreground'
+                    : 'border-border text-muted-foreground hover:border-[var(--primary)]/50'
                 }`}
               >
                 {PLAN_COSTS[key].name}
@@ -102,7 +102,7 @@ export function ROICalculator() {
         </div>
       </div>
 
-      <div className="mt-8 grid gap-4 rounded-2xl bg-[var(--surface-light)] p-6 sm:grid-cols-3">
+      <div className="mt-8 grid gap-4 rounded-2xl bg-surface-light p-6 sm:grid-cols-3">
         <Stat label="Ingreso extra mensual" value={fmt(monthlyRevenue)} />
         <Stat label="Neto mensual (después del plan)" value={fmt(monthlyNet)} highlight={monthlyNet > 0} />
         <Stat
@@ -111,17 +111,17 @@ export function ROICalculator() {
         />
       </div>
 
-      <div className="mt-4 flex items-center justify-center gap-2 text-sm text-[var(--text-muted)]">
+      <div className="mt-4 flex items-center justify-center gap-2 text-sm text-muted-foreground">
         <TrendingUp size={16} className="text-[var(--success)]" />
         <span>
           Año 1 neto estimado:{' '}
-          <strong className={year1Net > 0 ? 'text-[var(--success)]' : 'text-[var(--text)]'}>
+          <strong className={year1Net > 0 ? 'text-[var(--success)]' : 'text-foreground'}>
             {fmt(year1Net)}
           </strong>
         </span>
       </div>
 
-      <p className="mt-6 text-center text-xs text-[var(--text-muted)]">
+      <p className="mt-6 text-center text-xs text-muted-foreground">
         Estimación referencial · no incluye impuestos ni gastos operativos del propio servicio.
       </p>
     </div>
@@ -131,10 +131,10 @@ export function ROICalculator() {
 function Stat({ label, value, highlight = false }: { label: string; value: string; highlight?: boolean }) {
   return (
     <div className="text-center">
-      <p className="text-xs uppercase tracking-wider text-[var(--text-muted)]">{label}</p>
+      <p className="text-xs uppercase tracking-wider text-muted-foreground">{label}</p>
       <p
         className={`mt-1 text-xl font-bold md:text-2xl ${
-          highlight ? 'text-[var(--success)]' : 'text-[var(--text)]'
+          highlight ? 'text-[var(--success)]' : 'text-foreground'
         }`}
       >
         {value}

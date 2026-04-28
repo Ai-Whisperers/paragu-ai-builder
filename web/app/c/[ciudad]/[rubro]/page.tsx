@@ -76,14 +76,14 @@ export default async function CityVerticalPage({ params }: { params: Promise<Par
           />
           <Container>
             <div className="mx-auto max-w-3xl text-center">
-              <p className="mb-3 inline-flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
+              <p className="mb-3 inline-flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-wider text-primary">
                 <MapPin size={14} />
                 {city.name} · {t.name}
               </p>
-              <h1 className="mb-6 text-4xl font-bold leading-tight text-[var(--text)] sm:text-5xl md:text-6xl">
+              <h1 className="mb-6 text-4xl font-bold leading-tight text-foreground sm:text-5xl md:text-6xl">
                 Sitio web para {t.name.toLowerCase()} en {city.name}
               </h1>
-              <p className="mx-auto mb-8 max-w-2xl text-lg text-[var(--text-light)] md:text-xl">
+              <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground md:text-xl">
                 {t.seoLead ??
                   `Plantilla profesional especializada para ${t.name.toLowerCase()}, lista para tu negocio en ${city.name}.`}
               </p>
@@ -92,7 +92,7 @@ export default async function CityVerticalPage({ params }: { params: Promise<Par
                   href={waLink(waMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-2 rounded-2xl bg-[var(--primary)] px-8 py-4 text-lg font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
+                  className="group inline-flex items-center gap-2 rounded-2xl bg-primary px-8 py-4 text-lg font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
                 >
                   <MessageCircle size={20} />
                   Pedir demo gratis
@@ -101,7 +101,7 @@ export default async function CityVerticalPage({ params }: { params: Promise<Par
                 {t.demoSlug && (
                   <Link
                     href={`/${t.demoSlug}`}
-                    className="inline-flex items-center gap-2 rounded-2xl border-2 border-[var(--border)] bg-[var(--surface)] px-8 py-4 text-lg font-bold text-[var(--text)] transition-all hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                    className="inline-flex items-center gap-2 rounded-2xl border-2 border-border bg-surface px-8 py-4 text-lg font-bold text-foreground transition-all hover:border-[var(--primary)] hover:text-primary"
                   >
                     Ver demo en vivo
                     <ExternalLink size={18} />
@@ -110,35 +110,35 @@ export default async function CityVerticalPage({ params }: { params: Promise<Par
               </div>
 
               {/* Local market context */}
-              <div className="mx-auto mt-12 grid max-w-2xl grid-cols-2 gap-4 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 text-left">
+              <div className="mx-auto mt-12 grid max-w-2xl grid-cols-2 gap-4 rounded-2xl border border-border bg-surface p-6 text-left">
                 <div>
-                  <p className="text-xs uppercase tracking-wider text-[var(--text-muted)]">
+                  <p className="text-xs uppercase tracking-wider text-muted-foreground">
                     Mercado total {t.name}
                   </p>
-                  <p className="mt-1 text-2xl font-bold text-[var(--primary)]">
+                  <p className="mt-1 text-2xl font-bold text-primary">
                     {t.leads > 0 ? `${t.leads.toLocaleString('es-PY')} negocios` : 'Datos en curso'}
                   </p>
                   {t.pct > 0 && (
-                    <p className="text-xs text-[var(--text-muted)]">
+                    <p className="text-xs text-muted-foreground">
                       {t.pct}% sin web propia
                     </p>
                   )}
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-wider text-[var(--text-muted)]">
+                  <p className="text-xs uppercase tracking-wider text-muted-foreground">
                     Mercado total {city.name}
                   </p>
-                  <p className="mt-1 text-2xl font-bold text-[var(--primary)]">
+                  <p className="mt-1 text-2xl font-bold text-primary">
                     {city.businesses.toLocaleString('es-PY')} negocios
                   </p>
-                  <p className="text-xs text-[var(--text-muted)]">
+                  <p className="text-xs text-muted-foreground">
                     {city.noWebPct}% sin web propia
                   </p>
                 </div>
               </div>
 
               {isCityFavorite && (
-                <p className="mt-6 inline-flex items-center gap-2 rounded-full bg-[var(--success)]/10 px-4 py-2 text-sm font-medium text-[var(--success)]">
+                <p className="mt-6 inline-flex items-center gap-2 rounded-full bg-success/10 px-4 py-2 text-sm font-medium text-[var(--success)]">
                   <Sparkles size={14} />
                   Rubro con alta concentración en {city.name}
                 </p>
@@ -148,10 +148,10 @@ export default async function CityVerticalPage({ params }: { params: Promise<Par
         </section>
 
         {/* What's included */}
-        <section className="border-y border-[var(--border)] bg-[var(--surface-light)] py-16">
+        <section className="border-y border-border bg-surface-light py-16">
           <Container>
             <div className="mx-auto max-w-3xl">
-              <h2 className="mb-8 text-center text-2xl font-bold text-[var(--text)]">
+              <h2 className="mb-8 text-center text-2xl font-bold text-foreground">
                 Lo que incluye tu sitio
               </h2>
               <ul className="grid gap-3 sm:grid-cols-2">
@@ -167,12 +167,12 @@ export default async function CityVerticalPage({ params }: { params: Promise<Par
                 ].map((feat) => (
                   <li
                     key={feat}
-                    className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--surface)] p-4"
+                    className="flex items-start gap-3 rounded-xl border border-border bg-surface p-4"
                   >
-                    <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[var(--success)]/10 text-[var(--success)]">
+                    <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-success/10 text-[var(--success)]">
                       <Check size={14} />
                     </span>
-                    <span className="text-sm text-[var(--text)]">{feat}</span>
+                    <span className="text-sm text-foreground">{feat}</span>
                   </li>
                 ))}
               </ul>
@@ -185,7 +185,7 @@ export default async function CityVerticalPage({ params }: { params: Promise<Par
           <Container>
             {sister.length > 0 && (
               <div className="mx-auto mb-12 max-w-5xl">
-                <h3 className="mb-6 text-center text-sm font-bold uppercase tracking-wider text-[var(--text-muted)]">
+                <h3 className="mb-6 text-center text-sm font-bold uppercase tracking-wider text-muted-foreground">
                   Otros rubros con demanda en {city.name}
                 </h3>
                 <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -193,11 +193,11 @@ export default async function CityVerticalPage({ params }: { params: Promise<Par
                     <Link
                       key={s.id}
                       href={`/c/${ciudad}/${s.seoSlug ?? s.id.replace(/_/g, '-')}`}
-                      className="rounded-xl border border-[var(--border)] bg-[var(--surface)] p-4 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-md"
+                      className="rounded-xl border border-border bg-surface p-4 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-md"
                     >
                       <div className="mb-2 h-1 w-8 rounded-full" style={{ backgroundColor: s.color }} />
-                      <p className="font-bold text-[var(--text)]">{s.name}</p>
-                      <p className="text-xs text-[var(--text-muted)]">en {city.name}</p>
+                      <p className="font-bold text-foreground">{s.name}</p>
+                      <p className="text-xs text-muted-foreground">en {city.name}</p>
                     </Link>
                   ))}
                 </div>
@@ -207,14 +207,14 @@ export default async function CityVerticalPage({ params }: { params: Promise<Par
             <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
               <Link
                 href={`/p/${verticalSlug}`}
-                className="inline-flex items-center gap-1 rounded-full border border-[var(--border)] bg-[var(--surface)] px-5 py-2 font-medium text-[var(--text)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-5 py-2 font-medium text-foreground hover:border-[var(--primary)] hover:text-primary"
               >
                 {t.name} en todo Paraguay
                 <ArrowRight size={14} />
               </Link>
               <Link
                 href={`/c/${ciudad}`}
-                className="inline-flex items-center gap-1 rounded-full border border-[var(--border)] bg-[var(--surface)] px-5 py-2 font-medium text-[var(--text)] hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                className="inline-flex items-center gap-1 rounded-full border border-border bg-surface px-5 py-2 font-medium text-foreground hover:border-[var(--primary)] hover:text-primary"
               >
                 Todos los rubros en {city.name}
                 <ArrowRight size={14} />

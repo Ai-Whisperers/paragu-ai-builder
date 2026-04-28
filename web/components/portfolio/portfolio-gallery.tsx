@@ -49,7 +49,7 @@ export default function PortfolioGallery({
             onClick={() => setSelectedCategory('all')}
             className={`px-4 py-2 rounded-full text-sm whitespace-nowrap transition-colors ${
               selectedCategory === 'all' 
-                ? 'bg-[var(--primary)] text-white' 
+                ? 'bg-primary text-white' 
                 : 'bg-gray-100 hover:bg-gray-200'
             }`}
           >
@@ -61,7 +61,7 @@ export default function PortfolioGallery({
               onClick={() => setSelectedCategory(cat)}
               className={`px-4 py-2 rounded-full text-sm whitespace-nowrap transition-colors ${
                 selectedCategory === cat 
-                  ? 'bg-[var(--primary)] text-white' 
+                  ? 'bg-primary text-white' 
                   : 'bg-gray-100 hover:bg-gray-200'
               }`}
             >

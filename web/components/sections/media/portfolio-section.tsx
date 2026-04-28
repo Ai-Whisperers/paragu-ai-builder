@@ -58,25 +58,25 @@ export function PortfolioSection({
     : [...new Set(items.map(item => item.category).filter(Boolean))] as string[]
 
   return (
-    <section id="portafolio" className="bg-[var(--background)] py-16 sm:py-20">
-      <div className="mx-auto max-w-6xl px-4">
-        <div className="text-center mb-12">
-          <Heading level={2} className="text-3xl font-bold text-[var(--text)]" style={{ fontFamily: 'var(--font-heading)' }}>
+    <section id="portafolio" className="font-heading bg-background py-16 sm:py-20">
+      <div className="font-heading mx-auto max-w-6xl px-4">
+        <div className="font-heading text-center mb-12">
+          <Heading level={2} className="font-heading text-xl sm:text-3xl font-bold text-foreground">
             {resolvedTitle}
           </Heading>
           {subtitle && (
-            <p className="mt-2 text-[var(--text-muted)]">{subtitle}</p>
+            <p className="font-heading mt-2 text-muted-foreground">{subtitle}</p>
           )}
         </div>
 
         {uniqueCategories.length > 0 && (
-          <div className="flex justify-center gap-2 flex-wrap mb-8">
+          <div className="font-heading flex justify-center gap-2 flex-wrap mb-8">
             <button
               onClick={() => setSelectedCategory('all')}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                 selectedCategory === 'all'
-                  ? 'bg-[var(--primary)] text-white'
-                  : 'bg-[var(--surface-light)] text-[var(--text)] hover:bg-[var(--primary)] hover:text-white'
+                  ? 'bg-primary text-white'
+                  : 'bg-surface-light text-foreground hover:bg-primary hover:text-white'
               }`}
             >
               {labels.all}
@@ -87,8 +87,8 @@ export function PortfolioSection({
                 onClick={() => setSelectedCategory(cat)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                   selectedCategory === cat
-                    ? 'bg-[var(--primary)] text-white'
-                    : 'bg-[var(--surface-light)] text-[var(--text)] hover:bg-[var(--primary)] hover:text-white'
+                    ? 'bg-primary text-white'
+                    : 'bg-surface-light text-foreground hover:bg-primary hover:text-white'
                 }`}
               >
                 {cat}
@@ -97,11 +97,11 @@ export function PortfolioSection({
           </div>
         )}
 
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="font-heading grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {filteredItems.map((item, index) => (
             <div
               key={index}
-              className="group relative aspect-square overflow-hidden rounded-lg bg-[var(--surface-light)]"
+              className="font-heading group relative aspect-square overflow-hidden rounded-lg bg-surface-light"
             >
               {item.image || item.imageUrl ? (
                 <Image
@@ -109,21 +109,21 @@ export function PortfolioSection({
                   alt={item.title}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover transition-transform duration-slow group-hover:scale-110"
+                  className="font-heading object-cover transition-transform duration-slow group-hover:scale-110"
                   unoptimized={(item.image || item.imageUrl || '').startsWith('data:')}
                 />
               ) : (
-                <div className="flex h-full items-center justify-center bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)]">
-                  <span className="text-4xl font-bold text-white opacity-30">
+                <div className="font-heading flex h-full items-center justify-center bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)]">
+                  <span className="font-heading text-2xl sm:text-4xl font-bold text-white opacity-30">
                     {item.title.charAt(0)}
                   </span>
                 </div>
               )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 transition-opacity duration-normal group-hover:opacity-100">
-                <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <Heading level={3} className="text-lg font-semibold text-white">{item.title}</Heading>
+              <div className="font-heading absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 transition-opacity duration-normal group-hover:opacity-100">
+                <div className="font-heading absolute bottom-0 left-0 right-0 p-4">
+                  <Heading level={3} className="font-heading text-lg font-semibold text-white">{item.title}</Heading>
                   {item.category && (
-                    <p className="text-sm text-white/80">{item.category}</p>
+                    <p className="font-heading text-sm text-white/80">{item.category}</p>
                   )}
                 </div>
               </div>

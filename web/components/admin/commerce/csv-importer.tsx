@@ -76,7 +76,7 @@ export function CsvImporter({ businessId }: { businessId: string }) {
 
   return (
     <div className="space-y-6">
-      <section className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+      <section className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
         <h2 className="mb-2 text-sm font-semibold">1. Preparar el CSV</h2>
         <p className="mb-3 text-xs text-[color:var(--text-muted,#6b7280)]">
           Columnas obligatorias: <code>slug</code>, <code>name</code>, <code>price</code>. Opcionales:{' '}
@@ -86,13 +86,13 @@ export function CsvImporter({ businessId }: { businessId: string }) {
         <button
           type="button"
           onClick={downloadTemplate}
-          className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+          className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-surface-light"
         >
           Descargar plantilla CSV
         </button>
       </section>
 
-      <section className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+      <section className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
         <h2 className="mb-3 text-sm font-semibold">2. Subir archivo</h2>
         <div className="flex flex-wrap items-center gap-3">
           <input
@@ -108,7 +108,7 @@ export function CsvImporter({ businessId }: { businessId: string }) {
             type="button"
             onClick={() => run('preview')}
             disabled={!file || loading !== 'idle'}
-            className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)] disabled:opacity-50"
+            className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-surface-light disabled:opacity-50"
           >
             {loading === 'previewing' ? 'Procesando…' : 'Vista previa'}
           </button>
@@ -123,7 +123,7 @@ export function CsvImporter({ businessId }: { businessId: string }) {
       {error && <p role="alert" className="rounded bg-red-50 p-3 text-sm text-red-700">{error}</p>}
 
       {preview && (
-        <section className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+        <section className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
           <h2 className="mb-3 text-sm font-semibold">3. Vista previa</h2>
 
           {preview.summary.headerWarnings.length > 0 ? (
@@ -199,7 +199,7 @@ export function CsvImporter({ businessId }: { businessId: string }) {
               type="button"
               onClick={() => run('commit')}
               disabled={loading !== 'idle'}
-              className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
+              className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
             >
               {loading === 'committing'
                 ? 'Guardando…'

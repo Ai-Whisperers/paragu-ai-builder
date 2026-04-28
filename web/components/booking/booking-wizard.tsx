@@ -106,11 +106,11 @@ export default function BookingWizard({
         {[1, 2, 3, 4].map(s => (
           <div key={s} className="flex items-center">
             <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
-              step >= s ? 'bg-[var(--primary)] text-white' : 'bg-gray-200 text-gray-500'
+              step >= s ? 'bg-primary text-white' : 'bg-gray-200 text-gray-500'
             }`}>
               {s}
             </div>
-            {s < 4 && <div className={`w-8 h-0.5 ${step > s ? 'bg-[var(--primary)]' : 'bg-gray-200'}`} />}
+            {s < 4 && <div className={`w-8 h-0.5 ${step > s ? 'bg-primary' : 'bg-gray-200'}`} />}
           </div>
         ))}
       </div>
@@ -127,7 +127,7 @@ export default function BookingWizard({
           <button
             onClick={() => selectedService && setStep(2)}
             disabled={!selectedService}
-            className="mt-6 w-full bg-[var(--primary)] text-white font-medium py-3 rounded-lg hover:opacity-90 disabled:opacity-50"
+            className="mt-6 w-full bg-primary text-white font-medium py-3 rounded-lg hover:opacity-90 disabled:opacity-50"
           >
             Continuar
           </button>
@@ -165,7 +165,7 @@ export default function BookingWizard({
               <p className="text-gray-600 mb-4">No hay personal específico disponible.</p>
               <button
                 onClick={() => handleStaffSelect(null)}
-                className="bg-[var(--primary)] text-white px-6 py-2 rounded-lg"
+                className="bg-primary text-white px-6 py-2 rounded-lg"
               >
                 Continuar
               </button>

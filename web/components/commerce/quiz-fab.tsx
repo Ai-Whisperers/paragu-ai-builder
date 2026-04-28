@@ -21,7 +21,7 @@ export function QuizFab({ href, label = 'Ayudame a elegir' }: Props) {
     <Link
       href={href}
       aria-label={label}
-      className="group fixed bottom-5 right-5 z-40 inline-flex items-center gap-2 rounded-full bg-[color:var(--primary,#111)] px-5 py-3 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] shadow-lg transition-all hover:-translate-y-0.5 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] sm:bottom-6 sm:right-6"
+      className="group fixed bottom-5 right-5 z-40 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] shadow-lg transition-all hover:-translate-y-0.5 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] sm:bottom-6 sm:right-6"
     >
       <svg
         aria-hidden="true"

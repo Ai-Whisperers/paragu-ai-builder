@@ -180,13 +180,13 @@ export default async function PressPage({ params }: Props) {
         }}
       >
         <Container>
-          <Heading level={1} className="mb-4 text-[var(--primary)]">
+          <Heading level={1} className="mb-4 text-primary">
             {copy.title}
           </Heading>
-          <p className="max-w-3xl text-lg text-[var(--text-muted)]">{copy.subtitle}</p>
+          <p className="max-w-3xl text-lg text-muted-foreground">{copy.subtitle}</p>
 
           {brandAssets.length === 0 && pressAssets.length === 0 && (
-            <p className="mt-12 text-[var(--text-muted)]">{copy.empty}</p>
+            <p className="mt-12 text-muted-foreground">{copy.empty}</p>
           )}
 
           {brandAssets.length > 0 && (
@@ -212,16 +212,16 @@ function AssetSection({
 }) {
   return (
     <section className="mt-16">
-      <Heading level={2} className="mb-6 text-2xl font-semibold text-[var(--primary)]">
+      <Heading level={2} className="mb-6 text-2xl font-semibold text-primary">
         {title}
       </Heading>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {assets.map(({ label, asset }) => (
           <div
             key={asset.src}
-            className="flex flex-col overflow-hidden rounded-lg border border-[var(--border)] bg-[var(--surface)] shadow-card"
+            className="flex flex-col overflow-hidden rounded-lg border border-border bg-surface shadow-card"
           >
-            <div className="aspect-[16/9] w-full overflow-hidden bg-[var(--surface-light)]">
+            <div className="aspect-[16/9] w-full overflow-hidden bg-surface-light">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={asset.src}
@@ -232,11 +232,11 @@ function AssetSection({
               />
             </div>
             <div className="flex flex-1 flex-col gap-3 p-5">
-              <p className="text-sm font-medium text-[var(--text)]">{label}</p>
+              <p className="text-sm font-medium text-foreground">{label}</p>
               <a
                 href={asset.src}
                 download
-                className="mt-auto inline-flex items-center justify-center rounded-md bg-[var(--secondary)] px-4 py-2 text-sm font-semibold text-white transition-all hover:-translate-y-0.5"
+                className="mt-auto inline-flex items-center justify-center rounded-md bg-secondary px-4 py-2 text-sm font-semibold text-white transition-all hover:-translate-y-0.5"
               >
                 {downloadLabel}
               </a>

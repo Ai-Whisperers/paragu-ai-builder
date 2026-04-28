@@ -169,7 +169,7 @@ export function HeaderSearch({ siteSlug, locale }: Props) {
       {showDropdown ? (
         <div
           role="listbox"
-          className="absolute right-0 top-full z-40 mt-1 w-[min(22rem,90vw)] overflow-hidden rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] shadow-xl"
+          className="absolute right-0 top-full z-40 mt-1 w-[min(22rem,90vw)] overflow-hidden rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface shadow-xl"
         >
           {term.length >= 2 ? (
             <>
@@ -182,7 +182,7 @@ export function HeaderSearch({ siteSlug, locale }: Props) {
                   type="button"
                   role="option"
                   onClick={() => pickSuggestion(s)}
-                  className="flex w-full items-center gap-2 border-b border-[color:var(--border,#e5e7eb)] p-2 text-left last:border-b-0 hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                  className="flex w-full items-center gap-2 border-b border-[color:var(--border,#e5e7eb)] p-2 text-left last:border-b-0 hover:bg-surface-light"
                 >
                   {s.imageUrl ? (
                     // eslint-disable-next-line @next/next/no-img-element
@@ -193,7 +193,7 @@ export function HeaderSearch({ siteSlug, locale }: Props) {
                       className="h-10 w-10 flex-shrink-0 rounded object-cover"
                     />
                   ) : (
-                    <div className="h-10 w-10 flex-shrink-0 rounded bg-[color:var(--surface-muted,#f3f4f6)]" />
+                    <div className="h-10 w-10 flex-shrink-0 rounded bg-surface-light" />
                   )}
                   <div className="flex-1 overflow-hidden">
                     <p className="truncate text-sm font-medium">{s.name}</p>
@@ -212,7 +212,7 @@ export function HeaderSearch({ siteSlug, locale }: Props) {
               <button
                 type="button"
                 onClick={() => submit(query)}
-                className="block w-full border-t border-[color:var(--border,#e5e7eb)] p-2 text-center text-xs font-medium text-[color:var(--primary,#111)] hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                className="block w-full border-t border-[color:var(--border,#e5e7eb)] p-2 text-center text-xs font-medium text-[color:var(--primary,#111)] hover:bg-surface-light"
               >
                 Ver todos los resultados →
               </button>
@@ -237,7 +237,7 @@ export function HeaderSearch({ siteSlug, locale }: Props) {
                   key={r}
                   type="button"
                   onClick={() => pickRecent(r)}
-                  className="flex w-full items-center gap-2 border-b border-[color:var(--border,#e5e7eb)] p-2 text-left last:border-b-0 hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                  className="flex w-full items-center gap-2 border-b border-[color:var(--border,#e5e7eb)] p-2 text-left last:border-b-0 hover:bg-surface-light"
                 >
                   <span aria-hidden="true" className="text-[color:var(--text-muted,#9ca3af)]">↻</span>
                   <span className="text-sm">{r}</span>

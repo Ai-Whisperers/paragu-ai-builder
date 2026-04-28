@@ -68,7 +68,7 @@ export function OrderConfirmation({ siteSlug, locale, businessName, initialOrder
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-12 print:py-4">
-      <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-8 text-center print:rounded-none print:border-0 print:p-0 print:text-left">
+      <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-8 text-center print:rounded-none print:border-0 print:p-0 print:text-left">
         {businessName ? (
           <p className="mb-2 hidden text-sm font-semibold uppercase tracking-wide text-[color:var(--text-muted,#6b7280)] print:block">
             {businessName} — Comprobante
@@ -157,13 +157,13 @@ export function OrderConfirmation({ siteSlug, locale, businessName, initialOrder
         <div className="flex flex-wrap justify-center gap-2 print:hidden">
           <Link
             href={`/s/${locale}/${siteSlug}/tienda`}
-            className="inline-block rounded-lg border border-[color:var(--primary,#111)] px-4 py-2 font-medium text-[color:var(--primary,#111)] hover:bg-[color:var(--primary,#111)] hover:text-[color:var(--primary-foreground,#fff)]"
+            className="inline-block rounded-lg border border-[color:var(--primary,#111)] px-4 py-2 font-medium text-[color:var(--primary,#111)] hover:bg-primary hover:text-[color:var(--primary-foreground,#fff)]"
           >
             Seguir comprando
           </Link>
           <Link
             href={`/s/${locale}/${siteSlug}/orden/${order.id}/recibo`}
-            className="inline-block rounded-lg border border-[color:var(--border,#e5e7eb)] px-4 py-2 font-medium text-[color:var(--text-muted,#6b7280)] hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+            className="inline-block rounded-lg border border-[color:var(--border,#e5e7eb)] px-4 py-2 font-medium text-[color:var(--text-muted,#6b7280)] hover:bg-surface-light"
           >
             📄 Descargar recibo
           </Link>

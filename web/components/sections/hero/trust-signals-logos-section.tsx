@@ -13,10 +13,10 @@ export function TrustSignalsLogosSection({
 }: TrustSignalsLogosProps) {
   if (!logos?.length) return null
   return (
-    <section className="py-10 bg-[var(--surface)]">
+    <section className="py-10 bg-surface">
       <Container>
         {title && (
-          <p className="text-center text-sm uppercase tracking-wide text-[var(--text-muted)] mb-6">
+          <p className="text-center text-sm uppercase tracking-wide text-muted-foreground mb-6">
             {title}
           </p>
         )}
@@ -32,7 +32,7 @@ export function TrustSignalsLogosSection({
                 }`}
               />
             ) : (
-              <span className="text-sm font-medium text-[var(--text-muted)]">{l.name}</span>
+              <span className="text-sm font-medium text-muted-foreground">{l.name}</span>
             )
             return (
               <div key={i} className="flex items-center">

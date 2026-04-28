@@ -275,7 +275,7 @@ export function TiendaToolbar({
   }
 
   return (
-    <div className="flex flex-col gap-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-3">
+    <div className="flex flex-col gap-3 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-3">
       {/* Search + sort */}
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <form onSubmit={onSearchSubmit} role="search" className="flex flex-1 items-center gap-2">
@@ -295,7 +295,7 @@ export function TiendaToolbar({
           <button
             type="submit"
             disabled={pending}
-            className="rounded bg-[color:var(--primary,#111)] px-3 py-2 text-sm font-medium text-[color:var(--primary-foreground,#fff)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] disabled:opacity-50"
+            className="rounded bg-primary px-3 py-2 text-sm font-medium text-[color:var(--primary-foreground,#fff)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] disabled:opacity-50"
           >
             Buscar
           </button>
@@ -307,7 +307,7 @@ export function TiendaToolbar({
             <select
               value={initialSort}
               onChange={(e) => pushParams({ sort: e.target.value === 'newest' ? null : e.target.value })}
-              className="rounded border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)]"
+              className="rounded border border-[color:var(--border,#e5e7eb)] bg-surface px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)]"
             >
               {SORT_OPTIONS.map((opt) => (
                 <option key={opt.value} value={opt.value}>
@@ -364,7 +364,7 @@ export function TiendaToolbar({
             <button
               type="button"
               onClick={() => pushParams({ category: null })}
-              className="rounded-full border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)]"
+              className="rounded-full border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-surface-light focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)]"
             >
               ← Todas
             </button>
@@ -385,8 +385,8 @@ export function TiendaToolbar({
                 aria-pressed={active}
                 className={`rounded-full border px-3 py-1 text-xs focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] ${
                   active
-                    ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
-                    : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+                    ? 'border-[color:var(--primary,#111)] bg-primary text-[color:var(--primary-foreground,#fff)]'
+                    : 'border-[color:var(--border,#e5e7eb)] hover:bg-surface-light'
                 }`}
               >
                 {label}
@@ -416,7 +416,7 @@ export function TiendaToolbar({
                 className={`rounded-full border px-3 py-1 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] ${
                   active
                     ? 'border-[color:var(--secondary,#b8860b)] bg-[color:var(--secondary,#b8860b)] text-white'
-                    : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+                    : 'border-[color:var(--border,#e5e7eb)] hover:bg-surface-light'
                 }`}
               >
                 {b}
@@ -441,13 +441,13 @@ export function TiendaToolbar({
               <details
                 key={group.id}
                 open={activeCount > 0}
-                className="group rounded-md border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-3 py-2"
+                className="group rounded-md border border-[color:var(--border,#e5e7eb)] bg-surface px-3 py-2"
               >
                 <summary className="flex cursor-pointer items-center justify-between text-xs font-medium text-[color:var(--text,#111)] marker:hidden [&::-webkit-details-marker]:hidden">
                   <span className="flex items-center gap-2">
                     <span>{group.label}</span>
                     {activeCount > 0 ? (
-                      <span className="rounded-full bg-[color:var(--primary,#111)] px-1.5 text-[10px] font-semibold text-[color:var(--primary-foreground,#fff)]">
+                      <span className="rounded-full bg-primary px-1.5 text-[10px] font-semibold text-[color:var(--primary-foreground,#fff)]">
                         {activeCount}
                       </span>
                     ) : null}
@@ -470,8 +470,8 @@ export function TiendaToolbar({
                         aria-pressed={active}
                         className={`rounded-full border px-2.5 py-0.5 text-xs focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] ${
                           active
-                            ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
-                            : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+                            ? 'border-[color:var(--primary,#111)] bg-primary text-[color:var(--primary-foreground,#fff)]'
+                            : 'border-[color:var(--border,#e5e7eb)] hover:bg-surface-light'
                         }`}
                       >
                         {t.replace(/-/g, ' ')}
@@ -491,13 +491,13 @@ export function TiendaToolbar({
             return (
               <details
                 open={activeCount > 0}
-                className="group rounded-md border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-3 py-2"
+                className="group rounded-md border border-[color:var(--border,#e5e7eb)] bg-surface px-3 py-2"
               >
                 <summary className="flex cursor-pointer items-center justify-between text-xs font-medium text-[color:var(--text,#111)] marker:hidden [&::-webkit-details-marker]:hidden">
                   <span className="flex items-center gap-2">
                     <span>Otros</span>
                     {activeCount > 0 ? (
-                      <span className="rounded-full bg-[color:var(--primary,#111)] px-1.5 text-[10px] font-semibold text-[color:var(--primary-foreground,#fff)]">
+                      <span className="rounded-full bg-primary px-1.5 text-[10px] font-semibold text-[color:var(--primary-foreground,#fff)]">
                         {activeCount}
                       </span>
                     ) : null}
@@ -515,8 +515,8 @@ export function TiendaToolbar({
                         aria-pressed={active}
                         className={`rounded-full border px-2.5 py-0.5 text-xs focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)] ${
                           active
-                            ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)] text-[color:var(--primary-foreground,#fff)]'
-                            : 'border-[color:var(--border,#e5e7eb)] hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+                            ? 'border-[color:var(--primary,#111)] bg-primary text-[color:var(--primary-foreground,#fff)]'
+                            : 'border-[color:var(--border,#e5e7eb)] hover:bg-surface-light'
                         }`}
                       >
                         {t.replace(/-/g, ' ')}
@@ -558,7 +558,7 @@ export function TiendaToolbar({
           <button
             type="submit"
             disabled={pending}
-            className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 hover:bg-[color:var(--surface-muted,#f3f4f6)] focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)] disabled:opacity-50"
+            className="rounded border border-[color:var(--border,#e5e7eb)] px-2 py-1 hover:bg-surface-light focus:outline-none focus:ring-2 focus:ring-[color:var(--primary,#111)] disabled:opacity-50"
           >
             Aplicar
           </button>
@@ -594,7 +594,7 @@ export function TiendaToolbar({
             key={f.key}
             type="button"
             onClick={f.clear}
-            className="inline-flex min-h-[28px] items-center gap-1.5 rounded-full bg-[color:var(--surface-muted,#f3f4f6)] py-1 pl-2.5 pr-1.5 transition-colors hover:bg-[color:var(--border,#e5e7eb)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)]"
+            className="inline-flex min-h-[28px] items-center gap-1.5 rounded-full bg-surface-light py-1 pl-2.5 pr-1.5 transition-colors hover:bg-[color:var(--border,#e5e7eb)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)]"
             aria-label={`Quitar filtro: ${f.label}`}
           >
             <span>{f.label}</span>

@@ -8,15 +8,17 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          'bg-[var(--secondary)] text-white shadow-button hover:shadow-card-hover hover:-translate-y-0.5',
+          'bg-secondary text-white shadow-button hover:shadow-card-hover hover:-translate-y-0.5',
         secondary:
-          'border-2 border-[var(--secondary)] text-[var(--secondary)] bg-transparent hover:bg-[var(--secondary)] hover:text-white',
-        ghost: 'text-[var(--text)] hover:bg-[var(--surface-light)]',
-        link: 'text-[var(--secondary)] underline-offset-4 hover:underline',
+          'border-2 border-secondary text-secondary bg-transparent hover:bg-secondary hover:text-white',
+        ghost: 'text-foreground hover:bg-surface-light',
+        link: 'text-secondary underline-offset-4 hover:underline',
         outline:
-          'border-2 border-[var(--text-muted)] text-[var(--text)] bg-transparent hover:bg-[var(--surface-light)]',
+          'border-2 border-muted-foreground text-foreground bg-transparent hover:bg-surface-light',
         default:
-          'bg-[var(--surface)] text-[var(--text)] border border-[var(--border)] hover:bg-[var(--surface-light)]',
+          'bg-surface text-foreground border border-border hover:bg-surface-light',
+        whatsapp:
+          'bg-[#25D366] text-white border-2 border-[#25D366] shadow-button hover:bg-[#128C7E] hover:border-[#128C7E] hover:shadow-card-hover hover:-translate-y-0.5',
       },
       size: {
         sm: 'h-9 px-4 text-sm rounded-md',

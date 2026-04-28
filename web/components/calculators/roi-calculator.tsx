@@ -54,19 +54,19 @@ export function ROICalculator({ eyebrow, title, subtitle, __locale = 'en' }: ROI
   }, [investment, type, expectedReturn, holdingYears])
 
   return (
-    <section className="bg-[var(--surface-light)] py-16 sm:py-24">
+    <section className="bg-surface-light py-16 sm:py-24">
       <Container>
         <AnimatedSectionHeader>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--secondary)]">{eyebrow || L.eyebrow}</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow || L.eyebrow}</p>
           <Heading level={2}>{title || L.title}</Heading>
-          <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{subtitle || L.subtitle}</p>
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle || L.subtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="mx-auto mt-12 max-w-4xl rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 shadow-card sm:p-10">
+        <div className="mx-auto mt-12 max-w-4xl rounded-2xl border border-border bg-surface p-6 shadow-card sm:p-10">
           <div className="grid gap-8 lg:grid-cols-2">
             <div className="space-y-5">
               <label className="block">
-                <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.investment}</span>
+                <span className="mb-2 block text-sm font-medium text-foreground">{L.investment}</span>
                 <input
                   type="number"
                   inputMode="numeric"
@@ -74,16 +74,16 @@ export function ROICalculator({ eyebrow, title, subtitle, __locale = 'en' }: ROI
                   step={10000}
                   value={investment}
                   onChange={(e) => setInvestment(Math.max(50000, Number(e.target.value) || 150000))}
-                  className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base"
+                  className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base"
                 />
               </label>
 
               <label className="block">
-                <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.type}</span>
+                <span className="mb-2 block text-sm font-medium text-foreground">{L.type}</span>
                 <select
                   value={type}
                   onChange={(e) => setType(e.target.value as typeof type)}
-                  className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base"
+                  className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base"
                 >
                   <option value="real_estate">{__locale === 'es' ? 'Bienes raíces' : __locale === 'de' ? 'Immobilien' : __locale === 'nl' ? 'Vastgoed' : 'Real Estate'}</option>
                   <option value="business">{__locale === 'es' ? 'Negocio / Corporativo' : __locale === 'de' ? 'Geschäft / Unternehmens' : __locale === 'nl' ? 'Zakelijk' : 'Business / Corporate'}</option>
@@ -91,7 +91,7 @@ export function ROICalculator({ eyebrow, title, subtitle, __locale = 'en' }: ROI
               </label>
 
               <label className="block">
-                <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.return}</span>
+                <span className="mb-2 block text-sm font-medium text-foreground">{L.return}</span>
                 <input
                   type="range"
                   min={0}
@@ -105,7 +105,7 @@ export function ROICalculator({ eyebrow, title, subtitle, __locale = 'en' }: ROI
               </label>
 
               <label className="block">
-                <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.holding}</span>
+                <span className="mb-2 block text-sm font-medium text-foreground">{L.holding}</span>
                 <input
                   type="range"
                   min={1}
@@ -120,30 +120,30 @@ export function ROICalculator({ eyebrow, title, subtitle, __locale = 'en' }: ROI
             </div>
 
             <div className="space-y-5">
-              <div className="rounded-xl bg-[var(--surface-light)] p-5">
-                <p className="text-sm text-[var(--text-muted)]">{L.projectedAnnual}</p>
+              <div className="rounded-xl bg-surface-light p-5">
+                <p className="text-sm text-muted-foreground">{L.projectedAnnual}</p>
                 <p className="text-2xl font-bold text-green-600">{formatUSD(results.annualReturn)}</p>
               </div>
 
-              <div className="rounded-xl bg-[var(--surface-light)] p-5">
-                <p className="text-sm text-[var(--text-muted)]">{L.fiveYear}</p>
-                <p className="text-2xl font-bold text-[var(--primary)]">{formatUSD(results.fiveYearReturn)}</p>
+              <div className="rounded-xl bg-surface-light p-5">
+                <p className="text-sm text-muted-foreground">{L.fiveYear}</p>
+                <p className="text-2xl font-bold text-primary">{formatUSD(results.fiveYearReturn)}</p>
               </div>
 
               <div className="grid grid-cols-2 gap-4">
-                <div className="rounded-xl bg-[var(--surface-light)] p-4">
-                  <p className="text-xs text-[var(--text-muted)]">{L.breakEven}</p>
+                <div className="rounded-xl bg-surface-light p-4">
+                  <p className="text-xs text-muted-foreground">{L.breakEven}</p>
                   <p className="text-lg font-semibold">{results.breakEvenYears} {__locale === 'es' ? 'años' : 'yrs'}</p>
                 </div>
-                <div className="rounded-xl bg-[var(--surface-light)] p-4">
-                  <p className="text-xs text-[var(--text-muted)]">{L.taxSavings}</p>
+                <div className="rounded-xl bg-surface-light p-4">
+                  <p className="text-xs text-muted-foreground">{L.taxSavings}</p>
                   <p className="text-lg font-semibold text-green-600">{formatUSD(results.taxSavings)}</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <p className="mt-6 text-xs text-[var(--text-muted)]">{L.disclaimer}</p>
+          <p className="mt-6 text-xs text-muted-foreground">{L.disclaimer}</p>
         </div>
       </Container>
     </section>

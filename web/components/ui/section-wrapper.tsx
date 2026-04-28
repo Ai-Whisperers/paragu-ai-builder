@@ -18,9 +18,9 @@ const PAD_MAP: Record<string, string> = {
 }
 
 const BG_MAP: Record<string, string> = {
-  default: 'bg-[var(--background)]',
-  alt: 'bg-[var(--surface)]',
-  accent: 'bg-[var(--primary)]',
+  default: 'bg-background',
+  alt: 'bg-surface',
+  accent: 'bg-primary',
   dark: 'bg-neutral-900',
   image: '',
   gradient: 'bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)]',
@@ -44,7 +44,7 @@ const COLOR_MAP: Record<string, string> = {
   default: '',
   light: 'text-white',
   dark: 'text-neutral-900',
-  accent: 'text-[var(--primary)]',
+  accent: 'text-primary',
 }
 
 export function SectionWrapper({
@@ -74,7 +74,7 @@ export function SectionWrapper({
     BG_MAP[background] || '',
     ALIGN_MAP[textAlign || ''] || '',
     COLOR_MAP[textColor || ''] || '',
-    divider && divider !== 'none' ? 'border-t border-[var(--border)]' : '',
+    divider && divider !== 'none' ? 'border-t border-border' : '',
     className,
   )
 

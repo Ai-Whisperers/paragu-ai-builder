@@ -87,7 +87,7 @@ export function SaveButton({
       <button
         type="submit"
         disabled={saving}
-        className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
+        className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
       >
         {saving ? 'Guardando…' : label}
       </button>

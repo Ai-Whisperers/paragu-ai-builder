@@ -87,7 +87,7 @@ export function EditProductForm({ businessId, product }: Props) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+    <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
       {product.isSeed ? (
         <div className="rounded bg-yellow-50 px-3 py-2 text-sm text-yellow-800">
           Este es un producto de ejemplo. Editalo con tus datos reales o eliminalo.
@@ -147,7 +147,7 @@ export function EditProductForm({ businessId, product }: Props) {
         <button
           type="submit"
           disabled={submitting || deleting}
-          className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 font-semibold text-white disabled:opacity-50"
+          className="rounded-lg bg-primary px-4 py-2 font-semibold text-white disabled:opacity-50"
         >
           {submitting ? 'Guardando…' : 'Guardar cambios'}
         </button>
@@ -184,7 +184,7 @@ function Field({
         required={required}
         defaultValue={defaultValue}
         disabled={disabled}
-        className="block w-full rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm disabled:bg-[color:var(--surface-muted,#f3f4f6)] disabled:text-[color:var(--text-muted,#9ca3af)]"
+        className="block w-full rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm disabled:bg-surface-light disabled:text-[color:var(--text-muted,#9ca3af)]"
       />
       {hint ? <span className="mt-1 block text-xs text-[color:var(--text-muted,#9ca3af)]">{hint}</span> : null}
     </label>

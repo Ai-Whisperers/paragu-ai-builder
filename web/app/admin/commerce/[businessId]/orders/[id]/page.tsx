@@ -35,7 +35,7 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
         ← Volver
       </Link>
 
-      <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+      <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
         <header className="mb-6 flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-bold">Orden {order.orderNumber}</h1>
@@ -43,7 +43,7 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
               Creada: {new Date(order.createdAt).toLocaleString('es-PY')}
             </p>
           </div>
-          <span className="rounded bg-[color:var(--primary,#111)]/10 px-3 py-1 text-sm font-medium">{order.status}</span>
+          <span className="rounded bg-primary/10 px-3 py-1 text-sm font-medium">{order.status}</span>
         </header>
 
         {order.comprobanteSentAt && order.status === 'awaiting_payment' ? (
@@ -83,7 +83,7 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
             {order.customerEmail ? (
               <a
                 href={`mailto:${order.customerEmail}?subject=${encodeURIComponent(`Tu pedido ${order.orderNumber}`)}&body=${encodeURIComponent(`Hola ${order.customerName},\n\nSobre tu pedido ${order.orderNumber}:\n\n`)}`}
-                className="inline-flex items-center gap-1.5 rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs font-medium hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                className="inline-flex items-center gap-1.5 rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs font-medium hover:bg-surface-light"
               >
                 <span aria-hidden="true">✉</span> Email
               </a>
@@ -91,7 +91,7 @@ export default async function AdminOrderDetail({ params }: { params: Promise<{ b
             {order.customerPhone ? (
               <a
                 href={`tel:${order.customerPhone}`}
-                className="inline-flex items-center gap-1.5 rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs font-medium hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                className="inline-flex items-center gap-1.5 rounded-md border border-[color:var(--border,#e5e7eb)] px-3 py-1.5 text-xs font-medium hover:bg-surface-light"
               >
                 <span aria-hidden="true">📞</span> Llamar
               </a>

@@ -21,9 +21,9 @@ export function ComplianceDisclaimerFooterSection({
 }: ComplianceDisclaimerFooterProps) {
   if (!paragraphs?.length && !licenseNumbers?.length) return null
   return (
-    <section className="py-6 bg-[var(--background)] border-t border-[var(--surface-light)]">
+    <section className="py-6 bg-background border-t border-[var(--surface-light)]">
       <Container>
-        <div className="max-w-4xl mx-auto text-xs text-[var(--text-muted)] space-y-2">
+        <div className="max-w-4xl mx-auto text-xs text-muted-foreground space-y-2">
           {paragraphs.map((p, i) => (
             <p key={i}>{p}</p>
           ))}

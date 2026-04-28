@@ -47,13 +47,13 @@ export default function SeguridadPage() {
         <Container>
           <div className="mx-auto max-w-3xl">
             <div className="mb-12 text-center">
-              <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
+              <p className="mb-3 text-sm font-bold uppercase tracking-wider text-primary">
                 Privacidad y datos
               </p>
-              <h1 className="mb-4 text-4xl font-bold text-[var(--text)] sm:text-5xl">
+              <h1 className="mb-4 text-4xl font-bold text-foreground sm:text-5xl">
                 Lo que hacemos con tu información
               </h1>
-              <p className="text-lg text-[var(--text-light)]">
+              <p className="text-lg text-muted-foreground">
                 Sin letra chica. Lo que necesitás saber para confiar en dejarnos los datos de tu
                 negocio.
               </p>
@@ -65,28 +65,28 @@ export default function SeguridadPage() {
                 return (
                   <div
                     key={p.title}
-                    className="flex gap-5 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6"
+                    className="flex gap-5 rounded-2xl border border-border bg-surface p-6"
                   >
-                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[var(--primary)]/10 text-[var(--primary)]">
+                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
                       <Icon size={22} />
                     </div>
                     <div>
-                      <h2 className="mb-2 text-lg font-bold text-[var(--text)]">{p.title}</h2>
-                      <p className="text-[var(--text-light)]">{p.body}</p>
+                      <h2 className="mb-2 text-lg font-bold text-foreground">{p.title}</h2>
+                      <p className="text-muted-foreground">{p.body}</p>
                     </div>
                   </div>
                 )
               })}
             </div>
 
-            <div className="mt-12 rounded-2xl border border-[var(--border)] bg-[var(--surface-light)] p-6">
-              <h2 className="mb-3 text-lg font-bold text-[var(--text)]">Marco legal</h2>
-              <p className="mb-4 text-[var(--text-light)]">
+            <div className="mt-12 rounded-2xl border border-border bg-surface-light p-6">
+              <h2 className="mb-3 text-lg font-bold text-foreground">Marco legal</h2>
+              <p className="mb-4 text-muted-foreground">
                 Operamos bajo la <strong>Ley N° 6534/2020 de Protección de Datos Personales</strong> de
                 Paraguay. Para usuarios europeos relacionados con clientes nuestros (ej. Nexa Paraguay
                 en sus mercados europeos), aplicamos los principios de minimización de datos del GDPR.
               </p>
-              <p className="text-[var(--text-light)]">
+              <p className="text-muted-foreground">
                 Si querés ejercer tu derecho de acceso, rectificación o eliminación, escribinos por
                 WhatsApp o al correo del equipo.
               </p>
@@ -95,14 +95,14 @@ export default function SeguridadPage() {
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4 text-sm">
               <Link
                 href="/"
-                className="inline-flex items-center gap-1 text-[var(--text-light)] hover:text-[var(--primary)]"
+                className="inline-flex items-center gap-1 text-muted-foreground hover:text-primary"
               >
                 ← Volver al inicio
               </Link>
-              <span className="text-[var(--text-muted)]">·</span>
+              <span className="text-muted-foreground">·</span>
               <a
                 href="mailto:contacto@paragu-ai.com"
-                className="inline-flex items-center gap-1 text-[var(--text-light)] hover:text-[var(--primary)]"
+                className="inline-flex items-center gap-1 text-muted-foreground hover:text-primary"
               >
                 <Mail size={14} />
                 contacto@paragu-ai.com

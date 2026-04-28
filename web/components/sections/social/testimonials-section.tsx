@@ -52,7 +52,7 @@ export function TestimonialsSection({
   const gridCols = columns === 2 ? 'md:grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-3'
 
   return (
-    <section className="relative overflow-hidden bg-[var(--background)] py-20 sm:py-28 lg:py-32">
+    <section className="relative overflow-hidden bg-background py-20 sm:py-28 lg:py-32">
       {/* Decorative elements when enhanced */}
       {enhanced && (
         <>
@@ -135,7 +135,7 @@ export function TestimonialsSection({
                         className={cn(
                           'transition-colors',
                           i < testimonial.rating!
-                            ? 'fill-[var(--secondary)] text-[var(--secondary)]'
+                            ? 'fill-[var(--secondary)] text-secondary'
                             : 'fill-gray-100 text-[var(--surface-light)]'
                         )}
                       />

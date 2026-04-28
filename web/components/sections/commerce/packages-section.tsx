@@ -51,11 +51,11 @@ export function PackagesSection({
   }
   
   return (
-    <section className="py-16 bg-[var(--surface)]">
+    <section className="py-16 bg-surface">
       <Container>
         {/* Header */}
         <div className="text-center mb-12">
-          <Heading level={2} className="text-3xl font-bold mb-4">Promociones Especiales</Heading>
+          <Heading level={2} className="text-xl sm:text-3xl font-bold mb-4">Promociones Especiales</Heading>
           
           {/* Tabs */}
           {showGiftCards && giftCards && (
@@ -65,8 +65,8 @@ export function PackagesSection({
                 className={cn(
                   "px-4 py-2 rounded-full text-sm font-medium transition-colors",
                   activeTab === 'packages' 
-                    ? "bg-[var(--primary)] text-white" 
-                    : "bg-[var(--muted)] hover:bg-[var(--muted)]/80"
+                    ? "bg-primary text-white" 
+                    : "bg-muted hover:bg-muted/80"
                 )}
               >
                 <Sparkles className="w-4 h-4 inline mr-2" />
@@ -77,8 +77,8 @@ export function PackagesSection({
                 className={cn(
                   "px-4 py-2 rounded-full text-sm font-medium transition-colors",
                   activeTab === 'giftcards' 
-                    ? "bg-[var(--primary)] text-white" 
-                    : "bg-[var(--muted)] hover:bg-[var(--muted)]/80"
+                    ? "bg-primary text-white" 
+                    : "bg-muted hover:bg-muted/80"
                 )}
               >
                 <Gift className="w-4 h-4 inline mr-2" />
@@ -100,7 +100,7 @@ export function PackagesSection({
                 )}
               >
                 {pkg.popular && (
-                  <div className="absolute top-0 right-0 bg-[var(--primary)] text-white text-xs px-3 py-1 rounded-bl-lg">
+                  <div className="absolute top-0 right-0 bg-primary text-white text-xs px-3 py-1 rounded-bl-lg">
                     Más Popular
                   </div>
                 )}
@@ -113,7 +113,7 @@ export function PackagesSection({
                 <CardContent>
                   {/* Price */}
                   <div className="flex items-baseline gap-2 mb-4">
-                    <span className="text-3xl font-bold text-[var(--primary)]">
+                    <span className="text-xl sm:text-3xl font-bold text-primary">
                       {formatPrice(pkg.sale_price)}
                     </span>
                     <span className="text-lg text-[var(--muted-foreground)] line-through">
@@ -153,7 +153,7 @@ export function PackagesSection({
                   className="cursor-pointer hover:border-[var(--primary)] transition-colors"
                 >
                   <CardContent className="p-6 text-center">
-                    <Gift className="w-8 h-8 mx-auto mb-3 text-[var(--primary)]" />
+                    <Gift className="w-8 h-8 mx-auto mb-3 text-primary" />
                     <div className="text-2xl font-bold">{formatPrice(card.amount)}</div>
                     <p className="text-xs text-[var(--muted-foreground)] mt-1">
                       {card.description}
@@ -163,7 +163,7 @@ export function PackagesSection({
               ))}
             </div>
             
-            <div className="mt-8 bg-[var(--muted)] rounded-lg p-6">
+            <div className="mt-8 bg-muted rounded-lg p-6">
               <h4 className="font-semibold mb-2">&iquest;C&oacute;mo funcionan las Gift Cards?</h4>
               <ul className="text-sm text-[var(--muted-foreground)] space-y-1">
                 <li>1. Selecciona el monto</li>

@@ -96,24 +96,24 @@ export function CostOfLivingEstimator({ eyebrow, title, subtitle, __locale = 'en
   const vsAmsterdam = budget * 2.4
 
   return (
-    <section className="bg-[var(--surface)] py-16 sm:py-24">
+    <section className="bg-surface py-16 sm:py-24">
       <Container>
         <AnimatedSectionHeader>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--secondary)]">{eyebrow || L.eyebrow}</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow || L.eyebrow}</p>
           <Heading level={2}>{title || L.title}</Heading>
-          <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{subtitle || L.subtitle}</p>
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle || L.subtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="mx-auto mt-12 max-w-5xl rounded-2xl border border-[var(--border)] bg-[var(--surface-light)] p-6 shadow-card sm:p-10">
+        <div className="mx-auto mt-12 max-w-5xl rounded-2xl border border-border bg-surface-light p-6 shadow-card sm:p-10">
           <div className="grid gap-8 lg:grid-cols-3">
             <div className="space-y-5 lg:col-span-2">
               <div className="grid gap-4 sm:grid-cols-2">
                 <label className="block">
-                  <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.household}</span>
+                  <span className="mb-2 block text-sm font-medium text-foreground">{L.household}</span>
                   <select
                     value={household}
                     onChange={(e) => setHousehold(e.target.value as typeof household)}
-                    className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base"
+                    className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base"
                   >
                     <option value="single">{__locale === 'es' ? 'Solo' : __locale === 'de' ? 'Alleinstehend' : __locale === 'nl' ? 'Alleenstaand' : 'Single'}</option>
                     <option value="couple">{__locale === 'es' ? 'Pareja' : __locale === 'de' ? 'Paar' : __locale === 'nl' ? 'Paar' : 'Couple'}</option>
@@ -123,11 +123,11 @@ export function CostOfLivingEstimator({ eyebrow, title, subtitle, __locale = 'en
                 </label>
 
                 <label className="block">
-                  <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.neighborhood}</span>
+                  <span className="mb-2 block text-sm font-medium text-foreground">{L.neighborhood}</span>
                   <select
                     value={neighborhood}
                     onChange={(e) => setNeighborhood(e.target.value)}
-                    className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base"
+                    className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base"
                   >
                     {NEIGHBORHOODS.map((n) => (
                       <option key={n.id} value={n.id}>{n.name[__locale as 'es' | 'en'] || n.name.en}</option>
@@ -136,24 +136,24 @@ export function CostOfLivingEstimator({ eyebrow, title, subtitle, __locale = 'en
                 </label>
 
                 <label className="block">
-                  <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.children}</span>
+                  <span className="mb-2 block text-sm font-medium text-foreground">{L.children}</span>
                   <input
                     type="number"
                     min={0}
                     max={5}
                     value={children}
                     onChange={(e) => setChildren(Math.max(0, Math.min(5, Number(e.target.value))))}
-                    className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base"
+                    className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base"
                   />
                 </label>
 
                 {children > 0 && (
                   <label className="block">
-                    <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.school}</span>
+                    <span className="mb-2 block text-sm font-medium text-foreground">{L.school}</span>
                     <select
                       value={schoolId}
                       onChange={(e) => setSchoolId(e.target.value)}
-                      className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base"
+                      className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base"
                     >
                       {SCHOOLS.map((s) => (
                         <option key={s.id} value={s.id}>{s.name}</option>
@@ -163,11 +163,11 @@ export function CostOfLivingEstimator({ eyebrow, title, subtitle, __locale = 'en
                 )}
 
                 <label className="block">
-                  <span className="mb-2 block text-sm font-medium text-[var(--text)]">{L.lifestyle}</span>
+                  <span className="mb-2 block text-sm font-medium text-foreground">{L.lifestyle}</span>
                   <select
                     value={lifestyle}
                     onChange={(e) => setLifestyle(e.target.value as typeof lifestyle)}
-                    className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base"
+                    className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base"
                   >
                     <option value="budget">{__locale === 'es' ? 'Económico' : __locale === 'de' ? 'Budget' : __locale === 'nl' ? 'Budget' : 'Budget'}</option>
                     <option value="standard">{__locale === 'es' ? 'Estándar' : __locale === 'de' ? 'Standard' : __locale === 'nl' ? 'Standaard' : 'Standard'}</option>
@@ -178,22 +178,22 @@ export function CostOfLivingEstimator({ eyebrow, title, subtitle, __locale = 'en
             </div>
 
             <div className="space-y-6">
-              <div className="rounded-xl bg-[var(--surface)] p-5">
-                <p className="text-sm text-[var(--text-muted)]">{L.budget}</p>
-                <p className="text-3xl font-bold text-[var(--primary)]">{formatUSD(budget)}</p>
-                <p className="text-xs text-[var(--text-muted)]">/month</p>
+              <div className="rounded-xl bg-surface p-5">
+                <p className="text-sm text-muted-foreground">{L.budget}</p>
+                <p className="text-3xl font-bold text-primary">{formatUSD(budget)}</p>
+                <p className="text-xs text-muted-foreground">/month</p>
               </div>
 
-              <div className="rounded-xl bg-[var(--surface)] p-5">
-                <p className="text-sm text-[var(--text-muted)]">{L.vsCity}</p>
-                <p className="text-xl font-semibold text-[var(--text)]">{formatUSD(vsAmsterdam)}</p>
+              <div className="rounded-xl bg-surface p-5">
+                <p className="text-sm text-muted-foreground">{L.vsCity}</p>
+                <p className="text-xl font-semibold text-foreground">{formatUSD(vsAmsterdam)}</p>
                 <p className="text-xs text-green-600">{__locale === 'es' ? 'Ahorras' : __locale === 'de' ? 'Sie sparen' : __locale === 'nl' ? 'Je bespaart' : 'You save'} {formatUSD(vsAmsterdam - budget)}/mo</p>
               </div>
 
               <div className="space-y-2">
                 {Object.entries(breakdownValues).map(([key, value]) => (
                   <div key={key} className="flex justify-between text-sm">
-                    <span className="text-[var(--text-muted)] capitalize">{key}</span>
+                    <span className="text-muted-foreground capitalize">{key}</span>
                     <span className="font-medium">{formatUSD(value)}</span>
                   </div>
                 ))}

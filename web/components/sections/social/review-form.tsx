@@ -46,7 +46,7 @@ export function ReviewForm({ onSubmit, className }: ReviewFormProps) {
           <CheckCircle className="w-8 h-8 text-[var(--success)]" />
         </div>
         <h4 className="font-semibold text-lg mb-2">Gracias por tu opinion!</h4>
-        <p className="text-[var(--text-muted)]">
+        <p className="text-muted-foreground">
           Tu reseña sera revisada y publicada pronto.
         </p>
       </div>
@@ -73,12 +73,12 @@ export function ReviewForm({ onSubmit, className }: ReviewFormProps) {
                   'w-8 h-8',
                   i < (hoverRating || rating)
                     ? 'text-amber-400 fill-amber-400'
-                    : 'text-[var(--text-light)]'
+                    : 'text-muted-foreground'
                 )}
               />
             </button>
           ))}
-          <span className="ml-2 text-sm text-[var(--text-muted)]">
+          <span className="ml-2 text-sm text-muted-foreground">
             {rating > 0 && ['Malo', 'Regular', 'Bueno', 'Muy bueno', 'Excelente'][rating - 1]}
           </span>
         </div>
@@ -96,8 +96,8 @@ export function ReviewForm({ onSubmit, className }: ReviewFormProps) {
               className={cn(
                 'px-4 py-2 rounded-lg border text-sm capitalize transition-all',
                 formData.type === type
-                  ? 'border-[var(--primary)] bg-[var(--surface)] text-[var(--primary)]'
-                  : 'border-[var(--border)] text-[var(--text-muted)] hover:border-[var(--primary)]'
+                  ? 'border-[var(--primary)] bg-surface text-primary'
+                  : 'border-border text-muted-foreground hover:border-[var(--primary)]'
               )}
             >
               {type}

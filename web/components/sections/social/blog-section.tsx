@@ -106,24 +106,24 @@ export function BlogSection({
   })
 
   return (
-    <section className="bg-[var(--surface-light)] py-16" id="blog">
+    <section className="bg-surface-light py-16" id="blog">
       <div className="mx-auto max-w-6xl px-6">
         {title && (
           <div className="mb-12 text-center">
-            <h2 className="text-3xl font-bold text-[var(--text)]">{title[locale] || title.es}</h2>
-            {subtitle && <p className="mt-2 text-[var(--text-muted)]">{subtitle[locale] || subtitle.es}</p>}
+            <h2 className="text-xl sm:text-3xl font-bold text-foreground">{title[locale] || title.es}</h2>
+            {subtitle && <p className="mt-2 text-muted-foreground">{subtitle[locale] || subtitle.es}</p>}
           </div>
         )}
 
         <div className="mb-8">
           <div className="relative">
-            <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[var(--text-muted)]" />
+            <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
             <input
               type="text"
               placeholder="Search articles..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] py-3 pl-12 pr-4 text-[var(--text)] placeholder-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]/20"
+              className="w-full rounded-xl border border-border bg-surface py-3 pl-12 pr-4 text-foreground placeholder-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-primary/20"
             />
           </div>
         </div>
@@ -135,8 +135,8 @@ export function BlogSection({
               onClick={() => setActiveCategory(cat.id)}
               className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
                 activeCategory === cat.id
-                  ? 'bg-[var(--primary)] text-[var(--primary-foreground)]'
-                  : 'bg-[var(--surface)] text-[var(--text-muted)] hover:bg-[var(--primary)]/10'
+                  ? 'bg-primary text-[var(--primary-foreground)]'
+                  : 'bg-surface text-muted-foreground hover:bg-primary/10'
               }`}
             >
               {cat.label[locale] || cat.label.es}
@@ -148,10 +148,10 @@ export function BlogSection({
           {filteredPosts.map((post) => (
             <article
               key={post.slug}
-              className="group flex flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--surface)] transition-all hover:-translate-y-1 hover:shadow-lg"
+              className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface transition-transform hover:-translate-y-1 hover:shadow-lg"
             >
               {post.image && (
-                <div className="h-48 overflow-hidden bg-[var(--surface-light)]">
+                <div className="h-48 overflow-hidden bg-surface-light">
                   <img
                     src={post.image}
                     alt={post.title[locale] || post.title.es}
@@ -160,8 +160,8 @@ export function BlogSection({
                 </div>
               )}
               <div className="flex flex-1 flex-col p-6">
-                <div className="mb-3 flex items-center gap-2 text-xs text-[var(--text-muted)]">
-                  <span className="rounded-full bg-[var(--primary)]/10 px-2 py-1 font-medium text-[var(--primary)]">
+                <div className="mb-3 flex items-center gap-2 text-xs text-muted-foreground">
+                  <span className="rounded-full bg-primary/10 px-2 py-1 font-medium text-primary">
                     {post.category}
                   </span>
                   <span>·</span>
@@ -170,20 +170,20 @@ export function BlogSection({
                     {post.readTime}
                   </span>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-[var(--text)] group-hover:text-[var(--primary)]">
+                <h3 className="mb-2 text-lg font-bold text-foreground group-hover:text-primary">
                   {post.title[locale] || post.title.es}
                 </h3>
-                <p className="mb-4 flex-1 text-sm text-[var(--text-muted)]">
+                <p className="mb-4 flex-1 text-sm text-muted-foreground">
                   {post.excerpt[locale] || post.excerpt.es}
                 </p>
-                <div className="flex items-center justify-between border-t border-[var(--border)] pt-4">
-                  <div className="flex items-center gap-2 text-xs text-[var(--text-muted)]">
+                <div className="flex items-center justify-between border-t border-border pt-4">
+                  <div className="flex items-center gap-2 text-xs text-muted-foreground">
                     <Calendar size={12} />
                     {post.date}
                   </div>
                   <Link
                     href={`/blog/${post.slug}`}
-                    className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--primary)]"
+                    className="inline-flex items-center gap-1 text-sm font-semibold text-primary"
                   >
                     Read more
                     <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
@@ -195,8 +195,8 @@ export function BlogSection({
         </div>
 
         {filteredPosts.length === 0 && (
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-8 text-center">
-            <p className="text-[var(--text-muted)]">No articles found. Try a different search term or category.</p>
+          <div className="rounded-2xl border border-border bg-surface p-8 text-center">
+            <p className="text-muted-foreground">No articles found. Try a different search term or category.</p>
           </div>
         )}
 
@@ -204,7 +204,7 @@ export function BlogSection({
           <div className="mt-8 text-center">
             <Link
               href={showAllLink}
-              className="inline-flex items-center gap-2 rounded-xl bg-[var(--primary)] px-6 py-3 font-semibold text-[var(--primary-foreground)] transition-colors hover:bg-[var(--primary)]/90"
+              className="inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 font-semibold text-[var(--primary-foreground)] transition-colors hover:bg-primary/90"
             >
               View all articles
               <ArrowRight size={18} />

@@ -116,7 +116,7 @@ export function SubscriptionLinkGenerator(props: Props) {
           <button
             type="submit"
             disabled={generating}
-            className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
+            className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
           >
             {generating ? 'Generando…' : 'Generar link de pago'}
           </button>
@@ -144,7 +144,7 @@ export function SubscriptionLinkGenerator(props: Props) {
               <button
                 type="button"
                 onClick={copyLink}
-                className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-xs hover:bg-surface-light"
               >
                 {copied ? 'Copiado ✓' : 'Copiar'}
               </button>

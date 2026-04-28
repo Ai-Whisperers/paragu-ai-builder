@@ -38,7 +38,7 @@ const ACTIVITY_ICONS: Record<Activity['type'], React.ReactNode> = {
 const ACTIVITY_COLORS: Record<Activity['type'], string> = {
   note: 'bg-[var(--color-info-surface)] text-[var(--color-info)]',
   call: 'bg-[var(--color-success-surface)] text-[var(--color-success)]',
-  email: 'bg-[var(--color-info-surface)] text-[var(--primary)]',
+  email: 'bg-[var(--color-info-surface)] text-primary',
   whatsapp: 'bg-emerald-100 text-emerald-600',
   status_change: 'bg-[var(--color-warning-surface)] text-[var(--color-warning)]',
   meeting: 'bg-pink-100 text-pink-600',

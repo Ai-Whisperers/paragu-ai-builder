@@ -26,7 +26,7 @@ function IconByName({ name, size = 40 }: { name?: string; size?: number }) {
   const key = name || fallback
   const Icon = (Icons as unknown as Record<string, React.ComponentType<{ size?: number; className?: string }>>)[key]
   if (!Icon) return null
-  return <Icon size={size} className="text-[var(--secondary)]" />
+  return <Icon size={size} className="text-secondary" />
 }
 
 function gridColsClass(n: number): string {
@@ -41,11 +41,11 @@ export function TeamSection({ title, subtitle, members = [], variant = 'cards' }
 
   if (variant === 'grid-photos') {
     return (
-      <section id="equipo" className="bg-[var(--surface)] py-16 sm:py-20">
+      <section id="equipo" className="bg-surface py-16 sm:py-20">
         <Container>
           <div className="mb-12 text-center">
             <Heading level={2}>{title}</Heading>
-            {subtitle && <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>}
+            {subtitle && <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>}
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {members.map((member, index) => (
@@ -53,7 +53,7 @@ export function TeamSection({ title, subtitle, members = [], variant = 'cards' }
                 {member.imageUrl ? (
                   <Image src={member.imageUrl} alt={member.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                 ) : (
-                  <div className="w-full h-full bg-[var(--primary)]/10 flex items-center justify-center">
+                  <div className="w-full h-full bg-primary/10 flex items-center justify-center">
                     <IconByName name={member.icon || 'Users'} size={48} />
                   </div>
                 )}
@@ -71,12 +71,12 @@ export function TeamSection({ title, subtitle, members = [], variant = 'cards' }
   }
 
   return (
-    <section id="equipo" className="bg-[var(--surface)] py-16 sm:py-20">
+    <section id="equipo" className="bg-surface py-16 sm:py-20">
       <Container>
         <div className="mb-12 text-center">
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
           )}
         </div>
 
@@ -88,7 +88,7 @@ export function TeamSection({ title, subtitle, members = [], variant = 'cards' }
               <Card key={index} className="text-center group h-full">
                 <CardContent className="flex h-full flex-col pt-8">
                   {hasImage ? (
-                    <div className="mx-auto mb-4 h-32 w-32 overflow-hidden rounded-full bg-[var(--surface-light)]">
+                    <div className="mx-auto mb-4 h-32 w-32 overflow-hidden rounded-full bg-surface-light">
                       <Image
                         src={member.imageUrl!}
                         alt={member.name}
@@ -98,28 +98,28 @@ export function TeamSection({ title, subtitle, members = [], variant = 'cards' }
                       />
                     </div>
                   ) : (
-                    <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-[var(--secondary)]/10">
+                    <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-secondary/10">
                       <IconByName name={member.icon} />
                     </div>
                   )}
 
-                  <Heading level={3} className="text-lg font-semibold text-[var(--text)]">{member.name}</Heading>
+                  <Heading level={3} className="text-lg font-semibold text-foreground">{member.name}</Heading>
 
                   {hasDetails && (
                     <div className="grid grid-rows-[0fr] opacity-0 transition-all duration-300 ease-out group-hover:grid-rows-[1fr] group-hover:opacity-100 focus-within:grid-rows-[1fr] focus-within:opacity-100 motion-reduce:grid-rows-[1fr] motion-reduce:opacity-100">
                       <div className="overflow-hidden">
                         {member.role && (
-                          <p className="mt-2 text-sm font-medium text-[var(--secondary)]">{member.role}</p>
+                          <p className="mt-2 text-sm font-medium text-secondary">{member.role}</p>
                         )}
                         {member.bio && (
-                          <p className="mt-3 text-sm text-[var(--text-muted)]">{member.bio}</p>
+                          <p className="mt-3 text-sm text-muted-foreground">{member.bio}</p>
                         )}
                         {typeof member.instagram === 'string' && member.instagram && (
                           <a
                             href={`https://instagram.com/${cleanInstagram(member.instagram)}`}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="mt-3 inline-block text-sm text-[var(--secondary)] hover:underline"
+                            className="mt-3 inline-block text-sm text-secondary hover:underline"
                           >
                             @{cleanInstagram(member.instagram)}
                           </a>

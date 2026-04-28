@@ -66,7 +66,7 @@ export function ProcessSection({
     <section className="py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-4">
         {resolvedTitle && (
-          <Heading level={2} className="mb-4 text-3xl font-bold md:text-4xl" style={{ color: 'var(--primary)' }}>
+          <Heading level={2} className="mb-4 text-xl sm:text-3xl font-bold md:text-2xl sm:text-4xl" style={{ color: 'var(--primary)' }}>
             {resolvedTitle}
           </Heading>
         )}

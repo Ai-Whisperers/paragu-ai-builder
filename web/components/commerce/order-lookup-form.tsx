@@ -48,7 +48,7 @@ export function OrderLookupForm({ siteSlug, locale }: Props) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6">
+    <form onSubmit={handleSubmit} className="space-y-4 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
       <div>
         <label htmlFor="lookup-email" className="mb-1 block text-xs font-medium text-[color:var(--text-muted,#6b7280)]">
           Email <span aria-hidden="true" className="text-red-600">*</span>
@@ -91,7 +91,7 @@ export function OrderLookupForm({ siteSlug, locale }: Props) {
       <button
         type="submit"
         disabled={submitting}
-        className="w-full rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] disabled:opacity-50"
+        className="w-full rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-[color:var(--primary-foreground,#fff)] disabled:opacity-50"
       >
         {submitting ? 'Buscando…' : 'Buscar mi orden'}
       </button>

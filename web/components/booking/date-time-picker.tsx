@@ -121,7 +121,7 @@ export default function DateTimePicker({
               onClick={() => setSelectedDate(date)}
               className={`flex-shrink-0 px-4 py-3 rounded-lg border text-center transition-all ${
                 isDateSelected(date)
-                  ? 'border-[var(--primary)] bg-[var(--primary)] text-white'
+                  ? 'border-[var(--primary)] bg-primary text-white'
                   : 'border-gray-200 hover:border-[var(--primary)]'
               }`}
             >
@@ -144,7 +144,7 @@ export default function DateTimePicker({
                 onClick={() => slot.available && setSelectedTime(slot.time)}
                 className={`py-2 px-3 rounded-lg text-sm transition-all ${
                   selectedTime === slot.time
-                    ? 'bg-[var(--primary)] text-white'
+                    ? 'bg-primary text-white'
                     : slot.available
                       ? 'bg-gray-100 hover:bg-gray-200 text-gray-700'
                       : 'bg-gray-50 text-gray-300 cursor-not-allowed'
@@ -161,7 +161,7 @@ export default function DateTimePicker({
       {selectedDate && selectedTime && (
         <button
           onClick={handleConfirm}
-          className="w-full bg-[var(--primary)] text-white font-medium py-3 rounded-lg hover:opacity-90"
+          className="w-full bg-primary text-white font-medium py-3 rounded-lg hover:opacity-90"
         >
           Confirmar turno: {selectedDate.toLocaleDateString('es-PY', { day: 'numeric', month: 'short' })} a las {selectedTime}
         </button>

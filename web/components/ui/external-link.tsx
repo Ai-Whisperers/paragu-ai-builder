@@ -23,7 +23,7 @@ export function ExternalLink({
   return (
     <a
       className={cn(
-        "inline-flex items-center gap-1.5 text-[var(--secondary)] hover:text-[var(--secondary)]/80 hover:underline transition-colors",
+        "inline-flex items-center gap-1.5 text-secondary hover:text-secondary/80 hover:underline transition-colors",
         className
       )}
       {...newTabProps}

@@ -26,8 +26,8 @@ export function FAQItem({
 
   return (
     <div
-      className={`rounded-2xl border border-[var(--border)] bg-[var(--surface)] transition-all ${
-        isOpen ? 'bg-[var(--surface-light)]' : ''
+      className={`rounded-2xl border border-border bg-surface transition-all ${
+        isOpen ? 'bg-surface-light' : ''
       }`}
     >
       <button
@@ -35,9 +35,9 @@ export function FAQItem({
         aria-expanded={isOpen}
         className="flex w-full items-center justify-between gap-4 p-6 text-left"
       >
-        <span className="font-bold text-[var(--text)]">{question}</span>
+        <span className="font-bold text-foreground">{question}</span>
         <div
-          className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--primary)]/10 text-[var(--primary)] transition-transform ${
+          className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary transition-transform ${
             isOpen ? 'rotate-180' : ''
           }`}
         >
@@ -48,7 +48,7 @@ export function FAQItem({
         className="overflow-hidden transition-all duration-300"
         style={{ maxHeight: isOpen ? '400px' : '0', opacity: isOpen ? 1 : 0 }}
       >
-        <p className="px-6 pb-6 text-[var(--text-muted)]">{answer}</p>
+        <p className="px-6 pb-6 text-muted-foreground">{answer}</p>
       </div>
     </div>
   )

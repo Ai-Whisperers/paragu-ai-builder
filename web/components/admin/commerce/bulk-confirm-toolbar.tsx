@@ -62,7 +62,7 @@ export function BulkConfirmToolbar({ businessId }: Props) {
   }
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-4 py-3 shadow-lg">
+    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-[color:var(--border,#e5e7eb)] bg-surface px-4 py-3 shadow-lg">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3">
         <p className="text-sm">
           <strong>{selected.length}</strong> {selected.length === 1 ? 'orden seleccionada' : 'órdenes seleccionadas'}

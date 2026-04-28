@@ -15,7 +15,7 @@ interface Props {
 export function CustomerHistoryPanel({ businessId, history }: Props) {
   if (history.totalOrders === 0) {
     return (
-      <section className="mt-6 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+      <section className="mt-6 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
         <h2 className="mb-1 text-sm font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">
           Historial del cliente
         </h2>
@@ -27,7 +27,7 @@ export function CustomerHistoryPanel({ businessId, history }: Props) {
   }
 
   return (
-    <section className="mt-6 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+    <section className="mt-6 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
       <h2 className="mb-3 text-sm font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">
         Cliente recurrente · {history.totalOrders}{' '}
         {history.totalOrders === 1 ? 'pedido previo' : 'pedidos previos'}

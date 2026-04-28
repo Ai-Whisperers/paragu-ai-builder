@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 import { cva, type VariantProps } from "class-variance-authority"
 
 const avatarVariants = cva(
-  "relative inline-flex items-center justify-center overflow-hidden rounded-full bg-[var(--surface-light)] text-[var(--text)]",
+  "relative inline-flex items-center justify-center overflow-hidden rounded-full bg-surface-light text-foreground",
   {
     variants: {
       size: {
@@ -83,7 +83,7 @@ export function AvatarFallback({ className, children, ...props }: AvatarFallback
   return (
     <div 
       className={cn(
-        "flex h-full w-full items-center justify-center bg-[var(--surface-light)] font-medium text-[var(--text)]",
+        "flex h-full w-full items-center justify-center bg-surface-light font-medium text-foreground",
         className
       )}
       {...props}
@@ -111,7 +111,7 @@ export function AvatarGroup({
     <div className={cn("flex -space-x-2", className)} {...props}>
       {visibleChildren}
       {remainingCount > 0 && (
-        <div className="relative inline-flex items-center justify-center w-10 h-10 rounded-full bg-[var(--surface)] border-2 border-[var(--background)] text-xs font-medium text-[var(--text)]">
+        <div className="relative inline-flex items-center justify-center w-10 h-10 rounded-full bg-surface border-2 border-[var(--background)] text-xs font-medium text-foreground">
           +{remainingCount}
         </div>
       )}

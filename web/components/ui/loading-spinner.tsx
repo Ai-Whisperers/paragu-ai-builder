@@ -14,9 +14,9 @@ const spinnerVariants = cva(
         xl: "h-12 w-12",
       },
       variant: {
-        default: "text-[var(--secondary)]",
-        primary: "text-[var(--primary)]",
-        muted: "text-[var(--text-muted)]",
+        default: "text-secondary",
+        primary: "text-primary",
+        muted: "text-muted-foreground",
         white: "text-white",
       },
     },

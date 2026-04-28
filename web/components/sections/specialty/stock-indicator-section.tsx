@@ -89,7 +89,7 @@ export function StockIndicator({
         
         {!subscribed ? (
           <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-            <p className="text-sm text-[var(--primary)] mb-3">
+            <p className="text-sm text-primary mb-3">
               Dejanos tu email y te avisamos cuando tengamos stock:
             </p>
             {showNotifyForm ? (
@@ -112,7 +112,7 @@ export function StockIndicator({
                 variant="outline" 
                 size="sm" 
                 onClick={() => setShowNotifyForm(true)}
-                className="border-[var(--primary)] text-[var(--primary)] hover:bg-red-100"
+                className="border-[var(--primary)] text-primary hover:bg-red-100"
               >
                 <Bell className="w-4 h-4 mr-1" />
                 Avisarme cuando haya
@@ -136,13 +136,13 @@ export function StockIndicator({
       <div className={cn('space-y-2', className)}>
         <Badge 
           variant="outline" 
-          className="flex items-center gap-1.5 px-3 py-1.5 border-blue-500 text-[var(--primary)]"
+          className="flex items-center gap-1.5 px-3 py-1.5 border-blue-500 text-primary"
         >
           {config.icon}
           {config.label}
         </Badge>
         {preorderDate && (
-          <p className="text-sm text-[var(--text-muted)]">
+          <p className="text-sm text-muted-foreground">
             Proxima disponibilidad: <span className="font-medium">{preorderDate}</span>
           </p>
         )}
@@ -156,7 +156,7 @@ export function StockIndicator({
         variant={config.badgeVariant}
         className={cn(
           'flex items-center gap-1.5 px-3 py-1.5',
-          status === 'in_stock' && 'bg-[var(--success)] hover:bg-green-700'
+          status === 'in_stock' && 'bg-success hover:bg-green-700'
         )}
       >
         {config.icon}
@@ -170,7 +170,7 @@ export function StockIndicator({
       )}
       
       {status === 'in_stock' && stockCount !== undefined && stockCount > lowStockThreshold && (
-        <span className="text-sm text-[var(--text-muted)]">
+        <span className="text-sm text-muted-foreground">
           ({stockCount} disponibles)
         </span>
       )}
@@ -204,8 +204,8 @@ export function ProductStockCard({
     )}>
       <div className="flex items-start justify-between">
         <div>
-          <h4 className="font-medium text-[var(--text)]">{productName}</h4>
-          <p className="text-lg font-bold text-[var(--primary)]">{price}</p>
+          <h4 className="font-medium text-foreground">{productName}</h4>
+          <p className="text-lg font-bold text-primary">{price}</p>
         </div>
         <StockIndicator 
           status={status} 
@@ -235,7 +235,7 @@ export function StockManager({ products, onUpdateStock }: StockManagerProps) {
         {products.map((product) => (
           <div 
             key={product.id}
-            className="flex items-center justify-between p-3 bg-[var(--surface)] rounded-lg"
+            className="flex items-center justify-between p-3 bg-surface rounded-lg"
           >
             <div className="flex items-center gap-3">
               <StockIndicator status={product.status} stockCount={product.count} />
@@ -249,7 +249,7 @@ export function StockManager({ products, onUpdateStock }: StockManagerProps) {
                 className="w-20 text-center"
                 min={0}
               />
-              <span className="text-sm text-[var(--text-muted)]">unidades</span>
+              <span className="text-sm text-muted-foreground">unidades</span>
             </div>
           </div>
         ))}

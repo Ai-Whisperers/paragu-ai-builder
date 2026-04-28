@@ -26,7 +26,7 @@ export function PaginationInfo({
 
   if (totalItems === 0) {
     return (
-      <div className={cn("text-sm text-[var(--text-muted)]", className)} {...props}>
+      <div className={cn("text-sm text-muted-foreground", className)} {...props}>
         No {itemNamePlural} found
       </div>
     )
@@ -34,7 +34,7 @@ export function PaginationInfo({
 
   if (totalItems === 1) {
     return (
-      <div className={cn("text-sm text-[var(--text-muted)]", className)} {...props}>
+      <div className={cn("text-sm text-muted-foreground", className)} {...props}>
         Showing 1 {itemName}
       </div>
     )
@@ -43,13 +43,13 @@ export function PaginationInfo({
   const name = endItem - startItem === 0 ? itemName : itemNamePlural
 
   return (
-    <div className={cn("text-sm text-[var(--text-muted)]", className)} {...props}>
+    <div className={cn("text-sm text-muted-foreground", className)} {...props}>
       Showing{" "}
-      <span className="font-medium text-[var(--text)]">
+      <span className="font-medium text-foreground">
         {startItem}-{endItem}
       </span>{" "}
       of{" "}
-      <span className="font-medium text-[var(--text)]">
+      <span className="font-medium text-foreground">
         {totalItems}
       </span>{" "}
       {itemNamePlural}
@@ -134,7 +134,7 @@ export function PaginationControls({
             "p-2 rounded-md text-sm transition-colors",
             currentPage === 1
               ? "opacity-50 cursor-not-allowed"
-              : "hover:bg-[var(--surface-light)] text-[var(--text)]"
+              : "hover:bg-surface-light text-foreground"
           )}
           aria-label="Go to first page"
         >
@@ -152,7 +152,7 @@ export function PaginationControls({
           "p-2 rounded-md text-sm transition-colors",
           currentPage === 1
             ? "opacity-50 cursor-not-allowed"
-            : "hover:bg-[var(--surface-light)] text-[var(--text)]"
+            : "hover:bg-surface-light text-foreground"
         )}
         aria-label="Go to previous page"
       >
@@ -165,15 +165,15 @@ export function PaginationControls({
       {visiblePages.map((page, index) => (
         <React.Fragment key={index}>
           {page === "..." ? (
-            <span className="px-2 text-[var(--text-muted)]">...</span>
+            <span className="px-2 text-muted-foreground">...</span>
           ) : (
             <button
               onClick={() => onPageChange(page as number)}
               className={cn(
                 "min-w-[2rem] h-8 px-3 rounded-md text-sm font-medium transition-colors",
                 currentPage === page
-                  ? "bg-[var(--secondary)] text-white"
-                  : "hover:bg-[var(--surface-light)] text-[var(--text)]"
+                  ? "bg-secondary text-white"
+                  : "hover:bg-surface-light text-foreground"
               )}
               aria-current={currentPage === page ? "page" : undefined}
               aria-label={`Go to page ${page}`}
@@ -192,7 +192,7 @@ export function PaginationControls({
           "p-2 rounded-md text-sm transition-colors",
           currentPage === totalPages
             ? "opacity-50 cursor-not-allowed"
-            : "hover:bg-[var(--surface-light)] text-[var(--text)]"
+            : "hover:bg-surface-light text-foreground"
         )}
         aria-label="Go to next page"
       >
@@ -210,7 +210,7 @@ export function PaginationControls({
             "p-2 rounded-md text-sm transition-colors",
             currentPage === totalPages
               ? "opacity-50 cursor-not-allowed"
-              : "hover:bg-[var(--surface-light)] text-[var(--text)]"
+              : "hover:bg-surface-light text-foreground"
           )}
           aria-label="Go to last page"
         >

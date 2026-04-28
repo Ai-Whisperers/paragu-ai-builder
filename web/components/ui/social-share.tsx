@@ -185,7 +185,7 @@ export function ShareButton({
       <button
         onClick={handleClick}
         className={cn(
-          'flex items-center gap-2 rounded-lg p-2 text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-light)] hover:text-[var(--text)]',
+          'flex items-center gap-2 rounded-lg p-2 text-muted-foreground transition-colors hover:bg-surface-light hover:text-foreground',
           className
         )}
         title={platform === 'copy' ? 'Copy link' : `Share on ${config?.label || platform}`}
@@ -209,7 +209,7 @@ export function ShareButton({
       onClick={handleClick}
       className={cn(
         'flex items-center justify-center rounded-full transition-all duration-200 hover:scale-110',
-        config?.color || 'bg-[var(--surface)] text-[var(--text)]',
+        config?.color || 'bg-surface text-foreground',
         sizeClasses[size],
         showLabel && 'w-auto px-4 gap-2',
         className
@@ -336,7 +336,7 @@ export function ShareDropdown({
     <div className={cn('relative', className)}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium text-[var(--text)] hover:bg-[var(--surface-light)]"
+        className="flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium text-foreground hover:bg-surface-light"
       >
         {trigger || (
           <>
@@ -352,9 +352,9 @@ export function ShareDropdown({
             className="fixed inset-0 z-40"
             onClick={() => setIsOpen(false)}
           />
-          <div className="absolute right-0 top-full z-50 mt-2 w-56 overflow-hidden rounded-lg border border-[var(--border)] bg-[var(--background)] shadow-lg">
+          <div className="absolute right-0 top-full z-50 mt-2 w-56 overflow-hidden rounded-lg border border-border bg-background shadow-lg">
             <div className="p-2">
-              <div className="mb-2 px-2 py-1 text-xs font-medium text-[var(--text-muted)]">
+              <div className="mb-2 px-2 py-1 text-xs font-medium text-muted-foreground">
                 Share this page
               </div>
               
@@ -366,7 +366,7 @@ export function ShareDropdown({
                   <button
                     key={platform}
                     onClick={() => handleShare(platform)}
-                    className="flex w-full items-center gap-3 rounded-lg px-2 py-2 text-left text-sm text-[var(--text)] transition-colors hover:bg-[var(--surface-light)]"
+                    className="flex w-full items-center gap-3 rounded-lg px-2 py-2 text-left text-sm text-foreground transition-colors hover:bg-surface-light"
                   >
                     <div className={cn('flex h-8 w-8 items-center justify-center rounded-full text-white', config.color)}>
                       <Icon className="h-4 w-4" />
@@ -376,13 +376,13 @@ export function ShareDropdown({
                 )
               })}
 
-              <div className="my-2 border-t border-[var(--border)]" />
+              <div className="my-2 border-t border-border" />
               
               <button
                 onClick={handleCopy}
-                className="flex w-full items-center gap-3 rounded-lg px-2 py-2 text-left text-sm text-[var(--text)] transition-colors hover:bg-[var(--surface-light)]"
+                className="flex w-full items-center gap-3 rounded-lg px-2 py-2 text-left text-sm text-foreground transition-colors hover:bg-surface-light"
               >
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[var(--surface-light)]">
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-surface-light">
                   {isCopied ? (
                     <Check className="h-4 w-4 text-[var(--success)]" />
                   ) : (
@@ -494,7 +494,7 @@ export function SocialFeed({
   // This is a placeholder - actual implementation would require
   // platform-specific embed scripts/widgets
   return (
-    <div className={cn('rounded-lg bg-[var(--surface-light)] p-4', className)}>
+    <div className={cn('rounded-lg bg-surface-light p-4', className)}>
       <div className="mb-4 flex items-center gap-2">
         {platform === 'instagram' && <div className="h-5 w-5 rounded bg-gradient-to-br from-purple-500 to-pink-500" />}
         {platform === 'facebook' && <div className="h-5 w-5 rounded bg-[#1877F2]" />}
@@ -505,11 +505,11 @@ export function SocialFeed({
         {Array.from({ length: limit }).map((_, i) => (
           <div 
             key={i} 
-            className="aspect-square rounded bg-[var(--surface)] animate-pulse"
+            className="aspect-square rounded bg-surface animate-pulse"
           />
         ))}
       </div>
-      <p className="mt-4 text-center text-sm text-[var(--text-muted)]">
+      <p className="mt-4 text-center text-sm text-muted-foreground">
         Follow us on {platform} for more updates
       </p>
     </div>
@@ -556,14 +556,14 @@ export function SocialProof({
       {items.slice(0, 3).map((item, index) => (
         <div
           key={index}
-          className="flex items-center gap-3 rounded-lg bg-[var(--surface-light)] p-3 text-sm"
+          className="flex items-center gap-3 rounded-lg bg-surface-light p-3 text-sm"
         >
-          <div className="h-8 w-8 rounded-full bg-[var(--primary)]" />
+          <div className="h-8 w-8 rounded-full bg-primary" />
           <div className="flex-1">
-            <p className="text-[var(--text)]">
+            <p className="text-foreground">
               Someone from {item.location} {item.action}
             </p>
-            <p className="text-xs text-[var(--text-muted)]">{item.time}</p>
+            <p className="text-xs text-muted-foreground">{item.time}</p>
           </div>
         </div>
       ))}

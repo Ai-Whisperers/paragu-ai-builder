@@ -28,7 +28,7 @@ export function VideoBlock({
 
   return (
     <figure className="mx-auto w-full max-w-3xl">
-      <div className="relative aspect-video overflow-hidden rounded-2xl border border-[var(--border)] bg-gradient-to-br from-[var(--primary)]/10 via-[var(--surface)] to-[var(--accent)]/10 shadow-xl">
+      <div className="relative aspect-video overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-[var(--primary)]/10 via-[var(--surface)] to-[var(--accent)]/10 shadow-xl">
         {showEmbed ? (
           <iframe
             src={embedUrl}
@@ -45,7 +45,7 @@ export function VideoBlock({
             className="group absolute inset-0 flex items-center justify-center"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary)]/30 to-[var(--accent)]/30" aria-hidden />
-            <span className="relative flex h-20 w-20 items-center justify-center rounded-full bg-white/95 text-[var(--primary)] shadow-2xl transition-transform group-hover:scale-110">
+            <span className="relative flex h-20 w-20 items-center justify-center rounded-full bg-white/95 text-primary shadow-2xl transition-transform group-hover:scale-110">
               <PlayCircle size={48} />
             </span>
           </button>
@@ -55,16 +55,16 @@ export function VideoBlock({
             className="group absolute inset-0 flex flex-col items-center justify-center gap-3 px-6 text-center"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary)]/20 to-[var(--accent)]/20" aria-hidden />
-            <span className="relative flex h-20 w-20 items-center justify-center rounded-full bg-white/95 text-[var(--primary)] shadow-2xl transition-transform group-hover:scale-110">
+            <span className="relative flex h-20 w-20 items-center justify-center rounded-full bg-white/95 text-primary shadow-2xl transition-transform group-hover:scale-110">
               <PlayCircle size={48} />
             </span>
-            <span className="relative max-w-md text-sm font-medium text-[var(--text)]">
+            <span className="relative max-w-md text-sm font-medium text-foreground">
               Video walkthrough en producción · mientras tanto, mirá <u>cómo funciona</u>.
             </span>
           </a>
         )}
       </div>
-      <figcaption className="mt-3 text-center text-sm text-[var(--text-muted)]">
+      <figcaption className="mt-3 text-center text-sm text-muted-foreground">
         {caption}
       </figcaption>
     </figure>

@@ -20,13 +20,13 @@ export default function CitiesIndexPage() {
       <main id="main-content" className="pt-24 pb-20">
         <Container>
           <div className="mx-auto mb-16 max-w-2xl text-center">
-            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
+            <p className="mb-3 text-sm font-bold uppercase tracking-wider text-primary">
               Por ciudad
             </p>
-            <h1 className="mb-4 text-4xl font-bold text-[var(--text)] sm:text-5xl">
+            <h1 className="mb-4 text-4xl font-bold text-foreground sm:text-5xl">
               ¿Dónde está tu negocio?
             </h1>
-            <p className="text-lg text-[var(--text-light)]">
+            <p className="text-lg text-muted-foreground">
               Mostramos la realidad de cada ciudad: cuántos negocios mapeamos, cuántos sin web,
               y qué rubros tienen mayor concentración.
             </p>
@@ -37,18 +37,18 @@ export default function CitiesIndexPage() {
               <Link
                 key={c.slug}
                 href={`/c/${c.slug}`}
-                className="group rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-md"
+                className="group rounded-2xl border border-border bg-surface p-6 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-md"
               >
-                <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-[var(--primary)]/10 text-[var(--primary)]">
+                <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
                   <MapPin size={18} />
                 </div>
-                <h2 className="text-xl font-bold text-[var(--text)]">{c.name}</h2>
-                <p className="mt-2 text-sm text-[var(--text-light)]">{c.positioning}</p>
-                <p className="mt-4 text-sm text-[var(--text-muted)]">
-                  <strong className="text-[var(--text)]">{c.businesses.toLocaleString('es-PY')}</strong> negocios mapeados ·{' '}
-                  <strong className="text-[var(--text)]">{c.noWebPct}%</strong> sin web
+                <h2 className="text-xl font-bold text-foreground">{c.name}</h2>
+                <p className="mt-2 text-sm text-muted-foreground">{c.positioning}</p>
+                <p className="mt-4 text-sm text-muted-foreground">
+                  <strong className="text-foreground">{c.businesses.toLocaleString('es-PY')}</strong> negocios mapeados ·{' '}
+                  <strong className="text-foreground">{c.noWebPct}%</strong> sin web
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[var(--primary)]">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary">
                   Ver ciudad
                   <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
                 </span>

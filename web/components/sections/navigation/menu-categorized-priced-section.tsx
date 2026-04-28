@@ -49,11 +49,11 @@ export function MenuCategorizedPricedSection({
   )
 
   return (
-    <section className="py-16 bg-[var(--background)]">
+    <section className="py-16 bg-background">
       <Container>
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
         </AnimatedSectionHeader>
 
         {derivedCategories.length > 1 && (
@@ -64,8 +64,8 @@ export function MenuCategorizedPricedSection({
                 onClick={() => setActiveCategory(cat.id)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                   activeCategory === cat.id
-                    ? 'bg-[var(--primary)] text-[var(--primary-foreground)]'
-                    : 'bg-[var(--surface-light)] text-[var(--text)] hover:bg-[var(--surface)]'
+                    ? 'bg-primary text-[var(--primary-foreground)]'
+                    : 'bg-surface-light text-foreground hover:bg-surface'
                 }`}
               >
                 {cat.name}
@@ -80,15 +80,15 @@ export function MenuCategorizedPricedSection({
               <CardContent className="p-5">
                 <div className="flex justify-between items-baseline gap-4 mb-2">
                   <div className="flex items-center gap-2 flex-wrap">
-                    <Heading level={3} className="font-semibold text-lg text-[var(--text)]">{item.name}</Heading>
+                    <Heading level={3} className="font-semibold text-lg text-foreground">{item.name}</Heading>
                     {item.featured && <Badge>Recomendado</Badge>}
                   </div>
                   {showPrices && item.price && (
-                    <span className="font-bold text-[var(--primary)] whitespace-nowrap">{item.price}</span>
+                    <span className="font-bold text-primary whitespace-nowrap">{item.price}</span>
                   )}
                 </div>
                 {item.description && (
-                  <p className="text-sm text-[var(--text-muted)] leading-relaxed">{item.description}</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{item.description}</p>
                 )}
                 {item.dietary && item.dietary.length > 0 && (
                   <div className="flex gap-1 mt-2 flex-wrap">
@@ -105,7 +105,7 @@ export function MenuCategorizedPricedSection({
         </div>
 
         {visibleItems.length === 0 && (
-          <p className="text-center text-[var(--text-muted)] py-8">No hay platos en esta categoria.</p>
+          <p className="text-center text-muted-foreground py-8">No hay platos en esta categoria.</p>
         )}
       </Container>
     </section>

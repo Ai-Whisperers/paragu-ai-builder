@@ -76,32 +76,32 @@ export function DocumentChecklist({ eyebrow, title, subtitle, __locale = 'en' }:
   const SL = STATUS_LABELS[__locale as 'es' | 'en'] || STATUS_LABELS.en
 
   return (
-    <section className="bg-[var(--surface)] py-16 sm:py-24">
+    <section className="bg-surface py-16 sm:py-24">
       <Container>
         <AnimatedSectionHeader>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--secondary)]">{eyebrow || L.eyebrow}</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow || L.eyebrow}</p>
           <Heading level={2}>{title || L.title}</Heading>
-          <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{subtitle || L.subtitle}</p>
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle || L.subtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="mx-auto mt-12 max-w-3xl rounded-2xl border border-[var(--border)] bg-[var(--surface-light)] p-6 shadow-card sm:p-10">
+        <div className="mx-auto mt-12 max-w-3xl rounded-2xl border border-border bg-surface-light p-6 shadow-card sm:p-10">
           <div className="mb-6 flex items-center justify-between">
-            <span className="text-sm text-[var(--text-muted)]">{L.progress}</span>
+            <span className="text-sm text-muted-foreground">{L.progress}</span>
             <span className="text-sm font-medium">{progress}%</span>
           </div>
-          <div className="mb-8 h-2 w-full overflow-hidden rounded-full bg-[var(--border)]">
-            <div className="h-full rounded-full bg-[var(--secondary)] transition-all" style={{ width: `${progress}%` }}></div>
+          <div className="mb-8 h-2 w-full overflow-hidden rounded-full bg-border">
+            <div className="h-full rounded-full bg-secondary transition-all" style={{ width: `${progress}%` }}></div>
           </div>
 
           <div className="space-y-3">
             {DOCUMENTS.map((doc) => (
-              <div key={doc.id} className="flex items-center gap-4 rounded-lg border border-[var(--border)] bg-[var(--surface)] p-4">
-                <button onClick={() => toggleStatus(doc.id)} className={`flex h-6 w-6 items-center justify-center rounded border ${docs[doc.id] === 'ready' || docs[doc.id] === 'submitted' ? 'border-green-500 bg-green-500 text-white' : 'border-[var(--border)]'}`}>
+              <div key={doc.id} className="flex items-center gap-4 rounded-lg border border-border bg-surface p-4">
+                <button onClick={() => toggleStatus(doc.id)} className={`flex h-6 w-6 items-center justify-center rounded border ${docs[doc.id] === 'ready' || docs[doc.id] === 'submitted' ? 'border-green-500 bg-green-500 text-white' : 'border-border'}`}>
                   {(docs[doc.id] === 'ready' || docs[doc.id] === 'submitted') && '✓'}
                 </button>
                 <div className="flex-1">
-                  <p className="font-medium text-[var(--text)]">{doc.name[__locale as 'es' | 'en'] || doc.name.en}</p>
-                  <p className="text-xs text-[var(--text-muted)]">
+                  <p className="font-medium text-foreground">{doc.name[__locale as 'es' | 'en'] || doc.name.en}</p>
+                  <p className="text-xs text-muted-foreground">
                     {doc.legalization !== 'None' && `${doc.legalization} • `}{L.weeks}: {doc.weeks === 0 ? '1 day' : `${doc.weeks} weeks`}
                   </p>
                 </div>

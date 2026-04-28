@@ -40,12 +40,12 @@ export function RoomBookingSection({
   }
 
   return (
-    <section id="salas" className="bg-[var(--surface)] py-16 sm:py-20">
+    <section id="salas" className="bg-surface py-16 sm:py-20">
       <Container>
         <div className="text-center mb-12">
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
           )}
         </div>
 
@@ -53,10 +53,10 @@ export function RoomBookingSection({
           {rooms.map((room, idx) => (
             <div
               key={idx}
-              className="bg-[var(--background)] rounded-xl border border-[var(--border)] overflow-hidden hover:shadow-lg transition-shadow"
+              className="bg-background rounded-xl border border-border overflow-hidden hover:shadow-lg transition-shadow"
             >
               {room.imageUrl ? (
-                <div className="aspect-video bg-[var(--surface-light)]">
+                <div className="aspect-video bg-surface-light">
                   <img
                     src={room.imageUrl}
                     alt={room.name}
@@ -75,14 +75,14 @@ export function RoomBookingSection({
 
               <div className="p-5">
                 <div className="flex items-start justify-between mb-2">
-                  <Heading level={3} className="text-lg font-semibold text-[var(--text)]">{room.name}</Heading>
-                  <span className="text-sm text-[var(--text-muted)]">
+                  <Heading level={3} className="text-lg font-semibold text-foreground">{room.name}</Heading>
+                  <span className="text-sm text-muted-foreground">
                     {room.capacity} personas
                   </span>
                 </div>
 
                 {room.description && (
-                  <p className="text-sm text-[var(--text-muted)] mb-3">{room.description}</p>
+                  <p className="text-sm text-muted-foreground mb-3">{room.description}</p>
                 )}
 
                 {room.amenities && room.amenities.length > 0 && (
@@ -90,35 +90,35 @@ export function RoomBookingSection({
                     {room.amenities.slice(0, 3).map((amenity, aidx) => (
                       <span
                         key={aidx}
-                        className="text-xs px-2 py-1 bg-[var(--surface-light)] rounded-full text-[var(--text-muted)]"
+                        className="text-xs px-2 py-1 bg-surface-light rounded-full text-muted-foreground"
                       >
                         {amenity}
                       </span>
                     ))}
                     {room.amenities.length > 3 && (
-                      <span className="text-xs px-2 py-1 text-[var(--text-muted)]">
+                      <span className="text-xs px-2 py-1 text-muted-foreground">
                         +{room.amenities.length - 3} más
                       </span>
                     )}
                   </div>
                 )}
 
-                <div className="flex items-center justify-between pt-3 border-t border-[var(--border)]">
+                <div className="flex items-center justify-between pt-3 border-t border-border">
                   <div>
                     {room.pricePerHour && (
-                      <span className="text-lg font-bold text-[var(--primary)]">
+                      <span className="text-lg font-bold text-primary">
                         {room.pricePerHour}
                       </span>
                     )}
                     {room.pricePerSession && !room.pricePerHour && (
-                      <span className="text-lg font-bold text-[var(--primary)]">
+                      <span className="text-lg font-bold text-primary">
                         {room.pricePerSession}
                       </span>
                     )}
                   </div>
                   <button
                     onClick={() => handleBook(room)}
-                    className="px-4 py-2 bg-[var(--primary)] text-white rounded-lg font-medium hover:opacity-90 transition-opacity"
+                    className="px-4 py-2 bg-primary text-white rounded-lg font-medium hover:opacity-90 transition-opacity"
                   >
                     Reservar
                   </button>

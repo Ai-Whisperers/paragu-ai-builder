@@ -166,7 +166,7 @@ export default async function CategoryPage({
 
       <main className="mx-auto max-w-6xl px-4 py-8">
 
-        <div className="mb-6 rounded-lg bg-[color:var(--primary,#111)] p-6 text-[color:var(--primary-foreground,#fff)] sm:p-8">
+        <div className="mb-6 rounded-lg bg-primary p-6 text-[color:var(--primary-foreground,#fff)] sm:p-8">
           <h1 className="text-3xl font-bold capitalize">{match}</h1>
           <p className="mt-1 text-sm opacity-90">
             {totalCount} {totalCount === 1 ? 'producto disponible' : 'productos disponibles'} en {match}.
@@ -184,7 +184,7 @@ export default async function CategoryPage({
                 <li key={t.tag}>
                   <Link
                     href={`/s/${locale}/${site}/tienda/categoria/${encodeURIComponent(match)}/${encodeURIComponent(t.tag)}`}
-                    className="inline-flex items-center gap-1.5 rounded-full border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] px-3 py-1.5 font-medium capitalize hover:border-[color:var(--primary,#111)] hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-[color:var(--border,#e5e7eb)] bg-surface px-3 py-1.5 font-medium capitalize hover:border-[color:var(--primary,#111)] hover:bg-surface-light"
                   >
                     {t.tag.replace(/-/g, ' ')}
                     <span className="text-[color:var(--text-muted,#9ca3af)]">({t.count})</span>
@@ -215,7 +215,7 @@ export default async function CategoryPage({
         />
 
         {products.length === 0 ? (
-          <div className="mt-6 rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-12 text-center">
+          <div className="mt-6 rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-surface p-12 text-center">
             <p className="text-[color:var(--text-muted,#6b7280)]">
               No encontramos productos en <strong>{match}</strong> con esos filtros.
             </p>
@@ -227,7 +227,7 @@ export default async function CategoryPage({
                   <Link
                     key={c}
                     href={`/s/${locale}/${site}/tienda/categoria/${encodeURIComponent(c)}`}
-                    className="rounded-full border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs capitalize hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+                    className="rounded-full border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs capitalize hover:bg-surface-light"
                   >
                     {c}
                   </Link>

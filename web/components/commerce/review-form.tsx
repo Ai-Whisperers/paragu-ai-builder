@@ -52,7 +52,7 @@ export function ReviewForm({ siteSlug, productId }: Props) {
   }
 
   return (
-    <section aria-labelledby="review-form-heading" className="mt-8 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+    <section aria-labelledby="review-form-heading" className="mt-8 rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
       <h3 id="review-form-heading" className="mb-1 text-lg font-semibold">Escribí una reseña</h3>
       <p className="mb-3 text-xs text-[color:var(--text-muted,#6b7280)]">
         Las reseñas son revisadas antes de publicarse. Puede demorar 24–48 hs.
@@ -135,7 +135,7 @@ export function ReviewForm({ siteSlug, productId }: Props) {
           <button
             type="submit"
             disabled={state === 'submitting' || !rating || !name || content.length < 10}
-            className="rounded bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-medium text-[color:var(--primary-foreground,#fff)] disabled:opacity-50"
+            className="rounded bg-primary px-4 py-2 text-sm font-medium text-[color:var(--primary-foreground,#fff)] disabled:opacity-50"
           >
             {state === 'submitting' ? 'Enviando…' : 'Enviar reseña'}
           </button>

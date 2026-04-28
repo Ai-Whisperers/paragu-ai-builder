@@ -63,9 +63,9 @@ export function PreOrderCalendar({ availability, phone, productName, className }
   }
 
   const statusConfig: Record<AvailabilityStatus, { label: string; color: string; bgColor: string }> = {
-    available: { label: 'Disponible', color: '#27ae60', bgColor: 'bg-[var(--success)]' },
+    available: { label: 'Disponible', color: '#27ae60', bgColor: 'bg-success' },
     limited: { label: 'Pocos cupos', color: '#f39c12', bgColor: 'bg-amber-500' },
-    booked: { label: 'Agotado', color: '#e74c3c', bgColor: 'bg-[var(--primary)]' },
+    booked: { label: 'Agotado', color: '#e74c3c', bgColor: 'bg-primary' },
     closed: { label: 'Cerrado', color: '#95a5a6', bgColor: 'bg-gray-400' }
   }
 
@@ -78,10 +78,10 @@ export function PreOrderCalendar({ availability, phone, productName, className }
 
   return (
     <Card className={cn('overflow-hidden', className)}>
-      <CardHeader className="bg-[var(--surface)] border-b border-[var(--border)]">
+      <CardHeader className="bg-surface border-b border-border">
         <div className="flex items-center justify-between">
           <CardTitle className="flex items-center gap-2 text-lg">
-            <CalendarIcon className="w-5 h-5 text-[var(--primary)]" />
+            <CalendarIcon className="w-5 h-5 text-primary" />
             Reservar {productName}
           </CardTitle>
           <Badge variant="outline" className="flex items-center gap-1">
@@ -115,7 +115,7 @@ export function PreOrderCalendar({ availability, phone, productName, className }
         {/* Weekday Headers */}
         <div className="grid grid-cols-7 gap-1 mb-2">
           {['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'].map(day => (
-            <div key={day} className="text-center text-sm font-medium text-[var(--text-muted)] py-2">
+            <div key={day} className="text-center text-sm font-medium text-muted-foreground py-2">
               {day}
             </div>
           ))}
@@ -136,7 +136,7 @@ export function PreOrderCalendar({ availability, phone, productName, className }
               return (
                 <div
                   key={day}
-                  className="aspect-square flex items-center justify-center rounded-lg text-[var(--text-muted)] opacity-50"
+                  className="aspect-square flex items-center justify-center rounded-lg text-muted-foreground opacity-50"
                 >
                   {day}
                 </div>
@@ -152,15 +152,15 @@ export function PreOrderCalendar({ availability, phone, productName, className }
                 disabled={availability.status === 'booked' || availability.status === 'closed'}
                 className={cn(
                   'aspect-square flex flex-col items-center justify-center rounded-lg transition-all',
-                  'hover:bg-[var(--surface)] relative',
-                  isSelected && 'ring-2 ring-[var(--primary)]',
+                  'hover:bg-surface relative',
+                  isSelected && 'ring-2 ring-primary',
                   availability.status === 'booked' && 'opacity-50 cursor-not-allowed',
                   availability.status === 'closed' && 'opacity-30 cursor-not-allowed'
                 )}
               >
                 <span className={cn(
                   'text-sm font-medium',
-                  isSelected && 'text-[var(--primary)]'
+                  isSelected && 'text-primary'
                 )}>
                   {day}
                 </span>
@@ -174,18 +174,18 @@ export function PreOrderCalendar({ availability, phone, productName, className }
         </div>
 
         {/* Legend */}
-        <div className="flex flex-wrap gap-3 mt-4 pt-4 border-t border-[var(--border)]">
+        <div className="flex flex-wrap gap-3 mt-4 pt-4 border-t border-border">
           {Object.entries(statusConfig).map(([status, config]) => (
             <div key={status} className="flex items-center gap-1.5 text-sm">
               <span className={cn('w-2 h-2 rounded-full', config.bgColor)} />
-              <span className="text-[var(--text-muted)]">{config.label}</span>
+              <span className="text-muted-foreground">{config.label}</span>
             </div>
           ))}
         </div>
 
         {/* Selected Date Info */}
         {selectedDate && selectedAvailability && (
-          <div className="mt-6 bg-[var(--surface)] rounded-lg p-4 space-y-3">
+          <div className="mt-6 bg-surface rounded-lg p-4 space-y-3">
             <div className="flex items-center justify-between">
               <h4 className="font-medium">
                 {selectedDate.toLocaleDateString('es-PY', { 
@@ -206,7 +206,7 @@ export function PreOrderCalendar({ availability, phone, productName, className }
 
             {selectedAvailability.status !== 'booked' && selectedAvailability.status !== 'closed' && (
               <>
-                <p className="text-sm text-[var(--text-muted)]">
+                <p className="text-sm text-muted-foreground">
                   Cupos disponibles: {selectedAvailability.availableSlots} de {selectedAvailability.maxSlots}
                 </p>
                 <SmartWhatsAppButton
@@ -224,7 +224,7 @@ export function PreOrderCalendar({ availability, phone, productName, className }
 
         {/* Info */}
         <div className="mt-4 bg-blue-50 border border-blue-200 rounded-lg p-3 flex items-start gap-2">
-          <AlertCircle className="w-5 h-5 text-[var(--primary)] flex-shrink-0 mt-0.5" />
+          <AlertCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
           <p className="text-sm text-blue-800">
             Los pollos se preparan el dia anterior a la fecha de retiro seleccionada. 
             Debes confirmar tu reserva via WhatsApp.
@@ -294,10 +294,10 @@ export function PreOrderSection({ phone, className }: PreOrderSectionProps) {
     <section className={cn('py-16', className)}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
             Reserva tu Pollo
           </Heading>
-          <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Selecciona la fecha de retiro. Los pollos se preparan frescos 
             con 24 horas de anticipacion.
           </p>
@@ -316,17 +316,17 @@ export function PreOrderSection({ phone, className }: PreOrderSectionProps) {
                 <CardTitle className="text-lg">Opciones Disponibles</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="flex items-center justify-between py-2 border-b border-[var(--border)]">
+                <div className="flex items-center justify-between py-2 border-b border-border">
                   <div>
                     <p className="font-medium">Pollo Entero</p>
-                    <p className="text-sm text-[var(--text-muted)]">Aprox. 2-2.5kg</p>
+                    <p className="text-sm text-muted-foreground">Aprox. 2-2.5kg</p>
                   </div>
                   <Badge>35.000 Gs</Badge>
                 </div>
                 <div className="flex items-center justify-between py-2">
                   <div>
                     <p className="font-medium">Pollito Tierno</p>
-                    <p className="text-sm text-[var(--text-muted)]">Aprox. 1-1.2kg</p>
+                    <p className="text-sm text-muted-foreground">Aprox. 1-1.2kg</p>
                   </div>
                   <Badge>22.000 Gs</Badge>
                 </div>
@@ -338,7 +338,7 @@ export function PreOrderSection({ phone, className }: PreOrderSectionProps) {
                 <CardTitle className="text-lg">Informacion Importante</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 text-sm text-[var(--text)]">
+                <ul className="space-y-2 text-sm text-foreground">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0 mt-0.5" />
                     Pollos limpios y listos para cocinar

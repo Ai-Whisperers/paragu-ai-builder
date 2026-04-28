@@ -57,7 +57,7 @@ export default async function TransferInstructionsPage({
     <div className="min-h-screen bg-[color:var(--surface-muted,#f9fafb)]">
       <main className="mx-auto max-w-2xl px-4 py-10">
         <CheckoutProgressIndicator current="payment" />
-        <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6 shadow-sm">
+        <div className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6 shadow-sm">
           <h1 className="text-2xl font-bold text-[color:var(--text,#111)]">
             Pedido {order.orderNumber} — esperando transferencia
           </h1>
@@ -76,7 +76,7 @@ export default async function TransferInstructionsPage({
               <h2 className="text-xs font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">Datos bancarios</h2>
               {bank.bankName ? <p><strong>Banco:</strong> {bank.bankName}</p> : null}
               {bank.accountType ? <p><strong>Tipo:</strong> {bank.accountType}</p> : null}
-              {bank.accountNumber ? <p><strong>Número:</strong> <code className="rounded bg-[color:var(--surface-muted,#f3f4f6)] px-1.5 py-0.5 font-mono">{bank.accountNumber}</code></p> : null}
+              {bank.accountNumber ? <p><strong>Número:</strong> <code className="rounded bg-surface-light px-1.5 py-0.5 font-mono">{bank.accountNumber}</code></p> : null}
               {bank.holderName ? <p><strong>Titular:</strong> {bank.holderName}</p> : null}
               {bank.ciOrRuc ? <p><strong>CI / RUC:</strong> {bank.ciOrRuc}</p> : null}
               {bank.instructions ? (

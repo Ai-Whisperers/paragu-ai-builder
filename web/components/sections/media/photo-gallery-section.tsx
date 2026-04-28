@@ -73,7 +73,7 @@ const GALLERY_ITEMS = [
 const STATS = [
   { icon: Heart, value: '500+', label: 'Gallinas felices', color: 'text-pink-500' },
   { icon: MapPin, value: '100%', label: 'Producción local', color: 'text-[var(--success)]' },
-  { icon: Users, value: '200+', label: 'Clientes activos', color: 'text-[var(--primary)]' },
+  { icon: Users, value: '200+', label: 'Clientes activos', color: 'text-primary' },
   { icon: Award, value: '5+', label: 'Años de experiencia', color: 'text-amber-500' }
 ]
 
@@ -91,14 +91,14 @@ export function PhotoGallery({ className }: PhotoGalleryProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-10">
-          <Badge className="mb-4 bg-[var(--primary)]">
+          <Badge className="mb-4 bg-primary">
             <Camera className="w-4 h-4 mr-1" />
             Galería
           </Badge>
-          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
             Conocé nuestra granja
           </Heading>
-          <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Transparencia total: te mostramos dónde y cómo producimos tus huevos
           </p>
         </div>
@@ -109,8 +109,8 @@ export function PhotoGallery({ className }: PhotoGalleryProps) {
             <Card key={idx} className="text-center hover:shadow-md transition-shadow">
               <CardContent className="p-4">
                 <stat.icon className={cn('w-8 h-8 mx-auto mb-2', stat.color)} />
-                <p className="text-2xl font-bold text-[var(--text)]">{stat.value}</p>
-                <p className="text-sm text-[var(--text-muted)]">{stat.label}</p>
+                <p className="text-2xl font-bold text-foreground">{stat.value}</p>
+                <p className="text-sm text-muted-foreground">{stat.label}</p>
               </CardContent>
             </Card>
           ))}
@@ -125,8 +125,8 @@ export function PhotoGallery({ className }: PhotoGalleryProps) {
               className={cn(
                 'px-4 py-2 rounded-full text-sm font-medium transition-all',
                 selectedCategory === category
-                  ? 'bg-[var(--primary)] text-white'
-                  : 'bg-[var(--surface)] text-[var(--text)] hover:bg-[var(--border)]'
+                  ? 'bg-primary text-white'
+                  : 'bg-surface text-foreground hover:bg-border'
               )}
             >
               {category}
@@ -142,18 +142,18 @@ export function PhotoGallery({ className }: PhotoGalleryProps) {
               className="group relative aspect-square bg-gradient-to-br from-[var(--surface)] to-[var(--surfaceAlt)] rounded-lg overflow-hidden hover:shadow-lg transition-all cursor-pointer"
             >
               <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center">
-                <span className="text-5xl mb-3 group-hover:scale-110 transition-transform">
+                <span className="text-xl sm:text-3xl sm:text-5xl mb-3 group-hover:scale-110 transition-transform">
                   {item.emoji}
                 </span>
-                <Heading level={3} className="font-semibold text-[var(--text)] text-sm mb-1">
+                <Heading level={3} className="font-semibold text-foreground text-sm mb-1">
                   {item.title}
                 </Heading>
               </div>
               
               {/* Hover Overlay */}
-              <div className="absolute inset-0 bg-[var(--primary)]/90 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center p-4">
+              <div className="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center p-4">
                 <div className="text-center text-white">
-                  <span className="text-3xl mb-2 block">{item.emoji}</span>
+                  <span className="text-xl sm:text-3xl mb-2 block">{item.emoji}</span>
                   <p className="font-semibold mb-1">{item.title}</p>
                   <p className="text-sm opacity-90">{item.description}</p>
                 </div>
@@ -164,10 +164,10 @@ export function PhotoGallery({ className }: PhotoGalleryProps) {
 
         {/* CTA */}
         <div className="mt-10 text-center">
-          <p className="text-[var(--text-muted)] mb-4">
+          <p className="text-muted-foreground mb-4">
             ¿Querés ver más o visitar la granja personalmente?
           </p>
-          <p className="text-sm text-[var(--text-muted)]">
+          <p className="text-sm text-muted-foreground">
             Estamos en Ruta 2, Km 125-140, Coronel Oviedo
           </p>
         </div>

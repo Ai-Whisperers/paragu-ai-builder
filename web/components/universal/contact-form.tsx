@@ -163,7 +163,7 @@ export default function ContactForm({
   }
 
   const inputCls =
-    'w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition-colors'
+    'w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors'
   const errorCls = 'border-[var(--color-error)]'
   const okCls = 'border-gray-300'
 
@@ -173,7 +173,7 @@ export default function ContactForm({
       noValidate
       className="bg-white rounded-xl p-6 shadow-sm border border-gray-100"
     >
-      <h3 className="text-lg font-semibold mb-4 text-[var(--primary)]">Envíanos un mensaje</h3>
+      <h3 className="text-lg font-semibold mb-4 text-primary">Envíanos un mensaje</h3>
 
       <div className="space-y-4">
         <div>
@@ -308,7 +308,7 @@ export default function ContactForm({
 
         <Button
           type="submit"
-          className="w-full bg-[var(--primary)] hover:opacity-90"
+          className="w-full bg-primary hover:opacity-90"
           size="lg"
           isLoading={status === 'submitting'}
           loadingText="Enviando…"

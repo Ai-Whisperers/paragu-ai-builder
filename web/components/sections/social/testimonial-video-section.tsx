@@ -25,11 +25,11 @@ function embedUrl(src: string): string {
 export function TestimonialVideoSection({ title = 'Historias de clientes', subtitle, videos }: TestimonialVideoProps) {
   if (!videos?.length) return null
   return (
-    <section className="py-16 bg-[var(--surface)]">
+    <section className="py-16 bg-surface">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
           {videos.map((v, i) => {
@@ -51,9 +51,9 @@ export function TestimonialVideoSection({ title = 'Historias de clientes', subti
                   )}
                 </div>
                 <figcaption className="mt-2 text-sm">
-                  <div className="font-semibold text-[var(--text)]">{v.author}</div>
-                  {v.role && <div className="text-[var(--text-muted)]">{v.role}</div>}
-                  {v.caption && <p className="mt-1 italic text-[var(--text-muted)]">{v.caption}</p>}
+                  <div className="font-semibold text-foreground">{v.author}</div>
+                  {v.role && <div className="text-muted-foreground">{v.role}</div>}
+                  {v.caption && <p className="mt-1 italic text-muted-foreground">{v.caption}</p>}
                 </figcaption>
               </figure>
             )

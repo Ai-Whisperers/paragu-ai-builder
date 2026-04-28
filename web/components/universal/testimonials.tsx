@@ -33,7 +33,7 @@ export default function Testimonials({
 
   return (
     <div className="py-12">
-      <h2 className="text-2xl font-bold text-center mb-8 text-[var(--primary)]">{title}</h2>
+      <h2 className="text-2xl font-bold text-center mb-8 text-primary">{title}</h2>
       
       {testimonials.length === 1 ? (
         <div className="max-w-2xl mx-auto">
@@ -55,7 +55,7 @@ export default function Testimonials({
             <blockquote className="text-lg text-gray-700 italic mb-4">
               &ldquo;{testimonials[0].quote}&rdquo;
             </blockquote>
-            <div className="font-medium text-[var(--primary)]">
+            <div className="font-medium text-primary">
               {testimonials[0].author}
               {testimonials[0].role && (
                 <span className="text-gray-500 text-sm block">{testimonials[0].role}</span>
@@ -84,7 +84,7 @@ export default function Testimonials({
               <blockquote className="text-lg text-gray-700 italic mb-4 text-center">
                 &ldquo;{testimonials[currentIndex].quote}&rdquo;
               </blockquote>
-              <div className="text-center font-medium text-[var(--primary)]">
+              <div className="text-center font-medium text-primary">
                 {testimonials[currentIndex].author}
                 {testimonials[currentIndex].role && (
                   <span className="text-gray-500 text-sm block">{testimonials[currentIndex].role}</span>
@@ -112,7 +112,7 @@ export default function Testimonials({
                 key={idx}
                 onClick={() => setCurrentIndex(idx)}
                 className={`w-2 h-2 rounded-full transition-colors ${
-                  idx === currentIndex ? 'bg-[var(--primary)]' : 'bg-gray-300'
+                  idx === currentIndex ? 'bg-primary' : 'bg-gray-300'
                 }`}
               />
             ))}
@@ -126,7 +126,7 @@ export default function Testimonials({
             href={googleReviewsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-[var(--primary)] hover:underline"
+            className="inline-flex items-center gap-2 text-primary hover:underline"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>

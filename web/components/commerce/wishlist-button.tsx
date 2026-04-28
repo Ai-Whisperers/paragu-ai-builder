@@ -59,7 +59,7 @@ export function WishlistButton({ siteSlug, product, className }: Props) {
       aria-label={added ? `Quitar ${product.name} de favoritos` : `Agregar ${product.name} a favoritos`}
       className={
         className ??
-        'inline-flex items-center gap-2 rounded-lg border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm font-medium hover:bg-[color:var(--surface-muted,#f3f4f6)]'
+        'inline-flex items-center gap-2 rounded-lg border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm font-medium hover:bg-surface-light'
       }
     >
       <span aria-hidden="true" className={added ? 'text-red-500' : 'text-[color:var(--text-muted,#6b7280)]'}>

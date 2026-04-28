@@ -127,13 +127,13 @@ export function VideoModal({
           type="button"
           onClick={open}
           aria-label={playLabel}
-          className={`group relative block w-full overflow-hidden rounded-lg bg-[var(--surface-light)] ${aspectRatio} ${className} focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2`}
+          className={`group relative block w-full overflow-hidden rounded-lg bg-surface-light ${aspectRatio} ${className} focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2`}
         >
           {posterContent}
         </button>
       ) : (
         <div
-          className={`relative block w-full overflow-hidden rounded-lg bg-[var(--surface-light)] ${aspectRatio} ${className}`}
+          className={`relative block w-full overflow-hidden rounded-lg bg-surface-light ${aspectRatio} ${className}`}
           aria-label={posterAlt}
         >
           {posterContent}

@@ -101,7 +101,7 @@ function ReviewCard({
   pending: boolean
 }) {
   return (
-    <li className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4">
+    <li className="rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4">
       <div className="mb-2 flex flex-wrap items-center gap-2 text-sm">
         <span className="font-mono text-amber-500">{'★'.repeat(review.rating)}</span>
         <span className="font-medium text-[color:var(--text,#111)]">{review.authorName}</span>
@@ -133,7 +133,7 @@ function ReviewCard({
           <form action={unapproveReview.bind(null, review.id, businessId)}>
             <button
               type="submit"
-              className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-[color:var(--surface-muted,#f3f4f6)]"
+              className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-1 text-xs hover:bg-surface-light"
             >
               Despublicar
             </button>
@@ -183,7 +183,7 @@ export default async function AdminReviewsPage({ params }: { params: Promise<{ b
           Pendientes ({pending.length})
         </h2>
         {pending.length === 0 ? (
-          <p className="rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6 text-center text-sm text-[color:var(--text-muted,#6b7280)]">
+          <p className="rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-surface p-6 text-center text-sm text-[color:var(--text-muted,#6b7280)]">
             No hay reseñas esperando moderación.
           </p>
         ) : (
@@ -200,7 +200,7 @@ export default async function AdminReviewsPage({ params }: { params: Promise<{ b
           Publicadas ({approved.length})
         </h2>
         {approved.length === 0 ? (
-          <p className="rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-6 text-center text-sm text-[color:var(--text-muted,#6b7280)]">
+          <p className="rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-surface p-6 text-center text-sm text-[color:var(--text-muted,#6b7280)]">
             Todavía no hay reseñas publicadas.
           </p>
         ) : (

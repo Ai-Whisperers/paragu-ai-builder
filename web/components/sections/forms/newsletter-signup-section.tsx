@@ -51,14 +51,14 @@ export function NewsletterSignupSection({
   }
 
   return (
-    <section className="py-12 bg-[var(--surface)]">
+    <section className="py-12 bg-surface">
       <Container>
         <div className="max-w-xl mx-auto text-center">
           <Heading level={3}>{title}</Heading>
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
 
           {state === 'ok' ? (
-            <p className="mt-6 text-[var(--primary)] font-medium">{successMessage}</p>
+            <p className="mt-6 text-primary font-medium">{successMessage}</p>
           ) : (
             <form onSubmit={onSubmit} className="mt-4 flex flex-col gap-3">
               <div className="flex flex-col sm:flex-row gap-2">
@@ -68,13 +68,13 @@ export function NewsletterSignupSection({
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder={placeholder}
-                  className="flex-1 border border-[var(--surface-light)] rounded px-3 py-2 bg-[var(--background)]"
+                  className="flex-1 border border-[var(--surface-light)] rounded px-3 py-2 bg-background"
                 />
                 <Button type="submit" disabled={!consent || state === 'submitting'}>
                   {state === 'submitting' ? '...' : submitLabel}
                 </Button>
               </div>
-              <label className="flex items-center justify-center gap-2 text-xs text-[var(--text-muted)]">
+              <label className="flex items-center justify-center gap-2 text-xs text-muted-foreground">
                 <input
                   type="checkbox"
                   checked={consent}
@@ -82,7 +82,7 @@ export function NewsletterSignupSection({
                 />
                 <span>{consentLabel}</span>
               </label>
-              {state === 'err' && <p className="text-xs text-[var(--primary)]">Error. Intenta de nuevo.</p>}
+              {state === 'err' && <p className="text-xs text-primary">Error. Intenta de nuevo.</p>}
             </form>
           )}
         </div>

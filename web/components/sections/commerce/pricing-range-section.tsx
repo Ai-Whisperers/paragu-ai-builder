@@ -27,26 +27,26 @@ export function PricingRangeSection({
   ctaHref = '#contacto',
 }: PricingRangeProps) {
   return (
-    <section className="py-14 bg-[var(--surface)]">
+    <section className="py-14 bg-surface">
       <Container>
         <div className="max-w-2xl mx-auto text-center">
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
 
           <div className="mt-6 flex items-baseline justify-center gap-2">
-            <span className="text-4xl font-bold text-[var(--primary)]">{minPrice}</span>
-            <span className="text-[var(--text-muted)]">—</span>
-            <span className="text-4xl font-bold text-[var(--primary)]">{maxPrice}</span>
+            <span className="text-2xl sm:text-4xl font-bold text-primary">{minPrice}</span>
+            <span className="text-muted-foreground">—</span>
+            <span className="text-2xl sm:text-4xl font-bold text-primary">{maxPrice}</span>
           </div>
 
-          <div className="mt-8 text-left bg-[var(--background)] rounded-lg p-4">
-            <p className="text-sm font-semibold text-[var(--text)] mb-2">
+          <div className="mt-8 text-left bg-background rounded-lg p-4">
+            <p className="text-sm font-semibold text-foreground mb-2">
               Lo que hace variar el precio:
             </p>
-            <ul className="space-y-1 text-sm text-[var(--text-muted)]">
+            <ul className="space-y-1 text-sm text-muted-foreground">
               {factors.map((f, i) => (
                 <li key={i} className="flex gap-2">
-                  <span className="text-[var(--primary)]">·</span>
+                  <span className="text-primary">·</span>
                   <span>{f}</span>
                 </li>
               ))}
@@ -55,7 +55,7 @@ export function PricingRangeSection({
 
           <a
             href={ctaHref}
-            className="inline-block mt-6 bg-[var(--primary)] text-[var(--primary-foreground)] px-6 py-2 rounded"
+            className="inline-block mt-6 bg-primary text-[var(--primary-foreground)] px-6 py-2 rounded"
           >
             {ctaText}
           </a>

@@ -97,7 +97,7 @@ export function ShippingZonesManager({
         zones.map((zone) => (
           <div
             key={zone.id}
-            className="flex items-center justify-between rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4"
+            className="flex items-center justify-between rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-4"
           >
             <div className="flex-1">
               <p className="font-medium">{zone.name}</p>
@@ -176,7 +176,7 @@ function NewZoneForm({
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-3 rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-4"
+      className="space-y-3 rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-surface p-4"
     >
       <p className="text-xs font-semibold uppercase text-[color:var(--text-muted,#6b7280)]">
         Nueva zona
@@ -206,7 +206,7 @@ function NewZoneForm({
               key={r}
               className={`cursor-pointer rounded-full border px-3 py-1 text-xs ${
                 regions.includes(r)
-                  ? 'border-[color:var(--primary,#111)] bg-[color:var(--primary,#111)]/10 text-[color:var(--primary,#111)]'
+                  ? 'border-[color:var(--primary,#111)] bg-primary/10 text-[color:var(--primary,#111)]'
                   : 'border-[color:var(--border,#e5e7eb)] text-[color:var(--text-muted,#6b7280)]'
               }`}
             >
@@ -224,7 +224,7 @@ function NewZoneForm({
       <button
         type="submit"
         disabled={creating || !name.trim() || !amount.trim()}
-        className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
+        className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
       >
         {creating ? 'Creando…' : '+ Agregar zona'}
       </button>

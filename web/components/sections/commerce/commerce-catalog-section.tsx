@@ -87,7 +87,7 @@ export async function CommerceCatalogSection({
       <CartStoreHydrator siteSlug={siteSlug} initialCart={null} />
       <Container>
         <div className="mb-6 text-center">
-          <Heading level={2} id="commerce-catalog-heading" className="text-3xl font-bold text-[color:var(--text,#111)]">
+          <Heading level={2} id="commerce-catalog-heading" className="text-xl sm:text-3xl font-bold text-[color:var(--text,#111)]">
             {title}
           </Heading>
           {subtitle ? <p className="mt-1 text-[color:var(--text-muted,#6b7280)]">{subtitle}</p> : null}
@@ -110,7 +110,7 @@ export async function CommerceCatalogSection({
           <div className="mt-8 text-center">
             <Link
               href={`/s/${locale}/${siteSlug}/tienda`}
-              className="inline-block rounded-lg border border-[color:var(--primary,#111)] px-6 py-3 font-medium text-[color:var(--primary,#111)] hover:bg-[color:var(--primary,#111)] hover:text-[color:var(--primary-foreground,#fff)]"
+              className="inline-block rounded-lg border border-[color:var(--primary,#111)] px-6 py-3 font-medium text-[color:var(--primary,#111)] hover:bg-primary hover:text-[color:var(--primary-foreground,#fff)]"
             >
               {viewAllText} →
             </Link>

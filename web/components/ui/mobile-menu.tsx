@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 import { cva, type VariantProps } from "class-variance-authority"
 
 const mobileMenuVariants = cva(
-  "fixed inset-0 z-50 bg-[var(--background)] transition-transform duration-300 ease-in-out",
+  "fixed inset-0 z-50 bg-background transition-transform duration-300 ease-in-out",
   {
     variants: {
       position: {
@@ -97,15 +97,15 @@ export function MobileMenu({
       >
         <div className="flex flex-col h-full">
           {/* Header */}
-          <div className="flex items-center justify-between p-4 border-b border-[var(--border)]">
-            <span className="font-semibold text-[var(--text)]">Menu</span>
+          <div className="flex items-center justify-between p-4 border-b border-border">
+            <span className="font-semibold text-foreground">Menu</span>
             <button
               onClick={onClose}
-              className="p-2 rounded-md hover:bg-[var(--surface-light)] transition-colors"
+              className="p-2 rounded-md hover:bg-surface-light transition-colors"
               aria-label="Close menu"
             >
               <svg
-                className="w-5 h-5 text-[var(--text)]"
+                className="w-5 h-5 text-foreground"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -139,7 +139,7 @@ export function HamburgerButton({ className, isOpen, ...props }: HamburgerButton
   return (
     <button
       className={cn(
-        "p-2 rounded-md hover:bg-[var(--surface-light)] transition-colors lg:hidden",
+        "p-2 rounded-md hover:bg-surface-light transition-colors lg:hidden",
         className
       )}
       aria-label={isOpen ? "Close menu" : "Open menu"}

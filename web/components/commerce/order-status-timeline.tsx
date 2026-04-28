@@ -50,7 +50,7 @@ export function OrderStatusTimeline({ status }: Props) {
                 className={`flex h-7 w-7 flex-none items-center justify-center rounded-full text-xs font-semibold ${
                   done
                     ? 'bg-[color:var(--secondary,#b8860b)] text-white'
-                    : 'bg-[color:var(--surface-muted,#f3f4f6)] text-[color:var(--text-muted,#6b7280)]'
+                    : 'bg-surface-light text-[color:var(--text-muted,#6b7280)]'
                 } ${active ? 'ring-2 ring-offset-2 ring-[color:var(--secondary,#b8860b)]' : ''}`}
               >
                 {done ? '✓' : i + 1}

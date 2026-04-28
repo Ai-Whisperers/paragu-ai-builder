@@ -31,7 +31,7 @@ export function TestimonialCarousel({ testimonials }: { testimonials: Testimonia
 
   return (
     <div className="relative mx-auto max-w-3xl">
-      <div className="overflow-hidden rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-8 md:p-12">
+      <div className="overflow-hidden rounded-3xl border border-border bg-surface p-8 md:p-12">
         {testimonials.map((t, i) => (
           <div
             key={i}
@@ -42,8 +42,8 @@ export function TestimonialCarousel({ testimonials }: { testimonials: Testimonia
               transform: i === current ? 'translateX(0)' : 'translateX(20px)',
             }}
           >
-            <Quote size={48} className="mb-6 text-[var(--primary)]/20" />
-            <p className="mb-8 text-2xl font-medium italic text-[var(--text)] md:text-3xl">
+            <Quote size={48} className="mb-6 text-primary/20" />
+            <p className="mb-8 text-2xl font-medium italic text-foreground md:text-3xl">
               &ldquo;{t.quote}&rdquo;
             </p>
             <div className="flex items-center gap-4">
@@ -51,8 +51,8 @@ export function TestimonialCarousel({ testimonials }: { testimonials: Testimonia
                 {t.name[0]}
               </div>
               <div>
-                <p className="font-bold text-[var(--text)]">{t.name}</p>
-                <p className="text-sm text-[var(--text-muted)]">
+                <p className="font-bold text-foreground">{t.name}</p>
+                <p className="text-sm text-muted-foreground">
                   {t.business} • {t.location}
                 </p>
               </div>
@@ -77,7 +77,7 @@ export function TestimonialCarousel({ testimonials }: { testimonials: Testimonia
             onClick={() => setCurrent(i)}
             aria-label={`Ir al testimonio ${i + 1}`}
             className={`h-2 rounded-full transition-all ${
-              i === current ? 'w-8 bg-[var(--primary)]' : 'w-2 bg-[var(--border)]'
+              i === current ? 'w-8 bg-primary' : 'w-2 bg-border'
             }`}
           />
         ))}

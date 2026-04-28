@@ -63,11 +63,11 @@ export function TieredServiceLadderSection({
   }
 
   return (
-    <section className="py-16 bg-[var(--background)]">
+    <section className="py-16 bg-background">
       <Container>
         <div className="text-center mb-10">
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="mt-3 text-[var(--text-muted)]">{subtitle}</p>}
+          {subtitle && <p className="mt-3 text-muted-foreground">{subtitle}</p>}
         </div>
 
         {/* Connector line (desktop only) */}
@@ -79,7 +79,7 @@ export function TieredServiceLadderSection({
           {tiers.map((tier, idx) => (
             <Card
               key={`${tier.level}-${idx}`}
-              className={`relative h-full ${tier.popular ? 'ring-2 ring-[var(--primary)]' : ''} ${
+              className={`relative h-full ${tier.popular ? 'ring-2 ring-primary' : ''} ${
                 tier.status && tier.status !== 'available' ? 'opacity-80' : ''
               }`}
             >
@@ -99,7 +99,7 @@ export function TieredServiceLadderSection({
                   <div>
                     <Heading level={3}>{tier.name}</Heading>
                     {tier.subtitle && (
-                      <p className="text-sm text-[var(--text-muted)]">{tier.subtitle}</p>
+                      <p className="text-sm text-muted-foreground">{tier.subtitle}</p>
                     )}
                   </div>
                   {statusBadge(tier)}
@@ -108,23 +108,23 @@ export function TieredServiceLadderSection({
 
                 {tier.price && (
                   <div className="mb-3">
-                    <span className="text-2xl font-bold text-[var(--primary)]">{tier.price}</span>
+                    <span className="text-2xl font-bold text-primary">{tier.price}</span>
                   </div>
                 )}
 
                 {tier.description && (
-                  <p className="text-sm text-[var(--text-muted)] mb-4">{tier.description}</p>
+                  <p className="text-sm text-muted-foreground mb-4">{tier.description}</p>
                 )}
 
                 {tier.upgradesFromPrevious && tier.upgradesFromPrevious.length > 0 && (
                   <div className="mb-4 pb-4 border-b border-[var(--surface-light)]">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)] mb-2">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">
                       Sube al nivel {tier.level}:
                     </p>
                     <ul className="space-y-1 text-sm">
                       {tier.upgradesFromPrevious.map((u, i) => (
                         <li key={i} className="flex gap-2">
-                          <span className="text-[var(--primary)]">↑</span>
+                          <span className="text-primary">↑</span>
                           <span>{u}</span>
                         </li>
                       ))}
@@ -132,7 +132,7 @@ export function TieredServiceLadderSection({
                   </div>
                 )}
 
-                <ul className="space-y-1.5 text-sm text-[var(--text)] mb-5">
+                <ul className="space-y-1.5 text-sm text-foreground mb-5">
                   {tier.features.map((f, i) => (
                     <li key={i} className="flex gap-2">
                       <span className="text-[var(--success)]">✓</span>
@@ -153,7 +153,7 @@ export function TieredServiceLadderSection({
         </div>
 
         {footerNote && (
-          <p className="mt-8 text-center text-sm text-[var(--text-muted)]">{footerNote}</p>
+          <p className="mt-8 text-center text-sm text-muted-foreground">{footerNote}</p>
         )}
       </Container>
     </section>

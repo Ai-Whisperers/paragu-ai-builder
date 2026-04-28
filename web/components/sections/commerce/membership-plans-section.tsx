@@ -39,12 +39,12 @@ export function MembershipPlansSection({
   }
 
   return (
-    <section id="planes" className="bg-[var(--background)] py-16 sm:py-20">
+    <section id="planes" className="bg-background py-16 sm:py-20">
       <Container>
         <div className="text-center mb-12">
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
           )}
         </div>
 
@@ -54,8 +54,8 @@ export function MembershipPlansSection({
               key={idx}
               className={`relative rounded-2xl p-6 ${
                 plan.popular
-                  ? 'bg-[var(--primary)] text-white ring-4 ring-[var(--primary)] ring-offset-2'
-                  : 'bg-[var(--surface)] border border-[var(--border)]'
+                  ? 'bg-primary text-white ring-4 ring-primary ring-offset-2'
+                  : 'bg-surface border border-border'
               }`}
             >
               {plan.popular && (
@@ -66,16 +66,16 @@ export function MembershipPlansSection({
 
               <Heading level={3} className="text-xl font-bold mb-2">{plan.name}</Heading>
               <div className="mb-4">
-                <span className="text-3xl font-bold">{plan.price}</span>
+                <span className="text-xl sm:text-3xl font-bold">{plan.price}</span>
                 {plan.period && (
-                  <span className={plan.popular ? 'text-white/80' : 'text-[var(--text-muted)]'}>
+                  <span className={plan.popular ? 'text-white/80' : 'text-muted-foreground'}>
                     /{plan.period}
                   </span>
                 )}
               </div>
 
               {plan.description && (
-                <p className={`text-sm mb-4 ${plan.popular ? 'text-white/80' : 'text-[var(--text-muted)]'}`}>
+                <p className={`text-sm mb-4 ${plan.popular ? 'text-white/80' : 'text-muted-foreground'}`}>
                   {plan.description}
                 </p>
               )}
@@ -84,7 +84,7 @@ export function MembershipPlansSection({
                 {plan.features.map((feature, fidx) => (
                   <li key={fidx} className="flex items-center gap-2 text-sm">
                     <svg
-                      className={`w-4 h-4 flex-shrink-0 ${plan.popular ? 'text-white' : 'text-[var(--primary)]'}`}
+                      className={`w-4 h-4 flex-shrink-0 ${plan.popular ? 'text-white' : 'text-primary'}`}
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"

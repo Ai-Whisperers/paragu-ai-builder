@@ -136,10 +136,10 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
               <p className="mb-3 text-sm font-bold uppercase tracking-wider" style={{ color: t.color }}>
                 Plantilla {t.name}
               </p>
-              <h1 className="mb-6 text-4xl font-bold leading-tight text-[var(--text)] sm:text-5xl md:text-6xl">
+              <h1 className="mb-6 text-4xl font-bold leading-tight text-foreground sm:text-5xl md:text-6xl">
                 {headline}
               </h1>
-              <p className="mx-auto mb-10 max-w-2xl text-lg text-[var(--text-light)] md:text-xl">
+              <p className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground md:text-xl">
                 {lead}
               </p>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -147,7 +147,7 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
                   href={waLink(waMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-2 rounded-2xl bg-[var(--primary)] px-8 py-4 text-lg font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
+                  className="group inline-flex items-center gap-2 rounded-2xl bg-primary px-8 py-4 text-lg font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
                 >
                   <MessageCircle size={20} />
                   Pedir demo gratis
@@ -156,7 +156,7 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
                 {demoHref && (
                   <Link
                     href={demoHref}
-                    className="inline-flex items-center gap-2 rounded-2xl border-2 border-[var(--border)] bg-[var(--surface)] px-8 py-4 text-lg font-bold text-[var(--text)] transition-all hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                    className="inline-flex items-center gap-2 rounded-2xl border-2 border-border bg-surface px-8 py-4 text-lg font-bold text-foreground transition-all hover:border-[var(--primary)] hover:text-primary"
                   >
                     Ver demo en vivo
                     <ExternalLink size={18} />
@@ -165,8 +165,8 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
               </div>
 
               {t.leads > 0 && (
-                <p className="mt-8 text-sm text-[var(--text-muted)]">
-                  Mercado PY: <strong className="text-[var(--text)]">{t.leads.toLocaleString('es-PY')}</strong> negocios mapeados · <strong className="text-[var(--text)]">{t.pct}%</strong> sin web propia
+                <p className="mt-8 text-sm text-muted-foreground">
+                  Mercado PY: <strong className="text-foreground">{t.leads.toLocaleString('es-PY')}</strong> negocios mapeados · <strong className="text-foreground">{t.pct}%</strong> sin web propia
                 </p>
               )}
             </div>
@@ -174,10 +174,10 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
         </section>
 
         {/* What's included */}
-        <section className="border-y border-[var(--border)] bg-[var(--surface-light)] py-20">
+        <section className="border-y border-border bg-surface-light py-20">
           <Container>
             <div className="mx-auto max-w-3xl">
-              <h2 className="mb-8 text-center text-3xl font-bold text-[var(--text)]">
+              <h2 className="mb-8 text-center text-3xl font-bold text-foreground">
                 Qué incluye tu sitio
               </h2>
               <ul className="grid gap-4 sm:grid-cols-2">
@@ -193,12 +193,12 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
                 ].map((feat) => (
                   <li
                     key={feat}
-                    className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--surface)] p-4"
+                    className="flex items-start gap-3 rounded-xl border border-border bg-surface p-4"
                   >
-                    <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[var(--success)]/10 text-[var(--success)]">
+                    <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-success/10 text-[var(--success)]">
                       <Check size={14} />
                     </span>
-                    <span className="text-sm text-[var(--text)]">{feat}</span>
+                    <span className="text-sm text-foreground">{feat}</span>
                   </li>
                 ))}
               </ul>
@@ -210,8 +210,8 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
         <section className="py-20">
           <Container>
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="mb-4 text-3xl font-bold text-[var(--text)]">Listo en 48 horas</h2>
-              <p className="mb-8 text-[var(--text-light)]">
+              <h2 className="mb-4 text-3xl font-bold text-foreground">Listo en 48 horas</h2>
+              <p className="mb-8 text-muted-foreground">
                 Mandá el nombre de tu {t.name.toLowerCase()} por WhatsApp. Te enviamos la demo
                 personalizada antes de cobrarte un solo guaraní.
               </p>
@@ -227,7 +227,7 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
             </div>
 
             <div className="mx-auto mt-20 max-w-5xl">
-              <h3 className="mb-6 text-center text-sm font-bold uppercase tracking-wider text-[var(--text-muted)]">
+              <h3 className="mb-6 text-center text-sm font-bold uppercase tracking-wider text-muted-foreground">
                 ¿Tu rubro es otro? Mirá estas plantillas
               </h3>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -235,22 +235,22 @@ export default async function VerticalLandingPage({ params }: { params: Promise<
                   <Link
                     key={s.id}
                     href={`/p/${s.seoSlug ?? s.id.replace(/_/g, '-')}`}
-                    className="rounded-xl border border-[var(--border)] bg-[var(--surface)] p-4 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-md"
+                    className="rounded-xl border border-border bg-surface p-4 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-md"
                   >
                     <div
                       className="mb-2 h-1 w-8 rounded-full"
                       style={{ backgroundColor: s.color }}
                       aria-hidden
                     />
-                    <p className="font-bold text-[var(--text)]">{s.name}</p>
-                    <p className="text-xs text-[var(--text-muted)]">Ver plantilla</p>
+                    <p className="font-bold text-foreground">{s.name}</p>
+                    <p className="text-xs text-muted-foreground">Ver plantilla</p>
                   </Link>
                 ))}
               </div>
               <div className="mt-6 text-center">
                 <Link
                   href="/p"
-                  className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--primary)]"
+                  className="inline-flex items-center gap-1 text-sm font-semibold text-primary"
                 >
                   Ver las {TEMPLATES.length} plantillas
                   <ArrowRight size={14} />

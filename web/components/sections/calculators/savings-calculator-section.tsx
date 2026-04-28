@@ -122,16 +122,16 @@ export function SavingsCalculatorSection({
   }
 
   return (
-    <section id="calculadora" className="scroll-mt-24 bg-[var(--background)] py-16 sm:py-20">
+    <section id="calculadora" className="scroll-mt-24 bg-background py-16 sm:py-20">
       <Container size="md">
         <AnimatedSectionHeader>
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="mt-3 text-center text-[var(--text-light)]">{subtitle}</p>
+            <p className="mt-3 text-center text-muted-foreground">{subtitle}</p>
           )}
         </AnimatedSectionHeader>
 
-        <div className="mx-auto mt-10 grid max-w-5xl gap-8 rounded-2xl border border-[var(--surface-light)] bg-[var(--surface)] p-6 shadow-card md:grid-cols-2 md:p-8">
+        <div className="mx-auto mt-10 grid max-w-5xl gap-8 rounded-2xl border border-[var(--surface-light)] bg-surface p-6 shadow-card md:grid-cols-2 md:p-8">
           {/* Inputs */}
           <div className="space-y-5">
             <NumberField
@@ -186,13 +186,13 @@ export function SavingsCalculatorSection({
             />
 
             <div>
-              <label className="mb-2 block text-sm font-medium text-[var(--text)]">
+              <label className="mb-2 block text-sm font-medium text-foreground">
                 {l.tierLabel}
               </label>
               <select
                 value={tierKey}
                 onChange={(e) => setTierKey(e.target.value)}
-                className="w-full rounded-lg border border-[var(--surface-light)] bg-[var(--background)] px-4 py-3 text-[var(--text)] focus:border-[var(--primary)] focus:outline-none"
+                className="w-full rounded-lg border border-[var(--surface-light)] bg-background px-4 py-3 text-foreground focus:border-[var(--primary)] focus:outline-none"
               >
                 {tierOptions.map((t) => (
                   <option key={t.key} value={t.key}>
@@ -204,7 +204,7 @@ export function SavingsCalculatorSection({
           </div>
 
           {/* Outputs */}
-          <div className="flex flex-col justify-between gap-6 rounded-xl bg-[var(--background)] p-6">
+          <div className="flex flex-col justify-between gap-6 rounded-xl bg-background p-6">
             <div className="space-y-3 text-sm">
               <ResultRow label={o.cashTotalLabel} value={formatGs(cashTotal)} />
               <ResultRow label={o.timeValueLabel} value={formatGs(timeValue)} />
@@ -214,23 +214,23 @@ export function SavingsCalculatorSection({
               <ResultRow label={o.ourServiceLabel} value={formatGs(ourService)} />
             </div>
 
-            <div className="rounded-lg bg-[var(--surface)] p-4 text-center">
-              <p className="text-xs uppercase tracking-wide text-[var(--text-light)]">
+            <div className="rounded-lg bg-surface p-4 text-center">
+              <p className="text-xs uppercase tracking-wide text-muted-foreground">
                 {o.savingsLabel}
               </p>
               <p
-                className="mt-1 text-3xl font-bold"
+                className="mt-1 text-xl sm:text-3xl font-bold"
                 style={{ color: positive ? 'var(--primary)' : 'var(--text-light)' }}
               >
                 {positive ? '+' : ''}{formatGs(savings)}
               </p>
-              <p className="mt-3 text-sm text-[var(--text-light)]">
+              <p className="mt-3 text-sm text-muted-foreground">
                 {o.hoursRecoveredLabel}:{' '}
-                <span className="font-semibold text-[var(--text)]">~{hoursRecovered} hrs</span>
+                <span className="font-semibold text-foreground">~{hoursRecovered} hrs</span>
               </p>
             </div>
 
-            <p className="text-sm italic leading-relaxed text-[var(--text-light)]">
+            <p className="text-sm italic leading-relaxed text-muted-foreground">
               {positive ? o.positiveCopy : o.negativeCopy}
             </p>
 
@@ -247,7 +247,7 @@ export function SavingsCalculatorSection({
         </div>
 
         {disclaimer && (
-          <p className="mx-auto mt-6 max-w-3xl text-center text-xs text-[var(--text-light)]">
+          <p className="mx-auto mt-6 max-w-3xl text-center text-xs text-muted-foreground">
             {disclaimer}
           </p>
         )}
@@ -275,7 +275,7 @@ function NumberField({
 }) {
   return (
     <div>
-      <label className="mb-2 block text-sm font-medium text-[var(--text)]">{label}</label>
+      <label className="mb-2 block text-sm font-medium text-foreground">{label}</label>
       <div className="flex items-center gap-2">
         <input
           type="number"
@@ -288,10 +288,10 @@ function NumberField({
             if (!Number.isFinite(n)) return
             onChange(n)
           }}
-          className="w-full rounded-lg border border-[var(--surface-light)] bg-[var(--background)] px-4 py-3 text-[var(--text)] focus:border-[var(--primary)] focus:outline-none"
+          className="w-full rounded-lg border border-[var(--surface-light)] bg-background px-4 py-3 text-foreground focus:border-[var(--primary)] focus:outline-none"
         />
         {suffix && (
-          <span className="shrink-0 text-sm text-[var(--text-light)]">{suffix}</span>
+          <span className="shrink-0 text-sm text-muted-foreground">{suffix}</span>
         )}
       </div>
     </div>
@@ -301,9 +301,9 @@ function NumberField({
 function ResultRow({ label, value, bold = false }: { label: string; value: string; bold?: boolean }) {
   return (
     <div className="flex items-center justify-between">
-      <span className="text-[var(--text-light)]">{label}</span>
+      <span className="text-muted-foreground">{label}</span>
       <span
-        className="text-[var(--text)]"
+        className="text-foreground"
         style={{ fontWeight: bold ? 700 : 500 }}
       >
         {value}

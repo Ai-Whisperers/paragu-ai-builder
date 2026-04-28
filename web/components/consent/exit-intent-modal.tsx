@@ -80,29 +80,29 @@ export function ExitIntentModal(props: ExitIntentModalProps) {
       className="fixed inset-0 z-[70] flex items-center justify-center bg-black/50 p-4"
       onClick={(e) => { if (e.target === e.currentTarget) setVisible(false) }}
     >
-      <div className="relative w-[min(32rem,100%)] rounded-2xl bg-[var(--surface)] p-8 shadow-2xl">
+      <div className="relative w-[min(32rem,100%)] rounded-2xl bg-surface p-8 shadow-2xl">
         <button
           type="button"
           aria-label={props.closeLabel}
           onClick={() => setVisible(false)}
-          className="absolute right-4 top-4 rounded-full p-1 text-[var(--text-muted)] hover:bg-[var(--surface-light)] hover:text-[var(--text)]"
+          className="absolute right-4 top-4 rounded-full p-1 text-muted-foreground hover:bg-surface-light hover:text-foreground"
         >
           <X size={20} />
         </button>
         {status === 'success' ? (
           <div className="py-8 text-center">
-            <p className="text-lg font-semibold text-[var(--primary)]">{props.successMessage}</p>
+            <p className="text-lg font-semibold text-primary">{props.successMessage}</p>
           </div>
         ) : (
           <>
             <h3
               id="exit-intent-headline"
-              className="mb-2 text-2xl font-bold text-[var(--primary)]"
+              className="mb-2 text-2xl font-bold text-primary"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
               {props.headline}
             </h3>
-            <p className="mb-5 text-sm leading-relaxed text-[var(--text-light)]">{props.subheadline}</p>
+            <p className="mb-5 text-sm leading-relaxed text-muted-foreground">{props.subheadline}</p>
             <form onSubmit={handleSubmit} className="space-y-3">
               <input
                 type="email"
@@ -111,16 +111,16 @@ export function ExitIntentModal(props: ExitIntentModalProps) {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder={props.emailPlaceholder}
-                className="w-full rounded-md border border-[var(--border)] bg-[var(--surface)] px-3 py-2.5 text-base text-[var(--text)] focus:border-[var(--secondary)] focus:outline-none"
+                className="w-full rounded-md border border-border bg-surface px-3 py-2.5 text-base text-foreground focus:border-secondary focus:outline-none"
               />
               <button
                 type="submit"
                 disabled={status === 'sending'}
-                className="w-full rounded-md bg-[var(--secondary)] px-4 py-2.5 text-sm font-semibold text-[var(--secondary-foreground)] shadow-button disabled:opacity-60"
+                className="w-full rounded-md bg-secondary px-4 py-2.5 text-sm font-semibold text-[var(--secondary-foreground)] shadow-button disabled:opacity-60"
               >
                 {status === 'sending' ? '…' : props.submitLabel}
               </button>
-              <p className="pt-1 text-xs text-[var(--text-muted)]">{props.privacyLabel}</p>
+              <p className="pt-1 text-xs text-muted-foreground">{props.privacyLabel}</p>
             </form>
           </>
         )}

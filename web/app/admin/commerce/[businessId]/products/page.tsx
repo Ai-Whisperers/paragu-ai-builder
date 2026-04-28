@@ -63,7 +63,7 @@ export default async function AdminProductsPage({ params }: { params: Promise<{ 
           <SeedCatalogButton businessId={businessId} />
           <Link
             href={`/admin/commerce/${businessId}/products/new`}
-            className="rounded-lg bg-[color:var(--primary,#111)] px-4 py-2 text-sm font-semibold text-white hover:opacity-90"
+            className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white hover:opacity-90"
           >
             + Nuevo producto
           </Link>
@@ -75,7 +75,7 @@ export default async function AdminProductsPage({ params }: { params: Promise<{ 
           <p className="text-[color:var(--text-muted,#6b7280)]">Aún no tenés productos. Creá el primero o cargá el catálogo de ejemplo.</p>
         </div>
       ) : (
-        <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)]">
+        <div className="overflow-x-auto rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface">
           <table className="w-full text-sm">
             <thead className="bg-[color:var(--surface-muted,#f9fafb)] text-left">
               <tr>

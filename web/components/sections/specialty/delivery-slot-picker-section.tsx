@@ -64,9 +64,9 @@ export function DeliverySlotPickerSection({
 
   if (done) {
     return (
-      <section className="py-12 bg-[var(--background)]">
+      <section className="py-12 bg-background">
         <Container>
-          <p className="text-center text-[var(--primary)] font-medium">
+          <p className="text-center text-primary font-medium">
             Listo — tu horario esta reservado.
           </p>
         </Container>
@@ -75,12 +75,12 @@ export function DeliverySlotPickerSection({
   }
 
   return (
-    <section className="py-12 bg-[var(--background)]">
+    <section className="py-12 bg-background">
       <Container>
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-6">
             <Heading level={2}>{title}</Heading>
-            {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+            {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
           </div>
 
           <div className="flex flex-wrap gap-2 mb-4">
@@ -93,8 +93,8 @@ export function DeliverySlotPickerSection({
                 }}
                 className={`px-3 py-1.5 rounded-full text-sm ${
                   activeDay === s.day
-                    ? 'bg-[var(--primary)] text-[var(--primary-foreground)]'
-                    : 'bg-[var(--surface-light)] text-[var(--text)]'
+                    ? 'bg-primary text-[var(--primary-foreground)]'
+                    : 'bg-surface-light text-foreground'
                 }`}
               >
                 {s.label}
@@ -112,10 +112,10 @@ export function DeliverySlotPickerSection({
                   onClick={() => setActiveWindow(w.id)}
                   className={`p-2 rounded text-sm border ${
                     !w.available
-                      ? 'bg-[var(--surface-light)] text-[var(--text-muted)] line-through cursor-not-allowed'
+                      ? 'bg-surface-light text-muted-foreground line-through cursor-not-allowed'
                       : selected
-                        ? 'border-[var(--primary)] bg-[var(--primary)] text-[var(--primary-foreground)]'
-                        : 'border-[var(--surface-light)] bg-[var(--surface)] hover:border-[var(--primary)]'
+                        ? 'border-[var(--primary)] bg-primary text-[var(--primary-foreground)]'
+                        : 'border-[var(--surface-light)] bg-surface hover:border-[var(--primary)]'
                   }`}
                 >
                   {w.from} – {w.to}

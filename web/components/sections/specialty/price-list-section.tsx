@@ -84,19 +84,19 @@ export function PriceListGenerator({ data, className }: PriceListGeneratorProps)
 
   return (
     <Card className={cn('overflow-hidden', className)}>
-      <CardHeader className="bg-[var(--surface)] border-b border-[var(--border)]">
+      <CardHeader className="bg-surface border-b border-border">
         <CardTitle className="flex items-center gap-2 text-lg">
-          <FileText className="w-5 h-5 text-[var(--primary)]" />
+          <FileText className="w-5 h-5 text-primary" />
           Lista de Precios B2B
         </CardTitle>
       </CardHeader>
       <CardContent className="p-6 space-y-6">
         {/* Info */}
         <div className="space-y-2">
-          <p className="text-sm text-[var(--text-muted)]">
+          <p className="text-sm text-muted-foreground">
             Descarga nuestra lista de precios actualizada con:
           </p>
-          <ul className="text-sm space-y-1 text-[var(--text)]">
+          <ul className="text-sm space-y-1 text-foreground">
             <li className="flex items-center gap-2">
               <CheckCircle className="w-4 h-4 text-[var(--success)]" />
               Precios minoristas y mayoristas
@@ -113,10 +113,10 @@ export function PriceListGenerator({ data, className }: PriceListGeneratorProps)
         </div>
 
         {/* Validity Period */}
-        <div className="bg-[var(--surface)] rounded-lg p-4 space-y-2">
+        <div className="bg-surface rounded-lg p-4 space-y-2">
           <div className="flex items-center gap-2 text-sm">
-            <Calendar className="w-4 h-4 text-[var(--primary)]" />
-            <span className="text-[var(--text-muted)]">Vigencia:</span>
+            <Calendar className="w-4 h-4 text-primary" />
+            <span className="text-muted-foreground">Vigencia:</span>
           </div>
           <p className="font-medium">
             {formatDate(data.validFrom)} - {formatDate(data.validUntil)}
@@ -127,18 +127,18 @@ export function PriceListGenerator({ data, className }: PriceListGeneratorProps)
         </div>
 
         {/* Preview */}
-        <div className="border border-[var(--border)] rounded-lg p-4 space-y-4">
+        <div className="border border-border rounded-lg p-4 space-y-4">
           <h4 className="font-semibold text-sm">Vista previa:</h4>
           
           {/* Sample Products */}
           <div className="space-y-2">
-            <p className="text-xs text-[var(--text-muted)] uppercase tracking-wide">
+            <p className="text-xs text-muted-foreground uppercase tracking-wide">
               Productos Destacados
             </p>
             {data.retailProducts.slice(0, 3).map((product, idx) => (
               <div 
                 key={idx}
-                className="flex justify-between items-center text-sm py-1 border-b border-[var(--border)] last:border-0"
+                className="flex justify-between items-center text-sm py-1 border-b border-border last:border-0"
               >
                 <span>{product.name}</span>
                 <span className="font-medium">{formatPrice(product.price)}</span>
@@ -179,7 +179,7 @@ export function PriceListGenerator({ data, className }: PriceListGeneratorProps)
           )}
         </Button>
 
-        <p className="text-xs text-center text-[var(--text-muted)]">
+        <p className="text-xs text-center text-muted-foreground">
           Formato PDF - Listo para imprimir o compartir
         </p>
       </CardContent>
@@ -255,13 +255,13 @@ export interface PriceListSectionProps {
 
 export function PriceListSection({ data, className }: PriceListSectionProps) {
   return (
-    <section className={cn('py-16 bg-[var(--surface)]', className)}>
+    <section className={cn('py-16 bg-surface', className)}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
-          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
             Precios Mayoristas
           </Heading>
-          <p className="text-lg text-[var(--text-muted)]">
+          <p className="text-lg text-muted-foreground">
             Descarga nuestra lista de precios actualizada para negocios
           </p>
         </div>
@@ -273,14 +273,14 @@ export function PriceListSection({ data, className }: PriceListSectionProps) {
             <Card>
               <CardHeader>
                 <CardTitle className="text-lg flex items-center gap-2">
-                  <Truck className="w-5 h-5 text-[var(--primary)]" />
+                  <Truck className="w-5 h-5 text-primary" />
                   Informacion de Delivery
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 {data.deliveryZones.map((zone, idx) => (
-                  <div key={idx} className="flex justify-between items-center py-2 border-b border-[var(--border)] last:border-0">
-                    <span className="text-[var(--text)]">{zone.name}</span>
+                  <div key={idx} className="flex justify-between items-center py-2 border-b border-border last:border-0">
+                    <span className="text-foreground">{zone.name}</span>
                     <Badge variant={zone.fee === 0 ? 'default' : 'secondary'}>
                       {zone.fee === 0 ? 'Gratis' : `${(zone.fee / 1000).toFixed(0)}k Gs`}
                     </Badge>
@@ -292,12 +292,12 @@ export function PriceListSection({ data, className }: PriceListSectionProps) {
             <Card>
               <CardHeader>
                 <CardTitle className="text-lg flex items-center gap-2">
-                  <Phone className="w-5 h-5 text-[var(--primary)]" />
+                  <Phone className="w-5 h-5 text-primary" />
                   Contacto Directo
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <p className="text-sm text-[var(--text-muted)]">
+                <p className="text-sm text-muted-foreground">
                   Para pedidos mayoristas o consultas comerciales:
                 </p>
                 <div className="space-y-2 text-sm">

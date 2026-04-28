@@ -162,7 +162,7 @@ export function MattressQuizSection({
   }
 
   return (
-    <section id="quiz" className="bg-[var(--background)] py-16 sm:py-20 lg:py-24">
+    <section id="quiz" className="bg-background py-16 sm:py-20 lg:py-24">
       <Container className="max-w-3xl">
         <AnimatedSectionHeader className="mb-10 text-center">
           {eyebrow && (
@@ -172,18 +172,18 @@ export function MattressQuizSection({
           )}
           <Heading level={2}>{title}</Heading>
           {subtitle && (
-            <p className="mx-auto mt-4 max-w-xl text-lg text-[var(--text-light)]">{subtitle}</p>
+            <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">{subtitle}</p>
           )}
         </AnimatedSectionHeader>
 
         {!done ? (
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 sm:p-10 shadow-lg">
+          <div className="rounded-2xl border border-border bg-surface p-6 sm:p-10 shadow-lg">
             {/* Progress */}
             <div className="mb-6 flex items-center justify-between text-sm" style={{ color: 'var(--text-light)' }}>
               <span>
                 {labels.step} {idx + 1} {labels.of} {steps.length}
               </span>
-              <div className="h-1 w-1/2 overflow-hidden rounded-full bg-[var(--border)]">
+              <div className="h-1 w-1/2 overflow-hidden rounded-full bg-border">
                 <div
                   className="h-full transition-all"
                   style={{
@@ -210,8 +210,8 @@ export function MattressQuizSection({
                     className={cn(
                       'flex cursor-pointer items-center gap-3 rounded-lg border-2 p-4 transition-colors',
                       selected === opt.value
-                        ? 'border-[var(--primary)] bg-[var(--primary)]/5'
-                        : 'border-[var(--border)] hover:border-[var(--primary)]/40',
+                        ? 'border-[var(--primary)] bg-primary/5'
+                        : 'border-border hover:border-[var(--primary)]/40',
                     )}
                   >
                     <input
@@ -251,14 +251,14 @@ export function MattressQuizSection({
             </div>
           </div>
         ) : (
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 sm:p-10 shadow-lg">
+          <div className="rounded-2xl border border-border bg-surface p-6 sm:p-10 shadow-lg">
             {resultHeading && (
               <Heading level={3} className="mb-2 text-center">
                 {resultHeading}
               </Heading>
             )}
             {resultSubheading && (
-              <p className="mb-8 text-center text-[var(--text-light)]">{resultSubheading}</p>
+              <p className="mb-8 text-center text-muted-foreground">{resultSubheading}</p>
             )}
             <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-3">
               {ranking.map((entry, i) => (
@@ -267,17 +267,17 @@ export function MattressQuizSection({
                   className={cn(
                     'rounded-xl border p-5 transition-transform',
                     i === 0
-                      ? 'border-[var(--primary)] bg-[var(--primary)]/5 md:scale-105'
-                      : 'border-[var(--border)]',
+                      ? 'border-[var(--primary)] bg-primary/5 md:scale-105'
+                      : 'border-border',
                   )}
                 >
                   {i === 0 && (
-                    <span className="mb-3 inline-block rounded-full bg-[var(--primary)] px-3 py-1 text-xs font-bold text-white">
+                    <span className="mb-3 inline-block rounded-full bg-primary px-3 py-1 text-xs font-bold text-white">
                       Mejor match
                     </span>
                   )}
                   {entry.product.badge && i !== 0 && (
-                    <span className="mb-3 inline-block rounded-full bg-[var(--secondary)]/10 px-3 py-1 text-xs font-medium" style={{ color: 'var(--secondary)' }}>
+                    <span className="mb-3 inline-block rounded-full bg-secondary/10 px-3 py-1 text-xs font-medium" style={{ color: 'var(--secondary)' }}>
                       {entry.product.badge}
                     </span>
                   )}

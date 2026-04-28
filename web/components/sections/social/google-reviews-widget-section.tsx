@@ -35,15 +35,15 @@ export function GoogleReviewsWidgetSection({
 }: GoogleReviewsWidgetProps) {
   if (!reviews?.length) return null
   return (
-    <section className="py-14 bg-[var(--background)]">
+    <section className="py-14 bg-background">
       <Container>
         <div className="text-center mb-8">
           <Heading level={2}>{title}</Heading>
-          {subtitle && <p className="text-[var(--text-muted)] mt-2">{subtitle}</p>}
+          {subtitle && <p className="text-muted-foreground mt-2">{subtitle}</p>}
           {avgRating !== undefined && (
-            <div className="mt-2 text-[var(--primary)]">
+            <div className="mt-2 text-primary">
               <span className="text-2xl">{stars(avgRating)}</span>
-              <span className="ml-2 text-[var(--text-muted)]">
+              <span className="ml-2 text-muted-foreground">
                 {avgRating.toFixed(1)}{' '}
                 {reviewCount && <>({reviewCount} reseñas)</>}
               </span>
@@ -55,9 +55,9 @@ export function GoogleReviewsWidgetSection({
           {reviews.slice(0, 6).map((r, i) => (
             <Card key={i}>
               <CardContent className="p-4">
-                <div className="text-[var(--primary)] text-sm mb-1">{stars(r.rating)}</div>
-                <p className="text-sm text-[var(--text)]">{r.text}</p>
-                <div className="mt-3 text-xs text-[var(--text-muted)]">
+                <div className="text-primary text-sm mb-1">{stars(r.rating)}</div>
+                <p className="text-sm text-foreground">{r.text}</p>
+                <div className="mt-3 text-xs text-muted-foreground">
                   {r.author}
                   {r.date && <> · {r.date}</>}
                 </div>
@@ -69,12 +69,12 @@ export function GoogleReviewsWidgetSection({
         {(placeUrl || writeReviewUrl) && (
           <div className="text-center mt-6 space-x-4 text-sm">
             {placeUrl && (
-              <a href={placeUrl} target="_blank" rel="noopener noreferrer" className="text-[var(--primary)]">
+              <a href={placeUrl} target="_blank" rel="noopener noreferrer" className="text-primary">
                 Ver todas las reseñas
               </a>
             )}
             {writeReviewUrl && (
-              <a href={writeReviewUrl} target="_blank" rel="noopener noreferrer" className="text-[var(--primary)]">
+              <a href={writeReviewUrl} target="_blank" rel="noopener noreferrer" className="text-primary">
                 Escribir una reseña
               </a>
             )}

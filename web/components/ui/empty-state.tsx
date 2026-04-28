@@ -44,15 +44,15 @@ export function EmptyState({
       {...props}
     >
       {icon && (
-        <div className="mb-4 text-[var(--text-muted)]">
+        <div className="mb-4 text-muted-foreground">
           {icon}
         </div>
       )}
-      <h3 className="text-lg font-medium text-[var(--text)] mb-2">
+      <h3 className="text-lg font-medium text-foreground mb-2">
         {title}
       </h3>
       {description && (
-        <p className="text-sm text-[var(--text-muted)] max-w-md mb-4">
+        <p className="text-sm text-muted-foreground max-w-md mb-4">
           {description}
         </p>
       )}

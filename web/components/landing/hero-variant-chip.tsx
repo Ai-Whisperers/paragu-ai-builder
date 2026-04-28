@@ -43,13 +43,13 @@ export function HeroVariantChip() {
   if (!show || !variant) return null
 
   return (
-    <div className="fixed left-4 bottom-4 z-50 flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--surface)]/95 px-3 py-1.5 text-xs font-mono shadow-md backdrop-blur-sm">
-      <span className="text-[var(--text-muted)]">hero:</span>
-      <span className="font-bold text-[var(--primary)]">{variant}</span>
-      <span className="text-[var(--text-muted)]">·</span>
+    <div className="fixed left-4 bottom-4 z-50 flex items-center gap-2 rounded-full border border-border bg-surface/95 px-3 py-1.5 text-xs font-mono shadow-md backdrop-blur-sm">
+      <span className="text-muted-foreground">hero:</span>
+      <span className="font-bold text-primary">{variant}</span>
+      <span className="text-muted-foreground">·</span>
       <a
         href={variant === 'A' ? '?v=B' : '?v=A'}
-        className="text-[var(--text-light)] hover:text-[var(--primary)]"
+        className="text-muted-foreground hover:text-primary"
         title="Ver la otra variante"
       >
         toggle

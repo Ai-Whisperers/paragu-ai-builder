@@ -66,14 +66,14 @@ import { SubscriptionForm } from './subscription-form'
 
 export function SubscriptionSection({ phone, products, className }: SubscriptionSectionProps) {
   return (
-    <section className={cn('py-16 bg-[var(--surface)]', className)}>
+    <section className={cn('py-16 bg-surface', className)}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <Badge className="mb-4 bg-[var(--primary)]">Nuevo Servicio</Badge>
-          <Heading level={2} className="text-3xl font-bold text-[var(--text)] mb-4">
+          <Badge className="mb-4 bg-primary">Nuevo Servicio</Badge>
+          <Heading level={2} className="text-xl sm:text-3xl font-bold text-foreground mb-4">
             Pedidos Recurrentes
           </Heading>
-          <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Recibe huevos frescos regularmente sin tener que hacer pedidos cada vez. 
             Ideal para familias y negocios.
           </p>
@@ -86,7 +86,7 @@ export function SubscriptionSection({ phone, products, className }: Subscription
             <Card>
               <CardHeader>
                 <CardTitle className="text-lg flex items-center gap-2">
-                  <Package className="w-5 h-5 text-[var(--primary)]" />
+                  <Package className="w-5 h-5 text-primary" />
                   Beneficios
                 </CardTitle>
               </CardHeader>
@@ -100,7 +100,7 @@ export function SubscriptionSection({ phone, products, className }: Subscription
                 ].map((benefit, idx) => (
                   <div key={idx} className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-[var(--success)] flex-shrink-0" />
-                    <span className="text-[var(--text)]">{benefit}</span>
+                    <span className="text-foreground">{benefit}</span>
                   </div>
                 ))}
               </CardContent>
@@ -109,27 +109,27 @@ export function SubscriptionSection({ phone, products, className }: Subscription
             <Card>
               <CardHeader>
                 <CardTitle className="text-lg flex items-center gap-2">
-                  <Truck className="w-5 h-5 text-[var(--primary)]" />
+                  <Truck className="w-5 h-5 text-primary" />
                   Como Funciona
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ol className="space-y-3 text-sm">
                   <li className="flex gap-3">
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--primary)] text-white flex items-center justify-center text-xs font-medium">1</span>
-                    <span className="text-[var(--text)]">Selecciona tus productos y frecuencia</span>
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs font-medium">1</span>
+                    <span className="text-foreground">Selecciona tus productos y frecuencia</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--primary)] text-white flex items-center justify-center text-xs font-medium">2</span>
-                    <span className="text-[var(--text)]">Te contactamos para confirmar</span>
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs font-medium">2</span>
+                    <span className="text-foreground">Te contactamos para confirmar</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--primary)] text-white flex items-center justify-center text-xs font-medium">3</span>
-                    <span className="text-[var(--text)]">Recibe tu entrega el dia acordado</span>
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs font-medium">3</span>
+                    <span className="text-foreground">Recibe tu entrega el dia acordado</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--primary)] text-white flex items-center justify-center text-xs font-medium">4</span>
-                    <span className="text-[var(--text)]">Repite automaticamente!</span>
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center text-xs font-medium">4</span>
+                    <span className="text-foreground">Repite automaticamente!</span>
                   </li>
                 </ol>
               </CardContent>

@@ -47,46 +47,46 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
         <section className="pt-32 pb-16 md:pt-40">
           <Container>
             <div className="mx-auto max-w-3xl text-center">
-              <div className="mx-auto mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[var(--primary)]/10 text-[var(--primary)]">
+              <div className="mx-auto mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10 text-primary">
                 <MapPin size={22} />
               </div>
-              <p className="mb-3 text-sm font-bold uppercase tracking-wider text-[var(--primary)]">
+              <p className="mb-3 text-sm font-bold uppercase tracking-wider text-primary">
                 {city.name}, Paraguay
               </p>
-              <h1 className="mb-6 text-4xl font-bold leading-tight text-[var(--text)] sm:text-5xl md:text-6xl">
+              <h1 className="mb-6 text-4xl font-bold leading-tight text-foreground sm:text-5xl md:text-6xl">
                 Sitios web para negocios de {city.name}
               </h1>
-              <p className="mx-auto mb-8 max-w-2xl text-lg text-[var(--text-light)]">{city.positioning}</p>
+              <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">{city.positioning}</p>
               <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                 <a
                   href={waLink(waMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-2xl bg-[var(--primary)] px-8 py-4 text-lg font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:-translate-y-1"
+                  className="inline-flex items-center gap-2 rounded-2xl bg-primary px-8 py-4 text-lg font-bold text-[var(--primary-foreground)] shadow-lg transition-all hover:-translate-y-1"
                 >
                   <MessageCircle size={20} />
                   Pedir demo gratis
                 </a>
                 <Link
                   href="/p"
-                  className="inline-flex items-center gap-2 rounded-2xl border-2 border-[var(--border)] bg-[var(--surface)] px-8 py-4 text-lg font-bold text-[var(--text)] transition-all hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                  className="inline-flex items-center gap-2 rounded-2xl border-2 border-border bg-surface px-8 py-4 text-lg font-bold text-foreground transition-all hover:border-[var(--primary)] hover:text-primary"
                 >
                   Ver todas las plantillas
                 </Link>
               </div>
 
-              <div className="mx-auto mt-12 grid max-w-md grid-cols-2 gap-4 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6">
+              <div className="mx-auto mt-12 grid max-w-md grid-cols-2 gap-4 rounded-2xl border border-border bg-surface p-6">
                 <div>
-                  <p className="text-3xl font-bold text-[var(--primary)]">
+                  <p className="text-3xl font-bold text-primary">
                     {city.businesses.toLocaleString('es-PY')}
                   </p>
-                  <p className="text-xs uppercase tracking-wider text-[var(--text-muted)]">
+                  <p className="text-xs uppercase tracking-wider text-muted-foreground">
                     Negocios mapeados
                   </p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-[var(--primary)]">{city.noWebPct}%</p>
-                  <p className="text-xs uppercase tracking-wider text-[var(--text-muted)]">
+                  <p className="text-3xl font-bold text-primary">{city.noWebPct}%</p>
+                  <p className="text-xs uppercase tracking-wider text-muted-foreground">
                     Sin web propia
                   </p>
                 </div>
@@ -96,9 +96,9 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
         </section>
 
         {/* Top verticals */}
-        <section className="border-y border-[var(--border)] bg-[var(--surface-light)] py-16">
+        <section className="border-y border-border bg-surface-light py-16">
           <Container>
-            <h2 className="mb-8 text-center text-3xl font-bold text-[var(--text)]">
+            <h2 className="mb-8 text-center text-3xl font-bold text-foreground">
               Plantillas con más demanda en {city.name}
             </h2>
             <div className="mx-auto grid max-w-5xl gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -106,19 +106,19 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
                 <Link
                   key={t.id}
                   href={`/c/${ciudad}/${t.seoSlug ?? t.id.replace(/_/g, '-')}`}
-                  className="group rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-md"
+                  className="group rounded-2xl border border-border bg-surface p-6 transition-all hover:-translate-y-1 hover:border-[var(--primary)]/30 hover:shadow-md"
                 >
                   <div
                     className="mb-3 h-1.5 w-12 rounded-full"
                     style={{ backgroundColor: t.color }}
                     aria-hidden
                   />
-                  <h3 className="text-lg font-bold text-[var(--text)]">{t.name}</h3>
-                  <p className="mt-1 text-sm text-[var(--text-muted)]">
+                  <h3 className="text-lg font-bold text-foreground">{t.name}</h3>
+                  <p className="mt-1 text-sm text-muted-foreground">
                     en {city.name}
                     {t.leads > 0 && ` · mercado PY total ${t.leads.toLocaleString('es-PY')}`}
                   </p>
-                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[var(--primary)]">
+                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary">
                     Ver landing local
                     <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
                   </span>
@@ -131,7 +131,7 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
         {/* Other cities */}
         <section className="py-16">
           <Container>
-            <h3 className="mb-6 text-center text-sm font-bold uppercase tracking-wider text-[var(--text-muted)]">
+            <h3 className="mb-6 text-center text-sm font-bold uppercase tracking-wider text-muted-foreground">
               Otras ciudades
             </h3>
             <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-3">
@@ -139,7 +139,7 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
                 <Link
                   key={c.slug}
                   href={`/c/${c.slug}`}
-                  className="rounded-full border border-[var(--border)] bg-[var(--surface)] px-5 py-2 text-sm font-medium text-[var(--text)] transition-all hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                  className="rounded-full border border-border bg-surface px-5 py-2 text-sm font-medium text-foreground transition-all hover:border-[var(--primary)] hover:text-primary"
                 >
                   {c.name}
                 </Link>

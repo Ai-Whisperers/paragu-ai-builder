@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 import { cva, type VariantProps } from "class-variance-authority"
 
 const hoverCardVariants = cva(
-  "group relative rounded-lg bg-[var(--background)] border border-[var(--border)] transition-all duration-300",
+  "group relative rounded-lg bg-background border border-border transition-all duration-300",
   {
     variants: {
       variant: {
@@ -83,7 +83,7 @@ export function HoverCard({
       {hoverContent && isHovered && (
         <div className="absolute inset-0 z-10 flex items-center justify-center rounded-lg overflow-hidden">
           {showOverlay && (
-            <div className="absolute inset-0 bg-[var(--background)]/90 backdrop-blur-sm" />
+            <div className="absolute inset-0 bg-background/90 backdrop-blur-sm" />
           )}
           <div className="relative z-10 p-4">{hoverContent}</div>
         </div>
@@ -148,9 +148,9 @@ export function HoverCardAction({
   ...props
 }: HoverCardActionProps) {
   const variantClasses = {
-    default: "bg-[var(--surface-light)] text-[var(--text)] hover:bg-[var(--surface)]",
-    primary: "bg-[var(--secondary)] text-white hover:bg-[var(--secondary)]/90",
-    ghost: "bg-transparent text-[var(--text)] hover:bg-[var(--surface-light)]",
+    default: "bg-surface-light text-foreground hover:bg-surface",
+    primary: "bg-secondary text-white hover:bg-secondary/90",
+    ghost: "bg-transparent text-foreground hover:bg-surface-light",
   }
 
   const sizeClasses = {

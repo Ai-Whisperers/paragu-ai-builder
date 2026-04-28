@@ -92,24 +92,24 @@ export function BookingEmbedSection({
   const unavailable = isPlaceholderUrl(bookingUrl)
 
   return (
-    <section id="agendar" className="bg-[var(--background)] py-16 sm:py-20">
+    <section id="agendar" className="bg-background py-16 sm:py-20">
       <Container>
         {(title || subtitle) && (
           <AnimatedSectionHeader>
             {title && <Heading level={2}>{title}</Heading>}
             {subtitle && (
-              <p className="mx-auto mt-4 max-w-2xl text-[var(--text-light)]">{subtitle}</p>
+              <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
             )}
           </AnimatedSectionHeader>
         )}
 
-        <div className="mt-10 overflow-hidden rounded-lg border border-[var(--border)] bg-[var(--surface)] shadow-card">
+        <div className="mt-10 overflow-hidden rounded-lg border border-border bg-surface shadow-card">
           {unavailable ? (
             <div className="p-10 text-center">
-              <Heading level={3} className="mb-3 text-xl font-semibold text-[var(--primary)]">
+              <Heading level={3} className="mb-3 text-xl font-semibold text-primary">
                 {L.unavailableTitle}
               </Heading>
-              <p className="mx-auto mb-6 max-w-md text-[var(--text-light)]">{L.unavailableBody}</p>
+              <p className="mx-auto mb-6 max-w-md text-muted-foreground">{L.unavailableBody}</p>
               <div className="flex flex-wrap items-center justify-center gap-3">
                 {fallbackWhatsapp && (
                   <a
@@ -124,7 +124,7 @@ export function BookingEmbedSection({
                 {fallbackEmail && (
                   <a
                     href={`mailto:${fallbackEmail}`}
-                    className="inline-flex items-center gap-2 rounded-md border border-[var(--border)] bg-[var(--surface)] px-5 py-2.5 text-sm font-medium text-[var(--text)] hover:bg-[var(--surface-light)]"
+                    className="inline-flex items-center gap-2 rounded-md border border-border bg-surface px-5 py-2.5 text-sm font-medium text-foreground hover:bg-surface-light"
                   >
                     {L.emailCta}
                   </a>
@@ -147,7 +147,7 @@ export function BookingEmbedSection({
                 href={bookingUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-md bg-[var(--secondary)] px-6 py-3 text-[var(--secondary-foreground)] shadow-button transition-all hover:-translate-y-0.5"
+                className="inline-flex items-center gap-2 rounded-md bg-secondary px-6 py-3 text-[var(--secondary-foreground)] shadow-button transition-transform hover:-translate-y-0.5"
               >
                 {ctaLabel}
               </a>

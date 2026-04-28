@@ -31,7 +31,7 @@ export function SeedCatalogButton({ businessId }: { businessId: string }) {
         type="button"
         onClick={handleClick}
         disabled={busy}
-        className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm font-medium hover:bg-[color:var(--surface-muted,#f3f4f6)] disabled:opacity-50"
+        className="rounded border border-[color:var(--border,#e5e7eb)] px-3 py-2 text-sm font-medium hover:bg-surface-light disabled:opacity-50"
       >
         {busy ? 'Cargando…' : 'Cargar catálogo de ejemplo'}
       </button>

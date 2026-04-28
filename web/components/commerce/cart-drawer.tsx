@@ -74,11 +74,11 @@ export function CartDrawer({ siteSlug, locale, open, onClose, whatsappNumber, bu
         role="dialog"
         aria-modal="true"
         aria-label="Carrito de compras"
-        className={`fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col bg-[color:var(--surface,#fff)] shadow-xl transition-transform duration-300 ${open ? 'translate-x-0' : 'translate-x-full'}`}
+        className={`fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col bg-surface shadow-xl transition-transform duration-300 ${open ? 'translate-x-0' : 'translate-x-full'}`}
       >
         <header className="flex items-center justify-between border-b border-[color:var(--border,#e5e7eb)] px-6 py-4">
           <h2 className="text-lg font-semibold text-[color:var(--text,#111)]">Tu carrito</h2>
-          <button type="button" onClick={onClose} aria-label="Cerrar" className="rounded p-2 hover:bg-[color:var(--surface-muted,#f3f4f6)]">
+          <button type="button" onClick={onClose} aria-label="Cerrar" className="rounded p-2 hover:bg-surface-light">
             <svg aria-hidden="true" className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
             </svg>
@@ -178,10 +178,10 @@ export function CartDrawer({ siteSlug, locale, open, onClose, whatsappNumber, bu
                     aria-valuenow={pct}
                     aria-valuemin={0}
                     aria-valuemax={100}
-                    className="h-1.5 overflow-hidden rounded-full bg-[color:var(--surface-muted,#f3f4f6)]"
+                    className="h-1.5 overflow-hidden rounded-full bg-surface-light"
                   >
                     <div
-                      className={`h-full transition-all duration-300 ${reached ? 'bg-emerald-600' : 'bg-[color:var(--primary,#111)]'}`}
+                      className={`h-full transition-all duration-300 ${reached ? 'bg-emerald-600' : 'bg-primary'}`}
                       style={{ width: `${pct}%` }}
                     />
                   </div>
@@ -194,7 +194,7 @@ export function CartDrawer({ siteSlug, locale, open, onClose, whatsappNumber, bu
             </div>
             <Link
               href={`/s/${locale}/${siteSlug}/checkout`}
-              className="block w-full rounded-lg bg-[color:var(--primary,#111)] px-4 py-3 text-center font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)]"
+              className="block w-full rounded-lg bg-primary px-4 py-3 text-center font-semibold text-[color:var(--primary-foreground,#fff)] hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[color:var(--primary,#111)]"
             >
               {status === 'syncing' ? 'Actualizando…' : 'Pagar ahora'}
             </Link>

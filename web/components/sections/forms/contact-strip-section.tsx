@@ -19,16 +19,6 @@ const DEFAULT_LABELS: Record<string, { whatsapp: string; call: string; hours: st
   es: { whatsapp: 'WhatsApp', call: 'Llamar', hours: 'Horario' },
 }
 
-/**
- * Lightweight contact block. Shows a 3-line strip: address · WhatsApp
- * button · hours. Used as a "slim contact affordance" on every info
- * sub-page via `site.chrome`, so users can reach out from anywhere
- * without the page carrying a full 400px map-embedded contact split.
- *
- * The full `ContactSection` (split with map) is reserved for pages
- * where contact IS the page — /contacto and /tiendas — declared
- * explicitly in those page configs to override the chrome default.
- */
 export function ContactStripSection({
   address,
   neighborhood,
@@ -50,13 +40,13 @@ export function ContactStripSection({
   const addressLine = [address, neighborhood, city].filter(Boolean).join(' · ')
 
   return (
-    <section className="py-10 sm:py-12 border-t border-b" style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--border)' }}>
+    <section className="py-10 sm:py-12 border-t border-b border-border">
       <Container>
         <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           {addressLine && (
             <div className="flex items-start gap-3">
-              <MapPin size={18} className="mt-0.5 flex-shrink-0" style={{ color: 'var(--primary)' }} />
-              <p className="text-sm sm:text-base" style={{ color: 'var(--text)' }}>{addressLine}</p>
+              <MapPin size={18} className="mt-0.5 flex-shrink-0 text-primary" />
+              <p className="text-sm sm:text-base text-foreground">{addressLine}</p>
             </div>
           )}
 
@@ -66,8 +56,7 @@ export function ContactStripSection({
                 href={whatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors"
-                style={{ backgroundColor: '#25D366', color: '#ffffff' }}
+                className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white transition-colors bg-[#25D366]"
               >
                 <MessageCircle size={16} />
                 {L.whatsapp}
@@ -76,15 +65,14 @@ export function ContactStripSection({
             {phone && (
               <a
                 href={`tel:${phone}`}
-                className="inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-semibold transition-colors"
-                style={{ borderColor: 'var(--border)', color: 'var(--primary)' }}
+                className="inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-semibold transition-colors border-border text-primary"
               >
                 <Phone size={16} />
                 {L.call}
               </a>
             )}
             {hoursCompact && (
-              <div className="inline-flex items-center gap-2 text-sm" style={{ color: 'var(--text-muted)' }}>
+              <div className="inline-flex items-center gap-2 text-sm text-muted-foreground">
                 <Clock size={16} />
                 <span>{hoursCompact}</span>
               </div>

@@ -26,7 +26,7 @@ export function WishlistPageClient({ siteSlug, locale }: Props) {
 
   if (items.length === 0) {
     return (
-      <div className="rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)] p-12 text-center">
+      <div className="rounded-lg border border-dashed border-[color:var(--border,#e5e7eb)] bg-surface p-12 text-center">
         <p className="text-[color:var(--text-muted,#6b7280)]">Tu lista de favoritos está vacía.</p>
         <Link
           href={`/s/${locale}/${siteSlug}/tienda`}
@@ -41,13 +41,13 @@ export function WishlistPageClient({ siteSlug, locale }: Props) {
   return (
     <ul className="grid grid-cols-2 gap-4 min-[420px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
       {items.map((it) => (
-        <li key={it.id} className="group relative overflow-hidden rounded-lg border border-[color:var(--border,#e5e7eb)] bg-[color:var(--surface,#fff)]">
+        <li key={it.id} className="group relative overflow-hidden rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface">
           <Link href={`/s/${locale}/${siteSlug}/producto/${it.slug}`}>
             {it.imageUrl ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img src={it.imageUrl} alt={it.name} loading="lazy" className="aspect-square w-full object-cover transition group-hover:scale-[1.02]" />
             ) : (
-              <div className="aspect-square w-full bg-[color:var(--surface-muted,#f3f4f6)]" />
+              <div className="aspect-square w-full bg-surface-light" />
             )}
             <div className="p-3">
               <p className="line-clamp-2 text-sm font-medium text-[color:var(--text,#111)]">{it.name}</p>

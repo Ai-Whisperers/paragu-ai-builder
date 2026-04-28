@@ -98,29 +98,29 @@ export function TaxDeadlineBannerSection({
     : null
 
   return (
-    <section className="py-10 bg-[var(--surface-light,#f8fafc)]">
+    <section className="font-heading py-10 bg-surface-light">
       <Container>
-        <div className="rounded-2xl border border-[var(--border,#e2e8f0)] bg-[var(--surface,#ffffff)] p-6 shadow-sm sm:p-8">
-          <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div className="font-heading rounded-2xl border border-[var(--border,#e2e8f0)] bg-surface p-6 shadow-sm sm:p-8">
+          <div className="font-heading flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-wider text-[var(--secondary)]">
+              <p className="font-heading text-xs font-semibold uppercase tracking-wider text-secondary">
                 {subtitle || L.subtitle}
               </p>
               <h2
-                className="mt-1 text-2xl font-bold text-[var(--text,#0f172a)]"
-                style={{ fontFamily: 'var(--font-heading)' }}
+                className="font-heading mt-1 text-2xl font-bold text-[var(--text,#0f172a)]"
+               
               >
                 {title || L.title}
               </h2>
             </div>
 
-            <div className="flex flex-wrap gap-2">
+            <div className="font-heading flex flex-wrap gap-2">
               {whatsappHref && (
                 <Button
                   href={whatsappHref}
-                  variant="secondary"
+                  variant="whatsapp"
                   size="md"
-                  style={{ backgroundColor: '#25d366', color: '#ffffff', borderColor: '#25d366' }}
+                 
                 >
                   {L.whatsappCta}
                 </Button>
@@ -131,11 +131,11 @@ export function TaxDeadlineBannerSection({
             </div>
           </div>
 
-          <ul className="mt-6 space-y-3">
+          <ul className="font-heading mt-6 space-y-3">
             {deadlines.map((d, i) => (
               <li
                 key={`${d.kind}-${d.month}-${i}`}
-                className="flex items-center gap-4 rounded-lg border border-[var(--border,#e2e8f0)] bg-[var(--surface,#ffffff)] p-4"
+                className="font-heading flex items-center gap-4 rounded-lg border border-[var(--border,#e2e8f0)] bg-surface p-4"
               >
                 <span
                   className={`inline-flex min-w-[60px] justify-center rounded-md px-2.5 py-1 text-xs font-bold uppercase ${
@@ -144,18 +144,18 @@ export function TaxDeadlineBannerSection({
                 >
                   {d.kind.toUpperCase()}
                 </span>
-                <div className="min-w-0 flex-1">
-                  <p className="truncate font-semibold text-[var(--text,#0f172a)]">{d.label}</p>
-                  <p className="truncate text-sm text-[var(--text-light,#475569)]">{d.description}</p>
+                <div className="font-heading min-w-0 flex-1">
+                  <p className="font-heading truncate font-semibold text-[var(--text,#0f172a)]">{d.label}</p>
+                  <p className="font-heading truncate text-sm text-[var(--text-light,#475569)]">{d.description}</p>
                 </div>
-                <div className="text-right">
-                  <p className="text-sm font-semibold text-[var(--primary)]">
+                <div className="font-heading text-right">
+                  <p className="font-heading text-sm font-semibold text-primary">
                     {d.date.toLocaleDateString(locale === 'pt' ? 'pt-BR' : locale === 'en' ? 'en-US' : 'es-PY', {
                       day: '2-digit',
                       month: 'short',
                     })}
                   </p>
-                  <p className="text-xs text-[var(--text-muted,#64748b)]">{L.inDays(d.daysAway)}</p>
+                  <p className="font-heading text-xs text-[var(--text-muted,#64748b)]">{L.inDays(d.daysAway)}</p>
                 </div>
               </li>
             ))}

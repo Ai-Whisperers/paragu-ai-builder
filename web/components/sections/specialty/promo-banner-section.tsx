@@ -126,7 +126,7 @@ export function PromoBannerSection({
   // supply colors). Fall back to the tenant's primary + white so the
   // banner always renders with a visible style instead of inheriting
   // the surrounding page surface.
-  const bgClass = currentPromo.bgColor || 'bg-[var(--primary)]'
+  const bgClass = currentPromo.bgColor || 'bg-primary'
   const textClass = currentPromo.textColor || 'text-white'
   const ctaHref = currentPromo.link || currentPromo.ctaHref
   const ctaLabel = currentPromo.ctaLabel || 'Aprovechar'
@@ -239,13 +239,13 @@ export function PromoBannerSection({
 
             {/* Promo Code */}
             {currentPromo.code && (
-              <code className="px-3 py-1.5 bg-white/90 text-[var(--text)] rounded-lg text-sm font-bold">
+              <code className="px-3 py-1.5 bg-white/90 text-foreground rounded-lg text-sm font-bold">
                 Código: {currentPromo.code}
               </code>
             )}
 
             {/* CTA */}
-            <button className="px-4 py-1.5 bg-white text-[var(--text)] rounded-full text-sm font-bold hover:bg-white/90 transition-colors">
+            <button className="px-4 py-1.5 bg-white text-foreground rounded-full text-sm font-bold hover:bg-white/90 transition-colors">
               Reservar Ahora
             </button>
           </div>

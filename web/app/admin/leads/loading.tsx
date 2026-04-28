@@ -8,7 +8,7 @@ import { Skeleton } from '@/components/ui/skeleton'
  */
 export default function AdminLeadsLoading() {
   return (
-    <div className="min-h-screen bg-[var(--background)] p-6">
+    <div className="min-h-screen bg-background p-6">
       <div className="max-w-[1400px] mx-auto space-y-6">
         {/* Header */}
         <div className="flex items-center justify-between">
@@ -22,7 +22,7 @@ export default function AdminLeadsLoading() {
         {/* Stats grid — 5 cards across */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           {Array.from({ length: 5 }).map((_, i) => (
-            <div key={i} className="rounded-lg border border-[var(--border)] bg-[var(--surface)] p-4 space-y-3">
+            <div key={i} className="rounded-lg border border-border bg-surface p-4 space-y-3">
               <Skeleton className="h-3 w-20" />
               <Skeleton className="h-8 w-16" />
             </div>
@@ -38,7 +38,7 @@ export default function AdminLeadsLoading() {
         </div>
 
         {/* Table rows */}
-        <div className="rounded-lg border border-[var(--border)] bg-[var(--surface)] divide-y divide-[var(--border)]">
+        <div className="rounded-lg border border-border bg-surface divide-y divide-[var(--border)]">
           {Array.from({ length: 8 }).map((_, i) => (
             <div key={i} className="flex items-center gap-4 p-4">
               <Skeleton className="h-5 w-5 rounded" />

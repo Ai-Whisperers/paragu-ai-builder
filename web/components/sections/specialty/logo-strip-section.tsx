@@ -23,11 +23,11 @@ export function LogoStripSection({
   if (!logos || logos.length === 0) return null
 
   return (
-    <section className="bg-[var(--surface)] py-12 sm:py-16">
+    <section className="bg-surface py-12 sm:py-16">
       <Container>
         {title && (
           <div className="text-center mb-8">
-            <Heading level={3} className="text-[var(--text-muted)] text-sm uppercase tracking-wider">
+            <Heading level={3} className="text-muted-foreground text-sm uppercase tracking-wider">
               {title}
             </Heading>
           </div>

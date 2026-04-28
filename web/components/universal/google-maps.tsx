@@ -49,7 +49,7 @@ export default function GoogleMaps({
           <div className="absolute bottom-4 left-4 right-4">
             <button
               onClick={handleDirections}
-              className="w-full bg-white shadow-lg py-2 px-4 rounded-lg text-sm font-medium text-[var(--primary)] hover:bg-gray-50 flex items-center justify-center gap-2"
+              className="w-full bg-white shadow-lg py-2 px-4 rounded-lg text-sm font-medium text-primary hover:bg-gray-50 flex items-center justify-center gap-2"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -67,7 +67,7 @@ export default function GoogleMaps({
         </div>
         <button
           onClick={handleDirections}
-          className="text-sm text-[var(--primary)] hover:underline"
+          className="text-sm text-primary hover:underline"
         >
           Abrir en Google Maps
         </button>

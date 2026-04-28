@@ -38,13 +38,13 @@ export function ReviewCard({ review, className, onHelpful }: ReviewCardProps) {
         <div className="flex items-start justify-between mb-4">
           <div className="flex items-center gap-3">
             <Avatar className="w-10 h-10">
-              <AvatarFallback className="bg-[var(--primary)] text-white text-sm">
+              <AvatarFallback className="bg-primary text-white text-sm">
                 {review.author.charAt(0)}
               </AvatarFallback>
             </Avatar>
             <div>
-              <p className="font-medium text-[var(--text)]">{review.author}</p>
-              <p className="text-sm text-[var(--text-muted)]">{review.location}</p>
+              <p className="font-medium text-foreground">{review.author}</p>
+              <p className="text-sm text-muted-foreground">{review.location}</p>
             </div>
           </div>
           <Badge className={cn('text-xs', typeColors[review.type])}>
@@ -61,7 +61,7 @@ export function ReviewCard({ review, className, onHelpful }: ReviewCardProps) {
                 'w-4 h-4',
                 i < review.rating 
                   ? 'text-amber-400 fill-amber-400' 
-                  : 'text-[var(--text-light)]'
+                  : 'text-muted-foreground'
               )}
             />
           ))}
@@ -76,14 +76,14 @@ export function ReviewCard({ review, className, onHelpful }: ReviewCardProps) {
         {/* Quote */}
         <div className="relative mb-4">
           <Quote className="absolute -top-2 -left-2 w-6 h-6 text-[var(--border)]" />
-          <p className="text-[var(--text)] pl-4 italic">
+          <p className="text-foreground pl-4 italic">
             {review.text}
           </p>
         </div>
 
         {/* Footer */}
-        <div className="flex items-center justify-between pt-4 border-t border-[var(--border)]">
-          <span className="text-sm text-[var(--text-muted)]">
+        <div className="flex items-center justify-between pt-4 border-t border-border">
+          <span className="text-sm text-muted-foreground">
             {new Date(review.date).toLocaleDateString('es-PY', {
               day: 'numeric',
               month: 'long',
@@ -96,7 +96,7 @@ export function ReviewCard({ review, className, onHelpful }: ReviewCardProps) {
             onClick={handleHelpful}
             className={cn(
               'text-sm',
-              liked && 'text-[var(--primary)]'
+              liked && 'text-primary'
             )}
           >
             <ThumbsUp className={cn('w-4 h-4 mr-1', liked && 'fill-current')} />

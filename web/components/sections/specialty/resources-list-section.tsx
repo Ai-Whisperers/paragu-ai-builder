@@ -62,13 +62,13 @@ export function ResourcesListSection({
   const downloadLabel = downloadLabelProp || DOWNLOAD_LABEL[locale] || DOWNLOAD_LABEL.es
 
   return (
-    <section className="bg-[var(--background)] py-16 sm:py-20">
+    <section className="bg-background py-16 sm:py-20">
       <Container>
         {(title || subtitle) && (
           <div className="mb-12 text-center">
             {title && <Heading level={2}>{title}</Heading>}
             {subtitle && (
-              <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">{subtitle}</p>
+              <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">{subtitle}</p>
             )}
           </div>
         )}
