@@ -2386,6 +2386,43 @@ export const SITES: Record<string, JsonRecord> = {
 }
 
 export const TENANT_TOKENS: Record<string, JsonRecord> = {
+  "alejandro-villamayor": {
+    "$comment": "Alejandro Villamayor — Premium law firm palette. British Racing Green, burnished gold, warm parchment.",
+    "defaultPalette": "premium",
+    "googleFonts": [
+      "Cormorant+Garamond:wght@500;600;700",
+      "Inter:wght@400;500;600;700"
+    ],
+    "palettes": {
+      "premium": {
+        "colors": {
+          "accent": "#D4AF37",
+          "accentForeground": "#004225",
+          "background": "#FFFFFF",
+          "border": "#E6DFD0",
+          "error": "#C62828",
+          "primary": "#004225",
+          "primaryForeground": "#FFFFFF",
+          "secondary": "#D4AF37",
+          "secondaryForeground": "#004225",
+          "success": "#2E7D32",
+          "surface": "#F9F8F5",
+          "surfaceLight": "#F0EDE5",
+          "text": "#1B1B1B",
+          "textLight": "#4A4A4A",
+          "textMuted": "#7A7A7A",
+          "warning": "#F59E0B"
+        },
+        "name": "Law Firm Premium"
+      }
+    },
+    "typography": {
+      "body": "'Inter', 'Segoe UI', sans-serif",
+      "bodyWeight": "400",
+      "heading": "'Cormorant Garamond', 'Georgia', serif",
+      "headingWeight": "700"
+    }
+  },
   "bufete-mendez": {
     "borderRadius": "sm",
     "defaultPalette": "optionA",
