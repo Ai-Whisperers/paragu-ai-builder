@@ -171,10 +171,10 @@
   },
   "placeholderFields": {
     "domain": "Path-only on paragu-ai.com/fun4me. Custom domain fun4me.com.py pending client.",
-    "brandPartners": "Satisfyer/LELO/We-Vibe logos \u2014 client to provide real brand assets.",
-    "team": "Anonymous store model \u2014 no staff profiles published.",
-    "integrations.payments.merchantIdEnvVar": "Actual Pagopar credentials \u2014 client onboarding pending.",
-    "fiscalInfo": "RUC and Timbrado \u2014 client onboarding questionnaire Parte E."
+    "brandPartners": "Satisfyer/LELO/We-Vibe logos — client to provide real brand assets.",
+    "team": "Anonymous store model — no staff profiles published.",
+    "integrations.payments.merchantIdEnvVar": "Actual Pagopar credentials — client onboarding pending.",
+    "fiscalInfo": "RUC and Timbrado — client onboarding questionnaire Parte E."
   },
   "fiscalInfo": {
     "legalName": null,
@@ -213,7 +213,10 @@
       {
         "id": "footer",
         "variant": "standard",
-        "content": "footer"
+        "content": "footer",
+        "styling": {
+          "padding": "none"
+        }
       }
     ]
   }

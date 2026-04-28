@@ -69,7 +69,10 @@
       {
         "id": "footer",
         "variant": "standard",
-        "content": "footer"
+        "content": "footer",
+        "styling": {
+          "padding": "none"
+        }
       }
     ]
   },

@@ -1178,60 +1178,7 @@
     "email": "hola@nexaparaguay.com",
     "whatsapp": "595982515138",
     "instagram": "https://instagram.com/nexaparaguay",
-    "navLinks": [
-      {
-        "label": "Programs",
-        "href": "/s/en/nexa-paraguay/programas"
-      },
-      {
-        "label": "Process",
-        "href": "/s/en/nexa-paraguay/proceso"
-      },
-      {
-        "label": "About",
-        "href": "/s/en/nexa-paraguay/sobre"
-      },
-      {
-        "label": "Privacy",
-        "href": "/s/en/nexa-paraguay/privacidad"
-      },
-      {
-        "label": "FAQ",
-        "href": "/s/en/nexa-paraguay/faq"
-      },
-      {
-        "label": "Blog",
-        "href": "/s/en/nexa-paraguay/blog"
-      },
-      {
-        "label": "Contact",
-        "href": "/s/en/nexa-paraguay/contacto"
-      },
-      {
-        "label": "Why Paraguay",
-        "href": "/s/en/nexa-paraguay/por-que-paraguay"
-      },
-      {
-        "label": "Benelux desk",
-        "href": "/s/en/nexa-paraguay/benelux"
-      },
-      {
-        "label": "Quality of life",
-        "href": "/s/en/nexa-paraguay/calidad-de-vida"
-      },
-      {
-        "label": "Glossary",
-        "href": "/s/en/nexa-paraguay/glosario"
-      },
-      {
-        "label": "Resources",
-        "href": "/s/en/nexa-paraguay/recursos"
-      },
-      {
-        "label": "Press",
-        "href": "/s/en/nexa-paraguay/prensa"
-      }
-    ],
+    "navLinks": [],
     "facebook": null,
     "siblingSites": [
       {
@@ -1256,7 +1203,73 @@
         ]
       }
     ],
-    "copyright": "© {year} Nexa Paraguay. All rights reserved."
+    "copyright": "© {year} Nexa Paraguay. All rights reserved.",
+    "columns": [
+      {
+        "title": "Services",
+        "links": [
+          {
+            "label": "Programs",
+            "href": "/s/en/nexa-paraguay/programas"
+          },
+          {
+            "label": "Process",
+            "href": "/s/en/nexa-paraguay/proceso"
+          },
+          {
+            "label": "Why Paraguay",
+            "href": "/s/en/nexa-paraguay/por-que-paraguay"
+          },
+          {
+            "label": "Quality of life",
+            "href": "/s/en/nexa-paraguay/calidad-de-vida"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "Blog",
+            "href": "/s/en/nexa-paraguay/blog"
+          },
+          {
+            "label": "Glossary",
+            "href": "/s/en/nexa-paraguay/glosario"
+          },
+          {
+            "label": "Resources",
+            "href": "/s/en/nexa-paraguay/recursos"
+          },
+          {
+            "label": "Press",
+            "href": "/s/en/nexa-paraguay/prensa"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "About",
+            "href": "/s/en/nexa-paraguay/sobre"
+          },
+          {
+            "label": "FAQ",
+            "href": "/s/en/nexa-paraguay/faq"
+          },
+          {
+            "label": "Privacy",
+            "href": "/s/en/nexa-paraguay/privacidad"
+          },
+          {
+            "label": "Benelux desk",
+            "href": "/s/en/nexa-paraguay/benelux"
+          }
+        ]
+      }
+    ],
+    "phone": ""
   },
   "complianceDisclaimer": {
     "paragraphs": [

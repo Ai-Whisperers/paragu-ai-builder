@@ -3,6 +3,11 @@ import { Heading } from '@/components/ui/heading'
 import type { Locale } from '@/lib/i18n/config'
 import { cn } from '@/lib/utils'
 
+export interface FooterColumn {
+  title: string
+  links: Array<{ label: string; href: string }>
+}
+
 export interface FooterSectionProps {
   businessName: string
   phone?: string
@@ -12,7 +17,10 @@ export interface FooterSectionProps {
   instagram?: string
   facebook?: string
   whatsapp?: string
+  /** Flat nav links (legacy). New content should use `columns` instead. */
   navLinks?: Array<{ label: string; href: string }>
+  /** Categorized link columns for a cleaner footer layout. When set, overrides navLinks. */
+  columns?: FooterColumn[]
   /** Sibling sites shown in the footer network section. Driven by site config, not hardcoded. */
   siblingSites?: Array<{
     slug: string
@@ -70,8 +78,8 @@ export function FooterSection({
   const hasSiblings = siblingSites && siblingSites.length > 0
   const networkHeading = (__locale && NETWORK_LABEL[__locale]) || NETWORK_LABEL.en
   const labels = (__locale && FOOTER_LABELS[__locale]) || FOOTER_LABELS.en
-  // Ensure whatsapp is a string (not the whatsapp-float config object)
   const waPhone = typeof whatsapp === 'string' ? whatsapp : ''
+  const resolvedColumns = columns && columns.length > 0 ? columns : (navLinks.length > 0 ? [{ title: labels.links, links: navLinks }] : [])
   const showVersion =
     process.env.NEXT_PUBLIC_SHOW_VERSION === 'true'
       ? true
@@ -88,7 +96,7 @@ export function FooterSection({
       }}
     >
       <Container>
-        <div className="font-heading grid gap-10 sm:gap-12 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="font-heading grid gap-10 sm:gap-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {/* About / Brand */}
           <div className="font-heading sm:col-span-2 lg:col-span-1">
             <Heading level={3}
@@ -106,17 +114,17 @@ export function FooterSection({
             </p>
           </div>
 
-          {/* Quick Links */}
-          {navLinks.length > 0 && (
-            <div>
+          {/* Link Columns */}
+          {resolvedColumns.map((col) => (
+            <div key={col.title}>
               <h4 
                 className="font-heading mb-5 text-xs font-bold uppercase tracking-widest"
                 style={{ color: 'rgba(255,255,255,0.5)' }}
               >
-                {labels.links}
+                {col.title}
               </h4>
-              <ul className="font-heading space-y-4">
-                {navLinks.map((link) => (
+              <ul className="font-heading space-y-3">
+                {col.links.map((link) => (
                   <li key={link.href}>
                     <a
                       href={link.href}
@@ -129,7 +137,7 @@ export function FooterSection({
                 ))}
               </ul>
             </div>
-          )}
+          ))}
 
           {/* Contact */}
           <div>
@@ -139,7 +147,18 @@ export function FooterSection({
             >
               {labels.contact}
             </h4>
-            <ul className="font-heading space-y-4 text-sm">
+            <ul className="font-heading space-y-3 text-sm">
+              {email && (
+                <li>
+                  <a 
+                    href={`mailto:${email}`} 
+                    className="font-heading transition-colors hover:text-white"
+                    style={{ color: 'rgba(255,255,255,0.8)' }}
+                  >
+                    {email}
+                  </a>
+                </li>
+              )}
               {phone && (
                 <li>
                   <a 
@@ -151,14 +170,16 @@ export function FooterSection({
                   </a>
                 </li>
               )}
-              {email && (
+              {waPhone && (
                 <li>
                   <a 
-                    href={`mailto:${email}`} 
+                    href={`https://wa.me/${waPhone.replace(/\D/g, '')}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="font-heading transition-colors hover:text-white"
                     style={{ color: 'rgba(255,255,255,0.8)' }}
                   >
-                    {email}
+                    WhatsApp
                   </a>
                 </li>
               )}
@@ -175,9 +196,9 @@ export function FooterSection({
                 {labels.social}
               </h4>
               <div className="font-heading flex flex-wrap gap-3">
-                {instagram && (
+                  {instagram && (
                   <a
-                    href={`https://instagram.com/${instagram.replace('@', '')}`}
+                    href={instagram.startsWith('http') ? instagram : `https://instagram.com/${instagram.replace('@', '')}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-heading inline-flex items-center justify-center w-10 h-10 rounded-lg transition-all duration-200 hover:scale-110"
@@ -216,8 +237,8 @@ export function FooterSection({
                     rel="noopener noreferrer"
                     className="font-heading inline-flex items-center justify-center w-10 h-10 rounded-lg transition-all duration-200 hover:scale-110"
                     style={{
-                      backgroundColor: '#25D366',
-                      color: '#ffffff',
+                      backgroundColor: 'rgba(255,255,255,0.1)',
+                      color: 'rgba(255,255,255,0.9)',
                     }}
                     aria-label="WhatsApp"
                   >

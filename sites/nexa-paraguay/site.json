@@ -97,11 +97,14 @@
         "variant": "standard",
         "content": "whatsapp"
       },
-      {
-        "id": "footer",
-        "variant": "standard",
-        "content": "footer"
-      }
+{
+  "id": "footer",
+  "variant": "standard",
+  "content": "footer",
+  "styling": {
+    "padding": "none"
+  }
+}
     ]
   },
   "path": "/s/es/nexa-paraguay",
