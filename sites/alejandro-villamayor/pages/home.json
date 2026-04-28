@@ -5,14 +5,15 @@
   "sections": [
     {
       "id": "hero",
-      "variant": "image",
+      "variant": "split",
+      "secondaryCtaModal": true,
       "content": "home.hero",
-      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=90",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=90",
       "styling": {
         "padding": "xl",
         "background": "image",
         "textColor": "light",
-        "backgroundImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=90"
+        "backgroundImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=90"
       }
     },
     {

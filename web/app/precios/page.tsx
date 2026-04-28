@@ -1,18 +1,14 @@
-import type { Metadata } from 'next'
+'use client'
+
 import Link from 'next/link'
+import { useState } from 'react'
 import { ArrowRight, Check, MessageCircle, X } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { SiteNav } from '@/components/landing/site-nav'
 import { SiteFooter } from '@/components/landing/site-footer'
 import { ROICalculator } from '@/components/landing/roi-calculator'
+import { LeadCaptureModal } from '@/components/landing/lead-capture-modal'
 import { PLANS, waLink } from '@/lib/landing/marketing-data'
-
-export const metadata: Metadata = {
-  title: 'Precios — sitios web profesionales en guaraníes (PYG)',
-  description:
-    'Setup único + cuota mensual baja, sin permanencia. 4 planes desde gratis hasta multi-sucursal. Mercado Pago o transferencia bancaria. 30 días de garantía.',
-  alternates: { canonical: '/precios' },
-}
 
 const FEATURE_MATRIX = [
   { row: 'Páginas', prueba: '1', presencia: 'Hasta 5', crecimiento: 'Ilimitadas', profesional: 'Ilimitadas' },
@@ -47,6 +43,7 @@ function Cell({ value }: { value: string | boolean }) {
 }
 
 export default function PreciosPage() {
+  const [selectedPlan, setSelectedPlan] = useState<{ name: string; id: string } | null>(null)
   return (
     <>
       <SiteNav />
@@ -148,18 +145,16 @@ export default function PreciosPage() {
                       </li>
                     ))}
                   </ul>
-                  <a
-                    href={waLink(plan.waMessage)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`mt-auto block w-full rounded-2xl py-3.5 text-center text-sm font-bold transition-all ${
+                  <button
+                    onClick={() => setSelectedPlan({ name: plan.name, id: plan.id })}
+                    className={`mt-auto block w-full rounded-2xl py-3.5 text-center text-sm font-bold transition-all cursor-pointer ${
                       plan.popular
                         ? 'bg-gradient-to-r from-[var(--primary)] to-[var(--accent)] text-[var(--primary-foreground)] hover:opacity-90 hover:shadow-lg'
                         : 'border-2 border-border text-foreground hover:border-[var(--primary)] hover:text-primary'
                     }`}
                   >
                     {plan.cta}
-                  </a>
+                  </button>
                 </div>
               ))}
             </div>
@@ -265,6 +260,13 @@ export default function PreciosPage() {
       </main>
 
       <SiteFooter />
+
+      <LeadCaptureModal
+        open={selectedPlan !== null}
+        onClose={() => setSelectedPlan(null)}
+        planName={selectedPlan?.name ?? ''}
+        planId={selectedPlan?.id ?? ''}
+      />
     </>
   )
 }

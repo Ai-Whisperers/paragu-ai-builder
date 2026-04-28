@@ -9,6 +9,7 @@ import { DecorativeBlob } from '@/components/ui/decorative'
 import { FloatingElement } from '@/components/ui/animated'
 import { GlassCard } from '@/components/ui/glass'
 import { cn } from '@/lib/utils'
+import { LeadCaptureModal } from '@/components/commerce/lead-capture-modal'
 
 export interface DisclaimerBannerProps {
   title: string
@@ -26,14 +27,12 @@ export interface HeroSectionProps {
   ctaPrimaryHref?: string
   ctaSecondaryText?: string
   ctaSecondaryHref?: string
+  /** When true, the secondary CTA opens a lead capture modal instead of navigating. Works only for the Alejandro site. */
+  secondaryCtaModal?: boolean
   backgroundImage?: string
+  /** Variant controls layout: 'image' (full-bg with glass card), 'split' (text left / image right), 'minimal' (text only). */
+  variant?: 'image' | 'split' | 'minimal'
   disclaimerBanner?: DisclaimerBannerProps
-  /**
-   * Optional portrait-orientation variant of the hero background. When set
-   * we emit a `<picture>` with a mobile `<source>` (max-width: 640px) so
-   * phones download a smaller image instead of cropping the desktop one.
-   * Falls back to `backgroundImage` only. Backward-compatible.
-   */
   backgroundImageMobile?: string
   enhanced?: boolean
   useGradient?: boolean
@@ -41,16 +40,8 @@ export interface HeroSectionProps {
   floatingHeadline?: boolean
   glassCard?: boolean
   eyebrow?: string
-  /** URL locale — used to pick trust-badge labels when `enhanced` is on. */
   __locale?: string
-  /** Opt-out of the enhanced trust-badges row (some tenants prefer a clean hero). */
   trustBadgesEnabled?: boolean
-  /**
-   * Override the default 3-item locale triplet ("Professional · Transparent · Trustworthy")
-   * with tenant-specific proof points — numbers beat adjectives. Supply an
-   * array of exactly 3 short strings (ideally ≤16 chars each to fit the
-   * badge chip layout). Falls back to the locale default when omitted.
-   */
   trustBadges?: string[]
 }
 
@@ -76,6 +67,7 @@ export function HeroSection({
   ctaSecondaryHref = '#servicios',
   backgroundImage,
   backgroundImageMobile,
+  variant = 'image',
   enhanced = true,
   useGradient = true,
   gradientVariant = 'primary-secondary',
@@ -88,6 +80,7 @@ export function HeroSection({
   disclaimerBanner,
 }: HeroSectionProps) {
   const [isBannerDismissed, setIsBannerDismissed] = useState(false)
+  const [leadModalOpen, setLeadModalOpen] = useState(false)
 
   useEffect(() => {
     if (disclaimerBanner?.dismissible) {
@@ -180,7 +173,12 @@ export function HeroSection({
                 {ctaPrimaryText}
               </Button>
             )}
-            {ctaSecondaryText && (
+            {ctaSecondaryText && secondaryCtaModal ? (
+              <Button variant="secondary" size="lg" onClick={() => setLeadModalOpen(true)}
+                className={cn("w-full sm:w-auto min-h-[60px] px-10 text-base font-semibold tracking-wide", useGradient && "border-2 border-white/40 text-white hover:bg-white/10 hover:border-white/60", enhanced && "hero-btn-secondary transition-all duration-300")}>
+                {ctaSecondaryText}
+              </Button>
+            ) : ctaSecondaryText && (
               <Button variant="secondary" size="lg" href={ctaSecondaryHref}
                 className={cn("w-full sm:w-auto min-h-[60px] px-10 text-base font-semibold tracking-wide", useGradient && "border-2 border-white/40 text-white hover:bg-white/10 hover:border-white/60", enhanced && "hero-btn-secondary transition-all duration-300")}>
                 {ctaSecondaryText}
@@ -221,6 +219,73 @@ export function HeroSection({
     ? { backgroundImage: `linear-gradient(rgba(15, 30, 50, 0.7), rgba(15, 30, 50, 0.8)), url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
     : undefined
 
+  // Split layout: text on dark left half, image on right half
+  if (variant === 'split' && backgroundImage) {
+    return (
+      <section className="relative flex min-h-[70vh] flex-col overflow-hidden lg:flex-row">
+        {/* Left: text content on primary background */}
+        <div className="flex flex-1 items-center bg-primary px-6 py-16 sm:px-12 lg:px-16 lg:py-24">
+          <div className="mx-auto w-full max-w-xl">
+            <Container className="px-0">
+              {eyebrow && (
+                <div className="mb-4">
+                  <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-medium uppercase tracking-wider text-white/90">
+                    {eyebrow}
+                  </span>
+                </div>
+              )}
+              <Heading level={1}
+                style={{ fontFamily: 'var(--font-heading)', fontWeight: '800', fontSize: 'clamp(2rem, 4vw, 3.5rem)', lineHeight: '1.1', letterSpacing: '-0.02em', color: '#ffffff' }}>
+                {headline}
+              </Heading>
+              <p className="mt-4 max-w-lg text-base leading-relaxed text-white/80 sm:text-lg lg:text-xl">
+                {subheadline}
+              </p>
+              <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+                {ctaPrimaryText && (
+                  <Button variant="primary" size="lg" href={ctaPrimaryHref}
+                    className="w-full sm:w-auto min-h-[56px] px-8 text-base font-semibold tracking-wide transition-transform duration-300 hover:scale-[1.02]">
+                    {ctaPrimaryText}
+                  </Button>
+                )}
+                {ctaSecondaryText && secondaryCtaModal ? (
+                  <Button variant="secondary" size="lg" onClick={() => setLeadModalOpen(true)}
+                    className="w-full sm:w-auto min-h-[56px] border-2 border-white/40 px-8 text-base font-semibold text-white transition-all duration-300 hover:border-white/60 hover:bg-white/10">
+                    {ctaSecondaryText}
+                  </Button>
+                ) : ctaSecondaryText && (
+                  <Button variant="secondary" size="lg" href={ctaSecondaryHref}
+                    className="w-full sm:w-auto min-h-[56px] border-2 border-white/40 px-8 text-base font-semibold text-white transition-all duration-300 hover:border-white/60 hover:bg-white/10">
+                    {ctaSecondaryText}
+                  </Button>
+                )}
+              </div>
+              {enhanced && trustBadgesEnabled && trustBadges.length > 0 && (
+                <div className="mt-10 flex flex-wrap gap-4">
+                  {trustBadges.map((label) => (
+                    <div key={label} className="flex items-center gap-2 text-sm font-medium text-white/80">
+                      <svg className="h-4 w-4" fill="var(--secondary)" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
+                      {label}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </Container>
+          </div>
+        </div>
+        {/* Right: image */}
+        <div className="relative flex-1 bg-surface-light">
+          <picture className="absolute inset-0 h-full w-full">
+            {backgroundImageMobile && (
+              <source media="(max-width: 640px)" srcSet={backgroundImageMobile} />
+            )}
+            <img src={backgroundImage} alt="" className="h-full w-full object-cover" loading="eager" fetchPriority="high" decoding="async" />
+          </picture>
+        </div>
+      </section>
+    )
+  }
+
   return (
     <section className={cn("relative flex min-h-[60vh] sm:min-h-[70vh] items-center justify-center overflow-hidden pt-16 sm:pt-20", !backgroundImage && !useGradient && "bg-primary")} style={backgroundStyle}>
       {useResponsivePicture && backgroundImage && (
@@ -254,6 +319,9 @@ export function HeroSection({
         </>
       )}
       {wrappedContent}
+      {leadModalOpen && (
+        <LeadCaptureModal open={leadModalOpen} onOpenChange={setLeadModalOpen} locale={__locale} />
+      )}
     </section>
   )
 }

@@ -764,6 +764,49 @@ export default {
       "title": "Legal Services",
       "trustBadgesEnabled": true
     },
+    "industries": {
+      "eyebrow": "Practice areas",
+      "items": [
+        {
+          "description": "Investor Pass, SUACE, income-based residency, tax structuring, and real estate due diligence. For individual investors seeking residency and asset protection in Paraguay.",
+          "icon": "Globe",
+          "title": "Foreign Investments & Residency"
+        },
+        {
+          "description": "Company incorporation (EAS, SRL, SA), commercial contracts, M&A, corporate governance, and compliance. For businesses establishing operations in Paraguay.",
+          "icon": "Briefcase",
+          "title": "Corporate Law & Compliance"
+        }
+      ],
+      "subtitle": "Choose the area that best describes your situation to see specific services.",
+      "title": "Two main practice areas"
+    },
+    "process": {
+      "steps": [
+        {
+          "description": "Free conversation to understand your situation, goals, and country of origin.",
+          "icon": "MessageSquare",
+          "title": "Initial consultation"
+        },
+        {
+          "description": "Case study, document review, and design of the optimal action plan.",
+          "icon": "Search",
+          "title": "Analysis & strategy"
+        },
+        {
+          "description": "End-to-end processing before MIC, Immigration, SUACE, and the Public Registry with regular updates.",
+          "icon": "Zap",
+          "title": "Execution"
+        },
+        {
+          "description": "Post-residency support for tax compliance, renewals, and estate planning.",
+          "icon": "Shield",
+          "title": "Ongoing support"
+        }
+      ],
+      "subtitle": "A clear process from the first consultation to ongoing support.",
+      "title": "How I work with clients"
+    },
     "seo": {
       "description": "Corporate law, foreign investments, Paraguay Investor Pass, commercial contracts, litigation and real estate law.",
       "title": "Legal Services — Alejandro Villamayor | Lawyer in Asunción"

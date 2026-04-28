@@ -324,6 +324,33 @@
       "title": "Servicios Legales",
       "subtitle": "Asesoría integral para inversores extranjeros, empresas y personas. Desde la planificación de tu inversión hasta la residencia y el cumplimiento corporativo.",
       "trustBadgesEnabled": true
+    },
+    "process": {
+      "title": "Cómo trabajo con mis clientes",
+      "subtitle": "Un proceso claro desde la primera consulta hasta el acompañamiento continuo.",
+      "steps": [
+        { "icon": "MessageSquare", "title": "Consulta inicial", "description": "Conversación sin costo para entender tu situación, objetivos y país de origen." },
+        { "icon": "Search", "title": "Análisis y estrategia", "description": "Estudio del caso, revisión de documentos y diseño del plan de acción óptimo." },
+        { "icon": "Zap", "title": "Ejecución", "description": "Gestión de trámites ante MIC, Migraciones, SUACE y Registro Público con actualizaciones periódicas." },
+        { "icon": "Shield", "title": "Acompañamiento", "description": "Soporte continuo post-residencia para cumplimiento tributario, renovaciones y planificación patrimonial." }
+      ]
+    },
+    "industries": {
+      "eyebrow": "Áreas de especialización",
+      "title": "Dos grandes áreas de práctica",
+      "subtitle": "Elegí el área que mejor describa tu situación para ver servicios específicos.",
+      "items": [
+        {
+          "icon": "Globe",
+          "title": "Inversiones Extranjeras y Residencia",
+          "description": "Investor Pass, SUACE, residencia por rentas, estructuración tributaria y due diligence inmobiliario. Para inversores individuales que buscan residencia y protección de activos en Paraguay."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Derecho Corporativo y Compliance",
+          "description": "Constitución de empresas (EAS, SRL, SA), contratos comerciales, fusiones y adquisiciones, gobierno corporativo y compliance. Para empresas que establecen operaciones en Paraguay."
+        }
+      ]
     }
   },
   "inversiones": {

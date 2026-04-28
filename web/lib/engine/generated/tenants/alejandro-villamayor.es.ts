@@ -767,6 +767,49 @@ export default {
       "title": "Servicios Legales",
       "trustBadgesEnabled": true
     },
+    "industries": {
+      "eyebrow": "Áreas de especialización",
+      "items": [
+        {
+          "description": "Investor Pass, SUACE, residencia por rentas, estructuración tributaria y due diligence inmobiliario. Para inversores individuales que buscan residencia y protección de activos en Paraguay.",
+          "icon": "Globe",
+          "title": "Inversiones Extranjeras y Residencia"
+        },
+        {
+          "description": "Constitución de empresas (EAS, SRL, SA), contratos comerciales, fusiones y adquisiciones, gobierno corporativo y compliance. Para empresas que establecen operaciones en Paraguay.",
+          "icon": "Briefcase",
+          "title": "Derecho Corporativo y Compliance"
+        }
+      ],
+      "subtitle": "Elegí el área que mejor describa tu situación para ver servicios específicos.",
+      "title": "Dos grandes áreas de práctica"
+    },
+    "process": {
+      "steps": [
+        {
+          "description": "Conversación sin costo para entender tu situación, objetivos y país de origen.",
+          "icon": "MessageSquare",
+          "title": "Consulta inicial"
+        },
+        {
+          "description": "Estudio del caso, revisión de documentos y diseño del plan de acción óptimo.",
+          "icon": "Search",
+          "title": "Análisis y estrategia"
+        },
+        {
+          "description": "Gestión de trámites ante MIC, Migraciones, SUACE y Registro Público con actualizaciones periódicas.",
+          "icon": "Zap",
+          "title": "Ejecución"
+        },
+        {
+          "description": "Soporte continuo post-residencia para cumplimiento tributario, renovaciones y planificación patrimonial.",
+          "icon": "Shield",
+          "title": "Acompañamiento"
+        }
+      ],
+      "subtitle": "Un proceso claro desde la primera consulta hasta el acompañamiento continuo.",
+      "title": "Cómo trabajo con mis clientes"
+    },
     "seo": {
       "description": "Derecho corporativo, inversiones extranjeras, Paraguay Investor Pass, residencia por inversión, contratos, litigios e inmobiliario en Paraguay.",
       "title": "Servicios Legales — Alejandro Villamayor | Inversiones, Residencia y Derecho Corporativo"

@@ -308,6 +308,33 @@
       "title": "Legal Services",
       "subtitle": "Comprehensive counsel for foreign investors and businesses in Paraguay. From investment planning and residency to corporate compliance.",
       "trustBadgesEnabled": true
+    },
+    "process": {
+      "title": "How I work with clients",
+      "subtitle": "A clear process from the first consultation to ongoing support.",
+      "steps": [
+        { "icon": "MessageSquare", "title": "Initial consultation", "description": "Free conversation to understand your situation, goals, and country of origin." },
+        { "icon": "Search", "title": "Analysis & strategy", "description": "Case study, document review, and design of the optimal action plan." },
+        { "icon": "Zap", "title": "Execution", "description": "End-to-end processing before MIC, Immigration, SUACE, and the Public Registry with regular updates." },
+        { "icon": "Shield", "title": "Ongoing support", "description": "Post-residency support for tax compliance, renewals, and estate planning." }
+      ]
+    },
+    "industries": {
+      "eyebrow": "Practice areas",
+      "title": "Two main practice areas",
+      "subtitle": "Choose the area that best describes your situation to see specific services.",
+      "items": [
+        {
+          "icon": "Globe",
+          "title": "Foreign Investments & Residency",
+          "description": "Investor Pass, SUACE, income-based residency, tax structuring, and real estate due diligence. For individual investors seeking residency and asset protection in Paraguay."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Corporate Law & Compliance",
+          "description": "Company incorporation (EAS, SRL, SA), commercial contracts, M&A, corporate governance, and compliance. For businesses establishing operations in Paraguay."
+        }
+      ]
     }
   },
   "investorPass": {

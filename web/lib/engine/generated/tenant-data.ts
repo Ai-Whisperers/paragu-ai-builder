@@ -2841,14 +2841,15 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.hero",
         "id": "hero",
-        "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=90",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=90",
+        "secondaryCtaModal": true,
         "styling": {
           "background": "image",
-          "backgroundImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=90",
+          "backgroundImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=90",
           "padding": "xl",
           "textColor": "light"
         },
-        "variant": "image"
+        "variant": "split"
       },
       {
         "content": "home.stats",
@@ -3053,6 +3054,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.services",
         "id": "services",
         "variant": "cards"
+      },
+      {
+        "content": "servicios.process",
+        "id": "process-timeline",
+        "variant": "vertical"
+      },
+      {
+        "content": "servicios.industries",
+        "id": "features",
+        "variant": "three-col"
       },
       {
         "content": "ctaBanner",
@@ -10827,6 +10838,49 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Legal Services",
         "trustBadgesEnabled": true
       },
+      "industries": {
+        "eyebrow": "Practice areas",
+        "items": [
+          {
+            "description": "Investor Pass, SUACE, income-based residency, tax structuring, and real estate due diligence. For individual investors seeking residency and asset protection in Paraguay.",
+            "icon": "Globe",
+            "title": "Foreign Investments & Residency"
+          },
+          {
+            "description": "Company incorporation (EAS, SRL, SA), commercial contracts, M&A, corporate governance, and compliance. For businesses establishing operations in Paraguay.",
+            "icon": "Briefcase",
+            "title": "Corporate Law & Compliance"
+          }
+        ],
+        "subtitle": "Choose the area that best describes your situation to see specific services.",
+        "title": "Two main practice areas"
+      },
+      "process": {
+        "steps": [
+          {
+            "description": "Free conversation to understand your situation, goals, and country of origin.",
+            "icon": "MessageSquare",
+            "title": "Initial consultation"
+          },
+          {
+            "description": "Case study, document review, and design of the optimal action plan.",
+            "icon": "Search",
+            "title": "Analysis & strategy"
+          },
+          {
+            "description": "End-to-end processing before MIC, Immigration, SUACE, and the Public Registry with regular updates.",
+            "icon": "Zap",
+            "title": "Execution"
+          },
+          {
+            "description": "Post-residency support for tax compliance, renewals, and estate planning.",
+            "icon": "Shield",
+            "title": "Ongoing support"
+          }
+        ],
+        "subtitle": "A clear process from the first consultation to ongoing support.",
+        "title": "How I work with clients"
+      },
       "seo": {
         "description": "Corporate law, foreign investments, Paraguay Investor Pass, commercial contracts, litigation and real estate law.",
         "title": "Legal Services — Alejandro Villamayor | Lawyer in Asunción"
@@ -11660,6 +11714,49 @@ export const CONTENT: Record<string, JsonRecord> = {
         "subtitle": "Asesoría integral para inversores extranjeros, empresas y personas. Desde la planificación de tu inversión hasta la residencia y el cumplimiento corporativo.",
         "title": "Servicios Legales",
         "trustBadgesEnabled": true
+      },
+      "industries": {
+        "eyebrow": "Áreas de especialización",
+        "items": [
+          {
+            "description": "Investor Pass, SUACE, residencia por rentas, estructuración tributaria y due diligence inmobiliario. Para inversores individuales que buscan residencia y protección de activos en Paraguay.",
+            "icon": "Globe",
+            "title": "Inversiones Extranjeras y Residencia"
+          },
+          {
+            "description": "Constitución de empresas (EAS, SRL, SA), contratos comerciales, fusiones y adquisiciones, gobierno corporativo y compliance. Para empresas que establecen operaciones en Paraguay.",
+            "icon": "Briefcase",
+            "title": "Derecho Corporativo y Compliance"
+          }
+        ],
+        "subtitle": "Elegí el área que mejor describa tu situación para ver servicios específicos.",
+        "title": "Dos grandes áreas de práctica"
+      },
+      "process": {
+        "steps": [
+          {
+            "description": "Conversación sin costo para entender tu situación, objetivos y país de origen.",
+            "icon": "MessageSquare",
+            "title": "Consulta inicial"
+          },
+          {
+            "description": "Estudio del caso, revisión de documentos y diseño del plan de acción óptimo.",
+            "icon": "Search",
+            "title": "Análisis y estrategia"
+          },
+          {
+            "description": "Gestión de trámites ante MIC, Migraciones, SUACE y Registro Público con actualizaciones periódicas.",
+            "icon": "Zap",
+            "title": "Ejecución"
+          },
+          {
+            "description": "Soporte continuo post-residencia para cumplimiento tributario, renovaciones y planificación patrimonial.",
+            "icon": "Shield",
+            "title": "Acompañamiento"
+          }
+        ],
+        "subtitle": "Un proceso claro desde la primera consulta hasta el acompañamiento continuo.",
+        "title": "Cómo trabajo con mis clientes"
       },
       "seo": {
         "description": "Derecho corporativo, inversiones extranjeras, Paraguay Investor Pass, residencia por inversión, contratos, litigios e inmobiliario en Paraguay.",
