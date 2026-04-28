@@ -25,6 +25,11 @@
       "content": "home.features"
     },
     {
+      "id": "product-catalog",
+      "variant": "grid",
+      "content": "home.productCatalog"
+    },
+    {
       "id": "gallery",
       "variant": "grid",
       "content": "home.gallery",

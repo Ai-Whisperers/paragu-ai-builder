@@ -15,6 +15,18 @@
       "content": "contacto.info"
     },
     {
+      "id": "lead-form",
+      "variant": "standard",
+      "content": "contacto.form",
+      "title": "Envianos un Mensaje",
+      "subtitle": "Te respondemos a la brevedad"
+    },
+    {
+      "id": "google-maps",
+      "variant": "default",
+      "content": "contacto.info"
+    },
+    {
       "id": "faq",
       "variant": "accordion",
       "content": "faq",
