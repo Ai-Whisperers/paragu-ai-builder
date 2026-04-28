@@ -11,7 +11,7 @@ interface Props {
 }
 
 export function ProductPrice({ product, siteSlug, rates }: Props) {
-  const hasCompareAt = product.compareAtPriceCents && product.compareAtPriceCents > product.priceCents
+  const hasCompareAt = product.compareAtPriceCents != null && product.compareAtPriceCents > product.priceCents
 
   return (
     <div className="mt-auto pt-3">
@@ -21,7 +21,7 @@ export function ProductPrice({ product, siteSlug, rates }: Props) {
         ) : (
           <p className="text-lg font-bold text-[color:var(--text,#111)]">{formatCents(product.priceCents, product.currency)}</p>
         )}
-        {hasCompareAt ? (
+        {hasCompareAt && product.compareAtPriceCents != null ? (
           rates && product.currency === 'PYG' ? (
             <PriceDisplay className="text-xs text-[color:var(--text-muted,#9ca3af)] line-through" pygCents={product.compareAtPriceCents} rates={rates} />
           ) : (

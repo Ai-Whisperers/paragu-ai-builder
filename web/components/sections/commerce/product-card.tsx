@@ -24,7 +24,6 @@ export function ProductCard({
   unavailableText,
   detailHref,
 }: {
-  product?: ProductItem
   product: ProductItem
   showPrices: boolean
   whatsappPhone?: string
@@ -39,6 +38,7 @@ export function ProductCard({
    * is set (card stays non-clickable, only the WhatsApp CTA works). */
   detailHref?: string
 }) {
+  if (!product) return null
   const isAvailable = product.available !== false
 
   // Image + title are the natural click target for a PDP entry. Wrap each

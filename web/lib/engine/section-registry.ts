@@ -919,7 +919,7 @@ const SECTION_ALIASES: Record<string, string> = {
   deliveryZones: 'delivery-zones',
   shippingCalculator: 'shipping-calculator',
   rucInfo: 'ruc-timbrado-display',
-  businessHours: 'horarios-atencion',
+  // businessHours defined above at line 821
   whatsappOrder: 'whatsapp-order-form',
   appointments: 'appointment-list',
   invoices: 'invoice-display',

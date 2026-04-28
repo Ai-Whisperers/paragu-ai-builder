@@ -110,7 +110,7 @@ export function ProgramsComparisonSection({
             {title}
           </Heading>
           {subtitle && (
-            <p className="font-heading text-primary mx-auto mt-5 max-w-2xl text-lg sm:text-xl leading-relaxed" className='text-muted-foreground'>
+            <p className="font-heading text-primary mx-auto mt-5 max-w-2xl text-lg sm:text-xl leading-relaxed text-muted-foreground">
               {subtitle}
             </p>
           )}
@@ -172,14 +172,14 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
                 {tier.name}
               </Heading>
               {tier.description && (
-                <p className="font-heading text-primary text-sm sm:text-base leading-relaxed" className='text-muted-foreground'>{tier.description}</p>
+                <p className="font-heading text-primary text-sm sm:text-base leading-relaxed text-muted-foreground">{tier.description}</p>
               )}
               
               {tier.price && (
                 <div className="font-heading text-primary mt-5">
                   <p className="font-heading text-primary text-2xl sm:text-3xl sm:text-4xl font-extrabold tracking-tight">{tier.price}</p>
                   {tier.priceNote && (
-                    <p className="font-heading text-primary mt-1.5 text-sm sm:text-base" className='text-muted-foreground'>{tier.priceNote}</p>
+                    <p className="font-heading text-primary mt-1.5 text-sm sm:text-base text-muted-foreground">{tier.priceNote}</p>
                   )}
                 </div>
               )}
@@ -196,7 +196,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
                   </li>
                 ))}
                 {tier.excluded?.map((item, i) => (
-                  <li key={`exc-${i}`} className="font-heading text-primary flex gap-3 text-sm sm:text-base leading-relaxed opacity-50" className='text-muted-foreground'>
+                  <li key={`exc-${i}`} className="font-heading flex gap-3 text-sm sm:text-base leading-relaxed text-muted-foreground opacity-50">
                     <span className="font-heading text-primary flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-surface-light">
                       <Minus size={12} strokeWidth={3} className="font-heading text-primary text-muted-foreground" />
                     </span>
@@ -237,7 +237,7 @@ function MatrixTable({ tiers, rows, featureLabel }: { tiers: ProgramTier[]; rows
             <tr key={i} className={cn("transition-colors", i % 2 === 1 ? 'bg-surface-light/50' : '')}>
               <th className="font-heading text-primary p-4 sm:p-6 text-left font-medium">{row.feature}</th>
               {row.values.map((val, j) => (
-                <td key={j} className="font-heading text-primary p-4 sm:p-6" className='text-muted-foreground'>{renderValue(val)}</td>
+                <td key={j} className="font-heading p-4 sm:p-6 text-muted-foreground">{renderValue(val)}</td>
               ))}
             </tr>
           ))}
