@@ -783,6 +783,43 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     defaultVariant: 'cards',
     variants: ['cards', 'list'],
   },
+  // ── Band / Music sections ──────────────────────────────────────
+  'album-tracklist': {
+    id: 'album-tracklist',
+    defaultVariant: 'full',
+    variants: ['full', 'album-spotlight'],
+    requiredContentFields: ['tracks'],
+  },
+  'lyrics-display': {
+    id: 'lyrics-display',
+    defaultVariant: 'full-album',
+    variants: ['full-album'],
+    requiredContentFields: [],
+  },
+  'epk-credits': {
+    id: 'epk-credits',
+    defaultVariant: 'standard',
+    variants: ['standard', 'thank-you'],
+    requiredContentFields: ['items'],
+  },
+  'tech-rider': {
+    id: 'tech-rider',
+    defaultVariant: 'standard',
+    variants: ['standard'],
+    requiredContentFields: ['items'],
+  },
+  'streaming-links': {
+    id: 'streaming-links',
+    defaultVariant: 'single-row',
+    variants: ['single-row'],
+    requiredContentFields: ['platforms'],
+  },
+  guestbook: {
+    id: 'guestbook',
+    defaultVariant: 'wall',
+    variants: ['wall'],
+    requiredContentFields: [],
+  },
   // === Phase 11: Admin ===
   'analytics-dashboard': {
     id: 'analytics-dashboard',

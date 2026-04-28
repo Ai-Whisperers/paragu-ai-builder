@@ -374,6 +374,37 @@ export const SITES = {
     locales: ['es'],
     pages: ['home', 'contacto'],
   },
+
+  'preview-galilea-estetica': {
+    slug: 'preview-galilea-estetica',
+    vertical: 'beauty-personal-care',
+    country: 'Paraguay', domain: '', defaultLocale: 'es', locales: ['es'],
+    pages: ['home', 'servicios', 'contacto'],
+  },
+  'preview-studio22': {
+    slug: 'preview-studio22',
+    vertical: 'portfolio-professional',
+    country: 'Paraguay', domain: '', defaultLocale: 'es', locales: ['es'],
+    pages: ['home', 'servicios', 'contacto'],
+  },
+  'preview-hidrobaby': {
+    slug: 'preview-hidrobaby',
+    vertical: 'health-wellness',
+    country: 'Paraguay', domain: '', defaultLocale: 'es', locales: ['es'],
+    pages: ['home', 'servicios', 'contacto'],
+  },
+  'preview-guillen-barber': {
+    slug: 'preview-guillen-barber',
+    vertical: 'service-booking',
+    country: 'Paraguay', domain: '', defaultLocale: 'es', locales: ['es'],
+    pages: ['home', 'servicios', 'contacto'],
+  },
+  'preview-fullfitness': {
+    slug: 'preview-fullfitness',
+    vertical: 'sports-recreation',
+    country: 'Paraguay', domain: '', defaultLocale: 'es', locales: ['es'],
+    pages: ['home', 'planes', 'contacto'],
+  },
 } as const
 
 export type SiteSlug = keyof typeof SITES

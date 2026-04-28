@@ -1,8 +1,11 @@
 import type { ResolvedPage } from './site-types'
 import { logger } from '@/lib/logger'
-import { GENERATED_MAP } from './generated/renderer-map'
+import { GENERATED_MAP as _RAW_MAP } from './generated/renderer-map'
+
+const GENERATED_MAP = _RAW_MAP as Record<string, React.ComponentType<any>>
 import { SectionWrapper } from '@/components/ui/section-wrapper'
 import { WhatsAppFloat } from '@/components/sections/navigation/whatsapp-float'
+import { ProductCatalogSection } from '@/components/sections/commerce/product-catalog-section'
 import { SectionErrorBoundary } from '@/components/ui/section-error-boundary'
 
 // GENERATED_MAP is auto-generated but may miss some edge-case components
@@ -10,10 +13,15 @@ import { SectionErrorBoundary } from '@/components/ui/section-error-boundary'
 // These hardcoded overrides paper over gaps until the generator is fixed.
 const OVERRIDES: Record<string, React.ComponentType<any>> = {
   'whatsapp-float': WhatsAppFloat,
+  // Generated file maps product-catalog to buildWhatsAppUrl (a utility fn),
+  // not the actual React component. Override until generator is fixed.
+  'product-catalog': ProductCatalogSection,
 }
 
+const { 'product-catalog': _pc, ...CLEAN_MAP } = GENERATED_MAP as Record<string, React.ComponentType<any>>
+
 export const COMPONENTS: Record<string, React.ComponentType<any>> = {
-  ...GENERATED_MAP,
+  ...CLEAN_MAP,
   ...OVERRIDES,
 }
 

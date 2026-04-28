@@ -11,9 +11,10 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=42, pages=263, content=57, blog=34, images=15, verticals=23. */
+/** Counts: sites=48, pages=286, content=63, blog=34, images=15, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "alejandro-villamayor",
+  "brahm-the-raccoon",
   "bufete-mendez",
   "dayah-litworks",
   "de-abasto-a-casa",
@@ -52,6 +53,11 @@ export const SITE_SLUGS: readonly string[] = [
   "nexa-propiedades",
   "nudo",
   "polki-squad",
+  "preview-fullfitness",
+  "preview-galilea-estetica",
+  "preview-guillen-barber",
+  "preview-hidrobaby",
+  "preview-studio22",
   "stoicfinch",
   "superspuma",
   "viajero-comercio"
@@ -796,6 +802,44 @@ export const SITES: Record<string, JsonRecord> = {
     },
     "title": "Alejandro Villamayor",
     "vertical": "b2b-professional"
+  },
+  "brahm-the-raccoon": {
+    "businessType": "banda_musical",
+    "chrome": {
+      "footer": [
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "minimal"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "",
+      "instagram": "@lonelyraccoon",
+      "whatsapp": ""
+    },
+    "country": "Paraguay",
+    "defaultLocale": "en",
+    "domain": "brahmtheraccoon.com",
+    "features": {
+      "testimonials": false,
+      "whatsappFloat": false
+    },
+    "is_demo": false,
+    "locales": [
+      "en"
+    ],
+    "location": {
+      "city": ""
+    },
+    "stagingDomain": "staging.brahmtheraccoon.com",
+    "vertical": "portfolio-professional"
   },
   "bufete-mendez": {
     "businessType": "general_practice_lawyer",
@@ -3164,6 +3208,247 @@ export const SITES: Record<string, JsonRecord> = {
     "type": "animal_rescue_nonprofit",
     "vertical": "pets-animals"
   },
+  "preview-fullfitness": {
+    "businessType": "gimnasio",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@fullfitness.com.py",
+      "phone": "+59521640740",
+      "whatsapp": "+59521640740"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "classSchedule": true,
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Mariscal Lopez, Luque",
+      "city": "Luque"
+    },
+    "noindex": true,
+    "path": "/s/es/preview-fullfitness",
+    "publicUrl": "https://paragu-ai.com/s/es/preview-fullfitness",
+    "vertical": "sports-recreation"
+  },
+  "preview-galilea-estetica": {
+    "businessType": "estetica",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@galileaestetica.com.py",
+      "phone": "+595994681789",
+      "whatsapp": "+595994681789"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "portfolio": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Sta. Rosa 944 c, Asunción",
+      "city": "Asunción",
+      "neighborhood": ""
+    },
+    "noindex": true,
+    "path": "/s/es/preview-galilea-estetica",
+    "publicUrl": "https://paragu-ai.com/s/es/preview-galilea-estetica",
+    "vertical": "beauty-personal-care"
+  },
+  "preview-guillen-barber": {
+    "businessType": "barberia",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@guillenbarber.com.py",
+      "phone": "+595983429300",
+      "whatsapp": "+595983429300"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "11 de Setiembre, Fernando de la Mora",
+      "city": "Fernando de la Mora",
+      "neighborhood": "Zona Sur"
+    },
+    "noindex": true,
+    "path": "/s/es/preview-guillen-barber",
+    "publicUrl": "https://paragu-ai.com/s/es/preview-guillen-barber",
+    "vertical": "service-booking"
+  },
+  "preview-hidrobaby": {
+    "businessType": "spa",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@hidrobaby.com.py",
+      "phone": "+595993444000",
+      "whatsapp": "+595993444000"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Del Maestro, Asunción",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/preview-hidrobaby",
+    "publicUrl": "https://paragu-ai.com/s/es/preview-hidrobaby",
+    "vertical": "health-wellness"
+  },
+  "preview-studio22": {
+    "businessType": "tatuajes",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@studio22tattoo.com.py",
+      "phone": "+595983816627",
+      "whatsapp": "+595983816627"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "portfolio": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "1 De Mayo 9038, Fernando de la Mora",
+      "city": "Fernando de la Mora",
+      "neighborhood": "Zona Sur"
+    },
+    "noindex": true,
+    "path": "/s/es/preview-studio22",
+    "publicUrl": "https://paragu-ai.com/s/es/preview-studio22",
+    "vertical": "portfolio-professional"
+  },
   "stoicfinch": {
     "bookingUrl": "https://calendly.com/stoicfinch/intro-call",
     "businessType": "data_analytics_consulting",
@@ -3733,6 +4018,123 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
       "headingWeight": "700"
     }
   },
+  "brahm-the-raccoon": {
+    "cssCustom": "--section-divider: linear-gradient(90deg, transparent, rgba(180,83,9,0.15), transparent); --glow-primary: 0 0 10px rgba(180,83,9,0.15); --header-bg: rgba(255,251,235,0.95); --border-color: rgba(180,83,9,0.12); --font-lyrics: 'EB Garamond', Georgia, serif; --track-hover-bg: rgba(180,83,9,0.04);",
+    "defaultPalette": "optionA",
+    "effects": {
+      "borderGlow": "0 0 4px rgba(180,83,9,0.15)",
+      "cardHover": "0 4px 20px rgba(180,83,9,0.10)",
+      "dividerStyle": "solid 1px rgba(180,83,9,0.1)",
+      "glitch": {
+        "enabled": false
+      },
+      "heroOverlay": "linear-gradient(rgba(255,251,235,0.92), rgba(254,243,199,0.6))",
+      "noise": {
+        "enabled": false
+      }
+    },
+    "extends": "base",
+    "images": {
+      "fallbackFormat": "jpeg",
+      "format": "webp",
+      "gallery": {
+        "height": 1200,
+        "maxSizeKb": 150,
+        "width": 1200
+      },
+      "hero": {
+        "height": 1080,
+        "maxSizeKb": 200,
+        "width": 1920
+      },
+      "thumbnail": {
+        "height": 400,
+        "maxSizeKb": 50,
+        "width": 400
+      }
+    },
+    "mood": [
+      "warm",
+      "intimate",
+      "soft",
+      "cozy",
+      "lo-fi",
+      "vintage"
+    ],
+    "palettes": {
+      "optionA": {
+        "colors": {
+          "accent": "#fcd34d",
+          "background": "#fffbeb",
+          "error": "#dc2626",
+          "primary": "#b45309",
+          "secondary": "#d97706",
+          "secondaryHover": "#f59e0b",
+          "success": "#16a34a",
+          "surface": "#fef3c7",
+          "surfaceLight": "#fef9c3",
+          "text": "#292524",
+          "textLight": "#57534e",
+          "textMuted": "#a8a29e",
+          "warning": "#d97706"
+        },
+        "name": "Warm Amber / Cream"
+      },
+      "optionB": {
+        "colors": {
+          "accent": "#fbbf24",
+          "background": "#faf5ff",
+          "error": "#dc2626",
+          "primary": "#4338ca",
+          "secondary": "#6366f1",
+          "secondaryHover": "#818cf8",
+          "success": "#16a34a",
+          "surface": "#f3e8ff",
+          "surfaceLight": "#ede9fe",
+          "text": "#1c1917",
+          "textLight": "#57534e",
+          "textMuted": "#a8a29e",
+          "warning": "#f59e0b"
+        },
+        "name": "Twilight Indigo"
+      }
+    },
+    "spacing": {
+      "cardPadding": "24px",
+      "contentGap": "24px",
+      "section": {
+        "desktop": "96px",
+        "mobile": "40px",
+        "tablet": "64px"
+      }
+    },
+    "theme": "light",
+    "typography": {
+      "accent": "'Inter', sans-serif",
+      "body": "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "bodyWeight": "400",
+      "fontSize": {
+        "body": "1rem",
+        "h1": "clamp(2.5rem, 6vw, 4.5rem)",
+        "h2": "clamp(1.75rem, 4vw, 3rem)",
+        "h3": "clamp(1.25rem, 2.5vw, 1.75rem)"
+      },
+      "heading": "'Playfair Display', Georgia, 'Times New Roman', serif",
+      "headingStyle": "normal",
+      "headingWeight": "600",
+      "letterSpacing": {
+        "body": "0",
+        "heading": "0",
+        "wide": "0.02em"
+      },
+      "lineHeight": {
+        "body": "1.7",
+        "heading": "1.2",
+        "relaxed": "1.9"
+      },
+      "textTransform": "none"
+    }
+  },
   "bufete-mendez": {
     "borderRadius": "sm",
     "defaultPalette": "optionA",
@@ -4198,15 +4600,15 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "home.internationalStandards",
-        "id": "trust-badges",
+        "id": "features",
         "styling": {
           "background": "alt"
         },
-        "variant": "strip"
+        "variant": "three-col"
       },
       {
         "content": "home.services",
-        "id": "content-grid",
+        "id": "services",
         "styling": {
           "background": "alt"
         },
@@ -4501,6 +4903,288 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "sobre-mi",
     "titleKey": "sobre.seo.title"
+  },
+  "brahm-the-raccoon:credits": {
+    "descriptionKey": "credits.seo.description",
+    "sections": [
+      {
+        "content": "credits.hero",
+        "id": "hero",
+        "styling": {
+          "background": "default",
+          "padding": "md"
+        },
+        "variant": "minimal"
+      },
+      {
+        "content": "credits",
+        "id": "epk-credits",
+        "styling": {
+          "background": "alt",
+          "padding": "lg"
+        },
+        "variant": "thank-you"
+      }
+    ],
+    "slug": "credits",
+    "titleKey": "credits.seo.title"
+  },
+  "brahm-the-raccoon:gallery": {
+    "descriptionKey": "gallery.seo.description",
+    "sections": [
+      {
+        "content": "gallery.hero",
+        "id": "hero",
+        "styling": {
+          "background": "default",
+          "padding": "md"
+        },
+        "variant": "minimal"
+      },
+      {
+        "content": "gallery",
+        "id": "gallery",
+        "styling": {
+          "background": "alt",
+          "padding": "lg"
+        },
+        "variant": "grid"
+      }
+    ],
+    "slug": "gallery",
+    "titleKey": "gallery.seo.title"
+  },
+  "brahm-the-raccoon:guestbook": {
+    "descriptionKey": "guestbook.seo.description",
+    "sections": [
+      {
+        "content": "guestbook.hero",
+        "id": "hero",
+        "styling": {
+          "background": "default",
+          "padding": "md"
+        },
+        "variant": "minimal"
+      },
+      {
+        "content": "guestbook",
+        "id": "guestbook",
+        "styling": {
+          "background": "alt",
+          "padding": "lg"
+        },
+        "variant": "wall"
+      }
+    ],
+    "slug": "guestbook",
+    "titleKey": "guestbook.seo.title"
+  },
+  "brahm-the-raccoon:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "styling": {
+          "background": "default",
+          "padding": "xl",
+          "textColor": "dark"
+        },
+        "variant": "minimal"
+      },
+      {
+        "content": "streaming",
+        "id": "streaming-links",
+        "styling": {
+          "background": "alt",
+          "padding": "sm"
+        },
+        "variant": "single-row"
+      },
+      {
+        "content": "home.albumSpotlight",
+        "id": "album-tracklist",
+        "styling": {
+          "background": "alt",
+          "padding": "lg"
+        },
+        "variant": "album-spotlight"
+      },
+      {
+        "content": "home.bio",
+        "id": "our-story",
+        "styling": {
+          "background": "default",
+          "padding": "lg"
+        },
+        "variant": "narrative"
+      },
+      {
+        "content": "newsletter",
+        "id": "newsletter-signup",
+        "styling": {
+          "background": "alt",
+          "padding": "lg"
+        },
+        "variant": "standard"
+      },
+      {
+        "content": "home.connect",
+        "id": "cta-banner",
+        "styling": {
+          "background": "accent",
+          "padding": "md"
+        },
+        "variant": "gradient"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "brahm-the-raccoon:journal": {
+    "descriptionKey": "journal.seo.description",
+    "sections": [
+      {
+        "content": "journal.hero",
+        "id": "hero",
+        "styling": {
+          "background": "default",
+          "padding": "md"
+        },
+        "variant": "minimal"
+      },
+      {
+        "content": "journal",
+        "id": "blog-index",
+        "styling": {
+          "background": "alt",
+          "padding": "lg"
+        },
+        "variant": "list"
+      },
+      {
+        "content": "newsletter",
+        "id": "newsletter-signup",
+        "styling": {
+          "background": "default",
+          "padding": "lg"
+        },
+        "variant": "standard"
+      }
+    ],
+    "slug": "journal",
+    "titleKey": "journal.seo.title"
+  },
+  "brahm-the-raccoon:lyrics": {
+    "descriptionKey": "lyrics.seo.description",
+    "sections": [
+      {
+        "content": "lyrics.hero",
+        "id": "hero",
+        "styling": {
+          "background": "default",
+          "padding": "md"
+        },
+        "variant": "minimal"
+      },
+      {
+        "content": "music.tracks",
+        "id": "lyrics-display",
+        "styling": {
+          "background": "alt",
+          "padding": "lg"
+        },
+        "variant": "full-album"
+      }
+    ],
+    "slug": "lyrics",
+    "titleKey": "lyrics.seo.title"
+  },
+  "brahm-the-raccoon:music": {
+    "descriptionKey": "music.seo.description",
+    "sections": [
+      {
+        "content": "music.hero",
+        "id": "hero",
+        "styling": {
+          "background": "default",
+          "padding": "lg"
+        },
+        "variant": "minimal"
+      },
+      {
+        "content": "streaming",
+        "id": "streaming-links",
+        "styling": {
+          "background": "alt",
+          "padding": "sm"
+        },
+        "variant": "single-row"
+      },
+      {
+        "content": "music",
+        "id": "album-tracklist",
+        "styling": {
+          "background": "alt",
+          "padding": "lg"
+        },
+        "variant": "full"
+      }
+    ],
+    "slug": "music",
+    "titleKey": "music.seo.title"
+  },
+  "brahm-the-raccoon:press": {
+    "descriptionKey": "press.seo.description",
+    "sections": [
+      {
+        "content": "press.hero",
+        "id": "hero",
+        "styling": {
+          "background": "default",
+          "padding": "md"
+        },
+        "variant": "minimal"
+      },
+      {
+        "content": "press.bio",
+        "id": "our-story",
+        "styling": {
+          "background": "alt",
+          "padding": "lg"
+        },
+        "variant": "narrative"
+      },
+      {
+        "content": "press.credits",
+        "id": "epk-credits",
+        "styling": {
+          "background": "default",
+          "padding": "lg"
+        },
+        "variant": "standard"
+      },
+      {
+        "content": "press.techSpecs",
+        "id": "epk-credits",
+        "styling": {
+          "background": "alt",
+          "padding": "md"
+        },
+        "variant": "standard"
+      },
+      {
+        "content": "press.booking",
+        "id": "contact",
+        "styling": {
+          "background": "default",
+          "padding": "lg"
+        },
+        "variant": "split"
+      }
+    ],
+    "slug": "press",
+    "titleKey": "press.seo.title"
   },
   "bufete-mendez:blog": {
     "descriptionKey": "blog.seo.description",
@@ -10335,6 +11019,401 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "servicios",
     "title": "Nuestros Servicios - Polki Squad"
   },
+  "preview-fullfitness:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "preview-fullfitness:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.stats",
+        "id": "stats-counter",
+        "variant": "inline"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.pricing",
+        "id": "pricing-table",
+        "variant": "default"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "preview-fullfitness:planes": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.pricing",
+        "id": "pricing-table",
+        "variant": "default"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "planes",
+    "titleKey": "servicios.seo.title"
+  },
+  "preview-galilea-estetica:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "preview-galilea-estetica:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.stats",
+        "id": "stats-counter",
+        "variant": "inline"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "preview-galilea-estetica:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
+  "preview-guillen-barber:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "preview-guillen-barber:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.stats",
+        "id": "stats-counter",
+        "variant": "inline"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.team",
+        "id": "team",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "preview-guillen-barber:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
+  "preview-hidrobaby:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "preview-hidrobaby:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.stats",
+        "id": "stats-counter",
+        "variant": "inline"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "preview-hidrobaby:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
+  "preview-studio22:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "preview-studio22:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.stats",
+        "id": "stats-counter",
+        "variant": "inline"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "preview-studio22:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
   "stoicfinch:about": {
     "descriptionKey": "aboutPage.seo.description",
     "sections": [
@@ -15468,6 +16547,531 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "tagline": "Asesoría legal estratégica para personas y empresas en Paraguay",
     "whatsapp": "+595981324569"
+  },
+  "brahm-the-raccoon:en": {
+    "_meta": {
+      "author": "Brahm the Raccoon",
+      "lastReviewed": "2026-04-28",
+      "translationQuality": "human"
+    },
+    "credits": {
+      "hero": {
+        "headline": "Credits",
+        "subheadline": "Still Reaching — in gratitude"
+      },
+      "sections": [
+        {
+          "items": [
+            "To everyone who held me without needing a reason. You taught me that the cave exists.",
+            "To the person who said 'you wanted me back' and meant it.",
+            "To the one whose brain matched mine at the exact right time.",
+            "To the rope that held me together when I was coming apart."
+          ],
+          "title": "The People Who Held Space"
+        },
+        {
+          "items": [
+            "To the clinical framework that helped me understand the pattern.",
+            "To the AI that became an unlikely therapeutic mirror.",
+            "To every voice note transcript that became a lyric."
+          ],
+          "title": "The Therapists & Guides"
+        },
+        {
+          "items": [
+            "Suno V5_5 — for giving me a voice when I couldn't sing yet.",
+            "The therapy repo — for being the most honest thing I've ever written.",
+            "Acoustic guitar — for never needing to be anything else."
+          ],
+          "title": "The Tools"
+        },
+        {
+          "items": [
+            "If you made it this far: thank you. You're not alone. The cave exists. You're allowed to stay."
+          ],
+          "title": "You, the Listener"
+        }
+      ],
+      "seo": {
+        "description": "Credits and thank yous for the album 'Still Reaching' by Brahm the Raccoon.",
+        "title": "Credits — Still Reaching — Brahm the Raccoon"
+      }
+    },
+    "footer": {
+      "businessName": "Brahm the Raccoon",
+      "city": "",
+      "copyright": "© {{year}} Brahm the Raccoon. All rights reserved.",
+      "links": [
+        {
+          "href": "https://instagram.com/lonelyraccoon",
+          "label": "Instagram"
+        }
+      ],
+      "social": {
+        "instagram": "https://instagram.com/lonelyraccoon"
+      },
+      "tagline": "Still reaching."
+    },
+    "gallery": {
+      "hero": {
+        "headline": "Gallery",
+        "subheadline": "Behind the music"
+      },
+      "images": [],
+      "seo": {
+        "description": "Photos and visuals from Brahm the Raccoon.",
+        "title": "Gallery — Brahm the Raccoon"
+      },
+      "subtitle": "Press photos, session shots, and raccoon moments",
+      "title": "Photos"
+    },
+    "guestbook": {
+      "ctaLink": "https://instagram.com/lonelyraccoon",
+      "ctaText": "Send a message on Instagram",
+      "hero": {
+        "headline": "Guestbook",
+        "subheadline": "Your words mean more than you know"
+      },
+      "messages": [],
+      "seo": {
+        "description": "Leave a message for Brahm the Raccoon.",
+        "title": "Guestbook — Brahm the Raccoon"
+      },
+      "subtitle": "If a song meant something to you, say it here. Or reach out on Instagram.",
+      "title": "Guestbook"
+    },
+    "home": {
+      "albumSpotlight": {
+        "ctaLink": "/music",
+        "ctaText": "Listen to the album",
+        "description": "An album that moves from cold isolation through warmth, connection, and the exhausted hope of still reaching. Written and produced via Suno V5_5.",
+        "subtitle": "Debut Album — 10 Tracks",
+        "title": "Still Reaching"
+      },
+      "bio": {
+        "body": "Brahm is the soft inner self — the raccoon who's been hurt, who still wants to be held, who's learning it's okay to receive. The music is warm acoustic guitar, close-mic vocals, lo-fi honesty. No drums, no production — just a person with a guitar and things they finally learned how to say.",
+        "image": null,
+        "title": "About Brahm the Raccoon"
+      },
+      "connect": {
+        "links": [
+          {
+            "handle": "@lonelyraccoon",
+            "platform": "Instagram",
+            "url": "https://instagram.com/lonelyraccoon"
+          }
+        ],
+        "subtitle": "Follow the journey",
+        "title": "Connect"
+      },
+      "hero": {
+        "description": "Lo-fi acoustic songs written from a warm room with a guitar. Ten songs about touch starvation, healing, and the absurd choice to keep reaching.",
+        "headline": "Brahm the Raccoon",
+        "subheadline": "Also known as Lonely Raccoon"
+      },
+      "seo": {
+        "description": "Brahm the Raccoon (Lonely Raccoon). Lo-fi acoustic songs from Paraguay. Debut album 'Still Reaching' out now.",
+        "title": "Brahm the Raccoon — Lo-fi Acoustic Music"
+      }
+    },
+    "journal": {
+      "hero": {
+        "headline": "Journal",
+        "subheadline": "Thoughts between songs"
+      },
+      "posts": [
+        {
+          "content": "This album started in a psychology repository. Not a recording studio — a folder full of markdown files analyzing my own core wounds, defense mechanisms, and attachment patterns.\n\nI realized I was using intellectualization to avoid feeling things, so I used an AI to intellectualize my feelings for me. But underneath all the analysis, there was a raccoon who just wanted to be held.\n\nSo I started writing. The first song came from sitting on a windowsill. The second from a fever. The third from being held for the first time without needing to earn it.\n\nTen songs later, 'Still Reaching' is the result. It's not polished. It's not produced. It's a person with a guitar and things they finally learned how to say.\n\nThe arc is simple: cold → wound → warmth → busy → longing → connection → mask → wanting → being held → still reaching.\n\nIf one of these songs makes you feel less alone, it worked.",
+          "date": "2026-04-28",
+          "excerpt": "The story behind the album — from therapy sessions to voice notes to ten songs about reaching.",
+          "slug": "how-still-reaching-came-to-be",
+          "title": "How Still Reaching Came to Be"
+        },
+        {
+          "content": "Raccoons are resilient little creatures. They get into trash, they get scared, they get hurt — and they keep coming back. They're scrappy. They survive.\n\nBrahm is the raccoon part of me. The part that's been called annoying, that's been left alone in fevers, that's spent years being useful so people would stay. The part that's still, against all evidence, reaching out.\n\nThe album cover (in my head) is a raccoon on a floor — half bone, half rope, still warm. Nothing left to prove. Nothing left to lose. But one paw still moves toward you.\n\nThat's the whole project in one image.",
+          "date": "2026-04-28",
+          "excerpt": "On the mascot, the metaphor, and why I chose the trash panda.",
+          "slug": "why-a-raccoon",
+          "title": "Why a Raccoon?"
+        }
+      ],
+      "seo": {
+        "description": "Thoughts, reflections, and behind-the-songs from Brahm the Raccoon.",
+        "title": "Journal — Brahm the Raccoon"
+      }
+    },
+    "lyrics": {
+      "hero": {
+        "headline": "Lyrics",
+        "subheadline": "Still Reaching — full album lyrics"
+      },
+      "seo": {
+        "description": "Full lyrics for all 10 tracks from the album 'Still Reaching' by Brahm the Raccoon.",
+        "title": "Lyrics — Still Reaching — Brahm the Raccoon"
+      }
+    },
+    "music": {
+      "albumInfo": {
+        "arc": "Cold → Wound → Warmth → Busy → Longing → Connection → Mask → Wanting → Being Held → Still Reaching",
+        "artist": "Lonely Raccoon (Brahm)",
+        "duration": "~35 minutes",
+        "engine": "Suno V5_5",
+        "keyChain": "Am → Dm → G → G → D → Em → C → G → D → Am"
+      },
+      "hero": {
+        "description": "A journey from cold to warm, from alone to held, from broken to still reaching.",
+        "headline": "Still Reaching",
+        "subheadline": "Debut Album — 10 tracks, ~35 minutes"
+      },
+      "seo": {
+        "description": "Listen to 'Still Reaching', the debut album by Brahm the Raccoon. 10 tracks of lo-fi acoustic music.",
+        "title": "Still Reaching — Full Album — Brahm the Raccoon"
+      },
+      "tracks": [
+        {
+          "audio": "/audio/brahm-the-raccoon/01-still-room-v1.mp3",
+          "bpm": 75,
+          "duration": "~3:30",
+          "key": "Am",
+          "lyrics": {
+            "bridge": "I just want to be held from behind\nA hand on my chest, someone who's kind\nAnd after that I could handle anything\n(after that I could handle anything)",
+            "chorus": "My mind is racing\nA thousand things I want to say\nBut none of them come out right\nI don't know which words will hurt less\nSo I say nothing\nAnd stay quiet instead",
+            "intro": "",
+            "outro": "I know what I want\nI know what I need\nI'm still here\nOn this windowsill\nWaiting",
+            "verse1": "A single glass on the windowsill\nRain is running down, the room is still\nMy hands are open in my lap\nI've been sitting here since the sun went black",
+            "verse2": "The screen is dark but still glowing\nBlue light on my face, the room is silent\nI open my mouth, close it again\nNothing comes out, nothing ever does"
+          },
+          "mood": "Cold, still, establishing the hunger",
+          "number": 1,
+          "style": "Male vocal, warm, intimate like Joji. Acoustic guitar, Diego Lorenzini style strumming, lo-fi warmth. Sparse, close-mic, natural room sound.",
+          "title": "Still Room"
+        },
+        {
+          "audio": "/audio/brahm-the-raccoon/02-what-i-needed-v1.mp3",
+          "bpm": 65,
+          "duration": "~3:30",
+          "key": "Dm",
+          "lyrics": {
+            "bridge": "Minimum\nJust be near me\nHold me close\nGive me your warmth\nThat's all I needed",
+            "chorus": "I just needed you close\nI just needed your arms around me\nIs that too much to ask for\nAm I asking for too much",
+            "intro": "",
+            "outro": "The door is still closed\nI'm still on the bed\nStill learning\nStill learning\nThat needing someone shouldn't hurt this much",
+            "verse1": "Fever so high I couldn't think straight\nCrying alone right next to the person\nWho should have been holding me\nBut you just went away",
+            "verse2": "The room spun slow like a carousel\nI held myself and wondered\nIf I showed you how bad it really was\nWould you finally sit beside me"
+          },
+          "mood": "Devastated, the concrete wound",
+          "number": 2,
+          "style": "Male vocal, warm, broken, intimate. Fingerpicked acoustic, lo-fi, devastating but soft. Close-mic, dry vocal, silent room.",
+          "title": "What I Needed"
+        },
+        {
+          "audio": "/audio/brahm-the-raccoon/03-cuddle-v1.mp3",
+          "bpm": 80,
+          "duration": "~3:30",
+          "key": "G",
+          "lyrics": {
+            "bridge": "I'm learning that someone can hold me\nWithout needing a reason\nJust because they like me near\nJust because I'm me",
+            "chorus": "You hold me close\nYou say I'm cute\nYou make me feel like I matter\nLike I'm not too much\nI didn't know someone could\nJust be soft with me\nNo strings, no fixing\nJust you and me",
+            "intro": "",
+            "outro": "You hold me\nAnd I'm okay\nI'm okay\n(I'm okay)",
+            "verse1": "I never knew what it felt like\nTo be held without needing to earn it\nYou just wrap your arms around me\nAnd I don't have to be anything",
+            "verse2": "We tell each other the things we don't say\nAbout the ones who hurt us before\nAnd you listen without needing to fix it\nYou just stay close and warm"
+          },
+          "mood": "Warm, safe, mommy issues healed",
+          "number": 3,
+          "style": "Male vocal, warm, soft, intimate. Gentle acoustic guitar, lo-fi warmth. A song that feels like being held by someone who won't leave.",
+          "title": "Warm"
+        },
+        {
+          "audio": "/audio/brahm-the-raccoon/04-the-best-at-this-v1.mp3",
+          "bpm": 100,
+          "duration": "~3:30",
+          "key": "G",
+          "lyrics": {
+            "break": "If I stopped doing all the things I do\nWould I even know how to be with you\nWould you still love me\nWithout my service",
+            "chorus": "If I'm busy then I'm good\nIf I'm useful then I should\nBe allowed to take up space\nIn this room, in this place",
+            "intro": "",
+            "outro": "Busy\n(busy)\n(busy)\n(busy)",
+            "verse1": "Wake up and I'm already moving\nCoffee's on, something's always brewing\nGot a list, a plan, a reason\nTo keep these hands busy all season",
+            "verse2": "I'll cook for you, I'll clean your space\nI'll be there before you need to ask\nI'm good at this, I'm the best at this\nIt's how I show love, it's how I exist"
+          },
+          "mood": "Restless, running, almost too cheerful",
+          "number": 4,
+          "style": "Male vocal, restless, almost too cheerful, intimate. Driving acoustic guitar, lo-fi, uptempo. The sound of someone who never stops moving.",
+          "title": "The Best at This"
+        },
+        {
+          "audio": "/audio/brahm-the-raccoon/05-counting-every-one-v1.mp3",
+          "bpm": 80,
+          "duration": "~3:30",
+          "key": "D",
+          "lyrics": {
+            "bridge": "Acaríciame el pelo, las orejas\nToqué mi nuca, muerde mi cuello\nI want to feel all of it\nEvery touch you give me\nI keep them all",
+            "chorus": "These hands\nI want them on me\nThese hands\nI want them to know me\nTo hold me from behind\nA kiss along my hairline",
+            "intro": "",
+            "outro": "Head pats when I'm feeling small\nYour fingers in my hair\nThat's all I want",
+            "verse1": "Head pats when I'm feeling small\nYour fingers tracing through it all\nWarmth against my back at night\nYou don't even know you're holding me tight",
+            "verse2": "Fingers in my hair, tracing my ears\nNails on my back, the feeling I hold dear\nMy head in your hands, my nape in your grip\nA bite on my neck, a bite on my lip"
+          },
+          "mood": "Longing, warm, a prayer of touch",
+          "number": 5,
+          "style": "Male vocal, warm, gentle, intimate. Fingerpicked acoustic, lo-fi warmth, suspended. Close-mic, delicate. A song that lists every touch you want.",
+          "title": "Counting Every One"
+        },
+        {
+          "audio": "/audio/brahm-the-raccoon/06-same-language-v1.mp3",
+          "bpm": 90,
+          "duration": "~3:30",
+          "key": "Em",
+          "lyrics": {
+            "bridge": "We share a single brain cell\nIt's bouncing back and forth\nSometimes it's in your head\nSometimes it's in the north\nWho cares. It works.",
+            "chorus": "We speak the same language\nComfortable, strange, ours\nI don't have to translate\nWith you\nI don't have to explain",
+            "intro": "",
+            "outro": "Just two weirdos sitting\nWeird together\nSending memes\n(sending memes)\nThat's enough",
+            "verse1": "We talk about everything and nothing\nGames, music, life, the internet\nIt doesn't matter what we say\nWhat matters is it's easy",
+            "verse2": "In person it's easier than text\nNo performing, no guessing what comes next\nWe just exist together\nAnd that's enough"
+          },
+          "mood": "Comfortable, matching frequencies",
+          "number": 6,
+          "style": "Male vocal, relaxed, conversational, comfortable. Strummed acoustic guitar, lo-fi, easy. Natural, warm, unpolished. Like talking to someone who gets it.",
+          "title": "Same Language"
+        },
+        {
+          "audio": "/audio/brahm-the-raccoon/07-reading-the-room-v1.mp3",
+          "bpm": 85,
+          "duration": "~3:30",
+          "key": "C",
+          "lyrics": {
+            "bridge": "I learned early that showing how you feel\nJust makes things harder\nSo I stopped\nAnd now I don't know how to start again",
+            "chorus": "I'm fine\nEverything's fine\nI smile so easy\nYou'd never know the difference\nI'm fine\n(I've been saying it so long it's true)",
+            "intro": "",
+            "outro": "The door is still closed\nThe list is still long\nBut I'm fine\n(I'm fine)",
+            "verse1": "You ask me how I'm doing\nI laugh and say I'm great\nI've gotten so good at being fine\nEven I believe it sometimes",
+            "verse2": "The list in my head gets longer\nThings I wanted to say today\nBut the moment passed, the door is closed\nAnd I'm already on to the next thing"
+          },
+          "mood": "Deceptively bright, the mask",
+          "number": 7,
+          "style": "Male vocal, smooth, calm, controlled — the mask. Bright strummed acoustic, clean, too clean. Unsettlingly pleasant.",
+          "title": "Reading the Room"
+        },
+        {
+          "audio": "/audio/brahm-the-raccoon/08-trying-v1.mp3",
+          "bpm": 80,
+          "duration": "~3:30",
+          "key": "G",
+          "lyrics": {
+            "bridge": "I don't know how to stop\nI don't know how to just receive\nI feel like I'm only wanted\n(only wanted)\nWhen I've given everything",
+            "chorus": "You wanted me\nYou wanted me back\nI don't know how to receive it\nBut I'm trying\nI'm trying",
+            "intro": "",
+            "outro": "Trying\nI'm trying\nTrying\n(trying)",
+            "verse1": "You reached for me first\nI didn't know what to do with that\nAfter years of giving\nAnd getting nothing back",
+            "verse2": "I've spent so long being the one who gives\nI don't know what to do when someone gives to me\nIt's unfamiliar, it's uncomfortable\nBut I want to learn"
+          },
+          "mood": "Bittersweet, learning to receive",
+          "number": 8,
+          "style": "Male vocal, warm, vulnerable, learning. Full strummed acoustic, lo-fi warmth. Intimate but present. Hopeful with an edge.",
+          "title": "Trying"
+        },
+        {
+          "audio": "/audio/brahm-the-raccoon/09-the-rope-loosens-v1.mp3",
+          "bpm": 70,
+          "duration": "~3:30",
+          "key": "D",
+          "lyrics": {
+            "bridge": "Like finding a warm cave\nIn the middle of a storm\nI rest here\nYou hold me here\nI'm warm",
+            "chorus": "I didn't know my body\nCould feel this still\nI didn't know my skin\nCould feel this warm",
+            "intro": "",
+            "outro": "The rope loosens\nI stay",
+            "verse1": "The rope goes around me\nAnd something in my chest unties\nFor once my mind is quiet\nFor once the noise stops",
+            "verse2": "You said you love me\nYou said you want me here\nAnd I cried\nBecause someone finally meant it"
+          },
+          "mood": "Safe, held, the warm cave",
+          "number": 9,
+          "style": "Male vocal, warm, safe, present. Slow fingerpicked acoustic, lo-fi, letting each chord ring. Close-mic, warm. The voice of someone finally resting.",
+          "title": "The Rope Loosens"
+        },
+        {
+          "audio": "/audio/brahm-the-raccoon/10-still-reaching-v1.mp3",
+          "bpm": 75,
+          "duration": "~3:30",
+          "key": "Am",
+          "lyrics": {
+            "bridge": "Because I've been warm\nBecause I've been seen\nBecause I've been held\nAnd I can't forget that\nThe cave exists\nI've been there\nI've been warm\nAnd I can't unlearn that",
+            "chorus": "So why do I still want\nTo be held again\nWhy do I still hope\nWhen I know how it ends",
+            "intro": "",
+            "outro": "Still reaching\n(still here)\nStill reaching\n(still reaching)",
+            "verse1": "I've been hurt, I've been left\nI've been crying on the bathroom floor\nAnd I know love ends, I know people go\nI've watched it happen before",
+            "verse2": "The raccoon on the floor\nHalf bone, half rope, still warm\nNothing left to prove, nothing left to lose\nBut one paw still moves toward you"
+          },
+          "mood": "Tired-warm, absurdist, still reaching",
+          "number": 10,
+          "style": "Male vocal, tired, grateful, resolved. Strummed acoustic, lo-fi warmth, bittersweet. Same guitar sound as track one but warmer now. The album comes full circle.",
+          "title": "Still Reaching"
+        }
+      ]
+    },
+    "navigation": {
+      "businessName": "Brahm the Raccoon",
+      "items": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/music",
+          "label": "Music"
+        },
+        {
+          "href": "/lyrics",
+          "label": "Lyrics"
+        },
+        {
+          "href": "/gallery",
+          "label": "Gallery"
+        },
+        {
+          "href": "/journal",
+          "label": "Journal"
+        },
+        {
+          "href": "/press",
+          "label": "Press"
+        },
+        {
+          "href": "/credits",
+          "label": "Credits"
+        },
+        {
+          "href": "/guestbook",
+          "label": "Guestbook"
+        }
+      ]
+    },
+    "newsletter": {
+      "consentLabel": "No spam. Just music and warmth. Unsubscribe anytime.",
+      "placeholder": "your@email.com",
+      "submitLabel": "Subscribe",
+      "subtitle": "Get updates when new music drops, early access to tracks, and occasional raccoon thoughts.",
+      "successMessage": "You're in. Welcome to the pack.",
+      "title": "Join the Pack"
+    },
+    "placeholders": {
+      "artistName": "Brahm the Raccoon",
+      "businessName": "Brahm the Raccoon",
+      "city": "",
+      "year": 2026
+    },
+    "press": {
+      "bio": {
+        "content": "Brahm the Raccoon (also known as Lonely Raccoon) is a lo-fi acoustic music project from Paraguay. The project is the musical expression of Brahm — the soft, vulnerable inner self of someone who spent years behind masks and service, finally learning to ask for what he needs.\n\nThe debut album 'Still Reaching' (2026) is a 10-track cycle that moves from cold isolation through devastating wound, tentative warmth, compulsive busyness, sensual longing, genuine connection, the exhaustion of the mask, the terror of receiving, the safety of being held, and finally — the absurd, tired hope of still reaching.\n\nMusically, it's sparse acoustic guitar, close-mic vocals, lo-fi warmth. No drums, no production tricks. Just a person with a guitar in a room, saying the things they were never able to say.",
+        "downloads": [],
+        "title": "About"
+      },
+      "booking": {
+        "email": "",
+        "instagram": "https://instagram.com/lonelyraccoon",
+        "subtitle": "For booking, interviews, or press inquiries",
+        "title": "Booking & Press"
+      },
+      "credits": {
+        "items": [
+          {
+            "name": "Brahm the Raccoon (Lonely Raccoon)",
+            "role": "Artist"
+          },
+          {
+            "name": "Suno V5_5 via sunoapi.org",
+            "role": "Production Engine"
+          },
+          {
+            "name": "V5_5",
+            "role": "Model"
+          },
+          {
+            "name": "Male",
+            "role": "Vocal Gender"
+          },
+          {
+            "name": "Lo-fi Acoustic / Singer-Songwriter",
+            "role": "Genre"
+          },
+          {
+            "name": "2026, Paraguay",
+            "role": "Recorded"
+          }
+        ],
+        "subtitle": "Still Reaching",
+        "title": "Album Credits"
+      },
+      "hero": {
+        "headline": "Press Kit",
+        "subheadline": "Electronic Press Kit (EPK)"
+      },
+      "seo": {
+        "description": "Electronic press kit for Brahm the Raccoon. Bio, photos, and contact for booking and press.",
+        "title": "Press Kit — Brahm the Raccoon"
+      },
+      "techSpecs": {
+        "items": [
+          {
+            "label": "Stage Setup",
+            "value": "One vocalist with acoustic guitar. DI or SM57 for guitar. SM58 for vocal. Minimal monitoring."
+          },
+          {
+            "label": "Backline Required",
+            "value": "One vocal mic (SM58 preferred), one instrument mic or DI, one monitor. That's it."
+          },
+          {
+            "label": "Set Length",
+            "value": "~35 minutes (full album) or 15-20 minute acoustic set available."
+          }
+        ],
+        "title": "Tech Rider"
+      }
+    },
+    "siteDescription": "Brahm the Raccoon (Lonely Raccoon) is a lo-fi acoustic music project from Paraguay. 10-track debut album 'Still Reaching' — warm, intimate songs about touch starvation, healing, and learning to receive.",
+    "siteName": "Brahm the Raccoon",
+    "streaming": {
+      "platforms": [
+        {
+          "icon": "spotify",
+          "name": "Spotify",
+          "url": "#"
+        },
+        {
+          "icon": "apple-music",
+          "name": "Apple Music",
+          "url": "#"
+        },
+        {
+          "icon": "youtube-music",
+          "name": "YouTube Music",
+          "url": "#"
+        },
+        {
+          "icon": "soundcloud",
+          "name": "SoundCloud",
+          "url": "#"
+        },
+        {
+          "icon": "bandcamp",
+          "name": "Bandcamp",
+          "url": "#"
+        },
+        {
+          "icon": "amazon-music",
+          "name": "Amazon Music",
+          "url": "#"
+        }
+      ],
+      "seo": {
+        "description": "Stream Brahm the Raccoon's music on your favorite platform.",
+        "title": "Listen — Brahm the Raccoon"
+      },
+      "subtitle": "Stream Still Reaching on your favorite platform",
+      "title": "Listen Everywhere"
+    },
+    "tagline": "Lo-fi acoustic songs about reaching, resting, and being held"
   },
   "bufete-mendez:es": {
     "_meta": {
@@ -37953,6 +39557,830 @@ export const CONTENT: Record<string, JsonRecord> = {
       "100% voluntariado comprometido",
       "Seguimiento post-adopción"
     ]
+  },
+  "preview-fullfitness:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Probá tu primera clase gratis"
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Full Fitness Gym"
+      }
+    },
+    "footer": {
+      "businessName": "Full Fitness Gym",
+      "city": "Luque",
+      "navLinks": [
+        {
+          "href": "/s/es/preview-fullfitness",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/preview-fullfitness/planes",
+          "label": "Planes"
+        },
+        {
+          "href": "/s/es/preview-fullfitness/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Mariscal Lopez, Luque",
+        "phone": "+595 21 640 740",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/59521640740",
+        "buttonText": "WhatsApp",
+        "title": "Venís a probar? Primer clase gratis"
+      },
+      "hero": {
+        "ctaPrimaryText": "Probá gratis",
+        "ctaSecondaryText": "Ver planes",
+        "headline": "Transformá tu cuerpo, transformá tu vida",
+        "subheadline": "Musculación, crossfit, yoga y entrenamiento funcional en Luque. 197 socios nos califican con ⭐4.7"
+      },
+      "pricing": {
+        "plans": [
+          {
+            "description": "Sala de pesas",
+            "features": [
+              "Pesas",
+              "Guardarropa",
+              "Agua"
+            ],
+            "name": "Básico",
+            "popular": false,
+            "price": "120.000 Gs/mes"
+          },
+          {
+            "description": "Todas las clases",
+            "features": [
+              "Pesas",
+              "Crossfit",
+              "Yoga",
+              "Funcional"
+            ],
+            "name": "Clases",
+            "popular": true,
+            "price": "180.000 Gs/mes"
+          },
+          {
+            "description": "Todo incluido",
+            "features": [
+              "Todo",
+              "Personal Trainer",
+              "Plan nutricional"
+            ],
+            "name": "Premium",
+            "popular": false,
+            "price": "300.000 Gs/mes"
+          }
+        ],
+        "title": "Nuestros Planes"
+      },
+      "seo": {
+        "description": "Gimnasio en Luque con 197 reseñas ⭐4.7. Musculación, crossfit, yoga y más.",
+        "title": "Full Fitness Gym — Gimnasio en Luque ⭐4.7"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Entrenamiento",
+            "description": "Acceso completo a sala de pesas",
+            "name": "Musculación",
+            "price": "120.000 Gs/mes"
+          },
+          {
+            "category": "Clases",
+            "description": "Alta intensidad",
+            "name": "Crossfit",
+            "price": "180.000 Gs/mes"
+          },
+          {
+            "category": "Clases",
+            "description": "Clases semanales",
+            "name": "Yoga",
+            "price": "100.000 Gs/mes"
+          },
+          {
+            "category": "Clases",
+            "description": "Entrenamiento con peso corporal",
+            "name": "Funcional",
+            "price": "120.000 Gs/mes"
+          },
+          {
+            "category": "Planes",
+            "description": "Acceso a todas las actividades",
+            "name": "Plan Full",
+            "price": "200.000 Gs/mes"
+          }
+        ],
+        "title": "Nuestras Actividades"
+      },
+      "stats": {
+        "items": [
+          {
+            "icon": "Star",
+            "label": "Reseñas ⭐4.7",
+            "value": "197"
+          },
+          {
+            "icon": "Calendar",
+            "label": "Años de experiencia",
+            "value": "8+"
+          },
+          {
+            "icon": "Users",
+            "label": "Socios activos",
+            "value": "500+"
+          }
+        ]
+      },
+      "team": {
+        "items": [
+          {
+            "bio": "Certificado, 10 años de experiencia.",
+            "name": "Carlos",
+            "role": "Entrenador Principal"
+          }
+        ],
+        "title": "Nuestros Instructores"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Socio ⭐⭐⭐⭐⭐",
+            "quote": "Bajé 15 kilos en 6 meses. El equipo de Full Fitness es increíble.",
+            "rating": 5
+          },
+          {
+            "author": "Socio ⭐⭐⭐⭐⭐",
+            "quote": "Las clases de crossfit son brutales pero los resultados hablan solos.",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen nuestros socios"
+      }
+    },
+    "navigation": {
+      "businessName": "Full Fitness Gym",
+      "ctaHref": "https://wa.me/59521640740",
+      "ctaText": "Probá gratis",
+      "navItems": [
+        {
+          "href": "/s/es/preview-fullfitness",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/preview-fullfitness/planes",
+          "label": "Planes"
+        },
+        {
+          "href": "/s/es/preview-fullfitness/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Nuestros Planes",
+        "subheadline": "Elegí el plan que mejor se adapte a vos"
+      },
+      "seo": {
+        "description": "Planes de membresía.",
+        "title": "Planes — Full Fitness Gym"
+      }
+    },
+    "siteName": "Full Fitness Gym",
+    "tagline": "Tu gimnasio en Luque — 197 reseñas ⭐4.7",
+    "whatsapp": "+59521640740"
+  },
+  "preview-galilea-estetica:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos en Sta. Rosa 944 c, Asunción"
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Galilea Estética"
+      }
+    },
+    "footer": {
+      "businessName": "Galilea Estética",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/preview-galilea-estetica",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/preview-galilea-estetica/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/preview-galilea-estetica/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Sta. Rosa 944 c, Asunción",
+        "phone": "+595 994 681 789",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595994681789",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu cita ahora"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu cita",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Tu centro de estética de confianza",
+        "subheadline": "Tratamientos faciales, corporales y servicios de estética integral. 395 clientas nos califican con ⭐5.0"
+      },
+      "seo": {
+        "description": "Centro de estética con 395 reseñas 5 estrellas en Asunción. Tratamientos faciales, corporales y más.",
+        "title": "Galilea Estética — Centro de estética en Asunción ⭐5.0"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Faciales",
+            "description": "Limpieza con extracción y mascarilla",
+            "name": "Limpieza Facial Profunda",
+            "price": "80.000 Gs"
+          },
+          {
+            "category": "Faciales",
+            "description": "Radiofrecuencia facial",
+            "name": "Tratamiento Anti-Edad",
+            "price": "120.000 Gs"
+          },
+          {
+            "category": "Corporales",
+            "description": "Masaje reductor y detox",
+            "name": "Drenaje Linfático",
+            "price": "90.000 Gs"
+          },
+          {
+            "category": "Depilación",
+            "description": "Sesión zona completa",
+            "name": "Depilación Láser",
+            "price": "200.000 Gs"
+          },
+          {
+            "category": "Masajes",
+            "description": "60 minutos de pura relajación",
+            "name": "Masaje Relajante",
+            "price": "150.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "stats": {
+        "items": [
+          {
+            "icon": "Star",
+            "label": "Reseñas ⭐5.0",
+            "value": "395"
+          },
+          {
+            "icon": "Calendar",
+            "label": "Años de experiencia",
+            "value": "10+"
+          },
+          {
+            "icon": "Award",
+            "label": "Clientas satisfechas",
+            "value": "100%"
+          }
+        ]
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Cliente ⭐⭐⭐⭐⭐",
+            "quote": "La mejor esteticista de Asunción. Salió todo perfecto.",
+            "rating": 5
+          },
+          {
+            "author": "Cliente ⭐⭐⭐⭐⭐",
+            "quote": "Muy profesional y el trato excelente. Recomendada 100%",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen nuestras clientas"
+      }
+    },
+    "navigation": {
+      "businessName": "Galilea Estética",
+      "ctaHref": "https://wa.me/595994681789",
+      "ctaText": "Reservá tu cita",
+      "navItems": [
+        {
+          "href": "/s/es/preview-galilea-estetica",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/preview-galilea-estetica/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/preview-galilea-estetica/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Servicios",
+        "subheadline": "Todo para tu cuidado personal"
+      },
+      "seo": {
+        "description": "Todos nuestros servicios de estética.",
+        "title": "Servicios — Galilea Estética"
+      }
+    },
+    "siteName": "Galilea Estética",
+    "tagline": "Centro de estética en Asunción con 395 reseñas ⭐5.0",
+    "whatsapp": "+595994681789"
+  },
+  "preview-guillen-barber:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Reservá tu turno"
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Guillén Barbershop"
+      }
+    },
+    "footer": {
+      "businessName": "Guillén Barbershop",
+      "city": "Fernando de la Mora",
+      "navLinks": [
+        {
+          "href": "/s/es/preview-guillen-barber",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/preview-guillen-barber/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/preview-guillen-barber/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "11 de Setiembre, Fernando de la Mora",
+        "phone": "+595 983 429 300",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595983429300",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu turno"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu turno",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Estilo clásico con actitud moderna",
+        "subheadline": "Cortes, barba y afeitado tradicional en Fernando de la Mora. 301 clientes nos califican con ⭐4.8"
+      },
+      "seo": {
+        "description": "Barbería clásica y moderna con 301 reseñas ⭐4.8 en Fernando de la Mora. Cortes, barba y afeitado tradicional.",
+        "title": "Guillén Barbershop — Barbería en Fernando de la Mora ⭐4.8"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Cortes",
+            "description": "Corte con máquina y tijera",
+            "name": "Corte Clásico",
+            "price": "45.000 Gs"
+          },
+          {
+            "category": "Cortes",
+            "description": "Fade y diseños",
+            "name": "Corte Moderno",
+            "price": "55.000 Gs"
+          },
+          {
+            "category": "Barba",
+            "description": "Perfilado profesional",
+            "name": "Arreglo de Barba",
+            "price": "25.000 Gs"
+          },
+          {
+            "category": "Barba",
+            "description": "Con navaja y toalla caliente",
+            "name": "Afeitado Tradicional",
+            "price": "35.000 Gs"
+          },
+          {
+            "category": "Combos",
+            "description": "Paquete completo",
+            "name": "Corte + Barba",
+            "price": "60.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "stats": {
+        "items": [
+          {
+            "icon": "Star",
+            "label": "Reseñas ⭐4.8",
+            "value": "301"
+          },
+          {
+            "icon": "Calendar",
+            "label": "Años de experiencia",
+            "value": "8+"
+          },
+          {
+            "icon": "Award",
+            "label": "Clientes satisfechos",
+            "value": "100%"
+          }
+        ]
+      },
+      "team": {
+        "items": [
+          {
+            "bio": "8 años de experiencia en cortes clásicos y modernos.",
+            "name": "Guillén",
+            "role": "Barbero Principal"
+          }
+        ],
+        "title": "Nuestros Barberos"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Cliente ⭐⭐⭐⭐⭐",
+            "quote": "La mejor barbería de Fernando. Cortan increíble y el ambiente es único.",
+            "rating": 5
+          },
+          {
+            "author": "Cliente ⭐⭐⭐⭐⭐",
+            "quote": "El afeitado tradicional es una experiencia. Súper recomendado.",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      }
+    },
+    "navigation": {
+      "businessName": "Guillén Barbershop",
+      "ctaHref": "https://wa.me/595983429300",
+      "ctaText": "Reservá tu turno",
+      "navItems": [
+        {
+          "href": "/s/es/preview-guillen-barber",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/preview-guillen-barber/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/preview-guillen-barber/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Servicios",
+        "subheadline": "Todo para tu look"
+      },
+      "seo": {
+        "description": "Cortes y barba.",
+        "title": "Servicios — Guillén Barbershop"
+      }
+    },
+    "siteName": "Guillén Barbershop",
+    "tagline": "Barbería clásica y moderna en Fernando de la Mora — 301 reseñas ⭐4.8",
+    "whatsapp": "+595983429300"
+  },
+  "preview-hidrobaby:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Reservá la sesión de tu bebé"
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — HidroBaby Spa"
+      }
+    },
+    "footer": {
+      "businessName": "HidroBaby Spa",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/preview-hidrobaby",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/preview-hidrobaby/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/preview-hidrobaby/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Del Maestro, Asunción",
+        "phone": "+595 993 444 000",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595993444000",
+        "buttonText": "WhatsApp",
+        "title": "Reservá la sesión de tu bebé"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu sesión",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "El primer spa de tu bebé",
+        "subheadline": "Hidroestimulación, baby spa y estimulación temprana en Asunción. 736 mamás nos califican con ⭐5.0"
+      },
+      "seo": {
+        "description": "Baby spa, hidroestimulación y estimulación temprana en Asunción. 736 reseñas ⭐5.0.",
+        "title": "HidroBaby Spa — Baby spa en Asunción ⭐5.0"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Baby Spa",
+            "description": "Hidroestimulación + masaje",
+            "name": "Baby Spa Completo",
+            "price": "120.000 Gs"
+          },
+          {
+            "category": "Baby Spa",
+            "description": "Estimulación acuática",
+            "name": "Hidroestimulación",
+            "price": "80.000 Gs"
+          },
+          {
+            "category": "Masajes",
+            "description": "Técnica Shantala",
+            "name": "Masaje Infantil",
+            "price": "60.000 Gs"
+          },
+          {
+            "category": "Estimulación",
+            "description": "Estimulación sensorial y motriz",
+            "name": "Estimulación Temprana",
+            "price": "70.000 Gs"
+          },
+          {
+            "category": "Eventos",
+            "description": "Fiesta infantil acuática",
+            "name": "Cumpleaños Baby Spa",
+            "price": "Consultar"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "stats": {
+        "items": [
+          {
+            "icon": "Star",
+            "label": "Reseñas ⭐5.0",
+            "value": "736"
+          },
+          {
+            "icon": "Calendar",
+            "label": "Años de experiencia",
+            "value": "5+"
+          },
+          {
+            "icon": "Heart",
+            "label": "Bebés felices",
+            "value": "100%"
+          }
+        ]
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Mamá ⭐⭐⭐⭐⭐",
+            "quote": "Mi bebé amó la hidroestimulación. Salió re feliz y durmió toda la noche!",
+            "rating": 5
+          },
+          {
+            "author": "Mamá ⭐⭐⭐⭐⭐",
+            "quote": "Excelente atención. Se nota el amor por los bebés.",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen las mamás"
+      }
+    },
+    "navigation": {
+      "businessName": "HidroBaby Spa",
+      "ctaHref": "https://wa.me/595993444000",
+      "ctaText": "Reservá tu sesión",
+      "navItems": [
+        {
+          "href": "/s/es/preview-hidrobaby",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/preview-hidrobaby/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/preview-hidrobaby/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Servicios",
+        "subheadline": "Todo para el bienestar de tu bebé"
+      },
+      "seo": {
+        "description": "Nuestros servicios de baby spa.",
+        "title": "Servicios — HidroBaby Spa"
+      }
+    },
+    "siteName": "HidroBaby Spa",
+    "tagline": "Baby spa, hidroestimulación y estimulación temprana — 736 reseñas ⭐5.0",
+    "whatsapp": "+595993444000"
+  },
+  "preview-studio22:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Escribinos para tu diseño personalizado"
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Studio 22"
+      }
+    },
+    "footer": {
+      "businessName": "Studio 22 Tattoo",
+      "city": "Fernando de la Mora",
+      "navLinks": [
+        {
+          "href": "/s/es/preview-studio22",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/preview-studio22/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/preview-studio22/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "1 De Mayo 9038, Fernando de la Mora",
+        "phone": "+595 983 816 627",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595983816627",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu consulta de diseño"
+      },
+      "hero": {
+        "ctaPrimaryText": "Consultá por WhatsApp",
+        "ctaSecondaryText": "Ver trabajos",
+        "headline": "Tu obra de arte en la piel",
+        "subheadline": "Tatuajes personalizados y piercing profesional en Fernando de la Mora. 954 clientes nos califican con ⭐4.9"
+      },
+      "seo": {
+        "description": "Studio de tatuajes y piercing con 954 reseñas ⭐4.9 en Fernando de la Mora. Diseños personalizados.",
+        "title": "Studio 22 Tattoo — Tatuajes en Fernando de la Mora ⭐4.9"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Tatuajes",
+            "description": "Diseños simples hasta 5cm",
+            "name": "Tatuaje Pequeño",
+            "price": "Desde 150.000 Gs"
+          },
+          {
+            "category": "Tatuajes",
+            "description": "Detalle moderado 5-15cm",
+            "name": "Tatuaje Mediano",
+            "price": "Desde 300.000 Gs"
+          },
+          {
+            "category": "Tatuajes",
+            "description": "Alta complejidad +15cm",
+            "name": "Tatuaje Grande",
+            "price": "Desde 600.000 Gs"
+          },
+          {
+            "category": "Tatuajes",
+            "description": "Cobertura de tatuajes anteriores",
+            "name": "Cover Up",
+            "price": "Consultar"
+          },
+          {
+            "category": "Piercing",
+            "description": "Acero quirúrgico titanio",
+            "name": "Piercing",
+            "price": "Desde 80.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "stats": {
+        "items": [
+          {
+            "icon": "Star",
+            "label": "Reseñas ⭐4.9",
+            "value": "954"
+          },
+          {
+            "icon": "Calendar",
+            "label": "Años de experiencia",
+            "value": "10+"
+          },
+          {
+            "icon": "Pen",
+            "label": "Trabajos personalizados",
+            "value": "100%"
+          }
+        ]
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Cliente ⭐⭐⭐⭐⭐",
+            "quote": "Increíble trabajo. El realismo quedó exactamente como lo quería.",
+            "rating": 5
+          },
+          {
+            "author": "Cliente ⭐⭐⭐⭐⭐",
+            "quote": "Ambiente muy limpio y profesional. Recomendado 100%",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      }
+    },
+    "navigation": {
+      "businessName": "Studio 22",
+      "ctaHref": "https://wa.me/595983816627",
+      "ctaText": "Consultá por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/preview-studio22",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/preview-studio22/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/preview-studio22/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Servicios",
+        "subheadline": "Todo en tatuajes y piercing"
+      },
+      "seo": {
+        "description": "Tatuajes y piercing.",
+        "title": "Servicios — Studio 22"
+      }
+    },
+    "siteName": "Studio 22 Tattoo & Piercing",
+    "tagline": "Tatuajes y piercing en Fernando de la Mora — 954 reseñas ⭐4.9",
+    "whatsapp": "+595983816627"
   },
   "stoicfinch:en": {
     "_meta": {
