@@ -11,6 +11,9 @@ import {
   BarChart3,
   Settings,
   CreditCard,
+  Bell,
+  Users,
+  Download,
   Menu,
   X,
   ExternalLink,
@@ -24,8 +27,11 @@ const NAV_ITEMS = [
   { href: '/bookings', label: 'Reservas', icon: Calendar },
   { href: '/orders', label: 'Pedidos', icon: ShoppingCart },
   { href: '/analytics', label: 'Analíticas', icon: BarChart3 },
+  { href: '/team', label: 'Equipo', icon: Users },
+  { href: '/notifications', label: 'Notificaciones', icon: Bell },
   { href: '/settings', label: 'Configuración', icon: Settings },
   { href: '/billing', label: 'Facturación', icon: CreditCard },
+  { href: '/export', label: 'Exportar datos', icon: Download },
 ]
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {

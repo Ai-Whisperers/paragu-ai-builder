@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { Check, X, RotateCcw } from 'lucide-react'
 
 interface Booking {
   id: string
@@ -39,8 +40,9 @@ function formatDate(iso: string): string {
 export default function BookingsPage() {
   const [bookings, setBookings] = useState<Booking[]>([])
   const [loading, setLoading] = useState(true)
+  const [actioning, setActioning] = useState<string | null>(null)
 
-  useEffect(() => {
+  const load = () => {
     fetch('/api/portal/bookings')
       .then((r) => r.json())
       .then((d) => {
@@ -48,7 +50,58 @@ export default function BookingsPage() {
         setLoading(false)
       })
       .catch(() => setLoading(false))
-  }, [])
+  }
+
+  useEffect(load, [])
+
+  const updateStatus = async (id: string, status: string) => {
+    setActioning(id)
+    await fetch(`/api/portal/bookings/${id}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ status }),
+    })
+    load()
+    setActioning(null)
+  }
+
+  const ActionableStatus = ({ b }: { b: Booking }) => {
+    if (actioning === b.id) {
+      return <span className="text-xs text-gray-400">Actualizando...</span>
+    }
+    if (b.status === 'pending') {
+      return (
+        <div className="flex gap-1">
+          <button onClick={() => updateStatus(b.id, 'confirmed')} className="rounded p-1 text-green-600 hover:bg-green-50" title="Confirmar">
+            <Check className="h-3.5 w-3.5" />
+          </button>
+          <button onClick={() => updateStatus(b.id, 'cancelled')} className="rounded p-1 text-red-600 hover:bg-red-50" title="Cancelar">
+            <X className="h-3.5 w-3.5" />
+          </button>
+        </div>
+      )
+    }
+    if (b.status === 'confirmed') {
+      return (
+        <div className="flex gap-1">
+          <button onClick={() => updateStatus(b.id, 'completed')} className="rounded p-1 text-green-600 hover:bg-green-50" title="Completada">
+            <Check className="h-3.5 w-3.5" />
+          </button>
+          <button onClick={() => updateStatus(b.id, 'no_show')} className="rounded p-1 text-gray-600 hover:bg-gray-100" title="No se presentó">
+            <X className="h-3.5 w-3.5" />
+          </button>
+        </div>
+      )
+    }
+    if (b.status === 'cancelled' || b.status === 'no_show') {
+      return (
+        <button onClick={() => updateStatus(b.id, 'pending')} className="rounded p-1 text-amber-600 hover:bg-amber-50" title="Reabrir">
+          <RotateCcw className="h-3.5 w-3.5" />
+        </button>
+      )
+    }
+    return null
+  }
 
   if (loading) {
     return (
@@ -81,7 +134,7 @@ export default function BookingsPage() {
                 <th className="px-4 py-3">Hora</th>
                 <th className="px-4 py-3">Duración</th>
                 <th className="px-4 py-3">Estado</th>
-                <th className="px-4 py-3">Registrada</th>
+                <th className="px-4 py-3">Acción</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
@@ -89,9 +142,7 @@ export default function BookingsPage() {
                 <tr key={b.id} className="hover:bg-gray-50">
                   <td className="px-4 py-3">
                     <div className="font-medium text-gray-900">{b.customer_name}</div>
-                    {b.customer_email && (
-                      <div className="text-xs text-gray-500">{b.customer_email}</div>
-                    )}
+                    {b.customer_email && <div className="text-xs text-gray-500">{b.customer_email}</div>}
                   </td>
                   <td className="px-4 py-3 text-gray-700">{formatDate(b.booking_date)}</td>
                   <td className="px-4 py-3 text-gray-700">{b.booking_time?.slice(0, 5)}</td>
@@ -101,7 +152,7 @@ export default function BookingsPage() {
                       {STATUS_LABELS[b.status] || b.status}
                     </span>
                   </td>
-                  <td className="px-4 py-3 text-xs text-gray-500">{formatDate(b.created_at)}</td>
+                  <td className="px-4 py-3"><ActionableStatus b={b} /></td>
                 </tr>
               ))}
             </tbody>

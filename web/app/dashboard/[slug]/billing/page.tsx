@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { CreditCard, CircleCheck, CircleX, Clock } from 'lucide-react'
+import { CreditCard, CircleCheck, CircleX, Clock, ExternalLink } from 'lucide-react'
 
 interface Subscription {
   id: string
@@ -62,6 +62,9 @@ export default function BillingPage() {
   const [subscription, setSubscription] = useState<Subscription | null>(null)
   const [payments, setPayments] = useState<Payment[]>([])
   const [loading, setLoading] = useState(true)
+  const [payLink, setPayLink] = useState<string | null>(null)
+  const [generating, setGenerating] = useState(false)
+  const [payError, setPayError] = useState('')
 
   useEffect(() => {
     fetch('/api/portal/subscription')
@@ -73,6 +76,22 @@ export default function BillingPage() {
       })
       .catch(() => setLoading(false))
   }, [])
+
+  const generatePayLink = async () => {
+    if (!subscription) return
+    setGenerating(true)
+    setPayError('')
+    try {
+      const res = await fetch('/api/portal/subscription/pay', { method: 'POST' })
+      const data = await res.json()
+      if (data.url) setPayLink(data.url)
+      else setPayError(data.error || 'Error al generar link')
+    } catch {
+      setPayError('Error de conexión')
+    } finally {
+      setGenerating(false)
+    }
+  }
 
   if (loading) {
     return (
@@ -143,6 +162,31 @@ export default function BillingPage() {
                 <p className="mt-1 text-sm font-medium text-gray-900">{formatDate(subscription.current_period_end)}</p>
               </div>
             </div>
+
+            {(subscription.status === 'trialing' || subscription.status === 'past_due') && (
+              <div className="mt-6">
+                {payLink ? (
+                  <a
+                    href={payLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-lg bg-green-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-green-700 transition-colors"
+                  >
+                    <ExternalLink className="h-4 w-4" />
+                    Pagar ahora
+                  </a>
+                ) : (
+                  <button
+                    onClick={generatePayLink}
+                    disabled={generating}
+                    className="rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50 transition-colors"
+                  >
+                    {generating ? 'Generando...' : 'Generar link de pago'}
+                  </button>
+                )}
+                {payError && <p className="mt-2 text-sm text-red-600">{payError}</p>}
+              </div>
+            )}
           </div>
 
           {/* Payment history */}
