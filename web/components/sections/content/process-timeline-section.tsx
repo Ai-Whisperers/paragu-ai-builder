@@ -57,7 +57,7 @@ export function ProcessTimelineSection({
   ctaHref,
 }: ProcessTimelineSectionProps) {
   return (
-    <section id="proceso" className="font-heading bg-surface-light py-16 sm:py-24">
+    <section id="proceso" className="font-heading bg-surface py-16 sm:py-24">
       <Container size="md">
         <AnimatedSectionHeader>
           {eyebrow && (
@@ -142,7 +142,7 @@ function Horizontal({ steps }: { steps: ProcessStep[] }) {
                 const img = stepImage(step.image)
                 if (!img) return null
                 return (
-                  <div className="font-heading mb-4 overflow-hidden rounded-lg bg-surface-light shadow-card aspect-[4/3]">
+                  <div className="font-heading mb-4 overflow-hidden rounded-lg bg-surface shadow-card aspect-[4/3]">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={img.src}
@@ -271,7 +271,7 @@ function Stepped({ steps }: { steps: ProcessStep[] }) {
               <p className="font-heading text-muted-foreground">{step.description}</p>
             </div>
             {step.duration && (
-              <span className="font-heading flex-shrink-0 rounded-full bg-surface-light px-3 py-1 text-xs uppercase tracking-wider text-muted-foreground">
+              <span className="font-heading flex-shrink-0 rounded-full bg-surface px-3 py-1 text-xs uppercase tracking-wider text-muted-foreground">
                 {step.duration}
               </span>
             )}

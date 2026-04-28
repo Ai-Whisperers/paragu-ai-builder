@@ -53,7 +53,7 @@ export function TestimonialsSection({
   const gridCols = columns === 2 ? 'md:grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-3'
 
   return (
-    <Section fullWidth spacing="xl" background="background" className="relative overflow-hidden">
+    <Section fullWidth spacing="xl" background="surface-light" className="relative overflow-hidden">
       {/* Decorative elements when enhanced */}
       {enhanced && (
         <>

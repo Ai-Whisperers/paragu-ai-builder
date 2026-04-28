@@ -96,7 +96,7 @@ export function FeaturesSection({
   }
 
   return (
-    <Section spacing="md" background="background">
+    <Section spacing="md" background="surface-light">
       <Container size="md">
         {resolvedTitle && (
           <div className="text-center mb-12">

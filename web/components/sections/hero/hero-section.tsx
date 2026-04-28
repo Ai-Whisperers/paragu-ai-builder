@@ -222,7 +222,7 @@ export function HeroSection({
     : undefined
 
   return (
-    <section className={cn("relative flex min-h-[80vh] sm:min-h-[85vh] items-center justify-center overflow-hidden pt-20 sm:pt-24", !backgroundImage && !useGradient && "bg-primary")} style={backgroundStyle}>
+    <section className={cn("relative flex min-h-[60vh] sm:min-h-[70vh] items-center justify-center overflow-hidden pt-16 sm:pt-20", !backgroundImage && !useGradient && "bg-primary")} style={backgroundStyle}>
       {useResponsivePicture && backgroundImage && (
         <picture aria-hidden="true" className="font-heading pointer-events-none absolute inset-0 h-full w-full">
           {backgroundImageMobile && (
