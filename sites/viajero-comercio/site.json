@@ -97,6 +97,41 @@
       ]
     }
   },
+  "integrations": {
+    "hubspot": {
+      "portalId": "HS-PORTAL-PARAGUAI",
+      "formId": "contact-form-paragu-ai"
+    },
+    "mailchimp": {
+      "audienceId": "audience-paragu-ai-newsletter"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": "R-XXXXXXXXXX",
+        "streamName": "paragu-ai-builder-viajero-comercio"
+      }
+    },
+    "payments": {
+      "provider": "pagopar",
+      "merchantIdEnvVar": "PAGOPAR_MERCHANT_KEY_VIAJERO",
+      "secretKeyEnvVar": "PAGOPAR_SECRET_KEY_VIAJERO",
+      "statementDescriptor": "VIAJERO COMERCIO"
+    },
+    "messaging": {
+      "whatsappClickToChat": true
+    },
+    "invoicing": {
+      "provider": "facture",
+      "enabled": false,
+      "plannedPhase": 2
+    },
+    "email": {
+      "provider": "sendgrid",
+      "transactional": true,
+      "newsletter": true,
+      "optInRequired": true
+    }
+  },
   "commerce": {
     "enabled": true,
     "currency": "PYG",
