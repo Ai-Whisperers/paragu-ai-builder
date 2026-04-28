@@ -9,7 +9,7 @@ export default {
     "hero": {
       "subtitle": "Up-to-date information on Investor Pass, residency, taxes and investments in Paraguay for international investors.",
       "title": "Insights & Analysis",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "posts": [
       {
@@ -65,7 +65,7 @@ export default {
     "hero": {
       "subtitle": "Here to help — free consultation",
       "title": "Contact",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "seo": {
       "description": "Contact me for a free consultation. WhatsApp, phone or email.",
@@ -122,7 +122,7 @@ export default {
     "hero": {
       "subtitle": "Comprehensive legal counsel for your business in Paraguay",
       "title": "Corporate Law",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "proceso": {
       "steps": [
@@ -158,7 +158,7 @@ export default {
     "hero": {
       "subtitle": "Answers to common questions about legal services and investments in Paraguay",
       "title": "FAQ",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "seo": {
       "description": "Frequently asked questions about legal services, Investor Pass and investments in Paraguay.",
@@ -523,7 +523,7 @@ export default {
     "hero": {
       "subtitle": "Invest in Paraguay with expert legal guidance.",
       "title": "Foreign Investments",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "proceso": {
       "steps": [
@@ -668,7 +668,7 @@ export default {
     "hero": {
       "subtitle": "Direct permanent residency for foreign investors via investment. From USD 70,000. 100% remote process.",
       "title": "Paraguay Investor Pass",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "proceso": {
       "steps": [
@@ -724,8 +724,8 @@ export default {
   },
   "navigation": {
     "businessName": "Alejandro Villamayor",
-    "ctaHref": "https://wa.me/595981324569",
-    "ctaText": "Book a meeting",
+    "ctaHref": "https://wa.me/595981324569?text=Hi%20Alejandro%2C%20I%20visited%20your%20website%20and%20want%20to%20schedule%20a%20strategic%20evaluation%20for%20investing%20in%20Paraguay.",
+    "ctaText": "Schedule your strategic evaluation",
     "items": [
       {
         "href": "/s/en/alejandro-villamayor",

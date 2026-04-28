@@ -39,7 +39,7 @@
         "href": "/s/es/alejandro-villamayor/contacto"
       }
     ],
-    "ctaText": "Agendá una reunión",
+    "ctaText": "Agendá tu evaluación estratégica",
     "ctaHref": "https://wa.me/595981324569"
   },
   "home": {
@@ -361,7 +361,7 @@
     "hero": {
       "title": "Inversiones Extranjeras",
       "subtitle": "Invertí en Paraguay con asesoría legal experta.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "vias": {
       "eyebrow": "Vías de inversión",
@@ -467,7 +467,7 @@
     "hero": {
       "title": "Derecho Corporativo",
       "subtitle": "Asesoría legal integral para tu empresa en Paraguay",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "areas": {
       "eyebrow": "Áreas",
@@ -549,7 +549,7 @@
     "hero": {
       "title": "Paraguay Investor Pass",
       "subtitle": "Residencia permanente directa para inversores extranjeros vía inversión. Desde USD 70.000. Proceso 100% remoto.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "vias": {
       "eyebrow": "Modalidades de inversión",
@@ -747,7 +747,7 @@
     "hero": {
       "title": "Guías y Análisis",
       "subtitle": "Información actualizada sobre Investor Pass, residencia, impuestos e inversiones en Paraguay para inversores internacionales.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "posts": [
       {
@@ -796,7 +796,7 @@
     "hero": {
       "title": "Preguntas Frecuentes",
       "subtitle": "Resolvé tus dudas sobre servicios legales e inversiones en Paraguay",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     }
   },
   "contacto": {
@@ -807,7 +807,7 @@
     "hero": {
       "title": "Contacto",
       "subtitle": "Estoy para ayudarte — consultá sin costo",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "form": {
       "title": "Envianos tu consulta",

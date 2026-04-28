@@ -39,8 +39,8 @@
         "href": "/s/en/alejandro-villamayor/contacto"
       }
     ],
-    "ctaText": "Book a meeting",
-    "ctaHref": "https://wa.me/595981324569"
+    "ctaText": "Schedule your strategic evaluation",
+    "ctaHref": "https://wa.me/595981324569?text=Hi%20Alejandro%2C%20I%20visited%20your%20website%20and%20want%20to%20schedule%20a%20strategic%20evaluation%20for%20investing%20in%20Paraguay."
   },
   "home": {
     "seo": {
@@ -345,7 +345,7 @@
     "hero": {
       "title": "Paraguay Investor Pass",
       "subtitle": "Direct permanent residency for foreign investors via investment. From USD 70,000. 100% remote process.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "vias": {
       "eyebrow": "Investment paths",
@@ -466,7 +466,7 @@
     "hero": {
       "title": "Foreign Investments",
       "subtitle": "Invest in Paraguay with expert legal guidance.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "vias": {
       "eyebrow": "Investment paths",
@@ -519,7 +519,7 @@
     "hero": {
       "title": "Corporate Law",
       "subtitle": "Comprehensive legal counsel for your business in Paraguay",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "areas": {
       "eyebrow": "Practice areas",
@@ -620,7 +620,7 @@
     "hero": {
       "title": "Insights & Analysis",
       "subtitle": "Up-to-date information on Investor Pass, residency, taxes and investments in Paraguay for international investors.",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "posts": [
       {
@@ -666,7 +666,7 @@
     "hero": {
       "title": "FAQ",
       "subtitle": "Answers to common questions about legal services and investments in Paraguay",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     }
   },
   "contacto": {
@@ -677,7 +677,7 @@
     "hero": {
       "title": "Contact",
       "subtitle": "Here to help — free consultation",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "form": {
       "title": "Send your inquiry",

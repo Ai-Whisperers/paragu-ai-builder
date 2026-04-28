@@ -9,7 +9,7 @@ export default {
     "hero": {
       "subtitle": "Información actualizada sobre Investor Pass, residencia, impuestos e inversiones en Paraguay para inversores internacionales.",
       "title": "Guías y Análisis",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "posts": [
       {
@@ -68,7 +68,7 @@ export default {
     "hero": {
       "subtitle": "Estoy para ayudarte — consultá sin costo",
       "title": "Contacto",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "seo": {
       "description": "Contactame para una consulta gratuita. WhatsApp, teléfono o email.",
@@ -125,7 +125,7 @@ export default {
     "hero": {
       "subtitle": "Asesoría legal integral para tu empresa en Paraguay",
       "title": "Derecho Corporativo",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "proceso": {
       "steps": [
@@ -161,7 +161,7 @@ export default {
     "hero": {
       "subtitle": "Resolvé tus dudas sobre servicios legales e inversiones en Paraguay",
       "title": "Preguntas Frecuentes",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "seo": {
       "description": "Preguntas frecuentes sobre servicios legales, Investor Pass e inversiones en Paraguay.",
@@ -526,7 +526,7 @@ export default {
     "hero": {
       "subtitle": "Invertí en Paraguay con asesoría legal experta.",
       "title": "Inversiones Extranjeras",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "proceso": {
       "steps": [
@@ -671,7 +671,7 @@ export default {
     "hero": {
       "subtitle": "Residencia permanente directa para inversores extranjeros vía inversión. Desde USD 70.000. Proceso 100% remoto.",
       "title": "Paraguay Investor Pass",
-      "trustBadgesEnabled": false
+      "trustBadgesEnabled": true
     },
     "proceso": {
       "steps": [
@@ -728,7 +728,7 @@ export default {
   "navigation": {
     "businessName": "Alejandro Villamayor",
     "ctaHref": "https://wa.me/595981324569",
-    "ctaText": "Agendá una reunión",
+    "ctaText": "Agendá tu evaluación estratégica",
     "items": [
       {
         "href": "/s/es/alejandro-villamayor",
