@@ -2,6 +2,7 @@ import { Check, Minus, Star } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Button } from '@/components/ui/button'
+import { Section } from '@/components/ui/section'
 import { AnimatedSectionHeader, AnimateOnScroll } from '@/components/ui/animate-on-scroll'
 import { cn } from '@/lib/utils'
 
@@ -97,7 +98,7 @@ export function ProgramsComparisonSection({
     featureColumnLabel || FEATURE_COLUMN_LABELS[__locale ?? 'es'] || FEATURE_COLUMN_LABELS.es
 
   return (
-    <section id="programas" className="font-heading text-primary bg-background py-20 sm:py-28 lg:py-32">
+    <Section id="programas" spacing="lg" background="background" className="font-heading text-primary">
       <Container size="md">
         <AnimatedSectionHeader className="font-heading text-primary mb-12 sm:mb-16">
           {eyebrow && (
@@ -121,7 +122,7 @@ export function ProgramsComparisonSection({
           <TierCards tiers={tiers} />
         )}
       </Container>
-    </section>
+    </Section>
   )
 }
 

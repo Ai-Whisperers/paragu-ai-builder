@@ -24,7 +24,7 @@
       "variant": "tiered",
       "content": "home.programs",
       "styling": {
-        "padding": "sm"
+        "padding": "none"
       }
     },
     {
@@ -37,7 +37,7 @@
       "variant": "three-col",
       "content": "home.whyCountry",
       "styling": {
-        "padding": "sm"
+        "padding": "none"
       }
     },
     {
@@ -50,7 +50,7 @@
       "variant": "horizontal",
       "content": "home.process",
       "styling": {
-        "padding": "sm"
+        "padding": "none"
       }
     },
     {

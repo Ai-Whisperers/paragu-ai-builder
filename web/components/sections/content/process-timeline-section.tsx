@@ -1,4 +1,5 @@
 import * as Icons from 'lucide-react'
+import { Section } from '@/components/ui/section'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { AnimatedSectionHeader, AnimateOnScroll } from '@/components/ui/animate-on-scroll'
@@ -57,7 +58,7 @@ export function ProcessTimelineSection({
   ctaHref,
 }: ProcessTimelineSectionProps) {
   return (
-    <section id="proceso" className="font-heading bg-surface py-16 sm:py-24">
+    <Section id="proceso" spacing="md" className="font-heading bg-surface">
       <Container size="md">
         <AnimatedSectionHeader>
           {eyebrow && (
@@ -100,7 +101,7 @@ export function ProcessTimelineSection({
           </div>
         )}
       </Container>
-    </section>
+    </Section>
   )
 }
 

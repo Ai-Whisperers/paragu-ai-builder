@@ -71,7 +71,7 @@ export function TrustSignalsSection({
       }
     : undefined
   return (
-    <Section fullWidth spacing="sm" background="surface-light" className="font-heading" style={sectionStyle}>
+    <Section fullWidth spacing="md" background="surface-light" className="font-heading" style={sectionStyle}>
       <Container size="md">
         {(title || subtitle) && (
           <AnimatedSectionHeader>
