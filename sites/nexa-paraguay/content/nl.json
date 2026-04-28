@@ -31,7 +31,8 @@
             "label": "Proces",
             "href": "/s/nl/nexa-paraguay/proceso"
           }
-        ]
+        ],
+        "href": "/s/nl/nexa-paraguay/sobre"
       },
       {
         "label": "Over Nexa",
@@ -60,7 +61,8 @@
             "label": "Pers",
             "href": "/s/nl/nexa-paraguay/prensa"
           }
-        ]
+        ],
+        "href": "/s/nl/nexa-paraguay/blog"
       },
       {
         "label": "Contact",

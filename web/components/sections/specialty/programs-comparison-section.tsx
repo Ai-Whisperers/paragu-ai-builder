@@ -178,7 +178,7 @@ function TierCards({ tiers }: { tiers: ProgramTier[] }) {
             </div>
 
             <div className="font-heading text-primary flex-1 px-6 sm:px-8 lg:px-10 py-4">
-              <ul className="font-heading text-primary space-y-3">
+              <ul className="font-heading text-primary space-y-3 min-h-[180px]">
                 {(tier.included || []).map((item, i) => (
                   <li key={`inc-${i}`} className="font-heading text-primary flex gap-3 text-sm sm:text-base leading-relaxed" style={{ color: 'var(--text)' }}>
                     <span className="font-heading text-primary flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5" style={{ backgroundColor: 'rgba(184, 134, 11, 0.15)' }}>

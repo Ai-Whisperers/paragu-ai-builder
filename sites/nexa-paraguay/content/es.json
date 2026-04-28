@@ -31,7 +31,8 @@
             "label": "Proceso",
             "href": "/s/es/nexa-paraguay/proceso"
           }
-        ]
+        ],
+        "href": "/s/es/nexa-paraguay/sobre"
       },
       {
         "label": "Sobre Nexa",
@@ -60,7 +61,8 @@
             "label": "Prensa",
             "href": "/s/es/nexa-paraguay/prensa"
           }
-        ]
+        ],
+        "href": "/s/es/nexa-paraguay/recursos"
       },
       {
         "label": "Contacto",

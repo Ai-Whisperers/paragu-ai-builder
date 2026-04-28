@@ -164,10 +164,9 @@ export function TestimonialsSection({
                     />
                   ) : (
                     <div 
-                      className="w-12 h-12 rounded-full flex items-center justify-center text-lg font-bold"
+                      className="w-12 h-12 rounded-full flex items-center justify-center text-base font-bold text-white"
                       style={{
-                        backgroundColor: 'var(--primary)',
-                        color: 'var(--primary-foreground)',
+                        background: 'linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%)',
                       }}
                     >
                       {(testimonial.author ?? testimonial.name ?? '').charAt(0).toUpperCase()}

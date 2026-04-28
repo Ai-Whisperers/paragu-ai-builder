@@ -31,7 +31,8 @@
             "label": "Process",
             "href": "/s/en/nexa-paraguay/proceso"
           }
-        ]
+        ],
+        "href": "/s/en/nexa-paraguay/programas"
       },
       {
         "label": "About",
@@ -60,7 +61,8 @@
             "label": "Press",
             "href": "/s/en/nexa-paraguay/prensa"
           }
-        ]
+        ],
+        "href": "/s/en/nexa-paraguay/blog"
       },
       {
         "label": "Contact",
@@ -76,7 +78,7 @@
       "description": "Residency, company and bank account in Paraguay. One program, one trip, a full professional team by your side."
     },
     "hero": {
-      "headline": "Establish your operation in Paraguay. Professional, integrated, no surprises.",
+      "headline": "Your Paraguay move, handled end-to-end.",
       "subheadline": "Residency, company, bank account and land purchase — coordinated by Nexa Paraguay, executed by our trusted technical team.",
       "ctaPrimaryText": "Book a free consultation",
       "ctaPrimaryHref": "/s/en/nexa-paraguay/contacto",
@@ -92,30 +94,30 @@
     },
     "trust": {
       "eyebrow": "Why Nexa Paraguay",
-      "title": "An integrated system, not a paperwork agency",
+      "title": "More than an agency — an integrated system",
       "items": [
         {
           "icon": "Package",
-          "title": "One program",
-          "description": "Residency, company and bank account integrated.",
+          "title": "Integrated program",
+          "description": "Residency, company and bank account — all in one flow.",
           "image": "@src:trust.certificate"
         },
         {
           "icon": "Plane",
-          "title": "One trip",
-          "description": "All in-person steps done in a single coordinated day.",
+          "title": "Single trip",
+          "description": "All in-person steps, one coordinated day.",
           "image": "@src:trust.migraciones"
         },
         {
           "icon": "Users",
-          "title": "One team",
+          "title": "Dedicated team",
           "description": "Lawyers, accountants, notaries and financial advisors.",
           "image": "@src:trust.cedula"
         },
         {
           "icon": "Shield",
-          "title": "Transparent pricing",
-          "description": "All-inclusive. No hidden fees.",
+          "title": "Fixed pricing",
+          "description": "All-inclusive, no hidden fees.",
           "image": "@src:trust.registry"
         }
       ]

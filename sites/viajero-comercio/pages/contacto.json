@@ -20,14 +20,14 @@
     },
     {
       "id": "lead-form",
-      "variant": "default",
+      "variant": "standard",
       "content": "contacto.form",
       "title": "Envianos un Mensaje",
       "subtitle": "Te respondemos a la brevedad"
     },
     {
       "id": "google-maps",
-      "variant": "full-width",
+      "variant": "default",
       "content": "contacto.info.address",
       "title": "Nuestra Ubicacion",
       "subtitle": "Av. Mariscal Lopez 1234, Asuncion"
