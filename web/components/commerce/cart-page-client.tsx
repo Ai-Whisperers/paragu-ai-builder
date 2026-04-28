@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useCartStore, cartSubtotalCents } from '@/lib/stores/cart-store'
 import { formatCents } from '@/lib/commerce/compute-totals'
 import { buildWhatsAppCartUrl } from '@/lib/commerce/whatsapp-cart-link'
+import { FreeShippingProgress } from './free-shipping-progress'
 
 interface Props {
   siteSlug: string
@@ -93,6 +94,7 @@ export function CartPageClient({ siteSlug, locale = 'es', whatsappNumber, busine
       </ul>
 
       <aside className="h-fit rounded-lg border border-[color:var(--border,#e5e7eb)] bg-surface p-6">
+        <FreeShippingProgress siteSlug={siteSlug} subtotalCents={subtotal} currency={cart.currency} />
         <div className="flex justify-between text-lg font-semibold">
           <span>Subtotal</span>
           <span>{formatCents(subtotal, cart.currency)}</span>
