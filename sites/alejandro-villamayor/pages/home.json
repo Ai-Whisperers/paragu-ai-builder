@@ -50,7 +50,7 @@
     },
     {
       "id": "process-timeline",
-      "variant": "horizontal",
+      "variant": "vertical",
       "content": "home.process",
       "styling": {
         "background": "default"
@@ -95,6 +95,14 @@
       "styling": {
         "padding": "lg",
         "background": "accent"
+      }
+    },
+    {
+      "id": "case-studies",
+      "variant": "three-col",
+      "content": "home.credentials",
+      "styling": {
+        "background": "alt"
       }
     }
   ]

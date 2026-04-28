@@ -2889,7 +2889,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "styling": {
           "background": "default"
         },
-        "variant": "horizontal"
+        "variant": "vertical"
       },
       {
         "content": "home.credentials",
@@ -2931,6 +2931,14 @@ export const PAGES: Record<string, JsonRecord> = {
           "padding": "lg"
         },
         "variant": "gradient"
+      },
+      {
+        "content": "home.credentials",
+        "id": "case-studies",
+        "styling": {
+          "background": "alt"
+        },
+        "variant": "three-col"
       }
     ],
     "slug": "",
