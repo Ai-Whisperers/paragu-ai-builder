@@ -1,0 +1,39 @@
+{
+  "siteName": "Demo Uñas",
+  "tagline": "Manos y pies perfectos, nail art y tratamientos en Asunción",
+  "navigation": {
+    "businessName": "Uñas",
+    "navItems": [
+      { "label": "Inicio", "href": "/s/es/demo-unas" },
+      { "label": "Servicios", "href": "/s/es/demo-unas/servicios" },
+      { "label": "Contacto", "href": "/s/es/demo-unas/contacto" }
+    ],
+    "ctaText": "Reservá tu cita",
+    "ctaHref": "https://wa.me/595981234567"
+  },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Uñas - Nail art y cuidado de manos", "description": "Manicure, pedicure, uñas acrílicas y nail art en Asunción." },
+    "hero": { "headline": "Tus manos hablan por vos", "subheadline": "Manicure, pedicure, acrílicas y nail art profesional", "ctaPrimaryText": "Reservá tu cita", "ctaSecondaryText": "Ver servicios" },
+    "services": { "title": "Nuestros Servicios", "items": [
+      { "name": "Manicure Clásico", "price": "40.000 Gs", "description": "Con esmaltado", "category": "Manos" },
+      { "name": "Manicure Spa", "price": "55.000 Gs", "description": "Con hidratación y masajes", "category": "Manos" },
+      { "name": "Pedicure Spa", "price": "65.000 Gs", "description": "Exfoliación y esmaltado", "category": "Pies" },
+      { "name": "Uñas Acrílicas", "price": "100.000 Gs", "description": "Esculpidas con diseño básico", "category": "Acrílicas" },
+      { "name": "Nail Art", "price": "30.000 Gs", "description": "Decoración artesanal por uña", "category": "Diseño" }
+    ]},
+    "testimonials": { "title": "Lo que dicen nuestras clientas", "items": [
+      { "quote": "Mis uñas nunca lucieron tan bien. Claudia es una artista!", "author": "Silvia R.", "rating": 5 },
+      { "quote": "El mejor nail spa de la ciudad. Muy limpio y profesional.", "author": "Andrea M.", "rating": 5 }
+    ]},
+    "cta": { "title": "Agendá tu cita", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Demo Uñas", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "servicios": { "seo": { "title": "Servicios — Demo Uñas", "description": "Nuestros servicios." }, "hero": { "headline": "Servicios", "subheadline": "Todo para tus uñas" } },
+  "footer": { "businessName": "Demo Uñas", "city": "Asunción", "navLinks": [
+    { "label": "Inicio", "href": "/s/es/demo-unas" },
+    { "label": "Servicios", "href": "/s/es/demo-unas/servicios" },
+    { "label": "Contacto", "href": "/s/es/demo-unas/contacto" }
+  ]}
+}

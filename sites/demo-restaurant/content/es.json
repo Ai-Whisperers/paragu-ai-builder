@@ -1,0 +1,42 @@
+{
+  "siteName": "Demo Restaurante",
+  "tagline": "Cocina tradicional paraguaya e internacional en el centro de Asunción",
+  "navigation": {
+    "businessName": "Restaurante",
+    "navItems": [
+      { "label": "Inicio", "href": "/s/es/demo-restaurant" },
+      { "label": "Menú", "href": "/s/es/demo-restaurant/menu" },
+      { "label": "Contacto", "href": "/s/es/demo-restaurant/contacto" }
+    ],
+    "ctaText": "Reservá tu mesa",
+    "ctaHref": "https://wa.me/595981234567"
+  },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Restaurante - Cocina tradicional en Asunción", "description": "Restaurante con cocina tradicional paraguaya e internacional. Reservá tu mesa." },
+    "hero": { "headline": "Sabores que enamoran", "subheadline": "Cocina tradicional paraguaya e internacional en el corazón de Asunción", "ctaPrimaryText": "Reservá tu mesa", "ctaSecondaryText": "Ver menú" },
+    "services": { "title": "Nuestra Carta", "items": [
+      { "name": "Plato del Día", "price": "45.000 Gs", "description": "Menú ejecutivo de lunes a viernes", "category": "Ejecutivo" },
+      { "name": "Parrilla Completa", "price": "85.000 Gs", "description": "Corte a elección con guarniciones", "category": "Parrilla" },
+      { "name": "Pasta de la Casa", "price": "55.000 Gs", "description": "Pasta fresca con salsa a elección", "category": "Pastas" },
+      { "name": "Ensalada Completa", "price": "38.000 Gs", "description": "Ensalada fresca con proteína", "category": "Ensaladas" },
+      { "name": "Postre Casero", "price": "20.000 Gs", "description": "Dulces tradicionales paraguayos", "category": "Postres" }
+    ]},
+    "testimonials": { "title": "Lo que dicen nuestros comensales", "items": [
+      { "quote": "La mejor parrilla de Asunción. El lomito está increíble.", "author": "Roberto M.", "rating": 5 },
+      { "quote": "Ambiente familiar y comida deliciosa. Volvemos siempre.", "author": "Familia González", "rating": 5 }
+    ]},
+    "team": { "title": "Nuestro Equipo", "items": [
+      { "name": "Chef Miguel", "role": "Chef Ejecutivo", "bio": "15 años de experiencia en cocina tradicional paraguaya." }
+    ]},
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" },
+    "cta": { "title": "Reservá tu mesa", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Demo Restaurante", "description": "Reservá tu mesa." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "servicios": { "seo": { "title": "Menú — Demo Restaurante", "description": "Nuestra carta." }, "hero": { "headline": "Nuestro Menú", "subheadline": "Cocina que enamora" } },
+  "footer": { "businessName": "Demo Restaurante", "city": "Asunción", "navLinks": [
+    { "label": "Inicio", "href": "/s/es/demo-restaurant" },
+    { "label": "Menú", "href": "/s/es/demo-restaurant/menu" },
+    { "label": "Contacto", "href": "/s/es/demo-restaurant/contacto" }
+  ]}
+}

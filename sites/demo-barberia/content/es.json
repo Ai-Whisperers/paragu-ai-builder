@@ -1,0 +1,42 @@
+{
+  "siteName": "Demo Barbería",
+  "tagline": "Cortes clásicos y modernos, afeitado tradicional en Asunción",
+  "navigation": {
+    "businessName": "Barbería",
+    "navItems": [
+      { "label": "Inicio", "href": "/s/es/demo-barberia" },
+      { "label": "Servicios", "href": "/s/es/demo-barberia/servicios" },
+      { "label": "Contacto", "href": "/s/es/demo-barberia/contacto" }
+    ],
+    "ctaText": "Reservá tu turno",
+    "ctaHref": "https://wa.me/595981234567"
+  },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Barbería - Cortes y afeitado clásico en Asunción", "description": "Cortes clásicos y modernos, afeitado con navaja y barba profesional." },
+    "hero": { "headline": "Estilo tradicional para hombres modernos", "subheadline": "Cortes clásicos, afeitado tradicional y arreglo de barba", "ctaPrimaryText": "Reservá tu turno", "ctaSecondaryText": "Ver servicios" },
+    "services": { "title": "Nuestros Servicios", "items": [
+      { "name": "Corte Clásico", "price": "45.000 Gs", "description": "Corte con máquina y tijera", "category": "Cortes" },
+      { "name": "Corte Moderno", "price": "50.000 Gs", "description": "Corte con fade y diseños", "category": "Cortes" },
+      { "name": "Arreglo de Barba", "price": "25.000 Gs", "description": "Perfilado profesional", "category": "Barba" },
+      { "name": "Afeitado Tradicional", "price": "35.000 Gs", "description": "Con navaja y toalla caliente", "category": "Barba" },
+      { "name": "Corte + Barba", "price": "60.000 Gs", "description": "Paquete completo", "category": "Combos" }
+    ]},
+    "testimonials": { "title": "Lo que dicen nuestros clientes", "items": [
+      { "quote": "El mejor lugar para un corte serio. Atención de primera.", "author": "Miguel A.", "rating": 5 },
+      { "quote": "Afeitado perfecto, como en los viejos tiempos.", "author": "Juan C.", "rating": 5 }
+    ]},
+    "team": { "title": "Nuestros Barberos", "items": [
+      { "name": "Roberto Díaz", "role": "Barbero Principal", "bio": "20 años de experiencia en cortes clásicos." }
+    ]},
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" },
+    "cta": { "title": "Agendá tu turno", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Demo Barbería", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "servicios": { "seo": { "title": "Servicios — Demo Barbería", "description": "Nuestros servicios." }, "hero": { "headline": "Servicios", "subheadline": "Todo para tu look" } },
+  "footer": { "businessName": "Demo Barbería", "city": "Asunción", "navLinks": [
+    { "label": "Inicio", "href": "/s/es/demo-barberia" },
+    { "label": "Servicios", "href": "/s/es/demo-barberia/servicios" },
+    { "label": "Contacto", "href": "/s/es/demo-barberia/contacto" }
+  ]}
+}

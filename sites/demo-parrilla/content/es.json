@@ -1,0 +1,29 @@
+{
+  "siteName": "Demo Parrilla",
+  "tagline": "La mejor parrilla tradicional paraguaya en Asunción",
+  "navigation": {
+    "businessName": "Parrilla",
+    "navItems": [{ "label": "Inicio", "href": "/s/es/demo-parrilla" }, { "label": "Contacto", "href": "/s/es/demo-parrilla/contacto" }],
+    "ctaText": "Reservá tu mesa", "ctaHref": "https://wa.me/595981234567"
+  },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Parrilla - Asado tradicional en Asunción", "description": "La mejor parrilla tradicional paraguaya en Asunción." },
+    "hero": { "headline": "El sabor del verdadero asado", "subheadline": "Parrilla tradicional paraguaya en Asunción", "ctaPrimaryText": "Reservá tu mesa", "ctaSecondaryText": "Ver menú" },
+    "services": { "title": "Nuestra Parrilla", "items": [
+      { "name": "Asado de Tira", "price": "65.000 Gs", "description": "Corte tradicional a la parrilla", "category": "Carnes" },
+      { "name": "Pechuga de Pollo", "price": "45.000 Gs", "description": "A la parrilla con ensalada", "category": "Carnes" },
+      { "name": "Chorizo Paraguayo", "price": "15.000 Gs", "description": "Chorizo artesanal", "category": "Entradas" },
+      { "name": "Mandioca Frita", "price": "12.000 Gs", "description": "Porción para compartir", "category": "Entradas" },
+      { "name": "Ensalada Mixta", "price": "18.000 Gs", "description": "Lechuga, tomate y cebolla", "category": "Ensaladas" }
+    ]},
+    "testimonials": { "title": "Opiniones", "items": [
+      { "quote": "El mejor asado de Asunción. La carne se deshace en la boca.", "author": "Pedro G.", "rating": 5 },
+      { "quote": "Siempre venimos en familia. El ambiente es único.", "author": "Familia Benítez", "rating": 5 }
+    ]},
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" },
+    "cta": { "title": "Reservá tu mesa", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Demo Parrilla", "description": "Reservá tu mesa." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Parrilla", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-parrilla" }, { "label": "Contacto", "href": "/s/es/demo-parrilla/contacto" }] }
+}

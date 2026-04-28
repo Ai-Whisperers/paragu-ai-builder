@@ -1,0 +1,28 @@
+{
+  "siteName": "Demo Psicología",
+  "tagline": "Atención psicológica presencial y online en Asunción",
+  "navigation": {
+    "businessName": "Psicología",
+    "navItems": [{ "label": "Inicio", "href": "/s/es/demo-psicologia" }, { "label": "Contacto", "href": "/s/es/demo-psicologia/contacto" }],
+    "ctaText": "Agendá tu sesión", "ctaHref": "https://wa.me/595981234567"
+  },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Psicología - Atención psicológica en Asunción", "description": "Atención psicológica presencial y online." },
+    "hero": { "headline": "Tu bienestar emocional importa", "subheadline": "Atención psicológica presencial y online en Asunción", "ctaPrimaryText": "Agendá tu sesión", "ctaSecondaryText": "Conocenos" },
+    "services": { "title": "Áreas de Atención", "items": [
+      { "name": "Terapia Individual", "price": "80.000 Gs", "description": "Sesiones personalizadas para adultos", "category": "Individual" },
+      { "name": "Terapia Online", "price": "70.000 Gs", "description": "Sesiones por videollamada", "category": "Online" },
+      { "name": "Terapia de Pareja", "price": "100.000 Gs", "description": "Atención para parejas", "category": "Pareja" },
+      { "name": "Terapia Infantil", "price": "85.000 Gs", "description": "Atención para niños y adolescentes", "category": "Infantil" }
+    ]},
+    "testimonials": { "title": "Testimonios", "items": [
+      { "quote": "Empecé terapia online y cambió mi vida. Muy profesional.", "author": "Sofía R.", "rating": 5 },
+      { "quote": "Excelente psicóloga. Me ayudó mucho en un momento difícil.", "author": "Andrés L.", "rating": 5 }
+    ]},
+    "cta": { "title": "Agendá tu sesión", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Demo Psicología", "description": "Agendá tu sesión." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Psicología", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-psicologia" }, { "label": "Contacto", "href": "/s/es/demo-psicologia/contacto" }] }
+}

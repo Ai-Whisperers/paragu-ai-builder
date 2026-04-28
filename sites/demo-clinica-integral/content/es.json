@@ -1,0 +1,29 @@
+{
+  "siteName": "Demo Clínica Integral",
+  "tagline": "Atención médica general y especializada en Asunción",
+  "navigation": {
+    "businessName": "Clínica Integral",
+    "navItems": [{ "label": "Inicio", "href": "/s/es/demo-clinica-integral" }, { "label": "Contacto", "href": "/s/es/demo-clinica-integral/contacto" }],
+    "ctaText": "Agendá tu consulta", "ctaHref": "https://wa.me/595981234567"
+  },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Clínica Integral - Atención médica en Asunción", "description": "Atención médica general y especializada en Asunción." },
+    "hero": { "headline": "Tu salud, nuestra prioridad", "subheadline": "Atención médica general y especializada en Asunción", "ctaPrimaryText": "Agendá tu consulta", "ctaSecondaryText": "Nuestros servicios" },
+    "services": { "title": "Nuestros Servicios", "items": [
+      { "name": "Medicina General", "price": "80.000 Gs", "description": "Consulta médica general", "category": "Consultas" },
+      { "name": "Pediatría", "price": "90.000 Gs", "description": "Atención pediátrica", "category": "Consultas" },
+      { "name": "Cardiología", "price": "120.000 Gs", "description": "Consulta cardiológica con ECG", "category": "Especialidades" },
+      { "name": "Análisis Clínicos", "price": "Desde 30.000 Gs", "description": "Análisis de sangre y orina", "category": "Estudios" },
+      { "name": "Ecografía", "price": "100.000 Gs", "description": "Ecografía general", "category": "Estudios" }
+    ]},
+    "testimonials": { "title": "Testimonios", "items": [
+      { "quote": "Excelente atención médica. Rápidos y profesionales.", "author": "María L.", "rating": 5 },
+      { "quote": "La mejor clínica de Asunción. Me atendieron súper bien.", "author": "Roberto A.", "rating": 5 }
+    ]},
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" },
+    "cta": { "title": "Agendá tu consulta", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Demo Clínica", "description": "Agendá tu consulta." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Clínica Integral", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-clinica-integral" }, { "label": "Contacto", "href": "/s/es/demo-clinica-integral/contacto" }] }
+}

@@ -11,14 +11,29 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=15, pages=201, content=30, blog=34, images=15, verticals=23. */
+/** Counts: sites=30, pages=239, content=45, blog=34, images=15, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "alejandro-villamayor",
   "bufete-mendez",
   "dayah-litworks",
   "de-abasto-a-casa",
+  "demo-barberia",
+  "demo-cafeteria",
+  "demo-clinica-integral",
   "demo-contador",
+  "demo-depilacion",
   "demo-estudio-contable",
+  "demo-farmacia",
+  "demo-inmobiliaria",
+  "demo-maquillaje",
+  "demo-odontologia",
+  "demo-panaderia",
+  "demo-parrilla",
+  "demo-peluqueria",
+  "demo-psicologia",
+  "demo-restaurant",
+  "demo-salon-belleza",
+  "demo-unas",
   "fun4me",
   "granja-cabral",
   "nexa-paraguay",
@@ -1066,6 +1081,149 @@ export const SITES: Record<string, JsonRecord> = {
     "stagingDomain": "staging.deabastoacasa.com.py",
     "vertical": "food-beverage"
   },
+  "demo-barberia": {
+    "businessType": "barberia",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@barberia.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "portfolio": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-barberia",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-barberia",
+    "vertical": "beauty-personal-care"
+  },
+  "demo-cafeteria": {
+    "businessType": "cafeteria",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@cafeteria.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-cafeteria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-cafeteria",
+    "vertical": "food-beverage"
+  },
+  "demo-clinica-integral": {
+    "businessType": "clinica-integral",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@clinica-integral.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "doctorProfiles": true,
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-clinica-integral",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-clinica-integral",
+    "vertical": "health-wellness"
+  },
   "demo-contador": {
     "businessType": "contador",
     "chrome": {
@@ -1138,6 +1296,54 @@ export const SITES: Record<string, JsonRecord> = {
     },
     "vertical": "b2b-professional"
   },
+  "demo-depilacion": {
+    "businessType": "depilacion",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@depilacion.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "portfolio": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-depilacion",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-depilacion",
+    "vertical": "beauty-personal-care"
+  },
   "demo-estudio-contable": {
     "businessType": "cpa_firm",
     "chrome": {
@@ -1205,6 +1411,530 @@ export const SITES: Record<string, JsonRecord> = {
     "publicUrl": "https://paragu-ai.com/s/es/demo-estudio-contable",
     "source": "manual-upgrade",
     "vertical": "b2b-professional"
+  },
+  "demo-farmacia": {
+    "businessType": "farmacia",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@farmacia.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "doctorProfiles": true,
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-farmacia",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-farmacia",
+    "vertical": "health-wellness"
+  },
+  "demo-inmobiliaria": {
+    "businessType": "inmobiliaria",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@inmobiliariademo.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "gallery": true,
+      "propertyListings": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-inmobiliaria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-inmobiliaria",
+    "vertical": "real-estate-relocation"
+  },
+  "demo-maquillaje": {
+    "businessType": "maquillaje",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@maquillaje.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "portfolio": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-maquillaje",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-maquillaje",
+    "vertical": "beauty-personal-care"
+  },
+  "demo-odontologia": {
+    "businessType": "odontologia",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@odontologia.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "doctorProfiles": true,
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-odontologia",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-odontologia",
+    "vertical": "health-wellness"
+  },
+  "demo-panaderia": {
+    "businessType": "panaderia",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@panaderia.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-panaderia",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-panaderia",
+    "vertical": "food-beverage"
+  },
+  "demo-parrilla": {
+    "businessType": "parrilla",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@parrilla.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-parrilla",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-parrilla",
+    "vertical": "food-beverage"
+  },
+  "demo-peluqueria": {
+    "businessType": "peluqueria",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@peluqueria.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "portfolio": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-peluqueria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-peluqueria",
+    "vertical": "beauty-personal-care"
+  },
+  "demo-psicologia": {
+    "businessType": "psicologia",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@psicologia.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "doctorProfiles": true,
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-psicologia",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-psicologia",
+    "vertical": "health-wellness"
+  },
+  "demo-restaurant": {
+    "businessType": "restaurant",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@restaurant.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-restaurant",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-restaurant",
+    "vertical": "food-beverage"
+  },
+  "demo-salon-belleza": {
+    "businessType": "salon-belleza",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@salon-belleza.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "portfolio": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-salon-belleza",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-salon-belleza",
+    "vertical": "beauty-personal-care"
+  },
+  "demo-unas": {
+    "businessType": "unas",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@unas.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "portfolio": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-unas",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-unas",
+    "vertical": "beauty-personal-care"
   },
   "fun4me": {
     "businessType": "sex_shop",
@@ -2912,15 +3642,15 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "home.internationalStandards",
-        "id": "features",
+        "id": "trust-badges",
         "styling": {
           "background": "alt"
         },
-        "variant": "three-col"
+        "variant": "strip"
       },
       {
         "content": "home.services",
-        "id": "services",
+        "id": "content-grid",
         "styling": {
           "background": "alt"
         },
@@ -2933,14 +3663,6 @@ export const PAGES: Record<string, JsonRecord> = {
           "background": "default"
         },
         "variant": "vertical"
-      },
-      {
-        "content": "home.credentials",
-        "id": "case-studies",
-        "styling": {
-          "background": "alt"
-        },
-        "variant": "three-col"
       },
       {
         "content": "home.testimonials",
@@ -4186,6 +4908,197 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "zonas",
     "titleKey": "zonasPage.seo.title"
   },
+  "demo-barberia:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-barberia:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-barberia:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
+  "demo-cafeteria:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-cafeteria:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-clinica-integral:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-clinica-integral:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-clinica-integral:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
   "demo-contador:blog": {
     "descriptionKey": "blog.seo.description",
     "sections": [
@@ -4475,6 +5388,77 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "testimonios",
     "titleKey": "testimonios.seo.title"
   },
+  "demo-depilacion:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-depilacion:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-depilacion:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
   "demo-estudio-contable:calculadoras": {
     "descriptionKey": "calculadoras.seo.description",
     "sections": [
@@ -4690,6 +5674,655 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
+  "demo-farmacia:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-farmacia:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-inmobiliaria:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-inmobiliaria:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-maquillaje:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-maquillaje:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-maquillaje:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
+  "demo-odontologia:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-odontologia:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-panaderia:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-panaderia:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-parrilla:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-parrilla:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-peluqueria:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-peluqueria:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-peluqueria:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
+  "demo-psicologia:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-psicologia:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-restaurant:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-restaurant:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-restaurant:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
+  "demo-salon-belleza:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-salon-belleza:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-salon-belleza:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "servicios",
+    "titleKey": "servicios.seo.title"
+  },
+  "demo-unas:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-unas:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-unas:servicios": {
+    "descriptionKey": "servicios.seo.description",
+    "sections": [
+      {
+        "content": "servicios.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
       }
     ],
     "slug": "servicios",
@@ -16505,6 +18138,382 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     }
   },
+  "demo-barberia:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Demo Barbería"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Barbería",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-barberia",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-barberia/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-barberia/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu turno"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu turno",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Estilo tradicional para hombres modernos",
+        "subheadline": "Cortes clásicos, afeitado tradicional y arreglo de barba"
+      },
+      "seo": {
+        "description": "Cortes clásicos y modernos, afeitado con navaja y barba profesional.",
+        "title": "Demo Barbería - Cortes y afeitado clásico en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Cortes",
+            "description": "Corte con máquina y tijera",
+            "name": "Corte Clásico",
+            "price": "45.000 Gs"
+          },
+          {
+            "category": "Cortes",
+            "description": "Corte con fade y diseños",
+            "name": "Corte Moderno",
+            "price": "50.000 Gs"
+          },
+          {
+            "category": "Barba",
+            "description": "Perfilado profesional",
+            "name": "Arreglo de Barba",
+            "price": "25.000 Gs"
+          },
+          {
+            "category": "Barba",
+            "description": "Con navaja y toalla caliente",
+            "name": "Afeitado Tradicional",
+            "price": "35.000 Gs"
+          },
+          {
+            "category": "Combos",
+            "description": "Paquete completo",
+            "name": "Corte + Barba",
+            "price": "60.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "bio": "20 años de experiencia en cortes clásicos.",
+            "name": "Roberto Díaz",
+            "role": "Barbero Principal"
+          }
+        ],
+        "title": "Nuestros Barberos"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Miguel A.",
+            "quote": "El mejor lugar para un corte serio. Atención de primera.",
+            "rating": 5
+          },
+          {
+            "author": "Juan C.",
+            "quote": "Afeitado perfecto, como en los viejos tiempos.",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      }
+    },
+    "navigation": {
+      "businessName": "Barbería",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Reservá tu turno",
+      "navItems": [
+        {
+          "href": "/s/es/demo-barberia",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-barberia/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-barberia/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Servicios",
+        "subheadline": "Todo para tu look"
+      },
+      "seo": {
+        "description": "Nuestros servicios.",
+        "title": "Servicios — Demo Barbería"
+      }
+    },
+    "siteName": "Demo Barbería",
+    "tagline": "Cortes clásicos y modernos, afeitado tradicional en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-cafeteria:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Demo Cafetería"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Cafetería",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-cafeteria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-cafeteria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Pedí tu café"
+      },
+      "hero": {
+        "ctaPrimaryText": "Pedí por WhatsApp",
+        "ctaSecondaryText": "Ver menú",
+        "headline": "Tu momento café",
+        "subheadline": "Café de especialidad, desayunos y meriendas en Asunción"
+      },
+      "seo": {
+        "description": "Café de especialidad, desayunos y meriendas en Asunción.",
+        "title": "Demo Cafetería - Café de especialidad en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Café",
+            "description": "Café de especialidad",
+            "name": "Café Express",
+            "price": "8.000 Gs"
+          },
+          {
+            "category": "Café",
+            "description": "Con leche cremosa",
+            "name": "Cappuccino",
+            "price": "12.000 Gs"
+          },
+          {
+            "category": "Desayuno",
+            "description": "Jamón y queso",
+            "name": "Tostado Mixto",
+            "price": "18.000 Gs"
+          },
+          {
+            "category": "Desayuno",
+            "description": "Medialuna de manteca",
+            "name": "Medialuna",
+            "price": "3.000 Gs"
+          },
+          {
+            "category": "Bebidas",
+            "description": "Naranja, limón o papaya",
+            "name": "Jugo Natural",
+            "price": "10.000 Gs"
+          }
+        ],
+        "title": "Nuestro Menú"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Ana S.",
+            "quote": "El mejor café de especialidad de Asunción.",
+            "rating": 5
+          },
+          {
+            "author": "Diego P.",
+            "quote": "Perfecto para trabajar. Buen café y wifi rápido.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Cafetería",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Pedí por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-cafeteria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-cafeteria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Cafetería",
+    "tagline": "Café de especialidad y desayunos en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-clinica-integral:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Agendá tu consulta.",
+        "title": "Contacto — Demo Clínica"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Clínica Integral",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-clinica-integral",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-clinica-integral/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu consulta"
+      },
+      "hero": {
+        "ctaPrimaryText": "Agendá tu consulta",
+        "ctaSecondaryText": "Nuestros servicios",
+        "headline": "Tu salud, nuestra prioridad",
+        "subheadline": "Atención médica general y especializada en Asunción"
+      },
+      "seo": {
+        "description": "Atención médica general y especializada en Asunción.",
+        "title": "Demo Clínica Integral - Atención médica en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Consultas",
+            "description": "Consulta médica general",
+            "name": "Medicina General",
+            "price": "80.000 Gs"
+          },
+          {
+            "category": "Consultas",
+            "description": "Atención pediátrica",
+            "name": "Pediatría",
+            "price": "90.000 Gs"
+          },
+          {
+            "category": "Especialidades",
+            "description": "Consulta cardiológica con ECG",
+            "name": "Cardiología",
+            "price": "120.000 Gs"
+          },
+          {
+            "category": "Estudios",
+            "description": "Análisis de sangre y orina",
+            "name": "Análisis Clínicos",
+            "price": "Desde 30.000 Gs"
+          },
+          {
+            "category": "Estudios",
+            "description": "Ecografía general",
+            "name": "Ecografía",
+            "price": "100.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "María L.",
+            "quote": "Excelente atención médica. Rápidos y profesionales.",
+            "rating": 5
+          },
+          {
+            "author": "Roberto A.",
+            "quote": "La mejor clínica de Asunción. Me atendieron súper bien.",
+            "rating": 5
+          }
+        ],
+        "title": "Testimonios"
+      }
+    },
+    "navigation": {
+      "businessName": "Clínica Integral",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Agendá tu consulta",
+      "navItems": [
+        {
+          "href": "/s/es/demo-clinica-integral",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-clinica-integral/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Clínica Integral",
+    "tagline": "Atención médica general y especializada en Asunción",
+    "whatsapp": "+595981234567"
+  },
   "demo-contador:es": {
     "_meta": {
       "author": "batch-create-demos",
@@ -16787,6 +18796,140 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Demo Contador Asunción",
     "tagline": "Contabilidad, impuestos y asesoramiento para empresas y profesionales en Asunción.",
+    "whatsapp": "+595981234567"
+  },
+  "demo-depilacion:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Demo Depilación"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Depilación",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-depilacion",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-depilacion/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-depilacion/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu sesión"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu sesión",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Piel suave, libre de vello",
+        "subheadline": "Depilación láser y cera profesional en Asunción"
+      },
+      "seo": {
+        "description": "Depilación láser y cera, piel suave todo el año.",
+        "title": "Demo Depilación - Láser y cera en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Cera",
+            "description": "Zona: axilas, labio, mentón",
+            "name": "Depilación con Cera",
+            "price": "45.000 Gs"
+          },
+          {
+            "category": "Cera",
+            "description": "Piernas enteras",
+            "name": "Piernas Completo",
+            "price": "120.000 Gs"
+          },
+          {
+            "category": "Cera",
+            "description": "Remoción completa",
+            "name": "Depilación Brasileña",
+            "price": "70.000 Gs"
+          },
+          {
+            "category": "Láser",
+            "description": "Sesión facial completa",
+            "name": "Láser Facial",
+            "price": "250.000 Gs"
+          },
+          {
+            "category": "Láser",
+            "description": "Sesión cuerpo completo",
+            "name": "Láser Corporal",
+            "price": "350.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Elena G.",
+            "quote": "Piel súper suave por semanas. La mejor depilación.",
+            "rating": 5
+          },
+          {
+            "author": "Lorena P.",
+            "quote": "Muy profesional y el local impecable.",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen nuestras clientas"
+      }
+    },
+    "navigation": {
+      "businessName": "Depilación",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Reservá tu sesión",
+      "navItems": [
+        {
+          "href": "/s/es/demo-depilacion",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-depilacion/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-depilacion/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Servicios",
+        "subheadline": "Todo para tu piel"
+      },
+      "seo": {
+        "description": "Nuestros servicios.",
+        "title": "Servicios — Demo Depilación"
+      }
+    },
+    "siteName": "Demo Depilación",
+    "tagline": "Depilación láser y cera, piel suave todo el año en Asunción",
     "whatsapp": "+595981234567"
   },
   "demo-estudio-contable:es": {
@@ -17260,6 +19403,1413 @@ export const CONTENT: Record<string, JsonRecord> = {
     "siteName": "Estudio Contable Asunción",
     "tagline": "Contabilidad, impuestos y sueldos para PYMES en Paraguay",
     "whatsapp": "+595985724135"
+  },
+  "demo-farmacia:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Demo Farmacia"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Farmacia",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-farmacia",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-farmacia/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Consultá disponibilidad"
+      },
+      "hero": {
+        "ctaPrimaryText": "Consultá por WhatsApp",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Tu salud, nuestra misión",
+        "subheadline": "Farmacia con atención personalizada y delivery en Asunción"
+      },
+      "seo": {
+        "description": "Farmacia con atención personalizada y delivery en Asunción.",
+        "title": "Demo Farmacia - Farmacia en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Medicamentos",
+            "description": "Medicamentos genéricos y de marca",
+            "name": "Venta de Medicamentos",
+            "price": "Consultar"
+          },
+          {
+            "category": "Servicios",
+            "description": "Control de presión arterial",
+            "name": "Toma de Presión",
+            "price": "Gratis"
+          },
+          {
+            "category": "Servicios",
+            "description": "Control de glucosa en sangre",
+            "name": "Medición de Glucosa",
+            "price": "Gratis"
+          },
+          {
+            "category": "Servicios",
+            "description": "Entrega a domicilio en Asunción",
+            "name": "Delivery",
+            "price": "Gs 5.000"
+          },
+          {
+            "category": "Perfumería",
+            "description": "Perfumes y cosméticos",
+            "name": "Perfumería",
+            "price": "Consultar"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Lucía M.",
+            "quote": "Siempre tienen los medicamentos que necesito. Buen precio y rápido delivery.",
+            "rating": 5
+          },
+          {
+            "author": "Don Carlos",
+            "quote": "La toma de presión gratis me salvó. Descubrí que tenía presión alta.",
+            "rating": 5
+          }
+        ],
+        "title": "Testimonios"
+      }
+    },
+    "navigation": {
+      "businessName": "Farmacia",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Consultá por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-farmacia",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-farmacia/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Farmacia",
+    "tagline": "Farmacia de turno con atención personalizada en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-inmobiliaria:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Demo Inmobiliaria"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Inmobiliaria",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-inmobiliaria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-inmobiliaria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "Contactar agente",
+        "title": "Buscás propiedad?"
+      },
+      "hero": {
+        "ctaPrimaryText": "Ver propiedades",
+        "ctaSecondaryText": "Contactar agente",
+        "headline": "Encontrá tu hogar ideal",
+        "subheadline": "Casas, departamentos y terrenos en las mejores zonas de Asunción"
+      },
+      "seo": {
+        "description": "Casas, departamentos y terrenos en Asunción.",
+        "title": "Demo Inmobiliaria - Propiedades en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Compras",
+            "description": "Te acompañamos en todo el proceso",
+            "name": "Compra de Propiedades",
+            "price": "Consultar"
+          },
+          {
+            "category": "Ventas",
+            "description": "Valoración justa y marketing",
+            "name": "Venta de Propiedades",
+            "price": "2% comisión"
+          },
+          {
+            "category": "Alquileres",
+            "description": "Gestión de alquileres",
+            "name": "Alquileres",
+            "price": "Consultar"
+          },
+          {
+            "category": "Servicios",
+            "description": "Tasación profesional sin costo",
+            "name": "Tasaciones",
+            "price": "Gratis"
+          },
+          {
+            "category": "Inversiones",
+            "description": "Asesoría para inversores extranjeros",
+            "name": "Asesoría Inversión",
+            "price": "Consultar"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "bio": "15 años en el mercado inmobiliario de Asunción.",
+            "name": "Carlos Mendoza",
+            "role": "Agente Senior"
+          }
+        ],
+        "title": "Nuestros Agentes"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Miguel Á.",
+            "quote": "Encontré mi casa ideal en una semana. Profesionales y rápidos.",
+            "rating": 5
+          },
+          {
+            "author": "Patricia S.",
+            "quote": "Vendieron mi propiedad en tiempo récord. Súper recomendados.",
+            "rating": 5
+          }
+        ],
+        "title": "Testimonios"
+      }
+    },
+    "navigation": {
+      "businessName": "Inmobiliaria",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Contactar agente",
+      "navItems": [
+        {
+          "href": "/s/es/demo-inmobiliaria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-inmobiliaria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Inmobiliaria",
+    "tagline": "Casas, departamentos y terrenos en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-maquillaje:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Demo Maquillaje"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Maquillaje",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-maquillaje",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-maquillaje/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-maquillaje/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Reservá tu sesión"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu sesión",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Tu look perfecto para cada ocasión",
+        "subheadline": "Maquillaje profesional para bodas, eventos y sesiones"
+      },
+      "seo": {
+        "description": "Maquillaje profesional para bodas, eventos y sesiones de fotos en Asunción.",
+        "title": "Demo Maquillaje Profesional - Bodas y eventos"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Maquillaje",
+            "description": "Para eventos diurnos",
+            "name": "Maquillaje Social",
+            "price": "120.000 Gs"
+          },
+          {
+            "category": "Novias",
+            "description": "Incluye prueba",
+            "name": "Maquillaje Novia",
+            "price": "350.000 Gs"
+          },
+          {
+            "category": "Maquillaje",
+            "description": "Diseños especiales",
+            "name": "Maquillaje Artístico",
+            "price": "150.000 Gs"
+          },
+          {
+            "category": "FX",
+            "description": "Efectos especiales",
+            "name": "Maquillaje FX",
+            "price": "200.000 Gs"
+          }
+        ],
+        "title": "Servicios de Maquillaje"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Florencia M.",
+            "quote": "Mi maquillaje de boda duró todo el día y la noche. Perfecto.",
+            "rating": 5
+          },
+          {
+            "author": "Karina B.",
+            "quote": "La mejor maquilladora. Me hizo sentir hermosa.",
+            "rating": 5
+          }
+        ],
+        "title": "Testimonios"
+      }
+    },
+    "navigation": {
+      "businessName": "Maquillaje",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Reservá tu sesión",
+      "navItems": [
+        {
+          "href": "/s/es/demo-maquillaje",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-maquillaje/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-maquillaje/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Servicios",
+        "subheadline": "Todo para tu maquillaje"
+      },
+      "seo": {
+        "description": "Nuestros servicios.",
+        "title": "Servicios — Demo Maquillaje"
+      }
+    },
+    "siteName": "Demo Maquillaje Profesional",
+    "tagline": "Maquillaje para bodas, eventos y sesiones de fotos en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-odontologia:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Agendá tu cita.",
+        "title": "Contacto — Demo Odontología"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Odontología",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-odontologia",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-odontologia/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu cita"
+      },
+      "hero": {
+        "ctaPrimaryText": "Agendá tu cita",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Tu sonrisa saludable",
+        "subheadline": "Cuidado dental integral para toda la familia en Asunción"
+      },
+      "seo": {
+        "description": "Cuidado dental integral en Asunción.",
+        "title": "Demo Odontología - Cuidado dental en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Preventiva",
+            "description": "Profilaxis y eliminación de sarro",
+            "name": "Limpieza Dental",
+            "price": "80.000 Gs"
+          },
+          {
+            "category": "Consultas",
+            "description": "Evaluación bucodental completa",
+            "name": "Consulta General",
+            "price": "60.000 Gs"
+          },
+          {
+            "category": "Estética",
+            "description": "Blanqueamiento dental profesional",
+            "name": "Blanqueamiento",
+            "price": "350.000 Gs"
+          },
+          {
+            "category": "Cirugía",
+            "description": "Extracción dental simple",
+            "name": "Extracción",
+            "price": "100.000 Gs"
+          },
+          {
+            "category": "Ortodoncia",
+            "description": "Tratamiento de brackets",
+            "name": "Ortodoncia",
+            "price": "Consultar"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Carlos M.",
+            "quote": "El mejor dentista de Asunción. Sin dolor y muy profesional.",
+            "rating": 5
+          },
+          {
+            "author": "Laura P.",
+            "quote": "Mi hijo ya no le tiene miedo al dentista. Excelente trato.",
+            "rating": 5
+          }
+        ],
+        "title": "Testimonios"
+      }
+    },
+    "navigation": {
+      "businessName": "Odontología",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Agendá tu cita",
+      "navItems": [
+        {
+          "href": "/s/es/demo-odontologia",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-odontologia/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Odontología",
+    "tagline": "Cuidado dental integral en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-panaderia:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Demo Panadería"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Panadería",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-panaderia",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-panaderia/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Hacé tu pedido"
+      },
+      "hero": {
+        "ctaPrimaryText": "Pedí por WhatsApp",
+        "ctaSecondaryText": "Conocenos",
+        "headline": "El aroma del pan recién horneado",
+        "subheadline": "Pan artesanal, facturas y masas dulces todos los días en Asunción"
+      },
+      "seo": {
+        "description": "Pan artesanal, facturas y masas dulces horneadas todos los días.",
+        "title": "Demo Panadería Artesanal - Pan horneado en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Pan",
+            "description": "Pan tradicional horneado diariamente",
+            "name": "Pan Francés",
+            "price": "2.000 Gs"
+          },
+          {
+            "category": "Pan",
+            "description": "Pan saludable con harina integral",
+            "name": "Pan Integral",
+            "price": "5.000 Gs"
+          },
+          {
+            "category": "Facturas",
+            "description": "Medialunas, vigilantes y más",
+            "name": "Facturas",
+            "price": "3.000 Gs"
+          },
+          {
+            "category": "Pan",
+            "description": "Pan artesanal para hamburguesas",
+            "name": "Pan de Hamburguesa",
+            "price": "3.500 Gs"
+          },
+          {
+            "category": "Repostería",
+            "description": "Tortas por encargo",
+            "name": "Torta Casera",
+            "price": "25.000 Gs"
+          }
+        ],
+        "title": "Nuestros Productos"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Laura M.",
+            "quote": "El mejor pan de Asunción. Siempre fresco y delicioso.",
+            "rating": 5
+          },
+          {
+            "author": "Carlos R.",
+            "quote": "Las facturas son increíbles. Pedimos todos los sábados.",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen nuestros clientes"
+      }
+    },
+    "navigation": {
+      "businessName": "Panadería",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Pedí por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-panaderia",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-panaderia/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Panadería Artesanal",
+    "tagline": "Pan artesanal, facturas y masas dulces horneadas todos los días en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-parrilla:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Reservá tu mesa.",
+        "title": "Contacto — Demo Parrilla"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Parrilla",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-parrilla",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-parrilla/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Reservá tu mesa"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu mesa",
+        "ctaSecondaryText": "Ver menú",
+        "headline": "El sabor del verdadero asado",
+        "subheadline": "Parrilla tradicional paraguaya en Asunción"
+      },
+      "seo": {
+        "description": "La mejor parrilla tradicional paraguaya en Asunción.",
+        "title": "Demo Parrilla - Asado tradicional en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Carnes",
+            "description": "Corte tradicional a la parrilla",
+            "name": "Asado de Tira",
+            "price": "65.000 Gs"
+          },
+          {
+            "category": "Carnes",
+            "description": "A la parrilla con ensalada",
+            "name": "Pechuga de Pollo",
+            "price": "45.000 Gs"
+          },
+          {
+            "category": "Entradas",
+            "description": "Chorizo artesanal",
+            "name": "Chorizo Paraguayo",
+            "price": "15.000 Gs"
+          },
+          {
+            "category": "Entradas",
+            "description": "Porción para compartir",
+            "name": "Mandioca Frita",
+            "price": "12.000 Gs"
+          },
+          {
+            "category": "Ensaladas",
+            "description": "Lechuga, tomate y cebolla",
+            "name": "Ensalada Mixta",
+            "price": "18.000 Gs"
+          }
+        ],
+        "title": "Nuestra Parrilla"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Pedro G.",
+            "quote": "El mejor asado de Asunción. La carne se deshace en la boca.",
+            "rating": 5
+          },
+          {
+            "author": "Familia Benítez",
+            "quote": "Siempre venimos en familia. El ambiente es único.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Parrilla",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Reservá tu mesa",
+      "navItems": [
+        {
+          "href": "/s/es/demo-parrilla",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-parrilla/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Parrilla",
+    "tagline": "La mejor parrilla tradicional paraguaya en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-peluqueria:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Respondemos por WhatsApp en minutos."
+      },
+      "seo": {
+        "description": "Contactanos para agendar tu cita.",
+        "title": "Contacto — Demo Peluquería"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Peluquería",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-peluqueria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-peluqueria/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-peluqueria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Reservá tu turno hoy"
+      },
+      "faq": {
+        "items": [
+          {
+            "a": "Sí, aceptamos todas las tarjetas de crédito y débito.",
+            "q": "¿Aceptan tarjetas?"
+          },
+          {
+            "a": "Aproximadamente 2 horas.",
+            "q": "¿Cuánto dura un servicio de coloración?"
+          }
+        ],
+        "title": "Preguntas Frecuentes"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu turno",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Tu look perfecto te espera",
+        "subheadline": "Cortes modernos, coloración y tratamientos capilares en Asunción"
+      },
+      "seo": {
+        "description": "Cortes modernos, coloración y tratamientos capilares profesionales en Asunción.",
+        "title": "Demo Peluquería - Salón de belleza en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Cortes",
+            "description": "Corte y style profesional",
+            "name": "Corte Dama",
+            "price": "80.000 Gs"
+          },
+          {
+            "category": "Cortes",
+            "description": "Corte moderno y clásico",
+            "name": "Corte Caballero",
+            "price": "50.000 Gs"
+          },
+          {
+            "category": "Color",
+            "description": "Tinte completo con marcas profesionales",
+            "name": "Coloración",
+            "priceFrom": "150.000 Gs"
+          },
+          {
+            "category": "Color",
+            "description": "Reflejos naturales",
+            "name": "Mechas",
+            "priceFrom": "200.000 Gs"
+          },
+          {
+            "category": "Tratamientos",
+            "description": "Alisado y reparación capilar",
+            "name": "Keratina",
+            "price": "300.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "bio": "15 años de experiencia en cortes y coloración.",
+            "name": "María González",
+            "role": "Estilista Senior"
+          }
+        ],
+        "title": "Nuestro Equipo"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "María G.",
+            "quote": "Siempre salgo feliz del salón. El mejor corte de Asunción.",
+            "rating": 5
+          },
+          {
+            "author": "Ana L.",
+            "quote": "Mi color quedó exactamente como lo quería. Súper recomendadas.",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen nuestras clientas"
+      }
+    },
+    "navigation": {
+      "businessName": "Peluquería",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Reservá tu turno",
+      "navItems": [
+        {
+          "href": "/s/es/demo-peluqueria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-peluqueria/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-peluqueria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Servicios",
+        "subheadline": "Todo para tu cabello"
+      },
+      "seo": {
+        "description": "Conocé todos nuestros servicios de peluquería.",
+        "title": "Servicios — Demo Peluquería"
+      }
+    },
+    "siteName": "Demo Peluquería",
+    "tagline": "Cortes modernos, coloración y tratamientos capilares en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-psicologia:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Agendá tu sesión.",
+        "title": "Contacto — Demo Psicología"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Psicología",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-psicologia",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-psicologia/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu sesión"
+      },
+      "hero": {
+        "ctaPrimaryText": "Agendá tu sesión",
+        "ctaSecondaryText": "Conocenos",
+        "headline": "Tu bienestar emocional importa",
+        "subheadline": "Atención psicológica presencial y online en Asunción"
+      },
+      "seo": {
+        "description": "Atención psicológica presencial y online.",
+        "title": "Demo Psicología - Atención psicológica en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Individual",
+            "description": "Sesiones personalizadas para adultos",
+            "name": "Terapia Individual",
+            "price": "80.000 Gs"
+          },
+          {
+            "category": "Online",
+            "description": "Sesiones por videollamada",
+            "name": "Terapia Online",
+            "price": "70.000 Gs"
+          },
+          {
+            "category": "Pareja",
+            "description": "Atención para parejas",
+            "name": "Terapia de Pareja",
+            "price": "100.000 Gs"
+          },
+          {
+            "category": "Infantil",
+            "description": "Atención para niños y adolescentes",
+            "name": "Terapia Infantil",
+            "price": "85.000 Gs"
+          }
+        ],
+        "title": "Áreas de Atención"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Sofía R.",
+            "quote": "Empecé terapia online y cambió mi vida. Muy profesional.",
+            "rating": 5
+          },
+          {
+            "author": "Andrés L.",
+            "quote": "Excelente psicóloga. Me ayudó mucho en un momento difícil.",
+            "rating": 5
+          }
+        ],
+        "title": "Testimonios"
+      }
+    },
+    "navigation": {
+      "businessName": "Psicología",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Agendá tu sesión",
+      "navItems": [
+        {
+          "href": "/s/es/demo-psicologia",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-psicologia/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Psicología",
+    "tagline": "Atención psicológica presencial y online en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-restaurant:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Reservá tu mesa.",
+        "title": "Contacto — Demo Restaurante"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Restaurante",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-restaurant",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-restaurant/menu",
+          "label": "Menú"
+        },
+        {
+          "href": "/s/es/demo-restaurant/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Reservá tu mesa"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu mesa",
+        "ctaSecondaryText": "Ver menú",
+        "headline": "Sabores que enamoran",
+        "subheadline": "Cocina tradicional paraguaya e internacional en el corazón de Asunción"
+      },
+      "seo": {
+        "description": "Restaurante con cocina tradicional paraguaya e internacional. Reservá tu mesa.",
+        "title": "Demo Restaurante - Cocina tradicional en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Ejecutivo",
+            "description": "Menú ejecutivo de lunes a viernes",
+            "name": "Plato del Día",
+            "price": "45.000 Gs"
+          },
+          {
+            "category": "Parrilla",
+            "description": "Corte a elección con guarniciones",
+            "name": "Parrilla Completa",
+            "price": "85.000 Gs"
+          },
+          {
+            "category": "Pastas",
+            "description": "Pasta fresca con salsa a elección",
+            "name": "Pasta de la Casa",
+            "price": "55.000 Gs"
+          },
+          {
+            "category": "Ensaladas",
+            "description": "Ensalada fresca con proteína",
+            "name": "Ensalada Completa",
+            "price": "38.000 Gs"
+          },
+          {
+            "category": "Postres",
+            "description": "Dulces tradicionales paraguayos",
+            "name": "Postre Casero",
+            "price": "20.000 Gs"
+          }
+        ],
+        "title": "Nuestra Carta"
+      },
+      "team": {
+        "items": [
+          {
+            "bio": "15 años de experiencia en cocina tradicional paraguaya.",
+            "name": "Chef Miguel",
+            "role": "Chef Ejecutivo"
+          }
+        ],
+        "title": "Nuestro Equipo"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Roberto M.",
+            "quote": "La mejor parrilla de Asunción. El lomito está increíble.",
+            "rating": 5
+          },
+          {
+            "author": "Familia González",
+            "quote": "Ambiente familiar y comida deliciosa. Volvemos siempre.",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen nuestros comensales"
+      }
+    },
+    "navigation": {
+      "businessName": "Restaurante",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Reservá tu mesa",
+      "navItems": [
+        {
+          "href": "/s/es/demo-restaurant",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-restaurant/menu",
+          "label": "Menú"
+        },
+        {
+          "href": "/s/es/demo-restaurant/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Nuestro Menú",
+        "subheadline": "Cocina que enamora"
+      },
+      "seo": {
+        "description": "Nuestra carta.",
+        "title": "Menú — Demo Restaurante"
+      }
+    },
+    "siteName": "Demo Restaurante",
+    "tagline": "Cocina tradicional paraguaya e internacional en el centro de Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-salon-belleza:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Respondemos por WhatsApp en minutos."
+      },
+      "seo": {
+        "description": "Contactanos para agendar tu cita.",
+        "title": "Contacto — Demo Salón de Belleza"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Salón de Belleza",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-salon-belleza",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-salon-belleza/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-salon-belleza/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Reservá tu cita ahora"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu cita",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Brillá en tu ocasión especial",
+        "subheadline": "Maquillaje profesional, peinados para eventos y belleza integral"
+      },
+      "seo": {
+        "description": "Maquillaje profesional, peinados para eventos y tratamientos de belleza en Asunción.",
+        "title": "Demo Salón de Belleza - Maquillaje y peinados"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Maquillaje",
+            "description": "Maquillaje para eventos diurnos",
+            "name": "Maquillaje Social",
+            "price": "120.000 Gs"
+          },
+          {
+            "category": "Maquillaje",
+            "description": "Incluye prueba",
+            "name": "Maquillaje Novia",
+            "price": "350.000 Gs"
+          },
+          {
+            "category": "Peinados",
+            "description": "Con prueba incluida",
+            "name": "Peinado Novia",
+            "price": "250.000 Gs"
+          },
+          {
+            "category": "Peinados",
+            "description": "Peinado para toda ocasión",
+            "name": "Peinado Social",
+            "price": "80.000 Gs"
+          },
+          {
+            "category": "Tratamientos",
+            "description": "Limpieza e hidratación profunda",
+            "name": "Tratamiento Facial",
+            "price": "100.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "team": {
+        "items": [
+          {
+            "bio": "Certificada en maquillaje profesional, especializada en novias.",
+            "name": "Camila Rodríguez",
+            "role": "Maquilladora Profesional"
+          }
+        ],
+        "title": "Nuestro Equipo"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Sofía R.",
+            "quote": "Mi maquillaje de novia duró todo el día perfecto. Increíble trabajo.",
+            "rating": 5
+          },
+          {
+            "author": "Camila P.",
+            "quote": "La mejor maquilladora de Asunción. Recomendadísima.",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen nuestras clientas"
+      }
+    },
+    "navigation": {
+      "businessName": "Salón de Belleza",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Reservá tu cita",
+      "navItems": [
+        {
+          "href": "/s/es/demo-salon-belleza",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-salon-belleza/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-salon-belleza/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Servicios",
+        "subheadline": "Todo para verte radiante"
+      },
+      "seo": {
+        "description": "Conocé todos nuestros servicios.",
+        "title": "Servicios — Demo Salón de Belleza"
+      }
+    },
+    "siteName": "Demo Salón de Belleza",
+    "tagline": "Maquillaje, peinados y tratamientos de belleza en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-unas:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Demo Uñas"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Uñas",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-unas",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-unas/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-unas/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu cita"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu cita",
+        "ctaSecondaryText": "Ver servicios",
+        "headline": "Tus manos hablan por vos",
+        "subheadline": "Manicure, pedicure, acrílicas y nail art profesional"
+      },
+      "seo": {
+        "description": "Manicure, pedicure, uñas acrílicas y nail art en Asunción.",
+        "title": "Demo Uñas - Nail art y cuidado de manos"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Manos",
+            "description": "Con esmaltado",
+            "name": "Manicure Clásico",
+            "price": "40.000 Gs"
+          },
+          {
+            "category": "Manos",
+            "description": "Con hidratación y masajes",
+            "name": "Manicure Spa",
+            "price": "55.000 Gs"
+          },
+          {
+            "category": "Pies",
+            "description": "Exfoliación y esmaltado",
+            "name": "Pedicure Spa",
+            "price": "65.000 Gs"
+          },
+          {
+            "category": "Acrílicas",
+            "description": "Esculpidas con diseño básico",
+            "name": "Uñas Acrílicas",
+            "price": "100.000 Gs"
+          },
+          {
+            "category": "Diseño",
+            "description": "Decoración artesanal por uña",
+            "name": "Nail Art",
+            "price": "30.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Silvia R.",
+            "quote": "Mis uñas nunca lucieron tan bien. Claudia es una artista!",
+            "rating": 5
+          },
+          {
+            "author": "Andrea M.",
+            "quote": "El mejor nail spa de la ciudad. Muy limpio y profesional.",
+            "rating": 5
+          }
+        ],
+        "title": "Lo que dicen nuestras clientas"
+      }
+    },
+    "navigation": {
+      "businessName": "Uñas",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Reservá tu cita",
+      "navItems": [
+        {
+          "href": "/s/es/demo-unas",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-unas/servicios",
+          "label": "Servicios"
+        },
+        {
+          "href": "/s/es/demo-unas/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "servicios": {
+      "hero": {
+        "headline": "Servicios",
+        "subheadline": "Todo para tus uñas"
+      },
+      "seo": {
+        "description": "Nuestros servicios.",
+        "title": "Servicios — Demo Uñas"
+      }
+    },
+    "siteName": "Demo Uñas",
+    "tagline": "Manos y pies perfectos, nail art y tratamientos en Asunción",
+    "whatsapp": "+595981234567"
   },
   "fun4me:bundles": {
     "_meta": {

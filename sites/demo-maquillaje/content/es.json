@@ -1,0 +1,38 @@
+{
+  "siteName": "Demo Maquillaje Profesional",
+  "tagline": "Maquillaje para bodas, eventos y sesiones de fotos en Asunción",
+  "navigation": {
+    "businessName": "Maquillaje",
+    "navItems": [
+      { "label": "Inicio", "href": "/s/es/demo-maquillaje" },
+      { "label": "Servicios", "href": "/s/es/demo-maquillaje/servicios" },
+      { "label": "Contacto", "href": "/s/es/demo-maquillaje/contacto" }
+    ],
+    "ctaText": "Reservá tu sesión",
+    "ctaHref": "https://wa.me/595981234567"
+  },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Maquillaje Profesional - Bodas y eventos", "description": "Maquillaje profesional para bodas, eventos y sesiones de fotos en Asunción." },
+    "hero": { "headline": "Tu look perfecto para cada ocasión", "subheadline": "Maquillaje profesional para bodas, eventos y sesiones", "ctaPrimaryText": "Reservá tu sesión", "ctaSecondaryText": "Ver servicios" },
+    "services": { "title": "Servicios de Maquillaje", "items": [
+      { "name": "Maquillaje Social", "price": "120.000 Gs", "description": "Para eventos diurnos", "category": "Maquillaje" },
+      { "name": "Maquillaje Novia", "price": "350.000 Gs", "description": "Incluye prueba", "category": "Novias" },
+      { "name": "Maquillaje Artístico", "price": "150.000 Gs", "description": "Diseños especiales", "category": "Maquillaje" },
+      { "name": "Maquillaje FX", "price": "200.000 Gs", "description": "Efectos especiales", "category": "FX" }
+    ]},
+    "testimonials": { "title": "Testimonios", "items": [
+      { "quote": "Mi maquillaje de boda duró todo el día y la noche. Perfecto.", "author": "Florencia M.", "rating": 5 },
+      { "quote": "La mejor maquilladora. Me hizo sentir hermosa.", "author": "Karina B.", "rating": 5 }
+    ]},
+    "cta": { "title": "Reservá tu sesión", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Demo Maquillaje", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "servicios": { "seo": { "title": "Servicios — Demo Maquillaje", "description": "Nuestros servicios." }, "hero": { "headline": "Servicios", "subheadline": "Todo para tu maquillaje" } },
+  "footer": { "businessName": "Demo Maquillaje", "city": "Asunción", "navLinks": [
+    { "label": "Inicio", "href": "/s/es/demo-maquillaje" },
+    { "label": "Servicios", "href": "/s/es/demo-maquillaje/servicios" },
+    { "label": "Contacto", "href": "/s/es/demo-maquillaje/contacto" }
+  ]}
+}

@@ -1,0 +1,32 @@
+{
+  "siteName": "Demo Inmobiliaria",
+  "tagline": "Casas, departamentos y terrenos en Asunción",
+  "navigation": {
+    "businessName": "Inmobiliaria",
+    "navItems": [{ "label": "Inicio", "href": "/s/es/demo-inmobiliaria" }, { "label": "Contacto", "href": "/s/es/demo-inmobiliaria/contacto" }],
+    "ctaText": "Contactar agente", "ctaHref": "https://wa.me/595981234567"
+  },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Inmobiliaria - Propiedades en Asunción", "description": "Casas, departamentos y terrenos en Asunción." },
+    "hero": { "headline": "Encontrá tu hogar ideal", "subheadline": "Casas, departamentos y terrenos en las mejores zonas de Asunción", "ctaPrimaryText": "Ver propiedades", "ctaSecondaryText": "Contactar agente" },
+    "services": { "title": "Nuestros Servicios", "items": [
+      { "name": "Compra de Propiedades", "price": "Consultar", "description": "Te acompañamos en todo el proceso", "category": "Compras" },
+      { "name": "Venta de Propiedades", "price": "2% comisión", "description": "Valoración justa y marketing", "category": "Ventas" },
+      { "name": "Alquileres", "price": "Consultar", "description": "Gestión de alquileres", "category": "Alquileres" },
+      { "name": "Tasaciones", "price": "Gratis", "description": "Tasación profesional sin costo", "category": "Servicios" },
+      { "name": "Asesoría Inversión", "price": "Consultar", "description": "Asesoría para inversores extranjeros", "category": "Inversiones" }
+    ]},
+    "testimonials": { "title": "Testimonios", "items": [
+      { "quote": "Encontré mi casa ideal en una semana. Profesionales y rápidos.", "author": "Miguel Á.", "rating": 5 },
+      { "quote": "Vendieron mi propiedad en tiempo récord. Súper recomendados.", "author": "Patricia S.", "rating": 5 }
+    ]},
+    "team": { "title": "Nuestros Agentes", "items": [
+      { "name": "Carlos Mendoza", "role": "Agente Senior", "bio": "15 años en el mercado inmobiliario de Asunción." }
+    ]},
+    "cta": { "title": "Buscás propiedad?", "buttonText": "Contactar agente", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Demo Inmobiliaria", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Inmobiliaria", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-inmobiliaria" }, { "label": "Contacto", "href": "/s/es/demo-inmobiliaria/contacto" }] }
+}

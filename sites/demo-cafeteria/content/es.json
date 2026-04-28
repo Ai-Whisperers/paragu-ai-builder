@@ -1,0 +1,29 @@
+{
+  "siteName": "Demo Cafetería",
+  "tagline": "Café de especialidad y desayunos en Asunción",
+  "navigation": {
+    "businessName": "Cafetería",
+    "navItems": [{ "label": "Inicio", "href": "/s/es/demo-cafeteria" }, { "label": "Contacto", "href": "/s/es/demo-cafeteria/contacto" }],
+    "ctaText": "Pedí por WhatsApp", "ctaHref": "https://wa.me/595981234567"
+  },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Cafetería - Café de especialidad en Asunción", "description": "Café de especialidad, desayunos y meriendas en Asunción." },
+    "hero": { "headline": "Tu momento café", "subheadline": "Café de especialidad, desayunos y meriendas en Asunción", "ctaPrimaryText": "Pedí por WhatsApp", "ctaSecondaryText": "Ver menú" },
+    "services": { "title": "Nuestro Menú", "items": [
+      { "name": "Café Express", "price": "8.000 Gs", "description": "Café de especialidad", "category": "Café" },
+      { "name": "Cappuccino", "price": "12.000 Gs", "description": "Con leche cremosa", "category": "Café" },
+      { "name": "Tostado Mixto", "price": "18.000 Gs", "description": "Jamón y queso", "category": "Desayuno" },
+      { "name": "Medialuna", "price": "3.000 Gs", "description": "Medialuna de manteca", "category": "Desayuno" },
+      { "name": "Jugo Natural", "price": "10.000 Gs", "description": "Naranja, limón o papaya", "category": "Bebidas" }
+    ]},
+    "testimonials": { "title": "Opiniones", "items": [
+      { "quote": "El mejor café de especialidad de Asunción.", "author": "Ana S.", "rating": 5 },
+      { "quote": "Perfecto para trabajar. Buen café y wifi rápido.", "author": "Diego P.", "rating": 5 }
+    ]},
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" },
+    "cta": { "title": "Pedí tu café", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Demo Cafetería", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Cafetería", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-cafeteria" }, { "label": "Contacto", "href": "/s/es/demo-cafeteria/contacto" }] }
+}
