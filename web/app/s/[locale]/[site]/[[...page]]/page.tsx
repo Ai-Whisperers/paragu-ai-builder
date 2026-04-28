@@ -12,6 +12,7 @@ import { CookieBanner } from '@/components/consent/cookie-banner'
 import { Ga4Loader } from '@/components/analytics/ga4-loader'
 import { DemoBadge } from '@/components/universal/demo-badge'
 import { DemoLeadBar } from '@/components/universal/demo-lead-bar'
+import { DemoPersonalizer } from '@/components/universal/demo-personalizer'
 import { loadVerticalCopy } from '@/lib/engine/site-loader'
 import { logger } from '@/lib/logger'
 
@@ -241,6 +242,7 @@ export default async function TenantPage({ params, searchParams }: Props & { sea
         {renderPage(composed)}
       </div>
 
+      <DemoPersonalizer businessName={demoName} businessCity={demoCity} />
       <DemoBadge isDemo={Boolean((composed.site as { is_demo?: boolean }).is_demo)} vertical={composed.site.vertical} locale={locale} />
       <DemoLeadBar isDemo={Boolean((composed.site as { is_demo?: boolean }).is_demo)} siteSlug={siteSlug} vertical={composed.site.vertical} locale={locale} />
 
