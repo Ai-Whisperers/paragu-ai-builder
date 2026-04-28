@@ -263,7 +263,6 @@ export default async function SectionPreviewPage({ params }: Props) {
 }
 
 function SectionRenderer({ sectionId, variant, sampleProps }: { sectionId: string; variant: string; sampleProps: Record<string, unknown> }) {
-  // Build a fake resolved page with just this section
   const resolvedSection = { id: sectionId, variant, props: sampleProps }
 
   const page: ResolvedPage = {
@@ -275,5 +274,18 @@ function SectionRenderer({ sectionId, variant, sampleProps }: { sectionId: strin
     theme: { cssString: ':root { --primary: #1B5E20; --secondary: #37474F; --accent: #E65100; --background: #FFFFFF; --surface: #FAFAFA; --surface-light: #F0F7F0; --text: #1B2A1B; --text-muted: #6B7B6B; }', googleFontsUrl: '', isDark: false },
   }
 
-  return <>{renderPage(page)}</>
+  try {
+    return <>{renderPage(page)}</>
+  } catch {
+    return (
+      <div className="flex min-h-[200px] items-center justify-center rounded-lg border-2 border-dashed border-red-300 bg-red-50 p-8">
+        <div className="text-center">
+          <p className="text-sm font-semibold text-red-600">Section rendered with errors</p>
+          <p className="mt-1 text-xs text-red-400">
+            <code>{sectionId}</code> requires specific props or context not available in preview mode.
+          </p>
+        </div>
+      </div>
+    )
+  }
 }
