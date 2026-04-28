@@ -1,4 +1,6 @@
 'use client'
+import { Section } from '@/components/ui/section'
+import { CalcCard } from '@/components/ui/calc-card'
 
 import { useMemo, useState } from 'react'
 import { Container } from '@/components/ui/container'
@@ -71,7 +73,7 @@ export function CalcResimpleQualifierSection({
     : null
 
   return (
-    <section className="font-heading text-primary py-16 bg-surface sm:py-24">
+    <Section fullWidth spacing="lg" background="surface" className="font-heading text-primary">
       <Container>
         <AnimatedSectionHeader>
           <p className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow}</p>
@@ -79,7 +81,7 @@ export function CalcResimpleQualifierSection({
           <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-[var(--text-light,#475569)]">{subtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="font-heading text-primary mx-auto mt-12 max-w-3xl rounded-2xl border border-[var(--border,#e2e8f0)] bg-surface p-6 shadow-sm sm:p-10">
+        <CalcCard size="sm">
           <label className="font-heading text-primary block">
             <span className="font-heading text-primary mb-2 block text-sm font-medium text-[var(--text,#0f172a)]">Facturacion anual estimada (Gs)</span>
             <input
@@ -160,8 +162,8 @@ export function CalcResimpleQualifierSection({
             )}
             <Button variant="primary" size="lg" href={ctaHref}>{ctaLabel}</Button>
           </div>
-        </div>
+        </CalcCard>
       </Container>
-    </section>
+    </Section>
   )
 }

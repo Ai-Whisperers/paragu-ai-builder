@@ -1,4 +1,6 @@
 'use client'
+import { Section } from '@/components/ui/section'
+import { CalcCard } from '@/components/ui/calc-card'
 
 import { useMemo } from 'react'
 import { Container } from '@/components/ui/container'
@@ -98,9 +100,9 @@ export function TaxDeadlineBannerSection({
     : null
 
   return (
-    <section className="font-heading py-10 bg-surface-light">
+    <Section fullWidth spacing="sm" background="surface-light" className="font-heading">
       <Container>
-        <div className="font-heading rounded-2xl border border-[var(--border,#e2e8f0)] bg-surface p-6 shadow-sm sm:p-8">
+        <CalcCard>
           <div className="font-heading flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
             <div>
               <p className="font-heading text-xs font-semibold uppercase tracking-wider text-secondary">
@@ -160,8 +162,8 @@ export function TaxDeadlineBannerSection({
               </li>
             ))}
           </ul>
-        </div>
+        </CalcCard>
       </Container>
-    </section>
+    </Section>
   )
 }

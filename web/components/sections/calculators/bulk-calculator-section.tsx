@@ -1,4 +1,6 @@
 'use client'
+import { Section } from '@/components/ui/section'
+import { CalcCard } from '@/components/ui/calc-card'
 
 import { useState } from 'react'
 import { Calculator, Building2 } from 'lucide-react'
@@ -16,7 +18,7 @@ export function BulkCalculator({ phone, className }: { phone: string; className?
   const savings = (unitPrice - wholesalePrice) * quantity
 
   return (
-    <section className={cn('py-16 bg-surface', className)}>
+    <Section fullWidth spacing="md" background="surface" className={className}>
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-10">
           <Badge className="mb-4 bg-primary">
@@ -70,7 +72,7 @@ export function BulkCalculator({ phone, className }: { phone: string; className?
           </CardContent>
         </Card>
       </div>
-    </section>
+    </Section>
   )
 }
 

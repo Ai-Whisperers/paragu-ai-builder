@@ -206,7 +206,7 @@ export function TaxSavingsCalculatorSection({
   const resolvedCtaLabel = ctaLabel || L.cta
 
   return (
-    <section className="bg-secondary text-white font-heading text-primary bg-surface-light py-16 sm:py-24">
+    <Section fullWidth spacing="lg" background="surface-light" className="bg-secondary text-white font-heading text-primary">
       <Container>
         <AnimatedSectionHeader>
           <p className="bg-secondary text-white font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">
@@ -216,7 +216,7 @@ export function TaxSavingsCalculatorSection({
           <p className="bg-secondary text-white font-heading text-primary mx-auto mt-4 max-w-2xl text-muted-foreground">{resolvedSubtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="bg-secondary text-white font-heading text-primary mx-auto mt-12 max-w-4xl rounded-2xl border border-border bg-surface p-6 shadow-card sm:p-10">
+        <CalcCard>
           <div className="bg-secondary text-white font-heading text-primary grid gap-6 md:grid-cols-2">
             {/* Inputs */}
             <div className="bg-secondary text-white font-heading text-primary space-y-5">
@@ -301,8 +301,8 @@ export function TaxSavingsCalculatorSection({
               {resolvedCtaLabel}
             </Button>
           </div>
-        </div>
+        </CalcCard>
       </Container>
-    </section>
+    </Section>
   )
 }

@@ -1,4 +1,6 @@
 'use client'
+import { Section } from '@/components/ui/section'
+import { CalcCard } from '@/components/ui/calc-card'
 
 import { useMemo, useState } from 'react'
 import { Container } from '@/components/ui/container'
@@ -131,7 +133,7 @@ export function SavingsCalculatorSection({
           )}
         </AnimatedSectionHeader>
 
-        <div className="mx-auto mt-10 grid max-w-5xl gap-8 rounded-2xl border border-[var(--surface-light)] bg-surface p-6 shadow-card md:grid-cols-2 md:p-8">
+        <CalcCard size="lg" className="grid gap-8 md:grid-cols-2">
           {/* Inputs */}
           <div className="space-y-5">
             <NumberField
@@ -244,7 +246,7 @@ export function SavingsCalculatorSection({
               </Button>
             )}
           </div>
-        </div>
+        </CalcCard>
 
         {disclaimer && (
           <p className="mx-auto mt-6 max-w-3xl text-center text-xs text-muted-foreground">

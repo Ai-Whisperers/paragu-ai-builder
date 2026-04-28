@@ -1,5 +1,7 @@
 'use client'
 
+import { Section } from '@/components/ui/section'
+import { CalcCard } from '@/components/ui/calc-card'
 import { useMemo, useState } from 'react'
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
@@ -45,7 +47,7 @@ export function CalcIvaSection({
     : null
 
   return (
-    <section className="font-heading text-primary py-16 bg-surface sm:py-24">
+    <Section spacing="lg" background="surface" className="font-heading text-primary">
       <Container>
         <AnimatedSectionHeader>
           <p className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow}</p>
@@ -53,7 +55,7 @@ export function CalcIvaSection({
           <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-[var(--text-light,#475569)]">{subtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="font-heading text-primary mx-auto mt-12 max-w-4xl rounded-2xl border border-[var(--border,#e2e8f0)] bg-surface p-6 shadow-sm sm:p-10">
+        <CalcCard>
           <div className="font-heading text-primary grid gap-8 md:grid-cols-2">
             <div className="font-heading text-primary space-y-5">
               <h3 className="font-heading text-primary text-sm font-semibold uppercase tracking-wider text-[var(--text-muted,#64748b)]">Ventas gravadas del mes (montos CON IVA)</h3>
@@ -103,9 +105,9 @@ export function CalcIvaSection({
             )}
             <Button variant="primary" size="lg" href={ctaHref}>{ctaLabel}</Button>
           </div>
-        </div>
+        </CalcCard>
       </Container>
-    </section>
+    </Section>
   )
 }
 

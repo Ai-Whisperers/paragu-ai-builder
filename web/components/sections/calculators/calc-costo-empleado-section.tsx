@@ -1,4 +1,6 @@
 'use client'
+import { Section } from '@/components/ui/section'
+import { CalcCard } from '@/components/ui/calc-card'
 
 import { useMemo, useState } from 'react'
 import { Container } from '@/components/ui/container'
@@ -49,7 +51,7 @@ export function CalcCostoEmpleadoSection({
     : null
 
   return (
-    <section className="font-heading text-primary py-16 bg-surface sm:py-24">
+    <Section fullWidth spacing="lg" background="surface" className="font-heading text-primary">
       <Container>
         <AnimatedSectionHeader>
           <p className="font-heading text-primary mb-3 text-sm font-semibold uppercase tracking-wider text-secondary">{eyebrow}</p>
@@ -57,7 +59,7 @@ export function CalcCostoEmpleadoSection({
           <p className="font-heading text-primary mx-auto mt-4 max-w-2xl text-[var(--text-light,#475569)]">{subtitle}</p>
         </AnimatedSectionHeader>
 
-        <div className="font-heading text-primary mx-auto mt-12 max-w-4xl rounded-2xl border border-[var(--border,#e2e8f0)] bg-surface p-6 shadow-sm sm:p-10">
+        <CalcCard>
           <div className="font-heading text-primary grid gap-8 md:grid-cols-2">
             <div className="font-heading text-primary space-y-5">
               <label className="font-heading text-primary block">
@@ -134,9 +136,9 @@ export function CalcCostoEmpleadoSection({
             )}
             <Button variant="primary" size="lg" href={ctaHref}>{ctaLabel}</Button>
           </div>
-        </div>
+        </CalcCard>
       </Container>
-    </section>
+    </Section>
   )
 }
 
