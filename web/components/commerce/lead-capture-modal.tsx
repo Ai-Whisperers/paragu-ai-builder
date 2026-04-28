@@ -20,10 +20,18 @@ export function LeadCaptureModal({ open, onOpenChange, locale = 'es' }: LeadCapt
 
   const isSpanish = locale === 'es'
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    // TODO: send to CRM / email service
-    console.log('Lead captured:', { name, email, country, source: 'investor-guide', locale })
+    try {
+      const res = await fetch('/api/lead-capture', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, country, source: 'investor-guide', locale, guideType: 'investor-pass-2026' }),
+      })
+      if (!res.ok) console.warn('Lead capture API error:', await res.text())
+    } catch (err) {
+      console.warn('Lead capture fetch failed:', err)
+    }
     setSubmitted(true)
   }
 

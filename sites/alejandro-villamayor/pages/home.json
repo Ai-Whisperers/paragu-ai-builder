@@ -33,15 +33,15 @@
       }
     },
     {
-      "id": "trust-badges",
-      "variant": "strip",
+      "id": "features",
+      "variant": "three-col",
       "content": "home.internationalStandards",
       "styling": {
         "background": "alt"
       }
     },
     {
-      "id": "content-grid",
+      "id": "services",
       "variant": "cards",
       "content": "home.services",
       "styling": {

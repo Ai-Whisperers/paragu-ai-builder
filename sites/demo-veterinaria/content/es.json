@@ -1,0 +1,24 @@
+{
+  "siteName": "Demo Veterinaria", "tagline": "Atención veterinaria integral en Asunción",
+  "navigation": { "businessName": "Veterinaria", "navItems": [{ "label": "Inicio", "href": "/s/es/demo-veterinaria" }, { "label": "Contacto", "href": "/s/es/demo-veterinaria/contacto" }], "ctaText": "Agendá tu cita", "ctaHref": "https://wa.me/595981234567" },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Veterinaria - Cuidado de mascotas en Asunción", "description": "Atención veterinaria integral: consultas, vacunas, cirugías y peluquería." },
+    "hero": { "headline": "Tu mascota merece lo mejor", "subheadline": "Atención veterinaria integral en Asunción", "ctaPrimaryText": "Agendá tu cita", "ctaSecondaryText": "Servicios" },
+    "services": { "title": "Nuestros Servicios", "items": [
+      { "name": "Consulta General", "price": "60.000 Gs", "description": "Revisión completa de tu mascota", "category": "Consultas" },
+      { "name": "Vacunación", "price": "50.000 Gs", "description": "Vacunas para perros y gatos", "category": "Preventiva" },
+      { "name": "Cirugía", "price": "Consultar", "description": "Castraciones y cirugías generales", "category": "Cirugía" },
+      { "name": "Peluquería", "price": "80.000 Gs", "description": "Baño y corte", "category": "Peluquería" },
+      { "name": "Análisis", "price": "Desde 30.000 Gs", "description": "Análisis de sangre y heces", "category": "Diagnóstico" }
+    ]},
+    "testimonials": { "title": "Opiniones", "items": [
+      { "quote": "Atienden súper bien a mi perro. Muy recomendados.", "author": "Sofía M.", "rating": 5 },
+      { "quote": "Castraron a mi gato sin complicaciones. Excelente atención.", "author": "Andrés P.", "rating": 5 }
+    ]},
+    "cta": { "title": "Agendá tu cita", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Veterinaria", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Veterinaria", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-veterinaria" }, { "label": "Contacto", "href": "/s/es/demo-veterinaria/contacto" }] }
+}

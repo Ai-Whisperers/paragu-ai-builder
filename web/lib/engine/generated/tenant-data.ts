@@ -11,29 +11,41 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=30, pages=239, content=45, blog=34, images=15, verticals=23. */
+/** Counts: sites=42, pages=263, content=57, blog=34, images=15, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "alejandro-villamayor",
   "bufete-mendez",
   "dayah-litworks",
   "de-abasto-a-casa",
   "demo-barberia",
+  "demo-bodega",
   "demo-cafeteria",
+  "demo-carniceria",
+  "demo-cerrajero",
   "demo-clinica-integral",
   "demo-contador",
   "demo-depilacion",
+  "demo-electricista",
   "demo-estudio-contable",
   "demo-farmacia",
+  "demo-ferreteria",
+  "demo-gomeria",
+  "demo-herreria",
   "demo-inmobiliaria",
+  "demo-lavadero",
   "demo-maquillaje",
   "demo-odontologia",
   "demo-panaderia",
   "demo-parrilla",
   "demo-peluqueria",
+  "demo-plomero",
   "demo-psicologia",
   "demo-restaurant",
   "demo-salon-belleza",
+  "demo-spa",
+  "demo-taller-mecanico",
   "demo-unas",
+  "demo-veterinaria",
   "fun4me",
   "granja-cabral",
   "nexa-paraguay",
@@ -1129,6 +1141,51 @@ export const SITES: Record<string, JsonRecord> = {
     "publicUrl": "https://paragu-ai.com/s/es/demo-barberia",
     "vertical": "beauty-personal-care"
   },
+  "demo-bodega": {
+    "businessType": "bodega",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@bodega.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-bodega",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-bodega",
+    "vertical": "retail-local"
+  },
   "demo-cafeteria": {
     "businessType": "cafeteria",
     "chrome": {
@@ -1175,6 +1232,96 @@ export const SITES: Record<string, JsonRecord> = {
     "path": "/s/es/demo-cafeteria",
     "publicUrl": "https://paragu-ai.com/s/es/demo-cafeteria",
     "vertical": "food-beverage"
+  },
+  "demo-carniceria": {
+    "businessType": "carniceria",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@carniceria.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-carniceria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-carniceria",
+    "vertical": "retail-local"
+  },
+  "demo-cerrajero": {
+    "businessType": "cerrajero",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@cerrajero.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-cerrajero",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-cerrajero",
+    "vertical": "trades-home-services"
   },
   "demo-clinica-integral": {
     "businessType": "clinica-integral",
@@ -1344,6 +1491,51 @@ export const SITES: Record<string, JsonRecord> = {
     "publicUrl": "https://paragu-ai.com/s/es/demo-depilacion",
     "vertical": "beauty-personal-care"
   },
+  "demo-electricista": {
+    "businessType": "electricista",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@electricista.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-electricista",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-electricista",
+    "vertical": "trades-home-services"
+  },
   "demo-estudio-contable": {
     "businessType": "cpa_firm",
     "chrome": {
@@ -1460,6 +1652,141 @@ export const SITES: Record<string, JsonRecord> = {
     "publicUrl": "https://paragu-ai.com/s/es/demo-farmacia",
     "vertical": "health-wellness"
   },
+  "demo-ferreteria": {
+    "businessType": "ferreteria",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@ferreteria.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-ferreteria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-ferreteria",
+    "vertical": "retail-local"
+  },
+  "demo-gomeria": {
+    "businessType": "gomeria",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@gomeria.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-gomeria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-gomeria",
+    "vertical": "automotive"
+  },
+  "demo-herreria": {
+    "businessType": "herreria",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@herreria.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-herreria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-herreria",
+    "vertical": "trades-home-services"
+  },
   "demo-inmobiliaria": {
     "businessType": "inmobiliaria",
     "chrome": {
@@ -1506,6 +1833,51 @@ export const SITES: Record<string, JsonRecord> = {
     "path": "/s/es/demo-inmobiliaria",
     "publicUrl": "https://paragu-ai.com/s/es/demo-inmobiliaria",
     "vertical": "real-estate-relocation"
+  },
+  "demo-lavadero": {
+    "businessType": "lavadero",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@lavadero.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-lavadero",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-lavadero",
+    "vertical": "automotive"
   },
   "demo-maquillaje": {
     "businessType": "maquillaje",
@@ -1745,6 +2117,51 @@ export const SITES: Record<string, JsonRecord> = {
     "publicUrl": "https://paragu-ai.com/s/es/demo-peluqueria",
     "vertical": "beauty-personal-care"
   },
+  "demo-plomero": {
+    "businessType": "plomero",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@plomero.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-plomero",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-plomero",
+    "vertical": "trades-home-services"
+  },
   "demo-psicologia": {
     "businessType": "psicologia",
     "chrome": {
@@ -1888,6 +2305,99 @@ export const SITES: Record<string, JsonRecord> = {
     "publicUrl": "https://paragu-ai.com/s/es/demo-salon-belleza",
     "vertical": "beauty-personal-care"
   },
+  "demo-spa": {
+    "businessType": "spa",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@spa.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "booking": true,
+      "gallery": true,
+      "portfolio": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-spa",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-spa",
+    "vertical": "health-wellness"
+  },
+  "demo-taller-mecanico": {
+    "businessType": "taller-mecanico",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@taller-mecanico.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-taller-mecanico",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-taller-mecanico",
+    "vertical": "automotive"
+  },
   "demo-unas": {
     "businessType": "unas",
     "chrome": {
@@ -1935,6 +2445,52 @@ export const SITES: Record<string, JsonRecord> = {
     "path": "/s/es/demo-unas",
     "publicUrl": "https://paragu-ai.com/s/es/demo-unas",
     "vertical": "beauty-personal-care"
+  },
+  "demo-veterinaria": {
+    "businessType": "veterinaria",
+    "chrome": {
+      "footer": [
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@veterinaria.com.py",
+      "phone": "+595981234567",
+      "whatsapp": "+595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "features": {
+      "gallery": true,
+      "testimonials": true,
+      "whatsappFloat": true
+    },
+    "is_demo": true,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal López 1000",
+      "city": "Asunción"
+    },
+    "noindex": true,
+    "path": "/s/es/demo-veterinaria",
+    "publicUrl": "https://paragu-ai.com/s/es/demo-veterinaria",
+    "vertical": "pets-animals"
   },
   "fun4me": {
     "businessType": "sex_shop",
@@ -4979,6 +5535,55 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "servicios",
     "titleKey": "servicios.seo.title"
   },
+  "demo-bodega:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-bodega:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
   "demo-cafeteria:contacto": {
     "descriptionKey": "contacto.seo.description",
     "sections": [
@@ -4997,6 +5602,104 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "contacto.seo.title"
   },
   "demo-cafeteria:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-carniceria:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-carniceria:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-cerrajero:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-cerrajero:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -5459,6 +6162,55 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "servicios",
     "titleKey": "servicios.seo.title"
   },
+  "demo-electricista:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-electricista:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
   "demo-estudio-contable:calculadoras": {
     "descriptionKey": "calculadoras.seo.description",
     "sections": [
@@ -5728,6 +6480,153 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "",
     "titleKey": "home.seo.title"
   },
+  "demo-ferreteria:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-ferreteria:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-gomeria:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-gomeria:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-herreria:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-herreria:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
   "demo-inmobiliaria:contacto": {
     "descriptionKey": "contacto.seo.description",
     "sections": [
@@ -5746,6 +6645,55 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "contacto.seo.title"
   },
   "demo-inmobiliaria:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-lavadero:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-lavadero:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
       {
@@ -6066,6 +7014,55 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "servicios",
     "titleKey": "servicios.seo.title"
   },
+  "demo-plomero:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-plomero:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
   "demo-psicologia:contacto": {
     "descriptionKey": "contacto.seo.description",
     "sections": [
@@ -6257,6 +7254,104 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "servicios",
     "titleKey": "servicios.seo.title"
   },
+  "demo-spa:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-spa:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "demo-taller-mecanico:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-taller-mecanico:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
   "demo-unas:contacto": {
     "descriptionKey": "contacto.seo.description",
     "sections": [
@@ -6327,6 +7422,55 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "servicios",
     "titleKey": "servicios.seo.title"
+  },
+  "demo-veterinaria:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "demo-veterinaria:home": {
+    "descriptionKey": "home.seo.description",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "variant": "image"
+      },
+      {
+        "content": "home.services",
+        "id": "services",
+        "variant": "cards"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
   },
   "fun4me:blog": {
     "descriptionKey": "blog.seo.description",
@@ -18282,6 +19426,122 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Cortes clásicos y modernos, afeitado tradicional en Asunción",
     "whatsapp": "+595981234567"
   },
+  "demo-bodega:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Bodega"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Bodega",
+      "city": "Fernando de la Mora",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-bodega",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-bodega/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Fernando de la Mora, Paraguay",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Pedí tu pedido"
+      },
+      "hero": {
+        "ctaPrimaryText": "Pedí por WhatsApp",
+        "ctaSecondaryText": "Productos",
+        "headline": "Tu almacén de confianza",
+        "subheadline": "Almacén de barrio con delivery en Fernando de la Mora"
+      },
+      "seo": {
+        "description": "Almacén de barrio con delivery.",
+        "title": "Demo Bodega - Almacén en Fernando de la Mora"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Lácteos",
+            "description": "Leche entera 1L",
+            "name": "Leche",
+            "price": "7.000 Gs"
+          },
+          {
+            "category": "Panadería",
+            "description": "Pan francés",
+            "name": "Pan",
+            "price": "2.000 Gs"
+          },
+          {
+            "category": "Huevos",
+            "description": "Docena de huevos frescos",
+            "name": "Huevos",
+            "price": "10.000 Gs"
+          },
+          {
+            "category": "Bebidas",
+            "description": "Gaseosa 500ml",
+            "name": "Gaseosa",
+            "price": "5.000 Gs"
+          },
+          {
+            "category": "Almacén",
+            "description": "Arroz 1kg",
+            "name": "Arroz",
+            "price": "6.000 Gs"
+          }
+        ],
+        "title": "Nuestros Productos"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Don Alberto",
+            "quote": "El almacén de toda la vida. Buen precio y atención.",
+            "rating": 5
+          },
+          {
+            "author": "Laura P.",
+            "quote": "Pido por WhatsApp y me traen todo. Muy práctico.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Bodega",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Pedí por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-bodega",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-bodega/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Bodega",
+    "tagline": "Almacén de barrio en Fernando de la Mora",
+    "whatsapp": "+595981234567"
+  },
   "demo-cafeteria:es": {
     "contacto": {
       "hero": {
@@ -18396,6 +19656,238 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Demo Cafetería",
     "tagline": "Café de especialidad y desayunos en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-carniceria:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Carnicería"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Carnicería",
+      "city": "Luque",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-carniceria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-carniceria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Luque, Paraguay",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Pedí tu carne"
+      },
+      "hero": {
+        "ctaPrimaryText": "Pedí por WhatsApp",
+        "ctaSecondaryText": "Productos",
+        "headline": "La mejor carne de Luque",
+        "subheadline": "Carnes frescas de primera calidad"
+      },
+      "seo": {
+        "description": "Carnes frescas de primera calidad en Luque.",
+        "title": "Demo Carnicería - Carnes frescas en Luque"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Carnes",
+            "description": "Carne para parrilla",
+            "name": "Asado de Tira",
+            "price": "28.000 Gs/kg"
+          },
+          {
+            "category": "Aves",
+            "description": "Pollo fresco",
+            "name": "Pechuga de Pollo",
+            "price": "22.000 Gs/kg"
+          },
+          {
+            "category": "Carnes",
+            "description": "Carne picada especial",
+            "name": "Carne Molida",
+            "price": "25.000 Gs/kg"
+          },
+          {
+            "category": "Embutidos",
+            "description": "Chorizo paraguayo",
+            "name": "Chorizo Artesanal",
+            "price": "18.000 Gs"
+          },
+          {
+            "category": "Preparados",
+            "description": "Milanesa de carne",
+            "name": "Milanesa",
+            "price": "30.000 Gs/kg"
+          }
+        ],
+        "title": "Nuestros Productos"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Carlos H.",
+            "quote": "La mejor carne de Luque. Siempre fresca y de calidad.",
+            "rating": 5
+          },
+          {
+            "author": "María L.",
+            "quote": "Precios justos y atención excelente. Voy siempre.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Carnicería",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Pedí por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-carniceria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-carniceria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Carnicería",
+    "tagline": "Carnes frescas de primera calidad en Luque",
+    "whatsapp": "+595981234567"
+  },
+  "demo-cerrajero:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Cerrajero"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Cerrajero",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-cerrajero",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-cerrajero/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Asunción, Paraguay",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Necesitás ayuda?"
+      },
+      "hero": {
+        "ctaPrimaryText": "Consultá por WhatsApp",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Servicio profesional en Asunción",
+        "subheadline": "Apertura de puertas y cambio de cerraduras en Asunción"
+      },
+      "seo": {
+        "description": "Apertura de puertas, cambio de cerraduras y copia de llaves",
+        "title": "Demo Cerrajero - Apertura de puertas y cambio de cerraduras en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Servicios",
+            "description": "Revisión sin compromiso",
+            "name": "Diagnóstico",
+            "price": "30.000 Gs"
+          },
+          {
+            "category": "Servicios",
+            "description": "Presupuesto sin cargo",
+            "name": "Reparación",
+            "price": "Consultar"
+          },
+          {
+            "category": "Instalación",
+            "description": "Instalación profesional",
+            "name": "Instalación",
+            "price": "Consultar"
+          },
+          {
+            "category": "Mantenimiento",
+            "description": "Mantenimiento preventivo",
+            "name": "Mantenimiento",
+            "price": "Consultar"
+          },
+          {
+            "category": "Emergencia",
+            "description": "Servicio de urgencia",
+            "name": "Emergencia 24h",
+            "price": "Consultar"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Cliente",
+            "quote": "Rápido y profesional. Lo recomiendo.",
+            "rating": 5
+          },
+          {
+            "author": "Cliente",
+            "quote": "Buen precio y trabajo de calidad.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Cerrajero",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Consultá por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-cerrajero",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-cerrajero/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Cerrajero",
+    "tagline": "Apertura de puertas y cambio de cerraduras en Asunción",
     "whatsapp": "+595981234567"
   },
   "demo-clinica-integral:es": {
@@ -18930,6 +20422,122 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Demo Depilación",
     "tagline": "Depilación láser y cera, piel suave todo el año en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-electricista:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Electricista"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Electricista",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-electricista",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-electricista/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Asunción, Paraguay",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Necesitás ayuda?"
+      },
+      "hero": {
+        "ctaPrimaryText": "Consultá por WhatsApp",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Servicio profesional en Asunción",
+        "subheadline": "Instalaciones y reparaciones eléctricas en Asunción"
+      },
+      "seo": {
+        "description": "Instalaciones eléctricas residenciales y comerciales",
+        "title": "Demo Electricista - Instalaciones y reparaciones eléctricas en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Servicios",
+            "description": "Revisión sin compromiso",
+            "name": "Diagnóstico",
+            "price": "30.000 Gs"
+          },
+          {
+            "category": "Servicios",
+            "description": "Presupuesto sin cargo",
+            "name": "Reparación",
+            "price": "Consultar"
+          },
+          {
+            "category": "Instalación",
+            "description": "Instalación profesional",
+            "name": "Instalación",
+            "price": "Consultar"
+          },
+          {
+            "category": "Mantenimiento",
+            "description": "Mantenimiento preventivo",
+            "name": "Mantenimiento",
+            "price": "Consultar"
+          },
+          {
+            "category": "Emergencia",
+            "description": "Servicio de urgencia",
+            "name": "Emergencia 24h",
+            "price": "Consultar"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Cliente",
+            "quote": "Rápido y profesional. Lo recomiendo.",
+            "rating": 5
+          },
+          {
+            "author": "Cliente",
+            "quote": "Buen precio y trabajo de calidad.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Electricista",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Consultá por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-electricista",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-electricista/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Electricista",
+    "tagline": "Instalaciones y reparaciones eléctricas en Asunción",
     "whatsapp": "+595981234567"
   },
   "demo-estudio-contable:es": {
@@ -19520,6 +21128,354 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Farmacia de turno con atención personalizada en Asunción",
     "whatsapp": "+595981234567"
   },
+  "demo-ferreteria:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Ferretería"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Ferretería",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-ferreteria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-ferreteria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Consultá disponibilidad"
+      },
+      "hero": {
+        "ctaPrimaryText": "Consultá por WhatsApp",
+        "ctaSecondaryText": "Productos",
+        "headline": "Todo para tu obra",
+        "subheadline": "Materiales de construcción, herramientas y más en Asunción"
+      },
+      "seo": {
+        "description": "Materiales de construcción, herramientas y artículos para el hogar.",
+        "title": "Demo Ferretería - Materiales en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Construcción",
+            "description": "Bolsa de 50kg",
+            "name": "Cemento",
+            "price": "35.000 Gs"
+          },
+          {
+            "category": "Construcción",
+            "description": "Varillas de construcción",
+            "name": "Hierro",
+            "price": "Desde 25.000 Gs"
+          },
+          {
+            "category": "Pinturería",
+            "description": "Pintura látex y esmalte",
+            "name": "Pintura",
+            "price": "Desde 45.000 Gs"
+          },
+          {
+            "category": "Herramientas",
+            "description": "Herramientas manuales y eléctricas",
+            "name": "Herramientas",
+            "price": "Consultar"
+          },
+          {
+            "category": "Plomería",
+            "description": "Caños, conexiones y grifería",
+            "name": "Artículos de Plomería",
+            "price": "Consultar"
+          }
+        ],
+        "title": "Nuestros Productos"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Roberto G.",
+            "quote": "Buenos precios y variedad. Encontré todo para mi obra.",
+            "rating": 5
+          },
+          {
+            "author": "Lucía M.",
+            "quote": "Me asesoraron bien para elegir los materiales correctos.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Ferretería",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Consultá por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-ferreteria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-ferreteria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Ferretería",
+    "tagline": "Materiales de construcción y herramientas en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-gomeria:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Gomería"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Gomería",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-gomeria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-gomeria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Consultá precios"
+      },
+      "hero": {
+        "ctaPrimaryText": "Pedí por WhatsApp",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Tus neumáticos en orden",
+        "subheadline": "Venta, reparación y balanceo en Asunción"
+      },
+      "seo": {
+        "description": "Venta y reparación de neumáticos en Asunción.",
+        "title": "Demo Gomería - Neumáticos en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Venta",
+            "description": "Todas las marcas y medidas",
+            "name": "Venta de Neumáticos",
+            "price": "Consultar"
+          },
+          {
+            "category": "Reparación",
+            "description": "Reparación de pinchaduras",
+            "name": "Reparación",
+            "price": "20.000 Gs"
+          },
+          {
+            "category": "Alineación",
+            "description": "Balanceo por rueda",
+            "name": "Balanceo",
+            "price": "15.000 Gs"
+          },
+          {
+            "category": "Alineación",
+            "description": "Alineación de dirección",
+            "name": "Alineación",
+            "price": "40.000 Gs"
+          },
+          {
+            "category": "Mantenimiento",
+            "description": "Rotación de neumáticos",
+            "name": "Rotación",
+            "price": "20.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Luis A.",
+            "quote": "Me salvaron con una pinchadura un domingo. Rápidos y económicos.",
+            "rating": 5
+          },
+          {
+            "author": "Marcos R.",
+            "quote": "Buenos precios en neumáticos y el balanceo quedó perfecto.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Gomería",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Pedí por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-gomeria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-gomeria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Gomería",
+    "tagline": "Venta y reparación de neumáticos en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-herreria:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Herrería"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Herrería",
+      "city": "Lambaré",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-herreria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-herreria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Lambaré, Paraguay",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Necesitás ayuda?"
+      },
+      "hero": {
+        "ctaPrimaryText": "Consultá por WhatsApp",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Servicio profesional en Lambaré",
+        "subheadline": "Trabajos de herrería en Lambaré"
+      },
+      "seo": {
+        "description": "Trabajos de herrería: portones, rejas y estructuras metálicas",
+        "title": "Demo Herrería - Trabajos de herrería en Lambaré"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Servicios",
+            "description": "Revisión sin compromiso",
+            "name": "Diagnóstico",
+            "price": "30.000 Gs"
+          },
+          {
+            "category": "Servicios",
+            "description": "Presupuesto sin cargo",
+            "name": "Reparación",
+            "price": "Consultar"
+          },
+          {
+            "category": "Instalación",
+            "description": "Instalación profesional",
+            "name": "Instalación",
+            "price": "Consultar"
+          },
+          {
+            "category": "Mantenimiento",
+            "description": "Mantenimiento preventivo",
+            "name": "Mantenimiento",
+            "price": "Consultar"
+          },
+          {
+            "category": "Emergencia",
+            "description": "Servicio de urgencia",
+            "name": "Emergencia 24h",
+            "price": "Consultar"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Cliente",
+            "quote": "Rápido y profesional. Lo recomiendo.",
+            "rating": 5
+          },
+          {
+            "author": "Cliente",
+            "quote": "Buen precio y trabajo de calidad.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Herrería",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Consultá por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-herreria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-herreria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Herrería",
+    "tagline": "Trabajos de herrería en Lambaré",
+    "whatsapp": "+595981234567"
+  },
   "demo-inmobiliaria:es": {
     "contacto": {
       "hero": {
@@ -19644,6 +21600,122 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Demo Inmobiliaria",
     "tagline": "Casas, departamentos y terrenos en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-lavadero:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Lavadero"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Lavadero",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-lavadero",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-lavadero/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu lavado"
+      },
+      "hero": {
+        "ctaPrimaryText": "Agendá tu lavado",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Tu auto como nuevo",
+        "subheadline": "Lavado completo y detailing profesional"
+      },
+      "seo": {
+        "description": "Lavado y detailing profesional en Asunción.",
+        "title": "Demo Lavadero - Lavado de autos en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Lavado",
+            "description": "Lavado de carrocería",
+            "name": "Lavado Exterior",
+            "price": "25.000 Gs"
+          },
+          {
+            "category": "Lavado",
+            "description": "Exterior e interior",
+            "name": "Lavado Completo",
+            "price": "50.000 Gs"
+          },
+          {
+            "category": "Lavado",
+            "description": "Completo con encerado",
+            "name": "Lavado Premium",
+            "price": "80.000 Gs"
+          },
+          {
+            "category": "Detailing",
+            "description": "Limpieza profunda interior/exterior",
+            "name": "Detailing Básico",
+            "price": "150.000 Gs"
+          },
+          {
+            "category": "Detailing",
+            "description": "Cera protectora",
+            "name": "Encerado",
+            "price": "60.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Diego F.",
+            "quote": "Quedó impecable. El detailing es increíble.",
+            "rating": 5
+          },
+          {
+            "author": "Ana C.",
+            "quote": "Rápidos y prolijos. Mi auto quedó como nuevo.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Lavadero",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Agendá tu lavado",
+      "navItems": [
+        {
+          "href": "/s/es/demo-lavadero",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-lavadero/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Lavadero de Autos",
+    "tagline": "Lavado y detailing profesional en Asunción",
     "whatsapp": "+595981234567"
   },
   "demo-maquillaje:es": {
@@ -20279,6 +22351,122 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Cortes modernos, coloración y tratamientos capilares en Asunción",
     "whatsapp": "+595981234567"
   },
+  "demo-plomero:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Plomero"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Plomero",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-plomero",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-plomero/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Asunción, Paraguay",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Necesitás ayuda?"
+      },
+      "hero": {
+        "ctaPrimaryText": "Consultá por WhatsApp",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Servicio profesional en Asunción",
+        "subheadline": "Reparaciones de plomería en Asunción"
+      },
+      "seo": {
+        "description": "Reparaciones de plomería, caños y tanques",
+        "title": "Demo Plomero - Reparaciones de plomería en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Servicios",
+            "description": "Revisión sin compromiso",
+            "name": "Diagnóstico",
+            "price": "30.000 Gs"
+          },
+          {
+            "category": "Servicios",
+            "description": "Presupuesto sin cargo",
+            "name": "Reparación",
+            "price": "Consultar"
+          },
+          {
+            "category": "Instalación",
+            "description": "Instalación profesional",
+            "name": "Instalación",
+            "price": "Consultar"
+          },
+          {
+            "category": "Mantenimiento",
+            "description": "Mantenimiento preventivo",
+            "name": "Mantenimiento",
+            "price": "Consultar"
+          },
+          {
+            "category": "Emergencia",
+            "description": "Servicio de urgencia",
+            "name": "Emergencia 24h",
+            "price": "Consultar"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Cliente",
+            "quote": "Rápido y profesional. Lo recomiendo.",
+            "rating": 5
+          },
+          {
+            "author": "Cliente",
+            "quote": "Buen precio y trabajo de calidad.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Plomero",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Consultá por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-plomero",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-plomero/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Plomero",
+    "tagline": "Reparaciones de plomería en Asunción",
+    "whatsapp": "+595981234567"
+  },
   "demo-psicologia:es": {
     "contacto": {
       "hero": {
@@ -20677,6 +22865,238 @@ export const CONTENT: Record<string, JsonRecord> = {
     "tagline": "Maquillaje, peinados y tratamientos de belleza en Asunción",
     "whatsapp": "+595981234567"
   },
+  "demo-spa:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Spa"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Spa",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-spa",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-spa/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Reservá tu sesión"
+      },
+      "hero": {
+        "ctaPrimaryText": "Reservá tu sesión",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Tu oasis de paz en la ciudad",
+        "subheadline": "Masajes, tratamientos faciales y circuito spa en Asunción"
+      },
+      "seo": {
+        "description": "Masajes, tratamientos faciales y circuito spa.",
+        "title": "Demo Spa - Relajación en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Masajes",
+            "description": "60 minutos de pura relajación",
+            "name": "Masaje Relajante",
+            "price": "180.000 Gs"
+          },
+          {
+            "category": "Faciales",
+            "description": "Tratamiento rejuvenecedor",
+            "name": "Facial Anti-Edad",
+            "price": "200.000 Gs"
+          },
+          {
+            "category": "Circuitos",
+            "description": "Sauna + piscina + masaje",
+            "name": "Circuito Spa",
+            "price": "250.000 Gs"
+          },
+          {
+            "category": "Masajes",
+            "description": "Masaje con aceites esenciales",
+            "name": "Aromaterapia",
+            "price": "150.000 Gs"
+          },
+          {
+            "category": "Masajes",
+            "description": "Recuperación muscular",
+            "name": "Masaje Deportivo",
+            "price": "160.000 Gs"
+          }
+        ],
+        "title": "Nuestros Tratamientos"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Carmen L.",
+            "quote": "Salí flotando después del circuito spa. Un lugar mágico.",
+            "rating": 5
+          },
+          {
+            "author": "Diana R.",
+            "quote": "El masaje relajante es increíble. Volveré cada mes.",
+            "rating": 5
+          }
+        ],
+        "title": "Testimonios"
+      }
+    },
+    "navigation": {
+      "businessName": "Spa",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Reservá tu sesión",
+      "navItems": [
+        {
+          "href": "/s/es/demo-spa",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-spa/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Spa",
+    "tagline": "Relajación y bienestar en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-taller-mecanico:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Taller Mecánico"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Taller Mecánico",
+      "city": "San Lorenzo",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-taller-mecanico",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-taller-mecanico/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "San Lorenzo, Paraguay",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu servicio"
+      },
+      "hero": {
+        "ctaPrimaryText": "Consultá por WhatsApp",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Tu auto en las mejores manos",
+        "subheadline": "Reparación y mantenimiento de vehículos en San Lorenzo"
+      },
+      "seo": {
+        "description": "Mecánica general, frenos, suspensión y diagnóstico computarizado.",
+        "title": "Demo Taller Mecánico - Reparación de autos en San Lorenzo"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Mantenimiento",
+            "description": "Aceite y filtro incluido",
+            "name": "Cambio de Aceite",
+            "price": "60.000 Gs"
+          },
+          {
+            "category": "Reparación",
+            "description": "Pastillas y discos",
+            "name": "Frenos",
+            "price": "Desde 120.000 Gs"
+          },
+          {
+            "category": "Reparación",
+            "description": "Amortiguadores y resortes",
+            "name": "Suspensión",
+            "price": "Consultar"
+          },
+          {
+            "category": "Diagnóstico",
+            "description": "Escáner computarizado",
+            "name": "Diagnóstico",
+            "price": "50.000 Gs"
+          },
+          {
+            "category": "Aire",
+            "description": "Carga y reparación",
+            "name": "Aire Acondicionado",
+            "price": "Desde 80.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Jorge M.",
+            "quote": "Quedó como nuevo. Precio justo y trabajo rápido.",
+            "rating": 5
+          },
+          {
+            "author": "Pedro S.",
+            "quote": "Diagnóstico exacto. No me vendieron repuestos de más.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Taller Mecánico",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Consultá por WhatsApp",
+      "navItems": [
+        {
+          "href": "/s/es/demo-taller-mecanico",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-taller-mecanico/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Taller Mecánico",
+    "tagline": "Reparación y mantenimiento de vehículos en San Lorenzo",
+    "whatsapp": "+595981234567"
+  },
   "demo-unas:es": {
     "contacto": {
       "hero": {
@@ -20809,6 +23229,122 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "siteName": "Demo Uñas",
     "tagline": "Manos y pies perfectos, nail art y tratamientos en Asunción",
+    "whatsapp": "+595981234567"
+  },
+  "demo-veterinaria:es": {
+    "contacto": {
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Te esperamos."
+      },
+      "seo": {
+        "description": "Contactanos.",
+        "title": "Contacto — Veterinaria"
+      }
+    },
+    "footer": {
+      "businessName": "Demo Veterinaria",
+      "city": "Asunción",
+      "navLinks": [
+        {
+          "href": "/s/es/demo-veterinaria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-veterinaria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal López 1000, Asunción",
+        "phone": "+595 981 234 567",
+        "title": "Contacto"
+      },
+      "cta": {
+        "buttonHref": "https://wa.me/595981234567",
+        "buttonText": "WhatsApp",
+        "title": "Agendá tu cita"
+      },
+      "hero": {
+        "ctaPrimaryText": "Agendá tu cita",
+        "ctaSecondaryText": "Servicios",
+        "headline": "Tu mascota merece lo mejor",
+        "subheadline": "Atención veterinaria integral en Asunción"
+      },
+      "seo": {
+        "description": "Atención veterinaria integral: consultas, vacunas, cirugías y peluquería.",
+        "title": "Demo Veterinaria - Cuidado de mascotas en Asunción"
+      },
+      "services": {
+        "items": [
+          {
+            "category": "Consultas",
+            "description": "Revisión completa de tu mascota",
+            "name": "Consulta General",
+            "price": "60.000 Gs"
+          },
+          {
+            "category": "Preventiva",
+            "description": "Vacunas para perros y gatos",
+            "name": "Vacunación",
+            "price": "50.000 Gs"
+          },
+          {
+            "category": "Cirugía",
+            "description": "Castraciones y cirugías generales",
+            "name": "Cirugía",
+            "price": "Consultar"
+          },
+          {
+            "category": "Peluquería",
+            "description": "Baño y corte",
+            "name": "Peluquería",
+            "price": "80.000 Gs"
+          },
+          {
+            "category": "Diagnóstico",
+            "description": "Análisis de sangre y heces",
+            "name": "Análisis",
+            "price": "Desde 30.000 Gs"
+          }
+        ],
+        "title": "Nuestros Servicios"
+      },
+      "testimonials": {
+        "items": [
+          {
+            "author": "Sofía M.",
+            "quote": "Atienden súper bien a mi perro. Muy recomendados.",
+            "rating": 5
+          },
+          {
+            "author": "Andrés P.",
+            "quote": "Castraron a mi gato sin complicaciones. Excelente atención.",
+            "rating": 5
+          }
+        ],
+        "title": "Opiniones"
+      }
+    },
+    "navigation": {
+      "businessName": "Veterinaria",
+      "ctaHref": "https://wa.me/595981234567",
+      "ctaText": "Agendá tu cita",
+      "navItems": [
+        {
+          "href": "/s/es/demo-veterinaria",
+          "label": "Inicio"
+        },
+        {
+          "href": "/s/es/demo-veterinaria/contacto",
+          "label": "Contacto"
+        }
+      ]
+    },
+    "siteName": "Demo Veterinaria",
+    "tagline": "Atención veterinaria integral en Asunción",
     "whatsapp": "+595981234567"
   },
   "fun4me:bundles": {

@@ -1,0 +1,24 @@
+{
+  "siteName": "Demo Spa", "tagline": "Relajación y bienestar en Asunción",
+  "navigation": { "businessName": "Spa", "navItems": [{ "label": "Inicio", "href": "/s/es/demo-spa" }, { "label": "Contacto", "href": "/s/es/demo-spa/contacto" }], "ctaText": "Reservá tu sesión", "ctaHref": "https://wa.me/595981234567" },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Spa - Relajación en Asunción", "description": "Masajes, tratamientos faciales y circuito spa." },
+    "hero": { "headline": "Tu oasis de paz en la ciudad", "subheadline": "Masajes, tratamientos faciales y circuito spa en Asunción", "ctaPrimaryText": "Reservá tu sesión", "ctaSecondaryText": "Servicios" },
+    "services": { "title": "Nuestros Tratamientos", "items": [
+      { "name": "Masaje Relajante", "price": "180.000 Gs", "description": "60 minutos de pura relajación", "category": "Masajes" },
+      { "name": "Facial Anti-Edad", "price": "200.000 Gs", "description": "Tratamiento rejuvenecedor", "category": "Faciales" },
+      { "name": "Circuito Spa", "price": "250.000 Gs", "description": "Sauna + piscina + masaje", "category": "Circuitos" },
+      { "name": "Aromaterapia", "price": "150.000 Gs", "description": "Masaje con aceites esenciales", "category": "Masajes" },
+      { "name": "Masaje Deportivo", "price": "160.000 Gs", "description": "Recuperación muscular", "category": "Masajes" }
+    ]},
+    "testimonials": { "title": "Testimonios", "items": [
+      { "quote": "Salí flotando después del circuito spa. Un lugar mágico.", "author": "Carmen L.", "rating": 5 },
+      { "quote": "El masaje relajante es increíble. Volveré cada mes.", "author": "Diana R.", "rating": 5 }
+    ]},
+    "cta": { "title": "Reservá tu sesión", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Spa", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Spa", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-spa" }, { "label": "Contacto", "href": "/s/es/demo-spa/contacto" }] }
+}

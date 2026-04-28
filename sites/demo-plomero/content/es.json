@@ -1,0 +1,24 @@
+{
+  "siteName": "Demo Plomero", "tagline": "Reparaciones de plomería en Asunción",
+  "navigation": { "businessName": "Plomero", "navItems": [{ "label": "Inicio", "href": "/s/es/demo-plomero" }, { "label": "Contacto", "href": "/s/es/demo-plomero/contacto" }], "ctaText": "Consultá por WhatsApp", "ctaHref": "https://wa.me/595981234567" },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Plomero - Reparaciones de plomería en Asunción", "description": "Reparaciones de plomería, caños y tanques" },
+    "hero": { "headline": "Servicio profesional en Asunción", "subheadline": "Reparaciones de plomería en Asunción", "ctaPrimaryText": "Consultá por WhatsApp", "ctaSecondaryText": "Servicios" },
+    "services": { "title": "Nuestros Servicios", "items": [
+      { "name": "Diagnóstico", "price": "30.000 Gs", "description": "Revisión sin compromiso", "category": "Servicios" },
+      { "name": "Reparación", "price": "Consultar", "description": "Presupuesto sin cargo", "category": "Servicios" },
+      { "name": "Instalación", "price": "Consultar", "description": "Instalación profesional", "category": "Instalación" },
+      { "name": "Mantenimiento", "price": "Consultar", "description": "Mantenimiento preventivo", "category": "Mantenimiento" },
+      { "name": "Emergencia 24h", "price": "Consultar", "description": "Servicio de urgencia", "category": "Emergencia" }
+    ]},
+    "testimonials": { "title": "Opiniones", "items": [
+      { "quote": "Rápido y profesional. Lo recomiendo.", "author": "Cliente", "rating": 5 },
+      { "quote": "Buen precio y trabajo de calidad.", "author": "Cliente", "rating": 5 }
+    ]},
+    "cta": { "title": "Necesitás ayuda?", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Asunción, Paraguay" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Plomero", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Plomero", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-plomero" }, { "label": "Contacto", "href": "/s/es/demo-plomero/contacto" }] }
+}

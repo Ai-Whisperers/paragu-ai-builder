@@ -1,0 +1,21 @@
+{
+  "vertical": "health-wellness",
+  "businessType": "spa",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": ["es"],
+  "contact": { "whatsapp": "+595981234567", "email": "info@spa.com.py", "phone": "+595981234567" },
+  "location": { "city": "Asunción", "address": "Av. Mariscal López 1000" },
+  "features": { "whatsappFloat": true, "testimonials": true, "portfolio": true, "booking": true, "gallery": true },
+  "noindex": true,
+  "is_demo": true,
+  "path": "/s/es/demo-spa",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-spa",
+  "chrome": {
+    "header": { "id": "header", "variant": "standard", "content": "navigation" },
+    "footer": [
+      { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
+      { "id": "footer", "variant": "standard", "content": "footer" }
+    ]
+  }
+}

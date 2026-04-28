@@ -37,7 +37,7 @@ import { FloatingCTASection } from '@/components/sections/navigation/floating-ct
 import { HeroVideoSection } from '@/components/sections/hero/hero-video-section'
 import { BlogIndexSection } from '@/components/sections/social/blog-index-section'
 import { BlogPostSection } from '@/components/sections/social/blog-post-section'
-import { ProductCatalogSection, buildWhatsAppUrl } from '@/components/sections/commerce/product-catalog-section'
+import { buildWhatsAppUrl } from '@/components/sections/commerce/product-catalog-section'
 import { AgeGateSection } from '@/components/sections/specialty/age-gate-section'
 import { TrustBadgesSection } from '@/components/sections/hero/trust-badges-section'
 import { FooterSection } from '@/components/sections/navigation/footer-section'
@@ -200,7 +200,7 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'hero-video': HeroVideoSection,
   'blog-index': BlogIndexSection,
   'blog-post': BlogPostSection,
-  'product-catalog': ProductCatalogSection,
+  'product-catalog': buildWhatsAppUrl,
   'age-gate': AgeGateSection,
   'trust-badges': TrustBadgesSection,
   footer: FooterSection,

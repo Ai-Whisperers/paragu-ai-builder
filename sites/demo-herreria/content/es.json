@@ -1,0 +1,24 @@
+{
+  "siteName": "Demo Herrería", "tagline": "Trabajos de herrería en Lambaré",
+  "navigation": { "businessName": "Herrería", "navItems": [{ "label": "Inicio", "href": "/s/es/demo-herreria" }, { "label": "Contacto", "href": "/s/es/demo-herreria/contacto" }], "ctaText": "Consultá por WhatsApp", "ctaHref": "https://wa.me/595981234567" },
+  "whatsapp": "+595981234567",
+  "home": {
+    "seo": { "title": "Demo Herrería - Trabajos de herrería en Lambaré", "description": "Trabajos de herrería: portones, rejas y estructuras metálicas" },
+    "hero": { "headline": "Servicio profesional en Lambaré", "subheadline": "Trabajos de herrería en Lambaré", "ctaPrimaryText": "Consultá por WhatsApp", "ctaSecondaryText": "Servicios" },
+    "services": { "title": "Nuestros Servicios", "items": [
+      { "name": "Diagnóstico", "price": "30.000 Gs", "description": "Revisión sin compromiso", "category": "Servicios" },
+      { "name": "Reparación", "price": "Consultar", "description": "Presupuesto sin cargo", "category": "Servicios" },
+      { "name": "Instalación", "price": "Consultar", "description": "Instalación profesional", "category": "Instalación" },
+      { "name": "Mantenimiento", "price": "Consultar", "description": "Mantenimiento preventivo", "category": "Mantenimiento" },
+      { "name": "Emergencia 24h", "price": "Consultar", "description": "Servicio de urgencia", "category": "Emergencia" }
+    ]},
+    "testimonials": { "title": "Opiniones", "items": [
+      { "quote": "Rápido y profesional. Lo recomiendo.", "author": "Cliente", "rating": 5 },
+      { "quote": "Buen precio y trabajo de calidad.", "author": "Cliente", "rating": 5 }
+    ]},
+    "cta": { "title": "Necesitás ayuda?", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Lambaré, Paraguay" }
+  },
+  "contacto": { "seo": { "title": "Contacto — Herrería", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Herrería", "city": "Lambaré", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-herreria" }, { "label": "Contacto", "href": "/s/es/demo-herreria/contacto" }] }
+}
