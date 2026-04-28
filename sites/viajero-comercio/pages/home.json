@@ -22,7 +22,9 @@
     {
       "id": "features",
       "variant": "grid",
-      "content": "home.features"
+      "content": "home.features",
+      "title": "¿Por que elegir El Viajero?",
+      "subtitle": "6 razones para confiar en nosotros"
     },
     {
       "id": "product-catalog",
@@ -30,10 +32,18 @@
       "content": "home.productCatalog"
     },
     {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "home.gallery",
+      "title": "Galeria de Productos",
+      "subtitle": "Conoce nuestra variedad"
+    },
+    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials",
-      "title": "Lo que dicen nuestros clientes"
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "La opinion de quienes ya confiaron en nosotros"
     },
     {
       "id": "cta-banner",

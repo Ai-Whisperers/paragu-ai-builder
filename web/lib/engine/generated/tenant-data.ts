@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=14, pages=170, content=29, blog=34, images=5, verticals=23. */
+/** Counts: sites=15, pages=174, content=30, blog=34, images=6, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "alejandro-villamayor",
   "bufete-mendez",
@@ -26,7 +26,8 @@ export const SITE_SLUGS: readonly string[] = [
   "nudo",
   "polki-squad",
   "stoicfinch",
-  "superspuma"
+  "superspuma",
+  "viajero-comercio"
 ] as const
 
 export const BASE_TOKENS: JsonRecord = {
@@ -1997,6 +1998,133 @@ export const SITES: Record<string, JsonRecord> = {
     "title": "Superspuma",
     "vertical": "retail-local"
   },
+  "viajero-comercio": {
+    "businessType": "viajero_comercio",
+    "chrome": {
+      "footer": [
+        {
+          "content": "home.contact",
+          "id": "contact-strip",
+          "variant": "standard"
+        },
+        {
+          "content": "whatsapp",
+          "id": "whatsapp-float",
+          "variant": "standard"
+        },
+        {
+          "content": "footer",
+          "id": "footer",
+          "variant": "standard"
+        }
+      ],
+      "header": {
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      }
+    },
+    "contact": {
+      "email": "info@elviajerocomerc.io.com.py",
+      "facebook": "elviajerocomerc.io",
+      "instagram": "@elviajerocomerc.io",
+      "phone": "+595 981 234 567",
+      "whatsapp": "595981234567"
+    },
+    "country": "Paraguay",
+    "defaultLocale": "es",
+    "description": "Tienda de articulos de camping, pesca, accesorios para auto y moto, equipo outdoor y mas. Todo para tu aventura en Paraguay.",
+    "domain": null,
+    "features": {
+      "ageGate": {
+        "enabled": false
+      },
+      "featuresGrid": {
+        "enabled": true
+      },
+      "productCatalog": {
+        "enabled": true
+      },
+      "promoBanner": {
+        "enabled": false
+      },
+      "statsCounter": {
+        "enabled": true
+      },
+      "testimonials": {
+        "enabled": true
+      },
+      "whatsappFloat": {
+        "enabled": true
+      }
+    },
+    "hours": {
+      "Domingo": "09:00 - 13:00",
+      "Lunes a Viernes": "08:00 - 19:00",
+      "Sabado": "08:00 - 17:00"
+    },
+    "isLiveProduction": false,
+    "locales": [
+      "es"
+    ],
+    "location": {
+      "address": "Av. Mariscal Lopez 1234, c/ San Martin",
+      "city": "Asuncion",
+      "country": "Paraguay",
+      "department": "Central",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Mariscal+Lopez+1234+Asuncion+Paraguay"
+    },
+    "navigation": [
+      {
+        "labelKey": "navigation.home",
+        "path": ""
+      },
+      {
+        "label": "Productos",
+        "path": "productos"
+      },
+      {
+        "label": "Nosotros",
+        "path": "nosotros"
+      },
+      {
+        "label": "Contacto",
+        "path": "contacto"
+      }
+    ],
+    "pages": [
+      "home",
+      "productos",
+      "nosotros",
+      "contacto"
+    ],
+    "path": "/s/es/viajero-comercio",
+    "publicUrl": "https://paragu-ai.com/s/es/viajero-comercio",
+    "settings": {
+      "currency": "PYG",
+      "delivery": {
+        "enabled": true,
+        "freeThresholdGs": 300000,
+        "national": false,
+        "pickupAddresses": [
+          "Av. Mariscal Lopez 1234, Asuncion"
+        ],
+        "pickupAvailable": true,
+        "zones": [
+          "Asuncion",
+          "Fernando de la Mora",
+          "San Lorenzo",
+          "Lambare",
+          "Luque",
+          "Capiatá"
+        ]
+      },
+      "locale": "es-PY",
+      "timezone": "America/Asuncion"
+    },
+    "title": "El Viajero Comercio",
+    "vertical": "retail-local"
+  },
 }
 
 export const TENANT_TOKENS: Record<string, JsonRecord> = {
@@ -2286,6 +2414,17 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
     "font": {
       "body": "Open Sans",
       "heading": "Playfair Display"
+    }
+  },
+  "viajero-comercio": {
+    "color": {
+      "accent": "#E65100",
+      "primary": "#1B5E20",
+      "secondary": "#37474F"
+    },
+    "font": {
+      "body": "Inter",
+      "heading": "Poppins"
     }
   },
 }
@@ -5061,6 +5200,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "three-col"
       },
       {
+        "content": "home.beneluxDesk",
+        "id": "features",
+        "variant": "three-col"
+      },
+      {
         "content": "home.process",
         "id": "process-timeline",
         "styling": {
@@ -5073,11 +5217,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "enabledWhen": "testimonials",
         "id": "testimonials",
         "variant": "grid"
-      },
-      {
-        "content": "home.intakeWizard",
-        "id": "intake-wizard",
-        "variant": "default"
       },
       {
         "content": "home.finalCta",
@@ -5240,11 +5379,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "privacyPage.body",
         "id": "faq",
         "variant": "accordion"
-      },
-      {
-        "content": "privacyPage.dataRequest",
-        "id": "intake-questionnaire",
-        "variant": "default"
       },
       {
         "content": "footer",
@@ -5414,11 +5548,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "aboutPage.team",
         "id": "team",
         "variant": "cards"
-      },
-      {
-        "content": "aboutPage.gallery",
-        "id": "gallery",
-        "variant": "grid"
       },
       {
         "content": "aboutPage.cta",
@@ -9250,6 +9379,160 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "tiendas",
     "titleKey": "tiendas.seo.title"
+  },
+  "viajero-comercio:contacto": {
+    "descriptionKey": "contacto.seo.description",
+    "schemaType": "Store",
+    "sections": [
+      {
+        "content": "contacto.hero",
+        "id": "hero",
+        "subtitle": "Estamos para ayudarte",
+        "title": "Contacto",
+        "variant": "minimal"
+      },
+      {
+        "content": "contacto.info",
+        "id": "contact",
+        "subtitle": "Escribinos o visitanos",
+        "title": "Informacion de Contacto",
+        "variant": "full"
+      },
+      {
+        "content": "contacto.form",
+        "id": "lead-form",
+        "subtitle": "Te respondemos a la brevedad",
+        "title": "Envianos un Mensaje",
+        "variant": "default"
+      },
+      {
+        "content": "contacto.info.address",
+        "id": "google-maps",
+        "subtitle": "Av. Mariscal Lopez 1234, Asuncion",
+        "title": "Nuestra Ubicacion",
+        "variant": "full-width"
+      },
+      {
+        "content": "faq",
+        "id": "faq",
+        "subtitle": "Todo lo que necesitas saber",
+        "title": "Preguntas Frecuentes",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.finalCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "contacto",
+    "titleKey": "contacto.seo.title"
+  },
+  "viajero-comercio:home": {
+    "descriptionKey": "home.seo.description",
+    "schemaType": "Store",
+    "sections": [
+      {
+        "content": "home.hero",
+        "id": "hero",
+        "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1920&q=80",
+        "styling": {
+          "backgroundImage": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1920&q=80",
+          "textColor": "light"
+        },
+        "variant": "image"
+      },
+      {
+        "content": "home.stats",
+        "id": "stats-counter",
+        "variant": "inline"
+      },
+      {
+        "content": "home.features",
+        "id": "features",
+        "subtitle": "6 razones para confiar en nosotros",
+        "title": "¿Por que elegir El Viajero?",
+        "variant": "grid"
+      },
+      {
+        "content": "home.productCatalog",
+        "id": "product-catalog",
+        "variant": "grid"
+      },
+      {
+        "content": "home.gallery",
+        "id": "gallery",
+        "subtitle": "Conoce nuestra variedad",
+        "title": "Galeria de Productos",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "subtitle": "La opinion de quienes ya confiaron en nosotros",
+        "title": "Lo que dicen nuestros clientes",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.finalCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "",
+    "titleKey": "home.seo.title"
+  },
+  "viajero-comercio:nosotros": {
+    "descriptionKey": "about.seo.description",
+    "schemaType": "Store",
+    "sections": [
+      {
+        "content": "about.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "about.story",
+        "id": "our-story",
+        "variant": "default"
+      },
+      {
+        "content": "about.values",
+        "id": "features",
+        "title": "Nuestros Valores",
+        "variant": "grid"
+      },
+      {
+        "content": "home.finalCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "nosotros",
+    "titleKey": "about.seo.title"
+  },
+  "viajero-comercio:productos": {
+    "descriptionKey": "productos.seo.description",
+    "schemaType": "Store",
+    "sections": [
+      {
+        "content": "productos.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "productos.productCatalog",
+        "id": "product-catalog",
+        "variant": "grid"
+      },
+      {
+        "content": "home.finalCta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "productos",
+    "titleKey": "productos.seo.title"
   },
 }
 
@@ -18978,7 +19261,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "contactPage": {
       "booking": {
-        "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+        "bookingUrl": "#",
         "ctaLabel": "Kalender öffnen",
         "fallbackEmail": "hola@nexaparaguay.com",
         "fallbackWhatsapp": "595982515138",
@@ -19093,6 +19376,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "footer": {
       "businessName": "Nexa Paraguay",
       "city": "Asunción",
+      "copyright": "© {year} Nexa Paraguay. Alle Rechte vorbehalten.",
       "email": "hola@nexaparaguay.com",
       "instagram": "https://instagram.com/nexaparaguay",
       "navLinks": [
@@ -19284,6 +19568,27 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "home": {
+      "beneluxDesk": {
+        "items": [
+          {
+            "description": "Komplette Koordination in Ihrer Muttersprache — ohne Sprachbarrieren.",
+            "icon": "MessageCircle",
+            "title": "Betreuung auf Niederländisch"
+          },
+          {
+            "description": "Verständnis europäischer Steuersysteme und deren Zusammenspiel mit Paraguays territorialem System.",
+            "icon": "Globe",
+            "title": "Wir Kennen Ihren Kontext"
+          },
+          {
+            "description": "Über 200 niederländische und belgische Familien sind bereits mit uns umgezogen.",
+            "icon": "Users",
+            "title": "Aktive Gemeinschaft"
+          }
+        ],
+        "subtitle": "Niederländer, Belgier oder Luxemburger? Wir haben ein spezialisiertes Team für Sie.",
+        "title": "Spezialisierte Betreuung für Benelux"
+      },
       "finalCta": {
         "buttonHref": "/s/de/nexa-paraguay/contacto",
         "buttonText": "Kostenlose Beratung buchen",
@@ -19571,6 +19876,26 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Aufenthaltserlaubnis, Gesellschaft und Bankkonto in Paraguay. Ein Programm, eine Reise, ein professionelles Team.",
         "title": "Nexa Paraguay — Etablieren Sie Ihr Geschäft in Paraguay"
+      },
+      "stats": {
+        "items": [
+          {
+            "icon": "Users",
+            "label": "Familien umgesiedelt",
+            "value": "+500"
+          },
+          {
+            "icon": "Calendar",
+            "label": "Jahre Erfahrung",
+            "value": "+10"
+          },
+          {
+            "icon": "Award",
+            "label": "Erfolgsquote",
+            "value": "98%"
+          }
+        ],
+        "title": "Zahlen"
       },
       "taxCalculator": {
         "subtitle": "Schätzen Sie, wie viel Sie durch die Niederlassung in Paraguay an Steuern sparen.",
@@ -20178,16 +20503,21 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Start"
         },
         {
-          "href": "/s/de/nexa-paraguay/programas",
-          "label": "Programme"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/por-que-paraguay",
-          "label": "Warum Paraguay"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/proceso",
-          "label": "Ablauf"
+          "children": [
+            {
+              "href": "/s/de/nexa-paraguay/programas",
+              "label": "Programme"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/por-que-paraguay",
+              "label": "Warum Paraguay"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/proceso",
+              "label": "Ablauf"
+            }
+          ],
+          "label": "Umzug"
         },
         {
           "href": "/s/de/nexa-paraguay/sobre",
@@ -20198,16 +20528,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "FAQ"
         },
         {
-          "href": "/s/de/nexa-paraguay/blog",
-          "label": "Blog"
+          "href": "/s/de/nexa-paraguay/benelux",
+          "label": "Benelux"
         },
         {
-          "href": "/s/de/nexa-paraguay/recursos",
-          "label": "Ressourcen"
-        },
-        {
-          "href": "/s/de/nexa-paraguay/prensa",
-          "label": "Presse"
+          "children": [
+            {
+              "href": "/s/de/nexa-paraguay/blog",
+              "label": "Blog"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/recursos",
+              "label": "Ressourcen"
+            },
+            {
+              "href": "/s/de/nexa-paraguay/prensa",
+              "label": "Presse"
+            }
+          ],
+          "label": "Einblicke"
         },
         {
           "href": "/s/de/nexa-paraguay/contacto",
@@ -21215,7 +21554,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "contactPage": {
       "booking": {
-        "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+        "bookingUrl": "#",
         "ctaLabel": "Open calendar",
         "fallbackEmail": "hola@nexaparaguay.com",
         "fallbackWhatsapp": "595982515138",
@@ -21330,6 +21669,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "footer": {
       "businessName": "Nexa Paraguay",
       "city": "Asunción",
+      "copyright": "© {year} Nexa Paraguay. All rights reserved.",
       "email": "hola@nexaparaguay.com",
       "facebook": null,
       "instagram": "https://instagram.com/nexaparaguay",
@@ -21522,6 +21862,27 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "home": {
+      "beneluxDesk": {
+        "items": [
+          {
+            "description": "Full coordination in your native language — no communication barriers.",
+            "icon": "MessageCircle",
+            "title": "Dutch-speaking Support"
+          },
+          {
+            "description": "Understanding European tax systems and how they interact with Paraguay's territorial regime.",
+            "icon": "Globe",
+            "title": "We Know Your Context"
+          },
+          {
+            "description": "200+ Dutch and Belgian families have already relocated with our help.",
+            "icon": "Users",
+            "title": "Active Community"
+          }
+        ],
+        "subtitle": "Dutch, Belgian, or Luxembourgish? We have a specialized team for you.",
+        "title": "Dedicated Benelux Desk"
+      },
       "finalCta": {
         "buttonHref": "/s/en/nexa-paraguay/contacto",
         "buttonText": "Book free consultation",
@@ -22435,16 +22796,21 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Home"
         },
         {
-          "href": "/s/en/nexa-paraguay/programas",
-          "label": "Programs"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/por-que-paraguay",
-          "label": "Why Paraguay"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/proceso",
-          "label": "Process"
+          "children": [
+            {
+              "href": "/s/en/nexa-paraguay/programas",
+              "label": "Programs"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/por-que-paraguay",
+              "label": "Why Paraguay"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/proceso",
+              "label": "Process"
+            }
+          ],
+          "label": "Relocation"
         },
         {
           "href": "/s/en/nexa-paraguay/sobre",
@@ -22455,16 +22821,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "FAQ"
         },
         {
-          "href": "/s/en/nexa-paraguay/blog",
-          "label": "Blog"
+          "href": "/s/en/nexa-paraguay/benelux",
+          "label": "Benelux"
         },
         {
-          "href": "/s/en/nexa-paraguay/recursos",
-          "label": "Resources"
-        },
-        {
-          "href": "/s/en/nexa-paraguay/prensa",
-          "label": "Press"
+          "children": [
+            {
+              "href": "/s/en/nexa-paraguay/blog",
+              "label": "Blog"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/recursos",
+              "label": "Resources"
+            },
+            {
+              "href": "/s/en/nexa-paraguay/prensa",
+              "label": "Press"
+            }
+          ],
+          "label": "Insights"
         },
         {
           "href": "/s/en/nexa-paraguay/contacto",
@@ -23463,7 +23838,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "contactPage": {
       "booking": {
-        "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+        "bookingUrl": "#",
         "ctaLabel": "Abrir calendario",
         "fallbackEmail": "hola@nexaparaguay.com",
         "fallbackWhatsapp": "595982515138",
@@ -23578,6 +23953,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "footer": {
       "businessName": "Nexa Paraguay",
       "city": "Asunción",
+      "copyright": "© {year} Nexa Paraguay. Todos los derechos reservados.",
       "email": "hola@nexaparaguay.com",
       "facebook": null,
       "instagram": "https://instagram.com/nexaparaguay",
@@ -23770,6 +24146,27 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "home": {
+      "beneluxDesk": {
+        "items": [
+          {
+            "description": "Coordinación y acompañamiento en tu idioma nativo, sin barreras.",
+            "icon": "MessageCircle",
+            "title": "Atención en Neerlandés"
+          },
+          {
+            "description": "Entendemos el sistema fiscal europeo y cómo se relaciona con el régimen tributario paraguayo.",
+            "icon": "Globe",
+            "title": "Conocemos tu contexto"
+          },
+          {
+            "description": "Más de 200 familias neerlandesas y belgas ya se han reubicado con nuestra ayuda.",
+            "icon": "Users",
+            "title": "Comunidad Activa"
+          }
+        ],
+        "subtitle": "Holandés, belga o luxemburgués? Tenemos un equipo dedicado para ti.",
+        "title": "Atención especial para Benelux"
+      },
       "finalCta": {
         "buttonHref": "/s/es/nexa-paraguay/contacto",
         "buttonText": "Agendar consulta gratuita",
@@ -24683,16 +25080,21 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Inicio"
         },
         {
-          "href": "/s/es/nexa-paraguay/programas",
-          "label": "Programas"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/por-que-paraguay",
-          "label": "Por qué Paraguay"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/proceso",
-          "label": "Proceso"
+          "children": [
+            {
+              "href": "/s/es/nexa-paraguay/programas",
+              "label": "Programas"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/por-que-paraguay",
+              "label": "Por qué Paraguay"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/proceso",
+              "label": "Proceso"
+            }
+          ],
+          "label": "Reubicación"
         },
         {
           "href": "/s/es/nexa-paraguay/sobre",
@@ -24703,16 +25105,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "FAQ"
         },
         {
-          "href": "/s/es/nexa-paraguay/blog",
-          "label": "Blog"
+          "href": "/s/es/nexa-paraguay/benelux",
+          "label": "Benelux"
         },
         {
-          "href": "/s/es/nexa-paraguay/recursos",
+          "children": [
+            {
+              "href": "/s/es/nexa-paraguay/blog",
+              "label": "Blog"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/recursos",
+              "label": "Recursos"
+            },
+            {
+              "href": "/s/es/nexa-paraguay/prensa",
+              "label": "Prensa"
+            }
+          ],
           "label": "Recursos"
-        },
-        {
-          "href": "/s/es/nexa-paraguay/prensa",
-          "label": "Prensa"
         },
         {
           "href": "/s/es/nexa-paraguay/contacto",
@@ -25726,7 +26137,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "contactPage": {
       "booking": {
-        "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+        "bookingUrl": "#",
         "ctaLabel": "Open agenda",
         "fallbackEmail": "hola@nexaparaguay.com",
         "fallbackWhatsapp": "595982515138",
@@ -25841,6 +26252,7 @@ export const CONTENT: Record<string, JsonRecord> = {
     "footer": {
       "businessName": "Nexa Paraguay",
       "city": "Asunción",
+      "copyright": "© {year} Nexa Paraguay. Alle rechten voorbehouden.",
       "email": "hola@nexaparaguay.com",
       "instagram": "https://instagram.com/nexaparaguay",
       "navLinks": [
@@ -26032,6 +26444,27 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "home": {
+      "beneluxDesk": {
+        "items": [
+          {
+            "description": "Volledige begeleiding in uw eigen taal — geen communicatiebarrières.",
+            "icon": "MessageCircle",
+            "title": "Nederlandstalige Ondersteuning"
+          },
+          {
+            "description": "Inzicht in Europese belastingstelsels en hoe deze samenwerken met het territoriale regime van Paraguay.",
+            "icon": "Globe",
+            "title": "Wij Kennen Uw Context"
+          },
+          {
+            "description": "Meer dan 200 Nederlandse en Belgische families zijn u al voorgegaan.",
+            "icon": "Users",
+            "title": "Actieve Gemeenschap"
+          }
+        ],
+        "subtitle": "Nederlands, Belgisch of Luxemburgs? Wij hebben een speciaal team voor u.",
+        "title": "Specialistische Benelux Afdeling"
+      },
       "finalCta": {
         "buttonHref": "/s/nl/nexa-paraguay/contacto",
         "buttonText": "Plan gratis consult",
@@ -26319,6 +26752,26 @@ export const CONTENT: Record<string, JsonRecord> = {
       "seo": {
         "description": "Verblijfsvergunning, vennootschap en bankrekening in Paraguay. Eén programma, één reis, een professioneel team.",
         "title": "Nexa Paraguay — Vestig uw onderneming in Paraguay"
+      },
+      "stats": {
+        "items": [
+          {
+            "icon": "Users",
+            "label": "Families verhuisd",
+            "value": "+500"
+          },
+          {
+            "icon": "Calendar",
+            "label": "Jaar ervaring",
+            "value": "+10"
+          },
+          {
+            "icon": "Award",
+            "label": "Succespercentage",
+            "value": "98%"
+          }
+        ],
+        "title": "Cijfers"
       },
       "taxCalculator": {
         "subtitle": "Schat hoeveel u bespaart aan belastingen door zich in Paraguay te vestigen.",
@@ -26926,16 +27379,21 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Home"
         },
         {
-          "href": "/s/nl/nexa-paraguay/programas",
-          "label": "Programma's"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/por-que-paraguay",
-          "label": "Waarom Paraguay"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/proceso",
-          "label": "Proces"
+          "children": [
+            {
+              "href": "/s/nl/nexa-paraguay/programas",
+              "label": "Programma's"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/por-que-paraguay",
+              "label": "Waarom Paraguay"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/proceso",
+              "label": "Proces"
+            }
+          ],
+          "label": "Verhuizing"
         },
         {
           "href": "/s/nl/nexa-paraguay/sobre",
@@ -26946,16 +27404,25 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "FAQ"
         },
         {
-          "href": "/s/nl/nexa-paraguay/blog",
-          "label": "Blog"
+          "href": "/s/nl/nexa-paraguay/benelux",
+          "label": "Benelux"
         },
         {
-          "href": "/s/nl/nexa-paraguay/recursos",
-          "label": "Bronnen"
-        },
-        {
-          "href": "/s/nl/nexa-paraguay/prensa",
-          "label": "Pers"
+          "children": [
+            {
+              "href": "/s/nl/nexa-paraguay/blog",
+              "label": "Blog"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/recursos",
+              "label": "Bronnen"
+            },
+            {
+              "href": "/s/nl/nexa-paraguay/prensa",
+              "label": "Pers"
+            }
+          ],
+          "label": "Inzichten"
         },
         {
           "href": "/s/nl/nexa-paraguay/contacto",
@@ -31567,6 +32034,297 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "whatsapp": "+595974202025"
   },
+  "viajero-comercio:es": {
+    "about": {
+      "hero": {
+        "headline": "Sobre El Viajero Comercio",
+        "subheadline": "Apasionados por la aventura desde 2018"
+      },
+      "seo": {
+        "description": "Conoce la historia de El Viajero Comercio. Apasionados por la aventura y el aire libre desde 2018 en Asuncion.",
+        "title": "Sobre El Viajero Comercio | Tu Tienda Outdoor en Asuncion"
+      },
+      "story": {
+        "paragraphs": [
+          "El Viajero Comercio nacio en 2018 en Asuncion con una mision clara: equipar a los aventureros paraguayos con todo lo necesario para explorar Paraguay y el mundo. Desde una pequena tienda en el centro, comenzamos importando carpas y equipos de camping que eran dificiles de conseguir en el pais.",
+          "Hoy somos un referente en articulos outdoor, con mas de 500 productos en stock y 6 categorias que cubren camping, pesca, accesorios para auto y moto, equipo personal y agro. Nos enorgullece brindar atencion personalizada y asesoramiento experto para que cada cliente encuentre exactamente lo que necesita.",
+          "Creemos que el equipo correcto hace la diferencia entre un buen viaje y una experiencia inolvidable. Seguimos creciendo, trayendo las mejores marcas y los productos mas innovadores para que tu proxima aventura sea la mejor de todas."
+        ]
+      },
+      "values": [
+        {
+          "description": "Seleccionamos productos que cumplen con nuestros estandares de durabilidad y rendimiento en el campo.",
+          "title": "Calidad"
+        },
+        {
+          "description": "Cada cliente recibe asesoramiento segun su experiencia y sus necesidades especificas de viaje.",
+          "title": "Atencion Personalizada"
+        },
+        {
+          "description": "Seis categorias con mas de 500 productos para que encuentres todo en un solo lugar.",
+          "title": "Variedad"
+        },
+        {
+          "description": "Somos viajeros y aventureros nosotros mismos. Sabemos lo que necesitas porque lo vivimos.",
+          "title": "Pasion por la Aventura"
+        }
+      ]
+    },
+    "businessName": "El Viajero Comercio",
+    "contacto": {
+      "form": {
+        "fields": [
+          "name",
+          "phone",
+          "product",
+          "message"
+        ],
+        "submitText": "Enviar Consulta",
+        "title": "Envianos un Mensaje"
+      },
+      "hero": {
+        "headline": "Contacto",
+        "subheadline": "Estamos para ayudarte"
+      },
+      "info": {
+        "address": "Av. Mariscal Lopez 1234, Asuncion",
+        "email": "info@elviajerocomerc.io.com.py",
+        "hours": "Lun-Vie 08:00-19:00 | Sab 08:00-17:00 | Dom 09:00-13:00",
+        "phone": "+595 981 234 567",
+        "title": "Informacion de Contacto",
+        "whatsapp": "595981234567"
+      },
+      "seo": {
+        "description": "Contactanos por WhatsApp, telefono o visitanos en Av. Mariscal Lopez 1234, Asuncion. Estamos para ayudarte con tus proyectos outdoor.",
+        "title": "Contacto - El Viajero Comercio | Av. Mariscal Lopez, Asuncion"
+      }
+    },
+    "faq": [
+      {
+        "answer": "Estamos en Av. Mariscal Lopez 1234, Asuncion, casi San Martin. Frente a la plaza. Tambien podes contactarnos por WhatsApp al +595 981 234 567.",
+        "question": "Donde estan ubicados?"
+      },
+      {
+        "answer": "Atendemos de Lunes a Viernes de 08:00 a 19:00, Sabados de 08:00 a 17:00 y Domingos de 09:00 a 13:00.",
+        "question": "Cual es el horario de atencion?"
+      },
+      {
+        "answer": "Si, hacemos entregas en Asuncion, Fernando de la Mora, San Lorenzo, Lambare, Luque y Capiatá. Envio gratis en compras desde Gs. 300.000. Consultanos por envios al interior.",
+        "question": "Hacen envios?"
+      },
+      {
+        "answer": "Escribinos por WhatsApp al +595 981 234 567 con el producto que te interesa y te pasamos precio, disponibilidad y formas de pago. Tambien podes venir al local.",
+        "question": "Como puedo pedir un producto?"
+      },
+      {
+        "answer": "Aceptamos efectivo (Gs. / USD), transferencia bancaria, tarjetas de credito y debito (Bancard), Mercado Pago y Pagopar. Consultanos por cuotas sin interes.",
+        "question": "Que metodos de pago aceptan?"
+      },
+      {
+        "answer": "Si, todos nuestros productos cuentan con garantia. El periodo varia segun el tipo de producto. Consulta los detalles con nuestro equipo.",
+        "question": "Tienen garantia?"
+      },
+      {
+        "answer": "Si, aceptamos cambios dentro de los 7 dias posteriores a la compra, con el producto en su estado original y su empaque. No incluye productos en liquidacion.",
+        "question": "Puedo cambiar un producto?"
+      },
+      {
+        "answer": "Si, ofrecemos cuotas sin interes con tarjetas Bancard. Consulta las promociones vigentes en el local o por WhatsApp.",
+        "question": "Tienen financiacion?"
+      }
+    ],
+    "footer": {
+      "address": "Av. Mariscal Lopez 1234, Asuncion",
+      "description": "El Viajero Comercio - Todo para tu aventura en Asuncion. Camping, pesca, accesorios para auto y moto, equipo outdoor y mas. Desde 2018 equipando a los aventureros paraguayos.",
+      "hours": "Lun-Vie 08:00-19:00 | Sab 08:00-17:00 | Dom 09:00-13:00",
+      "phone": "+595 981 234 567"
+    },
+    "founded": "2018",
+    "home": {
+      "contact": {
+        "address": "Av. Mariscal Lopez 1234, Asuncion",
+        "description": "Estamos en Av. Mariscal Lopez 1234, Asuncion. Consultanos por WhatsApp para cualquier consulta.",
+        "email": "info@elviajerocomerc.io.com.py",
+        "googleMapsUrl": "https://maps.google.com/?q=Av.+Mariscal+Lopez+1234+Asuncion+Paraguay",
+        "hours": "Lun-Vie 08:00-19:00, Sab 08:00-17:00, Dom 09:00-13:00",
+        "phone": "+595 981 234 567",
+        "subtitle": "Escribinos o visitanos",
+        "title": "Contacto",
+        "whatsapp": "595981234567"
+      },
+      "features": {
+        "items": [
+          {
+            "description": "Camping, pesca, auto, moto y mas — no necesitas ir a varias tiendas.",
+            "icon": "package",
+            "title": "Todo en un Solo Lugar"
+          },
+          {
+            "description": "Trabajamos con marcas confiables para que tu equipo dure.",
+            "icon": "shield",
+            "title": "Productos de Calidad"
+          },
+          {
+            "description": "Te ayudamos a elegir el equipo correcto para cada aventura.",
+            "icon": "message-circle",
+            "title": "Asesoramiento Experto"
+          },
+          {
+            "description": "Consulta disponibilidad, hace tu pedido y recibilo sin salir de casa.",
+            "icon": "phone",
+            "title": "Pedido por WhatsApp"
+          },
+          {
+            "description": "Hacemos envios en Asuncion y zonas aledanas.",
+            "icon": "truck",
+            "title": "Entrega en Asuncion"
+          },
+          {
+            "description": "Buena relacion precio-calidad para que arranques tu aventura.",
+            "icon": "wallet",
+            "title": "Precios Accesibles"
+          }
+        ],
+        "title": "Por que elegir El Viajero?"
+      },
+      "finalCta": {
+        "buttonLink": "https://wa.me/595981234567?text=Hola!%20Quisiera%20informacion%20sobre%20productos",
+        "buttonText": "Escribinos Ahora",
+        "description": "Contactanos por WhatsApp y te asesoramos sobre los productos que necesitas. Hacemos envios en Asuncion y zonas aledanas.",
+        "secondaryLink": "#catalogo",
+        "secondaryText": "Ver Catalogo",
+        "title": "Listo para tu proxima aventura?"
+      },
+      "gallery": {
+        "subtitle": "Nuestros productos",
+        "title": "Galeria"
+      },
+      "hero": {
+        "ctaPrimaryHref": "#catalogo",
+        "ctaPrimaryText": "Ver Catalogo",
+        "ctaSecondaryHref": "https://wa.me/595981234567?text=Hola!%20Quisiera%20informacion%20sobre%20productos%20de%20El%20Viajero%20Comercio",
+        "ctaSecondaryText": "Pedir por WhatsApp",
+        "headline": "El Viajero Comercio - Tu Aventura Empieza Aca",
+        "subheadline": "Camping, pesca, accesorios para auto y moto, equipo outdoor. Todo lo que necesitas para tu proxima aventura."
+      },
+      "productCatalog": {
+        "categories": [
+          {
+            "description": "Carpas, catres, colchonetas, sillas plegables, linternas, parrillas, cocinas a gas y mas para tu proxima acampada.",
+            "id": "camping",
+            "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
+            "name": "Camping"
+          },
+          {
+            "description": "Cañas, rieles, señuelos, liñadas, plomadas, flotadores, redes y todo el equipo para el pescador.",
+            "id": "pesca",
+            "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+            "name": "Pesca"
+          },
+          {
+            "description": "Mochilas, cuchillos, brujulas, linternas frontales, botas, cantimploras, binoculares y equipo de exploracion.",
+            "id": "accesorios-personales",
+            "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+            "name": "Accesorios Personales"
+          },
+          {
+            "description": "Camaras dashcam, GPS, infladores 12V, eslingas de remolque, catracas, extintores y accesorios para tu vehiculo.",
+            "id": "automoviles",
+            "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+            "name": "Automoviles"
+          },
+          {
+            "description": "Cascos, camaras para cascos, guantes, GPS antirrobo y accesorios para motociclistas.",
+            "id": "motos",
+            "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80",
+            "name": "Motos"
+          },
+          {
+            "description": "Herramientas y accesorios para el campo, la granja y el agro.",
+            "id": "campo-granja",
+            "image": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=800&q=80",
+            "name": "Campo y Granja"
+          }
+        ],
+        "orderButtonText": "Consultar por WhatsApp",
+        "orderMessageTemplate": "Hola! Quisiera consultar por {{productName}} de {{businessName}}",
+        "subtitle": "Todo para tu proxima aventura",
+        "title": "Nuestros Productos"
+      },
+      "seo": {
+        "description": "Todo para tu aventura: camping, pesca, accesorios para auto y moto, equipo outdoor. Visitanos en Asuncion o pedi por WhatsApp.",
+        "title": "El Viajero Comercio - Camping, Pesca y Aventura en Asuncion"
+      },
+      "stats": {
+        "items": [
+          {
+            "label": "Categorias",
+            "value": "6"
+          },
+          {
+            "label": "Productos",
+            "value": "+500"
+          },
+          {
+            "label": "Atencion",
+            "value": "100%"
+          },
+          {
+            "label": "Pasion",
+            "value": "Outdoor"
+          }
+        ],
+        "title": "El Viajero en Numeros"
+      },
+      "testimonials": [
+        {
+          "name": "Carlos Mendoza",
+          "rating": 5,
+          "text": "Excelente atencion y buenos precios. Encontre todo lo que necesitaba para mi viaje de camping a San Bernardino."
+        },
+        {
+          "name": "Maria Gonzalez",
+          "rating": 5,
+          "text": "Me asesoraron muy bien para elegir mi caña de pescar. Volvere sin duda."
+        },
+        {
+          "name": "Luis Ramirez",
+          "rating": 4,
+          "text": "Compre mi carpa y accesorios para la moto. Todo de buena calidad y a buen precio. Recomendado."
+        },
+        {
+          "name": "Ana Benitez",
+          "rating": 5,
+          "text": "Tienen productos que no se consiguen en otros lados. La picana electrica me salvo en el camino a Caacupe."
+        }
+      ]
+    },
+    "navigation": {
+      "contacto": "Contacto",
+      "home": "Inicio",
+      "nosotros": "Nosotros",
+      "productos": "Productos"
+    },
+    "productos": {
+      "hero": {
+        "headline": "Nuestros Productos",
+        "subheadline": "Todo para tu aventura en un solo lugar"
+      },
+      "productCatalog": {
+        "subtitle": "Explora todas nuestras categorias",
+        "title": "Catalogo Completo"
+      },
+      "seo": {
+        "description": "Explora nuestro catalogo completo de camping, pesca, accesorios para auto y moto en Asuncion. Pedi por WhatsApp y recibi en tu casa.",
+        "title": "Productos - El Viajero Comercio | Catalogo Completo en Asuncion"
+      }
+    },
+    "tagline": "Todo para tu Aventura",
+    "whatsapp": {
+      "defaultMessage": "Hola! Quisiera informacion sobre productos de El Viajero Comercio",
+      "serviceMessage": "Hola! Quisiera consultar por {{productName}}"
+    }
+  },
 }
 
 export const BLOG_POSTS: Record<string, string> = {
@@ -33091,6 +33849,26 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
     },
     "tenant": "polki-squad",
     "totalImages": 0
+  },
+  "viajero-comercio": {
+    "categories": {
+      "accesorios-personales": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+      "automoviles": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "camping": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
+      "campo-granja": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=800&q=80",
+      "motos": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80",
+      "pesca": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80",
+      "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=600&q=80",
+      "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=600&q=80",
+      "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=600&q=80",
+      "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=600&q=80",
+      "https://images.unsplash.com/photo-1559526324-593bc073d938?w=600&q=80"
+    ],
+    "hero": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1920&q=80",
+    "store": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80"
   },
 }
 

@@ -87,7 +87,7 @@ export function BlogPostSection({
         {shareUrl && <BlogSocialShare url={shareUrl} title={title} locale={locale} />}
 
         {relatedPosts && relatedPosts.length > 0 && (
-          <Section fullWidth spacing="none" className="font-heading mt-16 border-t border-border pt-12">
+          <Section fullWidth spacing="md" className="font-heading mt-16 border-t border-border pt-12">
             <Heading level={2} className="font-heading mb-6 text-2xl font-semibold text-primary">
               {relatedLabel}
             </Heading>

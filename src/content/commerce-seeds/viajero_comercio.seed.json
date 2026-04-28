@@ -1,0 +1,210 @@
+{
+  "type": "viajero_comercio",
+  "note": "Stock photos from Unsplash (free for commercial use). Sample products for the outdoor/camping store.",
+  "products": [
+    {
+      "slug": "carpa-4-personas",
+      "name": "Carpa 4 Personas Impermeable",
+      "category": "camping",
+      "priceCents": 450000,
+      "compareAtPriceCents": 550000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80", "alt": "Carpa para 4 personas en el bosque", "isCover": true }
+      ],
+      "inventoryQty": 8
+    },
+    {
+      "slug": "carpa-2-personas",
+      "name": "Carpa 2 Personas Ligera",
+      "category": "camping",
+      "priceCents": 250000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=1200&q=80", "alt": "Carpa ligera para 2 personas", "isCover": true }
+      ],
+      "inventoryQty": 12
+    },
+    {
+      "slug": "bolsa-dormir",
+      "name": "Bolsa de Dormir - Temperatura 0°C",
+      "category": "camping",
+      "priceCents": 180000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80", "alt": "Bolsa de dormir para camping", "isCover": true }
+      ],
+      "inventoryQty": 15
+    },
+    {
+      "slug": "colchon-inflable",
+      "name": "Colchon Inflable Queen Size",
+      "category": "camping",
+      "priceCents": 120000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80", "alt": "Colchon inflable para camping", "isCover": true }
+      ],
+      "inventoryQty": 10
+    },
+    {
+      "slug": "silla-plegable",
+      "name": "Silla Plegable Tipo Pescador",
+      "category": "camping",
+      "priceCents": 85000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1200&q=80", "alt": "Silla plegable para pesca", "isCover": true }
+      ],
+      "inventoryQty": 20
+    },
+    {
+      "slug": "linterna-led",
+      "name": "Linterna LED Recargable 1000lm",
+      "category": "camping",
+      "priceCents": 65000,
+      "compareAtPriceCents": 80000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=1200&q=80", "alt": "Linterna LED potente", "isCover": true }
+      ],
+      "inventoryQty": 25
+    },
+    {
+      "slug": "parrilla-portatil",
+      "name": "Parrilla Plegable Portatil",
+      "category": "camping",
+      "priceCents": 150000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=80", "alt": "Parrilla portatil para camping", "isCover": true }
+      ],
+      "inventoryQty": 6
+    },
+    {
+      "slug": "cana-pescar-3m",
+      "name": "Caña de Pescar Telescopica 3m",
+      "category": "pesca",
+      "priceCents": 140000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Caña de pescar telescopica", "isCover": true }
+      ],
+      "inventoryQty": 10
+    },
+    {
+      "slug": "caja-pesca",
+      "name": "Caja de Herramientas para Pesca",
+      "category": "pesca",
+      "priceCents": 95000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=1200&q=80", "alt": "Caja de herramientas para pesca", "isCover": true }
+      ],
+      "inventoryQty": 7
+    },
+    {
+      "slug": "chaleco-salvavidas",
+      "name": "Chaleco Salvavidas Aprobado",
+      "category": "pesca",
+      "priceCents": 110000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=1200&q=80", "alt": "Chaleco salvavidas", "isCover": true }
+      ],
+      "inventoryQty": 15
+    },
+    {
+      "slug": "mochila-60l",
+      "name": "Mochila 60L Impermeable",
+      "category": "accesorios-personales",
+      "priceCents": 220000,
+      "compareAtPriceCents": 280000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80", "alt": "Mochila grande impermeable", "isCover": true }
+      ],
+      "inventoryQty": 9
+    },
+    {
+      "slug": "cuchillo-multiuso",
+      "name": "Cuchillo Multiuso Plegable",
+      "category": "accesorios-personales",
+      "priceCents": 75000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=1200&q=80", "alt": "Cuchillo multiuso", "isCover": true }
+      ],
+      "inventoryQty": 18
+    },
+    {
+      "slug": "brujula-profesional",
+      "name": "Brujula Profesional con Clinometro",
+      "category": "accesorios-personales",
+      "priceCents": 55000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1583324113626-796346309cb4?w=1200&q=80", "alt": "Brujula profesional", "isCover": true }
+      ],
+      "inventoryQty": 5
+    },
+    {
+      "slug": "dashcam-auto",
+      "name": "Camara Dashcam Full HD 1080p",
+      "category": "automoviles",
+      "priceCents": 280000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Camara dashcam para auto", "isCover": true }
+      ],
+      "inventoryQty": 6
+    },
+    {
+      "slug": "inflador-12v",
+      "name": "Inflador 12V Compresor Portatil",
+      "category": "automoviles",
+      "priceCents": 95000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "Inflador de ruedas 12V", "isCover": true }
+      ],
+      "inventoryQty": 12
+    },
+    {
+      "slug": "gps-navegador",
+      "name": "GPS Navegador para Auto",
+      "category": "automoviles",
+      "priceCents": 350000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=80", "alt": "GPS navegador", "isCover": true }
+      ],
+      "inventoryQty": 4
+    },
+    {
+      "slug": "casco-moto",
+      "name": "Casco Integral para Moto",
+      "category": "motos",
+      "priceCents": 320000,
+      "compareAtPriceCents": 400000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "Casco de moto integral", "isCover": true }
+      ],
+      "inventoryQty": 8
+    },
+    {
+      "slug": "guantes-moto",
+      "name": "Guantes para Moto Cuero",
+      "category": "motos",
+      "priceCents": 85000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "Guantes de moto", "isCover": true }
+      ],
+      "inventoryQty": 14
+    },
+    {
+      "slug": "gps-antirrobo-moto",
+      "name": "GPS Antirrobo para Motos",
+      "category": "motos",
+      "priceCents": 180000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80", "alt": "GPS antirrobo para moto", "isCover": true }
+      ],
+      "inventoryQty": 5
+    },
+    {
+      "slug": "kit-herramientas-campo",
+      "name": "Kit de Herramientas para Campo",
+      "category": "campo-granja",
+      "priceCents": 160000,
+      "images": [
+        { "url": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=1200&q=80", "alt": "Kit de herramientas de campo", "isCover": true }
+      ],
+      "inventoryQty": 7
+    }
+  ]
+}

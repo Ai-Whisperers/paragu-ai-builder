@@ -7,28 +7,42 @@
     {
       "id": "hero",
       "variant": "minimal",
-      "content": "contacto.hero"
+      "content": "contacto.hero",
+      "title": "Contacto",
+      "subtitle": "Estamos para ayudarte"
     },
     {
       "id": "contact",
-      "variant": "split",
-      "content": "contacto.info"
+      "variant": "full",
+      "content": "contacto.info",
+      "title": "Informacion de Contacto",
+      "subtitle": "Escribinos o visitanos"
     },
     {
       "id": "lead-form",
       "variant": "default",
-      "content": "contacto.form"
+      "content": "contacto.form",
+      "title": "Envianos un Mensaje",
+      "subtitle": "Te respondemos a la brevedad"
     },
     {
       "id": "google-maps",
-      "variant": "embed",
-      "content": "contacto.info"
+      "variant": "full-width",
+      "content": "contacto.info.address",
+      "title": "Nuestra Ubicacion",
+      "subtitle": "Av. Mariscal Lopez 1234, Asuncion"
     },
     {
       "id": "faq",
       "variant": "accordion",
       "content": "faq",
-      "title": "Preguntas Frecuentes"
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Todo lo que necesitas saber"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
     }
   ]
 }

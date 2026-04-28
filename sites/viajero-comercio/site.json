@@ -34,31 +34,44 @@
     }
   ],
   "contact": {
-    "phone": "",
-    "email": "",
-    "whatsapp": "",
-    "instagram": "",
-    "facebook": ""
+    "phone": "+595 981 234 567",
+    "email": "info@elviajerocomerc.io.com.py",
+    "whatsapp": "595981234567",
+    "instagram": "@elviajerocomerc.io",
+    "facebook": "elviajerocomerc.io"
   },
   "location": {
-    "address": "",
-    "city": "",
+    "address": "Av. Mariscal Lopez 1234, c/ San Martin",
+    "city": "Asuncion",
     "department": "Central",
     "country": "Paraguay",
-    "googleMapsUrl": ""
+    "googleMapsUrl": "https://maps.google.com/?q=Av.+Mariscal+Lopez+1234+Asuncion+Paraguay"
   },
   "hours": {
-    "Lunes a Viernes": "",
-    "Sabado": "",
-    "Domingo": "Cerrado"
+    "Lunes a Viernes": "08:00 - 19:00",
+    "Sabado": "08:00 - 17:00",
+    "Domingo": "09:00 - 13:00"
   },
   "settings": {
     "currency": "PYG",
     "locale": "es-PY",
     "timezone": "America/Asuncion",
     "delivery": {
-      "enabled": false,
-      "zones": []
+      "enabled": true,
+      "freeThresholdGs": 300000,
+      "zones": [
+        "Asuncion",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambare",
+        "Luque",
+        "Capiatá"
+      ],
+      "national": false,
+      "pickupAvailable": true,
+      "pickupAddresses": [
+        "Av. Mariscal Lopez 1234, Asuncion"
+      ]
     }
   },
   "chrome": {
