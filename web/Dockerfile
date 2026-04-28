@@ -62,7 +62,7 @@ ENV SRC_DIR=/app/src
 ENV SITES_DIR=/app/sites
 RUN --mount=type=secret,id=supabase_key,env=SUPABASE_SERVICE_ROLE_KEY \
     --mount=type=secret,id=google_places_key,env=GOOGLE_PLACES_API_KEY \
-    npm run build
+    npm run prebuild && npx next build
 
 # Stage 3: Runner (Production)
 FROM node:20-alpine AS runner
