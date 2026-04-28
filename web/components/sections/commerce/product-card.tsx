@@ -145,7 +145,7 @@ export function ProductCard({
               <Button
                 variant="primary"
                 size="sm"
-                href={buildWhatsAppUrl(whatsappPhone, product, orderMessageTemplate)}
+                href={buildWhatsAppUrl(whatsappPhone, product, orderMessageTemplate || labels?.orderTemplate)}
                 onClick={() =>
                   trackWhatsappClick({ source: 'catalog', productSlug: product.slug })
                 }

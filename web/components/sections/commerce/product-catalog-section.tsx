@@ -137,9 +137,10 @@ export function buildWhatsAppUrl(
   product: ProductItem,
   messageTemplate: string
 ): string {
-  const cleaned = cleanPhone(phone)
-  const message = messageTemplate
-    .replace('{{productName}}', product.name)
+  const cleaned = cleanPhone(phone) || ''
+  const msg = messageTemplate || 'Hola! Me interesa {{productName}}. Quisiera mas informacion.'
+  const message = msg
+    .replace('{{productName}}', product.name || '')
     .replace('{{productPrice}}', product.price || 'consultar')
   return `https://wa.me/${cleaned}?text=${encodeURIComponent(message)}`
 }
