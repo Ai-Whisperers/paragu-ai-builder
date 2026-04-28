@@ -57,8 +57,8 @@
       }
     },
     {
-      "id": "trust-signals",
-      "variant": "credentials",
+      "id": "pricing-table",
+      "variant": "default",
       "content": "home.credentials",
       "styling": {
         "background": "alt"
@@ -95,14 +95,6 @@
       "styling": {
         "padding": "lg",
         "background": "accent"
-      }
-    },
-    {
-      "id": "case-studies",
-      "variant": "three-col",
-      "content": "home.credentials",
-      "styling": {
-        "background": "alt"
       }
     }
   ]
