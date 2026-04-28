@@ -61,7 +61,7 @@
     },
     {
       "id": "pricing-table",
-      "variant": "simple",
+      "variant": "default",
       "content": "adoptionProcess.fees",
       "title": "Reembolso de Adopción",
       "subtitle": "Lo que incluye tu donación"
