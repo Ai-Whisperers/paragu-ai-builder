@@ -6,7 +6,10 @@
     {
       "id": "hero",
       "variant": "split",
-      "secondaryCtaModal": true,
+      "overrides": {
+        "variant": "split",
+        "secondaryCtaModal": true
+      },
       "content": "home.hero",
       "image": "https://images.unsplash.com/photo-1560258729-4e7f86c9fc1f?w=1200&q=90",
       "styling": {

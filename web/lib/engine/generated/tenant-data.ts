@@ -2841,11 +2841,14 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.hero",
         "id": "hero",
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=90",
-        "secondaryCtaModal": true,
+        "image": "https://images.unsplash.com/photo-1560258729-4e7f86c9fc1f?w=1200&q=90",
+        "overrides": {
+          "secondaryCtaModal": true,
+          "variant": "split"
+        },
         "styling": {
           "background": "image",
-          "backgroundImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=90",
+          "backgroundImage": "https://images.unsplash.com/photo-1560258729-4e7f86c9fc1f?w=1200&q=90",
           "padding": "xl",
           "textColor": "light"
         },
