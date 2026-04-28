@@ -342,7 +342,7 @@ export default {
   },
   "contactPage": {
     "booking": {
-      "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+      "bookingUrl": "#",
       "ctaLabel": "Abrir calendario",
       "fallbackEmail": "hola@nexaparaguay.com",
       "fallbackWhatsapp": "595982515138",
@@ -457,6 +457,7 @@ export default {
   "footer": {
     "businessName": "Nexa Paraguay",
     "city": "Asunción",
+    "copyright": "© {year} Nexa Paraguay. Todos los derechos reservados.",
     "email": "hola@nexaparaguay.com",
     "facebook": null,
     "instagram": "https://instagram.com/nexaparaguay",
@@ -649,6 +650,27 @@ export default {
     }
   },
   "home": {
+    "beneluxDesk": {
+      "items": [
+        {
+          "description": "Coordinación y acompañamiento en tu idioma nativo, sin barreras.",
+          "icon": "MessageCircle",
+          "title": "Atención en Neerlandés"
+        },
+        {
+          "description": "Entendemos el sistema fiscal europeo y cómo se relaciona con el régimen tributario paraguayo.",
+          "icon": "Globe",
+          "title": "Conocemos tu contexto"
+        },
+        {
+          "description": "Más de 200 familias neerlandesas y belgas ya se han reubicado con nuestra ayuda.",
+          "icon": "Users",
+          "title": "Comunidad Activa"
+        }
+      ],
+      "subtitle": "Holandés, belga o luxemburgués? Tenemos un equipo dedicado para ti.",
+      "title": "Atención especial para Benelux"
+    },
     "finalCta": {
       "buttonHref": "/s/es/nexa-paraguay/contacto",
       "buttonText": "Agendar consulta gratuita",
@@ -1562,16 +1584,21 @@ export default {
         "label": "Inicio"
       },
       {
-        "href": "/s/es/nexa-paraguay/programas",
-        "label": "Programas"
-      },
-      {
-        "href": "/s/es/nexa-paraguay/por-que-paraguay",
-        "label": "Por qué Paraguay"
-      },
-      {
-        "href": "/s/es/nexa-paraguay/proceso",
-        "label": "Proceso"
+        "children": [
+          {
+            "href": "/s/es/nexa-paraguay/programas",
+            "label": "Programas"
+          },
+          {
+            "href": "/s/es/nexa-paraguay/por-que-paraguay",
+            "label": "Por qué Paraguay"
+          },
+          {
+            "href": "/s/es/nexa-paraguay/proceso",
+            "label": "Proceso"
+          }
+        ],
+        "label": "Reubicación"
       },
       {
         "href": "/s/es/nexa-paraguay/sobre",
@@ -1582,16 +1609,25 @@ export default {
         "label": "FAQ"
       },
       {
-        "href": "/s/es/nexa-paraguay/blog",
-        "label": "Blog"
+        "href": "/s/es/nexa-paraguay/benelux",
+        "label": "Benelux"
       },
       {
-        "href": "/s/es/nexa-paraguay/recursos",
+        "children": [
+          {
+            "href": "/s/es/nexa-paraguay/blog",
+            "label": "Blog"
+          },
+          {
+            "href": "/s/es/nexa-paraguay/recursos",
+            "label": "Recursos"
+          },
+          {
+            "href": "/s/es/nexa-paraguay/prensa",
+            "label": "Prensa"
+          }
+        ],
         "label": "Recursos"
-      },
-      {
-        "href": "/s/es/nexa-paraguay/prensa",
-        "label": "Prensa"
       },
       {
         "href": "/s/es/nexa-paraguay/contacto",

@@ -342,7 +342,7 @@ export default {
   },
   "contactPage": {
     "booking": {
-      "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+      "bookingUrl": "#",
       "ctaLabel": "Open agenda",
       "fallbackEmail": "hola@nexaparaguay.com",
       "fallbackWhatsapp": "595982515138",
@@ -457,6 +457,7 @@ export default {
   "footer": {
     "businessName": "Nexa Paraguay",
     "city": "Asunción",
+    "copyright": "© {year} Nexa Paraguay. Alle rechten voorbehouden.",
     "email": "hola@nexaparaguay.com",
     "instagram": "https://instagram.com/nexaparaguay",
     "navLinks": [
@@ -648,6 +649,27 @@ export default {
     }
   },
   "home": {
+    "beneluxDesk": {
+      "items": [
+        {
+          "description": "Volledige begeleiding in uw eigen taal — geen communicatiebarrières.",
+          "icon": "MessageCircle",
+          "title": "Nederlandstalige Ondersteuning"
+        },
+        {
+          "description": "Inzicht in Europese belastingstelsels en hoe deze samenwerken met het territoriale regime van Paraguay.",
+          "icon": "Globe",
+          "title": "Wij Kennen Uw Context"
+        },
+        {
+          "description": "Meer dan 200 Nederlandse en Belgische families zijn u al voorgegaan.",
+          "icon": "Users",
+          "title": "Actieve Gemeenschap"
+        }
+      ],
+      "subtitle": "Nederlands, Belgisch of Luxemburgs? Wij hebben een speciaal team voor u.",
+      "title": "Specialistische Benelux Afdeling"
+    },
     "finalCta": {
       "buttonHref": "/s/nl/nexa-paraguay/contacto",
       "buttonText": "Plan gratis consult",
@@ -935,6 +957,26 @@ export default {
     "seo": {
       "description": "Verblijfsvergunning, vennootschap en bankrekening in Paraguay. Eén programma, één reis, een professioneel team.",
       "title": "Nexa Paraguay — Vestig uw onderneming in Paraguay"
+    },
+    "stats": {
+      "items": [
+        {
+          "icon": "Users",
+          "label": "Families verhuisd",
+          "value": "+500"
+        },
+        {
+          "icon": "Calendar",
+          "label": "Jaar ervaring",
+          "value": "+10"
+        },
+        {
+          "icon": "Award",
+          "label": "Succespercentage",
+          "value": "98%"
+        }
+      ],
+      "title": "Cijfers"
     },
     "taxCalculator": {
       "subtitle": "Schat hoeveel u bespaart aan belastingen door zich in Paraguay te vestigen.",
@@ -1542,16 +1584,21 @@ export default {
         "label": "Home"
       },
       {
-        "href": "/s/nl/nexa-paraguay/programas",
-        "label": "Programma's"
-      },
-      {
-        "href": "/s/nl/nexa-paraguay/por-que-paraguay",
-        "label": "Waarom Paraguay"
-      },
-      {
-        "href": "/s/nl/nexa-paraguay/proceso",
-        "label": "Proces"
+        "children": [
+          {
+            "href": "/s/nl/nexa-paraguay/programas",
+            "label": "Programma's"
+          },
+          {
+            "href": "/s/nl/nexa-paraguay/por-que-paraguay",
+            "label": "Waarom Paraguay"
+          },
+          {
+            "href": "/s/nl/nexa-paraguay/proceso",
+            "label": "Proces"
+          }
+        ],
+        "label": "Verhuizing"
       },
       {
         "href": "/s/nl/nexa-paraguay/sobre",
@@ -1562,16 +1609,25 @@ export default {
         "label": "FAQ"
       },
       {
-        "href": "/s/nl/nexa-paraguay/blog",
-        "label": "Blog"
+        "href": "/s/nl/nexa-paraguay/benelux",
+        "label": "Benelux"
       },
       {
-        "href": "/s/nl/nexa-paraguay/recursos",
-        "label": "Bronnen"
-      },
-      {
-        "href": "/s/nl/nexa-paraguay/prensa",
-        "label": "Pers"
+        "children": [
+          {
+            "href": "/s/nl/nexa-paraguay/blog",
+            "label": "Blog"
+          },
+          {
+            "href": "/s/nl/nexa-paraguay/recursos",
+            "label": "Bronnen"
+          },
+          {
+            "href": "/s/nl/nexa-paraguay/prensa",
+            "label": "Pers"
+          }
+        ],
+        "label": "Inzichten"
       },
       {
         "href": "/s/nl/nexa-paraguay/contacto",
