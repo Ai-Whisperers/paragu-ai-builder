@@ -405,6 +405,15 @@ export const SITES = {
     country: 'Paraguay', domain: '', defaultLocale: 'es', locales: ['es'],
     pages: ['home', 'planes', 'contacto'],
   },
+  'brahm-the-raccoon': {
+    slug: 'brahm-the-raccoon',
+    vertical: 'portfolio-professional',
+    country: 'Paraguay',
+    domain: 'brahmtheraccoon.com',
+    defaultLocale: 'es',
+    locales: ['en', 'es'],
+    pages: ['home', 'music', 'lyrics', 'gallery', 'journal', 'press', 'credits', 'guestbook'],
+  },
 } as const
 
 export type SiteSlug = keyof typeof SITES

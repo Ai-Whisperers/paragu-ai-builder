@@ -4,8 +4,8 @@
   "country": "Paraguay",
   "domain": "brahmtheraccoon.com",
   "stagingDomain": "staging.brahmtheraccoon.com",
-  "defaultLocale": "en",
-  "locales": ["en"],
+  "defaultLocale": "es",
+  "locales": ["en", "es"],
   "contact": {
     "email": "",
     "whatsapp": "",
