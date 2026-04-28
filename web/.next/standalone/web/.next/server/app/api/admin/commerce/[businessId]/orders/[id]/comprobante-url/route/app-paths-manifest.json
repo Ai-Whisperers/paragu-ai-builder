@@ -1,3 +1,0 @@
-{
-  "/api/admin/commerce/[businessId]/orders/[id]/comprobante-url/route": "app/api/admin/commerce/[businessId]/orders/[id]/comprobante-url/route.js"
-}

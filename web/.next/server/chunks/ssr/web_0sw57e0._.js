@@ -1,3 +1,0 @@
-module.exports=[654463,a=>{"use strict";var b=a.i(389408),c=a.i(153388);async function d(){return(0,b.createClient)(c.env.SUPABASE_URL,c.env.SUPABASE_SERVICE_ROLE_KEY,{auth:{autoRefreshToken:!1,persistSession:!1,detectSessionInUrl:!1},global:{headers:{"X-Client-Info":"paragu-ai-builder-admin@1.0.0"}}})}a.s(["createAdminClient",0,d])},560398,a=>{"use strict";var b=a.i(440193);a.s([],52598),a.i(52598),a.s(["60e1b9abe1a476638605c816799604628d40612eb8",()=>b.$$RSC_SERVER_ACTION_0,"60ee27d77a557717a8a52abe225ef4620866f27cc3",()=>b.$$RSC_SERVER_ACTION_1,"60ef74da53d20f8d04dc325dc9a060037f26abb0f9",()=>b.$$RSC_SERVER_ACTION_2],560398)}];
-
-//# sourceMappingURL=web_0sw57e0._.js.map

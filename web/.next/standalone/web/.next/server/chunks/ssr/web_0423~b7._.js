@@ -1,3 +1,0 @@
-module.exports=[349231,(a,b,c)=>{"use strict";b.exports=a.r(640881).vendored["react-ssr"].ReactServerDOMTurbopackClient},327642,a=>{"use strict";let b=process.env.DEMO_PHONE||"+595 9XX XXX XXX",c=process.env.DEMO_WHATSAPP||"+595 9XX XXX XXX";process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID,process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID_R,a.s(["DEMO_PHONE",0,b,"DEMO_WHATSAPP",0,c])}];
-
-//# sourceMappingURL=web_0423~b7._.js.map

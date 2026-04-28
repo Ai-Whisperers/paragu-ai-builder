@@ -1,1 +1,0 @@
-export { formatGs } from './format'
