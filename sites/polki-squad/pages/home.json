@@ -85,7 +85,7 @@
     },
     {
       "id": "newsletter-signup",
-      "variant": "inline",
+      "variant": "standard",
       "content": "sponsor",
       "title": "Sé Padrino o Madrina",
       "subtitle": "Con tu donación mensual ayudas a un peludito específico"
