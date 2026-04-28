@@ -347,36 +347,36 @@
       "title": "Preguntas Frecuentes",
       "items": [
         {
-          "question": "¿La primera consulta es realmente gratis?",
-          "answer": "Sí. Ofrecemos una primera consulta de 30 minutos sin costo para conocer tu caso y explicarte cómo podemos ayudarte. Presencial o por videollamada."
+          "q": "¿La primera consulta es realmente gratis?",
+          "a": "Sí. Ofrecemos una primera consulta de 30 minutos sin costo para conocer tu caso y explicarte cómo podemos ayudarte. Presencial o por videollamada."
         },
         {
-          "question": "¿Cuánto tiempo toma resolver un caso?",
-          "answer": "Depende del tipo de caso y su complejidad. Un divorcio por mutuo acuerdo puede resolver en 2-3 meses; un juicio penal puede llevar de 6 meses a 2 años. En la consulta inicial te damos un timeline realista."
+          "q": "¿Cuánto tiempo toma resolver un caso?",
+          "a": "Depende del tipo de caso y su complejidad. Un divorcio por mutuo acuerdo puede resolver en 2-3 meses; un juicio penal puede llevar de 6 meses a 2 años. En la consulta inicial te damos un timeline realista."
         },
         {
-          "question": "¿Manejan casos de urgencia?",
-          "answer": "Sí. Tenemos guardia permanente para urgencias legales: detenciones, allanamientos, medidas cautelares y cualquier situación que no pueda esperar."
+          "q": "¿Manejan casos de urgencia?",
+          "a": "Sí. Tenemos guardia permanente para urgencias legales: detenciones, allanamientos, medidas cautelares y cualquier situación que no pueda esperar."
         },
         {
-          "question": "¿Cuáles son los honorarios?",
-          "answer": "Trabajamos con honorarios fijos por servicio, cuotas mensuales para empresas y honorarios de éxito en ciertos casos. Todo se acuerda por escrito antes de iniciar."
+          "q": "¿Cuáles son los honorarios?",
+          "a": "Trabajamos con honorarios fijos por servicio, cuotas mensuales para empresas y honorarios de éxito en ciertos casos. Todo se acuerda por escrito antes de iniciar."
         },
         {
-          "question": "¿Atienden solo en Asunción?",
-          "answer": "Nuestra sede está en Asunción pero litigamos en todo el país. También hacemos consultas por videollamada para clientes del interior y del extranjero."
+          "q": "¿Atienden solo en Asunción?",
+          "a": "Nuestra sede está en Asunción pero litigamos en todo el país. También hacemos consultas por videollamada para clientes del interior y del extranjero."
         },
         {
-          "question": "¿Ofrecen servicios a empresas como outsourcing legal?",
-          "answer": "Sí. Tenemos planes de asesoría legal corporativa con honorarios mensuales fijos. Ideal para startups, pymes y empresas que necesitan acompañamiento legal continuo sin contratar un abogado interno."
+          "q": "¿Ofrecen servicios a empresas como outsourcing legal?",
+          "a": "Sí. Tenemos planes de asesoría legal corporativa con honorarios mensuales fijos. Ideal para startups, pymes y empresas que necesitan acompañamiento legal continuo sin contratar un abogado interno."
         },
         {
-          "question": "¿Qué documentos debo traer a la primera consulta?",
-          "answer": "Depende del caso. Para temas corporativos: contratos, estatutos sociales. Para civiles/laborales: documentación relacionada al caso. Si no estás seguro, ven igual — nosotros te decimos qué falta."
+          "q": "¿Qué documentos debo traer a la primera consulta?",
+          "a": "Depende del caso. Para temas corporativos: contratos, estatutos sociales. Para civiles/laborales: documentación relacionada al caso. Si no estás seguro, ven igual — nosotros te decimos qué falta."
         },
         {
-          "question": "¿Hacen mediación o resolución alternativa?",
-          "answer": "Sí. Siempre exploramos la mediación y otros métodos alternativos antes de litigar. Muchos casos se resuelven más rápido y con menor costo fuera del juzgado."
+          "q": "¿Hacen mediación o resolución alternativa?",
+          "a": "Sí. Siempre exploramos la mediación y otros métodos alternativos antes de litigar. Muchos casos se resuelven más rápido y con menor costo fuera del juzgado."
         }
       ]
     },

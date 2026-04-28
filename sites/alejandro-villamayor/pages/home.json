@@ -7,6 +7,7 @@
       "id": "hero",
       "variant": "image",
       "content": "home.hero",
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80",
       "styling": {
         "padding": "xl",
         "background": "image",
@@ -72,9 +73,11 @@
       }
     },
     {
-      "id": "blog-index",
+      "id": "gallery",
       "variant": "grid",
-      "content": "home.blogPreview"
+      "content": "home.blogPreview",
+      "title": "Guías y Novedades",
+      "subtitle": "Artículos sobre Investor Pass, residencia e inversiones en Paraguay"
     },
     {
       "id": "cta-banner",

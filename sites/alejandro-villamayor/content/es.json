@@ -170,27 +170,27 @@
       "title": "Lo que dicen mis clientes",
       "items": [
         {
-          "name": "Marcelo R.",
+          "author": "Marcelo R.",
           "role": "Inversor, Sector Tecnológico",
-          "content": "Alejandro me guió en todo el proceso del Investor Pass. Su conocimiento del marco legal paraguayo y su enfoque práctico hicieron la diferencia. En 3 meses tenía mi residencia permanente.",
+          "quote": "Alejandro me guió en todo el proceso del Investor Pass. Su conocimiento del marco legal paraguayo y su enfoque práctico hicieron la diferencia. En 3 meses tenía mi residencia permanente.",
           "rating": 5
         },
         {
-          "name": "Carolina D.",
+          "author": "Carolina D.",
           "role": "CEO, Empresa de Comercio",
-          "content": "Excelente asesoramiento corporativo. Resolvió una situación contractual compleja con rapidez y profesionalismo.",
+          "quote": "Excelente asesoramiento corporativo. Resolvió una situación contractual compleja con rapidez y profesionalismo.",
           "rating": 5
         },
         {
-          "name": "James T.",
+          "author": "James T.",
           "role": "Inversor Inmobiliario, EE.UU.",
-          "content": "Alejandro helped me structure my real estate investment in Paraguay. His bilingual capability and knowledge of both local and international law made the process smooth.",
+          "quote": "Alejandro helped me structure my real estate investment in Paraguay. His bilingual capability and knowledge of both local and international law made the process smooth.",
           "rating": 5
         },
         {
-          "name": "Laura M.",
+          "author": "Laura M.",
           "role": "Emprendedora",
-          "content": "Me ayudó a constituir mi empresa y entender el régimen tributario. Siempre respondió rápido y con claridad.",
+          "quote": "Me ayudó a constituir mi empresa y entender el régimen tributario. Siempre respondió rápido y con claridad.",
           "rating": 5
         }
       ]
@@ -199,24 +199,24 @@
       "title": "Preguntas frecuentes",
       "items": [
         {
-          "question": "¿Cuánto cuesta una consulta?",
-          "answer": "La primera consulta es gratuita y sin compromiso."
+          "q": "¿Cuánto cuesta una consulta?",
+          "a": "La primera consulta es gratuita y sin compromiso."
         },
         {
-          "question": "¿Atendés casos de inversores extranjeros?",
-          "answer": "Sí, es una de mis principales áreas. Asesoro a inversores de Europa, EE.UU. y América Latina."
+          "q": "¿Atendés casos de inversores extranjeros?",
+          "a": "Sí, es una de mis principales áreas. Asesoro a inversores de Europa, EE.UU. y América Latina."
         },
         {
-          "question": "¿Trabajás en inglés?",
-          "answer": "Sí, ofrezco servicios legales completos en español e inglés."
+          "q": "¿Trabajás en inglés?",
+          "a": "Sí, ofrezco servicios legales completos en español e inglés."
         },
         {
-          "question": "¿Cuánto tiempo toma obtener la residencia?",
-          "answer": "Entre 2 y 4 meses desde la presentación de documentación completa."
+          "q": "¿Cuánto tiempo toma obtener la residencia?",
+          "a": "Entre 2 y 4 meses desde la presentación de documentación completa."
         },
         {
-          "question": "¿Hacés trámites online?",
-          "answer": "Sí, la mayoría de los trámites se gestionan de forma remota."
+          "q": "¿Hacés trámites online?",
+          "a": "Sí, la mayoría de los trámites se gestionan de forma remota."
         }
       ]
     },
