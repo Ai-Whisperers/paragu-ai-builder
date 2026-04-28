@@ -9424,6 +9424,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "image"
       },
       {
+        "content": "home.stats",
+        "id": "stats-counter",
+        "variant": "inline"
+      },
+      {
+        "content": "home.features",
+        "id": "features",
+        "variant": "grid"
+      },
+      {
         "content": "home.testimonials",
         "id": "testimonials",
         "title": "Lo que dicen nuestros clientes",

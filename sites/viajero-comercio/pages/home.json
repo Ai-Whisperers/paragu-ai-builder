@@ -15,6 +15,16 @@
       }
     },
     {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "home.features"
+    },
+    {
       "id": "testimonials",
       "variant": "carousel",
       "content": "home.testimonials",
