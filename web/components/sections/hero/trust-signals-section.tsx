@@ -94,8 +94,10 @@ export function TrustSignalsSection({
 }
 
 function Credentials({ items }: { items: TrustItem[] }) {
+  const cols = Math.min(items.length, 4)
+  const gridClass = cols <= 2 ? `md:grid-cols-${cols}` : cols === 3 ? 'md:grid-cols-3' : 'md:grid-cols-2 lg:grid-cols-4'
   return (
-    <div className="font-heading mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-stretch">
+    <div className={`font-heading mt-10 grid gap-6 ${gridClass} items-stretch`}>
       {items.map((item, i) => {
         const img = itemImage(item.image)
         return (

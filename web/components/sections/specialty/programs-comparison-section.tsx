@@ -127,8 +127,15 @@ export function ProgramsComparisonSection({
 }
 
 function TierCards({ tiers }: { tiers: ProgramTier[] }) {
+  const cols = Math.min(tiers.length, 4)
+  const gridCols = (
+    cols === 1 ? 'grid-cols-1'
+    : cols === 2 ? 'sm:grid-cols-2'
+    : cols === 3 ? 'sm:grid-cols-2 lg:grid-cols-3'
+    : 'sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
+  )
   return (
-    <div className="font-heading text-primary grid gap-8 sm:gap-10 lg:grid-cols-2 xl:grid-cols-4">
+    <div className={`font-heading text-primary grid gap-8 sm:gap-10 ${gridCols}`}>
       {tiers.map((tier, idx) => (
         <AnimateOnScroll key={tier.id} stagger={((idx % 4) + 1) as 1 | 2 | 3 | 4}>
           <article className={cn('relative flex h-full flex-col overflow-hidden rounded-2xl transition-all duration-300',

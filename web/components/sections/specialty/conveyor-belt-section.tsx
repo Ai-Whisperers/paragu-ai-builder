@@ -45,7 +45,7 @@ export function ConveyorBeltSection({
 
         {/* How It Works Steps */}
         <div className="mb-16">
-          <div className="grid gap-8 md:grid-cols-4">
+          <div className={`grid gap-8 ${steps.length <= 2 ? 'md:grid-cols-2' : steps.length === 3 ? 'md:grid-cols-3' : 'md:grid-cols-4'}`}>
             {steps.map((step, index) => (
               <AnimateOnScroll key={step.number} stagger={index}>
                 <div className="text-center">
