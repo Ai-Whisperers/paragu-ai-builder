@@ -5,9 +5,9 @@ export interface ContainerProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 const sizes = {
-  sm: 'max-w-4xl',
-  md: 'max-w-5xl',
-  lg: 'max-w-[1400px]',
+  sm: 'max-w-5xl',
+  md: 'max-w-6xl',
+  lg: 'max-w-[1440px]',
   xl: 'max-w-[1600px]',
   full: 'max-w-full',
 }
