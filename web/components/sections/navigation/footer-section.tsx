@@ -70,6 +70,7 @@ export function FooterSection({
   facebook,
   whatsapp,
   navLinks = [],
+  columns,
   siblingSites,
   __siteSlug,
   __locale,
