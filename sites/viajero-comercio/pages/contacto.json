@@ -13,7 +13,7 @@
     },
     {
       "id": "contact",
-      "variant": "full",
+      "variant": "split",
       "content": "contacto.info",
       "title": "Informacion de Contacto",
       "subtitle": "Escribinos o visitanos"

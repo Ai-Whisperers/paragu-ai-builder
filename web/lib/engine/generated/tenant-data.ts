@@ -9396,7 +9396,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "id": "contact",
         "subtitle": "Escribinos o visitanos",
         "title": "Informacion de Contacto",
-        "variant": "full"
+        "variant": "split"
       },
       {
         "content": "contacto.form",
@@ -9494,7 +9494,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "about.story",
         "id": "our-story",
-        "variant": "default"
+        "variant": "narrative"
       },
       {
         "content": "about.values",
@@ -32319,6 +32319,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Productos - El Viajero Comercio | Catalogo Completo en Asuncion"
       }
     },
+    "siteName": "El Viajero Comercio",
     "tagline": "Todo para tu Aventura",
     "whatsapp": {
       "defaultMessage": "Hola! Quisiera informacion sobre productos de El Viajero Comercio",

@@ -284,6 +284,7 @@ export default {
       "title": "Productos - El Viajero Comercio | Catalogo Completo en Asuncion"
     }
   },
+  "siteName": "El Viajero Comercio",
   "tagline": "Todo para tu Aventura",
   "whatsapp": {
     "defaultMessage": "Hola! Quisiera informacion sobre productos de El Viajero Comercio",
