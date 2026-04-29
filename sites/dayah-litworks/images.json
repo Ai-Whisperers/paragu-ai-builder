@@ -1,13 +1,31 @@
 {
   "tenant": "dayah-litworks",
-  "totalImages": 4,
+  "totalImages": 17,
   "basePath": "/sites/dayah-litworks/images",
-  "fallback": "/sites/dayah-litworks/images/brand/logo.png",
+  "fallback": "/sites/dayah-litworks/images/logo/logo-negro.png",
   "images": {
     "brand": {
       "favicon": { "src": "/sites/dayah-litworks/images/brand/favicon.png", "alt": "favicon", "width": 32, "height": 32 },
-      "appleTouchIcon": { "src": "/sites/dayah-litworks/images/brand/apple-touch-icon.png", "alt": "Dayah Litworks", "width": 180, "height": 180 },
-      "ogDefault": { "src": "/sites/dayah-litworks/images/brand/og-default.png", "alt": "Dayah Litworks — Diseño Gráfico", "width": 1200, "height": 630 }
+      "appleTouchIcon": { "src": "/sites/dayah-litworks/images/brand/apple-touch-icon.png", "alt": "Dayah LitWorks", "width": 180, "height": 180 },
+      "ogDefault": { "src": "/sites/dayah-litworks/images/brand/og-default.png", "alt": "Dayah LitWorks — Diseño Gráfico", "width": 1200, "height": 630 }
+    },
+    "logo": {
+      "dlw": { "src": "/sites/dayah-litworks/images/logo/dlw-master.png", "alt": "Dayah LitWorks logo", "width": 600, "height": 417 },
+      "blanco": { "src": "/sites/dayah-litworks/images/logo/logo-blanco.png", "alt": "Dayah LitWorks", "width": 400, "height": 400 },
+      "negro": { "src": "/sites/dayah-litworks/images/logo/logo-negro.png", "alt": "Dayah LitWorks", "width": 400, "height": 400 }
+    },
+    "covers": {
+      "como-volver-loco-guardaespaldas": { "src": "/sites/dayah-litworks/images/covers/cover-como-volver-loco-guardaespaldas.jpg", "alt": "Cómo Volver Loco a Mi Guardaespaldas — Portada Romance", "width": 600, "height": 900 },
+      "el-secreto-que-nos-unio": { "src": "/sites/dayah-litworks/images/covers/cover-el-secreto-que-nos-unio.jpg", "alt": "El Secreto Que Nos Unió — Portada Romance", "width": 599, "height": 900 },
+      "macarena-y-sus-ex": { "src": "/sites/dayah-litworks/images/covers/cover-macarena-y-sus-ex.jpg", "alt": "Macarena y sus Ex — Portada Romance", "width": 599, "height": 900 },
+      "perdoname-padre-o-hazme-tuya": { "src": "/sites/dayah-litworks/images/covers/cover-perdoname-padre-o-hazme-tuya.jpg", "alt": "Perdóname Padre o Hazme Tuya — Portada Dark Romance", "width": 600, "height": 900 },
+      "pf-vol1-ebook": { "src": "/sites/dayah-litworks/images/covers/cover-pf-vol1-ebook.jpg", "alt": "PF eBook Vol I — Portada", "width": 599, "height": 900 },
+      "pf-vol2-ebook": { "src": "/sites/dayah-litworks/images/covers/cover-pf-vol2-ebook.jpg", "alt": "PF eBook Vol II — Portada", "width": 599, "height": 900 },
+      "pf-vol1-paperback": { "src": "/sites/dayah-litworks/images/covers/cover-pf-vol1-paperback.jpg", "alt": "PF Vol I — Tapa Blanda", "width": 800, "height": 579 },
+      "pf-vol2-paperback": { "src": "/sites/dayah-litworks/images/covers/cover-pf-vol2-paperback.jpg", "alt": "PF Vol II — Tapa Blanda", "width": 800, "height": 579 },
+      "ppoht-paperback": { "src": "/sites/dayah-litworks/images/covers/cover-ppoht-paperback.jpg", "alt": "PPOHT — Tapa Blanda", "width": 800, "height": 579 },
+      "extreme": { "src": "/sites/dayah-litworks/images/covers/cover-extreme.jpg", "alt": "Extrême — Portada Premade", "width": 599, "height": 900 },
+      "intense-2-edicion": { "src": "/sites/dayah-litworks/images/covers/cover-intense-2-edicion.jpg", "alt": "Intense 2° Edición — Portada Premade", "width": 599, "height": 900 }
     }
   }
 }

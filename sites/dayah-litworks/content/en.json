@@ -483,7 +483,7 @@
           "pricePYG": "₲250,000",
           "description": "Premade cover — Fantasy/Romance",
           "category": "Fantasy",
-          "imageUrl": "",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-el-secreto-que-nos-unio.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -500,7 +500,7 @@
           "pricePYG": "₲250,000",
           "description": "Premade cover — Dark Romance",
           "category": "Romance",
-          "imageUrl": "",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -517,7 +517,7 @@
           "pricePYG": "₲250,000",
           "description": "Premade cover — Thriller/Suspense",
           "category": "Thriller",
-          "imageUrl": "",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-como-volver-loco-guardaespaldas.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -534,7 +534,7 @@
           "pricePYG": "₲250,000",
           "description": "Premade cover — Science Fiction",
           "category": "Sci-Fi",
-          "imageUrl": "",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-extreme.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -551,7 +551,7 @@
           "pricePYG": "₲250,000",
           "description": "Premade cover — Horror",
           "category": "Horror",
-          "imageUrl": "",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-intense-2-edicion.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -568,7 +568,7 @@
           "pricePYG": "₲250,000",
           "description": "Premade cover — YA Fantasy",
           "category": "Fantasy",
-          "imageUrl": "",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-macarena-y-sus-ex.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -578,6 +578,126 @@
             "2 mockups"
           ],
           "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Crystal%20Wings'"
+        },
+        {
+          "name": "Cómo Volver Loco a Mi Guardaespaldas",
+          "priceUSD": "$35",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — Romance",
+          "category": "Romance",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-como-volver-loco-guardaespaldas.jpg",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Como%20Volver%20Loco'"
+        },
+        {
+          "name": "Perdóname Padre o Hazme Tuya",
+          "priceUSD": "$35",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — Dark Romance",
+          "category": "Romance",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Perdoname%20Padre'"
+        },
+        {
+          "name": "El Secreto Que Nos Unió",
+          "priceUSD": "$35",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — Romance",
+          "category": "Romance",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-el-secreto-que-nos-unio.jpg",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'El%20Secreto'"
+        },
+        {
+          "name": "Macarena y sus Ex",
+          "priceUSD": "$35",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — Romance",
+          "category": "Romance",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-macarena-y-sus-ex.jpg",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Macarena'"
+        },
+        {
+          "name": "PF eBook Vol I",
+          "priceUSD": "$30",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — Special Edition",
+          "category": "Romance",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol1-ebook.jpg",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'PF%20Vol%20I'"
+        },
+        {
+          "name": "PF eBook Vol II",
+          "priceUSD": "$30",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — Special Edition",
+          "category": "Romance",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol2-ebook.jpg",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'PF%20Vol%20II'"
+        },
+        {
+          "name": "PPOHT",
+          "priceUSD": "$70",
+          "pricePYG": "₲500,000",
+          "description": "Premade cover — Paperback",
+          "category": "Romance",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-ppoht-paperback.jpg",
+          "available": true,
+          "format": "Paperback",
+          "includes": [
+            "Paperback cover (JPG/PDF)",
+            "Print-ready file (PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'PPOHT'"
         }
       ],
       "backgroundImage": "https://images.unsplash.com/photo-1492539438225-2666b2a98f93?auto=format&fit=crop&w=2000&q=80"
@@ -656,6 +776,60 @@
         {
           "q": "How are final files delivered?",
           "a": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images."
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Recent Work",
+      "subtitle": "Book covers designed by Dayah LitWorks",
+      "items": [
+        {
+          "title": "Cómo Volver Loco a Mi Guardaespaldas",
+          "category": "Romance",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-como-volver-loco-guardaespaldas.jpg",
+          "description": "Romance cover — eBook"
+        },
+        {
+          "title": "El Secreto Que Nos Unió",
+          "category": "Romance",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-el-secreto-que-nos-unio.jpg",
+          "description": "Romance cover — eBook"
+        },
+        {
+          "title": "Perdóname Padre o Hazme Tuya",
+          "category": "Dark Romance",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+          "description": "Dark romance cover — eBook"
+        },
+        {
+          "title": "Macarena y sus Ex",
+          "category": "Romance",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-macarena-y-sus-ex.jpg",
+          "description": "Romance cover — eBook"
+        },
+        {
+          "title": "PF Vol I — Paperback",
+          "category": "Paperback",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol1-paperback.jpg",
+          "description": "Full paperback cover"
+        },
+        {
+          "title": "PF Vol II — Paperback",
+          "category": "Paperback",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol2-paperback.jpg",
+          "description": "Full paperback cover"
+        },
+        {
+          "title": "Extrême",
+          "category": "Premade",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-extreme.jpg",
+          "description": "Premade cover"
+        },
+        {
+          "title": "Intense 2nd Edition",
+          "category": "Premade",
+          "imageUrl": "/sites/dayah-litworks/images/covers/cover-intense-2-edicion.jpg",
+          "description": "Premade cover"
         }
       ]
     },
@@ -740,7 +914,7 @@
     "nda": {
       "title": "NDA-protected work",
       "subtitle": "I respect every project's confidentiality. Message me and I'll share real samples privately.",
-      "src": "/images/dayah/portfolio-nda.svg",
+      "src": "/sites/dayah-litworks/images/logo/dlw-master.png",
       "alt": "Redacted sample of Dayah LitWorks portfolio",
       "background": "surface",
       "maxWidth": 1000
