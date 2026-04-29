@@ -95,6 +95,12 @@ COPY --from=builder --chown=nextjs:nodejs /app/web/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/src ./src
 COPY --from=builder --chown=nextjs:nodejs /app/sites ./sites
 
+# Next.js 16 creates static locale dirs that shadow [locale] — remove them
+RUN for d in /app/.next/server/app/s/*/; do \
+      base=$(basename "$$d"); \
+      [ "$$base" != "[locale]" ] && rm -rf "$$d"; \
+    done && echo "Cleaned locale shadow dirs"
+
 USER nextjs
 EXPOSE 3000
 
