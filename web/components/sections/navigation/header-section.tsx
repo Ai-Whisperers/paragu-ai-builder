@@ -28,6 +28,10 @@ export interface HeaderSectionProps {
   ctaText?: string
   ctaHref?: string
   enableSearch?: boolean
+  /** Optional logo image URL — when set, renders an <img> instead of plain text businessName */
+  logoUrl?: string
+  /** Alt text for logo image */
+  logoAlt?: string
   variant?: 'standard' | 'sticky' | 'transparent'
   __siteSlug?: string
   __locale?: Locale
@@ -51,13 +55,15 @@ export function HeaderSection({
   navItems: navItemsProp,
   items,
   ctaText,
-  ctaHref = '#contacto',
-  enableSearch = false,
+  ctaHref,
+  enableSearch,
+  logoUrl,
+  logoAlt,
   variant = 'standard',
   __siteSlug,
   __locale,
   __availableLocales,
-  __currentPath = '',
+  __currentPath,
 }: HeaderSectionProps) {
   const navItems = navItemsProp || items || []
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -153,13 +159,21 @@ export function HeaderSection({
           {/* Logo / Name */}
           <a
             href="#"
-            className="whitespace-nowrap text-lg sm:text-xl font-bold transition-colors hover:opacity-80"
+            className="flex items-center whitespace-nowrap text-lg sm:text-xl font-bold transition-colors hover:opacity-80"
             style={{
-              fontFamily: 'var(--font-heading)',
+              fontFamily: logoUrl ? undefined : 'var(--font-heading)',
               color: 'var(--primary)',
             }}
           >
-            {businessName}
+            {logoUrl ? (
+              <img
+                src={logoUrl}
+                alt={logoAlt || businessName || ''}
+                className="h-10 w-auto object-contain"
+              />
+            ) : (
+              businessName
+            )}
           </a>
 
           {/* Desktop search (opt-in via content). Hidden on mobile where the

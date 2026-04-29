@@ -82,6 +82,8 @@
   },
   "navigation": {
     "businessName": "Dayah LitWorks",
+    "logoUrl": "/sites/dayah-litworks/images/logo/logo-blanco.png",
+    "logoAlt": "Dayah LitWorks",
     "items": [
       {
         "label": "Home",
@@ -1179,6 +1181,10 @@
         {
           "title": "Languages",
           "description": "I work in Spanish and English. If your manuscript is in another language, I need a translated synopsis."
+        },
+        {
+          "title": "I'm also a published author",
+          "description": "I wrote and published Extrême, Intense 2nd Edition, and Pasiones Furtivas. I don't just design covers — I know what an author needs because I am one."
         }
       ],
       "title": "About Daihana"

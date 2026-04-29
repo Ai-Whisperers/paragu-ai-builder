@@ -14,9 +14,9 @@
       "content": "blog"
     },
     {
-      "id": "features",
-      "variant": "three-col",
-      "content": "blog.placeholder"
+      "id": "blog-index",
+      "variant": "grid",
+      "content": "blog"
     },
     {
       "id": "newsletter-signup",

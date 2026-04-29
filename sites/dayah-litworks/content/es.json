@@ -76,6 +76,8 @@
   },
   "navigation": {
     "businessName": "Dayah LitWorks",
+    "logoUrl": "/sites/dayah-litworks/images/logo/logo-blanco.png",
+    "logoAlt": "Dayah LitWorks",
     "items": [
       {
         "label": "Inicio",
@@ -768,16 +770,16 @@
           "label": "Proyectos entregados",
           "icon": "Briefcase"
         },
-        {
-          "value": "+12",
-          "label": "Anos en el rubro",
-          "icon": "Calendar"
-        },
-        {
-          "value": "15+",
-          "label": "Paises alcanzados",
-          "icon": "Globe"
-        }
+    {
+      "value": "+6",
+      "label": "Años en el rubro",
+      "icon": "Calendar"
+    },
+    {
+      "value": "15+",
+      "label": "Países alcanzados",
+      "icon": "Globe"
+    }
       ]
     },
     "portfolio": {
@@ -1143,6 +1145,10 @@
         {
           "title": "Idiomas",
           "description": "Trabajo en español e inglés. Si tu manuscrito está en otro idioma, necesito una sinopsis traducida."
+        },
+        {
+          "title": "También soy autora publicada",
+          "description": "Escribí y publiqué Extrême, Intense 2° Edición y Pasiones Furtivas. No solo diseño portadas — también sé lo que un autor necesita porque lo soy."
         }
       ],
       "title": "Sobre Daihana"
