@@ -109,4 +109,8 @@ EXPOSE 3000
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
     CMD wget --no-verbose --tries=1 --spider http://127.0.0.1:3000/api/health || exit 1
 
+RUN echo 'const fs = require("fs"); const path = require("path"); const sDir = path.join(__dirname, ".next", "server", "app", "s"); try { if (fs.existsSync(sDir)) { for (const e of fs.readdirSync(sDir, {withFileTypes: true})) { if (e.isDirectory() && e.name !== "[locale]") { fs.rmSync(path.join(sDir, e.name), {recursive: true, force: true}); } } console.log("Cleaned locale shadow dirs"); } } catch(e) { console.error("Cleanup error:", e.message); }' > /app/clean-locale-dirs.js && \
+    node /app/clean-locale-dirs.js && \
+    rm /app/clean-locale-dirs.js
+
 CMD ["node", "server.js"]
