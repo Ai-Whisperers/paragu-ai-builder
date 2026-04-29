@@ -74,6 +74,10 @@ const nextConfig = {
 
   // Disable trailing slash to match catch-all route behavior
   trailingSlash: false,
+  // Don't use filesystem for public routes — prevents Next.js 16 locale
+  // directories (s/en/, s/es/) from shadowing the [locale] dynamic segment.
+  skipMiddlewareUrlNormalize: true,
+  useFileSystemPublicRoutes: false,
 
   images: {
     remotePatterns: [
