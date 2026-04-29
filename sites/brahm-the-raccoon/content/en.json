@@ -287,7 +287,18 @@
       "subheadline": "Still Reaching — full album lyrics"
     }
   },
-  "streaming": {
+  "home": {
+    "platforms": {
+      "items": [
+        { "title": "Spotify", "description": "Listen on Spotify" },
+        { "title": "Apple Music", "description": "Listen on Apple Music" },
+        { "title": "Bandcamp", "description": "Support on Bandcamp" },
+        { "title": "YouTube Music", "description": "Watch on YouTube" },
+        { "title": "SoundCloud", "description": "Stream on SoundCloud" },
+        { "title": "Amazon Music", "description": "Listen on Amazon" }
+      ]
+    },
+    "seo": {
     "seo": {
       "title": "Listen — Brahm the Raccoon",
       "description": "Stream Brahm the Raccoon's music on your favorite platform."

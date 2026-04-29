@@ -13,15 +13,6 @@
       }
     },
     {
-      "id": "streaming-links",
-      "variant": "single-row",
-      "content": "streaming",
-      "styling": {
-        "padding": "sm",
-        "background": "alt"
-      }
-    },
-    {
       "id": "album-tracklist",
       "variant": "full",
       "content": "music",

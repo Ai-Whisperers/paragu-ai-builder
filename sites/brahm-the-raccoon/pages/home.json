@@ -14,9 +14,9 @@
       }
     },
     {
-      "id": "streaming-links",
-      "variant": "single-row",
-      "content": "streaming",
+      "id": "features",
+      "variant": "three-col",
+      "content": "home.platforms",
       "styling": {
         "padding": "sm",
         "background": "alt"
@@ -32,12 +32,21 @@
       }
     },
     {
-      "id": "our-story",
-      "variant": "narrative",
+      "id": "features",
+      "variant": "grid",
       "content": "home.bio",
       "styling": {
         "padding": "lg",
         "background": "default"
+      },
+      "overrides": {
+        "title": "About Brahm the Raccoon",
+        "items": [
+          {
+            "title": "",
+            "description": "Brahm is the soft inner self — the raccoon who's been hurt, who still wants to be held, who's learning it's okay to receive. The music is warm acoustic guitar, close-mic vocals, lo-fi honesty. No drums, no production — just a person with a guitar and things they finally learned how to say."
+          }
+        ]
       }
     },
     {
