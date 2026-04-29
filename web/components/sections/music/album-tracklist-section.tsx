@@ -1,10 +1,9 @@
+'use client'
+
 import { Container } from '@/components/ui/container'
 import { Heading } from '@/components/ui/heading'
 import { Music } from 'lucide-react'
-import dynamic from 'next/dynamic'
-const TrackAudioPlayer = dynamic(() => import('./track-audio-player').then(m => m.TrackAudioPlayer), {
-  ssr: false,
-})
+import { TrackAudioPlayer } from './track-audio-player'
 
 interface TrackLyrics {
   intro?: string
