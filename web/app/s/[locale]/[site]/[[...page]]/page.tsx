@@ -43,7 +43,19 @@ interface Props {
 export const dynamicParams = true
 
 export async function generateStaticParams() {
-  return []
+  const params: Array<{ locale: string; site: string; page?: string[] }> = []
+  // Return ONE param to activate the dynamic route. Next.js 16 needs at
+  // least one static param to register the catch-all; additional locales
+  // are handled by dynamicParams=true at request time.
+  for (const slug of listSiteSlugs()) {
+    let site
+    try { site = loadSite(slug) } catch { continue }
+    for (const loc of site.locales) {
+      params.push({ locale: loc, site: slug, page: [] })
+      break // one per site is enough to register the route
+    }
+  }
+  return params
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
