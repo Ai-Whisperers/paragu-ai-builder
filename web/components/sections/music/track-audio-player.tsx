@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef } from 'react'
-import { Play, Pause, Music } from 'lucide-react'
+import { Music } from 'lucide-react'
 
 interface Track {
   number: number
@@ -51,7 +51,7 @@ export function TrackAudioPlayer({ track }: { track: Track }) {
         className="flex-shrink-0 w-10 h-10 rounded-full bg-[var(--primary)] text-white flex items-center justify-center hover:opacity-90 transition-opacity"
         aria-label={isPlaying ? `Pause ${track.title}` : `Play ${track.title}`}
       >
-        {isPlaying ? <Pause size={18} /> : <Play size={18} className="ml-0.5" />}
+        <span className="text-lg leading-none">{isPlaying ? '⏸' : '▶'}</span>
       </button>
 
       {isPlaying && (
