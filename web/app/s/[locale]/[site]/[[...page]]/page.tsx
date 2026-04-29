@@ -42,15 +42,34 @@ interface Props {
 
 export const dynamicParams = true
 
-// This route is force-dynamic — no static params needed.
-// Next.js 16 creates empty route directories when generateStaticParams
-// runs on a dynamic route, which shadows the [locale] segment and
-// returns Express 404 for all routes. Skip generation entirely.
 export async function generateStaticParams() {
   return []
 }
 
+// Next.js 16 creates static locale directories (s/en/, s/es/, s/nl/)
+// at build time that shadow the [locale] dynamic segment, causing all
+// tenant routes to return Express 404. Clean them once at first request.
+let localeDirsCleaned = false
+function cleanLocaleShadowDirs() {
+  if (localeDirsCleaned) return
+  localeDirsCleaned = true
+  try {
+    const fs = require('fs')
+    const path = require('path')
+    const sDir = path.join(process.cwd(), '.next', 'server', 'app', 's')
+    if (!fs.existsSync(sDir)) return
+    for (const entry of fs.readdirSync(sDir, { withFileTypes: true })) {
+      if (entry.isDirectory() && entry.name !== '[locale]') {
+        fs.rmSync(path.join(sDir, entry.name), { recursive: true, force: true })
+      }
+    }
+  } catch {
+    // best effort
+  }
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  cleanLocaleShadowDirs()
   const { locale, site: siteSlug, page } = await params
   if (!isLocale(locale)) return { title: 'Not found' }
   const pageSlug = page?.[0] || 'home'
