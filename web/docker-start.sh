@@ -2,13 +2,18 @@
 set -e
 
 SDIR="/app/.next/server/app/s"
+KEPT=""
 
 if [ -d "$SDIR" ]; then
   for d in "$SDIR"/*/; do
     [ -d "$d" ] || continue
     base=$(basename "$d")
     [ "$base" = "[locale]" ] && continue
-    rm -rf "$d"
+    if [ -z "$KEPT" ]; then
+      KEPT="$base"
+    else
+      rm -rf "$d"
+    fi
   done
 fi
 
