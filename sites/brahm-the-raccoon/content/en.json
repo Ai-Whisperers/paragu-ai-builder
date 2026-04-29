@@ -70,11 +70,9 @@
       "image": null
     },
     "connect": {
-      "title": "Connect",
-      "subtitle": "Follow the journey",
-      "links": [
-        { "platform": "Instagram", "url": "https://instagram.com/lonelyraccoon", "handle": "@lonelyraccoon" }
-      ]
+      "title": "Follow the Journey",
+      "buttonText": "Instagram: @lonelyraccoon",
+      "buttonHref": "https://instagram.com/lonelyraccoon"
     }
   },
   "music": {
