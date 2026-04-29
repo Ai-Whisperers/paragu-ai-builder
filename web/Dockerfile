@@ -110,7 +110,7 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
     CMD wget --no-verbose --tries=1 --spider http://127.0.0.1:3000/api/health || exit 1
 
 # Copy cleanup script and run it at container start
-COPY --chown=nextjs:nodejs docker-start.sh /app/docker-start.sh
+COPY --chown=nextjs:nodejs web/docker-start.sh /app/docker-start.sh
 RUN chmod +x /app/docker-start.sh
 
 CMD ["/app/docker-start.sh"]
