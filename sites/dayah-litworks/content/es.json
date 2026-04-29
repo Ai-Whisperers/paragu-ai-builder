@@ -124,7 +124,9 @@
         "USD o PYG",
         "Entrega 1–2 semanas"
       ],
-      "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80"
+      "backgroundImage": "",
+      "overlayGradient": "linear-gradient(135deg, #0f0f1a 0%, #16213e 50%, #1a1a2e 100%)",
+      "overlayOpacity": 1.0
     },
     "trustBadges": {
       "title": "¿Por qué elegirnos?",
@@ -455,6 +457,26 @@
           {
             "title": "Revisión adicional (más allá de las 2 incluidas)",
             "description": "Cambios de dirección fuera del scope original. — USD 20/ronda"
+          },
+          {
+            "title": "Diseño de Marca Personal para Autores",
+            "description": "Logo, paleta de colores, tipografía y plantillas para tu marca autoral. — USD 50"
+          },
+          {
+            "title": "Banner ADS (300x250 / 728x90)",
+            "description": "Banners publicitarios para Amazon ADS y redes sociales. — USD 15"
+          },
+          {
+            "title": "Set de Redes Sociales (3 post)",
+            "description": "3 diseños para Instagram/Facebook para promocionar tu libro. — USD 25"
+          },
+          {
+            "title": "Book Trailer (15s animado)",
+            "description": "Animación corta para lanzamiento del libro. Ideal para redes. — USD 60"
+          },
+          {
+            "title": "Adaptación de Portada a Serie",
+            "description": "Adaptar la portada existente a una saga manteniendo coherencia visual. — USD 30"
           }
         ]
       },
@@ -488,7 +510,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Susurros%20del%20Bosque'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Susurros%20del%20Bosque'",
+          "image": "/images/dayah/covers/susurros-del-bosque.svg"
         },
         {
           "name": "Corazón de Cenizas",
@@ -505,7 +528,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Coraz%C3%B3n%20de%20Cenizas'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Coraz%C3%B3n%20de%20Cenizas'",
+          "image": "/images/dayah/covers/corazon-de-cenizas.svg"
         },
         {
           "name": "El Último Código",
@@ -522,7 +546,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20%C3%9Altimo%20C%C3%B3digo'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20%C3%9Altimo%20C%C3%B3digo'",
+          "image": "/images/dayah/covers/el-ultimo-codigo.svg"
         },
         {
           "name": "Galaxia Interior",
@@ -539,7 +564,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Galaxia%20Interior'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Galaxia%20Interior'",
+          "image": "/images/dayah/covers/galaxia-interior.svg"
         },
         {
           "name": "Sombras en el Espejo",
@@ -556,7 +582,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Sombras%20en%20el%20Espejo'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Sombras%20en%20el%20Espejo'",
+          "image": "/images/dayah/covers/sombras-en-el-espejo.svg"
         },
         {
           "name": "Alas de Cristal",
@@ -573,7 +600,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Alas%20de%20Cristal'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Alas%20de%20Cristal'",
+          "image": "/images/dayah/covers/alas-de-cristal.svg"
         },
         {
           "name": "Cómo Volver Loco a Mi Guardaespaldas",
@@ -590,7 +618,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'C%C3%B3mo%20Volver%20Loco%20a%20Mi%20Guardaespaldas'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'C%C3%B3mo%20Volver%20Loco%20a%20Mi%20Guardaespaldas'",
+          "image": "/images/dayah/covers/como-volver-loco-a-mi-guardaespaldas.svg"
         },
         {
           "name": "Perdóname Padre o Hazme Tuya",
@@ -607,7 +636,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Perd%C3%B3name%20Padre%20o%20Hazme%20Tuya'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Perd%C3%B3name%20Padre%20o%20Hazme%20Tuya'",
+          "image": "/images/dayah/covers/perdoname-padre-o-hazme-tuya.svg"
         },
         {
           "name": "El Secreto Que Nos Unió",
@@ -624,7 +654,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20Secreto%20Que%20Nos%20Uni%C3%B3'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20Secreto%20Que%20Nos%20Uni%C3%B3'",
+          "image": "/images/dayah/covers/el-secreto-que-nos-unio.svg"
         },
         {
           "name": "Macarena y sus Ex",
@@ -641,7 +672,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Macarena%20y%20sus%20Ex'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Macarena%20y%20sus%20Ex'",
+          "image": "/images/dayah/covers/macarena-y-sus-ex.svg"
         },
         {
           "name": "PF eBook Vol I",
@@ -658,7 +690,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PF%20eBook%20Vol%20I'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PF%20eBook%20Vol%20I'",
+          "image": "/images/dayah/covers/pf-ebook-vol-i.svg"
         },
         {
           "name": "PF eBook Vol II",
@@ -675,7 +708,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PF%20eBook%20Vol%20II'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PF%20eBook%20Vol%20II'",
+          "image": "/images/dayah/covers/pf-ebook-vol-ii.svg"
         },
         {
           "name": "PPOHT",
@@ -693,7 +727,8 @@
             "2 banners de revelación",
             "2 mockups"
           ],
-          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PPOHT'"
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PPOHT'",
+          "image": "/images/dayah/covers/ppoht.svg"
         }
       ],
       "backgroundImage": "https://images.unsplash.com/photo-1492539438225-2666b2a98f93?auto=format&fit=crop&w=2000&q=80"
@@ -770,16 +805,16 @@
           "label": "Proyectos entregados",
           "icon": "Briefcase"
         },
-    {
-      "value": "+6",
-      "label": "Años en el rubro",
-      "icon": "Calendar"
-    },
-    {
-      "value": "15+",
-      "label": "Países alcanzados",
-      "icon": "Globe"
-    }
+        {
+          "value": "+6",
+          "label": "Años en el rubro",
+          "icon": "Calendar"
+        },
+        {
+          "value": "15+",
+          "label": "Países alcanzados",
+          "icon": "Globe"
+        }
       ]
     },
     "portfolio": {
@@ -910,6 +945,51 @@
         "date": "2026-04-22",
         "category": "Diseño",
         "readTime": "5 min",
+        "imageUrl": ""
+      },
+      {
+        "title": "Marketing Para Autores Independientes",
+        "slug": "marketing-para-autores-independientes",
+        "date": "2026-04-29",
+        "category": "Diseño",
+        "excerpt": "Consejos prácticos para autores independientes",
+        "readTime": "4 min",
+        "imageUrl": ""
+      },
+      {
+        "title": "Consejos De Diseno De Portadas De Libros",
+        "slug": "consejos-de-diseno-de-portadas-de-libros",
+        "date": "2026-04-29",
+        "category": "Diseño",
+        "excerpt": "Consejos prácticos para autores independientes",
+        "readTime": "4 min",
+        "imageUrl": ""
+      },
+      {
+        "title": "Antes Y Despues De Redesignar Portadas De Libros",
+        "slug": "antes-y-despues-de-redesignar-portadas-de-libros",
+        "date": "2026-04-29",
+        "category": "Diseño",
+        "excerpt": "Consejos prácticos para autores independientes",
+        "readTime": "4 min",
+        "imageUrl": ""
+      },
+      {
+        "title": "Guia De Tipografia Para Autores",
+        "slug": "guia-de-tipografia-para-autores",
+        "date": "2026-04-29",
+        "category": "Diseño",
+        "excerpt": "Consejos prácticos para autores independientes",
+        "readTime": "4 min",
+        "imageUrl": ""
+      },
+      {
+        "title": "Teoria Del Color Para Portadas De Libros",
+        "slug": "teoria-del-color-para-portadas-de-libros",
+        "date": "2026-04-29",
+        "category": "Diseño",
+        "excerpt": "Consejos prácticos para autores independientes",
+        "readTime": "4 min",
         "imageUrl": ""
       }
     ],

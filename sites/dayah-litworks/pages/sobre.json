@@ -9,8 +9,8 @@
       "content": "sobre.hero"
     },
     {
-      "id": "features",
-      "variant": "three-col",
+      "id": "our-story",
+      "variant": "standard",
       "content": "sobre.bio"
     },
     {
