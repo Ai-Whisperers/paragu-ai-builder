@@ -29,7 +29,6 @@ export function StreamingLinksSection({
   title,
   subtitle,
   platforms = [],
-  variant = 'single-row',
 }: StreamingLinksSectionProps) {
   if (!platforms || platforms.length === 0) return null
 
@@ -57,23 +56,11 @@ export function StreamingLinksSection({
                 href={platform.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-[var(--border-color)] bg-[var(--surface)] text-[var(--text)] font-medium text-sm hover:text-white transition-all duration-200"
-                style={
-                  {
-                    '--brand-color': brandColor || 'var(--primary)',
-                    '--brand-hover': brandColor ? `${brandColor}dd` : 'var(--primary)',
-                  } as React.CSSProperties
-                }
-                onMouseEnter={(e) => {
-                  const target = e.currentTarget
-                  target.style.backgroundColor = target.style.getPropertyValue('--brand-hover') || 'var(--primary)'
-                  target.style.borderColor = 'transparent'
-                }}
-                onMouseLeave={(e) => {
-                  const target = e.currentTarget
-                  target.style.backgroundColor = ''
-                  target.style.borderColor = ''
-                }}
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-[var(--border-color)] bg-[var(--surface)] text-[var(--text)] font-medium text-sm transition-all duration-200 hover:text-white"
+                style={{
+                  '--brand-color': brandColor || 'var(--primary)',
+                  '--brand-hover': brandColor ? `${brandColor}dd` : 'var(--primary)',
+                } as React.CSSProperties}
               >
                 <span className="w-2 h-2 rounded-full" style={{ backgroundColor: brandColor || 'var(--primary)' }} />
                 {platform.name}
@@ -81,6 +68,12 @@ export function StreamingLinksSection({
             )
           })}
         </div>
+        <style jsx>{`
+          a:hover {
+            background-color: var(--brand-hover) !important;
+            border-color: transparent !important;
+          }
+        `}</style>
       </Container>
     </section>
   )
