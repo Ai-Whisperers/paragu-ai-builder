@@ -1,0 +1,11 @@
+{
+  "slug": "galeria",
+  "titleKey": "galeria.seo.title",
+  "descriptionKey": "galeria.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "galeria.hero" },
+    { "id": "gallery", "variant": "grid", "content": "galeria.gallery" },
+    { "id": "testimonials", "variant": "carousel", "content": "home.testimonials" },
+    { "id": "cta-banner", "variant": "gradient", "content": "home.cta" }
+  ]
+}

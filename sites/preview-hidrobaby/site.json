@@ -22,7 +22,9 @@
     "booking": true,
     "gallery": true,
     "multipleLocations": true,
-    "locationCount": 3
+    "locationCount": 3,
+    "packagesGiftcards": true,
+    "faq": true
   },
   "noindex": true,
   "is_demo": true,

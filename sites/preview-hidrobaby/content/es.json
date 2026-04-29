@@ -6,41 +6,287 @@
   "navigation": {
     "businessName": "HidroBaby",
     "navItems": [
-      { "label": "Inicio", "href": "/s/es/preview-hidrobaby" },
-      { "label": "Servicios", "href": "/s/es/preview-hidrobaby/servicios" },
-      { "label": "Sucursales", "href": "/s/es/preview-hidrobaby/sucursales" },
-      { "label": "Contacto", "href": "/s/es/preview-hidrobaby/contacto" }
+      {
+        "label": "Inicio",
+        "href": "/s/es/preview-hidrobaby"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/preview-hidrobaby/servicios"
+      },
+      {
+        "label": "Sucursales",
+        "href": "/s/es/preview-hidrobaby/sucursales"
+      },
+      {
+        "label": "FAQ",
+        "href": "/s/es/preview-hidrobaby/faq"
+      },
+      {
+        "label": "Gift Cards",
+        "href": "/s/es/preview-hidrobaby/gift-cards"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/preview-hidrobaby/contacto"
+      }
     ],
     "ctaText": "Reservá tu sesión",
     "ctaHref": "https://wa.me/595993444000"
   },
   "home": {
-    "seo": { "title": "HidroBaby — Baby Spa en Asunción | Hidroestimulación 🌊 736 reseñas ⭐5.0", "description": "Baby spa, hidroestimulación y masajes para bebés de 0 a 36 meses. 3 sucursales: Villa Morra, San Lorenzo, Luque. Agua filtrada por ozono. Creado por Fátima Flecha." },
-    "hero": { "headline": "El primer spa de tu bebé", "subheadline": "Baby spa, hidroestimulación y masajes para bebés de 0 a 36 meses. Tecnología de desinfección por ozono 🌊 única en Paraguay. 736 mamás nos califican con ⭐5.0. 3 sucursales.", "ctaPrimaryText": "Reservá tu sesión", "ctaSecondaryText": "Ver servicios" },
-    "stats": { "items": [
-      { "value": "736", "label": "Reseñas ⭐5.0", "icon": "Star" },
-      { "value": "3", "label": "Sucursales", "icon": "Building" },
-      { "value": "42.1K", "label": "En Instagram", "icon": "Camera" }
-    ]},
-    "services": { "title": "Nuestros Servicios", "items": [
-      { "name": "Baby Spa Completo", "price": "120.000 Gs", "description": "Hidroestimulación en bañera exclusiva con ozono + masaje infantil Shantala. Flotador ergonómico europeo. 30 min de agua + 15 min de masaje. Ayuda con cólicos y gases.", "category": "Baby Spa", "duration": 45 },
-      { "name": "Spa Anticólicos", "price": "100.000 Gs", "description": "Masaje especial para aliviar cólicos, gases y molestias digestivas. Ideal para bebés de 0 a 6 meses. Resultados visibles desde la primera sesión.", "category": "Baby Spa", "duration": 40 },
-      { "name": "Spa Posvacuna", "price": "80.000 Gs", "description": "Masaje post-vacunación que ayuda a dispersar el líquido de la inyección y aliviar molestias. Recomendado dentro de las 3 horas posteriores.", "category": "Baby Spa", "duration": 30 },
-      { "name": "Raspadita + Aritos", "price": "50.000 Gs", "description": "Servicio de raspadita de cabeza y colocación de aritos. Material hipoalergénico. Ambiente preparado para bebés.", "category": "Servicios", "duration": 20 },
-      { "name": "Baby Spa a Domicilio", "price": "Consultar", "description": "Llevamos la experiencia a tu casa. Bañera portátil con ozono. Ideal para cumpleaños y sesiones privadas.", "category": "Baby Spa" }
-    ]},
-    "testimonials": { "title": "Lo que dicen las mamás", "items": [
-      { "quote": "Mi bebé salió re feliz de la hidroestimulación! Durmió toda la noche y eliminó los gases. El agua con ozono me dio mucha confianza. Vamos todas las semanas.", "author": "Mamá en Google ⭐⭐⭐⭐⭐", "rating": 5 },
-      { "query": "Llevé a mi hijo por los cólicos y después de la primera sesión notamos una mejora increíble. Fátima y Fabio son unos ángeles, se nota que aman lo que hacen.", "author": "Mamá en Google ⭐⭐⭐⭐⭐", "rating": 5 }
-    ]},
-    "cta": { "title": "Reservá la sesión de tu bebé", "subtitle": "Disponible en Villa Morra, San Lorenzo y Luque", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595993444000" },
-    "contact": { "title": "Sucursal Villa Morra (Principal)", "phone": "+595 993 444 000", "address": "Del Maestro, Asunción", "hours": "Lun a Vie: 9-19 | Sáb: 9-17 | Dom: 9-15" }
+    "seo": {
+      "title": "HidroBaby — Baby Spa en Asunción | Hidroestimulación 🌊 736 reseñas ⭐5.0",
+      "description": "Baby spa, hidroestimulación y masajes para bebés de 0 a 36 meses. 3 sucursales: Villa Morra, San Lorenzo, Luque. Agua filtrada por ozono. Creado por Fátima Flecha."
+    },
+    "hero": {
+      "headline": "El primer spa de tu bebé",
+      "subheadline": "Baby spa, hidroestimulación y masajes para bebés de 0 a 36 meses. Tecnología de desinfección por ozono 🌊 única en Paraguay. 736 mamás nos califican con ⭐5.0. 3 sucursales.",
+      "ctaPrimaryText": "Reservá tu sesión",
+      "ctaSecondaryText": "Ver servicios"
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "736",
+          "label": "Reseñas ⭐5.0",
+          "icon": "Star"
+        },
+        {
+          "value": "3",
+          "label": "Sucursales",
+          "icon": "Building"
+        },
+        {
+          "value": "42.1K",
+          "label": "En Instagram",
+          "icon": "Camera"
+        }
+      ]
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "items": [
+        {
+          "name": "Baby Spa Completo",
+          "price": "120.000 Gs",
+          "description": "Hidroestimulación en bañera exclusiva con ozono + masaje infantil Shantala. Flotador ergonómico europeo. 30 min de agua + 15 min de masaje. Ayuda con cólicos y gases.",
+          "category": "Baby Spa",
+          "duration": 45
+        },
+        {
+          "name": "Spa Anticólicos",
+          "price": "100.000 Gs",
+          "description": "Masaje especial para aliviar cólicos, gases y molestias digestivas. Ideal para bebés de 0 a 6 meses. Resultados visibles desde la primera sesión.",
+          "category": "Baby Spa",
+          "duration": 40
+        },
+        {
+          "name": "Spa Posvacuna",
+          "price": "80.000 Gs",
+          "description": "Masaje post-vacunación que ayuda a dispersar el líquido de la inyección y aliviar molestias. Recomendado dentro de las 3 horas posteriores.",
+          "category": "Baby Spa",
+          "duration": 30
+        },
+        {
+          "name": "Raspadita + Aritos",
+          "price": "50.000 Gs",
+          "description": "Servicio de raspadita de cabeza y colocación de aritos. Material hipoalergénico. Ambiente preparado para bebés.",
+          "category": "Servicios",
+          "duration": 20
+        },
+        {
+          "name": "Baby Spa a Domicilio",
+          "price": "Consultar",
+          "description": "Llevamos la experiencia a tu casa. Bañera portátil con ozono. Ideal para cumpleaños y sesiones privadas.",
+          "category": "Baby Spa"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen las mamás",
+      "items": [
+        {
+          "quote": "Mi bebé salió re feliz de la hidroestimulación! Durmió toda la noche y eliminó los gases. El agua con ozono me dio mucha confianza. Vamos todas las semanas.",
+          "author": "Mamá en Google ⭐⭐⭐⭐⭐",
+          "rating": 5
+        },
+        {
+          "query": "Llevé a mi hijo por los cólicos y después de la primera sesión notamos una mejora increíble. Fátima y Fabio son unos ángeles, se nota que aman lo que hacen.",
+          "author": "Mamá en Google ⭐⭐⭐⭐⭐",
+          "rating": 5
+        }
+      ]
+    },
+    "cta": {
+      "title": "Reservá la sesión de tu bebé",
+      "subtitle": "Disponible en Villa Morra, San Lorenzo y Luque",
+      "buttonText": "WhatsApp",
+      "buttonHref": "https://wa.me/595993444000"
+    },
+    "contact": {
+      "title": "Sucursal Villa Morra (Principal)",
+      "phone": "+595 993 444 000",
+      "address": "Del Maestro, Asunción",
+      "hours": "Lun a Vie: 9-19 | Sáb: 9-17 | Dom: 9-15"
+    }
   },
-  "servicios": { "seo": { "title": "Servicios — HidroBaby", "description": "Baby spa, hidroestimulación y más." }, "hero": { "headline": "Nuestros Servicios", "subheadline": "Todo para el bienestar de tu bebé" } },
-  "contacto": { "seo": { "title": "Contacto — HidroBaby", "description": "Reservá tu sesión." }, "hero": { "headline": "Contacto", "subheadline": "3 sucursales: Villa Morra, San Lorenzo y Luque" } },
-  "footer": { "businessName": "HidroBaby", "city": "Asunción", "navLinks": [
-    { "label": "Inicio", "href": "/s/es/preview-hidrobaby" },
-    { "label": "Servicios", "href": "/s/es/preview-hidrobaby/servicios" },
-    { "label": "Contacto", "href": "/s/es/preview-hidrobaby/contacto" }
-  ]}
+  "servicios": {
+    "seo": {
+      "title": "Servicios — HidroBaby",
+      "description": "Baby spa, hidroestimulación y más."
+    },
+    "hero": {
+      "headline": "Nuestros Servicios",
+      "subheadline": "Todo para el bienestar de tu bebé"
+    }
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contacto — HidroBaby",
+      "description": "Reservá tu sesión."
+    },
+    "hero": {
+      "headline": "Contacto",
+      "subheadline": "3 sucursales: Villa Morra, San Lorenzo y Luque"
+    }
+  },
+  "footer": {
+    "businessName": "HidroBaby",
+    "city": "Asunción",
+    "navLinks": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/preview-hidrobaby"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/preview-hidrobaby/servicios"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/preview-hidrobaby/contacto"
+      }
+    ]
+  },
+  "sucursales": {
+    "seo": {
+      "title": "Sucursales — HidroBaby",
+      "description": "3 sucursales en Asunción, San Lorenzo y Luque."
+    },
+    "hero": {
+      "headline": "Nuestras Sucursales",
+      "subheadline": "Encontranos en Villa Morra, San Lorenzo y Luque"
+    },
+    "branches": {
+      "title": "Todas nuestras sucursales",
+      "branches": [
+        {
+          "name": "Villa Morra (Principal)",
+          "address": "Del Maestro, Asunción",
+          "phone": "+595 993 444 000",
+          "hours": "Lun a Vie 9-19 | Sáb 9-17 | Dom 9-15"
+        },
+        {
+          "name": "San Lorenzo",
+          "address": "San Lorenzo, Paraguay",
+          "phone": "+595 993 444 000",
+          "hours": "Lun a Vie 9-19 | Sáb 9-17"
+        },
+        {
+          "name": "Luque",
+          "address": "Dora Gomez Bueno de Acuña, Luque",
+          "phone": "+595 993 444 300",
+          "hours": "Lun a Vie 9-19 | Sáb 9-17 | Dom 9-15"
+        }
+      ]
+    },
+    "map": {
+      "title": "Ubicación Principal"
+    }
+  },
+  "faq": {
+    "seo": {
+      "title": "FAQ — HidroBaby",
+      "description": "Preguntas frecuentes sobre baby spa."
+    },
+    "hero": {
+      "headline": "Preguntas Frecuentes",
+      "subheadline": "Todo lo que necesitás saber sobre el baby spa"
+    },
+    "items": [
+      {
+        "q": "¿Qué edad tiene que tener mi bebé?",
+        "a": "Aceptamos bebés desde 1 mes hasta 36 meses. Cada etapa tiene servicios específicos."
+      },
+      {
+        "q": "¿Es seguro el agua con ozono?",
+        "a": "Sí. Somos el único baby spa en Paraguay con tecnología de desinfección por ozono, que elimina cloro, bromo y otros minerales que podrían afectar la piel del bebé."
+      },
+      {
+        "q": "¿Cuánto dura una sesión?",
+        "a": "La sesión completa dura aproximadamente 45 minutos: 30 minutos de hidroestimulación + 15 minutos de masaje."
+      },
+      {
+        "q": "¿Ayuda con los cólicos?",
+        "a": "Sí. Nuestro spa anticólicos está especialmente diseñado para aliviar gases y molestias digestivas. Muchos bebés eliminan gases y hacen popó después de la sesión."
+      },
+      {
+        "q": "¿Necesito llevar algo?",
+        "a": "Solo traé mudas de ropa, pañales y si tomás mamadera. Nosotros tenemos toallas, flotadores y todo lo necesario."
+      }
+    ]
+  },
+  "gift": {
+    "seo": {
+      "title": "Gift Cards — HidroBaby",
+      "description": "Regalá una experiencia de baby spa."
+    },
+    "hero": {
+      "headline": "Gift Cards",
+      "subheadline": "El regalo perfecto para una mamá y su bebé"
+    },
+    "cards": {
+      "title": "Elegí tu Gift Card",
+      "plans": [
+        {
+          "name": "Baby Spa Express",
+          "price": "100.000",
+          "period": "válido por 3 meses",
+          "description": "1 sesión de baby spa",
+          "features": [
+            "Hidroestimulación",
+            "Masaje infantil",
+            "Toalla y flotador incluidos"
+          ],
+          "popular": false
+        },
+        {
+          "name": "Baby Spa Completo",
+          "price": "200.000",
+          "period": "válido por 3 meses",
+          "description": "2 sesiones de baby spa",
+          "features": [
+            "2 sesiones de hidroestimulación",
+            "Masaje infantil c/sesión",
+            "Colocación de aritos incluida"
+          ],
+          "popular": true
+        },
+        {
+          "name": "Plan Mensual",
+          "price": "350.000",
+          "period": "válido por 1 mes",
+          "description": "4 sesiones semanales",
+          "features": [
+            "4 sesiones de baby spa",
+            "Masaje Shantala",
+            "Prioridad en agenda",
+            "10% OFF en productos"
+          ],
+          "popular": false
+        }
+      ]
+    }
+  }
 }

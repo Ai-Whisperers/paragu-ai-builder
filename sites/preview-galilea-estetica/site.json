@@ -21,7 +21,9 @@
     "testimonials": true,
     "booking": true,
     "gallery": true,
-    "portfolio": true
+    "portfolio": true,
+    "packagesGiftcards": true,
+    "beforeAfter": true
   },
   "noindex": true,
   "is_demo": true,

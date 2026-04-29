@@ -1,0 +1,12 @@
+{
+  "slug": "clases",
+  "titleKey": "clases.seo.title",
+  "descriptionKey": "clases.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "clases.hero" },
+    { "id": "class-schedule", "variant": "grid", "content": "clases.schedule" },
+    { "id": "team", "variant": "cards", "content": "clases.trainers" },
+    { "id": "cta-banner", "variant": "gradient", "content": "home.cta" },
+    { "id": "contact", "variant": "split", "content": "home.contact" }
+  ]
+}

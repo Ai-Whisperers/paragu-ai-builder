@@ -6,40 +6,242 @@
   "navigation": {
     "businessName": "Galilea Centro Estético",
     "navItems": [
-      { "label": "Inicio", "href": "/s/es/preview-galilea-estetica" },
-      { "label": "Servicios", "href": "/s/es/preview-galilea-estetica/servicios" },
-      { "label": "Contacto", "href": "/s/es/preview-galilea-estetica/contacto" }
+      {
+        "label": "Inicio",
+        "href": "/s/es/preview-galilea-estetica"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/preview-galilea-estetica/servicios"
+      },
+      {
+        "label": "Galería",
+        "href": "/s/es/preview-galilea-estetica/galeria"
+      },
+      {
+        "label": "Gift Cards",
+        "href": "/s/es/preview-galilea-estetica/gift-cards"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/preview-galilea-estetica/contacto"
+      }
     ],
     "ctaText": "Reservá tu cita",
     "ctaHref": "https://wa.me/595994681789"
   },
   "home": {
-    "seo": { "title": "Galilea Centro Estético — Estética en Asunción | 395 reseñas ⭐5.0", "description": "Centro de estética en Asunción. Tratamientos faciales, corporales, depilación láser y masajes. 📍 Sta. Rosa 944 c. 395 clientas ⭐5.0." },
-    "hero": { "headline": "Tu centro de estética en Asunción", "subheadline": "Cuidamos tu belleza con tratamientos faciales, corporales y depilación láser. 395 clientas nos califican con ⭐5.0 en Google.", "ctaPrimaryText": "Reservá tu cita", "ctaSecondaryText": "Ver servicios" },
-    "stats": { "items": [
-      { "value": "395", "label": "Reseñas ⭐5.0", "icon": "Star" },
-      { "value": "15+", "label": "Años de experiencia", "icon": "Calendar" },
-      { "value": "Sta. Rosa 944", "label": "Asunción", "icon": "MapPin" }
-    ]},
-    "services": { "title": "Nuestros Tratamientos", "items": [
-      { "name": "Limpieza Facial Profunda", "price": "80.000 Gs", "description": "Limpieza con extracción de puntos negros, mascarilla personalizada según tu tipo de piel e hidratación profunda. Piel renovada al instante.", "category": "Faciales", "duration": 60 },
-      { "name": "Radiofrecuencia Facial", "price": "120.000 Gs", "description": "Tratamiento anti-edad no invasivo. Estimula la producción de colágeno, reduce líneas de expresión y reafirma la piel. Resultados visibles desde la primera sesión.", "category": "Faciales", "duration": 45 },
-      { "name": "Depilación Láser", "price": "200.000 Gs", "description": "Sesión completa por zona. Tecnología de última generación. Resultados permanentes. Consultá por nuestros paquetes promocionales.", "category": "Depilación", "duration": 45 },
-      { "name": "Masaje Reductor", "price": "90.000 Gs", "description": "Drenaje linfático manual intensivo que reduce medidas y elimina toxinas. Ideal como complemento de dieta y ejercicio.", "category": "Corporales", "duration": 50 },
-      { "name": "Masaje Relax", "price": "150.000 Gs", "description": "60 minutos de pura relajación con técnicas suecas y amasamiento profundo. Alivia tensiones y renueva energías.", "category": "Masajes", "duration": 60 }
-    ]},
-    "testimonials": { "title": "Lo que dicen nuestras clientas", "items": [
-      { "quote": "Hace años que voy a Galilea y siempre salgo renovada. La limpieza facial es la mejor de Asunción. Súper recomendado!", "author": "Cliente en Google", "rating": 5 },
-      { "quote": "Empecé con la depilación láser y ya a la tercera sesión noté muchísima diferencia. Muy profesional, el trato excelente.", "author": "Cliente en Google", "rating": 5 }
-    ]},
-    "cta": { "title": "Agendá tu cita ahora", "subtitle": "Respondemos por WhatsApp en minutos", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595994681789" },
-    "contact": { "title": "Visitanos", "phone": "+595 994 681 789", "address": "Sta. Rosa 944 c, Asunción" }
+    "seo": {
+      "title": "Galilea Centro Estético — Estética en Asunción | 395 reseñas ⭐5.0",
+      "description": "Centro de estética en Asunción. Tratamientos faciales, corporales, depilación láser y masajes. 📍 Sta. Rosa 944 c. 395 clientas ⭐5.0."
+    },
+    "hero": {
+      "headline": "Tu centro de estética en Asunción",
+      "subheadline": "Cuidamos tu belleza con tratamientos faciales, corporales y depilación láser. 395 clientas nos califican con ⭐5.0 en Google.",
+      "ctaPrimaryText": "Reservá tu cita",
+      "ctaSecondaryText": "Ver servicios"
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "395",
+          "label": "Reseñas ⭐5.0",
+          "icon": "Star"
+        },
+        {
+          "value": "15+",
+          "label": "Años de experiencia",
+          "icon": "Calendar"
+        },
+        {
+          "value": "Sta. Rosa 944",
+          "label": "Asunción",
+          "icon": "MapPin"
+        }
+      ]
+    },
+    "services": {
+      "title": "Nuestros Tratamientos",
+      "items": [
+        {
+          "name": "Limpieza Facial Profunda",
+          "price": "80.000 Gs",
+          "description": "Limpieza con extracción de puntos negros, mascarilla personalizada según tu tipo de piel e hidratación profunda. Piel renovada al instante.",
+          "category": "Faciales",
+          "duration": 60
+        },
+        {
+          "name": "Radiofrecuencia Facial",
+          "price": "120.000 Gs",
+          "description": "Tratamiento anti-edad no invasivo. Estimula la producción de colágeno, reduce líneas de expresión y reafirma la piel. Resultados visibles desde la primera sesión.",
+          "category": "Faciales",
+          "duration": 45
+        },
+        {
+          "name": "Depilación Láser",
+          "price": "200.000 Gs",
+          "description": "Sesión completa por zona. Tecnología de última generación. Resultados permanentes. Consultá por nuestros paquetes promocionales.",
+          "category": "Depilación",
+          "duration": 45
+        },
+        {
+          "name": "Masaje Reductor",
+          "price": "90.000 Gs",
+          "description": "Drenaje linfático manual intensivo que reduce medidas y elimina toxinas. Ideal como complemento de dieta y ejercicio.",
+          "category": "Corporales",
+          "duration": 50
+        },
+        {
+          "name": "Masaje Relax",
+          "price": "150.000 Gs",
+          "description": "60 minutos de pura relajación con técnicas suecas y amasamiento profundo. Alivia tensiones y renueva energías.",
+          "category": "Masajes",
+          "duration": 60
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestras clientas",
+      "items": [
+        {
+          "quote": "Hace años que voy a Galilea y siempre salgo renovada. La limpieza facial es la mejor de Asunción. Súper recomendado!",
+          "author": "Cliente en Google",
+          "rating": 5
+        },
+        {
+          "quote": "Empecé con la depilación láser y ya a la tercera sesión noté muchísima diferencia. Muy profesional, el trato excelente.",
+          "author": "Cliente en Google",
+          "rating": 5
+        }
+      ]
+    },
+    "cta": {
+      "title": "Agendá tu cita ahora",
+      "subtitle": "Respondemos por WhatsApp en minutos",
+      "buttonText": "WhatsApp",
+      "buttonHref": "https://wa.me/595994681789"
+    },
+    "contact": {
+      "title": "Visitanos",
+      "phone": "+595 994 681 789",
+      "address": "Sta. Rosa 944 c, Asunción"
+    }
   },
-  "servicios": { "seo": { "title": "Servicios — Galilea Centro Estético", "description": "Todos nuestros tratamientos de estética." }, "hero": { "headline": "Servicios", "subheadline": "Faciales, corporales, depilación y masajes" } },
-  "contacto": { "seo": { "title": "Contacto — Galilea Centro Estético", "description": "Reservá tu cita." }, "hero": { "headline": "Contacto", "subheadline": "Estamos en Sta. Rosa 944 c, Asunción" } },
-  "footer": { "businessName": "Galilea Centro Estético", "city": "Asunción", "navLinks": [
-    { "label": "Inicio", "href": "/s/es/preview-galilea-estetica" },
-    { "label": "Servicios", "href": "/s/es/preview-galilea-estetica/servicios" },
-    { "label": "Contacto", "href": "/s/es/preview-galilea-estetica/contacto" }
-  ]}
+  "servicios": {
+    "seo": {
+      "title": "Servicios — Galilea Centro Estético",
+      "description": "Todos nuestros tratamientos de estética."
+    },
+    "hero": {
+      "headline": "Servicios",
+      "subheadline": "Faciales, corporales, depilación y masajes"
+    }
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contacto — Galilea Centro Estético",
+      "description": "Reservá tu cita."
+    },
+    "hero": {
+      "headline": "Contacto",
+      "subheadline": "Estamos en Sta. Rosa 944 c, Asunción"
+    }
+  },
+  "footer": {
+    "businessName": "Galilea Centro Estético",
+    "city": "Asunción",
+    "navLinks": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/preview-galilea-estetica"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/preview-galilea-estetica/servicios"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/preview-galilea-estetica/contacto"
+      }
+    ]
+  },
+  "galeria": {
+    "seo": {
+      "title": "Galería — Galilea Centro Estético",
+      "description": "Resultados de nuestros tratamientos."
+    },
+    "hero": {
+      "headline": "Nuestros Trabajos",
+      "subheadline": "Resultados reales de nuestros tratamientos"
+    },
+    "gallery": {
+      "title": "Galería de Tratamientos",
+      "images": []
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "items": [
+        {
+          "title": "Limpieza Facial",
+          "description": "Piel renovada después de una sesión de limpieza profunda"
+        },
+        {
+          "title": "Radiofrecuencia",
+          "description": "Reducción de líneas de expresión después de 4 sesiones"
+        }
+      ]
+    }
+  },
+  "gift": {
+    "seo": {
+      "title": "Gift Cards — Galilea Centro Estético",
+      "description": "Regalá una experiencia de belleza."
+    },
+    "hero": {
+      "headline": "Gift Cards",
+      "subheadline": "Regalá una experiencia de belleza única"
+    },
+    "cards": {
+      "title": "Elegí tu Gift Card",
+      "plans": [
+        {
+          "name": "Facial Express",
+          "price": "80.000",
+          "period": "válido por 3 meses",
+          "description": "Limpieza facial profunda",
+          "features": [
+            "Limpieza facial",
+            "Mascarilla personalizada",
+            "Hidratación"
+          ],
+          "popular": false
+        },
+        {
+          "name": "Relax Total",
+          "price": "150.000",
+          "period": "válido por 3 meses",
+          "description": "Masaje relajante de 60 min",
+          "features": [
+            "Masaje relajante",
+            "Aromaterapia",
+            "Suite privada"
+          ],
+          "popular": true
+        },
+        {
+          "name": "Experiencia Completa",
+          "price": "250.000",
+          "period": "válido por 6 meses",
+          "description": "Facial + masaje",
+          "features": [
+            "Limpieza facial",
+            "Masaje relajante",
+            "Depilación láser (1 zona)",
+            "Brunch saludable"
+          ],
+          "popular": false
+        }
+      ]
+    }
+  }
 }

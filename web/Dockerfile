@@ -64,7 +64,14 @@ ENV SRC_DIR=/app/src
 ENV SITES_DIR=/app/sites
 RUN --mount=type=secret,id=supabase_key,env=SUPABASE_SERVICE_ROLE_KEY \
     --mount=type=secret,id=google_places_key,env=GOOGLE_PLACES_API_KEY \
-    npx next build
+    npx next build && \
+    # Next.js 16 creates static locale dirs under s/ that shadow [locale] 
+    # dynamic segment. Only [locale] should exist.
+    for d in /app/web/.next/server/app/s/*/; do \
+      base=$(basename "$$d"); \
+      [ "$$base" != "[locale]" ] && rm -rf "$$d"; \
+    done && \
+    echo "Cleaned up locale shadow dirs"
 
 # Stage 3: Runner (Production)
 FROM node:20-alpine AS runner
