@@ -20,6 +20,7 @@ import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { TiendaToolbar } from '@/components/commerce/tienda-toolbar'
 import { TiendaPagination } from '@/components/commerce/tienda-pagination'
 import { loadPygRates } from '@/lib/commerce/currency-server'
+import { parseFilterParams, buildCanonicalUrl, computeIndexPolicy } from '@/lib/seo/filter-url'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -37,18 +38,19 @@ export async function generateMetadata({
   if (!business) return {}
   const decoded = decodeURIComponent(category)
   const pretty = decoded.charAt(0).toUpperCase() + decoded.slice(1)
-  const canonical = `${env.APP_URL}/s/${locale}/${site}/tienda/categoria/${category}`
+  const baseUrl = `${env.APP_URL}/s/${locale}/${site}/tienda/categoria/${category}`
   // Get a rough product count for richer meta. Errors swallowed on purpose
   // — metadata should never crash the page render.
   const count = await countActiveProducts(business.id, { category: decoded }).catch(() => 0)
   const description = count > 0
     ? `${pretty} en ${business.name}: ${count} producto${count === 1 ? '' : 's'} con envío discreto a todo Paraguay. Pago con tarjeta, transferencia o WhatsApp.`
     : `Productos de ${pretty} en ${business.name}. Envío a domicilio en Asunción y área metropolitana.`
-  const hasFilterParam = ['q', 'brand', 'tag', 'min', 'max', 'sort', 'page', 'in_stock', 'on_sale']
-    .some((k) => {
-      const v = sp[k]
-      return typeof v === 'string' ? v.length > 0 : Array.isArray(v) ? v.length > 0 : false
-    })
+  // The route's category is fixed by the URL — strip it from the parsed facets
+  // so canonical doesn't double-encode it as a query param.
+  const { category: _omit, ...spForFacets } = sp
+  const parsed = parseFilterParams(spForFacets)
+  const canonical = buildCanonicalUrl(baseUrl, parsed)
+  const policy = computeIndexPolicy(parsed)
   // Transactional-intent title: "Comprar [Category] en Paraguay | Store".
   // Peer analysis (luden.store) ranks consistently on this pattern for
   // Paraguay-specific long-tail.
@@ -58,9 +60,7 @@ export async function generateMetadata({
     description,
     alternates: { canonical },
     openGraph: { url: canonical, title, description },
-    robots: hasFilterParam
-      ? { index: false, follow: true }
-      : { index: true, follow: true },
+    robots: policy,
   }
 }
 

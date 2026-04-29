@@ -21,6 +21,7 @@ import { getCartBySessionToken } from '@/lib/commerce/cart'
 import { CartStoreHydrator } from '@/components/commerce/cart-store-hydrator'
 import { TiendaPagination } from '@/components/commerce/tienda-pagination'
 import { loadPygRates } from '@/lib/commerce/currency-server'
+import { parseFilterParams, buildCanonicalUrl, computeIndexPolicy } from '@/lib/seo/filter-url'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -51,7 +52,7 @@ export async function generateMetadata({
   if (!business) return {}
   const prettyCat = pretty(category)
   const prettyTag = pretty(tag)
-  const canonical = `${env.APP_URL}/s/${locale}/${site}/tienda/categoria/${category}/${tag}`
+  const baseUrl = `${env.APP_URL}/s/${locale}/${site}/tienda/categoria/${category}/${tag}`
   const decodedCat = decodeURIComponent(category)
   const decodedTag = decodeURIComponent(tag)
   const count = await countActiveProducts(business.id, {
@@ -65,21 +66,20 @@ export async function generateMetadata({
   const description = count > 0
     ? `${prettyTag} · ${prettyCat} en ${business.name}: ${count} producto${count === 1 ? '' : 's'} con envío discreto a todo Paraguay. Pagá por transferencia, tarjeta o WhatsApp.`
     : `${prettyTag} · ${prettyCat} en ${business.name}. Envío a domicilio en Asunción y área metropolitana.`
-  // noindex if any filter param set — the clean nested URL is the one
-  // that should rank, permutations of it are duplicates.
-  const hasFilterParam = ['q', 'min', 'max', 'sort', 'page', 'in_stock', 'on_sale']
-    .some((k) => {
-      const v = sp[k]
-      return typeof v === 'string' ? v.length > 0 : Array.isArray(v) ? v.length > 0 : false
-    })
+  // (category, tag) come from the URL path — drop them from the query parsing
+  // so canonical doesn't echo them as facets.
+  const { category: _omitCat, tag: _omitTag, ...spForFacets } = sp
+  const parsed = parseFilterParams(spForFacets)
+  const canonical = buildCanonicalUrl(baseUrl, parsed)
+  const facetPolicy = computeIndexPolicy(parsed)
+  // Thin-content guard: empty (cat,tag) pages are noindex regardless of facets.
+  const policy = count > 0 ? facetPolicy : { index: false, follow: true }
   return {
     title,
     description,
     alternates: { canonical },
     openGraph: { url: canonical, title, description },
-    robots: count > 0 && !hasFilterParam
-      ? { index: true, follow: true }
-      : { index: false, follow: true },
+    robots: policy,
   }
 }
 

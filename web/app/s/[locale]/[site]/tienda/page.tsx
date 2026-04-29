@@ -39,6 +39,7 @@ import { Breadcrumbs } from '@/components/commerce/breadcrumbs'
 import { TiendaSearchTracker } from '@/components/commerce/tienda-search-tracker'
 import { env } from '@/lib/env'
 import { loadPygRates } from '@/lib/commerce/currency-server'
+import { parseFilterParams, buildCanonicalUrl, computeIndexPolicy } from '@/lib/seo/filter-url'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic' // search/sort/filter params kill static caching
@@ -54,24 +55,19 @@ export async function generateMetadata({
   const sp = await searchParams
   const business = await resolveBusinessBySlug(site)
   if (!business) return {}
-  const canonical = `${env.APP_URL}/s/${locale}/${site}/tienda`
-  // Filtered / searched / paged views are duplicate content from Google's
-  // view — canonical points at the bare /tienda and we noindex anything
-  // with a search, filter, sort, or pagination query. Prevents Google from
-  // spidering 10k permutations of the same catalog.
-  const hasSearchyParam = ['q', 'category', 'brand', 'tag', 'min', 'max', 'sort', 'page', 'in_stock', 'on_sale']
-    .some((k) => {
-      const v = sp[k]
-      return typeof v === 'string' ? v.length > 0 : Array.isArray(v) ? v.length > 0 : false
-    })
+  const baseUrl = `${env.APP_URL}/s/${locale}/${site}/tienda`
+  // Per playbook §5.4: canonical strips view-only params and emits remaining
+  // facets alphabetically; index policy allows ≤2 allowlisted facets and
+  // noindexes everything with sort/view/per_page/page>1/q or any non-allowlisted facet.
+  const parsed = parseFilterParams(sp)
+  const canonical = buildCanonicalUrl(baseUrl, parsed)
+  const policy = computeIndexPolicy(parsed)
   return {
     title: `Tienda — ${business.name}`,
     description: `Catálogo completo de ${business.name}. Envío a domicilio, pago seguro por Pagopar, Mercado Pago o transferencia.`,
     alternates: { canonical },
     openGraph: { url: canonical, title: `Tienda — ${business.name}` },
-    robots: hasSearchyParam
-      ? { index: false, follow: true }
-      : { index: true, follow: true },
+    robots: policy,
   }
 }
 
