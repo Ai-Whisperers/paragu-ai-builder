@@ -56,8 +56,7 @@ COPY CHANGELOG.md ./CHANGELOG.md
 
 # Build inside web/
 WORKDIR /app/web
-ARG CACHE_BUST
-ENV CACHE_BUST=${CACHE_BUST}
+COPY .cachebust ./.cachebust
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 ENV SRC_DIR=/app/src
