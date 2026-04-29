@@ -42,39 +42,12 @@ interface Props {
 
 export const dynamicParams = true
 
-// Tenants whose content currently throws during prerender (content-shape
-// mismatch producing `.map` on undefined). They render fine at request
-// time via SSR; remove entries as the underlying shape is fixed.
-const PRERENDER_SKIP_SITES = new Set<string>([
-  'nexa-propiedades',
-  'fun4me',
-  'de-abasto-a-casa',
-])
-
+// This route is force-dynamic — no static params needed.
+// Next.js 16 creates empty route directories when generateStaticParams
+// runs on a dynamic route, which shadows the [locale] segment and
+// returns Express 404 for all routes. Skip generation entirely.
 export async function generateStaticParams() {
-  const params: Array<{ locale: string; site: string; page?: string[] }> = []
-  for (const slug of listSiteSlugs()) {
-    if (PRERENDER_SKIP_SITES.has(slug)) continue
-    let site
-    try {
-      site = loadSite(slug)
-    } catch (error) {
-      logger.warn('generateStaticParams: skipping site — loadSite failed', {
-        action: 'generateStaticParams',
-        siteSlug: slug,
-        error: error instanceof Error ? error.message : String(error),
-      })
-      continue
-    }
-    for (const loc of site.locales) {
-      const pages = listPageSlugs(slug)
-      for (const pageSlug of pages) {
-        const pageParam = pageSlug === 'home' ? [] : [pageSlug]
-        params.push({ locale: loc, site: slug, page: pageParam })
-      }
-    }
-  }
-  return params
+  return []
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
