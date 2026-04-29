@@ -42,17 +42,26 @@ interface Props {
 
 export const dynamicParams = true
 
+// Tenants whose content throws during prerender (content-shape mismatch).
+// They render fine at request time via SSR; remove entries as fixed.
+const PRERENDER_SKIP_SITES = new Set<string>([
+  'nexa-propiedades',
+  'fun4me',
+  'de-abasto-a-casa',
+])
+
 export async function generateStaticParams() {
   const params: Array<{ locale: string; site: string; page?: string[] }> = []
-  // Return ONE param to activate the dynamic route. Next.js 16 needs at
-  // least one static param to register the catch-all; additional locales
-  // are handled by dynamicParams=true at request time.
   for (const slug of listSiteSlugs()) {
+    if (PRERENDER_SKIP_SITES.has(slug)) continue
     let site
     try { site = loadSite(slug) } catch { continue }
     for (const loc of site.locales) {
-      params.push({ locale: loc, site: slug, page: [] })
-      break // one per site is enough to register the route
+      const pages = listPageSlugs(slug)
+      for (const pageSlug of pages) {
+        const pageParam = pageSlug === 'home' ? [] : [pageSlug]
+        params.push({ locale: loc, site: slug, page: pageParam })
+      }
     }
   }
   return params
