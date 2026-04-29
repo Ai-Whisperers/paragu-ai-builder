@@ -374,15 +374,71 @@ function absoluteUrl(baseUrl: string, src: string): string {
 export interface ProductShape {
   name: string
   sku?: string
+  /** Manufacturer Part Number — Google requires gtin/mpn/brand for rich results. Defaults to sku when omitted. */
+  mpn?: string
   description?: string
   brand?: string
   category?: string
   image?: string | string[]
+  /** Single-variant price in cents (with `priceCurrency`). Used when there are no size variants and no `priceFromGs`. */
+  priceCents?: number
+  priceCurrency?: string
   priceFromGs?: number
   sizes?: Array<{ label: string; dimensions?: string; priceGs: number }>
   warranty?: string
   url: string
   aggregateRating?: { ratingValue: number; reviewCount: number }
+  /** Inline reviews — schema.org allows up to ~10 in a single Product node. Each is normalised through `buildReview` minus its @context. */
+  reviews?: ReviewShape[]
+  /** Schema.org URL: NewCondition / UsedCondition / RefurbishedCondition / DamagedCondition. Defaults to NewCondition. */
+  itemCondition?: string
+  /** Override availability when the caller knows stock (defaults to InStock). */
+  availability?: string
+  /** Seller organisation name — populated for marketplace contexts where the seller differs from the brand. */
+  seller?: string
+}
+
+export interface ReviewShape {
+  authorName: string
+  /** 1-5 star rating. */
+  rating: number
+  /** ISO 8601 date string. */
+  createdAt: string
+  title?: string | null
+  content: string
+  /** Defaults to 5; only override for non-5-point scales. */
+  bestRating?: number
+  /** Defaults to 1. */
+  worstRating?: number
+}
+
+/**
+ * Standalone Review JSON-LD with a Rating subobject. Wraps the embedded
+ * shape used inside `buildProduct`'s `review[]` array — call this when
+ * emitting a Review node on its own (e.g. dedicated review page).
+ */
+export function buildReview(r: ReviewShape): object {
+  return {
+    '@context': 'https://schema.org',
+    ...stripContext(buildReviewInner(r)),
+  }
+}
+
+function buildReviewInner(r: ReviewShape): object {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    author: { '@type': 'Person', name: r.authorName },
+    datePublished: r.createdAt,
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: r.rating,
+      bestRating: r.bestRating ?? 5,
+      worstRating: r.worstRating ?? 1,
+    },
+    ...(r.title ? { name: r.title } : {}),
+    reviewBody: r.content,
+  }
 }
 
 export function buildProduct(p: ProductShape, baseUrl: string): object {
@@ -399,6 +455,9 @@ export function buildProduct(p: ProductShape, baseUrl: string): object {
     url: p.url,
   }
   if (p.sku) schema.sku = p.sku
+  // Default mpn to sku — Google's rich-results validator wants both when only one is known.
+  const mpn = p.mpn ?? p.sku
+  if (mpn) schema.mpn = mpn
   if (p.description) schema.description = p.description
   if (images) schema.image = images
   if (p.brand) schema.brand = { '@type': 'Brand', name: p.brand }
@@ -409,31 +468,49 @@ export function buildProduct(p: ProductShape, baseUrl: string): object {
     ]
   }
 
+  const itemCondition = p.itemCondition ?? 'https://schema.org/NewCondition'
+  const availability = p.availability ?? 'https://schema.org/InStock'
+  const seller = p.seller ? { '@type': 'Organization', name: p.seller } : undefined
+
   if (p.sizes && p.sizes.length > 0) {
     const prices = p.sizes.map((s) => s.priceGs).filter((n) => typeof n === 'number')
     if (prices.length > 0) {
       schema.offers = {
         '@type': 'AggregateOffer',
-        priceCurrency: 'PYG',
+        priceCurrency: p.priceCurrency ?? 'PYG',
         lowPrice: Math.min(...prices),
         highPrice: Math.max(...prices),
         offerCount: p.sizes.length,
-        availability: 'https://schema.org/InStock',
+        availability,
         offers: p.sizes.map((s) => ({
           '@type': 'Offer',
           name: s.label,
           price: s.priceGs,
-          priceCurrency: 'PYG',
-          availability: 'https://schema.org/InStock',
+          priceCurrency: p.priceCurrency ?? 'PYG',
+          itemCondition,
+          availability,
+          ...(seller ? { seller } : {}),
         })),
       }
+    }
+  } else if (typeof p.priceCents === 'number') {
+    schema.offers = {
+      '@type': 'Offer',
+      url: p.url,
+      price: (p.priceCents / 100).toFixed(2),
+      priceCurrency: p.priceCurrency ?? 'USD',
+      itemCondition,
+      availability,
+      ...(seller ? { seller } : {}),
     }
   } else if (typeof p.priceFromGs === 'number') {
     schema.offers = {
       '@type': 'Offer',
       price: p.priceFromGs,
-      priceCurrency: 'PYG',
-      availability: 'https://schema.org/InStock',
+      priceCurrency: p.priceCurrency ?? 'PYG',
+      itemCondition,
+      availability,
+      ...(seller ? { seller } : {}),
     }
   }
 
@@ -442,8 +519,67 @@ export function buildProduct(p: ProductShape, baseUrl: string): object {
       '@type': 'AggregateRating',
       ratingValue: p.aggregateRating.ratingValue,
       reviewCount: p.aggregateRating.reviewCount,
+      bestRating: 5,
+      worstRating: 1,
     }
   }
 
+  if (p.reviews && p.reviews.length > 0) {
+    schema.review = p.reviews.slice(0, 10).map((r) => stripContext(buildReviewInner(r)))
+  }
+
   return schema
+}
+
+/**
+ * WebSite node with a SearchAction so Google's site-links search box can
+ * point at the tenant's `/buscar?q=` route. One per site, emitted once
+ * (typically on the homepage).
+ */
+export function buildWebsiteSearch(
+  site: SiteShape,
+  content: ContentShape,
+  baseUrl: string,
+  locale: string,
+): object {
+  const homeUrl = `${baseUrl}/s/${locale}/${site.slug}`
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: content.siteName || site.slug,
+    url: homeUrl,
+    inLanguage: locale,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${homeUrl}/buscar?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  }
+}
+
+/**
+ * Generic ItemList wrapper — like `buildServiceItemList` but accepts any
+ * pre-built schema.org node array (Products, BlogPostings, etc.). Use
+ * this for category PLPs, blog index pages, lookbook grids.
+ */
+export function buildItemList(
+  items: object[],
+  title: string,
+  pageUrl: string,
+): object {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: title,
+    url: pageUrl,
+    numberOfItems: items.length,
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: stripContext(item),
+    })),
+  }
 }

@@ -39,6 +39,7 @@ import {
 } from '@/lib/commerce/reviews'
 import { loadPygRates } from '@/lib/commerce/currency-server'
 import { env } from '@/lib/env'
+import { buildProduct } from '@/lib/seo/json-ld'
 
 export const runtime = 'nodejs'
 export const revalidate = 300
@@ -156,46 +157,37 @@ export default async function ProductPage({ params }: { params: Promise<{ site: 
   const imageList = product.images
     .map((i) => i.url)
     .filter((u): u is string => typeof u === 'string' && u.length > 0)
-  const structuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: product.name,
-    description: product.description ?? undefined,
-    image: imageList.length > 0 ? imageList : cover?.url,
-    sku: product.sku ?? undefined,
-    mpn: product.sku ?? undefined,
-    url: productUrl,
-    brand: product.brand ? { '@type': 'Brand', name: product.brand } : undefined,
-    offers: {
-      '@type': 'Offer',
+  const structuredData = buildProduct(
+    {
+      name: product.name,
+      description: product.description ?? undefined,
+      image: imageList.length > 0 ? imageList : cover?.url ? [cover.url] : undefined,
+      sku: product.sku ?? undefined,
+      mpn: product.sku ?? undefined,
       url: productUrl,
-      price: (product.priceCents / 100).toFixed(2),
+      brand: product.brand ?? undefined,
+      category: product.category ?? undefined,
+      priceCents: product.priceCents,
       priceCurrency: product.currency,
-      itemCondition: 'https://schema.org/NewCondition',
+      seller: business.name,
       availability:
         product.inventoryPolicy === 'deny' && product.inventoryQty === 0
           ? 'https://schema.org/OutOfStock'
           : 'https://schema.org/InStock',
-      seller: { '@type': 'Organization', name: business.name },
+      aggregateRating:
+        aggregate && aggregate.count > 0
+          ? { ratingValue: Number(aggregate.avg.toFixed(1)), reviewCount: aggregate.count }
+          : undefined,
+      reviews: reviews.slice(0, 10).map((r) => ({
+        authorName: r.authorName,
+        rating: r.rating,
+        createdAt: r.createdAt,
+        title: r.title,
+        content: r.content,
+      })),
     },
-    aggregateRating: aggregate && aggregate.count > 0
-      ? {
-          '@type': 'AggregateRating',
-          ratingValue: aggregate.avg.toFixed(1),
-          reviewCount: aggregate.count,
-          bestRating: 5,
-          worstRating: 1,
-        }
-      : undefined,
-    review: reviews.slice(0, 10).map((r) => ({
-      '@type': 'Review',
-      author: { '@type': 'Person', name: r.authorName },
-      datePublished: r.createdAt,
-      reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5, worstRating: 1 },
-      name: r.title ?? undefined,
-      reviewBody: r.content,
-    })),
-  }
+    env.APP_URL,
+  )
 
   const sessionToken = await getSessionToken()
   const initialCart = sessionToken && business
