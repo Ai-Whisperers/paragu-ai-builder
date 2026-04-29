@@ -13,39 +13,12 @@
       }
     },
     {
-      "id": "our-story",
-      "variant": "narrative",
-      "content": "press.bio",
-      "styling": {
-        "padding": "lg",
-        "background": "alt"
-      }
-    },
-    {
       "id": "epk-credits",
       "variant": "standard",
       "content": "press.credits",
       "styling": {
         "padding": "lg",
-        "background": "default"
-      }
-    },
-    {
-      "id": "epk-credits",
-      "variant": "standard",
-      "content": "press.techSpecs",
-      "styling": {
-        "padding": "md",
         "background": "alt"
-      }
-    },
-    {
-      "id": "contact",
-      "variant": "split",
-      "content": "press.booking",
-      "styling": {
-        "padding": "lg",
-        "background": "default"
       }
     }
   ]
