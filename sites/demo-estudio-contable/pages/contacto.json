@@ -3,8 +3,29 @@
   "titleKey": "contactoPage.seo.title",
   "descriptionKey": "contactoPage.seo.description",
   "sections": [
-    { "id": "hero", "variant": "minimal", "content": "contactoPage.hero" },
-    { "id": "contact", "variant": "split", "content": "home.contact" },
-    { "id": "lead-form", "variant": "standard", "content": "home.leadForm" }
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "contactoPage.hero"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
+    },
+    {
+      "id": "lead-form",
+      "variant": "standard",
+      "content": "home.leadForm"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ],
+  "skipDefaults": [
+    "header",
+    "footer"
   ]
 }

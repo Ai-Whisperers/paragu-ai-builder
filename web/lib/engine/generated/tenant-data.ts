@@ -6174,7 +6174,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -6245,7 +6254,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -6294,7 +6312,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -6343,7 +6370,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -6392,7 +6428,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -6441,7 +6486,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -6606,7 +6660,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.cta",
         "id": "cta-banner",
         "variant": "gradient"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -6801,7 +6864,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -6872,7 +6944,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -6977,7 +7058,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.leadForm",
         "id": "lead-form",
         "variant": "standard"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contactoPage.seo.title"
@@ -7141,7 +7231,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7190,7 +7289,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7239,7 +7347,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7288,7 +7405,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7337,7 +7463,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7386,7 +7521,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7435,7 +7579,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7506,7 +7659,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7555,7 +7717,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7604,7 +7775,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7653,7 +7833,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7724,7 +7913,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7773,7 +7971,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7822,7 +8029,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7893,7 +8109,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -7964,7 +8189,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -8013,7 +8247,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -8062,7 +8305,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -8133,7 +8385,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -11045,7 +11306,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -11131,7 +11401,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -11207,7 +11486,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -11288,7 +11576,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
@@ -11364,7 +11661,16 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "home.contact",
         "id": "contact",
         "variant": "split"
+      },
+      {
+        "content": "whatsapp",
+        "id": "whatsapp-float",
+        "variant": "standard"
       }
+    ],
+    "skipDefaults": [
+      "header",
+      "footer"
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
