@@ -64,13 +64,15 @@ ENV SITES_DIR=/app/sites
 RUN --mount=type=secret,id=supabase_key,env=SUPABASE_SERVICE_ROLE_KEY \
     --mount=type=secret,id=google_places_key,env=GOOGLE_PLACES_API_KEY \
     npx next build && \
-    # Next.js 16 creates static locale dirs under s/ that shadow [locale] 
-    # dynamic segment. Only [locale] should exist.
     for d in /app/web/.next/server/app/s/*/; do \
       base=$(basename "$$d"); \
       [ "$$base" != "[locale]" ] && rm -rf "$$d"; \
     done && \
-    echo "Cleaned up locale shadow dirs"
+    for d in /app/web/.next/standalone/.next/server/app/s/*/; do \
+      [ -d "$$d" ] && base=$(basename "$$d"); \
+      [ "$$base" != "[locale]" ] && rm -rf "$$d"; \
+    done && \
+    echo "Cleaned locale shadow dirs"
 
 # Stage 3: Runner (Production)
 FROM node:20-alpine AS runner
@@ -101,18 +103,10 @@ RUN for d in /app/.next/server/app/s/*/; do \
       [ "$$base" != "[locale]" ] && rm -rf "$$d"; \
     done && echo "Cleaned locale shadow dirs"
 
-RUN echo $'#!/bin/sh\n\
-# Remove Next.js 16 locale shadow dirs that break dynamic [locale] routing\n\
-for d in /app/.next/server/app/s/*/; do\n\
-  base=$(basename "$$d")\n\
-  [ "$$base" != "[locale]" ] && rm -rf "$$d"\n\
-done\n\
-exec node server.js' > /entrypoint.sh && chmod +x /entrypoint.sh
-
 USER nextjs
 EXPOSE 3000
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
-    CMD wget --no-verbose --tries=1 --spider http://127.0.0.1:3000/ || exit 1
+    CMD wget --no-verbose --tries=1 --spider http://127.0.0.1:3000/api/health || exit 1
 
-ENTRYPOINT ["/entrypoint.sh"]
+CMD ["node", "server.js"]
