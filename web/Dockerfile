@@ -101,10 +101,18 @@ RUN for d in /app/.next/server/app/s/*/; do \
       [ "$$base" != "[locale]" ] && rm -rf "$$d"; \
     done && echo "Cleaned locale shadow dirs"
 
+RUN echo $'#!/bin/sh\n\
+# Remove Next.js 16 locale shadow dirs that break dynamic [locale] routing\n\
+for d in /app/.next/server/app/s/*/; do\n\
+  base=$(basename "$$d")\n\
+  [ "$$base" != "[locale]" ] && rm -rf "$$d"\n\
+done\n\
+exec node server.js' > /entrypoint.sh && chmod +x /entrypoint.sh
+
 USER nextjs
 EXPOSE 3000
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
-    CMD wget --no-verbose --tries=1 --spider http://127.0.0.1:3000/api/health || exit 1
+    CMD wget --no-verbose --tries=1 --spider http://127.0.0.1:3000/ || exit 1
 
-CMD ["node", "server.js"]
+ENTRYPOINT ["/entrypoint.sh"]
