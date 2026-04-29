@@ -1,12 +1,13 @@
 {
   "slug": "catalogo",
-  "titleKey": "catalogo.seo.title",
-  "descriptionKey": "catalogo.seo.description",
+  "titleKey": "home.products.title",
+  "descriptionKey": "home.products.subtitle",
   "sections": [
-    { "id": "hero", "variant": "minimal", "content": "catalogo.hero" },
-    { "id": "product-catalog", "variant": "grid", "content": "catalogo.products" },
-    { "id": "cta-banner", "variant": "gradient", "content": "catalogo.cta" },
-    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
-  ],
-  "skipDefaults": ["header", "footer"]
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "home.products" },
+    { "id": "product-catalog", "variant": "grid", "content": "home.products" },
+    { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
 }
