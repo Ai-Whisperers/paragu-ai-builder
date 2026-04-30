@@ -58,7 +58,7 @@ export function PortfolioSection({
     : [...new Set(items.map(item => item.category).filter(Boolean))] as string[]
 
   return (
-    <section className="font-heading bg-background py-16 sm:py-20">
+    <div className="font-heading bg-background py-16 sm:py-20">
       <div className="font-heading mx-auto  px-4">
         <div className="font-heading text-center mb-12">
           <Heading level={2} className="font-heading text-xl sm:text-3xl font-bold text-foreground">
@@ -133,6 +133,6 @@ export function PortfolioSection({
           ))}
         </div>
       </div>
-    </section>
+    </div>
   )
 }
