@@ -484,7 +484,7 @@
           "priceUSD": "$35",
           "description": "Portada premade — Fantasía/Romance",
           "category": "Fantasía",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-el-secreto-que-nos-unio.jpg",
+          "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -501,7 +501,7 @@
           "priceUSD": "$35",
           "description": "Portada premade — Romance Oscuro",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+          "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -518,7 +518,7 @@
           "priceUSD": "$30",
           "description": "Portada premade — Thriller/Suspenso",
           "category": "Thriller",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-como-volver-loco-guardaespaldas.jpg",
+          "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -535,7 +535,7 @@
           "priceUSD": "$35",
           "description": "Portada premade — Ciencia Ficción",
           "category": "Ciencia Ficción",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-extreme.jpg",
+          "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -552,7 +552,7 @@
           "priceUSD": "$30",
           "description": "Portada premade — Terror/Horror",
           "category": "Terror",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-intense-2-edicion.jpg",
+          "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -569,7 +569,7 @@
           "priceUSD": "$35",
           "description": "Portada premade — Fantasía Juvenil",
           "category": "Fantasía",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-macarena-y-sus-ex.jpg",
+          "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -586,7 +586,7 @@
           "priceUSD": "$35",
           "description": "Portada premade — Romance",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-como-volver-loco-guardaespaldas.jpg",
+          "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -603,7 +603,7 @@
           "priceUSD": "$35",
           "description": "Portada premade — Romance Oscuro",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+          "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -620,7 +620,7 @@
           "priceUSD": "$35",
           "description": "Portada premade — Romance",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-el-secreto-que-nos-unio.jpg",
+          "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -637,7 +637,7 @@
           "priceUSD": "$35",
           "description": "Portada premade — Romance",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-macarena-y-sus-ex.jpg",
+          "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -654,7 +654,7 @@
           "priceUSD": "$30",
           "description": "Portada premade — Edición Especial",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol1-ebook.jpg",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol1-ebook.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -671,7 +671,7 @@
           "priceUSD": "$30",
           "description": "Portada premade — Edición Especial",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol2-ebook.jpg",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol2-ebook.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -688,7 +688,7 @@
           "priceUSD": "$70",
           "description": "Portada premade — Tapa Blanda",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-ppoht-paperback.jpg",
+          "imageUrl": "/images/dayah/covers/cover-ppoht-paperback.jpg",
           "available": true,
           "format": "Paperback",
           "includes": [
@@ -795,49 +795,49 @@
         {
           "title": "Cómo Volver Loco a Mi Guardaespaldas",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-como-volver-loco-guardaespaldas.jpg",
+          "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
           "description": "Portada romance — eBook"
         },
         {
           "title": "El Secreto Que Nos Unió",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-el-secreto-que-nos-unio.jpg",
+          "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
           "description": "Portada romance — eBook"
         },
         {
           "title": "Perdóname Padre o Hazme Tuya",
           "category": "Romance Oscuro",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+          "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
           "description": "Portada dark romance — eBook"
         },
         {
           "title": "Macarena y sus Ex",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-macarena-y-sus-ex.jpg",
+          "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
           "description": "Portada romance — eBook"
         },
         {
           "title": "PF Vol I — Tapa Blanda",
           "category": "Paperback",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol1-paperback.jpg",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
           "description": "Portada completa tapa blanda"
         },
         {
           "title": "PF Vol II — Tapa Blanda",
           "category": "Paperback",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol2-paperback.jpg",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol2-paperback.jpg",
           "description": "Portada completa tapa blanda"
         },
         {
           "title": "Extrême",
           "category": "Premade",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-extreme.jpg",
+          "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
           "description": "Portada premade"
         },
         {
           "title": "Intense 2° Edición",
           "category": "Premade",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-intense-2-edicion.jpg",
+          "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
           "description": "Portada premade"
         }
       ]

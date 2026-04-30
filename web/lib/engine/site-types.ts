@@ -72,7 +72,7 @@ export interface SiteDefinition {
 
 export interface SectionStyling {
   padding?: 'none' | 'sm' | 'md' | 'lg' | 'xl'
-  background?: 'default' | 'alt' | 'accent' | 'dark' | 'image' | 'gradient' | 'transparent'
+  background?: 'default' | 'alt' | 'surface-light' | 'accent' | 'dark' | 'image' | 'gradient' | 'transparent'
   backgroundImage?: string
   backgroundOverlay?: boolean
   maxWidth?: 'narrow' | 'default' | 'wide' | 'full'
@@ -80,6 +80,7 @@ export interface SectionStyling {
   textAlign?: 'left' | 'center' | 'right'
   textColor?: 'default' | 'light' | 'dark' | 'accent'
   divider?: 'none' | 'top' | 'bottom' | 'both'
+  border?: 'none' | 'top' | 'bottom' | 'both'
 }
 
 export interface SectionVisibility {

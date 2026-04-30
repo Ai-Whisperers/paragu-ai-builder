@@ -212,6 +212,14 @@ export function resolveSiteTokens(
   const googleFontsUrl = remainingFonts.length > 0
     ? `https://fonts.googleapis.com/css2?${remainingFonts.map((f) => `family=${f}`).join('&')}&display=swap`
     : ''
+  // Emit custom component-level CSS variables from site tokens
+  // e.g. "components: { portfolio: { gap: '1.5rem' } }" → --portfolio-gap: 1.5rem
+  for (const [compKey, compVal] of Object.entries(merged.components || {})) {
+    for (const [propKey, propVal] of Object.entries(compVal as Record<string, string>)) {
+      vars[`--${compKey}-${propKey.replace(/_/g, '-')}`] = propVal as string
+    }
+  }
+
   const cssBody = Object.entries(vars).map(([k, v]) => `  ${k}: ${v};`).join('\n')
   return {
     cssString: `:root {\n${cssBody}\n}`,

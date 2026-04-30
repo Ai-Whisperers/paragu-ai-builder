@@ -120,7 +120,7 @@ export function FooterSection({
             <div key={col.title}>
               <h4 
                 className="font-heading mb-5 text-xs font-bold uppercase tracking-widest"
-                style={{ color: 'rgba(255,255,255,0.5)' }}
+                style={{ color: 'rgba(255,255,255,0.7)' }}
               >
                 {col.title}
               </h4>
@@ -130,7 +130,7 @@ export function FooterSection({
                     <a
                       href={link.href}
                       className="font-heading text-sm transition-all duration-200 hover:text-white hover:translate-x-1 inline-block"
-                      style={{ color: 'rgba(255,255,255,0.8)' }}
+                      style={{ color: 'rgba(255,255,255,0.9)' }}
                     >
                       {link.label}
                     </a>
@@ -144,7 +144,7 @@ export function FooterSection({
           <div>
             <h4 
               className="font-heading mb-5 text-xs font-bold uppercase tracking-widest"
-              style={{ color: 'rgba(255,255,255,0.5)' }}
+              style={{ color: 'rgba(255,255,255,0.7)' }}
             >
               {labels.contact}
             </h4>
@@ -154,7 +154,7 @@ export function FooterSection({
                   <a 
                     href={`mailto:${email}`} 
                     className="font-heading transition-colors hover:text-white"
-                    style={{ color: 'rgba(255,255,255,0.8)' }}
+                    style={{ color: 'rgba(255,255,255,0.9)' }}
                   >
                     {email}
                   </a>
@@ -165,7 +165,7 @@ export function FooterSection({
                   <a 
                     href={`tel:${phone}`} 
                     className="font-heading transition-colors hover:text-white"
-                    style={{ color: 'rgba(255,255,255,0.8)' }}
+                    style={{ color: 'rgba(255,255,255,0.9)' }}
                   >
                     {phone}
                   </a>
@@ -178,7 +178,7 @@ export function FooterSection({
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-heading transition-colors hover:text-white"
-                    style={{ color: 'rgba(255,255,255,0.8)' }}
+                    style={{ color: 'rgba(255,255,255,0.9)' }}
                   >
                     WhatsApp
                   </a>
@@ -192,7 +192,7 @@ export function FooterSection({
             <div>
               <h4 
                 className="font-heading mb-5 text-xs font-bold uppercase tracking-widest"
-                style={{ color: 'rgba(255,255,255,0.5)' }}
+                style={{ color: 'rgba(255,255,255,0.7)' }}
               >
                 {labels.social}
               </h4>
@@ -261,7 +261,7 @@ export function FooterSection({
           >
             <h4 
               className="font-heading mb-4 text-xs font-bold uppercase tracking-widest"
-              style={{ color: 'rgba(255,255,255,0.5)' }}
+              style={{ color: 'rgba(255,255,255,0.7)' }}
             >
               {networkHeading}
             </h4>
@@ -290,7 +290,7 @@ export function FooterSection({
           className="font-heading mt-12 pt-8 text-center text-sm"
           style={{ 
             borderTop: '1px solid rgba(255,255,255,0.1)',
-            color: 'rgba(255,255,255,0.5)',
+            color: 'rgba(255,255,255,0.7)',
           }}
         >
           © {year} {businessName}. {labels.rights}

@@ -20,6 +20,7 @@ const PAD_MAP: Record<string, string> = {
 const BG_MAP: Record<string, string> = {
   default: 'bg-background',
   alt: 'bg-surface',
+  'surface-light': 'bg-surface-light',
   accent: 'bg-primary',
   dark: 'bg-neutral-900',
   image: '',
@@ -60,6 +61,7 @@ export function SectionWrapper({
     textAlign,
     textColor,
     divider,
+    border,
   } = styling
 
   const inlineStyle: Record<string, string> = {}
@@ -75,6 +77,9 @@ export function SectionWrapper({
     ALIGN_MAP[textAlign || ''] || '',
     COLOR_MAP[textColor || ''] || '',
     divider && divider !== 'none' ? 'border-t border-border' : '',
+    border === 'top' ? 'border-t border-[var(--surface-light)]/50' : '',
+    border === 'bottom' ? 'border-b border-[var(--surface-light)]/50' : '',
+    border === 'both' ? 'border-y border-[var(--surface-light)]/50' : '',
     className,
   )
 

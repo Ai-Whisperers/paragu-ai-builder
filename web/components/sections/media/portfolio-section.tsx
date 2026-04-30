@@ -97,7 +97,7 @@ export function PortfolioSection({
           </div>
         )}
 
-        <div className="font-heading grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="font-heading grid gap-[var(--portfolio-gap,1rem)] sm:grid-cols-2 lg:grid-cols-3">
           {filteredItems.map((item, index) => (
             <div
               key={index}

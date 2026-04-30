@@ -44,11 +44,18 @@ export function renderPage(page: ResolvedPage): React.ReactNode {
     } as Record<string, unknown>
 
     // Auto-alternate backgrounds for consecutive default sections
-    // to create visual depth: every section after the first gets
-    // 'alt' background unless it explicitly set one.
+    // to create visual depth. Pattern: default → alt → surface-light
+    // dark themes need more differentiation so we add subtle border dividers
+    const bgCycle = i % 3 === 0 ? 'default' as const : i % 3 === 1 ? 'alt' as const : 'surface-light' as const
     const styling = s.styling
-      ? { ...s.styling, background: (s.styling.background || (i % 2 === 1 ? 'alt' as const : 'default' as const)) }
-      : { background: (i % 2 === 1 ? 'alt' as const : 'default' as const) as 'default' | 'alt' }
+      ? { ...s.styling, background: (s.styling.background || bgCycle) }
+      : { background: bgCycle }
+    
+    // Add subtle top border on alternating sections for dark themes
+    // Creates visible separation without relying solely on background color
+    if (page.theme.isDark && i > 0 && bgCycle !== 'default') {
+      styling.border = 'top'
+    }
 
     return (
       <SectionErrorBoundary key={`seb-${s.id}-${i}`} sectionId={s.id} index={i}>

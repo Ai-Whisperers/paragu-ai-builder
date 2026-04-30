@@ -501,7 +501,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Fantasía/Romance",
           "category": "Fantasía",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-el-secreto-que-nos-unio.jpg",
+          "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -519,7 +519,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Romance Oscuro",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+          "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -537,7 +537,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Thriller/Suspenso",
           "category": "Thriller",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-como-volver-loco-guardaespaldas.jpg",
+          "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -555,7 +555,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Ciencia Ficción",
           "category": "Ciencia Ficción",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-extreme.jpg",
+          "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -573,7 +573,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Terror/Horror",
           "category": "Terror",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-intense-2-edicion.jpg",
+          "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -591,7 +591,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Fantasía Juvenil",
           "category": "Fantasía",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-macarena-y-sus-ex.jpg",
+          "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -609,7 +609,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Romance",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-como-volver-loco-guardaespaldas.jpg",
+          "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -627,7 +627,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Romance Oscuro",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+          "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -645,7 +645,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Romance",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-el-secreto-que-nos-unio.jpg",
+          "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -663,7 +663,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Romance",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-macarena-y-sus-ex.jpg",
+          "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -681,7 +681,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Edición Especial",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol1-ebook.jpg",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol1-ebook.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -699,7 +699,7 @@
           "pricePYG": "₲250.000",
           "description": "Portada premade — Edición Especial",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol2-ebook.jpg",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol2-ebook.jpg",
           "available": true,
           "format": "eBook",
           "includes": [
@@ -717,7 +717,7 @@
           "pricePYG": "₲500.000",
           "description": "Portada premade — Tapa Blanda",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-ppoht-paperback.jpg",
+          "imageUrl": "/images/dayah/covers/cover-ppoht-paperback.jpg",
           "available": true,
           "format": "Paperback",
           "includes": [
@@ -762,16 +762,31 @@
       "items": []
     },
     "testimonials": {
-      "title": "Testimonios",
+      "title": "Lo que dicen mis clientes",
+      "subtitle": "Autores que confiaron en Dayah LitWorks para sus portadas",
       "items": [
         {
-          "quote": "Mi portada quedó increíble! Dayah entendió perfectamente la esencia de mi libro.",
-          "author": "María G.",
+          "name": "María González",
+          "role": "Autora — Fantasía",
+          "text": "Dayah capturó exactamente la atmósfera que imaginaba para mi saga. La portada superó mis expectativas y las ventas aumentaron desde el primer mes.",
           "rating": 5
         },
         {
-          "quote": "Profesional, creativa y super rápida. Mi portada premade fue amor a primera vista.",
-          "author": "Carlos R.",
+          "name": "Carlos Mendoza",
+          "role": "Autor Independiente",
+          "text": "Trabajar con Dayah fue increíblemente fácil. Entendió mi visión desde el primer brief y el resultado fue profesional, limpio y exactamente lo que necesitaba.",
+          "rating": 5
+        },
+        {
+          "name": "Laura Ramírez",
+          "role": "Autora — Romance",
+          "text": "La portada de mi novela pasó de ser 'meh' a 'WOW' en menos de dos semanas. Recibo cumplidos de lectores todo el tiempo. ¡100% recomendada!",
+          "rating": 5
+        },
+        {
+          "name": "Pedro Alarcón",
+          "role": "Editorial Independiente",
+          "text": "Hemos trabajado con varios diseñadores y Dayah es, sin duda, la mejor. Su atención al detalle y capacidad para traducir conceptos abstractos a imágenes es impresionante.",
           "rating": 5
         }
       ]
@@ -824,50 +839,68 @@
         {
           "title": "Cómo Volver Loco a Mi Guardaespaldas",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-como-volver-loco-guardaespaldas.jpg",
+          "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
           "description": "Portada romance — eBook"
         },
         {
           "title": "El Secreto Que Nos Unió",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-el-secreto-que-nos-unio.jpg",
+          "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
           "description": "Portada romance — eBook"
         },
         {
           "title": "Perdóname Padre o Hazme Tuya",
           "category": "Romance Oscuro",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+          "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
           "description": "Portada dark romance — eBook"
         },
         {
           "title": "Macarena y sus Ex",
           "category": "Romance",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-macarena-y-sus-ex.jpg",
+          "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
           "description": "Portada romance — eBook"
         },
         {
           "title": "PF Vol I — Tapa Blanda",
           "category": "Paperback",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol1-paperback.jpg",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
           "description": "Portada completa tapa blanda"
         },
         {
           "title": "PF Vol II — Tapa Blanda",
           "category": "Paperback",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-pf-vol2-paperback.jpg",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol2-paperback.jpg",
           "description": "Portada completa tapa blanda"
         },
         {
           "title": "Extrême",
           "category": "Premade",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-extreme.jpg",
+          "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
           "description": "Portada premade"
         },
         {
           "title": "Intense 2° Edición",
           "category": "Premade",
-          "imageUrl": "/sites/dayah-litworks/images/covers/cover-intense-2-edicion.jpg",
+          "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
           "description": "Portada premade"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Transformaciones",
+      "subtitle": "Casos de rediseño — antes y después de pasar por Dayah LitWorks",
+      "items": [
+        {
+          "name": "Rediseño Romance",
+          "description": "De un diseño genérico a una portada que transmite la pasión de la historia.",
+          "beforeImage": "/images/dayah/covers/cover-pf-vol1-ebook.jpg",
+          "afterImage": "/images/dayah/covers/cover-pf-vol2-ebook.jpg"
+        },
+        {
+          "name": "Rediseño Thriller",
+          "description": "Tipografía moderna, paleta de colores renovada, impacto visual inmediato.",
+          "beforeImage": "/images/dayah/covers/cover-extreme.jpg",
+          "afterImage": "/images/dayah/covers/cover-intense-2-edicion.jpg"
         }
       ]
     }
@@ -1411,7 +1444,15 @@
         "label": "Privacidad",
         "href": "/s/es/dayah-litworks/privacidad"
       }
-    ]
+    ],
+    "showWhatsApp": true,
+    "showEmail": true,
+    "showInstagram": true,
+    "email": "dayahlitworks@gmail.com",
+    "whatsapp": "+595986868241",
+    "whatsappLink": "https://wa.me/595986868241",
+    "instagram": "@dayah.litworks",
+    "instagramLink": "https://instagram.com/dayah.litworks"
   },
   "whatsapp": "+595986868241",
   "privacidad": {

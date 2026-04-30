@@ -6,21 +6,12 @@
     {
       "id": "hero",
       "variant": "image",
-      "content": "home.hero",
-      "styling": {
-        "padding": "xl",
-        "background": "gradient",
-        "textColor": "light"
-      }
+      "content": "home.hero"
     },
     {
       "id": "stats-counter",
       "variant": "inline",
-      "content": "home.stats",
-      "styling": {
-        "padding": "md",
-        "background": "alt"
-      }
+      "content": "home.stats"
     },
     {
       "id": "trust-badges",
@@ -30,15 +21,17 @@
     {
       "id": "services",
       "variant": "cards",
-      "content": "home.services",
-      "styling": {
-        "background": "default"
-      }
+      "content": "home.services"
     },
     {
       "id": "portfolio",
       "variant": "grid",
       "content": "home.portfolio"
+    },
+    {
+      "id": "testimonials",
+      "content": "home.testimonials",
+      "variant": "grid"
     },
     {
       "id": "process",
@@ -48,11 +41,7 @@
     {
       "id": "cta-banner",
       "variant": "gradient",
-      "content": "ctaBanner",
-      "styling": {
-        "padding": "lg",
-        "background": "accent"
-      }
+      "content": "ctaBanner"
     }
   ]
 }

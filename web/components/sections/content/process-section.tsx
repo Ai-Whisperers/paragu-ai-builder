@@ -96,7 +96,7 @@ export function ProcessSection({
                       activeStep === step.number ? 'scale-105' : ''
                     }`}
                     style={{
-                      backgroundColor: activeStep === step.number ? 'var(--card)' : 'var(--background)',
+                      backgroundColor: activeStep === step.number ? 'var(--card)' : 'var(--surface)',
                       border: `1px solid var(--border)`,
                     }}
                   >

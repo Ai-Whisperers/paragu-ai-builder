@@ -119,9 +119,9 @@ export function TestimonialsSection({
                 )}
                 style={{
                   backgroundColor: 'var(--surface)',
-                  border: '1px solid rgba(0,0,0,0.06)',
+                  border: '1px solid var(--surface-light)',
                   boxShadow: enhanced 
-                    ? '0 4px 20px rgba(0,0,0,0.04)' 
+                    ? '0 4px 24px rgba(0,0,0,0.3)' 
                     : '0 2px 8px rgba(0,0,0,0.08)',
                 }}
               >
