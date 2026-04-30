@@ -43,6 +43,8 @@ export interface HeroSectionProps {
   __locale?: string
   trustBadgesEnabled?: boolean
   trustBadges?: string[]
+  /** When set, overrides the default hero background overlay gradient color. Use rgba for opacity control. */
+  overlayColor?: string
 }
 
 // The enhanced hero optionally shows three small trust-badges (shield +
@@ -78,6 +80,7 @@ export function HeroSection({
   trustBadgesEnabled = true,
   trustBadges: trustBadgesProp,
   secondaryCtaModal,
+  overlayColor,
   disclaimerBanner,
 }: HeroSectionProps) {
   const [isBannerDismissed, setIsBannerDismissed] = useState(false)

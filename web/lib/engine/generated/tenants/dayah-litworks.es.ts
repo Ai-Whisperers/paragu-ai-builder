@@ -116,10 +116,10 @@ export default {
     "trustBadgesEnabled": false
   },
   "ctaBanner": {
-    "ctaHref": "https://wa.me/595986868241",
-    "ctaText": "Escribime por WhatsApp",
-    "subtitle": "Contactame y hagamos que tu libro destaque",
-    "title": "¿Listo para la portada perfecta?"
+    "buttonHref": "https://wa.me/595986868241",
+    "buttonText": "Quiero mi portada",
+    "subtitle": "Diseñamos la portada de tu libro con el estilo que merece. ¡Haz que tu historia destaque desde la primera mirada!",
+    "title": "¿Listo para tu próxima portada?"
   },
   "faq": {
     "items": [
@@ -278,6 +278,7 @@ export default {
       "ctaSecondaryHref": "https://wa.me/595986868241",
       "ctaSecondaryText": "WhatsApp",
       "headline": "Portadas que venden.",
+      "overlayColor": "rgba(10,10,20,0.88)",
       "overlayGradient": "linear-gradient(135deg, #0f0f1a 0%, #16213e 50%, #1a1a2e 100%)",
       "overlayOpacity": 1,
       "subheadline": "Para autores indie en todo el mundo. USD o PYG.",
@@ -298,28 +299,28 @@ export default {
           "title": "Cómo Volver Loco a Mi Guardaespaldas"
         },
         {
-          "category": "Romance",
-          "description": "Portada romance — eBook",
-          "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
-          "title": "El Secreto Que Nos Unió"
-        },
-        {
           "category": "Romance Oscuro",
           "description": "Portada dark romance — eBook",
           "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
           "title": "Perdóname Padre o Hazme Tuya"
         },
         {
-          "category": "Romance",
-          "description": "Portada romance — eBook",
-          "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
-          "title": "Macarena y sus Ex"
-        },
-        {
           "category": "Premade",
           "description": "Portada premade",
           "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
           "title": "Extrême"
+        },
+        {
+          "category": "Paperback",
+          "description": "Portada completa tapa blanda",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
+          "title": "PF Vol I — Tapa Blanda"
+        },
+        {
+          "category": "Romance",
+          "description": "Portada romance — eBook",
+          "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
+          "title": "El Secreto Que Nos Unió"
         },
         {
           "category": "Premade",
@@ -330,14 +331,14 @@ export default {
         {
           "category": "Paperback",
           "description": "Portada completa tapa blanda",
-          "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
-          "title": "PF Vol I — Tapa Blanda"
-        },
-        {
-          "category": "Paperback",
-          "description": "Portada completa tapa blanda",
           "imageUrl": "/images/dayah/covers/cover-pf-vol2-paperback.jpg",
           "title": "PF Vol II — Tapa Blanda"
+        },
+        {
+          "category": "Romance",
+          "description": "Portada romance — eBook",
+          "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
+          "title": "Macarena y sus Ex"
         }
       ],
       "subtitle": "Portadas de libros diseñadas por Dayah LitWorks",

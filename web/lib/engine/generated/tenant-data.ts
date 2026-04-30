@@ -4191,6 +4191,7 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
     "borderRadius": "0.5rem",
     "components": {
       "portfolio": {
+        "cols-lg": "repeat(4, minmax(0, 1fr))",
         "gap": "1.5rem"
       },
       "testimonials": {
@@ -5677,7 +5678,10 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.hero",
         "id": "hero",
-        "styling": {},
+        "styling": {
+          "background": "image",
+          "padding": "md"
+        },
         "variant": "image"
       },
       {
@@ -18560,10 +18564,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       "trustBadgesEnabled": false
     },
     "ctaBanner": {
-      "ctaHref": "https://wa.me/595986868241",
-      "ctaText": "Write me on WhatsApp",
-      "subtitle": "Contact me and let's make your book stand out",
-      "title": "Ready for the perfect cover?"
+      "buttonHref": "https://wa.me/595986868241",
+      "buttonText": "I want my cover",
+      "subtitle": "We design your book cover with the style it deserves. Make your story stand out from the first glance!",
+      "title": "Ready for your next cover?"
     },
     "faq": {
       "items": [
@@ -18688,12 +18692,13 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Frequently Asked Questions"
       },
       "hero": {
-        "backgroundImage": "",
+        "backgroundImage": "/images/dayah/covers/hero-bg.svg",
         "ctaPrimaryHref": "/s/es/dayah-litworks/catalogo",
         "ctaPrimaryText": "View Catalog",
         "ctaSecondaryHref": "https://wa.me/595986868241",
         "ctaSecondaryText": "WhatsApp",
         "headline": "Covers that sell.",
+        "overlayColor": "rgba(10,10,20,0.88)",
         "overlayGradient": "linear-gradient(135deg, #0f0f1a 0%, #16213e 50%, #1a1a2e 100%)",
         "overlayOpacity": 1,
         "subheadline": "Para autores indie en todo el mundo. USD o PYG.",
@@ -18701,7 +18706,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "+6 años de experiencia",
           "USD o PYG",
           "Entrega 1–2 semanas"
-        ]
+        ],
+        "useGradient": false,
+        "variant": "image"
       },
       "portfolio": {
         "items": [
@@ -18709,37 +18716,19 @@ export const CONTENT: Record<string, JsonRecord> = {
             "category": "Romance",
             "description": "Portada romance — eBook",
             "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
-            "title": "Cómo Volver Loco a Mi Guardaespaldas"
-          },
-          {
-            "category": "Romance",
-            "description": "Portada romance — eBook",
-            "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
-            "title": "El Secreto Que Nos Unió"
+            "title": "How to Drive My Bodyguard Crazy"
           },
           {
             "category": "Romance Oscuro",
             "description": "Portada dark romance — eBook",
             "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
-            "title": "Perdóname Padre o Hazme Tuya"
-          },
-          {
-            "category": "Romance",
-            "description": "Portada romance — eBook",
-            "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
-            "title": "Macarena y sus Ex"
+            "title": "Forgive Me Father or Make Me Yours"
           },
           {
             "category": "Paperback",
             "description": "Portada completa tapa blanda",
             "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
-            "title": "PF Vol I — Tapa Blanda"
-          },
-          {
-            "category": "Paperback",
-            "description": "Portada completa tapa blanda",
-            "imageUrl": "/images/dayah/covers/cover-pf-vol2-paperback.jpg",
-            "title": "PF Vol II — Tapa Blanda"
+            "title": "PF Vol I — Paperback"
           },
           {
             "category": "Premade",
@@ -18748,10 +18737,28 @@ export const CONTENT: Record<string, JsonRecord> = {
             "title": "Extrême"
           },
           {
+            "category": "Romance",
+            "description": "Portada romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
+            "title": "The Secret That United Us"
+          },
+          {
+            "category": "Paperback",
+            "description": "Portada completa tapa blanda",
+            "imageUrl": "/images/dayah/covers/cover-pf-vol2-paperback.jpg",
+            "title": "PF Vol II — Paperback"
+          },
+          {
             "category": "Premade",
             "description": "Portada premade",
             "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
-            "title": "Intense 2° Edición"
+            "title": "Intense 2nd Edition"
+          },
+          {
+            "category": "Romance",
+            "description": "Portada romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
+            "title": "Macarena and Her Exes"
           }
         ],
         "subtitle": "Portadas de libros diseñadas por Dayah LitWorks",
@@ -20028,10 +20035,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       "trustBadgesEnabled": false
     },
     "ctaBanner": {
-      "ctaHref": "https://wa.me/595986868241",
-      "ctaText": "Escribime por WhatsApp",
-      "subtitle": "Contactame y hagamos que tu libro destaque",
-      "title": "¿Listo para la portada perfecta?"
+      "buttonHref": "https://wa.me/595986868241",
+      "buttonText": "Quiero mi portada",
+      "subtitle": "Diseñamos la portada de tu libro con el estilo que merece. ¡Haz que tu historia destaque desde la primera mirada!",
+      "title": "¿Listo para tu próxima portada?"
     },
     "faq": {
       "items": [
@@ -20190,6 +20197,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "ctaSecondaryHref": "https://wa.me/595986868241",
         "ctaSecondaryText": "WhatsApp",
         "headline": "Portadas que venden.",
+        "overlayColor": "rgba(10,10,20,0.88)",
         "overlayGradient": "linear-gradient(135deg, #0f0f1a 0%, #16213e 50%, #1a1a2e 100%)",
         "overlayOpacity": 1,
         "subheadline": "Para autores indie en todo el mundo. USD o PYG.",
@@ -20210,28 +20218,28 @@ export const CONTENT: Record<string, JsonRecord> = {
             "title": "Cómo Volver Loco a Mi Guardaespaldas"
           },
           {
-            "category": "Romance",
-            "description": "Portada romance — eBook",
-            "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
-            "title": "El Secreto Que Nos Unió"
-          },
-          {
             "category": "Romance Oscuro",
             "description": "Portada dark romance — eBook",
             "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
             "title": "Perdóname Padre o Hazme Tuya"
           },
           {
-            "category": "Romance",
-            "description": "Portada romance — eBook",
-            "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
-            "title": "Macarena y sus Ex"
-          },
-          {
             "category": "Premade",
             "description": "Portada premade",
             "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
             "title": "Extrême"
+          },
+          {
+            "category": "Paperback",
+            "description": "Portada completa tapa blanda",
+            "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
+            "title": "PF Vol I — Tapa Blanda"
+          },
+          {
+            "category": "Romance",
+            "description": "Portada romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
+            "title": "El Secreto Que Nos Unió"
           },
           {
             "category": "Premade",
@@ -20242,14 +20250,14 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "category": "Paperback",
             "description": "Portada completa tapa blanda",
-            "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
-            "title": "PF Vol I — Tapa Blanda"
-          },
-          {
-            "category": "Paperback",
-            "description": "Portada completa tapa blanda",
             "imageUrl": "/images/dayah/covers/cover-pf-vol2-paperback.jpg",
             "title": "PF Vol II — Tapa Blanda"
+          },
+          {
+            "category": "Romance",
+            "description": "Portada romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
+            "title": "Macarena y sus Ex"
           }
         ],
         "subtitle": "Portadas de libros diseñadas por Dayah LitWorks",
