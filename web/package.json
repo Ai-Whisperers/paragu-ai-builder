@@ -67,7 +67,8 @@
     "deploy:setup": "npx tsx scripts/deploy-setup.ts",
     "production:health": "npx tsx scripts/production-health-check.ts",
     "production:status": "npx tsx scripts/production-status.ts",
-    "wire:integrations": "npx tsx scripts/wire-integrations.ts"
+    "wire:integrations": "npx tsx scripts/wire-integrations.ts",
+    "add-tenant": "node ../tools/add-paragu-ai-tenant.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
