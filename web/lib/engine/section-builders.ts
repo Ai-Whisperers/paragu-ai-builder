@@ -129,6 +129,8 @@ const buildServices: SectionBuilder = ({ business, content, registry }) => {
   const services = business.services && business.services.length > 0
     ? business.services
     : resolveServicesFromContent(servicesContent)
+  // No services data from either source — let the content-ref path handle it
+  if (!services || services.length === 0) return null
   return {
     title: servicesContent?.title || 'Nuestros Servicios',
     services,

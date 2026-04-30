@@ -97,11 +97,11 @@ export function PortfolioSection({
           </div>
         )}
 
-        <div className="font-heading grid gap-[var(--portfolio-gap,1rem)] sm:grid-cols-2 lg:grid-cols-3">
+                <div className="font-heading grid gap-[var(--portfolio-gap,1rem)] sm:grid-cols-[var(--portfolio-cols-sm,repeat(2,minmax(0,1fr)))] lg:grid-cols-[var(--portfolio-cols-lg,repeat(3,minmax(0,1fr)))]">
           {filteredItems.map((item, index) => (
             <div
               key={index}
-              className="font-heading group relative aspect-square overflow-hidden rounded-lg bg-surface-light"
+              className="font-heading group relative aspect-[2/3] overflow-hidden rounded-lg bg-surface-light"
             >
               {item.image || item.imageUrl ? (
                 <Image

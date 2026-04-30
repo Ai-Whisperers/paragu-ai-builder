@@ -176,6 +176,7 @@ export function composeSitePage(input: ComposeInput): ResolvedPage {
             const resolvedWhatsapp = (
               (typeof footer?.whatsapp === 'string' ? footer.whatsapp : undefined)
               ?? (typeof contactSection?.whatsapp === 'string' ? contactSection.whatsapp : undefined)
+              ?? (typeof footer?.whatsappLink === 'string' ? footer.whatsappLink.replace('https://wa.me/', '') : undefined)
               ?? ''
             ) as string
             const miniBusiness: Partial<BusinessData> = {

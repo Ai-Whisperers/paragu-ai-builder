@@ -176,7 +176,7 @@ export function HeroSection({
             )}
             {ctaSecondaryText && secondaryCtaModal ? (
               <Button variant="secondary" size="lg" onClick={() => setLeadModalOpen(true)}
-                className={cn("w-full sm:w-auto min-h-[60px] px-10 text-base font-semibold tracking-wide", useGradient && "border-2 border-white/40 text-white hover:bg-white/10 hover:border-white/60", enhanced && "hero-btn-secondary transition-all duration-300")}>
+                className={cn("w-full sm:w-auto min-h-[60px] px-10 text-base font-semibold tracking-wide", useGradient && "border-2 border-white/60 text-white hover:bg-white/15 hover:border-white/80", enhanced && "hero-btn-secondary transition-all duration-300")}>
                 {ctaSecondaryText}
               </Button>
             ) : ctaSecondaryText && (
@@ -288,7 +288,7 @@ export function HeroSection({
   }
 
   return (
-    <section className={cn("relative flex min-h-[60vh] sm:min-h-[70vh] items-center justify-center overflow-hidden pt-16 sm:pt-20", !backgroundImage && !useGradient && "bg-primary")} style={backgroundStyle}>
+    <section className={cn("relative flex min-h-[60vh] sm:min-h-[70vh] items-center justify-center overflow-hidden pt-8 sm:pt-12", !backgroundImage && !useGradient && "bg-primary")} style={backgroundStyle}>
       {useResponsivePicture && backgroundImage && (
         <picture aria-hidden="true" className="pointer-events-none absolute inset-0 h-full w-full">
           {backgroundImageMobile && (
