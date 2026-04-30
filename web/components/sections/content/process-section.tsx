@@ -90,7 +90,7 @@ export function ProcessSection({
                 onMouseEnter={() => setActiveStep(step.number)}
                 onMouseLeave={() => setActiveStep(null)}
               >
-                <div className={`flex-1 max-w-lg ${index % 2 === 0 ? 'md:text-right md:pr-16' : 'md:text-left md:pl-16'}`}>
+                <div className={`flex-1 max-w-sm lg:max-w-md ${index % 2 === 0 ? 'md:text-right md:pr-12' : 'md:text-left md:pl-12'}`}>
                   <div
                     className={`ml-16 md:m-0 p-6 rounded-lg transition-all duration-300 ${
                       activeStep === step.number ? 'scale-105' : ''

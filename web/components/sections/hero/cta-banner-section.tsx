@@ -43,10 +43,9 @@ export function CTABannerSection({
             <p className="font-heading mx-auto mb-8 max-w-xl text-lg text-[var(--secondary-foreground)] opacity-80">{subtitle}</p>
           )}
           <Button
-            variant="secondary"
+            variant="primary"
             size="lg"
             href={buttonHref}
-            className="font-heading border-[var(--secondary-foreground)] text-[var(--secondary-foreground)] hover:bg-[var(--secondary-foreground)] hover:text-secondary"
           >
             {buttonText}
           </Button>

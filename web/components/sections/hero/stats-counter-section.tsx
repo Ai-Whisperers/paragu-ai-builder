@@ -44,7 +44,7 @@ export function StatsCounterSection({
                 <div className="text-xl sm:text-3xl sm:text-4xl font-bold text-primary">
                   {item.value}
                 </div>
-                <div className="mt-1.5 text-xs sm:text-sm font-medium text-white/60">
+                <div className="mt-1.5 text-xs sm:text-sm font-medium text-white/80">
                   {item.label}
                 </div>
               </div>
