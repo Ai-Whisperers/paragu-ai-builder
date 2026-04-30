@@ -4195,7 +4195,7 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
         "gap": "1.5rem"
       },
       "testimonials": {
-        "card-shadow": "0 4px 24px rgba(0,0,0,0.3)"
+        "card-shadow": "0 1px 4px rgba(0,0,0,0.25)"
       }
     },
     "defaultPalette": "default",
@@ -4219,7 +4219,7 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
           "surfaceLight": "#1b2040",
           "text": "#eaeaea",
           "textLight": "#d0d6e6",
-          "textMuted": "#8890aa",
+          "textMuted": "#a0aac8",
           "warning": "#ffd93d"
         },
         "name": "Dayah Dark v3"
@@ -5680,7 +5680,7 @@ export const PAGES: Record<string, JsonRecord> = {
         "id": "hero",
         "styling": {
           "background": "image",
-          "padding": "md"
+          "padding": "xs"
         },
         "variant": "image"
       },
