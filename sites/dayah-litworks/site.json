@@ -69,5 +69,7 @@
       }
     ]
   },
-  "isLiveProduction": true
+  "isLiveProduction": true,
+  "openGraphImage": "/images/dayah/covers/og-dayah.png",
+  "favicon": "/images/dayah/covers/logo-blanco.png"
 }
