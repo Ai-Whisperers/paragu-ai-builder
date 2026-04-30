@@ -209,7 +209,7 @@ export function HeroSection({
 
   const wrappedContent = glassCard && enhanced ? (
     <GlassCard variant={useGradient ? 'dark' : 'light'} rounded="2xl" className="mx-4 sm:mx-auto max-w-5xl my-8 sm:my-12"
-      style={{ backgroundColor: 'rgba(255, 255, 255, 0.03)', backdropFilter: 'blur(16px)', border: '1px solid rgba(255, 255, 255, 0.1)' }}>
+      style={{ backgroundColor: 'rgba(255, 255, 255, 0.03)', backdropFilter: 'blur(16px)', border: '1px solid rgba(255, 255, 255, 0.15)' }}>
       {content}
     </GlassCard>
   ) : content

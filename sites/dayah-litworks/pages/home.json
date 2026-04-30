@@ -16,35 +16,49 @@
       "id": "stats-counter",
       "variant": "inline",
       "content": "home.stats",
-      "styling": {}
+      "styling": {
+        "padding": "xs"
+      }
     },
     {
       "id": "services",
       "variant": "cards",
       "content": "home.services",
       "styling": {
-        "padding": "sm"
+        "padding": "md"
       }
     },
     {
       "id": "portfolio",
       "variant": "grid",
-      "content": "home.portfolio"
+      "content": "home.portfolio",
+      "styling": {
+        "padding": "md"
+      }
     },
     {
       "id": "testimonials",
       "variant": "grid",
-      "content": "home.testimonials"
+      "content": "home.testimonials",
+      "styling": {
+        "padding": "md"
+      }
     },
     {
       "id": "process",
       "variant": "steps",
-      "content": "home.process"
+      "content": "home.process",
+      "styling": {
+        "padding": "md"
+      }
     },
     {
       "id": "cta-banner",
       "variant": "gradient",
-      "content": "ctaBanner"
+      "content": "ctaBanner",
+      "styling": {
+        "padding": "md"
+      }
     }
   ]
 }

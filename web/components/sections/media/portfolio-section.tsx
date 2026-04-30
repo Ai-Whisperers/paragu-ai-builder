@@ -75,8 +75,8 @@ export function PortfolioSection({
               onClick={() => setSelectedCategory('all')}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                 selectedCategory === 'all'
-                  ? 'bg-primary text-white'
-                  : 'bg-surface-light text-foreground hover:bg-primary hover:text-white'
+                  ? 'bg-secondary text-[var(--secondary-foreground)]'
+                  : 'bg-surface-light text-foreground hover:bg-secondary hover:text-[var(--secondary-foreground)]'
               }`}
             >
               {labels.all}
@@ -87,8 +87,8 @@ export function PortfolioSection({
                 onClick={() => setSelectedCategory(cat)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                   selectedCategory === cat
-                    ? 'bg-primary text-white'
-                    : 'bg-surface-light text-foreground hover:bg-primary hover:text-white'
+                    ? 'bg-secondary text-[var(--secondary-foreground)]'
+                    : 'bg-surface-light text-foreground hover:bg-secondary hover:text-[var(--secondary-foreground)]'
                 }`}
               >
                 {cat}
