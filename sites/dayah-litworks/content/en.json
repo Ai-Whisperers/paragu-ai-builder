@@ -128,7 +128,8 @@
       "overlayGradient": "linear-gradient(135deg, #0f0f1a 0%, #16213e 50%, #1a1a2e 100%)",
       "overlayOpacity": 1.0,
       "useGradient": false,
-      "variant": "image"
+      "variant": "image",
+      "overlayColor": "rgba(10,10,20,0.88)"
     },
     "trustBadges": {
       "title": "¿Por qué elegirnos?",

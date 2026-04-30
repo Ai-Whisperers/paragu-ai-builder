@@ -129,7 +129,8 @@
       "overlayOpacity": 1.0,
       "backgroundImageMobile": "",
       "useGradient": false,
-      "variant": "image"
+      "variant": "image",
+      "overlayColor": "rgba(10,10,20,0.88)"
     },
     "trustBadges": {
       "title": "¿Por qué elegirnos?",

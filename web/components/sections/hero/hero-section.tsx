@@ -217,7 +217,7 @@ export function HeroSection({
   // an absolute layer above the picture.
   const useResponsivePicture = Boolean(backgroundImage && backgroundImageMobile)
   const backgroundStyle = backgroundImage && !useResponsivePicture
-    ? { backgroundImage: `linear-gradient(color-mix(in srgb, var(--primary) 70%, transparent), color-mix(in srgb, var(--primary) 80%, transparent)), url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
+    ? { backgroundImage: `linear-gradient(${overlayColor || 'rgba(10,10,20,0.85)'}, ${overlayColor || 'rgba(10,10,20,0.85)'}), url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
     : undefined
 
   // Split layout: text on dark left half, image on right half
