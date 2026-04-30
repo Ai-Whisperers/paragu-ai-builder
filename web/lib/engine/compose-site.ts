@@ -385,6 +385,25 @@ function normalizeSectionProps(sectionId: string, props: Record<string, unknown>
       if (normalized.items && !normalized.services) {
         normalized.services = normalized.items
       }
+      // Some tenant content ships grouped data under
+      // `services.categories[].items[]` (pricing-page shape) while the
+      // section component expects a flat `services[]` list. Flattening here
+      // keeps legacy content renderable and prevents empty-state fallbacks.
+      if (!normalized.services && Array.isArray(normalized.categories)) {
+        const flattened = (normalized.categories as Array<Record<string, unknown>>).flatMap((category) => {
+          const categoryTitle = typeof category.title === 'string' ? category.title : undefined
+          const rawItems = Array.isArray(category.items) ? category.items : []
+          return rawItems
+            .filter((item): item is Record<string, unknown> => !!item && typeof item === 'object')
+            .map((item) => ({
+              ...item,
+              category: typeof item.category === 'string' ? item.category : categoryTitle,
+            }))
+        })
+        if (flattened.length > 0) {
+          normalized.services = flattened
+        }
+      }
       break
     case 'testimonials':
       if (normalized.items && !normalized.testimonials) {
