@@ -28,6 +28,20 @@ export default {
       }
     ]
   },
+  "galeria": {
+    "gallery": {
+      "images": [],
+      "title": "Nuestros Cortes"
+    },
+    "hero": {
+      "headline": "Galería de Cortes",
+      "subheadline": "Mirá nuestros trabajos"
+    },
+    "seo": {
+      "description": "Nuestros cortes.",
+      "title": "Galería — Guillén Barbershop"
+    }
+  },
   "home": {
     "contact": {
       "address": "11 de Setiembre, Fernando de la Mora",
@@ -147,6 +161,10 @@ export default {
       {
         "href": "/s/es/preview-guillen-barber/servicios",
         "label": "Servicios"
+      },
+      {
+        "href": "/s/es/preview-guillen-barber/galeria",
+        "label": "Galería"
       },
       {
         "href": "/s/es/preview-guillen-barber/contacto",

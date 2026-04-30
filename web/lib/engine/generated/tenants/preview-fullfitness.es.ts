@@ -1,5 +1,160 @@
 // AUTO-GENERATED — do not edit.
 export default {
+  "clases": {
+    "hero": {
+      "headline": "Nuestras Clases",
+      "subheadline": "Crossfit, yoga, funcional y más"
+    },
+    "schedule": {
+      "classes": [
+        {
+          "classes": [
+            {
+              "duration": 45,
+              "instructor": "Carlos",
+              "name": "Crossfit",
+              "time": "07:00"
+            },
+            {
+              "duration": 60,
+              "instructor": "Lucía",
+              "name": "Yoga",
+              "time": "09:00"
+            },
+            {
+              "duration": 45,
+              "instructor": "Carlos",
+              "name": "Funcional",
+              "time": "18:00"
+            }
+          ],
+          "day": "Lunes"
+        },
+        {
+          "classes": [
+            {
+              "duration": 45,
+              "instructor": "Pedro",
+              "name": "Funcional",
+              "time": "07:00"
+            },
+            {
+              "duration": 45,
+              "instructor": "Carlos",
+              "name": "Crossfit",
+              "time": "17:00"
+            },
+            {
+              "duration": 60,
+              "instructor": "Lucía",
+              "name": "Yoga",
+              "time": "19:00"
+            }
+          ],
+          "day": "Martes"
+        },
+        {
+          "classes": [
+            {
+              "duration": 45,
+              "instructor": "Carlos",
+              "name": "Crossfit",
+              "time": "07:00"
+            },
+            {
+              "duration": 45,
+              "instructor": "Pedro",
+              "name": "Funcional",
+              "time": "18:00"
+            }
+          ],
+          "day": "Miércoles"
+        },
+        {
+          "classes": [
+            {
+              "duration": 45,
+              "instructor": "Pedro",
+              "name": "Funcional",
+              "time": "07:00"
+            },
+            {
+              "duration": 45,
+              "instructor": "Carlos",
+              "name": "Crossfit",
+              "time": "17:00"
+            },
+            {
+              "duration": 60,
+              "instructor": "Lucía",
+              "name": "Yoga",
+              "time": "19:00"
+            }
+          ],
+          "day": "Jueves"
+        },
+        {
+          "classes": [
+            {
+              "duration": 45,
+              "instructor": "Carlos",
+              "name": "Crossfit",
+              "time": "07:00"
+            },
+            {
+              "duration": 45,
+              "instructor": "Pedro",
+              "name": "Funcional",
+              "time": "18:00"
+            }
+          ],
+          "day": "Viernes"
+        },
+        {
+          "classes": [
+            {
+              "duration": 60,
+              "instructor": "Carlos",
+              "name": "Crossfit",
+              "time": "09:00"
+            },
+            {
+              "duration": 60,
+              "instructor": "Lucía",
+              "name": "Yoga",
+              "time": "11:00"
+            }
+          ],
+          "day": "Sábado"
+        }
+      ],
+      "title": "Horario de Clases"
+    },
+    "seo": {
+      "description": "Horarios de clases.",
+      "title": "Clases — Full Fitness Gym"
+    },
+    "trainers": {
+      "items": [
+        {
+          "bio": "Certificado internacional. 10 años de experiencia.",
+          "name": "Carlos",
+          "role": "Instructor de Crossfit"
+        },
+        {
+          "bio": "Formada en India. 8 años enseñando.",
+          "name": "Lucía",
+          "role": "Instructora de Yoga"
+        },
+        {
+          "bio": "Especialista en entrenamiento de peso corporal.",
+          "name": "Pedro",
+          "role": "Instructor Funcional"
+        }
+      ],
+      "title": "Nuestros Instructores"
+    }
+  },
   "contacto": {
     "hero": {
       "headline": "Contacto",
@@ -27,6 +182,20 @@ export default {
         "label": "Contacto"
       }
     ]
+  },
+  "galeria": {
+    "gallery": {
+      "images": [],
+      "title": "Fotos"
+    },
+    "hero": {
+      "headline": "Galería",
+      "subheadline": "Conocé nuestras instalaciones"
+    },
+    "seo": {
+      "description": "Fotos del gym.",
+      "title": "Galería — Full Fitness Gym"
+    }
   },
   "home": {
     "contact": {
@@ -187,6 +356,14 @@ export default {
       {
         "href": "/s/es/preview-fullfitness/planes",
         "label": "Planes"
+      },
+      {
+        "href": "/s/es/preview-fullfitness/clases",
+        "label": "Clases"
+      },
+      {
+        "href": "/s/es/preview-fullfitness/galeria",
+        "label": "Galería"
       },
       {
         "href": "/s/es/preview-fullfitness/contacto",

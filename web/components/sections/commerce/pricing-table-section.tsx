@@ -90,8 +90,8 @@ export function PricingTableSection({
                 <div
                   className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 text-xs font-semibold uppercase"
                   style={{
-                    backgroundColor: 'var(--primary)',
-                    color: 'var(--primary-foreground)',
+                    backgroundColor: 'var(--secondary)',
+                    color: 'var(--secondary-foreground)',
                   }}
                 >
                   Mas Popular

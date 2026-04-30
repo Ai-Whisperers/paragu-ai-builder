@@ -78,7 +78,7 @@ export function ProcessSection({
         )}
 
         <div className="relative">
-          <div className="absolute left-8 top-0 bottom-0 w-0.5 md:left-1/2" style={{ backgroundColor: 'var(--border)' }} />
+          <div className="absolute left-8 top-0 bottom-0 w-1 md:left-1/2" style={{ background: 'linear-gradient(to bottom, var(--primary), var(--secondary))' }} />
 
           <div className="space-y-12">
             {steps.map((step, index) => (
@@ -90,7 +90,7 @@ export function ProcessSection({
                 onMouseEnter={() => setActiveStep(step.number)}
                 onMouseLeave={() => setActiveStep(null)}
               >
-                <div className={`flex-1 ${index % 2 === 0 ? 'md:text-right md:pr-16' : 'md:text-left md:pl-16'}`}>
+                <div className={`flex-1 max-w-lg ${index % 2 === 0 ? 'md:text-right md:pr-16' : 'md:text-left md:pl-16'}`}>
                   <div
                     className={`ml-16 md:m-0 p-6 rounded-lg transition-all duration-300 ${
                       activeStep === step.number ? 'scale-105' : ''
@@ -101,7 +101,7 @@ export function ProcessSection({
                     }}
                   >
                     <span
-                      className="mb-2 inline-block rounded-full px-3 py-1 text-sm font-semibold"
+                      className="mb-2 inline-block rounded-full px-3 py-1 text-sm font-semibold font-heading tracking-wider"
                       style={{
                         backgroundColor: 'var(--primary)',
                         color: 'var(--primary-foreground)',
@@ -110,7 +110,7 @@ export function ProcessSection({
                       {stepLabel} {step.number}
                     </span>
                     <Heading level={3}
-                      className="mb-2 text-xl font-bold"
+                      className="mb-2 text-xl font-bold tracking-tight"
                       style={{ color: 'var(--foreground)' }}
                     >
                       {step.title}
@@ -146,10 +146,10 @@ export function ProcessSection({
           <div className="mt-12 text-center">
             <a
               href={ctaLink}
-              className="inline-block rounded-lg px-8 py-4 font-semibold transition-colors"
+              className="inline-block rounded-lg px-8 py-4 font-semibold transition-all duration-200 hover:scale-[1.02]"
               style={{
-                backgroundColor: 'var(--primary)',
-                color: 'var(--primary-foreground)',
+                backgroundColor: 'var(--secondary)',
+                color: 'var(--secondary-foreground)',
               }}
             >
               {resolvedCtaText}

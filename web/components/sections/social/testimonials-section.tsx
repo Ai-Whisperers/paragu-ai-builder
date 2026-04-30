@@ -58,7 +58,9 @@ export function TestimonialsSection({
     )
   }
 
-  const gridCols = columns === 2 ? 'md:grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-3'
+  // 2 columns for 4 items (balanced grid), 3 columns otherwise
+  const effectiveColumns = columns === 3 && resolved.length === 4 ? 2 : columns
+  const gridCols = effectiveColumns === 2 ? 'md:grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-3'
 
   return (
     <Section fullWidth spacing="xl" background="surface-light" className="relative overflow-hidden">
@@ -121,8 +123,8 @@ export function TestimonialsSection({
                   backgroundColor: 'var(--surface)',
                   border: '1px solid var(--surface-light)',
                   boxShadow: enhanced 
-                    ? '0 4px 24px rgba(0,0,0,0.3)' 
-                    : '0 2px 8px rgba(0,0,0,0.08)',
+                    ? '0 1px 3px rgba(0,0,0,0.2)' 
+                    : '0 1px 2px rgba(0,0,0,0.08)',
                 }}
               >
                 {/* Quote icon */}
@@ -155,7 +157,7 @@ export function TestimonialsSection({
                 {/* Quote */}
                 <blockquote 
                   className="mb-6 text-base sm:text-lg leading-relaxed"
-                  style={{ color: 'var(--text)' }}
+                  style={{ color: 'var(--text)', lineHeight: '1.65' }}
                 >
                   &ldquo;{testimonial.text || testimonial.quote}&rdquo;
                 </blockquote>

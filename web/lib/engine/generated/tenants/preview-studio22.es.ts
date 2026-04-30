@@ -28,6 +28,24 @@ export default {
       }
     ]
   },
+  "galeria": {
+    "gallery": {
+      "images": [],
+      "title": "Piercing y más"
+    },
+    "hero": {
+      "headline": "Nuestros Trabajos",
+      "subheadline": "Tatuajes y piercing realizados en nuestro estudio"
+    },
+    "portfolio": {
+      "items": [],
+      "title": "Tatuajes"
+    },
+    "seo": {
+      "description": "Trabajos realizados.",
+      "title": "Galería — Studio 22 Tattoo"
+    }
+  },
   "home": {
     "contact": {
       "address": "1 de Mayo 9038, Fernando de la Mora",

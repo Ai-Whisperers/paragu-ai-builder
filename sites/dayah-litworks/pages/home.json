@@ -6,42 +6,48 @@
     {
       "id": "hero",
       "variant": "image",
-      "content": "home.hero"
+      "content": "home.hero",
+      "styling": {}
     },
     {
       "id": "stats-counter",
       "variant": "inline",
-      "content": "home.stats"
-    },
-    {
-      "id": "trust-badges",
-      "variant": "strip",
-      "content": "home.trustBadges"
+      "content": "home.stats",
+      "styling": {}
     },
     {
       "id": "services",
       "variant": "cards",
-      "content": "home.services"
+      "content": "home.services",
+      "styling": {
+        "padding": "sm"
+      }
     },
     {
       "id": "portfolio",
       "variant": "grid",
-      "content": "home.portfolio"
+      "content": "home.portfolio",
+      "styling": {}
     },
     {
       "id": "testimonials",
       "content": "home.testimonials",
-      "variant": "grid"
+      "variant": "grid",
+      "styling": {
+        "padding": "sm"
+      }
     },
     {
       "id": "process",
       "variant": "steps",
-      "content": "home.process"
+      "content": "home.process",
+      "styling": {}
     },
     {
       "id": "cta-banner",
       "variant": "gradient",
-      "content": "ctaBanner"
+      "content": "ctaBanner",
+      "styling": {}
     }
   ]
 }

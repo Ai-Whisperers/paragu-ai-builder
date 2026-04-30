@@ -90,10 +90,12 @@ export function FooterSection({
 
   return (
     <footer 
-      className="font-heading py-16 sm:py-20"
+      className="font-heading py-16 sm:py-20 relative"
       style={{ 
-        backgroundColor: 'var(--primary)',
-        color: 'rgba(255,255,255,0.9)',
+        backgroundColor: 'var(--background)',
+        color: 'var(--text)',
+        borderTop: '2px solid',
+        borderImage: 'linear-gradient(90deg, var(--secondary), var(--primary)) 1',
       }}
     >
       <Container>
@@ -120,7 +122,7 @@ export function FooterSection({
             <div key={col.title}>
               <h4 
                 className="font-heading mb-5 text-xs font-bold uppercase tracking-widest"
-                style={{ color: 'rgba(255,255,255,0.7)' }}
+                style={{ color: 'rgba(255,255,255,0.85)' }}
               >
                 {col.title}
               </h4>
@@ -144,7 +146,7 @@ export function FooterSection({
           <div>
             <h4 
               className="font-heading mb-5 text-xs font-bold uppercase tracking-widest"
-              style={{ color: 'rgba(255,255,255,0.7)' }}
+              style={{ color: 'rgba(255,255,255,0.85)' }}
             >
               {labels.contact}
             </h4>
@@ -192,7 +194,7 @@ export function FooterSection({
             <div>
               <h4 
                 className="font-heading mb-5 text-xs font-bold uppercase tracking-widest"
-                style={{ color: 'rgba(255,255,255,0.7)' }}
+                style={{ color: 'rgba(255,255,255,0.85)' }}
               >
                 {labels.social}
               </h4>
@@ -261,7 +263,7 @@ export function FooterSection({
           >
             <h4 
               className="font-heading mb-4 text-xs font-bold uppercase tracking-widest"
-              style={{ color: 'rgba(255,255,255,0.7)' }}
+              style={{ color: 'rgba(255,255,255,0.85)' }}
             >
               {networkHeading}
             </h4>
@@ -274,7 +276,7 @@ export function FooterSection({
                     <a 
                       href={href} 
                       className="font-heading transition-colors hover:text-white"
-                      style={{ color: 'rgba(255,255,255,0.7)' }}
+                      style={{ color: 'rgba(255,255,255,0.85)' }}
                     >
                       {g.label}
                     </a>
@@ -290,7 +292,7 @@ export function FooterSection({
           className="font-heading mt-12 pt-8 text-center text-sm"
           style={{ 
             borderTop: '1px solid rgba(255,255,255,0.1)',
-            color: 'rgba(255,255,255,0.7)',
+            color: 'rgba(255,255,255,0.85)',
           }}
         >
           © {year} {businessName}. {labels.rights}
@@ -299,7 +301,7 @@ export function FooterSection({
               className="font-heading ml-2 inline-block rounded px-1.5 py-0.5 text-xs font-mono"
               style={{ 
                 backgroundColor: 'rgba(255,255,255,0.1)', 
-                color: 'rgba(255,255,255,0.7)' 
+                color: 'rgba(255,255,255,0.85)' 
               }}
             >
               v{VERSION}

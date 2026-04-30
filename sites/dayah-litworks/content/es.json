@@ -861,18 +861,6 @@
           "description": "Portada romance — eBook"
         },
         {
-          "title": "PF Vol I — Tapa Blanda",
-          "category": "Paperback",
-          "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
-          "description": "Portada completa tapa blanda"
-        },
-        {
-          "title": "PF Vol II — Tapa Blanda",
-          "category": "Paperback",
-          "imageUrl": "/images/dayah/covers/cover-pf-vol2-paperback.jpg",
-          "description": "Portada completa tapa blanda"
-        },
-        {
           "title": "Extrême",
           "category": "Premade",
           "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
@@ -883,6 +871,18 @@
           "category": "Premade",
           "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
           "description": "Portada premade"
+        },
+        {
+          "title": "PF Vol I — Tapa Blanda",
+          "category": "Paperback",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
+          "description": "Portada completa tapa blanda"
+        },
+        {
+          "title": "PF Vol II — Tapa Blanda",
+          "category": "Paperback",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol2-paperback.jpg",
+          "description": "Portada completa tapa blanda"
         }
       ]
     },

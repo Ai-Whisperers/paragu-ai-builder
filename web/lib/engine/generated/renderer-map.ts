@@ -205,7 +205,7 @@ export const GENERATED_MAP: Record<string, React.ComponentType<any>> = {
   'hero-video': HeroVideoSection,
   'blog-index': BlogIndexSection,
   'blog-post': BlogPostSection,
-  'product-catalog': buildWhatsAppUrl as unknown as import('react').ComponentType,
+  'product-catalog': buildWhatsAppUrl,
   'age-gate': AgeGateSection,
   'trust-badges': TrustBadgesSection,
   footer: FooterSection,

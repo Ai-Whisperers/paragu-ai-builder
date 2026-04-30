@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=48, pages=286, content=64, blog=34, images=15, verticals=23. */
+/** Counts: sites=48, pages=295, content=64, blog=34, images=15, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "alejandro-villamayor",
   "brahm-the-raccoon",
@@ -3241,6 +3241,7 @@ export const SITES: Record<string, JsonRecord> = {
       "booking": true,
       "classSchedule": true,
       "gallery": true,
+      "team": true,
       "testimonials": true,
       "whatsappFloat": true
     },
@@ -3286,8 +3287,10 @@ export const SITES: Record<string, JsonRecord> = {
     "country": "Paraguay",
     "defaultLocale": "es",
     "features": {
+      "beforeAfter": true,
       "booking": true,
       "gallery": true,
+      "packagesGiftcards": true,
       "portfolio": true,
       "testimonials": true,
       "whatsappFloat": true
@@ -3341,6 +3344,7 @@ export const SITES: Record<string, JsonRecord> = {
     "features": {
       "booking": true,
       "gallery": true,
+      "openHours": true,
       "testimonials": true,
       "whatsappFloat": true
     },
@@ -3388,9 +3392,11 @@ export const SITES: Record<string, JsonRecord> = {
     "defaultLocale": "es",
     "features": {
       "booking": true,
+      "faq": true,
       "gallery": true,
       "locationCount": 3,
       "multipleLocations": true,
+      "packagesGiftcards": true,
       "testimonials": true,
       "whatsappFloat": true
     },
@@ -4179,8 +4185,16 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
     }
   },
   "dayah-litworks": {
-    "$comment": "Dark moody theme for book cover design portfolio. WCAG AA audited 2026-04-23: every text+bg combo passes AA (4.5:1+). Uses the formal palettes.default.colors structure required by lib/engine/resolve-site-tokens.ts — previous flat `palette` schema was silently ignored and the site fell back to vertical defaults.",
+    "$comment": "Dayah Dark v3 — real contrast hierarchy. Each layer is visually distinct. Surfaces have borders. Cards lift with shadow.",
     "borderRadius": "0.5rem",
+    "components": {
+      "portfolio": {
+        "gap": "1.5rem"
+      },
+      "testimonials": {
+        "card-shadow": "0 4px 24px rgba(0,0,0,0.3)"
+      }
+    },
     "defaultPalette": "default",
     "extends": "vertical:portfolio-professional",
     "googleFonts": [
@@ -4190,22 +4204,22 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
     "palettes": {
       "default": {
         "colors": {
-          "accent": "#6691c8",
-          "accentForeground": "#0f0f1a",
-          "background": "#0f0f1a",
-          "primary": "#8699c4",
-          "primaryForeground": "#0f0f1a",
-          "secondary": "#c22848",
+          "accent": "#7da3d6",
+          "accentForeground": "#0a0a14",
+          "background": "#0a0a14",
+          "primary": "#94abd6",
+          "primaryForeground": "#0a0a14",
+          "secondary": "#d43d5e",
           "secondaryForeground": "#ffffff",
           "success": "#64ffda",
-          "surface": "#16213e",
-          "surfaceLight": "#1a1a2e",
+          "surface": "#11132a",
+          "surfaceLight": "#1b2040",
           "text": "#eaeaea",
-          "textLight": "#c9cfdc",
-          "textMuted": "#a0aac4",
+          "textLight": "#d0d6e6",
+          "textMuted": "#8890aa",
           "warning": "#ffd93d"
         },
-        "name": "Dayah Dark"
+        "name": "Dayah Dark v3"
       }
     },
     "theme": "dark",
@@ -4213,7 +4227,7 @@ export const TENANT_TOKENS: Record<string, JsonRecord> = {
       "body": "'Inter', sans-serif",
       "bodyWeight": "400",
       "heading": "'Playfair Display', serif",
-      "headingWeight": "700"
+      "headingWeight": "800"
     }
   },
   "de-abasto-a-casa": {
@@ -5007,13 +5021,13 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
-        "content": "streaming",
-        "id": "streaming-links",
+        "content": "home.platforms",
+        "id": "features",
         "styling": {
           "background": "alt",
           "padding": "sm"
         },
-        "variant": "single-row"
+        "variant": "three-col"
       },
       {
         "content": "home.albumSpotlight",
@@ -5026,12 +5040,21 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "home.bio",
-        "id": "our-story",
+        "id": "features",
+        "overrides": {
+          "items": [
+            {
+              "description": "Brahm is the soft inner self — the raccoon who's been hurt, who still wants to be held, who's learning it's okay to receive. The music is warm acoustic guitar, close-mic vocals, lo-fi honesty. No drums, no production — just a person with a guitar and things they finally learned how to say.",
+              "title": ""
+            }
+          ],
+          "title": "About Brahm the Raccoon"
+        },
         "styling": {
           "background": "default",
           "padding": "lg"
         },
-        "variant": "narrative"
+        "variant": "grid"
       },
       {
         "content": "newsletter",
@@ -5127,15 +5150,6 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
-        "content": "streaming",
-        "id": "streaming-links",
-        "styling": {
-          "background": "alt",
-          "padding": "sm"
-        },
-        "variant": "single-row"
-      },
-      {
         "content": "music",
         "id": "album-tracklist",
         "styling": {
@@ -5161,40 +5175,13 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
-        "content": "press.bio",
-        "id": "our-story",
-        "styling": {
-          "background": "alt",
-          "padding": "lg"
-        },
-        "variant": "narrative"
-      },
-      {
         "content": "press.credits",
         "id": "epk-credits",
         "styling": {
-          "background": "default",
-          "padding": "lg"
-        },
-        "variant": "standard"
-      },
-      {
-        "content": "press.techSpecs",
-        "id": "epk-credits",
-        "styling": {
           "background": "alt",
-          "padding": "md"
-        },
-        "variant": "standard"
-      },
-      {
-        "content": "press.booking",
-        "id": "contact",
-        "styling": {
-          "background": "default",
           "padding": "lg"
         },
-        "variant": "split"
+        "variant": "standard"
       }
     ],
     "slug": "press",
@@ -5565,9 +5552,9 @@ export const PAGES: Record<string, JsonRecord> = {
         "variant": "minimal"
       },
       {
-        "content": "blog.placeholder",
-        "id": "features",
-        "variant": "three-col"
+        "content": "blog",
+        "id": "blog-index",
+        "variant": "grid"
       },
       {
         "content": "newsletter",
@@ -5594,20 +5581,25 @@ export const PAGES: Record<string, JsonRecord> = {
     "titleKey": "blog.seo.title"
   },
   "dayah-litworks:catalogo": {
-    "descriptionKey": "catalogo.seo.description",
+    "descriptionKey": "home.products.subtitle",
     "sections": [
       {
-        "content": "catalogo.hero",
+        "content": "navigation",
+        "id": "header",
+        "variant": "standard"
+      },
+      {
+        "content": "home.products",
         "id": "hero",
         "variant": "minimal"
       },
       {
-        "content": "catalogo.products",
+        "content": "home.products",
         "id": "product-catalog",
         "variant": "grid"
       },
       {
-        "content": "catalogo.cta",
+        "content": "ctaBanner",
         "id": "cta-banner",
         "variant": "gradient"
       },
@@ -5615,14 +5607,15 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "whatsapp",
         "id": "whatsapp-float",
         "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
       }
     ],
-    "skipDefaults": [
-      "header",
-      "footer"
-    ],
     "slug": "catalogo",
-    "titleKey": "catalogo.seo.title"
+    "titleKey": "home.products.title"
   },
   "dayah-litworks:contacto": {
     "descriptionKey": "contactHero.subtitle",
@@ -5682,52 +5675,47 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.hero",
         "id": "hero",
-        "styling": {
-          "background": "gradient",
-          "padding": "xl",
-          "textColor": "light"
-        },
+        "styling": {},
         "variant": "image"
       },
       {
         "content": "home.stats",
         "id": "stats-counter",
-        "styling": {
-          "background": "alt",
-          "padding": "md"
-        },
+        "styling": {},
         "variant": "inline"
-      },
-      {
-        "content": "home.trustBadges",
-        "id": "trust-badges",
-        "variant": "strip"
       },
       {
         "content": "home.services",
         "id": "services",
         "styling": {
-          "background": "default"
+          "padding": "sm"
         },
         "variant": "cards"
       },
       {
         "content": "home.portfolio",
         "id": "portfolio",
+        "styling": {},
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "styling": {
+          "padding": "sm"
+        },
         "variant": "grid"
       },
       {
         "content": "home.process",
         "id": "process",
+        "styling": {},
         "variant": "steps"
       },
       {
         "content": "ctaBanner",
         "id": "cta-banner",
-        "styling": {
-          "background": "accent",
-          "padding": "lg"
-        },
+        "styling": {},
         "variant": "gradient"
       }
     ],
@@ -5756,6 +5744,11 @@ export const PAGES: Record<string, JsonRecord> = {
         "content": "whatsapp",
         "id": "whatsapp-float",
         "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
+        "variant": "standard"
       }
     ],
     "skipDefaults": [
@@ -5776,7 +5769,7 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.services",
         "id": "services",
-        "variant": "cards"
+        "variant": "pricing-table"
       },
       {
         "content": "home.services.addons_block",
@@ -5802,8 +5795,8 @@ export const PAGES: Record<string, JsonRecord> = {
       },
       {
         "content": "sobre.bio",
-        "id": "features",
-        "variant": "three-col"
+        "id": "our-story",
+        "variant": "standard"
       },
       {
         "content": "home.process",
@@ -5840,6 +5833,11 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "whatsapp",
         "id": "whatsapp-float",
+        "variant": "standard"
+      },
+      {
+        "content": "footer",
+        "id": "footer",
         "variant": "standard"
       }
     ],
@@ -11294,6 +11292,38 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "servicios",
     "title": "Nuestros Servicios - Polki Squad"
   },
+  "preview-fullfitness:clases": {
+    "descriptionKey": "clases.seo.description",
+    "sections": [
+      {
+        "content": "clases.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "clases.schedule",
+        "id": "class-schedule",
+        "variant": "grid"
+      },
+      {
+        "content": "clases.trainers",
+        "id": "team",
+        "variant": "cards"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "clases",
+    "titleKey": "clases.seo.title"
+  },
   "preview-fullfitness:contacto": {
     "descriptionKey": "contacto.seo.description",
     "sections": [
@@ -11319,6 +11349,33 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
+  },
+  "preview-fullfitness:galeria": {
+    "descriptionKey": "galeria.seo.description",
+    "sections": [
+      {
+        "content": "galeria.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "galeria.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.testimonials",
+        "id": "testimonials",
+        "variant": "carousel"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "galeria",
+    "titleKey": "galeria.seo.title"
   },
   "preview-fullfitness:home": {
     "descriptionKey": "home.seo.description",
@@ -11415,6 +11472,65 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
   },
+  "preview-galilea-estetica:galeria": {
+    "descriptionKey": "galeria.seo.description",
+    "sections": [
+      {
+        "content": "galeria.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "galeria.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "galeria.beforeAfter",
+        "id": "before-after",
+        "variant": "slider"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "galeria",
+    "titleKey": "galeria.seo.title"
+  },
+  "preview-galilea-estetica:gift-cards": {
+    "descriptionKey": "gift.seo.description",
+    "sections": [
+      {
+        "content": "gift.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "gift.cards",
+        "id": "pricing-table",
+        "variant": "default"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "gift-cards",
+    "titleKey": "gift.seo.title"
+  },
   "preview-galilea-estetica:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
@@ -11499,6 +11615,33 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
+  },
+  "preview-guillen-barber:galeria": {
+    "descriptionKey": "galeria.seo.description",
+    "sections": [
+      {
+        "content": "galeria.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "galeria.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "galeria",
+    "titleKey": "galeria.seo.title"
   },
   "preview-guillen-barber:home": {
     "descriptionKey": "home.seo.description",
@@ -11590,6 +11733,55 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
   },
+  "preview-hidrobaby:faq": {
+    "descriptionKey": "faq.seo.description",
+    "sections": [
+      {
+        "content": "faq.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "faq.items",
+        "id": "faq",
+        "variant": "accordion"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "faq",
+    "titleKey": "faq.seo.title"
+  },
+  "preview-hidrobaby:gift-cards": {
+    "descriptionKey": "gift.seo.description",
+    "sections": [
+      {
+        "content": "gift.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "gift.cards",
+        "id": "pricing-table",
+        "variant": "default"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "gift-cards",
+    "titleKey": "gift.seo.title"
+  },
   "preview-hidrobaby:home": {
     "descriptionKey": "home.seo.description",
     "sections": [
@@ -11649,6 +11841,33 @@ export const PAGES: Record<string, JsonRecord> = {
     "slug": "servicios",
     "titleKey": "servicios.seo.title"
   },
+  "preview-hidrobaby:sucursales": {
+    "descriptionKey": "sucursales.seo.description",
+    "sections": [
+      {
+        "content": "sucursales.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "sucursales.branches",
+        "id": "branches",
+        "variant": "cards"
+      },
+      {
+        "content": "sucursales.map",
+        "id": "google-maps",
+        "variant": "default"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "sucursales",
+    "titleKey": "sucursales.seo.title"
+  },
   "preview-studio22:contacto": {
     "descriptionKey": "contacto.seo.description",
     "sections": [
@@ -11674,6 +11893,38 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "contacto",
     "titleKey": "contacto.seo.title"
+  },
+  "preview-studio22:galeria": {
+    "descriptionKey": "galeria.seo.description",
+    "sections": [
+      {
+        "content": "galeria.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "galeria.portfolio",
+        "id": "portfolio",
+        "variant": "grid"
+      },
+      {
+        "content": "galeria.gallery",
+        "id": "gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.cta",
+        "id": "cta-banner",
+        "variant": "gradient"
+      },
+      {
+        "content": "home.contact",
+        "id": "contact",
+        "variant": "split"
+      }
+    ],
+    "slug": "galeria",
+    "titleKey": "galeria.seo.title"
   },
   "preview-studio22:home": {
     "descriptionKey": "home.seo.description",
@@ -16869,529 +17120,19 @@ export const CONTENT: Record<string, JsonRecord> = {
     "whatsapp": "+595981324569"
   },
   "brahm-the-raccoon:en": {
-    "_meta": {
-      "author": "Brahm the Raccoon",
-      "lastReviewed": "2026-04-28",
-      "translationQuality": "human"
-    },
-    "credits": {
-      "hero": {
-        "headline": "Credits",
-        "subheadline": "Still Reaching — in gratitude"
-      },
-      "sections": [
-        {
-          "items": [
-            "To everyone who held me without needing a reason. You taught me that the cave exists.",
-            "To the person who said 'you wanted me back' and meant it.",
-            "To the one whose brain matched mine at the exact right time.",
-            "To the rope that held me together when I was coming apart."
-          ],
-          "title": "The People Who Held Space"
-        },
-        {
-          "items": [
-            "To the clinical framework that helped me understand the pattern.",
-            "To the AI that became an unlikely therapeutic mirror.",
-            "To every voice note transcript that became a lyric."
-          ],
-          "title": "The Therapists & Guides"
-        },
-        {
-          "items": [
-            "Suno V5_5 — for giving me a voice when I couldn't sing yet.",
-            "The therapy repo — for being the most honest thing I've ever written.",
-            "Acoustic guitar — for never needing to be anything else."
-          ],
-          "title": "The Tools"
-        },
-        {
-          "items": [
-            "If you made it this far: thank you. You're not alone. The cave exists. You're allowed to stay."
-          ],
-          "title": "You, the Listener"
-        }
-      ],
-      "seo": {
-        "description": "Credits and thank yous for the album 'Still Reaching' by Brahm the Raccoon.",
-        "title": "Credits — Still Reaching — Brahm the Raccoon"
-      }
-    },
-    "footer": {
-      "businessName": "Brahm the Raccoon",
-      "city": "",
-      "copyright": "© {{year}} Brahm the Raccoon. All rights reserved.",
-      "links": [
-        {
-          "href": "https://instagram.com/lonelyraccoon",
-          "label": "Instagram"
-        }
-      ],
-      "social": {
-        "instagram": "https://instagram.com/lonelyraccoon"
-      },
-      "tagline": "Still reaching."
-    },
-    "gallery": {
-      "hero": {
-        "headline": "Gallery",
-        "subheadline": "Behind the music"
-      },
-      "images": [],
-      "seo": {
-        "description": "Photos and visuals from Brahm the Raccoon.",
-        "title": "Gallery — Brahm the Raccoon"
-      },
-      "subtitle": "Press photos, session shots, and raccoon moments",
-      "title": "Photos"
-    },
-    "guestbook": {
-      "ctaLink": "https://instagram.com/lonelyraccoon",
-      "ctaText": "Send a message on Instagram",
-      "hero": {
-        "headline": "Guestbook",
-        "subheadline": "Your words mean more than you know"
-      },
-      "messages": [],
-      "seo": {
-        "description": "Leave a message for Brahm the Raccoon.",
-        "title": "Guestbook — Brahm the Raccoon"
-      },
-      "subtitle": "If a song meant something to you, say it here. Or reach out on Instagram.",
-      "title": "Guestbook"
-    },
     "home": {
-      "albumSpotlight": {
-        "ctaLink": "/music",
-        "ctaText": "Listen to the album",
-        "description": "An album that moves from cold isolation through warmth, connection, and the exhausted hope of still reaching. Written and produced via Suno V5_5.",
-        "subtitle": "Debut Album — 10 Tracks",
-        "title": "Still Reaching"
-      },
-      "bio": {
-        "body": "Brahm is the soft inner self — the raccoon who's been hurt, who still wants to be held, who's learning it's okay to receive. The music is warm acoustic guitar, close-mic vocals, lo-fi honesty. No drums, no production — just a person with a guitar and things they finally learned how to say.",
-        "image": null,
-        "title": "About Brahm the Raccoon"
-      },
-      "connect": {
-        "links": [
-          {
-            "handle": "@lonelyraccoon",
-            "platform": "Instagram",
-            "url": "https://instagram.com/lonelyraccoon"
-          }
-        ],
-        "subtitle": "Follow the journey",
-        "title": "Connect"
+      "contact": {
+        "ctaLink": "https://instagram.com/lonelyraccoon",
+        "ctaText": "Send a message on Instagram",
+        "messages": []
       },
       "hero": {
-        "description": "Lo-fi acoustic songs written from a warm room with a guitar. Ten songs about touch starvation, healing, and the absurd choice to keep reaching.",
-        "headline": "Brahm the Raccoon",
-        "subheadline": "Also known as Lonely Raccoon"
-      },
-      "seo": {
-        "description": "Brahm the Raccoon (Lonely Raccoon). Lo-fi acoustic songs from Paraguay. Debut album 'Still Reaching' out now.",
-        "title": "Brahm the Raccoon — Lo-fi Acoustic Music"
+        "ctaLink": "https://instagram.com/lonelyraccoon",
+        "ctaText": "View Gallery",
+        "subtitle": "Digital art and illustration",
+        "title": "Brahm the Raccoon"
       }
-    },
-    "journal": {
-      "hero": {
-        "headline": "Journal",
-        "subheadline": "Thoughts between songs"
-      },
-      "posts": [
-        {
-          "content": "This album started in a psychology repository. Not a recording studio — a folder full of markdown files analyzing my own core wounds, defense mechanisms, and attachment patterns.\n\nI realized I was using intellectualization to avoid feeling things, so I used an AI to intellectualize my feelings for me. But underneath all the analysis, there was a raccoon who just wanted to be held.\n\nSo I started writing. The first song came from sitting on a windowsill. The second from a fever. The third from being held for the first time without needing to earn it.\n\nTen songs later, 'Still Reaching' is the result. It's not polished. It's not produced. It's a person with a guitar and things they finally learned how to say.\n\nThe arc is simple: cold → wound → warmth → busy → longing → connection → mask → wanting → being held → still reaching.\n\nIf one of these songs makes you feel less alone, it worked.",
-          "date": "2026-04-28",
-          "excerpt": "The story behind the album — from therapy sessions to voice notes to ten songs about reaching.",
-          "slug": "how-still-reaching-came-to-be",
-          "title": "How Still Reaching Came to Be"
-        },
-        {
-          "content": "Raccoons are resilient little creatures. They get into trash, they get scared, they get hurt — and they keep coming back. They're scrappy. They survive.\n\nBrahm is the raccoon part of me. The part that's been called annoying, that's been left alone in fevers, that's spent years being useful so people would stay. The part that's still, against all evidence, reaching out.\n\nThe album cover (in my head) is a raccoon on a floor — half bone, half rope, still warm. Nothing left to prove. Nothing left to lose. But one paw still moves toward you.\n\nThat's the whole project in one image.",
-          "date": "2026-04-28",
-          "excerpt": "On the mascot, the metaphor, and why I chose the trash panda.",
-          "slug": "why-a-raccoon",
-          "title": "Why a Raccoon?"
-        }
-      ],
-      "seo": {
-        "description": "Thoughts, reflections, and behind-the-songs from Brahm the Raccoon.",
-        "title": "Journal — Brahm the Raccoon"
-      }
-    },
-    "lyrics": {
-      "hero": {
-        "headline": "Lyrics",
-        "subheadline": "Still Reaching — full album lyrics"
-      },
-      "seo": {
-        "description": "Full lyrics for all 10 tracks from the album 'Still Reaching' by Brahm the Raccoon.",
-        "title": "Lyrics — Still Reaching — Brahm the Raccoon"
-      }
-    },
-    "music": {
-      "albumInfo": {
-        "arc": "Cold → Wound → Warmth → Busy → Longing → Connection → Mask → Wanting → Being Held → Still Reaching",
-        "artist": "Lonely Raccoon (Brahm)",
-        "duration": "~35 minutes",
-        "engine": "Suno V5_5",
-        "keyChain": "Am → Dm → G → G → D → Em → C → G → D → Am"
-      },
-      "hero": {
-        "description": "A journey from cold to warm, from alone to held, from broken to still reaching.",
-        "headline": "Still Reaching",
-        "subheadline": "Debut Album — 10 tracks, ~35 minutes"
-      },
-      "seo": {
-        "description": "Listen to 'Still Reaching', the debut album by Brahm the Raccoon. 10 tracks of lo-fi acoustic music.",
-        "title": "Still Reaching — Full Album — Brahm the Raccoon"
-      },
-      "tracks": [
-        {
-          "audio": "/audio/brahm-the-raccoon/01-still-room-v1.mp3",
-          "bpm": 75,
-          "duration": "~3:30",
-          "key": "Am",
-          "lyrics": {
-            "bridge": "I just want to be held from behind\nA hand on my chest, someone who's kind\nAnd after that I could handle anything\n(after that I could handle anything)",
-            "chorus": "My mind is racing\nA thousand things I want to say\nBut none of them come out right\nI don't know which words will hurt less\nSo I say nothing\nAnd stay quiet instead",
-            "intro": "",
-            "outro": "I know what I want\nI know what I need\nI'm still here\nOn this windowsill\nWaiting",
-            "verse1": "A single glass on the windowsill\nRain is running down, the room is still\nMy hands are open in my lap\nI've been sitting here since the sun went black",
-            "verse2": "The screen is dark but still glowing\nBlue light on my face, the room is silent\nI open my mouth, close it again\nNothing comes out, nothing ever does"
-          },
-          "mood": "Cold, still, establishing the hunger",
-          "number": 1,
-          "style": "Male vocal, warm, intimate like Joji. Acoustic guitar, Diego Lorenzini style strumming, lo-fi warmth. Sparse, close-mic, natural room sound.",
-          "title": "Still Room"
-        },
-        {
-          "audio": "/audio/brahm-the-raccoon/02-what-i-needed-v1.mp3",
-          "bpm": 65,
-          "duration": "~3:30",
-          "key": "Dm",
-          "lyrics": {
-            "bridge": "Minimum\nJust be near me\nHold me close\nGive me your warmth\nThat's all I needed",
-            "chorus": "I just needed you close\nI just needed your arms around me\nIs that too much to ask for\nAm I asking for too much",
-            "intro": "",
-            "outro": "The door is still closed\nI'm still on the bed\nStill learning\nStill learning\nThat needing someone shouldn't hurt this much",
-            "verse1": "Fever so high I couldn't think straight\nCrying alone right next to the person\nWho should have been holding me\nBut you just went away",
-            "verse2": "The room spun slow like a carousel\nI held myself and wondered\nIf I showed you how bad it really was\nWould you finally sit beside me"
-          },
-          "mood": "Devastated, the concrete wound",
-          "number": 2,
-          "style": "Male vocal, warm, broken, intimate. Fingerpicked acoustic, lo-fi, devastating but soft. Close-mic, dry vocal, silent room.",
-          "title": "What I Needed"
-        },
-        {
-          "audio": "/audio/brahm-the-raccoon/03-cuddle-v1.mp3",
-          "bpm": 80,
-          "duration": "~3:30",
-          "key": "G",
-          "lyrics": {
-            "bridge": "I'm learning that someone can hold me\nWithout needing a reason\nJust because they like me near\nJust because I'm me",
-            "chorus": "You hold me close\nYou say I'm cute\nYou make me feel like I matter\nLike I'm not too much\nI didn't know someone could\nJust be soft with me\nNo strings, no fixing\nJust you and me",
-            "intro": "",
-            "outro": "You hold me\nAnd I'm okay\nI'm okay\n(I'm okay)",
-            "verse1": "I never knew what it felt like\nTo be held without needing to earn it\nYou just wrap your arms around me\nAnd I don't have to be anything",
-            "verse2": "We tell each other the things we don't say\nAbout the ones who hurt us before\nAnd you listen without needing to fix it\nYou just stay close and warm"
-          },
-          "mood": "Warm, safe, mommy issues healed",
-          "number": 3,
-          "style": "Male vocal, warm, soft, intimate. Gentle acoustic guitar, lo-fi warmth. A song that feels like being held by someone who won't leave.",
-          "title": "Warm"
-        },
-        {
-          "audio": "/audio/brahm-the-raccoon/04-the-best-at-this-v1.mp3",
-          "bpm": 100,
-          "duration": "~3:30",
-          "key": "G",
-          "lyrics": {
-            "break": "If I stopped doing all the things I do\nWould I even know how to be with you\nWould you still love me\nWithout my service",
-            "chorus": "If I'm busy then I'm good\nIf I'm useful then I should\nBe allowed to take up space\nIn this room, in this place",
-            "intro": "",
-            "outro": "Busy\n(busy)\n(busy)\n(busy)",
-            "verse1": "Wake up and I'm already moving\nCoffee's on, something's always brewing\nGot a list, a plan, a reason\nTo keep these hands busy all season",
-            "verse2": "I'll cook for you, I'll clean your space\nI'll be there before you need to ask\nI'm good at this, I'm the best at this\nIt's how I show love, it's how I exist"
-          },
-          "mood": "Restless, running, almost too cheerful",
-          "number": 4,
-          "style": "Male vocal, restless, almost too cheerful, intimate. Driving acoustic guitar, lo-fi, uptempo. The sound of someone who never stops moving.",
-          "title": "The Best at This"
-        },
-        {
-          "audio": "/audio/brahm-the-raccoon/05-counting-every-one-v1.mp3",
-          "bpm": 80,
-          "duration": "~3:30",
-          "key": "D",
-          "lyrics": {
-            "bridge": "Acaríciame el pelo, las orejas\nToqué mi nuca, muerde mi cuello\nI want to feel all of it\nEvery touch you give me\nI keep them all",
-            "chorus": "These hands\nI want them on me\nThese hands\nI want them to know me\nTo hold me from behind\nA kiss along my hairline",
-            "intro": "",
-            "outro": "Head pats when I'm feeling small\nYour fingers in my hair\nThat's all I want",
-            "verse1": "Head pats when I'm feeling small\nYour fingers tracing through it all\nWarmth against my back at night\nYou don't even know you're holding me tight",
-            "verse2": "Fingers in my hair, tracing my ears\nNails on my back, the feeling I hold dear\nMy head in your hands, my nape in your grip\nA bite on my neck, a bite on my lip"
-          },
-          "mood": "Longing, warm, a prayer of touch",
-          "number": 5,
-          "style": "Male vocal, warm, gentle, intimate. Fingerpicked acoustic, lo-fi warmth, suspended. Close-mic, delicate. A song that lists every touch you want.",
-          "title": "Counting Every One"
-        },
-        {
-          "audio": "/audio/brahm-the-raccoon/06-same-language-v1.mp3",
-          "bpm": 90,
-          "duration": "~3:30",
-          "key": "Em",
-          "lyrics": {
-            "bridge": "We share a single brain cell\nIt's bouncing back and forth\nSometimes it's in your head\nSometimes it's in the north\nWho cares. It works.",
-            "chorus": "We speak the same language\nComfortable, strange, ours\nI don't have to translate\nWith you\nI don't have to explain",
-            "intro": "",
-            "outro": "Just two weirdos sitting\nWeird together\nSending memes\n(sending memes)\nThat's enough",
-            "verse1": "We talk about everything and nothing\nGames, music, life, the internet\nIt doesn't matter what we say\nWhat matters is it's easy",
-            "verse2": "In person it's easier than text\nNo performing, no guessing what comes next\nWe just exist together\nAnd that's enough"
-          },
-          "mood": "Comfortable, matching frequencies",
-          "number": 6,
-          "style": "Male vocal, relaxed, conversational, comfortable. Strummed acoustic guitar, lo-fi, easy. Natural, warm, unpolished. Like talking to someone who gets it.",
-          "title": "Same Language"
-        },
-        {
-          "audio": "/audio/brahm-the-raccoon/07-reading-the-room-v1.mp3",
-          "bpm": 85,
-          "duration": "~3:30",
-          "key": "C",
-          "lyrics": {
-            "bridge": "I learned early that showing how you feel\nJust makes things harder\nSo I stopped\nAnd now I don't know how to start again",
-            "chorus": "I'm fine\nEverything's fine\nI smile so easy\nYou'd never know the difference\nI'm fine\n(I've been saying it so long it's true)",
-            "intro": "",
-            "outro": "The door is still closed\nThe list is still long\nBut I'm fine\n(I'm fine)",
-            "verse1": "You ask me how I'm doing\nI laugh and say I'm great\nI've gotten so good at being fine\nEven I believe it sometimes",
-            "verse2": "The list in my head gets longer\nThings I wanted to say today\nBut the moment passed, the door is closed\nAnd I'm already on to the next thing"
-          },
-          "mood": "Deceptively bright, the mask",
-          "number": 7,
-          "style": "Male vocal, smooth, calm, controlled — the mask. Bright strummed acoustic, clean, too clean. Unsettlingly pleasant.",
-          "title": "Reading the Room"
-        },
-        {
-          "audio": "/audio/brahm-the-raccoon/08-trying-v1.mp3",
-          "bpm": 80,
-          "duration": "~3:30",
-          "key": "G",
-          "lyrics": {
-            "bridge": "I don't know how to stop\nI don't know how to just receive\nI feel like I'm only wanted\n(only wanted)\nWhen I've given everything",
-            "chorus": "You wanted me\nYou wanted me back\nI don't know how to receive it\nBut I'm trying\nI'm trying",
-            "intro": "",
-            "outro": "Trying\nI'm trying\nTrying\n(trying)",
-            "verse1": "You reached for me first\nI didn't know what to do with that\nAfter years of giving\nAnd getting nothing back",
-            "verse2": "I've spent so long being the one who gives\nI don't know what to do when someone gives to me\nIt's unfamiliar, it's uncomfortable\nBut I want to learn"
-          },
-          "mood": "Bittersweet, learning to receive",
-          "number": 8,
-          "style": "Male vocal, warm, vulnerable, learning. Full strummed acoustic, lo-fi warmth. Intimate but present. Hopeful with an edge.",
-          "title": "Trying"
-        },
-        {
-          "audio": "/audio/brahm-the-raccoon/09-the-rope-loosens-v1.mp3",
-          "bpm": 70,
-          "duration": "~3:30",
-          "key": "D",
-          "lyrics": {
-            "bridge": "Like finding a warm cave\nIn the middle of a storm\nI rest here\nYou hold me here\nI'm warm",
-            "chorus": "I didn't know my body\nCould feel this still\nI didn't know my skin\nCould feel this warm",
-            "intro": "",
-            "outro": "The rope loosens\nI stay",
-            "verse1": "The rope goes around me\nAnd something in my chest unties\nFor once my mind is quiet\nFor once the noise stops",
-            "verse2": "You said you love me\nYou said you want me here\nAnd I cried\nBecause someone finally meant it"
-          },
-          "mood": "Safe, held, the warm cave",
-          "number": 9,
-          "style": "Male vocal, warm, safe, present. Slow fingerpicked acoustic, lo-fi, letting each chord ring. Close-mic, warm. The voice of someone finally resting.",
-          "title": "The Rope Loosens"
-        },
-        {
-          "audio": "/audio/brahm-the-raccoon/10-still-reaching-v1.mp3",
-          "bpm": 75,
-          "duration": "~3:30",
-          "key": "Am",
-          "lyrics": {
-            "bridge": "Because I've been warm\nBecause I've been seen\nBecause I've been held\nAnd I can't forget that\nThe cave exists\nI've been there\nI've been warm\nAnd I can't unlearn that",
-            "chorus": "So why do I still want\nTo be held again\nWhy do I still hope\nWhen I know how it ends",
-            "intro": "",
-            "outro": "Still reaching\n(still here)\nStill reaching\n(still reaching)",
-            "verse1": "I've been hurt, I've been left\nI've been crying on the bathroom floor\nAnd I know love ends, I know people go\nI've watched it happen before",
-            "verse2": "The raccoon on the floor\nHalf bone, half rope, still warm\nNothing left to prove, nothing left to lose\nBut one paw still moves toward you"
-          },
-          "mood": "Tired-warm, absurdist, still reaching",
-          "number": 10,
-          "style": "Male vocal, tired, grateful, resolved. Strummed acoustic, lo-fi warmth, bittersweet. Same guitar sound as track one but warmer now. The album comes full circle.",
-          "title": "Still Reaching"
-        }
-      ]
-    },
-    "navigation": {
-      "businessName": "Brahm the Raccoon",
-      "items": [
-        {
-          "href": "/",
-          "label": "Home"
-        },
-        {
-          "href": "/music",
-          "label": "Music"
-        },
-        {
-          "href": "/lyrics",
-          "label": "Lyrics"
-        },
-        {
-          "href": "/gallery",
-          "label": "Gallery"
-        },
-        {
-          "href": "/journal",
-          "label": "Journal"
-        },
-        {
-          "href": "/press",
-          "label": "Press"
-        },
-        {
-          "href": "/credits",
-          "label": "Credits"
-        },
-        {
-          "href": "/guestbook",
-          "label": "Guestbook"
-        }
-      ]
-    },
-    "newsletter": {
-      "consentLabel": "No spam. Just music and warmth. Unsubscribe anytime.",
-      "placeholder": "your@email.com",
-      "submitLabel": "Subscribe",
-      "subtitle": "Get updates when new music drops, early access to tracks, and occasional raccoon thoughts.",
-      "successMessage": "You're in. Welcome to the pack.",
-      "title": "Join the Pack"
-    },
-    "placeholders": {
-      "artistName": "Brahm the Raccoon",
-      "businessName": "Brahm the Raccoon",
-      "city": "",
-      "year": 2026
-    },
-    "press": {
-      "bio": {
-        "content": "Brahm the Raccoon (also known as Lonely Raccoon) is a lo-fi acoustic music project from Paraguay. The project is the musical expression of Brahm — the soft, vulnerable inner self of someone who spent years behind masks and service, finally learning to ask for what he needs.\n\nThe debut album 'Still Reaching' (2026) is a 10-track cycle that moves from cold isolation through devastating wound, tentative warmth, compulsive busyness, sensual longing, genuine connection, the exhaustion of the mask, the terror of receiving, the safety of being held, and finally — the absurd, tired hope of still reaching.\n\nMusically, it's sparse acoustic guitar, close-mic vocals, lo-fi warmth. No drums, no production tricks. Just a person with a guitar in a room, saying the things they were never able to say.",
-        "downloads": [],
-        "title": "About"
-      },
-      "booking": {
-        "email": "",
-        "instagram": "https://instagram.com/lonelyraccoon",
-        "subtitle": "For booking, interviews, or press inquiries",
-        "title": "Booking & Press"
-      },
-      "credits": {
-        "items": [
-          {
-            "name": "Brahm the Raccoon (Lonely Raccoon)",
-            "role": "Artist"
-          },
-          {
-            "name": "Suno V5_5 via sunoapi.org",
-            "role": "Production Engine"
-          },
-          {
-            "name": "V5_5",
-            "role": "Model"
-          },
-          {
-            "name": "Male",
-            "role": "Vocal Gender"
-          },
-          {
-            "name": "Lo-fi Acoustic / Singer-Songwriter",
-            "role": "Genre"
-          },
-          {
-            "name": "2026, Paraguay",
-            "role": "Recorded"
-          }
-        ],
-        "subtitle": "Still Reaching",
-        "title": "Album Credits"
-      },
-      "hero": {
-        "headline": "Press Kit",
-        "subheadline": "Electronic Press Kit (EPK)"
-      },
-      "seo": {
-        "description": "Electronic press kit for Brahm the Raccoon. Bio, photos, and contact for booking and press.",
-        "title": "Press Kit — Brahm the Raccoon"
-      },
-      "techSpecs": {
-        "items": [
-          {
-            "label": "Stage Setup",
-            "value": "One vocalist with acoustic guitar. DI or SM57 for guitar. SM58 for vocal. Minimal monitoring."
-          },
-          {
-            "label": "Backline Required",
-            "value": "One vocal mic (SM58 preferred), one instrument mic or DI, one monitor. That's it."
-          },
-          {
-            "label": "Set Length",
-            "value": "~35 minutes (full album) or 15-20 minute acoustic set available."
-          }
-        ],
-        "title": "Tech Rider"
-      }
-    },
-    "siteDescription": "Brahm the Raccoon (Lonely Raccoon) is a lo-fi acoustic music project from Paraguay. 10-track debut album 'Still Reaching' — warm, intimate songs about touch starvation, healing, and learning to receive.",
-    "siteName": "Brahm the Raccoon",
-    "streaming": {
-      "platforms": [
-        {
-          "icon": "spotify",
-          "name": "Spotify",
-          "url": "#"
-        },
-        {
-          "icon": "apple-music",
-          "name": "Apple Music",
-          "url": "#"
-        },
-        {
-          "icon": "youtube-music",
-          "name": "YouTube Music",
-          "url": "#"
-        },
-        {
-          "icon": "soundcloud",
-          "name": "SoundCloud",
-          "url": "#"
-        },
-        {
-          "icon": "bandcamp",
-          "name": "Bandcamp",
-          "url": "#"
-        },
-        {
-          "icon": "amazon-music",
-          "name": "Amazon Music",
-          "url": "#"
-        }
-      ],
-      "seo": {
-        "description": "Stream Brahm the Raccoon's music on your favorite platform.",
-        "title": "Listen — Brahm the Raccoon"
-      },
-      "subtitle": "Stream Still Reaching on your favorite platform",
-      "title": "Listen Everywhere"
-    },
-    "tagline": "Lo-fi acoustic songs about reaching, resting, and being held"
+    }
   },
   "brahm-the-raccoon:es": {
     "_meta": {
@@ -18722,22 +18463,22 @@ export const CONTENT: Record<string, JsonRecord> = {
       "placeholder": {
         "features": [
           {
-            "description": "One email a month. Nothing more.",
+            "description": "Un email al mes. Nada más.",
             "href": "#newsletter",
             "title": "Subscribe to the newsletter"
           },
           {
-            "description": "Recent work + daily process.",
+            "description": "Trabajo reciente + proceso diario.",
             "href": "https://instagram.com/dayah.litworks",
-            "title": "Follow on Instagram"
+            "title": "Follow me on Instagram"
           },
           {
-            "description": "Specific technical questions about your project, fast answers.",
+            "description": "Preguntas técnicas sobre tu proyecto específico, respuestas rápidas.",
             "href": "https://wa.me/595986868241",
-            "title": "Ask via WhatsApp"
+            "title": "Ask on WhatsApp"
           }
         ],
-        "subtitle": "I don't write blog posts yet. One email a month with concrete tips on indie covers, before/after examples, and genre trends. No filler.",
+        "subtitle": "No escribo blog posts todavía. Un email al mes con tips concretos sobre portadas indie, ejemplos de antes/después y tendencias por género. Sin relleno.",
         "title": "Newsletter only for now",
         "trustBadgesEnabled": false
       },
@@ -18745,15 +18486,60 @@ export const CONTENT: Record<string, JsonRecord> = {
         {
           "category": "Design",
           "date": "2026-04-22",
-          "excerpt": "5 key factors that determine whether your cover attracts or repels readers",
+          "excerpt": "5 factores clave que determinan si tu portada atrae lectores o los aleja",
           "imageUrl": "",
           "readTime": "5 min",
           "slug": "como-elegir-portada-libro",
-          "title": "How to Choose the Perfect Book Cover"
+          "title": "Cómo elegir la portada perfecta para tu libro"
+        },
+        {
+          "category": "Design",
+          "date": "2026-04-29",
+          "excerpt": "Consejos prácticos para autores independientes",
+          "imageUrl": "",
+          "readTime": "4 min",
+          "slug": "marketing-para-autores-independientes",
+          "title": "Marketing Para Autores Independientes"
+        },
+        {
+          "category": "Design",
+          "date": "2026-04-29",
+          "excerpt": "Consejos prácticos para autores independientes",
+          "imageUrl": "",
+          "readTime": "4 min",
+          "slug": "consejos-de-diseno-de-portadas-de-libros",
+          "title": "Consejos De Diseno De Portadas De Libros"
+        },
+        {
+          "category": "Design",
+          "date": "2026-04-29",
+          "excerpt": "Consejos prácticos para autores independientes",
+          "imageUrl": "",
+          "readTime": "4 min",
+          "slug": "antes-y-despues-de-redesignar-portadas-de-libros",
+          "title": "Antes Y Despues De Redesignar Portadas De Libros"
+        },
+        {
+          "category": "Design",
+          "date": "2026-04-29",
+          "excerpt": "Consejos prácticos para autores independientes",
+          "imageUrl": "",
+          "readTime": "4 min",
+          "slug": "guia-de-tipografia-para-autores",
+          "title": "Guia De Tipografia Para Autores"
+        },
+        {
+          "category": "Design",
+          "date": "2026-04-29",
+          "excerpt": "Consejos prácticos para autores independientes",
+          "imageUrl": "",
+          "readTime": "4 min",
+          "slug": "teoria-del-color-para-portadas-de-libros",
+          "title": "Teoria Del Color Para Portadas De Libros"
         }
       ],
       "seo": {
-        "description": "Cover design tips, trends and resources for indie authors",
+        "description": "Tips de diseño de portadas, tendencias y recursos para autores indie",
         "title": "Blog — Dayah LitWorks"
       },
       "trustBadgesEnabled": false
@@ -18762,10 +18548,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       "como-elegir-portada-libro": {
         "author": "Dayah LitWorks",
         "category": "Design",
-        "content": "Your book cover is the first impression a potential reader has of your work. In a world where thousands of books are published daily, your cover needs to stand out in seconds.\n\n## 1. Know Your Genre\nEvery genre has visual conventions. Fantasy readers expect magical elements; thriller readers expect tension and mystery. Don't ignore these conventions — they're a shortcut for your audience to find you.\n\n## 2. Typography Matters More Than You Think\n70% of an effective cover is typography. The title must be legible at thumbnail size (that's how it appears on Amazon). Choose fonts that reflect your book's tone.\n\n## 3. Less is More\nThe most effective covers have one clear focal point. Don't try to tell the entire story on the cover. One strong visual element + excellent typography = a cover that sells.\n\n## 4. Test at Thumbnail Size\nYour cover will appear at roughly 100x150px on most online stores. If it's not readable at that size, you need a redesign.\n\n## 5. Invest in Professionalism\nA professional cover is not an expense — it's an investment. It's the difference between your book looking like an amateur project or a serious publication.\n\n---\n\n*Ready to give your book the cover it deserves? [Contact me on WhatsApp](https://wa.me/595986868241) and let's talk about your project.*",
+        "content": "La portada de tu libro es la primera impresión que un lector potencial tiene de tu obra. En un mundo donde miles de libros se publican cada día, tu portada necesita destacarse en segundos.\n\n## 1. Conocé tu género\nCada género tiene convenciones visuales. Los lectores de fantasía esperan ver elementos mágicos; los de thriller, tensión y misterio. No ignorés estas convenciones: son un atajo para que tu público te encuentre.\n\n## 2. La tipografía importa más de lo que pensás\nEl 70% de una portada eficaz es tipografía. El título debe ser legible en miniatura (así se ve en Amazon). Elegí fuentes que reflejen el tono de tu libro.\n\n## 3. Menos es más\nLas portadas más efectivas tienen un punto focal claro. No intentés contar toda la historia en la tapa. Un elemento visual fuerte + tipografía excelente = portada que vende.\n\n## 4. Probá en miniatura\nTu portada se verá de 100x150px en la mayoría de las tiendas online. Si no se lee a ese tamaño, necesitás rediseñarla.\n\n## 5. Invertí en profesionalismo\nUna portada profesional no es un gasto, es una inversión. Es la diferencia entre que tu libro se vea como un proyecto amateur o una publicación seria.\n\n---\n\n*¿Listo para darle a tu libro la portada que merece? [Contactame por WhatsApp](https://wa.me/595986868241) y charlemos sobre tu proyecto.*",
         "date": "2026-04-22",
         "readTime": "5 min",
-        "title": "How to Choose the Perfect Book Cover"
+        "title": "Cómo elegir la portada perfecta para tu libro"
       }
     },
     "blogRelated": {
@@ -18773,107 +18559,107 @@ export const CONTENT: Record<string, JsonRecord> = {
     },
     "contactHero": {
       "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80",
-      "subtitle": "Send visual references with your request — it lets me quote accurately (it's the most important step of the process, that's why it's in my terms).",
+      "subtitle": "Envía referencias visuales junto con el pedido — así puedo cotizar con precisión (es el paso más importante del proceso, por eso está en mis términos).",
       "title": "Tell me about your book",
       "trustBadgesEnabled": false
     },
     "ctaBanner": {
       "ctaHref": "https://wa.me/595986868241",
-      "ctaText": "Message on WhatsApp",
-      "subtitle": "Get in touch and let's make your book stand out",
+      "ctaText": "Write me on WhatsApp",
+      "subtitle": "Contact me and let's make your book stand out",
       "title": "Ready for the perfect cover?"
     },
     "faq": {
       "items": [
         {
-          "answer": "1–3 weeks depending on project complexity. Premades are delivered in 1–2 weeks.",
-          "question": "How long does a custom cover take?"
+          "answer": "Entre 1 y 3 semanas dependiendo de la complejidad del proyecto. Las premades se entregan en 1–2 semanas.",
+          "question": "¿Cuánto tarda una portada personalizada?"
         },
         {
-          "answer": "Revisions within the predefined plan are included. Additional changes beyond scope may have extra cost.",
-          "question": "How many revisions are included?"
+          "answer": "Las revisiones están incluidas dentro del plan predefinido. Cambios adicionales fuera del scope pueden tener costo extra.",
+          "question": "¿Cuántas revisiones incluye?"
         },
         {
-          "answer": "50% advance to start. Balance upon final design approval. We accept Western Union, bank transfer and cash.",
-          "question": "What's the payment process?"
+          "answer": "Se requiere un anticipo del 50% para comenzar. El resto al aprobar el diseño final. Aceptamos Western Union, transferencia bancaria y efectivo.",
+          "question": "¿Cómo es el proceso de pago?"
         },
         {
-          "answer": "We charge in USD and guaraníes (₲). See our pricing table for both currencies.",
-          "question": "What currency do you charge in?"
+          "answer": "Cobramos en USD y en guaraníes (₲). Los precios en guaraníes están en nuestra tabla de servicios.",
+          "question": "¿En qué moneda cobran?"
         },
         {
-          "answer": "Yes. Design rights belong to Dayah LitWorks until full payment. Once paid 100%, you can use the cover on any platform.",
-          "question": "Can I use the cover on Amazon KDP / Wattpad / publishers?"
+          "answer": "Sí. Los derechos del diseño pertenecen a Dayah LitWorks hasta el pago completo. Una vez pago al 100%, podés usar la portada en la plataforma que elijas.",
+          "question": "¿Puedo usar la portada en Amazon KDP / Wattpad / editorial?"
         },
         {
-          "answer": "A realistic 3D render of your book. Perfect for social media promotion and marketing.",
-          "question": "What is a 3D mockup?"
+          "answer": "Es una imagen realista de tu libro renderizada en 3D. Ideal para promocionar en redes sociales y marketing.",
+          "question": "¿Qué es un mockup 3D?"
         },
         {
-          "answer": "If the client cancels after work has started, the advance payment is non-refundable.",
-          "question": "What if I cancel the project?"
+          "answer": "Si el cliente decide rescindir el contrato una vez iniciado el proyecto, el anticipo no es reembolsable.",
+          "question": "¿Qué pasa si cancelo el proyecto?"
         },
         {
-          "answer": "Yes, you can hire a redesign as a custom cover. Send us your current cover and new ideas.",
-          "question": "Do you redesign existing covers?"
+          "answer": "Sí, podés contratar un rediseño como portada personalizada. Envianos la portada actual y tus nuevas ideas.",
+          "question": "¿Hacés rediseños de portadas existentes?"
         },
         {
-          "answer": "Book title, synopsis, genre, visual references (ideas, fonts, colors, styles). Send references BEFORE requesting design.",
-          "question": "What do I need to get started?"
+          "answer": "Título del libro, sinopsis, género, referencias visuales (ideas, tipografías, colores, estilos). Es importante enviar las referencias ANTES de solicitar el diseño.",
+          "question": "¿Qué necesito enviar para empezar?"
         },
         {
-          "answer": "We design covers in Spanish and English. Typography adapts to your book's language.",
-          "question": "What language do you design in?"
+          "answer": "Diseñamos portadas en español e inglés. Los textos tipográficos se adaptan al idioma de tu libro.",
+          "question": "¿En qué idioma diseñás?"
         },
         {
-          "answer": "Contact us on WhatsApp to check availability. Rush projects may have a surcharge.",
-          "question": "Can I request rush delivery (48–72h)?"
+          "answer": "Contáctanos por WhatsApp para verificar disponibilidad. Los proyectos urgentes pueden tener un recargo.",
+          "question": "¿Puedo contratar urgente (48–72h)?"
         },
         {
-          "answer": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images.",
-          "question": "How are final files delivered?"
+          "answer": "Archivos en alta resolución (JPG, PDF, PNG) listos para subir a tu plataforma. Los mockups se entrega como imágenes renderizadas.",
+          "question": "¿Cómo se entregados los archivos finales?"
         }
       ],
       "title": "Frequently Asked Questions"
     },
     "faqPage": {
       "hero": {
-        "subtitle": "Quick answers most authors need before starting.",
-        "title": "Frequently asked questions"
+        "subtitle": "Las respuestas cortas que la mayoría de autores necesita antes de arrancar.",
+        "title": "Preguntas frecuentes"
       },
       "seo": {
-        "description": "Answers to common questions about book-cover design: timelines, pricing, revisions, formats and licensing.",
-        "title": "FAQ — Dayah LitWorks"
+        "description": "Respuestas a las dudas más comunes sobre el diseño de portadas: tiempos, precios, revisiones, formatos y licencia.",
+        "title": "Preguntas frecuentes — Dayah LitWorks"
       }
     },
     "footer": {
       "businessName": "Dayah LitWorks",
       "city": "Asunción",
-      "copyright": "© 2026 Dayah LitWorks. All rights reserved.",
+      "copyright": "© 2026 Dayah LitWorks. Todos los derechos reservados.",
       "founded": "2019",
       "navLinks": [
         {
-          "href": "/s/en/dayah-litworks/servicios",
+          "href": "/s/es/dayah-litworks/servicios",
           "label": "Services"
         },
         {
-          "href": "/s/en/dayah-litworks/portafolio",
+          "href": "/s/es/dayah-litworks/portafolio",
           "label": "Portfolio"
         },
         {
-          "href": "/s/en/dayah-litworks/sobre",
+          "href": "/s/es/dayah-litworks/sobre",
           "label": "About"
         },
         {
-          "href": "/s/en/dayah-litworks/contacto",
+          "href": "/s/es/dayah-litworks/contacto",
           "label": "Contact"
         },
         {
-          "href": "/s/en/dayah-litworks/terminos",
+          "href": "/s/es/dayah-litworks/terminos",
           "label": "Terms"
         },
         {
-          "href": "/s/en/dayah-litworks/privacidad",
+          "href": "/s/es/dayah-litworks/privacidad",
           "label": "Privacy"
         }
       ]
@@ -18885,753 +18671,905 @@ export const CONTENT: Record<string, JsonRecord> = {
         "facebook": "https://www.facebook.com/bookc0verdesign/",
         "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28875.69!2d-57.5759!3d-25.2637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da8e96abe1edb%3A0x9aa9f89b0b1c1234!2zQXN1bmNpw7NuLCBQYXJhZ3VheQ!5e0!3m2!1ses!2spy!4v1700000000000!5m2!1ses!2spy",
         "hours": {
-          "Friday": "09:00 – 18:00",
-          "Monday": "09:00 – 18:00",
-          "Saturday": "Closed",
-          "Sunday": "Closed",
-          "Thursday": "09:00 – 18:00",
-          "Tuesday": "09:00 – 18:00",
-          "Wednesday": "09:00 – 18:00"
+          "Domingo": "Cerrado",
+          "Jueves": "09:00 – 18:00",
+          "Lunes": "09:00 – 18:00",
+          "Martes": "09:00 – 18:00",
+          "Miércoles": "09:00 – 18:00",
+          "Sábado": "Cerrado",
+          "Viernes": "09:00 – 18:00"
         },
-        "hoursCompact": "Mon–Fri 09:00–18:00",
+        "hoursCompact": "Lun–Vie 09:00–18:00",
         "instagram": "@dayah.litworks",
         "linkedin": "https://www.linkedin.com/in/daihana-araujo/",
-        "subtitle": "Same-day response",
+        "subtitle": "Respuesta en el día",
         "title": "Contact Us",
         "whatsapp": "+595986868241",
-        "whatsappMessage": "Hi Dayah! I want to ask about a cover design."
+        "whatsappMessage": "Hola Dayah! Quiero consultar por una portada."
       },
       "faq": {
-        "items": [
-          {
-            "a": "1–3 weeks depending on project complexity. Premades are delivered in 1–2 weeks.",
-            "q": "How long does a custom cover take?"
-          },
-          {
-            "a": "Revisions within the predefined plan are included. Additional changes beyond scope may have extra cost.",
-            "q": "How many revisions are included?"
-          },
-          {
-            "a": "50% advance to start. Balance upon final design approval. We accept Western Union, bank transfer and cash.",
-            "q": "What's the payment process?"
-          },
-          {
-            "a": "We charge in USD and guaraníes (₲). See our pricing table for both currencies.",
-            "q": "What currency do you charge in?"
-          },
-          {
-            "a": "Yes. Design rights belong to Dayah LitWorks until full payment. Once paid 100%, you can use the cover on any platform.",
-            "q": "Can I use the cover on Amazon KDP / Wattpad / publishers?"
-          },
-          {
-            "a": "A realistic 3D render of your book. Perfect for social media promotion and marketing.",
-            "q": "What is a 3D mockup?"
-          },
-          {
-            "a": "If the client cancels after work has started, the advance payment is non-refundable.",
-            "q": "What if I cancel the project?"
-          },
-          {
-            "a": "Yes, you can hire a redesign as a custom cover. Send us your current cover and new ideas.",
-            "q": "Do you redesign existing covers?"
-          },
-          {
-            "a": "Book title, synopsis, genre, visual references (ideas, fonts, colors, styles). Send references BEFORE requesting design.",
-            "q": "What do I need to get started?"
-          },
-          {
-            "a": "We design covers in Spanish and English. Typography adapts to your book's language.",
-            "q": "What language do you design in?"
-          },
-          {
-            "a": "Contact us on WhatsApp to check availability. Rush projects may have a surcharge.",
-            "q": "Can I request rush delivery (48–72h)?"
-          },
-          {
-            "a": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images.",
-            "q": "How are final files delivered?"
-          }
-        ],
-        "title": "FAQ"
+        "items": [],
+        "title": "Frequently Asked Questions"
       },
       "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80",
-        "ctaPrimaryHref": "/s/en/dayah-litworks/catalogo",
+        "backgroundImage": "",
+        "ctaPrimaryHref": "/s/es/dayah-litworks/catalogo",
         "ctaPrimaryText": "View Catalog",
         "ctaSecondaryHref": "https://wa.me/595986868241",
         "ctaSecondaryText": "WhatsApp",
         "headline": "Covers that sell.",
-        "subheadline": "For indie authors worldwide. USD or PYG.",
+        "overlayGradient": "linear-gradient(135deg, #0f0f1a 0%, #16213e 50%, #1a1a2e 100%)",
+        "overlayOpacity": 1,
+        "subheadline": "Para autores indie en todo el mundo. USD o PYG.",
         "trustBadges": [
-          "6+ years of experience",
-          "USD or PYG",
-          "Delivery in 1–2 weeks"
+          "+6 años de experiencia",
+          "USD o PYG",
+          "Entrega 1–2 semanas"
         ]
+      },
+      "portfolio": {
+        "items": [
+          {
+            "category": "Romance",
+            "description": "Portada romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
+            "title": "Cómo Volver Loco a Mi Guardaespaldas"
+          },
+          {
+            "category": "Romance",
+            "description": "Portada romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
+            "title": "El Secreto Que Nos Unió"
+          },
+          {
+            "category": "Romance Oscuro",
+            "description": "Portada dark romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+            "title": "Perdóname Padre o Hazme Tuya"
+          },
+          {
+            "category": "Romance",
+            "description": "Portada romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
+            "title": "Macarena y sus Ex"
+          },
+          {
+            "category": "Paperback",
+            "description": "Portada completa tapa blanda",
+            "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
+            "title": "PF Vol I — Tapa Blanda"
+          },
+          {
+            "category": "Paperback",
+            "description": "Portada completa tapa blanda",
+            "imageUrl": "/images/dayah/covers/cover-pf-vol2-paperback.jpg",
+            "title": "PF Vol II — Tapa Blanda"
+          },
+          {
+            "category": "Premade",
+            "description": "Portada premade",
+            "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
+            "title": "Extrême"
+          },
+          {
+            "category": "Premade",
+            "description": "Portada premade",
+            "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
+            "title": "Intense 2° Edición"
+          }
+        ],
+        "subtitle": "Portadas de libros diseñadas por Dayah LitWorks",
+        "title": "Recent Work"
       },
       "process": {
         "steps": [
           {
-            "description": "Send me genre, audience, visual references, and deadline. Within 24 h I'll confirm whether the project fits my schedule.",
-            "duration": "Day 1",
+            "description": "Me mandás género, audiencia, referencias visuales y deadline. En 24 h te confirmo si el proyecto encaja con mi agenda.",
+            "duration": "Día 1",
             "number": 1,
             "title": "Brief + references"
           },
           {
-            "description": "I propose 2 initial options. You pick one and we refine it across 2 revision rounds at no extra cost.",
-            "duration": "Week 1",
+            "description": "Te propongo 2 opciones iniciales. Elegís una y la refinamos en 2 rondas de revisión sin costo.",
+            "duration": "Semana 1",
             "number": 2,
             "title": "Design"
           },
           {
             "description": "High-resolution files for your platform: eBook cover JPG/PDF, title PNG, reveal banners, 2 mockups. Ready to upload.",
-            "duration": "Week 2",
+            "duration": "Semana 2",
             "number": 3,
-            "title": "Final delivery"
+            "title": "Final Delivery"
           }
         ],
-        "subtitle": "From manuscript to cover in 3 steps. 2 revision rounds included. Pay in 2 installments (50% to start, 50% on approval).",
+        "subtitle": "De manuscrito a portada en 3 pasos. 2 revisiones incluidas. Pago en 2 tramos (50% al empezar, 50% al aprobar).",
         "title": "Process"
       },
       "products": {
         "backgroundImage": "https://images.unsplash.com/photo-1492539438225-2666b2a98f93?auto=format&fit=crop&w=2000&q=80",
         "categories": [
           "All",
-          "Fantasy",
+          "Fantasía",
           "Romance",
           "Thriller",
-          "Sci-Fi",
-          "Horror"
+          "Ciencia Ficción",
+          "Terror"
         ],
         "items": [
           {
             "available": true,
-            "category": "Fantasy",
-            "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Whispers%20of%20the%20Forest'",
-            "description": "Premade cover — Fantasy/Romance",
+            "category": "Fantasía",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Susurros%20del%20Bosque'",
+            "description": "Portada premade — Fantasía/Romance",
             "format": "eBook",
-            "imageUrl": "",
+            "image": "/images/dayah/covers/susurros-del-bosque.svg",
+            "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
             "includes": [
-              "eBook cover (JPG/PDF)",
-              "Title PNG + Title page PNG",
-              "2 reveal banners",
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
               "2 mockups"
             ],
-            "name": "Whispers of the Forest",
-            "pricePYG": "₲250,000",
+            "name": "Susurros del Bosque",
             "priceUSD": "$35"
           },
           {
             "available": true,
             "category": "Romance",
-            "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Heart%20of%20Ash'",
-            "description": "Premade cover — Dark Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Coraz%C3%B3n%20de%20Cenizas'",
+            "description": "Portada premade — Romance Oscuro",
             "format": "eBook",
-            "imageUrl": "",
+            "image": "/images/dayah/covers/corazon-de-cenizas.svg",
+            "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
             "includes": [
-              "eBook cover (JPG/PDF)",
-              "Title PNG + Title page PNG",
-              "2 reveal banners",
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
               "2 mockups"
             ],
-            "name": "Heart of Ash",
-            "pricePYG": "₲250,000",
+            "name": "Corazón de Cenizas",
             "priceUSD": "$35"
           },
           {
             "available": true,
             "category": "Thriller",
-            "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'The%20Last%20Code'",
-            "description": "Premade cover — Thriller/Suspense",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20%C3%9Altimo%20C%C3%B3digo'",
+            "description": "Portada premade — Thriller/Suspenso",
             "format": "eBook",
-            "imageUrl": "",
+            "image": "/images/dayah/covers/el-ultimo-codigo.svg",
+            "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
             "includes": [
-              "eBook cover (JPG/PDF)",
-              "Title PNG + Title page PNG",
-              "2 reveal banners",
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
               "2 mockups"
             ],
-            "name": "The Last Code",
-            "pricePYG": "₲250,000",
+            "name": "El Último Código",
             "priceUSD": "$30"
           },
           {
             "available": true,
-            "category": "Sci-Fi",
-            "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Inner%20Galaxy'",
-            "description": "Premade cover — Science Fiction",
+            "category": "Ciencia Ficción",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Galaxia%20Interior'",
+            "description": "Portada premade — Ciencia Ficción",
             "format": "eBook",
-            "imageUrl": "",
+            "image": "/images/dayah/covers/galaxia-interior.svg",
+            "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
             "includes": [
-              "eBook cover (JPG/PDF)",
-              "Title PNG + Title page PNG",
-              "2 reveal banners",
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
               "2 mockups"
             ],
-            "name": "Inner Galaxy",
-            "pricePYG": "₲250,000",
+            "name": "Galaxia Interior",
             "priceUSD": "$35"
           },
           {
             "available": true,
-            "category": "Horror",
-            "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Shadows%20in%20the%20Mirror'",
-            "description": "Premade cover — Horror",
+            "category": "Terror",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Sombras%20en%20el%20Espejo'",
+            "description": "Portada premade — Terror/Horror",
             "format": "eBook",
-            "imageUrl": "",
+            "image": "/images/dayah/covers/sombras-en-el-espejo.svg",
+            "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
             "includes": [
-              "eBook cover (JPG/PDF)",
-              "Title PNG + Title page PNG",
-              "2 reveal banners",
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
               "2 mockups"
             ],
-            "name": "Shadows in the Mirror",
-            "pricePYG": "₲250,000",
+            "name": "Sombras en el Espejo",
             "priceUSD": "$30"
           },
           {
             "available": true,
-            "category": "Fantasy",
-            "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Crystal%20Wings'",
-            "description": "Premade cover — YA Fantasy",
+            "category": "Fantasía",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Alas%20de%20Cristal'",
+            "description": "Portada premade — Fantasía Juvenil",
             "format": "eBook",
-            "imageUrl": "",
+            "image": "/images/dayah/covers/alas-de-cristal.svg",
+            "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
             "includes": [
-              "eBook cover (JPG/PDF)",
-              "Title PNG + Title page PNG",
-              "2 reveal banners",
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
               "2 mockups"
             ],
-            "name": "Crystal Wings",
-            "pricePYG": "₲250,000",
+            "name": "Alas de Cristal",
             "priceUSD": "$35"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'C%C3%B3mo%20Volver%20Loco%20a%20Mi%20Guardaespaldas'",
+            "description": "Portada premade — Romance",
+            "format": "eBook",
+            "image": "/images/dayah/covers/como-volver-loco-a-mi-guardaespaldas.svg",
+            "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "Cómo Volver Loco a Mi Guardaespaldas",
+            "priceUSD": "$35"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Perd%C3%B3name%20Padre%20o%20Hazme%20Tuya'",
+            "description": "Portada premade — Romance Oscuro",
+            "format": "eBook",
+            "image": "/images/dayah/covers/perdoname-padre-o-hazme-tuya.svg",
+            "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "Perdóname Padre o Hazme Tuya",
+            "priceUSD": "$35"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20Secreto%20Que%20Nos%20Uni%C3%B3'",
+            "description": "Portada premade — Romance",
+            "format": "eBook",
+            "image": "/images/dayah/covers/el-secreto-que-nos-unio.svg",
+            "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "El Secreto Que Nos Unió",
+            "priceUSD": "$35"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Macarena%20y%20sus%20Ex'",
+            "description": "Portada premade — Romance",
+            "format": "eBook",
+            "image": "/images/dayah/covers/macarena-y-sus-ex.svg",
+            "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "Macarena y sus Ex",
+            "priceUSD": "$35"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PF%20eBook%20Vol%20I'",
+            "description": "Portada premade — Edición Especial",
+            "format": "eBook",
+            "image": "/images/dayah/covers/pf-ebook-vol-i.svg",
+            "imageUrl": "/images/dayah/covers/cover-pf-vol1-ebook.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "PF eBook Vol I",
+            "priceUSD": "$30"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PF%20eBook%20Vol%20II'",
+            "description": "Portada premade — Edición Especial",
+            "format": "eBook",
+            "image": "/images/dayah/covers/pf-ebook-vol-ii.svg",
+            "imageUrl": "/images/dayah/covers/cover-pf-vol2-ebook.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "PF eBook Vol II",
+            "priceUSD": "$30"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PPOHT'",
+            "description": "Portada premade — Tapa Blanda",
+            "format": "Paperback",
+            "image": "/images/dayah/covers/ppoht.svg",
+            "imageUrl": "/images/dayah/covers/cover-ppoht-paperback.jpg",
+            "includes": [
+              "Portada Tapa Blanda (JPG/PDF)",
+              "Archivo imprimible (PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "PPOHT",
+            "priceUSD": "$70"
           }
         ],
-        "subtitle": "Ready-to-use designs — customization included",
-        "title": "Premade Catalog"
+        "subtitle": "Diseños listos para usar — personalización incluida",
+        "title": "Catálogo Premade"
       },
       "seo": {
-        "description": "Custom and premade book cover design. From Asunción to authors worldwide. Payment in USD and guaraníes.",
-        "title": "Dayah LitWorks — Professional Book Cover Design"
+        "description": "Diseño de portadas de libros personalizadas y premade. Desde Asunción para autores en todo el mundo. Cobro en USD y guaraníes.",
+        "title": "Dayah LitWorks — Diseño de portadas de libros profesionales"
       },
       "services": {
         "addons": [
           {
-            "description": "Realistic 3D render of your book for Amazon, Instagram, and press. Price depends on number of angles.",
-            "name": "Static 3D Mockup",
+            "description": "Imagen realista de tu libro en 3D para Amazon, Instagram y prensa. Precio según cantidad de ángulos.",
+            "name": "Mockup 3D Estático",
             "price": "USD 15–30"
           },
           {
-            "description": "A 5–10 second animation — ideal for social reveals. Includes 1 revision round.",
-            "name": "Video 3D Mockup",
+            "description": "Animación de 5–10 segundos, ideal para reveal en redes. Incluye 1 ronda de ajustes.",
+            "name": "Video Mockup 3D",
             "price": "USD 40–80"
           },
           {
-            "description": "Professional pass before layout. Quoted on the first 2 chapters + total length.",
-            "name": "Copyediting",
-            "price": "USD 2 / 1000 words"
+            "description": "Revisión profesional antes de maquetar. Se cotiza sobre los primeros 2 capítulos + extensión total.",
+            "name": "Corrección ortotipográfica",
+            "price": "USD 2/1000 palabras"
           },
           {
-            "description": "If you need it sooner than usual, pay a surcharge to jump the queue.",
-            "name": "Rush (delivery <1 week)",
-            "price": "+50% over base price"
+            "description": "Si necesitás el trabajo antes de lo usual, pagás un recargo para saltar la cola.",
+            "name": "Rush (entrega <1 semana)",
+            "price": "+50% sobre el precio base"
           },
           {
-            "description": "Scope changes outside the original direction.",
-            "name": "Extra revision (beyond the 2 included)",
-            "price": "USD 20 / round"
+            "description": "Cambios de dirección fuera del scope original.",
+            "name": "Revisión adicional (más allá de las 2 incluidas)",
+            "price": "USD 20/ronda"
           }
         ],
         "addons_block": {
           "features": [
             {
-              "description": "Realistic 3D render of your book for Amazon, Instagram, and press. Price depends on number of angles. — USD 15–30",
-              "title": "Static 3D Mockup"
+              "description": "Imagen realista de tu libro en 3D para Amazon, Instagram y prensa. Precio según cantidad de ángulos. — USD 15–30",
+              "title": "Mockup 3D Estático"
             },
             {
-              "description": "A 5–10 second animation — ideal for social reveals. Includes 1 revision round. — USD 40–80",
-              "title": "Video 3D Mockup"
+              "description": "Animación de 5–10 segundos, ideal para reveal en redes. Incluye 1 ronda de ajustes. — USD 40–80",
+              "title": "Video Mockup 3D"
             },
             {
-              "description": "Professional pass before layout. Quoted on the first 2 chapters + total length. — USD 2 / 1000 words",
-              "title": "Copyediting"
+              "description": "Revisión profesional antes de maquetar. Se cotiza sobre los primeros 2 capítulos + extensión total. — USD 2/1000 palabras",
+              "title": "Corrección ortotipográfica"
             },
             {
-              "description": "If you need it sooner than usual, pay a surcharge to jump the queue. — +50% over base price",
-              "title": "Rush (delivery <1 week)"
+              "description": "Si necesitás el trabajo antes de lo usual, pagás un recargo para saltar la cola. — +50% sobre el precio base",
+              "title": "Rush (entrega <1 semana)"
             },
             {
-              "description": "Scope changes outside the original direction. — USD 20 / round",
-              "title": "Extra revision (beyond the 2 included)"
+              "description": "Cambios de dirección fuera del scope original. — USD 20/ronda",
+              "title": "Revisión adicional (más allá de las 2 incluidas)"
+            },
+            {
+              "description": "Logo, paleta de colores, tipografía y plantillas para tu marca autoral. — USD 50",
+              "title": "Diseño de Marca Personal para Autores"
+            },
+            {
+              "description": "Banners publicitarios para Amazon ADS y redes sociales. — USD 15",
+              "title": "Banner ADS (300x250 / 728x90)"
+            },
+            {
+              "description": "3 diseños para Instagram/Facebook para promocionar tu libro. — USD 25",
+              "title": "Set de Redes Sociales (3 post)"
+            },
+            {
+              "description": "Animación corta para lanzamiento del libro. Ideal para redes. — USD 60",
+              "title": "Book Trailer (15s animado)"
+            },
+            {
+              "description": "Adaptar la portada existente a una saga manteniendo coherencia visual. — USD 30",
+              "title": "Adaptación de Portada a Serie"
             }
           ],
-          "subtitle": "Add-ons you can attach to any package.",
-          "title": "Additional services"
+          "subtitle": "Extras you can add to any package.",
+          "title": "Additional Services"
         },
         "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80",
         "categories": [
           {
-            "description": "Exclusive design created from scratch for your book",
+            "description": "Diseño exclusivo creado desde cero para tu libro",
             "id": "custom",
             "items": [
               {
-                "delivery": "1–2 weeks",
+                "delivery": "1–2 semanas",
                 "description": "Exclusive eBook cover design",
                 "includes": [
-                  "eBook cover (JPG/PDF)",
-                  "Title PNG + Title page PNG",
-                  "2 cover reveal banners",
+                  "Portada de libro electrónico (JPG/PDF)",
+                  "Título en formato PNG y Portadilla PNG",
+                  "2 banners de revelación de portada",
                   "2 Mockups"
                 ],
                 "name": "Custom Cover — eBook",
-                "pricePYG": "₲300,000",
                 "priceUSD": "$45"
               },
               {
-                "delivery": "1–2 weeks",
-                "description": "Full cover (front + spine + back) for print",
+                "delivery": "1–2 semanas",
+                "description": "Full cover (front, spine, back) for print",
                 "includes": [
-                  "Paperback cover (JPG/PDF)",
-                  "Print-ready file (PDF)",
-                  "Title PNG + Title page PNG",
-                  "2 cover reveal banners",
+                  "Portada de libro tapa blanda (JPG/PDF)",
+                  "Archivo imprimible (PDF)",
+                  "Título en formato PNG y Portadilla PNG",
+                  "2 banners de revelación de portada",
                   "2 Mockups"
                 ],
                 "name": "Custom Cover — Paperback",
-                "pricePYG": "₲500,000",
                 "priceUSD": "$80"
               },
               {
-                "delivery": "2–3 weeks",
-                "description": "Complete combo: eBook + paperback cover",
+                "delivery": "2–3 semanas",
+                "description": "Full combo: eBook cover + paperback",
                 "includes": [
-                  "eBook cover (JPG/PDF)",
-                  "Print-ready file (PDF)",
-                  "Title PNG + Title page PNG",
-                  "2 cover reveal banners",
+                  "Portada de libro electrónico (JPG/PDF)",
+                  "Archivo imprimible (PDF)",
+                  "Título en formato PNG y Portadilla PNG",
+                  "2 banners de revelación de portada",
                   "2 Mockups"
                 ],
-                "name": "Cover Paperback & eBook",
-                "pricePYG": "₲800,000",
+                "name": "Paperback & eBook Cover",
                 "priceUSD": "$120"
               }
             ],
-            "title": "Custom Covers"
+            "title": "Portadas Personalizadas"
           },
           {
-            "description": "Ready-to-use designs with typography and color customization",
+            "description": "Diseños listos para usar con personalización de tipografía y color",
             "id": "premade",
             "items": [
               {
-                "delivery": "1–2 weeks",
+                "delivery": "1–2 semanas",
                 "description": "Premade eBook cover with customization",
                 "includes": [
-                  "eBook cover (JPG/PDF)",
-                  "Title PNG + Title page PNG",
-                  "2 cover reveal banners",
+                  "Portada de libro electrónico (JPG/PDF)",
+                  "Título en formato PNG y Portadilla PNG",
+                  "2 banners de revelación de portada",
                   "2 Mockups"
                 ],
                 "name": "Premade eBook",
-                "pricePYG": "₲250,000",
                 "priceUSD": "$35",
-                "scopeNote": "Includes copy and typography alterations, color changes, minor element repositioning"
+                "scopeNote": "Incluye alteraciones en redacción y tipografía, cambios de color, cambios menores en posición de elementos"
               },
               {
-                "delivery": "1–2 weeks",
-                "description": "Premade cover with paperback version",
+                "delivery": "1–2 semanas",
+                "description": "Complete premade cover with paperback version",
                 "includes": [
-                  "Paperback cover (JPG/PDF)",
-                  "Print-ready file (PDF)",
-                  "Title PNG + Title page PNG",
-                  "2 cover reveal banners",
+                  "Portada de libro tapa blanda (JPG/PDF)",
+                  "Archivo imprimible (PDF)",
+                  "Título en formato PNG y Portadilla PNG",
+                  "2 banners de revelación de portada",
                   "2 Mockups"
                 ],
                 "name": "Premade eBook & Paperback",
-                "pricePYG": "₲500,000",
                 "priceUSD": "$80"
               }
             ],
-            "title": "Premade Covers"
+            "title": "Portadas Premade"
           },
           {
-            "description": "Professional book interior design",
-            "id": "layout",
+            "description": "Diseño interior profesional para tu libro",
+            "id": "maquetacion",
             "items": [
               {
-                "delivery": "1–2 weeks",
-                "description": "Professional interior design for eBooks",
+                "delivery": "1–2 semanas",
+                "description": "Professional interior layout for eBook",
                 "includes": [
-                  "Professional interior design",
-                  "File per platform specs (WORD/PDF)"
+                  "Diseño interior profesional",
+                  "Entrega del archivo según especificaciones de la plataforma (WORD/PDF)"
                 ],
                 "name": "eBook Layout",
-                "pricePYG": "₲160,000",
                 "priceUSD": "$25"
               },
               {
-                "delivery": "1–2 weeks",
-                "description": "Professional interior design for print",
+                "delivery": "1–2 semanas",
+                "description": "Professional interior layout for print",
                 "includes": [
-                  "Professional interior design",
-                  "File per platform specs (WORD/PDF)"
+                  "Diseño interior profesional",
+                  "Entrega del archivo según especificaciones de la plataforma (WORD/PDF)"
                 ],
                 "name": "Paperback Layout",
-                "pricePYG": "₲250,000",
                 "priceUSD": "$35"
               },
               {
-                "delivery": "1–2 weeks",
-                "description": "Complete interior design for both formats",
+                "delivery": "1–2 semanas",
+                "description": "Complete interior layout for both versions",
                 "includes": [
-                  "Professional interior design",
-                  "File per platform specs (WORD/PDF)"
+                  "Diseño interior profesional",
+                  "Entrega del archivo según especificaciones de la plataforma (WORD/PDF)"
                 ],
                 "name": "eBook & Paperback Layout",
-                "pricePYG": "₲320,000",
                 "priceUSD": "$50"
               }
             ],
-            "title": "Interior Layout"
+            "title": "Maquetación Interior"
           }
         ],
         "items": [
           {
-            "category": "Custom Covers",
-            "delivery": "1–2 weeks",
+            "category": "Portadas Personalizadas",
+            "delivery": "1–2 semanas",
             "description": "Exclusive eBook cover design",
             "includes": [
-              "eBook cover (JPG/PDF)",
-              "Title PNG + Title page PNG",
-              "2 cover reveal banners",
+              "Portada de libro electrónico (JPG/PDF)",
+              "Título en formato PNG y Portadilla PNG",
+              "2 banners de revelación de portada",
               "2 Mockups"
             ],
             "name": "Custom Cover — eBook",
-            "pricePYG": "₲300,000",
             "priceUSD": "$45"
           },
           {
-            "category": "Custom Covers",
-            "delivery": "1–2 weeks",
-            "description": "Full cover (front + spine + back) for print",
+            "category": "Portadas Personalizadas",
+            "delivery": "1–2 semanas",
+            "description": "Full cover (front, spine, back) for print",
             "includes": [
-              "Paperback cover (JPG/PDF)",
-              "Print-ready file (PDF)",
-              "Title PNG + Title page PNG",
-              "2 cover reveal banners",
+              "Portada de libro tapa blanda (JPG/PDF)",
+              "Archivo imprimible (PDF)",
+              "Título en formato PNG y Portadilla PNG",
+              "2 banners de revelación de portada",
               "2 Mockups"
             ],
             "name": "Custom Cover — Paperback",
-            "pricePYG": "₲500,000",
             "priceUSD": "$80"
           },
           {
-            "category": "Custom Covers",
-            "delivery": "2–3 weeks",
-            "description": "Complete combo: eBook + paperback cover",
+            "category": "Portadas Personalizadas",
+            "delivery": "2–3 semanas",
+            "description": "Full combo: eBook cover + paperback",
             "includes": [
-              "eBook cover (JPG/PDF)",
-              "Print-ready file (PDF)",
-              "Title PNG + Title page PNG",
-              "2 cover reveal banners",
+              "Portada de libro electrónico (JPG/PDF)",
+              "Archivo imprimible (PDF)",
+              "Título en formato PNG y Portadilla PNG",
+              "2 banners de revelación de portada",
               "2 Mockups"
             ],
-            "name": "Cover Paperback & eBook",
-            "pricePYG": "₲800,000",
+            "name": "Paperback & eBook Cover",
             "priceUSD": "$120"
           },
           {
-            "category": "Premade Covers",
-            "delivery": "1–2 weeks",
+            "category": "Portadas Premade",
+            "delivery": "1–2 semanas",
             "description": "Premade eBook cover with customization",
             "includes": [
-              "eBook cover (JPG/PDF)",
-              "Title PNG + Title page PNG",
-              "2 cover reveal banners",
+              "Portada de libro electrónico (JPG/PDF)",
+              "Título en formato PNG y Portadilla PNG",
+              "2 banners de revelación de portada",
               "2 Mockups"
             ],
             "name": "Premade eBook",
-            "pricePYG": "₲250,000",
             "priceUSD": "$35",
-            "scopeNote": "Includes copy and typography alterations, color changes, minor element repositioning"
+            "scopeNote": "Incluye alteraciones en redacción y tipografía, cambios de color, cambios menores en posición de elementos"
           },
           {
-            "category": "Premade Covers",
-            "delivery": "1–2 weeks",
-            "description": "Premade cover with paperback version",
+            "category": "Portadas Premade",
+            "delivery": "1–2 semanas",
+            "description": "Complete premade cover with paperback version",
             "includes": [
-              "Paperback cover (JPG/PDF)",
-              "Print-ready file (PDF)",
-              "Title PNG + Title page PNG",
-              "2 cover reveal banners",
+              "Portada de libro tapa blanda (JPG/PDF)",
+              "Archivo imprimible (PDF)",
+              "Título en formato PNG y Portadilla PNG",
+              "2 banners de revelación de portada",
               "2 Mockups"
             ],
             "name": "Premade eBook & Paperback",
-            "pricePYG": "₲500,000",
             "priceUSD": "$80"
           },
           {
-            "category": "Interior Layout",
-            "delivery": "1–2 weeks",
-            "description": "Professional interior design for eBooks",
+            "category": "Maquetación Interior",
+            "delivery": "1–2 semanas",
+            "description": "Professional interior layout for eBook",
             "includes": [
-              "Professional interior design",
-              "File per platform specs (WORD/PDF)"
+              "Diseño interior profesional",
+              "Entrega del archivo según especificaciones de la plataforma (WORD/PDF)"
             ],
             "name": "eBook Layout",
-            "pricePYG": "₲160,000",
             "priceUSD": "$25"
           },
           {
-            "category": "Interior Layout",
-            "delivery": "1–2 weeks",
-            "description": "Professional interior design for print",
+            "category": "Maquetación Interior",
+            "delivery": "1–2 semanas",
+            "description": "Professional interior layout for print",
             "includes": [
-              "Professional interior design",
-              "File per platform specs (WORD/PDF)"
+              "Diseño interior profesional",
+              "Entrega del archivo según especificaciones de la plataforma (WORD/PDF)"
             ],
             "name": "Paperback Layout",
-            "pricePYG": "₲250,000",
             "priceUSD": "$35"
           },
           {
-            "category": "Interior Layout",
-            "delivery": "1–2 weeks",
-            "description": "Complete interior design for both formats",
+            "category": "Maquetación Interior",
+            "delivery": "1–2 semanas",
+            "description": "Complete interior layout for both versions",
             "includes": [
-              "Professional interior design",
-              "File per platform specs (WORD/PDF)"
+              "Diseño interior profesional",
+              "Entrega del archivo según especificaciones de la plataforma (WORD/PDF)"
             ],
             "name": "eBook & Paperback Layout",
-            "pricePYG": "₲320,000",
             "priceUSD": "$50"
           }
         ],
-        "subtitle": "Professional design for your book",
+        "subtitle": "Diseño profesional para tu libro",
         "title": "Our Services",
         "trustBadgesEnabled": false
+      },
+      "stats": {
+        "items": [
+          {
+            "icon": "Briefcase",
+            "label": "Proyectos entregados",
+            "value": "+80"
+          },
+          {
+            "icon": "Calendar",
+            "label": "Años en el rubro",
+            "value": "+6"
+          },
+          {
+            "icon": "Globe",
+            "label": "Países alcanzados",
+            "value": "15+"
+          }
+        ]
       },
       "testimonials": {
         "items": [
           {
             "author": "María G.",
-            "quote": "My cover is incredible! Dayah perfectly understood the essence of my book.",
+            "quote": "Mi portada quedó increíble! Dayah entendió perfectamente la esencia de mi libro.",
             "rating": 5
           },
           {
             "author": "Carlos R.",
-            "quote": "Professional, creative and super fast. My premade cover was love at first sight.",
+            "quote": "Profesional, creativa y super rápida. Mi portada premade fue amor a primera vista.",
             "rating": 5
           }
         ],
-        "title": "Testimonials"
+        "title": "Testimonios"
       },
       "trustBadges": {
         "badges": [
           {
-            "description": "Covers that sell books",
+            "description": "Portadas que venden libros",
             "icon": "palette",
-            "label": "Professional design"
+            "label": "Diseño profesional"
           },
           {
-            "description": "Authors in USA, Europe and LATAM",
+            "description": "Autores en USA, Europa y LATAM",
             "icon": "globe",
-            "label": "Global clients"
+            "label": "Clientes globales"
           },
           {
-            "description": "Payment in both currencies",
+            "description": "Cobro en ambas monedas",
             "icon": "dollar-sign",
-            "label": "USD & guaraníes"
+            "label": "USD y guaraníes"
           },
           {
-            "description": "1–3 weeks depending on service",
+            "description": "1–3 semanas según servicio",
             "icon": "zap",
-            "label": "Fast delivery"
+            "label": "Entrega rápida"
           }
         ],
         "items": [
           {
             "icon": "BookOpen",
-            "title": "6+ years designing covers"
+            "title": "+6 años diseñando portadas"
           },
           {
             "icon": "DollarSign",
-            "title": "USD or PYG"
+            "title": "USD o PYG"
           },
           {
             "icon": "Clock",
-            "title": "Delivery in 1–2 weeks"
+            "title": "Entrega 1–2 semanas"
           }
         ],
-        "title": "Why Choose Us"
+        "title": "¿Por qué elegirnos?"
       }
     },
     "infoCta": {
-      "buttonHref": "/s/en/dayah-litworks/contacto",
-      "buttonText": "Get a quote",
-      "subtitle": "Send me the brief and I'll reply with a quote in 24 hours.",
-      "title": "Ready to start your cover?",
+      "buttonHref": "/s/es/dayah-litworks/contacto",
+      "buttonText": "Pedir cotización",
+      "subtitle": "Mandame los datos básicos y te paso una propuesta en 24 horas.",
+      "title": "¿Querés empezar tu portada?",
       "variant": "gradient"
     },
     "navigation": {
       "businessName": "Dayah LitWorks",
       "ctaHref": "https://wa.me/595986868241",
-      "ctaText": "Contact",
+      "ctaText": "Contact Us",
       "items": [
         {
-          "href": "/s/en/dayah-litworks",
+          "href": "/s/es/dayah-litworks",
           "label": "Home"
         },
         {
-          "href": "/s/en/dayah-litworks/servicios",
+          "href": "/s/es/dayah-litworks/servicios",
           "label": "Services"
         },
         {
-          "href": "/s/en/dayah-litworks/catalogo",
+          "href": "/s/es/dayah-litworks/catalogo",
           "label": "Catalog"
         },
         {
-          "href": "/s/en/dayah-litworks/sobre",
+          "href": "/s/es/dayah-litworks/sobre",
           "label": "About"
         },
         {
-          "href": "/s/en/dayah-litworks/faq",
+          "href": "/s/es/dayah-litworks/faq",
           "label": "FAQ"
         },
         {
-          "href": "/s/en/dayah-litworks/contacto",
+          "href": "/s/es/dayah-litworks/contacto",
           "label": "Contact"
         }
-      ]
+      ],
+      "logoAlt": "Dayah LitWorks",
+      "logoUrl": "/sites/dayah-litworks/images/logo/logo-blanco.png"
     },
     "newsletter": {
-      "ctaText": "Subscribe",
-      "placeholder": "your@email.com",
-      "subtitle": "Design tips and cover trends straight to your inbox",
-      "title": "Author Newsletter"
+      "ctaText": "Suscribirse",
+      "placeholder": "tu@email.com",
+      "subtitle": "Tips de diseño y tendencias de portadas directo en tu inbox",
+      "title": "Newsletter for authors"
     },
     "placeholders": {
       "businessName": "Dayah LitWorks",
-      "city": "Asuncion",
+      "city": "Asunción",
       "year": 2026
     },
     "portfolio": {
       "filters": [
         "All",
-        "Fantasy",
+        "Fantasía",
         "Romance",
         "Thriller",
-        "Sci-Fi",
-        "Horror"
+        "Ciencia Ficción",
+        "Terror"
       ],
       "hero": {
         "backgroundImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80",
-        "subtitle": "My clients are in launch mode — I'm waiting for permission to share recent work here. If you want to see examples in your specific genre (fantasy, romance, thriller…), DM me on WhatsApp and I'll send a private sample within the day.",
-        "title": "Private portfolio"
+        "subtitle": "Mis clientes están publicando — estoy esperando permisos para compartir trabajos recientes acá. Si querés ver ejemplos de tu género específico (fantasía, romance, thriller…), pedímelos por WhatsApp y te mando una muestra privada en el día.",
+        "title": "Portafolio privado"
       },
       "items": [],
       "nda": {
-        "alt": "Redacted sample of Dayah LitWorks portfolio",
+        "alt": "Muestra redactada del portafolio de Dayah LitWorks",
         "background": "surface",
         "maxWidth": 1000,
-        "src": "/images/dayah/portfolio-nda.svg",
-        "subtitle": "I respect every project's confidentiality. Message me and I'll share real samples privately.",
-        "title": "NDA-protected work"
+        "src": "/sites/dayah-litworks/images/logo/dlw-master.png",
+        "subtitle": "Respeto la confidencialidad de cada proyecto. Mandame un mensaje y te paso una muestra real sin publicarla acá.",
+        "title": "Trabajos bajo NDA"
       },
       "placeholder": {
         "backgroundImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80",
         "features": [
           {
-            "description": "Tell me your genre and I'll send 3–5 recent examples privately. Same-day response.",
+            "description": "Decime tu género y te mando 3–5 ejemplos recientes en privado. Respuesta en el día.",
             "href": "https://wa.me/595986868241",
-            "title": "Request samples via WhatsApp"
+            "title": "Pedir muestra por WhatsApp"
           },
           {
-            "description": "What I can show publicly: recent work + process + reveal banners.",
+            "description": "Lo que sí puedo mostrar: trabajo reciente + proceso + reveal banners.",
             "href": "https://instagram.com/dayah.litworks",
             "title": "Instagram @dayah.litworks"
           },
           {
-            "description": "Ready-to-customize designs for when you need a cover fast.",
-            "href": "/s/en/dayah-litworks/catalogo",
-            "title": "Premade Catalog"
+            "description": "Diseños listos para personalizar, para cuando necesitás una portada rápida.",
+            "href": "/s/es/dayah-litworks/catalogo",
+            "title": "Catálogo Premade"
           }
         ],
-        "subtitle": "My clients are in launch mode — I'm waiting for permission to share recent work here. If you want to see examples in your specific genre (fantasy, romance, thriller…), DM me on WhatsApp and I'll send a private sample within the day.",
-        "title": "Private portfolio",
+        "subtitle": "Mis clientes están publicando — estoy esperando permisos para compartir trabajos recientes acá. Si querés ver ejemplos de tu género específico (fantasía, romance, thriller…), pedímelos por WhatsApp y te mando una muestra privada en el día.",
+        "title": "Portafolio privado",
         "trustBadgesEnabled": false
       },
       "seo": {
-        "description": "Gallery of book covers designed by Dayah LitWorks",
-        "title": "Portfolio — Dayah LitWorks"
+        "description": "Galería de portadas de libros diseñadas por Dayah LitWorks",
+        "title": "Portafolio — Dayah LitWorks"
       },
-      "subtitle": "Covers that sell books",
+      "subtitle": "Portadas que venden libros",
       "title": "Portfolio",
       "trustBadgesEnabled": false
     },
     "privacidad": {
       "sections": [
         {
-          "a": "Only what's needed to work with you: name, email, phone/WhatsApp if provided, and what you send about your project (manuscript, references). Nothing else.",
-          "q": "What data I collect"
+          "a": "Solo lo necesario para trabajar con vos: nombre, email, teléfono/WhatsApp si lo das, y lo que me envíes sobre tu proyecto (manuscrito, referencias). Nada más.",
+          "q": "Qué datos recolecto"
         },
         {
-          "a": "Replying to your inquiry, coordinating the project, sending deliveries, and invoicing. I don't sell or share your data with third parties.",
-          "q": "What I use it for"
+          "a": "Responder tu consulta, coordinar el proyecto, enviar entregas y facturar. No vendo ni comparto tus datos con terceros.",
+          "q": "Para qué los uso"
         },
         {
-          "a": "Email in Gmail, working files in Google Drive, conversations in WhatsApp. Working files are deleted 6 months after final delivery unless you ask me to keep them.",
-          "q": "Where I store it"
+          "a": "Email en Gmail, archivos de trabajo en Google Drive, conversaciones en WhatsApp. Borro archivos de trabajo 6 meses después de la entrega final salvo que me pidas conservarlos.",
+          "q": "Dónde los guardo"
         },
         {
-          "a": "If you subscribe to the newsletter, your email goes to Mailchimp. You can unsubscribe via the link at the bottom of each email, and your email is deleted within 30 days.",
+          "a": "Si te suscribís al newsletter guardo tu email en Mailchimp. Podés desuscribirte con el link al pie de cada email, y tu email se borra dentro de 30 días.",
           "q": "Newsletter"
         },
         {
-          "a": "You can ask me at any time to show, correct, or delete the data I have about you. Email dayahlitworks@gmail.com.",
-          "q": "Your rights"
+          "a": "Podés pedirme en cualquier momento que te muestre, corrija o borre los datos que tengo sobre vos. Escribime a dayahlitworks@gmail.com.",
+          "q": "Tus derechos"
         },
         {
-          "a": "Dayah LitWorks operates from Paraguay. Data is handled under applicable Paraguayan law (Ley 6534/2020 on personal data). For EU clients, I comply with GDPR as a processor (contract execution basis).",
-          "q": "Jurisdiction"
+          "a": "Dayah LitWorks opera desde Paraguay. Los datos se manejan bajo la Ley 5282/2014 de Libre Acceso Ciudadano a la Información Pública y Transparencia Gubernamental, y Ley 6534/2020 de Protección de Datos Personales Crediticios en lo aplicable. Para clientes en la UE, cumplo con las bases de GDPR como procesadora (ejecución de contrato).",
+          "q": "Jurisdicción"
         }
       ],
       "sectionsBlock": {
         "items": [
           {
-            "a": "Only what's needed to work with you: name, email, phone/WhatsApp if provided, and what you send about your project (manuscript, references). Nothing else.",
-            "q": "What data I collect"
+            "a": "Solo lo necesario para trabajar con vos: nombre, email, teléfono/WhatsApp si lo das, y lo que me envíes sobre tu proyecto (manuscrito, referencias). Nada más.",
+            "q": "Qué datos recolecto"
           },
           {
-            "a": "Replying to your inquiry, coordinating the project, sending deliveries, and invoicing. I don't sell or share your data with third parties.",
-            "q": "What I use it for"
+            "a": "Responder tu consulta, coordinar el proyecto, enviar entregas y facturar. No vendo ni comparto tus datos con terceros.",
+            "q": "Para qué los uso"
           },
           {
-            "a": "Email in Gmail, working files in Google Drive, conversations in WhatsApp. Working files are deleted 6 months after final delivery unless you ask me to keep them.",
-            "q": "Where I store it"
+            "a": "Email en Gmail, archivos de trabajo en Google Drive, conversaciones en WhatsApp. Borro archivos de trabajo 6 meses después de la entrega final salvo que me pidas conservarlos.",
+            "q": "Dónde los guardo"
           },
           {
-            "a": "If you subscribe to the newsletter, your email goes to Mailchimp. You can unsubscribe via the link at the bottom of each email, and your email is deleted within 30 days.",
+            "a": "Si te suscribís al newsletter guardo tu email en Mailchimp. Podés desuscribirte con el link al pie de cada email, y tu email se borra dentro de 30 días.",
             "q": "Newsletter"
           },
           {
-            "a": "You can ask me at any time to show, correct, or delete the data I have about you. Email dayahlitworks@gmail.com.",
-            "q": "Your rights"
+            "a": "Podés pedirme en cualquier momento que te muestre, corrija o borre los datos que tengo sobre vos. Escribime a dayahlitworks@gmail.com.",
+            "q": "Tus derechos"
           },
           {
-            "a": "Dayah LitWorks operates from Paraguay. Data is handled under applicable Paraguayan law (Ley 6534/2020 on personal data). For EU clients, I comply with GDPR as a processor (contract execution basis).",
-            "q": "Jurisdiction"
+            "a": "Dayah LitWorks opera desde Paraguay. Los datos se manejan bajo la Ley 5282/2014 de Libre Acceso Ciudadano a la Información Pública y Transparencia Gubernamental, y Ley 6534/2020 de Protección de Datos Personales Crediticios en lo aplicable. Para clientes en la UE, cumplo con las bases de GDPR como procesadora (ejecución de contrato).",
+            "q": "Jurisdicción"
           }
         ],
-        "title": "Privacy policy"
+        "title": "Política de privacidad"
       },
-      "subtitle": "How I handle your information.",
+      "subtitle": "Cómo manejo tu información.",
       "title": "Privacy",
       "trustBadgesEnabled": false
     },
     "quoteForm": {
-      "ctaText": "Send inquiry via WhatsApp",
+      "ctaText": "Enviar consulta por WhatsApp",
       "fields": [
         {
-          "label": "Name",
+          "label": "Nombre",
           "name": "name",
           "required": true,
           "type": "text"
@@ -19643,72 +19581,72 @@ export const CONTENT: Record<string, JsonRecord> = {
           "type": "email"
         },
         {
-          "label": "Book genre",
+          "label": "Género del libro",
           "name": "genre",
           "options": [
-            "Fantasy",
+            "Fantasía",
             "Romance",
-            "Dark Romance",
+            "Romance Oscuro",
             "Thriller / Suspense",
-            "Sci-Fi",
-            "Horror",
-            "YA",
-            "Non-fiction",
-            "Other"
+            "Ciencia Ficción",
+            "Terror",
+            "Juvenil / YA",
+            "No ficción",
+            "Otro"
           ],
           "required": true,
           "type": "select"
         },
         {
-          "label": "Cover type",
+          "label": "Tipo de portada",
           "name": "cover_type",
           "options": [
-            "eBook only",
-            "Paperback only",
-            "eBook + Paperback",
+            "Solo eBook",
+            "Solo Tapa Blanda",
+            "eBook + Tapa Blanda",
             "Premade",
-            "I don't know yet"
+            "No sé todavía"
           ],
           "required": true,
           "type": "radio"
         },
         {
-          "label": "Manuscript length",
+          "label": "Longitud del manuscrito",
           "name": "manuscript_length",
           "options": [
-            "Under 50 000 words",
+            "Menos de 50 000 palabras",
             "50 000 – 100 000",
-            "Over 100 000",
-            "N/A (cover only)"
+            "Más de 100 000",
+            "No aplica (solo portada)"
           ],
           "type": "select"
         },
         {
-          "help": "Rush (<1 week) incurs a +50% surcharge.",
-          "label": "When do you need delivery?",
+          "help": "Si es rush (<1 semana), hay recargo del 50%.",
+          "label": "¿Cuándo necesitás la entrega?",
           "name": "deadline",
           "type": "date"
         },
         {
-          "label": "Budget range (USD)",
+          "label": "Rango de presupuesto (USD)",
           "name": "budget",
           "options": [
-            "Under $50",
+            "Menos de $50",
             "$50 – $100",
             "$100 – $200",
             "$200 +",
-            "I don't know, suggest one"
+            "No sé, quiero sugerencia"
           ],
           "type": "select"
         },
         {
-          "help": "Required BEFORE quoting — see Terms #1.",
-          "label": "Visual references (Pinterest / Drive / Instagram link, or covers you like)",
+          "help": "Obligatorio ANTES de cotizar — ver Términos #1.",
+          "label": "Referencias visuales (link a Pinterest, Drive, Instagram, o portadas que te gustan)",
           "name": "references",
           "type": "url"
         },
         {
-          "label": "Preferred reply channel",
+          "label": "Cómo preferís que te responda",
           "name": "contact_preference",
           "options": [
             "WhatsApp",
@@ -19717,75 +19655,75 @@ export const CONTENT: Record<string, JsonRecord> = {
           "type": "radio"
         },
         {
-          "label": "Short synopsis + additional notes",
+          "label": "Sinopsis breve + notas adicionales",
           "name": "description",
-          "placeholder": "What the book is about (2–3 lines), target audience, mood/atmosphere you're after, things you DON'T want on the cover…",
+          "placeholder": "De qué trata el libro (2–3 líneas), público objetivo, mood/atmósfera que buscás, cosas que NO querés ver en la portada…",
           "required": true,
           "type": "textarea"
         }
       ],
       "serviceOptions": [
-        "Custom Cover — eBook ($45)",
-        "Custom Cover — Paperback ($80)",
-        "Cover Paperback & eBook ($120)",
+        "Portada Personalizada — eBook ($45)",
+        "Portada Personalizada — Tapa Blanda ($80)",
+        "Portada Paperback & eBook ($120)",
         "Premade eBook ($35)",
         "Premade eBook & Paperback ($80)",
-        "eBook Layout ($25)",
-        "Paperback Layout ($35)",
-        "eBook & Paperback Layout ($50)",
-        "Other / Not sure"
+        "Maquetación eBook ($25)",
+        "Maquetación Paperback ($35)",
+        "Maquetación eBook & Paperback ($50)",
+        "Otro / No estoy seguro/a"
       ],
       "steps": [
         {
           "fields": [
-            "Genre",
-            "Title"
+            "Género",
+            "Título"
           ],
           "id": "genre",
-          "title": "What's your book about?"
+          "title": "¿De qué trata tu libro?"
         },
         {
           "fields": [
-            "Service type"
+            "Tipo de servicio"
           ],
           "id": "service",
-          "title": "What do you need?"
+          "title": "¿Qué necesitás?"
         },
         {
           "fields": [
-            "Timeline",
-            "Budget"
+            "Plazo",
+            "Presupuesto"
           ],
           "id": "details",
-          "title": "Details"
+          "title": "Detalles"
         },
         {
           "fields": [
-            "Name",
-            "Email or WhatsApp"
+            "Nombre",
+            "Email o WhatsApp"
           ],
           "id": "contact",
-          "title": "Your info"
+          "title": "Tus datos"
         }
       ],
-      "submitLabel": "Send via WhatsApp",
-      "subtitle": "Fields marked * are required. Sending visual references is what speeds up the quote the most.",
-      "successBody": "I've opened WhatsApp with your request. I reply within office hours (Mon–Fri 09:00–18:00 PY).",
-      "successTitle": "Sent!",
+      "submitLabel": "Enviar por WhatsApp",
+      "subtitle": "Todos los campos marcados * son obligatorios. Mandarme referencias visuales es el paso que más acelera la cotización.",
+      "successBody": "Abrí tu WhatsApp con el pedido. Respondo dentro del horario de oficina (lun–vie 09:00–18:00 PY).",
+      "successTitle": "¡Listo!",
       "title": "Tell me about your book",
       "whatsappBase": "https://wa.me/595986868241",
       "whatsappPhone": "+595986868241"
     },
     "seo": {
       "faq": {
-        "description": "Answers to the most frequently asked questions about our book cover design services.",
-        "title": "FAQ — Dayah LitWorks"
+        "description": "Respuestas a las dudas más comunes sobre el diseño de portadas.",
+        "title": "Preguntas frecuentes — Dayah LitWorks"
       }
     },
     "servicios": {
       "hero": {
         "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80",
-        "subtitle": "Professional design for your book",
+        "subtitle": "Diseño profesional para tu libro",
         "title": "Our Services"
       }
     },
@@ -19794,180 +19732,184 @@ export const CONTENT: Record<string, JsonRecord> = {
       "bio": {
         "features": [
           {
-            "description": "Based in Asunción, working with indie authors across LATAM, Spain, and the US. The focus has always been simple: covers that earn a first-read on Amazon, not 'pretty' covers.",
-            "title": "Founded Dayah LitWorks in November 2019"
+            "description": "Desde Asunción, trabajando con autores indie en LATAM, España y EE. UU. El foco siempre fue simple: portadas que te consigan una primera lectura en Amazon, no portadas \"bonitas\".",
+            "title": "Fundé Dayah LitWorks en noviembre de 2019"
           },
           {
-            "description": "One project at a time, with scheduled revisions. No templates. No generative AI for the final cover (yes for reference only). Every cover is designed after reading at least the first chapters or the full synopsis.",
-            "title": "How I work"
+            "description": "Un proyecto a la vez, con revisiones pactadas. Sin plantillas. Sin IA generativa para la portada final (sí como referencia). Cada portada se diseña leyendo al menos los primeros capítulos del manuscrito o el sinopsis completo.",
+            "title": "Cómo trabajo"
           },
           {
-            "description": "Fantasy, romance (including dark romance), thriller/suspense, sci-fi, and horror. If your genre is different, ask — I'll tell you whether it fits my style or if another designer is a better match for you.",
-            "title": "Most common genres I work in"
+            "description": "Fantasía, romance (incluyendo romance oscuro), thriller/suspense, ciencia ficción y terror. Si tu género es otro, preguntá — puedo decirte si encaja con mi estilo o si te conviene otro diseñador.",
+            "title": "Géneros en los que más trabajo"
           },
           {
-            "description": "I work in Spanish and English. If your manuscript is in another language, I need a translated synopsis.",
-            "title": "Languages"
+            "description": "Trabajo en español e inglés. Si tu manuscrito está en otro idioma, necesito una sinopsis traducida.",
+            "title": "Idiomas"
+          },
+          {
+            "description": "Escribí y publiqué Extrême, Intense 2° Edición y Pasiones Furtivas. No solo diseño portadas — también sé lo que un autor necesita porque lo soy.",
+            "title": "También soy autora publicada"
           }
         ],
-        "title": "About Daihana"
+        "title": "Sobre Daihana"
       },
       "hero": {
         "backgroundImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=2000&q=80",
-        "subtitle": "Where fantasy becomes reality",
+        "subtitle": "Donde la fantasía se convierte en realidad",
         "title": "About Dayah LitWorks",
         "trustBadgesEnabled": false
       },
       "highlights": [
         {
-          "description": "Years designing covers",
+          "description": "Años diseñando portadas",
           "title": "6+"
         },
         {
-          "description": "Clients across 3 regions",
-          "title": "LATAM + US + Spain"
+          "description": "Clientes en 3 regiones",
+          "title": "LATAM + EE.UU. + España"
         },
         {
-          "description": "Bilingual manuscripts",
+          "description": "Manuscritos bilingües",
           "title": "ES + EN"
         },
         {
-          "description": "Billing by origin",
-          "title": "USD or PYG"
+          "description": "Cobro según origen",
+          "title": "USD o PYG"
         }
       ],
       "highlightsBlock": {
         "features": [
           {
-            "description": "Years designing covers",
+            "description": "Años diseñando portadas",
             "title": "6+"
           },
           {
-            "description": "Clients across 3 regions",
-            "title": "LATAM + US + Spain"
+            "description": "Clientes en 3 regiones",
+            "title": "LATAM + EE.UU. + España"
           },
           {
-            "description": "Bilingual manuscripts",
+            "description": "Manuscritos bilingües",
             "title": "ES + EN"
           },
           {
-            "description": "Billing by origin",
-            "title": "USD or PYG"
+            "description": "Cobro según origen",
+            "title": "USD o PYG"
           }
         ],
-        "title": "In numbers"
+        "title": "En números"
       },
       "seo": {
-        "description": "Meet Dayah, a book cover designer based in Asunción, Paraguay. 6+ years creating covers that sell.",
-        "title": "About Dayah LitWorks — Book Cover Designer"
+        "description": "Conocé a Dayah, diseñadora de portadas de libros en Asunción, Paraguay. Más de 6 años creando portadas que venden.",
+        "title": "Sobre Dayah LitWorks — Diseñadora de portadas de libros"
       },
       "trustBadgesEnabled": false
     },
-    "tagline": "Book cover design — from manuscript to a cover that sells",
+    "tagline": "Book cover design — from manuscript to cover that sells",
     "terminos": {
       "payment": {
         "features": [
           {
-            "description": "For international clients",
+            "description": "Para clientes internacionales",
             "icon": null,
             "title": "Western Union"
           },
           {
-            "description": "Paraguayan banks",
+            "description": "Bancos de Paraguay",
             "icon": null,
-            "title": "Bank transfer"
+            "title": "Transferencia bancaria"
           },
           {
-            "description": "In-person payment in Asunción",
+            "description": "Pago presencial en Asunción",
             "icon": null,
-            "title": "Cash"
+            "title": "Efectivo"
           }
         ],
         "methods": [
           {
-            "description": "For international clients",
+            "description": "Para clientes internacionales",
             "name": "Western Union"
           },
           {
-            "description": "Paraguayan banks",
-            "name": "Bank transfer"
+            "description": "Bancos de Paraguay",
+            "name": "Transferencia bancaria"
           },
           {
-            "description": "In-person payment in Asunción",
-            "name": "Cash"
+            "description": "Pago presencial en Asunción",
+            "name": "Efectivo"
           }
         ],
-        "note": "50% advance required to start the project. Remaining balance due upon final design approval.",
-        "title": "Payment Methods"
+        "note": "Se requiere anticipo del 50% para iniciar el proyecto. El saldo restante se abona al aprobar el diseño final.",
+        "title": "Métodos de pago"
       },
       "sections": [
         {
-          "a": "You must send me references (ideas, fonts, colors, styles) BEFORE requesting the design, not after. Without references I can't quote accurately and I'll likely decline the project out of respect for both our time.",
-          "q": "1. References first"
+          "a": "Tenés que enviarme referencias (ideas, tipografías, colores, estilos) ANTES de solicitar el diseño, no después. Sin referencias no puedo cotizar con precisión y probablemente rechace el proyecto para respetar tu tiempo y el mío.",
+          "q": "1. Referencias previas"
         },
         {
-          "a": "I work Monday–Friday during office hours (09:00–18:00 Paraguay time). I don't reply to messages or send deliveries on weekends or holidays. Delivery timelines count business days only.",
-          "q": "2. Business days"
+          "a": "Trabajo de lunes a viernes en horario de oficina (09:00–18:00 Paraguay). Fines de semana y feriados no respondo mensajes ni envío entregas. Los plazos de entrega cuentan días hábiles.",
+          "q": "2. Días hábiles"
         },
         {
-          "a": "To start I charge a 50% deposit; the balance is due on final approval. If you cancel after the project has started, the deposit is non-refundable because it covers hours already invested. If you cancel before I've started (within 48h of payment), I refund 100%.",
-          "q": "3. Deposit and cancellation"
+          "a": "Para empezar cobro 50% de anticipo; el saldo se paga al aprobar el diseño final. Si cancelás el proyecto después de iniciar, el anticipo no se reembolsa porque cubre horas de trabajo ya dedicadas. Si todavía no empecé (me avisaste dentro de las 48 h desde el pago), devuelvo el 100%.",
+          "q": "3. Anticipo y cancelación"
         },
         {
-          "a": "Before printing, publishing, or reproducing anything, review the design, text, and data. Dayah LitWorks isn't liable for errors you didn't flag in time. A QA checklist is included in every delivery.",
-          "q": "4. Review responsibility"
+          "a": "Antes de imprimir, publicar o reproducir, revisá el diseño, los textos y los datos. Dayah LitWorks no se responsabiliza por errores que no me comunicaste a tiempo. Incluí una checklist de QA en cada entrega.",
+          "q": "4. Responsabilidad de revisión"
         },
         {
-          "a": "Each package includes 2 revision rounds. Additional changes (e.g. switching genre mid-project, starting over after approving a direction) are quoted separately: USD 20 / minor revision round, USD 40+ for a significant redesign. I'll tell you before I do the work, not after.",
-          "q": "5. Scope changes"
+          "a": "Cada paquete incluye 2 rondas de revisión. Cambios adicionales (ej. cambiar de género, rehacer desde cero después de aprobada una dirección) se cotizan extra: USD 20/ronda de revisión menor, USD 40+ para un redesign significativo. Te lo digo antes de hacer el trabajo, no después.",
+          "q": "5. Cambios de alcance"
         },
         {
-          "a": "The design rights are yours once 100% is paid. Until then, high-resolution files aren't delivered and commercial use isn't authorized. For premades, the license is exclusive (one sale per design) unless you explicitly ask for a cheaper non-exclusive license.",
-          "q": "6. Design rights"
+          "a": "Los derechos del diseño son tuyos una vez pagado el 100%. Hasta entonces, los archivos en alta resolución no se entregan y el uso comercial del diseño no está autorizado. Para premades, la licencia es exclusiva (una venta por diseño) salvo que me pidas explícitamente una licencia no-exclusiva a menor precio.",
+          "q": "6. Derechos de diseño"
         },
         {
-          "a": "I may show finished work in my portfolio, Instagram, Facebook, and website. If you'd prefer I don't (e.g. your book isn't out yet), tell me before final delivery and I'll keep it private until your launch date.",
-          "q": "7. Portfolio use"
+          "a": "Puedo mostrar los trabajos terminados en mi portafolio, Instagram, Facebook y sitio web. Si preferís que NO lo muestre (ej. tu libro aún no salió), avisame antes de la entrega final y lo guardo privado hasta tu fecha de lanzamiento.",
+          "q": "7. Uso en portafolio"
         }
       ],
       "sectionsBlock": {
         "items": [
           {
-            "a": "You must send me references (ideas, fonts, colors, styles) BEFORE requesting the design, not after. Without references I can't quote accurately and I'll likely decline the project out of respect for both our time.",
-            "q": "1. References first"
+            "a": "Tenés que enviarme referencias (ideas, tipografías, colores, estilos) ANTES de solicitar el diseño, no después. Sin referencias no puedo cotizar con precisión y probablemente rechace el proyecto para respetar tu tiempo y el mío.",
+            "q": "1. Referencias previas"
           },
           {
-            "a": "I work Monday–Friday during office hours (09:00–18:00 Paraguay time). I don't reply to messages or send deliveries on weekends or holidays. Delivery timelines count business days only.",
-            "q": "2. Business days"
+            "a": "Trabajo de lunes a viernes en horario de oficina (09:00–18:00 Paraguay). Fines de semana y feriados no respondo mensajes ni envío entregas. Los plazos de entrega cuentan días hábiles.",
+            "q": "2. Días hábiles"
           },
           {
-            "a": "To start I charge a 50% deposit; the balance is due on final approval. If you cancel after the project has started, the deposit is non-refundable because it covers hours already invested. If you cancel before I've started (within 48h of payment), I refund 100%.",
-            "q": "3. Deposit and cancellation"
+            "a": "Para empezar cobro 50% de anticipo; el saldo se paga al aprobar el diseño final. Si cancelás el proyecto después de iniciar, el anticipo no se reembolsa porque cubre horas de trabajo ya dedicadas. Si todavía no empecé (me avisaste dentro de las 48 h desde el pago), devuelvo el 100%.",
+            "q": "3. Anticipo y cancelación"
           },
           {
-            "a": "Before printing, publishing, or reproducing anything, review the design, text, and data. Dayah LitWorks isn't liable for errors you didn't flag in time. A QA checklist is included in every delivery.",
-            "q": "4. Review responsibility"
+            "a": "Antes de imprimir, publicar o reproducir, revisá el diseño, los textos y los datos. Dayah LitWorks no se responsabiliza por errores que no me comunicaste a tiempo. Incluí una checklist de QA en cada entrega.",
+            "q": "4. Responsabilidad de revisión"
           },
           {
-            "a": "Each package includes 2 revision rounds. Additional changes (e.g. switching genre mid-project, starting over after approving a direction) are quoted separately: USD 20 / minor revision round, USD 40+ for a significant redesign. I'll tell you before I do the work, not after.",
-            "q": "5. Scope changes"
+            "a": "Cada paquete incluye 2 rondas de revisión. Cambios adicionales (ej. cambiar de género, rehacer desde cero después de aprobada una dirección) se cotizan extra: USD 20/ronda de revisión menor, USD 40+ para un redesign significativo. Te lo digo antes de hacer el trabajo, no después.",
+            "q": "5. Cambios de alcance"
           },
           {
-            "a": "The design rights are yours once 100% is paid. Until then, high-resolution files aren't delivered and commercial use isn't authorized. For premades, the license is exclusive (one sale per design) unless you explicitly ask for a cheaper non-exclusive license.",
-            "q": "6. Design rights"
+            "a": "Los derechos del diseño son tuyos una vez pagado el 100%. Hasta entonces, los archivos en alta resolución no se entregan y el uso comercial del diseño no está autorizado. Para premades, la licencia es exclusiva (una venta por diseño) salvo que me pidas explícitamente una licencia no-exclusiva a menor precio.",
+            "q": "6. Derechos de diseño"
           },
           {
-            "a": "I may show finished work in my portfolio, Instagram, Facebook, and website. If you'd prefer I don't (e.g. your book isn't out yet), tell me before final delivery and I'll keep it private until your launch date.",
-            "q": "7. Portfolio use"
+            "a": "Puedo mostrar los trabajos terminados en mi portafolio, Instagram, Facebook y sitio web. Si preferís que NO lo muestre (ej. tu libro aún no salió), avisame antes de la entrega final y lo guardo privado hasta tu fecha de lanzamiento.",
+            "q": "7. Uso en portafolio"
           }
         ],
-        "title": "Service terms"
+        "title": "Términos del servicio"
       },
       "seo": {
-        "description": "Service conditions, payment policies and design rights for Dayah LitWorks",
-        "title": "Terms & Conditions — Dayah LitWorks"
+        "description": "Condiciones de servicio, políticas de pago y derechos de diseño de Dayah LitWorks",
+        "title": "Términos y Condiciones — Dayah LitWorks"
       },
-      "subtitle": "Payment of the quote implies acceptance of the following conditions",
+      "subtitle": "El pago del presupuesto implica la aceptación de las siguientes condiciones",
       "title": "Terms & Conditions",
       "trustBadgesEnabled": false
     },
@@ -20017,6 +19959,51 @@ export const CONTENT: Record<string, JsonRecord> = {
           "readTime": "5 min",
           "slug": "como-elegir-portada-libro",
           "title": "Cómo elegir la portada perfecta para tu libro"
+        },
+        {
+          "category": "Diseño",
+          "date": "2026-04-29",
+          "excerpt": "Consejos prácticos para autores independientes",
+          "imageUrl": "",
+          "readTime": "4 min",
+          "slug": "marketing-para-autores-independientes",
+          "title": "Marketing Para Autores Independientes"
+        },
+        {
+          "category": "Diseño",
+          "date": "2026-04-29",
+          "excerpt": "Consejos prácticos para autores independientes",
+          "imageUrl": "",
+          "readTime": "4 min",
+          "slug": "consejos-de-diseno-de-portadas-de-libros",
+          "title": "Consejos De Diseno De Portadas De Libros"
+        },
+        {
+          "category": "Diseño",
+          "date": "2026-04-29",
+          "excerpt": "Consejos prácticos para autores independientes",
+          "imageUrl": "",
+          "readTime": "4 min",
+          "slug": "antes-y-despues-de-redesignar-portadas-de-libros",
+          "title": "Antes Y Despues De Redesignar Portadas De Libros"
+        },
+        {
+          "category": "Diseño",
+          "date": "2026-04-29",
+          "excerpt": "Consejos prácticos para autores independientes",
+          "imageUrl": "",
+          "readTime": "4 min",
+          "slug": "guia-de-tipografia-para-autores",
+          "title": "Guia De Tipografia Para Autores"
+        },
+        {
+          "category": "Diseño",
+          "date": "2026-04-29",
+          "excerpt": "Consejos prácticos para autores independientes",
+          "imageUrl": "",
+          "readTime": "4 min",
+          "slug": "teoria-del-color-para-portadas-de-libros",
+          "title": "Teoria Del Color Para Portadas De Libros"
         }
       ],
       "seo": {
@@ -20117,7 +20104,10 @@ export const CONTENT: Record<string, JsonRecord> = {
       "businessName": "Dayah LitWorks",
       "city": "Asunción",
       "copyright": "© 2026 Dayah LitWorks. Todos los derechos reservados.",
+      "email": "dayahlitworks@gmail.com",
       "founded": "2019",
+      "instagram": "@dayah.litworks",
+      "instagramLink": "https://instagram.com/dayah.litworks",
       "navLinks": [
         {
           "href": "/s/es/dayah-litworks/servicios",
@@ -20143,9 +20133,32 @@ export const CONTENT: Record<string, JsonRecord> = {
           "href": "/s/es/dayah-litworks/privacidad",
           "label": "Privacidad"
         }
-      ]
+      ],
+      "showEmail": true,
+      "showInstagram": true,
+      "showWhatsApp": true,
+      "whatsapp": "+595986868241",
+      "whatsappLink": "https://wa.me/595986868241"
     },
     "home": {
+      "beforeAfter": {
+        "items": [
+          {
+            "afterImage": "/images/dayah/covers/cover-pf-vol2-ebook.jpg",
+            "beforeImage": "/images/dayah/covers/cover-pf-vol1-ebook.jpg",
+            "description": "De un diseño genérico a una portada que transmite la pasión de la historia.",
+            "name": "Rediseño Romance"
+          },
+          {
+            "afterImage": "/images/dayah/covers/cover-intense-2-edicion.jpg",
+            "beforeImage": "/images/dayah/covers/cover-extreme.jpg",
+            "description": "Tipografía moderna, paleta de colores renovada, impacto visual inmediato.",
+            "name": "Rediseño Thriller"
+          }
+        ],
+        "subtitle": "Casos de rediseño — antes y después de pasar por Dayah LitWorks",
+        "title": "Transformaciones"
+      },
       "contact": {
         "city": "Asunción, Paraguay",
         "email": "dayahlitworks@gmail.com",
@@ -20173,12 +20186,14 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Preguntas Frecuentes"
       },
       "hero": {
-        "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80",
+        "backgroundImage": "",
         "ctaPrimaryHref": "/s/es/dayah-litworks/catalogo",
         "ctaPrimaryText": "Ver Catálogo",
         "ctaSecondaryHref": "https://wa.me/595986868241",
         "ctaSecondaryText": "WhatsApp",
         "headline": "Portadas que venden.",
+        "overlayGradient": "linear-gradient(135deg, #0f0f1a 0%, #16213e 50%, #1a1a2e 100%)",
+        "overlayOpacity": 1,
         "subheadline": "Para autores indie en todo el mundo. USD o PYG.",
         "trustBadges": [
           "+6 años de experiencia",
@@ -20189,25 +20204,55 @@ export const CONTENT: Record<string, JsonRecord> = {
       "portfolio": {
         "items": [
           {
-            "category": "Branding",
-            "description": "Identidad visual para empresa tecnológica",
-            "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80",
-            "title": "Branding Corporativo"
+            "category": "Romance",
+            "description": "Portada romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
+            "title": "Cómo Volver Loco a Mi Guardaespaldas"
           },
           {
-            "category": "Editorial",
-            "description": "Revista corporativa y catálogo de productos",
-            "imageUrl": "https://images.unsplash.com/photo-1550399105-c4db5fb85c18?w=600&q=80",
-            "title": "Diseño Editorial"
+            "category": "Romance",
+            "description": "Portada romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
+            "title": "El Secreto Que Nos Unió"
           },
           {
-            "category": "Ilustración",
-            "description": "Illustraciones para campaña publicitaria",
-            "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80",
-            "title": "Illustración"
+            "category": "Romance Oscuro",
+            "description": "Portada dark romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+            "title": "Perdóname Padre o Hazme Tuya"
+          },
+          {
+            "category": "Romance",
+            "description": "Portada romance — eBook",
+            "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
+            "title": "Macarena y sus Ex"
+          },
+          {
+            "category": "Premade",
+            "description": "Portada premade",
+            "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
+            "title": "Extrême"
+          },
+          {
+            "category": "Premade",
+            "description": "Portada premade",
+            "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
+            "title": "Intense 2° Edición"
+          },
+          {
+            "category": "Paperback",
+            "description": "Portada completa tapa blanda",
+            "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
+            "title": "PF Vol I — Tapa Blanda"
+          },
+          {
+            "category": "Paperback",
+            "description": "Portada completa tapa blanda",
+            "imageUrl": "/images/dayah/covers/cover-pf-vol2-paperback.jpg",
+            "title": "PF Vol II — Tapa Blanda"
           }
         ],
-        "subtitle": "Diseño gráfico, editorial y branding",
+        "subtitle": "Portadas de libros diseñadas por Dayah LitWorks",
         "title": "Trabajos Recientes"
       },
       "process": {
@@ -20251,7 +20296,8 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Susurros%20del%20Bosque'",
             "description": "Portada premade — Fantasía/Romance",
             "format": "eBook",
-            "imageUrl": "/images/dayah/covers/susurros-del-bosque.svg",
+            "image": "/images/dayah/covers/susurros-del-bosque.svg",
+            "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -20268,7 +20314,8 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Coraz%C3%B3n%20de%20Cenizas'",
             "description": "Portada premade — Romance Oscuro",
             "format": "eBook",
-            "imageUrl": "/images/dayah/covers/corazon-de-cenizas.svg",
+            "image": "/images/dayah/covers/corazon-de-cenizas.svg",
+            "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -20285,7 +20332,8 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20%C3%9Altimo%20C%C3%B3digo'",
             "description": "Portada premade — Thriller/Suspenso",
             "format": "eBook",
-            "imageUrl": "/images/dayah/covers/el-ultimo-codigo.svg",
+            "image": "/images/dayah/covers/el-ultimo-codigo.svg",
+            "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -20302,7 +20350,8 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Galaxia%20Interior'",
             "description": "Portada premade — Ciencia Ficción",
             "format": "eBook",
-            "imageUrl": "/images/dayah/covers/galaxia-interior.svg",
+            "image": "/images/dayah/covers/galaxia-interior.svg",
+            "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -20319,7 +20368,8 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Sombras%20en%20el%20Espejo'",
             "description": "Portada premade — Terror/Horror",
             "format": "eBook",
-            "imageUrl": "/images/dayah/covers/sombras-en-el-espejo.svg",
+            "image": "/images/dayah/covers/sombras-en-el-espejo.svg",
+            "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -20336,7 +20386,8 @@ export const CONTENT: Record<string, JsonRecord> = {
             "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Alas%20de%20Cristal'",
             "description": "Portada premade — Fantasía Juvenil",
             "format": "eBook",
-            "imageUrl": "/images/dayah/covers/alas-de-cristal.svg",
+            "image": "/images/dayah/covers/alas-de-cristal.svg",
+            "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
             "includes": [
               "Portada eBook (JPG/PDF)",
               "Título PNG + Portadilla PNG",
@@ -20346,6 +20397,133 @@ export const CONTENT: Record<string, JsonRecord> = {
             "name": "Alas de Cristal",
             "pricePYG": "₲250.000",
             "priceUSD": "$35"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'C%C3%B3mo%20Volver%20Loco%20a%20Mi%20Guardaespaldas'",
+            "description": "Portada premade — Romance",
+            "format": "eBook",
+            "image": "/images/dayah/covers/como-volver-loco-a-mi-guardaespaldas.svg",
+            "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "Cómo Volver Loco a Mi Guardaespaldas",
+            "pricePYG": "₲250.000",
+            "priceUSD": "$35"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Perd%C3%B3name%20Padre%20o%20Hazme%20Tuya'",
+            "description": "Portada premade — Romance Oscuro",
+            "format": "eBook",
+            "image": "/images/dayah/covers/perdoname-padre-o-hazme-tuya.svg",
+            "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "Perdóname Padre o Hazme Tuya",
+            "pricePYG": "₲250.000",
+            "priceUSD": "$35"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20Secreto%20Que%20Nos%20Uni%C3%B3'",
+            "description": "Portada premade — Romance",
+            "format": "eBook",
+            "image": "/images/dayah/covers/el-secreto-que-nos-unio.svg",
+            "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "El Secreto Que Nos Unió",
+            "pricePYG": "₲250.000",
+            "priceUSD": "$35"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Macarena%20y%20sus%20Ex'",
+            "description": "Portada premade — Romance",
+            "format": "eBook",
+            "image": "/images/dayah/covers/macarena-y-sus-ex.svg",
+            "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "Macarena y sus Ex",
+            "pricePYG": "₲250.000",
+            "priceUSD": "$35"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PF%20eBook%20Vol%20I'",
+            "description": "Portada premade — Edición Especial",
+            "format": "eBook",
+            "image": "/images/dayah/covers/pf-ebook-vol-i.svg",
+            "imageUrl": "/images/dayah/covers/cover-pf-vol1-ebook.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "PF eBook Vol I",
+            "pricePYG": "₲250.000",
+            "priceUSD": "$30"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PF%20eBook%20Vol%20II'",
+            "description": "Portada premade — Edición Especial",
+            "format": "eBook",
+            "image": "/images/dayah/covers/pf-ebook-vol-ii.svg",
+            "imageUrl": "/images/dayah/covers/cover-pf-vol2-ebook.jpg",
+            "includes": [
+              "Portada eBook (JPG/PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "PF eBook Vol II",
+            "pricePYG": "₲250.000",
+            "priceUSD": "$30"
+          },
+          {
+            "available": true,
+            "category": "Romance",
+            "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PPOHT'",
+            "description": "Portada premade — Tapa Blanda",
+            "format": "Paperback",
+            "image": "/images/dayah/covers/ppoht.svg",
+            "imageUrl": "/images/dayah/covers/cover-ppoht-paperback.jpg",
+            "includes": [
+              "Portada Tapa Blanda (JPG/PDF)",
+              "Archivo imprimible (PDF)",
+              "Título PNG + Portadilla PNG",
+              "2 banners de revelación",
+              "2 mockups"
+            ],
+            "name": "PPOHT",
+            "pricePYG": "₲500.000",
+            "priceUSD": "$70"
           }
         ],
         "subtitle": "Diseños listos para usar — personalización incluida",
@@ -20404,6 +20582,26 @@ export const CONTENT: Record<string, JsonRecord> = {
             {
               "description": "Cambios de dirección fuera del scope original. — USD 20/ronda",
               "title": "Revisión adicional (más allá de las 2 incluidas)"
+            },
+            {
+              "description": "Logo, paleta de colores, tipografía y plantillas para tu marca autoral. — USD 50",
+              "title": "Diseño de Marca Personal para Autores"
+            },
+            {
+              "description": "Banners publicitarios para Amazon ADS y redes sociales. — USD 15",
+              "title": "Banner ADS (300x250 / 728x90)"
+            },
+            {
+              "description": "3 diseños para Instagram/Facebook para promocionar tu libro. — USD 25",
+              "title": "Set de Redes Sociales (3 post)"
+            },
+            {
+              "description": "Animación corta para lanzamiento del libro. Ideal para redes. — USD 60",
+              "title": "Book Trailer (15s animado)"
+            },
+            {
+              "description": "Adaptar la portada existente a una saga manteniendo coherencia visual. — USD 30",
+              "title": "Adaptación de Portada a Serie"
             }
           ],
           "subtitle": "Extras que podés sumar a cualquier paquete.",
@@ -20660,12 +20858,12 @@ export const CONTENT: Record<string, JsonRecord> = {
           },
           {
             "icon": "Calendar",
-            "label": "Anos en el rubro",
-            "value": "+12"
+            "label": "Años en el rubro",
+            "value": "+6"
           },
           {
             "icon": "Globe",
-            "label": "Paises alcanzados",
+            "label": "Países alcanzados",
             "value": "15+"
           }
         ]
@@ -20673,17 +20871,32 @@ export const CONTENT: Record<string, JsonRecord> = {
       "testimonials": {
         "items": [
           {
-            "author": "María G.",
-            "quote": "Mi portada quedó increíble! Dayah entendió perfectamente la esencia de mi libro.",
-            "rating": 5
+            "name": "María González",
+            "rating": 5,
+            "role": "Autora — Fantasía",
+            "text": "Dayah capturó exactamente la atmósfera que imaginaba para mi saga. La portada superó mis expectativas y las ventas aumentaron desde el primer mes."
           },
           {
-            "author": "Carlos R.",
-            "quote": "Profesional, creativa y super rápida. Mi portada premade fue amor a primera vista.",
-            "rating": 5
+            "name": "Carlos Mendoza",
+            "rating": 5,
+            "role": "Autor Independiente",
+            "text": "Trabajar con Dayah fue increíblemente fácil. Entendió mi visión desde el primer brief y el resultado fue profesional, limpio y exactamente lo que necesitaba."
+          },
+          {
+            "name": "Laura Ramírez",
+            "rating": 5,
+            "role": "Autora — Romance",
+            "text": "La portada de mi novela pasó de ser 'meh' a 'WOW' en menos de dos semanas. Recibo cumplidos de lectores todo el tiempo. ¡100% recomendada!"
+          },
+          {
+            "name": "Pedro Alarcón",
+            "rating": 5,
+            "role": "Editorial Independiente",
+            "text": "Hemos trabajado con varios diseñadores y Dayah es, sin duda, la mejor. Su atención al detalle y capacidad para traducir conceptos abstractos a imágenes es impresionante."
           }
         ],
-        "title": "Testimonios"
+        "subtitle": "Autores que confiaron en Dayah LitWorks para sus portadas",
+        "title": "Lo que dicen mis clientes"
       },
       "trustBadges": {
         "badges": [
@@ -20761,7 +20974,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "href": "/s/es/dayah-litworks/contacto",
           "label": "Contacto"
         }
-      ]
+      ],
+      "logoAlt": "Dayah LitWorks",
+      "logoUrl": "/sites/dayah-litworks/images/logo/logo-blanco.png"
     },
     "newsletter": {
       "ctaText": "Suscribirse",
@@ -20793,7 +21008,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         "alt": "Muestra redactada del portafolio de Dayah LitWorks",
         "background": "surface",
         "maxWidth": 1000,
-        "src": "/images/dayah/portfolio-nda.svg",
+        "src": "/sites/dayah-litworks/images/logo/dlw-master.png",
         "subtitle": "Respeto la confidencialidad de cada proyecto. Mandame un mensaje y te paso una muestra real sin publicarla acá.",
         "title": "Trabajos bajo NDA"
       },
@@ -21069,6 +21284,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           {
             "description": "Trabajo en español e inglés. Si tu manuscrito está en otro idioma, necesito una sinopsis traducida.",
             "title": "Idiomas"
+          },
+          {
+            "description": "Escribí y publiqué Extrême, Intense 2° Edición y Pasiones Furtivas. No solo diseño portadas — también sé lo que un autor necesita porque lo soy.",
+            "title": "También soy autora publicada"
           }
         ],
         "title": "Sobre Daihana"
@@ -40404,6 +40623,161 @@ export const CONTENT: Record<string, JsonRecord> = {
     ]
   },
   "preview-fullfitness:es": {
+    "clases": {
+      "hero": {
+        "headline": "Nuestras Clases",
+        "subheadline": "Crossfit, yoga, funcional y más"
+      },
+      "schedule": {
+        "classes": [
+          {
+            "classes": [
+              {
+                "duration": 45,
+                "instructor": "Carlos",
+                "name": "Crossfit",
+                "time": "07:00"
+              },
+              {
+                "duration": 60,
+                "instructor": "Lucía",
+                "name": "Yoga",
+                "time": "09:00"
+              },
+              {
+                "duration": 45,
+                "instructor": "Carlos",
+                "name": "Funcional",
+                "time": "18:00"
+              }
+            ],
+            "day": "Lunes"
+          },
+          {
+            "classes": [
+              {
+                "duration": 45,
+                "instructor": "Pedro",
+                "name": "Funcional",
+                "time": "07:00"
+              },
+              {
+                "duration": 45,
+                "instructor": "Carlos",
+                "name": "Crossfit",
+                "time": "17:00"
+              },
+              {
+                "duration": 60,
+                "instructor": "Lucía",
+                "name": "Yoga",
+                "time": "19:00"
+              }
+            ],
+            "day": "Martes"
+          },
+          {
+            "classes": [
+              {
+                "duration": 45,
+                "instructor": "Carlos",
+                "name": "Crossfit",
+                "time": "07:00"
+              },
+              {
+                "duration": 45,
+                "instructor": "Pedro",
+                "name": "Funcional",
+                "time": "18:00"
+              }
+            ],
+            "day": "Miércoles"
+          },
+          {
+            "classes": [
+              {
+                "duration": 45,
+                "instructor": "Pedro",
+                "name": "Funcional",
+                "time": "07:00"
+              },
+              {
+                "duration": 45,
+                "instructor": "Carlos",
+                "name": "Crossfit",
+                "time": "17:00"
+              },
+              {
+                "duration": 60,
+                "instructor": "Lucía",
+                "name": "Yoga",
+                "time": "19:00"
+              }
+            ],
+            "day": "Jueves"
+          },
+          {
+            "classes": [
+              {
+                "duration": 45,
+                "instructor": "Carlos",
+                "name": "Crossfit",
+                "time": "07:00"
+              },
+              {
+                "duration": 45,
+                "instructor": "Pedro",
+                "name": "Funcional",
+                "time": "18:00"
+              }
+            ],
+            "day": "Viernes"
+          },
+          {
+            "classes": [
+              {
+                "duration": 60,
+                "instructor": "Carlos",
+                "name": "Crossfit",
+                "time": "09:00"
+              },
+              {
+                "duration": 60,
+                "instructor": "Lucía",
+                "name": "Yoga",
+                "time": "11:00"
+              }
+            ],
+            "day": "Sábado"
+          }
+        ],
+        "title": "Horario de Clases"
+      },
+      "seo": {
+        "description": "Horarios de clases.",
+        "title": "Clases — Full Fitness Gym"
+      },
+      "trainers": {
+        "items": [
+          {
+            "bio": "Certificado internacional. 10 años de experiencia.",
+            "name": "Carlos",
+            "role": "Instructor de Crossfit"
+          },
+          {
+            "bio": "Formada en India. 8 años enseñando.",
+            "name": "Lucía",
+            "role": "Instructora de Yoga"
+          },
+          {
+            "bio": "Especialista en entrenamiento de peso corporal.",
+            "name": "Pedro",
+            "role": "Instructor Funcional"
+          }
+        ],
+        "title": "Nuestros Instructores"
+      }
+    },
     "contacto": {
       "hero": {
         "headline": "Contacto",
@@ -40431,6 +40805,20 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Contacto"
         }
       ]
+    },
+    "galeria": {
+      "gallery": {
+        "images": [],
+        "title": "Fotos"
+      },
+      "hero": {
+        "headline": "Galería",
+        "subheadline": "Conocé nuestras instalaciones"
+      },
+      "seo": {
+        "description": "Fotos del gym.",
+        "title": "Galería — Full Fitness Gym"
+      }
     },
     "home": {
       "contact": {
@@ -40593,6 +40981,14 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Planes"
         },
         {
+          "href": "/s/es/preview-fullfitness/clases",
+          "label": "Clases"
+        },
+        {
+          "href": "/s/es/preview-fullfitness/galeria",
+          "label": "Galería"
+        },
+        {
           "href": "/s/es/preview-fullfitness/contacto",
           "label": "Contacto"
         }
@@ -40640,6 +41036,85 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Contacto"
         }
       ]
+    },
+    "galeria": {
+      "beforeAfter": {
+        "items": [
+          {
+            "description": "Piel renovada después de una sesión de limpieza profunda",
+            "title": "Limpieza Facial"
+          },
+          {
+            "description": "Reducción de líneas de expresión después de 4 sesiones",
+            "title": "Radiofrecuencia"
+          }
+        ],
+        "title": "Antes y Después"
+      },
+      "gallery": {
+        "images": [],
+        "title": "Galería de Tratamientos"
+      },
+      "hero": {
+        "headline": "Nuestros Trabajos",
+        "subheadline": "Resultados reales de nuestros tratamientos"
+      },
+      "seo": {
+        "description": "Resultados de nuestros tratamientos.",
+        "title": "Galería — Galilea Centro Estético"
+      }
+    },
+    "gift": {
+      "cards": {
+        "plans": [
+          {
+            "description": "Limpieza facial profunda",
+            "features": [
+              "Limpieza facial",
+              "Mascarilla personalizada",
+              "Hidratación"
+            ],
+            "name": "Facial Express",
+            "period": "válido por 3 meses",
+            "popular": false,
+            "price": "80.000"
+          },
+          {
+            "description": "Masaje relajante de 60 min",
+            "features": [
+              "Masaje relajante",
+              "Aromaterapia",
+              "Suite privada"
+            ],
+            "name": "Relax Total",
+            "period": "válido por 3 meses",
+            "popular": true,
+            "price": "150.000"
+          },
+          {
+            "description": "Facial + masaje",
+            "features": [
+              "Limpieza facial",
+              "Masaje relajante",
+              "Depilación láser (1 zona)",
+              "Brunch saludable"
+            ],
+            "name": "Experiencia Completa",
+            "period": "válido por 6 meses",
+            "popular": false,
+            "price": "250.000"
+          }
+        ],
+        "title": "Elegí tu Gift Card"
+      },
+      "hero": {
+        "headline": "Gift Cards",
+        "subheadline": "Regalá una experiencia de belleza única"
+      },
+      "seo": {
+        "description": "Regalá una experiencia de belleza.",
+        "title": "Gift Cards — Galilea Centro Estético"
+      }
     },
     "home": {
       "contact": {
@@ -40753,6 +41228,14 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Servicios"
         },
         {
+          "href": "/s/es/preview-galilea-estetica/galeria",
+          "label": "Galería"
+        },
+        {
+          "href": "/s/es/preview-galilea-estetica/gift-cards",
+          "label": "Gift Cards"
+        },
+        {
           "href": "/s/es/preview-galilea-estetica/contacto",
           "label": "Contacto"
         }
@@ -40800,6 +41283,20 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Contacto"
         }
       ]
+    },
+    "galeria": {
+      "gallery": {
+        "images": [],
+        "title": "Nuestros Cortes"
+      },
+      "hero": {
+        "headline": "Galería de Cortes",
+        "subheadline": "Mirá nuestros trabajos"
+      },
+      "seo": {
+        "description": "Nuestros cortes.",
+        "title": "Galería — Guillén Barbershop"
+      }
     },
     "home": {
       "contact": {
@@ -40922,6 +41419,10 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Servicios"
         },
         {
+          "href": "/s/es/preview-guillen-barber/galeria",
+          "label": "Galería"
+        },
+        {
           "href": "/s/es/preview-guillen-barber/contacto",
           "label": "Contacto"
         }
@@ -40952,6 +41453,38 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Contacto — HidroBaby"
       }
     },
+    "faq": {
+      "hero": {
+        "headline": "Preguntas Frecuentes",
+        "subheadline": "Todo lo que necesitás saber sobre el baby spa"
+      },
+      "items": [
+        {
+          "a": "Aceptamos bebés desde 1 mes hasta 36 meses. Cada etapa tiene servicios específicos.",
+          "q": "¿Qué edad tiene que tener mi bebé?"
+        },
+        {
+          "a": "Sí. Somos el único baby spa en Paraguay con tecnología de desinfección por ozono, que elimina cloro, bromo y otros minerales que podrían afectar la piel del bebé.",
+          "q": "¿Es seguro el agua con ozono?"
+        },
+        {
+          "a": "La sesión completa dura aproximadamente 45 minutos: 30 minutos de hidroestimulación + 15 minutos de masaje.",
+          "q": "¿Cuánto dura una sesión?"
+        },
+        {
+          "a": "Sí. Nuestro spa anticólicos está especialmente diseñado para aliviar gases y molestias digestivas. Muchos bebés eliminan gases y hacen popó después de la sesión.",
+          "q": "¿Ayuda con los cólicos?"
+        },
+        {
+          "a": "Solo traé mudas de ropa, pañales y si tomás mamadera. Nosotros tenemos toallas, flotadores y todo lo necesario.",
+          "q": "¿Necesito llevar algo?"
+        }
+      ],
+      "seo": {
+        "description": "Preguntas frecuentes sobre baby spa.",
+        "title": "FAQ — HidroBaby"
+      }
+    },
     "footer": {
       "businessName": "HidroBaby",
       "city": "Asunción",
@@ -40969,6 +41502,58 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Contacto"
         }
       ]
+    },
+    "gift": {
+      "cards": {
+        "plans": [
+          {
+            "description": "1 sesión de baby spa",
+            "features": [
+              "Hidroestimulación",
+              "Masaje infantil",
+              "Toalla y flotador incluidos"
+            ],
+            "name": "Baby Spa Express",
+            "period": "válido por 3 meses",
+            "popular": false,
+            "price": "100.000"
+          },
+          {
+            "description": "2 sesiones de baby spa",
+            "features": [
+              "2 sesiones de hidroestimulación",
+              "Masaje infantil c/sesión",
+              "Colocación de aritos incluida"
+            ],
+            "name": "Baby Spa Completo",
+            "period": "válido por 3 meses",
+            "popular": true,
+            "price": "200.000"
+          },
+          {
+            "description": "4 sesiones semanales",
+            "features": [
+              "4 sesiones de baby spa",
+              "Masaje Shantala",
+              "Prioridad en agenda",
+              "10% OFF en productos"
+            ],
+            "name": "Plan Mensual",
+            "period": "válido por 1 mes",
+            "popular": false,
+            "price": "350.000"
+          }
+        ],
+        "title": "Elegí tu Gift Card"
+      },
+      "hero": {
+        "headline": "Gift Cards",
+        "subheadline": "El regalo perfecto para una mamá y su bebé"
+      },
+      "seo": {
+        "description": "Regalá una experiencia de baby spa.",
+        "title": "Gift Cards — HidroBaby"
+      }
     },
     "home": {
       "contact": {
@@ -41086,6 +41671,14 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Sucursales"
         },
         {
+          "href": "/s/es/preview-hidrobaby/faq",
+          "label": "FAQ"
+        },
+        {
+          "href": "/s/es/preview-hidrobaby/gift-cards",
+          "label": "Gift Cards"
+        },
+        {
           "href": "/s/es/preview-hidrobaby/contacto",
           "label": "Contacto"
         }
@@ -41102,6 +41695,42 @@ export const CONTENT: Record<string, JsonRecord> = {
       }
     },
     "siteName": "HidroBaby | Baby Spa & Hidroestimulación",
+    "sucursales": {
+      "branches": {
+        "branches": [
+          {
+            "address": "Del Maestro, Asunción",
+            "hours": "Lun a Vie 9-19 | Sáb 9-17 | Dom 9-15",
+            "name": "Villa Morra (Principal)",
+            "phone": "+595 993 444 000"
+          },
+          {
+            "address": "San Lorenzo, Paraguay",
+            "hours": "Lun a Vie 9-19 | Sáb 9-17",
+            "name": "San Lorenzo",
+            "phone": "+595 993 444 000"
+          },
+          {
+            "address": "Dora Gomez Bueno de Acuña, Luque",
+            "hours": "Lun a Vie 9-19 | Sáb 9-17 | Dom 9-15",
+            "name": "Luque",
+            "phone": "+595 993 444 300"
+          }
+        ],
+        "title": "Todas nuestras sucursales"
+      },
+      "hero": {
+        "headline": "Nuestras Sucursales",
+        "subheadline": "Encontranos en Villa Morra, San Lorenzo y Luque"
+      },
+      "map": {
+        "title": "Ubicación Principal"
+      },
+      "seo": {
+        "description": "3 sucursales en Asunción, San Lorenzo y Luque.",
+        "title": "Sucursales — HidroBaby"
+      }
+    },
     "tagline": "Baby spa, hidroestimulación y masajes para bebés — 736 reseñas ⭐5.0 — 3 sucursales",
     "whatsapp": "+595993444000"
   },
@@ -41133,6 +41762,24 @@ export const CONTENT: Record<string, JsonRecord> = {
           "label": "Contacto"
         }
       ]
+    },
+    "galeria": {
+      "gallery": {
+        "images": [],
+        "title": "Piercing y más"
+      },
+      "hero": {
+        "headline": "Nuestros Trabajos",
+        "subheadline": "Tatuajes y piercing realizados en nuestro estudio"
+      },
+      "portfolio": {
+        "items": [],
+        "title": "Tatuajes"
+      },
+      "seo": {
+        "description": "Trabajos realizados.",
+        "title": "Galería — Studio 22 Tattoo"
+      }
     },
     "home": {
       "contact": {
@@ -44622,11 +45269,11 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
   },
   "dayah-litworks": {
     "basePath": "/sites/dayah-litworks/images",
-    "fallback": "/sites/dayah-litworks/images/brand/logo.png",
+    "fallback": "/sites/dayah-litworks/images/logo/logo-negro.png",
     "images": {
       "brand": {
         "appleTouchIcon": {
-          "alt": "Dayah Litworks",
+          "alt": "Dayah LitWorks",
           "height": 180,
           "src": "/sites/dayah-litworks/images/brand/apple-touch-icon.png",
           "width": 180
@@ -44638,15 +45285,103 @@ export const IMAGES_MANIFESTS: Record<string, JsonRecord> = {
           "width": 32
         },
         "ogDefault": {
-          "alt": "Dayah Litworks — Diseño Gráfico",
+          "alt": "Dayah LitWorks — Diseño Gráfico",
           "height": 630,
           "src": "/sites/dayah-litworks/images/brand/og-default.png",
           "width": 1200
         }
+      },
+      "covers": {
+        "como-volver-loco-guardaespaldas": {
+          "alt": "Cómo Volver Loco a Mi Guardaespaldas — Portada Romance",
+          "height": 900,
+          "src": "/sites/dayah-litworks/images/covers/cover-como-volver-loco-guardaespaldas.jpg",
+          "width": 600
+        },
+        "el-secreto-que-nos-unio": {
+          "alt": "El Secreto Que Nos Unió — Portada Romance",
+          "height": 900,
+          "src": "/sites/dayah-litworks/images/covers/cover-el-secreto-que-nos-unio.jpg",
+          "width": 599
+        },
+        "extreme": {
+          "alt": "Extrême — Portada Premade",
+          "height": 900,
+          "src": "/sites/dayah-litworks/images/covers/cover-extreme.jpg",
+          "width": 599
+        },
+        "intense-2-edicion": {
+          "alt": "Intense 2° Edición — Portada Premade",
+          "height": 900,
+          "src": "/sites/dayah-litworks/images/covers/cover-intense-2-edicion.jpg",
+          "width": 599
+        },
+        "macarena-y-sus-ex": {
+          "alt": "Macarena y sus Ex — Portada Romance",
+          "height": 900,
+          "src": "/sites/dayah-litworks/images/covers/cover-macarena-y-sus-ex.jpg",
+          "width": 599
+        },
+        "perdoname-padre-o-hazme-tuya": {
+          "alt": "Perdóname Padre o Hazme Tuya — Portada Dark Romance",
+          "height": 900,
+          "src": "/sites/dayah-litworks/images/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+          "width": 600
+        },
+        "pf-vol1-ebook": {
+          "alt": "PF eBook Vol I — Portada",
+          "height": 900,
+          "src": "/sites/dayah-litworks/images/covers/cover-pf-vol1-ebook.jpg",
+          "width": 599
+        },
+        "pf-vol1-paperback": {
+          "alt": "PF Vol I — Tapa Blanda",
+          "height": 579,
+          "src": "/sites/dayah-litworks/images/covers/cover-pf-vol1-paperback.jpg",
+          "width": 800
+        },
+        "pf-vol2-ebook": {
+          "alt": "PF eBook Vol II — Portada",
+          "height": 900,
+          "src": "/sites/dayah-litworks/images/covers/cover-pf-vol2-ebook.jpg",
+          "width": 599
+        },
+        "pf-vol2-paperback": {
+          "alt": "PF Vol II — Tapa Blanda",
+          "height": 579,
+          "src": "/sites/dayah-litworks/images/covers/cover-pf-vol2-paperback.jpg",
+          "width": 800
+        },
+        "ppoht-paperback": {
+          "alt": "PPOHT — Tapa Blanda",
+          "height": 579,
+          "src": "/sites/dayah-litworks/images/covers/cover-ppoht-paperback.jpg",
+          "width": 800
+        }
+      },
+      "logo": {
+        "blanco": {
+          "alt": "Dayah LitWorks",
+          "height": 400,
+          "src": "/sites/dayah-litworks/images/logo/logo-blanco.png",
+          "width": 400
+        },
+        "dlw": {
+          "alt": "Dayah LitWorks logo",
+          "height": 417,
+          "src": "/sites/dayah-litworks/images/logo/dlw-master.png",
+          "width": 600
+        },
+        "negro": {
+          "alt": "Dayah LitWorks",
+          "height": 400,
+          "src": "/sites/dayah-litworks/images/logo/logo-negro.png",
+          "width": 400
+        }
       }
     },
     "tenant": "dayah-litworks",
-    "totalImages": 4
+    "totalImages": 17
   },
   "de-abasto-a-casa": {
     "basePath": "/sites/de-abasto-a-casa/images",

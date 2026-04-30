@@ -28,6 +28,85 @@ export default {
       }
     ]
   },
+  "galeria": {
+    "beforeAfter": {
+      "items": [
+        {
+          "description": "Piel renovada después de una sesión de limpieza profunda",
+          "title": "Limpieza Facial"
+        },
+        {
+          "description": "Reducción de líneas de expresión después de 4 sesiones",
+          "title": "Radiofrecuencia"
+        }
+      ],
+      "title": "Antes y Después"
+    },
+    "gallery": {
+      "images": [],
+      "title": "Galería de Tratamientos"
+    },
+    "hero": {
+      "headline": "Nuestros Trabajos",
+      "subheadline": "Resultados reales de nuestros tratamientos"
+    },
+    "seo": {
+      "description": "Resultados de nuestros tratamientos.",
+      "title": "Galería — Galilea Centro Estético"
+    }
+  },
+  "gift": {
+    "cards": {
+      "plans": [
+        {
+          "description": "Limpieza facial profunda",
+          "features": [
+            "Limpieza facial",
+            "Mascarilla personalizada",
+            "Hidratación"
+          ],
+          "name": "Facial Express",
+          "period": "válido por 3 meses",
+          "popular": false,
+          "price": "80.000"
+        },
+        {
+          "description": "Masaje relajante de 60 min",
+          "features": [
+            "Masaje relajante",
+            "Aromaterapia",
+            "Suite privada"
+          ],
+          "name": "Relax Total",
+          "period": "válido por 3 meses",
+          "popular": true,
+          "price": "150.000"
+        },
+        {
+          "description": "Facial + masaje",
+          "features": [
+            "Limpieza facial",
+            "Masaje relajante",
+            "Depilación láser (1 zona)",
+            "Brunch saludable"
+          ],
+          "name": "Experiencia Completa",
+          "period": "válido por 6 meses",
+          "popular": false,
+          "price": "250.000"
+        }
+      ],
+      "title": "Elegí tu Gift Card"
+    },
+    "hero": {
+      "headline": "Gift Cards",
+      "subheadline": "Regalá una experiencia de belleza única"
+    },
+    "seo": {
+      "description": "Regalá una experiencia de belleza.",
+      "title": "Gift Cards — Galilea Centro Estético"
+    }
+  },
   "home": {
     "contact": {
       "address": "Sta. Rosa 944 c, Asunción",
@@ -138,6 +217,14 @@ export default {
       {
         "href": "/s/es/preview-galilea-estetica/servicios",
         "label": "Servicios"
+      },
+      {
+        "href": "/s/es/preview-galilea-estetica/galeria",
+        "label": "Galería"
+      },
+      {
+        "href": "/s/es/preview-galilea-estetica/gift-cards",
+        "label": "Gift Cards"
       },
       {
         "href": "/s/es/preview-galilea-estetica/contacto",

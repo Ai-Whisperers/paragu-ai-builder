@@ -43,6 +43,51 @@ export default {
         "readTime": "5 min",
         "slug": "como-elegir-portada-libro",
         "title": "Cómo elegir la portada perfecta para tu libro"
+      },
+      {
+        "category": "Diseño",
+        "date": "2026-04-29",
+        "excerpt": "Consejos prácticos para autores independientes",
+        "imageUrl": "",
+        "readTime": "4 min",
+        "slug": "marketing-para-autores-independientes",
+        "title": "Marketing Para Autores Independientes"
+      },
+      {
+        "category": "Diseño",
+        "date": "2026-04-29",
+        "excerpt": "Consejos prácticos para autores independientes",
+        "imageUrl": "",
+        "readTime": "4 min",
+        "slug": "consejos-de-diseno-de-portadas-de-libros",
+        "title": "Consejos De Diseno De Portadas De Libros"
+      },
+      {
+        "category": "Diseño",
+        "date": "2026-04-29",
+        "excerpt": "Consejos prácticos para autores independientes",
+        "imageUrl": "",
+        "readTime": "4 min",
+        "slug": "antes-y-despues-de-redesignar-portadas-de-libros",
+        "title": "Antes Y Despues De Redesignar Portadas De Libros"
+      },
+      {
+        "category": "Diseño",
+        "date": "2026-04-29",
+        "excerpt": "Consejos prácticos para autores independientes",
+        "imageUrl": "",
+        "readTime": "4 min",
+        "slug": "guia-de-tipografia-para-autores",
+        "title": "Guia De Tipografia Para Autores"
+      },
+      {
+        "category": "Diseño",
+        "date": "2026-04-29",
+        "excerpt": "Consejos prácticos para autores independientes",
+        "imageUrl": "",
+        "readTime": "4 min",
+        "slug": "teoria-del-color-para-portadas-de-libros",
+        "title": "Teoria Del Color Para Portadas De Libros"
       }
     ],
     "seo": {
@@ -143,7 +188,10 @@ export default {
     "businessName": "Dayah LitWorks",
     "city": "Asunción",
     "copyright": "© 2026 Dayah LitWorks. Todos los derechos reservados.",
+    "email": "dayahlitworks@gmail.com",
     "founded": "2019",
+    "instagram": "@dayah.litworks",
+    "instagramLink": "https://instagram.com/dayah.litworks",
     "navLinks": [
       {
         "href": "/s/es/dayah-litworks/servicios",
@@ -169,9 +217,32 @@ export default {
         "href": "/s/es/dayah-litworks/privacidad",
         "label": "Privacidad"
       }
-    ]
+    ],
+    "showEmail": true,
+    "showInstagram": true,
+    "showWhatsApp": true,
+    "whatsapp": "+595986868241",
+    "whatsappLink": "https://wa.me/595986868241"
   },
   "home": {
+    "beforeAfter": {
+      "items": [
+        {
+          "afterImage": "/images/dayah/covers/cover-pf-vol2-ebook.jpg",
+          "beforeImage": "/images/dayah/covers/cover-pf-vol1-ebook.jpg",
+          "description": "De un diseño genérico a una portada que transmite la pasión de la historia.",
+          "name": "Rediseño Romance"
+        },
+        {
+          "afterImage": "/images/dayah/covers/cover-intense-2-edicion.jpg",
+          "beforeImage": "/images/dayah/covers/cover-extreme.jpg",
+          "description": "Tipografía moderna, paleta de colores renovada, impacto visual inmediato.",
+          "name": "Rediseño Thriller"
+        }
+      ],
+      "subtitle": "Casos de rediseño — antes y después de pasar por Dayah LitWorks",
+      "title": "Transformaciones"
+    },
     "contact": {
       "city": "Asunción, Paraguay",
       "email": "dayahlitworks@gmail.com",
@@ -199,12 +270,14 @@ export default {
       "title": "Preguntas Frecuentes"
     },
     "hero": {
-      "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80",
+      "backgroundImage": "",
       "ctaPrimaryHref": "/s/es/dayah-litworks/catalogo",
       "ctaPrimaryText": "Ver Catálogo",
       "ctaSecondaryHref": "https://wa.me/595986868241",
       "ctaSecondaryText": "WhatsApp",
       "headline": "Portadas que venden.",
+      "overlayGradient": "linear-gradient(135deg, #0f0f1a 0%, #16213e 50%, #1a1a2e 100%)",
+      "overlayOpacity": 1,
       "subheadline": "Para autores indie en todo el mundo. USD o PYG.",
       "trustBadges": [
         "+6 años de experiencia",
@@ -215,25 +288,55 @@ export default {
     "portfolio": {
       "items": [
         {
-          "category": "Branding",
-          "description": "Identidad visual para empresa tecnológica",
-          "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80",
-          "title": "Branding Corporativo"
+          "category": "Romance",
+          "description": "Portada romance — eBook",
+          "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
+          "title": "Cómo Volver Loco a Mi Guardaespaldas"
         },
         {
-          "category": "Editorial",
-          "description": "Revista corporativa y catálogo de productos",
-          "imageUrl": "https://images.unsplash.com/photo-1550399105-c4db5fb85c18?w=600&q=80",
-          "title": "Diseño Editorial"
+          "category": "Romance",
+          "description": "Portada romance — eBook",
+          "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
+          "title": "El Secreto Que Nos Unió"
         },
         {
-          "category": "Ilustración",
-          "description": "Illustraciones para campaña publicitaria",
-          "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80",
-          "title": "Illustración"
+          "category": "Romance Oscuro",
+          "description": "Portada dark romance — eBook",
+          "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+          "title": "Perdóname Padre o Hazme Tuya"
+        },
+        {
+          "category": "Romance",
+          "description": "Portada romance — eBook",
+          "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
+          "title": "Macarena y sus Ex"
+        },
+        {
+          "category": "Premade",
+          "description": "Portada premade",
+          "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
+          "title": "Extrême"
+        },
+        {
+          "category": "Premade",
+          "description": "Portada premade",
+          "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
+          "title": "Intense 2° Edición"
+        },
+        {
+          "category": "Paperback",
+          "description": "Portada completa tapa blanda",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol1-paperback.jpg",
+          "title": "PF Vol I — Tapa Blanda"
+        },
+        {
+          "category": "Paperback",
+          "description": "Portada completa tapa blanda",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol2-paperback.jpg",
+          "title": "PF Vol II — Tapa Blanda"
         }
       ],
-      "subtitle": "Diseño gráfico, editorial y branding",
+      "subtitle": "Portadas de libros diseñadas por Dayah LitWorks",
       "title": "Trabajos Recientes"
     },
     "process": {
@@ -277,7 +380,8 @@ export default {
           "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Susurros%20del%20Bosque'",
           "description": "Portada premade — Fantasía/Romance",
           "format": "eBook",
-          "imageUrl": "/images/dayah/covers/susurros-del-bosque.svg",
+          "image": "/images/dayah/covers/susurros-del-bosque.svg",
+          "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
           "includes": [
             "Portada eBook (JPG/PDF)",
             "Título PNG + Portadilla PNG",
@@ -294,7 +398,8 @@ export default {
           "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Coraz%C3%B3n%20de%20Cenizas'",
           "description": "Portada premade — Romance Oscuro",
           "format": "eBook",
-          "imageUrl": "/images/dayah/covers/corazon-de-cenizas.svg",
+          "image": "/images/dayah/covers/corazon-de-cenizas.svg",
+          "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
           "includes": [
             "Portada eBook (JPG/PDF)",
             "Título PNG + Portadilla PNG",
@@ -311,7 +416,8 @@ export default {
           "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20%C3%9Altimo%20C%C3%B3digo'",
           "description": "Portada premade — Thriller/Suspenso",
           "format": "eBook",
-          "imageUrl": "/images/dayah/covers/el-ultimo-codigo.svg",
+          "image": "/images/dayah/covers/el-ultimo-codigo.svg",
+          "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
           "includes": [
             "Portada eBook (JPG/PDF)",
             "Título PNG + Portadilla PNG",
@@ -328,7 +434,8 @@ export default {
           "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Galaxia%20Interior'",
           "description": "Portada premade — Ciencia Ficción",
           "format": "eBook",
-          "imageUrl": "/images/dayah/covers/galaxia-interior.svg",
+          "image": "/images/dayah/covers/galaxia-interior.svg",
+          "imageUrl": "/images/dayah/covers/cover-extreme.jpg",
           "includes": [
             "Portada eBook (JPG/PDF)",
             "Título PNG + Portadilla PNG",
@@ -345,7 +452,8 @@ export default {
           "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Sombras%20en%20el%20Espejo'",
           "description": "Portada premade — Terror/Horror",
           "format": "eBook",
-          "imageUrl": "/images/dayah/covers/sombras-en-el-espejo.svg",
+          "image": "/images/dayah/covers/sombras-en-el-espejo.svg",
+          "imageUrl": "/images/dayah/covers/cover-intense-2-edicion.jpg",
           "includes": [
             "Portada eBook (JPG/PDF)",
             "Título PNG + Portadilla PNG",
@@ -362,7 +470,8 @@ export default {
           "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Alas%20de%20Cristal'",
           "description": "Portada premade — Fantasía Juvenil",
           "format": "eBook",
-          "imageUrl": "/images/dayah/covers/alas-de-cristal.svg",
+          "image": "/images/dayah/covers/alas-de-cristal.svg",
+          "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
           "includes": [
             "Portada eBook (JPG/PDF)",
             "Título PNG + Portadilla PNG",
@@ -372,6 +481,133 @@ export default {
           "name": "Alas de Cristal",
           "pricePYG": "₲250.000",
           "priceUSD": "$35"
+        },
+        {
+          "available": true,
+          "category": "Romance",
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'C%C3%B3mo%20Volver%20Loco%20a%20Mi%20Guardaespaldas'",
+          "description": "Portada premade — Romance",
+          "format": "eBook",
+          "image": "/images/dayah/covers/como-volver-loco-a-mi-guardaespaldas.svg",
+          "imageUrl": "/images/dayah/covers/cover-como-volver-loco-guardaespaldas.jpg",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "name": "Cómo Volver Loco a Mi Guardaespaldas",
+          "pricePYG": "₲250.000",
+          "priceUSD": "$35"
+        },
+        {
+          "available": true,
+          "category": "Romance",
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Perd%C3%B3name%20Padre%20o%20Hazme%20Tuya'",
+          "description": "Portada premade — Romance Oscuro",
+          "format": "eBook",
+          "image": "/images/dayah/covers/perdoname-padre-o-hazme-tuya.svg",
+          "imageUrl": "/images/dayah/covers/cover-perdoname-padre-o-hazme-tuya.jpg",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "name": "Perdóname Padre o Hazme Tuya",
+          "pricePYG": "₲250.000",
+          "priceUSD": "$35"
+        },
+        {
+          "available": true,
+          "category": "Romance",
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'El%20Secreto%20Que%20Nos%20Uni%C3%B3'",
+          "description": "Portada premade — Romance",
+          "format": "eBook",
+          "image": "/images/dayah/covers/el-secreto-que-nos-unio.svg",
+          "imageUrl": "/images/dayah/covers/cover-el-secreto-que-nos-unio.jpg",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "name": "El Secreto Que Nos Unió",
+          "pricePYG": "₲250.000",
+          "priceUSD": "$35"
+        },
+        {
+          "available": true,
+          "category": "Romance",
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'Macarena%20y%20sus%20Ex'",
+          "description": "Portada premade — Romance",
+          "format": "eBook",
+          "image": "/images/dayah/covers/macarena-y-sus-ex.svg",
+          "imageUrl": "/images/dayah/covers/cover-macarena-y-sus-ex.jpg",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "name": "Macarena y sus Ex",
+          "pricePYG": "₲250.000",
+          "priceUSD": "$35"
+        },
+        {
+          "available": true,
+          "category": "Romance",
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PF%20eBook%20Vol%20I'",
+          "description": "Portada premade — Edición Especial",
+          "format": "eBook",
+          "image": "/images/dayah/covers/pf-ebook-vol-i.svg",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol1-ebook.jpg",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "name": "PF eBook Vol I",
+          "pricePYG": "₲250.000",
+          "priceUSD": "$30"
+        },
+        {
+          "available": true,
+          "category": "Romance",
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PF%20eBook%20Vol%20II'",
+          "description": "Portada premade — Edición Especial",
+          "format": "eBook",
+          "image": "/images/dayah/covers/pf-ebook-vol-ii.svg",
+          "imageUrl": "/images/dayah/covers/cover-pf-vol2-ebook.jpg",
+          "includes": [
+            "Portada eBook (JPG/PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "name": "PF eBook Vol II",
+          "pricePYG": "₲250.000",
+          "priceUSD": "$30"
+        },
+        {
+          "available": true,
+          "category": "Romance",
+          "ctaHref": "https://wa.me/595986868241?text=Hola!%20Me%20interesa%20la%20portada%20premade%20'PPOHT'",
+          "description": "Portada premade — Tapa Blanda",
+          "format": "Paperback",
+          "image": "/images/dayah/covers/ppoht.svg",
+          "imageUrl": "/images/dayah/covers/cover-ppoht-paperback.jpg",
+          "includes": [
+            "Portada Tapa Blanda (JPG/PDF)",
+            "Archivo imprimible (PDF)",
+            "Título PNG + Portadilla PNG",
+            "2 banners de revelación",
+            "2 mockups"
+          ],
+          "name": "PPOHT",
+          "pricePYG": "₲500.000",
+          "priceUSD": "$70"
         }
       ],
       "subtitle": "Diseños listos para usar — personalización incluida",
@@ -430,6 +666,26 @@ export default {
           {
             "description": "Cambios de dirección fuera del scope original. — USD 20/ronda",
             "title": "Revisión adicional (más allá de las 2 incluidas)"
+          },
+          {
+            "description": "Logo, paleta de colores, tipografía y plantillas para tu marca autoral. — USD 50",
+            "title": "Diseño de Marca Personal para Autores"
+          },
+          {
+            "description": "Banners publicitarios para Amazon ADS y redes sociales. — USD 15",
+            "title": "Banner ADS (300x250 / 728x90)"
+          },
+          {
+            "description": "3 diseños para Instagram/Facebook para promocionar tu libro. — USD 25",
+            "title": "Set de Redes Sociales (3 post)"
+          },
+          {
+            "description": "Animación corta para lanzamiento del libro. Ideal para redes. — USD 60",
+            "title": "Book Trailer (15s animado)"
+          },
+          {
+            "description": "Adaptar la portada existente a una saga manteniendo coherencia visual. — USD 30",
+            "title": "Adaptación de Portada a Serie"
           }
         ],
         "subtitle": "Extras que podés sumar a cualquier paquete.",
@@ -686,12 +942,12 @@ export default {
         },
         {
           "icon": "Calendar",
-          "label": "Anos en el rubro",
-          "value": "+12"
+          "label": "Años en el rubro",
+          "value": "+6"
         },
         {
           "icon": "Globe",
-          "label": "Paises alcanzados",
+          "label": "Países alcanzados",
           "value": "15+"
         }
       ]
@@ -699,17 +955,32 @@ export default {
     "testimonials": {
       "items": [
         {
-          "author": "María G.",
-          "quote": "Mi portada quedó increíble! Dayah entendió perfectamente la esencia de mi libro.",
-          "rating": 5
+          "name": "María González",
+          "rating": 5,
+          "role": "Autora — Fantasía",
+          "text": "Dayah capturó exactamente la atmósfera que imaginaba para mi saga. La portada superó mis expectativas y las ventas aumentaron desde el primer mes."
         },
         {
-          "author": "Carlos R.",
-          "quote": "Profesional, creativa y super rápida. Mi portada premade fue amor a primera vista.",
-          "rating": 5
+          "name": "Carlos Mendoza",
+          "rating": 5,
+          "role": "Autor Independiente",
+          "text": "Trabajar con Dayah fue increíblemente fácil. Entendió mi visión desde el primer brief y el resultado fue profesional, limpio y exactamente lo que necesitaba."
+        },
+        {
+          "name": "Laura Ramírez",
+          "rating": 5,
+          "role": "Autora — Romance",
+          "text": "La portada de mi novela pasó de ser 'meh' a 'WOW' en menos de dos semanas. Recibo cumplidos de lectores todo el tiempo. ¡100% recomendada!"
+        },
+        {
+          "name": "Pedro Alarcón",
+          "rating": 5,
+          "role": "Editorial Independiente",
+          "text": "Hemos trabajado con varios diseñadores y Dayah es, sin duda, la mejor. Su atención al detalle y capacidad para traducir conceptos abstractos a imágenes es impresionante."
         }
       ],
-      "title": "Testimonios"
+      "subtitle": "Autores que confiaron en Dayah LitWorks para sus portadas",
+      "title": "Lo que dicen mis clientes"
     },
     "trustBadges": {
       "badges": [
@@ -787,7 +1058,9 @@ export default {
         "href": "/s/es/dayah-litworks/contacto",
         "label": "Contacto"
       }
-    ]
+    ],
+    "logoAlt": "Dayah LitWorks",
+    "logoUrl": "/sites/dayah-litworks/images/logo/logo-blanco.png"
   },
   "newsletter": {
     "ctaText": "Suscribirse",
@@ -819,7 +1092,7 @@ export default {
       "alt": "Muestra redactada del portafolio de Dayah LitWorks",
       "background": "surface",
       "maxWidth": 1000,
-      "src": "/images/dayah/portfolio-nda.svg",
+      "src": "/sites/dayah-litworks/images/logo/dlw-master.png",
       "subtitle": "Respeto la confidencialidad de cada proyecto. Mandame un mensaje y te paso una muestra real sin publicarla acá.",
       "title": "Trabajos bajo NDA"
     },
@@ -1095,6 +1368,10 @@ export default {
         {
           "description": "Trabajo en español e inglés. Si tu manuscrito está en otro idioma, necesito una sinopsis traducida.",
           "title": "Idiomas"
+        },
+        {
+          "description": "Escribí y publiqué Extrême, Intense 2° Edición y Pasiones Furtivas. No solo diseño portadas — también sé lo que un autor necesita porque lo soy.",
+          "title": "También soy autora publicada"
         }
       ],
       "title": "Sobre Daihana"

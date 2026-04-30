@@ -10,7 +10,7 @@
     },
     {
       "id": "services",
-      "variant": "cards",
+      "variant": "pricing-table",
       "content": "home.services"
     },
     {
