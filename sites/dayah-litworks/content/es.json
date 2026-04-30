@@ -124,9 +124,12 @@
         "USD o PYG",
         "Entrega 1–2 semanas"
       ],
-      "backgroundImage": "",
+      "backgroundImage": "/images/dayah/covers/hero-bg.svg",
       "overlayGradient": "linear-gradient(135deg, #0f0f1a 0%, #16213e 50%, #1a1a2e 100%)",
-      "overlayOpacity": 1.0
+      "overlayOpacity": 1.0,
+      "backgroundImageMobile": "",
+      "useGradient": false,
+      "variant": "image"
     },
     "trustBadges": {
       "title": "¿Por qué elegirnos?",
@@ -1534,5 +1537,6 @@
     "buttonText": "Pedir cotización",
     "buttonHref": "/s/es/dayah-litworks/contacto",
     "variant": "gradient"
-  }
+  },
+  "heroSectionBg": "/images/dayah/covers/hero-bg.svg"
 }
