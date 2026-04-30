@@ -26,28 +26,22 @@
     {
       "id": "portfolio",
       "variant": "grid",
-      "content": "home.portfolio",
-      "styling": {}
+      "content": "home.portfolio"
     },
     {
       "id": "testimonials",
-      "content": "home.testimonials",
       "variant": "grid",
-      "styling": {
-        "padding": "sm"
-      }
+      "content": "home.testimonials"
     },
     {
       "id": "process",
       "variant": "steps",
-      "content": "home.process",
-      "styling": {}
+      "content": "home.process"
     },
     {
       "id": "cta-banner",
       "variant": "gradient",
-      "content": "ctaBanner",
-      "styling": {}
+      "content": "ctaBanner"
     }
   ]
 }

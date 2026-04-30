@@ -162,6 +162,8 @@ const buildPortfolio: SectionBuilder = ({ business, content, registry }) => {
     image: img.src,
     category: img.category,
   }))
+  // If no gallery items from business data, let the content-ref path handle it
+  if (items.length === 0) return null
   const portfolioConfig = registry.features?.portfolio as { enabled: boolean; categories?: string[] } | undefined
   const galleryPage = (content as { galleryPage?: { title?: string; subtitle?: string } }).galleryPage
   return {

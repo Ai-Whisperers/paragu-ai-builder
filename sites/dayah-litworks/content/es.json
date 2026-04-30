@@ -76,7 +76,7 @@
   },
   "navigation": {
     "businessName": "Dayah LitWorks",
-    "logoUrl": "/images/dayah/covers/logo-blanco.png",
+    "logoUrl": "/images/dayah/covers/logo-blanco.svg",
     "logoAlt": "Dayah LitWorks",
     "items": [
       {
@@ -743,13 +743,13 @@
         {
           "number": 1,
           "title": "Brief + referencias",
-          "description": "Me mandás género, audiencia, referencias visuales y deadline. En 24 h te confirmo si el proyecto encaja con mi agenda.",
+          "description": "Me mandás género, audiencia, referencias visuales y deadline. En 24 h te confirmo si el estilo funciona para tu proyecto y te paso un presupuesto.",
           "duration": "Día 1"
         },
         {
           "number": 2,
           "title": "Diseño",
-          "description": "Te propongo 2 opciones iniciales. Elegís una y la refinamos en 2 rondas de revisión sin costo.",
+          "description": "Te propongo 2 opciones iniciales. Elegís una y la refinamos en 2 rondas de ajustes. Podés pedir cambios de color, tipografía, composición y elementos.",
           "duration": "Semana 1"
         },
         {

@@ -990,7 +990,7 @@ export default {
       }
     ],
     "logoAlt": "Dayah LitWorks",
-    "logoUrl": "/sites/dayah-litworks/images/logo/logo-blanco.png"
+    "logoUrl": "/images/dayah/covers/logo-blanco.svg"
   },
   "newsletter": {
     "ctaText": "Suscribirse",

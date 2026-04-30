@@ -224,6 +224,7 @@ export function HeaderSection({
                   href={item.href}
                   className="px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 hover:bg-surface-light"
                   style={{ color: 'var(--text)' }}
+                  aria-current={__currentPath && item.href === __currentPath ? 'page' : undefined}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.color = 'var(--secondary)'
                   }}

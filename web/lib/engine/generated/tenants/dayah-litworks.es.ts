@@ -224,6 +224,7 @@ export default {
     "whatsapp": "+595986868241",
     "whatsappLink": "https://wa.me/595986868241"
   },
+  "heroSectionBg": "/images/dayah/covers/hero-bg.svg",
   "home": {
     "beforeAfter": {
       "items": [
@@ -270,7 +271,8 @@ export default {
       "title": "Preguntas Frecuentes"
     },
     "hero": {
-      "backgroundImage": "",
+      "backgroundImage": "/images/dayah/covers/hero-bg.svg",
+      "backgroundImageMobile": "",
       "ctaPrimaryHref": "/s/es/dayah-litworks/catalogo",
       "ctaPrimaryText": "Ver Catálogo",
       "ctaSecondaryHref": "https://wa.me/595986868241",
@@ -283,7 +285,9 @@ export default {
         "+6 años de experiencia",
         "USD o PYG",
         "Entrega 1–2 semanas"
-      ]
+      ],
+      "useGradient": false,
+      "variant": "image"
     },
     "portfolio": {
       "items": [
@@ -342,13 +346,13 @@ export default {
     "process": {
       "steps": [
         {
-          "description": "Me mandás género, audiencia, referencias visuales y deadline. En 24 h te confirmo si el proyecto encaja con mi agenda.",
+          "description": "Me mandás género, audiencia, referencias visuales y deadline. En 24 h te confirmo si el estilo funciona para tu proyecto y te paso un presupuesto.",
           "duration": "Día 1",
           "number": 1,
           "title": "Brief + referencias"
         },
         {
-          "description": "Te propongo 2 opciones iniciales. Elegís una y la refinamos en 2 rondas de revisión sin costo.",
+          "description": "Te propongo 2 opciones iniciales. Elegís una y la refinamos en 2 rondas de ajustes. Podés pedir cambios de color, tipografía, composición y elementos.",
           "duration": "Semana 1",
           "number": 2,
           "title": "Diseño"
@@ -1060,7 +1064,7 @@ export default {
       }
     ],
     "logoAlt": "Dayah LitWorks",
-    "logoUrl": "/sites/dayah-litworks/images/logo/logo-blanco.png"
+    "logoUrl": "/images/dayah/covers/logo-blanco.svg"
   },
   "newsletter": {
     "ctaText": "Suscribirse",

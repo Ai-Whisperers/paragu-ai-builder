@@ -58,7 +58,7 @@ export function PortfolioSection({
     : [...new Set(items.map(item => item.category).filter(Boolean))] as string[]
 
   return (
-    <section id="portafolio" className="font-heading bg-background py-16 sm:py-20">
+    <section className="font-heading bg-background py-16 sm:py-20">
       <div className="font-heading mx-auto  px-4">
         <div className="font-heading text-center mb-12">
           <Heading level={2} className="font-heading text-xl sm:text-3xl font-bold text-foreground">
@@ -111,6 +111,8 @@ export function PortfolioSection({
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="font-heading object-cover transition-transform duration-slow group-hover:scale-110"
                   unoptimized={(item.image || item.imageUrl || '').startsWith('data:')}
+                  loading={index < 4 ? 'eager' : 'lazy'}
+                  fetchPriority={index < 4 ? 'high' : undefined}
                 />
               ) : (
                 <div className="font-heading flex h-full items-center justify-center bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)]">

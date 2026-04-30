@@ -94,8 +94,9 @@ export function FooterSection({
       style={{ 
         backgroundColor: 'var(--background)',
         color: 'var(--text)',
-        borderTop: '2px solid',
+        borderTop: '2px solid var(--secondary)',
         borderImage: 'linear-gradient(90deg, var(--secondary), var(--primary)) 1',
+        borderImageSlice: '1',
       }}
     >
       <Container>

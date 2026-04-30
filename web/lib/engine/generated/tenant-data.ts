@@ -1029,6 +1029,7 @@ export const SITES: Record<string, JsonRecord> = {
     "country": "Paraguay",
     "defaultLocale": "es",
     "domain": "dayah-litworks.com",
+    "favicon": "/images/dayah/covers/logo-blanco.png",
     "features": {
       "dualCurrency": true,
       "testimonials": true,
@@ -1062,6 +1063,7 @@ export const SITES: Record<string, JsonRecord> = {
     },
     "migratedAt": "2026-04-20",
     "migratedFrom": "web/lib/engine/demo-data.ts",
+    "openGraphImage": "/images/dayah/covers/og-dayah.png",
     "ruc": "5618487-5",
     "stagingDomain": "staging.dayah-litworks.com",
     "vertical": "portfolio-professional"
@@ -5695,27 +5697,21 @@ export const PAGES: Record<string, JsonRecord> = {
       {
         "content": "home.portfolio",
         "id": "portfolio",
-        "styling": {},
         "variant": "grid"
       },
       {
         "content": "home.testimonials",
         "id": "testimonials",
-        "styling": {
-          "padding": "sm"
-        },
         "variant": "grid"
       },
       {
         "content": "home.process",
         "id": "process",
-        "styling": {},
         "variant": "steps"
       },
       {
         "content": "ctaBanner",
         "id": "cta-banner",
-        "styling": {},
         "variant": "gradient"
       }
     ],
@@ -19438,7 +19434,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         }
       ],
       "logoAlt": "Dayah LitWorks",
-      "logoUrl": "/sites/dayah-litworks/images/logo/logo-blanco.png"
+      "logoUrl": "/images/dayah/covers/logo-blanco.svg"
     },
     "newsletter": {
       "ctaText": "Suscribirse",
@@ -20140,6 +20136,7 @@ export const CONTENT: Record<string, JsonRecord> = {
       "whatsapp": "+595986868241",
       "whatsappLink": "https://wa.me/595986868241"
     },
+    "heroSectionBg": "/images/dayah/covers/hero-bg.svg",
     "home": {
       "beforeAfter": {
         "items": [
@@ -20186,7 +20183,8 @@ export const CONTENT: Record<string, JsonRecord> = {
         "title": "Preguntas Frecuentes"
       },
       "hero": {
-        "backgroundImage": "",
+        "backgroundImage": "/images/dayah/covers/hero-bg.svg",
+        "backgroundImageMobile": "",
         "ctaPrimaryHref": "/s/es/dayah-litworks/catalogo",
         "ctaPrimaryText": "Ver Catálogo",
         "ctaSecondaryHref": "https://wa.me/595986868241",
@@ -20199,7 +20197,9 @@ export const CONTENT: Record<string, JsonRecord> = {
           "+6 años de experiencia",
           "USD o PYG",
           "Entrega 1–2 semanas"
-        ]
+        ],
+        "useGradient": false,
+        "variant": "image"
       },
       "portfolio": {
         "items": [
@@ -20258,13 +20258,13 @@ export const CONTENT: Record<string, JsonRecord> = {
       "process": {
         "steps": [
           {
-            "description": "Me mandás género, audiencia, referencias visuales y deadline. En 24 h te confirmo si el proyecto encaja con mi agenda.",
+            "description": "Me mandás género, audiencia, referencias visuales y deadline. En 24 h te confirmo si el estilo funciona para tu proyecto y te paso un presupuesto.",
             "duration": "Día 1",
             "number": 1,
             "title": "Brief + referencias"
           },
           {
-            "description": "Te propongo 2 opciones iniciales. Elegís una y la refinamos en 2 rondas de revisión sin costo.",
+            "description": "Te propongo 2 opciones iniciales. Elegís una y la refinamos en 2 rondas de ajustes. Podés pedir cambios de color, tipografía, composición y elementos.",
             "duration": "Semana 1",
             "number": 2,
             "title": "Diseño"
@@ -20976,7 +20976,7 @@ export const CONTENT: Record<string, JsonRecord> = {
         }
       ],
       "logoAlt": "Dayah LitWorks",
-      "logoUrl": "/sites/dayah-litworks/images/logo/logo-blanco.png"
+      "logoUrl": "/images/dayah/covers/logo-blanco.svg"
     },
     "newsletter": {
       "ctaText": "Suscribirse",
