@@ -8,3 +8,4 @@ web/tsconfig.tsbuildinfo
 *.tsbuildinfo
 web/.next/dev/
 web/.next
+web/.vercel
