@@ -1,0 +1,351 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "paragu-ai-builder",
+    "lastReviewed": "2026-04-26"
+  },
+  "siteName": "Bufete Méndez & Estudio Contable",
+  "tagline": "Servicios jurídicos y contables integrados para empresas y profesionales en Paraguay",
+  "placeholders": {
+    "businessName": "Bufete Méndez & Estudio Contable",
+    "shortName": "Bufete Méndez",
+    "city": "Asunción",
+    "year": 2026,
+    "phone": "+595 985 724 135",
+    "email": "ventas@paragu-ai.com"
+  },
+  "navigation": {
+    "businessName": "Bufete Méndez & Estudio Contable",
+    "navItems": [
+      { "label": "Inicio", "href": "#hero" },
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Equipo", "href": "#equipo" },
+      { "label": "Planes", "href": "#planes" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "ctaText": "Consulta Gratuita",
+    "ctaHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20el%20demo%20de%20Bufete%20Mendez%20y%20quiero%20un%20sitio%20para%20mi%20estudio"
+  },
+  "home": {
+    "seo": {
+      "title": "Bufete Méndez & Estudio Contable — Abogados y Contadores en Asunción",
+      "description": "Servicios jurídicos corporativos, tributarios, laborales y contables para empresas y profesionales en Paraguay. Consultá sin compromiso."
+    },
+    "hero": {
+      "headline": "Abogados y Contadores que entienden tu negocio",
+      "subheadline": "Servicios jurídicos y contables integrados para empresas, emprendedores y profesionales en Paraguay. Un solo equipo, una sola vision, resultados reales.",
+      "ctaPrimaryText": "Agendá tu consulta gratuita",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20el%20demo%20de%20Bufete%20Mendez%20y%20quiero%20un%20sitio%20para%20mi%20estudio",
+      "ctaSecondaryText": "Conocé nuestros servicios",
+      "ctaSecondaryHref": "#servicios",
+      "trustBadges": [
+        "15+ años de experiencia",
+        "500+ clientes atendidos",
+        "Asunción y CDE"
+      ]
+    },
+    "trustSignals": {
+      "eyebrow": "Por que confiar en nosotros",
+      "title": "Profesionales matriculados y certificados",
+      "items": [
+        {
+          "icon": "Award",
+          "title": "Colegio de Abogados del Paraguay",
+          "description": "Todos nuestros abogados cuentan con matricula activa ante el CAP y seguro de responsabilidad profesional."
+        },
+        {
+          "icon": "Calculator",
+          "title": "Colegio de Contadores del Paraguay",
+          "description": "Contadores publicos certificados por el CCP, habilitados para dictamenes y auditorias externas."
+        },
+        {
+          "icon": "Shield",
+          "title": "Registrados ante DNIT",
+          "description": "Inscriptos y timbrados en DNIT (ex-SET). Presentaciones via Marangatu al dia para todos nuestros clientes."
+        },
+        {
+          "icon": "Building",
+          "title": "Oficina propia en Asunción",
+          "description": "Oficina comercial en Av. Mariscal Lopez. Atencion presencial con cita previa o consultas virtuales."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Nuestras areas de práctica",
+      "title": "Servicios jurídicos y contables integrados",
+      "subtitle": "Cubrimos todas las areas de tu negocio con un equipo multidisciplinario, coordinado por un solo partner.",
+      "items": [
+        {
+          "icon": "Building2",
+          "title": "Derecho Corporativo",
+          "description": "Constitucion de sociedades (EAS, SRL, SA), redaccion de contratos societarios, actas de asamblea, disoluciones y fusiones. Asesoramos en gobierno corporativo y compliance.",
+          "highlights": ["Constitucion EAS en 72h", "Contratos comerciales", "Due diligence", "Gobierno corporativo"]
+        },
+        {
+          "icon": "Receipt",
+          "title": "Derecho Tributario",
+          "description": "Planificacion tributaria, defensa ante fiscalizaciones de DNIT, recuperacion de creditos fiscales IVA, regimen RESIMPLE y recursos administrativos.",
+          "highlights": ["Planificacion fiscal", "Defensa en fiscalizaciones", "Recupero IVA", "RESIMPLE"]
+        },
+        {
+          "icon": "Users",
+          "title": "Derecho Laboral",
+          "description": "Contratos de trabajo, liquidacion de sueldos y jornales, despidos y finiquitos, negociacion colectiva, accidentes laborales y defensa ante MTESS e IPS.",
+          "highlights": ["Liquidacion de sueldos", "Despidos y finiquitos", "Defensa MTESS/IPS", "Contratos laborales"]
+        },
+        {
+          "icon": "LineChart",
+          "title": "Contabilidad General",
+          "description": "Contabilidad mensual completa, libros contables y societarios, preparacion de estados financieros, auditoria externa y presentaciones ante DNIT e INCOOP.",
+          "highlights": ["Contabilidad mensual", "Estados financieros", "Auditoria externa", "Presentaciones DNIT"]
+        },
+        {
+          "icon": "FileText",
+          "title": "Impuestos y Sueldos",
+          "description": "Liquidacion de IVA, IRE, IRP, IDU e ISC. Presentacion via Marangatu. Calculo de sueldos, aguinaldo, IPS jornalero y planilla MTESS.",
+          "highlights": ["IVA mensual", "IRP anual", "Sueldos y jornales", "Marangatu"]
+        },
+        {
+          "icon": "Globe",
+          "title": "Migracion e Inversores",
+          "description": "Asistencia a inversores extranjeros, obtencion de residencia y cedula paraguaya, apertura de cuentas bancarias, regimen de maquila y estructuración de inversiones.",
+          "highlights": ["Residencia para inversores", "Cuenta bancaria", "Regimen de maquila", "Estructuración"]
+        }
+      ]
+    },
+    "team": {
+      "eyebrow": "Nuestro equipo",
+      "title": "Profesionales que suman",
+      "subtitle": "Conoce a los abogados y contadores que lideran nuestras areas de práctica.",
+      "members": [
+        {
+          "name": "Dr. Carlos Méndez",
+          "role": "Socio Fundador — Abogado Corporativo",
+          "credentials": "CAP N° 12.345 | UNA, 2008",
+          "description": "Especialista en derecho corporativo y tributario con 17 años de experiencia. MBA por la Universidad de Montevideo. Lideró mas de 200 constituciones de sociedades.",
+          "email": "cmendez@bufetemendez.com.py"
+        },
+        {
+          "name": "CPC Laura Benítez",
+          "role": "Socia — Contadora Publica",
+          "credentials": "CCP N° 8.901 | UC, 2010",
+          "description": "Contadora Publica con 14 años de experiencia en auditoria y consultoria tributaria para PYMES y empresas del regimen de maquila. Ex-auditora de KPMG Paraguay.",
+          "email": "lbenitez@bufetemendez.com.py"
+        },
+        {
+          "name": "Dra. Mariana Rivas",
+          "role": "Abogada Laboralista",
+          "credentials": "CAP N° 15.678 | UCA, 2013",
+          "description": "Especialista en derecho laboral y seguridad social. Representa a empresas en procedimientos ante MTESS, IPS y juzgados laborales del Paraguay.",
+          "email": "mrivas@bufetemendez.com.py"
+        },
+        {
+          "name": "CPC Fernando Ozuna",
+          "role": "Contador Senior — Impuestos",
+          "credentials": "CCP N° 9.234 | UNA, 2014",
+          "description": "Experto en liquidación de impuestos, regimen RESIMPLE, Marangatu y e-Kuatia. Asesora a mas de 80 PYMES en su cumplimiento tributario mensual.",
+          "email": "fozuna@bufetemendez.com.py"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Como trabajamos",
+      "title": "De la consulta al resultado",
+      "subtitle": "Un proceso claro y transparente en 5 pasos.",
+      "steps": [
+        {
+          "icon": "MessageSquare",
+          "title": "Consulta inicial",
+          "description": "Agendá una consulta gratuita por WhatsApp o formulario. Conocemos tu caso y te explicamos como podemos ayudarte.",
+          "duration": "30 min"
+        },
+        {
+          "icon": "Search",
+          "title": "Diagnóstico",
+          "description": "Analizamos tu situacion jurídica y contable actual. Identificamos riesgos, oportunidades y el plan de acción mas conveniente.",
+          "duration": "2-3 dias"
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Implementación",
+          "description": "Ejecutamos el plan: constituciones, contratos, registros contables, presentaciones impositivas. Todo coordinado por tu partner asignado.",
+          "duration": "Continua"
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Cumplimiento mensual",
+          "description": "Liquidación mensual de IVA, sueldos, presentaciones Marangatu y asesoria continua. Reportes mensuales de estado.",
+          "duration": "Mensual"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Crecimiento",
+          "description": "Revisión trimestral, planificación fiscal anual, expansion a nuevos mercados y estructuración de inversiones.",
+          "duration": "Trimestral"
+        }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "Nuestros planes",
+      "title": "Planes claros, sin sorpresas",
+      "subtitle": "Elegí el plan que mejor se adapte a tu negocio. Todos incluyen asesoria por WhatsApp en horario laboral.",
+      "plans": [
+        {
+          "name": "Básico",
+          "price": "350.000 Gs/mes",
+          "description": "Para profesionales independientes y monotributistas",
+          "features": [
+            "Contabilidad mensual simplificada",
+            "Liquidación de IVA mensual",
+            "Presentaciones Marangatu",
+            "1 consulta mensual por WhatsApp",
+            "Certificado de cumplimiento"
+          ],
+          "cta": "Elegir Básico",
+          "highlighted": false
+        },
+        {
+          "name": "Profesional",
+          "price": "750.000 Gs/mes",
+          "description": "Para PYMES y empresas en crecimiento",
+          "features": [
+            "Contabilidad mensual completa",
+            "IVA, IRE, IRP e IDU",
+            "Liquidación de sueldos y IPS",
+            "Asesoria jurídica corporativa",
+            "Reportes financieros mensuales",
+            "3 consultas mensuales",
+            "Representación ante DNIT"
+          ],
+          "cta": "Elegir Profesional",
+          "highlighted": true
+        },
+        {
+          "name": "Empresarial",
+          "price": "1.500.000 Gs/mes",
+          "description": "Para empresas consolidadas con necesidades complejas",
+          "features": [
+            "Todo lo del plan Profesional",
+            "Auditoría externa trimestral",
+            "Planificación fiscal anual",
+            "Asesoria jurídica ilimitada",
+            "Representación en juicios",
+            "Due diligence para inversiones",
+            "Estructuración societaria"
+          ],
+          "cta": "Elegir Empresarial",
+          "highlighted": false
+        }
+      ],
+      "disclaimer": "Precios en guaraníes (Gs). IVA 10% no incluido. Planes personalizados disponibles para empresas del regimen de maquila y grandes contribuyentes."
+    },
+    "testimonials": {
+      "eyebrow": "Testimonios",
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "La confianza de mas de 500 clientes nos respalda.",
+      "items": [
+        {
+          "name": "Miguel Rojas",
+          "role": "CEO, Grupo Rojas SRL",
+          "content": "Tercerizamos toda nuestra contabilidad y asesoria jurídica con Bufete Méndez. Nos ahorraron mas de 40 millones en multas y nos ayudaron a estructurar la compra de un competidor. Altamente recomendados.",
+          "rating": 5,
+          "avatarInitials": "MR"
+        },
+        {
+          "name": "Ana Cabrera",
+          "role": "Directora, Cabrera & Asociados",
+          "content": "El servicio integrado de abogacía y contabilidad nos cambió la gestión. Ya no tenemos que coordinar entre dos estudios. Un solo equipo, un solo partner, todo resuelto.",
+          "rating": 5,
+          "avatarInitials": "AC"
+        },
+        {
+          "name": "Patrick van der Meer",
+          "role": "Inversor, Holanda",
+          "content": "Abrieron mi EAS en menos de una semana y me acompañaron en todo el proceso de residencia. Su servicio bilingüe para inversores extranjeros es de primera.",
+          "rating": 5,
+          "avatarInitials": "PV"
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Preguntas frecuentes",
+      "title": "Todo lo que necesitás saber",
+      "items": [
+        {
+          "question": "Que incluye la contabilidad mensual?",
+          "answer": "La contabilidad mensual incluye: registro de todas las operaciones, preparacion de asientos contables, libros IVA compras y ventas, liquidacion de IVA (Form 111), presentacion via Marangatu, y envio de reporte mensual. Los comprobantes los recibis por WhatsApp, email o los retiramos de tu negocio."
+        },
+        {
+          "question": "Cuanto tiempo toma abrir una empresa (EAS) en Paraguay?",
+          "answer": "Una EAS (Empresa por Acciones Simplificada) se constituye en aproximadamente 72 horas habiles a traves del portal SUACE del MIC. Incluye la minuta, inscripcion en el RUC, obtencion de timbrado y habilitacion municipal. Nosotros gestionamos todo el tramite."
+        },
+        {
+          "question": "Que impuestos paga una PYME en Paraguay?",
+          "answer": "Las PYMES en Paraguay generalmente tributan: IVA (10% general, 5% basico) mensual, IRE (Renta Empresarial, 10%) o IRP (Renta Personal, 8-10%) segun el régimen, e IDU (Impuesto a la Documentación, 2,5%). Tambien pueden optar por RESIMPLE si facturan menos de Gs. 400 millones anuales. Te asesoramos sobre el regimen mas conveniente para tu caso."
+        },
+        {
+          "question": "Trabajan con inversores extranjeros?",
+          "answer": "Si, es una de nuestras especialidades. Asistimos a inversores de mas de 15 paises en la apertura de sociedades, obtencion de residencia y cedula paraguaya, apertura de cuentas bancarias, y estructuración de inversiones bajo el regimen de maquila y la ley de incentivos fiscales. Atendemos en español, ingles y portugues."
+        },
+        {
+          "question": "Que es Marangatu y por que es importante?",
+          "answer": "Marangatu es la plataforma virtual de la DNIT (ex-SET) para la presentación de declaraciones juradas, facturación electrónica (e-Kuatia) y gestión de timbrados. Todos nuestros planes incluyen la gestión completa a traves de Marangatu, asegurando que todas tus obligaciones esten al dia sin que tengas que lidiar con el sistema."
+        },
+        {
+          "question": "Puedo hacer consultas puntuales sin contratar un plan mensual?",
+          "answer": "Si, ofrecemos consultas jurídicas y contables on-demand. Agendás una consulta por WhatsApp, te asignamos un profesional, y resolvemos tu consulta puntual. El costo es de Gs. 150.000 por consulta de hasta 45 minutos. La primera consulta siempre es gratuita."
+        }
+      ]
+    },
+    "taxDeadline": {
+      "eyebrow": "Vencimientos",
+      "title": "No te olvides de tus obligaciones",
+      "subtitle": "Mantenete al dia con DNIT, IPS y MTESS. Nosotros nos encargamos de todo.",
+      "note": "Si ya sos cliente nuestro, no te preocupes por los vencimientos. Nosotros presentamos todo en tiempo y forma."
+    },
+    "calcCostoEmpleado": {
+      "eyebrow": "Calculadora",
+      "title": "Calculá el costo real de tu empleado",
+      "subtitle": "Conocé cuanto te cuesta realmente un empleado en Paraguay, incluyendo salario, IPS, aguinaldo y otros beneficios.",
+      "defaultSalary": 2800000
+    },
+    "leadForm": {
+      "title": "Agendá tu consulta gratuita",
+      "subtitle": "Completá el formulario y te contactamos en menos de 24 horas para coordinar una reunión sin compromiso.",
+      "fields": [
+        { "name": "name", "label": "Nombre completo", "type": "text", "required": true },
+        { "name": "phone", "label": "WhatsApp", "type": "tel", "required": true },
+        { "name": "email", "label": "Correo electrónico", "type": "email", "required": false },
+        { "name": "businessType", "label": "Tipo de consulta", "type": "select", "options": ["Asesoria juridica", "Contabilidad", "Apertura de empresa", "Impuestos", "Otro"], "required": true },
+        { "name": "message", "label": "Contanos brevemente tu caso", "type": "textarea", "required": false }
+      ],
+      "ctaText": "Enviar consulta",
+      "successMessage": "Gracias por tu consulta. Te contactamos en menos de 24 horas por WhatsApp.",
+      "demoRubro": "bufete_estudio_contable"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Respondemos el mismo dia por WhatsApp",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "address": "Av. Mariscal Lopez 1234, Edificio Corporativo, Piso 5, Asunción",
+      "city": "Asunción",
+      "coordinates": { "lat": -25.282, "lng": -57.635 },
+      "hours": "Lunes a Viernes 08:00 - 18:00 | Sábados 09:00 - 12:00",
+      "formSource": "demo",
+      "demoRubro": "bufete_estudio_contable"
+    }
+  },
+  "footer": {
+    "businessName": "Bufete Méndez & Estudio Contable",
+    "copyright": "© {{year}} Bufete Méndez & Estudio Contable",
+    "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu estudio jurídico o contable. El sitio final se personaliza con tu información real, colores de marca y fotos de tu equipo.",
+    "legalText": "Abogados matriculados CAP | Contadores Públicos CCP | Todos los derechos reservados.",
+    "whatsapp": "+595985724135",
+    "email": "ventas@paragu-ai.com"
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Bufete Méndez & Estudio Contable y quiero un sitio para mi estudio profesional"
+  }
+}

@@ -9,3 +9,5 @@ web/tsconfig.tsbuildinfo
 web/.next/dev/
 web/.next
 web/.vercel
+supabase/.temp/
+docs/refactoring-plan.md
