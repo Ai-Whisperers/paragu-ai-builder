@@ -170,7 +170,11 @@ const nextConfig = {
     ]
   },
 
-  reactCompiler: true,
+  // reactCompiler removed — babel-plugin-react-compiler not installed
+
+  turbopack: {
+    root: '/root/paragu-ai-builder/web',
+  },
 
   experimental: {
     serverActions: {
@@ -180,14 +184,15 @@ const nextConfig = {
       'lucide-react',
       '@supabase/supabase-js',
     ],
-    outputFileTracingExcludes: {
-      '*': [
-        'node_modules/@swc/core-linux-x64-gnu/**',
-        'node_modules/@next/swc-linux-x64-gnu/**',
-        'node_modules/caniuse-lite/**',
-        'node_modules/typescript/**',
-      ],
-    },
+  },
+
+  outputFileTracingExcludes: {
+    '*': [
+      'node_modules/@swc/core-linux-x64-gnu/**',
+      'node_modules/@next/swc-linux-x64-gnu/**',
+      'node_modules/caniuse-lite/**',
+      'node_modules/typescript/**',
+    ],
   },
 
   // Compress output
