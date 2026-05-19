@@ -120,6 +120,85 @@
         }
       ]
     },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "{{businessName}} — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Corte Clásico",
+          "description": "Corte tradicional a máquina y tijera. Incluye lavado y styling.",
+          "priceCents": 45000,
+          "category": "Cortes",
+          "available": true,
+          "imageCategory": "barber"
+        },
+        {
+          "name": "Fade Moderno",
+          "description": "Fade, degradado y diseños personalizados. Estilo moderno con precisión profesional.",
+          "priceCents": 55000,
+          "category": "Cortes",
+          "available": true,
+          "imageCategory": "barber"
+        },
+        {
+          "name": "Afeitado Clásico",
+          "description": "Afeitado tradicional con navaja, toalla caliente y bálsamo post-afeitado. Experiencia de otro nivel.",
+          "priceCents": 50000,
+          "category": "Barba",
+          "available": true,
+          "imageCategory": "barber"
+        },
+        {
+          "name": "Arreglo de Barba",
+          "description": "Perfilado con navaja, recorte preciso y crema hidratante. Dejamos tu barba impecable.",
+          "priceCents": 30000,
+          "category": "Barba",
+          "available": true,
+          "imageCategory": "barber"
+        },
+        {
+          "name": "Corte + Barba (Combo)",
+          "description": "Paquete completo: corte a elección + arreglo de barba. Ahorrá con el combo.",
+          "priceCents": 70000,
+          "category": "Combos",
+          "available": true,
+          "imageCategory": "barber"
+        },
+        {
+          "name": "Cera para Cabello",
+          "description": "Cera modeladora de fijación media. Mantené tu peinado perfecto todo el día.",
+          "priceCents": 45000,
+          "category": "Productos",
+          "available": true,
+          "imageCategory": "products"
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Consultá por delivery",
+      "description": "Hacemos envíos a domicilio de nuestros productos. Consultanos por WhatsApp para más información."
+    },
+    "giftCards": {
+      "title": "Gift Cards",
+      "description": "Regalá estilo a quien más quieras",
+      "items": [
+        {
+          "name": "Gift Card 100.000 Gs",
+          "priceCents": 100000,
+          "description": "Canjeable por servicios de barbería"
+        },
+        {
+          "name": "Gift Card 250.000 Gs",
+          "priceCents": 250000,
+          "description": "Canjeable por servicios de barbería"
+        },
+        {
+          "name": "Gift Card 500.000 Gs",
+          "priceCents": 500000,
+          "description": "Canjeable por servicios de barbería"
+        }
+      ]
+    },
     "cta": {
       "title": "Agendá tu turno",
       "subtitle": "Te confirmamos horario por WhatsApp",

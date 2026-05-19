@@ -23,7 +23,16 @@
     "gallery": true,
     "portfolio": true,
     "packagesGiftcards": true,
-    "beforeAfter": true
+    "beforeAfter": true,
+    "productCatalog": true,
+    "featuredProducts": true,
+    "commerce": true
+  },
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG",
+    "whatsappEnabled": true
   },
   "noindex": true,
   "is_demo": true,

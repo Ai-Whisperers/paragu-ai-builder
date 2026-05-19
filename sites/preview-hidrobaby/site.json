@@ -24,7 +24,16 @@
     "multipleLocations": true,
     "locationCount": 3,
     "packagesGiftcards": true,
-    "faq": true
+    "faq": true,
+    "productCatalog": true,
+    "featuredProducts": true,
+    "commerce": true
+  },
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG",
+    "whatsappEnabled": true
   },
   "noindex": true,
   "is_demo": true,

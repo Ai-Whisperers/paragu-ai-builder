@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ExternalLink, Sparkles, ArrowRight } from 'lucide-react'
+import { ExternalLink, Sparkles, ArrowRight, ShoppingCart } from 'lucide-react'
 import { Container } from '@/components/ui/container'
 import { SiteNav } from '@/components/landing/site-nav'
 import { SiteFooter } from '@/components/landing/site-footer'
@@ -8,8 +8,16 @@ import { SiteFooter } from '@/components/landing/site-footer'
 export const metadata: Metadata = {
   title: 'Previews — sitios demo por rubro | ParaguAI',
   description:
-    'Explorá 32 sitios demo de distintos rubros: peluquería, restaurante, clínica, taller, inmobiliaria y más. Cada preview es personalizable para tu negocio.',
+    'Explorá 34 sitios demo de distintos rubros: gimnasio, barbería, spa, tatuajes, restaurante, clínica y más. Cada preview es personalizable para tu negocio.',
   alternates: { canonical: '/previews' },
+}
+
+const PREVIEW_ICONS: Record<string, string> = {
+  gimnasio: '🏋️',
+  estetica: '💆',
+  barberia: '💈',
+  spa: '🧖',
+  tatuajes: '🖋️',
 }
 
 const CLUSTER_ICONS: Record<string, string> = {
@@ -29,6 +37,14 @@ const CLUSTER_ORDER = [
   'Belleza', 'Bienestar', 'Gastronomía', 'Salud',
   'Automotor', 'Comercio', 'Oficios', 'Bienes Raíces',
   'Profesionales', 'Mascotas',
+]
+
+const PREVIEWS = [
+  { slug: 'preview-fullfitness', rubro: 'gimnasio', nameEs: 'Full Fitness Gym', city: 'Luque', desc: 'Gimnasio · Membresías, clases grupales, productos', features: ['productCatalog', 'commerce', 'booking', 'classSchedule', 'gallery'] },
+  { slug: 'preview-galilea-estetica', rubro: 'estetica', nameEs: 'Galilea Centro Estético', city: 'Asunción', desc: 'Estética · Corte, color, manicura, gift cards', features: ['productCatalog', 'commerce', 'booking', 'gallery', 'beforeAfter'] },
+  { slug: 'preview-guillen-barber', rubro: 'barberia', nameEs: 'Guillén Barbershop', city: 'Asunción', desc: 'Barbería · Cortes clásicos, fade, barba, productos', features: ['productCatalog', 'commerce', 'booking', 'openHours'] },
+  { slug: 'preview-hidrobaby', rubro: 'spa', nameEs: 'HidroBaby Spa', city: 'Asunción', desc: 'Spa · Masajes, tratamientos, 3 sucursales, gift cards', features: ['productCatalog', 'commerce', 'booking', 'multipleLocations', 'faq'] },
+  { slug: 'preview-studio22', rubro: 'tatuajes', nameEs: 'Studio 22 Tattoo', city: 'Asunción', desc: 'Tatuajes · Diseño personalizado, piercings, gift cards', features: ['productCatalog', 'commerce', 'booking', 'portfolio'] },
 ]
 
 const DEMOS = [
@@ -99,6 +115,68 @@ export default function PreviewsPage() {
             ))}
           </div>
 
+          {/* Personalized previews — sites for actual clients */}
+          <section className="mb-16">
+            <div className="mb-6 flex items-center gap-3">
+              <Sparkles className="h-5 w-5 text-primary" />
+              <h2 className="text-xl font-bold text-foreground">
+                Sitios personalizados para clientes reales
+              </h2>
+            </div>
+            <p className="text-sm text-muted-foreground mb-6">
+              Estos son sitios demo con contenido personalizado por rubro que podés mostrar a tus clientes potenciales.
+              Cada uno incluye catálogo de productos con precios reales en Gs y pedidos por WhatsApp.
+            </p>
+            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {PREVIEWS.map((p) => (
+                <Link
+                  key={p.slug}
+                  href={`/s/es/${p.slug}`}
+                  target="_blank"
+                  className="group relative overflow-hidden rounded-2xl border-2 border-primary/20 bg-gradient-to-br from-primary/[0.03] to-transparent p-6 transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg"
+                >
+                  <div className="mb-4 flex items-center gap-3">
+                    <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-2xl">
+                      {PREVIEW_ICONS[p.rubro] || '📋'}
+                    </span>
+                    <div>
+                      <p className="font-bold text-foreground group-hover:text-primary transition-colors">
+                        {p.nameEs}
+                      </p>
+                      <p className="text-xs text-muted-foreground">{p.city}</p>
+                    </div>
+                  </div>
+                  <p className="mb-3 text-xs text-muted-foreground leading-relaxed">{p.desc}</p>
+                  <div className="mb-4 flex flex-wrap gap-1.5">
+                    {p.features.includes('commerce') && (
+                      <span className="inline-flex items-center gap-1 rounded-full bg-green-100 px-2.5 py-0.5 text-[10px] font-medium text-green-700">
+                        <ShoppingCart className="h-3 w-3" /> Tienda
+                      </span>
+                    )}
+                    {p.features.includes('productCatalog') && (
+                      <span className="rounded-full bg-blue-100 px-2.5 py-0.5 text-[10px] font-medium text-blue-700">
+                        Catálogo
+                      </span>
+                    )}
+                    {p.features.includes('booking') && (
+                      <span className="rounded-full bg-purple-100 px-2.5 py-0.5 text-[10px] font-medium text-purple-700">
+                        Reservas
+                      </span>
+                    )}
+                    {p.features.includes('gallery') && (
+                      <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-[10px] font-medium text-amber-700">
+                        Galería
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex items-center gap-1 text-sm font-medium text-primary opacity-0 transition-opacity group-hover:opacity-100">
+                    Ver preview <ExternalLink className="h-3.5 w-3.5" />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+
           {/* Real client showcase */}
           <section className="mb-16 rounded-2xl border-2 border-primary/20 bg-gradient-to-br from-primary/5 to-transparent p-8">
             <div className="flex items-center gap-3 mb-6">
@@ -130,6 +208,10 @@ export default function PreviewsPage() {
               ))}
             </div>
           </section>
+
+          <p className="mb-4 text-sm font-bold uppercase tracking-wider text-center text-primary">
+            {DEMOS.length} demos por rubro
+          </p>
 
           {CLUSTER_ORDER.filter((c) => grouped[c]).map((cluster) => (
             <section key={cluster} id={cluster} className="mb-12 scroll-mt-24">

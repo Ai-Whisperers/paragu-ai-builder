@@ -163,6 +163,101 @@
         }
       ]
     },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "{{businessName}} — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Membresía Mensual",
+          "description": "Acceso completo a sala de musculación durante todo el mes. Sin límite de horario.",
+          "priceCents": 200000,
+          "category": "Membresías",
+          "available": true,
+          "imageCategory": "gym"
+        },
+        {
+          "name": "Membresía Trimestral",
+          "description": "Tres meses de acceso ilimitado al gym. Ahorrá con el plan trimestral.",
+          "priceCents": 510000,
+          "category": "Membresías",
+          "available": true,
+          "imageCategory": "gym"
+        },
+        {
+          "name": "Membresía Anual",
+          "description": "Un año entero de entrenamiento sin preocupaciones. El mejor precio del mercado.",
+          "priceCents": 1680000,
+          "category": "Membresías",
+          "available": true,
+          "imageCategory": "gym"
+        },
+        {
+          "name": "Clase de Yoga",
+          "description": "Clase grupal de yoga para todos los niveles. Mejorá flexibilidad y concentración.",
+          "priceCents": 30000,
+          "category": "Clases",
+          "available": true,
+          "imageCategory": "gym"
+        },
+        {
+          "name": "Clase de Spinning",
+          "description": "Clase intensiva de spinning con instructor certificado. Quemá calorías al máximo.",
+          "priceCents": 30000,
+          "category": "Clases",
+          "available": true,
+          "imageCategory": "gym"
+        },
+        {
+          "name": "Personal Training (1 sesión)",
+          "description": "Sesión individual con entrenador personal certificado. Plan adaptado a tus objetivos.",
+          "priceCents": 80000,
+          "category": "Entrenamiento",
+          "available": true,
+          "imageCategory": "gym"
+        },
+        {
+          "name": "Proteína Whey 1kg",
+          "description": "Proteína de suero de leche de alta calidad. Ideal para recuperación muscular post-entreno.",
+          "priceCents": 180000,
+          "category": "Suplementos",
+          "available": true,
+          "imageCategory": "products"
+        },
+        {
+          "name": "Shaker Deportivo",
+          "description": "Shaker de 700ml con mezclador integrado. Ideal para llevar tu proteína al gym.",
+          "priceCents": 45000,
+          "category": "Accesorios",
+          "available": true,
+          "imageCategory": "products"
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Consultá por delivery",
+      "description": "Hacemos envíos a domicilio de nuestros productos. Consultanos por WhatsApp para más información."
+    },
+    "giftCards": {
+      "title": "Gift Cards",
+      "description": "Regalá fitness a quien más quieras",
+      "items": [
+        {
+          "name": "Gift Card 100.000 Gs",
+          "priceCents": 100000,
+          "description": "Para membresías o productos"
+        },
+        {
+          "name": "Gift Card 250.000 Gs",
+          "priceCents": 250000,
+          "description": "Para membresías o productos"
+        },
+        {
+          "name": "Gift Card 500.000 Gs",
+          "priceCents": 500000,
+          "description": "Para membresías o productos"
+        }
+      ]
+    },
     "cta": {
       "title": "Venís a probar? Primer clase gratis",
       "subtitle": "Sin compromiso, sin inscripción. Traé tu ropa de entrenar.",

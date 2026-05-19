@@ -21,7 +21,16 @@
     "testimonials": true,
     "portfolio": true,
     "gallery": true,
-    "booking": true
+    "booking": true,
+    "productCatalog": true,
+    "featuredProducts": true,
+    "commerce": true
+  },
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG",
+    "whatsappEnabled": true
   },
   "noindex": true,
   "is_demo": true,

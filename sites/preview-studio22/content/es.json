@@ -108,6 +108,85 @@
         }
       ]
     },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "{{businessName}} — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Tatuaje Pequeño",
+          "description": "Diseño personalizado de hasta 5 cm. Incluye consulta previa y ajustes. Ideal para primeros tatuajes.",
+          "priceCents": 200000,
+          "category": "Tatuajes",
+          "available": true,
+          "imageCategory": "tattoo"
+        },
+        {
+          "name": "Tatuaje Mediano",
+          "description": "Tatuaje detallado de tamaño mediano. Realismo, blackwork, tradicional o geométrico. Presupuesto sin cargo.",
+          "priceCents": 500000,
+          "category": "Tatuajes",
+          "available": true,
+          "imageCategory": "tattoo"
+        },
+        {
+          "name": "Tatuaje Grande",
+          "description": "Tatuaje de gran tamaño, manga completa o diseño complejo. Sesiones según complejidad del diseño.",
+          "priceCents": 1000000,
+          "category": "Tatuajes",
+          "available": true,
+          "imageCategory": "tattoo"
+        },
+        {
+          "name": "Retoque de Tatuaje",
+          "description": "Retoque profesional para revitalizar tu tatuaje antiguo. Color, líneas y detalles.",
+          "priceCents": 100000,
+          "category": "Tatuajes",
+          "available": true,
+          "imageCategory": "tattoo"
+        },
+        {
+          "name": "Piercing Nariz",
+          "description": "Piercing de nariz con acero quirúrgico o titanio. Incluye apósito y cuidados post-colocación.",
+          "priceCents": 80000,
+          "category": "Piercing",
+          "available": true,
+          "imageCategory": "tattoo"
+        },
+        {
+          "name": "Piercing Oreja",
+          "description": "Piercing de oreja en lóbulo o cartílago. Material hipoalergénico. Incluye cuidados.",
+          "priceCents": 70000,
+          "category": "Piercing",
+          "available": true,
+          "imageCategory": "tattoo"
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Consultá por delivery",
+      "description": "Hacemos envíos a domicilio de nuestros productos. Consultanos por WhatsApp para más información."
+    },
+    "giftCards": {
+      "title": "Gift Cards",
+      "description": "Regalá arte a quien más quieras",
+      "items": [
+        {
+          "name": "Gift Card 100.000 Gs",
+          "priceCents": 100000,
+          "description": "Canjeable por servicios de tatuaje o piercing"
+        },
+        {
+          "name": "Gift Card 250.000 Gs",
+          "priceCents": 250000,
+          "description": "Canjeable por servicios de tatuaje o piercing"
+        },
+        {
+          "name": "Gift Card 500.000 Gs",
+          "priceCents": 500000,
+          "description": "Canjeable por servicios de tatuaje o piercing"
+        }
+      ]
+    },
     "cta": {
       "title": "Agendá tu consulta de diseño",
       "subtitle": "La primera consulta es sin costo",

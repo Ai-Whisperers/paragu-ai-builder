@@ -21,7 +21,16 @@
     "booking": true,
     "gallery": true,
     "classSchedule": true,
-    "team": true
+    "team": true,
+    "productCatalog": true,
+    "featuredProducts": true,
+    "commerce": true
+  },
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG",
+    "whatsappEnabled": true
   },
   "noindex": true,
   "is_demo": true,
