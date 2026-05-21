@@ -16,18 +16,18 @@
         "key": "cortes",
         "title": "Cortes",
         "defaultServices": [
-          { "name": "Corte Clasico", "price": null, "duration": 30, "description": "Tijera y peine, estilo terminado" },
-          { "name": "Corte Fade", "price": null, "duration": 35, "description": "Skin fade, lineas de diseno" },
-          { "name": "Barberia Completa", "price": null, "duration": 45, "description": "Corte + barba + toalla caliente" }
+          { "name": "Corte Clasico", "price": 50000, "duration": 30, "description": "Tijera y peine, estilo terminado" },
+          { "name": "Corte Fade", "price": 60000, "duration": 35, "description": "Skin fade, lineas de diseno" },
+          { "name": "Barberia Completa", "price": 90000, "duration": 45, "description": "Corte + barba + toalla caliente" }
         ]
       },
       {
         "key": "barba",
         "title": "Barba y Afeitado",
         "defaultServices": [
-          { "name": "Arreglo de Barba", "price": null, "duration": 20, "description": "Shape + line-up" },
-          { "name": "Hot Towel Shave", "price": null, "duration": 30, "description": "Navaja tradicional con toalla caliente" },
-          { "name": "Corte + Barba", "price": null, "duration": 50, "description": "Paquete completo" }
+          { "name": "Arreglo de Barba", "price": 30000, "duration": 20, "description": "Shape + line-up" },
+          { "name": "Hot Towel Shave", "price": 50000, "duration": 30, "description": "Navaja tradicional con toalla caliente" },
+          { "name": "Corte + Barba", "price": 75000, "duration": 50, "description": "Paquete completo" }
         ]
       }
     ]
@@ -49,11 +49,31 @@
     "note": "Fotos reales de nuestros clientes"
   },
 
+  "booking": {
+    "title": "Reserva tu Turno",
+    "subtitle": "Elegi servicio, fecha y hora",
+    "ctaWhatsapp": "Reservar por WhatsApp",
+    "ctaOnline": "Reservar Online",
+    "note": "Walk-ins bienvenidos segun disponibilidad"
+  },
+
   "teamPage": {
     "title": "Nuestros Barberos",
     "memberTemplate": {
       "buttonText": "Reservar con {{name}}"
-    }
+    },
+    "memberRoles": [
+      {
+        "title": "Master Barber",
+        "specialties": ["Cortes Clasicos", "Fades", "Barba"],
+        "yearsExperience": "10+"
+      },
+      {
+        "title": "Barber",
+        "specialties": ["Cortes Modernos", "Diseños", "Hot Towel Shave"],
+        "yearsExperience": "5+"
+      }
+    ]
   },
 
   "footer": {
@@ -62,8 +82,60 @@
     "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
   },
 
+  "faq": [
+    {
+      "q": "Cuanto tiempo dura un fade?",
+      "a": "Depende del crecimiento de tu cabello, pero en promedio 2-3 semanas para mantener el fade fresco."
+    },
+    {
+      "q": "Aceptan walk-ins o solo con cita?",
+      "a": "Ambos. Recomendamos reservar para fines de semana, pero aceptamos walk-ins segun disponibilidad."
+    },
+    {
+      "q": "Cuanto sale un corte?",
+      "a": "Nuestros cortes van desde 50.000 Gs. Preguntanos por promociones!"
+    }
+  ],
+
   "whatsapp": {
     "defaultMessage": "Hola! Quisiera reservar un turno en {{businessName}}",
     "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+  },
+
+  "productCatalog": {
+    "title": "Productos",
+    "subtitle": "Productos de barberia profesional",
+    "products": [
+      {
+        "name": "Pomade Clasica",
+        "price": 40000,
+        "description": "Pomada de fijacion fuerte con brillo. Ideal para peinados clasicos.",
+        "category": "pomada"
+      },
+      {
+        "name": "Cera Matte",
+        "price": 35000,
+        "description": "Cera con acabado mate y fijacion media.",
+        "category": "cera"
+      },
+      {
+        "name": "Aceite para Barba",
+        "price": 30000,
+        "description": "Aceite hidratante con aroma a sandalo.",
+        "category": "barba"
+      },
+      {
+        "name": "Balm para Barba",
+        "price": 35000,
+        "description": "Balm nutritivo para suavizar y dar forma.",
+        "category": "barba"
+      },
+      {
+        "name": "Shampoo Barba",
+        "price": 25000,
+        "description": "Limpieza suave para barba y bigote.",
+        "category": "barba"
+      }
+    ]
   }
 }

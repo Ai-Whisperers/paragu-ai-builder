@@ -11,6 +11,7 @@
         "hero",
         "services",
         "booking",
+        "beforeAfter",
         "gallery",
         "portfolio",
         "team",
@@ -77,6 +78,19 @@
         "contact",
         "footer"
       ]
+    },
+    "tienda": {
+      "sections": [
+        "header",
+        "productCatalog",
+        "whatsappOrderForm",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "productCatalog",
+        "footer"
+      ]
     }
   },
   "features": {
@@ -103,8 +117,7 @@
       ]
     },
     "beforeAfter": {
-      "enabled": false,
-      "optional": true
+      "enabled": true
     },
     "staffProfiles": {
       "enabled": true,
@@ -130,6 +143,9 @@
     "whatsappFloat": {
       "enabled": true
     },
+    "whatsappOrderForm": {
+      "enabled": true
+    },
     "googleMapsEmbed": {
       "enabled": true
     }
@@ -149,7 +165,45 @@
   "seo": {
     "titleTemplate": "{{businessName}} - Salon de Belleza en {{city}} | Todos los Servicios",
     "descriptionTemplate": "Cabello, uñas, maquillaje y tratamientos faciales en {{city}}. Reserva tu cita online. Tu centro de belleza integral.",
+    "seoDescription": "{{businessName}} es tu centro de belleza integral en {{city}}. Cortes, coloracion, manicura, pedicura, maquillaje profesional y tratamientos faciales. Precios desde {{lowestPrice}} Gs.",
+    "lowestPrice": 40000,
     "schemaType": "BeautySalon",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "{{businessName}}",
+      "description": "{{seoDescription}}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{city}}",
+        "addressRegion": "{{department}}",
+        "addressCountry": "PY"
+      },
+      "telephone": "{{phone}}",
+      "image": "{{heroImage}}",
+      "priceRange": "$$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ],
+      "makesOffer": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Corte y Peinado"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Manicura y Pedicura"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Maquillaje Profesional"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tratamientos Faciales"}}
+      ],
+      "areaServed": {"@type": "City", "name": "{{city}}"}
+    },
     "keywords": [
       "salon de belleza {{city}}",
       "centro de belleza {{city}}",

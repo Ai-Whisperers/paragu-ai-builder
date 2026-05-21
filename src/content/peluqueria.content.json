@@ -17,10 +17,10 @@
         "title": "Cortes de Cabello",
         "description": "Cortes personalizados para cada tipo de rostro y estilo de vida",
         "defaultServices": [
-          { "name": "Corte Dama", "price": null, "duration": 45, "description": "Corte y style profesional" },
-          { "name": "Corte Caballero", "price": null, "duration": 30, "description": "Corte moderno y clasico" },
-          { "name": "Corte Nino", "price": null, "duration": 25, "description": "Para los mas pequenos" },
-          { "name": "Recorte de Bangs", "price": null, "duration": 15, "description": "Retoque de fleco" }
+          { "name": "Corte Dama", "price": 80000, "duration": 45, "description": "Corte y style profesional" },
+          { "name": "Corte Caballero", "price": 50000, "duration": 30, "description": "Corte moderno y clasico" },
+          { "name": "Corte Nino", "price": 35000, "duration": 25, "description": "Para los mas pequenos" },
+          { "name": "Recorte de Bangs", "price": 20000, "duration": 15, "description": "Retoque de fleco" }
         ]
       },
       {
@@ -28,11 +28,11 @@
         "title": "Coloracion y Cambios",
         "description": "Tecnicas avanzadas para un color perfecto y natural",
         "defaultServices": [
-          { "name": "Coloracion Completa", "priceFrom": null, "duration": 90, "description": "Color base completo" },
-          { "name": "Mechas/Highlighting", "priceFrom": null, "duration": 120, "description": "Para brillo natural" },
-          { "name": "Balayage", "priceFrom": null, "duration": 150, "description": "Tecnica francesa de mano alzada" },
-          { "name": "Ombre", "priceFrom": null, "duration": 120, "description": "Degradado natural" },
-          { "name": "Retoque de Raices", "price": null, "duration": 60, "description": "Mantenimiento mensual" }
+          { "name": "Coloracion Completa", "priceFrom": 150000, "duration": 90, "description": "Color base completo" },
+          { "name": "Mechas/Highlighting", "priceFrom": 180000, "duration": 120, "description": "Para brillo natural" },
+          { "name": "Balayage", "priceFrom": 250000, "duration": 150, "description": "Tecnica francesa de mano alzada" },
+          { "name": "Ombre", "priceFrom": 200000, "duration": 120, "description": "Degradado natural" },
+          { "name": "Retoque de Raices", "price": 80000, "duration": 60, "description": "Mantenimiento mensual" }
         ]
       },
       {
@@ -40,9 +40,9 @@
         "title": "Tratamientos Especiales",
         "description": "Cuidados intensivos para cabello danado y salud del cuero cabelludo",
         "defaultServices": [
-          { "name": "Keratina Intensiva", "price": null, "duration": 120, "description": "Alisa y repara" },
-          { "name": "Tratamiento Capilar", "price": null, "duration": 45, "description": "Hidratacion profunda" },
-          { "name": "Masaje Scalp", "price": null, "duration": 30, "description": "Relajacion y salud capilar" }
+          { "name": "Keratina Intensiva", "price": 350000, "duration": 120, "description": "Alisa y repara" },
+          { "name": "Tratamiento Capilar", "price": 120000, "duration": 45, "description": "Hidratacion profunda" },
+          { "name": "Masaje Scalp", "price": 70000, "duration": 30, "description": "Relajacion y salud capilar" }
         ]
       }
     ]
@@ -52,7 +52,19 @@
     "title": "Nuestro Equipo",
     "memberTemplate": {
       "buttonText": "Reservar con {{name}}"
-    }
+    },
+    "memberRoles": [
+      {
+        "title": "Senior Stylist",
+        "specialties": ["Cortes", "Coloracion", "Balayage"],
+        "yearsExperience": "8+"
+      },
+      {
+        "title": "Colorista",
+        "specialties": ["Coloracion", "Mechas", "Decoloracion"],
+        "yearsExperience": "5+"
+      }
+    ]
   },
 
   "galleryPage": {
@@ -79,6 +91,14 @@
     "buttonText": "Reservar Ahora"
   },
 
+  "booking": {
+    "title": "Reserva tu Cita",
+    "subtitle": "Elegi el servicio, el dia y la hora que prefieras",
+    "ctaWhatsapp": "Reservar por WhatsApp",
+    "ctaOnline": "Reservar Online",
+    "note": "Servicios con precios desde {{lowestPrice}} Gs."
+  },
+
   "footer": {
     "columns": ["about", "quickLinks", "contact", "social"],
     "quickLinks": ["Inicio", "Servicios", "Galeria", "Equipo", "Contacto"],
@@ -88,6 +108,43 @@
   "whatsapp": {
     "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
     "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+  },
+
+  "productCatalog": {
+    "title": "Productos",
+    "subtitle": "Los mejores productos para el cuidado de tu cabello",
+    "products": [
+      {
+        "name": "Shampoo Profesional",
+        "price": 45000,
+        "description": "Shampoo suave para uso diario. Ideal para todo tipo de cabello.",
+        "category": "shampoo"
+      },
+      {
+        "name": "Acondicionador Profesional",
+        "price": 45000,
+        "description": "Acondicionador nutritivo que hidrata y desenreda.",
+        "category": "acondicionador"
+      },
+      {
+        "name": "Cera Modeling",
+        "price": 35000,
+        "description": "Cera de peinar con fijacion media y acabado natural.",
+        "category": "cera"
+      },
+      {
+        "name": "Spray Fijador",
+        "price": 40000,
+        "description": "Spray de fijacion fuerte para peinados duraderos.",
+        "category": "spray"
+      },
+      {
+        "name": "Mascarilla Capilar",
+        "price": 55000,
+        "description": "Tratamiento intensivo de hidratacion semanal.",
+        "category": "mascarilla"
+      }
+    ]
   },
 
   "seo": {

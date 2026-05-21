@@ -17,10 +17,10 @@
         "title": "Cabello",
         "description": "Cortes, coloracion y tratamientos capilares para todo tipo de cabello",
         "defaultServices": [
-          { "name": "Corte Dama", "price": null, "duration": 45, "description": "Corte y styling profesional" },
-          { "name": "Coloracion Completa", "priceFrom": null, "duration": 90, "description": "Color base completo y personalizado" },
-          { "name": "Mechas / Highlights", "priceFrom": null, "duration": 120, "description": "Iluminaciones y reflejos naturales" },
-          { "name": "Keratina", "price": null, "duration": 120, "description": "Alisado y reparacion intensiva" }
+          { "name": "Corte Dama", "price": 80000, "duration": 45, "description": "Corte y styling profesional" },
+          { "name": "Coloracion Completa", "priceFrom": 150000, "duration": 90, "description": "Color base completo y personalizado" },
+          { "name": "Mechas / Highlights", "priceFrom": 180000, "duration": 120, "description": "Iluminaciones y reflejos naturales" },
+          { "name": "Keratina", "price": 350000, "duration": 120, "description": "Alisado y reparacion intensiva" }
         ]
       },
       {
@@ -28,10 +28,10 @@
         "title": "Uñas",
         "description": "Manicura, pedicura y diseños personalizados",
         "defaultServices": [
-          { "name": "Manicura Clasica", "price": null, "duration": 30, "description": "Limado, cutículas y esmaltado" },
-          { "name": "Pedicura Completa", "price": null, "duration": 45, "description": "Cuidado completo de pies y esmaltado" },
-          { "name": "Uñas en Gel", "price": null, "duration": 60, "description": "Aplicacion de gel con diseño a eleccion" },
-          { "name": "Nail Art", "priceFrom": null, "duration": 75, "description": "Diseños personalizados y creativos" }
+          { "name": "Manicura Clasica", "price": 40000, "duration": 30, "description": "Limado, cuticulas y esmaltado" },
+          { "name": "Pedicura Completa", "price": 60000, "duration": 45, "description": "Cuidado completo de pies y esmaltado" },
+          { "name": "Unas en Gel", "price": 70000, "duration": 60, "description": "Aplicacion de gel con diseno a eleccion" },
+          { "name": "Nail Art", "priceFrom": 80000, "duration": 75, "description": "Disenos personalizados y creativos" }
         ]
       },
       {
@@ -39,9 +39,9 @@
         "title": "Maquillaje",
         "description": "Maquillaje profesional para toda ocasion",
         "defaultServices": [
-          { "name": "Maquillaje Social", "price": null, "duration": 45, "description": "Para eventos y reuniones especiales" },
-          { "name": "Maquillaje de Novia", "price": null, "duration": 90, "description": "Look completo con prueba previa" },
-          { "name": "Maquillaje Quinceañera", "price": null, "duration": 60, "description": "Diseño especial para tu gran dia" }
+          { "name": "Maquillaje Social", "price": 80000, "duration": 45, "description": "Para eventos y reuniones especiales" },
+          { "name": "Maquillaje de Novia", "price": 350000, "duration": 90, "description": "Look completo con prueba previa" },
+          { "name": "Maquillaje Quinceanera", "price": 250000, "duration": 60, "description": "Diseno especial para tu gran dia" }
         ]
       },
       {
@@ -49,9 +49,9 @@
         "title": "Tratamientos Faciales",
         "description": "Cuidados profesionales para una piel radiante",
         "defaultServices": [
-          { "name": "Limpieza Facial Profunda", "price": null, "duration": 60, "description": "Limpieza, extraccion y mascarilla" },
-          { "name": "Tratamiento Anti-Age", "price": null, "duration": 75, "description": "Rejuvenecimiento y firmeza para la piel" },
-          { "name": "Hidratacion Facial", "price": null, "duration": 45, "description": "Nutricion intensiva y luminosidad" }
+          { "name": "Limpieza Facial Profunda", "price": 100000, "duration": 60, "description": "Limpieza, extraccion y mascarilla" },
+          { "name": "Tratamiento Anti-Age", "price": 180000, "duration": 75, "description": "Rejuvenecimiento y firmeza para la piel" },
+          { "name": "Hidratacion Facial", "price": 80000, "duration": 45, "description": "Nutricion intensiva y luminosidad" }
         ]
       },
       {
@@ -59,9 +59,9 @@
         "title": "Paquetes",
         "description": "Combina servicios y ahorra con nuestros paquetes especiales",
         "defaultServices": [
-          { "name": "Spa Day", "priceFrom": null, "duration": 180, "description": "Facial + manicura + pedicura + masaje" },
-          { "name": "Novia Completa", "priceFrom": null, "duration": 240, "description": "Maquillaje + peinado + manicura + prueba previa" },
-          { "name": "Dia de Chicas", "priceFrom": null, "duration": 150, "description": "Paquete grupal: mani + pedi + facial para 3+ personas" }
+          { "name": "Spa Day", "priceFrom": 250000, "duration": 180, "description": "Facial + manicura + pedicura + masaje" },
+          { "name": "Novia Completa", "priceFrom": 600000, "duration": 240, "description": "Maquillaje + peinado + manicura + prueba previa" },
+          { "name": "Dia de Chicas", "priceFrom": 180000, "duration": 150, "description": "Paquete grupal: mani + pedi + facial para 3+ personas" }
         ]
       }
     ]
@@ -71,7 +71,29 @@
     "title": "Nuestro Equipo",
     "memberTemplate": {
       "buttonText": "Reservar con {{name}}"
-    }
+    },
+    "memberRoles": [
+      {
+        "title": "Senior Stylist",
+        "specialties": ["Cortes", "Coloracion", "Peinados"],
+        "yearsExperience": "10+"
+      },
+      {
+        "title": "Nail Artist",
+        "specialties": ["Manicura", "Pedicura", "Nail Art", "Gel"],
+        "yearsExperience": "6+"
+      },
+      {
+        "title": "Makeup Artist",
+        "specialties": ["Maquillaje Social", "Novias", "Quinceañeras"],
+        "yearsExperience": "7+"
+      },
+      {
+        "title": "Esteticista",
+        "specialties": ["Faciales", "Limpieza Profunda", "Anti-Age"],
+        "yearsExperience": "5+"
+      }
+    ]
   },
 
   "galleryPage": {
@@ -101,6 +123,14 @@
     "buttonText": "Reservar Ahora"
   },
 
+  "booking": {
+    "title": "Reserva tu Cita",
+    "subtitle": "Elegi el servicio y el momento perfecto",
+    "ctaWhatsapp": "Reservar por WhatsApp",
+    "ctaOnline": "Reservar Online",
+    "note": "Paquetes desde {{lowestPrice}} Gs."
+  },
+
   "footer": {
     "columns": ["about", "quickLinks", "contact", "social"],
     "quickLinks": ["Inicio", "Servicios", "Galeria", "Equipo", "Contacto"],
@@ -110,6 +140,49 @@
   "whatsapp": {
     "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
     "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+  },
+
+  "productCatalog": {
+    "title": "Productos",
+    "subtitle": "Productos profesionales para tu cuidado personal",
+    "products": [
+      {
+        "name": "Shampoo Profesional",
+        "price": 45000,
+        "description": "Shampoo suave para uso diario. Todo tipo de cabello.",
+        "category": "cabello"
+      },
+      {
+        "name": "Acondicionador Profesional",
+        "price": 45000,
+        "description": "Acondicionador nutritivo.",
+        "category": "cabello"
+      },
+      {
+        "name": "Mascarilla Capilar",
+        "price": 55000,
+        "description": "Tratamiento intensivo de hidratacion.",
+        "category": "cabello"
+      },
+      {
+        "name": "Esmalte Semi-Permanente",
+        "price": 35000,
+        "description": "Esmalte de larga duracion. Varios colores.",
+        "category": "unas"
+      },
+      {
+        "name": "Crema Facial Hidratante",
+        "price": 60000,
+        "description": "Hidratacion facial con protector solar SPF30.",
+        "category": "facial"
+      },
+      {
+        "name": "Kit Manicura Basico",
+        "price": 80000,
+        "description": "Kit completo para cuidado de unas en casa.",
+        "category": "unas"
+      }
+    ]
   },
 
   "seo": {

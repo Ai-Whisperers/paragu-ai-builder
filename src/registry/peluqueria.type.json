@@ -11,6 +11,7 @@
         "hero",
         "servicesPreview",
         "booking",
+        "beforeAfter",
         "galleryPreview",
         "team",
         "locationBlock",
@@ -75,6 +76,19 @@
         "contactSplit",
         "footer"
       ]
+    },
+    "tienda": {
+      "sections": [
+        "header",
+        "productCatalog",
+        "whatsappOrderForm",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "productCatalog",
+        "footer"
+      ]
     }
   },
   "features": {
@@ -100,8 +114,7 @@
       ]
     },
     "beforeAfter": {
-      "enabled": false,
-      "optional": true
+      "enabled": true
     },
     "staffProfiles": {
       "enabled": true,
@@ -127,6 +140,9 @@
     "whatsappFloat": {
       "enabled": true
     },
+    "whatsappOrderForm": {
+      "enabled": true
+    },
     "googleMapsEmbed": {
       "enabled": true
     }
@@ -145,7 +161,44 @@
   "seo": {
     "titleTemplate": "{{businessName}} - Peluqueria en {{city}} | Servicios y Precios",
     "descriptionTemplate": "Cortes, coloracion y tratamientos en {{city}}. Reserva tu cita online. Precios desde {{lowestPrice}}.",
+    "seoDescription": "{{businessName}} ofrece cortes profesionales, coloracion y tratamientos capilares en {{city}}. Precios desde {{lowestPrice}} Gs. Reserva tu cita online.",
+    "lowestPrice": 35000,
     "schemaType": "BeautySalon",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "{{businessName}}",
+      "description": "{{seoDescription}}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{city}}",
+        "addressRegion": "{{department}}",
+        "addressCountry": "PY"
+      },
+      "telephone": "{{phone}}",
+      "image": "{{heroImage}}",
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "makesOffer": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Corte de Cabello"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Coloracion"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tratamientos Capilares"}}
+      ],
+      "areaServed": {"@type": "City", "name": "{{city}}"}
+    },
     "keywords": [
       "peluqueria {{city}}",
       "corte de cabello {{neighborhood}}",

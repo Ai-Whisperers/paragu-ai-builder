@@ -64,6 +64,19 @@
         "contact",
         "footer"
       ]
+    },
+    "tienda": {
+      "sections": [
+        "header",
+        "productCatalog",
+        "whatsappOrderForm",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "productCatalog",
+        "footer"
+      ]
     }
   },
   "features": {
@@ -114,6 +127,9 @@
     "whatsappFloat": {
       "enabled": true
     },
+    "whatsappOrderForm": {
+      "enabled": true
+    },
     "googleMapsEmbed": {
       "enabled": true
     }
@@ -131,7 +147,38 @@
   "seo": {
     "titleTemplate": "{{businessName}} - Barberia en {{city}} | Cortes y Afeitado",
     "descriptionTemplate": "Barberia en {{city}}. Cortes clasicos y modernos, afeitado profesional. Walk-ins bienvenidos.",
+    "seoDescription": "{{businessName}} - Barberia profesional en {{city}}. Cortes clasicos, fades, afeitado con navaja y arreglo de barba. Walk-ins bienvenidos.",
+    "lowestPrice": 50000,
     "schemaType": "BarberShop",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "BarberShop",
+      "name": "{{businessName}}",
+      "description": "{{seoDescription}}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{city}}",
+        "addressRegion": "{{department}}",
+        "addressCountry": "PY"
+      },
+      "telephone": "{{phone}}",
+      "image": "{{heroImage}}",
+      "priceRange": "$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "20:00"
+        }
+      ],
+      "makesOffer": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Corte de Cabello"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Afeitado"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Arreglo de Barba"}}
+      ],
+      "areaServed": {"@type": "City", "name": "{{city}}"}
+    },
     "keywords": [
       "barberia {{city}}",
       "corte de pelo hombre {{city}}",
