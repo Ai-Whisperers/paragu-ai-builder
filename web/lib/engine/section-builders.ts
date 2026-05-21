@@ -335,10 +335,46 @@ const buildFeaturedProducts: SectionBuilder = ({ business, content }) => {
   }
 }
 
+const formatCatalogPrice = (value: unknown): string | undefined => {
+  if (typeof value === 'number') return `${value.toLocaleString('es-PY')} Gs.`
+  if (typeof value === 'string' && value.trim()) return value
+  return undefined
+}
+
+const normalizeCatalogProduct = (product: Record<string, unknown>) => ({
+  name: String(product.name || ''),
+  description: typeof product.description === 'string' ? product.description : undefined,
+  price: formatCatalogPrice(product.price),
+  imageUrl: typeof product.imageUrl === 'string' ? product.imageUrl : undefined,
+  category: typeof product.category === 'string' ? product.category : undefined,
+  available: typeof product.available === 'boolean' ? product.available : undefined,
+})
+
 const buildProductCatalog: SectionBuilder = ({ business, content, registry }) => {
-  const products = business.products || []
+  const productContent = (content as {
+    productCatalog?: {
+      title?: string
+      subtitle?: string
+      categories?: string[]
+      products?: Array<Record<string, unknown>>
+      orderButtonText?: string
+      orderMessageTemplate?: string
+    }
+    productCatalogPage?: {
+      title?: string
+      subtitle?: string
+      categories?: string[]
+      orderButtonText?: string
+      orderMessageTemplate?: string
+    }
+  }).productCatalog
+  const catalogContent = productContent || (content as { productCatalogPage?: { title?: string; subtitle?: string; categories?: string[]; orderButtonText?: string; orderMessageTemplate?: string } }).productCatalogPage
+  const products = business.products && business.products.length > 0
+    ? business.products
+    : (productContent?.products || []).map(normalizeCatalogProduct)
+
   if (products.length === 0) return null
-  const catalogContent = (content as { productCatalogPage?: { title?: string; subtitle?: string; categories?: string[]; orderButtonText?: string; orderMessageTemplate?: string } }).productCatalogPage
+
   return {
     title: catalogContent?.title || 'Catalogo',
     subtitle: catalogContent?.subtitle,

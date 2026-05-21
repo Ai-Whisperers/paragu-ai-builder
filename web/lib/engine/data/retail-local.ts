@@ -3257,6 +3257,25 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Tienda Anteojos Sol profesional en {{city}}."
     }
   },
+  'superspuma': {
+    "id": "superspuma",
+    "nameEs": "Superspuma",
+    "verticalId": "retail-local",
+    "tokens": "superspuma",
+    "sections": [
+      "hero",
+      "product-catalog",
+      "product-detail",
+      "nosotros",
+      "contacto",
+      "whatsapp-float",
+      "footer"
+    ],
+    "features": {
+      "payment": "bancard",
+      "whatsapp": true
+    }
+  },
   'surf_shop': {
     "id": "surf_shop",
     "nameEs": "Surf Shop",

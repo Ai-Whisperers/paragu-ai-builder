@@ -53,6 +53,18 @@
         "footer"
       ]
     },
+    "team": {
+      "sections": [
+        "header",
+        "team",
+        "footer"
+      ],
+      "requiredSections": [
+        "header",
+        "team",
+        "footer"
+      ]
+    },
     "contact": {
       "sections": [
         "header",
@@ -192,6 +204,7 @@
       "Servicios",
       "Galeria",
       "Equipo",
+      "Tienda",
       "Contacto"
     ],
     "cta": {

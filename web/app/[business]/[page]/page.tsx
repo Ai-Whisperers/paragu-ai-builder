@@ -20,9 +20,21 @@ export const dynamicParams = true // Enable SSR for all pages
 // have their own canonical routes at /s/<locale>/<slug>.
 const MODERN_TENANT_SKIP = new Set(listSiteSlugs())
 
+const PAGE_TYPE_BY_SLUG: Record<string, PageType> = {
+  servicios: 'services',
+  galeria: 'gallery',
+  equipo: 'team',
+  contacto: 'contact',
+  tienda: 'tienda',
+}
+
+function pageSlugToType(page: string): PageType {
+  return PAGE_TYPE_BY_SLUG[page] || (page as PageType)
+}
+
 export async function generateStaticParams() {
   const slugs = (await loadAllSlugs()).filter((s) => !MODERN_TENANT_SKIP.has(s))
-  const pages = ['servicios', 'galeria', 'equipo', 'contacto']
+  const pages = ['servicios', 'galeria', 'equipo', 'contacto', 'tienda']
   return slugs.flatMap((slug) => pages.map((page) => ({ business: slug, page })))
 }
 
@@ -67,7 +79,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!businessData) return { title: 'No encontrado' }
 
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || ''
-  const pageData = await composePageForType(businessData, page as PageType)
+  const pageType = pageSlugToType(page)
+  const pageData = await composePageForType(businessData, pageType)
 
   return {
     title: pageData.meta.title,
@@ -89,7 +102,8 @@ export default async function BusinessPage({ params }: Props) {
   const businessData = await loadBusiness(slug)
   if (!businessData) notFound()
 
-  const pageData = await composePageForType(businessData, page as 'homepage' | 'services' | 'gallery' | 'team' | 'contact')
+  const pageType = pageSlugToType(page)
+  const pageData = await composePageForType(businessData, pageType)
 
   return (
     <>

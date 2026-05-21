@@ -2116,7 +2116,7 @@ export const CONTENT: Record<string, unknown> = {
         },
         {
           "name": "Equipo",
-          "description": "Quienes hacemos la granja"
+          "description": "Quienes hacemos Granja Cabral"
         }
       ]
     },

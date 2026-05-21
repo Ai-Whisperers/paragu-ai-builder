@@ -475,6 +475,7 @@ const SECTION_ALIASES: Record<string, string> = {
   quoteForm: 'quote-form',
   leadForm: 'lead-form',
   productCatalog: 'product-catalog',
+  whatsappOrderForm: 'product-catalog',
   beforeAfter: 'before-after',
   trustSignals: 'trust-signals',
   trustBadges: 'trust-badges',

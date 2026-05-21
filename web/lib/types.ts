@@ -66,4 +66,4 @@ export interface GenerationLog {
   createdAt: string
 }
 
-export type PageType = 'homepage' | 'services' | 'gallery' | 'team' | 'contact'
+export type PageType = 'homepage' | 'services' | 'gallery' | 'team' | 'contact' | 'tienda'

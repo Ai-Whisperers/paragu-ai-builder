@@ -171,6 +171,18 @@ export const REGISTRY: Record<string, unknown> = {
           "footer"
         ]
       },
+      "team": {
+        "sections": [
+          "header",
+          "team",
+          "footer"
+        ],
+        "requiredSections": [
+          "header",
+          "team",
+          "footer"
+        ]
+      },
       "contact": {
         "sections": [
           "header",
@@ -180,6 +192,19 @@ export const REGISTRY: Record<string, unknown> = {
         "requiredSections": [
           "header",
           "contact",
+          "footer"
+        ]
+      },
+      "tienda": {
+        "sections": [
+          "header",
+          "productCatalog",
+          "whatsappOrderForm",
+          "footer"
+        ],
+        "requiredSections": [
+          "header",
+          "productCatalog",
           "footer"
         ]
       }
@@ -232,6 +257,9 @@ export const REGISTRY: Record<string, unknown> = {
       "whatsappFloat": {
         "enabled": true
       },
+      "whatsappOrderForm": {
+        "enabled": true
+      },
       "googleMapsEmbed": {
         "enabled": true
       }
@@ -249,7 +277,66 @@ export const REGISTRY: Record<string, unknown> = {
     "seo": {
       "titleTemplate": "{{businessName}} - Barberia en {{city}} | Cortes y Afeitado",
       "descriptionTemplate": "Barberia en {{city}}. Cortes clasicos y modernos, afeitado profesional. Walk-ins bienvenidos.",
+      "seoDescription": "{{businessName}} - Barberia profesional en {{city}}. Cortes clasicos, fades, afeitado con navaja y arreglo de barba. Walk-ins bienvenidos.",
+      "lowestPrice": 50000,
       "schemaType": "BarberShop",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "BarberShop",
+        "name": "{{businessName}}",
+        "description": "{{seoDescription}}",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "{{city}}",
+          "addressRegion": "{{department}}",
+          "addressCountry": "PY"
+        },
+        "telephone": "{{phone}}",
+        "image": "{{heroImage}}",
+        "priceRange": "$",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "09:00",
+            "closes": "20:00"
+          }
+        ],
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Corte de Cabello"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Afeitado"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Arreglo de Barba"
+            }
+          }
+        ],
+        "areaServed": {
+          "@type": "City",
+          "name": "{{city}}"
+        }
+      },
       "keywords": [
         "barberia {{city}}",
         "corte de pelo hombre {{city}}",
@@ -263,6 +350,7 @@ export const REGISTRY: Record<string, unknown> = {
         "Servicios",
         "Galeria",
         "Equipo",
+        "Tienda",
         "Contacto"
       ],
       "cta": {
@@ -2455,6 +2543,7 @@ export const REGISTRY: Record<string, unknown> = {
           "hero",
           "servicesPreview",
           "booking",
+          "beforeAfter",
           "galleryPreview",
           "team",
           "locationBlock",
@@ -2519,6 +2608,19 @@ export const REGISTRY: Record<string, unknown> = {
           "contactSplit",
           "footer"
         ]
+      },
+      "tienda": {
+        "sections": [
+          "header",
+          "productCatalog",
+          "whatsappOrderForm",
+          "footer"
+        ],
+        "requiredSections": [
+          "header",
+          "productCatalog",
+          "footer"
+        ]
       }
     },
     "features": {
@@ -2544,8 +2646,7 @@ export const REGISTRY: Record<string, unknown> = {
         ]
       },
       "beforeAfter": {
-        "enabled": false,
-        "optional": true
+        "enabled": true
       },
       "staffProfiles": {
         "enabled": true,
@@ -2571,6 +2672,9 @@ export const REGISTRY: Record<string, unknown> = {
       "whatsappFloat": {
         "enabled": true
       },
+      "whatsappOrderForm": {
+        "enabled": true
+      },
       "googleMapsEmbed": {
         "enabled": true
       }
@@ -2589,7 +2693,71 @@ export const REGISTRY: Record<string, unknown> = {
     "seo": {
       "titleTemplate": "{{businessName}} - Peluqueria en {{city}} | Servicios y Precios",
       "descriptionTemplate": "Cortes, coloracion y tratamientos en {{city}}. Reserva tu cita online. Precios desde {{lowestPrice}}.",
+      "seoDescription": "{{businessName}} ofrece cortes profesionales, coloracion y tratamientos capilares en {{city}}. Precios desde {{lowestPrice}} Gs. Reserva tu cita online.",
+      "lowestPrice": 35000,
       "schemaType": "BeautySalon",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "BeautySalon",
+        "name": "{{businessName}}",
+        "description": "{{seoDescription}}",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "{{city}}",
+          "addressRegion": "{{department}}",
+          "addressCountry": "PY"
+        },
+        "telephone": "{{phone}}",
+        "image": "{{heroImage}}",
+        "priceRange": "$$",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "19:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "08:00",
+            "closes": "17:00"
+          }
+        ],
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Corte de Cabello"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Coloracion"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tratamientos Capilares"
+            }
+          }
+        ],
+        "areaServed": {
+          "@type": "City",
+          "name": "{{city}}"
+        }
+      },
       "keywords": [
         "peluqueria {{city}}",
         "corte de cabello {{neighborhood}}",
@@ -2603,6 +2771,7 @@ export const REGISTRY: Record<string, unknown> = {
         "Servicios",
         "Galeria",
         "Equipo",
+        "Tienda",
         "Contacto"
       ],
       "cta": {
@@ -2944,6 +3113,7 @@ export const REGISTRY: Record<string, unknown> = {
           "hero",
           "services",
           "booking",
+          "beforeAfter",
           "gallery",
           "portfolio",
           "team",
@@ -3010,6 +3180,19 @@ export const REGISTRY: Record<string, unknown> = {
           "contact",
           "footer"
         ]
+      },
+      "tienda": {
+        "sections": [
+          "header",
+          "productCatalog",
+          "whatsappOrderForm",
+          "footer"
+        ],
+        "requiredSections": [
+          "header",
+          "productCatalog",
+          "footer"
+        ]
       }
     },
     "features": {
@@ -3036,8 +3219,7 @@ export const REGISTRY: Record<string, unknown> = {
         ]
       },
       "beforeAfter": {
-        "enabled": false,
-        "optional": true
+        "enabled": true
       },
       "staffProfiles": {
         "enabled": true,
@@ -3063,6 +3245,9 @@ export const REGISTRY: Record<string, unknown> = {
       "whatsappFloat": {
         "enabled": true
       },
+      "whatsappOrderForm": {
+        "enabled": true
+      },
       "googleMapsEmbed": {
         "enabled": true
       }
@@ -3082,7 +3267,78 @@ export const REGISTRY: Record<string, unknown> = {
     "seo": {
       "titleTemplate": "{{businessName}} - Salon de Belleza en {{city}} | Todos los Servicios",
       "descriptionTemplate": "Cabello, uñas, maquillaje y tratamientos faciales en {{city}}. Reserva tu cita online. Tu centro de belleza integral.",
+      "seoDescription": "{{businessName}} es tu centro de belleza integral en {{city}}. Cortes, coloracion, manicura, pedicura, maquillaje profesional y tratamientos faciales. Precios desde {{lowestPrice}} Gs.",
+      "lowestPrice": 40000,
       "schemaType": "BeautySalon",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "BeautySalon",
+        "name": "{{businessName}}",
+        "description": "{{seoDescription}}",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "{{city}}",
+          "addressRegion": "{{department}}",
+          "addressCountry": "PY"
+        },
+        "telephone": "{{phone}}",
+        "image": "{{heroImage}}",
+        "priceRange": "$$$",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "20:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "08:00",
+            "closes": "18:00"
+          }
+        ],
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Corte y Peinado"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Manicura y Pedicura"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Maquillaje Profesional"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tratamientos Faciales"
+            }
+          }
+        ],
+        "areaServed": {
+          "@type": "City",
+          "name": "{{city}}"
+        }
+      },
       "keywords": [
         "salon de belleza {{city}}",
         "centro de belleza {{city}}",
@@ -3097,6 +3353,7 @@ export const REGISTRY: Record<string, unknown> = {
         "Servicios",
         "Galeria",
         "Equipo",
+        "Tienda",
         "Contacto"
       ],
       "cta": {
@@ -4071,19 +4328,19 @@ export const CONTENT: Record<string, unknown> = {
           "defaultServices": [
             {
               "name": "Corte Clasico",
-              "price": null,
+              "price": 50000,
               "duration": 30,
               "description": "Tijera y peine, estilo terminado"
             },
             {
               "name": "Corte Fade",
-              "price": null,
+              "price": 60000,
               "duration": 35,
               "description": "Skin fade, lineas de diseno"
             },
             {
               "name": "Barberia Completa",
-              "price": null,
+              "price": 90000,
               "duration": 45,
               "description": "Corte + barba + toalla caliente"
             }
@@ -4095,19 +4352,19 @@ export const CONTENT: Record<string, unknown> = {
           "defaultServices": [
             {
               "name": "Arreglo de Barba",
-              "price": null,
+              "price": 30000,
               "duration": 20,
               "description": "Shape + line-up"
             },
             {
               "name": "Hot Towel Shave",
-              "price": null,
+              "price": 50000,
               "duration": 30,
               "description": "Navaja tradicional con toalla caliente"
             },
             {
               "name": "Corte + Barba",
-              "price": null,
+              "price": 75000,
               "duration": 50,
               "description": "Paquete completo"
             }
@@ -4133,11 +4390,38 @@ export const CONTENT: Record<string, unknown> = {
       ],
       "note": "Fotos reales de nuestros clientes"
     },
+    "booking": {
+      "title": "Reserva tu Turno",
+      "subtitle": "Elegi servicio, fecha y hora",
+      "ctaWhatsapp": "Reservar por WhatsApp",
+      "ctaOnline": "Reservar Online",
+      "note": "Walk-ins bienvenidos segun disponibilidad"
+    },
     "teamPage": {
       "title": "Nuestros Barberos",
       "memberTemplate": {
         "buttonText": "Reservar con {{name}}"
-      }
+      },
+      "memberRoles": [
+        {
+          "title": "Master Barber",
+          "specialties": [
+            "Cortes Clasicos",
+            "Fades",
+            "Barba"
+          ],
+          "yearsExperience": "10+"
+        },
+        {
+          "title": "Barber",
+          "specialties": [
+            "Cortes Modernos",
+            "Diseños",
+            "Hot Towel Shave"
+          ],
+          "yearsExperience": "5+"
+        }
+      ]
     },
     "footer": {
       "columns": [
@@ -4155,9 +4439,59 @@ export const CONTENT: Record<string, unknown> = {
       ],
       "copyright": "{{year}} {{businessName}}. Todos los derechos reservados."
     },
+    "faq": [
+      {
+        "q": "Cuanto tiempo dura un fade?",
+        "a": "Depende del crecimiento de tu cabello, pero en promedio 2-3 semanas para mantener el fade fresco."
+      },
+      {
+        "q": "Aceptan walk-ins o solo con cita?",
+        "a": "Ambos. Recomendamos reservar para fines de semana, pero aceptamos walk-ins segun disponibilidad."
+      },
+      {
+        "q": "Cuanto sale un corte?",
+        "a": "Nuestros cortes van desde 50.000 Gs. Preguntanos por promociones!"
+      }
+    ],
     "whatsapp": {
       "defaultMessage": "Hola! Quisiera reservar un turno en {{businessName}}",
       "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+    },
+    "productCatalog": {
+      "title": "Productos",
+      "subtitle": "Productos de barberia profesional",
+      "products": [
+        {
+          "name": "Pomade Clasica",
+          "price": 40000,
+          "description": "Pomada de fijacion fuerte con brillo. Ideal para peinados clasicos.",
+          "category": "pomada"
+        },
+        {
+          "name": "Cera Matte",
+          "price": 35000,
+          "description": "Cera con acabado mate y fijacion media.",
+          "category": "cera"
+        },
+        {
+          "name": "Aceite para Barba",
+          "price": 30000,
+          "description": "Aceite hidratante con aroma a sandalo.",
+          "category": "barba"
+        },
+        {
+          "name": "Balm para Barba",
+          "price": 35000,
+          "description": "Balm nutritivo para suavizar y dar forma.",
+          "category": "barba"
+        },
+        {
+          "name": "Shampoo Barba",
+          "price": 25000,
+          "description": "Limpieza suave para barba y bigote.",
+          "category": "barba"
+        }
+      ]
     }
   },
   'depilacion': {
@@ -4522,25 +4856,25 @@ export const CONTENT: Record<string, unknown> = {
           "defaultServices": [
             {
               "name": "Corte Dama",
-              "price": null,
+              "price": 80000,
               "duration": 45,
               "description": "Corte y style profesional"
             },
             {
               "name": "Corte Caballero",
-              "price": null,
+              "price": 50000,
               "duration": 30,
               "description": "Corte moderno y clasico"
             },
             {
               "name": "Corte Nino",
-              "price": null,
+              "price": 35000,
               "duration": 25,
               "description": "Para los mas pequenos"
             },
             {
               "name": "Recorte de Bangs",
-              "price": null,
+              "price": 20000,
               "duration": 15,
               "description": "Retoque de fleco"
             }
@@ -4553,31 +4887,31 @@ export const CONTENT: Record<string, unknown> = {
           "defaultServices": [
             {
               "name": "Coloracion Completa",
-              "priceFrom": null,
+              "priceFrom": 150000,
               "duration": 90,
               "description": "Color base completo"
             },
             {
               "name": "Mechas/Highlighting",
-              "priceFrom": null,
+              "priceFrom": 180000,
               "duration": 120,
               "description": "Para brillo natural"
             },
             {
               "name": "Balayage",
-              "priceFrom": null,
+              "priceFrom": 250000,
               "duration": 150,
               "description": "Tecnica francesa de mano alzada"
             },
             {
               "name": "Ombre",
-              "priceFrom": null,
+              "priceFrom": 200000,
               "duration": 120,
               "description": "Degradado natural"
             },
             {
               "name": "Retoque de Raices",
-              "price": null,
+              "price": 80000,
               "duration": 60,
               "description": "Mantenimiento mensual"
             }
@@ -4590,19 +4924,19 @@ export const CONTENT: Record<string, unknown> = {
           "defaultServices": [
             {
               "name": "Keratina Intensiva",
-              "price": null,
+              "price": 350000,
               "duration": 120,
               "description": "Alisa y repara"
             },
             {
               "name": "Tratamiento Capilar",
-              "price": null,
+              "price": 120000,
               "duration": 45,
               "description": "Hidratacion profunda"
             },
             {
               "name": "Masaje Scalp",
-              "price": null,
+              "price": 70000,
               "duration": 30,
               "description": "Relajacion y salud capilar"
             }
@@ -4614,7 +4948,27 @@ export const CONTENT: Record<string, unknown> = {
       "title": "Nuestro Equipo",
       "memberTemplate": {
         "buttonText": "Reservar con {{name}}"
-      }
+      },
+      "memberRoles": [
+        {
+          "title": "Senior Stylist",
+          "specialties": [
+            "Cortes",
+            "Coloracion",
+            "Balayage"
+          ],
+          "yearsExperience": "8+"
+        },
+        {
+          "title": "Colorista",
+          "specialties": [
+            "Coloracion",
+            "Mechas",
+            "Decoloracion"
+          ],
+          "yearsExperience": "5+"
+        }
+      ]
     },
     "galleryPage": {
       "title": "Galeria",
@@ -4653,6 +5007,13 @@ export const CONTENT: Record<string, unknown> = {
       "title": "Lista para tu nuevo look?",
       "buttonText": "Reservar Ahora"
     },
+    "booking": {
+      "title": "Reserva tu Cita",
+      "subtitle": "Elegi el servicio, el dia y la hora que prefieras",
+      "ctaWhatsapp": "Reservar por WhatsApp",
+      "ctaOnline": "Reservar Online",
+      "note": "Servicios con precios desde 35.000 Gs."
+    },
     "footer": {
       "columns": [
         "about",
@@ -4672,6 +5033,42 @@ export const CONTENT: Record<string, unknown> = {
     "whatsapp": {
       "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
       "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+    },
+    "productCatalog": {
+      "title": "Productos",
+      "subtitle": "Los mejores productos para el cuidado de tu cabello",
+      "products": [
+        {
+          "name": "Shampoo Profesional",
+          "price": 45000,
+          "description": "Shampoo suave para uso diario. Ideal para todo tipo de cabello.",
+          "category": "shampoo"
+        },
+        {
+          "name": "Acondicionador Profesional",
+          "price": 45000,
+          "description": "Acondicionador nutritivo que hidrata y desenreda.",
+          "category": "acondicionador"
+        },
+        {
+          "name": "Cera Modeling",
+          "price": 35000,
+          "description": "Cera de peinar con fijacion media y acabado natural.",
+          "category": "cera"
+        },
+        {
+          "name": "Spray Fijador",
+          "price": 40000,
+          "description": "Spray de fijacion fuerte para peinados duraderos.",
+          "category": "spray"
+        },
+        {
+          "name": "Mascarilla Capilar",
+          "price": 55000,
+          "description": "Tratamiento intensivo de hidratacion semanal.",
+          "category": "mascarilla"
+        }
+      ]
     },
     "seo": {
       "altTextTemplates": {
@@ -4863,25 +5260,25 @@ export const CONTENT: Record<string, unknown> = {
           "defaultServices": [
             {
               "name": "Corte Dama",
-              "price": null,
+              "price": 80000,
               "duration": 45,
               "description": "Corte y styling profesional"
             },
             {
               "name": "Coloracion Completa",
-              "priceFrom": null,
+              "priceFrom": 150000,
               "duration": 90,
               "description": "Color base completo y personalizado"
             },
             {
               "name": "Mechas / Highlights",
-              "priceFrom": null,
+              "priceFrom": 180000,
               "duration": 120,
               "description": "Iluminaciones y reflejos naturales"
             },
             {
               "name": "Keratina",
-              "price": null,
+              "price": 350000,
               "duration": 120,
               "description": "Alisado y reparacion intensiva"
             }
@@ -4894,27 +5291,27 @@ export const CONTENT: Record<string, unknown> = {
           "defaultServices": [
             {
               "name": "Manicura Clasica",
-              "price": null,
+              "price": 40000,
               "duration": 30,
-              "description": "Limado, cutículas y esmaltado"
+              "description": "Limado, cuticulas y esmaltado"
             },
             {
               "name": "Pedicura Completa",
-              "price": null,
+              "price": 60000,
               "duration": 45,
               "description": "Cuidado completo de pies y esmaltado"
             },
             {
-              "name": "Uñas en Gel",
-              "price": null,
+              "name": "Unas en Gel",
+              "price": 70000,
               "duration": 60,
-              "description": "Aplicacion de gel con diseño a eleccion"
+              "description": "Aplicacion de gel con diseno a eleccion"
             },
             {
               "name": "Nail Art",
-              "priceFrom": null,
+              "priceFrom": 80000,
               "duration": 75,
-              "description": "Diseños personalizados y creativos"
+              "description": "Disenos personalizados y creativos"
             }
           ]
         },
@@ -4925,21 +5322,21 @@ export const CONTENT: Record<string, unknown> = {
           "defaultServices": [
             {
               "name": "Maquillaje Social",
-              "price": null,
+              "price": 80000,
               "duration": 45,
               "description": "Para eventos y reuniones especiales"
             },
             {
               "name": "Maquillaje de Novia",
-              "price": null,
+              "price": 350000,
               "duration": 90,
               "description": "Look completo con prueba previa"
             },
             {
-              "name": "Maquillaje Quinceañera",
-              "price": null,
+              "name": "Maquillaje Quinceanera",
+              "price": 250000,
               "duration": 60,
-              "description": "Diseño especial para tu gran dia"
+              "description": "Diseno especial para tu gran dia"
             }
           ]
         },
@@ -4950,19 +5347,19 @@ export const CONTENT: Record<string, unknown> = {
           "defaultServices": [
             {
               "name": "Limpieza Facial Profunda",
-              "price": null,
+              "price": 100000,
               "duration": 60,
               "description": "Limpieza, extraccion y mascarilla"
             },
             {
               "name": "Tratamiento Anti-Age",
-              "price": null,
+              "price": 180000,
               "duration": 75,
               "description": "Rejuvenecimiento y firmeza para la piel"
             },
             {
               "name": "Hidratacion Facial",
-              "price": null,
+              "price": 80000,
               "duration": 45,
               "description": "Nutricion intensiva y luminosidad"
             }
@@ -4975,19 +5372,19 @@ export const CONTENT: Record<string, unknown> = {
           "defaultServices": [
             {
               "name": "Spa Day",
-              "priceFrom": null,
+              "priceFrom": 250000,
               "duration": 180,
               "description": "Facial + manicura + pedicura + masaje"
             },
             {
               "name": "Novia Completa",
-              "priceFrom": null,
+              "priceFrom": 600000,
               "duration": 240,
               "description": "Maquillaje + peinado + manicura + prueba previa"
             },
             {
               "name": "Dia de Chicas",
-              "priceFrom": null,
+              "priceFrom": 180000,
               "duration": 150,
               "description": "Paquete grupal: mani + pedi + facial para 3+ personas"
             }
@@ -4999,7 +5396,46 @@ export const CONTENT: Record<string, unknown> = {
       "title": "Nuestro Equipo",
       "memberTemplate": {
         "buttonText": "Reservar con {{name}}"
-      }
+      },
+      "memberRoles": [
+        {
+          "title": "Senior Stylist",
+          "specialties": [
+            "Cortes",
+            "Coloracion",
+            "Peinados"
+          ],
+          "yearsExperience": "10+"
+        },
+        {
+          "title": "Nail Artist",
+          "specialties": [
+            "Manicura",
+            "Pedicura",
+            "Nail Art",
+            "Gel"
+          ],
+          "yearsExperience": "6+"
+        },
+        {
+          "title": "Makeup Artist",
+          "specialties": [
+            "Maquillaje Social",
+            "Novias",
+            "Quinceañeras"
+          ],
+          "yearsExperience": "7+"
+        },
+        {
+          "title": "Esteticista",
+          "specialties": [
+            "Faciales",
+            "Limpieza Profunda",
+            "Anti-Age"
+          ],
+          "yearsExperience": "5+"
+        }
+      ]
     },
     "galleryPage": {
       "title": "Galeria",
@@ -5050,6 +5486,13 @@ export const CONTENT: Record<string, unknown> = {
       "title": "Lista para consentirte?",
       "buttonText": "Reservar Ahora"
     },
+    "booking": {
+      "title": "Reserva tu Cita",
+      "subtitle": "Elegi el servicio y el momento perfecto",
+      "ctaWhatsapp": "Reservar por WhatsApp",
+      "ctaOnline": "Reservar Online",
+      "note": "Paquetes desde 40.000 Gs."
+    },
     "footer": {
       "columns": [
         "about",
@@ -5069,6 +5512,48 @@ export const CONTENT: Record<string, unknown> = {
     "whatsapp": {
       "defaultMessage": "Hola! Quisiera agendar una cita en {{businessName}}",
       "serviceMessage": "Hola! Quisiera reservar {{serviceName}} en {{businessName}}"
+    },
+    "productCatalog": {
+      "title": "Productos",
+      "subtitle": "Productos profesionales para tu cuidado personal",
+      "products": [
+        {
+          "name": "Shampoo Profesional",
+          "price": 45000,
+          "description": "Shampoo suave para uso diario. Todo tipo de cabello.",
+          "category": "cabello"
+        },
+        {
+          "name": "Acondicionador Profesional",
+          "price": 45000,
+          "description": "Acondicionador nutritivo.",
+          "category": "cabello"
+        },
+        {
+          "name": "Mascarilla Capilar",
+          "price": 55000,
+          "description": "Tratamiento intensivo de hidratacion.",
+          "category": "cabello"
+        },
+        {
+          "name": "Esmalte Semi-Permanente",
+          "price": 35000,
+          "description": "Esmalte de larga duracion. Varios colores.",
+          "category": "unas"
+        },
+        {
+          "name": "Crema Facial Hidratante",
+          "price": 60000,
+          "description": "Hidratacion facial con protector solar SPF30.",
+          "category": "facial"
+        },
+        {
+          "name": "Kit Manicura Basico",
+          "price": 80000,
+          "description": "Kit completo para cuidado de unas en casa.",
+          "category": "unas"
+        }
+      ]
     },
     "seo": {
       "altTextTemplates": {

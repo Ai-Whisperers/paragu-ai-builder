@@ -21,8 +21,10 @@ import { metrics } from '@/lib/obs/metrics'
 
 const PAGE_SLUG_MAP: Record<string, string> = {
   home: '',
+  inicio: '',
   servicios: 'servicios',
   catalogo: 'catalogo',
+  tienda: 'tienda',
   portafolio: 'portafolio',
   portfolio: 'portafolio',
   faq: 'faq',
@@ -37,7 +39,10 @@ const PAGE_SLUG_MAP: Record<string, string> = {
 }
 
 function buildPageHref(siteSlug: string, label: string): string {
-  const pageSlug = PAGE_SLUG_MAP[label.toLowerCase()] || label.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  const normalizedLabel = label.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  const pageSlug = Object.prototype.hasOwnProperty.call(PAGE_SLUG_MAP, normalizedLabel)
+    ? PAGE_SLUG_MAP[normalizedLabel]
+    : normalizedLabel
   if (!pageSlug || pageSlug === 'home') {
     return `/s/es/${siteSlug}`
   }
@@ -330,6 +335,10 @@ export interface RegistryType {
       sections: string[]
       requiredSections: string[]
     }
+    tienda?: {
+      sections: string[]
+      requiredSections: string[]
+    }
   }
   features: Record<string, { enabled: boolean }>
   nav: {
@@ -431,6 +440,7 @@ export const SECTION_MAP: Record<string, SectionType> = {
   testimonial: 'testimonials',
   testimonials: 'testimonials',
   productCatalog: 'productCatalog',
+  whatsappOrderForm: 'productCatalog',
   featuredProducts: 'featuredProducts',
   'featured-products': 'featuredProducts',
   commerceCatalog: 'commerceCatalog',
