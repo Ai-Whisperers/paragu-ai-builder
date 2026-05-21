@@ -1,5 +1,5 @@
 ### beauty-personal-care / hair
-- hair_salon | Hair Salon | Peluqueria
+- hair_salon | REMOVED — use peluqueria (canonical)
 - blow_dry_bar | Blow Dry Bar | Secado y Peinado
 - hair_color_studio | Hair Color Studio | Estudio de Color
 - hair_extensions_specialist | Hair Extensions Specialist | Extensiones

@@ -1,4 +1,0 @@
-{
-  "$comment": "Inherits beauty-personal-care vertical defaults",
-  "extends": "vertical:beauty-personal-care"
-}

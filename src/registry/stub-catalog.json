@@ -6661,14 +6661,6 @@
       "subVertical": "hair",
       "extends": "beauty_base"
     },
-    "hair_salon": {
-      "id": "hair_salon",
-      "nameEs": "Peluqueria",
-      "nameEn": "Hair Salon",
-      "verticalId": "beauty-personal-care",
-      "subVertical": "hair",
-      "extends": "beauty_base"
-    },
     "hair_transplant_clinic": {
       "id": "hair_transplant_clinic",
       "nameEs": "Trasplante Capilar",

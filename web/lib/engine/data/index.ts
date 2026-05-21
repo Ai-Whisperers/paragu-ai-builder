@@ -43,7 +43,6 @@ export const TYPE_TO_VERTICAL: Record<string, string> = {
   "hair_color_studio": "beauty-personal-care",
   "hair_extensions_specialist": "beauty-personal-care",
   "hair_loss_clinic": "beauty-personal-care",
-  "hair_salon": "beauty-personal-care",
   "hammam_turkish_bath": "beauty-personal-care",
   "henna_artist": "beauty-personal-care",
   "henna_tattoo_studio": "beauty-personal-care",

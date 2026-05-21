@@ -1473,28 +1473,6 @@ export const REGISTRY: Record<string, unknown> = {
       "subheadlineTemplate": "Clinica Capilar profesional en {{city}}."
     }
   },
-  'hair_salon': {
-    "id": "hair_salon",
-    "nameEs": "Peluqueria",
-    "nameEn": "Hair Salon",
-    "verticalId": "beauty-personal-care",
-    "subVertical": "hair",
-    "extends": "beauty_base",
-    "tokens": "hair_salon",
-    "seo": {
-      "schemaType": "BeautySalon",
-      "titleTemplate": "{{businessName}} - Peluqueria en {{city}}",
-      "descriptionTemplate": "Peluqueria profesional en {{city}}. Servicios de calidad con atencion personalizada.",
-      "keywords": [
-        "peluqueria {{city}}",
-        "hair salon {{city}}"
-      ]
-    },
-    "hero": {
-      "headlineTemplate": "{{businessName}} - Peluqueria",
-      "subheadlineTemplate": "Peluqueria profesional en {{city}}."
-    }
-  },
   'hammam_turkish_bath': {
     "id": "hammam_turkish_bath",
     "nameEs": "Hamam",
