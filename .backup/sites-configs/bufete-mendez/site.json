@@ -1,0 +1,115 @@
+{
+  "title": "Bufete Méndez & Asociados",
+  "description": "Bufete de abogados en Asunción, Paraguay — derecho corporativo, civil, laboral y familiar.",
+  "businessType": "general_practice_lawyer",
+  "vertical": "b2b-professional",
+  "country": "Paraguay",
+  "domain": "bufetemendez.com.py",
+  "path": "/s/es/bufete-mendez",
+  "publicUrl": "https://paragu-ai.com/s/es/bufete-mendez",
+  "defaultLocale": "es",
+  "locales": ["es", "en"],
+  "pages": [
+    "home",
+    "servicios",
+    "equipo",
+    "casos",
+    "faq",
+    "contacto",
+    "privacidad",
+    "terminos"
+  ],
+  "navigation": [
+    { "label": "Inicio", "path": "" },
+    { "label": "Servicios", "path": "servicios" },
+    { "label": "Equipo", "path": "equipo" },
+    { "label": "Casos", "path": "casos" },
+    { "label": "FAQ", "path": "faq" },
+    { "label": "Contacto", "path": "contacto" }
+  ],
+  "contact": {
+    "phone": "+595981123456",
+    "email": "contacto@bufetemendez.com.py",
+    "whatsapp": "+595981123456",
+    "instagram": "@bufetemendez",
+    "facebook": "https://facebook.com/bufetemendez"
+  },
+  "location": {
+    "address": "Av. Mariscal López 1234, c/ Curupayty",
+    "neighborhood": "Barrio San Roque",
+    "city": "Asunción",
+    "country": "Paraguay"
+  },
+  "hours": {
+    "Lunes a Viernes": "08:00 - 18:00",
+    "Sabado": "09:00 - 12:00 (con cita previa)",
+    "Domingo": "Cerrado",
+    "Emergencias": "24h via WhatsApp"
+  },
+  "founded": "2005-03-15",
+  "legalName": "Bufete Mendez & Asociados",
+  "ruc": "80012345-6",
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion",
+    "dualCurrency": {
+      "enabled": true,
+      "primary": "PYG",
+      "secondary": "USD"
+    }
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": "HS-PORTAL-PARAGUAI",
+      "formId": "contact-form-paragu-ai"
+    },
+    "mailchimp": {
+      "audienceId": "audience-paragu-ai-newsletter"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": "G-XXXXXXXXXXX",
+        "streamName": "paragu-ai-builder"
+      }
+    }
+  },
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "contact-strip",
+        "variant": "standard",
+        "content": "home.contact"
+      },
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  },
+  "isLiveProduction": false,
+  "is_demo": true,
+  "noindex": true,
+  "features": {
+    "whatsappFloat": { "enabled": true },
+    "testimonials": { "enabled": true },
+    "blog": { "enabled": true },
+    "faq": { "enabled": true },
+    "dualCurrency": { "enabled": true },
+    "statsCounter": { "enabled": true },
+    "featuresGrid": { "enabled": true },
+    "newsletterSignup": { "enabled": true },
+    "blog": { "enabled": true }
+  }
+}

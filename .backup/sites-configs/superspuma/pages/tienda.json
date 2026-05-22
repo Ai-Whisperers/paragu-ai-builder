@@ -1,0 +1,31 @@
+{
+  "slug": "tienda",
+  "titleKey": "tienda.seo.title",
+  "descriptionKey": "tienda.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "tienda.hero"
+    },
+    {
+      "id": "commerce-catalog",
+      "variant": "grid"
+    },
+    {
+      "id": "promo-banner",
+      "variant": "carousel",
+      "content": "home.activePromos"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "infoCta"
+    }
+  ]
+}

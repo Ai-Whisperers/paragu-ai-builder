@@ -1,0 +1,65 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "home.hero",
+      "styling": {
+        "padding": "xl",
+        "background": "image",
+        "textColor": "light",
+        "backgroundImage": "https://images.unsplash.com/photo-1447968954315-3f0c44f7313c?w=1920&q=80"
+      }
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges",
+      "styling": {
+        "padding": "md",
+        "background": "alt"
+      }
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "home.services",
+      "styling": {
+        "background": "default"
+      }
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "home.process",
+      "styling": {
+        "background": "alt"
+      }
+    },
+    {
+      "id": "team",
+      "variant": "cards",
+      "content": "home.team",
+      "styling": {
+        "background": "default"
+      }
+    },
+    {
+      "id": "case-studies",
+      "variant": "grid",
+      "content": "home.caseStudies"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "ctaBanner",
+      "styling": {
+        "padding": "lg",
+        "background": "accent"
+      }
+    }
+  ]
+}

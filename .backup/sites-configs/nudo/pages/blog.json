@@ -1,0 +1,12 @@
+{
+  "slug": "blog",
+  "titleKey": "blog.seo.title",
+  "descriptionKey": "blog.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "blog.hero" },
+    { "id": "blog-index", "variant": "grid", "content": "blog.posts" },
+    { "id": "contact", "variant": "split", "content": "home.contact" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

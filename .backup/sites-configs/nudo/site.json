@@ -1,0 +1,60 @@
+{
+  "vertical": "arts-entertainment-venues",
+  "businessType": "banda_musical",
+  "country": "Paraguay",
+  "domain": null,
+  "stagingDomain": null,
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "email": "nudobandpy@gmail.com",
+    "whatsapp": "+595981324569",
+    "instagram": "https://instagram.com/nudo_band",
+    "facebook": "https://www.facebook.com/N%C3%9CDO-100071029146003/"
+  },
+  "social": {
+    "instagram": "https://instagram.com/nudo_band",
+    "facebook": "https://www.facebook.com/N%C3%9CDO-100071029146003/",
+    "spotify": "https://open.spotify.com/artist/2N3Z6SOIw7MOSxtRyzgJLv",
+    "youtube": "https://www.youtube.com/@Nudo-fd7mz",
+    "appleMusic": "https://music.apple.com/us/artist/nudo/1794063016"
+  },
+  "location": {
+    "city": "Capiat\u00e1",
+    "department": "Central",
+    "country": "Paraguay"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "gallery": true,
+    "eventsCalendar": true
+  },
+  "is_demo": true,
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "contact-strip",
+        "variant": "standard",
+        "content": "home.contact"
+      },
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  }
+}

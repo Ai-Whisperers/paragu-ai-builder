@@ -1,0 +1,47 @@
+{
+  "slug": "loyalty",
+  "titleKey": "loyalty.seo.title",
+  "descriptionKey": "loyalty.seo.description",
+  "sections": [
+    {
+      "id": "age-gate",
+      "variant": "modal",
+      "content": "home.ageGate"
+    },
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "loyalty.hero"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "loyalty.faq"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "loyalty.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "compliance-disclaimer-footer",
+      "variant": "standard",
+      "content": "compliance"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

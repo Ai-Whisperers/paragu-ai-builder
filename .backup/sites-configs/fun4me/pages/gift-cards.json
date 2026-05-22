@@ -1,0 +1,52 @@
+{
+  "slug": "gift-cards",
+  "titleKey": "giftCards.seo.title",
+  "descriptionKey": "giftCards.seo.description",
+  "sections": [
+    {
+      "id": "age-gate",
+      "variant": "modal",
+      "content": "home.ageGate"
+    },
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "split",
+      "content": "giftCards.hero"
+    },
+    {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "giftCards.designs"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "giftCards.faq"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "giftCards.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "compliance-disclaimer-footer",
+      "variant": "standard",
+      "content": "compliance"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

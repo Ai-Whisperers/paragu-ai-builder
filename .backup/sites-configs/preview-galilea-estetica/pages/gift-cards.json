@@ -1,0 +1,11 @@
+{
+  "slug": "gift-cards",
+  "titleKey": "gift.seo.title",
+  "descriptionKey": "gift.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "gift.hero" },
+    { "id": "pricing-table", "variant": "default", "content": "gift.cards" },
+    { "id": "cta-banner", "variant": "gradient", "content": "home.cta" },
+    { "id": "contact", "variant": "split", "content": "home.contact" }
+  ]
+}

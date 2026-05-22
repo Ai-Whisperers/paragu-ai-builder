@@ -1,0 +1,13 @@
+{
+  "slug": "tienda",
+  "titleKey": "tienda.seo.title",
+  "descriptionKey": "tienda.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "tienda.hero" },
+    { "id": "ticket-purchase", "variant": "form", "content": "tienda.tickets" },
+    { "id": "event-calendar", "variant": "grid", "content": "tienda.events" },
+    { "id": "contact", "variant": "split", "content": "home.contact" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

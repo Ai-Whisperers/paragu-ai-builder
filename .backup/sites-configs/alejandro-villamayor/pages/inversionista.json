@@ -1,0 +1,42 @@
+{
+  "slug": "inversionista",
+  "titleKey": "inversionista.seo.title",
+  "descriptionKey": "inversionista.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "inversionista.hero"
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "inversionista.vias"
+    },
+    {
+      "id": "process",
+      "variant": "steps",
+      "content": "inversionista.proceso"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "inversionista.faq"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "inversionista.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

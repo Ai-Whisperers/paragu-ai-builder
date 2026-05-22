@@ -1,0 +1,73 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "sections": [
+    {
+      "id": "promo-banner",
+      "variant": "carousel",
+      "content": "home.promoBanner"
+    },
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "home.hero",
+      "styling": {
+        "padding": "xl",
+        "background": "gradient",
+        "textColor": "light"
+      }
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats",
+      "styling": {
+        "padding": "md",
+        "background": "alt"
+      }
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadgesStrip"
+    },
+    {
+      "id": "open-hours-status",
+      "variant": "standard",
+      "content": "home.openHours"
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "home.services",
+      "styling": {
+        "background": "default"
+      }
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.ctaToMayorista",
+      "styling": {
+        "padding": "lg",
+        "background": "accent"
+      }
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "newsletter-signup",
+      "variant": "standard",
+      "content": "home.newsletter"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
+    }
+  ]
+}

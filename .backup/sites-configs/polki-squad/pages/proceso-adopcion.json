@@ -1,0 +1,41 @@
+{
+  "slug": "proceso-adopcion",
+  "title": "Proceso de Adopción - Polki Squad",
+  "description": "Conoce los pasos para adoptar un peludito en Polki Squad. Requisitos y formulario.",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "standard",
+      "title": "Proceso de Adopción",
+      "subtitle": "Dale un hogar a un peludito que lo necesita"
+    },
+    {
+      "id": "process",
+      "variant": "detailed",
+      "content": "adoptionProcess"
+    },
+    {
+      "id": "pricing-table",
+      "variant": "detailed",
+      "content": "adoptionProcess.fees",
+      "title": "Reembolso de Adopción",
+      "subtitle": "Información clara sobre costos"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "adoptionProcess.requirements",
+      "title": "Requisitos para Adoptar",
+      "subtitle": "Asegurate de cumplir con todo"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "solid",
+      "content": "cta",
+      "title": "¿Lista para adoptar?",
+      "subtitle": "Escríbenos por WhatsApp y te enviaremos el formulario",
+      "buttonText": "WhatsApp",
+      "buttonLink": "https://api.whatsapp.com/send?phone=+595971771371&text=Hola!%20quiero%20adoptar%20a%20un%20peludito%20%F0%9F%98%83"
+    }
+  ]
+}

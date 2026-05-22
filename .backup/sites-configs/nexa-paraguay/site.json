@@ -1,0 +1,112 @@
+{
+  "vertical": "relocacion",
+  "country": "Paraguay",
+  "domain": "nexaparaguay.com",
+  "stagingDomain": "staging.nexaparaguay.com",
+  "defaultLocale": "en",
+  "locales": [
+    "nl",
+    "en",
+    "de",
+    "es"
+  ],
+  "navigation": [
+    {
+      "labelKey": "navigation.home",
+      "path": ""
+    },
+    {
+      "labelKey": "navigation.programs",
+      "path": "programas"
+    },
+    {
+      "labelKey": "navigation.whyCountry",
+      "path": "por-que-paraguay"
+    },
+    {
+      "labelKey": "navigation.process",
+      "path": "proceso"
+    },
+    {
+      "labelKey": "navigation.about",
+      "path": "sobre"
+    },
+    {
+      "labelKey": "navigation.faq",
+      "path": "faq"
+    },
+    {
+      "labelKey": "navigation.blog",
+      "path": "blog"
+    },
+    {
+      "labelKey": "navigation.press",
+      "path": "prensa"
+    },
+    {
+      "labelKey": "navigation.contact",
+      "path": "contacto"
+    }
+  ],
+  "integrations": {
+    "hubspot": {
+      "portalId": "HS-PORTAL-PARAGUAI",
+      "formId": "contact-form-paragu-ai"
+    },
+    "mailchimp": {
+      "audienceId": "audience-paragu-ai-newsletter"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": "G-XE49GLEP34",
+        "streamName": "paragu-ai-builder"
+      }
+    }
+  },
+  "features": {
+    "testimonials": true,
+    "blog": true,
+    "whatsappFloat": true,
+    "heroImages": true,
+    "processImages": true
+  },
+  "images": {
+    "manifest": "/sites/nexa-paraguay/images.json",
+    "hero": "/sites/nexa-paraguay/images/hero/hero-bg.png"
+  },
+  "contact": {
+    "whatsapp": "595982515138",
+    "email": "hola@nexaparaguay.com"
+  },
+  "bookingUrl": "https://calendly.com/nexaparaguay/consulta",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/nexa-paraguay",
+    "instagram": "https://instagram.com/nexaparaguay"
+  },
+  "is_demo": false,
+  "isLiveProduction": true,
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+{
+  "id": "footer",
+  "variant": "standard",
+  "content": "footer",
+  "styling": {
+    "padding": "none"
+  }
+}
+    ]
+  },
+  "path": "/s/es/nexa-paraguay",
+  "publicUrl": "https://paragu-ai.com/s/es/nexa-paraguay"
+}

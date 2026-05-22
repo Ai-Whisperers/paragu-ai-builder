@@ -1,0 +1,788 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "Bufete Mendez & Asociados",
+    "lastReviewed": "2026-04-26"
+  },
+  "siteName": "Bufete Mendez & Asociados",
+  "tagline": "Abogados en Asunción — Derecho Corporativo, Civil, Laboral y Penal",
+  "placeholders": {
+    "businessName": "Bufete Mendez & Asociados",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Bufete Mendez",
+    "items": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/bufete-mendez"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/bufete-mendez/servicios"
+      },
+      {
+        "label": "Equipo",
+        "href": "/s/es/bufete-mendez/equipo"
+      },
+      {
+        "label": "Casos",
+        "href": "/s/es/bufete-mendez/casos"
+      },
+      {
+        "label": "FAQ",
+        "href": "/s/es/bufete-mendez/faq"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/bufete-mendez/contacto"
+      }
+    ],
+    "ctaText": "Consulta Gratis",
+    "ctaHref": "https://wa.me/595981123456"
+  },
+  "home": {
+    "seo": {
+      "title": "Bufete Mendez & Asociados — Abogados Profesionales en Asunción",
+      "description": "Estudio jurídico con más de 20 años de experiencia en derecho corporativo, civil, laboral y penal. Primera consulta sin cargo."
+    },
+    "hero": {
+      "headline": "Bufete Méndez & Asociados",
+      "subheadline": "Derecho corporativo, civil, laboral e inmobiliario en Asunción. +20 años de trayectoria.",
+      "ctaPrimaryText": "Consulta Gratis",
+      "ctaPrimaryHref": "https://wa.me/595981123456",
+      "ctaSecondaryText": "Nuestros Servicios",
+      "ctaSecondaryHref": "/s/es/bufete-mendez/servicios",
+      "trustBadges": [
+        "Fundado en 2005",
+        "1000+ casos",
+        "CAP Miembros",
+        "WhatsApp 24h"
+      ],
+      "backgroundImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=2000&q=80"
+    },
+    "trustBadges": {
+      "title": "¿Por qué elegirnos?",
+      "badges": [
+        {
+          "icon": "scale",
+          "label": "Trayectoria sólida",
+          "description": "+20 años defendiendo a nuestros clientes"
+        },
+        {
+          "icon": "check-circle",
+          "label": "Casos ganados",
+          "description": "Tasa de éxito comprobada en todas las áreas"
+        },
+        {
+          "icon": "message-circle",
+          "label": "Consulta sin cargo",
+          "description": "Primera consulta de 30 min gratis"
+        },
+        {
+          "icon": "clock",
+          "label": "Urgencias 24h",
+          "description": "Guardia permanente para emergencias legales"
+        }
+      ],
+      "items": [
+        {
+          "title": "+20 años de experiencia",
+          "icon": "Calendar"
+        },
+        {
+          "title": "1000+ casos resueltos",
+          "icon": "CheckCircle"
+        },
+        {
+          "title": "Primera consulta sin cargo",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Urgencias 24h",
+          "icon": "Clock"
+        }
+      ]
+    },
+    "services": {
+      "title": "Áreas de Práctica",
+      "subtitle": "Soluciones legales integrales para personas y empresas",
+      "categories": [
+        {
+          "id": "corporativo",
+          "title": "Derecho Corporativo",
+          "description": "Asesoría integral para empresas: contratos, sociedades, fusiones, compliance y gobierno corporativo.",
+          "items": [
+            {
+              "name": "Constitución de Sociedades",
+              "description": "SRL, SA, sucursales y EAS. Todo el proceso legal y registral.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Contratos Comerciales",
+              "description": "Redacción, revisión y negociación de contratos mercantiles.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Due Diligence Legal",
+              "description": "Auditoría legal completa para adquisiciones e inversiones.",
+              "pricePYG": "Consultar"
+            }
+          ]
+        },
+        {
+          "id": "civil",
+          "title": "Derecho Civil",
+          "description": "Sucesiones, contratos civiles, propiedad horizontal, responsabilidad civil y daños.",
+          "items": [
+            {
+              "name": "Sucesiones y Testamentos",
+              "description": "Planificación sucesoria, declaratorias de herederos y partición de bienes.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Contratos Civiles",
+              "description": "Compraventas, arrendamientos, servidumbres y toda clase de contratos.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Daños y Perjuicios",
+              "description": "Reclamos por responsabilidad civil extracontractual.",
+              "pricePYG": "Consultar"
+            }
+          ]
+        },
+        {
+          "id": "laboral",
+          "title": "Derecho Laboral",
+          "description": "Defensa de empresas y trabajadores en conflictos laborales individuales y colectivos.",
+          "items": [
+            {
+              "name": "Despidos e Indemnizaciones",
+              "description": "Cálculo de liquidaciones, negociación y defensa en juicio.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Contratos de Trabajo",
+              "description": "Redacción de contratos individuales, convenios y reglamentos internos.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Accidentes Laborales",
+              "description": "Reclamos ante el IPS y la justicia laboral.",
+              "pricePYG": "Consultar"
+            }
+          ]
+        },
+        {
+          "id": "penal",
+          "title": "Derecho Penal",
+          "description": "Defensa penal estratégica para personas y empresas en todas las etapas del proceso.",
+          "items": [
+            {
+              "name": "Defensa Penal Estratégica",
+              "description": "Asistencia desde la imputación hasta el juicio oral y recursos.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Delitos Económicos",
+              "description": "Lavado de activos, estafas, fraudes y delitos societarios.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Querellas Particulares",
+              "description": "Representación como querellante en causas penales.",
+              "pricePYG": "Consultar"
+            }
+          ]
+        },
+        {
+          "id": "familia",
+          "title": "Derecho de Familia",
+          "description": "Divorcios, alimentos, régimen de visitas y todo lo relativo al derecho familiar.",
+          "items": [
+            {
+              "name": "Divorcios",
+              "description": "Divorcio por mutuo consentimiento y contencioso. Separación de bienes.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Pensión Alimenticia",
+              "description": "Fijación, modificación y ejecución de alimentos.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Régimen de Visitas",
+              "description": "Acuerdos y litigios sobre tenencia y visitas de menores.",
+              "pricePYG": "Consultar"
+            }
+          ]
+        },
+        {
+          "id": "inmobiliario",
+          "title": "Derecho Inmobiliario",
+          "description": "Todo lo relativo a bienes inmuebles: compraventas, arrendamientos y litigios de propiedad.",
+          "items": [
+            {
+              "name": "Compraventa de Inmuebles",
+              "description": "Debida diligencia, redacción de minutas y acompañamiento en escrituración.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Usucapión",
+              "description": "Juicios de usucapión o prescripción adquisitiva de dominio.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Arrendamientos y Desalojos",
+              "description": "Contratos de alquiler y juicios de desalojo.",
+              "pricePYG": "Consultar"
+            }
+          ]
+        },
+        {
+          "id": "tributario",
+          "title": "Derecho Tributario",
+          "description": "Planificación impositiva, defensa fiscal y cumplimiento tributario.",
+          "items": [
+            {
+              "name": "Planificación Fiscal",
+              "description": "Estructuración impositiva óptima para personas y empresas.",
+              "pricePYG": "Consultar"
+            },
+            {
+              "name": "Defensa ante SET",
+              "description": "Recursos, sumarios y acuerdos en procedimientos administrativos fiscales.",
+              "pricePYG": "Consultar"
+            }
+          ]
+        }
+      ]
+    },
+    "process": {
+      "title": "Cómo trabajamos",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Consulta Inicial",
+          "description": "Primera reunión sin cargo. Presencial o por videollamada.",
+          "icon": "MessageCircle"
+        },
+        {
+          "step": 2,
+          "title": "Evaluación Estratégica",
+          "description": "Análisis del caso y definición de la estrategia.",
+          "icon": "Search"
+        },
+        {
+          "step": 3,
+          "title": "Ejecución",
+          "description": "Inicio de las acciones con comunicación constante.",
+          "icon": "Zap"
+        },
+        {
+          "step": 4,
+          "title": "Cierre y Seguimiento",
+          "description": "Resolución y acompañamiento post-cierre.",
+          "icon": "Shield"
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "subtitle": "Profesionales con experiencia y vocación de servicio",
+      "members": [
+        {
+          "name": "Dr. Ricardo Méndez",
+          "role": "Socio Fundador — Derecho Corporativo y Penal",
+          "bio": "Abogado egresado de la UNA. Más de 20 años de experiencia en derecho corporativo y penal. Especialización en compliance empresarial por la Universidad de Salamanca.",
+          "image": ""
+        },
+        {
+          "name": "Dra. Laura Benítez",
+          "role": "Socia — Derecho Civil y Familia",
+          "bio": "Abogada con 15 años de trayectoria en derecho civil y de familia. Amplia experiencia en mediación y resolución alternativa de conflictos.",
+          "image": ""
+        },
+        {
+          "name": "Dr. Miguel Ávila",
+          "role": "Asociado — Derecho Laboral y Tributario",
+          "bio": "Especialista en derecho laboral y tributario. Ex asesor del Ministerio de Trabajo. Cuenta con posgrado en derecho tributario por la UCA.",
+          "image": ""
+        },
+        {
+          "name": "Dra. Sofía Rivas",
+          "role": "Asociada — Derecho Inmobiliario",
+          "bio": "Abogada con enfoque en derecho inmobiliario y notarial. Experiencia en usucapiones, escrituraciones y litigios de propiedad.",
+          "image": ""
+        }
+      ]
+    },
+    "caseStudies": {
+      "title": "Casos Destacados",
+      "subtitle": "Resultados que respaldan nuestra experiencia",
+      "cases": [
+        {
+          "title": "Defensa en Lavado de Activos",
+          "area": "Penal Económico",
+          "description": "Representación exitosa de un directorio completo de empresa multinacional en investigación por lavado de activos. Caso sobreseído tras 14 meses de defensa estratégica.",
+          "result": "Sobreseimiento total — cliente absuelto"
+        },
+        {
+          "title": "Sucesión Internacional",
+          "area": "Civil / Sucesorio",
+          "description": "Tramitación completa de sucesión internacional con bienes en Paraguay, Argentina y España. Coordinación con abogados en tres jurisdicciones. Resolución en 8 meses.",
+          "result": "Declaratoria de herederos en 3 países"
+        },
+        {
+          "title": "Reestructuración Corporativa",
+          "area": "Corporativo",
+          "description": "Asesoría en fusión de dos grupos empresariales del sector agroindustrial. Incluyó due diligence, reestructuración societaria y compliance regulatorio.",
+          "result": "Fusión completada en 6 meses"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿La primera consulta es realmente gratis?",
+          "a": "Sí. Ofrecemos una primera consulta de 30 minutos sin costo para conocer tu caso y explicarte cómo podemos ayudarte. Presencial o por videollamada."
+        },
+        {
+          "q": "¿Cuánto tiempo toma resolver un caso?",
+          "a": "Depende del tipo de caso y su complejidad. Un divorcio por mutuo acuerdo puede resolver en 2-3 meses; un juicio penal puede llevar de 6 meses a 2 años. En la consulta inicial te damos un timeline realista."
+        },
+        {
+          "q": "¿Manejan casos de urgencia?",
+          "a": "Sí. Tenemos guardia permanente para urgencias legales: detenciones, allanamientos, medidas cautelares y cualquier situación que no pueda esperar."
+        },
+        {
+          "q": "¿Cuáles son los honorarios?",
+          "a": "Trabajamos con honorarios fijos por servicio, cuotas mensuales para empresas y honorarios de éxito en ciertos casos. Todo se acuerda por escrito antes de iniciar."
+        },
+        {
+          "q": "¿Atienden solo en Asunción?",
+          "a": "Nuestra sede está en Asunción pero litigamos en todo el país. También hacemos consultas por videollamada para clientes del interior y del extranjero."
+        },
+        {
+          "q": "¿Ofrecen servicios a empresas como outsourcing legal?",
+          "a": "Sí. Tenemos planes de asesoría legal corporativa con honorarios mensuales fijos. Ideal para startups, pymes y empresas que necesitan acompañamiento legal continuo sin contratar un abogado interno."
+        },
+        {
+          "q": "¿Qué documentos debo traer a la primera consulta?",
+          "a": "Depende del caso. Para temas corporativos: contratos, estatutos sociales. Para civiles/laborales: documentación relacionada al caso. Si no estás seguro, ven igual — nosotros te decimos qué falta."
+        },
+        {
+          "q": "¿Hacen mediación o resolución alternativa?",
+          "a": "Sí. Siempre exploramos la mediación y otros métodos alternativos antes de litigar. Muchos casos se resuelven más rápido y con menor costo fuera del juzgado."
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "quote": "El Dr. Méndez manejó un caso complejo de estafa corporativa con absoluto profesionalismo. Resultado: sobreseído.",
+        "author": "Gerente General, Empresa Agroindustrial",
+        "rating": 5
+      },
+      {
+        "quote": "Mi divorcio se resolvió en tiempo récord y de manera justa. Recomiendo a todo el equipo.",
+        "author": "María F., Asunción",
+        "rating": 5
+      },
+      {
+        "quote": "Contratamos el servicio de outsourcing legal mensual y nos salvó de tres problemas laborales en el primer año.",
+        "author": "CEO, Startup Tecnológica",
+        "rating": 5
+      },
+      {
+        "quote": "La Dra. Benítez me ayudó con la sucesión de mi papá. Todo claro, todo en orden y siempre informándome.",
+        "author": "Carlos R., San Lorenzo",
+        "rating": 5
+      }
+    ],
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Estamos para ayudarte. Contáctanos por cualquiera de estos medios.",
+      "address": "Av. Mariscal López 1234, c/ Curupayty, Barrio San Roque, Asunción",
+      "email": "contacto@bufetemendez.com.py",
+      "phone": "+595 21 123 456",
+      "whatsapp": "+595 981 123 456",
+      "whatsappHref": "https://wa.me/595981123456",
+      "hours": {
+        "Lunes a Viernes": "08:00 - 18:00",
+        "Sábado": "09:00 - 12:00 (con cita previa)",
+        "Emergencias": "24h vía WhatsApp"
+      },
+      "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115097.6!2d-57.6475!3d-25.2878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da8e96abe1edb%3A0x9aa9f89b0b1c1234!2sAsunci%C3%B3n!5e0!3m2!1ses!2spy!4v1!5m2!1ses!2spy",
+      "hoursCompact": "Lun–Vie 08:00–18:00"
+    }
+  },
+  "faqPage": {
+    "seo": {
+      "title": "Preguntas Frecuentes — Bufete Mendez & Asociados",
+      "description": "Respuestas a las dudas más comunes sobre nuestros servicios legales: consultas, honorarios, urgencias y más."
+    },
+    "hero": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Las respuestas que la mayoría de nuestros clientes necesita antes de contratar."
+    }
+  },
+  "ctaBanner": {
+    "title": "¿Necesitas asesoría legal?",
+    "subtitle": "Primera consulta sin cargo. Contáctanos hoy.",
+    "ctaText": "Escribinos por WhatsApp",
+    "ctaHref": "https://wa.me/595981123456"
+  },
+  "contactHero": {
+    "title": "Contanos tu caso",
+    "subtitle": "Primera consulta de 30 minutos sin costo. Presencial o por videollamada. Respondemos en el día."
+  },
+  "contactPage": {
+    "seo": {
+      "title": "Contacto — Bufete Mendez & Asociados",
+      "description": "Contactanos para agendar tu consulta gratuita. Abogados en Asunción con más de 20 años de experiencia."
+    }
+  },
+  "quoteForm": {
+    "title": "Agendá tu Consulta Gratis",
+    "subtitle": "Completá el formulario y te contactamos en el día.",
+    "whatsappPhone": "+595981123456",
+    "whatsappBase": "https://wa.me/595981123456",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Nombre",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "label": "Teléfono/WhatsApp",
+        "type": "tel",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "required": false
+      },
+      {
+        "name": "service_type",
+        "label": "Área legal",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Corporativo",
+          "Civil",
+          "Laboral",
+          "Penal",
+          "Familia",
+          "Inmobiliario",
+          "Tributario",
+          "No sé/Consulta general"
+        ]
+      },
+      {
+        "name": "urgency",
+        "label": "¿Es urgente?",
+        "type": "radio",
+        "options": [
+          "Sí, urgente",
+          "No, puedo esperar unos días",
+          "Solo información general"
+        ]
+      },
+      {
+        "name": "description",
+        "label": "Contanos brevemente tu caso",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "Describí tu situación en 2-3 líneas. Si no estás seguro del área legal, no importa — nosotros lo clasificamos."
+      },
+      {
+        "name": "contact_preference",
+        "label": "Preferencia de contacto",
+        "type": "radio",
+        "options": [
+          "WhatsApp",
+          "Llamada telefónica",
+          "Email",
+          "Presencial en oficina"
+        ]
+      },
+      {
+        "name": "contact_time",
+        "label": "Horario preferido para contacto",
+        "type": "select",
+        "options": [
+          "Mañana (8-12)",
+          "Tarde (12-18)",
+          "Cualquier horario"
+        ]
+      }
+    ],
+    "submitLabel": "Enviar por WhatsApp",
+    "steps": [
+      {
+        "id": "contact",
+        "title": "Tus datos",
+        "fields": [
+          "name",
+          "phone",
+          "email"
+        ]
+      },
+      {
+        "id": "case",
+        "title": "Tu caso",
+        "fields": [
+          "service_type",
+          "urgency",
+          "description"
+        ]
+      },
+      {
+        "id": "preference",
+        "title": "Preferencias",
+        "fields": [
+          "contact_preference",
+          "contact_time"
+        ]
+      }
+    ],
+    "serviceOptions": [
+      "Corporativo",
+      "Civil",
+      "Laboral",
+      "Penal",
+      "Familia",
+      "Inmobiliario",
+      "Tributario",
+      "No sé / Consulta general"
+    ],
+    "ctaText": "Enviar consulta por WhatsApp",
+    "successTitle": "¡Listo!",
+    "successBody": "Abrí tu WhatsApp con tu consulta. Respondemos dentro del horario de oficina (lun–vie 08:00–18:00)."
+  },
+  "servicios": {
+    "hero": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Soluciones legales integrales para personas y empresas",
+      "backgroundImage": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=2000&q=80"
+    }
+  },
+  "equipo": {
+    "seo": {
+      "title": "Nuestro Equipo — Bufete Mendez & Asociados",
+      "description": "Conocé a los abogados de Bufete Mendez: profesionales con más de 20 años de experiencia en Asunción."
+    },
+    "hero": {
+      "title": "Nuestro Equipo",
+      "subtitle": "Profesionales comprometidos con tu caso",
+      "backgroundImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2000&q=80"
+    }
+  },
+  "casos": {
+    "seo": {
+      "title": "Casos Destacados — Bufete Mendez & Asociados",
+      "description": "Conocé algunos de los casos que hemos manejado con éxito en derecho corporativo, penal, civil y laboral."
+    },
+    "hero": {
+      "title": "Casos Destacados",
+      "subtitle": "Resultados que hablan por sí solos",
+      "backgroundImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=2000&q=80"
+    }
+  },
+  "ctaBannerLong": {
+    "title": "Tu caso merece un abogado con experiencia",
+    "subtitle": "Más de 20 años defendiendo los intereses de nuestros clientes",
+    "ctaText": "Agendá tu consulta gratis",
+    "ctaHref": "https://wa.me/595981123456"
+  },
+  "footer": {
+    "businessName": "Bufete Mendez & Asociados",
+    "city": "Asunción",
+    "founded": "2005",
+    "copyright": "© 2026 Bufete Mendez & Asociados. Todos los derechos reservados.",
+    "navLinks": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/bufete-mendez"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/bufete-mendez/servicios"
+      },
+      {
+        "label": "Equipo",
+        "href": "/s/es/bufete-mendez/equipo"
+      },
+      {
+        "label": "Casos",
+        "href": "/s/es/bufete-mendez/casos"
+      },
+      {
+        "label": "FAQ",
+        "href": "/s/es/bufete-mendez/faq"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/bufete-mendez/contacto"
+      },
+      {
+        "label": "Privacidad",
+        "href": "/s/es/bufete-mendez/privacidad"
+      },
+      {
+        "label": "Términos",
+        "href": "/s/es/bufete-mendez/terminos"
+      }
+    ]
+  },
+  "whatsapp": "+595981123456",
+  "privacidad": {
+    "title": "Política de Privacidad",
+    "subtitle": "Cómo manejamos tu información personal",
+    "sections": [
+      {
+        "q": "Qué datos recolectamos",
+        "a": "Nombre, teléfono, email y la información que nos proporcionas sobre tu caso. Solo lo necesario para brindarte el servicio legal."
+      },
+      {
+        "q": "Para qué los usamos",
+        "a": "Responder tu consulta, brindar asesoría legal, facturar y cumplir con nuestras obligaciones profesionales. No compartimos tus datos con terceros sin tu autorización."
+      },
+      {
+        "q": "Confidencialidad abogado-cliente",
+        "a": "Toda la información que compartes con nosotros está protegida por el secreto profesional abogado-cliente (Art. 120 del Código de Ética de la Abogacía)."
+      },
+      {
+        "q": "Dónde guardamos los datos",
+        "a": "Los datos de tu caso se almacenan de forma segura en nuestro sistema de gestión. Los datos de contacto en nuestras herramientas de comunicación (WhatsApp, email, CRM)."
+      },
+      {
+        "q": "Tus derechos",
+        "a": "Podés pedir en cualquier momento que te mostremos, corrijamos o eliminemos los datos que tenemos sobre vos."
+      }
+    ],
+    "sectionsBlock": {
+      "title": "Política de Privacidad",
+      "items": [
+        {
+          "q": "Qué datos recolectamos",
+          "a": "Nombre, teléfono, email y la información que nos proporcionas sobre tu caso. Solo lo necesario para brindarte el servicio legal."
+        },
+        {
+          "q": "Para qué los usamos",
+          "a": "Responder tu consulta, brindar asesoría legal, facturar y cumplir con nuestras obligaciones profesionales. No compartimos tus datos con terceros sin tu autorización."
+        },
+        {
+          "q": "Confidencialidad abogado-cliente",
+          "a": "Toda la información que compartes con nosotros está protegida por el secreto profesional abogado-cliente."
+        },
+        {
+          "q": "Dónde guardamos los datos",
+          "a": "Los datos de tu caso se almacenan de forma segura en nuestro sistema de gestión."
+        },
+        {
+          "q": "Tus derechos",
+          "a": "Podés pedir en cualquier momento que te mostremos, corrijamos o eliminemos los datos que tenemos sobre vos."
+        }
+      ]
+    }
+  },
+  "terminos": {
+    "title": "Términos y Condiciones",
+    "subtitle": "Condiciones generales de prestación de servicios legales",
+    "sections": [
+      {
+        "q": "1. Alcance de los servicios",
+        "a": "Los servicios se prestan de acuerdo a los términos acordados en la carta de encargo profesional. Cada caso es único y se formaliza por escrito."
+      },
+      {
+        "q": "2. Honorarios y formas de pago",
+        "a": "Los honorarios se acuerdan previamente por escrito. Aceptamos transferencia bancaria, efectivo y pagos por servicio de terceros. Honorarios de éxito solo en tipos de casos específicos previamente acordados."
+      },
+      {
+        "q": "3. Confidencialidad",
+        "a": "Toda la información compartida está protegida por secreto profesional. No divulgamos información del cliente sin autorización expresa, salvo obligación legal."
+      },
+      {
+        "q": "4. Cancelación",
+        "a": "El cliente puede rescindir los servicios en cualquier momento. Se facturarán los servicios efectivamente prestados hasta la fecha de cancelación."
+      }
+    ],
+    "payment": {
+      "title": "Medios de Pago Aceptados",
+      "methods": [
+        {
+          "name": "Transferencia bancaria",
+          "description": "Bancos de Paraguay (Banco Itaú, Banco Familiar, Banco Continental)"
+        },
+        {
+          "name": "Efectivo",
+          "description": "Pago en oficinas"
+        },
+        {
+          "name": "Transferencia internacional",
+          "description": "Para clientes en el extranjero"
+        }
+      ],
+      "note": "Los honorarios se acuerdan por escrito antes de iniciar cualquier servicio legal.",
+      "features": [
+        {
+          "title": "Transferencia bancaria",
+          "description": "Bancos de Paraguay",
+          "icon": null
+        },
+        {
+          "title": "Efectivo",
+          "description": "Pago en oficinas",
+          "icon": null
+        },
+        {
+          "title": "Transferencia internacional",
+          "description": "Para clientes en el extranjero",
+          "icon": null
+        }
+      ]
+    },
+    "sectionsBlock": {
+      "title": "Términos del Servicio",
+      "items": [
+        {
+          "q": "1. Alcance de los servicios",
+          "a": "Los servicios se prestan de acuerdo a los términos acordados en la carta de encargo profesional."
+        },
+        {
+          "q": "2. Honorarios y formas de pago",
+          "a": "Los honorarios se acuerdan previamente por escrito. Aceptamos transferencia bancaria y efectivo."
+        },
+        {
+          "q": "3. Confidencialidad",
+          "a": "Toda la información compartida está protegida por secreto profesional."
+        },
+        {
+          "q": "4. Cancelación",
+          "a": "El cliente puede rescindir los servicios en cualquier momento."
+        }
+      ]
+    }
+  },
+  "infoCta": {
+    "title": "¿Necesitás una consulta legal?",
+    "subtitle": "Primera consulta sin cargo. Te contactamos en el día.",
+    "buttonText": "Agendar Consulta",
+    "buttonHref": "https://wa.me/595981123456",
+    "variant": "gradient"
+  },
+  "seo": {
+    "faq": {
+      "title": "Preguntas Frecuentes — Bufete Mendez & Asociados",
+      "description": "Respuestas a las dudas más comunes sobre nuestros servicios legales."
+    }
+  }
+}
