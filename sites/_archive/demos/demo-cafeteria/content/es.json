@@ -1,177 +1,29 @@
 {
-  "_meta": {
-    "translationQuality": "machine",
-    "author": "batch-create-demos",
-    "lastReviewed": "2026-04-25"
-  },
-  "siteName": "Demo Cafetería Asunción",
-  "tagline": "Cafes de especialidad, desayunos y meriendas en Asunción.",
-  "placeholders": {
-    "businessName": "Demo Cafetería Asunción",
-    "city": "Asunción",
-    "year": 2026
-  },
+  "siteName": "Demo Cafetería",
+  "tagline": "Café de especialidad y desayunos en Asunción",
   "navigation": {
-    "businessName": "Demo Cafetería Asunción",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
+    "businessName": "Cafetería",
+    "navItems": [{ "label": "Inicio", "href": "/s/es/demo-cafeteria" }, { "label": "Contacto", "href": "/s/es/demo-cafeteria/contacto" }],
+    "ctaText": "Pedí por WhatsApp", "ctaHref": "https://wa.me/595981234567"
   },
+  "whatsapp": "+595981234567",
   "home": {
-    "seo": {
-      "title": "Demo Cafetería Asunción - Cafeteria en Asunción",
-      "description": "Cafes de especialidad, desayunos y meriendas en Asunción."
-    },
-    "hero": {
-      "headline": "Demo Cafetería Asunción - Tu cafe, tu lugar",
-      "subheadline": "Cafes de especialidad, desayunos y meriendas en Asunción.",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Cafeter%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
-    },
-    "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
-      "city": "Asunción",
-      "formSource": "demo",
-      "demoRubro": "cafeteria"
-    },
-    "services": {
-      "eyebrow": "Servicios",
-      "title": "Servicios",
-      "items": [
-        {
-          "name": "Consulta inicial",
-          "description": "Primera visita con evaluación completa",
-          "price": "Gs. 80.000",
-          "icon": "ClipboardList"
-        },
-        {
-          "name": "Servicio básico",
-          "description": "Servicio estándar con resultados garantizados",
-          "price": "Gs. 120.000",
-          "icon": "Star"
-        },
-        {
-          "name": "Servicio premium",
-          "description": "Experiencia completa con atención personalizada",
-          "price": "Gs. 200.000",
-          "icon": "Sparkles"
-        },
-        {
-          "name": "Servicio express",
-          "description": "Solución rápida sin perder calidad",
-          "price": "Gs. 60.000",
-          "icon": "Zap"
-        },
-        {
-          "name": "Combo ahorro",
-          "description": "Paquete de 3 servicios con descuento",
-          "price": "Gs. 280.000",
-          "icon": "Package"
-        },
-        {
-          "name": "A domicilio",
-          "description": "Atención en la comodidad de tu hogar",
-          "price": "Gs. 150.000",
-          "icon": "Home"
-        }
-      ]
-    },
-    "trustBadges": {
-      "items": [
-        "Atención personalizada",
-        "Asunción y alrededores",
-        "Resultados garantizados",
-        "Precios accesibles"
-      ]
-    },
-    "team": {
-      "title": "Nuestro equipo",
-      "subtitle": "Profesionales dedicados en Asunción",
-      "items": [
-        {
-          "name": "Carlos Mendoza",
-          "role": "Director de Cafeteria",
-          "description": "Más de 10 años de experiencia en Asunción"
-        },
-        {
-          "name": "María López",
-          "role": "Profesional Senior",
-          "description": "Especialista en atención al cliente"
-        },
-        {
-          "name": "Juan Pérez",
-          "role": "Asistente Técnico",
-          "description": "Comprometido con la calidad"
-        }
-      ]
-    },
-    "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
-      "items": [
-        {
-          "name": "Cliente Satisfecho",
-          "text": "Excelente servicio, súper recomendado.",
-          "rating": 5
-        },
-        {
-          "name": "Cliente Frecuente",
-          "text": "Siempre cumplen con lo prometido. Muy profesionales.",
-          "rating": 5
-        },
-        {
-          "name": "Nuevo Cliente",
-          "text": "Me atendieron muy bien, volveré sin dudas.",
-          "rating": 4
-        }
-      ]
-    },
-    "faq": {
-      "title": "Preguntas frecuentes",
-      "items": [
-        {
-          "question": "¿Aceptan tarjetas?",
-          "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia."
-        },
-        {
-          "question": "¿Cuál es el horario?",
-          "answer": "Abrimos de lunes a sábado en horario comercial."
-        },
-        {
-          "question": "¿Hacen envíos?",
-          "answer": "Sí, hacemos envíos a toda la ciudad."
-        },
-        {
-          "question": "¿Cómo puedo contactarlos?",
-          "answer": "Por WhatsApp, teléfono o directamente en nuestro local."
-        }
-      ]
-    },
-    "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "09:00 - 19:00",
-        "Sábado": "09:00 - 17:00"
-      }
-    },
-    "promoBanner": {
-      "title": "¡Visitános!",
-      "subtitle": "Conocé nuestros servicios en Asunción",
-      "ctaText": "Contactar ahora",
-      "variant": "standard",
-      "dismissible": true
-    }
+    "seo": { "title": "Demo Cafetería - Café de especialidad en Asunción", "description": "Café de especialidad, desayunos y meriendas en Asunción." },
+    "hero": { "headline": "Tu momento café", "subheadline": "Café de especialidad, desayunos y meriendas en Asunción", "ctaPrimaryText": "Pedí por WhatsApp", "ctaSecondaryText": "Ver menú" },
+    "services": { "title": "Nuestro Menú", "items": [
+      { "name": "Café Express", "price": "8.000 Gs", "description": "Café de especialidad", "category": "Café" },
+      { "name": "Cappuccino", "price": "12.000 Gs", "description": "Con leche cremosa", "category": "Café" },
+      { "name": "Tostado Mixto", "price": "18.000 Gs", "description": "Jamón y queso", "category": "Desayuno" },
+      { "name": "Medialuna", "price": "3.000 Gs", "description": "Medialuna de manteca", "category": "Desayuno" },
+      { "name": "Jugo Natural", "price": "10.000 Gs", "description": "Naranja, limón o papaya", "category": "Bebidas" }
+    ]},
+    "testimonials": { "title": "Opiniones", "items": [
+      { "quote": "El mejor café de especialidad de Asunción.", "author": "Ana S.", "rating": 5 },
+      { "quote": "Perfecto para trabajar. Buen café y wifi rápido.", "author": "Diego P.", "rating": 5 }
+    ]},
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" },
+    "cta": { "title": "Pedí tu café", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" }
   },
-  "footer": {
-    "businessName": "Demo Cafetería Asunción",
-    "copyright": "© {{year}} Demo Cafetería Asunción",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
-  },
-  "whatsapp": {
-    "defaultMessage": "Hola, vi el demo de Cafetería y me interesa un sitio para mi negocio"
-  }
+  "contacto": { "seo": { "title": "Contacto — Demo Cafetería", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Cafetería", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-cafeteria" }, { "label": "Contacto", "href": "/s/es/demo-cafeteria/contacto" }] }
 }

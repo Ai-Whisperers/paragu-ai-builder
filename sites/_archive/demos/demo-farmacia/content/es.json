@@ -1,205 +1,29 @@
 {
-  "_meta": {
-    "translationQuality": "machine",
-    "author": "batch-create-demos",
-    "lastReviewed": "2026-04-21"
-  },
-  "siteName": "Demo Farmacia Encarnacion",
-  "tagline": "Medicamentos, perfumeria y cuidado personal con delivery en Encarnacion.",
-  "placeholders": {
-    "businessName": "Demo Farmacia Encarnacion",
-    "city": "Encarnacion",
-    "year": 2026
-  },
+  "siteName": "Demo Farmacia",
+  "tagline": "Farmacia de turno con atención personalizada en Asunción",
   "navigation": {
     "businessName": "Farmacia",
-    "navItems": [
-      {
-        "label": "Inicio",
-        "path": ""
-      },
-      {
-        "label": "Servicios",
-        "path": "#servicios"
-      },
-      {
-        "label": "Equipo",
-        "path": "#equipo"
-      },
-      {
-        "label": "Contacto",
-        "path": "#contacto"
-      }
-    ],
-    "ctaText": "Contactar",
-    "ctaHref": "#contacto"
+    "navItems": [{ "label": "Inicio", "href": "/s/es/demo-farmacia" }, { "label": "Contacto", "href": "/s/es/demo-farmacia/contacto" }],
+    "ctaText": "Consultá por WhatsApp", "ctaHref": "https://wa.me/595981234567"
   },
+  "whatsapp": "+595981234567",
   "home": {
-    "seo": {
-      "title": "Demo Farmacia Encarnacion - Farmacia en Encarnacion",
-      "description": "Medicamentos, perfumeria y cuidado personal con delivery en Encarnacion."
-    },
-    "hero": {
-      "headline": "Tu farmacia de confianza en Encarnación",
-      "subheadline": "Medicamentos, dermocosmética y atención farmacéutica personalizada",
-      "ctaPrimaryText": "Consultá nuestros precios",
-      "ctaSecondaryText": "Servicios"
-    },
-    "contact": {
-      "title": "Contacto",
-      "subtitle": "Visitanos en Encarnación",
-      "address": "Av. Caballero 345",
-      "city": "Encarnación",
-      "phone": "+595987890123",
-      "email": "pedidos@farmaciaencarnacion.com.py",
-      "whatsapp": "+595987890123"
-    },
-    "promoBanner": {
-      "title": "💊 Promociones del mes",
-      "subtitle": "30% de descuento en vitaminas y suplementos",
-      "ctaText": "Ver promos",
-      "variant": "standard",
-      "dismissible": true
-    },
-    "services": {
-      "eyebrow": "Servicios",
-      "title": "Todo en salud y bienestar",
-      "items": [
-        {
-          "name": "Medicamentos",
-          "description": "Amplio stock de medicamentos genéricos y de marca",
-          "icon": "Pill"
-        },
-        {
-          "name": "Dermocosmética",
-          "description": "Cuidado de la piel, protector solar y cosmética",
-          "icon": "Sparkles"
-        },
-        {
-          "name": "Vitaminas y Suplementos",
-          "description": "Suplementación deportiva y nutricional",
-          "icon": "Heart"
-        },
-        {
-          "name": "Toma de presión",
-          "description": "Control de presión arterial gratuito",
-          "icon": "Activity"
-        },
-        {
-          "name": "Perfumería",
-          "description": "Perfumes importados y nacionales",
-          "icon": "Palette"
-        },
-        {
-          "name": "Pedidos por WhatsApp",
-          "description": "Hacé tu pedido y retirá sin filas",
-          "icon": "MessageSquare"
-        }
-      ]
-    },
-    "trustBadges": {
-      "items": [
-        "Farmacia habilitada",
-        "Mejores precios",
-        "Atención personalizada",
-        "Pedidos online",
-        "Delivery gratis +50K"
-      ]
-    },
-    "team": {
-      "title": "Nuestro equipo",
-      "subtitle": "Profesionales farmacéuticos a tu servicio",
-      "items": [
-        {
-          "name": "Dra. Cecilia Benítez",
-          "role": "Farmacéutica Directora",
-          "description": "10 años de experiencia en farmacia comunitaria"
-        },
-        {
-          "name": "Dr. Aníbal Rojas",
-          "role": "Farmacéutico",
-          "description": "Atención y dispensación de medicamentos"
-        },
-        {
-          "name": "Marta González",
-          "role": "Cosmetóloga",
-          "description": "Asesoramiento en dermocosmética y cuidado facial"
-        }
-      ]
-    },
-    "blog": {
-      "title": "Salud y bienestar",
-      "items": [
-        {
-          "title": "Beneficios de la vitamina C",
-          "slug": "beneficios-vitamina-c",
-          "date": "2026-04-15"
-        },
-        {
-          "title": "Cuidado de la piel en primavera",
-          "slug": "cuidado-piel-primavera",
-          "date": "2026-04-08"
-        },
-        {
-          "title": "Suplementos para deportistas",
-          "slug": "suplementos-deportistas",
-          "date": "2026-04-01"
-        }
-      ]
-    },
-    "faq": {
-      "title": "Preguntas frecuentes",
-      "items": [
-        {
-          "question": "¿Hacen delivery?",
-          "answer": "Sí, delivery gratis en compras mayores a Gs. 50.000"
-        },
-        {
-          "question": "¿Aceptan recetas digitales?",
-          "answer": "Sí, aceptamos recetas digitales y físicas"
-        },
-        {
-          "question": "¿Tienen programa de fidelidad?",
-          "answer": "Sí, acumulá puntos y canjeá por productos"
-        }
-      ]
-    },
-    "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "07:00 - 21:00",
-        "Sábado": "08:00 - 20:00",
-        "Domingo": "09:00 - 13:00"
-      }
-    },
-    "testimonials": {
-      "title": "Opiniones de clientes",
-      "columns": 2,
-      "items": [
-        {
-          "name": "Marta R.",
-          "text": "Excelente atención y precios. Siempre compro aquí.",
-          "rating": 5
-        },
-        {
-          "name": "José L.",
-          "text": "La mejor farmacia de Encarnación. Delivery rápido.",
-          "rating": 5
-        },
-        {
-          "name": "Andrea F.",
-          "text": "Tienen de todo y el personal es muy amable.",
-          "rating": 5
-        }
-      ]
-    }
+    "seo": { "title": "Demo Farmacia - Farmacia en Asunción", "description": "Farmacia con atención personalizada y delivery en Asunción." },
+    "hero": { "headline": "Tu salud, nuestra misión", "subheadline": "Farmacia con atención personalizada y delivery en Asunción", "ctaPrimaryText": "Consultá por WhatsApp", "ctaSecondaryText": "Servicios" },
+    "services": { "title": "Nuestros Servicios", "items": [
+      { "name": "Venta de Medicamentos", "price": "Consultar", "description": "Medicamentos genéricos y de marca", "category": "Medicamentos" },
+      { "name": "Toma de Presión", "price": "Gratis", "description": "Control de presión arterial", "category": "Servicios" },
+      { "name": "Medición de Glucosa", "price": "Gratis", "description": "Control de glucosa en sangre", "category": "Servicios" },
+      { "name": "Delivery", "price": "Gs 5.000", "description": "Entrega a domicilio en Asunción", "category": "Servicios" },
+      { "name": "Perfumería", "price": "Consultar", "description": "Perfumes y cosméticos", "category": "Perfumería" }
+    ]},
+    "testimonials": { "title": "Testimonios", "items": [
+      { "quote": "Siempre tienen los medicamentos que necesito. Buen precio y rápido delivery.", "author": "Lucía M.", "rating": 5 },
+      { "quote": "La toma de presión gratis me salvó. Descubrí que tenía presión alta.", "author": "Don Carlos", "rating": 5 }
+    ]},
+    "cta": { "title": "Consultá disponibilidad", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" }
   },
-  "footer": {
-    "businessName": "Demo Farmacia Encarnacion",
-    "copyright": "© {{year}} Demo Farmacia Encarnacion",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-  },
-  "whatsapp": {
-    "defaultMessage": "Hola, vi el demo de Farmacia y me interesa un sitio para mi negocio"
-  }
+  "contacto": { "seo": { "title": "Contacto — Demo Farmacia", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Farmacia", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-farmacia" }, { "label": "Contacto", "href": "/s/es/demo-farmacia/contacto" }] }
 }

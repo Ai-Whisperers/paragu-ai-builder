@@ -1,177 +1,25 @@
 {
-  "_meta": {
-    "translationQuality": "machine",
-    "author": "batch-create-demos",
-    "lastReviewed": "2026-04-25"
-  },
-  "siteName": "Demo Gomería Asunción",
-  "tagline": "Venta, montaje y balanceo de neumaticos en Asunción.",
-  "placeholders": {
-    "businessName": "Demo Gomería Asunción",
-    "city": "Asunción",
-    "year": 2026
-  },
-  "navigation": {
-    "businessName": "Demo Gomería Asunción",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
-  },
+  "siteName": "Demo Gomería",
+  "tagline": "Venta y reparación de neumáticos en Asunción",
+  "navigation": { "businessName": "Gomería", "navItems": [{ "label": "Inicio", "href": "/s/es/demo-gomeria" }, { "label": "Contacto", "href": "/s/es/demo-gomeria/contacto" }], "ctaText": "Pedí por WhatsApp", "ctaHref": "https://wa.me/595981234567" },
+  "whatsapp": "+595981234567",
   "home": {
-    "seo": {
-      "title": "Demo Gomería Asunción - Gomeria en Asunción",
-      "description": "Venta, montaje y balanceo de neumaticos en Asunción."
-    },
-    "hero": {
-      "headline": "Demo Gomería Asunción - Ruedas nuevas, viaje tranquilo",
-      "subheadline": "Venta, montaje y balanceo de neumaticos en Asunción.",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Gomer%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
-    },
-    "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
-      "city": "Asunción",
-      "formSource": "demo",
-      "demoRubro": "gomeria"
-    },
-    "services": {
-      "eyebrow": "Servicios",
-      "title": "Servicios",
-      "items": [
-        {
-          "name": "Parche de neumático",
-          "description": "Reparación de pinchadura",
-          "price": "Gs. 30.000",
-          "icon": "Crosshair"
-        },
-        {
-          "name": "Cambio de neumático",
-          "description": "Venta y montaje de neumáticos nuevos",
-          "price": "Gs. 200.000",
-          "icon": "Circle"
-        },
-        {
-          "name": "Balanceo",
-          "description": "Balanceo dinámico de ruedas",
-          "price": "Gs. 25.000",
-          "icon": "RefreshCw"
-        },
-        {
-          "name": "Alineación",
-          "description": "Alineación computarizada",
-          "price": "Gs. 50.000",
-          "icon": "Move"
-        },
-        {
-          "name": "Rotación",
-          "description": "Rotación cruzada de neumáticos",
-          "price": "Gs. 20.000",
-          "icon": "RotateCw"
-        },
-        {
-          "name": "Nitrógeno",
-          "description": "Carga de nitrógeno para las 4 ruedas",
-          "price": "Gs. 15.000",
-          "icon": "Wind"
-        }
-      ]
-    },
-    "trustBadges": {
-      "items": [
-        "Atención personalizada",
-        "Asunción y alrededores",
-        "Resultados garantizados",
-        "Precios accesibles"
-      ]
-    },
-    "team": {
-      "title": "Nuestro equipo",
-      "subtitle": "Profesionales dedicados en Asunción",
-      "items": [
-        {
-          "name": "Carlos Mendoza",
-          "role": "Director de Gomeria",
-          "description": "Más de 10 años de experiencia en Asunción"
-        },
-        {
-          "name": "María López",
-          "role": "Profesional Senior",
-          "description": "Especialista en atención al cliente"
-        },
-        {
-          "name": "Juan Pérez",
-          "role": "Asistente Técnico",
-          "description": "Comprometido con la calidad"
-        }
-      ]
-    },
-    "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
-      "items": [
-        {
-          "name": "Cliente Satisfecho",
-          "text": "Excelente servicio, súper recomendado.",
-          "rating": 5
-        },
-        {
-          "name": "Cliente Frecuente",
-          "text": "Siempre cumplen con lo prometido. Muy profesionales.",
-          "rating": 5
-        },
-        {
-          "name": "Nuevo Cliente",
-          "text": "Me atendieron muy bien, volveré sin dudas.",
-          "rating": 4
-        }
-      ]
-    },
-    "faq": {
-      "title": "Preguntas frecuentes",
-      "items": [
-        {
-          "question": "¿Aceptan tarjetas?",
-          "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia."
-        },
-        {
-          "question": "¿Cuál es el horario?",
-          "answer": "Abrimos de lunes a sábado en horario comercial."
-        },
-        {
-          "question": "¿Hacen envíos?",
-          "answer": "Sí, hacemos envíos a toda la ciudad."
-        },
-        {
-          "question": "¿Cómo puedo contactarlos?",
-          "answer": "Por WhatsApp, teléfono o directamente en nuestro local."
-        }
-      ]
-    },
-    "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "09:00 - 19:00",
-        "Sábado": "09:00 - 17:00"
-      }
-    },
-    "promoBanner": {
-      "title": "¡Visitános!",
-      "subtitle": "Conocé nuestros servicios en Asunción",
-      "ctaText": "Contactar ahora",
-      "variant": "standard",
-      "dismissible": true
-    }
+    "seo": { "title": "Demo Gomería - Neumáticos en Asunción", "description": "Venta y reparación de neumáticos en Asunción." },
+    "hero": { "headline": "Tus neumáticos en orden", "subheadline": "Venta, reparación y balanceo en Asunción", "ctaPrimaryText": "Pedí por WhatsApp", "ctaSecondaryText": "Servicios" },
+    "services": { "title": "Nuestros Servicios", "items": [
+      { "name": "Venta de Neumáticos", "price": "Consultar", "description": "Todas las marcas y medidas", "category": "Venta" },
+      { "name": "Reparación", "price": "20.000 Gs", "description": "Reparación de pinchaduras", "category": "Reparación" },
+      { "name": "Balanceo", "price": "15.000 Gs", "description": "Balanceo por rueda", "category": "Alineación" },
+      { "name": "Alineación", "price": "40.000 Gs", "description": "Alineación de dirección", "category": "Alineación" },
+      { "name": "Rotación", "price": "20.000 Gs", "description": "Rotación de neumáticos", "category": "Mantenimiento" }
+    ]},
+    "testimonials": { "title": "Opiniones", "items": [
+      { "quote": "Me salvaron con una pinchadura un domingo. Rápidos y económicos.", "author": "Luis A.", "rating": 5 },
+      { "quote": "Buenos precios en neumáticos y el balanceo quedó perfecto.", "author": "Marcos R.", "rating": 5 }
+    ]},
+    "cta": { "title": "Consultá precios", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" }
   },
-  "footer": {
-    "businessName": "Demo Gomería Asunción",
-    "copyright": "© {{year}} Demo Gomería Asunción",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
-  },
-  "whatsapp": {
-    "defaultMessage": "Hola, vi el demo de Gomería y me interesa un sitio para mi negocio"
-  }
+  "contacto": { "seo": { "title": "Contacto — Gomería", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Gomería", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-gomeria" }, { "label": "Contacto", "href": "/s/es/demo-gomeria/contacto" }] }
 }

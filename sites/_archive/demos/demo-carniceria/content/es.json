@@ -1,177 +1,24 @@
 {
-  "_meta": {
-    "translationQuality": "machine",
-    "author": "batch-create-demos",
-    "lastReviewed": "2026-04-25"
-  },
-  "siteName": "Demo Carnicería Luque",
-  "tagline": "Carniceria con cortes seleccionados, embutidos y pollo fresco.",
-  "placeholders": {
-    "businessName": "Demo Carnicería Luque",
-    "city": "Luque",
-    "year": 2026
-  },
-  "navigation": {
-    "businessName": "Demo Carnicería Luque",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
-  },
+  "siteName": "Demo Carnicería", "tagline": "Carnes frescas de primera calidad en Luque",
+  "navigation": { "businessName": "Carnicería", "navItems": [{ "label": "Inicio", "href": "/s/es/demo-carniceria" }, { "label": "Contacto", "href": "/s/es/demo-carniceria/contacto" }], "ctaText": "Pedí por WhatsApp", "ctaHref": "https://wa.me/595981234567" },
+  "whatsapp": "+595981234567",
   "home": {
-    "seo": {
-      "title": "Demo Carnicería Luque - Carniceria en Luque",
-      "description": "Carniceria con cortes seleccionados, embutidos y pollo fresco."
-    },
-    "hero": {
-      "headline": "Demo Carnicería Luque - Cortes frescos, atencion personal",
-      "subheadline": "Carniceria con cortes seleccionados, embutidos y pollo fresco.",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Carnicer%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
-    },
-    "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
-      "city": "Luque",
-      "formSource": "demo",
-      "demoRubro": "carniceria"
-    },
-    "services": {
-      "eyebrow": "Servicios",
-      "title": "Productos",
-      "items": [
-        {
-          "name": "Carne vacuna",
-          "description": "Corte al gusto: lomo, cuadril, asado",
-          "price": "Gs. 25.000/kg",
-          "icon": "Beef"
-        },
-        {
-          "name": "Carne porcina",
-          "description": "Cerdo fresco: costilla, lomo, pierna",
-          "price": "Gs. 20.000/kg",
-          "icon": "Beef"
-        },
-        {
-          "name": "Pollo fresco",
-          "description": "Pollo entero o en presas",
-          "price": "Gs. 15.000/kg",
-          "icon": "Drumstick"
-        },
-        {
-          "name": "Embutidos",
-          "description": "Salchichas, chorizos, morcilla",
-          "price": "Gs. 30.000",
-          "icon": "Beef"
-        },
-        {
-          "name": "Carne molida",
-          "description": "Carne molida especial para hamburguesas",
-          "price": "Gs. 28.000/kg",
-          "icon": "CircleDot"
-        },
-        {
-          "name": "Combos parrilla",
-          "description": "Mix de carnes para 6 personas",
-          "price": "Gs. 180.000",
-          "icon": "Flame"
-        }
-      ]
-    },
-    "trustBadges": {
-      "items": [
-        "Atención personalizada",
-        "Luque y alrededores",
-        "Resultados garantizados",
-        "Precios accesibles"
-      ]
-    },
-    "team": {
-      "title": "Nuestro equipo",
-      "subtitle": "Profesionales dedicados en Luque",
-      "items": [
-        {
-          "name": "Carlos Mendoza",
-          "role": "Director de Carniceria",
-          "description": "Más de 10 años de experiencia en Luque"
-        },
-        {
-          "name": "María López",
-          "role": "Profesional Senior",
-          "description": "Especialista en atención al cliente"
-        },
-        {
-          "name": "Juan Pérez",
-          "role": "Asistente Técnico",
-          "description": "Comprometido con la calidad"
-        }
-      ]
-    },
-    "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
-      "items": [
-        {
-          "name": "Cliente Satisfecho",
-          "text": "Excelente servicio, súper recomendado.",
-          "rating": 5
-        },
-        {
-          "name": "Cliente Frecuente",
-          "text": "Siempre cumplen con lo prometido. Muy profesionales.",
-          "rating": 5
-        },
-        {
-          "name": "Nuevo Cliente",
-          "text": "Me atendieron muy bien, volveré sin dudas.",
-          "rating": 4
-        }
-      ]
-    },
-    "faq": {
-      "title": "Preguntas frecuentes",
-      "items": [
-        {
-          "question": "¿Aceptan tarjetas?",
-          "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia."
-        },
-        {
-          "question": "¿Cuál es el horario?",
-          "answer": "Abrimos de lunes a sábado en horario comercial."
-        },
-        {
-          "question": "¿Hacen envíos?",
-          "answer": "Sí, hacemos envíos a toda la ciudad."
-        },
-        {
-          "question": "¿Cómo puedo contactarlos?",
-          "answer": "Por WhatsApp, teléfono o directamente en nuestro local."
-        }
-      ]
-    },
-    "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "09:00 - 19:00",
-        "Sábado": "09:00 - 17:00"
-      }
-    },
-    "promoBanner": {
-      "title": "¡Visitános!",
-      "subtitle": "Conocé nuestros servicios en Luque",
-      "ctaText": "Contactar ahora",
-      "variant": "standard",
-      "dismissible": true
-    }
+    "seo": { "title": "Demo Carnicería - Carnes frescas en Luque", "description": "Carnes frescas de primera calidad en Luque." },
+    "hero": { "headline": "La mejor carne de Luque", "subheadline": "Carnes frescas de primera calidad", "ctaPrimaryText": "Pedí por WhatsApp", "ctaSecondaryText": "Productos" },
+    "services": { "title": "Nuestros Productos", "items": [
+      { "name": "Asado de Tira", "price": "28.000 Gs/kg", "description": "Carne para parrilla", "category": "Carnes" },
+      { "name": "Pechuga de Pollo", "price": "22.000 Gs/kg", "description": "Pollo fresco", "category": "Aves" },
+      { "name": "Carne Molida", "price": "25.000 Gs/kg", "description": "Carne picada especial", "category": "Carnes" },
+      { "name": "Chorizo Artesanal", "price": "18.000 Gs", "description": "Chorizo paraguayo", "category": "Embutidos" },
+      { "name": "Milanesa", "price": "30.000 Gs/kg", "description": "Milanesa de carne", "category": "Preparados" }
+    ]},
+    "testimonials": { "title": "Opiniones", "items": [
+      { "quote": "La mejor carne de Luque. Siempre fresca y de calidad.", "author": "Carlos H.", "rating": 5 },
+      { "quote": "Precios justos y atención excelente. Voy siempre.", "author": "María L.", "rating": 5 }
+    ]},
+    "cta": { "title": "Pedí tu carne", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Luque, Paraguay" }
   },
-  "footer": {
-    "businessName": "Demo Carnicería Luque",
-    "copyright": "© {{year}} Demo Carnicería Luque",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
-  },
-  "whatsapp": {
-    "defaultMessage": "Hola, vi el demo de Carnicería y me interesa un sitio para mi negocio"
-  }
+  "contacto": { "seo": { "title": "Contacto — Carnicería", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Carnicería", "city": "Luque", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-carniceria" }, { "label": "Contacto", "href": "/s/es/demo-carniceria/contacto" }] }
 }

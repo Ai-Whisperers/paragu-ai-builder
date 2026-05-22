@@ -1,177 +1,24 @@
 {
-  "_meta": {
-    "translationQuality": "machine",
-    "author": "batch-create-demos",
-    "lastReviewed": "2026-04-25"
-  },
-  "siteName": "Demo Plomero Asunción",
-  "tagline": "Destapaciones, reparaciones e instalaciones en Asunción. Emergencias 24h.",
-  "placeholders": {
-    "businessName": "Demo Plomero Asunción",
-    "city": "Asunción",
-    "year": 2026
-  },
-  "navigation": {
-    "businessName": "Demo Plomero Asunción",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
-  },
+  "siteName": "Demo Plomero", "tagline": "Reparaciones de plomería en Asunción",
+  "navigation": { "businessName": "Plomero", "navItems": [{ "label": "Inicio", "href": "/s/es/demo-plomero" }, { "label": "Contacto", "href": "/s/es/demo-plomero/contacto" }], "ctaText": "Consultá por WhatsApp", "ctaHref": "https://wa.me/595981234567" },
+  "whatsapp": "+595981234567",
   "home": {
-    "seo": {
-      "title": "Demo Plomero Asunción - Plomero en Asunción",
-      "description": "Plomero 24h en Asunción. Destapaciones, reparaciones, instalaciones de agua y gas."
-    },
-    "hero": {
-      "headline": "Demo Plomero Asunción - Plomero y Gasista",
-      "subheadline": "Destapaciones, reparaciones e instalaciones en Asunción. Emergencias 24h.",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Plomero%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
-    },
-    "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
-      "city": "Asunción",
-      "formSource": "demo",
-      "demoRubro": "plomero"
-    },
-    "services": {
-      "eyebrow": "Servicios",
-      "title": "Servicios",
-      "items": [
-        {
-          "name": "Destapaciones",
-          "description": "Destapación de caños y desagües",
-          "price": "Gs. 100.000",
-          "icon": "Droplets"
-        },
-        {
-          "name": "Instalación de agua",
-          "description": "Instalación de cañerías de agua fría/caliente",
-          "price": "Gs. 350.000",
-          "icon": "Pipe"
-        },
-        {
-          "name": "Reparación de pérdidas",
-          "description": "Detección y reparación de fugas",
-          "price": "Gs. 80.000",
-          "icon": "Search"
-        },
-        {
-          "name": "Instalación de gas",
-          "description": "Conexión de gas para cocina y calefón",
-          "price": "Gs. 300.000",
-          "icon": "Flame"
-        },
-        {
-          "name": "Termofón y calefón",
-          "description": "Instalación y mantenimiento",
-          "price": "Gs. 150.000",
-          "icon": "Thermometer"
-        },
-        {
-          "name": "Emergencia 24h",
-          "description": "Servicio urgente de plomería",
-          "price": "Gs. 120.000",
-          "icon": "Ambulance"
-        }
-      ]
-    },
-    "trustBadges": {
-      "items": [
-        "Atención personalizada",
-        "Asunción y alrededores",
-        "Resultados garantizados",
-        "Precios accesibles"
-      ]
-    },
-    "team": {
-      "title": "Nuestro equipo",
-      "subtitle": "Profesionales dedicados en Asunción",
-      "items": [
-        {
-          "name": "Carlos Mendoza",
-          "role": "Director de Plomero",
-          "description": "Más de 10 años de experiencia en Asunción"
-        },
-        {
-          "name": "María López",
-          "role": "Profesional Senior",
-          "description": "Especialista en atención al cliente"
-        },
-        {
-          "name": "Juan Pérez",
-          "role": "Asistente Técnico",
-          "description": "Comprometido con la calidad"
-        }
-      ]
-    },
-    "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
-      "items": [
-        {
-          "name": "Cliente Satisfecho",
-          "text": "Excelente servicio, súper recomendado.",
-          "rating": 5
-        },
-        {
-          "name": "Cliente Frecuente",
-          "text": "Siempre cumplen con lo prometido. Muy profesionales.",
-          "rating": 5
-        },
-        {
-          "name": "Nuevo Cliente",
-          "text": "Me atendieron muy bien, volveré sin dudas.",
-          "rating": 4
-        }
-      ]
-    },
-    "faq": {
-      "title": "Preguntas frecuentes",
-      "items": [
-        {
-          "question": "¿Aceptan tarjetas?",
-          "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia."
-        },
-        {
-          "question": "¿Cuál es el horario?",
-          "answer": "Abrimos de lunes a sábado en horario comercial."
-        },
-        {
-          "question": "¿Hacen envíos?",
-          "answer": "Sí, hacemos envíos a toda la ciudad."
-        },
-        {
-          "question": "¿Cómo puedo contactarlos?",
-          "answer": "Por WhatsApp, teléfono o directamente en nuestro local."
-        }
-      ]
-    },
-    "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "09:00 - 19:00",
-        "Sábado": "09:00 - 17:00"
-      }
-    },
-    "promoBanner": {
-      "title": "¡Visitános!",
-      "subtitle": "Conocé nuestros servicios en Asunción",
-      "ctaText": "Contactar ahora",
-      "variant": "standard",
-      "dismissible": true
-    }
+    "seo": { "title": "Demo Plomero - Reparaciones de plomería en Asunción", "description": "Reparaciones de plomería, caños y tanques" },
+    "hero": { "headline": "Servicio profesional en Asunción", "subheadline": "Reparaciones de plomería en Asunción", "ctaPrimaryText": "Consultá por WhatsApp", "ctaSecondaryText": "Servicios" },
+    "services": { "title": "Nuestros Servicios", "items": [
+      { "name": "Diagnóstico", "price": "30.000 Gs", "description": "Revisión sin compromiso", "category": "Servicios" },
+      { "name": "Reparación", "price": "Consultar", "description": "Presupuesto sin cargo", "category": "Servicios" },
+      { "name": "Instalación", "price": "Consultar", "description": "Instalación profesional", "category": "Instalación" },
+      { "name": "Mantenimiento", "price": "Consultar", "description": "Mantenimiento preventivo", "category": "Mantenimiento" },
+      { "name": "Emergencia 24h", "price": "Consultar", "description": "Servicio de urgencia", "category": "Emergencia" }
+    ]},
+    "testimonials": { "title": "Opiniones", "items": [
+      { "quote": "Rápido y profesional. Lo recomiendo.", "author": "Cliente", "rating": 5 },
+      { "quote": "Buen precio y trabajo de calidad.", "author": "Cliente", "rating": 5 }
+    ]},
+    "cta": { "title": "Necesitás ayuda?", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Asunción, Paraguay" }
   },
-  "footer": {
-    "businessName": "Demo Plomero Asunción",
-    "copyright": "© {{year}} Demo Plomero Asunción",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
-  },
-  "whatsapp": {
-    "defaultMessage": "Hola, vi el demo de Plomero y me interesa un sitio para mi negocio"
-  }
+  "contacto": { "seo": { "title": "Contacto — Plomero", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Plomero", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-plomero" }, { "label": "Contacto", "href": "/s/es/demo-plomero/contacto" }] }
 }

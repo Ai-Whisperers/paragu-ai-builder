@@ -1,50 +1,21 @@
 {
   "vertical": "automotive",
-  "businessType": "general_auto_repair",
+  "businessType": "taller-mecanico",
   "country": "Paraguay",
   "defaultLocale": "es",
-  "locales": [
-    "es"
-  ],
-  "contact": {
-    "whatsapp": "+595982345678",
-    "email": "taller@mecanicalambare.com.py",
-    "instagram": "@taller.lambare.py",
-    "phone": "+595982345678"
-  },
-  "location": {
-    "city": "Lambaré",
-    "address": "Av. Cacique Lambaré 890",
-    "coordinates": {
-      "lat": -25.3456,
-      "lng": -57.625
-    },
-    "googleMapsId": "ChIJ7WqTRTcRmZQR7WnT5T5j6tY"
-  },
-  "integrations": {
-    "hubspot": {
-      "portalId": null,
-      "formId": "demo-demo-taller-mecanico-form"
-    },
-    "analytics": {
-      "ga4": {
-        "measurementId": null,
-        "streamName": "demo-demo-taller-mecanico"
-      }
-    }
-  },
-  "features": {
-    "whatsappFloat": true,
-    "testimonials": true
-  },
+  "locales": ["es"],
+  "contact": { "whatsapp": "+595981234567", "email": "info@taller-mecanico.com.py", "phone": "+595981234567" },
+  "location": { "city": "Asunción", "address": "Av. Mariscal López 1000" },
+  "features": { "whatsappFloat": true, "testimonials": true },
   "noindex": true,
-  "source": "manual-enriched",
   "is_demo": true,
   "path": "/s/es/demo-taller-mecanico",
   "publicUrl": "https://paragu-ai.com/s/es/demo-taller-mecanico",
-  "social": {
-    "facebook": "tallerlambare",
-    "tiktok": "@tallerlambare",
-    "instagram": "@taller.lambare.py"
+  "chrome": {
+    "header": { "id": "header", "variant": "standard", "content": "navigation" },
+    "footer": [
+      { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
+      { "id": "footer", "variant": "standard", "content": "footer" }
+    ]
   }
 }

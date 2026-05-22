@@ -1,231 +1,25 @@
 {
-  "_meta": {
-    "translationQuality": "machine",
-    "author": "batch-create-demos",
-    "lastReviewed": "2026-04-21"
-  },
-  "siteName": "Demo Taller Mecanico Asunción",
-  "tagline": "Taller Mecanico profesional en Asunción.",
-  "placeholders": {
-    "businessName": "Demo Taller Mecanico Asunción",
-    "city": "Asunción",
-    "year": 2026
-  },
-  "navigation": {
-    "businessName": "General Auto Repair",
-    "navItems": [
-      {
-        "label": "Inicio",
-        "path": ""
-      },
-      {
-        "label": "Servicios",
-        "path": "#servicios"
-      },
-      {
-        "label": "Proceso",
-        "path": "#proceso"
-      },
-      {
-        "label": "Equipo",
-        "path": "#equipo"
-      },
-      {
-        "label": "Contacto",
-        "path": "#contacto"
-      }
-    ],
-    "ctaText": "Contactar",
-    "ctaHref": "#contacto"
-  },
+  "siteName": "Demo Taller Mecánico",
+  "tagline": "Reparación y mantenimiento de vehículos en San Lorenzo",
+  "navigation": { "businessName": "Taller Mecánico", "navItems": [{ "label": "Inicio", "href": "/s/es/demo-taller-mecanico" }, { "label": "Contacto", "href": "/s/es/demo-taller-mecanico/contacto" }], "ctaText": "Consultá por WhatsApp", "ctaHref": "https://wa.me/595981234567" },
+  "whatsapp": "+595981234567",
   "home": {
-    "seo": {
-      "title": "Demo Taller Mecanico Asunción - Taller Mecanico en Asunción",
-      "description": "Taller Mecanico profesional en Asunción. Servicios de calidad con atención personalizada."
-    },
-    "hero": {
-      "headline": "Tu taller de confianza en Lambaré",
-      "subheadline": "Mecánica general, diagnóstico computarizado y reparación de todas las marcas",
-      "ctaPrimaryText": "Consultá tu reparación",
-      "ctaSecondaryText": "Nuestros servicios"
-    },
-    "contact": {
-      "title": "Contacto",
-      "subtitle": "Visitanos en Lambaré",
-      "address": "Av. Cacique Lambaré 890",
-      "city": "Lambaré",
-      "phone": "+595982345678",
-      "email": "taller@mecanicalambare.com.py",
-      "whatsapp": "+595982345678"
-    },
-    "promoBanner": {
-      "title": "🔧 Cambio de Aceite",
-      "subtitle": "Cambio de aceite + filtro por solo Gs. 120.000 (incluye mano de obra)",
-      "ctaText": "Agendar",
-      "variant": "standard",
-      "dismissible": true
-    },
-    "services": {
-      "eyebrow": "Servicios",
-      "title": "Mecánica integral para tu vehículo",
-      "items": [
-        {
-          "name": "Diagnóstico Computarizado",
-          "description": "Escaneo electrónico completo del vehículo",
-          "price": "Gs. 80.000",
-          "icon": "Monitor"
-        },
-        {
-          "name": "Cambio de Aceite",
-          "description": "Aceite sintético y filtro de calidad",
-          "price": "Gs. 120.000",
-          "icon": "Droplets"
-        },
-        {
-          "name": "Frenos",
-          "description": "Pastillas, discos, líquido de frenos y sistema completo",
-          "price": "Desde Gs. 150.000",
-          "icon": "CircleSlash"
-        },
-        {
-          "name": "Suspensión",
-          "description": "Amortiguadores, espirales y barra estabilizadora",
-          "price": "Consultar",
-          "icon": "Zap"
-        },
-        {
-          "name": "Motor",
-          "description": "Reparación general de motor, distribución y culata",
-          "price": "Consultar",
-          "icon": "Settings"
-        },
-        {
-          "name": "Aire Acondicionado",
-          "description": "Carga de gas, reparación de compresor y sistema completo",
-          "price": "Desde Gs. 200.000",
-          "icon": "Wind"
-        }
-      ]
-    },
-    "process": {
-      "title": "¿Cómo trabajamos?",
-      "steps": [
-        {
-          "title": "Diagnóstico",
-          "description": "Revisamos tu vehículo con escáner computarizado",
-          "icon": "Search"
-        },
-        {
-          "title": "Presupuesto",
-          "description": "Te explicamos el problema y el costo sin compromiso",
-          "icon": "FileText"
-        },
-        {
-          "title": "Aprobación",
-          "description": "Aprobás el presupuesto y agendamos la reparación",
-          "icon": "ThumbsUp"
-        },
-        {
-          "title": "Reparación",
-          "description": "Reparamos con repuestos originales y garantía",
-          "icon": "Wrench"
-        },
-        {
-          "title": "Control de calidad",
-          "description": "Probamos el vehículo antes de entregarlo",
-          "icon": "CheckCircle"
-        }
-      ]
-    },
-    "trustBadges": {
-      "items": [
-        "Diagnóstico gratis",
-        "Repuestos originales",
-        "Garantía escrita",
-        "Todas las marcas",
-        "Presupuesto sin cargo"
-      ]
-    },
-    "team": {
-      "title": "Nuestros mecánicos",
-      "subtitle": "Expertos en mecánica automotriz",
-      "items": [
-        {
-          "name": "Carlos Martínez",
-          "role": "Mecánico Senior",
-          "description": "20 años de experiencia en mecánica general"
-        },
-        {
-          "name": "Hugo Riquelme",
-          "role": "Electricista Automotriz",
-          "description": "Especialista en diagnóstico electrónico"
-        },
-        {
-          "name": "Sergio Benítez",
-          "role": "Mecánico de Motor",
-          "description": "Experto en reparación de motores nafteros y diésel"
-        }
-      ]
-    },
-    "testimonials": {
-      "title": "Opiniones",
-      "columns": 2,
-      "items": [
-        {
-          "name": "Roberto A.",
-          "text": "Diagnóstico preciso, precio justo. Me resolvieron un problema que otro taller no pudo.",
-          "rating": 5
-        },
-        {
-          "name": "Luis F.",
-          "text": "Cambié frenos y suspensión. Todo impecable y con garantía.",
-          "rating": 5
-        },
-        {
-          "name": "Pedro C.",
-          "text": "El mejor taller de Lambaré. Trabajo serio y profesional.",
-          "rating": 5
-        }
-      ]
-    },
-    "emergency": {
-      "title": "Emergencias",
-      "description": "¿Problemas en la ruta? Llamanos y te asistimos",
-      "phone": "+595982345678",
-      "available24h": true
-    },
-    "faq": {
-      "title": "Preguntas frecuentes",
-      "items": [
-        {
-          "question": "¿El diagnóstico tiene costo?",
-          "answer": "El diagnóstico básico es gratuito. El escaneo computarizado tiene un costo mínimo."
-        },
-        {
-          "question": "¿Usan repuestos originales?",
-          "answer": "Sí, trabajamos con repuestos originales y alternativos de calidad."
-        },
-        {
-          "question": "¿Atienden los sábados?",
-          "answer": "Sí, de 08:00 a 13:00. Emergencias todos los días."
-        }
-      ]
-    },
-    "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "07:30 - 17:30",
-        "Sábado": "08:00 - 13:00",
-        "Domingo": "Cerrado (emergencias al WhatsApp)"
-      }
-    }
+    "seo": { "title": "Demo Taller Mecánico - Reparación de autos en San Lorenzo", "description": "Mecánica general, frenos, suspensión y diagnóstico computarizado." },
+    "hero": { "headline": "Tu auto en las mejores manos", "subheadline": "Reparación y mantenimiento de vehículos en San Lorenzo", "ctaPrimaryText": "Consultá por WhatsApp", "ctaSecondaryText": "Servicios" },
+    "services": { "title": "Nuestros Servicios", "items": [
+      { "name": "Cambio de Aceite", "price": "60.000 Gs", "description": "Aceite y filtro incluido", "category": "Mantenimiento" },
+      { "name": "Frenos", "price": "Desde 120.000 Gs", "description": "Pastillas y discos", "category": "Reparación" },
+      { "name": "Suspensión", "price": "Consultar", "description": "Amortiguadores y resortes", "category": "Reparación" },
+      { "name": "Diagnóstico", "price": "50.000 Gs", "description": "Escáner computarizado", "category": "Diagnóstico" },
+      { "name": "Aire Acondicionado", "price": "Desde 80.000 Gs", "description": "Carga y reparación", "category": "Aire" }
+    ]},
+    "testimonials": { "title": "Opiniones", "items": [
+      { "quote": "Quedó como nuevo. Precio justo y trabajo rápido.", "author": "Jorge M.", "rating": 5 },
+      { "quote": "Diagnóstico exacto. No me vendieron repuestos de más.", "author": "Pedro S.", "rating": 5 }
+    ]},
+    "cta": { "title": "Agendá tu servicio", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "San Lorenzo, Paraguay" }
   },
-  "footer": {
-    "businessName": "Demo Taller Mecanico Asunción",
-    "copyright": "© {{year}} Demo Taller Mecanico Asunción",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
-  },
-  "whatsapp": {
-    "defaultMessage": "Hola, vi el demo de Taller Mecanico y me interesa un sitio para mi negocio"
-  }
+  "contacto": { "seo": { "title": "Contacto — Taller Mecánico", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Taller Mecánico", "city": "San Lorenzo", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-taller-mecanico" }, { "label": "Contacto", "href": "/s/es/demo-taller-mecanico/contacto" }] }
 }

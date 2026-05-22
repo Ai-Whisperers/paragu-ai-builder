@@ -1,177 +1,24 @@
 {
-  "_meta": {
-    "translationQuality": "machine",
-    "author": "batch-create-demos",
-    "lastReviewed": "2026-04-25"
-  },
-  "siteName": "Demo Ferretería Asunción",
-  "tagline": "Ferreteria con herramientas, electricidad, plomeria y materiales en Asunción.",
-  "placeholders": {
-    "businessName": "Demo Ferretería Asunción",
-    "city": "Asunción",
-    "year": 2026
-  },
-  "navigation": {
-    "businessName": "Demo Ferretería Asunción",
-    "ctaText": "Contactanos",
-    "ctaHref": "https://wa.me/595985724135"
-  },
+  "siteName": "Demo Ferretería", "tagline": "Materiales de construcción y herramientas en Asunción",
+  "navigation": { "businessName": "Ferretería", "navItems": [{ "label": "Inicio", "href": "/s/es/demo-ferreteria" }, { "label": "Contacto", "href": "/s/es/demo-ferreteria/contacto" }], "ctaText": "Consultá por WhatsApp", "ctaHref": "https://wa.me/595981234567" },
+  "whatsapp": "+595981234567",
   "home": {
-    "seo": {
-      "title": "Demo Ferretería Asunción - Ferreteria en Asunción",
-      "description": "Ferreteria con herramientas, electricidad, plomeria y materiales en Asunción."
-    },
-    "hero": {
-      "headline": "Demo Ferretería Asunción - Todo para tu obra y reparaciones",
-      "subheadline": "Ferreteria con herramientas, electricidad, plomeria y materiales en Asunción.",
-      "ctaPrimaryText": "Contactanos por WhatsApp",
-      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Ferreter%C3%ADa%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
-      "ctaSecondaryText": "Ver como funciona",
-      "ctaSecondaryHref": "/demo"
-    },
-    "contact": {
-      "title": "Contactanos",
-      "subtitle": "Te respondemos el mismo dia",
-      "phone": "+595985724135",
-      "email": "ventas@paragu-ai.com",
-      "city": "Asunción",
-      "formSource": "demo",
-      "demoRubro": "ferreteria"
-    },
-    "services": {
-      "eyebrow": "Servicios",
-      "title": "Productos",
-      "items": [
-        {
-          "name": "Pinturas",
-          "description": "Látex, esmalte sintético y óleo",
-          "price": "Gs. 45.000",
-          "icon": "PaintBucket"
-        },
-        {
-          "name": "Herramientas manuales",
-          "description": "Martillos, destornilladores, llaves",
-          "price": "Gs. 25.000",
-          "icon": "Hammer"
-        },
-        {
-          "name": "Electricidad",
-          "description": "Cables, tomas, interruptores y llaves térmicas",
-          "price": "Gs. 5.000",
-          "icon": "Zap"
-        },
-        {
-          "name": "Plomería",
-          "description": "Caños, conexiones y grifería",
-          "price": "Gs. 8.000",
-          "icon": "Droplets"
-        },
-        {
-          "name": "Ferretería general",
-          "description": "Clavos, tornillos, bulones y anclajes",
-          "price": "Gs. 1.000",
-          "icon": "CircleDot"
-        },
-        {
-          "name": "Jardinería",
-          "description": "Mangueras, regadores y accesorios",
-          "price": "Gs. 35.000",
-          "icon": "Flower2"
-        }
-      ]
-    },
-    "trustBadges": {
-      "items": [
-        "Atención personalizada",
-        "Asunción y alrededores",
-        "Resultados garantizados",
-        "Precios accesibles"
-      ]
-    },
-    "team": {
-      "title": "Nuestro equipo",
-      "subtitle": "Profesionales dedicados en Asunción",
-      "items": [
-        {
-          "name": "Carlos Mendoza",
-          "role": "Director de Ferreteria",
-          "description": "Más de 10 años de experiencia en Asunción"
-        },
-        {
-          "name": "María López",
-          "role": "Profesional Senior",
-          "description": "Especialista en atención al cliente"
-        },
-        {
-          "name": "Juan Pérez",
-          "role": "Asistente Técnico",
-          "description": "Comprometido con la calidad"
-        }
-      ]
-    },
-    "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
-      "columns": 2,
-      "items": [
-        {
-          "name": "Cliente Satisfecho",
-          "text": "Excelente servicio, súper recomendado.",
-          "rating": 5
-        },
-        {
-          "name": "Cliente Frecuente",
-          "text": "Siempre cumplen con lo prometido. Muy profesionales.",
-          "rating": 5
-        },
-        {
-          "name": "Nuevo Cliente",
-          "text": "Me atendieron muy bien, volveré sin dudas.",
-          "rating": 4
-        }
-      ]
-    },
-    "faq": {
-      "title": "Preguntas frecuentes",
-      "items": [
-        {
-          "question": "¿Aceptan tarjetas?",
-          "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia."
-        },
-        {
-          "question": "¿Cuál es el horario?",
-          "answer": "Abrimos de lunes a sábado en horario comercial."
-        },
-        {
-          "question": "¿Hacen envíos?",
-          "answer": "Sí, hacemos envíos a toda la ciudad."
-        },
-        {
-          "question": "¿Cómo puedo contactarlos?",
-          "answer": "Por WhatsApp, teléfono o directamente en nuestro local."
-        }
-      ]
-    },
-    "hours": {
-      "title": "Horarios",
-      "schedules": {
-        "Lunes a Viernes": "09:00 - 19:00",
-        "Sábado": "09:00 - 17:00"
-      }
-    },
-    "promoBanner": {
-      "title": "¡Visitános!",
-      "subtitle": "Conocé nuestros servicios en Asunción",
-      "ctaText": "Contactar ahora",
-      "variant": "standard",
-      "dismissible": true
-    }
+    "seo": { "title": "Demo Ferretería - Materiales en Asunción", "description": "Materiales de construcción, herramientas y artículos para el hogar." },
+    "hero": { "headline": "Todo para tu obra", "subheadline": "Materiales de construcción, herramientas y más en Asunción", "ctaPrimaryText": "Consultá por WhatsApp", "ctaSecondaryText": "Productos" },
+    "services": { "title": "Nuestros Productos", "items": [
+      { "name": "Cemento", "price": "35.000 Gs", "description": "Bolsa de 50kg", "category": "Construcción" },
+      { "name": "Hierro", "price": "Desde 25.000 Gs", "description": "Varillas de construcción", "category": "Construcción" },
+      { "name": "Pintura", "price": "Desde 45.000 Gs", "description": "Pintura látex y esmalte", "category": "Pinturería" },
+      { "name": "Herramientas", "price": "Consultar", "description": "Herramientas manuales y eléctricas", "category": "Herramientas" },
+      { "name": "Artículos de Plomería", "price": "Consultar", "description": "Caños, conexiones y grifería", "category": "Plomería" }
+    ]},
+    "testimonials": { "title": "Opiniones", "items": [
+      { "quote": "Buenos precios y variedad. Encontré todo para mi obra.", "author": "Roberto G.", "rating": 5 },
+      { "quote": "Me asesoraron bien para elegir los materiales correctos.", "author": "Lucía M.", "rating": 5 }
+    ]},
+    "cta": { "title": "Consultá disponibilidad", "buttonText": "WhatsApp", "buttonHref": "https://wa.me/595981234567" },
+    "contact": { "title": "Contacto", "phone": "+595 981 234 567", "address": "Av. Mariscal López 1000, Asunción" }
   },
-  "footer": {
-    "businessName": "Demo Ferretería Asunción",
-    "copyright": "© {{year}} Demo Ferretería Asunción",
-    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
-  },
-  "whatsapp": {
-    "defaultMessage": "Hola, vi el demo de Ferretería y me interesa un sitio para mi negocio"
-  }
+  "contacto": { "seo": { "title": "Contacto — Ferretería", "description": "Contactanos." }, "hero": { "headline": "Contacto", "subheadline": "Te esperamos." } },
+  "footer": { "businessName": "Demo Ferretería", "city": "Asunción", "navLinks": [{ "label": "Inicio", "href": "/s/es/demo-ferreteria" }, { "label": "Contacto", "href": "/s/es/demo-ferreteria/contacto" }] }
 }
