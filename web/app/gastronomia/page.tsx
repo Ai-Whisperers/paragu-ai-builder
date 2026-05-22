@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { UtensilsCrossed, MessageCircle, ArrowRight, Check, Star, MapPin,
-         Clock, ChefHat, TrendingUp, Instagram, ChevronDown } from 'lucide-react'
+         Clock, ChefHat, TrendingUp, Globe, ChevronDown } from 'lucide-react'
 import Link from 'next/link'
 import { Container } from '@/components/ui/container'
 import { FadeIn } from '@/components/landing/fade-in'
@@ -27,7 +27,7 @@ const CLIENT_CASES = [
 
 const FEATURES = [
   { icon: TrendingUp, title: 'Aparece cuando tienen hambre', desc: '"Restaurante cerca" o "comida a domicilio Asunción" → tu negocio aparece en Google Maps.' },
-  { icon: Instagram, title: 'Tu menú online', desc: 'Los clientes ven platos, precios y fotos desde el celular. Sin descargar apps, sin llamar.' },
+  { icon: Globe, title: 'Tu menú online', desc: 'Los clientes ven platos, precios y fotos desde el celular. Sin descargar apps, sin llamar.' },
   { icon: MessageCircle, title: 'Reservas por WhatsApp', desc: 'Botón directo en tu sitio. Clic → se abre WhatsApp con fecha, hora y cantidad. Listo.' },
   { icon: Clock, title: 'Horario actualizado', desc: 'Tu sitio muestra horarios reales, días cerrados, días festivos. Nada de quejaras de horarios incorrectos.' },
 ]
