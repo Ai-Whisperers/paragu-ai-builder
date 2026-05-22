@@ -1,1 +1,0 @@
-{ "slug": "planes", "titleKey": "servicios.seo.title", "descriptionKey": "servicios.seo.description", "sections": [ { "id": "hero", "variant": "minimal", "content": "servicios.hero" }, { "id": "pricing-table", "variant": "default", "content": "home.pricing" }, { "id": "cta-banner", "variant": "gradient", "content": "home.cta" } ] }

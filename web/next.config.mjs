@@ -27,7 +27,7 @@ const ContentSecurityPolicy = isDev
     default-src 'self';
     script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://www.googletagmanager.com https://www.google-analytics.com;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
-    img-src 'self' blob: data: https://*.supabase.co https://*.cloudinary.com https://images.unsplash.com https://images.pexels.com https://placehold.co https://www.google-analytics.com https://www.googletagmanager.com https://www.superspuma.com.py https://maps.googleapis.com https://lh3.googleusercontent.com https://*.googleusercontent.com https://*.scdn.co;
+    img-src 'self' blob: data: https://*.supabase.co https://*.cloudinary.com https://images.unsplash.com https://images.pexels.com https://placehold.co https://www.google-analytics.com https://www.googletagmanager.com https://maps.googleapis.com https://lh3.googleusercontent.com https://*.googleusercontent.com ;
     font-src 'self' https://fonts.gstatic.com;
     connect-src 'self' https://*.supabase.co wss://*.supabase.co https://cloudflareinsights.com https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com;
     frame-src 'self' https://www.google.com https://maps.google.com https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://calendly.com;
@@ -37,7 +37,7 @@ const ContentSecurityPolicy = isDev
     default-src 'self';
     script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://www.googletagmanager.com https://www.google-analytics.com;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
-    img-src 'self' blob: data: https://*.supabase.co https://*.cloudinary.com https://images.unsplash.com https://images.pexels.com https://placehold.co https://www.google-analytics.com https://www.googletagmanager.com https://www.superspuma.com.py https://maps.googleapis.com https://lh3.googleusercontent.com https://*.googleusercontent.com https://*.scdn.co;
+    img-src 'self' blob: data: https://*.supabase.co https://*.cloudinary.com https://images.unsplash.com https://images.pexels.com https://placehold.co https://www.google-analytics.com https://www.googletagmanager.com https://maps.googleapis.com https://lh3.googleusercontent.com https://*.googleusercontent.com ;
     font-src 'self' https://fonts.gstatic.com;
     connect-src 'self' https://*.supabase.co wss://*.supabase.co https://cloudflareinsights.com https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com;
     frame-src 'self' https://www.google.com https://maps.google.com https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://calendly.com;
@@ -100,105 +100,7 @@ const nextConfig = {
 
   async redirects() {
     return [
-      // fun4me: /store was the legacy catalog-embed page; /tienda is the real
-      // store with full search + filters. Redirect permanently so any
-      // bookmark / search-engine link lands on the right URL.
-      {
-        source: '/fun4me/store',
-        destination: '/fun4me/tienda',
-        permanent: true,
-      },
-      // Canonical locale-prefixed version too.
-      {
-        source: '/s/:locale/fun4me/store',
-        destination: '/s/:locale/fun4me/tienda',
-        permanent: true,
-      },
-      // Dayah LitWorks: /portafolio and /blog pages were removed (catalogo
-      // covers the portfolio need, and blog was placeholder-only). Redirect
-      // inbound links to pages that actually have content.
-      {
-        source: '/s/:locale/dayah-litworks/portafolio',
-        destination: '/s/:locale/dayah-litworks/catalogo',
-        permanent: true,
-      },
-      {
-        source: '/s/:locale/dayah-litworks/blog',
-        destination: '/s/:locale/dayah-litworks/contacto',
-        permanent: true,
-      },,
-      // Redirects for archived client sites
-      {
-        source: '/s/es/bufete-mendez',
-        destination: 'https://bufetemendez.com.py',
-        permanent: true,
-      },
-      {
-        source: '/s/nl/bufete-mendez',
-        destination: 'https://bufetemendez.com.py',
-        permanent: true,
-      },
-      {
-        source: '/s/en/bufete-mendez',
-        destination: 'https://bufetemendez.com.py',
-        permanent: true,
-      },
-      {
-        source: '/s/de/bufete-mendez',
-        destination: 'https://bufetemendez.com.py',
-        permanent: true,
-      },
-      {
-        source: '/s/es/polki-squad',
-        destination: 'https://polkisquad.com',
-        permanent: true,
-      },
-      {
-        source: '/s/nl/polki-squad',
-        destination: 'https://polkisquad.com',
-        permanent: true,
-      },
-      {
-        source: '/s/en/polki-squad',
-        destination: 'https://polkisquad.com',
-        permanent: true,
-      },
-      {
-        source: '/s/de/polki-squad',
-        destination: 'https://polkisquad.com',
-        permanent: true,
-      },
-      {
-        source: '/s/es/granja-cabral',
-        destination: 'https://granjacabral.com.py',
-        permanent: true,
-      },
-      {
-        source: '/s/es/alejandro-villamayor',
-        destination: 'https://alejandrovillamayor.com',
-        permanent: true,
-      },
-      {
-        source: '/s/en/alejandro-villamayor',
-        destination: 'https://alejandrovillamayor.com',
-        permanent: true,
-      },
-      {
-        source: '/s/es/brahm-the-raccoon',
-        destination: 'https://brahmtheraccoon.com',
-        permanent: true,
-      },
-      {
-        source: '/s/en/brahm-the-raccoon',
-        destination: 'https://brahmtheraccoon.com',
-        permanent: true,
-      },
-      {
-        source: '/s/es/de-abasto-a-casa',
-        destination: 'https://deabastoacasa.com.py',
-        permanent: true,
-      },
-
+      // Paragu-ai internal redirects only
     ]
   },
 
