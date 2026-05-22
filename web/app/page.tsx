@@ -308,13 +308,6 @@ const REAL_CLIENTS = [
     href: 'https://tiendaelviajero.com.py',
     color: '#2563eb',
   },
-  {
-    name: 'Elviajero Tienda',
-    tagline: 'Souvenirs y regalos',
-    vertical: 'Comercio · CDE',
-    href: 'https://tiendaelviajero.com.py',
-    color: '#2563eb',
-  },
 ]
 
 const PLANS = [
