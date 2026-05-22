@@ -126,7 +126,79 @@ const nextConfig = {
         source: '/s/:locale/dayah-litworks/blog',
         destination: '/s/:locale/dayah-litworks/contacto',
         permanent: true,
+      },,
+      // Redirects for archived client sites
+      {
+        source: '/s/es/bufete-mendez',
+        destination: 'https://bufetemendez.com.py',
+        permanent: true,
       },
+      {
+        source: '/s/nl/bufete-mendez',
+        destination: 'https://bufetemendez.com.py',
+        permanent: true,
+      },
+      {
+        source: '/s/en/bufete-mendez',
+        destination: 'https://bufetemendez.com.py',
+        permanent: true,
+      },
+      {
+        source: '/s/de/bufete-mendez',
+        destination: 'https://bufetemendez.com.py',
+        permanent: true,
+      },
+      {
+        source: '/s/es/polki-squad',
+        destination: 'https://polkisquad.com',
+        permanent: true,
+      },
+      {
+        source: '/s/nl/polki-squad',
+        destination: 'https://polkisquad.com',
+        permanent: true,
+      },
+      {
+        source: '/s/en/polki-squad',
+        destination: 'https://polkisquad.com',
+        permanent: true,
+      },
+      {
+        source: '/s/de/polki-squad',
+        destination: 'https://polkisquad.com',
+        permanent: true,
+      },
+      {
+        source: '/s/es/granja-cabral',
+        destination: 'https://granjacabral.com.py',
+        permanent: true,
+      },
+      {
+        source: '/s/es/alejandro-villamayor',
+        destination: 'https://alejandrovillamayor.com',
+        permanent: true,
+      },
+      {
+        source: '/s/en/alejandro-villamayor',
+        destination: 'https://alejandrovillamayor.com',
+        permanent: true,
+      },
+      {
+        source: '/s/es/brahm-the-raccoon',
+        destination: 'https://brahmtheraccoon.com',
+        permanent: true,
+      },
+      {
+        source: '/s/en/brahm-the-raccoon',
+        destination: 'https://brahmtheraccoon.com',
+        permanent: true,
+      },
+      {
+        source: '/s/es/de-abasto-a-casa',
+        destination: 'https://deabastoacasa.com.py',
+        permanent: true,
+      },
+
     ]
   },
 
