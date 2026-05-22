@@ -1,0 +1,64 @@
+{
+  "vertical": "health-wellness",
+  "businessType": "spa",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595993444000",
+    "email": "info@hidrobaby.com.py",
+    "phone": "+595993444000"
+  },
+  "location": {
+    "city": "Asunci\u00f3n",
+    "address": "Villa Morra, Asunci\u00f3n",
+    "neighborhood": "Villa Morra"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "booking": true,
+    "gallery": true,
+    "multipleLocations": true,
+    "locationCount": 3,
+    "packagesGiftcards": true,
+    "faq": true,
+    "productCatalog": true,
+    "featuredProducts": true,
+    "commerce": true
+  },
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG",
+    "whatsappEnabled": true
+  },
+  "noindex": true,
+  "is_demo": true,
+  "path": "/s/es/preview-hidrobaby",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-hidrobaby",
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/hidrobaby/"
+  }
+}

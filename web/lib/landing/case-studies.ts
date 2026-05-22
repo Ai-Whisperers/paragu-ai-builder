@@ -58,7 +58,7 @@ export const CASE_STUDIES: readonly CaseStudy[] = [
       'El equipo necesitaba autonomía para subir y bajar propiedades sin depender de un desarrollador, manteniendo el estándar visual de la marca.',
     approach:
       'Configuramos un panel donde el equipo de Nexa carga propiedades con fotos, precios y ubicación. Los listings se renderizan con el mismo motor de plantillas que el resto de los sitios Nexa.',
-    liveUrl: '/s/es/nexa-propiedades',
+    liveUrl: '/s/es/nexa-paraguay',
   },
   {
     slug: 'dayah-litworks',
@@ -94,6 +94,6 @@ export const CASE_STUDIES: readonly CaseStudy[] = [
       'Los pedidos se perdían entre cientos de mensajes en grupos. Iván dedicaba horas a buscar quién había pedido qué, y los clientes no veían un menú claro hasta que él lo enviaba uno-a-uno.',
     approach:
       'Construimos un menú semanal estructurado donde cada cliente arma su pedido y lo envía pre-formateado por WhatsApp. Iván recibe un mensaje con todo lo que pidieron, listo para preparar.',
-    liveUrl: '/de-abasto-a-casa',
+    liveUrl: '/s/es/de-abasto-a-casa',
   },
 ] as const

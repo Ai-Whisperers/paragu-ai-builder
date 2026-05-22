@@ -1,0 +1,32 @@
+{
+  "slug": "cambio",
+  "titleKey": "cambio.seo.title",
+  "descriptionKey": "cambio.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "cambio.hero"
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "cambio.howItWorks"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "cambio.benefits"
+    },
+    {
+      "id": "lead-form",
+      "variant": "standard",
+      "content": "cambio.form"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "infoCta"
+    }
+  ]
+}

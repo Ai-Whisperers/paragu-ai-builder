@@ -1,0 +1,32 @@
+{
+  "slug": "combos",
+  "titleKey": "bundles.seo.title",
+  "descriptionKey": "bundles.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "bundles.hero"
+    },
+    {
+      "id": "programs-comparison",
+      "variant": "tiered",
+      "content": "bundles.combos"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "infoCta"
+    }
+  ]
+}

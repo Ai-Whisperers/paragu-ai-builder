@@ -1,0 +1,25 @@
+{
+  "slug": "credits",
+  "titleKey": "credits.seo.title",
+  "descriptionKey": "credits.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "credits.hero",
+      "styling": {
+        "padding": "md",
+        "background": "default"
+      }
+    },
+    {
+      "id": "epk-credits",
+      "variant": "thank-you",
+      "content": "credits",
+      "styling": {
+        "padding": "lg",
+        "background": "alt"
+      }
+    }
+  ]
+}

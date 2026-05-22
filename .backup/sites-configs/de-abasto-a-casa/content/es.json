@@ -1,0 +1,327 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "De Abasto a Casa",
+    "lastReviewed": "2026-04-20"
+  },
+  "siteName": "De Abasto a Casa",
+  "tagline": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
+  "placeholders": {
+    "businessName": "De Abasto a Casa",
+    "city": "San Lorenzo",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "De Abasto a Casa",
+    "navItems": [
+      { "label": "Inicio", "href": "/s/es/de-abasto-a-casa" },
+      { "label": "Menú", "href": "/s/es/de-abasto-a-casa/menu" },
+      { "label": "Pedidos", "href": "/s/es/de-abasto-a-casa/pedidos" },
+      { "label": "Blog", "href": "/s/es/de-abasto-a-casa/blog" },
+      { "label": "Contacto", "href": "/s/es/de-abasto-a-casa/contacto" }
+    ],
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595981324569"
+  },
+  "home": {
+    "seo": {
+      "title": "De Abasto a Casa — Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
+      "description": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo."
+    },
+    "hero": {
+      "headline": "De Abasto a Casa",
+      "subheadline": "Mercado, prep y comidas listas. Puerta a puerta, en San Lorenzo.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595981324569",
+      "trustBadges": [
+        "Puerta a puerta",
+        "Entrega en el día",
+        "San Lorenzo"
+      ],
+      "backgroundImage": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1920&q=80"
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "items": [
+        {
+          "name": "Compra básica semanal",
+          "price": "250.000 Gs/semana",
+          "duration": 120,
+          "description": "Lista corta, 1 proveedor. Hasta 15 productos. Delivery incluido.",
+          "category": "Compras (Raw)"
+        },
+        {
+          "name": "Compra completa semanal",
+          "price": "400.000 Gs/semana",
+          "duration": 180,
+          "description": "Lista completa + Abasto + mercado + almacén. Delivery y organizado.",
+          "category": "Compras (Raw)"
+        },
+        {
+          "name": "Mise-en-place individual",
+          "price": "400.000 Gs/semana",
+          "duration": 240,
+          "description": "1 persona. Prep básico: proteína + carbos + vegetales, sellado al vacio.",
+          "category": "Mise-en-Place"
+        },
+        {
+          "name": "Mise-en-place para parejas",
+          "price": "650.000 Gs/semana",
+          "duration": 300,
+          "description": "2 personas. Prep completo + organización de heladera/freezer.",
+          "category": "Mise-en-Place"
+        },
+        {
+          "name": "Mise-en-place familiar",
+          "price": "900.000 Gs/semana",
+          "duration": 360,
+          "description": "3-4 personas. Variedad, sustituciones y porciones para la semana.",
+          "category": "Mise-en-Place"
+        },
+        {
+          "name": "Nivel 3 - 10 comidas/sem",
+          "priceFrom": "1.200.000 Gs/semana",
+          "duration": 480,
+          "description": "Comidas listas, selladas al vacio. Proximamente (en habilitacion INAN).",
+          "category": "Comidas Listas"
+        },
+        {
+          "name": "Nivel 3 - 15 comidas/sem",
+          "priceFrom": "1.700.000 Gs/semana",
+          "duration": 540,
+          "description": "Pack familiar, 3 comidas/dia. Proximamente (en habilitacion INAN).",
+          "category": "Comidas Listas"
+        },
+        {
+          "name": "Add-on: Desayunos",
+          "price": "+400.000 Gs/mes",
+          "description": "Desayunos listos para la semana.",
+          "category": "Add-on"
+        },
+        {
+          "name": "Add-on: Postres",
+          "price": "+200.000 Gs/mes",
+          "description": "Postres caseros sumados al pack.",
+          "category": "Add-on"
+        },
+        {
+          "name": "Add-on: Bebidas/snacks",
+          "price": "+300.000 Gs/mes",
+          "description": "Bebidas y snacks saludables.",
+          "category": "Add-on"
+        }
+      ]
+    },
+    "team": {
+      "title": "Equipo",
+      "members": [
+        {
+          "name": "Ivan Weiss van der Pol",
+          "role": "Fundador & Chef de Mercado",
+          "bio": "Del caos del mercado y la cocina a sistemas que funcionan. Proveedor propio en Abasto, prep semanal para clientes en San Lorenzo desde 2025."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Testimonios",
+      "items": [
+        {
+          "quote": "Recupere 20+ horas al mes. No vuelvo a cocinar todos los dias.",
+          "author": "Remoto Global",
+          "role": "Cliente",
+          "rating": 5
+        },
+        {
+          "quote": "La proteína sellada al vacio dura 4 meses en freezer sin perder sabor. Cambia todo.",
+          "author": "Profesional Medico",
+          "role": "Cliente",
+          "rating": 5
+        },
+        {
+          "quote": "Primera vez que pago un servicio con numeros honestos. No me inflan, me muestran.",
+          "author": "Pareja Commuter",
+          "role": "Clientes ilustrativos",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos por WhatsApp",
+      "whatsapp": "+595981324569",
+      "email": "hola@deabastoacasa.com.py",
+      "address": "San Lorenzo, Paraguay. Coordinamos por WhatsApp.",
+      "city": "San Lorenzo"
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "+50",
+          "label": "Clientes atendidos",
+          "icon": "Users"
+        },
+        {
+          "value": "+200",
+          "label": "Entregas realizadas",
+          "icon": "Truck"
+        },
+        {
+          "value": "98%",
+          "label": "Satisfaccion",
+          "icon": "Award"
+        }
+      ]
+    },
+    "process": {
+      "title": "Como funciona",
+      "subtitle": "Simple. Elegis tu plan, coordinamos la compra y recibis todo en tu puerta.",
+      "steps": [
+        {
+          "icon": "MessageSquare",
+          "title": "Elegi tu plan",
+          "description": "Compra basica, completa o mise-en-place."
+        },
+        {
+          "icon": "ShoppingCart",
+          "title": "Coordinamos la compra",
+          "description": "Vamos al mercado y compramos todo fresco."
+        },
+        {
+          "icon": "Package",
+          "title": "Preparamos y entregamos",
+          "description": "Limpiamos, cortamos y llevamos a tu casa."
+        },
+        {
+          "icon": "Heart",
+          "title": "Disfrutas tu semana",
+          "description": "Comida lista, sin preocupaciones."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "Como funciona el servicio?",
+          "answer": "Elegis tu plan semanal, coordinamos la compra por WhatsApp, vamos al mercado y te entregamos todo en tu casa listo para usar o cocinar."
+        },
+        {
+          "question": "Que zonas cubren?",
+          "answer": "San Lorenzo completo, Ciudad Universitaria y zonas cercanas. Consultanos si llegamos a tu direccion."
+        },
+        {
+          "question": "Puedo personalizar mi pedido?",
+          "answer": "Si, cada plan se adapta a tus necesidades. Cambios de proteinas, porciones, sustituciones sin problema."
+        },
+        {
+          "question": "Como es el pago?",
+          "answer": "Transferencia bancaria, Mercado Pago o efectivo contra entrega."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Proba nuestro servicio esta semana",
+      "subtitle": "Primera compra con 10% de descuento. Consultanos por WhatsApp.",
+      "ctaText": "Quiero probar",
+      "ctaLink": "https://wa.me/595981324569",
+      "backgroundColor": "primary"
+    }
+  },
+  "footer": {
+    "businessName": "De Abasto a Casa",
+    "city": "San Lorenzo",
+    "copyright": "© 2026 De Abasto a Casa",
+    "navLinks": [
+      { "label": "Inicio", "href": "/s/es/de-abasto-a-casa" },
+      { "label": "Menú", "href": "/s/es/de-abasto-a-casa/menu" },
+      { "label": "Cómo Pedir", "href": "/s/es/de-abasto-a-casa/pedidos" },
+      { "label": "Zonas", "href": "/s/es/de-abasto-a-casa/zonas" },
+      { "label": "Blog", "href": "/s/es/de-abasto-a-casa/blog" },
+      { "label": "Contacto", "href": "/s/es/de-abasto-a-casa/contacto" }
+    ]
+  },
+  "menuPage": {
+    "seo": { "title": "Menú Semanal — De Abasto a Casa", "description": "Planificá tu menú semanal con nosotros." },
+    "hero": { "headline": "Menú Semanal", "subheadline": "Planificá tus comidas de la semana." },
+    "dailyMenu": { "title": "Menú de la Semana", "items": [
+      { "day": "Lunes", "items": [{"name": "Pollo al horno con vegetales", "price": "35.000 Gs"}, {"name": "Ensalada César con pollo", "price": "28.000 Gs"}] },
+      { "day": "Martes", "items": [{"name": "Milanesa de carne con puré", "price": "32.000 Gs"}, {"name": "Wok de verduras con tofu", "price": "25.000 Gs"}] },
+      { "day": "Miércoles", "items": [{"name": "Pasta bolognesa", "price": "30.000 Gs"}, {"name": "Sopa de verduras", "price": "22.000 Gs"}] },
+      { "day": "Jueves", "items": [{"name": "Pescado al limón con arroz", "price": "38.000 Gs"}, {"name": "Tarta de espinaca y queso", "price": "28.000 Gs"}] },
+      { "day": "Viernes", "items": [{"name": "Lomito saltado", "price": "35.000 Gs"}, {"name": "Pizza casera vegetariana", "price": "30.000 Gs"}] }
+    ]}
+  },
+  "pedidosPage": {
+    "seo": { "title": "Cómo Pedir — De Abasto a Casa", "description": "Hacé tu pedido online y recibilo en casa." },
+    "hero": { "headline": "Hacé tu Pedido", "subheadline": "Elegí tu plan y recibilo en la puerta de tu casa." },
+    "orderSteps": { "title": "Tres pasos simples", "steps": [
+      {"title": "Elegí tu plan", "description": "Seleccioná el nivel que mejor se adapte a tus necesidades."},
+      {"title": "Personalizá", "description": "Decinos tus preferencias, alergias y sustituciones."},
+      {"title": "Recibí", "description": "Te lo llevamos a tu puerta en San Lorenzo."}
+    ]},
+    "cta": { "title": "Pedí tu primera semana", "buttonText": "Pedir por WhatsApp", "buttonHref": "https://wa.me/595981324569" }
+  },
+  "zonasPage": {
+    "seo": { "title": "Zonas de Delivery — De Abasto a Casa", "description": "Llegamos a todo San Lorenzo y zonas cercanas." },
+    "hero": { "headline": "Zonas de Entrega", "subheadline": "Hacemos entregas en San Lorenzo completo." },
+    "zones": { "title": "Cobertura", "items": [
+      {"name": "San Lorenzo Centro", "description": "Entrega en el día", "price": "Gratis"},
+      {"name": "Ciudad Universitaria", "description": "Entrega en el día", "price": "Gratis"},
+      {"name": "Barrio Obrero", "description": "Entrega en 24hs", "price": "Gs 5.000"},
+      {"name": "Zona Norte", "description": "Entrega en 24hs", "price": "Gs 8.000"},
+      {"name": "Fernando de la Mora", "description": "Entrega en 48hs", "price": "Gs 15.000"}
+    ]}
+  },
+  "galeriaPage": {
+    "seo": { "title": "Galería — De Abasto a Casa", "description": "Mirá fotos de nuestros preparados y entregas." },
+    "hero": { "headline": "Galería", "subheadline": "Así preparamos tus comidas." },
+    "gallery": { "title": "Nuestros Platos", "images": [] }
+  },
+  "blogPage": {
+    "seo": { "title": "Blog — De Abasto a Casa", "description": "Consejos de alimentación y novedades." },
+    "hero": { "headline": "Blog", "subheadline": "Consejos de alimentación saludable." },
+    "blog": { "title": "Últimos Artículos" }
+  },
+  "whatsapp": "+595981324569",
+  "seo": {
+    "home": {
+      "title": "de-abasto-a-casa - Paraguay",
+      "description": "Sitio web de de-abasto-a-casa"
+    }
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contacto — De Abasto a Casa",
+      "description": "Contactanos para coordinar tu compra semanal."
+    },
+    "hero": {
+      "title": "Contacto",
+      "subtitle": "Respondemos por WhatsApp en el dia",
+      "trustBadgesEnabled": false
+    }
+  },
+  "faqPage": {
+    "seo": {
+      "title": "Preguntas Frecuentes — De Abasto a Casa",
+      "description": "Preguntas frecuentes sobre pedidos, delivery y productos de De Abasto a Casa."
+    },
+    "hero": {
+      "headline": "Preguntas Frecuentes",
+      "subheadline": "Respuestas a las preguntas más comunes sobre nuestro servicio."
+    },
+    "faq": [
+      {
+        "q": "¿Cómo hago un pedido?",
+        "a": "Podés escribirnos por WhatsApp o completar el formulario de contacto. Te responderemos en minutos."
+      },
+      {
+        "q": "¿Cuáles son los horarios de entrega?",
+        "a": "Realizamos entregas de lunes a sábado en horario de 8:00 a 18:00."
+      },
+      {
+        "q": "¿Cuál es el costo de envío?",
+        "a": "El envío es gratis en compras mayores a Gs. 50.000. Para montos menores, el costo es de Gs. 5.000."
+      }
+    ]
+  }
+}

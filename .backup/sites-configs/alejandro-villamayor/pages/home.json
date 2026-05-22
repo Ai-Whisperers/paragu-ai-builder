@@ -1,0 +1,85 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "split",
+      "overrides": {
+        "variant": "split",
+        "secondaryCtaModal": true,
+        "backgroundImage": "/sites/alejandro-villamayor/images/photos/alejandro-hero.jpg",
+        "backgroundImageMobile": "/sites/alejandro-villamayor/images/photos/alejandro-hero.jpg"
+      },
+      "content": "home.hero",
+      "image": "/sites/alejandro-villamayor/images/photos/alejandro-hero.jpg"
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats",
+      "styling": {
+        "padding": "md",
+        "background": "alt"
+      }
+    },
+    {
+      "id": "trust-signals",
+      "variant": "credentials",
+      "content": "home.credenciales",
+      "styling": {
+        "background": "default"
+      }
+    },
+    {
+      "id": "features",
+      "variant": "three-col",
+      "content": "home.internationalStandards",
+      "styling": {
+        "background": "alt"
+      }
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "home.services",
+      "styling": {
+        "background": "alt"
+      }
+    },
+    {
+      "id": "process-timeline",
+      "variant": "vertical",
+      "content": "home.process",
+      "styling": {
+        "background": "default"
+      }
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials",
+      "styling": {
+        "background": "default"
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "home.faq",
+      "styling": {
+        "background": "alt"
+      }
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.cta",
+      "styling": {
+        "padding": "lg",
+        "background": "accent"
+      }
+    }
+  ]
+}

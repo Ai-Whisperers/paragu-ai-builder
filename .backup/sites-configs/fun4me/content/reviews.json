@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "description": "Product review system configuration. Reviews are pseudonymous and verified (linked to order). Moderation required before publishing."
+  },
+  "config": {
+    "enabled": true,
+    "requireVerifiedPurchase": true,
+    "allowAnonymousDisplayNames": true,
+    "moderationRequired": true,
+    "autoPublishThreshold": {
+      "minRating": 3,
+      "minLength": 20,
+      "maxLength": 1000,
+      "profanityCheck": true
+    },
+    "pointsForReview": 50,
+    "pointsTrigger": "review_approved"
+  },
+  "displayConfig": {
+    "sortOptions": ["most_helpful", "most_recent", "highest_rating", "lowest_rating"],
+    "defaultSort": "most_helpful",
+    "reviewsPerPage": 10,
+    "showVerifiedBadge": true,
+    "showRatingDistribution": true,
+    "showPhotoReviews": true,
+    "photoReviewsSectionFirst": true
+  },
+  "reviewForm": {
+    "fields": [
+      { "id": "rating", "label": "Calificación", "type": "stars", "required": true },
+      { "id": "title", "label": "Título breve", "type": "text", "maxLength": 80, "required": true },
+      { "id": "body", "label": "Tu experiencia", "type": "textarea", "minLength": 20, "maxLength": 1000, "required": true },
+      { "id": "displayName", "label": "Nombre a mostrar", "type": "text", "maxLength": 30, "required": true, "placeholder": "Puede ser un pseudónimo", "helperText": "Tu nombre real NUNCA aparece en la review. Elegí un pseudónimo si preferís." },
+      { "id": "location", "label": "Ciudad (opcional)", "type": "text", "required": false },
+      { "id": "recommend", "label": "¿Lo recomendarías?", "type": "boolean", "required": true },
+      { "id": "photos", "label": "Fotos (opcional)", "type": "file", "accept": "image/*", "maxCount": 3, "maxSize": 5000000, "helperText": "Sin caras ni identificadores. Las fotos se moderan antes de publicar." }
+    ],
+    "disclaimer": "Al publicar esta review aceptás nuestros términos. Las reviews se moderan antes de publicar. Mantenete respetuoso/a — no publicamos contenido ofensivo o fuera de tema."
+  },
+  "moderationPolicy": {
+    "rejectReasons": [
+      "Contenido ofensivo o discriminatorio",
+      "Información personal identificable (nombre real, teléfono, dirección)",
+      "Promoción de otro vendedor o producto",
+      "Contenido explícitamente sexual (fuera de reseña del producto)",
+      "Spam o contenido generado automáticamente",
+      "Fotos con caras identificables",
+      "Difamación o ataque personal al personal de Fun4Me"
+    ],
+    "responseSLA": "Reviews aprobadas o rechazadas en 48 horas hábiles",
+    "appealProcess": "Reviews rechazadas pueden ser apeladas por email a moderacion@fun4me.com.py"
+  },
+  "curatedPlaceholders": [
+    {
+      "productCategory": "vibradores",
+      "samples": [
+        {
+          "displayName": "Mar L.",
+          "rating": 5,
+          "title": "Superó mis expectativas",
+          "body": "Primera vez comprando algo así. Me costó animarme pero el asesoramiento fue excelente. El producto llegó rápido y discreto. No me arrepiento para nada.",
+          "recommend": true,
+          "verified": true
+        },
+        {
+          "displayName": "Pilar_27",
+          "rating": 4,
+          "title": "Muy bueno pero la batería dura menos que lo anunciado",
+          "body": "El producto en sí es genial, calidad evidente. El único detalle es que la batería dura menos de lo que dice la caja (me aguantó unas 2 horas de uso continuo, decía 4). Igual lo recomiendo.",
+          "recommend": true,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "productCategory": "lubricantes",
+      "samples": [
+        {
+          "displayName": "Anon_Asu",
+          "rating": 5,
+          "title": "Perfecto para todo uso",
+          "body": "Lubricante base agua, no mancha, no se pega, fácil de limpiar. Lo uso con juguetes de silicona sin problema. 10/10.",
+          "recommend": true,
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "businessLogic": {
+    "review_triggers_loyalty_points": true,
+    "review_feeds_homepage_testimonials": "opt-in per review",
+    "review_affects_product_ranking": true,
+    "min_reviews_for_rating_display": 3
+  }
+}

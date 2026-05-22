@@ -1,0 +1,42 @@
+{
+  "slug": "bundles",
+  "titleKey": "bundles.seo.title",
+  "descriptionKey": "bundles.seo.description",
+  "sections": [
+    {
+      "id": "age-gate",
+      "variant": "modal",
+      "content": "home.ageGate"
+    },
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "bundles.hero"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "compliance-disclaimer-footer",
+      "variant": "standard",
+      "content": "compliance"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "guia-compra",
+  "titleKey": "guias.seo.title",
+  "descriptionKey": "guias.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "guias.hero"
+    },
+    {
+      "id": "mattress-quiz",
+      "variant": "default",
+      "content": "home.quiz"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "guias.sizeGuide"
+    },
+    {
+      "id": "programs-comparison",
+      "variant": "tiered",
+      "content": "guias.firmnessGuide"
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "guias.careTips"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "guias.comparisonBlock"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "infoCta"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "home.hero",
+      "styling": {
+        "backgroundImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1920&q=80",
+        "background": "image",
+        "textColor": "light"
+      }
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats"
+    },
+    {
+      "id": "promo-banner",
+      "variant": "carousel",
+      "content": "home.activePromos"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
+    },
+    {
+      "id": "commerce-catalog",
+      "variant": "grid"
+    },
+    {
+      "id": "mattress-quiz",
+      "variant": "default",
+      "content": "home.quiz"
+    },
+    {
+      "id": "programs-comparison",
+      "variant": "tiered",
+      "content": "home.programsComparison"
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "home.process"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "home.storeLocator"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}

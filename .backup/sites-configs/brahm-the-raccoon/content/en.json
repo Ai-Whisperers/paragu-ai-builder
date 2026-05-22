@@ -1,0 +1,15 @@
+{
+  "home": {
+    "hero": {
+      "title": "Brahm the Raccoon",
+      "subtitle": "Digital art and illustration",
+      "ctaText": "View Gallery",
+      "ctaLink": "https://instagram.com/lonelyraccoon"
+    },
+    "contact": {
+      "messages": [],
+      "ctaText": "Send a message on Instagram",
+      "ctaLink": "https://instagram.com/lonelyraccoon"
+    }
+  }
+}

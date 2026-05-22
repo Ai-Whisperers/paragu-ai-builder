@@ -1,0 +1,303 @@
+{
+  "tenant": "nexa-paraguay",
+  "generatedAt": "2026-04-21T20:58:05.828Z",
+  "source": "sites/nexa-paraguay/docs/CONTENT_CALENDAR.yml",
+  "count": 12,
+  "posts": [
+    {
+      "id": "2026-05-01-villa-morra",
+      "scheduledAt": "2026-05-01T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "instagram"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/villa-morra.webp",
+        "alt": "Social template: Villa Morra café patio at golden hour",
+        "key": "social.villaMorra"
+      },
+      "captions": {
+        "es": "Una mañana en Villa Morra. El Paraguay que atrae inversión no es el Paraguay de los titulares. Es el de los patios, los cafés, los pequeños encuentros que hacen que quedarse tenga sentido.",
+        "en": "A morning in Villa Morra. The Paraguay that attracts investment isn't the one in the headlines. It's patios, cafés, small encounters that make staying make sense.",
+        "nl": "Een ochtend in Villa Morra. Het Paraguay dat investeringen aantrekt is niet het Paraguay van de krantenkoppen. Het zijn de patio's, de cafés, kleine ontmoetingen waardoor blijven zinvol wordt.",
+        "de": "Ein Morgen in Villa Morra. Das Paraguay, das Investitionen anzieht, ist nicht das der Schlagzeilen. Es sind die Höfe, die Cafés, kleine Begegnungen, die das Bleiben sinnvoll machen."
+      },
+      "hashtags": [
+        "#expatparaguay",
+        "#asuncion",
+        "#villamorra",
+        "#nexaparaguay"
+      ]
+    },
+    {
+      "id": "2026-05-06-data-tip-tax",
+      "scheduledAt": "2026-05-06T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "linkedin"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/data-tip.webp",
+        "alt": "Social template: abstract navy-champagne data-tip background",
+        "key": "social.dataTip"
+      },
+      "captions": {
+        "es": "Sistema fiscal territorial. En Paraguay, los ingresos generados fuera del país no pagan impuesto local. Es el dato que cambia la ecuación para muchos inversores europeos.",
+        "en": "Territorial tax system. In Paraguay, foreign-sourced income is not locally taxed. It's the single data point that changes the maths for many European investors.",
+        "nl": "Territoriaal belastingstelsel. In Paraguay wordt inkomen uit het buitenland lokaal niet belast. Het datapunt dat de rekensom verandert voor veel Europese investeerders.",
+        "de": "Territoriales Steuersystem. In Paraguay wird ausländisches Einkommen lokal nicht besteuert. Der Datenpunkt, der die Rechnung für viele europäische Investoren verändert."
+      },
+      "hashtags": [
+        "#paraguay",
+        "#taxstability",
+        "#territorialtax",
+        "#investment"
+      ]
+    },
+    {
+      "id": "2026-05-11-bts-office",
+      "scheduledAt": "2026-05-11T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "instagram"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/bts-office.webp",
+        "alt": "Social template: behind-the-scenes office life",
+        "key": "social.btsOffice"
+      },
+      "captions": {
+        "es": "Detrás de cámaras. La mayoría del trabajo no ocurre el día operativo, ocurre antes: prevalidación de documentos, coordinación con bancos y escribanías, mapeo de timing. Esa es la diferencia.",
+        "en": "Behind the scenes. Most of the work doesn't happen on operational day — it happens before: document pre-validation, coordination with banks and notaries, timing maps. That's the difference.",
+        "nl": "Achter de schermen. Het meeste werk gebeurt niet op de operationele dag — het gebeurt ervoor: documentvalidatie, coördinatie met banken en notarissen, timing. Daar zit het verschil.",
+        "de": "Hinter den Kulissen. Die meiste Arbeit passiert nicht am operativen Tag — sie passiert davor: Dokumentenvorvalidierung, Koordination mit Banken und Notaren, Timing. Das ist der Unterschied."
+      },
+      "hashtags": [
+        "#behindthescenes",
+        "#processmatters",
+        "#nexaparaguay"
+      ]
+    },
+    {
+      "id": "2026-05-16-carmelitas",
+      "scheduledAt": "2026-05-16T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "instagram"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/carmelitas.webp",
+        "alt": "Social template: Carmelitas tree-lined boulevard",
+        "key": "social.carmelitas"
+      },
+      "captions": {
+        "es": "Carmelitas. Uno de los barrios más caminables de Asunción — árboles, embajadas, cafés sin turistas. El tipo de barrio que solo ves si te quedás lo suficiente.",
+        "en": "Carmelitas. One of the most walkable neighbourhoods in Asunción — trees, embassies, tourist-free cafés. The kind of place you only notice if you stay long enough.",
+        "nl": "Carmelitas. Een van de meest wandelbare buurten van Asunción — bomen, ambassades, cafés zonder toeristen. Zo'n plek die je alleen ziet als je lang genoeg blijft.",
+        "de": "Carmelitas. Eines der fußgängerfreundlichsten Viertel Asuncións — Bäume, Botschaften, touristenfreie Cafés. Die Art von Ort, den man nur bemerkt, wenn man lange genug bleibt."
+      },
+      "hashtags": [
+        "#carmelitas",
+        "#asuncion",
+        "#expatlife",
+        "#paraguay"
+      ]
+    },
+    {
+      "id": "2026-05-21-client-journey",
+      "scheduledAt": "2026-05-21T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "linkedin"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/client-journey.webp",
+        "alt": "Social template: client journey still-life",
+        "key": "social.clientJourney"
+      },
+      "captions": {
+        "es": "8 a 12 semanas de principio a fin. Del primer consulta a la entrega final de documentos. Sin sorpresas, sin viajes extra, sin 'voy a preguntarle al contador'. Un solo equipo, un solo programa.",
+        "en": "8 to 12 weeks end-to-end. From the first consultation to final document delivery. No surprises, no extra trips, no 'let me check with the accountant.' One team, one program.",
+        "nl": "8 tot 12 weken van begin tot eind. Van het eerste consult tot de levering van de definitieve documenten. Geen verrassingen, geen extra reizen, geen 'ik vraag het even aan de accountant'. Eén team, één programma.",
+        "de": "8 bis 12 Wochen von Anfang bis Ende. Vom ersten Gespräch bis zur Übergabe der finalen Dokumente. Keine Überraschungen, keine Extrafahrten, kein 'ich frage mal den Steuerberater'. Ein Team, ein Programm."
+      },
+      "hashtags": [
+        "#relocation",
+        "#paraguay",
+        "#onetrip",
+        "#endtoend"
+      ]
+    },
+    {
+      "id": "2026-05-26-san-bernardino",
+      "scheduledAt": "2026-05-26T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "instagram"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/san-bernardino.webp",
+        "alt": "Social template: San Bernardino lakeside pier",
+        "key": "social.sanBernardino"
+      },
+      "captions": {
+        "es": "San Bernardino. 45 minutos de Asunción, ritmo distinto, otra geografía mental. Muchos de nuestros clientes terminan eligiendo tener base acá y venir los fines de semana.",
+        "en": "San Bernardino. 45 minutes from Asunción, different pace, different mental geography. Many of our clients end up choosing to have a weekend base here.",
+        "nl": "San Bernardino. 45 minuten van Asunción, ander tempo, andere mentale geografie. Veel van onze klanten kiezen er uiteindelijk voor een weekendbasis hier te hebben.",
+        "de": "San Bernardino. 45 Minuten von Asunción, anderes Tempo, andere geistige Geografie. Viele unserer Klienten entscheiden sich am Ende für eine Wochenend-Basis hier."
+      },
+      "hashtags": [
+        "#sanbernardino",
+        "#paraguay",
+        "#weekendbase",
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "2026-05-31-data-tip-cost",
+      "scheduledAt": "2026-05-31T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "linkedin"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/data-tip.webp",
+        "alt": "Social template: abstract navy-champagne data-tip background",
+        "key": "social.dataTip"
+      },
+      "captions": {
+        "es": "Costo de vida vs. poder adquisitivo. El pesó no es el tema. El tema es cuánto rinde lo que ya tenés. Para ingresos en euros o dólares, Paraguay ofrece una ecuación distinta.",
+        "en": "Cost of living vs. purchasing power. The currency isn't the point. The point is how far what you already have goes. For euro or dollar incomes, Paraguay offers a different equation.",
+        "nl": "Kosten van levensonderhoud vs. koopkracht. Het gaat niet om de valuta. Het gaat erom hoe ver je bestaande inkomen reikt. Voor inkomen in euro of dollar biedt Paraguay een andere vergelijking.",
+        "de": "Lebenshaltungskosten vs. Kaufkraft. Nicht die Währung zählt. Es zählt, wie weit das reicht, was Sie bereits haben. Für Einkommen in Euro oder Dollar bietet Paraguay eine andere Gleichung."
+      },
+      "hashtags": [
+        "#costofliving",
+        "#paraguay",
+        "#purchasingpower"
+      ]
+    },
+    {
+      "id": "2026-06-05-villa-morra",
+      "scheduledAt": "2026-06-05T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "instagram"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/villa-morra.webp",
+        "alt": "Social template: Villa Morra café patio at golden hour",
+        "key": "social.villaMorra"
+      },
+      "captions": {
+        "es": "Tereré al atardecer. El ritual que resetea el día. Si no existe algo parecido en tu rutina actual, tal vez Paraguay ofrezca algo más que estructura fiscal.",
+        "en": "Tereré at sunset. The ritual that resets the day. If there's no equivalent in your current routine, maybe Paraguay offers more than fiscal structure.",
+        "nl": "Tereré bij zonsondergang. Het ritueel dat de dag reset. Als er geen equivalent is in je huidige routine, biedt Paraguay misschien meer dan alleen fiscale structuur.",
+        "de": "Tereré bei Sonnenuntergang. Das Ritual, das den Tag neu startet. Wenn es in Ihrer aktuellen Routine kein Pendant gibt, bietet Paraguay vielleicht mehr als nur steuerliche Struktur."
+      },
+      "hashtags": [
+        "#terere",
+        "#paraguay",
+        "#slowliving",
+        "#lifestyle"
+      ]
+    },
+    {
+      "id": "2026-06-10-bts-office",
+      "scheduledAt": "2026-06-10T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "linkedin"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/bts-office.webp",
+        "alt": "Social template: behind-the-scenes office life",
+        "key": "social.btsOffice"
+      },
+      "captions": {
+        "es": "Pre-validación. Antes de que nuestro cliente suba al avión, cada documento está revisado, apostillado y pre-conformado. Si falta algo, lo detectamos antes del viaje, no durante.",
+        "en": "Pre-validation. Before our client boards the plane, every document is reviewed, apostilled and pre-approved. If something's missing, we catch it before the trip — not during.",
+        "nl": "Prevalidatie. Voordat onze klant het vliegtuig instapt, is elk document gecontroleerd, geapostilleerd en vooraf goedgekeurd. Als iets ontbreekt, merken we dat vóór de reis, niet tijdens.",
+        "de": "Vorvalidierung. Bevor unser Klient ins Flugzeug steigt, ist jedes Dokument geprüft, apostilliert und vorab freigegeben. Wenn etwas fehlt, fangen wir es vor der Reise ab — nicht währenddessen."
+      },
+      "hashtags": [
+        "#prevalidation",
+        "#processmatters",
+        "#paraguay"
+      ]
+    },
+    {
+      "id": "2026-06-15-client-journey",
+      "scheduledAt": "2026-06-15T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "instagram"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/client-journey.webp",
+        "alt": "Social template: client journey still-life",
+        "key": "social.clientJourney"
+      },
+      "captions": {
+        "es": "De carpeta a cédula. El día operativo comprime en 8-10 horas lo que tradicionalmente requería 3 viajes. No es magia: es logística institucional aplicada bien.",
+        "en": "From folder to ID card. Operational day compresses into 8–10 hours what traditionally required 3 separate trips. It's not magic — it's well-applied institutional logistics.",
+        "nl": "Van map naar ID-kaart. De operationele dag comprimeert in 8–10 uur wat vroeger 3 afzonderlijke reizen vergde. Geen magie — goed toegepaste institutionele logistiek.",
+        "de": "Vom Ordner zum Ausweis. Der operative Tag verdichtet in 8–10 Stunden, was traditionell 3 separate Reisen erforderte. Keine Magie — gut angewandte institutionelle Logistik."
+      },
+      "hashtags": [
+        "#operationalday",
+        "#relocation",
+        "#paraguay"
+      ]
+    },
+    {
+      "id": "2026-06-20-carmelitas",
+      "scheduledAt": "2026-06-20T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "instagram"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/carmelitas.webp",
+        "alt": "Social template: Carmelitas tree-lined boulevard",
+        "key": "social.carmelitas"
+      },
+      "captions": {
+        "es": "Asunción en junio. 22°C al mediodía, limón en flor, la ciudad recuperándose del calor de verano. El invierno aquí es lo que los europeos llaman primavera.",
+        "en": "Asunción in June. 22°C at noon, lemon trees in bloom, the city recovering from summer heat. Winter here is what Europeans call spring.",
+        "nl": "Asunción in juni. 22°C 's middags, bloeiende citroenbomen, de stad herstelt van de zomerhitte. De winter hier is wat Europeanen lente noemen.",
+        "de": "Asunción im Juni. 22°C mittags, blühende Zitronenbäume, die Stadt erholt sich von der Sommerhitze. Der Winter hier ist, was Europäer Frühling nennen."
+      },
+      "hashtags": [
+        "#asuncion",
+        "#paraguay",
+        "#winterisspring"
+      ]
+    },
+    {
+      "id": "2026-06-25-data-tip-visa",
+      "scheduledAt": "2026-06-25T13:00:00.000Z",
+      "timezone": "America/Asuncion",
+      "platforms": [
+        "linkedin"
+      ],
+      "image": {
+        "src": "/sites/nexa-paraguay/images/social/data-tip.webp",
+        "alt": "Social template: abstract navy-champagne data-tip background",
+        "key": "social.dataTip"
+      },
+      "captions": {
+        "es": "Una sola residencia, acceso a MERCOSUR. La residencia paraguaya te abre puertas operativas en Argentina y Brasil sin multiplicar trámites.",
+        "en": "One residency, MERCOSUR access. Paraguayan residency opens operational doors in Argentina and Brazil without multiplying paperwork.",
+        "nl": "Één residentie, MERCOSUR-toegang. De Paraguayaanse residentie opent operationele deuren in Argentinië en Brazilië zonder papierwerk te vermenigvuldigen.",
+        "de": "Eine Residenz, MERCOSUR-Zugang. Der paraguayische Aufenthalt öffnet operative Türen in Argentinien und Brasilien — ohne zusätzlichen Papierkram."
+      },
+      "hashtags": [
+        "#mercosur",
+        "#residency",
+        "#paraguay",
+        "#southamerica"
+      ]
+    }
+  ]
+}

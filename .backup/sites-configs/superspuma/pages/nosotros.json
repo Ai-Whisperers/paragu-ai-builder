@@ -1,0 +1,32 @@
+{
+  "slug": "nosotros",
+  "titleKey": "nosotros.seo.title",
+  "descriptionKey": "nosotros.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "nosotros.hero"
+    },
+    {
+      "id": "trust-signals",
+      "variant": "credentials",
+      "content": "home.trustSignals"
+    },
+    {
+      "id": "gallery",
+      "variant": "grid",
+      "content": "home.gallery"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "infoCta"
+    }
+  ]
+}

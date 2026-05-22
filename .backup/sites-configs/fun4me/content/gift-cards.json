@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "description": "Gift card SKUs and flow configuration. Gift cards sold as products with SKU prefix GC-. Redeemable as discount codes at checkout."
+  },
+  "denominations": [
+    { "sku": "GC-100K", "amount": 100000, "label": "Gs. 100.000", "popular": false },
+    { "sku": "GC-150K", "amount": 150000, "label": "Gs. 150.000", "popular": true },
+    { "sku": "GC-200K", "amount": 200000, "label": "Gs. 200.000", "popular": true },
+    { "sku": "GC-300K", "amount": 300000, "label": "Gs. 300.000", "popular": false },
+    { "sku": "GC-500K", "amount": 500000, "label": "Gs. 500.000", "popular": false },
+    { "sku": "GC-1M", "amount": 1000000, "label": "Gs. 1.000.000", "popular": false }
+  ],
+  "customAmount": {
+    "enabled": true,
+    "min": 50000,
+    "max": 5000000,
+    "step": 10000,
+    "label": "Otro monto"
+  },
+  "deliveryMethods": [
+    {
+      "id": "email",
+      "label": "Por email al destinatario",
+      "fee": 0,
+      "fields": ["recipient_email", "recipient_name", "message", "delivery_date"],
+      "description": "El destinatario recibe un email con el código. El asunto es genérico: 'Tenés un regalo'. Podés programar la fecha de envío."
+    },
+    {
+      "id": "whatsapp_forward",
+      "label": "Te enviamos el código y vos lo reenviás",
+      "fee": 0,
+      "fields": ["message"],
+      "description": "Recibís el código por WhatsApp y lo compartís cuando quieras. 100% discreto."
+    },
+    {
+      "id": "physical_card",
+      "label": "Tarjeta física impresa",
+      "fee": 35000,
+      "fields": ["shipping_address", "message"],
+      "description": "Enviamos una tarjeta física con el código, en sobre discreto. 3-5 días hábiles."
+    }
+  ],
+  "design": {
+    "templates": [
+      { "id": "classic", "name": "Clásica", "image": "/branding/fun4me/images/gift-cards/classic.svg", "default": true },
+      { "id": "birthday", "name": "Cumpleaños", "image": "/branding/fun4me/images/gift-cards/birthday.svg" },
+      { "id": "anniversary", "name": "Aniversario", "image": "/branding/fun4me/images/gift-cards/anniversary.svg" },
+      { "id": "valentines", "name": "San Valentín", "image": "/branding/fun4me/images/gift-cards/valentines.svg" },
+      { "id": "minimal", "name": "Minimalista (ultra-discreta)", "image": "/branding/fun4me/images/gift-cards/minimal.svg" }
+    ],
+    "messageMaxLength": 250
+  },
+  "policy": {
+    "expiration": "24 meses desde la fecha de emisión",
+    "partialUse": true,
+    "partialUseNote": "Podés usar parte del saldo y el resto queda disponible para futuras compras hasta la expiración.",
+    "combinableWithCoupons": true,
+    "nonRefundable": true,
+    "transferable": true,
+    "transferableNote": "El código puede ser compartido. Se acepta del primer comprador registrado.",
+    "lostCards": "Podemos reemplazar códigos no utilizados con comprobante de compra. Códigos ya canjeados no son reembolsables."
+  },
+  "displayConfig": {
+    "sectionTitle": "Regala Placer",
+    "sectionSubtitle": "El regalo perfecto cuando no sabés qué elegir. Sin talles, sin preferencias, sin errores.",
+    "ctaText": "Comprar gift card",
+    "featureOnHomepage": true
+  },
+  "businessRules": {
+    "commissionOnEarn": 0,
+    "commissionOnRedeem": "Se cobra comisión solo al canjearlo (neutro para flujo de caja hasta el uso).",
+    "accounting": "Gift cards emitidas aparecen como pasivo hasta canjeo. Ver docs/runbooks/gift-cards-accounting.md."
+  }
+}

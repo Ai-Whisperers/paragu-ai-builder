@@ -92,7 +92,7 @@ export default function PreviewsPage() {
         <Container>
           <div className="mx-auto mb-10 max-w-2xl text-center">
             <p className="mb-3 text-sm font-bold uppercase tracking-wider text-primary">
-              {DEMOS.length} sitios demo
+              {DEMOS.length} demos
             </p>
             <h1 className="mb-4 text-4xl font-bold text-foreground sm:text-5xl">
               Sitios que podés tener
@@ -188,14 +188,13 @@ export default function PreviewsPage() {
             </p>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {[
-                { slug: 'nexa-paraguay', name: 'Nexa Paraguay', desc: 'Relocation · 4 idiomas' },
-                { slug: 'nexa-propiedades', name: 'Nexa Propiedades', desc: 'Inmobiliaria' },
-                { slug: 'dayah-litworks', name: 'Dayah Litworks', desc: 'Portfolio · Diseño' },
-                { slug: 'de-abasto-a-casa', name: 'De Abasto a Casa', desc: 'Meal Prep · Pedidos WhatsApp' },
+                { slug: 'nexa-paraguay', locale: 'nl', name: 'Nexa Paraguay', desc: 'Relocation · 4 idiomas' },
+                { slug: 'dayah-litworks', locale: 'es', name: 'Dayah Litworks', desc: 'Portfolio · Diseño' },
+                { slug: 'superspuma', locale: 'es', name: 'Superspuma', desc: 'Belleza · CDE' },
               ].map((c) => (
                 <a
                   key={c.slug}
-                  href={`/s/es/${c.slug}`}
+                  href={`/s/${c.locale}/${c.slug}`}
                   target="_blank"
                   className="group rounded-xl border bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md"
                 >
