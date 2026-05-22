@@ -1,0 +1,72 @@
+{
+  "vertical": "service-booking",
+  "businessType": "gimnasio",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595 985 850152",
+    "email": "ventas@gimnasiopower.com.py",
+    "instagram": "@gimnasio.fdm.py",
+    "phone": "+595 985 850152"
+  },
+  "location": {
+    "city": "Limpio",
+    "address": "RGM9+MXP, Limpio 110814, Paraguay",
+    "coordinates": {
+      "lat": -25.1657925,
+      "lng": -57.4800457
+    },
+    "googleMapsId": "ChIJ0WqMRTcRmZQR0WnM5T5j9tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-gimnasio-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-gimnasio"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "productCatalog": true,
+    "commerce": true,
+    "featuredProducts": true,
+    "shop": true,
+    "giftCards": true,
+    "membershipPlans": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-level-ten-rb",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-level-ten-rb",
+  "social": {
+    "facebook": "gimnasiopy",
+    "tiktok": "@gimnasiopy",
+    "instagram": "@gimnasio.fdm.py"
+  },
+  "preview": true,
+  "previewLeadId": "43b6cb6f-e917-4aa6-b066-5cb5e156176e",
+  "createdAt": "2026-04-25T05:23:41.397Z",
+  "google_maps_url": "https://maps.google.com/?cid=13011678227443724455",
+  "business_status": "OPERATIONAL",
+  "commerce": {
+    "enabled": true,
+    "currency": "PYG",
+    "provider": "pagopar",
+    "whatsappEnabled": true
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion"
+  }
+}

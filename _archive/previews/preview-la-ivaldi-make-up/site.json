@@ -1,0 +1,54 @@
+{
+  "vertical": "portfolio-professional",
+  "businessType": "maquillaje",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595 994 318355",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.maquillaje.py",
+    "phone": "+595 994 318355"
+  },
+  "location": {
+    "city": "Villa Elisa",
+    "address": "Ntra. Sra. de la Asunción, Villa Elisa 111510, Paraguay",
+    "coordinates": {
+      "lat": -25.3710067,
+      "lng": -57.58510879999999
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "productCatalog": true,
+    "commerce": true,
+    "featuredProducts": true,
+    "shop": true,
+    "giftCards": true
+  },
+  "demo": true,
+  "noindex": true,
+  "source": "lead_generation",
+  "path": "/s/es/preview-la-ivaldi-make-up",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-la-ivaldi-make-up",
+  "preview": true,
+  "previewLeadId": "6ec28158-3c8c-4807-b215-c93ce73cecc2",
+  "createdAt": "2026-04-25T05:23:41.454Z",
+  "is_demo": false,
+  "google_maps_url": "https://maps.google.com/?cid=12585055672513352973",
+  "business_status": "OPERATIONAL",
+  "commerce": {
+    "enabled": true,
+    "currency": "PYG",
+    "provider": "pagopar",
+    "whatsappEnabled": true
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion"
+  }
+}

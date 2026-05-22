@@ -1,0 +1,39 @@
+{
+  "slug": "servicios",
+  "titleKey": "servicesPage.seo.title",
+  "descriptionKey": "servicesPage.seo.description",
+  "schemaType": "RealEstateAgent",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "servicesPage.hero"
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "servicesPage.services"
+    },
+
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "servicesPage.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

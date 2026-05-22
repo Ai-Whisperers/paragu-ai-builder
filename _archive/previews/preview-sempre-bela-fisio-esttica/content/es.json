@@ -1,0 +1,620 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Sempre Bela Fisio Estética",
+  "tagline": "Relajación, bienestar y tratamientos de belleza en el corazón de Asunción",
+  "placeholders": {
+    "businessName": "Sempre Bela Fisio Estética",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Spa",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Reservar",
+    "ctaHref": "#contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Sempre Bela Fisio Estética - Spa en Asunción | Masajes, Tratamientos y Bienestar",
+      "description": "Sempre Bela Fisio Estética en Asunción. 4 estrellas y 116 resenas en Google. Conocenos!"
+    },
+    "hero": {
+      "headline": "Tu momento de bienestar",
+      "subheadline": "En Asunción con atencion personalizada y la mejor calidad.",
+      "ctaPrimaryText": "Reservá tu turno",
+      "ctaSecondaryText": "Ver servicios"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Estamos en el barrio Villa Morra, Asunción",
+      "address": "Av. Santa Teresa 1250 c/ San Martín",
+      "city": "Asunción",
+      "phone": "+595 986 663434",
+      "email": "contacto@demospa.com.py",
+      "whatsapp": "+595 986 663434"
+    },
+    "promoBanner": {
+      "title": "Promoción de Lanzamiento",
+      "subtitle": "Con 116 resenas positivas en Google. Te esperamos!",
+      "ctaText": "Reservar ahora",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Todo para tu bienestar físico y mental",
+      "items": [
+        {
+          "name": "Masaje Relajante",
+          "description": "Masaje corporal completo con aceites esenciales para liberar tensiones",
+          "price": "Gs. 120.000",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "Masaje Descontracturante",
+          "description": "Técnica profunda para aliviar contracturas y dolores musculares",
+          "price": "Gs. 150.000",
+          "icon": "Zap"
+        },
+        {
+          "name": "Limpieza Facial Profunda",
+          "description": "Limpieza con extracción, exfoliación y mascarilla hidratante",
+          "price": "Gs. 100.000",
+          "icon": "Droplets"
+        },
+        {
+          "name": "Tratamiento Corporal Detox",
+          "description": "Envoltura de algas marinas con drenaje linfático manual",
+          "price": "Gs. 200.000",
+          "icon": "Wind"
+        },
+        {
+          "name": "Sauna y Baño de Vapor",
+          "description": "Acceso a sauna finlandesa y baño turco con aromaterapia",
+          "price": "Gs. 80.000",
+          "icon": "Thermometer"
+        },
+        {
+          "name": "Pedicura Spa",
+          "description": "Pedicura completa con exfoliación, masaje y esmaltado semipermanente",
+          "price": "Gs. 90.000",
+          "icon": "Feather"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Productos orgánicos",
+        "Ambiente climatizado",
+        "Toallas y bata incluídas",
+        "Estacionamiento gratis",
+        "Profesionales certificados",
+        "4/5 estrellas en Google"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEFWac-SSOahKNXsqHf4Ybu70hBHmydq0ldq3CRu2boh_vVT0UvAzRPpvSa2gA_D83QJbWiPc2riKsm9dgNwmJFshoboxpaLf3bBe86f7E0MpTAbAVyLpQwdg_mQD4M2t5LfZYtsfinGdMwWVjfP8K60fBe9lGuGW8cCpYIbjVOiafmjdf4Z3H80X1zRiyuTjB3vc3x4sezCSZM_47wQvdxAgKbTAJxOh-BRTjqWvmqIDCyBPdobg_tyv7ZHibRNa8501fsuQzKIZsrkpQNjpQgFMONsKYA2wjwh6aEej_zhsg&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEE3ldhGxGpj8Cngnlk86T1zoD4IWTAsSNj41x1Jmg8V7adPPZ8PgR1RSJsWtDPjIMZZ0g823f1qgZ_Xvo4NbgfFF8r15wsDiMSGCm4_GbYHZBlJqa60tSO_IUiA0HSC7bl-sJWOG4fEnzWBsLu3K58v6xz1GJskeiVHW1TQ0feiFnX5kiMXXagd9_1njfkmEwpYFMXUtpMWRVLUtYB4OsnGELjp0gmtG8bBbLjeTMDn0ywAo8KSyTWceZu95Tcxn4VOagA3twD4tBb7EZrqSOBPhUsph3m9g1obIhBQ2h0rag&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEz5-0Ns_GiYvVLehBykZhDcExWIRix1nfXTuJ2JBHDgcJQ3mmwLQ_VAfc_tTxvm5KwjzJv5Z8qzhC-og4v2KD0tSqPRGPzj53CuNLGXVzNfyJcBbkuYKzVJuYNE_wNuwZhiRdeOT8_7XmF-CEWGUlTrPv4UwN8gbwIiiKtLRBPhsPmmDx-41b0lqBFpiEKD9e-wnYThq5TJjxYP9tTrW1Q_sbMDt5JntPq4XPcepG2sxqhxDogABd-Yey2xRmWpoy4Rcz7iXNmN2P9a0Z_oLf_51CrpxICoUW7uykXhvgiBw&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEF3m4qpPY1Cd_1jW6lwgfkXOw5Ixaf6seZiqdf-zJBhVSMnTFiiTdN7zdzr8HTdW2AglWPQycDK3Znphk4EiJzAByepW0JEs2FiZbKuaJAiRwh4OveF8BkLFmtUuRnOn-AasjUiTL7sBvmKbDB3HYuBixZSUM8RwJnyPo2oboaAZ11IhImek_R9QSLMkLjG4zP63Tj_W2GZa1f0PUvKLZSSvABSCaFyoY-4aZaF1mk4VYg4ptXw-S2PJCixPw1pJNthijFl61pmwlCqck-2s5tRwZg9BHBTJevP0vzmCJX6hA&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHxwBJyufUOSCDIoYayoGuVCjLB2gyoTRnk7ppywtVI7GbhButjSsKoR6KViWRbwM0mu-K7yHhV76m1gYeLJp0Omz6mIJbE6zW3l7nWwoKO2YRkOFCDlgkuCoZ9UXm8yPZGuhvvwwZzY-oQb7ShAO0L2CBcYu10e-zTeEBU-yQbZQhGivYNkNbHjDqS6SfOTOwhHz5aKWMRAIQPwBogA9gAGnA76h8RIuCc97L_dLOEd0IdxgRJIQTsGDFRaPW_Rk_nc_BnldMCb9kinIMRmQtrTBiIXZvYaO3j4PMt7C8h_el_ryqSsjYUh0Redvn77Ag_Wpu9I8oaIDA3sQgCCrG2NJpNmkw9TdZUvWkfMPrlJSm1mSYBkOyqp3VGMvqZD8aWgPo9dfackdg76xmZGXgCdBylKhDXONdBdRGFbzY&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHIoSDA_YKzeYOH6R1GkYXWY6n49cBtZ7HZYO9m9_k1QxTwxQDwov-eIh1apm8hfoG6lPwdudzXXTP24R1jHcZToZ14jea_XjPRMcJY4WexiFLJ3iHJcnf8_mV5eXlurKpvHzAXKUsqDyIHJCC3tI6figDoAO4dikVuqsekok55VM8I2cKKLJIQ44MaTHenor-S-7m4z-th2CSdkgAjW8_DUWaVHXV7Xsrld6JQ6pzK5AmskjKJkzORGWzx9DfDyswBLbzqqKFJ2JUTl7dX-K29XQMjI-hB8JkYm7qZiA7gKYfmU1Gk7F9IdjjW8elghmWU07WrIVoMuYZS_83vcSlzcYlFYKFXxHf6Mmp3Spzqey7lIj9G2c7yWpSEiJWaeDJaPCFz3bYgSZUawx3NPeNxXsjxG8xdfk2X9_5tjTiBt60&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
+    },
+    "team": {
+      "title": "Conocé a nuestro equipo",
+      "subtitle": "Terapeutas profesionales apasionados por tu bienestar",
+      "items": [
+        {
+          "name": "Gabriela Torres",
+          "role": "Directora y Masoterapeuta Senior",
+          "description": "12 años de experiencia en masoterapia y tratamientos corporales"
+        },
+        {
+          "name": "Miguel Ángel Rivas",
+          "role": "Terapeuta de Masajes",
+          "description": "Especialista en masajes descontracturantes y drenaje linfático"
+        },
+        {
+          "name": "Camila Ferreira",
+          "role": "Esteticista Facial",
+          "description": "Experta en limpiezas faciales, peelings y tratamientos anti-edad"
+        },
+        {
+          "name": "Sofía Mendoza",
+          "role": "Terapeuta Corporal",
+          "description": "Especialista en envolturas detox y tratamientos corporales"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 117 reseñas",
+      "items": [
+        {
+          "author": "María Sara Apud",
+          "quote": "I've known Sempre Bela for four years, and from my first appointment, I was delighted with the professionalism of its owner, Valeria Camassuti, who constantly stays up-to-date in this dynamic field.\nT",
+          "rating": 5
+        }
+      ]
+    },
+    "booking": {
+      "title": "Reservá tu turno",
+      "subtitle": "Elegí el servicio y el horario que más te convenga",
+      "phone": "+595981726354",
+      "services": [
+        {
+          "name": "Masaje Relajante",
+          "duration": "60 min",
+          "category": "masajes"
+        },
+        {
+          "name": "Masaje Descontracturante",
+          "duration": "60 min",
+          "category": "masajes"
+        },
+        {
+          "name": "Limpieza Facial Profunda",
+          "duration": "45 min",
+          "category": "faciales"
+        },
+        {
+          "name": "Tratamiento Corporal Detox",
+          "duration": "90 min",
+          "category": "corporales"
+        },
+        {
+          "name": "Sauna y Baño de Vapor",
+          "duration": "30 min",
+          "category": "sauna"
+        },
+        {
+          "name": "Pedicura Spa",
+          "duration": "60 min",
+          "category": "belleza"
+        }
+      ],
+      "ctaText": "Reservar por WhatsApp"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Necesito llevar algo para el masaje?",
+          "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables."
+        },
+        {
+          "q": "¿Cuánto dura una sesión de masaje relajante?",
+          "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial."
+        },
+        {
+          "q": "¿Aceptan tarjetas de crédito?",
+          "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria."
+        },
+        {
+          "q": "¿Tienen estacionamiento?",
+          "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes."
+        },
+        {
+          "q": "¿Cómo puedo reservar un turno?",
+          "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local."
+        }
+      ]
+    },
+    "hours": {
+      "Lunes": "9:00 AM – 7:00 PM",
+      "Martes": "9:00 AM – 7:00 PM",
+      "Miercoles": "9:00 AM – 7:00 PM",
+      "Jueves": "9:00 AM – 7:00 PM",
+      "Viernes": "9:00 AM – 7:00 PM",
+      "Sabado": "9:00 AM – 5:00 PM",
+      "Domingo": "Closed"
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "reviewsWidget": {
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 117 reseñas en Google - 4.9 estrellas",
+      "reviews": [
+        {
+          "author": "María Sara Apud",
+          "rating": 5,
+          "text": "I've known Sempre Bela for four years, and from my first appointment, I was delighted with the professionalism of its owner, Valeria Camassuti, who co"
+        }
+      ],
+      "avgRating": 4.9,
+      "reviewCount": 117
+    },
+    "packagesGiftcards": {
+      "packages": [
+        {
+          "id": "basico",
+          "name": "Plan Básico",
+          "description": "Servicio esencial",
+          "original_price": 150000,
+          "sale_price": 120000,
+          "services": [
+            "Servicio 1",
+            "Servicio 2"
+          ],
+          "popular": false
+        },
+        {
+          "id": "premium",
+          "name": "Plan Premium",
+          "description": "Nuestra opción más elegida",
+          "original_price": 300000,
+          "sale_price": 250000,
+          "services": [
+            "Servicio 1",
+            "Servicio 2",
+            "Servicio 3",
+            "Servicio 4"
+          ],
+          "popular": true
+        },
+        {
+          "id": "vip",
+          "name": "Plan VIP",
+          "description": "Experiencia completa",
+          "original_price": 500000,
+          "sale_price": 450000,
+          "services": [
+            "Todos los servicios"
+          ],
+          "popular": false
+        }
+      ],
+      "giftCards": [
+        {
+          "id": "gc-50",
+          "amount": 100000,
+          "description": "Regalá un servicio"
+        },
+        {
+          "id": "gc-100",
+          "amount": 200000,
+          "description": "Regalá una experiencia completa"
+        },
+        {
+          "id": "gc-200",
+          "amount": 500000,
+          "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "Sempre Bela Fisio Estética — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Masaje Relaxante 60min",
+          "description": "Masaje descontracturante de cuerpo completo",
+          "priceCents": 150000,
+          "category": "Masajes",
+          "tags": [
+            "masaje",
+            "relax",
+            "60min"
+          ],
+          "imageCategory": "spa",
+          "slug": "masaje-relaxante-60min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Masaje con Piedras Calientes 75min",
+          "description": "Masaje terapéutico con piedras volcánicas",
+          "priceCents": 220000,
+          "category": "Masajes",
+          "tags": [
+            "piedras",
+            "termico",
+            "muscular"
+          ],
+          "imageCategory": "spa",
+          "slug": "masaje-con-piedras-calientes-75min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Masaje Deportivo 45min",
+          "description": "Masaje enfocado en recuperación muscular",
+          "priceCents": 130000,
+          "category": "Masajes",
+          "tags": [
+            "deportivo",
+            "muscular",
+            "recuperacion"
+          ],
+          "imageCategory": "spa",
+          "slug": "masaje-deportivo-45min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Facial Hidratante 45min",
+          "description": "Limpieza facial profunda con mascarilla hidratante",
+          "priceCents": 120000,
+          "category": "Faciales",
+          "tags": [
+            "facial",
+            "hidratacion",
+            "limpieza"
+          ],
+          "imageCategory": "spa",
+          "slug": "facial-hidratante-45min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Facial Anti-Edad 60min",
+          "description": "Tratamiento rejuvenecedor con radiofrecuencia",
+          "priceCents": 250000,
+          "category": "Faciales",
+          "tags": [
+            "anti-edad",
+            "rejuvenecimiento",
+            "radiofrecuencia"
+          ],
+          "imageCategory": "spa",
+          "slug": "facial-anti-edad-60min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Exfoliación Corporal 45min",
+          "description": "Exfoliación de cuerpo completo con sales marinas",
+          "priceCents": 140000,
+          "category": "Corporales",
+          "tags": [
+            "exfoliacion",
+            "corporal",
+            "sales"
+          ],
+          "imageCategory": "spa",
+          "slug": "exfoliaci-n-corporal-45min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Envoltura Corporal 60min",
+          "description": "Envoltura desintoxicante con algas marinas",
+          "priceCents": 180000,
+          "category": "Corporales",
+          "tags": [
+            "envoltura",
+            "desintoxicante",
+            "algas"
+          ],
+          "imageCategory": "spa",
+          "slug": "envoltura-corporal-60min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Paquete Bienestar",
+          "description": "Masaje relax + facial hidratante + exfoliación",
+          "priceCents": 350000,
+          "category": "Paquetes",
+          "tags": [
+            "paquete",
+            "bienestar",
+            "combo"
+          ],
+          "imageCategory": "spa",
+          "slug": "paquete-bienestar",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Paquete Premium",
+          "description": "Masaje piedras + facial anti-edad + envoltura",
+          "priceCents": 520000,
+          "category": "Paquetes",
+          "tags": [
+            "premium",
+            "completo",
+            "luxury"
+          ],
+          "imageCategory": "spa",
+          "slug": "paquete-premium",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Vela Aromática",
+          "description": "Vela de soya con aceites esenciales lavanda 200g",
+          "priceCents": 60000,
+          "category": "Productos",
+          "tags": [
+            "vela",
+            "aroma",
+            "lavanda"
+          ],
+          "imageCategory": "products",
+          "slug": "vela-arom-tica",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Aceite de Masaje",
+          "description": "Aceite de masaje con aceites esenciales 250ml",
+          "priceCents": 80000,
+          "category": "Productos",
+          "tags": [
+            "aceite",
+            "masaje",
+            "esenciales"
+          ],
+          "imageCategory": "products",
+          "slug": "aceite-de-masaje",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Gift Card 200.000",
+          "description": "Tarjeta de regalo canjeable por cualquier tratamiento",
+          "priceCents": 200000,
+          "category": "Gift Cards",
+          "tags": [
+            "gift",
+            "regalo",
+            "canjeable"
+          ],
+          "imageCategory": "products",
+          "slug": "gift-card-200-000",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en Asunción y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "Sempre Bela Fisio Estética",
+    "copyright": "© {{year}} Sempre Bela Fisio Estética",
+    "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Spa y me interesa un sitio para mi negocio"
+  }
+}

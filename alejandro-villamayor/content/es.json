@@ -1,0 +1,735 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "Alejandro Villamayor",
+    "lastReviewed": "2026-04-26"
+  },
+  "siteName": "Alejandro Villamayor",
+  "tagline": "Asesoría legal estratégica para personas y empresas en Paraguay",
+  "placeholders": {
+    "businessName": "Alejandro Villamayor",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Alejandro Villamayor",
+    "items": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/alejandro-villamayor"
+      },
+      {
+        "label": "Investor Pass",
+        "href": "/s/es/alejandro-villamayor/investor-pass"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/alejandro-villamayor/servicios"
+      },
+      {
+        "label": "Sobre Mí",
+        "href": "/s/es/alejandro-villamayor/sobre-mi"
+      },
+      {
+        "label": "Blog",
+        "href": "/s/es/alejandro-villamayor/blog"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/alejandro-villamayor/contacto"
+      }
+    ],
+    "ctaText": "Agendá una reunión",
+    "ctaHref": "https://wa.me/595981324569"
+  },
+  "home": {
+    "seo": {
+      "title": "Alejandro Villamayor — Abogado en Asunción | Investor Pass, Inversiones y Derecho Corporativo",
+      "description": "Abogado en Asunción, Paraguay. Especialista en Paraguay Investor Pass 2026, residencia por inversión, derecho corporativo e inversiones extranjeras. Consulta gratis."
+    },
+    "hero": {
+      "headline": "Alejandro Villamayor",
+      "subheadline": "Asesoría legal en Asunción. Especializado en Paraguay Investor Pass, estructuración de inversiones extranjeras y derecho corporativo.",
+      "ctaPrimaryText": "Consultá gratis",
+      "ctaPrimaryHref": "https://wa.me/595981324569",
+      "ctaSecondaryText": "Guía del Investor Pass",
+      "ctaSecondaryHref": "/s/es/alejandro-villamayor/investor-pass",
+      "trustBadges": [
+        "Asunción, Paraguay",
+        "Español · Inglés",
+        "Miembro CAP"
+      ]
+    },
+    "credenciales": {
+      "eyebrow": "Credenciales",
+      "title": "Miembro del Colegio de Abogados del Paraguay",
+      "subtitle": "Formación y afiliaciones que respaldan mi práctica legal",
+      "items": [
+        {
+          "icon": "Award",
+          "title": "Colegio de Abogados del Paraguay (CAP)",
+          "description": "Miembro activo con matrícula habilitante para el ejercicio profesional en todo el territorio nacional."
+        },
+        {
+          "icon": "BookOpen",
+          "title": "Formación continua",
+          "description": "Actualización permanente en derecho corporativo, inversiones extranjeras, compliance y protección de datos."
+        },
+        {
+          "icon": "Globe",
+          "title": "Atención bilingüe",
+          "description": "Servicios legales completos en español e inglés. Experiencia con clientes de Europa, EE.UU. y América Latina."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Áreas de práctica",
+      "title": "Soluciones legales para cada necesidad",
+      "subtitle": "Derecho corporativo, inversiones, contratos y más para personas y empresas en Paraguay.",
+      "items": [
+        {
+          "icon": "Passport",
+          "title": "Paraguay Investor Pass",
+          "description": "Residencia permanente directa vía inversión desde USD 70.000. Te guío en todo el proceso ante MIC, Migraciones y SUACE.",
+          "highlight": true
+        },
+        {
+          "icon": "Globe",
+          "title": "Inversiones Extranjeras",
+          "description": "Estructuración de inversiones, régimen tributario preferencial, obtención de residencia y repatriación de capitales."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Derecho Corporativo",
+          "description": "Constitución de empresas, contratos comerciales, fusiones y adquisiciones, gobierno corporativo y compliance."
+        },
+        {
+          "icon": "FileText",
+          "title": "Contratos Comerciales",
+          "description": "Redacción, revisión y negociación de contratos nacionales e internacionales. Acuerdos societarios, NDAs y más."
+        },
+        {
+          "icon": "Scale",
+          "title": "Litigios Civiles y Comerciales",
+          "description": "Representación en procesos judiciales y arbitrajes. Defensa de tus intereses con estrategia y experiencia."
+        },
+        {
+          "icon": "Building",
+          "title": "Derecho Inmobiliario",
+          "description": "Compraventa de propiedades, due diligence inmobiliaria, contratos de arrendamiento para inversores."
+        }
+      ]
+    },
+    "process": {
+      "title": "¿Cómo trabajo?",
+      "subtitle": "Desde la primera consulta hasta el cierre, sabés exactamente qué esperar.",
+      "steps": [
+        {
+          "icon": "MessageSquare",
+          "title": "Consulta inicial",
+          "description": "Conversación sin costo para conocer tu situación y objetivos."
+        },
+        {
+          "icon": "Search",
+          "title": "Análisis y estrategia",
+          "description": "Estudio del caso, revisión de documentos y plan de acción."
+        },
+        {
+          "icon": "Zap",
+          "title": "Ejecución",
+          "description": "Gestión de trámites con actualizaciones periódicas."
+        },
+        {
+          "icon": "Shield",
+          "title": "Seguimiento",
+          "description": "Cierre del caso y disponibilidad para consultas futuras."
+        }
+      ]
+    },
+    "credentials": {
+      "title": "Por qué elegirme",
+      "items": [
+        {
+          "icon": "Target",
+          "title": "Estrategia personalizada",
+          "description": "Cada caso recibe una estrategia a medida. No hay soluciones genéricas."
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "Cercanía y disponibilidad",
+          "description": "Respondo consultas por WhatsApp. Sin vueltas."
+        },
+        {
+          "icon": "Shield",
+          "title": "Compromiso total",
+          "description": "Defiendo tus intereses con dedicación total."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen mis clientes",
+      "items": [
+        {
+          "name": "Marcelo R.",
+          "role": "Inversor, Sector Tecnológico",
+          "content": "Alejandro me guió en todo el proceso del Investor Pass. Su conocimiento del marco legal paraguayo y su enfoque práctico hicieron la diferencia. En 3 meses tenía mi residencia permanente.",
+          "rating": 5
+        },
+        {
+          "name": "Carolina D.",
+          "role": "CEO, Empresa de Comercio",
+          "content": "Excelente asesoramiento corporativo. Resolvió una situación contractual compleja con rapidez y profesionalismo.",
+          "rating": 5
+        },
+        {
+          "name": "James T.",
+          "role": "Inversor Inmobiliario, EE.UU.",
+          "content": "Alejandro helped me structure my real estate investment in Paraguay. His bilingual capability and knowledge of both local and international law made the process smooth.",
+          "rating": 5
+        },
+        {
+          "name": "Laura M.",
+          "role": "Emprendedora",
+          "content": "Me ayudó a constituir mi empresa y entender el régimen tributario. Siempre respondió rápido y con claridad.",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Cuánto cuesta una consulta?",
+          "answer": "La primera consulta es gratuita y sin compromiso."
+        },
+        {
+          "question": "¿Atendés casos de inversores extranjeros?",
+          "answer": "Sí, es una de mis principales áreas. Asesoro a inversores de Europa, EE.UU. y América Latina."
+        },
+        {
+          "question": "¿Trabajás en inglés?",
+          "answer": "Sí, ofrezco servicios legales completos en español e inglés."
+        },
+        {
+          "question": "¿Cuánto tiempo toma obtener la residencia?",
+          "answer": "Entre 2 y 4 meses desde la presentación de documentación completa."
+        },
+        {
+          "question": "¿Hacés trámites online?",
+          "answer": "Sí, la mayoría de los trámites se gestionan de forma remota."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Necesitás asesoría legal?",
+      "subtitle": "Primera consulta gratuita sin compromiso. Llamame al +595 981 324 569 o escribime por WhatsApp.",
+      "ctaText": "Agendá una reunión",
+      "ctaLink": "https://wa.me/595981324569",
+      "backgroundColor": "primary"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Respondo consultas por WhatsApp en el día",
+      "address": "Asunción, Paraguay",
+      "city": "Asunción",
+      "phone": "+595981324569",
+      "email": "alejandro@villamayorlaw.com.py",
+      "whatsapp": "+595981324569"
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "+50",
+          "label": "Clientes satisfechos",
+          "icon": "Users"
+        },
+        {
+          "value": "+8",
+          "label": "Años de experiencia",
+          "icon": "Calendar"
+        },
+        {
+          "value": "+30",
+          "label": "Casos de inversión extranjera",
+          "icon": "Globe"
+        },
+        {
+          "value": "98%",
+          "label": "Casos exitosos",
+          "icon": "Award"
+        }
+      ]
+    },
+    "blogPreview": {
+      "title": "Guías y Novedades",
+      "subtitle": "Artículos sobre Investor Pass, residencia e inversiones en Paraguay"
+    }
+  },
+  "servicios": {
+    "seo": {
+      "title": "Servicios Legales — Alejandro Villamayor",
+      "description": "Derecho corporativo, inversiones extranjeras, Paraguay Investor Pass, contratos, litigios e inmobiliario."
+    },
+    "hero": {
+      "title": "Servicios",
+      "subtitle": "Soluciones legales a medida para personas y empresas en Paraguay",
+      "trustBadgesEnabled": false
+    }
+  },
+  "inversiones": {
+    "seo": {
+      "title": "Inversiones Extranjeras en Paraguay — Alejandro Villamayor",
+      "description": "Asesoría legal para inversores extranjeros: estructuración, régimen tributario, Investor Pass y residencia."
+    },
+    "hero": {
+      "title": "Inversiones Extranjeras",
+      "subtitle": "Invertí en Paraguay con asesoría legal experta.",
+      "trustBadgesEnabled": false
+    },
+    "vias": {
+      "eyebrow": "Vías de inversión",
+      "title": "Opciones para invertir y obtener residencia",
+      "items": [
+        {
+          "icon": "TrendingUp",
+          "title": "Investor Pass — Desde USD 70.000",
+          "description": "Nuevo régimen 2026. Residencia permanente directa. Tres vías: turismo, valores, inmobiliario."
+        },
+        {
+          "icon": "Building",
+          "title": "SUACE — Inversión Productiva",
+          "description": "Desde USD 70.000 con creación de empleo. Aprobación de SUACE."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Residencia por Rentas",
+          "description": "Para ingresos pasivos regulares. Sin inversión mínima."
+        },
+        {
+          "icon": "PieChart",
+          "title": "Estructuración Tributaria",
+          "description": "Optimización fiscal. IRE 10%. Rentas extranjeras no gravadas."
+        }
+      ]
+    },
+    "proceso": {
+      "title": "Proceso paso a paso",
+      "steps": [
+        {
+          "icon": "MessageSquare",
+          "title": "Consultá tu caso",
+          "description": "Evaluamos tu perfil y definimos la estrategia."
+        },
+        {
+          "icon": "FileText",
+          "title": "Due diligence",
+          "description": "Preparamos documentación completa."
+        },
+        {
+          "icon": "Send",
+          "title": "Gestión oficial",
+          "description": "Tramitamos ante MIC, Migraciones y SUACE."
+        },
+        {
+          "icon": "Shield",
+          "title": "Residencia",
+          "description": "Obtención y acompañamiento continuo."
+        }
+      ]
+    },
+    "beneficios": {
+      "title": "Beneficios de invertir en Paraguay",
+      "items": [
+        {
+          "icon": "Percent",
+          "title": "Baja carga tributaria",
+          "description": "IRE 10%. Rentas extranjeras no gravadas."
+        },
+        {
+          "icon": "Shield",
+          "title": "Seguridad jurídica",
+          "description": "Marco legal estable con protección de inversiones."
+        },
+        {
+          "icon": "Globe",
+          "title": "Doble ciudadanía",
+          "description": "Pasaporte paraguayo en 3 años."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas sobre inversiones",
+      "items": [
+        {
+          "question": "¿Cuál es el monto mínimo?",
+          "answer": "Desde USD 70.000 vía SUACE o USD 150.000 vía Investor Pass."
+        },
+        {
+          "question": "¿Qué impuestos pagan los inversores?",
+          "answer": "IRE 10%. Rentas de fuente extranjera no tributan en Paraguay."
+        },
+        {
+          "question": "¿Necesito viajar?",
+          "answer": "Gran parte del proceso es remoto."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para invertir?",
+      "subtitle": "Consulta gratuita",
+      "ctaText": "Consultá gratis",
+      "ctaLink": "https://wa.me/595981324569",
+      "backgroundColor": "primary"
+    }
+  },
+  "corporativo": {
+    "seo": {
+      "title": "Derecho Corporativo — Alejandro Villamayor",
+      "description": "Asesoría corporativa en Paraguay: constitución de empresas, contratos, fusiones y compliance."
+    },
+    "hero": {
+      "title": "Derecho Corporativo",
+      "subtitle": "Asesoría legal integral para tu empresa en Paraguay",
+      "trustBadgesEnabled": false
+    },
+    "areas": {
+      "eyebrow": "Áreas",
+      "title": "Servicios corporativos",
+      "items": [
+        {
+          "icon": "Building2",
+          "title": "Constitución de Empresas",
+          "description": "EAS, SRL, SA. Gestión integral ante Registro Público."
+        },
+        {
+          "icon": "FileSignature",
+          "title": "Contratos Comerciales",
+          "description": "Redacción y negociación de contratos nacionales e internacionales."
+        },
+        {
+          "icon": "GitMerge",
+          "title": "Fusiones y Adquisiciones",
+          "description": "Due diligence, estructuración y cierre de operaciones."
+        },
+        {
+          "icon": "Shield",
+          "title": "Compliance",
+          "description": "Programas de cumplimiento, PLD y ética corporativa."
+        }
+      ]
+    },
+    "proceso": {
+      "title": "¿Cómo trabajamos?",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Diagnóstico",
+          "description": "Analizamos tu situación actual."
+        },
+        {
+          "icon": "FileText",
+          "title": "Propuesta",
+          "description": "Plan de trabajo con costos transparentes."
+        },
+        {
+          "icon": "Zap",
+          "title": "Ejecución",
+          "description": "Implementación con plazos definidos."
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Acompañamiento",
+          "description": "Mantenemos tu empresa en cumplimiento."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas sobre derecho corporativo",
+      "items": [
+        {
+          "question": "¿Qué tipo de empresa me conviene?",
+          "answer": "EAS para pequeños negocios, SRL para PYMES, SA para empresas grandes."
+        },
+        {
+          "question": "¿Cuánto cuesta constituir una empresa?",
+          "answer": "Consultame sin costo y te doy un presupuesto personalizado."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Necesitás asesoría corporativa?",
+      "subtitle": "Primera consulta gratuita",
+      "ctaText": "Consultá gratis",
+      "ctaLink": "https://wa.me/595981324569",
+      "backgroundColor": "primary"
+    }
+  },
+  "investorPass": {
+    "seo": {
+      "title": "Paraguay Investor Pass 2026 — Residencia Permanente por Inversión",
+      "description": "Residencia permanente en Paraguay vía Investor Pass desde USD 70.000. Nuevo régimen 2026. Consultá gratis."
+    },
+    "hero": {
+      "title": "Paraguay Investor Pass",
+      "subtitle": "Residencia permanente directa para inversores extranjeros.",
+      "trustBadgesEnabled": false
+    },
+    "vias": {
+      "eyebrow": "Vías de inversión",
+      "title": "Tres modalidades para tu residencia",
+      "items": [
+        {
+          "icon": "Umbrella",
+          "title": "Turismo — USD 150.000",
+          "description": "Proyectos turísticos aprobados por MIC."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Mercado de Valores — USD 200.000",
+          "description": "Títulos, bonos o acciones del mercado paraguayo."
+        },
+        {
+          "icon": "Home",
+          "title": "Inmobiliario — USD 200.000",
+          "description": "Propiedades residenciales o comerciales."
+        }
+      ]
+    },
+    "proceso": {
+      "title": "¿Cómo funciona?",
+      "steps": [
+        {
+          "icon": "ClipboardCheck",
+          "title": "Evaluación",
+          "description": "Analizamos tu perfil y mejor vía de inversión."
+        },
+        {
+          "icon": "FileSearch",
+          "title": "Documentación",
+          "description": "Origen de fondos, antecedentes."
+        },
+        {
+          "icon": "Stamp",
+          "title": "Presentación",
+          "description": "Ante MIC y Migraciones. Proceso digital."
+        },
+        {
+          "icon": "Award",
+          "title": "Residencia",
+          "description": "Permanente directa. Sin etapa temporaria."
+        }
+      ]
+    },
+    "beneficios": {
+      "title": "Beneficios",
+      "items": [
+        {
+          "icon": "Zap",
+          "title": "Residencia directa",
+          "description": "Sin temporaria. Ahorrá 2 años."
+        },
+        {
+          "icon": "Percent",
+          "title": "Baja carga tributaria",
+          "description": "IRE 10%."
+        },
+        {
+          "icon": "Globe",
+          "title": "Doble ciudadanía",
+          "description": "Pasaporte en 3 años."
+        },
+        {
+          "icon": "Shield",
+          "title": "Seguridad jurídica",
+          "description": "Marco legal estable."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas sobre el Investor Pass",
+      "items": [
+        {
+          "question": "¿Cuándo se lanzó?",
+          "answer": "17 de abril de 2026. Resolución N.º 0283/2026."
+        },
+        {
+          "question": "¿Diferencia con residencia tradicional?",
+          "answer": "Elimina la etapa temporaria de 2 años."
+        },
+        {
+          "question": "¿Necesito crear empresa?",
+          "answer": "No. Las vías de valores e inmobiliario no requieren empresa."
+        },
+        {
+          "question": "¿Cuánto tiempo toma?",
+          "answer": "Entre 2 y 4 meses."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Empezá tu proceso hoy",
+      "subtitle": "Consulta gratuita sin compromiso",
+      "ctaText": "Consultá gratis",
+      "ctaLink": "https://wa.me/595981324569",
+      "backgroundColor": "primary"
+    },
+    "comparison": {
+      "title": "Comparativa de vías de inversión",
+      "rows": [
+        {
+          "via": "Turismo",
+          "monto": "USD 150.000",
+          "sector": "Proyectos turísticos",
+          "plazo": "2-4 meses"
+        },
+        {
+          "via": "Mercado de Valores",
+          "monto": "USD 200.000",
+          "sector": "Bonos, acciones",
+          "plazo": "2-4 meses"
+        },
+        {
+          "via": "Inmobiliario",
+          "monto": "USD 200.000",
+          "sector": "Propiedades",
+          "plazo": "2-4 meses"
+        },
+        {
+          "via": "SUACE (Productivo)",
+          "monto": "USD 70.000+",
+          "sector": "Negocio propio + empleo",
+          "plazo": "4-8 meses"
+        }
+      ]
+    }
+  },
+  "sobre": {
+    "seo": {
+      "title": "Sobre Mí — Alejandro Villamayor",
+      "description": "Abogado especializado en inversiones extranjeras y Paraguay Investor Pass. Miembro del CAP."
+    },
+    "hero": {
+      "title": "Sobre Mí",
+      "subtitle": "Abogado comprometido con soluciones legales estratégicas. Miembro del Colegio de Abogados del Paraguay.",
+      "trustBadgesEnabled": false
+    },
+    "valores": {
+      "title": "Mi enfoque profesional",
+      "items": [
+        {
+          "icon": "Target",
+          "title": "Estrategia",
+          "description": "Cada caso recibe una solución a medida."
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "Cercanía",
+          "description": "Relación abierta y transparente. Respondo rápido."
+        },
+        {
+          "icon": "Shield",
+          "title": "Compromiso",
+          "description": "Dedicación total a cada caso."
+        }
+      ]
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog — Alejandro Villamayor | Guía Legal para Inversores",
+      "description": "Guías sobre Paraguay Investor Pass, residencia por inversión, impuestos y derecho corporativo."
+    },
+    "hero": {
+      "title": "Blog",
+      "subtitle": "Guías, análisis y novedades legales para inversores en Paraguay",
+      "trustBadgesEnabled": false
+    },
+    "posts": [
+      {
+        "title": "Paraguay Investor Pass 2026: Guía Completa",
+        "slug": "guia-completa-investor-pass-paraguay-2026",
+        "href": "/s/es/alejandro-villamayor/blog/guia-completa-investor-pass-paraguay-2026",
+        "date": "2026-04-26",
+        "author": "Alejandro Villamayor",
+        "excerpt": "Todo sobre el nuevo Paraguay Investor Pass: requisitos, montos, proceso y beneficios.",
+        "category": "Inversiones",
+        "readingMinutes": 8
+      },
+      {
+        "title": "Impuestos para Inversores Extranjeros en Paraguay 2026",
+        "slug": "impuestos-inversores-extranjeros-paraguay-2026",
+        "href": "/s/es/alejandro-villamayor/blog/impuestos-inversores-extranjeros-paraguay-2026",
+        "date": "2026-04-24",
+        "author": "Alejandro Villamayor",
+        "excerpt": "Régimen tributario paraguayo: IRE, IVA, IRP, RESIMPLE y rentas.",
+        "category": "Tributario",
+        "readingMinutes": 10
+      },
+      {
+        "title": "Cómo Obtener Residencia Permanente en Paraguay 2026",
+        "slug": "residencia-permanente-paraguay-guia-2026",
+        "href": "/s/es/alejandro-villamayor/blog/residencia-permanente-paraguay-guia-2026",
+        "date": "2026-04-22",
+        "author": "Alejandro Villamayor",
+        "excerpt": "Todas las vías: Investor Pass, SUACE, rentas y arraigo.",
+        "category": "Residencia",
+        "readingMinutes": 7
+      }
+    ]
+  },
+  "faqPage": {
+    "seo": {
+      "title": "Preguntas Frecuentes — Alejandro Villamayor",
+      "description": "Preguntas frecuentes sobre servicios legales, Investor Pass e inversiones en Paraguay."
+    },
+    "hero": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Resolvé tus dudas sobre servicios legales e inversiones en Paraguay",
+      "trustBadgesEnabled": false
+    }
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contacto — Alejandro Villamayor",
+      "description": "Contactame para una consulta gratuita. WhatsApp, teléfono o email."
+    },
+    "hero": {
+      "title": "Contacto",
+      "subtitle": "Estoy para ayudarte — consultá sin costo",
+      "trustBadgesEnabled": false
+    }
+  },
+  "footer": {
+    "businessName": "Alejandro Villamayor",
+    "city": "Asunción, Paraguay",
+    "copyright": "© {{year}} Alejandro Villamayor — Abogado. Miembro del Colegio de Abogados del Paraguay.",
+    "disclaimer": "La información de este sitio es de carácter general y no constituye asesoría legal.",
+    "navLinks": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/alejandro-villamayor"
+      },
+      {
+        "label": "Investor Pass",
+        "href": "/s/es/alejandro-villamayor/investor-pass"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/alejandro-villamayor/servicios"
+      },
+      {
+        "label": "Sobre Mí",
+        "href": "/s/es/alejandro-villamayor/sobre-mi"
+      },
+      {
+        "label": "Blog",
+        "href": "/s/es/alejandro-villamayor/blog"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/alejandro-villamayor/contacto"
+      }
+    ]
+  },
+  "whatsapp": "+595981324569"
+}

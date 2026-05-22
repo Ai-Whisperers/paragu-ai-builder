@@ -1,0 +1,550 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Spa Asunción",
+  "tagline": "Relajación, bienestar y tratamientos de belleza en el corazón de San Antonio",
+  "placeholders": {
+    "businessName": "Spa Asunción",
+    "city": "San Antonio",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Spa",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Reservar",
+    "ctaHref": "#contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Spa Asunción - Spa en San Antonio | Masajes, Tratamientos y Bienestar",
+      "description": "YessNails Spa Manos en San Antonio. 4 estrellas y 204 resenas en Google. Conocenos!"
+    },
+    "hero": {
+      "headline": "Tu momento de bienestar",
+      "subheadline": "En San Antonio con atencion personalizada y la mejor calidad.",
+      "ctaPrimaryText": "Reservá tu turno",
+      "ctaSecondaryText": "Ver servicios"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Estamos en el barrio Villa Morra, Asunción",
+      "address": "Av. Santa Teresa 1250 c/ San Martín",
+      "city": "San Antonio",
+      "phone": "+595 981 618000",
+      "email": "contacto@demospa.com.py",
+      "whatsapp": "+595 981 618000"
+    },
+    "promoBanner": {
+      "title": "Promoción de Lanzamiento",
+      "subtitle": "Con 204 resenas positivas en Google. Te esperamos!",
+      "ctaText": "Reservar ahora",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Todo para tu bienestar físico y mental",
+      "items": [
+        {
+          "name": "Masaje Relajante",
+          "description": "Masaje corporal completo con aceites esenciales para liberar tensiones",
+          "price": "Gs. 120.000",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "Masaje Descontracturante",
+          "description": "Técnica profunda para aliviar contracturas y dolores musculares",
+          "price": "Gs. 150.000",
+          "icon": "Zap"
+        },
+        {
+          "name": "Limpieza Facial Profunda",
+          "description": "Limpieza con extracción, exfoliación y mascarilla hidratante",
+          "price": "Gs. 100.000",
+          "icon": "Droplets"
+        },
+        {
+          "name": "Tratamiento Corporal Detox",
+          "description": "Envoltura de algas marinas con drenaje linfático manual",
+          "price": "Gs. 200.000",
+          "icon": "Wind"
+        },
+        {
+          "name": "Sauna y Baño de Vapor",
+          "description": "Acceso a sauna finlandesa y baño turco con aromaterapia",
+          "price": "Gs. 80.000",
+          "icon": "Thermometer"
+        },
+        {
+          "name": "Pedicura Spa",
+          "description": "Pedicura completa con exfoliación, masaje y esmaltado semipermanente",
+          "price": "Gs. 90.000",
+          "icon": "Feather"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Productos orgánicos",
+        "Ambiente climatizado",
+        "Toallas y bata incluídas",
+        "Estacionamiento gratis",
+        "Profesionales certificados",
+        "4/5 estrellas en Google",
+        "4/5 estrellas en Google"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHHoHW8bsBQ01m7BqW__ThI2xHNDN94xk7qK8jA5IcikwIMIM1gPlrfpFCaE8gRkfwsQJkHTfibe23k1isvzwW8MfWxpW7M1ugH4AwIyDnDO8I_YgcyNfv6yhso3p07tW44dYCTFoUvg7vIttc0bJ6P2rLF0QtzJVAEMryDzYNHe9p5GSH0IDG-o_iKDN7c1AvP1kbZBuhlA0zgXdvf134g6yZ2q0n7Ej5J_ePOtqh_N_2mI1RuSS2ZmQoLf7gAhu53LU7KJVjZ7HQ2OIv3JaA7qm5Rb565kegx3bJae0p3rg&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHrV2evxDpa9Qn6tCLhm5v4kO8pD386tcBfI3QCEo7t22Hag6099MGcAm22QhTVzu_bpcNOwrqyISV6MJ520iUhT6EQt7SHVEQcAUKEDutKDUfleYV7ICT8pgUq6Mk7jggFkeTUMn1yl4QWxWCgmvRX9KT-Ztg4KFtRr1qJQ-52OB4koToAipSnQUDSD6HH1akLe8Zwo407eKH1Fu4jzJYxsaMjLbBVTaf0uvl1jl0c6tKLqAuJyNbRshNpJjOlcSPbqqqHOqdX8zOvx0XW-0bvjpl8kAKnmXnaj5c7OpmDHg&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHOI7PiXNeO7WVOjecgyeKjECBZoDSV0jn4mxrTsUFgDJZFnam-CFIumYXIm9NTkkP9EkFU3T6aTR_XNS3-4AW7zhDptePR38DEadY05LbBcYKv8qZ1Dzt6YwY7BKkTCHbD-G4vHvVga1PUaCMv7dPNIyyVDy6nn9YUI_nUquE6zt2u5ofc4sImHLneEtwExjff0MirRu-UxgD-7_XsBk-2lXhKGui1w6AKWMk9fZkHz8EAYRlngPrqaV3xeQ9XYTWbmqXkoiiBndFRJ9XPdo7euScbTo_O7Knd3Ou-UuzosJw4t-zb5pVfk71DlvtGr0vBQLo2n5vXMD7lcIDTNX3spsbqeL3P2dmhjIVwZdsqwPfLvyTeu-9L_P9C38NyvceSQedDJp5oI751QYOZMPTrVJSUhCKOzNH1fOeM4mZrwCvW&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEGM3ZWz5yS-49ViStus3mv3v2r3Rw8iQ6wmAW9QdUiUkefzpSPv3sbF2ohu1Oj1s_oMb9XLiD_WGmNI_1IWxyAVBqFl70R92Y4YPgMtS1smWpLQeT61T-SG7yrg9AlXcnWHf0FdhQMxtNPhe1ZSt-7LWnrpJP6rG6kzlWMxB7c4tj-1fITm0XDKORIoz8C7eB9yECFBO_laWI69sASceupZjfzSBK9LsXgYH1E97TfRF-yuIlYmBngyHmds2uM5YTN-L2vY2zRhd6xxt33QIrPeIDqj3hc_dYg8XfMl9v1BM_ZWPffR1G08Pf8ycunnn2ewcVC3a2ctm7_t9cow6hUuPHM5Pzy9XsLckdr8rj0ctEhyHlf9pRP3O4Y9sxipJyCJIyeO4QDJBWVBPLCOTYDXjo2ZUn5YuIm-p5yIPLSZH1Qq&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHXNzvncQEUA0Oy604hcqj6p5glFx85Ppp3ugIiH5lDyN9TRgI50PPSR5Y9h5doIjCNX2gfT2qaJpc0556cvCppP9JlxMQZPgXFUp9WwNfYoIEr-53ASFgHH9vtjLxFqBJYAKGFkdpuhoprA0vHkWXOeyV_g6VtjXI1JM4wX4JJnUMOSVgsZ9gEtBDgjHvv17ZZsIfyjDYbHD9eNlEjZ9nN-vHLyd6UG5sVM4X2JfmXIQDahYP5FbB36k_KB0So0i2d4Qa0xord3-kMg9iD0UBxEJyO4Ytv2wvpU-MOk5w00lFVP7oLv3B46EWw4MNJI8atVN2rJ0_CAiciMgLoN-V3QoBp50v_tBKkaCH-RNjOlmrhVrjA7puC6VO-xoHKSSVW5o3dDCDNEP162io5jefo9SmwPFccg_c1472nkmuLDcU&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEGtXL3ov7JFMWsHWIMq-rCrF4v_oi6UJD3fcKJ0-s6ltBq_Gt5au_-oVxUxpW6ecef1CD5WbxEnH0sT3cV5cMcg1Y9EkeQIiRpReLJHo30RJYwbq_UcQnCJkXUzgZiiGnRsfWDg6QECtksm_JwSFPgOGx14tevs5S6tqqkK_1rZZ6SX1bvbf9dCu_vXmK23aLjkAFBXrNIgio3585_-RPNrGcp1JRji5cjbzJDyMdBj5QJIr7AOmpwajiW7bOOlk5OjpEg02JowVvE3u2Y65NhltW-SEHkW023nqW528CV6zK5Ig1TQnej40Ym-TgWfwwI4F4pZy6MSB78BaM-gbOgvdtOv98I-Wha-MRCIbncKdeLk5uGEISt-yYiUVjoF5IwtQSnOeru4MEoSCS2SAS-H449MZffm6U7k0l4ELj-ubg&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
+    },
+    "team": {
+      "title": "Conocé a nuestro equipo",
+      "subtitle": "Terapeutas profesionales apasionados por tu bienestar",
+      "items": [
+        {
+          "name": "Gabriela Torres",
+          "role": "Directora y Masoterapeuta Senior",
+          "description": "12 años de experiencia en masoterapia y tratamientos corporales"
+        },
+        {
+          "name": "Miguel Ángel Rivas",
+          "role": "Terapeuta de Masajes",
+          "description": "Especialista en masajes descontracturantes y drenaje linfático"
+        },
+        {
+          "name": "Camila Ferreira",
+          "role": "Esteticista Facial",
+          "description": "Experta en limpiezas faciales, peelings y tratamientos anti-edad"
+        },
+        {
+          "name": "Sofía Mendoza",
+          "role": "Terapeuta Corporal",
+          "description": "Especialista en envolturas detox y tratamientos corporales"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 204 reseñas",
+      "items": [
+        {
+          "author": "David Lezcano",
+          "quote": "Add",
+          "rating": 5
+        }
+      ]
+    },
+    "booking": {
+      "title": "Reservá tu turno",
+      "subtitle": "Elegí el servicio y el horario que más te convenga",
+      "phone": "+595981726354",
+      "services": [
+        {
+          "name": "Masaje Relajante",
+          "duration": "60 min",
+          "category": "masajes"
+        },
+        {
+          "name": "Masaje Descontracturante",
+          "duration": "60 min",
+          "category": "masajes"
+        },
+        {
+          "name": "Limpieza Facial Profunda",
+          "duration": "45 min",
+          "category": "faciales"
+        },
+        {
+          "name": "Tratamiento Corporal Detox",
+          "duration": "90 min",
+          "category": "corporales"
+        },
+        {
+          "name": "Sauna y Baño de Vapor",
+          "duration": "30 min",
+          "category": "sauna"
+        },
+        {
+          "name": "Pedicura Spa",
+          "duration": "60 min",
+          "category": "belleza"
+        }
+      ],
+      "ctaText": "Reservar por WhatsApp"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Necesito llevar algo para el masaje?",
+          "a": "Solo llegá con ropa cómoda. Nosotros proveemos toallas, bata y pantuflas descartables."
+        },
+        {
+          "q": "¿Cuánto dura una sesión de masaje relajante?",
+          "a": "La sesión dura 60 minutos aproximadamente, incluyendo una breve consulta inicial."
+        },
+        {
+          "q": "¿Aceptan tarjetas de crédito?",
+          "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria."
+        },
+        {
+          "q": "¿Tienen estacionamiento?",
+          "a": "Sí, contamos con estacionamiento privado y gratuito para nuestros clientes."
+        },
+        {
+          "q": "¿Cómo puedo reservar un turno?",
+          "a": "Podés reservar por WhatsApp al +595981726354 o directamente en nuestro local."
+        }
+      ]
+    },
+    "hours": {
+      "Lunes": "8:00 AM – 8:00 PM",
+      "Martes": "8:00 AM – 8:00 PM",
+      "Miercoles": "8:00 AM – 8:00 PM",
+      "Jueves": "8:00 AM – 8:00 PM",
+      "Viernes": "8:00 AM – 8:00 PM",
+      "Sabado": "8:00 AM – 8:00 PM",
+      "Domingo": "Closed"
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "Spa Asunción — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Masaje Relaxante 60min",
+          "description": "Masaje descontracturante de cuerpo completo",
+          "priceCents": 150000,
+          "category": "Masajes",
+          "tags": [
+            "masaje",
+            "relax",
+            "60min"
+          ],
+          "imageCategory": "spa",
+          "slug": "masaje-relaxante-60min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Masaje con Piedras Calientes 75min",
+          "description": "Masaje terapéutico con piedras volcánicas",
+          "priceCents": 220000,
+          "category": "Masajes",
+          "tags": [
+            "piedras",
+            "termico",
+            "muscular"
+          ],
+          "imageCategory": "spa",
+          "slug": "masaje-con-piedras-calientes-75min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Masaje Deportivo 45min",
+          "description": "Masaje enfocado en recuperación muscular",
+          "priceCents": 130000,
+          "category": "Masajes",
+          "tags": [
+            "deportivo",
+            "muscular",
+            "recuperacion"
+          ],
+          "imageCategory": "spa",
+          "slug": "masaje-deportivo-45min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Facial Hidratante 45min",
+          "description": "Limpieza facial profunda con mascarilla hidratante",
+          "priceCents": 120000,
+          "category": "Faciales",
+          "tags": [
+            "facial",
+            "hidratacion",
+            "limpieza"
+          ],
+          "imageCategory": "spa",
+          "slug": "facial-hidratante-45min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Facial Anti-Edad 60min",
+          "description": "Tratamiento rejuvenecedor con radiofrecuencia",
+          "priceCents": 250000,
+          "category": "Faciales",
+          "tags": [
+            "anti-edad",
+            "rejuvenecimiento",
+            "radiofrecuencia"
+          ],
+          "imageCategory": "spa",
+          "slug": "facial-anti-edad-60min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Exfoliación Corporal 45min",
+          "description": "Exfoliación de cuerpo completo con sales marinas",
+          "priceCents": 140000,
+          "category": "Corporales",
+          "tags": [
+            "exfoliacion",
+            "corporal",
+            "sales"
+          ],
+          "imageCategory": "spa",
+          "slug": "exfoliaci-n-corporal-45min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Envoltura Corporal 60min",
+          "description": "Envoltura desintoxicante con algas marinas",
+          "priceCents": 180000,
+          "category": "Corporales",
+          "tags": [
+            "envoltura",
+            "desintoxicante",
+            "algas"
+          ],
+          "imageCategory": "spa",
+          "slug": "envoltura-corporal-60min",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Paquete Bienestar",
+          "description": "Masaje relax + facial hidratante + exfoliación",
+          "priceCents": 350000,
+          "category": "Paquetes",
+          "tags": [
+            "paquete",
+            "bienestar",
+            "combo"
+          ],
+          "imageCategory": "spa",
+          "slug": "paquete-bienestar",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Paquete Premium",
+          "description": "Masaje piedras + facial anti-edad + envoltura",
+          "priceCents": 520000,
+          "category": "Paquetes",
+          "tags": [
+            "premium",
+            "completo",
+            "luxury"
+          ],
+          "imageCategory": "spa",
+          "slug": "paquete-premium",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?spa",
+          "available": true
+        },
+        {
+          "name": "Vela Aromática",
+          "description": "Vela de soya con aceites esenciales lavanda 200g",
+          "priceCents": 60000,
+          "category": "Productos",
+          "tags": [
+            "vela",
+            "aroma",
+            "lavanda"
+          ],
+          "imageCategory": "products",
+          "slug": "vela-arom-tica",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Aceite de Masaje",
+          "description": "Aceite de masaje con aceites esenciales 250ml",
+          "priceCents": 80000,
+          "category": "Productos",
+          "tags": [
+            "aceite",
+            "masaje",
+            "esenciales"
+          ],
+          "imageCategory": "products",
+          "slug": "aceite-de-masaje",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Gift Card 200.000",
+          "description": "Tarjeta de regalo canjeable por cualquier tratamiento",
+          "priceCents": 200000,
+          "category": "Gift Cards",
+          "tags": [
+            "gift",
+            "regalo",
+            "canjeable"
+          ],
+          "imageCategory": "products",
+          "slug": "gift-card-200-000",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en San Antonio y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "Spa Asunción",
+    "copyright": "© {{year}} Spa Asunción",
+    "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Spa y me interesa un sitio para mi negocio"
+  }
+}

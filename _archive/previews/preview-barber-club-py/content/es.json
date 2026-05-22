@@ -1,0 +1,564 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "paragu-ai",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Barber Club Py",
+  "tagline": "Tradición y maestría en cada detalle",
+  "placeholders": {
+    "businessName": "Barber Club Py",
+    "city": "San Lorenzo",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Barber Club Py",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Reservar",
+        "path": "#reservar"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Reservar turno",
+    "ctaHref": "#reservar"
+  },
+  "home": {
+    "seo": {
+      "title": "Barber Club Py | Cortes Clásicos y Modernos en San Lorenzo",
+      "description": "Barber club py en Lambaré. 4 estrellas y 137 resenas en Google. Conocenos!"
+    },
+    "hero": {
+      "headline": "Estilo clásico, actitud moderna",
+      "subheadline": "En Lambaré con atencion personalizada y la mejor calidad.",
+      "ctaPrimaryText": "Reservá tu cita",
+      "ctaPrimaryHref": "#reservar",
+      "ctaSecondaryText": "Ver servicios",
+      "ctaSecondaryHref": "#servicios",
+      "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=1200",
+      "imageAlt": "Barber Club Py — Interior de la barbería"
+    },
+    "promoBanner": {
+      "title": "🔥 Promo Semanal: Corte + Barba Gs. 80.000",
+      "subtitle": "Con 137 resenas positivas en Google. Te esperamos!",
+      "ctaText": "Reservar",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Cortes clásicos y modernos para el hombre actual",
+      "subtitle": "Utilizamos productos importados y técnicas tradicionales combinadas con tendencias actuales",
+      "items": [
+        {
+          "name": "Corte Clásico",
+          "description": "Corte tradicional a máquina y tijera, peinado con productos profesionales",
+          "price": "Gs. 45.000",
+          "duration": "30 min",
+          "icon": "Scissors",
+          "image": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+        },
+        {
+          "name": "Corte Degradado (Fade)",
+          "description": "Fade americano, mid fade, low fade, high fade, taper y undercut. Personalizado según tu estilo",
+          "price": "Gs. 55.000",
+          "duration": "40 min",
+          "icon": "Scissors",
+          "image": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600"
+        },
+        {
+          "name": "Afeitado Tradicional",
+          "description": "Afeitado con navaja recta, toalla caliente, bálsamo pre y post afeitado premium",
+          "price": "Gs. 65.000",
+          "duration": "35 min",
+          "icon": "Heart",
+          "image": "https://images.unsplash.com/photo-1585747861115-d7f5368f3c8a?w=600"
+        },
+        {
+          "name": "Arreglo de Barba",
+          "description": "Perfilado de barba con navaja y tijera, recorte de bigote, hidratación con aceites esenciales",
+          "price": "Gs. 35.000",
+          "duration": "20 min",
+          "icon": "Feather",
+          "image": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600"
+        },
+        {
+          "name": "Tintura Masculina",
+          "description": "Coloración profesional para canas, cambios de tono o look completo. Productos sin amoníaco",
+          "price": "Gs. 90.000",
+          "duration": "60 min",
+          "icon": "Droplets",
+          "image": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+        },
+        {
+          "name": "Tratamiento Capilar",
+          "description": "Hidratación profunda, keratina, revitalización capilar y tratamiento anticaída con productos importados",
+          "price": "Gs. 75.000",
+          "duration": "45 min",
+          "icon": "Sparkles",
+          "image": "https://images.unsplash.com/photo-1503951914875-452cb67b3dd5?w=600"
+        },
+        {
+          "name": "Corte + Barba (Combo)",
+          "description": "Nuestro combo más popular: corte degradado o clásico + perfilado completo de barba",
+          "price": "Gs. 80.000",
+          "duration": "55 min",
+          "icon": "Star",
+          "image": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600"
+        },
+        {
+          "name": "Corte Infantil",
+          "description": "Corte para niños hasta 12 años. Incluye premio sorpresa y ambiente relajado",
+          "price": "Gs. 35.000",
+          "duration": "25 min",
+          "icon": "Zap",
+          "image": "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Navaja profesional importada",
+        "Productos premium USA y Europa",
+        "8 años de experiencia",
+        "Ambiente VIP con aire acondicionado",
+        "WiFi gratis",
+        "Estacionamiento",
+        "4/5 estrellas en Google"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEFeG7DsjCB6PNoY6yhFi9E7N1uu4eqTBN7pCr7Z6IaxStgch36x3hAKcfFJiF7l8m9V6WkWjLAVY5WlR6Jwtbt_5Zhx7ihiY8QnJuI9YQfTZHmTxyeF05IfILItjXw8Djj2WtcuUMR1p08Pomj1jwGcItKVACkaLmLyJKGGfFysfJDigLVfVGeMN8jtCwO9tYG--m-IEC3KpnMWGtvmJ06H1hwpfomYEfIXjUiy8ix5u7WfNS4FiNn2qhIPRFcaTILwVx197j6yDKl2z9611xg2YbQX5EF6f7bvQNgzv43fqwB1ca0Im-GxS77E7HmVGJ6MgTniZ4DzqJObBfENJL-HqADqjZWtsXKw7TIwnsPcm-eVOPwZo7G-c5Gn6L2Aka2NJDOeXn0nH91gymKh4MS99PEvgdg1Z32yfy6EfZcKDkXu&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEGbtfhKEKxR2CEuryo0RFtaVZPTi85Ly3LQlLRzTpLestacs2PBvCFhIQ0_gc3KGPrQ9ystXizdxXhu1Y_6cvXp8lsPc8S-H0QKQ5G0tyvjO-fshQeSa9QO05_zgfBIDUaOT022tnskVhEIXIv7tr-ySTo1HJYf9Hk5UkdbVDBGt2KbF1rJQsmsoGF7YmYqkg1mt0zsI2PDQf4pEm3jOWFBaoIjfdGJNMxYRtEuBslvYOy7VbKZa716SxpVuPjIINCw8iX7wlLDUk1Sk2WURwus9m1BjJ3YBO_Or1207RoO270EVZOa-WIXhZxgr5kvoqikDpys3eMpJLsYexaosgrIv5R3e7RLQjuwoTWMpK8Dtans6pTNnWtUVJCL5xNmNyqjs4K6V_IV6VQQzTuTE99b_QLqAu8B7zN0Pdd8QW0dcw&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEP3h7zqP3Fq-TFrLDPXGZSaJ9VdFakIrcCfojRLKu2J8ii0QtsFfWF8PrA7UAVP9pW32viv8JjXQemYn6fvM_OdMOTP_iAuT_PI2J9vZUugBL8Is5JvuhqrPFxR0Ilpuvj7Ks_pyJ1eYTvN_R7KBaP-qZgZ4oFtSw-uzIbiR7qxMTr6uPfXVGugSo0a7JwuluMb03KzywgI3NQXNXV-Jz4RGxPUkd5UxEjKxPORPxTScilxn6AA2pizlrv3halqVpnUbt5ig5YkwJf2CRKScJa3Pv_L0spgN4WORZaj1XQB515SMBmoZid9-UAnoYL7Ft280LCJb_AimV_cPgjFMJ2yd_nCXt_6TySzqS3mAssgWO3M4zs_w8OXl-fj27daJmJkFH4FrsCop5_tnnyxrVSU4mWQk3rMtoQWkwJB3s&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEG_hvvF6BYXiabCnV9guK2T0NIxTLRSscGHSkoXO9eQWj8ajQFcnRadaGByAHMEytHKHkboNH81dEmoy8jAtPPJn7PHQagPBGTCJFLJJbV50kDsn_sx3mn7GNZK_Wzn5DmHGhcjQjpkujQgNQQ48fIOhtG9W65r67LlDNEs3p6VZZhdo25Fg4p07yIwIoXJWtTegYtWo0-8Pv66hS7tT2XhQ1HO5tTMpDgY5B_2d3bs__pRUhf9Iwfs7Wb7aDjNa0Smw1i9dquhju2Tx32bzC22QkQFRl13usGF37junYnmKArkFdtVsOTidqYiVR8Hyfra45_021OslDNb979o2f9fA_Fc50gsf54THyXm4mUKwRkJMsMhS8AHl2zEw5nCQtGviXa9TPsok_8Bzxe0Y2c8ZD5oZV_4OanFrW-6JoZ9TA&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEVllB80ax2cxbjeR8FDKxBpb7ekQ48u1dMLXDbcVBLg4kBiZnOHBbTeN1COm3pRBsdZ2kzx3sKfeJT98l39g6e-wePGFRBgBRXjb3VvkW312D-kf933aHG4Ehg7Hakt8DlEgzLaVUiFsPio0nckWgrOklNaaXcE2A6KlyYOxYZ0CvSGLDRXddXQF_9U55mcPjvlM3GYxkKkRM4KU3MPPVONvyAW6LyUZDQ8RxScCFfkW2CR8txDVVFXW0b77ir7JQGjr1vbetiqTBf38p8xWUj5lS5Wp0tawu4gCV0jn0EMHEgkc9M8FTTpZNxp3Nm0470v8S3umGvPbiTvwiLYntbCkppaJaecWajWM8z5UrQnM_S7KW9JJHe_P8ElHNcTVqLUG_vmwvbDTFNlWmPQOyfcjKgIu1CZkSfp6CtcWirpQ&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHTpwNddYWLpQwgls2pzWYVulewb8NeAnvhSRdZaJATq5wFq-AimMssE6ATi5UYqGIynsFoUwGz5gzi3dhye2lNeYifXZSz3H_Ts4uDTolaQL4B9JqNA7-piToZzGpPZ-66pkJ6ZHUhni6QeEGf4YFJNxWEdu4kaFirXZjooAavxEyDQKuEHuAiptznHuxnchM9v9nhDBcr19_NEuIsbGSMUpEK5D0YfU5c9sBL0hssQ9bBbRFziD8FFc1TUIEj0PriIDqhQYOvLupkCIhjooCGEONrUQ088E3HaTdNKb1orzhA9A5g8Fc7x6E4-zqFipvcgy4wACfppTWzS21P3QMquj6J0k67D44-m5O7izXkzLpoQEzdFm-COVC3yQaFIEuIac32dpp8EWHSegiOm22UB1betbyKvGs7aP8Yp7T2Mi-f&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "subtitle": "Barberos profesionales apasionados por el arte de la barbería tradicional y moderna",
+      "items": [
+        {
+          "name": "Miguel Ángel López",
+          "role": "Barbero Senior / Dueño",
+          "description": "12 años de experiencia. Maestro en degradados americanos y afeitado con navaja recta. Formado en Buenos Aires y Madrid.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400"
+        },
+        {
+          "name": "Jorge Ferreira",
+          "role": "Barbero Profesional",
+          "description": "8 años en el rubro. Especialista en cortes degradados, undercut y diseños con máquina. Fanático del detalle.",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400"
+        },
+        {
+          "name": "Diego Martínez",
+          "role": "Estilista / Colorista",
+          "description": "6 años de experiencia. Especializado en tintura masculina, tratamientos capilares y cortes infantiles. Clientes fieles de todas las edades.",
+          "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Reseñas",
+      "subtitle": "Basado en 137 reseñas en Google",
+      "items": []
+    },
+    "booking": {
+      "title": "Reservá tu cita",
+      "subtitle": "Elegí el servicio, el barbero y el horario que mejor te quede",
+      "phone": "+595985123456",
+      "services": [
+        {
+          "name": "Corte Clásico",
+          "duration": "30 min",
+          "price": "Gs. 45.000"
+        },
+        {
+          "name": "Corte Degradado (Fade)",
+          "duration": "40 min",
+          "price": "Gs. 55.000"
+        },
+        {
+          "name": "Afeitado Tradicional",
+          "duration": "35 min",
+          "price": "Gs. 65.000"
+        },
+        {
+          "name": "Arreglo de Barba",
+          "duration": "20 min",
+          "price": "Gs. 35.000"
+        },
+        {
+          "name": "Tintura Masculina",
+          "duration": "60 min",
+          "price": "Gs. 90.000"
+        },
+        {
+          "name": "Tratamiento Capilar",
+          "duration": "45 min",
+          "price": "Gs. 75.000"
+        },
+        {
+          "name": "Corte + Barba (Combo)",
+          "duration": "55 min",
+          "price": "Gs. 80.000"
+        },
+        {
+          "name": "Corte Infantil",
+          "duration": "25 min",
+          "price": "Gs. 35.000"
+        }
+      ],
+      "ctaText": "Reservar por WhatsApp"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Aceptan tarjetas de crédito?",
+          "a": "Sí, aceptamos efectivo, transferencia bancaria, tarjetas de crédito y débito de todas las franquicias."
+        },
+        {
+          "q": "¿Atienden sin cita previa?",
+          "a": "Sí, aceptamos clientes sin turno, pero te recomendamos reservar online para evitar esperas, especialmente los fines de semana."
+        },
+        {
+          "q": "¿Cuánto dura cada servicio?",
+          "a": "Un corte promedio dura 30-40 minutos. Corte + barba unos 50-55 minutos. Tintura masculina hasta 60 minutos."
+        },
+        {
+          "q": "¿Tienen servicio a domicilio?",
+          "a": "Sí, ofrecemos servicio a domicilio para eventos, cumpleaños y grupos de 4 o más personas. Consultanos por WhatsApp."
+        },
+        {
+          "q": "¿Usan productos de calidad?",
+          "a": "Trabajamos con marcas importadas de Estados Unidos y Europa. Todos nuestros productos son profesionales y sin tester."
+        },
+        {
+          "q": "¿Hacen cortes para niños?",
+          "a": "Sí, atendemos niños desde los 3 años. Contamos con un ambiente amigable y premio sorpresa al final del corte."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Visitános en San Lorenzo o contactanos por WhatsApp para reservar tu turno",
+      "address": "Av. Defensores del Chaco 1450",
+      "city": "Lambaré",
+      "phone": "+595 971 888665",
+      "email": "info@barberiasanlorenzo.com.py",
+      "whatsapp": "+595 971 888665",
+      "mapEmbedUrl": "https://maps.google.com/maps?q=San+Lorenzo+Paraguay&z=15"
+    },
+    "hours": {
+      "Lunes": "9:00 AM – 8:00 PM",
+      "Martes": "9:00 AM – 8:00 PM",
+      "Miercoles": "9:00 AM – 8:00 PM",
+      "Jueves": "9:00 AM – 8:00 PM",
+      "Viernes": "9:00 AM – 8:00 PM",
+      "Sabado": "9:00 AM – 8:00 PM",
+      "Domingo": "Closed"
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "Barber Club Py — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Corte Clásico",
+          "description": "Corte tradicional con tijera y máquina",
+          "priceCents": 45000,
+          "category": "Cortes",
+          "tags": [
+            "clasico",
+            "tijera",
+            "tradicional"
+          ],
+          "imageCategory": "barber",
+          "slug": "corte-cl-sico",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Fade Moderno",
+          "description": "Degradado moderno con línea definida",
+          "priceCents": 55000,
+          "category": "Cortes",
+          "tags": [
+            "fade",
+            "moderno",
+            "degradado"
+          ],
+          "imageCategory": "barber",
+          "slug": "fade-moderno",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Afeitado Clásico",
+          "description": "Afeitado con toalla caliente y navaja",
+          "priceCents": 50000,
+          "category": "Afeitado",
+          "tags": [
+            "afeitado",
+            "navaja",
+            "clasico"
+          ],
+          "imageCategory": "barber",
+          "slug": "afeitado-cl-sico",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Arreglo de Barba",
+          "description": "Perfilado de barba con máquina y tijera",
+          "priceCents": 30000,
+          "category": "Barba",
+          "tags": [
+            "barba",
+            "perfilado",
+            "recorte"
+          ],
+          "imageCategory": "barber",
+          "slug": "arreglo-de-barba",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Corte + Barba",
+          "description": "Combo corte y arreglo de barba completo",
+          "priceCents": 70000,
+          "category": "Paquetes",
+          "tags": [
+            "combo",
+            "corte",
+            "barba"
+          ],
+          "imageCategory": "barber",
+          "slug": "corte-barba",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Corte Infantil",
+          "description": "Corte para niños hasta 12 años",
+          "priceCents": 35000,
+          "category": "Cortes",
+          "tags": [
+            "infantil",
+            "niños",
+            "corte"
+          ],
+          "imageCategory": "barber",
+          "slug": "corte-infantil",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Corte Degradado + Barba",
+          "description": "Fade degradado completo más perfilado de barba",
+          "priceCents": 80000,
+          "category": "Paquetes",
+          "tags": [
+            "fade",
+            "barba",
+            "degradado"
+          ],
+          "imageCategory": "barber",
+          "slug": "corte-degradado-barba",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        },
+        {
+          "name": "Cera para Cabello",
+          "description": "Cera premium con fijación fuerte 100g",
+          "priceCents": 45000,
+          "category": "Productos",
+          "tags": [
+            "cera",
+            "fijacion",
+            "cabello"
+          ],
+          "imageCategory": "products",
+          "slug": "cera-para-cabello",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Aceite para Barba",
+          "description": "Aceite hidratante con aroma amaderado 30ml",
+          "priceCents": 55000,
+          "category": "Productos",
+          "tags": [
+            "aceite",
+            "barba",
+            "hidratante"
+          ],
+          "imageCategory": "products",
+          "slug": "aceite-para-barba",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Corte + Afeitado + Barba",
+          "description": "Paquete completo de grooming",
+          "priceCents": 100000,
+          "category": "Paquetes",
+          "tags": [
+            "completo",
+            "premium",
+            "grooming"
+          ],
+          "imageCategory": "barber",
+          "slug": "corte-afeitado-barba",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?barber",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en San Lorenzo y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "Barber Club Py",
+    "copyright": "© {{year}} Barber Club Py. Todos los derechos reservados.",
+    "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Barbería y me interesa un sitio para mi negocio"
+  }
+}

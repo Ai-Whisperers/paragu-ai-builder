@@ -1,0 +1,89 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "home.hero",
+      "styling": {
+        "padding": "xl",
+        "background": "image",
+        "textColor": "light",
+        "backgroundImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80"
+      }
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats",
+      "styling": {
+        "padding": "md",
+        "background": "alt"
+      }
+    },
+    {
+      "id": "trust-signals",
+      "variant": "credentials",
+      "content": "home.credenciales",
+      "styling": {
+        "background": "default"
+      }
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "home.services",
+      "styling": {
+        "background": "alt"
+      }
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "home.process",
+      "styling": {
+        "background": "default"
+      }
+    },
+    {
+      "id": "features",
+      "variant": "three-col",
+      "content": "home.credentials",
+      "styling": {
+        "background": "alt"
+      }
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials",
+      "styling": {
+        "background": "default"
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "home.faq",
+      "styling": {
+        "background": "alt"
+      }
+    },
+    {
+      "id": "blog-index",
+      "variant": "grid",
+      "content": "home.blogPreview"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.cta",
+      "styling": {
+        "padding": "lg",
+        "background": "accent"
+      }
+    }
+  ]
+}

@@ -1,9 +1,9 @@
-FROM paragu-ai/next-base:node20 AS deps
+FROM ghcr.io/ai-whisperers/next-base:node20 AS deps
 WORKDIR /app
 COPY web/package.json web/package-lock.json* ./
 RUN npm install --legacy-peer-deps
 
-FROM paragu-ai/next-base:node20 AS builder
+FROM ghcr.io/ai-whisperers/next-base:node20 AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY web/ .
@@ -16,7 +16,7 @@ ENV NEXT_PUBLIC_APP_URL=${NEXT_PUBLIC_APP_URL}
 ENV NEXT_TELEMETRY_DISABLED=1
 RUN npm run build
 
-FROM paragu-ai/next-base:node20 AS runner
+FROM ghcr.io/ai-whisperers/next-base:node20 AS runner
 WORKDIR /app
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1

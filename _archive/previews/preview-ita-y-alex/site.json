@@ -1,0 +1,79 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "spa",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+34 922 09 11 32",
+    "email": "contacto@demospa.com.py",
+    "instagram": "@demo.spa.py",
+    "phone": "+34 922 09 11 32"
+  },
+  "location": {
+    "city": "Güímar",
+    "address": "Av. de Santa Cruz, 1, 38500 Güímar, Santa Cruz de Tenerife, Spain",
+    "coordinates": {
+      "lat": 28.3163935,
+      "lng": -16.4091705
+    },
+    "googleMapsId": "ChIJ7TqJQTcRmZQR7qWk5T5j6tY"
+  },
+  "integrations": {
+    "crm": "hubspot",
+    "email": "mailchimp",
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-spa"
+      }
+    },
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-spa-form"
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "productCatalog": true,
+    "commerce": true,
+    "featuredProducts": true,
+    "shop": true,
+    "giftCards": true,
+    "booking": true,
+    "membershipPlans": true
+  },
+  "demo": true,
+  "demoRubro": "spa",
+  "demoWave": 1,
+  "demoCluster": "Bienestar",
+  "noindex": true,
+  "createdAt": "2026-04-25T05:23:41.358Z",
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-ita-y-alex",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-ita-y-alex",
+  "social": {
+    "facebook": "demospaasuncion",
+    "tiktok": "@demo.spa.py",
+    "instagram": "@demo.spa.py"
+  },
+  "preview": true,
+  "previewLeadId": "99d321ca-8e5f-44b3-9e65-6aa4f7bfa2b1",
+  "google_maps_url": "https://maps.google.com/?cid=1070707201293016613",
+  "business_status": "OPERATIONAL",
+  "commerce": {
+    "enabled": true,
+    "currency": "PYG",
+    "provider": "pagopar",
+    "whatsappEnabled": true
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion"
+  }
+}

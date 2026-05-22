@@ -1,0 +1,14 @@
+{
+  "slug": "propiedades",
+  "titleKey": "propertiesPage.seo.title",
+  "descriptionKey": "propertiesPage.seo.description",
+  "schemaType": "RealEstateAgent",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "propertiesPage.hero" },
+    { "id": "property-listings", "variant": "grid", "content": "propertiesPage.listings" },
+    { "id": "cta-banner", "variant": "gradient", "content": "propertiesPage.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ]
+}

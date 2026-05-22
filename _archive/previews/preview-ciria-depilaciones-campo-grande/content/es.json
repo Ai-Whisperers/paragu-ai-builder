@@ -1,0 +1,479 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "enrich-batch",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Ciria Depilaciones Campo Grande",
+  "tagline": "Depilación profesional con tecnología de punta",
+  "placeholders": {
+    "businessName": "Ciria Depilaciones Campo Grande",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Depilación Profesional",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Reservar turno",
+    "ctaHref": "#reservar"
+  },
+  "home": {
+    "seo": {
+      "title": "Depilación Asunción - Depilación Láser y Cera",
+      "description": "Ciria Depilaciones Campo Grande en Asunción. 4 estrellas y 152 resenas en Google. Conocenos!"
+    },
+    "hero": {
+      "headline": "Depilación definitiva sin dolor",
+      "subheadline": "En Asunción con atencion personalizada y la mejor calidad.",
+      "ctaPrimaryText": "Reservá tu evaluación",
+      "ctaSecondaryText": "Ver tratamientos"
+    },
+    "promoBanner": {
+      "title": "Promoción de Lanzamiento",
+      "subtitle": "Con 152 resenas positivas en Google. Te esperamos!",
+      "ctaText": "Reservar ahora",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Tratamientos",
+      "title": "Soluciones para cada necesidad",
+      "items": [
+        {
+          "name": "Depilación Láser Definitiva",
+          "description": "Láser diode de alta potencia. Resultados permanentes.",
+          "price": "Gs. 150.000/sesión",
+          "icon": "Zap",
+          "duration": 30,
+          "category": "Láser"
+        },
+        {
+          "name": "Depilación con Cera",
+          "description": "Cera natural hipoalergénica para todo el cuerpo.",
+          "price": "Gs. 60.000",
+          "icon": "Droplets",
+          "duration": 30,
+          "category": "Cera"
+        },
+        {
+          "name": "Láser Zona Facial",
+          "description": "Labio, mentón, mejillas y frente.",
+          "price": "Gs. 80.000/sesión",
+          "icon": "Sparkles",
+          "duration": 15,
+          "category": "Láser"
+        },
+        {
+          "name": "Láser Axilas",
+          "description": "Eliminación definitiva del vello axilar.",
+          "price": "Gs. 70.000/sesión",
+          "icon": "Crosshair",
+          "duration": 15,
+          "category": "Láser"
+        },
+        {
+          "name": "Láser Piernas Completas",
+          "description": "Depilación definitiva de piernas enteras.",
+          "price": "Gs. 250.000/sesión",
+          "icon": "Feather",
+          "duration": 45,
+          "category": "Láser"
+        },
+        {
+          "name": "Dermaplaning Facial",
+          "description": "Eliminación de vello facial + exfoliación profunda.",
+          "price": "Gs. 90.000",
+          "icon": "Sparkles",
+          "duration": 30,
+          "category": "Facial"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Tecnología láser diode",
+        "Profesionales certificadas",
+        "Ambiente climatizado",
+        "Resultados garantizados",
+        "Precios accesibles",
+        "4/5 estrellas en Google"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro espacio",
+      "subtitle": "Instalaciones modernas y equipadas",
+      "columns": 3,
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600",
+          "alt": "Consultorio",
+          "caption": "Consultorio privado"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600",
+          "alt": "Equipo láser",
+          "caption": "Tecnología láser diode"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600",
+          "alt": "Tratamiento",
+          "caption": "Sesión de depilación"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 152 reseñas",
+      "items": [
+        {
+          "author": "PJ Traveller",
+          "quote": "Truthfully, the best back wax I have ever had. Normally, when I am in England, I get my back waxed at my regular local establishment that does male grooming. I have used the same people for years. How",
+          "rating": 5
+        },
+        {
+          "author": "Alba Ale",
+          "quote": "Super",
+          "rating": 5
+        }
+      ]
+    },
+    "booking": {
+      "title": "Reservá tu sesión",
+      "subtitle": "Evaluación sin costo",
+      "services": [
+        {
+          "name": "Evaluación gratuita",
+          "duration": 20,
+          "category": "Evaluación"
+        },
+        {
+          "name": "Láser axilas",
+          "duration": 15,
+          "category": "Láser"
+        },
+        {
+          "name": "Láser facial",
+          "duration": 15,
+          "category": "Láser"
+        },
+        {
+          "name": "Láser piernas",
+          "duration": 45,
+          "category": "Láser"
+        },
+        {
+          "name": "Depilación cera completa",
+          "duration": 30,
+          "category": "Cera"
+        },
+        {
+          "name": "Dermaplaning",
+          "duration": 30,
+          "category": "Facial"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Duele la depilación láser?",
+          "a": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma."
+        },
+        {
+          "q": "¿Cuántas sesiones necesito?",
+          "a": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos."
+        },
+        {
+          "q": "¿Hay algún cuidado especial?",
+          "a": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada."
+        },
+        {
+          "q": "¿Cuánto dura cada sesión?",
+          "a": "Depende de la zona: axilas 15 min, piernas completas 45 min."
+        }
+      ]
+    },
+    "hours": {
+      "Lunes": "8:00 AM – 7:00 PM",
+      "Martes": "8:00 AM – 7:00 PM",
+      "Miercoles": "8:00 AM – 7:00 PM",
+      "Jueves": "8:00 AM – 7:00 PM",
+      "Viernes": "8:00 AM – 7:00 PM",
+      "Sabado": "8:00 AM – 7:00 PM",
+      "Domingo": "Closed"
+    },
+    "contact": {
+      "phone": "+595 981 933247",
+      "city": "Asunción",
+      "whatsapp": "+595 981 933247"
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "Ciria Depilaciones Campo Grande — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Depilación Láser Axilas",
+          "description": "Sesión de depilación láser definitiva en axilas",
+          "priceCents": 80000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "axilas",
+            "definitiva"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-axilas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Depilación Láser Piernas Completas",
+          "description": "Sesión completa de piernas con láser",
+          "priceCents": 250000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "piernas",
+            "completa"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-piernas-completas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Depilación Láser Línea Bikini",
+          "description": "Sesión bikini con láser definitivo",
+          "priceCents": 100000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "bikini",
+            "definitiva"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-l-nea-bikini",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Depilación Láser Rostro",
+          "description": "Sesión de depilación láser facial",
+          "priceCents": 60000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "rostro",
+            "facial"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-rostro",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Paquete 6 Sesiones Axilas",
+          "description": "6 sesiones láser en axilas — resultados permanentes",
+          "priceCents": 400000,
+          "category": "Paquetes",
+          "tags": [
+            "paquete",
+            "laser",
+            "axilas",
+            "ahorro"
+          ],
+          "imageCategory": "beauty",
+          "slug": "paquete-6-sesiones-axilas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Paquete 8 Sesiones Piernas",
+          "description": "8 sesiones de láser en piernas completas",
+          "priceCents": 1500000,
+          "category": "Paquetes",
+          "tags": [
+            "paquete",
+            "laser",
+            "piernas",
+            "ahorro"
+          ],
+          "imageCategory": "beauty",
+          "slug": "paquete-8-sesiones-piernas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Cera Tradicional Piernas",
+          "description": "Depilación con cera tradicional",
+          "priceCents": 50000,
+          "category": "Cera",
+          "tags": [
+            "cera",
+            "piernas",
+            "tradicional"
+          ],
+          "imageCategory": "beauty",
+          "slug": "cera-tradicional-piernas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Cera Brasileña",
+          "description": "Depilación completa con cera",
+          "priceCents": 70000,
+          "category": "Cera",
+          "tags": [
+            "cera",
+            "brasilena",
+            "completa"
+          ],
+          "imageCategory": "beauty",
+          "slug": "cera-brasile-a",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Crema Post-Depilación",
+          "description": "Crema calmante post-depilación con aloe vera 200ml",
+          "priceCents": 55000,
+          "category": "Productos",
+          "tags": [
+            "crema",
+            "calmante",
+            "post-depilacion"
+          ],
+          "imageCategory": "products",
+          "slug": "crema-post-depilaci-n",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Gift Card Depilación",
+          "description": "Tarjeta de regalo canjeable por sesiones de depilación",
+          "priceCents": 150000,
+          "category": "Gift Cards",
+          "tags": [
+            "gift",
+            "regalo",
+            "depilacion"
+          ],
+          "imageCategory": "products",
+          "slug": "gift-card-depilaci-n",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en Asunción y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "Ciria Depilaciones Campo Grande",
+    "copyright": "© {{year}} Ciria Depilaciones Campo Grande",
+    "disclaimer": "Esta es una demostración."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Depilación y me interesa un sitio para mi negocio"
+  }
+}

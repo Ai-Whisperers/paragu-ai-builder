@@ -1,0 +1,27 @@
+{
+  "slug": "sobre",
+  "titleKey": "sobre.seo.title",
+  "descriptionKey": "sobre.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "sobre.hero"
+    },
+    {
+      "id": "features",
+      "variant": "three-col",
+      "content": "sobre.bio"
+    },
+    {
+      "id": "process",
+      "variant": "steps",
+      "content": "home.process"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "ctaBanner"
+    }
+  ]
+}

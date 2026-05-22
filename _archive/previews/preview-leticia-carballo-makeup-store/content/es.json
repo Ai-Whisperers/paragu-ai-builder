@@ -1,0 +1,475 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "enrich-batch",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Leticia Carballo Makeup & Store",
+  "tagline": "Maquillaje profesional para toda ocasión",
+  "placeholders": {
+    "businessName": "Leticia Carballo Makeup & Store",
+    "city": "Fernando de la Mora",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Maquillaje Profesional",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Reservar turno",
+    "ctaHref": "#reservar"
+  },
+  "home": {
+    "seo": {
+      "title": "Leticia Carballo Makeup & Store - Maquillaje Social y Novias",
+      "description": "Leticia Carballo Makeup & Store en Fernando de la Mora. 4 estrellas y 206 resenas en Google. Conocenos!"
+    },
+    "hero": {
+      "headline": "Resaltá tu belleza natural",
+      "subheadline": "En Fernando de la Mora con atencion personalizada y la mejor calidad.",
+      "ctaPrimaryText": "Reservá tu fecha",
+      "ctaSecondaryText": "Ver trabajos"
+    },
+    "promoBanner": {
+      "title": "Promoción de Lanzamiento",
+      "subtitle": "Con 206 resenas positivas en Google. Te esperamos!",
+      "ctaText": "Reservar ahora",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Maquillaje para cada momento",
+      "items": [
+        {
+          "name": "Maquillaje Social",
+          "description": "Maquillaje natural y moderno para el día a día y eventos",
+          "price": "Gs. 120.000",
+          "icon": "Sparkles",
+          "duration": 45,
+          "category": "Social"
+        },
+        {
+          "name": "Maquillaje Novias",
+          "description": "Maquillaje profesional para tu gran día. Incluye prueba + sesión",
+          "price": "Gs. 350.000",
+          "icon": "Heart",
+          "duration": 90,
+          "category": "Novias"
+        },
+        {
+          "name": "Maquillaje Quinceañeras",
+          "description": "Look espectacular para tus 15 años",
+          "price": "Gs. 250.000",
+          "icon": "Star",
+          "duration": 60,
+          "category": "Eventos"
+        },
+        {
+          "name": "Maquillaje Artístico",
+          "description": "Maquillaje creativo para sesiones de fotos y producciones",
+          "price": "Gs. 200.000",
+          "icon": "Palette",
+          "duration": 60,
+          "category": "Artístico"
+        },
+        {
+          "name": "Clase de Maquillaje",
+          "description": "Aprendé a maquillarte. Técnicas profesionales para tu día a día",
+          "price": "Gs. 150.000",
+          "icon": "BookOpen",
+          "duration": 90,
+          "category": "Clases"
+        },
+        {
+          "name": "Maquillaje a domicilio",
+          "description": "Te maquillamos en la comodidad de tu hogar",
+          "price": "Gs. 180.000",
+          "icon": "Home",
+          "duration": 60,
+          "category": "Domicilio"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Productos hipoalergénicos",
+        "5 años de experiencia",
+        "Maquillaje a prueba de agua",
+        "Tendencia y calidad",
+        "4/5 estrellas en Google"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEbM4mV2GVbSgRyNbLo-qoB7teobq-RfeJGs_3Tm_us5puEqGyG_AYyqJXo21gs-LxHrGydJ1T7YaSZq8pPuBKxHntEs3ddLV2z4w-WcfNws9LDysX39cmD_b9y1z_qGGUepVQYmMgzOEDJ4Jb8Fp9N4zjDjNIAHyqOf0S5P2xqsw56-beKd09xir38TJ1FH_NiEm23vXV8vv5-VGYp04BhCYZgFb0ZnR0h_8Arc581TZ-Mq0uSdKdytWCrvcr4s8lAyv4TNj0ehwFpdsWOjCtkRf2Igc1X19BRmN9PZn5WHw&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEagkK1uO7STba0s7Sxwru50wEA3HniJddTTwTjWpJ6WLKXVrxaVuJej99w3y3lsL1KwDUXGtdSvWBoMSUI0bdRKfYInKZs090nEvEg8LOZGZjqiDVNJoBURg9vJr0en85cUUmKYMxPslXpBZRKwq-LmGTYP4Xvq2s5bFyQfjbOSXV7baGQCxBJ9iP3aHZhiYTBgnhjEyt_2lndOG4hhkHhTk8azjebPptSctYb9rQnqRp0lMA8JKqxA8aHExF14RJiH4-POypSYScdG6e7KtvtSD9qm21VUr5DkXFsp6P-EQ&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEGLVARj2l2OzqSMd4LolP3rb-LgOzbCsthVgLGUTWR4jVSfPNbVmjMCS8lLBCc06VRaeQJSGAa6zrn2dJn1Z49PMCkGsyil8eniHRzKOPdiQRCTHTniMKn1qt_wSfSfmQl--m4jpMDq2TfVD5n6vLCza4AdCO7y9PKav7k0_94MyYTmppEo-As5ra0yYb_lHa2h-ATZQK7-j426TD9TSdiWMfy_cQQfpwDZP3eKc-lBDJ5AN7um5I-oy0sntFga2uOKTdX2tuIShpFwkh2n9nwRuAkvmpHKSLxVFVS-KTGdLA&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHAGbWBOv3Ey146JUOvldX74aHtrIgfbvXdvLa2KQBhrPyepBxnAwOndFXvchqNMe3AeBBzYuX-Yj7qF-CY2mtRRMzoiMURbes7ifaJyewHeJPaiUS5PTdumJCWQg1ZLPX5QdN0y462K6_Di_vZvjvI43-lp4G_hhtivwBjHUnbhX7yf6nHQbkww1jANXmCVFaIacg6Or5Ls0uNza1Bgu_MkRDBMJ4X8tnLCbqfbwLKjsD1GSuY5t9AqS8ukQ0Ju_O99kyvgJonXtlwNYMpRKtFJ7mZKOY1d2cVKB0KGdF5Ev6XJmFWwkeOJViViZmjvWlIYl-ONoUbHIiuGsK_3xeFaFec5NiyilpJCRp6V3yZzMsRwi30M1H65eCmzhQ97BeHvR_9KJX2fm2RDrHD1si4QWiOnfF9KzeQLPaFz-s&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEER2eyVJk0HbLqj-Ce72kl2IAg42Z8u7KNVpmay-bIQcMi0VLmlb0rJeKCYnxUuoZ5qpkYHOcvSkD-8sTJI-X4m83ik3HLR_iDUu3XgZG5lpj5yIbEahf5aOSguyNOLUQen0AmTnvT2anxoIabO29_VSdEOjMILY8hgVY1ZA2yE-Codp-A7cPAJPugpjLCNUDH1taKFw3-eQGMKodn9S57AKafp4PkpkAhjQSxiVzIMzTtO06Woxh5hF2zUzm8sSd33HyabGUAb-g6DiLZ24F1gGexifD7SvKOwjLV_Acw9qA&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEG_zwHxAJxE1SWl72L_dbzQvsNmoNWLY75v-4BDjNfUnSmprdV1xfqxH1YYaTUnGimTglS8mXhYQuaYs9etduVmCGrOsM8sobw__2gP6kxpC0dvC2nV8Xa2JMxwU1ej_utyqLqnKkW8KajhdtTO-5YhgV4gMQHSUyrKNocfscMa2NYfx5nNP-ewC-ypyxMuSgYnSks3cJqPSscj3biC3RHcVXhWFYzBRL9MueSl4EWxGhGF2VOeAE1OKmb5ZRpWbJonEeVZ5DioI86gFTuzT-hLYxUH_CPXfGIw2B4onVAkQkgu60jJ49SEzpYY-ymyVdURTRQXmMFx-yhzXyXsCL4_6BY_R9yw6PhyuJG5byO0zOuB0yd12HvzJfLVlXmgFQZ2lLJngUn_zwm8SpE9jly0r_XSBbP96dgmHAugGGjEXNq4fMeSRIeXv_ldJw&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Reseñas",
+      "subtitle": "Basado en 206 reseñas en Google",
+      "items": []
+    },
+    "booking": {
+      "title": "Reservá tu turno",
+      "subtitle": "Elegí el servicio que necesitás",
+      "services": [
+        {
+          "name": "Maquillaje social",
+          "duration": 45,
+          "category": "Social"
+        },
+        {
+          "name": "Maquillaje novias",
+          "duration": 90,
+          "category": "Novias"
+        },
+        {
+          "name": "Maquillaje quinceañera",
+          "duration": 60,
+          "category": "Eventos"
+        },
+        {
+          "name": "Clase de maquillaje",
+          "duration": 90,
+          "category": "Clases"
+        },
+        {
+          "name": "Maquillaje a domicilio",
+          "duration": 60,
+          "category": "Domicilio"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Cuánto dura el maquillaje?",
+          "a": "Dependiendo del tipo, dura entre 8 y 12 horas sin retoques."
+        },
+        {
+          "q": "¿Hacen prueba de maquillaje?",
+          "a": "Sí, para novias incluimos una sesión de prueba sin costo adicional."
+        },
+        {
+          "q": "¿Usan productos hipoalergénicos?",
+          "a": "Sí, trabajamos con marcas profesionales hipoalergénicas aptas para pieles sensibles."
+        },
+        {
+          "q": "¿Cuánto antes debo reservar?",
+          "a": "Recomendamos al menos 2 semanas de anticipación para eventos especiales."
+        }
+      ]
+    },
+    "hours": {
+      "Lunes": "11:00 AM – 8:00 PM",
+      "Martes": "9:00 AM – 8:00 PM",
+      "Miercoles": "9:00 AM – 8:00 PM",
+      "Jueves": "9:00 AM – 8:00 PM",
+      "Viernes": "9:00 AM – 9:00 PM",
+      "Sabado": "9:00 AM – 9:00 PM",
+      "Domingo": "11:00 AM – 3:00 PM"
+    },
+    "contact": {
+      "phone": "+595 984 904215",
+      "city": "Fernando de la Mora",
+      "whatsapp": "+595 984 904215"
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "Leticia Carballo Makeup & Store — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Maquillaje Social",
+          "description": "Maquillaje para eventos sociales, fiestas y reuniones",
+          "priceCents": 120000,
+          "category": "Maquillaje",
+          "tags": [
+            "social",
+            "evento",
+            "fiesta"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-social",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Maquillaje de Novia",
+          "description": "Maquillaje profesional para novias, incluye prueba",
+          "priceCents": 350000,
+          "category": "Novias",
+          "tags": [
+            "novia",
+            "bodas",
+            "prueba"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-de-novia",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Maquillaje Editorial",
+          "description": "Maquillaje artístico para sesiones de fotos",
+          "priceCents": 200000,
+          "category": "Maquillaje",
+          "tags": [
+            "editorial",
+            "fotos",
+            "artistico"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-editorial",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Maquillaje de 15 Años",
+          "description": "Maquillaje especial para fiestas de 15",
+          "priceCents": 250000,
+          "category": "Eventos",
+          "tags": [
+            "quince",
+            "fiesta",
+            "especial"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-de-15-a-os",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Clase de Maquillaje",
+          "description": "Clase personalizada de 2 horas, incluye productos",
+          "priceCents": 180000,
+          "category": "Lecciones",
+          "tags": [
+            "clase",
+            "aprender",
+            "personalizado"
+          ],
+          "imageCategory": "makeup",
+          "slug": "clase-de-maquillaje",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Prueba de Maquillaje",
+          "description": "Sesión de prueba antes del evento, incluye look completo",
+          "priceCents": 80000,
+          "category": "Novias",
+          "tags": [
+            "prueba",
+            "novia",
+            "sesion"
+          ],
+          "imageCategory": "makeup",
+          "slug": "prueba-de-maquillaje",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Maquillaje + Peinado Novia",
+          "description": "Combo maquillaje novia más peinado profesional",
+          "priceCents": 600000,
+          "category": "Paquetes",
+          "tags": [
+            "combo",
+            "novia",
+            "peinado"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-peinado-novia",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Maquillaje + Peinado Evento",
+          "description": "Completo para fiestas y eventos especiales",
+          "priceCents": 250000,
+          "category": "Paquetes",
+          "tags": [
+            "combo",
+            "evento",
+            "maquillaje"
+          ],
+          "imageCategory": "makeup",
+          "slug": "maquillaje-peinado-evento",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?makeup",
+          "available": true
+        },
+        {
+          "name": "Labial Mate",
+          "description": "Labial mate profesional de larga duración",
+          "priceCents": 45000,
+          "category": "Productos",
+          "tags": [
+            "labial",
+            "mate",
+            "larga duracion"
+          ],
+          "imageCategory": "products",
+          "slug": "labial-mate",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Paleta de Sombras",
+          "description": "Paleta profesional 24 colores neutros y vibrantes",
+          "priceCents": 180000,
+          "category": "Productos",
+          "tags": [
+            "paleta",
+            "sombras",
+            "profesional"
+          ],
+          "imageCategory": "products",
+          "slug": "paleta-de-sombras",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en Fernando de la Mora y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "Leticia Carballo Makeup & Store",
+    "copyright": "© {{year}} Leticia Carballo Makeup & Store",
+    "disclaimer": "Esta es una demostración."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Maquillaje y me interesa un sitio para mi negocio"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "privacidad",
+  "titleKey": "privacidad.title",
+  "descriptionKey": "privacidad.subtitle",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "privacidad" },
+    { "id": "faq", "variant": "accordion", "content": "privacidad.sectionsBlock" }
+  ]
+}

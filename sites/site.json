@@ -1,0 +1,94 @@
+{
+  "vertical": "relocacion",
+  "country": "Paraguay",
+  "domain": "nexapropiedades.com",
+  "stagingDomain": "staging.nexapropiedades.com",
+  "defaultLocale": "es",
+  "locales": [
+    "es",
+    "en",
+    "pt"
+  ],
+  "navigation": [
+    {
+      "labelKey": "navigation.home",
+      "path": ""
+    },
+    {
+      "labelKey": "navigation.properties",
+      "path": "propiedades"
+    },
+    {
+      "labelKey": "navigation.services",
+      "path": "servicios"
+    },
+    {
+      "labelKey": "navigation.contact",
+      "path": "contacto"
+    }
+  ],
+  "integrations": {
+    "hubspot": {
+      "portalId": "HS-PORTAL-PARAGUAI",
+      "formId": "contact-form-paragu-ai"
+    },
+    "mailchimp": {
+      "audienceId": "audience-paragu-ai-newsletter"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": "G-XXXXXXXXXXX",
+        "streamName": "paragu-ai-builder"
+      }
+    }
+  },
+  "features": {
+    "propertySearch": true,
+    "agentProfiles": true,
+    "testimonials": true,
+    "whatsappFloat": true,
+    "mortgageCalculator": true,
+    "heroImages": true,
+    "propertyImages": true
+  },
+  "images": {
+    "manifest": "/sites/nexa-propiedades/images.json",
+    "hero": "/sites/nexa-propiedades/images/hero/hero-bg.jpg"
+  },
+  "contact": {
+    "whatsapp": "595981123456",
+    "email": "info@nexapropiedades.com",
+    "phone": "+595 21 123 4567"
+  },
+  "social": {
+    "facebook": "https://facebook.com/nexapropiedades",
+    "instagram": "https://instagram.com/nexapropiedades"
+  },
+  "seoDefaults": {
+    "titleTemplate": "{{pageTitle}} \u2014 Nexa Propiedades Paraguay",
+    "defaultDescription": "Encuentra tu hogar ideal en Paraguay. Casas, departamentos y terrenos en Asunci\u00f3n."
+  },
+  "is_demo": false,
+  "isLiveProduction": true,
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  },
+  "path": "/s/es/nexa-propiedades",
+  "publicUrl": "https://paragu-ai.com/s/es/nexa-propiedades"
+}

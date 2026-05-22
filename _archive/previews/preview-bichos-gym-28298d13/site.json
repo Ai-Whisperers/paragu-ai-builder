@@ -1,0 +1,72 @@
+{
+  "vertical": "service-booking",
+  "businessType": "gimnasio",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595 982 292573",
+    "email": "ventas@gimnasiopower.com.py",
+    "instagram": "@gimnasio.fdm.py",
+    "phone": "+595 982 292573"
+  },
+  "location": {
+    "city": "Capiatá",
+    "address": "JG69+8RX, Capiatá 110244, Paraguay",
+    "coordinates": {
+      "lat": -25.3892328,
+      "lng": -57.4782459
+    },
+    "googleMapsId": "ChIJ0WqMRTcRmZQR0WnM5T5j9tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-gimnasio-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-gimnasio"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "productCatalog": true,
+    "commerce": true,
+    "featuredProducts": true,
+    "shop": true,
+    "giftCards": true,
+    "membershipPlans": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-bichos-gym-28298d13",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-bichos-gym-28298d13",
+  "social": {
+    "facebook": "gimnasiopy",
+    "tiktok": "@gimnasiopy",
+    "instagram": "@gimnasio.fdm.py"
+  },
+  "preview": true,
+  "previewLeadId": "28298d13-fe35-4ed3-a922-4e8f4c22db86",
+  "createdAt": "2026-04-25T05:23:41.389Z",
+  "google_maps_url": "https://maps.google.com/?cid=3558193859827956478",
+  "business_status": "OPERATIONAL",
+  "commerce": {
+    "enabled": true,
+    "currency": "PYG",
+    "provider": "pagopar",
+    "whatsappEnabled": true
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "vertical": "portfolio-professional",
+  "businessType": "maquillaje",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595 984 904215",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@lcmakeuphaircolor",
+    "phone": "+595 984 904215"
+  },
+  "location": {
+    "city": "Fernando de la Mora",
+    "address": "Don Bosco &, Del Carmen, Fernando de la Mora 110310, Paraguay",
+    "coordinates": {
+      "lat": -25.3146305,
+      "lng": -57.529184
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "productCatalog": true,
+    "commerce": true,
+    "featuredProducts": true,
+    "shop": true,
+    "giftCards": true
+  },
+  "demo": true,
+  "noindex": true,
+  "source": "lead_generation",
+  "path": "/s/es/preview-leticia-carballo-makeup-store-83035cf0",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-leticia-carballo-makeup-store-83035cf0",
+  "preview": true,
+  "previewLeadId": "83035cf0-1d35-456c-b610-8d4656456edc",
+  "createdAt": "2026-04-25T04:08:08.836Z",
+  "is_demo": false,
+  "google_maps_url": "https://maps.google.com/?cid=2805539807610188508",
+  "business_status": "OPERATIONAL",
+  "commerce": {
+    "enabled": true,
+    "currency": "PYG",
+    "provider": "pagopar",
+    "whatsappEnabled": true
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion"
+  }
+}

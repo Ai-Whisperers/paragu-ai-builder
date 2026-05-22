@@ -1,0 +1,11 @@
+{
+  "slug": "terms",
+  "titleKey": "legalTerms.seo.title",
+  "descriptionKey": "legalTerms.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "legalTerms.hero" },
+    { "id": "faq", "variant": "accordion", "content": "legalTerms.faq" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

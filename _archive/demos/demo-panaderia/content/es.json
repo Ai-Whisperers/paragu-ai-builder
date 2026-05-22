@@ -1,0 +1,177 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "Demo Panadería Artesanal Asunción",
+  "tagline": "Horneado artesanal en Asunción. Panes, chipa, tortas por encargo.",
+  "placeholders": {
+    "businessName": "Demo Panadería Artesanal Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Demo Panadería Artesanal Asunción",
+    "ctaText": "Contactanos",
+    "ctaHref": "https://wa.me/595985724135"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Panadería Artesanal Asunción - Panaderia en Asunción",
+      "description": "Pan artesanal, chipa, pasteleria y tortas en Asunción. Pedidos por WhatsApp."
+    },
+    "hero": {
+      "headline": "Demo Panadería Artesanal Asunción - Pan y dulce todos los dias",
+      "subheadline": "Horneado artesanal en Asunción. Panes, chipa, tortas por encargo.",
+      "ctaPrimaryText": "Contactanos por WhatsApp",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20tu%20demo%20de%20Panader%C3%ADa%20Artesanal%20y%20me%20interesa%20un%20sitio%20para%20mi%20negocio",
+      "ctaSecondaryText": "Ver como funciona",
+      "ctaSecondaryHref": "/demo"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo dia",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "panaderia"
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Productos",
+      "items": [
+        {
+          "name": "Pan artesanal",
+          "description": "Pan de masa madre, integral y de centeno",
+          "price": "Gs. 8.000",
+          "icon": "Bread"
+        },
+        {
+          "name": "Chipa",
+          "description": "Chipa tradicional paraguaya horneada",
+          "price": "Gs. 3.000",
+          "icon": "CircleDot"
+        },
+        {
+          "name": "Facturas",
+          "description": "Medialunas, vigilantes y cañoncitos",
+          "price": "Gs. 4.000",
+          "icon": "Croissant"
+        },
+        {
+          "name": "Pastelitos",
+          "description": "Pastelitos de dulce de leche y membrillo",
+          "price": "Gs. 5.000",
+          "icon": "Cookie"
+        },
+        {
+          "name": "Tortas",
+          "description": "Tortas por encargo: choco, vainilla, frutal",
+          "price": "Gs. 80.000",
+          "icon": "Cake"
+        },
+        {
+          "name": "Pan para sánguche",
+          "description": "Pan lactal artesanal sin conservantes",
+          "price": "Gs. 10.000",
+          "icon": "Slice"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Atención personalizada",
+        "Asunción y alrededores",
+        "Resultados garantizados",
+        "Precios accesibles"
+      ]
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "subtitle": "Profesionales dedicados en Asunción",
+      "items": [
+        {
+          "name": "Carlos Mendoza",
+          "role": "Director de Panaderia",
+          "description": "Más de 10 años de experiencia en Asunción"
+        },
+        {
+          "name": "María López",
+          "role": "Profesional Senior",
+          "description": "Especialista en atención al cliente"
+        },
+        {
+          "name": "Juan Pérez",
+          "role": "Asistente Técnico",
+          "description": "Comprometido con la calidad"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Cliente Satisfecho",
+          "text": "Excelente servicio, súper recomendado.",
+          "rating": 5
+        },
+        {
+          "name": "Cliente Frecuente",
+          "text": "Siempre cumplen con lo prometido. Muy profesionales.",
+          "rating": 5
+        },
+        {
+          "name": "Nuevo Cliente",
+          "text": "Me atendieron muy bien, volveré sin dudas.",
+          "rating": 4
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Aceptan tarjetas?",
+          "answer": "Sí, aceptamos tarjetas de crédito, débito, efectivo y transferencia."
+        },
+        {
+          "question": "¿Cuál es el horario?",
+          "answer": "Abrimos de lunes a sábado en horario comercial."
+        },
+        {
+          "question": "¿Hacen envíos?",
+          "answer": "Sí, hacemos envíos a toda la ciudad."
+        },
+        {
+          "question": "¿Cómo puedo contactarlos?",
+          "answer": "Por WhatsApp, teléfono o directamente en nuestro local."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Viernes": "09:00 - 19:00",
+        "Sábado": "09:00 - 17:00"
+      }
+    },
+    "promoBanner": {
+      "title": "¡Visitános!",
+      "subtitle": "Conocé nuestros servicios en Asunción",
+      "ctaText": "Contactar ahora",
+      "variant": "standard",
+      "dismissible": true
+    }
+  },
+  "footer": {
+    "businessName": "Demo Panadería Artesanal Asunción",
+    "copyright": "© {{year}} Demo Panadería Artesanal Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu informacion real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Panadería Artesanal y me interesa un sitio para mi negocio"
+  }
+}

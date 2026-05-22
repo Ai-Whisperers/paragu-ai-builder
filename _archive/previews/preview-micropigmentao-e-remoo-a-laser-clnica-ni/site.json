@@ -1,0 +1,54 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "depilacion",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595 981 521527",
+    "email": "ventas@paragu-ai.com",
+    "instagram": "@demo.depilacion.py",
+    "phone": "+595 981 521527"
+  },
+  "location": {
+    "city": "Asunción",
+    "address": "Eusebio Lillo Robles 1498 esq, Asunción 001411, Paraguay",
+    "coordinates": {
+      "lat": -25.5392544,
+      "lng": -54.5847453
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "productCatalog": true,
+    "commerce": true,
+    "featuredProducts": true,
+    "shop": true,
+    "giftCards": true
+  },
+  "demo": true,
+  "noindex": true,
+  "source": "lead_generation",
+  "path": "/s/es/preview-micropigmentao-e-remoo-a-laser-clnica-ni",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-micropigmentao-e-remoo-a-laser-clnica-ni",
+  "preview": true,
+  "previewLeadId": "9dd78af3-eba1-409b-87b2-48ed38039334",
+  "createdAt": "2026-04-25T04:08:08.876Z",
+  "is_demo": false,
+  "google_maps_url": "https://maps.google.com/?cid=11547781399002133935",
+  "business_status": "OPERATIONAL",
+  "commerce": {
+    "enabled": true,
+    "currency": "PYG",
+    "provider": "pagopar",
+    "whatsappEnabled": true
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion"
+  }
+}

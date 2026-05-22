@@ -1,0 +1,42 @@
+{
+  "slug": "legal",
+  "titleKey": "legal.seo.title",
+  "descriptionKey": "legal.seo.description",
+  "sections": [
+    {
+      "id": "age-gate",
+      "variant": "modal",
+      "content": "home.ageGate"
+    },
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "legal.hero"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "legal.terms"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "solid",
+      "content": "legal.cta"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

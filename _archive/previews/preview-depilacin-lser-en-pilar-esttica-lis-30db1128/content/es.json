@@ -1,0 +1,628 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Depilación Láser en Pilar . Estética Lis",
+  "tagline": "Cortes profesionales, coloracion y tratamientos que transforman tu estilo",
+  "placeholders": {
+    "businessName": "Depilación Láser en Pilar . Estética Lis",
+    "city": "Pilar",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Peluqueria",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Depilación Láser en Pilar . Estética Lis - Peluqueria en Pilar | Servicios y Precios",
+      "description": "Cortes, coloracion y tratamientos en Pilar. Reserva tu cita online. Precios desde Consultar."
+    },
+    "hero": {
+      "headline": "Tu estilo, nuestra pasión",
+      "subheadline": "Cortes modernos, coloración profesional y tratamientos capilares en el centro de Pilar",
+      "ctaPrimaryText": "Reservá tu turno",
+      "ctaSecondaryText": "Conocé nuestros servicios"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Estamos en el centro de Pilar",
+      "address": "Palma 550 c/ 15 de Agosto",
+      "city": "Pilar",
+      "phone": "+54 11 2391-0450",
+      "email": "contacto@peluqueriacentro.com.py",
+      "whatsapp": "+54 11 2391-0450"
+    },
+    "promoBanner": {
+      "title": "🎉 Promoción de Lanzamiento",
+      "subtitle": "20% de descuento en tu primer corte + tratamiento capilar",
+      "ctaText": "Reservar ahora",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Todo lo que necesitás para lucir espectacular",
+      "items": [
+        {
+          "name": "Corte de Cabello",
+          "description": "Corte moderno y personalizado para damas y caballeros",
+          "price": "Gs. 60.000",
+          "icon": "Scissors"
+        },
+        {
+          "name": "Coloración",
+          "description": "Tintura, mechas, balayage y reflejos con productos profesionales",
+          "price": "Gs. 150.000",
+          "icon": "Palette"
+        },
+        {
+          "name": "Tratamientos Capilares",
+          "description": "Botox capilar, keratina, hidratación profunda y reconstrucción",
+          "price": "Gs. 120.000",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "Peinados",
+          "description": "Peinados para eventos, fiestas, bodas y ocasiones especiales",
+          "price": "Gs. 80.000",
+          "icon": "Feather"
+        },
+        {
+          "name": "Manicura y Pedicura",
+          "description": "Cuidado profesional de uñas con esmaltado tradicional o semipermanente",
+          "price": "Gs. 70.000",
+          "icon": "Hand"
+        },
+        {
+          "name": "Cepillado y Alisado",
+          "description": "Cepillado con keratina, alisado permanente y planchita",
+          "price": "Gs. 90.000",
+          "icon": "Wind"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Productos profesionales",
+        "10 años de experiencia",
+        "Ambiente climatizado",
+        "Estacionamiento gratis",
+        "Resultados garantizados"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEYX-WkXO_kCjogj-epe0otnMwwNHwEvd6zGQeCLBaIMOEjo3VN6ahOvnjmrtn-IDrml_Dhc6TnPklpWpF-I-9N0l52TNBpjfdRRKglSSlas4li61qIc5UULyjYJjjeYY_l5OeXXYQQJeD7aN7fDNul9ZtqaUJILX693ArokycfSWXePwupL7mWDyOxchMq3sN3tbAKnvhJk15kB9tsExRwQsLXqn-PnlqTYGzWjq4W_Az88ka8A09tETvIJPcLspRa6EHMTo5-jQyZGB9S2tmMQS0BucmZKCjmoBPurFYaES7LkNTJLM_UTYp89IHsWC7RtvSqH1hn4bpehio5o0shnHspC8mLTIffc4PNSMPvAMou5uwwp_fbKEuDADhS_J0lwGo_UrU7G5suqArE715j8mcDnobNgS3tUTMLjROcDW-u5VcsFPYZZb2P6Sh7&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEFztV9Tzr0HdFN_W7atySg3p4nVPZsY4bzqdojS8AtW6TVdl74GOCUTbZ0O1LCxF0iq2bGDDoXNJhASsgAGsEzLs6N_27THGawqYzBxXnqXb9kXwM_gBhjoMHL03n8zfXanCI-p5M1YS7qEOyZC5c_RWvQK7yI6H1pg86PdeEdOsjwB-PJG5GxBKVkvwmVPmPMJuPon5gZq4y49Q_sGPpEBnzYkNUiWM0KF8jD3lc3QNydwcjJKxWKauHx_DnNIfdqzxWbLcPlf9v-VmzIun7h-pm0SK16qXefdzyNLH4fLMsh0auEWRV2rTwTTArX0gbJRHkFhFYZJAL27-Pry8InMbEyvUJLjxB_iZUpwPkLoOqHBELuNzbpUUYCtwYLudyHZFp8Igpc_Sd8QwC6obs9arLNXeIADfuelb9yb2vMaLBWKwemp9ZYmsR9Wg4NC&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEFkYMf__m9ftvaxpQayIaUgtOAp4zgElF2zEyVYwc8mMr7cU-8UOLmM8hfs1MgFzQtSzqUs0pIi1TC7-II3PVAA8CPzoHq8PgaBs76N0TE1fFqdKh21Nsz_3G7FUdwJSEEoSuTdSA_UyjzipyCOn7Gk5uwH-mc7jhd01oluzE_xMF7qfeRdXOJC5L22JYHeXbEDLmxG7h-e-K3gTKS1TM7WpIaoajc1LgRXOxPAqN-ZRf_iEpW7FKeuAxkB4VfEkTUlXQgtzw18SzOFzwjI5suqLWdqQL1dBpkDNr853tG99nlMgJlZzt6q6mPWnG-giVFs6MzNTYAryqnf5bvDaP6e4mO5Tvm9PEXPhWt6pf52R4ElgzQ1aSM7rdCAzJfwCFGSPUrvTc4cOFZu1qZOEM8QdGUOnf7U-qbtz6tn5tQhhrPW1npsxp8aPpuK0str&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEH6_h4Fc5X4avFNVb7wfOnxkOq2LwULLZmEGuAbvUjiRm8cMkf4xCgGNn0XZIkQOhg-yryB_2wzvy5Rn-SrzbDz6PFRbmX1kkhLh4uIlrrb9EsJ3N_bwCS8svBDU6zxwrNXUsMf3MrKqyBLYIVBM3lhLL89FdKh7FTTOp61biZ9guADnR1DvUlwwEf3BzYatKTSxCIY0Lz2d3f9McBrpzjPBdpQqH4Lp4yQ4FqDQguBlOx9YT43AHGEdJO-ciLDFwkwWvNe1iyq8-sQOaC8gJe4qoRB45w96AlJCJcsLQP0lhxsv5yBLgcjJBRhIRcX2eybHnMjG3XVoxy1rfjqaVb9-usnZ51V6aWuGf08y-ANIWy9bLojGfohMYP2SrLEGduwJRGi3dmNilJ0n8z_RMjFQMvfnH6tYx4rSBuy9-zpIq0FtYULokGW3-h61w&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEFaE6NWY5dPpQmi8TwMSeDpyXbuBUE_nCgV6t-T_6ajNGjHR9OSlLirfWeQrbgaPwkFaINYApQbPm8c_1UCfSoBPCW0r_dw5M15JkvmfcD5JUCa_fhW8-2yibEyA7coeLGRShmNoH_1aa4kXxQRtY8LbkfPNLB59eFtQldl7MPs821vXzz5-nyfIT9lI2-Da92fnJKfaGXravKjfTEMGPtA8fJbAB29KVeG57mMUruFjqEr3ixeWFDv3VhPBh9mWPlqZ43iAmbxQiTXJsXS5DKTYRbd13uL5aODC6fP1xSiCWa42VmUAPcU7KuT-w6zCoEeOcdqd33CluyNp00yEOxam3ftCaaYfoq5Ve7vxvC4dZyd8dfh9t3JR2ZryxHrLEROTUx9ixIfGfPkRXqO_XTvsuN48oO0GRMzznDYc41wrSbZhnhq9dXG78RuQpg1&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEH0vFaioaXEZ-Mq00hiPCU8ueFVE5wN1zeIQMz212I4xKsZp1lmebDihkf5DGyXIY_XZRHQhrYfqWpDurDn-n_Bnugv9dIOv7i728TaMwLngfk_Bb5pg0g3NCcUDI5WWd3lYynwbLvkfpgdC4riFQ7Z0LxBg8Qg53o06HeL3toCMoaKoAeZ3CMf47aFxX_SjzHeMaBfesRY68IfXwX05ignIRGCT5hlGKCUbisVJoE53BuOOJanmD0YeWaYcwGRMbYGC2cFwdjgFem7a9FPNLOrGeWlyDNmcTIii6Uv6SKP6Ef-lwTKyE-XiGYdRB-VLwk1BukQhGQP8u9EzaAtiEZNXBDGQPsmKE9P0DK9olMQx3J1_pvhZbgY9oCneeVefIm_-vnnBk1pH77GBCqE-BVGokBYz2wPKXyz_BtIL9KRS39n&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
+    },
+    "team": {
+      "title": "Conocé a nuestro equipo",
+      "subtitle": "Profesionales apasionados por tu belleza",
+      "items": [
+        {
+          "name": "María González",
+          "role": "Directora y Estilista Senior",
+          "description": "10 años de experiencia en cortes y coloración"
+        },
+        {
+          "name": "Carlos Benítez",
+          "role": "Barbero Profesional",
+          "description": "Especialista en cortes masculinos y degradados"
+        },
+        {
+          "name": "Ana Martínez",
+          "role": "Colorista",
+          "description": "Experta en balayage, mechas y tintura"
+        },
+        {
+          "name": "Laura Silva",
+          "role": "Manicurista",
+          "description": "Diseño de uñas y nail art"
+        },
+        {
+          "name": "Pedro Ramírez",
+          "role": "Estilista",
+          "description": "Peinados para eventos y ocasiones especiales"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 127 reseñas",
+      "items": [
+        {
+          "author": "Isaias Llopis",
+          "quote": "clean",
+          "rating": 5
+        },
+        {
+          "author": "Sol Estefanía Altube Vilariño",
+          "quote": "Me hice la depilación definitiva en Estética Lis y la verdad es que fue un antes y un después. Venía de otra experiencia en el polo de Pilar donde no vi ningún resultado, pero con Estética Lis empecé ",
+          "rating": 5
+        }
+      ]
+    },
+    "booking": {
+      "title": "Reservá tu turno",
+      "subtitle": "Elegí el servicio y el horario que más te convenga",
+      "services": [
+        {
+          "name": "Corte de Cabello",
+          "duration": 30,
+          "category": "Corte"
+        },
+        {
+          "name": "Coloración completa",
+          "duration": 90,
+          "category": "Color"
+        },
+        {
+          "name": "Mechas y Balayage",
+          "duration": 90,
+          "category": "Color"
+        },
+        {
+          "name": "Tratamiento capilar",
+          "duration": 45,
+          "category": "Tratamiento"
+        },
+        {
+          "name": "Manicura semipermanente",
+          "duration": 45,
+          "category": "Uñas"
+        },
+        {
+          "name": "Peinado para eventos",
+          "duration": 60,
+          "category": "Peinado"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Aceptan tarjetas de crédito?",
+          "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria."
+        },
+        {
+          "q": "¿Cuánto dura un servicio de coloración?",
+          "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas."
+        },
+        {
+          "q": "¿Hacen peinados a domicilio?",
+          "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional."
+        },
+        {
+          "q": "¿Usan productos profesionales?",
+          "a": "Sí, trabajamos con las mejores marcas profesionales del mercado."
+        },
+        {
+          "q": "¿Cómo puedo reservar un turno?",
+          "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local."
+        }
+      ]
+    },
+    "hours": {
+      "Lunes a Viernes": "09:00 - 20:00",
+      "Sábado": "09:00 - 18:00",
+      "Domingo": "Cerrado"
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "reviewsWidget": {
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 127 reseñas en Google - 4.9 estrellas",
+      "reviews": [
+        {
+          "author": "Isaias Llopis",
+          "rating": 5,
+          "text": "clean"
+        },
+        {
+          "author": "Sol Estefanía Altube Vilariño",
+          "rating": 5,
+          "text": "Me hice la depilación definitiva en Estética Lis y la verdad es que fue un antes y un después. Venía de otra experiencia en el polo de Pilar donde no "
+        }
+      ],
+      "avgRating": 4.9,
+      "reviewCount": 127
+    },
+    "packagesGiftcards": {
+      "packages": [
+        {
+          "id": "basico",
+          "name": "Plan Básico",
+          "description": "Servicio esencial",
+          "original_price": 150000,
+          "sale_price": 120000,
+          "services": [
+            "Servicio 1",
+            "Servicio 2"
+          ],
+          "popular": false
+        },
+        {
+          "id": "premium",
+          "name": "Plan Premium",
+          "description": "Nuestra opción más elegida",
+          "original_price": 300000,
+          "sale_price": 250000,
+          "services": [
+            "Servicio 1",
+            "Servicio 2",
+            "Servicio 3",
+            "Servicio 4"
+          ],
+          "popular": true
+        },
+        {
+          "id": "vip",
+          "name": "Plan VIP",
+          "description": "Experiencia completa",
+          "original_price": 500000,
+          "sale_price": 450000,
+          "services": [
+            "Todos los servicios"
+          ],
+          "popular": false
+        }
+      ],
+      "giftCards": [
+        {
+          "id": "gc-50",
+          "amount": 100000,
+          "description": "Regalá un servicio"
+        },
+        {
+          "id": "gc-100",
+          "amount": 200000,
+          "description": "Regalá una experiencia completa"
+        },
+        {
+          "id": "gc-200",
+          "amount": 500000,
+          "description": "Regalá el plan VIP"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "Depilación Láser en Pilar . Estética Lis — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Corte de Dama",
+          "description": "Corte profesional con lavado y styling",
+          "priceCents": 80000,
+          "category": "Cortes",
+          "tags": [
+            "corte",
+            "dama",
+            "styling"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "corte-de-dama",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Corte de Caballero",
+          "description": "Corte moderno o clásico con acabado profesional",
+          "priceCents": 50000,
+          "category": "Cortes",
+          "tags": [
+            "corte",
+            "caballero",
+            "barberia"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "corte-de-caballero",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Coloración Completa",
+          "description": "Color base completo con productos profesionales",
+          "priceCents": 200000,
+          "category": "Coloración",
+          "tags": [
+            "color",
+            "tinte",
+            "base"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "coloraci-n-completa",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Mechas/Highlights",
+          "description": "Mechas naturales con técnica de papel aluminio",
+          "priceCents": 250000,
+          "category": "Coloración",
+          "tags": [
+            "mechas",
+            "highlights",
+            "reflejos"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "mechas-highlights",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Balayage",
+          "description": "Técnica francesa de mano alzada para look natural",
+          "priceCents": 350000,
+          "category": "Coloración",
+          "tags": [
+            "balayage",
+            "mano alzada",
+            "natural"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "balayage",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Lavado y Peinado",
+          "description": "Lavado con productos profesionales más peinado",
+          "priceCents": 40000,
+          "category": "Peinados",
+          "tags": [
+            "lavado",
+            "peinado",
+            "basico"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "lavado-y-peinado",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Peinado para Eventos",
+          "description": "Peinado elaborado para bodas, fiestas y graduaciones",
+          "priceCents": 150000,
+          "category": "Peinados",
+          "tags": [
+            "eventos",
+            "novia",
+            "fiesta"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "peinado-para-eventos",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Keratina Intensiva",
+          "description": "Tratamiento alisador con keratina que repara y alisa",
+          "priceCents": 350000,
+          "category": "Tratamientos",
+          "tags": [
+            "keratina",
+            "alisado",
+            "reparacion"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "keratina-intensiva",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Hidratación Profunda",
+          "description": "Tratamiento hidratante para cabello seco o maltratado",
+          "priceCents": 80000,
+          "category": "Tratamientos",
+          "tags": [
+            "hidratacion",
+            "reparacion",
+            "nutricion"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "hidrataci-n-profunda",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Botox Capilar",
+          "description": "Tratamiento reconstructor que elimina el frizz",
+          "priceCents": 250000,
+          "category": "Tratamientos",
+          "tags": [
+            "botox",
+            "frizz",
+            "reconstruccion"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "botox-capilar",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Alisado Permanente",
+          "description": "Alisado con ácido tioglicólico, resultado liso por meses",
+          "priceCents": 500000,
+          "category": "Tratamientos",
+          "tags": [
+            "alisado",
+            "permanente",
+            "liso"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "alisado-permanente",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Set de Cuidado Capilar",
+          "description": "Kit shampoo + acondicionador profesional 300ml",
+          "priceCents": 120000,
+          "category": "Productos",
+          "tags": [
+            "shampoo",
+            "acondicionador",
+            "cuidado"
+          ],
+          "imageCategory": "products",
+          "slug": "set-de-cuidado-capilar",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en Pilar y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "Depilación Láser en Pilar . Estética Lis",
+    "copyright": "© {{year}} Depilación Láser en Pilar . Estética Lis",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Peluqueria y me interesa un sitio para mi negocio"
+  }
+}

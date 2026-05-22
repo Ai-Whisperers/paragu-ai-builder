@@ -1,0 +1,92 @@
+{
+  "testimonials": {
+    "title": "Lo que dicen nuestros clientes",
+    "subtitle": "Historias reales de personas que establecieron su operación en Paraguay",
+    "items": [
+      {
+        "id": "testimonial-1",
+        "name": "Marcelo Díaz",
+        "role": "Emprendedor Argentino",
+        "location": "Asunción, Paraguay",
+        "quote": "Nexa Paraguay hizo que el proceso de radicación fuera increíblemente simple. En solo 8 semanas tenía mi residencia, sociedad y cuenta bancaria funcionando. El equipo técnico es profesional y siempre disponible.",
+        "program": "Paraguay Business",
+        "rating": 5,
+        "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-1.png",
+        "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-1.webp",
+        "videoUrl": "",
+        "verified": true,
+        "date": "2024-03-15"
+      },
+      {
+        "id": "testimonial-2",
+        "name": "Ana Lucía Fernández",
+        "role": "Consultora de Marketing Digital",
+        "location": "Ciudad del Este, Paraguay",
+        "quote": "Como freelancer, necesitaba una estructura legal sólida sin complicaciones. El programa Paraguay Base me dio exactamente eso. El acompañamiento en cada paso del proceso fue excepcional.",
+        "program": "Paraguay Base",
+        "rating": 5,
+        "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-2.png",
+        "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-2.webp",
+        "videoUrl": "",
+        "verified": true,
+        "date": "2024-02-20"
+      },
+      {
+        "id": "testimonial-3",
+        "name": "Roberto González",
+        "role": "Inversor Inmobiliario",
+        "location": "San Bernardino, Paraguay",
+        "quote": "El Paraguay Investor Program incluyó un tour estratégico inmobiliario que me permitió identificar oportunidades de inversión únicas. Ya tengo 3 propiedades rentables en mi portafolio paraguayo.",
+        "program": "Paraguay Investor",
+        "rating": 5,
+        "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-3.png",
+        "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-3.webp",
+        "videoUrl": "",
+        "verified": true,
+        "date": "2024-01-10"
+      },
+      {
+        "id": "testimonial-4",
+        "name": "Carolina Silva",
+        "role": "CEO Tech Startup",
+        "location": "Asunción, Paraguay",
+        "quote": "La apertura de cuenta bancaria empresarial fue rápida y sin complicaciones. Nexa coordinó todo perfectamente con el banco. Ahora mi startup opera 100% desde Paraguay.",
+        "program": "Paraguay Business",
+        "rating": 5,
+        "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-4.png",
+        "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-4.webp",
+        "videoUrl": "",
+        "verified": true,
+        "date": "2024-04-05"
+      },
+      {
+        "id": "testimonial-5",
+        "name": "Fernando Morales",
+        "role": "Productor Agropecuario",
+        "location": "Alto Paraná, Paraguay",
+        "quote": "Compre tierras productivas a través del programa Paraguay Land Acquisition. El análisis legal de la propiedad y el apoyo en la negociación fueron invaluables. Excelente retorno de inversión.",
+        "program": "Paraguay Land",
+        "rating": 5,
+        "image": "/sites/nexa-paraguay/images/testimonials/testimonial-client-5.png",
+        "videoPoster": "/sites/nexa-paraguay/images/testimonials/poster-5.webp",
+        "videoUrl": "",
+        "verified": true,
+        "date": "2024-03-28"
+      }
+    ],
+    "stats": {
+      "totalClients": 250,
+      "satisfactionRate": 98,
+      "averageRating": 4.9,
+      "countries": [
+        "Argentina",
+        "Brasil",
+        "Chile",
+        "Colombia",
+        "España",
+        "Estados Unidos"
+      ]
+    }
+  },
+  "_note": "AI-generated placeholder portraits + copy. Founder consented 2026-04 to use AI content pre-launch (Ivan W. + Sonia). Replace with real consented client quotes once the first wave of post-launch clients completes the 8-12 week program and opts in to publish. Video poster slots ready; videoUrl empty renders a 'video coming soon' thumbnail."
+}

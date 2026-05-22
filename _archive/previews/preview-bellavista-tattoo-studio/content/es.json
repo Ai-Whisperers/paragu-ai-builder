@@ -1,0 +1,546 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Peluqueria Asunción",
+  "tagline": "Cortes profesionales, coloracion y tratamientos que transforman tu estilo",
+  "placeholders": {
+    "businessName": "Peluqueria Asunción",
+    "city": "Providencia",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Peluqueria",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Equipo",
+        "path": "#equipo"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Peluqueria Asunción - Peluqueria en Providencia | Servicios y Precios",
+      "description": "Bellavista Tattoo Studio en Providencia. 4 estrellas y 351 resenas en Google. Conocenos!"
+    },
+    "hero": {
+      "headline": "Tu estilo, nuestra pasión",
+      "subheadline": "En Providencia con atencion personalizada y la mejor calidad.",
+      "ctaPrimaryText": "Reservá tu turno",
+      "ctaSecondaryText": "Conocé nuestros servicios"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Estamos en el centro de Providencia",
+      "address": "Palma 550 c/ 15 de Agosto",
+      "city": "Providencia",
+      "phone": "+56 9 4598 8898",
+      "email": "contacto@peluqueriacentro.com.py",
+      "whatsapp": "+56 9 4598 8898"
+    },
+    "promoBanner": {
+      "title": "🎉 Promoción de Lanzamiento",
+      "subtitle": "Con 351 resenas positivas en Google. Te esperamos!",
+      "ctaText": "Reservar ahora",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Todo lo que necesitás para lucir espectacular",
+      "items": [
+        {
+          "name": "Corte de Cabello",
+          "description": "Corte moderno y personalizado para damas y caballeros",
+          "price": "Gs. 60.000",
+          "icon": "Scissors"
+        },
+        {
+          "name": "Coloración",
+          "description": "Tintura, mechas, balayage y reflejos con productos profesionales",
+          "price": "Gs. 150.000",
+          "icon": "Palette"
+        },
+        {
+          "name": "Tratamientos Capilares",
+          "description": "Botox capilar, keratina, hidratación profunda y reconstrucción",
+          "price": "Gs. 120.000",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "Peinados",
+          "description": "Peinados para eventos, fiestas, bodas y ocasiones especiales",
+          "price": "Gs. 80.000",
+          "icon": "Feather"
+        },
+        {
+          "name": "Manicura y Pedicura",
+          "description": "Cuidado profesional de uñas con esmaltado tradicional o semipermanente",
+          "price": "Gs. 70.000",
+          "icon": "Hand"
+        },
+        {
+          "name": "Cepillado y Alisado",
+          "description": "Cepillado con keratina, alisado permanente y planchita",
+          "price": "Gs. 90.000",
+          "icon": "Wind"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Productos profesionales",
+        "10 años de experiencia",
+        "Ambiente climatizado",
+        "Estacionamiento gratis",
+        "Resultados garantizados",
+        "4/5 estrellas en Google"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEGsXncpcFsKr1MeEwYslr-f-Z0emfwczcl8ZlsZXFeF-yprOa9D1sDgMsG4rWQtlmQIV32in7wS3khK78RnGu0k1xMIy66N4ZXhcISCvBJ9WIwhR9lIvTbhBLl6VpHs3b-LUC32JCbU4dt1Uqfdf-Vr4JiSlxEHoSVudDFVF1n3kWVuxJxfe0kG3Ol8CvPWvImlz9gdDZXjWREmFEfCPfbfed3wAt3a2H9Z2eEDFSEBx_O_G71bhhybV5bizdBtS_1Jc62w8zGVxeoUb81-eUz4Yp96XSB_iri4kNtI39FbGQ&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEGndJTcGAknmXvHvXfuxm1uf0-poCmep3egyZzgsY7rg_5KXgCVmV-KOKdpeNEPctjcjJH2-5UktvMIJyTqReL-9y4J1sMcrBggF9DQgRhpOHAfLdXFMgqaMRoDSPOyvEZAJ7SmxknOdtfSFDWjGy4n5sPHaZtUnlbnsCfqMcGnu3UR2UvZp-hrxhrD0i4cR8LyLLCIIASQnyl2V2wAOxDMwyRqrVdga3tKcrTwpom-XvnVIeNR4SdysCDjERUJZuqqj0yDgj5ZcTU6DbjnydDKhEf_GmQs_vb1j7mAYekenonIi2pGUkdi9F33ky586uh33PpTTqq_Tcbk8fwUWEYBVdPNMES5QNbQh92CPcORQv_DNXUquM3b_IXZ7XtkD8Mo1DRYWJKSdDxyUKjBE08RG3SaCu7Wd1bnKTuxM66oELM&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEGqw1q6PIDtuN-xON26aF_B3vTqpWyMUo3ccAls-LAGILpxLdA0xNOGJVTcnWTUQTUOnOfSZty7w_9Xa3K1rvuAaWvC6N_H36yxv6WPL3UimgvdQzN5NI3jx_R0Gh9CvLPhMTxIR10jTX-jeJ9TvjzRClJmnqJcdPvR_-M4UVijzcmYNu4fD8uCLclVanO0GXge13s87qUZ6QAwAHw29m9sRbLuC-OWufo5mhlMTuZtpxBUYa7slHIHn-KM5l4H2Oa1d7rR4qGpHQm4TuMP1olXH74KbR7H2lI6W_p2S8DWvg&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHTriu0z-8-hrX9A1xYcGgM5-mjQ5xGBU4B47IxQP5lRryj62MhJ05P7DmSh0Kn_NkVkejnJRN7uqag8FAxd7UQq2lGWRSkkyMSQxKCUfmdB2rsletSkZ0lJYBucW1144lXHEDD8c4x5kGsoF9xPVv-XywK9-X1MtkBG3ueE8S22LkzTam_GXFbrtv9J2uBedelBSLpKod3ZYfyqehCW1WB1D7fwPAaWyEWSGI40SQcfM-i8PnXKxrkDRfq-KVZ4R5QJa6Sqz9OmkcNZDvamVWrub2QiiIJEYj4D0BkIi6a2ZzflY7IWvujJheXizwy1_0shNDqXKXoPh2LI1lFoi17J8EcAaihIsh_8GlzPL3fF967AqaRcJHzAnhKvztBnnczkEKdGPPaFShdxSbby8K0t17PGXqUBY7ILTqKzGUPgKia&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHwDKcU1iD2VLmmhIXSqAlcA6WMLgu5NCMQLHR0_cFzv9y5Xfeozy0xMZXewPiBoOdzuJWXLAkuGV6ia2qfaEBVmHoUH76f2UWuJudhm51GOyaKZz4d0xVvaSbCLflQ1sPSVvNMfiSZw_qPuzmsaZB3wIuVnuROshdZtTD8LFu-GM3r73oaFI9ZJiQA_H4fq7nU6XbdbHs99rjnfz6cdFHhHzpHmRnzS20IjX2wuQAC3rb-eT-WwLRSyroOBWXImzEbg0COIBXY0gvOs1eBsaGqS-QoLQ1r2QNFa8Cx7QQC739DQpyXxRBLG2_HQCoh7gXvbRue9v_DPjkJxmud9h16yxgvfYHcNFkNpReX36E4RIsp-zLnTD_K0PatX3JRmxOZxhZDOIrdxeMQlwfiMVvRt6TCyDaiRG1pmmHxhhwLd5Me&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEq8DVqFxzqL3pXLFo3I_dEMt-qH76oKu1SYJh7txnCL2rwfKDb2pW7ivGMijZSbhZzWfbKNHFvTY3SosQ1xspNHsOt0IojM6qR3UHffjLNTkfkOvwLP1TTdpNedrDwxgYyuczNFQoEknM8gbk3xDB3dDvO6oEq7k9--ieWMIFJf6H4bjJsNHcch2HoY4UAfNCoxUi47UbI2tlLsWT7TLIZJgz8fcfUKUfYaX-GDbmSr3GQpEjyiLkNnv2QNju7Ik7xtAMdVjBwNzDzgkHx12M3VaURRdwSgoeRZ40ygvUA7gXYZ2FbyZmY3CmVN-lSi7-m0aOtIDHXGlOQYhI9KgYoOOrURmKjRnvOwfKuyG_E4sHzh-PAw9JFjCo4NH1MAZLo83T38G-U4KBzC6LE52nqgwwuTDdppZ97n97vmaVLew&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
+    },
+    "team": {
+      "title": "Conocé a nuestro equipo",
+      "subtitle": "Profesionales apasionados por tu belleza",
+      "items": [
+        {
+          "name": "María González",
+          "role": "Directora y Estilista Senior",
+          "description": "10 años de experiencia en cortes y coloración"
+        },
+        {
+          "name": "Carlos Benítez",
+          "role": "Barbero Profesional",
+          "description": "Especialista en cortes masculinos y degradados"
+        },
+        {
+          "name": "Ana Martínez",
+          "role": "Colorista",
+          "description": "Experta en balayage, mechas y tintura"
+        },
+        {
+          "name": "Laura Silva",
+          "role": "Manicurista",
+          "description": "Diseño de uñas y nail art"
+        },
+        {
+          "name": "Pedro Ramírez",
+          "role": "Estilista",
+          "description": "Peinados para eventos y ocasiones especiales"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Reseñas",
+      "subtitle": "Basado en 351 reseñas en Google",
+      "items": []
+    },
+    "booking": {
+      "title": "Reservá tu turno",
+      "subtitle": "Elegí el servicio y el horario que más te convenga",
+      "services": [
+        {
+          "name": "Corte de Cabello",
+          "duration": 30,
+          "category": "Corte"
+        },
+        {
+          "name": "Coloración completa",
+          "duration": 90,
+          "category": "Color"
+        },
+        {
+          "name": "Mechas y Balayage",
+          "duration": 90,
+          "category": "Color"
+        },
+        {
+          "name": "Tratamiento capilar",
+          "duration": 45,
+          "category": "Tratamiento"
+        },
+        {
+          "name": "Manicura semipermanente",
+          "duration": 45,
+          "category": "Uñas"
+        },
+        {
+          "name": "Peinado para eventos",
+          "duration": 60,
+          "category": "Peinado"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Aceptan tarjetas de crédito?",
+          "a": "Sí, aceptamos todas las tarjetas de crédito y débito, además de efectivo y transferencia bancaria."
+        },
+        {
+          "q": "¿Cuánto dura un servicio de coloración?",
+          "a": "Depende del tipo de coloración, pero en promedio entre 1 y 2 horas."
+        },
+        {
+          "q": "¿Hacen peinados a domicilio?",
+          "a": "Sí, ofrecemos servicio a domicilio para eventos y ocasiones especiales con un costo adicional."
+        },
+        {
+          "q": "¿Usan productos profesionales?",
+          "a": "Sí, trabajamos con las mejores marcas profesionales del mercado."
+        },
+        {
+          "q": "¿Cómo puedo reservar un turno?",
+          "a": "Podés reservar por WhatsApp al +595981654321 o directamente en nuestro local."
+        }
+      ]
+    },
+    "hours": {
+      "Lunes": "10:00 AM – 5:00 PM",
+      "Martes": "10:00 AM – 5:00 PM",
+      "Miercoles": "10:00 AM – 5:00 PM",
+      "Jueves": "10:00 AM – 5:00 PM",
+      "Viernes": "10:00 AM – 5:00 PM",
+      "Sabado": "10:00 AM – 5:00 PM",
+      "Domingo": "Closed"
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "Peluqueria Asunción — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Corte de Dama",
+          "description": "Corte profesional con lavado y styling",
+          "priceCents": 80000,
+          "category": "Cortes",
+          "tags": [
+            "corte",
+            "dama",
+            "styling"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "corte-de-dama",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Corte de Caballero",
+          "description": "Corte moderno o clásico con acabado profesional",
+          "priceCents": 50000,
+          "category": "Cortes",
+          "tags": [
+            "corte",
+            "caballero",
+            "barberia"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "corte-de-caballero",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Coloración Completa",
+          "description": "Color base completo con productos profesionales",
+          "priceCents": 200000,
+          "category": "Coloración",
+          "tags": [
+            "color",
+            "tinte",
+            "base"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "coloraci-n-completa",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Mechas/Highlights",
+          "description": "Mechas naturales con técnica de papel aluminio",
+          "priceCents": 250000,
+          "category": "Coloración",
+          "tags": [
+            "mechas",
+            "highlights",
+            "reflejos"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "mechas-highlights",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Balayage",
+          "description": "Técnica francesa de mano alzada para look natural",
+          "priceCents": 350000,
+          "category": "Coloración",
+          "tags": [
+            "balayage",
+            "mano alzada",
+            "natural"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "balayage",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Lavado y Peinado",
+          "description": "Lavado con productos profesionales más peinado",
+          "priceCents": 40000,
+          "category": "Peinados",
+          "tags": [
+            "lavado",
+            "peinado",
+            "basico"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "lavado-y-peinado",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Peinado para Eventos",
+          "description": "Peinado elaborado para bodas, fiestas y graduaciones",
+          "priceCents": 150000,
+          "category": "Peinados",
+          "tags": [
+            "eventos",
+            "novia",
+            "fiesta"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "peinado-para-eventos",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Keratina Intensiva",
+          "description": "Tratamiento alisador con keratina que repara y alisa",
+          "priceCents": 350000,
+          "category": "Tratamientos",
+          "tags": [
+            "keratina",
+            "alisado",
+            "reparacion"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "keratina-intensiva",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Hidratación Profunda",
+          "description": "Tratamiento hidratante para cabello seco o maltratado",
+          "priceCents": 80000,
+          "category": "Tratamientos",
+          "tags": [
+            "hidratacion",
+            "reparacion",
+            "nutricion"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "hidrataci-n-profunda",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Botox Capilar",
+          "description": "Tratamiento reconstructor que elimina el frizz",
+          "priceCents": 250000,
+          "category": "Tratamientos",
+          "tags": [
+            "botox",
+            "frizz",
+            "reconstruccion"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "botox-capilar",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Alisado Permanente",
+          "description": "Alisado con ácido tioglicólico, resultado liso por meses",
+          "priceCents": 500000,
+          "category": "Tratamientos",
+          "tags": [
+            "alisado",
+            "permanente",
+            "liso"
+          ],
+          "imageCategory": "hair-salon",
+          "slug": "alisado-permanente",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?hair-salon",
+          "available": true
+        },
+        {
+          "name": "Set de Cuidado Capilar",
+          "description": "Kit shampoo + acondicionador profesional 300ml",
+          "priceCents": 120000,
+          "category": "Productos",
+          "tags": [
+            "shampoo",
+            "acondicionador",
+            "cuidado"
+          ],
+          "imageCategory": "products",
+          "slug": "set-de-cuidado-capilar",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en Providencia y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "Peluqueria Asunción",
+    "copyright": "© {{year}} Peluqueria Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Peluqueria y me interesa un sitio para mi negocio"
+  }
+}

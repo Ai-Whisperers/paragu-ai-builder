@@ -1,0 +1,72 @@
+{
+  "vertical": "food-beverage",
+  "businessType": "meal_prep",
+  "country": "Paraguay",
+  "domain": "deabastoacasa.com.py",
+  "stagingDomain": "staging.deabastoacasa.com.py",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "phone": "+595981324569",
+    "email": "hola@deabastoacasa.com.py",
+    "whatsapp": "+595981324569",
+    "instagram": "@deabastoacasa"
+  },
+  "location": {
+    "address": "San Lorenzo (ciudad completa)",
+    "neighborhood": "Ciudad Universitaria",
+    "city": "San Lorenzo"
+  },
+  "hours": {
+    "Lunes - Viernes": "08:00 - 19:00 (coordinacion por WhatsApp)",
+    "Martes y Jueves": "Compras en Abasto + mercado",
+    "Sabado": "09:00 - 14:00 (entregas)",
+    "Domingo": "Cerrado"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": "HS-PORTAL-PARAGUAI",
+      "formId": "contact-form-paragu-ai"
+    },
+    "mailchimp": {
+      "audienceId": "audience-paragu-ai-newsletter"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": "R-XXXXXXXXXX",
+        "streamName": "paragu-ai-builder-dayah-litworks"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "migratedFrom": "web/lib/engine/demo-data.ts",
+  "migratedAt": "2026-04-20",
+  "is_demo": false,
+  "isLiveProduction": true,
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  },
+  "path": "/s/es/de-abasto-a-casa",
+  "publicUrl": "https://paragu-ai.com/s/es/de-abasto-a-casa"
+}

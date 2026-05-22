@@ -1,0 +1,1267 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "Dayah LitWorks",
+    "lastReviewed": "2026-04-22"
+  },
+  "siteName": "Dayah LitWorks",
+  "tagline": "Book cover design — from manuscript to a cover that sells",
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How long does a custom cover take?",
+        "answer": "1–3 weeks depending on project complexity. Premades are delivered in 1–2 weeks."
+      },
+      {
+        "question": "How many revisions are included?",
+        "answer": "Revisions within the predefined plan are included. Additional changes beyond scope may have extra cost."
+      },
+      {
+        "question": "What's the payment process?",
+        "answer": "50% advance to start. Balance upon final design approval. We accept Western Union, bank transfer and cash."
+      },
+      {
+        "question": "What currency do you charge in?",
+        "answer": "We charge in USD and guaraníes (₲). See our pricing table for both currencies."
+      },
+      {
+        "question": "Can I use the cover on Amazon KDP / Wattpad / publishers?",
+        "answer": "Yes. Design rights belong to Dayah LitWorks until full payment. Once paid 100%, you can use the cover on any platform."
+      },
+      {
+        "question": "What is a 3D mockup?",
+        "answer": "A realistic 3D render of your book. Perfect for social media promotion and marketing."
+      },
+      {
+        "question": "What if I cancel the project?",
+        "answer": "If the client cancels after work has started, the advance payment is non-refundable."
+      },
+      {
+        "question": "Do you redesign existing covers?",
+        "answer": "Yes, you can hire a redesign as a custom cover. Send us your current cover and new ideas."
+      },
+      {
+        "question": "What do I need to get started?",
+        "answer": "Book title, synopsis, genre, visual references (ideas, fonts, colors, styles). Send references BEFORE requesting design."
+      },
+      {
+        "question": "What language do you design in?",
+        "answer": "We design covers in Spanish and English. Typography adapts to your book's language."
+      },
+      {
+        "question": "Can I request rush delivery (48–72h)?",
+        "answer": "Contact us on WhatsApp to check availability. Rush projects may have a surcharge."
+      },
+      {
+        "question": "How are final files delivered?",
+        "answer": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images."
+      }
+    ]
+  },
+  "faqPage": {
+    "seo": {
+      "title": "FAQ — Dayah LitWorks",
+      "description": "Answers to common questions about book-cover design: timelines, pricing, revisions, formats and licensing."
+    },
+    "hero": {
+      "title": "Frequently asked questions",
+      "subtitle": "Quick answers most authors need before starting."
+    }
+  },
+  "seo": {
+    "faq": {
+      "title": "FAQ — Dayah LitWorks",
+      "description": "Answers to the most frequently asked questions about our book cover design services."
+    }
+  },
+  "placeholders": {
+    "businessName": "Dayah LitWorks",
+    "city": "Asuncion",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Dayah LitWorks",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/s/en/dayah-litworks"
+      },
+      {
+        "label": "Services",
+        "href": "/s/en/dayah-litworks/servicios"
+      },
+      {
+        "label": "Catalog",
+        "href": "/s/en/dayah-litworks/catalogo"
+      },
+      {
+        "label": "About",
+        "href": "/s/en/dayah-litworks/sobre"
+      },
+      {
+        "label": "FAQ",
+        "href": "/s/en/dayah-litworks/faq"
+      },
+      {
+        "label": "Contact",
+        "href": "/s/en/dayah-litworks/contacto"
+      }
+    ],
+    "ctaText": "Contact",
+    "ctaHref": "https://wa.me/595986868241"
+  },
+  "home": {
+    "seo": {
+      "title": "Dayah LitWorks — Professional Book Cover Design",
+      "description": "Custom and premade book cover design. From Asunción to authors worldwide. Payment in USD and guaraníes."
+    },
+    "hero": {
+      "headline": "Covers that sell.",
+      "subheadline": "For indie authors worldwide. USD or PYG.",
+      "ctaPrimaryText": "View Catalog",
+      "ctaPrimaryHref": "/s/en/dayah-litworks/catalogo",
+      "ctaSecondaryText": "WhatsApp",
+      "ctaSecondaryHref": "https://wa.me/595986868241",
+      "trustBadges": [
+        "6+ years of experience",
+        "USD or PYG",
+        "Delivery in 1–2 weeks"
+      ],
+      "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80"
+    },
+    "trustBadges": {
+      "title": "Why Choose Us",
+      "badges": [
+        {
+          "icon": "palette",
+          "label": "Professional design",
+          "description": "Covers that sell books"
+        },
+        {
+          "icon": "globe",
+          "label": "Global clients",
+          "description": "Authors in USA, Europe and LATAM"
+        },
+        {
+          "icon": "dollar-sign",
+          "label": "USD & guaraníes",
+          "description": "Payment in both currencies"
+        },
+        {
+          "icon": "zap",
+          "label": "Fast delivery",
+          "description": "1–3 weeks depending on service"
+        }
+      ],
+      "items": [
+        {
+          "title": "6+ years designing covers",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "USD or PYG",
+          "icon": "DollarSign"
+        },
+        {
+          "title": "Delivery in 1–2 weeks",
+          "icon": "Clock"
+        }
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Professional design for your book",
+      "categories": [
+        {
+          "id": "custom",
+          "title": "Custom Covers",
+          "description": "Exclusive design created from scratch for your book",
+          "items": [
+            {
+              "name": "Custom Cover — eBook",
+              "priceUSD": "$45",
+              "pricePYG": "₲300,000",
+              "delivery": "1–2 weeks",
+              "description": "Exclusive eBook cover design",
+              "includes": [
+                "eBook cover (JPG/PDF)",
+                "Title PNG + Title page PNG",
+                "2 cover reveal banners",
+                "2 Mockups"
+              ]
+            },
+            {
+              "name": "Custom Cover — Paperback",
+              "priceUSD": "$80",
+              "pricePYG": "₲500,000",
+              "delivery": "1–2 weeks",
+              "description": "Full cover (front + spine + back) for print",
+              "includes": [
+                "Paperback cover (JPG/PDF)",
+                "Print-ready file (PDF)",
+                "Title PNG + Title page PNG",
+                "2 cover reveal banners",
+                "2 Mockups"
+              ]
+            },
+            {
+              "name": "Cover Paperback & eBook",
+              "priceUSD": "$120",
+              "pricePYG": "₲800,000",
+              "delivery": "2–3 weeks",
+              "description": "Complete combo: eBook + paperback cover",
+              "includes": [
+                "eBook cover (JPG/PDF)",
+                "Print-ready file (PDF)",
+                "Title PNG + Title page PNG",
+                "2 cover reveal banners",
+                "2 Mockups"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "premade",
+          "title": "Premade Covers",
+          "description": "Ready-to-use designs with typography and color customization",
+          "items": [
+            {
+              "name": "Premade eBook",
+              "priceUSD": "$35",
+              "pricePYG": "₲250,000",
+              "delivery": "1–2 weeks",
+              "description": "Premade eBook cover with customization",
+              "includes": [
+                "eBook cover (JPG/PDF)",
+                "Title PNG + Title page PNG",
+                "2 cover reveal banners",
+                "2 Mockups"
+              ],
+              "scopeNote": "Includes copy and typography alterations, color changes, minor element repositioning"
+            },
+            {
+              "name": "Premade eBook & Paperback",
+              "priceUSD": "$80",
+              "pricePYG": "₲500,000",
+              "delivery": "1–2 weeks",
+              "description": "Premade cover with paperback version",
+              "includes": [
+                "Paperback cover (JPG/PDF)",
+                "Print-ready file (PDF)",
+                "Title PNG + Title page PNG",
+                "2 cover reveal banners",
+                "2 Mockups"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "layout",
+          "title": "Interior Layout",
+          "description": "Professional book interior design",
+          "items": [
+            {
+              "name": "eBook Layout",
+              "priceUSD": "$25",
+              "pricePYG": "₲160,000",
+              "delivery": "1–2 weeks",
+              "description": "Professional interior design for eBooks",
+              "includes": [
+                "Professional interior design",
+                "File per platform specs (WORD/PDF)"
+              ]
+            },
+            {
+              "name": "Paperback Layout",
+              "priceUSD": "$35",
+              "pricePYG": "₲250,000",
+              "delivery": "1–2 weeks",
+              "description": "Professional interior design for print",
+              "includes": [
+                "Professional interior design",
+                "File per platform specs (WORD/PDF)"
+              ]
+            },
+            {
+              "name": "eBook & Paperback Layout",
+              "priceUSD": "$50",
+              "pricePYG": "₲320,000",
+              "delivery": "1–2 weeks",
+              "description": "Complete interior design for both formats",
+              "includes": [
+                "Professional interior design",
+                "File per platform specs (WORD/PDF)"
+              ]
+            }
+          ]
+        }
+      ],
+      "addons": [
+        {
+          "name": "Static 3D Mockup",
+          "price": "USD 15–30",
+          "description": "Realistic 3D render of your book for Amazon, Instagram, and press. Price depends on number of angles."
+        },
+        {
+          "name": "Video 3D Mockup",
+          "price": "USD 40–80",
+          "description": "A 5–10 second animation — ideal for social reveals. Includes 1 revision round."
+        },
+        {
+          "name": "Copyediting",
+          "price": "USD 2 / 1000 words",
+          "description": "Professional pass before layout. Quoted on the first 2 chapters + total length."
+        },
+        {
+          "name": "Rush (delivery <1 week)",
+          "price": "+50% over base price",
+          "description": "If you need it sooner than usual, pay a surcharge to jump the queue."
+        },
+        {
+          "name": "Extra revision (beyond the 2 included)",
+          "price": "USD 20 / round",
+          "description": "Scope changes outside the original direction."
+        }
+      ],
+      "items": [
+        {
+          "name": "Custom Cover — eBook",
+          "priceUSD": "$45",
+          "pricePYG": "₲300,000",
+          "delivery": "1–2 weeks",
+          "description": "Exclusive eBook cover design",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 cover reveal banners",
+            "2 Mockups"
+          ],
+          "category": "Custom Covers"
+        },
+        {
+          "name": "Custom Cover — Paperback",
+          "priceUSD": "$80",
+          "pricePYG": "₲500,000",
+          "delivery": "1–2 weeks",
+          "description": "Full cover (front + spine + back) for print",
+          "includes": [
+            "Paperback cover (JPG/PDF)",
+            "Print-ready file (PDF)",
+            "Title PNG + Title page PNG",
+            "2 cover reveal banners",
+            "2 Mockups"
+          ],
+          "category": "Custom Covers"
+        },
+        {
+          "name": "Cover Paperback & eBook",
+          "priceUSD": "$120",
+          "pricePYG": "₲800,000",
+          "delivery": "2–3 weeks",
+          "description": "Complete combo: eBook + paperback cover",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Print-ready file (PDF)",
+            "Title PNG + Title page PNG",
+            "2 cover reveal banners",
+            "2 Mockups"
+          ],
+          "category": "Custom Covers"
+        },
+        {
+          "name": "Premade eBook",
+          "priceUSD": "$35",
+          "pricePYG": "₲250,000",
+          "delivery": "1–2 weeks",
+          "description": "Premade eBook cover with customization",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 cover reveal banners",
+            "2 Mockups"
+          ],
+          "scopeNote": "Includes copy and typography alterations, color changes, minor element repositioning",
+          "category": "Premade Covers"
+        },
+        {
+          "name": "Premade eBook & Paperback",
+          "priceUSD": "$80",
+          "pricePYG": "₲500,000",
+          "delivery": "1–2 weeks",
+          "description": "Premade cover with paperback version",
+          "includes": [
+            "Paperback cover (JPG/PDF)",
+            "Print-ready file (PDF)",
+            "Title PNG + Title page PNG",
+            "2 cover reveal banners",
+            "2 Mockups"
+          ],
+          "category": "Premade Covers"
+        },
+        {
+          "name": "eBook Layout",
+          "priceUSD": "$25",
+          "pricePYG": "₲160,000",
+          "delivery": "1–2 weeks",
+          "description": "Professional interior design for eBooks",
+          "includes": [
+            "Professional interior design",
+            "File per platform specs (WORD/PDF)"
+          ],
+          "category": "Interior Layout"
+        },
+        {
+          "name": "Paperback Layout",
+          "priceUSD": "$35",
+          "pricePYG": "₲250,000",
+          "delivery": "1–2 weeks",
+          "description": "Professional interior design for print",
+          "includes": [
+            "Professional interior design",
+            "File per platform specs (WORD/PDF)"
+          ],
+          "category": "Interior Layout"
+        },
+        {
+          "name": "eBook & Paperback Layout",
+          "priceUSD": "$50",
+          "pricePYG": "₲320,000",
+          "delivery": "1–2 weeks",
+          "description": "Complete interior design for both formats",
+          "includes": [
+            "Professional interior design",
+            "File per platform specs (WORD/PDF)"
+          ],
+          "category": "Interior Layout"
+        }
+      ],
+      "addons_block": {
+        "title": "Additional services",
+        "subtitle": "Add-ons you can attach to any package.",
+        "features": [
+          {
+            "title": "Static 3D Mockup",
+            "description": "Realistic 3D render of your book for Amazon, Instagram, and press. Price depends on number of angles. — USD 15–30"
+          },
+          {
+            "title": "Video 3D Mockup",
+            "description": "A 5–10 second animation — ideal for social reveals. Includes 1 revision round. — USD 40–80"
+          },
+          {
+            "title": "Copyediting",
+            "description": "Professional pass before layout. Quoted on the first 2 chapters + total length. — USD 2 / 1000 words"
+          },
+          {
+            "title": "Rush (delivery <1 week)",
+            "description": "If you need it sooner than usual, pay a surcharge to jump the queue. — +50% over base price"
+          },
+          {
+            "title": "Extra revision (beyond the 2 included)",
+            "description": "Scope changes outside the original direction. — USD 20 / round"
+          }
+        ]
+      },
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80"
+    },
+    "products": {
+      "title": "Premade Catalog",
+      "subtitle": "Ready-to-use designs — customization included",
+      "categories": [
+        "All",
+        "Fantasy",
+        "Romance",
+        "Thriller",
+        "Sci-Fi",
+        "Horror"
+      ],
+      "items": [
+        {
+          "name": "Whispers of the Forest",
+          "priceUSD": "$35",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — Fantasy/Romance",
+          "category": "Fantasy",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Whispers%20of%20the%20Forest'"
+        },
+        {
+          "name": "Heart of Ash",
+          "priceUSD": "$35",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — Dark Romance",
+          "category": "Romance",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Heart%20of%20Ash'"
+        },
+        {
+          "name": "The Last Code",
+          "priceUSD": "$30",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — Thriller/Suspense",
+          "category": "Thriller",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'The%20Last%20Code'"
+        },
+        {
+          "name": "Inner Galaxy",
+          "priceUSD": "$35",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — Science Fiction",
+          "category": "Sci-Fi",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Inner%20Galaxy'"
+        },
+        {
+          "name": "Shadows in the Mirror",
+          "priceUSD": "$30",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — Horror",
+          "category": "Horror",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Shadows%20in%20the%20Mirror'"
+        },
+        {
+          "name": "Crystal Wings",
+          "priceUSD": "$35",
+          "pricePYG": "₲250,000",
+          "description": "Premade cover — YA Fantasy",
+          "category": "Fantasy",
+          "imageUrl": "",
+          "available": true,
+          "format": "eBook",
+          "includes": [
+            "eBook cover (JPG/PDF)",
+            "Title PNG + Title page PNG",
+            "2 reveal banners",
+            "2 mockups"
+          ],
+          "ctaHref": "https://wa.me/595986868241?text=Hi!%20I'm%20interested%20in%20the%20premade%20cover%20'Crystal%20Wings'"
+        }
+      ],
+      "backgroundImage": "https://images.unsplash.com/photo-1492539438225-2666b2a98f93?auto=format&fit=crop&w=2000&q=80"
+    },
+    "process": {
+      "title": "Process",
+      "subtitle": "From manuscript to cover in 3 steps. 2 revision rounds included. Pay in 2 installments (50% to start, 50% on approval).",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Brief + references",
+          "description": "Send me genre, audience, visual references, and deadline. Within 24 h I'll confirm whether the project fits my schedule.",
+          "duration": "Day 1"
+        },
+        {
+          "number": 2,
+          "title": "Design",
+          "description": "I propose 2 initial options. You pick one and we refine it across 2 revision rounds at no extra cost.",
+          "duration": "Week 1"
+        },
+        {
+          "number": 3,
+          "title": "Final delivery",
+          "description": "High-resolution files for your platform: eBook cover JPG/PDF, title PNG, reveal banners, 2 mockups. Ready to upload.",
+          "duration": "Week 2"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "q": "How long does a custom cover take?",
+          "a": "1–3 weeks depending on project complexity. Premades are delivered in 1–2 weeks."
+        },
+        {
+          "q": "How many revisions are included?",
+          "a": "Revisions within the predefined plan are included. Additional changes beyond scope may have extra cost."
+        },
+        {
+          "q": "What's the payment process?",
+          "a": "50% advance to start. Balance upon final design approval. We accept Western Union, bank transfer and cash."
+        },
+        {
+          "q": "What currency do you charge in?",
+          "a": "We charge in USD and guaraníes (₲). See our pricing table for both currencies."
+        },
+        {
+          "q": "Can I use the cover on Amazon KDP / Wattpad / publishers?",
+          "a": "Yes. Design rights belong to Dayah LitWorks until full payment. Once paid 100%, you can use the cover on any platform."
+        },
+        {
+          "q": "What is a 3D mockup?",
+          "a": "A realistic 3D render of your book. Perfect for social media promotion and marketing."
+        },
+        {
+          "q": "What if I cancel the project?",
+          "a": "If the client cancels after work has started, the advance payment is non-refundable."
+        },
+        {
+          "q": "Do you redesign existing covers?",
+          "a": "Yes, you can hire a redesign as a custom cover. Send us your current cover and new ideas."
+        },
+        {
+          "q": "What do I need to get started?",
+          "a": "Book title, synopsis, genre, visual references (ideas, fonts, colors, styles). Send references BEFORE requesting design."
+        },
+        {
+          "q": "What language do you design in?",
+          "a": "We design covers in Spanish and English. Typography adapts to your book's language."
+        },
+        {
+          "q": "Can I request rush delivery (48–72h)?",
+          "a": "Contact us on WhatsApp to check availability. Rush projects may have a surcharge."
+        },
+        {
+          "q": "How are final files delivered?",
+          "a": "High-resolution files (JPG, PDF, PNG) ready to upload to your platform. Mockups delivered as rendered images."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "items": [
+        {
+          "quote": "My cover is incredible! Dayah perfectly understood the essence of my book.",
+          "author": "María G.",
+          "rating": 5
+        },
+        {
+          "quote": "Professional, creative and super fast. My premade cover was love at first sight.",
+          "author": "Carlos R.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Same-day response",
+      "whatsapp": "+595986868241",
+      "email": "dayahlitworks@gmail.com",
+      "instagram": "@dayah.litworks",
+      "facebook": "https://www.facebook.com/bookc0verdesign/",
+      "linkedin": "https://www.linkedin.com/in/daihana-araujo/",
+      "city": "Asunción, Paraguay",
+      "whatsappMessage": "Hi Dayah! I want to ask about a cover design.",
+      "hours": {
+        "Monday": "09:00 – 18:00",
+        "Tuesday": "09:00 – 18:00",
+        "Wednesday": "09:00 – 18:00",
+        "Thursday": "09:00 – 18:00",
+        "Friday": "09:00 – 18:00",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28875.69!2d-57.5759!3d-25.2637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da8e96abe1edb%3A0x9aa9f89b0b1c1234!2zQXN1bmNpw7NuLCBQYXJhZ3VheQ!5e0!3m2!1ses!2spy!4v1700000000000!5m2!1ses!2spy",
+      "hoursCompact": "Mon–Fri 09:00–18:00"
+    }
+  },
+  "portfolio": {
+    "seo": {
+      "title": "Portfolio — Dayah LitWorks",
+      "description": "Gallery of book covers designed by Dayah LitWorks"
+    },
+    "title": "Portfolio",
+    "subtitle": "Covers that sell books",
+    "filters": [
+      "All",
+      "Fantasy",
+      "Romance",
+      "Thriller",
+      "Sci-Fi",
+      "Horror"
+    ],
+    "items": [],
+    "placeholder": {
+      "title": "Private portfolio",
+      "subtitle": "My clients are in launch mode — I'm waiting for permission to share recent work here. If you want to see examples in your specific genre (fantasy, romance, thriller…), DM me on WhatsApp and I'll send a private sample within the day.",
+      "features": [
+        {
+          "title": "Request samples via WhatsApp",
+          "description": "Tell me your genre and I'll send 3–5 recent examples privately. Same-day response.",
+          "href": "https://wa.me/595986868241"
+        },
+        {
+          "title": "Instagram @dayah.litworks",
+          "description": "What I can show publicly: recent work + process + reveal banners.",
+          "href": "https://instagram.com/dayah.litworks"
+        },
+        {
+          "title": "Premade Catalog",
+          "description": "Ready-to-customize designs for when you need a cover fast.",
+          "href": "/s/en/dayah-litworks/catalogo"
+        }
+      ],
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80"
+    },
+    "trustBadgesEnabled": false,
+    "nda": {
+      "title": "NDA-protected work",
+      "subtitle": "I respect every project's confidentiality. Message me and I'll share real samples privately.",
+      "src": "/images/dayah/portfolio-nda.svg",
+      "alt": "Redacted sample of Dayah LitWorks portfolio",
+      "background": "surface",
+      "maxWidth": 1000
+    },
+    "hero": {
+      "title": "Private portfolio",
+      "subtitle": "My clients are in launch mode — I'm waiting for permission to share recent work here. If you want to see examples in your specific genre (fantasy, romance, thriller…), DM me on WhatsApp and I'll send a private sample within the day.",
+      "backgroundImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=2000&q=80"
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog — Dayah LitWorks",
+      "description": "Cover design tips, trends and resources for indie authors"
+    },
+    "hero": {
+      "title": "Blog",
+      "subtitle": "Tips, trends and resources for authors",
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=2000&q=80"
+    },
+    "posts": [
+      {
+        "slug": "como-elegir-portada-libro",
+        "title": "How to Choose the Perfect Book Cover",
+        "excerpt": "5 key factors that determine whether your cover attracts or repels readers",
+        "date": "2026-04-22",
+        "category": "Design",
+        "readTime": "5 min",
+        "imageUrl": ""
+      }
+    ],
+    "placeholder": {
+      "title": "Newsletter only for now",
+      "subtitle": "I don't write blog posts yet. One email a month with concrete tips on indie covers, before/after examples, and genre trends. No filler.",
+      "features": [
+        {
+          "title": "Subscribe to the newsletter",
+          "description": "One email a month. Nothing more.",
+          "href": "#newsletter"
+        },
+        {
+          "title": "Follow on Instagram",
+          "description": "Recent work + daily process.",
+          "href": "https://instagram.com/dayah.litworks"
+        },
+        {
+          "title": "Ask via WhatsApp",
+          "description": "Specific technical questions about your project, fast answers.",
+          "href": "https://wa.me/595986868241"
+        }
+      ],
+      "trustBadgesEnabled": false
+    },
+    "trustBadgesEnabled": false
+  },
+  "blogPost": {
+    "como-elegir-portada-libro": {
+      "title": "How to Choose the Perfect Book Cover",
+      "author": "Dayah LitWorks",
+      "date": "2026-04-22",
+      "category": "Design",
+      "readTime": "5 min",
+      "content": "Your book cover is the first impression a potential reader has of your work. In a world where thousands of books are published daily, your cover needs to stand out in seconds.\n\n## 1. Know Your Genre\nEvery genre has visual conventions. Fantasy readers expect magical elements; thriller readers expect tension and mystery. Don't ignore these conventions — they're a shortcut for your audience to find you.\n\n## 2. Typography Matters More Than You Think\n70% of an effective cover is typography. The title must be legible at thumbnail size (that's how it appears on Amazon). Choose fonts that reflect your book's tone.\n\n## 3. Less is More\nThe most effective covers have one clear focal point. Don't try to tell the entire story on the cover. One strong visual element + excellent typography = a cover that sells.\n\n## 4. Test at Thumbnail Size\nYour cover will appear at roughly 100x150px on most online stores. If it's not readable at that size, you need a redesign.\n\n## 5. Invest in Professionalism\nA professional cover is not an expense — it's an investment. It's the difference between your book looking like an amateur project or a serious publication.\n\n---\n\n*Ready to give your book the cover it deserves? [Contact me on WhatsApp](https://wa.me/595986868241) and let's talk about your project.*"
+    }
+  },
+  "blogRelated": {
+    "como-elegir-portada-libro": []
+  },
+  "newsletter": {
+    "title": "Author Newsletter",
+    "subtitle": "Design tips and cover trends straight to your inbox",
+    "ctaText": "Subscribe",
+    "placeholder": "your@email.com"
+  },
+  "ctaBanner": {
+    "title": "Ready for the perfect cover?",
+    "subtitle": "Get in touch and let's make your book stand out",
+    "ctaText": "Message on WhatsApp",
+    "ctaHref": "https://wa.me/595986868241"
+  },
+  "contactHero": {
+    "title": "Tell me about your book",
+    "subtitle": "Send visual references with your request — it lets me quote accurately (it's the most important step of the process, that's why it's in my terms).",
+    "trustBadgesEnabled": false,
+    "backgroundImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=2000&q=80"
+  },
+  "quoteForm": {
+    "title": "Tell me about your book",
+    "steps": [
+      {
+        "id": "genre",
+        "title": "What's your book about?",
+        "fields": [
+          "Genre",
+          "Title"
+        ]
+      },
+      {
+        "id": "service",
+        "title": "What do you need?",
+        "fields": [
+          "Service type"
+        ]
+      },
+      {
+        "id": "details",
+        "title": "Details",
+        "fields": [
+          "Timeline",
+          "Budget"
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Your info",
+        "fields": [
+          "Name",
+          "Email or WhatsApp"
+        ]
+      }
+    ],
+    "serviceOptions": [
+      "Custom Cover — eBook ($45)",
+      "Custom Cover — Paperback ($80)",
+      "Cover Paperback & eBook ($120)",
+      "Premade eBook ($35)",
+      "Premade eBook & Paperback ($80)",
+      "eBook Layout ($25)",
+      "Paperback Layout ($35)",
+      "eBook & Paperback Layout ($50)",
+      "Other / Not sure"
+    ],
+    "ctaText": "Send inquiry via WhatsApp",
+    "whatsappBase": "https://wa.me/595986868241",
+    "subtitle": "Fields marked * are required. Sending visual references is what speeds up the quote the most.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "genre",
+        "label": "Book genre",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Fantasy",
+          "Romance",
+          "Dark Romance",
+          "Thriller / Suspense",
+          "Sci-Fi",
+          "Horror",
+          "YA",
+          "Non-fiction",
+          "Other"
+        ]
+      },
+      {
+        "name": "cover_type",
+        "label": "Cover type",
+        "type": "radio",
+        "required": true,
+        "options": [
+          "eBook only",
+          "Paperback only",
+          "eBook + Paperback",
+          "Premade",
+          "I don't know yet"
+        ]
+      },
+      {
+        "name": "manuscript_length",
+        "label": "Manuscript length",
+        "type": "select",
+        "options": [
+          "Under 50 000 words",
+          "50 000 – 100 000",
+          "Over 100 000",
+          "N/A (cover only)"
+        ]
+      },
+      {
+        "name": "deadline",
+        "label": "When do you need delivery?",
+        "type": "date",
+        "help": "Rush (<1 week) incurs a +50% surcharge."
+      },
+      {
+        "name": "budget",
+        "label": "Budget range (USD)",
+        "type": "select",
+        "options": [
+          "Under $50",
+          "$50 – $100",
+          "$100 – $200",
+          "$200 +",
+          "I don't know, suggest one"
+        ]
+      },
+      {
+        "name": "references",
+        "label": "Visual references (Pinterest / Drive / Instagram link, or covers you like)",
+        "type": "url",
+        "help": "Required BEFORE quoting — see Terms #1."
+      },
+      {
+        "name": "contact_preference",
+        "label": "Preferred reply channel",
+        "type": "radio",
+        "options": [
+          "WhatsApp",
+          "Email"
+        ]
+      },
+      {
+        "name": "description",
+        "label": "Short synopsis + additional notes",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "What the book is about (2–3 lines), target audience, mood/atmosphere you're after, things you DON'T want on the cover…"
+      }
+    ],
+    "submitLabel": "Send via WhatsApp",
+    "successTitle": "Sent!",
+    "successBody": "I've opened WhatsApp with your request. I reply within office hours (Mon–Fri 09:00–18:00 PY).",
+    "whatsappPhone": "+595986868241"
+  },
+  "sobre": {
+    "seo": {
+      "title": "About Dayah LitWorks — Book Cover Designer",
+      "description": "Meet Dayah, a book cover designer based in Asunción, Paraguay. 6+ years creating covers that sell."
+    },
+    "hero": {
+      "title": "About Dayah LitWorks",
+      "subtitle": "Where fantasy becomes reality",
+      "trustBadgesEnabled": false,
+      "backgroundImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=2000&q=80"
+    },
+    "bio": {
+      "features": [
+        {
+          "title": "Founded Dayah LitWorks in November 2019",
+          "description": "Based in Asunción, working with indie authors across LATAM, Spain, and the US. The focus has always been simple: covers that earn a first-read on Amazon, not 'pretty' covers."
+        },
+        {
+          "title": "How I work",
+          "description": "One project at a time, with scheduled revisions. No templates. No generative AI for the final cover (yes for reference only). Every cover is designed after reading at least the first chapters or the full synopsis."
+        },
+        {
+          "title": "Most common genres I work in",
+          "description": "Fantasy, romance (including dark romance), thriller/suspense, sci-fi, and horror. If your genre is different, ask — I'll tell you whether it fits my style or if another designer is a better match for you."
+        },
+        {
+          "title": "Languages",
+          "description": "I work in Spanish and English. If your manuscript is in another language, I need a translated synopsis."
+        }
+      ],
+      "title": "About Daihana"
+    },
+    "highlights": [
+      {
+        "title": "6+",
+        "description": "Years designing covers"
+      },
+      {
+        "title": "LATAM + US + Spain",
+        "description": "Clients across 3 regions"
+      },
+      {
+        "title": "ES + EN",
+        "description": "Bilingual manuscripts"
+      },
+      {
+        "title": "USD or PYG",
+        "description": "Billing by origin"
+      }
+    ],
+    "highlightsBlock": {
+      "title": "In numbers",
+      "features": [
+        {
+          "title": "6+",
+          "description": "Years designing covers"
+        },
+        {
+          "title": "LATAM + US + Spain",
+          "description": "Clients across 3 regions"
+        },
+        {
+          "title": "ES + EN",
+          "description": "Bilingual manuscripts"
+        },
+        {
+          "title": "USD or PYG",
+          "description": "Billing by origin"
+        }
+      ]
+    },
+    "trustBadgesEnabled": false
+  },
+  "terminos": {
+    "seo": {
+      "title": "Terms & Conditions — Dayah LitWorks",
+      "description": "Service conditions, payment policies and design rights for Dayah LitWorks"
+    },
+    "title": "Terms & Conditions",
+    "subtitle": "Payment of the quote implies acceptance of the following conditions",
+    "sections": [
+      {
+        "q": "1. References first",
+        "a": "You must send me references (ideas, fonts, colors, styles) BEFORE requesting the design, not after. Without references I can't quote accurately and I'll likely decline the project out of respect for both our time."
+      },
+      {
+        "q": "2. Business days",
+        "a": "I work Monday–Friday during office hours (09:00–18:00 Paraguay time). I don't reply to messages or send deliveries on weekends or holidays. Delivery timelines count business days only."
+      },
+      {
+        "q": "3. Deposit and cancellation",
+        "a": "To start I charge a 50% deposit; the balance is due on final approval. If you cancel after the project has started, the deposit is non-refundable because it covers hours already invested. If you cancel before I've started (within 48h of payment), I refund 100%."
+      },
+      {
+        "q": "4. Review responsibility",
+        "a": "Before printing, publishing, or reproducing anything, review the design, text, and data. Dayah LitWorks isn't liable for errors you didn't flag in time. A QA checklist is included in every delivery."
+      },
+      {
+        "q": "5. Scope changes",
+        "a": "Each package includes 2 revision rounds. Additional changes (e.g. switching genre mid-project, starting over after approving a direction) are quoted separately: USD 20 / minor revision round, USD 40+ for a significant redesign. I'll tell you before I do the work, not after."
+      },
+      {
+        "q": "6. Design rights",
+        "a": "The design rights are yours once 100% is paid. Until then, high-resolution files aren't delivered and commercial use isn't authorized. For premades, the license is exclusive (one sale per design) unless you explicitly ask for a cheaper non-exclusive license."
+      },
+      {
+        "q": "7. Portfolio use",
+        "a": "I may show finished work in my portfolio, Instagram, Facebook, and website. If you'd prefer I don't (e.g. your book isn't out yet), tell me before final delivery and I'll keep it private until your launch date."
+      }
+    ],
+    "payment": {
+      "title": "Payment Methods",
+      "methods": [
+        {
+          "name": "Western Union",
+          "description": "For international clients"
+        },
+        {
+          "name": "Bank transfer",
+          "description": "Paraguayan banks"
+        },
+        {
+          "name": "Cash",
+          "description": "In-person payment in Asunción"
+        }
+      ],
+      "note": "50% advance required to start the project. Remaining balance due upon final design approval.",
+      "features": [
+        {
+          "title": "Western Union",
+          "description": "For international clients",
+          "icon": null
+        },
+        {
+          "title": "Bank transfer",
+          "description": "Paraguayan banks",
+          "icon": null
+        },
+        {
+          "title": "Cash",
+          "description": "In-person payment in Asunción",
+          "icon": null
+        }
+      ]
+    },
+    "sectionsBlock": {
+      "title": "Service terms",
+      "items": [
+        {
+          "q": "1. References first",
+          "a": "You must send me references (ideas, fonts, colors, styles) BEFORE requesting the design, not after. Without references I can't quote accurately and I'll likely decline the project out of respect for both our time."
+        },
+        {
+          "q": "2. Business days",
+          "a": "I work Monday–Friday during office hours (09:00–18:00 Paraguay time). I don't reply to messages or send deliveries on weekends or holidays. Delivery timelines count business days only."
+        },
+        {
+          "q": "3. Deposit and cancellation",
+          "a": "To start I charge a 50% deposit; the balance is due on final approval. If you cancel after the project has started, the deposit is non-refundable because it covers hours already invested. If you cancel before I've started (within 48h of payment), I refund 100%."
+        },
+        {
+          "q": "4. Review responsibility",
+          "a": "Before printing, publishing, or reproducing anything, review the design, text, and data. Dayah LitWorks isn't liable for errors you didn't flag in time. A QA checklist is included in every delivery."
+        },
+        {
+          "q": "5. Scope changes",
+          "a": "Each package includes 2 revision rounds. Additional changes (e.g. switching genre mid-project, starting over after approving a direction) are quoted separately: USD 20 / minor revision round, USD 40+ for a significant redesign. I'll tell you before I do the work, not after."
+        },
+        {
+          "q": "6. Design rights",
+          "a": "The design rights are yours once 100% is paid. Until then, high-resolution files aren't delivered and commercial use isn't authorized. For premades, the license is exclusive (one sale per design) unless you explicitly ask for a cheaper non-exclusive license."
+        },
+        {
+          "q": "7. Portfolio use",
+          "a": "I may show finished work in my portfolio, Instagram, Facebook, and website. If you'd prefer I don't (e.g. your book isn't out yet), tell me before final delivery and I'll keep it private until your launch date."
+        }
+      ]
+    },
+    "trustBadgesEnabled": false
+  },
+  "footer": {
+    "businessName": "Dayah LitWorks",
+    "founded": "2019",
+    "copyright": "© 2026 Dayah LitWorks. All rights reserved.",
+    "navLinks": [
+      {
+        "label": "Services",
+        "href": "/s/en/dayah-litworks/servicios"
+      },
+      {
+        "label": "Portfolio",
+        "href": "/s/en/dayah-litworks/portafolio"
+      },
+      {
+        "label": "About",
+        "href": "/s/en/dayah-litworks/sobre"
+      },
+      {
+        "label": "Contact",
+        "href": "/s/en/dayah-litworks/contacto"
+      },
+      {
+        "label": "Terms",
+        "href": "/s/en/dayah-litworks/terminos"
+      },
+      {
+        "label": "Privacy",
+        "href": "/s/en/dayah-litworks/privacidad"
+      }
+    ],
+    "city": "Asunción"
+  },
+  "whatsapp": "+595986868241",
+  "privacidad": {
+    "title": "Privacy",
+    "subtitle": "How I handle your information.",
+    "sections": [
+      {
+        "q": "What data I collect",
+        "a": "Only what's needed to work with you: name, email, phone/WhatsApp if provided, and what you send about your project (manuscript, references). Nothing else."
+      },
+      {
+        "q": "What I use it for",
+        "a": "Replying to your inquiry, coordinating the project, sending deliveries, and invoicing. I don't sell or share your data with third parties."
+      },
+      {
+        "q": "Where I store it",
+        "a": "Email in Gmail, working files in Google Drive, conversations in WhatsApp. Working files are deleted 6 months after final delivery unless you ask me to keep them."
+      },
+      {
+        "q": "Newsletter",
+        "a": "If you subscribe to the newsletter, your email goes to Mailchimp. You can unsubscribe via the link at the bottom of each email, and your email is deleted within 30 days."
+      },
+      {
+        "q": "Your rights",
+        "a": "You can ask me at any time to show, correct, or delete the data I have about you. Email dayahlitworks@gmail.com."
+      },
+      {
+        "q": "Jurisdiction",
+        "a": "Dayah LitWorks operates from Paraguay. Data is handled under applicable Paraguayan law (Ley 6534/2020 on personal data). For EU clients, I comply with GDPR as a processor (contract execution basis)."
+      }
+    ],
+    "sectionsBlock": {
+      "title": "Privacy policy",
+      "items": [
+        {
+          "q": "What data I collect",
+          "a": "Only what's needed to work with you: name, email, phone/WhatsApp if provided, and what you send about your project (manuscript, references). Nothing else."
+        },
+        {
+          "q": "What I use it for",
+          "a": "Replying to your inquiry, coordinating the project, sending deliveries, and invoicing. I don't sell or share your data with third parties."
+        },
+        {
+          "q": "Where I store it",
+          "a": "Email in Gmail, working files in Google Drive, conversations in WhatsApp. Working files are deleted 6 months after final delivery unless you ask me to keep them."
+        },
+        {
+          "q": "Newsletter",
+          "a": "If you subscribe to the newsletter, your email goes to Mailchimp. You can unsubscribe via the link at the bottom of each email, and your email is deleted within 30 days."
+        },
+        {
+          "q": "Your rights",
+          "a": "You can ask me at any time to show, correct, or delete the data I have about you. Email dayahlitworks@gmail.com."
+        },
+        {
+          "q": "Jurisdiction",
+          "a": "Dayah LitWorks operates from Paraguay. Data is handled under applicable Paraguayan law (Ley 6534/2020 on personal data). For EU clients, I comply with GDPR as a processor (contract execution basis)."
+        }
+      ]
+    },
+    "trustBadgesEnabled": false
+  },
+  "servicios": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Professional design for your book",
+      "backgroundImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=2000&q=80"
+    }
+  },
+  "infoCta": {
+    "title": "Ready to start your cover?",
+    "subtitle": "Send me the brief and I'll reply with a quote in 24 hours.",
+    "buttonText": "Get a quote",
+    "buttonHref": "/s/en/dayah-litworks/contacto",
+    "variant": "gradient"
+  }
+}

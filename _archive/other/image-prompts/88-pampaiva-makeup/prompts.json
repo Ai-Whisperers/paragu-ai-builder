@@ -1,0 +1,14 @@
+{
+  "slug": "preview-pampaiva-makeup",
+  "business_name": "Pampaiva MakeUp",
+  "business_type": "maquillaje",
+  "city": "Mariano Roque Alonso",
+  "notes": "",
+  "hero_prompt": "Estudio de maquillaje \"Pampaiva MakeUp\" en Mariano Roque Alonso, Paraguay.  Tocador con espejo iluminado, pinceles, paletas de maquillaje, luz de anillo, ambiente elegante --ar 21:9",
+  "gallery_prompts": [
+    "Maquillaje de novia en Pampaiva MakeUp, Mariano Roque Alonso. Look terminado, primer plano, ojos y labios perfectos --ar 4:3",
+    "Paletas y brochas en Pampaiva MakeUp, Mariano Roque Alonso. Pinceles organizados, maquillaje de alta gama, mesa de trabajo --ar 4:3",
+    "Maquillaje social en Pampaiva MakeUp, Mariano Roque Alonso. Look natural y moderno, cliente satisfecha --ar 4:3",
+    "Espacio de trabajo en Pampaiva MakeUp, Mariano Roque Alonso. Tocador, espejo iluminado, silla profesional --ar 4:3"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "home.hero",
+      "styling": {
+        "padding": "xl",
+        "background": "gradient",
+        "textColor": "light"
+      }
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats",
+      "styling": {
+        "padding": "md",
+        "background": "alt"
+      }
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "home.services",
+      "styling": {
+        "background": "default"
+      }
+    },
+    {
+      "id": "portfolio",
+      "variant": "grid",
+      "content": "home.portfolio"
+    },
+    {
+      "id": "product-catalog",
+      "variant": "grid",
+      "content": "home.products"
+    },
+    {
+      "id": "process",
+      "variant": "steps",
+      "content": "home.process"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "ctaBanner",
+      "styling": {
+        "padding": "lg",
+        "background": "accent"
+      }
+    }
+  ]
+}

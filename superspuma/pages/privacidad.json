@@ -1,0 +1,27 @@
+{
+  "slug": "privacidad",
+  "titleKey": "privacidad.seo.title",
+  "descriptionKey": "privacidad.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "privacidad.hero"
+    },
+    {
+      "id": "enhanced-faq",
+      "variant": "searchable",
+      "content": "privacidad.policy"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Gimnasio Asunción",
+  "tagline": "Entrena con los mejores profesionales en instalaciones de primera",
+  "placeholders": {
+    "businessName": "Gimnasio Asunción",
+    "city": "Luque",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Gimnasio",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Clases",
+        "path": "#clases"
+      },
+      {
+        "label": "Planes",
+        "path": "#planes"
+      },
+      {
+        "label": "Horarios",
+        "path": "#horarios"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Gimnasio Asunción - Gimnasio en Luque | Membresias y Clases",
+      "description": "Tabarelli Training Center en Luque. 4 estrellas y 153 resenas en Google. Conocenos!"
+    },
+    "hero": {
+      "headline": "Transformá tu cuerpo, transformá tu vida",
+      "subheadline": "En Luque con atencion personalizada y la mejor calidad.",
+      "ctaPrimaryText": "Empezá hoy",
+      "ctaSecondaryText": "Conocé nuestros planes"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Visitanos en Fernando de la Mora",
+      "address": "Ruta 2 y Av. Mcal. López Km 8",
+      "city": "Luque",
+      "phone": "+595 21 655 172",
+      "email": "ventas@gimnasiopower.com.py",
+      "whatsapp": "+595 21 655 172"
+    },
+    "promoBanner": {
+      "title": "💪 Promo Verano",
+      "subtitle": "Con 153 resenas positivas en Google. Te esperamos!",
+      "ctaText": "Aprovechar",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Servicios",
+      "title": "Todo lo que necesitás para entrenar",
+      "items": [
+        {
+          "name": "Musculación",
+          "description": "Máquinas de última generación y pesas libres",
+          "icon": "Dumbbell"
+        },
+        {
+          "name": "Funcional",
+          "description": "Entrenamiento funcional de alto rendimiento",
+          "icon": "Zap"
+        },
+        {
+          "name": "CrossFit",
+          "description": "Box equipado con todo lo necesario",
+          "icon": "Flame"
+        },
+        {
+          "name": "Yoga & Pilates",
+          "description": "Clases guiadas para todos los niveles",
+          "icon": "Heart"
+        },
+        {
+          "name": "Spinning",
+          "description": "Clases de spinning con instructores certificados",
+          "icon": "Bike"
+        },
+        {
+          "name": "Entrenamiento Personalizado",
+          "description": "Plan 1 a 1 con trainer certificado",
+          "icon": "Target"
+        }
+      ]
+    },
+    "schedule": {
+      "title": "Horario de clases",
+      "subtitle": "Elegí el horario que mejor se adapte a tu rutina",
+      "days": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado"
+      ],
+      "timeSlots": [
+        "06:00",
+        "08:00",
+        "10:00",
+        "16:00",
+        "18:00",
+        "20:00"
+      ]
+    },
+    "pricing": {
+      "title": "Nuestros planes",
+      "subtitle": "Elegí el plan que mejor se adapte a vos",
+      "tiers": [
+        {
+          "name": "Básico",
+          "price": "Gs. 150.000/mes",
+          "features": [
+            "Acceso a musculación",
+            "Vestuarios",
+            "Horario libre"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "Gs. 250.000/mes",
+          "features": [
+            "Todo lo de Básico",
+            "Clases dirigidas",
+            "Evaluación física mensual",
+            "Acceso a todas las sucursales"
+          ],
+          "highlighted": true
+        },
+        {
+          "name": "VIP",
+          "price": "Gs. 400.000/mes",
+          "features": [
+            "Todo lo de Premium",
+            "Trainer personal",
+            "Plan de nutrición",
+            "Acceso ilimitado"
+          ]
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestros trainers",
+      "subtitle": "Profesionales certificados para guiarte",
+      "items": [
+        {
+          "name": "Prof. Juan Acosta",
+          "role": "Head Coach",
+          "description": "Certificado internacional, 12 años de experiencia"
+        },
+        {
+          "name": "Prof. Ana Benítez",
+          "role": "Instructora de Yoga",
+          "description": "Especialista en yoga y pilates terapéutico"
+        },
+        {
+          "name": "Prof. Pedro Cabrera",
+          "role": "Trainer Funcional",
+          "description": "CrossFit level 2, entrenamiento de alta intensidad"
+        },
+        {
+          "name": "Lic. María Rivas",
+          "role": "Nutricionista",
+          "description": "Planes alimenticios personalizados para deportistas"
+        }
+      ]
+    },
+    "transformations": {
+      "title": "Transformaciones",
+      "subtitle": "Resultados de nuestros alumnos",
+      "items": [
+        {
+          "before": "",
+          "after": "",
+          "name": "Carlos",
+          "result": "-12kg en 3 meses"
+        },
+        {
+          "before": "",
+          "after": "",
+          "name": "María",
+          "result": "-8kg en 2 meses"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen en Google",
+      "subtitle": "Basado en 153 reseñas",
+      "items": [
+        {
+          "author": "Rex",
+          "quote": "Overpriced... 165,000 is expensive. If you want to go to the second floor and use it, you have to pay more... over 250,000 in total. I came from the United States, a first-world country. How can such ",
+          "rating": 3
+        },
+        {
+          "author": "D S",
+          "quote": "Taqño Tabarelli! Their \"trainers\" and employees aren't very professional, and it's a filthy place! There's never any toilet paper in the bathrooms, and they don't maintain their equipment, which is da",
+          "rating": 1
+        }
+      ]
+    },
+    "blog": {
+      "title": "Tips de entrenamiento",
+      "subtitle": "Consejos de nuestros profesionales",
+      "items": [
+        {
+          "title": "5 ejercicios para quemar grasa",
+          "slug": "5-ejercicios-quemar-grasa",
+          "date": "2026-04-20"
+        },
+        {
+          "title": "Beneficios del entrenamiento funcional",
+          "slug": "beneficios-funcional",
+          "date": "2026-04-15"
+        },
+        {
+          "title": "Cómo armar tu rutina semanal",
+          "slug": "armar-rutina-semanal",
+          "date": "2026-04-10"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Necesito llevar mi propia toalla?",
+          "a": "Sí, recomendamos traer toalla personal. También tenemos para la venta."
+        },
+        {
+          "q": "¿Ofrecen clases de prueba gratis?",
+          "a": "Sí, podés venir una clase gratis sin compromiso."
+        },
+        {
+          "q": "¿Estacionamiento?",
+          "a": "Sí, tenemos estacionamiento gratuito para socios."
+        }
+      ]
+    },
+    "hours": {
+      "Lunes": "6:00 AM – 9:00 PM",
+      "Martes": "6:00 AM – 9:00 PM",
+      "Miercoles": "6:00 AM – 9:00 PM",
+      "Jueves": "6:00 AM – 9:00 PM",
+      "Viernes": "6:00 AM – 9:00 PM",
+      "Sabado": "8:00 AM – 12:30 PM",
+      "Domingo": "Closed"
+    },
+    "trustBadges": {
+      "items": [
+        "Profesores certificados",
+        "Equipos modernos",
+        "Clases ilimitadas",
+        "Evaluación gratis",
+        "Estacionamiento",
+        "4/5 estrellas en Google"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHkfXJV398tusq2ScgJ58G3Jt5tn1VZY9c9Jm7lnyHOf1JgSWNFFdbcFBGPt5dYAayphADlOxpHRnNZ3rPImN7_AfKHVY2QsXY75W7wAO3NDwhaXTTPpjuqTtjoDS2Wz0cGd9stpplLgzalRuRLozpeZV95CqffAYm7uqjrHa43TRsTjtnv0Q9mfofGk0u8HepcLk4AEN4fwEZRjC2OzuMbVMDcQuJrIE8I6Ck-hAA58umPCIRwDlsHOsixJwShDjxuf4dwVRSoJ4UlFBwnHrbBhozExngP34eLeOemd1S-6f2wtBGTnAA1Fu8C8-Dwsgn9hEsGtoHSSjJERgDqSvYArTHgiX2BpO1ELVYJAWzXCvVPDcruNh_vVaQu_pwXTFtSAmLri7d_5KJ4Fxi2klpsU9RQGvVHCNUEX0lX5ysavToT&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEF6bUdRC_hLsWtvl5lRW6ub1k6kPNccQ7EWNN7ET_c8ANz1HB4f9zU_ewNP6OfFKBkdzm4vksguwuRXvDDjsPVJV8RHUv1iH5McDr63bZaesPKdz9c6-EF-SdjXu8scYyzVDT8P9BAWTQFHgDGkLJ0lrL2u83zDBkn1g1GyreNknsr2-rPosKJdLcueqI4M8WQRRXqDM9jVkIkZGyQyy0ii45yiMcovNVqw9M6GMhYPtp4sWra8LOWAYerOfGfqOJUPAfn36meuMNhrSA4qK68dILFmrGHqtqgS4BsUqAQMHlKpjwMqGeI7VDjylJCC_Bi5QgfEQgwevDUFPDk_lEa9aBKCtO4QG7ycefXYJVigrChGHJLd5wqx0FbCjU8HwE9CQn2aaWldnDHQlK1jNkzrF90utpMPk6gwFDHC5zL-yUU&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEElL3FVcauufDHxQGvkTleMTKSwzQBvabfQsIL1Wu0G_faV7hjcfGdJRAxFPVmaIk1wNyhewNVnArsGM9fhdiHXVDLecbmPzbhQgwhfhswFAzPWrvHkXQzKSLgDaKUW-tgXiwEAC0SPZp_efnWICaNY0Rfr_bN_NHsU9tllqGRsspoLu5j2IzVfdneGDrBE1nHubSiScsgoWJ_aeHS4p4XNuJdwvjZIqdd3Cbrhqe-UpEkhogv38Ys0VspAZz7aN6fYM64dedWHU9x1ryFQ6jEJrTHyzzL4twy0Aa02ySQDvyY_urietYJTZNdN3ZzG4VVtZPSbNOfW1RzYkhfbwptof31AjcJxwp294CRcJz_y7LLCgRqOyQSJzeC5RCDwBpiCu6gaFs-EeflQBJQJ83gTPUKf62r95buUXhrGtr3K5g&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEFVUsRT6S6PUHStrq-bI3HFqIH2YSAcaZekIU0aJK-ZGGJwgi6WIpCeTRrUQvCcOBp20xW8iTEaT1nPsALCniTT42-nbFIl5ghCT4TW0C4xXACpwKaGqQ64uERiQaq20D1OWfvF9g6cr_ZgOvuRWxZBAZ3biSFahFKIFnxEnG-rfUU9ZVzS85sNWfQCX72hXlXdHnQotFnBnD0YUJVxOYm-mZjlE-CYE62q7CAjVZxZOUsobtx40VD9JeE-JwAQ2XiDWdLRmCoLm2cQg2Tk4VRXpsrTTEcaBxEJdV5li0_Ppu0vUyo3bwYwyhQ69yDxsAYStQaMBvdCBcZbad6G1336Av57AgkIOT6klvzafWIXWaGNVEk9tp_7pwfacin8BY8_B-BDc-uFIo5FmfdPPSNUv7OecpGjgdhENgsdW3ciuJH7&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHgeK6yhdSKuhnKZzeXEud7ZB-n852zKhCKTSAawLrMH3MKVFaWpfDSx7-hcnpVpHa8HPq8BorOBq2SkaT72ATSFr9DdGTHK7xYMQSp_DB0p_xpNraFzzbtIrqlT0GhTmOCa1_EcOKIQYF62SWhsE7Cjw2mly6Qm5h9ZQhvPlvFitpxj02-2QCaqxhUbcHY0TRBSHsbX-7Kpyg2xr2qELR-g3Gz5ej1-an0ypG3j0QE2DXmzW61YgHX0DShHvVDfMXoIjrwWTShD6Rg22hbutPIZzp7FvYWSZ4rinVTQc4w8ZDt7aeRltRaiYxqHZJFELEfQIL9-3J7GEOt3OW3OxS7dczo_fknbXsmxOnyK537VL1ABcDvpY0WtZ3bQwxcV8X_9JsDyroUh_p7DfA5yHsSivoZyh3cFVCQvTsQarmW8gE&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEF5K4wjGD0uJ2hSNLVBoeeF8Rz06CTD1UTc5D1HMfnn_6UPZxqIXhDXUawX9qqailNUAhoYE5Srenx2nEGF-u7qcd9Bnf-50mCunmV6bXd20W4ay5fbypYJgp5_yU9i917UaKxMwIBFjaFSjrJHtehvCwuAf5Hvm2jFpJqoedyXOg0RcQFySFVNAlC3JWbh64ikEbrdezvtTlrtqiJlCqPybbf6CceJFlsRuGWgOC1aE_pUPIr2RoV-NhUENHhaQiDyxk4MR0Mk5RJyqEulBhl2_dSs-vQo1XDrlKF_MLSbP6Tjnrbb9AOzn_anrfEMaAHXis7oiUH43c43mv_6zORTwgMKvY1lw5f1Xz0p9R516wmmN3kbmHl0eoHS5dKJWCPp0K25SxzUt-WdlfSzmWM1Ppqwuk4KF_xpn_-fPbGzQZEl&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "Gimnasio Asunción — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Membresía Mensual",
+          "description": "Acceso ilimitado al gimnasio por 30 días",
+          "priceCents": 200000,
+          "category": "Membresías",
+          "tags": [
+            "mensual",
+            "ilimitado"
+          ],
+          "imageCategory": "gym",
+          "slug": "membres-a-mensual",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?gym",
+          "available": true
+        },
+        {
+          "name": "Membresía Trimestral",
+          "description": "Acceso ilimitado por 3 meses — ahorra 15%",
+          "priceCents": 510000,
+          "category": "Membresías",
+          "tags": [
+            "trimestral",
+            "ilimitado",
+            "ahorro"
+          ],
+          "imageCategory": "gym",
+          "slug": "membres-a-trimestral",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?gym",
+          "available": true
+        },
+        {
+          "name": "Membresía Anual",
+          "description": "Acceso ilimitado por 12 meses — ahorra 30%",
+          "priceCents": 1680000,
+          "category": "Membresías",
+          "tags": [
+            "anual",
+            "ilimitado",
+            "ahorro"
+          ],
+          "imageCategory": "gym",
+          "slug": "membres-a-anual",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?gym",
+          "available": true
+        },
+        {
+          "name": "Clase Grupal de Yoga",
+          "description": "Clase de yoga para todos los niveles — 1 hora",
+          "priceCents": 30000,
+          "category": "Clases Grupales",
+          "tags": [
+            "yoga",
+            "grupo",
+            "flexibilidad"
+          ],
+          "imageCategory": "gym",
+          "slug": "clase-grupal-de-yoga",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?gym",
+          "available": true
+        },
+        {
+          "name": "Clase Grupal de Spinning",
+          "description": "Spinning intensivo con música motivacional",
+          "priceCents": 30000,
+          "category": "Clases Grupales",
+          "tags": [
+            "spinning",
+            "cardio",
+            "intensivo"
+          ],
+          "imageCategory": "gym",
+          "slug": "clase-grupal-de-spinning",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?gym",
+          "available": true
+        },
+        {
+          "name": "CrossFit",
+          "description": "Entrenamiento funcional de alta intensidad",
+          "priceCents": 35000,
+          "category": "Clases Grupales",
+          "tags": [
+            "crossfit",
+            "funcional",
+            "hiit"
+          ],
+          "imageCategory": "gym",
+          "slug": "crossfit",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?gym",
+          "available": true
+        },
+        {
+          "name": "Entrenamiento Personal",
+          "description": "1 sesión con entrenador personal certificado",
+          "priceCents": 80000,
+          "category": "Entrenamiento Personal",
+          "tags": [
+            "personal",
+            "uno a uno",
+            "certificado"
+          ],
+          "imageCategory": "gym",
+          "slug": "entrenamiento-personal",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?gym",
+          "available": true
+        },
+        {
+          "name": "Plan 5 Sesiones Personal",
+          "description": "5 sesiones de entrenamiento personal",
+          "priceCents": 350000,
+          "category": "Entrenamiento Personal",
+          "tags": [
+            "personal",
+            "paquete",
+            "sesiones"
+          ],
+          "imageCategory": "gym",
+          "slug": "plan-5-sesiones-personal",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?gym",
+          "available": true
+        },
+        {
+          "name": "Plan 10 Sesiones Personal",
+          "description": "10 sesiones de entrenamiento personal — ahorra 20%",
+          "priceCents": 640000,
+          "category": "Entrenamiento Personal",
+          "tags": [
+            "personal",
+            "paquete",
+            "ahorro"
+          ],
+          "imageCategory": "gym",
+          "slug": "plan-10-sesiones-personal",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?gym",
+          "available": true
+        },
+        {
+          "name": "Proteína Whey 1kg",
+          "description": "Proteína de suero de leche sabor vainilla 1kg",
+          "priceCents": 180000,
+          "category": "Suplementos",
+          "tags": [
+            "proteina",
+            "whey",
+            "suplemento"
+          ],
+          "imageCategory": "products",
+          "slug": "prote-na-whey-1kg",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Batidora Shaker",
+          "description": "Shaker profesional 600ml con mezclador",
+          "priceCents": 45000,
+          "category": "Accesorios",
+          "tags": [
+            "shaker",
+            "batidora",
+            "accesorio"
+          ],
+          "imageCategory": "products",
+          "slug": "batidora-shaker",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Toalla Deportiva",
+          "description": "Toalla microfibra 40x80cm con logo",
+          "priceCents": 35000,
+          "category": "Accesorios",
+          "tags": [
+            "toalla",
+            "microfibra",
+            "deporte"
+          ],
+          "imageCategory": "products",
+          "slug": "toalla-deportiva",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en Luque y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "Gimnasio Asunción",
+    "copyright": "© {{year}} Gimnasio Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "booking": {
+    "title": "Reserva tu clase",
+    "subtitle": "Elegí el servicio que más te guste y reservá tu turno online",
+    "services": [
+      {
+        "name": "Clase de prueba gratuita",
+        "duration": 30,
+        "category": "Clases"
+      },
+      {
+        "name": "Entrenamiento personalizado",
+        "duration": 60,
+        "category": "Entrenamiento"
+      },
+      {
+        "name": "Evaluación física inicial",
+        "duration": 45,
+        "category": "Evaluación"
+      },
+      {
+        "name": "Clase de spinning",
+        "duration": 45,
+        "category": "Clases"
+      },
+      {
+        "name": "Yoga grupal",
+        "duration": 60,
+        "category": "Clases"
+      },
+      {
+        "name": "Masaje deportivo",
+        "duration": 30,
+        "category": "Bienestar"
+      }
+    ],
+    "workingHours": {
+      "start": "06:00",
+      "end": "22:00"
+    }
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Gimnasio y me interesa un sitio para mi negocio"
+  }
+}

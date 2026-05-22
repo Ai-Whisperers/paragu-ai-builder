@@ -1,0 +1,15 @@
+{
+  "slug": "benelux",
+  "titleKey": "beneluxPage.seo.title",
+  "descriptionKey": "beneluxPage.seo.description",
+  "sections": [
+    {"id": "header", "variant": "standard", "content": "navigation"},
+    {"id": "hero", "variant": "minimal", "content": "beneluxPage.hero"},
+    {"id": "trust-signals", "variant": "credentials", "content": "beneluxPage.trust"},
+    {"id": "why-destination", "variant": "three-col", "content": "beneluxPage.pillars"},
+    {"id": "faq", "variant": "accordion", "content": "beneluxPage.faq"},
+    {"id": "cta-banner", "variant": "gradient", "content": "beneluxPage.cta"},
+    {"id": "footer", "variant": "standard", "content": "footer"},
+    {"id": "whatsapp-float", "variant": "standard", "content": "whatsapp"}
+  ]
+}

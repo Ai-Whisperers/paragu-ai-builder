@@ -1,0 +1,35 @@
+{
+  "slug": "peluditos",
+  "title": "Conoce los Peluditos - Polki Squad",
+  "description": "Conoce a los perros y gatos que buscan un hogar en Polki Squad. Adopta, no compres.",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "standard",
+      "title": "Conoce los Peluditos",
+      "subtitle": "Cada uno tiene una historia única y much amor que dar"
+    },
+    {
+      "id": "gallery",
+      "variant": "masonry",
+      "content": "featuredAnimals",
+      "showFilters": true,
+      "filters": ["perro", "gato", "cachorro", "adulto"]
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "cta",
+      "title": "¿Te enamoraste de alguno?",
+      "subtitle": "Contáctanos por WhatsApp para iniciar el proceso",
+      "buttonText": "WhatsApp",
+      "buttonLink": "https://api.whatsapp.com/send?phone=+595971771371&text=Hola!%20quiero%20adoptar%20a%20un%20peludito"
+    },
+    {
+      "id": "instagram-feed",
+      "variant": "grid",
+      "title": "Más Peluditos en Instagram",
+      "subtitle": "Siguenos @polkisquad para ver los últimos rescatados"
+    }
+  ]
+}

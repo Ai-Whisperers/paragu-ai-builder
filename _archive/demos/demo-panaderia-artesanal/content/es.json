@@ -1,0 +1,313 @@
+{
+  "_meta": {
+    "translationQuality": "machine",
+    "author": "batch-create-demos",
+    "lastReviewed": "2026-04-21"
+  },
+  "siteName": "Demo Panaderia Artesanal Asunción",
+  "tagline": "Panaderia Artesanal profesional en Asunción.",
+  "placeholders": {
+    "businessName": "Demo Panaderia Artesanal Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Artisan Bakery",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Productos",
+        "path": "#menu"
+      },
+      {
+        "label": "Galería",
+        "path": "#galeria"
+      },
+      {
+        "label": "Delivery",
+        "path": "#delivery"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Contactar",
+    "ctaHref": "#contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Demo Panaderia Artesanal Asunción - Panaderia Artesanal en Asunción",
+      "description": "Panaderia Artesanal profesional en Asunción. Servicios de calidad con atención personalizada."
+    },
+    "hero": {
+      "headline": "Pan artesanal, horneado todos los días",
+      "subheadline": "Panadería de masa madre en Capiatá. Pan francés, integral, chipa, facturas y más",
+      "ctaPrimaryText": "Hacé tu pedido",
+      "ctaSecondaryText": "Ver productos"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Visitanos en Capiatá",
+      "address": "Ruta 1 Km 23, Barrio Centro",
+      "city": "Capiatá",
+      "phone": "+595988567890",
+      "email": "pedidos@panaderiacapiata.com.py",
+      "whatsapp": "+595988567890"
+    },
+    "promoBanner": {
+      "title": "🥖 Promo del día",
+      "subtitle": "Docena de facturas + 1 pan integral de regalo. Todos los días hasta 10:00",
+      "ctaText": "Pedir ahora",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Productos",
+      "title": "Elaboración artesanal, sabor tradicional",
+      "items": [
+        {
+          "name": "Pan Francés",
+          "description": "Pan clásico horneado diariamente",
+          "price": "Gs. 3.000",
+          "icon": "Bread"
+        },
+        {
+          "name": "Pan Integral",
+          "description": "Pan de harina integral con semillas",
+          "price": "Gs. 5.000",
+          "icon": "Sprout"
+        },
+        {
+          "name": "Facturas",
+          "description": "Medialunas, vigilantes, cañones y más",
+          "price": "Desde Gs. 2.000",
+          "icon": "Croissant"
+        },
+        {
+          "name": "Chipa",
+          "description": "Chipa tradicional y chipa so'o",
+          "price": "Gs. 2.500",
+          "icon": "Cookie"
+        },
+        {
+          "name": "Pan de Masa Madre",
+          "description": "Pan de elaboración lenta con fermentación natural",
+          "price": "Gs. 12.000",
+          "icon": "Award"
+        },
+        {
+          "name": "Tortas y Pasteles",
+          "description": "Tortas caseras, brownies y alfajores",
+          "price": "Desde Gs. 5.000",
+          "icon": "Cake"
+        }
+      ]
+    },
+    "menu": {
+      "title": "Nuestros productos",
+      "subtitle": "Precios actualizados",
+      "categories": [
+        {
+          "name": "Panadería",
+          "items": [
+            {
+              "name": "Pan Francés",
+              "price": "Gs. 3.000"
+            },
+            {
+              "name": "Pan Integral",
+              "price": "Gs. 5.000"
+            },
+            {
+              "name": "Pan de Masa Madre",
+              "price": "Gs. 12.000"
+            },
+            {
+              "name": "Pan de Hamburguesa (x4)",
+              "price": "Gs. 8.000"
+            }
+          ]
+        },
+        {
+          "name": "Facturas",
+          "items": [
+            {
+              "name": "Medialuna (x1)",
+              "price": "Gs. 2.000"
+            },
+            {
+              "name": "Vigilante (x1)",
+              "price": "Gs. 2.500"
+            },
+            {
+              "name": "Cañón (x1)",
+              "price": "Gs. 2.500"
+            },
+            {
+              "name": "Docena variada",
+              "price": "Gs. 20.000"
+            }
+          ]
+        },
+        {
+          "name": "Tradicional PY",
+          "items": [
+            {
+              "name": "Chipa (x1)",
+              "price": "Gs. 2.500"
+            },
+            {
+              "name": "Mbeju (x1)",
+              "price": "Gs. 5.000"
+            },
+            {
+              "name": "Sopa Paraguaya (porción)",
+              "price": "Gs. 6.000"
+            },
+            {
+              "name": "Pastel Mandi'o",
+              "price": "Gs. 4.000"
+            }
+          ]
+        },
+        {
+          "name": "Pastelería",
+          "items": [
+            {
+              "name": "Torta de Chocolate",
+              "price": "Gs. 30.000"
+            },
+            {
+              "name": "Brownie (x1)",
+              "price": "Gs. 5.000"
+            },
+            {
+              "name": "Alfajor artesanal",
+              "price": "Gs. 4.000"
+            },
+            {
+              "name": "Flan casero",
+              "price": "Gs. 8.000"
+            }
+          ]
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Nuestros productos",
+      "subtitle": "Hechos con amor, todos los días",
+      "columns": 3,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600",
+          "alt": "Pan francés",
+          "caption": "Pan artesanal"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1486427944544-d2c246c4e1d2?w=600",
+          "alt": "Facturas",
+          "caption": "Facturas variadas"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1555507036-ab1f40380243?w=600",
+          "alt": "Chipa",
+          "caption": "Chipa tradicional"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1549931319-a5457534672d?w=600",
+          "alt": "Masa madre",
+          "caption": "Pan de masa madre"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600",
+          "alt": "Tortas",
+          "caption": "Tortas caseras"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600",
+          "alt": "Pan integral",
+          "caption": "Pan integral con semillas"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "columns": 2,
+      "items": [
+        {
+          "name": "María L.",
+          "text": "El mejor pan de Capiatá. Siempre fresco y delicioso.",
+          "rating": 5
+        },
+        {
+          "name": "José R.",
+          "text": "Las facturas son espectaculares. Pedido regular todas las semanas.",
+          "rating": 5
+        },
+        {
+          "name": "Ana F.",
+          "text": "La chipa es como la de mi abuela. Artesanal y deliciosa.",
+          "rating": 5
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Delivery",
+      "subtitle": "Pedidos y entregas",
+      "zones": [
+        "Capiatá centro",
+        "Capiatá barrios",
+        "San Lorenzo",
+        "Lambaré"
+      ],
+      "freeThreshold": 50000,
+      "deliveryFee": 5000,
+      "minimumOrder": 15000,
+      "estimatedTime": "30-45 min"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Hacen delivery?",
+          "answer": "Sí, delivery en Capiatá y zonas cercanas. Pedido mínimo Gs. 15.000."
+        },
+        {
+          "question": "¿Cuál es el horario?",
+          "answer": "Abrimos de 06:00 a 20:00. Los domingos hasta las 12:00."
+        },
+        {
+          "question": "¿Hacen pedidos para eventos?",
+          "answer": "Sí, pedidos especiales para cumpleaños, eventos y empresas con 48h de anticipación."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedules": {
+        "Lunes a Sábado": "06:00 - 20:00",
+        "Domingo": "06:00 - 12:00"
+      }
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "@panaderia.capiata.py — mostramos nuestro trabajo todos los días",
+      "handle": "@panaderia.capiata.py",
+      "layout": "grid",
+      "columns": 4,
+      "limit": 8
+    }
+  },
+  "footer": {
+    "businessName": "Demo Panaderia Artesanal Asunción",
+    "copyright": "© {{year}} Demo Panaderia Artesanal Asunción",
+    "disclaimer": "Esta es una demostracion del sitio que Paragu AI puede crear para tu negocio. El sitio final se personaliza con tu información real."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el demo de Panaderia Artesanal y me interesa un sitio para mi negocio"
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "enrich-batch",
+    "lastReviewed": "2026-04-25"
+  },
+  "siteName": "RENUVA - Clínica estética y laser",
+  "tagline": "Depilación profesional con tecnología de punta",
+  "placeholders": {
+    "businessName": "RENUVA - Clínica estética y laser",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Depilación Profesional",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "path": ""
+      },
+      {
+        "label": "Servicios",
+        "path": "#servicios"
+      },
+      {
+        "label": "Contacto",
+        "path": "#contacto"
+      }
+    ],
+    "ctaText": "Reservar turno",
+    "ctaHref": "#reservar"
+  },
+  "home": {
+    "seo": {
+      "title": "Depilación Asunción - Depilación Láser y Cera",
+      "description": "RENUVA - Clínica estética y laser en Asunción. 4 estrellas y 248 resenas en Google. Conocenos!"
+    },
+    "hero": {
+      "headline": "Depilación definitiva sin dolor",
+      "subheadline": "En Asunción con atencion personalizada y la mejor calidad.",
+      "ctaPrimaryText": "Reservá tu evaluación",
+      "ctaSecondaryText": "Ver tratamientos"
+    },
+    "promoBanner": {
+      "title": "Promoción de Lanzamiento",
+      "subtitle": "Con 248 resenas positivas en Google. Te esperamos!",
+      "ctaText": "Reservar ahora",
+      "variant": "standard",
+      "dismissible": true
+    },
+    "services": {
+      "eyebrow": "Tratamientos",
+      "title": "Soluciones para cada necesidad",
+      "items": [
+        {
+          "name": "Depilación Láser Definitiva",
+          "description": "Láser diode de alta potencia. Resultados permanentes.",
+          "price": "Gs. 150.000/sesión",
+          "icon": "Zap",
+          "duration": 30,
+          "category": "Láser"
+        },
+        {
+          "name": "Depilación con Cera",
+          "description": "Cera natural hipoalergénica para todo el cuerpo.",
+          "price": "Gs. 60.000",
+          "icon": "Droplets",
+          "duration": 30,
+          "category": "Cera"
+        },
+        {
+          "name": "Láser Zona Facial",
+          "description": "Labio, mentón, mejillas y frente.",
+          "price": "Gs. 80.000/sesión",
+          "icon": "Sparkles",
+          "duration": 15,
+          "category": "Láser"
+        },
+        {
+          "name": "Láser Axilas",
+          "description": "Eliminación definitiva del vello axilar.",
+          "price": "Gs. 70.000/sesión",
+          "icon": "Crosshair",
+          "duration": 15,
+          "category": "Láser"
+        },
+        {
+          "name": "Láser Piernas Completas",
+          "description": "Depilación definitiva de piernas enteras.",
+          "price": "Gs. 250.000/sesión",
+          "icon": "Feather",
+          "duration": 45,
+          "category": "Láser"
+        },
+        {
+          "name": "Dermaplaning Facial",
+          "description": "Eliminación de vello facial + exfoliación profunda.",
+          "price": "Gs. 90.000",
+          "icon": "Sparkles",
+          "duration": 30,
+          "category": "Facial"
+        }
+      ]
+    },
+    "trustBadges": {
+      "items": [
+        "Tecnología láser diode",
+        "Profesionales certificadas",
+        "Ambiente climatizado",
+        "Resultados garantizados",
+        "Precios accesibles",
+        "4/5 estrellas en Google"
+      ]
+    },
+    "gallery": {
+      "title": "Nuestro local",
+      "subtitle": "Fotos reales de nuestro espacio",
+      "columns": 3,
+      "images": [
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEXLvFpa2SWURkVhcORU593A6jzJNfaO_2W3LSI-j_F8XTKWc-QypFc_qPxplDWCR5gcbtnL3VjGvIHwmc7quG2qmimFus8nzyUrqyOZhpn8hbIVpJXEYVy1l52wPzsxENrUuUfC8EhHx8S9lFPMDE16tILNxxufewepK0ozZmrkxrxy4QVbdFgUFHXn2Fls0L-Qy5YXWCxAXU4IENOqdjPrsi06fKMYkIrQAgnDOghG7mLt01N-5jqibwmMXWv0S7lNjRC3hprTfldgTFR9vz9sQ3D0Z_uFFtKr7CE-MMn5A&maxwidth=800",
+          "alt": "Foto 1",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEG216xefKfjXjD11qSsjWbAH6GHw_NMaSZ8Z2PwpGhojOiCY-7ZTM48V8UUIcfZ1rVCliQTn8WYZ_kE3GDA7zDnUhS3_GXn2jpzyhzXJiuJIZ7uAnE1fKDXyKlVXccivSJz_ny9BUEduKylV8tFNlDtp3_qGoAj3pk7YmMc05TCYVe6fZ6Od_Hu-Hgm9syxqZWjGvi3xf9AEXq_vPgGNAn3oXGEwfDwe0EJhaKTuVkuj_Ob81ld7DXnwnB7bMM7EWA0mAlqFNrNA2AltZtkpBP73Mo4YVuOTpiljdKMjxt9oFb6svDGmdh8K4LdwVLJisF0sigzoB-sINwPN-mZx87XE8sH04vfwN-uf_XNr-_zy6lGDL4aP2l66BjESz0pkgKOspYqHTPZDFI3t07i6TJKOhSNyQIDxd6U32nY8XRrr4uQEnrqPTMpjlpb9w&maxwidth=800",
+          "alt": "Foto 2",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHvjWvmDV7OQtOwBc2N0OC86RzMi-X8GsZvgf8msEODBe36Old1sHGaYhfpxPmrFkBHZwM8NgZJLUCj03UgYWYeYUiC1XnEBOt7BrKGcnU7Kxrw6xZJo12Ji-qQ2BVY7Q06h1HTBQQuLCD2y1F1RHojS7nPz6Vw8L9BdyWRW9kPw931dw5933nahGZIQIX5CU0ZPTKgFq4YimRO_2RIndBLCbJ-MqJWEg41hHHJx_bMxxksv9G_3Iq2az305wnmXQvgwd6tzgSmGLW_OJFqi35bkCxIPWI4DQXYo7rdi0Ahfw&maxwidth=800",
+          "alt": "Foto 3",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEHQYnrC60X_zM7BJdaXZ0mHRrk8Ty8F_kDNuLUhyBcyskfKvRLbXj_0isKNLlK5JxL7J2--GqfG3qR5bLjX4DWGNmiMxReU3969X-b5B2s6r9HDmctjkk2f1UdZO8AF29_VWF4fdInV4geCrCrDJa3ALvNFC9jnC9Df9wrluQuzHmMp39B2OVdcbU0IGqqGS2QM1ZZEcMJZS6vfBQdWVm7gtmCfWky4KYpkKFCn9olCn3NFTxx6QpfN3awDj-ZlomKipPIoGniBmNaPM4C9Peb0f1TatSI5x4n8omsQqPOHZQ&maxwidth=800",
+          "alt": "Foto 4",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEF9Vi7IkV92Z7VU-s-bcVJhrBE8PqQ1YH5YPRBuK-RsmCpvlkfUDr7ggRxD1h6hh73FpZ1wjkm_tl4w0NZVOdDmGSoZJhOoha4V7LAJs1xarqYdRFlbT6KK92uL7xbqM2YwwZcr8co3NU-t1PezPa8i5fE2vYYYKjj0y6iOEwsOxYew2tmprI6PgoPlmjfoXRMk-XhKQ0T2oGHXJsyJ6G5kC8tIUCgCqPafW49pLczNF6nMgnAz95LiJMb8DR5NtmvnsfBylwG6GlePIq-wiLw9MnjQVHZ2arWlH6A1OntUbg&maxwidth=800",
+          "alt": "Foto 5",
+          "caption": ""
+        },
+        {
+          "src": "/api/place-photo?ref=AU_ZVEEpbnqr1k2Qjq5paTeEK31pdOov1wsJRIGvEJzrvKmCdx5_1gkaGiDK_J5QgI1YtKjLo1tyimBDvQrDbo88EVRBGy_fXGe0NrtYUbksfGAYxEi14Pp-QsTlWVWda0ExAYLOhmrsHc6fuXFGz_Vs8HQpIgJGFQC4jmAT3LMyqjNJVz_NTdyimDDTRS8AuBE73H33iq_BJdy0O00pZvDoqbdj0iLUSsROSahYKrdZWJLW9eDop4fi8lAuW7WhYpYqggtsuriqwe6vdu2BoYOQ-vDU-Hc70E-JjEBN0IKOUAF6BQ&maxwidth=800",
+          "alt": "Foto 6",
+          "caption": ""
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Reseñas",
+      "subtitle": "Basado en 260 reseñas en Google",
+      "items": []
+    },
+    "booking": {
+      "title": "Reservá tu sesión",
+      "subtitle": "Evaluación sin costo",
+      "services": [
+        {
+          "name": "Evaluación gratuita",
+          "duration": 20,
+          "category": "Evaluación"
+        },
+        {
+          "name": "Láser axilas",
+          "duration": 15,
+          "category": "Láser"
+        },
+        {
+          "name": "Láser facial",
+          "duration": 15,
+          "category": "Láser"
+        },
+        {
+          "name": "Láser piernas",
+          "duration": 45,
+          "category": "Láser"
+        },
+        {
+          "name": "Depilación cera completa",
+          "duration": 30,
+          "category": "Cera"
+        },
+        {
+          "name": "Dermaplaning",
+          "duration": 30,
+          "category": "Facial"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Duele la depilación láser?",
+          "a": "Es una sensación de calor soportable. Muchas clientas lo describen como un chasquido de goma."
+        },
+        {
+          "q": "¿Cuántas sesiones necesito?",
+          "a": "Depende de la zona y el tipo de vello. En promedio 6-8 sesiones para resultados definitivos."
+        },
+        {
+          "q": "¿Hay algún cuidado especial?",
+          "a": "Evitar exposición al sol antes y después, y usar bloqueador solar en la zona tratada."
+        },
+        {
+          "q": "¿Cuánto dura cada sesión?",
+          "a": "Depende de la zona: axilas 15 min, piernas completas 45 min."
+        }
+      ]
+    },
+    "hours": {
+      "Lunes": "9:00 AM – 8:00 PM",
+      "Martes": "9:00 AM – 8:00 PM",
+      "Miercoles": "9:00 AM – 8:00 PM",
+      "Jueves": "9:00 AM – 8:00 PM",
+      "Viernes": "9:00 AM – 8:00 PM",
+      "Sabado": "8:00 AM – 6:00 PM",
+      "Domingo": "Closed"
+    },
+    "contact": {
+      "phone": "+595 981 521527",
+      "city": "Asunción",
+      "whatsapp": "+595 981 521527"
+    },
+    "instagramFeed": {
+      "title": "Seguinos en Instagram",
+      "subtitle": "Conocé más sobre nuestro trabajo",
+      "handle": "@seguinos",
+      "posts": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=300",
+          "caption": "Momento especial",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3511b4f0b0?w=300",
+          "caption": "Detalle que importa",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+          "caption": "Así trabajamos",
+          "permalink": "#"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "caption": "Resultados",
+          "permalink": "#"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "title": "Antes y Después",
+      "subtitle": "Transformaciones reales",
+      "items": [
+        {
+          "before": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=300",
+          "after": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300",
+          "label": "Transformación 1"
+        },
+        {
+          "before": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=300",
+          "after": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300",
+          "label": "Transformación 2"
+        }
+      ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "RENUVA - Clínica estética y laser — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Depilación Láser Axilas",
+          "description": "Sesión de depilación láser definitiva en axilas",
+          "priceCents": 80000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "axilas",
+            "definitiva"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-axilas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Depilación Láser Piernas Completas",
+          "description": "Sesión completa de piernas con láser",
+          "priceCents": 250000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "piernas",
+            "completa"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-piernas-completas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Depilación Láser Línea Bikini",
+          "description": "Sesión bikini con láser definitivo",
+          "priceCents": 100000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "bikini",
+            "definitiva"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-l-nea-bikini",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Depilación Láser Rostro",
+          "description": "Sesión de depilación láser facial",
+          "priceCents": 60000,
+          "category": "Láser",
+          "tags": [
+            "laser",
+            "rostro",
+            "facial"
+          ],
+          "imageCategory": "beauty",
+          "slug": "depilaci-n-l-ser-rostro",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Paquete 6 Sesiones Axilas",
+          "description": "6 sesiones láser en axilas — resultados permanentes",
+          "priceCents": 400000,
+          "category": "Paquetes",
+          "tags": [
+            "paquete",
+            "laser",
+            "axilas",
+            "ahorro"
+          ],
+          "imageCategory": "beauty",
+          "slug": "paquete-6-sesiones-axilas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Paquete 8 Sesiones Piernas",
+          "description": "8 sesiones de láser en piernas completas",
+          "priceCents": 1500000,
+          "category": "Paquetes",
+          "tags": [
+            "paquete",
+            "laser",
+            "piernas",
+            "ahorro"
+          ],
+          "imageCategory": "beauty",
+          "slug": "paquete-8-sesiones-piernas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Cera Tradicional Piernas",
+          "description": "Depilación con cera tradicional",
+          "priceCents": 50000,
+          "category": "Cera",
+          "tags": [
+            "cera",
+            "piernas",
+            "tradicional"
+          ],
+          "imageCategory": "beauty",
+          "slug": "cera-tradicional-piernas",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Cera Brasileña",
+          "description": "Depilación completa con cera",
+          "priceCents": 70000,
+          "category": "Cera",
+          "tags": [
+            "cera",
+            "brasilena",
+            "completa"
+          ],
+          "imageCategory": "beauty",
+          "slug": "cera-brasile-a",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?beauty",
+          "available": true
+        },
+        {
+          "name": "Crema Post-Depilación",
+          "description": "Crema calmante post-depilación con aloe vera 200ml",
+          "priceCents": 55000,
+          "category": "Productos",
+          "tags": [
+            "crema",
+            "calmante",
+            "post-depilacion"
+          ],
+          "imageCategory": "products",
+          "slug": "crema-post-depilaci-n",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        },
+        {
+          "name": "Gift Card Depilación",
+          "description": "Tarjeta de regalo canjeable por sesiones de depilación",
+          "priceCents": 150000,
+          "category": "Gift Cards",
+          "tags": [
+            "gift",
+            "regalo",
+            "depilacion"
+          ],
+          "imageCategory": "products",
+          "slug": "gift-card-depilaci-n",
+          "imageUrl": "https://images.unsplash.com/photo-placeholder?products",
+          "available": true
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Zonas de Entrega",
+      "subtitle": "Consultá por delivery en Asunción y alrededores",
+      "zones": [
+        "Asunción",
+        "Fernando de la Mora",
+        "San Lorenzo",
+        "Lambaré",
+        "Luque"
+      ],
+      "minimumOrder": 50000,
+      "deliveryFee": 15000,
+      "freeDeliveryOver": 200000
+    },
+    "whatsappOrder": {
+      "title": "Pedí por WhatsApp",
+      "subtitle": "Elegí tus productos y te respondemos al instante",
+      "instructions": [
+        "Hacé clic en \"Consultar por WhatsApp\" en cada producto",
+        "Te atenderemos personalmente",
+        "Confirmamos stock y precio",
+        "Acordamos forma de pago y entrega"
+      ]
+    },
+    "giftCards": {
+      "title": "Tarjetas de Regalo",
+      "subtitle": "Regalá una experiencia única",
+      "items": [
+        {
+          "id": "gc-basic",
+          "amount": 100000,
+          "description": "Tarjeta de regalo por 100.000 Gs"
+        },
+        {
+          "id": "gc-premium",
+          "amount": 250000,
+          "description": "Tarjeta de regalo por 250.000 Gs"
+        },
+        {
+          "id": "gc-vip",
+          "amount": 500000,
+          "description": "Tarjeta de regalo por 500.000 Gs"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "RENUVA - Clínica estética y laser",
+    "copyright": "© {{year}} RENUVA - Clínica estética y laser",
+    "disclaimer": "Esta es una demostración."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi el de Depilación y me interesa un sitio para mi negocio"
+  }
+}

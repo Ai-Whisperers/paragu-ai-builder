@@ -1,0 +1,42 @@
+{
+  "slug": "blog",
+  "titleKey": "blog.seo.title",
+  "descriptionKey": "blog.seo.description",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "blog"
+    },
+    {
+      "id": "features",
+      "variant": "three-col",
+      "content": "blog.placeholder"
+    },
+    {
+      "id": "newsletter-signup",
+      "variant": "standard",
+      "content": "newsletter"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "ctaBanner"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

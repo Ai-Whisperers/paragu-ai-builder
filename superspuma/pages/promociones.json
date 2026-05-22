@@ -1,0 +1,36 @@
+{
+  "slug": "promociones",
+  "titleKey": "promociones.seo.title",
+  "descriptionKey": "promociones.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "promociones.hero"
+    },
+    {
+      "id": "promo-banner",
+      "variant": "carousel",
+      "content": "home.activePromos"
+    },
+    {
+      "id": "product-catalog",
+      "content": "promociones.onSaleProducts"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "promociones.active"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "promociones.terms"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}

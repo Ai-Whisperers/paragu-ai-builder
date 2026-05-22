@@ -1,0 +1,72 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "home.hero"
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "home.services"
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "home.process"
+    },
+    {
+      "id": "trust-signals",
+      "variant": "credentials",
+      "content": "home.trustSignals"
+    },
+    {
+      "id": "team",
+      "variant": "grid",
+      "content": "home.team"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "blog-index",
+      "variant": "grid",
+      "content": "home.blog"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "home.faq"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "standard",
+      "content": "home.cta"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

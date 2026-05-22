@@ -1,0 +1,17 @@
+{
+  "slug": "contacto",
+  "titleKey": "contacto.seo.title",
+  "descriptionKey": "contacto.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "contacto.hero"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
+    }
+  ]
+}

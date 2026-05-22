@@ -1,0 +1,72 @@
+{
+  "vertical": "b2b-professional",
+  "businessType": "contador",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595981234567",
+    "email": "estudio@contadorespy.com.py",
+    "instagram": "@contador.asuncion.py",
+    "phone": "+595981234567"
+  },
+  "location": {
+    "city": "Asunción",
+    "address": "Eusebio Ayala 2345",
+    "coordinates": {
+      "lat": -25.282,
+      "lng": -57.633
+    },
+    "googleMapsId": "ChIJ6WqSRTcRmZQR6WnS5T5j5tY"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-contador-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-contador"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true
+  },
+  "noindex": true,
+  "is_demo": true,
+  "path": "/s/es/demo-contador",
+  "publicUrl": "https://paragu-ai.com/s/es/demo-contador",
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "contact-strip",
+        "variant": "standard",
+        "content": "home.contact"
+      },
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  },
+  "social": {
+    "linkedin": "estudio-contable-asuncion",
+    "instagram": "@contador.asuncion.py"
+  }
+}

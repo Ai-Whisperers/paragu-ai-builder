@@ -1,0 +1,22 @@
+{
+  "slug": "terminos",
+  "titleKey": "terminos.title",
+  "descriptionKey": "terminos.subtitle",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "terminos"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "terminos.sectionsBlock"
+    },
+    {
+      "id": "faq",
+      "variant": "simple",
+      "content": "terminosPage.faq"
+    }
+  ]
+}

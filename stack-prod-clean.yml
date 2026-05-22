@@ -1,0 +1,42 @@
+services:
+  web:
+    image: paragu-ai:prod
+    env_file:
+      - /etc/paragu-ai/env
+    networks:
+      - agent-net
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+      - NEXT_PUBLIC_SUPABASE_URL=https://qyvokpribmbrosafntqa.supabase.co
+      - NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF5dm9rcHJpYm1icm9zYWZudHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzMTgxNTUsImV4cCI6MjA5MTg5NDE1NX0.ww_-gt4beuTcr_HbUCv0HmuKCw-J-HWTAI441yDSXRg
+      - SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF5dm9rcHJpYm1icm9zYWZudHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzMTgxNTUsImV4cCI6MjA5MTg5NDE1NX0.ww_-gt4beuTcr_HbUCv0HmuKCw-J-HWTAI441yDSXRg
+      - NEXT_PUBLIC_APP_URL=https://paragu-ai.com
+      - SRC_DIR=/app/src
+      - SITES_DIR=/app/sites
+      - LOG_LEVEL=info
+      - LOG_FORMAT=json
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: any
+      update_config:
+        order: start-first
+        parallelism: 1
+      resources:
+        limits:
+          memory: 1024M
+          cpus: '1.5'
+      labels:
+        - traefik.enable=true
+        - traefik.docker.network=agent-net
+        - traefik.http.services.paragu-ai.loadbalancer.server.port=3000
+        - traefik.http.routers.paragu-ai.rule=Host(\`paragu-ai.com\) \|\| Host(\`www.paragu-ai.com\`)
+        - traefik.http.routers.paragu-ai.entrypoints=websecure
+        - traefik.http.routers.paragu-ai.tls=true
+        - traefik.http.routers.paragu-ai.tls.certresolver=letsencryptresolver
+        - traefik.http.routers.paragu-ai.service=paragu-ai
+networks:
+  agent-net:
+    external: true

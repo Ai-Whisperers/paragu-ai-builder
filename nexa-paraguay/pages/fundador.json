@@ -1,0 +1,14 @@
+{
+  "slug": "fundador",
+  "titleKey": "founderPage.seo.title",
+  "descriptionKey": "founderPage.seo.description",
+  "sections": [
+    {"id": "header", "variant": "standard", "content": "navigation"},
+    {"id": "hero", "variant": "minimal", "content": "founderPage.hero"},
+    {"id": "team", "variant": "cards", "content": "founderPage.team"},
+    {"id": "why-destination", "variant": "three-col", "content": "founderPage.story"},
+    {"id": "cta-banner", "variant": "solid", "content": "founderPage.cta"},
+    {"id": "footer", "variant": "standard", "content": "footer"},
+    {"id": "whatsapp-float", "variant": "standard", "content": "whatsapp"}
+  ]
+}

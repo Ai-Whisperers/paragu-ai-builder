@@ -1,0 +1,11 @@
+{
+  "slug": "contacto",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "contactHero" },
+    { "id": "quote-form", "variant": "standard", "content": "quoteForm" },
+    { "id": "contact", "variant": "split", "content": "home.contact" }
+  ],
+  "titleKey": "contactHero.title",
+  "descriptionKey": "contactHero.subtitle",
+  "skipDefaults": ["contact-strip"]
+}

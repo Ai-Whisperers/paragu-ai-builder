@@ -1,0 +1,15 @@
+{
+  "slug": "preview-hair-fashion-22fa36e3",
+  "business_name": "Hair Fashion",
+  "business_type": "peluqueria",
+  "city": "Puerto Iguazú",
+  "notes": "",
+  "hero_prompt": "Salón de belleza \"Hair Fashion\" en Puerto Iguazú, Paraguay.  Estaciones con espejos iluminados, sillas profesionales, decoración moderna, luz natural, ambiente acogedor --ar 21:9",
+  "gallery_prompts": [
+    "Corte y coloración en Hair Fashion, Puerto Iguazú. Estilista trabajando, mechas, tintura profesional, luz natural --ar 4:3",
+    "Lavacabezas en Hair Fashion, Puerto Iguazú. Cliente cómodo, shampoo profesional, ambiente relajante --ar 4:3",
+    "Resultado de peinado en Hair Fashion, Puerto Iguazú. Cliente feliz, look terminado, estilo moderno --ar 4:3",
+    "Interior del salón Hair Fashion, Puerto Iguazú. Estaciones de trabajo, espejos, ambiente completo --ar 4:3",
+    "Productos capilares en Hair Fashion, Puerto Iguazú. Shampoos, acondicionadores, tratamientos en exhibición --ar 4:3"
+  ]
+}

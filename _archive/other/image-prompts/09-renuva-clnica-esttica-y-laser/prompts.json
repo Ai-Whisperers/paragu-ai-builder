@@ -1,0 +1,15 @@
+{
+  "slug": "preview-renuva-clnica-esttica-y-laser",
+  "business_name": "RENUVA - Clínica estética y laser",
+  "business_type": "depilacion",
+  "city": "Asunción",
+  "notes": "Clínica médica estética. Tecnología no invasiva.",
+  "hero_prompt": "Clínica de depilación \"RENUVA - Clínica estética y laser\" en Asunción, Paraguay. Clínica médica estética. Tecnología no invasiva. Equipo láser moderno, camilla profesional, ambiente clínico limpio, profesional con uniforme, tecnología visible --ar 21:9",
+  "gallery_prompts": [
+    "Equipo láser en RENUVA - Clínica estética y laser, Asunción. Tecnología de última generación, pantalla digital, cabezal de tratamiento --ar 4:3",
+    "Aplicación de gel en RENUVA - Clínica estética y laser, Asunción. Preparación para láser, profesional con guantes, cuidado --ar 4:3",
+    "Sala de espera de RENUVA - Clínica estética y laser, Asunción. Ambiente acogedor, revistas, recepción --ar 4:3",
+    "Resultado de depilación en RENUVA - Clínica estética y laser, Asunción. Piel suave, sin vello, antes y después --ar 4:3",
+    "Productos post-tratamiento en RENUVA - Clínica estética y laser, Asunción. Cremas hidratantes, calmantes, exhibición --ar 4:3"
+  ]
+}

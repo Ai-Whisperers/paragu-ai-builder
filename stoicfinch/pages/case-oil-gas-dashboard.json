@@ -1,0 +1,12 @@
+{
+  "slug": "case-oil-gas-dashboard",
+  "titleKey": "case-oil-gas-dashboard.seo.title",
+  "descriptionKey": "case-oil-gas-dashboard.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "case-oil-gas-dashboard.hero" },
+    { "id": "features", "variant": "three-col", "content": "case-oil-gas-dashboard.features" },
+    { "id": "contact", "variant": "split", "content": "case-oil-gas-dashboard.cta" },
+    { "id": "footer", "variant": "standard", "content": "footer" }
+  ]
+}

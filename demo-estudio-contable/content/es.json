@@ -1,0 +1,472 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "paragu-ai-builder",
+    "lastReviewed": "2026-04-26"
+  },
+  "siteName": "Estudio Contable Asunción",
+  "tagline": "Contabilidad, impuestos y sueldos para PYMES en Paraguay",
+  "placeholders": {
+    "businessName": "Estudio Contable Asunción",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Estudio Contable",
+    "items": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/demo-estudio-contable"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/demo-estudio-contable/servicios"
+      },
+      {
+        "label": "Equipo",
+        "href": "/s/es/demo-estudio-contable/equipo"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/demo-estudio-contable/contacto"
+      }
+    ],
+    "ctaText": "Consulta Gratuita",
+    "ctaHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20el%20demo%20de%20Estudio%20Contable%20y%20quiero%20un%20sitio%20para%20mi%20estudio"
+  },
+  "serviciosPage": {
+    "seo": {
+      "title": "Servicios — Estudio Contable Asunción",
+      "description": "Servicios contables en Asunción: contabilidad mensual, liquidación de impuestos, sueldos, auditoría y constitución de empresas."
+    },
+    "hero": {
+      "title": "Servicios",
+      "subtitle": "Elegí el servicio que mejor se adapte a tu negocio",
+      "trustBadgesEnabled": false
+    }
+  },
+  "equipoPage": {
+    "seo": {
+      "title": "Equipo — Estudio Contable Asunción",
+      "description": "Conocé nuestro equipo de contadores públicos certificados en Asunción."
+    },
+    "hero": {
+      "title": "Nuestro Equipo",
+      "subtitle": "Contadores públicos certificados por el CCP",
+      "trustBadgesEnabled": false
+    }
+  },
+  "contactoPage": {
+    "seo": {
+      "title": "Contacto — Estudio Contable Asunción",
+      "description": "Contactanos para una consulta gratuita. Estudio contable en Asunción."
+    },
+    "hero": {
+      "title": "Contacto",
+      "subtitle": "Agendá tu consulta gratuita sin compromiso",
+      "trustBadgesEnabled": false
+    }
+  },
+  "home": {
+    "seo": {
+      "title": "Estudio Contable Asunción — Contabilidad, IVA, IRP, Sueldos para PYMES",
+      "description": "Estudio contable en Asunción para PYMES. Contabilidad mensual, liquidación de IVA, IRE, IRP, sueldos y presentaciones Marangatu. Consulta gratuita."
+    },
+    "hero": {
+      "headline": "Tu estudio contable de confianza en Asunción",
+      "subheadline": "Contabilidad mensual, liquidación de impuestos y sueldos para PYMES y profesionales. Nos encargamos de todo mientras vos te enfocás en tu negocio.",
+      "ctaPrimaryText": "Agendá tu consulta gratuita",
+      "ctaPrimaryHref": "https://wa.me/595985724135?text=Hola%2C%20vi%20el%20demo%20de%20Estudio%20Contable%20y%20quiero%20un%20sitio%20para%20mi%20estudio",
+      "ctaSecondaryText": "Ver servicios",
+      "ctaSecondaryHref": "#servicios",
+      "trustBadges": [
+        "12+ años de experiencia",
+        "150+ PYMES asistidas",
+        "CCP matriculados",
+        "Marangatu al día"
+      ]
+    },
+    "trustSignals": {
+      "eyebrow": "Por qué elegirnos",
+      "title": "Profesionales certificados, procesos transparentes",
+      "items": [
+        {
+          "icon": "Award",
+          "title": "Colegio de Contadores del Paraguay",
+          "description": "Todos nuestros contadores tienen matricula activa en el CCP y seguro de responsabilidad profesional."
+        },
+        {
+          "icon": "Shield",
+          "title": "Timbrados y habilitados en DNIT",
+          "description": "Estamos inscriptos y timbrados en DNIT (ex-SET). Todas las presentaciones se realizan via Marangatu."
+        },
+        {
+          "icon": "Clock",
+          "title": "Presentaciones en tiempo y forma",
+          "description": "Nunca tuvimos una multa por vencimiento. Gestionamos calendarios personalizados para cada cliente."
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "Soporte WhatsApp permanente",
+          "description": "Consultas por WhatsApp en horario laboral con respuesta en menos de 2 horas."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Nuestros servicios",
+      "title": "Soluciones contables integrales para tu negocio",
+      "subtitle": "Desde contabilidad mensual hasta auditoría externa. Elegí lo que necesitás.",
+      "items": [
+        {
+          "icon": "BookOpen",
+          "title": "Contabilidad Mensual",
+          "description": "Registro contable completo de tus operaciones, libros IVA compras y ventas, balance de comprobación y reportes financieros mensuales.",
+          "highlights": [
+            "Registro completo",
+            "Libros IVA",
+            "Reportes mensuales"
+          ]
+        },
+        {
+          "icon": "Receipt",
+          "title": "Liquidación de Impuestos",
+          "description": "Liquidación y presentación de IVA (Form 111), IRE, IRP, IDU e ISC. Todo presentado via Marangatu dentro del plazo.",
+          "highlights": [
+            "IVA mensual",
+            "IRP anual",
+            "Marangatu"
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "Liquidación de Sueldos",
+          "description": "Cálculo de salarios, IPS jornalero y obrero, aguinaldo, bonificaciones, finiquitos. Presentación de planillas MTESS.",
+          "highlights": [
+            "Sueldos y jornales",
+            "IPS",
+            "Aguinaldo"
+          ]
+        },
+        {
+          "icon": "FileText",
+          "title": "Auditoría Externa",
+          "description": "Auditoría de estados financieros para bancos, DNCP o inversionistas. Dictamen con firma de contador público CCP.",
+          "highlights": [
+            "Estados financieros",
+            "Dictamen CCP",
+            "DNCP"
+          ]
+        },
+        {
+          "icon": "Building2",
+          "title": "Constitución de Empresas",
+          "description": "Constitución de EAS, SRL y SA. Gestión de RUC, timbrado, habilitación municipal y registro en SUACE.",
+          "highlights": [
+            "EAS 72h",
+            "RUC y timbrado",
+            "SUACE"
+          ]
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Asesoría Tributaria",
+          "description": "Planificación fiscal, regimen RESIMPLE, recupero de crédito fiscal IVA, defensa en fiscalizaciones y reestructuración tributaria.",
+          "highlights": [
+            "Planificación",
+            "RESIMPLE",
+            "Recupero IVA"
+          ]
+        }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "Nuestros planes",
+      "title": "Planes contables para cada tipo de negocio",
+      "subtitle": "Todos los planes incluyen presentaciones via Marangatu, reportes mensuales y soporte WhatsApp.",
+      "plans": [
+        {
+          "name": "Básico",
+          "price": "250.000 Gs/mes",
+          "description": "Para monotributistas y profesionales independientes",
+          "features": [
+            "Contabilidad simplificada",
+            "IVA mensual",
+            "Presentación Marangatu",
+            "1 consulta WhatsApp/mes",
+            "Certificado de cumplimiento"
+          ],
+          "cta": "Elegir Básico",
+          "highlighted": false
+        },
+        {
+          "name": "Profesional",
+          "price": "550.000 Gs/mes",
+          "description": "Para PYMES con 1-10 empleados",
+          "features": [
+            "Contabilidad completa",
+            "IVA, IRE, IRP",
+            "Liquidación de sueldos",
+            "IPS jornalero y obrero",
+            "Aguinaldo y bonificaciones",
+            "3 consultas WhatsApp/mes",
+            "Reportes financieros"
+          ],
+          "cta": "Elegir Profesional",
+          "highlighted": true
+        },
+        {
+          "name": "Premium",
+          "price": "1.200.000 Gs/mes",
+          "description": "Para empresas en crecimiento con 11-50 empleados",
+          "features": [
+            "Todo lo del plan Profesional",
+            "Auditoría externa trimestral",
+            "Planificación fiscal anual",
+            "Asesoría tributaria ilimitada",
+            "Representación ante DNIT",
+            "Consultas ilimitadas WhatsApp",
+            "Reportes financieros detallados"
+          ],
+          "cta": "Elegir Premium",
+          "highlighted": false
+        }
+      ],
+      "disclaimer": "Precios en guaraníes (Gs). IVA 10% no incluido. Planes personalizados disponibles para empresas del régimen de maquila y grandes contribuyentes."
+    },
+    "process": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "Tu ciclo contable mensual",
+      "subtitle": "Un proceso simple para que no te preocupes por nada.",
+      "steps": [
+        {
+          "icon": "MessageSquare",
+          "title": "Recepción",
+          "description": "Recibimos tus comprobantes por WhatsApp, email o los retiramos de tu negocio.",
+          "duration": "Semana 1"
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Procesamiento",
+          "description": "Registramos todas las operaciones en el sistema contable y preparamos la liquidación.",
+          "duration": "Semana 2"
+        },
+        {
+          "icon": "Send",
+          "title": "Presentación",
+          "description": "Presentamos tus declaraciones juradas via Marangatu antes del vencimiento.",
+          "duration": "Semana 3"
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Reporte",
+          "description": "Te enviamos el reporte mensual con resultados, impuestos pagados y próximos vencimientos.",
+          "duration": "Semana 4"
+        }
+      ]
+    },
+    "team": {
+      "eyebrow": "Nuestro equipo",
+      "title": "Contadores públicos certificados",
+      "subtitle": "Profesionales con experiencia en PYMES, auditoría y tributación paraguaya.",
+      "members": [
+        {
+          "name": "CPC Laura Benítez",
+          "role": "Socia Directora",
+          "credentials": "CCP N° 8.901",
+          "description": "Contadora pública con 14 años de experiencia. Ex-auditora de KPMG Paraguay. Especialista en PYMES y regimen de maquila."
+        },
+        {
+          "name": "CPC Fernando Ozuna",
+          "role": "Contador Senior",
+          "credentials": "CCP N° 9.234",
+          "description": "Experto en liquidación de impuestos y Marangatu. Asesora a 80+ PYMES en su cumplimiento tributario mensual."
+        },
+        {
+          "name": "CPC Ana Vargas",
+          "role": "Contadora",
+          "credentials": "CCP N° 10.567",
+          "description": "Especialista en sueldos, IPS y legislación laboral. Experiencia en liquidación de nóminas de hasta 200 empleados."
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "Testimonios",
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "Más de 150 PYMES confían en nosotros.",
+      "items": [
+        {
+          "name": "Miguel Rojas",
+          "role": "CEO, Grupo Rojas SRL",
+          "content": "Tercerizamos toda nuestra contabilidad con ellos hace 3 años. Nunca tuvimos una multa, siempre al día con DNIT e IPS. Recomendados.",
+          "rating": 5
+        },
+        {
+          "name": "Sofia Maidana",
+          "role": "Dueña, Panadería La Moderna",
+          "content": "Me salvaron con el RESIMPLE. No sabía que podía tributar menos. Ahora pago la mitad de impuestos y ellos se encargan de todo.",
+          "rating": 5
+        },
+        {
+          "name": "Carlos Duarte",
+          "role": "Arquitecto independiente",
+          "content": "Excelente servicio. Me ayudaron a poner en orden mis finanzas como profesional independiente. Ahora duermo tranquilo con mis impuestos.",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Preguntas frecuentes sobre contabilidad e impuestos",
+      "items": [
+        {
+          "question": "Que impuestos debo pagar como PYME en Paraguay?",
+          "answer": "Depende de tu régimen. Generalmente: IVA (10% mensual), IRE (Renta Empresarial, 10% anual) o IRP (Renta Personal, 8-10% anual), e IDU (2,5% sobre documentos). Si facturás menos de Gs. 400 millones anuales podés optar por RESIMPLE, que unifica todo en una sola tasa reducida."
+        },
+        {
+          "question": "Que es Marangatu y como funciona?",
+          "answer": "Marangatu es la plataforma virtual de la DNIT (ex-SET) para presentar declaraciones juradas, gestionar timbrados y emitir facturación electrónica (e-Kuatia). Todos nuestros planes incluyen gestión completa a través de Marangatu."
+        },
+        {
+          "question": "Cada cuánto se presenta el IVA?",
+          "answer": "El IVA se presenta mensualmente, dentro de los primeros 10 días hábiles del mes siguiente. Nosotros nos encargamos de la presentación antes del vencimiento."
+        },
+        {
+          "question": "Que necesito para empezar con ustedes?",
+          "answer": "Necesitás tu RUC, timbrado activo, constancia de tus ultimas declaraciones (si tenés), y acceso a Marangatu. Nosotros te ayudamos a obtener todo si todavía no tenés. La primera consulta es gratuita y sin compromiso."
+        },
+        {
+          "question": "Que es RESIMPLE y me conviene?",
+          "answer": "RESIMPLE es el Régimen Simplificado para pequeños contribuyentes que facturan hasta Gs. 400 millones al año. Unifica IVA, IRE e IDU en una sola tasa del 7% sobre la facturación. Es ideal para negocios chicos porque simplifica la administración y suele reducir la carga impositiva total."
+        },
+        {
+          "question": "Trabajan con facturación electrónica (e-Kuatia)?",
+          "answer": "Si, gestionamos todo el proceso de e-Kuatia y e-Kuatia'i (facturación electrónica de DNIT). Incluye la solicitud de timbrado electrónico, emisión de comprobantes y archivo de respaldo."
+        }
+      ]
+    },
+    "taxDeadline": {
+      "eyebrow": "Vencimientos",
+      "title": "No te olvides de tus obligaciones mensuales",
+      "subtitle": "Nosotros presentamos todo antes del vencimiento. Vos solo preocupate de hacer crecer tu negocio."
+    },
+    "calcIrp": {
+      "eyebrow": "Calculadora",
+      "title": "Calculá tu IRP (Impuesto a la Renta Personal)",
+      "subtitle": "Estimá cuánto vas a pagar de IRP este año según tus ingresos y gastos."
+    },
+    "calcIva": {
+      "eyebrow": "Calculadora",
+      "title": "Calculá tu IVA mensual",
+      "subtitle": "Estimá el IVA a pagar según tus facturas de compras y ventas del mes."
+    },
+    "calcCostoEmpleado": {
+      "eyebrow": "Calculadora",
+      "title": "Calculá el costo real de tu empleado",
+      "subtitle": "Conocé cuánto te cuesta realmente un empleado en Paraguay: salario, IPS, aguinaldo y otros beneficios.",
+      "defaultSalary": 2800000
+    },
+    "calcAguinaldo": {
+      "eyebrow": "Calculadora",
+      "title": "Calculá el aguinaldo de tus empleados",
+      "subtitle": "Estimá el aguinaldo proporcional según el salario y los meses trabajados en el año."
+    },
+    "calcFiniquito": {
+      "eyebrow": "Calculadora",
+      "title": "Calculá el finiquito por despido",
+      "subtitle": "Conocé el monto del finiquito según el salario, antigüedad y tipo de despido."
+    },
+    "calcIre": {
+      "eyebrow": "Calculadora",
+      "title": "Calculá tu IRE (Impuesto a la Renta Empresarial)",
+      "subtitle": "Estimá cuánto vas a pagar de IRE este año fiscal según los ingresos y gastos de tu empresa."
+    },
+    "leadForm": {
+      "title": "Agendá tu consulta gratuita",
+      "subtitle": "Completá el formulario y te contactamos en menos de 24 horas para una reunión sin compromiso.",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Nombre completo",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "WhatsApp",
+          "type": "tel",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Correo electrónico",
+          "type": "email",
+          "required": false
+        },
+        {
+          "name": "businessType",
+          "label": "Tipo de empresa",
+          "type": "select",
+          "options": [
+            "Monotributista",
+            "PYME 1-10 empleados",
+            "PYME 11-50 empleados",
+            "Empresa grande",
+            "Profesional independiente",
+            "Otro"
+          ],
+          "required": true
+        },
+        {
+          "name": "message",
+          "label": "Contanos tu caso (opcional)",
+          "type": "textarea",
+          "required": false
+        }
+      ],
+      "ctaText": "Enviar consulta",
+      "successMessage": "Gracias por tu consulta. Te contactamos en menos de 24 horas por WhatsApp.",
+      "demoRubro": "cpa_firm"
+    },
+    "contact": {
+      "title": "Contactanos",
+      "subtitle": "Te respondemos el mismo día por WhatsApp",
+      "phone": "+595985724135",
+      "email": "ventas@paragu-ai.com",
+      "city": "Asunción",
+      "formSource": "demo",
+      "demoRubro": "cpa_firm"
+    }
+  },
+  "footer": {
+    "businessName": "Estudio Contable Asunción",
+    "city": "Asunción",
+    "copyright": "© {{year}} Estudio Contable Asunción",
+    "disclaimer": "Esta es una demostración del sitio que Paragu AI puede crear para tu estudio contable. El sitio final se personaliza con tu información real.",
+    "legalText": "Contadores Públicos CCP | Asunción, Paraguay | Matrícula CCP N° 8.901",
+    "navLinks": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/demo-estudio-contable"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/demo-estudio-contable/servicios"
+      },
+      {
+        "label": "Equipo",
+        "href": "/s/es/demo-estudio-contable/equipo"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/demo-estudio-contable/contacto"
+      }
+    ]
+  },
+  "whatsapp": "+595985724135",
+  "seo": {
+    "home": {
+      "title": "demo-estudio-contable - Paraguay",
+      "description": "Sitio web de demo-estudio-contable"
+    }
+  }
+}

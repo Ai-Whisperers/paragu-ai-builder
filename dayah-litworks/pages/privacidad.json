@@ -1,0 +1,27 @@
+{
+  "slug": "privacidad",
+  "titleKey": "privacidad.title",
+  "descriptionKey": "privacidad.subtitle",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "privacidad"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "privacidad.sectionsBlock"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

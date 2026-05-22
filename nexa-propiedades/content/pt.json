@@ -1,0 +1,203 @@
+{
+  "siteName": "Nexa Propiedades",
+  "tagline": "Sua nova casa no Paraguai o aguarda",
+  "placeholders": {
+    "country": "Paraguai",
+    "city": "Assunção",
+    "propertyCount": "500+",
+    "agentCount": "15",
+    "experienceYears": "10"
+  },
+  "navigation": {
+    "businessName": "Nexa Propiedades",
+    "navItems": [
+      {
+        "label": "Início",
+        "href": "/s/pt/nexa-propiedades"
+      },
+      {
+        "label": "Imóveis",
+        "href": "/s/pt/nexa-propiedades/propiedades"
+      },
+      {
+        "label": "Serviços",
+        "href": "/s/pt/nexa-propiedades/servicios"
+      },
+      {
+        "label": "Contato",
+        "href": "/s/pt/nexa-propiedades/contacto"
+      }
+    ],
+    "ctaText": "Buscar Imóvel",
+    "ctaHref": "/s/pt/nexa-propiedades/contacto"
+  },
+  "home": {
+    "seo": {
+      "title": "Nexa Propiedades — Casas e Apartamentos no Paraguai",
+      "description": "Encontre sua casa ideal no Paraguai. Casas, apartamentos e terrenos em Assunção e arredores."
+    },
+    "hero": {
+      "headline": "Encontre a casa dos seus sonhos no Paraguai",
+      "subheadline": "Mais de 500 imóveis disponíveis em Assunção e nas melhores áreas do país.",
+      "ctaPrimaryText": "Ver Imóveis",
+      "ctaPrimaryHref": "/s/pt/nexa-propiedades/propiedades",
+      "ctaSecondaryText": "Falar com Corretor",
+      "ctaSecondaryHref": "/s/pt/nexa-propiedades/contacto"
+    }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Tudo que você precisa para seu investimento imobiliário",
+    "services": [
+      {
+        "name": "Compra de Imóveis",
+        "description": "Acompanharemos você desde a busca até a escritura.",
+        "price": "Consultar"
+      },
+      {
+        "name": "Venda de Imóveis",
+        "description": "Avaliação justa e marketing profissional.",
+        "price": "2% comissão"
+      },
+      {
+        "name": "Aluguéis",
+        "description": "Gestão completa de imóveis para aluguel.",
+        "price": "10% mensal"
+      },
+      {
+        "name": "Assessoria Jurídica",
+        "description": "Verificação documental completa.",
+        "price": "Desde $200"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Estamos aqui para ajudá-lo",
+    "phone": "+595 982 515 138",
+    "email": "info@nexapropiedades.com",
+    "address": "Av. Aviadores del Chaco 1234, Assunção",
+    "hours": "Segunda a Sexta: 9:00 - 18:00"
+  },
+  "privacyPage": {
+    "seo": {
+      "title": "Política de privacidade — Nexa Propiedades",
+      "description": "Política de privacidade e cookies da Nexa Propiedades Paraguai."
+    },
+    "hero": {
+      "headline": "Política de privacidade",
+      "subheadline": "Como coletamos e tratamos seus dados quando você consulta um imóvel."
+    },
+    "body": {
+      "title": "Pontos-chave",
+      "items": [
+        {
+          "q": "Quais dados coletamos?",
+          "a": "Nome, e-mail, telefone, imóvel de interesse e orçamento aproximado, quando você preenche um formulário ou escreve pelo WhatsApp."
+        },
+        {
+          "q": "Para que os usamos?",
+          "a": "Para responder à sua consulta sobre um imóvel, agendar visitas e, com sua autorização, enviar novos imóveis que combinem com sua busca."
+        },
+        {
+          "q": "Com quem os compartilhamos?",
+          "a": "CRM (HubSpot) e provedor de e-mail (Mailchimp) sob contratos de tratamento de dados. Nunca compartilhamos seus dados com outros compradores, vendedores ou terceiros para marketing."
+        },
+        {
+          "q": "Por quanto tempo os guardamos?",
+          "a": "24 meses após o último contato, salvo exigência legal ou enquanto houver uma operação em andamento."
+        },
+        {
+          "q": "Como exerço meus direitos?",
+          "a": "Escreva para info@nexapropiedades.com e respondemos em até 30 dias (acesso, retificação, supressão, portabilidade)."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "businessName": "Nexa Propiedades",
+    "tagline": "Seu parceiro de confiança em imóveis",
+    "address": "Av. Aviadores del Chaco 1234, Assunção, Paraguai",
+    "phone": "+595 982 515 138",
+    "email": "info@nexapropiedades.com"
+  },
+  "whatsapp": "595981123456",
+  "propertiesPage": {
+    "seo": {
+      "title": "Imóveis à Venda — Nexa Propiedades Paraguai",
+      "description": "Explore nossa seleção de casas, apartamentos e terrenos no Paraguai."
+    },
+    "hero": {
+      "headline": "Nossos Imóveis",
+      "subheadline": "Encontre o imóvel perfeito para você."
+    },
+    "listings": {
+      "title": "Propriedades Disponíveis",
+      "fetchFromApi": {
+        "siteSlug": "nexa-propiedades"
+      },
+      "properties": []
+    },
+    "cta": {
+      "title": "Não encontrou o que procurava?",
+      "buttonText": "Falar com Corretor",
+      "buttonHref": "/s/pt/nexa-propiedades/contacto"
+    }
+  },
+  "servicesPage": {
+    "seo": {
+      "title": "Serviços Imobiliários — Nexa Propiedades",
+      "description": "Compra, venda, aluguel e assessoria jurídica para imóveis no Paraguai."
+    },
+    "hero": {
+      "headline": "Nossos Serviços",
+      "subheadline": "Soluções completas para suas necessidades imobiliárias."
+    },
+    "services": {
+      "title": "Serviços que Oferecemos",
+      "services": [
+        {
+          "name": "Compra de Imóveis",
+          "description": "Acompanharemos você desde a busca até a escritura."
+        },
+        {
+          "name": "Venda de Imóveis",
+          "description": "Avaliação justa e marketing profissional."
+        },
+        {
+          "name": "Aluguéis",
+          "description": "Gestão completa de imóveis para aluguel."
+        },
+        {
+          "name": "Assessoria Jurídica",
+          "description": "Verificação documental completa."
+        }
+      ]
+    },
+    "calculator": {
+      "title": "Calculadora de Hipoteca",
+      "description": "Estime sua parcela mensal para comprar um imóvel no Paraguai."
+    },
+    "cta": {
+      "title": "Precisa de um serviço personalizado?",
+      "buttonText": "Fale Conosco",
+      "buttonHref": "/s/pt/nexa-propiedades/contacto"
+    }
+  },
+  "contactPage": {
+    "seo": {
+      "title": "Contato — Nexa Propiedades Paraguai",
+      "description": "Fale com nossos corretores imobiliários especialistas."
+    },
+    "hero": {
+      "headline": "Contato",
+      "subheadline": "Estamos aqui para ajudá-lo a encontrar seu imóvel ideal."
+    },
+    "contact": {
+      "title": "Informações de Contato",
+      "phone": "+595 982 515 138",
+      "email": "info@nexapropiedades.com",
+      "address": "Av. Aviadores del Chaco 1234, Assunção"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "servicios",
+  "titleKey": "home.services.title",
+  "descriptionKey": "home.services.subtitle",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "servicios.hero"
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "home.services"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "home.services.addons_block"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "ctaBanner"
+    }
+  ]
+}

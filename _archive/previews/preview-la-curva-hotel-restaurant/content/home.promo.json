@@ -1,0 +1,28 @@
+{
+  "promotions": [
+    {
+      "id": "1",
+      "title": "¡Martes de Mujeres!",
+      "description": "20% de descuento en todos los servicios",
+      "code": "MARTES20",
+      "expiresAt": "2026-12-31T23:59:59",
+      "bgColor": "bg-gradient-to-r from-pink-500 to-rose-500",
+      "textColor": "text-white"
+    },
+    {
+      "id": "2",
+      "title": "Pack Novia",
+      "description": "Trial + Día de tu boda por solo 450.000 Gs",
+      "code": "NOVIA2026",
+      "expiresAt": "2026-12-31T23:59:59",
+      "bgColor": "bg-gradient-to-r from-purple-500 to-indigo-500",
+      "textColor": "text-white"
+    }
+  ],
+  "settings": {
+    "autoRotate": true,
+    "rotateInterval": 5000,
+    "dismissible": true,
+    "position": "top"
+  }
+}

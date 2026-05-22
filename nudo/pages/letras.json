@@ -1,0 +1,12 @@
+{
+  "slug": "letras",
+  "titleKey": "letras_page.seo.title",
+  "descriptionKey": "letras_page.seo.description",
+  "sections": [
+    { "id": "header", "variant": "standard", "content": "navigation" },
+    { "id": "hero", "variant": "minimal", "content": "letras_page.hero" },
+    { "id": "gallery", "variant": "grid", "content": "letras_page.lyrics" },
+    { "id": "footer", "variant": "standard", "content": "footer" },
+    { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" }
+  ]
+}

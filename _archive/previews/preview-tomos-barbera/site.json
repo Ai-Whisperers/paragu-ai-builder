@@ -1,0 +1,70 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "barberia",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "0972 477929",
+    "email": "info@barberiasanlorenzo.com.py",
+    "instagram": "@barberia.sanlorenzo.py",
+    "phone": "0972 477929"
+  },
+  "location": {
+    "city": "Luque",
+    "address": "José Bonifacio y, Luque 110934, Paraguay",
+    "coordinates": {
+      "lat": -25.2657495,
+      "lng": -57.5047598
+    },
+    "googleMapsId": "ChIJ8UqKRTcRmZQR8WjK5T5j7tZ"
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": null,
+      "formId": "demo-demo-barberia-form"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": null,
+        "streamName": "demo-demo-barberia"
+      }
+    }
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "productCatalog": true,
+    "commerce": true,
+    "featuredProducts": true,
+    "shop": true,
+    "giftCards": true,
+    "booking": true
+  },
+  "noindex": true,
+  "source": "lead_generation",
+  "is_demo": false,
+  "path": "/s/es/preview-tomos-barbera",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-tomos-barbera",
+  "social": {
+    "facebook": "barberiasanlorenzo",
+    "tiktok": "@barberiasanlorenzo",
+    "instagram": "@barberia.sanlorenzo.py"
+  },
+  "preview": true,
+  "previewLeadId": "b1a0db0d-a0a9-4b06-b191-16419b6b7f4b",
+  "createdAt": "2026-04-25T05:23:41.384Z",
+  "commerce": {
+    "enabled": true,
+    "currency": "PYG",
+    "provider": "pagopar",
+    "whatsappEnabled": true
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion"
+  }
+}

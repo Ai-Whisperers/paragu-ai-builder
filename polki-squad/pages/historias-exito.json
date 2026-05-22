@@ -1,0 +1,26 @@
+{
+  "slug": "historias-exito",
+  "title": "Historias de Éxito - Polki Squad",
+  "description": "Conoce las historias de los peluditos que encontraron un hogar gracias a Polki Squad.",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "standard",
+      "title": "Historias de Éxito",
+      "subtitle": "Vidas transformadas a través de la adopción responsable"
+    },
+    {
+      "id": "testimonials",
+      "variant": "featured",
+      "content": "successStories",
+      "showImages": true
+    },
+    {
+      "id": "gallery",
+      "variant": "masonry",
+      "content": "successStories",
+      "title": "Nuestros Adoptados",
+      "subtitle": "Cada uno encontró su familia perfecta"
+    }
+  ]
+}

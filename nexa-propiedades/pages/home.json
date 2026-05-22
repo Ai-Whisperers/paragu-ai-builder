@@ -1,0 +1,28 @@
+{
+  "slug": "home",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "schemaType": "RealEstateAgent",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "split",
+      "content": "home.hero"
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats"
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "servicesPage.services"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "contact"
+    }
+  ]
+}

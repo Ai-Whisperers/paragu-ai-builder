@@ -1,0 +1,33 @@
+{
+  "slug": "contacto",
+  "titleKey": "contactPage.seo.title",
+  "descriptionKey": "contactPage.seo.description",
+  "schemaType": "RealEstateAgent",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "contactPage.hero"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "contactPage.contact"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}
