@@ -76,7 +76,7 @@ export default function PreviewsPage() {
         <Container>
           <div className="mx-auto mb-10 max-w-2xl text-center">
             <p className="mb-3 text-sm font-bold uppercase tracking-wider text-primary">
-              {DEMOS.length} sitios demo
+              {DEMOS.length} demos
             </p>
             <h1 className="mb-4 text-4xl font-bold text-foreground sm:text-5xl">
               Sitios que podés tener
