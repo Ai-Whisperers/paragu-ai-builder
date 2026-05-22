@@ -11,7 +11,7 @@
  */
 
 export type JsonRecord = Record<string, unknown>
-/** Counts: sites=48, pages=295, content=64, blog=34, images=15, verticals=23. */
+/** Counts: sites=48, pages=296, content=64, blog=34, images=15, verticals=23. */
 export const SITE_SLUGS: readonly string[] = [
   "alejandro-villamayor",
   "brahm-the-raccoon",
@@ -1029,7 +1029,7 @@ export const SITES: Record<string, JsonRecord> = {
     "country": "Paraguay",
     "defaultLocale": "es",
     "domain": "dayah-litworks.com",
-    "favicon": "/images/dayah/covers/logo-blanco.png",
+    "favicon": "/images/dayah/brand/favicon.png",
     "features": {
       "dualCurrency": true,
       "testimonials": true,
@@ -1039,7 +1039,7 @@ export const SITES: Record<string, JsonRecord> = {
     "integrations": {
       "analytics": {
         "ga4": {
-          "measurementId": "G-XXXXXXXXXXX",
+          "measurementId": "G-KX8S45E9M2",
           "streamName": "paragu-ai-builder"
         }
       },
@@ -1063,7 +1063,7 @@ export const SITES: Record<string, JsonRecord> = {
     },
     "migratedAt": "2026-04-20",
     "migratedFrom": "web/lib/engine/demo-data.ts",
-    "openGraphImage": "/images/dayah/covers/og-dayah.png",
+    "openGraphImage": "/images/dayah/brand/og-default.png",
     "ruc": "5618487-5",
     "stagingDomain": "staging.dayah-litworks.com",
     "vertical": "portfolio-professional"
@@ -5717,6 +5717,33 @@ export const PAGES: Record<string, JsonRecord> = {
     ],
     "slug": "",
     "titleKey": "home.seo.title"
+  },
+  "dayah-litworks:portafolio": {
+    "descriptionKey": "portfolio.seo.description",
+    "sections": [
+      {
+        "content": "portfolio.hero",
+        "id": "hero",
+        "variant": "minimal"
+      },
+      {
+        "content": "home.portfolio",
+        "id": "portfolio-gallery",
+        "variant": "grid"
+      },
+      {
+        "content": "home.beforeAfter",
+        "id": "before-after",
+        "variant": "split"
+      },
+      {
+        "content": "ctaBanner",
+        "id": "cta-banner",
+        "variant": "gradient"
+      }
+    ],
+    "slug": "portafolio",
+    "titleKey": "portfolio.seo.title"
   },
   "dayah-litworks:privacidad": {
     "descriptionKey": "privacidad.seo.description",

@@ -1,0 +1,26 @@
+{
+  "slug": "promo-cartagena",
+  "titleKey": "home.promo-cartagena.title",
+  "descriptionKey": "home.promo-cartagena.subtitle",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "home.promo-cartagena.hero"
+    },
+    {
+      "id": "lead-form",
+      "variant": "standard",
+      "content": "home.promo-cartagena.lead-form"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ],
+  "skipDefaults": [
+    "header",
+    "footer"
+  ]
+}

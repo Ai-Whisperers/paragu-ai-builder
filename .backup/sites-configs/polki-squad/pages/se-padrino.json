@@ -1,0 +1,36 @@
+{
+  "slug": "se-padrino",
+  "title": "Sé Padrino o Madrina - Polki Squad",
+  "description": "Sé padrino o madrina de un peludito. Con tu donación mensual ayudas a su cuidado y rehabilitación.",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "standard",
+      "title": "Sé Padrino o Madrina",
+      "subtitle": "Con tu granito de arena salvas vidas"
+    },
+    {
+      "id": "pricing-table",
+      "variant": "sponsorship",
+      "content": "sponsor",
+      "title": "Planes de Padrinazgo",
+      "subtitle": "Elige tu nivel de aporte"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "sponsor.cta",
+      "title": "¿Lista para ser padrino?",
+      "subtitle": "Contáctanos por WhatsApp",
+      "buttonText": "WhatsApp",
+      "buttonLink": "https://api.whatsapp.com/send?phone=+595971771371&text=Hola!%20quiero%20ser%20padrino%20de%20Polki%20Squad"
+    },
+    {
+      "id": "gallery",
+      "variant": "masonry",
+      "content": "featuredAnimals",
+      "title": "Peluditos que necesitan padrinos",
+      "subtitle": "Cada aporte cuenta"
+    }
+  ]
+}

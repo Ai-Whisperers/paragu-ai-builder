@@ -1,0 +1,64 @@
+{
+  "vertical": "beauty-personal-care",
+  "businessType": "estetica",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+595994681789",
+    "email": "info@galileaestetica.com.py",
+    "phone": "+595994681789"
+  },
+  "location": {
+    "city": "Asunci\u00f3n",
+    "address": "Sta. Rosa 944 c, Asunci\u00f3n",
+    "neighborhood": ""
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "booking": true,
+    "gallery": true,
+    "portfolio": true,
+    "packagesGiftcards": true,
+    "beforeAfter": true,
+    "productCatalog": true,
+    "featuredProducts": true,
+    "commerce": true
+  },
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG",
+    "whatsappEnabled": true
+  },
+  "noindex": true,
+  "is_demo": true,
+  "path": "/s/es/preview-galilea-estetica",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-galilea-estetica",
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  },
+  "social": {
+    "instagram": "@galileacentroestetic",
+    "linktree": "https://linktr.ee/Galileacentroestetic"
+  }
+}

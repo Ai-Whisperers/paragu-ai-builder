@@ -1,0 +1,12 @@
+{
+  "slug": "sobre-mi",
+  "titleKey": "sobre.seo.title",
+  "descriptionKey": "sobre.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "sobre.hero" },
+    { "id": "features", "variant": "three-col", "content": "sobre.philosophy" },
+    { "id": "services", "variant": "cards", "content": "sobre.approach" },
+    { "id": "case-studies", "variant": "three-col", "content": "sobre.credentials" },
+    { "id": "cta-banner", "variant": "gradient", "content": "ctaBanner" }
+  ]
+}

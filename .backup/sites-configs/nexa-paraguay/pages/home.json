@@ -1,0 +1,83 @@
+{
+  "slug": "",
+  "titleKey": "home.seo.title",
+  "descriptionKey": "home.seo.description",
+  "schemaType": "LocalBusiness",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "split",
+      "content": "home.hero"
+    },
+    {
+      "id": "stats-counter",
+      "variant": "inline",
+      "content": "home.stats",
+      "styling": {
+        "padding": "none"
+      }
+    },
+    {
+      "id": "trust-signals",
+      "variant": "credentials",
+      "content": "home.trust",
+      "styling": {
+        "padding": "none"
+      }
+    },
+    {
+      "id": "programs-comparison",
+      "variant": "tiered",
+      "content": "home.programs",
+      "styling": {
+        "padding": "none"
+      }
+    },
+    {
+      "id": "tax-savings-calculator",
+      "variant": "default",
+      "content": "home.taxCalculator",
+      "styling": {
+        "padding": "none"
+      }
+    },
+    {
+      "id": "why-destination",
+      "variant": "three-col",
+      "content": "home.whyCountry",
+      "styling": {
+        "padding": "none"
+      }
+    },
+    {
+      "id": "features",
+      "variant": "three-col",
+      "content": "home.beneluxDesk",
+      "styling": {
+        "padding": "none"
+      }
+    },
+    {
+      "id": "process-timeline",
+      "variant": "horizontal",
+      "content": "home.process",
+      "styling": {
+        "padding": "none"
+      }
+    },
+    {
+      "id": "testimonials",
+      "variant": "grid",
+      "content": "home.testimonials",
+      "enabledWhen": "testimonials",
+      "styling": {
+        "padding": "none"
+      }
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}

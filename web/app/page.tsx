@@ -95,31 +95,41 @@ const SCHEMA_ORG_DATA = {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan Starter"
+              "name": "Diagnóstico"
             },
             "price": "0",
             "priceCurrency": "PYG",
-            "description": "Subdominio gratis, página única, WhatsApp"
+            "description": "Diagnóstico + demo estratégica por WhatsApp"
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan Profesional"
+              "name": "Plan Launch"
             },
-            "price": "650000",
+            "price": "3000000",
             "priceCurrency": "PYG",
-            "description": "Dominio .com.py, hasta 5 páginas, SEO, 2 cambios mensuales"
+            "description": "Sistema de captación completo: sitio profesional + WhatsApp + SEO + operación mensual"
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan Negocio"
+              "name": "Plan Growth"
             },
-            "price": "1200000",
+            "price": "6000000",
             "priceCurrency": "PYG",
-            "description": "Reservas online, catálogo de productos, blog, soporte prioritario"
+            "description": "Sistema de crecimiento con contenidos, reporting y automatización de consultas"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plan Scale"
+            },
+            "price": "12000000",
+            "priceCurrency": "PYG",
+            "description": "Sistema completo con CRM, automatizaciones, multi-ubicación y optimización continua"
           }
         ]
       }
@@ -157,10 +167,10 @@ const SCHEMA_ORG_DATA = {
         },
         {
           "@type": "Question",
-          "name": "¿Puedo ver mi sitio antes de pagar?",
+          "name": "¿Puedo ver algo antes de contratar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. En el plan Starter te armamos tu sitio gratis en un subdominio. Si te gusta, podés pasarte al plan Profesional con dominio propio. Si no, no pagás nada."
+            "text": "Sí. Empezamos con diagnóstico y demo estratégica gratis por WhatsApp. Si te sirve, avanzamos con el plan recomendado para tu negocio."
           }
         },
         {
@@ -217,10 +227,10 @@ const TEMPLATES: Template[] = [
   { id: 'pestanas', name: 'Pestañas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7', demoSlug: 'pestanas-flore' },
   { id: 'depilacion', name: 'Depilación', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: 'depilacion-perfecta' },
   { id: 'relocation', name: 'Reubicación', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexa-paraguay' },
-  { id: 'real_estate', name: 'Inmobiliaria', icon: Building2, leads: 0, pct: 0, color: '#2d6a4f', demoSlug: 'nexa-propiedades' },
-  { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: 'de-abasto-a-casa' },
-  { id: 'egg_farm', name: 'Granja / Huevos', icon: Egg, leads: 0, pct: 0, color: '#c89b3c', demoSlug: 'granja-cabral' },
-  { id: 'data_analytics_consulting', name: 'Consultoría Datos', icon: BarChart3, leads: 0, pct: 0, color: '#0f4c81', demoSlug: 'stoicfinch' },
+  { id: 'real_estate', name: 'Inmobiliaria', icon: Building2, leads: 0, pct: 0, color: '#2d6a4f', demoSlug: null },
+  { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: null },
+  { id: 'egg_farm', name: 'Granja / Huevos', icon: Egg, leads: 0, pct: 0, color: '#c89b3c', demoSlug: null },
+  { id: 'data_analytics_consulting', name: 'Consultoría Datos', icon: BarChart3, leads: 0, pct: 0, color: '#0f4c81', demoSlug: null },
   { id: 'contador', name: 'Contador / Estudio Contable', icon: Calculator, leads: 0, pct: 0, color: '#1e5f3a', demoSlug: 'demo-contador' },
   { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 0, pct: 0, color: '#8B4513', demoSlug: 'la-trattoria' },
   { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 0, pct: 0, color: '#1A1A1A', demoSlug: 'sakura-sushi' },
@@ -228,12 +238,12 @@ const TEMPLATES: Template[] = [
 ]
 
 const FEATURES = [
-  { icon: Check, title: 'Todo incluido', desc: 'Diseño, textos, fotos, dominio .com.py, hosting y soporte. Vos solo nos mandás la info por WhatsApp.' },
-  { icon: MessageCircle, title: 'WhatsApp directo', desc: 'Botón flotante en tu sitio. Tus clientes te escriben con un clic, sin formularios complicados.' },
-  { icon: Globe, title: 'Dominio propio', desc: 'TuURL.com.py con certificado SSL incluido. También configuramos emails profesionales.' },
-  { icon: Search, title: 'Aparecé en Google', desc: 'SEO optimizado para que tus clientes te encuentren cuando busquen tus servicios en Paraguay.' },
-  { icon: Smartphone, title: 'Perfecto en celular', desc: 'El 80% de tus clientes te van a buscar desde el móvil. Tu sitio se ve impecable en cualquier pantalla.' },
-  { icon: Layers, title: 'Diseño por rubro', desc: 'Cada negocio tiene una plantilla especializada. Peluquería ≠ Restaurante ≠ Gimnasio.' },
+  { icon: Search, title: 'Aparece en Google', desc: 'Cuando alguien busca "peluquería Asunción" o "gimnasio cerca", tu negocio aparece. Sin publicidad.' },
+  { icon: MessageCircle, title: 'Leads por WhatsApp', desc: 'Cada visitante puede escribirte directo desde el celular. Sin formularios, sin perder clientes.' },
+  { icon: BarChart3, title: 'Sabés cuántos te visitan', desc: 'Dashboard semanal: visitas, consultas, reservas. Datos reales, no intuición.' },
+  { icon: Layers, title: 'Diseño por rubro', desc: 'Cada negocio tiene un diseño especializado. Peluquería ≠ Restaurante ≠ Gimnasio.' },
+  { icon: Globe, title: 'Dominio propio .com.py', desc: 'Tu marca en la dirección del negocio. Incluye SSL, emails profesionales y todo configurado.' },
+  { icon: Smartphone, title: '完美 en celular', desc: 'El 85% de tus clientes buscan desde el móvil. Tu sitio se ve impecable en cualquier pantalla.' },
 ]
 
 const STEPS = [
@@ -281,15 +291,8 @@ const REAL_CLIENTS = [
     name: 'Nexa Paraguay',
     tagline: 'Reubicación para europeos',
     vertical: 'Servicios · 4 idiomas',
-    href: '/s/es/nexa-paraguay',
+    href: '/s/nl/nexa-paraguay',
     color: '#1e3a5f',
-  },
-  {
-    name: 'Nexa Propiedades',
-    tagline: 'Inmobiliaria residencial',
-    vertical: 'Real estate · 3 idiomas',
-    href: '/s/es/nexa-propiedades',
-    color: '#2d6a4f',
   },
   {
     name: 'Dayah Litworks',
@@ -299,81 +302,92 @@ const REAL_CLIENTS = [
     color: '#c44569',
   },
   {
-    name: 'De Abasto a Casa',
-    tagline: 'Meal prep semanal',
-    vertical: 'Comida · pedidos WhatsApp',
-    href: '/de-abasto-a-casa',
-    color: '#3a6b4a',
+    name: 'El Viajero',
+    tagline: 'Tienda de regalos y souvenirs',
+    vertical: 'Retail · Ciudad del Este',
+    href: 'https://tiendaelviajero.com.py',
+    color: '#2563eb',
   },
   {
-    name: 'Granja Cabral',
-    tagline: 'Huevos frescos de granja',
-    vertical: 'Agro · mayorista + recetas',
-    href: '/s/es/granja-cabral',
-    color: '#c89b3c',
-  },
-  {
-    name: 'Stoic Finch',
-    tagline: 'Consultoría de datos boutique',
-    vertical: 'Canadá · EN',
-    href: '/s/en/stoicfinch',
-    color: '#0f4c81',
+    name: 'Elviajero Tienda',
+    tagline: 'Souvenirs y regalos',
+    vertical: 'Comercio · CDE',
+    href: 'https://tiendaelviajero.com.py',
+    color: '#2563eb',
   },
 ]
 
 const PLANS = [
   {
-    name: 'Starter',
+    name: 'Diagnóstico',
     setup: 'Gratis',
     monthly: null,
-    period: 'por siempre',
-    description: 'Para probar sin compromiso',
+    period: 'sin compromiso',
+    description: 'Análisis + demo estratégica de tu sistema de captación',
     features: [
-      { text: 'Subdominio gratis (tunegocio.paragu-ai.com)', included: true },
-      { text: 'Página única con tus datos', included: true },
-      { text: 'Botón de WhatsApp', included: true },
-      { text: 'Válido por 3 meses', included: true },
+      { text: 'Análisis de tu negocio y competencia local', included: true },
+      { text: 'Demo de tu sistema en Google + WhatsApp', included: true },
+      { text: 'Recomendación de plan según tus objetivos', included: true },
+      { text: 'Sin tarjeta, sin contrato', included: true },
       { text: 'Dominio .com.py propio', included: false },
-      { text: 'Cambios mensuales', included: false },
+      { text: 'Operación mensual incluida', included: false },
     ],
-    cta: 'Empezar gratis',
-    waMessage: 'Hola, quiero empezar con el plan Starter gratis.',
+    cta: 'Pedir diagnóstico gratis',
+    waMessage: 'Hola, quiero pedir el diagnóstico gratis para mi negocio.',
     popular: false,
   },
   {
-    name: 'Profesional',
-    setup: 'Gs 650.000',
-    monthly: 'Gs 100.000',
+    name: 'Launch',
+    setup: 'Gs 3.000.000',
+    monthly: 'Gs 500.000',
     period: '/mes',
-    description: 'Para negocios que quieren crecer',
+    description: 'Sistema base para empezar a captar clientes todos los días',
     features: [
-      { text: 'Dominio .com.py incluido 1 año', included: true },
-      { text: 'Hasta 5 páginas', included: true },
-      { text: 'Google Maps + SEO local', included: true },
-      { text: 'Formulario de contacto', included: true },
-      { text: '2 cambios mensuales', included: true },
-      { text: 'Soporte por WhatsApp', included: true },
+      { text: 'Sitio profesional (hasta 5 páginas)', included: true },
+      { text: 'Dominio .com.py + hosting + SSL', included: true },
+      { text: 'Embudo WhatsApp + formulario de contacto', included: true },
+      { text: 'SEO local + ficha Google Business', included: true },
+      { text: '2 actualizaciones mensuales', included: true },
+      { text: 'Reporte mensual de visitas y leads', included: true },
     ],
-    cta: 'Elegir Profesional',
-    waMessage: 'Hola, me interesa el plan Profesional (Gs 650.000 + Gs 100.000/mes).',
+    cta: 'Elegir Launch',
+    waMessage: 'Hola, me interesa el plan Launch (Gs 3.000.000 + Gs 500.000/mes). ¿Podemos hablar?',
     popular: true,
   },
   {
-    name: 'Negocio',
-    setup: 'Gs 1.200.000',
-    monthly: 'Gs 150.000',
+    name: 'Growth',
+    setup: 'Gs 6.000.000',
+    monthly: 'Gs 1.000.000',
     period: '/mes',
-    description: 'Con reservas y catálogo',
+    description: 'Para escalar consultas y reservas cada mes sin contratar más personal',
     features: [
-      { text: 'Todo lo del plan Profesional', included: true },
-      { text: 'Sistema de reservas online', included: true },
-      { text: 'Catálogo de hasta 20 productos', included: true },
-      { text: 'Blog incluido', included: true },
-      { text: '5 cambios mensuales', included: true },
-      { text: 'Soporte prioritario', included: true },
+      { text: 'Todo lo del plan Launch', included: true },
+      { text: 'Blog + contenidos SEO mensuales', included: true },
+      { text: 'Panel de leads y conversiones', included: true },
+      { text: '1 campaña de captación por mes', included: true },
+      { text: '6 actualizaciones mensuales', included: true },
+      { text: 'Soporte prioritario + sesión estratégica', included: true },
     ],
-    cta: 'Elegir Negocio',
-    waMessage: 'Hola, me interesa el plan Negocio (Gs 1.200.000 + Gs 150.000/mes).',
+    cta: 'Elegir Growth',
+    waMessage: 'Hola, me interesa el plan Growth (Gs 6.000.000 + Gs 1.000.000/mes). ¿Cuándo podemos hablar?',
+    popular: false,
+  },
+  {
+    name: 'Scale',
+    setup: 'Gs 12.000.000',
+    monthly: 'Gs 2.000.000',
+    period: '/mes',
+    description: 'Sistema completo para negocios en expansión con múltiples ubicaciones',
+    features: [
+      { text: 'Todo lo del plan Growth', included: true },
+      { text: 'Automatizaciones y flujos de seguimiento', included: true },
+      { text: 'Integración CRM + procesos comerciales', included: true },
+      { text: 'Landing pages para campañas pagas', included: true },
+      { text: 'Optimización quincenal de conversión', included: true },
+      { text: 'Soporte same-day + asesor dedicado', included: true },
+    ],
+    cta: 'Elegir Scale',
+    waMessage: 'Hola, me interesa el plan Scale (Gs 12.000.000 + Gs 2.000.000/mes). ¿Podemos agendar una llamada?',
     popular: false,
   },
 ]
@@ -381,7 +395,7 @@ const PLANS = [
 const FAQS = [
   { question: '¿Cuánto tiempo tarda en estar listo mi sitio?', answer: 'Entre 24 y 48 horas desde que nos mandás los datos. Primero generamos el sitio automáticamente, después un editor humano lo revisa y optimiza antes de entregártelo.' },
   { question: '¿Necesito saber algo de tecnología?', answer: 'Nada. Nosotros hacemos todo: el diseño, los textos, las fotos, el dominio y la publicación. Vos solo nos mandás la info de tu negocio por WhatsApp y recibís el sitio listo para usar.' },
-  { question: '¿Puedo ver mi sitio antes de pagar?', answer: 'Sí. En el plan Starter te armamos tu sitio gratis en un subdominio. Si te gusta, podés pasarte al plan Profesional con dominio propio. Si no, no pagás nada.' },
+  { question: '¿Puedo ver algo antes de contratar?', answer: 'Sí. Empezamos con diagnóstico y demo estratégica gratis por WhatsApp. Si te sirve, avanzamos con el plan recomendado para tu negocio.' },
   { question: '¿Qué incluye el dominio .com.py?', answer: 'Incluimos el dominio gratis el primer año (por ejemplo: tunegocio.com.py). También configuramos el certificado SSL para que tu sitio sea seguro, y te ayudamos a crear emails profesionales.' },
   { question: '¿Cómo funciona el pago?', answer: 'Tenés dos pagos: el setup inicial (una sola vez) y la mensualidad. Aceptamos transferencia bancaria y Mercado Pago. No hay contrato de permanencia, cancelás cuando quieras.' },
   { question: '¿Puedo pedir cambios después?', answer: 'Sí. Según tu plan, tenés de 2 a 5 cambios mensuales incluidos. Son cambios de texto, fotos o precios. Pedís por WhatsApp y los hacemos en 24-48 horas.' },
@@ -410,9 +424,9 @@ function Navigation() {
 
   const navLinks = [
     { href: '/casos', label: 'Casos' },
-    { href: '/p', label: 'Rubros' },
+    { href: '/belleza', label: 'Belleza' },
+    { href: '/gastronomia', label: 'Gastronomía' },
     { href: '/precios', label: 'Precios' },
-    { href: '/demo', label: 'Demo' },
   ]
 
   return (
@@ -551,9 +565,9 @@ export default function HomePage() {
                 </div>
               </FadeIn>
 
-              <FadeIn delay={150}>
+                <FadeIn delay={150}>
                 <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-7xl">
-                  Tu negocio vendiendo{' '}
+                  Tu negocio crece{' '}
                   <span className="bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
                     mientras dormís
                   </span>
@@ -562,8 +576,9 @@ export default function HomePage() {
 
               <FadeIn delay={300}>
                 <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600 md:text-xl">
-                  Sitio web profesional en 48 horas. Todo incluido: diseño, dominio .com.py, 
-                  SEO y WhatsApp. Vos solo nos mandás los datos, nosotros hacemos el resto.
+                  Sistema de captación que aparece en Google, recibe consultas por WhatsApp
+                  y te muestra cuántas personas visitan tu negocio cada semana.
+                  Todo por Gs 500.000 al mes.
                 </p>
               </FadeIn>
 

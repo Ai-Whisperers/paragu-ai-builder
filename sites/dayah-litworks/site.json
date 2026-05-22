@@ -5,10 +5,7 @@
   "domain": "dayah-litworks.com",
   "stagingDomain": "staging.dayah-litworks.com",
   "defaultLocale": "es",
-  "locales": [
-    "es",
-    "en"
-  ],
+  "locales": ["es", "en"],
   "contact": {
     "email": "dayahlitworks@gmail.com",
     "whatsapp": "+595986868241",
@@ -16,9 +13,7 @@
     "facebook": "https://www.facebook.com/bookc0verdesign/",
     "linkedin": "https://www.linkedin.com/in/daihana-araujo/"
   },
-  "location": {
-    "city": "Asuncion"
-  },
+  "location": { "city": "Asuncion" },
   "founded": "2019-11-20",
   "legalName": "Daihana Araujo",
   "ruc": "5618487-5",
@@ -32,7 +27,7 @@
     },
     "analytics": {
       "ga4": {
-        "measurementId": "G-XXXXXXXXXXX",
+        "measurementId": "G-KX8S45E9M2",
         "streamName": "paragu-ai-builder"
       }
     }
@@ -52,24 +47,12 @@
       "content": "navigation"
     },
     "footer": [
-      {
-        "id": "contact-strip",
-        "variant": "standard",
-        "content": "home.contact"
-      },
-      {
-        "id": "whatsapp-float",
-        "variant": "standard",
-        "content": "whatsapp"
-      },
-      {
-        "id": "footer",
-        "variant": "standard",
-        "content": "footer"
-      }
+      { "id": "contact-strip", "variant": "standard", "content": "home.contact" },
+      { "id": "whatsapp-float", "variant": "standard", "content": "whatsapp" },
+      { "id": "footer", "variant": "standard", "content": "footer" }
     ]
   },
   "isLiveProduction": true,
-  "openGraphImage": "/images/dayah/covers/og-dayah.png",
-  "favicon": "/images/dayah/covers/logo-blanco.png"
+  "openGraphImage": "/images/dayah/brand/og-default.png",
+  "favicon": "/images/dayah/brand/favicon.png"
 }

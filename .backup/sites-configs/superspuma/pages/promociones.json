@@ -1,0 +1,31 @@
+{
+  "slug": "promociones",
+  "titleKey": "promociones.seo.title",
+  "descriptionKey": "promociones.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "promociones.hero"
+    },
+    {
+      "id": "promo-banner",
+      "variant": "carousel",
+      "content": "home.activePromos"
+    },
+    {
+      "id": "commerce-catalog",
+      "variant": "grid"
+    },
+    {
+      "id": "features",
+      "variant": "grid",
+      "content": "promociones.active"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "home.finalCta"
+    }
+  ]
+}

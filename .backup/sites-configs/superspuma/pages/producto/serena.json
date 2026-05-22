@@ -1,0 +1,52 @@
+{
+  "slug": "producto/serena",
+  "titleKey": "producto.serena.seo.title",
+  "descriptionKey": "producto.serena.seo.description",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "producto.serena.hero"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "producto.serena.trustBadges"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "enhanced-faq",
+      "variant": "searchable",
+      "content": "home.enhancedFaq"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "producto.serena.cta"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    }
+  ]
+}

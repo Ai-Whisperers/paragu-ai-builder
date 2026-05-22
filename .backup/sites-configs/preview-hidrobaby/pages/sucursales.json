@@ -1,0 +1,11 @@
+{
+  "slug": "sucursales",
+  "titleKey": "sucursales.seo.title",
+  "descriptionKey": "sucursales.seo.description",
+  "sections": [
+    { "id": "hero", "variant": "minimal", "content": "sucursales.hero" },
+    { "id": "branches", "variant": "cards", "content": "sucursales.branches" },
+    { "id": "google-maps", "variant": "default", "content": "sucursales.map" },
+    { "id": "contact", "variant": "split", "content": "home.contact" }
+  ]
+}

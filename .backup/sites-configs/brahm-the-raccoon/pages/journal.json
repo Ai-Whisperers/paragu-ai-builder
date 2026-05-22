@@ -1,0 +1,34 @@
+{
+  "slug": "journal",
+  "titleKey": "journal.seo.title",
+  "descriptionKey": "journal.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "journal.hero",
+      "styling": {
+        "padding": "md",
+        "background": "default"
+      }
+    },
+    {
+      "id": "blog-index",
+      "variant": "list",
+      "content": "journal",
+      "styling": {
+        "padding": "lg",
+        "background": "alt"
+      }
+    },
+    {
+      "id": "newsletter-signup",
+      "variant": "standard",
+      "content": "newsletter",
+      "styling": {
+        "padding": "lg",
+        "background": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "portafolio",
+  "titleKey": "portfolio.seo.title",
+  "descriptionKey": "portfolio.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "portfolio.hero"
+    },
+    {
+      "id": "portfolio-gallery",
+      "variant": "grid",
+      "content": "home.portfolio"
+    },
+    {
+      "id": "before-after",
+      "variant": "split",
+      "content": "home.beforeAfter"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "ctaBanner"
+    }
+  ]
+}

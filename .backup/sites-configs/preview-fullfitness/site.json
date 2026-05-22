@@ -1,0 +1,58 @@
+{
+  "vertical": "sports-recreation",
+  "businessType": "gimnasio",
+  "country": "Paraguay",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "contact": {
+    "whatsapp": "+59521640740",
+    "email": "info@fullfitness.com.py",
+    "phone": "+59521640740"
+  },
+  "location": {
+    "city": "Luque",
+    "address": "Mariscal Lopez, Luque"
+  },
+  "features": {
+    "whatsappFloat": true,
+    "testimonials": true,
+    "booking": true,
+    "gallery": true,
+    "classSchedule": true,
+    "team": true,
+    "productCatalog": true,
+    "featuredProducts": true,
+    "commerce": true
+  },
+  "commerce": {
+    "enabled": true,
+    "provider": "pagopar",
+    "currency": "PYG",
+    "whatsappEnabled": true
+  },
+  "noindex": true,
+  "is_demo": true,
+  "path": "/s/es/preview-fullfitness",
+  "publicUrl": "https://paragu-ai.com/s/es/preview-fullfitness",
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "producto/renovate",
+  "titleKey": "producto.renovate.seo.title",
+  "descriptionKey": "producto.renovate.seo.description",
+  "sections": [
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "producto.renovate.hero"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "producto.renovate.trustBadges"
+    },
+    {
+      "id": "testimonials",
+      "variant": "carousel",
+      "content": "home.testimonials"
+    },
+    {
+      "id": "enhanced-faq",
+      "variant": "searchable",
+      "content": "home.enhancedFaq"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "gradient",
+      "content": "producto.renovate.cta"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    }
+  ]
+}

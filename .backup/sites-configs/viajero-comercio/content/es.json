@@ -1,0 +1,505 @@
+{
+  "siteName": "El Viajero Comercio",
+  "businessName": "El Viajero Comercio",
+  "tagline": "Todo para tu Aventura",
+  "founded": "2018",
+  "navigation": {
+    "businessName": "El Viajero Comercio",
+    "ctaText": "Pedir por WhatsApp",
+    "ctaHref": "https://wa.me/595981234567?text=Hola!%20Quisiera%20informacion%20sobre%20productos",
+    "items": [
+      { "label": "Inicio", "href": "/s/es/viajero-comercio" },
+      { "label": "Tienda", "href": "/s/es/viajero-comercio/tienda" },
+      { "label": "Productos", "href": "/s/es/viajero-comercio/productos" },
+      { "label": "Blog", "href": "/s/es/viajero-comercio/blog" },
+      { "label": "Ofertas", "href": "/s/es/viajero-comercio/promociones" },
+      { "label": "FAQ", "href": "/s/es/viajero-comercio/faq" },
+      { "label": "Contacto", "href": "/s/es/viajero-comercio/contacto" }
+    ]
+  },
+  "home": {
+    "seo": {
+      "title": "El Viajero Comercio - Camping, Pesca y Aventura en Asuncion",
+      "description": "Todo para tu aventura: camping, pesca, accesorios para auto y moto, equipo outdoor. Visitanos en Asuncion o pedi por WhatsApp."
+    },
+    "hero": {
+      "headline": "El Viajero Comercio - Tu Aventura Empieza Aca",
+      "subheadline": "Camping, pesca, accesorios para auto y moto, equipo outdoor. Todo lo que necesitas para tu proxima aventura.",
+      "ctaPrimaryText": "Ver Catalogo",
+      "ctaPrimaryHref": "#catalogo",
+      "ctaSecondaryText": "Pedir por WhatsApp",
+      "ctaSecondaryHref": "https://wa.me/595981234567?text=Hola!%20Quisiera%20informacion%20sobre%20productos%20de%20El%20Viajero%20Comercio"
+    },
+    "stats": {
+      "title": "El Viajero en Numeros",
+      "items": [
+        { "value": "6", "label": "Categorias" },
+        { "value": "+500", "label": "Productos" },
+        { "value": "100%", "label": "Atencion" },
+        { "value": "Outdoor", "label": "Pasion" }
+      ]
+    },
+    "features": {
+      "title": "Por que elegir El Viajero?",
+      "items": [
+        {
+          "title": "Todo en un Solo Lugar",
+          "description": "Camping, pesca, auto, moto y mas — no necesitas ir a varias tiendas.",
+          "icon": "package"
+        },
+        {
+          "title": "Productos de Calidad",
+          "description": "Trabajamos con marcas confiables para que tu equipo dure.",
+          "icon": "shield"
+        },
+        {
+          "title": "Asesoramiento Experto",
+          "description": "Te ayudamos a elegir el equipo correcto para cada aventura.",
+          "icon": "message-circle"
+        },
+        {
+          "title": "Pedido por WhatsApp",
+          "description": "Consulta disponibilidad, hace tu pedido y recibilo sin salir de casa.",
+          "icon": "phone"
+        },
+        {
+          "title": "Entrega en Asuncion",
+          "description": "Hacemos envios en Asuncion y zonas aledanas.",
+          "icon": "truck"
+        },
+        {
+          "title": "Precios Accesibles",
+          "description": "Buena relacion precio-calidad para que arranques tu aventura.",
+          "icon": "wallet"
+        }
+      ]
+    },
+    "productCatalog": {
+      "title": "Nuestros Productos",
+      "subtitle": "Todo para tu proxima aventura",
+      "whatsappPhone": "595981234567",
+      "orderButtonText": "Consultar por WhatsApp",
+      "orderMessageTemplate": "Hola! Me interesa {{productName}} ({{productPrice}}). Quiero saber disponibilidad y formas de pago.",
+      "categories": ["Camping", "Pesca", "Acc. Personales", "Automoviles", "Motos", "Campo"],
+      "products": [
+        { "name": "Carpa 4 Personas", "category": "Camping", "price": "Gs. 450.000", "description": "Impermeable, facil de armar, incluye bolsa de transporte. Ideal para familias.", "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80" },
+        { "name": "Bolsa de Dormir 0°C", "category": "Camping", "price": "Gs. 180.000", "description": "Temperatura confort de 0°C, relleno sintetico, compacta y liviana.", "imageUrl": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=600&q=80" },
+        { "name": "Silla Plegable Pescador", "category": "Camping", "price": "Gs. 85.000", "description": "Con posavasos y bolsillo lateral. Soporto hasta 120kg.", "imageUrl": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=600&q=80" },
+        { "name": "Linterna LED 1000lm", "category": "Camping", "price": "Gs. 65.000", "description": "Recargable USB, 3 modos de luz, resistencia al agua IPX4.", "imageUrl": "https://images.unsplash.com/photo-1537907690979-ee2e10f0d6b3?w=600&q=80" },
+        { "name": "Caña Telescopica 3m", "category": "Pesca", "price": "Gs. 140.000", "description": "Fibra de vidrio, anillos ceramicos, mango de corcho. Ideal para principiantes y expertos.", "imageUrl": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=600&q=80" },
+        { "name": "Chaleco Salvavidas", "category": "Pesca", "price": "Gs. 110.000", "description": "Aprobado por autoridad maritima, talles M a XXL, ajustable.", "imageUrl": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=600&q=80" },
+        { "name": "Mochila 60L Impermeable", "category": "Acc. Personales", "price": "Gs. 220.000", "description": "Costuras selladas, multiple compartimientos, correas acolchadas.", "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80" },
+        { "name": "Cuchillo Multiuso", "category": "Acc. Personales", "price": "Gs. 75.000", "description": "15 herramientas, acero inoxidable, incluye funda de nylon.", "imageUrl": "https://images.unsplash.com/photo-1621800361987-87dfc24e605b?w=600&q=80" },
+        { "name": "Camara Dashcam HD", "category": "Automoviles", "price": "Gs. 280.000", "description": "1080p, vision nocturna, deteccion de movimiento, tarjeta SD incluida.", "imageUrl": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&q=80" },
+        { "name": "Inflador 12V Portatil", "category": "Automoviles", "price": "Gs. 95.000", "description": "Compresor digital, apagado automatico, incluye adaptadores.", "imageUrl": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&q=80" },
+        { "name": "Casco Integral Moto", "category": "Motos", "price": "Gs. 320.000", "description": "Certificado DOT, visor antihumedad, sistema de ventilacion multiple.", "imageUrl": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=600&q=80" },
+        { "name": "Kit Herramientas Campo", "category": "Campo", "price": "Gs. 160.000", "description": "Pala, azada, rastrillo desarmables con mango ergonomico.", "imageUrl": "https://images.unsplash.com/photo-1593113598336-86d3a9cb3f79?w=600&q=80" }
+      ]
+    },
+    "gallery": {
+      "title": "Galeria",
+      "subtitle": "Nuestros productos"
+    },
+    "testimonials": [
+      {
+        "name": "Carlos Mendoza",
+        "text": "Excelente atencion y buenos precios. Encontre todo lo que necesitaba para mi viaje de camping a San Bernardino.",
+        "rating": 5
+      },
+      {
+        "name": "Maria Gonzalez",
+        "text": "Me asesoraron muy bien para elegir mi caña de pescar. Volvere sin duda.",
+        "rating": 5
+      },
+      {
+        "name": "Luis Ramirez",
+        "text": "Compre mi carpa y accesorios para la moto. Todo de buena calidad y a buen precio. Recomendado.",
+        "rating": 4
+      },
+      {
+        "name": "Ana Benitez",
+        "text": "Tienen productos que no se consiguen en otros lados. La picana electrica me salvo en el camino a Caacupe.",
+        "rating": 5
+      }
+    ],
+    "finalCta": {
+      "title": "Listo para tu proxima aventura?",
+      "description": "Contactanos por WhatsApp y te asesoramos sobre los productos que necesitas. Hacemos envios en Asuncion y zonas aledanas.",
+      "buttonText": "Escribinos Ahora",
+      "buttonLink": "https://wa.me/595981234567?text=Hola!%20Quisiera%20informacion%20sobre%20productos",
+      "secondaryText": "Ver Catalogo",
+      "secondaryLink": "#catalogo"
+    },
+    "newsletter": {
+      "title": "Recibi Novedades",
+      "description": "Suscribite para recibir ofertas exclusivas, lanzamientos y tips de aventura.",
+      "placeholder": "tu@email.com",
+      "buttonText": "Suscribirme"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Escribinos o visitanos",
+      "description": "Estamos en Av. Mariscal Lopez 1234, Asuncion. Consultanos por WhatsApp para cualquier consulta.",
+      "phone": "+595 981 234 567",
+      "whatsapp": "595981234567",
+      "email": "info@elviajerocomerc.io.com.py",
+      "address": "Av. Mariscal Lopez 1234, Asuncion",
+      "hours": "Lun-Vie 08:00-19:00, Sab 08:00-17:00, Dom 09:00-13:00",
+      "googleMapsUrl": "https://maps.google.com/?q=Av.+Mariscal+Lopez+1234+Asuncion+Paraguay"
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Sobre El Viajero Comercio | Tu Tienda Outdoor en Asuncion",
+      "description": "Conoce la historia de El Viajero Comercio. Apasionados por la aventura y el aire libre desde 2018 en Asuncion."
+    },
+    "hero": {
+      "headline": "Sobre El Viajero Comercio",
+      "subheadline": "Apasionados por la aventura desde 2018"
+    },
+    "story": {
+      "paragraphs": [
+        "El Viajero Comercio nacio en 2018 en Asuncion con una mision clara: equipar a los aventureros paraguayos con todo lo necesario para explorar Paraguay y el mundo. Desde una pequena tienda en el centro, comenzamos importando carpas y equipos de camping que eran dificiles de conseguir en el pais.",
+        "Hoy somos un referente en articulos outdoor, con mas de 500 productos en stock y 6 categorias que cubren camping, pesca, accesorios para auto y moto, equipo personal y agro. Nos enorgullece brindar atencion personalizada y asesoramiento experto para que cada cliente encuentre exactamente lo que necesita.",
+        "Creemos que el equipo correcto hace la diferencia entre un buen viaje y una experiencia inolvidable. Seguimos creciendo, trayendo las mejores marcas y los productos mas innovadores para que tu proxima aventura sea la mejor de todas."
+      ]
+    },
+    "values": [
+      {
+        "title": "Calidad",
+        "description": "Seleccionamos productos que cumplen con nuestros estandares de durabilidad y rendimiento en el campo."
+      },
+      {
+        "title": "Atencion Personalizada",
+        "description": "Cada cliente recibe asesoramiento segun su experiencia y sus necesidades especificas de viaje."
+      },
+      {
+        "title": "Variedad",
+        "description": "Seis categorias con mas de 500 productos para que encuentres todo en un solo lugar."
+      },
+      {
+        "title": "Pasion por la Aventura",
+        "description": "Somos viajeros y aventureros nosotros mismos. Sabemos lo que necesitas porque lo vivimos."
+      }
+    ]
+  },
+  "productos": {
+    "seo": {
+      "title": "Productos - El Viajero Comercio | Catalogo Completo en Asuncion",
+      "description": "Explora nuestro catalogo completo de camping, pesca, accesorios para auto y moto en Asuncion. Pedi por WhatsApp y recibi en tu casa."
+    },
+    "hero": {
+      "headline": "Nuestros Productos",
+      "subheadline": "Todo para tu aventura en un solo lugar"
+    },
+    "productCatalog": {
+      "title": "Catalogo Completo",
+      "subtitle": "Explora todas nuestras categorias",
+      "whatsappPhone": "595981234567",
+      "orderButtonText": "Consultar por WhatsApp",
+      "orderMessageTemplate": "Hola! Me interesa {{productName}} ({{productPrice}}). Quiero saber disponibilidad.",
+      "categories": ["Camping", "Pesca", "Acc. Personales", "Automoviles", "Motos", "Campo"],
+      "products": [
+        { "name": "Carpa 4 Personas", "category": "Camping", "price": "Gs. 450.000", "description": "Impermeable, facil de armar. Ideal para familias." },
+        { "name": "Bolsa de Dormir 0°C", "category": "Camping", "price": "Gs. 180.000", "description": "Temperatura confort de 0°C, relleno sintetico." },
+        { "name": "Silla Plegable", "category": "Camping", "price": "Gs. 85.000", "description": "Con posavasos, soporta 120kg." },
+        { "name": "Linterna LED 1000lm", "category": "Camping", "price": "Gs. 65.000", "description": "Recargable USB, 3 modos de luz." },
+        { "name": "Caña Telescopica 3m", "category": "Pesca", "price": "Gs. 140.000", "description": "Fibra de vidrio, anillos ceramicos." },
+        { "name": "Chaleco Salvavidas", "category": "Pesca", "price": "Gs. 110.000", "description": "Aprobado, talles M a XXL." },
+        { "name": "Mochila 60L", "category": "Acc. Personales", "price": "Gs. 220.000", "description": "Impermeable, multiple compartimientos." },
+        { "name": "Cuchillo Multiuso", "category": "Acc. Personales", "price": "Gs. 75.000", "description": "15 herramientas, acero inoxidable." },
+        { "name": "Camara Dashcam", "category": "Automoviles", "price": "Gs. 280.000", "description": "1080p, vision nocturna." },
+        { "name": "Inflador 12V", "category": "Automoviles", "price": "Gs. 95.000", "description": "Digital, apagado automatico." },
+        { "name": "Casco Integral", "category": "Motos", "price": "Gs. 320.000", "description": "Certificado DOT, visor antihumedad." },
+        { "name": "Kit Herramientas Campo", "category": "Campo", "price": "Gs. 160.000", "description": "Pala, azada, rastrillo desarmables." }
+      ]
+    }
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contacto - El Viajero Comercio | Av. Mariscal Lopez, Asuncion",
+      "description": "Contactanos por WhatsApp, telefono o visitanos en Av. Mariscal Lopez 1234, Asuncion. Estamos para ayudarte con tus proyectos outdoor."
+    },
+    "hero": {
+      "headline": "Contacto",
+      "subheadline": "Estamos para ayudarte"
+    },
+    "info": {
+      "title": "Informacion de Contacto",
+      "phone": "+595 981 234 567",
+      "whatsapp": "595981234567",
+      "email": "info@elviajerocomerc.io.com.py",
+      "address": "Av. Mariscal Lopez 1234, Asuncion",
+      "hours": "Lun-Vie 08:00-19:00 | Sab 08:00-17:00 | Dom 09:00-13:00"
+    },
+    "form": {
+      "title": "Envianos un Mensaje",
+      "fields": ["name", "phone", "product", "message"],
+      "submitText": "Enviar Consulta"
+    }
+  },
+  "faq": [
+    {
+      "question": "Donde estan ubicados?",
+      "answer": "Estamos en Av. Mariscal Lopez 1234, Asuncion, casi San Martin. Frente a la plaza. Tambien podes contactarnos por WhatsApp al +595 981 234 567."
+    },
+    {
+      "question": "Cual es el horario de atencion?",
+      "answer": "Atendemos de Lunes a Viernes de 08:00 a 19:00, Sabados de 08:00 a 17:00 y Domingos de 09:00 a 13:00."
+    },
+    {
+      "question": "Hacen envios?",
+      "answer": "Si, hacemos entregas en Asuncion, Fernando de la Mora, San Lorenzo, Lambare, Luque y Capiatá. Envio gratis en compras desde Gs. 300.000. Consultanos por envios al interior."
+    },
+    {
+      "question": "Como puedo pedir un producto?",
+      "answer": "Escribinos por WhatsApp al +595 981 234 567 con el producto que te interesa y te pasamos precio, disponibilidad y formas de pago. Tambien podes venir al local."
+    },
+    {
+      "question": "Que metodos de pago aceptan?",
+      "answer": "Aceptamos efectivo (Gs. / USD), transferencia bancaria, tarjetas de credito y debito (Bancard), Mercado Pago y Pagopar. Consultanos por cuotas sin interes."
+    },
+    {
+      "question": "Tienen garantia?",
+      "answer": "Si, todos nuestros productos cuentan con garantia. El periodo varia segun el tipo de producto. Consulta los detalles con nuestro equipo."
+    },
+    {
+      "question": "Puedo cambiar un producto?",
+      "answer": "Si, aceptamos cambios dentro de los 7 dias posteriores a la compra, con el producto en su estado original y su empaque. No incluye productos en liquidacion."
+    },
+    {
+      "question": "Tienen financiacion?",
+      "answer": "Si, ofrecemos cuotas sin interes con tarjetas Bancard. Consulta las promociones vigentes en el local o por WhatsApp."
+    }
+  ],
+  "whatsapp": {
+    "defaultMessage": "Hola! Quisiera informacion sobre productos de El Viajero Comercio",
+    "serviceMessage": "Hola! Quisiera consultar por {{productName}}"
+  },
+  "tienda": {
+    "seo": {
+      "title": "Tienda Online - El Viajero Comercio | Compra en Asuncion",
+      "description": "Compra online en El Viajero Comercio. Camping, pesca, accesorios para auto y moto. Hacemos envios en Asuncion y zonas aledanas."
+    },
+    "hero": {
+      "headline": "Tienda Online",
+      "subheadline": "Compra desde casa y recibi en tu puerta"
+    },
+    "trustBadges": {
+      "title": "Compra con confianza",
+      "items": [
+        { "icon": "Truck", "text": "Envio a tu domicilio", "description": "En Asuncion y area metropolitana" },
+        { "icon": "ShieldCheck", "text": "Pago seguro", "description": "Pagopar, Mercado Pago, transferencia" },
+        { "icon": "MessageCircle", "text": "Atencion por WhatsApp", "description": "Te asesoramos antes de comprar" },
+        { "icon": "RotateCcw", "text": "Cambios y garantia", "description": "Consulta terminos con nuestro equipo" }
+      ]
+    },
+  "blog": {
+    "seo": {
+      "title": "Blog El Viajero | Guias de Camping, Pesca y Aventura en Paraguay",
+      "description": "Consejos, guias y tutoriales de camping, pesca, y equipo outdoor. Aprendé a elegir y cuidar tus productos."
+    },
+    "hero": {
+      "headline": "Blog El Viajero",
+      "subheadline": "Guias, consejos y aventuras para tus escapadas"
+    },
+    "index": {
+      "title": "Todas las guias",
+      "categories": [
+        {
+          "name": "Camping",
+          "description": "Todo para armar el campamento perfecto",
+          "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80"
+        },
+        {
+          "name": "Pesca",
+          "description": "Tecnicas, señuelos y equipamiento",
+          "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80"
+        },
+        {
+          "name": "Aventura",
+          "description": "Destinos y tips para explorar Paraguay",
+          "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&q=80"
+        },
+        {
+          "name": "Mantenimiento",
+          "description": "Cuidado y reparacion de tu equipo",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80"
+        }
+      ],
+      "posts": [
+        {
+          "title": "Guia Completa para Elegir tu Primera Carpa",
+          "slug": "guia-elegir-carpa",
+          "category": "Camping",
+          "excerpt": "Tipos de carpa, materiales, capacidad y presupuesto. Todo lo que necesitas saber para acertar en tu compra.",
+          "date": "2026-04-15",
+          "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
+          "author": "Equipo El Viajero"
+        },
+        {
+          "title": "Los 5 Mejores Lugares para Pescar en Paraguay",
+          "slug": "mejores-lugares-pesca-paraguay",
+          "category": "Pesca",
+          "excerpt": "Descubri los mejores rios y lagunas para pescar en Paraguay. Tips por temporada y especies.",
+          "date": "2026-04-10",
+          "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+          "author": "Equipo El Viajero"
+        },
+        {
+          "title": "Checklist de Camping: Que Llevar en tu Mochila",
+          "slug": "checklist-camping",
+          "category": "Camping",
+          "excerpt": "No te olvides de nada. Checklist completa de equipo esencial para tu proxima acampada.",
+          "date": "2026-04-05",
+          "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&q=80",
+          "author": "Equipo El Viajero"
+        },
+        {
+          "title": "Como Elegir tu Caña de Pescar Ideal",
+          "slug": "elegir-cana-pescar",
+          "category": "Pesca",
+          "excerpt": "Materiales, longitudes, accion y mas. Guia para principiantes y expertos.",
+          "date": "2026-03-28",
+          "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+          "author": "Equipo El Viajero"
+        },
+        {
+          "title": "Mantenimiento Basico de tu Equipo de Camping",
+          "slug": "mantenimiento-equipo-camping",
+          "category": "Mantenimiento",
+          "excerpt": "Como limpiar y guardar tu carpa, bolsa de dormir y demas equipo para que duren años.",
+          "date": "2026-03-20",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+          "author": "Equipo El Viajero"
+        },
+        {
+          "title": "Destinos de Aventura en Paraguay que Debes Conocer",
+          "slug": "destinos-aventura-paraguay",
+          "category": "Aventura",
+          "excerpt": "Saltos del Monday, Cerro Cora, San Bernardino y mas. Planifica tu proxima escapada.",
+          "date": "2026-03-15",
+          "image": "https://images.unsplash.com/photo-1506976785307-8732e54ad72d?w=800&q=80",
+          "author": "Equipo El Viajero"
+        }
+      ]
+    }
+  },
+  "faq": {
+      "title": "Preguntas sobre la tienda online",
+      "items": [
+        { "question": "Como comprar online?", "answer": "Navega los productos, elegi los que te interesen y hace tu pedido por WhatsApp. Te pasamos precio final, disponibilidad y opciones de pago." },
+        { "question": "Cual es el costo de envio?", "answer": "Envio gratis en compras desde Gs. 300.000 para Asuncion, Fernando de la Mora, San Lorenzo, Lambare, Luque y Capiatá. Fuera de esas zonas consultanos." },
+        { "question": "Cuanto tarda la entrega?", "answer": "Las entregas en Asuncion y area metropolitana se realizan dentro de las 24-48hs habiles posteriores a la confirmacion del pedido." }
+      ]
+    }
+  },
+  "faq": {
+    "seo": {
+      "title": "Preguntas Frecuentes - El Viajero Comercio",
+      "description": "Resolvemos tus dudas sobre productos, envios, pagos, garantia y cambios en El Viajero Comercio."
+    },
+    "hero": {
+      "headline": "Preguntas Frecuentes",
+      "subheadline": "Todo lo que necesitas saber"
+    },
+    "title": "Preguntas Frecuentes",
+    "items": [
+      { "question": "Donde estan ubicados?", "answer": "Estamos en Av. Mariscal Lopez 1234, Asuncion, casi San Martin. Tambien podes contactarnos por WhatsApp al +595 981 234 567." },
+      { "question": "Cual es el horario de atencion?", "answer": "Atendemos de Lunes a Viernes de 08:00 a 19:00, Sabados de 08:00 a 17:00 y Domingos de 09:00 a 13:00." },
+      { "question": "Hacen envios?", "answer": "Si, hacemos entregas en Asuncion, Fernando de la Mora, San Lorenzo, Lambare, Luque y Capiatá. Envio gratis en compras desde Gs. 300.000." },
+      { "question": "Como puedo pedir un producto?", "answer": "Escribinos por WhatsApp al +595 981 234 567 con el producto que te interesa. Te pasamos precio, disponibilidad y formas de pago." },
+      { "question": "Que metodos de pago aceptan?", "answer": "Aceptamos efectivo (Gs. / USD), transferencia bancaria, tarjetas de credito y debito (Bancard), Mercado Pago y Pagopar." },
+      { "question": "Tienen garantia?", "answer": "Si, todos nuestros productos cuentan con garantia. Consulta los detalles con nuestro equipo." },
+      { "question": "Puedo cambiar un producto?", "answer": "Aceptamos cambios dentro de los 7 dias posteriores a la compra, con producto en estado original y su empaque." }
+    ]
+  },
+  "promociones": {
+    "seo": {
+      "title": "Promociones - El Viajero Comercio | Ofertas en Camping y Pesca",
+      "description": "Aprovecha nuestras promociones en camping, pesca, accesorios para auto y moto. Ofertas por tiempo limitado en Asuncion."
+    },
+    "hero": {
+      "headline": "Promociones",
+      "subheadline": "No te pierdas nuestras ofertas"
+    },
+    "promotions": [
+      {
+        "title": "Kit Camping Completo",
+        "description": "Carpa 4 pers + 2 bolsas de dormir + colchon inflable. Ahorra Gs. 80.000",
+        "badge": "-15%",
+        "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
+        "ctaText": "Consultar por WhatsApp",
+        "ctaHref": "https://wa.me/595981234567?text=Hola!%20Quiero%20info%20del%20Kit%20Camping%20Completo"
+      },
+      {
+        "title": "Combo Pesca Inicial",
+        "description": "Caña + caja de herramientas + señuelos. Ideal para empezar.",
+        "badge": "-10%",
+        "image": "https://images.unsplash.com/photo-1575880963075-51d727bb1c12?w=800&q=80",
+        "ctaText": "Consultar por WhatsApp",
+        "ctaHref": "https://wa.me/595981234567?text=Hola!%20Quiero%20info%20del%20Combo%20Pesca%20Inicial"
+      },
+      {
+        "title": "Envio Gratis",
+        "description": "En compras mayores a Gs. 300.000 en Asuncion y area metropolitana.",
+        "badge": "GRATIS",
+        "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "ctaText": "Ver productos",
+        "ctaHref": "/s/es/viajero-comercio/tienda"
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Opiniones de nuestros clientes",
+    "subtitle": "Valoraciones reales de quienes ya compraron con nosotros",
+    "ctaText": "Escribir una opinion"
+  },
+  "footer": {
+    "description": "El Viajero Comercio - Todo para tu aventura en Asuncion. Camping, pesca, accesorios para auto y moto, equipo outdoor y mas. Desde 2018 equipando a los aventureros paraguayos.",
+    "address": "Av. Mariscal Lopez 1234, Asuncion",
+    "phone": "+595 981 234 567",
+    "hours": "Lun-Vie 08:00-19:00 | Sab 08:00-17:00 | Dom 09:00-13:00",
+    "columns": [
+      {
+        "title": "El Viajero",
+        "links": [
+          { "label": "Inicio", "href": "/s/es/viajero-comercio" },
+          { "label": "Tienda", "href": "/s/es/viajero-comercio/tienda" },
+          { "label": "Blog", "href": "/s/es/viajero-comercio/blog" },
+          { "label": "Nosotros", "href": "/s/es/viajero-comercio/nosotros" },
+          { "label": "Contacto", "href": "/s/es/viajero-comercio/contacto" }
+        ]
+      },
+      {
+        "title": "Ayuda",
+        "links": [
+          { "label": "FAQ", "href": "/s/es/viajero-comercio/faq" },
+          { "label": "Envios", "href": "/s/es/viajero-comercio/faq" },
+          { "label": "Cambios y devoluciones", "href": "/s/es/viajero-comercio/faq" },
+          { "label": "Medios de pago", "href": "/s/es/viajero-comercio/faq" }
+        ]
+      },
+      {
+        "title": "Legales",
+        "links": [
+          { "label": "Privacidad", "href": "/s/es/viajero-comercio/privacidad" },
+          { "label": "Terminos", "href": "/s/es/viajero-comercio/terminos" }
+        ]
+      }
+    ],
+    "paymentMethods": [
+      "efectivo",
+      "transferencia",
+      "bancard",
+      "mercadopago",
+      "pagopar"
+    ],
+    "trustSignals": [
+      "Envio gratis desde Gs. 300.000",
+      "Cambios hasta 7 dias",
+      "Garantia incluida",
+      "Pago 100% seguro"
+    ]
+  }
+}

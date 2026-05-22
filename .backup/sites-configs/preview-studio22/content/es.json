@@ -1,0 +1,258 @@
+{
+  "siteName": "Studio 22 Body Piercing & Tattoo",
+  "tagline": "Tatuajes personalizados y piercing profesional en Fernando de la Mora — 954 reseñas ⭐4.9",
+  "whatsapp": "+595983816627",
+  "navigation": {
+    "businessName": "Studio 22",
+    "navItems": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/preview-studio22"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/preview-studio22/servicios"
+      },
+      {
+        "label": "Galería",
+        "href": "/s/es/preview-studio22/galeria"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/preview-studio22/contacto"
+      }
+    ],
+    "ctaText": "Consultá por WhatsApp",
+    "ctaHref": "https://wa.me/595983816627"
+  },
+  "home": {
+    "seo": {
+      "title": "Studio 22 Tattoo — Tatuajes en Fernando de la Mora | 954 reseñas ⭐4.9",
+      "description": "Tatuajes personalizados, cover up y piercing en Fernando de la Mora. 954 clientes ⭐4.9. Consultá por WhatsApp."
+    },
+    "hero": {
+      "headline": "Tu obra de arte en la piel",
+      "subheadline": "Tatuajes personalizados, cover up y piercing profesional en Fernando de la Mora Zona Sur. 954 clientes nos califican con ⭐4.9.",
+      "ctaPrimaryText": "Consultá por WhatsApp",
+      "ctaSecondaryText": "Ver trabajos"
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "954",
+          "label": "Reseñas ⭐4.9",
+          "icon": "Star"
+        },
+        {
+          "value": "10+",
+          "label": "Años tatuando",
+          "icon": "Calendar"
+        },
+        {
+          "value": "1 de Mayo 9038",
+          "label": "Fdo. de la Mora",
+          "icon": "MapPin"
+        }
+      ]
+    },
+    "services": {
+      "title": "Servicios",
+      "items": [
+        {
+          "name": "Tatuaje Personalizado Pequeño",
+          "price": "Desde 150.000 Gs",
+          "description": "Diseño único creado con vos. Hasta 5 cm. Incluye consulta previa y ajustes. Ideal para primeros tatuajes.",
+          "category": "Tatuajes",
+          "duration": 60
+        },
+        {
+          "name": "Tatuaje Mediano/Grande",
+          "price": "Desde 400.000 Gs",
+          "description": "Trabajos detallados: realismo, blackwork, tradicional, geométrico. Presupuesto sin cargo. Sesiones según complejidad.",
+          "category": "Tatuajes",
+          "duration": 120
+        },
+        {
+          "name": "Cover Up",
+          "price": "Consultar",
+          "description": "Cubrimos tatuajes anteriores que ya no querés. Evaluación y diseño gratuitos. Resultados sorprendentes.",
+          "category": "Tatuajes"
+        },
+        {
+          "name": "Piercing",
+          "price": "Desde 80.000 Gs",
+          "description": "Acero quirúrgico o titanio. Oreja, nariz, ombligo, lengua, microdermal. Incluye apósito y cuidados.",
+          "category": "Piercing",
+          "duration": 20
+        },
+        {
+          "name": "Venta de Joyas",
+          "price": "Consultar",
+          "description": "Acero quirúrgico, titanio, plata. Variedad de diseños. Preguntá por nuestros combos.",
+          "category": "Piercing"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "items": [
+        {
+          "quote": "Me tatué con ellos y el resultado superó todas mis expectativas. El ambiente es súper limpio y profesional. 100% recomendado.",
+          "author": "Cliente en Google",
+          "rating": 5
+        },
+        {
+          "quote": "Vengo hace años a hacerme los piercing. Siempre atención de primera, precios accesibles y mucha higiene.",
+          "author": "Cliente en Google",
+          "rating": 5
+        }
+      ]
+    },
+    "products": {
+      "title": "Nuestros Productos y Servicios",
+      "subtitle": "{{businessName}} — Precios en Paraguay",
+      "items": [
+        {
+          "name": "Tatuaje Pequeño",
+          "description": "Diseño personalizado de hasta 5 cm. Incluye consulta previa y ajustes. Ideal para primeros tatuajes.",
+          "priceCents": 200000,
+          "category": "Tatuajes",
+          "available": true,
+          "imageCategory": "tattoo"
+        },
+        {
+          "name": "Tatuaje Mediano",
+          "description": "Tatuaje detallado de tamaño mediano. Realismo, blackwork, tradicional o geométrico. Presupuesto sin cargo.",
+          "priceCents": 500000,
+          "category": "Tatuajes",
+          "available": true,
+          "imageCategory": "tattoo"
+        },
+        {
+          "name": "Tatuaje Grande",
+          "description": "Tatuaje de gran tamaño, manga completa o diseño complejo. Sesiones según complejidad del diseño.",
+          "priceCents": 1000000,
+          "category": "Tatuajes",
+          "available": true,
+          "imageCategory": "tattoo"
+        },
+        {
+          "name": "Retoque de Tatuaje",
+          "description": "Retoque profesional para revitalizar tu tatuaje antiguo. Color, líneas y detalles.",
+          "priceCents": 100000,
+          "category": "Tatuajes",
+          "available": true,
+          "imageCategory": "tattoo"
+        },
+        {
+          "name": "Piercing Nariz",
+          "description": "Piercing de nariz con acero quirúrgico o titanio. Incluye apósito y cuidados post-colocación.",
+          "priceCents": 80000,
+          "category": "Piercing",
+          "available": true,
+          "imageCategory": "tattoo"
+        },
+        {
+          "name": "Piercing Oreja",
+          "description": "Piercing de oreja en lóbulo o cartílago. Material hipoalergénico. Incluye cuidados.",
+          "priceCents": 70000,
+          "category": "Piercing",
+          "available": true,
+          "imageCategory": "tattoo"
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Consultá por delivery",
+      "description": "Hacemos envíos a domicilio de nuestros productos. Consultanos por WhatsApp para más información."
+    },
+    "giftCards": {
+      "title": "Gift Cards",
+      "description": "Regalá arte a quien más quieras",
+      "items": [
+        {
+          "name": "Gift Card 100.000 Gs",
+          "priceCents": 100000,
+          "description": "Canjeable por servicios de tatuaje o piercing"
+        },
+        {
+          "name": "Gift Card 250.000 Gs",
+          "priceCents": 250000,
+          "description": "Canjeable por servicios de tatuaje o piercing"
+        },
+        {
+          "name": "Gift Card 500.000 Gs",
+          "priceCents": 500000,
+          "description": "Canjeable por servicios de tatuaje o piercing"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Agendá tu consulta de diseño",
+      "subtitle": "La primera consulta es sin costo",
+      "buttonText": "WhatsApp",
+      "buttonHref": "https://wa.me/595983816627"
+    },
+    "contact": {
+      "title": "Visitanos",
+      "phone": "+595 983 816 627",
+      "address": "1 de Mayo 9038, Fernando de la Mora"
+    }
+  },
+  "servicios": {
+    "seo": {
+      "title": "Servicios — Studio 22",
+      "description": "Tatuajes y piercing."
+    },
+    "hero": {
+      "headline": "Servicios",
+      "subheadline": "Tatuajes personalizados, cover up, piercing y más"
+    }
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contacto — Studio 22",
+      "description": "Contactanos."
+    },
+    "hero": {
+      "headline": "Contacto",
+      "subheadline": "Escribinos para tu diseño personalizado"
+    }
+  },
+  "footer": {
+    "businessName": "Studio 22 Tattoo",
+    "city": "Fernando de la Mora",
+    "navLinks": [
+      {
+        "label": "Inicio",
+        "href": "/s/es/preview-studio22"
+      },
+      {
+        "label": "Servicios",
+        "href": "/s/es/preview-studio22/servicios"
+      },
+      {
+        "label": "Contacto",
+        "href": "/s/es/preview-studio22/contacto"
+      }
+    ]
+  },
+  "galeria": {
+    "seo": {
+      "title": "Galería — Studio 22 Tattoo",
+      "description": "Trabajos realizados."
+    },
+    "hero": {
+      "headline": "Nuestros Trabajos",
+      "subheadline": "Tatuajes y piercing realizados en nuestro estudio"
+    },
+    "portfolio": {
+      "title": "Tatuajes",
+      "items": []
+    },
+    "gallery": {
+      "title": "Piercing y más",
+      "images": []
+    }
+  }
+}

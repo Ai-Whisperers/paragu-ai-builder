@@ -1,0 +1,25 @@
+{
+  "slug": "press",
+  "titleKey": "press.seo.title",
+  "descriptionKey": "press.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "press.hero",
+      "styling": {
+        "padding": "md",
+        "background": "default"
+      }
+    },
+    {
+      "id": "epk-credits",
+      "variant": "standard",
+      "content": "press.credits",
+      "styling": {
+        "padding": "lg",
+        "background": "alt"
+      }
+    }
+  ]
+}

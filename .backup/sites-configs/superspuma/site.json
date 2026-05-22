@@ -1,0 +1,190 @@
+{
+  "title": "Superspuma",
+  "description": "Fabricantes paraguayos de colchones, sommiers y accesorios de descanso desde 1976.",
+  "theme": "superspuma",
+  "vertical": "retail-local",
+  "businessType": "mattress_store",
+  "country": "Paraguay",
+  "domain": null,
+  "path": "/s/es/superspuma",
+  "publicUrl": "https://paragu-ai.com/s/es/superspuma",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "pages": [
+    "home",
+    "tienda",
+    "nosotros",
+    "tiendas",
+    "guias",
+    "guia-compra",
+    "garantia",
+    "envios",
+    "financiacion",
+    "terminos",
+    "privacidad",
+    "promociones",
+    "promo-cartagena",
+    "cambio",
+    "combos",
+    "producto/titanium",
+    "producto/imperial",
+    "producto/harmony",
+    "producto/serrat",
+    "producto/delta-soft",
+    "producto/essential-top",
+    "producto/renovate",
+    "producto/impulse-kids",
+    "producto/impulse-teens",
+    "producto/pop-kids",
+    "producto/pop-plus",
+    "producto/pop-teen",
+    "producto/superteen",
+    "producto/super-kids",
+    "producto/luna-soft",
+    "producto/golden",
+    "producto/serena",
+    "producto/duo-confort",
+    "producto/ortopedico",
+    "producto/almohada-superspuma",
+    "producto/cubre-colchon",
+    "producto/protector-colchon",
+    "producto/base-box-baul"
+  ],
+  "contact": {
+    "phone": "+595981111222",
+    "email": "info@superspuma.com.py",
+    "whatsapp": "+595974202025",
+    "instagram": "@superspumapy",
+    "facebook": "superspuma",
+    "linkedin": "superspuma-del-paraguay-saeca"
+  },
+  "location": {
+    "address": "Ruta Ypané - Villeta y Arroyo Avay",
+    "city": "Villeta",
+    "department": "Central",
+    "country": "Paraguay",
+    "coordinates": {
+      "lat": -25.5073,
+      "lng": -57.5808
+    },
+    "googleMapsId": null
+  },
+  "hours": {
+    "Lunes a Viernes": "07:30 - 17:00",
+    "Sábado": "07:30 - 12:00",
+    "Domingo": "Cerrado"
+  },
+  "settings": {
+    "currency": "PYG",
+    "locale": "es-PY",
+    "timezone": "America/Asuncion",
+    "delivery": {
+      "enabled": true,
+      "freeThresholdGs": 1000000,
+      "zones": [
+        "Asunción",
+        "Central",
+        "Paraguarí",
+        "Cordillera",
+        "Interior"
+      ],
+      "national": true,
+      "pickupAvailable": true,
+      "pickupAddresses": [
+        "Villamorra Shopping (Asunción)",
+        "Paseo La Galería (Asunción)",
+        "Fuente Shopping (Asunción)",
+        "Lillo 2779 (Asunción Centro)",
+        "Fernando de la Mora",
+        "Luisito (Ñemby)",
+        "Saldos Mariano (Mariano Roque Alonso)",
+        "Planta Villeta",
+        "Ciudad del Este",
+        "Encarnación",
+        "Caaguazú",
+        "Santa Rosa",
+        "Filadelfia (Chaco)"
+      ]
+    },
+    "financing": {
+      "enabled": true,
+      "provider": "cuotas_sin_interes",
+      "installmentOptions": [
+        4,
+        6,
+        12,
+        15,
+        18
+      ],
+      "acceptedCards": [
+        "Visa",
+        "Mastercard",
+        "Credicard",
+        "Cabal",
+        "Pánal"
+      ]
+    },
+    "services": {
+      "assemblyIncluded": true,
+      "oldMattressPickup": true,
+      "warrantyIncluded": true,
+      "technicalSupport": true
+    }
+  },
+  "integrations": {
+    "hubspot": {
+      "portalId": "HS-PORTAL-PARAGUAI",
+      "formId": "contact-form-paragu-ai"
+    },
+    "mailchimp": {
+      "audienceId": "audience-paragu-ai-newsletter"
+    },
+    "analytics": {
+      "ga4": {
+        "measurementId": "R-XXXXXXXXXX",
+        "streamName": "paragu-ai-builder-de-abasto"
+      }
+    }
+  },
+  "chrome": {
+    "header": {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    "footer": [
+      {
+        "id": "contact-strip",
+        "variant": "standard",
+        "content": "home.contact"
+      },
+      {
+        "id": "whatsapp-float",
+        "variant": "standard",
+        "content": "whatsapp"
+      },
+      {
+        "id": "footer",
+        "variant": "standard",
+        "content": "footer"
+      }
+    ]
+  },
+  "isLiveProduction": true,
+  "features": {
+    "whatsappFloat": {
+      "enabled": true
+    },
+    "productCatalog": {
+      "enabled": true
+    },
+    "testimonials": {
+      "enabled": true
+    },
+    "ageGate": {
+      "enabled": false
+    }
+  }
+}

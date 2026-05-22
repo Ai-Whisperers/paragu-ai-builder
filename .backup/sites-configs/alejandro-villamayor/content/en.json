@@ -1,0 +1,726 @@
+{
+  "_meta": {
+    "translationQuality": "human",
+    "author": "Alejandro Villamayor",
+    "lastReviewed": "2026-04-26"
+  },
+  "siteName": "Alejandro Villamayor",
+  "tagline": "Strategic legal counsel for individuals and businesses in Paraguay",
+  "placeholders": {
+    "businessName": "Alejandro Villamayor",
+    "city": "Asunción",
+    "year": 2026
+  },
+  "navigation": {
+    "businessName": "Alejandro Villamayor",
+    "items": [
+      {
+        "label": "Home",
+        "href": "/s/en/alejandro-villamayor"
+      },
+      {
+        "label": "Investor Pass",
+        "href": "/s/en/alejandro-villamayor/investor-pass"
+      },
+      {
+        "label": "Services",
+        "href": "/s/en/alejandro-villamayor/servicios"
+      },
+      {
+        "label": "About",
+        "href": "/s/en/alejandro-villamayor/sobre-mi"
+      },
+      {
+        "label": "Blog",
+        "href": "/s/en/alejandro-villamayor/blog"
+      },
+      {
+        "label": "Contact",
+        "href": "/s/en/alejandro-villamayor/contacto"
+      }
+    ],
+    "ctaText": "Schedule your strategic evaluation",
+    "ctaHref": "https://wa.me/595981324569?text=Hi%20Alejandro%2C%20I%20visited%20your%20website%20and%20want%20to%20schedule%20a%20strategic%20evaluation%20for%20investing%20in%20Paraguay."
+  },
+  "home": {
+    "seo": {
+      "title": "Alejandro Villamayor — Lawyer in Asunción | Paraguay Investor Pass & Corporate Law",
+      "description": "Lawyer in Asunción, Paraguay. Specialist in Paraguay Investor Pass 2026, investment residency, corporate law, and foreign investments. Free strategic evaluation."
+    },
+    "hero": {
+      "headline": "Permanent Residency & Asset Protection in Paraguay",
+      "subheadline": "Specialized legal counsel for foreign investors: Investor Pass, corporate structuring, preferential tax treatment, and residency acquisition. Delivered to international service standards.",
+      "ctaPrimaryText": "Schedule your strategic evaluation",
+      "ctaPrimaryHref": "https://wa.me/595981324569?text=Hi%20Alejandro%2C%20I%20visited%20your%20website%20and%20want%20to%20schedule%20a%20strategic%20evaluation%20for%20investing%20in%20Paraguay.",
+      "ctaSecondaryText": "Investor Pass 2026 Guide",
+      "ctaSecondaryHref": "/s/en/alejandro-villamayor/investor-pass",
+      "trustBadges": [
+        "International Standards · Clients in EU, US, and LATAM",
+        "Member of the Paraguayan Bar Association (CAP)",
+        "Bilingual: English · Spanish"
+      ]
+    },
+    "credenciales": {
+      "eyebrow": "Credentials",
+      "title": "Member of the Paraguayan Bar Association",
+      "subtitle": "Education and affiliations backing my practice",
+      "items": [
+        {
+          "icon": "Award",
+          "title": "Paraguayan Bar Association (CAP)",
+          "description": "Active member with a license to practice nationwide."
+        },
+        {
+          "icon": "BookOpen",
+          "title": "Continuing education",
+          "description": "Ongoing training in corporate law, foreign investments, compliance, and data protection."
+        },
+        {
+          "icon": "Globe",
+          "title": "Bilingual practice",
+          "description": "Full legal services in English and Spanish."
+        }
+      ]
+    },
+    "internationalStandards": {
+      "eyebrow": "Strategic advantages",
+      "title": "Why invest in Paraguay with local legal counsel",
+      "subtitle": "Three pillars that make the difference for international investors.",
+      "items": [
+        {
+          "icon": "Percent",
+          "title": "Tax Optimization",
+          "description": "IRE 10%, the lowest in South America. Foreign-source income not taxed. No currency controls or capital repatriation restrictions."
+        },
+        {
+          "icon": "Shield",
+          "title": "Asset Protection",
+          "description": "International-standard due diligence, corporate structuring to isolate liabilities, and cross-border succession planning."
+        },
+        {
+          "icon": "Passport",
+          "title": "Permanent Residency",
+          "description": "Investor Pass from USD 70,000. Direct permanent residency with no temporary stage. 100% remote process. Passport in 3 years."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Practice areas",
+      "title": "Solutions for investors and businesses",
+      "subtitle": "Four areas where I deliver concrete value for your interests in Paraguay.",
+      "items": [
+        {
+          "icon": "Passport",
+          "title": "Paraguay Investor Pass",
+          "description": "Direct permanent residency via investment from USD 70,000. Full management before MIC, Immigration and SUACE. Results in 2 to 4 months.",
+          "highlight": true
+        },
+        {
+          "icon": "Globe",
+          "title": "Foreign Investment Structuring",
+          "description": "Preferential tax regime (IRE 10%), capital repatriation, dual citizenship in 3 years. For investors seeking tax efficiency and global mobility."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Incorporation & Corporate Compliance",
+          "description": "EAS, SRL or SA. Incorporation in 5 business days. Compliance programs, corporate governance, and asset protection to international standards."
+        },
+        {
+          "icon": "Building",
+          "title": "Due Diligence & Real Estate Law",
+          "description": "Property transactions, title verification, legal risk identification, and lease agreements. Comprehensive protection for your investment."
+        },
+        {
+          "icon": "Scale",
+          "title": "Litigation & Commercial Arbitration",
+          "description": "Representation in corporate disputes, contractual conflicts, and judicial proceedings. Strategic defense of your interests."
+        },
+        {
+          "icon": "Shield",
+          "title": "Estate & Succession Planning",
+          "description": "Asset structuring, trusts, international succession planning. For investors seeking long-term asset protection."
+        }
+      ]
+    },
+    "process": {
+      "title": "How I work",
+      "subtitle": "From the first meeting to closing, you always know what to expect.",
+      "steps": [
+        {
+          "icon": "MessageSquare",
+          "title": "Initial consultation",
+          "description": "Free first meeting to understand your case."
+        },
+        {
+          "icon": "Search",
+          "title": "Analysis & strategy",
+          "description": "Case study and definition of the best legal strategy."
+        },
+        {
+          "icon": "Zap",
+          "title": "Execution",
+          "description": "Implementation with constant communication."
+        },
+        {
+          "icon": "Shield",
+          "title": "Follow-up",
+          "description": "Post-closure support to ensure results."
+        }
+      ]
+    },
+    "credentials": {
+      "eyebrow": "The Alejandro Standard",
+      "title": "Why choose me for your Paraguay investment",
+      "subtitle": "Three commitments that set my practice apart from traditional legal counsel.",
+      "items": [
+        {
+          "icon": "Target",
+          "title": "Tailored strategy, not templates",
+          "description": "Every case receives an individual analysis. No generic solutions or document copies. I design the optimal legal structure for your profile, investment amount, and country of origin."
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "Real availability, no gatekeepers",
+          "description": "I respond directly via WhatsApp. No assistants, no forms. If you have an urgent question on a Sunday at 9 PM, I answer in minutes. That's not a promise — it's how I work."
+        },
+        {
+          "icon": "Shield",
+          "title": "Full professional accountability",
+          "description": "Every case has an action plan with defined timelines and transparent costs. If a process is delayed for administrative reasons, I keep you informed without you having to ask."
+        }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "+50", "label": "Satisfied clients", "icon": "Users" },
+        { "value": "+8", "label": "Years of experience", "icon": "Calendar" },
+        { "value": "+30", "label": "Foreign investment cases", "icon": "Globe" },
+        { "value": "98%", "label": "Success rate", "icon": "Award" }
+      ]
+    },
+    "testimonials": {
+      "title": "What clients say",
+      "items": [
+        {
+          "author": "Marcelo R.",
+          "role": "CEO · SaaS Startup · Peru",
+          "quote": "RESIDENCY: 3 MONTHS · Alejandro structured my investment under Law 60/90 and managed the entire Investor Pass process. I had my permanent residency in 3 months without needing to travel. His knowledge of Paraguayan law was decisive.",
+          "highlight": "RESIDENCY: 3 MONTHS"
+        },
+        {
+          "author": "Carolina D.",
+          "role": "CEO · Import Company · USD 8M annual revenue · Paraguay",
+          "quote": "SAVINGS: USD 120,000 · We needed to restructure a joint venture with a Brazilian partner. Alejandro resolved a contractual situation that had been stalled for 8 months in just 3 weeks. Saved us USD 120,000 in legal contingencies.",
+          "highlight": "SAVINGS: USD 120,000"
+        },
+        {
+          "author": "James T.",
+          "role": "Real Estate Fund Manager · USA",
+          "quote": "DUE DILIGENCE: 4 PROPERTIES · I was looking at 4 properties across Asunción. Alejandro did due diligence on all, identified title risks on 2, and closed the other 2 in under 60 days. Saved me from a costly mistake.",
+          "highlight": "DUE DILIGENCE: 4 PROPERTIES"
+        },
+        {
+          "author": "Laura M.",
+          "role": "Founder · E-commerce · First-time Entrepreneur · Paraguay",
+          "quote": "INCORPORATION: 5 DAYS · He incorporated my company in 5 business days, registered me for taxes, and explained the entire tax regime. I was invoicing the following month. Had a question on a Sunday at 9 PM — answered in 10 minutes.",
+          "highlight": "INCORPORATION: 5 DAYS"
+        }
+      ]
+    },
+    "successStories": {
+      "title": "Recent success stories",
+      "subtitle": "Concrete results my clients have achieved with strategic legal counsel.",
+      "cases": [
+        {
+          "title": "Tech Investor — Residency in 3 Months",
+          "description": "European tech sector client. We structured his investment under Law 60/90 and managed the Investor Pass. Permanent residency obtained in 90 days with the client only traveling for the final signature.",
+          "result": "USD 150,000 invested · Residency in 3 months · 100% remote"
+        },
+        {
+          "title": "Binational Joint Venture — Restructuring",
+          "description": "Joint venture between Paraguayan and Brazilian partners stalled for 8 months. Redesigned the shareholder agreement, resolved contractual differences, and closed in 3 weeks.",
+          "result": "USD 120,000 saved in contingencies · 3-week resolution"
+        },
+        {
+          "title": "Real Estate Due Diligence — 4 Properties",
+          "description": "US investor interested in 4 properties in Asunción. Conducted full due diligence, identified title risks on 2 properties, and closed the other 2 in 60 days.",
+          "result": "Risks avoided on 2 properties · 2 closed in 60 days"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "openFirst": true,
+      "items": [
+        {
+          "q": "Why Paraguay over other South American markets?",
+          "a": "Paraguay offers the most attractive combination in South America: IRE 10% (the region's lowest), foreign-source income not taxed, investment residency in 2-4 months, no physical presence requirement, and a passport in 3 years. No currency controls or capital repatriation restrictions. Uruguay and Chile have higher tax burdens; Brazil and Argentina face currency instability."
+        },
+        {
+          "q": "How does the Law 60/90 incentive regime work?",
+          "a": "Law 60/90 provides tax exemptions for productive investments: full VAT exemption on capital goods imports, reduced IRE, and 10-year tax stability. Ideal for investors establishing industrial, logistics, or service operations in Paraguay. I handle the entire process before MIC and SUACE."
+        },
+        {
+          "q": "How long does investment residency take?",
+          "a": "Between 2 and 4 months from complete documentation submission. The Investor Pass (2026 program) eliminates the 2-year temporary stage for direct permanent residency. SUACE takes 4-8 months due to additional evaluations."
+        },
+        {
+          "q": "Do I need to travel to Paraguay to start?",
+          "a": "No. Most of the process is handled remotely. You only need to come for biometrics and document signing, scheduled at the optimal point in your process."
+        },
+        {
+          "q": "What is the minimum investment amount?",
+          "a": "It depends on the path: SUACE from USD 70,000 (productive investment with job creation), Investor Pass Tourism from USD 150,000, Investor Pass Securities or Real Estate from USD 200,000. I analyze your profile to recommend the most efficient option."
+        },
+        {
+          "q": "How do I ensure my investment is protected?",
+          "a": "I conduct complete due diligence: title verification, legal risk analysis, contract review, and corporate structuring to international standards. Additionally, I advise on the appropriate corporate vehicle (EAS, SRL, SA) to isolate liabilities."
+        }
+      ]
+    },
+    "blogPreview": {
+      "title": "Guides & News",
+      "subtitle": "Articles on Investor Pass, residency, and investing in Paraguay"
+    },
+    "cta": {
+      "title": "Investing in Paraguay? Start with a clear strategy",
+      "subtitle": "Free first consultation. I analyze your profile and present the best options: Investor Pass, SUACE, corporate. No commitment.",
+      "ctaText": "Schedule your evaluation",
+      "ctaLink": "https://wa.me/595981324569",
+      "backgroundColor": "primary"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "I respond to WhatsApp inquiries the same day",
+      "address": "Asunción, Paraguay",
+      "city": "Asunción",
+      "phone": "+595981324569",
+      "email": "alejandro@villamayorlaw.com.py",
+      "whatsapp": "+595981324569"
+    }
+  },
+  "servicios": {
+    "seo": {
+      "title": "Legal Services — Alejandro Villamayor | Lawyer in Asunción",
+      "description": "Corporate law, foreign investments, Paraguay Investor Pass, commercial contracts, litigation and real estate law."
+    },
+    "hero": {
+      "title": "Legal Services",
+      "subtitle": "Comprehensive counsel for foreign investors and businesses in Paraguay. From investment planning and residency to corporate compliance.",
+      "trustBadgesEnabled": true
+    },
+    "process": {
+      "title": "How I work with clients",
+      "subtitle": "A clear process from the first consultation to ongoing support.",
+      "steps": [
+        { "icon": "MessageSquare", "title": "Initial consultation", "description": "Free conversation to understand your situation, goals, and country of origin." },
+        { "icon": "Search", "title": "Analysis & strategy", "description": "Case study, document review, and design of the optimal action plan." },
+        { "icon": "Zap", "title": "Execution", "description": "End-to-end processing before MIC, Immigration, SUACE, and the Public Registry with regular updates." },
+        { "icon": "Shield", "title": "Ongoing support", "description": "Post-residency support for tax compliance, renewals, and estate planning." }
+      ]
+    },
+    "industries": {
+      "eyebrow": "Practice areas",
+      "title": "Two main practice areas",
+      "subtitle": "Choose the area that best describes your situation to see specific services.",
+      "items": [
+        {
+          "icon": "Globe",
+          "title": "Foreign Investments & Residency",
+          "description": "Investor Pass, SUACE, income-based residency, tax structuring, and real estate due diligence. For individual investors seeking residency and asset protection in Paraguay."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Corporate Law & Compliance",
+          "description": "Company incorporation (EAS, SRL, SA), commercial contracts, M&A, corporate governance, and compliance. For businesses establishing operations in Paraguay."
+        }
+      ]
+    }
+  },
+  "investorPass": {
+    "seo": {
+      "title": "Paraguay Investor Pass 2026 — Permanent Residency by Investment",
+      "description": "Permanent residency in Paraguay via Investor Pass from USD 70,000. New 2026 program. Free consultation."
+    },
+    "hero": {
+      "title": "Paraguay Investor Pass",
+      "subtitle": "Direct permanent residency for foreign investors via investment. From USD 70,000. 100% remote process.",
+      "trustBadgesEnabled": true
+    },
+    "vias": {
+      "eyebrow": "Investment paths",
+      "title": "Three paths to permanent residency",
+      "subtitle": "Each path grants direct permanent residency with no temporary stage. Choose the one that fits your profile.",
+      "items": [
+        {
+          "icon": "Umbrella",
+          "title": "Tourism — USD 150,000",
+          "description": "Investment in MIC-approved tourism projects. Ideal for hospitality and tourism infrastructure investors."
+        },
+        {
+          "icon": "BarChart3",
+          "title": "Securities Market — USD 200,000",
+          "description": "Acquisition of Paraguayan bonds, stocks or securities. No business management required. Purely financial."
+        },
+        {
+          "icon": "Home",
+          "title": "Real Estate — USD 200,000",
+          "description": "Residential or commercial property purchase. Generate rental income while obtaining residency. Due diligence included."
+        }
+      ]
+    },
+    "proceso": {
+      "title": "How it works",
+      "steps": [
+        {
+          "icon": "ClipboardCheck",
+          "title": "Assessment",
+          "description": "Profile analysis and best investment path."
+        },
+        {
+          "icon": "FileSearch",
+          "title": "Documentation",
+          "description": "Source of funds, background checks."
+        },
+        {
+          "icon": "Stamp",
+          "title": "Submission",
+          "description": "Filing with MIC and Immigration. Digital process."
+        },
+        {
+          "icon": "Award",
+          "title": "Residency",
+          "description": "Direct permanent. No temporary stage."
+        }
+      ]
+    },
+    "beneficios": {
+      "eyebrow": "Why Investor Pass",
+      "title": "Advantages of the 2026 program",
+      "items": [
+        {
+          "icon": "Zap",
+          "title": "Direct Permanent Residency",
+          "description": "No temporary stage. Save 2 years of processing. Permanent residency from day one."
+        },
+        {
+          "icon": "Percent",
+          "title": "Reduced Tax Burden",
+          "description": "IRE 10% — the lowest in South America. Foreign-source income not taxed in Paraguay."
+        },
+        {
+          "icon": "Globe",
+          "title": "Citizenship in 3 Years",
+          "description": "Paraguayan passport with visa-free access to 143 countries. No physical residency requirement in year one."
+        },
+        {
+          "icon": "Shield",
+          "title": "100% Remote Process",
+          "description": "No need to travel to start. Biometrics and signatures scheduled at the optimal point."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Investor Pass FAQ",
+      "items": [
+        {
+          "question": "When was it launched?",
+          "answer": "April 17, 2026. Resolution N.º 0283/2026."
+        },
+        {
+          "question": "Difference from traditional residency?",
+          "answer": "Eliminates the 2-year temporary stage."
+        },
+        {
+          "question": "Do I need to start a company?",
+          "answer": "No. Securities and real estate paths don't require it."
+        },
+        {
+          "question": "How long does it take?",
+          "answer": "Between 2 and 4 months."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Start your Investor Pass process today",
+      "subtitle": "Free consultation — no obligation. Let's find the best investment path for your profile.",
+      "ctaText": "Schedule your evaluation",
+      "ctaLink": "https://wa.me/595981324569?text=Hi%20Alejandro%2C%20I%20visited%20your%20website%20and%20want%20to%20learn%20more%20about%20the%20Investor%20Pass.",
+      "backgroundColor": "primary"
+    },
+    "comparison": {
+      "title": "Investment path comparison",
+      "rows": [
+        { "via": "Tourism", "monto": "USD 150,000", "sector": "Tourism projects", "plazo": "2-4 months" },
+        { "via": "Securities", "monto": "USD 200,000", "sector": "Bonds, stocks", "plazo": "2-4 months" },
+        { "via": "Real Estate", "monto": "USD 200,000", "sector": "Properties", "plazo": "2-4 months" },
+        { "via": "SUACE (Productive)", "monto": "USD 70,000+", "sector": "Business + jobs", "plazo": "4-8 months" }
+      ]
+    }
+  },
+  "inversiones": {
+    "seo": {
+      "title": "Foreign Investments in Paraguay — Alejandro Villamayor",
+      "description": "Legal counsel for foreign investors: structuring, tax regime, Investor Pass and residency."
+    },
+    "hero": {
+      "title": "Foreign Investments",
+      "subtitle": "Invest in Paraguay with expert legal guidance.",
+      "trustBadgesEnabled": true
+    },
+    "vias": {
+      "eyebrow": "Investment paths",
+      "title": "Options to invest and obtain residency",
+      "items": [
+        { "icon": "TrendingUp", "title": "Investor Pass — From USD 70,000", "description": "New 2026 program. Direct permanent residency. Three paths: tourism, securities, real estate." },
+        { "icon": "Building", "title": "SUACE — Productive Investment", "description": "From USD 70,000 with job creation. SUACE approval required." },
+        { "icon": "DollarSign", "title": "Income-Based Residency", "description": "For regular passive income. No minimum investment." },
+        { "icon": "PieChart", "title": "Tax Structuring", "description": "Tax optimization. IRE 10%. Foreign-source income not taxed." }
+      ]
+    },
+    "proceso": {
+      "title": "Step-by-step process",
+      "steps": [
+        { "icon": "MessageSquare", "title": "Consult", "description": "Profile assessment and strategy definition." },
+        { "icon": "FileText", "title": "Due diligence", "description": "Complete document preparation." },
+        { "icon": "Send", "title": "Official filing", "description": "Processing with MIC, Immigration and SUACE." },
+        { "icon": "Shield", "title": "Residency", "description": "Approval and ongoing support." }
+      ]
+    },
+    "beneficios": {
+      "title": "Benefits of investing in Paraguay",
+      "items": [
+        { "icon": "Percent", "title": "Low tax burden", "description": "IRE 10%. Foreign income not taxed." },
+        { "icon": "Shield", "title": "Legal security", "description": "Stable legal framework with investment protections." },
+        { "icon": "Globe", "title": "Dual citizenship", "description": "Paraguayan passport in 3 years." }
+      ]
+    },
+    "faq": {
+      "title": "Investment FAQ",
+      "items": [
+        { "question": "What is the minimum investment?", "answer": "From USD 70,000 via SUACE or USD 150,000 via Investor Pass." },
+        { "question": "What taxes do investors pay?", "answer": "IRE 10%. Foreign-source income is not taxed in Paraguay." },
+        { "question": "Do I need to travel?", "answer": "Most of the process is handled remotely." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to invest?",
+      "subtitle": "Free consultation",
+      "ctaText": "Schedule your evaluation",
+      "ctaLink": "https://wa.me/595981324569",
+      "backgroundColor": "primary"
+    }
+  },
+  "corporativo": {
+    "seo": {
+      "title": "Corporate Law — Alejandro Villamayor",
+      "description": "Corporate legal counsel in Paraguay: company incorporation, contracts, M&A and compliance."
+    },
+    "hero": {
+      "title": "Corporate Law",
+      "subtitle": "Comprehensive legal counsel for your business in Paraguay",
+      "trustBadgesEnabled": true
+    },
+    "areas": {
+      "eyebrow": "Practice areas",
+      "title": "Corporate services",
+      "items": [
+        { "icon": "Building2", "title": "Company Incorporation", "description": "EAS, SRL, SA. Full support before the Public Registry." },
+        { "icon": "FileSignature", "title": "Commercial Contracts", "description": "Drafting and negotiation of domestic and international contracts." },
+        { "icon": "GitMerge", "title": "Mergers & Acquisitions", "description": "Due diligence, structuring and closing." },
+        { "icon": "Shield", "title": "Compliance", "description": "Compliance programs, AML and corporate ethics." }
+      ]
+    },
+    "proceso": {
+      "title": "How we work",
+      "steps": [
+        { "icon": "Search", "title": "Diagnosis", "description": "We analyze your current situation." },
+        { "icon": "FileText", "title": "Proposal", "description": "Work plan with transparent costs." },
+        { "icon": "Zap", "title": "Execution", "description": "Implementation with defined timelines." },
+        { "icon": "RefreshCw", "title": "Follow-up", "description": "Keeping your company compliant." }
+      ]
+    },
+    "faq": {
+      "title": "Corporate law FAQ",
+      "items": [
+        { "question": "Which company type is right for me?", "answer": "EAS for small businesses, SRL for SMEs, SA for large enterprises." },
+        { "question": "How much does incorporation cost?", "answer": "Contact me for a free personalized quote." }
+      ]
+    },
+    "cta": {
+      "title": "Need corporate counsel?",
+      "subtitle": "Free first consultation",
+      "ctaText": "Schedule your evaluation",
+      "ctaLink": "https://wa.me/595981324569",
+      "backgroundColor": "primary"
+    }
+  },
+  "sobre": {
+    "seo": {
+      "title": "About — Alejandro Villamayor | Lawyer for Investors in Paraguay",
+      "description": "Paraguayan lawyer specializing in foreign investments, Paraguay Investor Pass and corporate law. CAP member. Bilingual."
+    },
+    "hero": {
+      "title": "About Me",
+      "subtitle": "Paraguayan lawyer committed to making Paraguay the preferred destination for global investors.",
+      "trustBadgesEnabled": true
+    },
+    "philosophy": {
+      "title": "My philosophy",
+      "content": "Paraguay is at a historic moment. With the new Investor Pass, a 10% tax burden, and a stable legal framework, the country offers what investors worldwide are looking for: security, tax efficiency, and exceptional quality of life. Navigating this ecosystem requires someone who understands both local law and international expectations. My practice combines both."
+    },
+    "approach": {
+      "title": "My approach",
+      "items": [
+        {
+          "icon": "Search",
+          "title": "Listen first",
+          "description": "Every investor has a unique situation. Before recommending any structure, I need to understand your country of origin, investment amount, tax goals, and residency horizon."
+        },
+        {
+          "icon": "FileText",
+          "title": "Design the strategy",
+          "description": "With your profile clear, I design the optimal path: Investor Pass, SUACE, corporate, or a combination. No prefabricated solutions."
+        },
+        {
+          "icon": "Zap",
+          "title": "Execute with precision",
+          "description": "I manage every step before MIC, Immigration, SUACE, and the Public Registry. You get updates at every stage without having to ask."
+        },
+        {
+          "icon": "Shield",
+          "title": "Support beyond closing",
+          "description": "The relationship doesn't end when you get residency. I continue to assist with tax compliance, renewals, and estate planning."
+        }
+      ]
+    },
+    "credentials": {
+      "title": "Education & affiliations",
+      "items": [
+        {
+          "title": "Member of the Paraguayan Bar Association (CAP)",
+          "description": "Active license to practice nationwide."
+        },
+        {
+          "title": "Bilingual practice (English · Spanish)",
+          "description": "Experience working with clients from Europe, the United States, and Latin America."
+        },
+        {
+          "title": "Continuing education",
+          "description": "Specialization in corporate law, foreign investments, compliance, and data protection."
+        }
+      ]
+    }
+  },
+    "blog": {
+    "seo": {
+      "title": "Insights & Analysis — Alejandro Villamayor | Legal Guide for Investors",
+      "description": "Guides, analysis and updates on Paraguay Investor Pass, investment residency, taxes and corporate law."
+    },
+    "hero": {
+      "title": "Insights & Analysis",
+      "subtitle": "Up-to-date information on Investor Pass, residency, taxes and investments in Paraguay for international investors.",
+      "trustBadgesEnabled": true
+    },
+    "posts": [
+      {
+        "title": "Paraguay Investor Pass 2026: Complete Guide",
+        "slug": "guia-completa-investor-pass-paraguay-2026",
+        "date": "2026-04-26",
+        "author": "Alejandro Villamayor",
+        "summary": "Everything about the Paraguay Investor Pass: requirements, amounts, process and benefits.",
+        "category": "Investments",
+        "readTime": "8 min",
+        "takeaway": "Investor Pass grants direct permanent residency with no temporary stage. Amounts from USD 70,000 (SUACE) to USD 200,000 (real estate/securities). 100% remote process in 2-4 months.",
+        "image": "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=800&q=80"
+      },
+      {
+        "title": "Tax Guide for Foreign Investors in Paraguay 2026",
+        "slug": "impuestos-inversores-extranjeros-paraguay-2026",
+        "date": "2026-04-24",
+        "author": "Alejandro Villamayor",
+        "summary": "Paraguayan tax system: IRE, VAT, IRP, RESIMPLE and foreign-source income.",
+        "category": "Tax",
+        "readTime": "10 min",
+        "takeaway": "IRE 10% — lowest in South America. Foreign-source income not taxed. No currency controls. RESIMPLE regime for small businesses from 0.5% on revenue.",
+        "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80"
+      },
+      {
+        "title": "How to Get Permanent Residency in Paraguay 2026",
+        "slug": "residencia-permanente-paraguay-guia-2026",
+        "date": "2026-04-22",
+        "author": "Alejandro Villamayor",
+        "summary": "All paths to residency: Investor Pass, SUACE, income-based and roots-based.",
+        "category": "Residency",
+        "readTime": "7 min",
+        "takeaway": "Four residency paths: Investor Pass (direct, 2-4 months), SUACE (productive investment from USD 70K), income-based (passive income), roots-based (2 years prior residence).",
+        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80"
+      }
+    ]
+  },
+  "faqPage": {
+    "seo": {
+      "title": "FAQ — Alejandro Villamayor",
+      "description": "Frequently asked questions about legal services, Investor Pass and investments in Paraguay."
+    },
+    "hero": {
+      "title": "FAQ",
+      "subtitle": "Answers to common questions about legal services and investments in Paraguay",
+      "trustBadgesEnabled": true
+    }
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contact — Alejandro Villamayor | Lawyer in Asunción",
+      "description": "Contact me for a free consultation. WhatsApp, phone or email."
+    },
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Here to help — free consultation",
+      "trustBadgesEnabled": true
+    },
+    "form": {
+      "title": "Send your inquiry",
+      "fields": ["name", "phone", "email", "message"],
+      "submitText": "Send inquiry"
+    }
+  },
+  "footer": {
+    "businessName": "Alejandro Villamayor",
+    "city": "Asunción, Paraguay",
+    "copyright": "© {{year}} Alejandro Villamayor — Attorney. Member of the Paraguayan Bar Association.",
+    "disclaimer": "This site contains general information and does not constitute legal advice.",
+    "navLinks": [
+      {
+        "label": "Home",
+        "href": "/s/en/alejandro-villamayor"
+      },
+      {
+        "label": "Investor Pass",
+        "href": "/s/en/alejandro-villamayor/investor-pass"
+      },
+      {
+        "label": "Services",
+        "href": "/s/en/alejandro-villamayor/servicios"
+      },
+      {
+        "label": "About",
+        "href": "/s/en/alejandro-villamayor/sobre-mi"
+      },
+      {
+        "label": "Blog",
+        "href": "/s/en/alejandro-villamayor/blog"
+      },
+      {
+        "label": "Contact",
+        "href": "/s/en/alejandro-villamayor/contacto"
+      }
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/alejandrovillamayor",
+      "email": "alejandro@villamayorlaw.com.py",
+      "whatsapp": "https://wa.me/595981324569"
+    }
+  },
+  "whatsapp": "+595981324569"
+}

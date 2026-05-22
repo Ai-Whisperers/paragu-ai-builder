@@ -1,0 +1,52 @@
+{
+  "slug": "size-guide",
+  "titleKey": "sizeGuide.seo.title",
+  "descriptionKey": "sizeGuide.seo.description",
+  "sections": [
+    {
+      "id": "age-gate",
+      "variant": "modal",
+      "content": "home.ageGate"
+    },
+    {
+      "id": "header",
+      "variant": "standard",
+      "content": "navigation"
+    },
+    {
+      "id": "hero",
+      "variant": "minimal",
+      "content": "sizeGuide.hero"
+    },
+    {
+      "id": "services",
+      "variant": "cards",
+      "content": "sizeGuide.instructions"
+    },
+    {
+      "id": "faq",
+      "variant": "accordion",
+      "content": "sizeGuide.brandNotes"
+    },
+    {
+      "id": "cta-banner",
+      "variant": "solid",
+      "content": "sizeGuide.returnPolicy"
+    },
+    {
+      "id": "footer",
+      "variant": "standard",
+      "content": "footer"
+    },
+    {
+      "id": "compliance-disclaimer-footer",
+      "variant": "standard",
+      "content": "compliance"
+    },
+    {
+      "id": "whatsapp-float",
+      "variant": "standard",
+      "content": "whatsapp"
+    }
+  ]
+}

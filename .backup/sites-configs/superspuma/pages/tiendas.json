@@ -1,0 +1,35 @@
+{
+  "slug": "tiendas",
+  "titleKey": "tiendas.seo.title",
+  "descriptionKey": "tiendas.seo.description",
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "image",
+      "content": "tiendas.hero"
+    },
+    {
+      "id": "illustration",
+      "variant": "standard",
+      "content": "tiendas.map"
+    },
+    {
+      "id": "programs-comparison",
+      "variant": "tiered",
+      "content": "tiendas.stores"
+    },
+    {
+      "id": "trust-badges",
+      "variant": "strip",
+      "content": "home.trustBadges"
+    },
+    {
+      "id": "contact",
+      "variant": "split",
+      "content": "home.contact"
+    }
+  ],
+  "skipDefaults": [
+    "contact-strip"
+  ]
+}
