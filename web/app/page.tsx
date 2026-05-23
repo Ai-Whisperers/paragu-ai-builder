@@ -105,31 +105,31 @@ const SCHEMA_ORG_DATA = {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan Launch"
+              "name": "Autónomo"
             },
-            "price": "3000000",
+            "price": "650000",
             "priceCurrency": "PYG",
-            "description": "Sistema de captación completo: sitio profesional + WhatsApp + SEO + operación mensual"
+            "description": "Sitio desde template con asistente IA. Dominio .com.py, SSL, WhatsApp, SEO."
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan Growth"
+              "name": "Profesional"
             },
-            "price": "6000000",
+            "price": "1200000",
             "priceCurrency": "PYG",
-            "description": "Sistema de crecimiento con contenidos, reporting y automatización de consultas"
+            "description": "Sitio personalizado con IA contextual, blog SEO, features a medida."
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Plan Scale"
+              "name": "Empresa"
             },
-            "price": "12000000",
+            "price": "2000000",
             "priceCurrency": "PYG",
-            "description": "Sistema completo con CRM, automatizaciones, multi-ubicación y optimización continua"
+            "description": "CRM, automatizaciones, multi-sucursal, landing pages, soporte same-day."
           }
         ]
       }
@@ -154,7 +154,7 @@ const SCHEMA_ORG_DATA = {
           "name": "¿Cuánto tiempo tarda en estar listo mi sitio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Entre 24 y 48 horas desde que nos mandás los datos. Primero generamos el sitio automáticamente, después un editor humano lo revisa y optimiza antes de entregártelo."
+            "text": "Entre 24 y 48 horas desde que elegís tu plan. Te clonamos un template exitoso o te diseñamos algo desde cero, según el plan. Recibís el sitio funcionando con tu asistente IA incluido."
           }
         },
         {
@@ -162,7 +162,7 @@ const SCHEMA_ORG_DATA = {
           "name": "¿Necesito saber algo de tecnología?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nada. Nosotros hacemos todo: el diseño, los textos, las fotos, el dominio y la publicación. Vos solo nos mandás la info de tu negocio por WhatsApp y recibís el sitio listo para usar."
+            "text": "Nada. Tu sitio viene con un asistente IA entrenado con tu negocio. Le pedís cambios de texto, fotos o precios y la IA lo hace. Para cambios complejos, nosotros te ayudamos."
           }
         },
         {
@@ -170,7 +170,7 @@ const SCHEMA_ORG_DATA = {
           "name": "¿Puedo ver algo antes de contratar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Empezamos con diagnóstico y demo estratégica gratis por WhatsApp. Si te sirve, avanzamos con el plan recomendado para tu negocio."
+            "text": "Sí. Empezamos con diagnóstico gratis por WhatsApp. Te mostramos cómo quedaría tu sitio con IA y decidís después sin compromiso."
           }
         },
         {
@@ -178,7 +178,7 @@ const SCHEMA_ORG_DATA = {
           "name": "¿Qué incluye el dominio .com.py?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Incluimos el dominio gratis el primer año (por ejemplo: tunegocio.com.py). También configuramos el certificado SSL para que tu sitio sea seguro, y te ayudamos a crear emails profesionales."
+            "text": "Incluimos el dominio gratis el primer año. También configuramos SSL, emails profesionales y todo lo técnico sin costo extra."
           }
         },
         {
@@ -186,7 +186,7 @@ const SCHEMA_ORG_DATA = {
           "name": "¿Cómo funciona el pago?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tenés dos pagos: el setup inicial (una sola vez) y la mensualidad. Aceptamos transferencia bancaria y Mercado Pago. No hay contrato de permanencia, cancelás cuando quieras."
+            "text": "Sin entrada. Solo pagás la mensualidad. Aceptamos transferencia bancaria y Mercado Pago. Cancelás cuando quieras, sin contrato de permanencia."
           }
         },
         {
@@ -194,7 +194,7 @@ const SCHEMA_ORG_DATA = {
           "name": "¿Qué pasa si no me gusta el sitio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tenés 30 días de garantía. Si no te convence, te devolvemos el 100% del setup. Sin preguntas ni letra chica."
+            "text": "Tenés 30 días de garantía. Si no te convence, cancelás y no pagás más. Sin preguntas ni letra chica."
           }
         }
       ]
@@ -212,29 +212,30 @@ type Template = {
   pct: number
   color: string
   demoSlug?: string
+  demoUrl?: string
 }
 
 const TEMPLATES: Template[] = [
-  { id: 'peluqueria', name: 'Peluquería', icon: Scissors, leads: 2393, pct: 81, color: '#b76e79', demoSlug: null },
-  { id: 'salon_belleza', name: 'Salón de Belleza', icon: Sparkles, leads: 1210, pct: 75, color: '#d4a574', demoSlug: null },
-  { id: 'gimnasio', name: 'Gimnasio / Fitness', icon: Dumbbell, leads: 1087, pct: 72, color: '#2d6a4f', demoSlug: null },
-  { id: 'spa', name: 'Spa & Wellness', icon: Flower2, leads: 927, pct: 76, color: '#7c9885', demoSlug: null },
-  { id: 'barberia', name: 'Barbería', icon: User, leads: 778, pct: 77, color: '#8b6914', demoSlug: null },
-  { id: 'unas', name: 'Uñas', icon: Hand, leads: 488, pct: 75, color: '#c77dba', demoSlug: null },
-  { id: 'tatuajes', name: 'Tatuajes & Piercing', icon: PenTool, leads: 272, pct: 70, color: '#1a1a2e', demoSlug: null },
-  { id: 'estetica', name: 'Estética / Facial', icon: Sparkles, leads: 137, pct: 77, color: '#9b7cb8', demoSlug: null },
-  { id: 'diseno_grafico', name: 'Diseño Gráfico', icon: Palette, leads: 100, pct: 80, color: '#c44569', demoSlug: 'dayah-litworks' },
-  { id: 'pestanas', name: 'Pestañas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7', demoSlug: null },
-  { id: 'depilacion', name: 'Depilación', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoSlug: null },
-  { id: 'relocation', name: 'Reubicación', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoSlug: 'nexa-paraguay' },
-  { id: 'real_estate', name: 'Inmobiliaria', icon: Building2, leads: 0, pct: 0, color: '#2d6a4f', demoSlug: null },
-  { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a', demoSlug: null },
-  { id: 'egg_farm', name: 'Granja / Huevos', icon: Egg, leads: 0, pct: 0, color: '#c89b3c', demoSlug: null },
-  { id: 'data_analytics_consulting', name: 'Consultoría Datos', icon: BarChart3, leads: 0, pct: 0, color: '#0f4c81', demoSlug: null },
-  { id: 'contador', name: 'Contador / Estudio Contable', icon: Calculator, leads: 0, pct: 0, color: '#1e5f3a', demoSlug: null },
-  { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 0, pct: 0, color: '#8B4513', demoSlug: null },
-  { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 0, pct: 0, color: '#1A1A1A', demoSlug: null },
-  { id: 'kaiten_zushi', name: 'Sushi Cinta', icon: CircleDot, leads: 0, pct: 0, color: '#2196F3', demoSlug: null },
+  { id: 'peluqueria', name: 'Peluquería', icon: Scissors, leads: 2393, pct: 81, color: '#b76e79', demoUrl: 'https://magnolia-peluqueria.paragu-ai.com' },
+  { id: 'salon_belleza', name: 'Salón de Belleza', icon: Sparkles, leads: 1210, pct: 75, color: '#d4a574', demoUrl: 'https://mantraspa.paragu-ai.com' },
+  { id: 'gimnasio', name: 'Gimnasio / Fitness', icon: Dumbbell, leads: 1087, pct: 72, color: '#2d6a4f', demoUrl: 'https://bichosgym.paragu-ai.com' },
+  { id: 'spa', name: 'Spa & Wellness', icon: Flower2, leads: 927, pct: 76, color: '#7c9885', demoUrl: 'https://mantraspa.paragu-ai.com' },
+  { id: 'barberia', name: 'Barbería', icon: User, leads: 778, pct: 77, color: '#8b6914' },
+  { id: 'unas', name: 'Uñas', icon: Hand, leads: 488, pct: 75, color: '#c77dba' },
+  { id: 'tatuajes', name: 'Tatuajes & Piercing', icon: PenTool, leads: 272, pct: 70, color: '#1a1a2e', demoUrl: 'https://jotaink.paragu-ai.com' },
+  { id: 'estetica', name: 'Estética / Facial', icon: Sparkles, leads: 137, pct: 77, color: '#9b7cb8' },
+  { id: 'diseno_grafico', name: 'Diseño Gráfico', icon: Palette, leads: 100, pct: 80, color: '#c44569', demoUrl: 'https://dayah.paragu-ai.com' },
+  { id: 'pestanas', name: 'Pestañas y Cejas', icon: Eye, leads: 49, pct: 76, color: '#6c5ce7' },
+  { id: 'depilacion', name: 'Depilación', icon: Zap, leads: 20, pct: 78, color: '#e17055', demoUrl: 'https://depiflash.paragu-ai.com' },
+  { id: 'relocation', name: 'Reubicación', icon: Globe, leads: 0, pct: 0, color: '#1e3a5f', demoUrl: 'https://nexa.paragu-ai.com' },
+  { id: 'real_estate', name: 'Inmobiliaria', icon: Building2, leads: 0, pct: 0, color: '#2d6a4f' },
+  { id: 'meal_prep', name: 'Meal Prep & Compras', icon: ShoppingCart, leads: 0, pct: 0, color: '#3a6b4a' },
+  { id: 'egg_farm', name: 'Granja / Huevos', icon: Egg, leads: 0, pct: 0, color: '#c89b3c' },
+  { id: 'data_analytics_consulting', name: 'Consultoría Datos', icon: BarChart3, leads: 0, pct: 0, color: '#0f4c81' },
+  { id: 'contador', name: 'Contador / Estudio Contable', icon: Calculator, leads: 0, pct: 0, color: '#1e5f3a' },
+  { id: 'restaurant', name: 'Restaurante', icon: UtensilsCrossed, leads: 0, pct: 0, color: '#8B4513' },
+  { id: 'sushi_bar', name: 'Sushi Bar', icon: Fish, leads: 0, pct: 0, color: '#1A1A1A' },
+  { id: 'kaiten_zushi', name: 'Sushi Cinta', icon: CircleDot, leads: 0, pct: 0, color: '#2196F3' },
 ]
 
 const FEATURES = [
@@ -243,13 +244,13 @@ const FEATURES = [
   { icon: BarChart3, title: 'Sabés cuántos te visitan', desc: 'Dashboard semanal: visitas, consultas, reservas. Datos reales, no intuición.' },
   { icon: Layers, title: 'Diseño por rubro', desc: 'Cada negocio tiene un diseño especializado. Peluquería ≠ Restaurante ≠ Gimnasio.' },
   { icon: Globe, title: 'Dominio propio .com.py', desc: 'Tu marca en la dirección del negocio. Incluye SSL, emails profesionales y todo configurado.' },
-  { icon: Smartphone, title: '完美 en celular', desc: 'El 85% de tus clientes buscan desde el móvil. Tu sitio se ve impecable en cualquier pantalla.' },
+  { icon: Smartphone, title: 'Impecable en celular', desc: 'El 85% de tus clientes buscan desde el móvil. Tu sitio se ve impecable en cualquier pantalla.' },
 ]
 
 const STEPS = [
   { num: '01', title: 'Nos escribís por WhatsApp', desc: 'Nos contás el nombre de tu negocio, qué servicios ofrecés, tus precios y nos mandás algunas fotos.' },
-  { num: '02', title: 'Te armamos tu sitio', desc: 'En 24-48 horas te mandamos el link de tu sitio listo. Lo revisás, pedís los ajustes que quieras.' },
-  { num: '03', title: 'Publicamos y listo', desc: 'Te damos de alta en tu dominio .com.py con todo configurado. Después podés pedir cambios cuando quieras.' },
+  { num: '02', title: 'Tu sitio + tu IA', desc: 'En 24-48 horas te mandamos el link de tu sitio funcionando con tu asistente IA entrenado en tu negocio. Revisás, pedís ajustes, y cuando te guste lo publicamos.' },
+  { num: '03', title: 'Manejás con IA', desc: 'Te damos de alta en tu dominio .com.py con todo configurado. A partir de ahí manejás el contenido vos mismo con tu asistente IA: cambiás textos, fotos, precios sin pedir permiso.' },
 ]
 
 const TESTIMONIALS = [
@@ -270,43 +271,71 @@ const TESTIMONIALS = [
     rating: 5,
   },
   {
-    name: 'Iván Giménez',
-    role: 'Chef',
-    business: 'De Abasto a Casa',
+    name: 'Magnolia',
+    role: 'Dueña',
+    business: 'Magnolia Peluquería',
     location: 'Asunción',
-    quote: 'Mandé los datos un jueves y el lunes el sitio estaba online. Mis clientes reservan solos, dejé de perder pedidos en los grupos de WhatsApp.',
+    quote: 'Ahora cuando alguien busca peluquería en Asunción, mi sitio aparece primero. Las clientas me escriben directo por WhatsApp desde el celular. Nunca imaginé que tener página web fuera tan fácil.',
     rating: 5,
   },
 ]
 
 const GUARANTEES = [
   { icon: PlayCircle, title: 'Ves antes de pagar', desc: 'Te armamos tu sitio demo gratis. Solo pagás si te gusta.' },
-  { icon: RotateCcw, title: '30 días de garantía', desc: 'Si no te convence, te devolvemos el 100% del setup. Sin preguntas.' },
+  { icon: RotateCcw, title: '30 días de garantía', desc: 'Si no te convence, cancelás y no pagás más. Sin preguntas.' },
   { icon: Activity, title: 'Siempre online', desc: 'Infraestructura en Cloudflare + Supabase. 99.9% uptime garantizado.' },
   { icon: Unlock, title: 'Sin contrato', desc: 'Cancelás cuando quieras. Tu dominio es tuyo, te lo llevás.' },
 ]
 
 const REAL_CLIENTS = [
   {
+    name: 'El Viajero',
+    tagline: 'Tienda de regalos y souvenirs',
+    vertical: 'Retail · CdE',
+    href: 'https://tiendaelviajero.com.py',
+    color: '#2563eb',
+  },
+  {
     name: 'Nexa Paraguay',
     tagline: 'Reubicación para europeos',
     vertical: 'Servicios · 4 idiomas',
-    href: '/s/nl/nexa-paraguay',
+    href: 'https://nexa.paragu-ai.com',
     color: '#1e3a5f',
   },
   {
-    name: 'Dayah Litworks',
-    tagline: 'Diseño de tapas de libros',
-    vertical: 'Portfolio · cobro en USD',
-    href: '/s/es/dayah-litworks',
-    color: '#c44569',
+    name: 'DepiFlash',
+    tagline: 'Depilación láser a domicilio',
+    vertical: 'Depilación · Paraguay',
+    href: 'https://depiflash.paragu-ai.com',
+    color: '#e17055',
   },
   {
-    name: 'El Viajero',
-    tagline: 'Tienda de regalos y souvenirs',
-    vertical: 'Retail · Ciudad del Este',
-    href: 'https://tiendaelviajero.com.py',
-    color: '#2563eb',
+    name: 'Jota Ink Tattoo',
+    tagline: 'Tatuajes personalizados',
+    vertical: 'Tatuajes · Asunción',
+    href: 'https://jotaink.paragu-ai.com',
+    color: '#1a1a2e',
+  },
+  {
+    name: 'Bichos Gym',
+    tagline: 'Entrenamiento funcional',
+    vertical: 'Gimnasio · Asunción',
+    href: 'https://bichosgym.paragu-ai.com',
+    color: '#2d6a4f',
+  },
+  {
+    name: 'Mantra Spa',
+    tagline: 'Masajes y tratamientos faciales',
+    vertical: 'Spa & Wellness · Asunción',
+    href: 'https://mantraspa.paragu-ai.com',
+    color: '#7c9885',
+  },
+  {
+    name: 'Magnolia Peluquería',
+    tagline: 'Cortes y coloración profesional',
+    vertical: 'Peluquería · Asunción',
+    href: 'https://magnolia-peluqueria.paragu-ai.com',
+    color: '#b76e79',
   },
 ]
 
@@ -316,84 +345,89 @@ const PLANS = [
     setup: 'Gratis',
     monthly: null,
     period: 'sin compromiso',
-    description: 'Análisis + demo estratégica de tu sistema de captación',
+    description: 'Analizamos tu negocio y te mostramos cómo sería tu sitio con IA',
     features: [
       { text: 'Análisis de tu negocio y competencia local', included: true },
-      { text: 'Demo de tu sistema en Google + WhatsApp', included: true },
+      { text: 'Demo de tu futuro sitio funcionando', included: true },
       { text: 'Recomendación de plan según tus objetivos', included: true },
       { text: 'Sin tarjeta, sin contrato', included: true },
-      { text: 'Dominio .com.py propio', included: false },
-      { text: 'Operación mensual incluida', included: false },
+      { text: 'Tu propio dominio .com.py', included: false },
+      { text: 'Tu asistente IA para manejar el contenido', included: false },
     ],
     cta: 'Pedir diagnóstico gratis',
     waMessage: 'Hola, quiero pedir el diagnóstico gratis para mi negocio.',
     popular: false,
   },
   {
-    name: 'Launch',
-    setup: 'Gs 3.000.000',
-    monthly: 'Gs 500.000',
+    name: 'Autónomo',
+    setup: '0',
+    monthly: 'Gs 650.000',
     period: '/mes',
-    description: 'Sistema base para empezar a captar clientes todos los días',
+    description: 'Tu sitio clonado de un template exitoso. Lo manejás con tu IA.',
     features: [
-      { text: 'Sitio profesional (hasta 5 páginas)', included: true },
+      { text: 'Sitio profesional basado en template (hasta 5 páginas)', included: true },
       { text: 'Dominio .com.py + hosting + SSL', included: true },
-      { text: 'Embudo WhatsApp + formulario de contacto', included: true },
+      { text: 'WhatsApp integrado + formulario de contacto', included: true },
+      { text: 'Asistente IA entrenado con TU negocio para autogestionar contenido', included: true },
       { text: 'SEO local + ficha Google Business', included: true },
-      { text: '2 actualizaciones mensuales', included: true },
       { text: 'Reporte mensual de visitas y leads', included: true },
+      { text: 'Soporte técnico incluido', included: true },
+      { text: 'Cambios y arreglos por IA (sin costo)', included: true },
+      { text: 'Funcionalidades nuevas o arreglos complejos', included: false, extra: 'consultar precio' },
     ],
-    cta: 'Elegir Launch',
-    waMessage: 'Hola, me interesa el plan Launch (Gs 3.000.000 + Gs 500.000/mes). ¿Podemos hablar?',
+    cta: 'Elegir Autónomo',
+    waMessage: 'Hola, me interesa el plan Autónomo (0 setup + Gs 650.000/mes). Cuentenme más.',
     popular: true,
   },
   {
-    name: 'Growth',
-    setup: 'Gs 6.000.000',
-    monthly: 'Gs 1.000.000',
+    name: 'Profesional',
+    setup: '0',
+    monthly: 'Gs 1.200.000',
     period: '/mes',
-    description: 'Para escalar consultas y reservas cada mes sin contratar más personal',
+    description: 'Sitio personalizado desde cero con IA contextual y features a medida.',
     features: [
-      { text: 'Todo lo del plan Launch', included: true },
+      { text: 'Todo lo del plan Autónomo', included: true },
+      { text: 'Sitio diseñado desde cero para tu negocio (no template)', included: true },
+      { text: 'IA entrenada con todo el contexto de tu negocio', included: true },
       { text: 'Blog + contenidos SEO mensuales', included: true },
+      { text: 'Funcionalidades nuevas creadas a tu medida', included: true },
       { text: 'Panel de leads y conversiones', included: true },
-      { text: '1 campaña de captación por mes', included: true },
-      { text: '6 actualizaciones mensuales', included: true },
-      { text: 'Soporte prioritario + sesión estratégica', included: true },
+      { text: 'Soporte prioritario + sesión estratégica mensual', included: true },
+      { text: '6 actualizaciones por mes', included: true },
     ],
-    cta: 'Elegir Growth',
-    waMessage: 'Hola, me interesa el plan Growth (Gs 6.000.000 + Gs 1.000.000/mes). ¿Cuándo podemos hablar?',
+    cta: 'Elegir Profesional',
+    waMessage: 'Hola, me interesa el plan Profesional (0 setup + Gs 1.200.000/mes). ¿Podemos hablar?',
     popular: false,
   },
   {
-    name: 'Scale',
-    setup: 'Gs 12.000.000',
+    name: 'Empresa',
+    setup: '0',
     monthly: 'Gs 2.000.000',
     period: '/mes',
-    description: 'Sistema completo para negocios en expansión con múltiples ubicaciones',
+    description: 'Sistema completo para negocios con múltiples sucursales y operaciones.',
     features: [
-      { text: 'Todo lo del plan Growth', included: true },
-      { text: 'Automatizaciones y flujos de seguimiento', included: true },
-      { text: 'Integración CRM + procesos comerciales', included: true },
+      { text: 'Todo lo del plan Profesional', included: true },
+      { text: 'Múltiples sucursales o ubicaciones', included: true },
+      { text: 'CRM + automatizaciones y flujos de seguimiento', included: true },
       { text: 'Landing pages para campañas pagas', included: true },
       { text: 'Optimización quincenal de conversión', included: true },
       { text: 'Soporte same-day + asesor dedicado', included: true },
     ],
-    cta: 'Elegir Scale',
-    waMessage: 'Hola, me interesa el plan Scale (Gs 12.000.000 + Gs 2.000.000/mes). ¿Podemos agendar una llamada?',
+    cta: 'Elegir Empresa',
+    waMessage: 'Hola, me interesa el plan Empresa (0 setup + Gs 2.000.000/mes). ¿Podemos agendar una llamada?',
     popular: false,
   },
 ]
 
 const FAQS = [
-  { question: '¿Cuánto tiempo tarda en estar listo mi sitio?', answer: 'Entre 24 y 48 horas desde que nos mandás los datos. Primero generamos el sitio automáticamente, después un editor humano lo revisa y optimiza antes de entregártelo.' },
-  { question: '¿Necesito saber algo de tecnología?', answer: 'Nada. Nosotros hacemos todo: el diseño, los textos, las fotos, el dominio y la publicación. Vos solo nos mandás la info de tu negocio por WhatsApp y recibís el sitio listo para usar.' },
-  { question: '¿Puedo ver algo antes de contratar?', answer: 'Sí. Empezamos con diagnóstico y demo estratégica gratis por WhatsApp. Si te sirve, avanzamos con el plan recomendado para tu negocio.' },
-  { question: '¿Qué incluye el dominio .com.py?', answer: 'Incluimos el dominio gratis el primer año (por ejemplo: tunegocio.com.py). También configuramos el certificado SSL para que tu sitio sea seguro, y te ayudamos a crear emails profesionales.' },
-  { question: '¿Cómo funciona el pago?', answer: 'Tenés dos pagos: el setup inicial (una sola vez) y la mensualidad. Aceptamos transferencia bancaria y Mercado Pago. No hay contrato de permanencia, cancelás cuando quieras.' },
-  { question: '¿Puedo pedir cambios después?', answer: 'Sí. Según tu plan, tenés de 2 a 5 cambios mensuales incluidos. Son cambios de texto, fotos o precios. Pedís por WhatsApp y los hacemos en 24-48 horas.' },
-  { question: '¿Y si ya tengo un dominio?', answer: 'Lo conectamos sin costo extra. También te ayudamos a migrar si tenés tu sitio en Wix, WordPress u otra plataforma.' },
-  { question: '¿Qué pasa si no me gusta el sitio?', answer: 'Tenés 30 días de garantía. Si no te convence, te devolvemos el 100% del setup. Sin preguntas ni letra chica.' },
+  { question: '¿Cuánto tiempo tarda en estar listo mi sitio?', answer: 'Entre 24 y 48 horas desde que elegís tu plan. Te clonamos un template exitoso o te diseñamos algo desde cero, según el plan.' },
+  { question: '¿Necesito saber algo de tecnología?', answer: 'Nada. Tu sitio viene con un asistente IA entrenado con tu negocio. Le pedís cambios de texto, fotos o precios y la IA lo hace automáticamente. Si necesitás algo más complejo, nosotros lo creamos.' },
+  { question: '¿Cómo funciona lo de la IA?', answer: 'Te damos acceso a un chat con tu propio asistente IA que conoce tu negocio. Le decís "cambiá el precio de la peluquería a 50.000" o "agregá una foto nueva" y él lo hace. No necesitás saber de código ni pedirnos permiso.' },
+  { question: '¿Y si la IA no puede hacer lo que necesito?', answer: 'Ahí entramos nosotros. Si necesitás una funcionalidad nueva o la IA no entiende algo, te lo resolvemos. Eso puede tener un costo extra si es un cambio grande, pero los cambios normales los hace la IA sin cargo.' },
+  { question: '¿Puedo ver algo antes de contratar?', answer: 'Sí. Empezamos con diagnóstico gratis por WhatsApp. Te mostramos cómo quedaría tu sitio con IA y decidís después.' },
+  { question: '¿Qué incluye el dominio .com.py?', answer: 'Incluimos el dominio gratis el primer año. También configuramos SSL, emails profesionales y todo lo técnico.' },
+  { question: '¿Cómo funciona el pago?', answer: 'Sin entrada. Solo pagás la mensualidad. Aceptamos transferencia bancaria y Mercado Pago. Cancelás cuando quieras, sin contrato.' },
+  { question: '¿Qué pasa si no me gusta?', answer: 'Tenés 30 días de garantía. Si no te convence, cancelás y no pagás más. Sin preguntas.' },
 ]
 
 
@@ -416,10 +450,14 @@ function Navigation() {
   }, [])
 
   const navLinks = [
-    { href: '/casos', label: 'Casos' },
-    { href: '/belleza', label: 'Belleza' },
-    { href: '/gastronomia', label: 'Gastronomía' },
+    { href: '/', label: 'Inicio' },
+    { href: '/clientes', label: 'Clientes' },
+    { href: '/metodo', label: 'Cómo funciona' },
     { href: '/precios', label: 'Precios' },
+    { href: '/blog', label: 'Blog' },
+    { href: '/faq', label: 'FAQ' },
+    { href: '/contacto', label: 'Contacto' },
+    { href: '/changelog', label: 'Novedades' },
   ]
 
   return (
@@ -559,7 +597,7 @@ export default function HomePage() {
               </FadeIn>
 
                 <FadeIn delay={150}>
-                <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-7xl">
+                <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-7xl text-balance">
                   Tu negocio crece{' '}
                   <span className="bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
                     mientras dormís
@@ -569,9 +607,9 @@ export default function HomePage() {
 
               <FadeIn delay={300}>
                 <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600 md:text-xl">
-                  Sistema de captación que aparece en Google, recibe consultas por WhatsApp
-                  y te muestra cuántas personas visitan tu negocio cada semana.
-                  Todo por Gs 500.000 al mes.
+                  Tu sitio web en 48 horas con inteligencia artificial para que lo manejés solo.
+                  Aparecés en Google, recibís consultas por WhatsApp y sabés cuántos te visitan.
+                  Sin entrada, Gs 650.000/mes.
                 </p>
               </FadeIn>
 
@@ -679,7 +717,9 @@ export default function HomePage() {
               {TEMPLATES.filter(t => t.leads > 0 || t.demoSlug).map((template, idx) => (
                 <FadeIn key={template.id} delay={idx * 50}>
                   <a
-                    href={`/${template.demoSlug}`}
+                    href={template.demoUrl || (template.demoSlug ? `/${template.demoSlug}` : waLink(`Hola, quiero un sitio web para mi negocio de ${template.name.toLowerCase()}.`))}
+                    target={template.demoUrl ? '_blank' : undefined}
+                    rel={template.demoUrl ? 'noopener noreferrer' : undefined}
                     className="group flex items-center gap-4 rounded-xl border border-gray-200 bg-white p-4 transition-all hover:border-blue-300 hover:shadow-md"
                   >
                     <div
@@ -851,7 +891,9 @@ export default function HomePage() {
                     <p className="mt-1 text-sm text-gray-500">{plan.description}</p>
                     
                     <div className="mt-6">
-                      <span className="text-4xl font-bold text-gray-900">{plan.setup}</span>
+                      <span className="text-4xl font-bold text-gray-900">
+                        {plan.setup === '0' ? 'Sin entrada' : plan.setup === 'Gratis' ? 'Gratis' : plan.setup}
+                      </span>
                       {plan.monthly && (
                         <div className="mt-1 text-sm text-gray-600">
                           + <span className="font-semibold">{plan.monthly}</span> {plan.period}
@@ -977,18 +1019,19 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold text-gray-900">Producto</h4>
               <ul className="mt-4 space-y-2 text-sm">
-                <li><Link href="/p" className="text-gray-600 hover:text-blue-600">Rubros</Link></li>
+                <li><Link href="/metodo" className="text-gray-600 hover:text-blue-600">Cómo funciona</Link></li>
                 <li><Link href="/precios" className="text-gray-600 hover:text-blue-600">Precios</Link></li>
-                <li><Link href="/demo" className="text-gray-600 hover:text-blue-600">Demo</Link></li>
+                <li><Link href="/clientes" className="text-gray-600 hover:text-blue-600">Clientes</Link></li>
+                <li><Link href="/changelog" className="text-gray-600 hover:text-blue-600">Novedades</Link></li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-semibold text-gray-900">Recursos</h4>
               <ul className="mt-4 space-y-2 text-sm">
-                <li><Link href="/casos" className="text-gray-600 hover:text-blue-600">Casos</Link></li>
                 <li><Link href="/blog" className="text-gray-600 hover:text-blue-600">Blog</Link></li>
-                <li><Link href="/seguridad" className="text-gray-600 hover:text-blue-600">Privacidad</Link></li>
+                <li><Link href="/faq" className="text-gray-600 hover:text-blue-600">FAQ</Link></li>
+                <li><Link href="/contacto" className="text-gray-600 hover:text-blue-600">Contacto</Link></li>
               </ul>
             </div>
 
