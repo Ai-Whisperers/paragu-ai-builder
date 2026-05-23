@@ -1,34 +1,51 @@
-name: Deploy
+name: Deploy — paragu-ai-builder
 
-# Cloudflare Pages auto-deploys from the GitHub repo — no CI token needed.
-# This workflow only handles the VPS (Docker Swarm) deployment.
 on:
-  push:
-    branches: [Main]
-  workflow_dispatch:
-
-concurrency:
-  group: deploy-${{ github.ref }}
-  cancel-in-progress: true
+  workflow_run:
+    workflows: ["Test — paragu-ai-builder"]
+    branches: [main]
+    types:
+      - completed
 
 jobs:
-  vps:
-    name: VPS Hostinger
+  deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: web
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v4
 
-      - name: Setup SSH
-        shell: bash
-        run: |
-          set +e
-          mkdir -p ~/.ssh
-          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H 72.61.44.159 >> ~/.ssh/known_hosts 2>/dev/null || true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
 
-      - name: Run deploy script on VPS
+      - run: npm ci
+
+      - name: Build Docker image
         run: |
-          ssh -o StrictHostKeyChecking=accept-new root@72.61.44.159 'bash /opt/stacks/paragu-ai-builder/deploy.sh prod'
+          cp ../CHANGELOG.md ./
+          docker build -f Dockerfile.prod -t ghcr.io/ai-whisperers/paragu-ai:latest .
+
+      - name: Push to GHCR
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+          docker push ghcr.io/ai-whisperers/paragu-ai:latest
+
+      - name: Deploy to VPS
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: 72.61.44.159
+          username: root
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            docker pull ghcr.io/ai-whisperers/paragu-ai:latest
+            docker tag ghcr.io/ai-whisperers/paragu-ai:latest paragu-ai:prod
+            cd /root/paragu-ai-builder
+            docker stack rm paragu-ai-builder 2>/dev/null || true
+            sleep 5
+            docker stack deploy -c docker-compose.yml paragu-ai-builder
