@@ -366,7 +366,6 @@ const REAL_CLIENTS = [
     color: '#6366f1',
   },
 ]
-
 const PLANS = [
   {
     name: 'Diagnóstico',
