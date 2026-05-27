@@ -7,7 +7,13 @@
     "lru-cache": "^11.3.5",
     "node-fetch": "^3.3.2",
     "replicate": "^1.4.0",
-    "sharp": "^0.34.5"
+    "sharp": "^0.34.5",
+    "@ai-whisperers/ui": "^0.4.1",
+    "@ai-whisperers/ui-extras": "^0.3.0",
+    "@ai-whisperers/seo": "^0.2.1",
+    "@ai-whisperers/whatsapp": "^0.3.0",
+    "@ai-whisperers/theme": "^0.3.0",
+    "@ai-whisperers/content": "^0.3.0"
   },
   "devDependencies": {
     "@types/cssesc": "^3.0.2",
