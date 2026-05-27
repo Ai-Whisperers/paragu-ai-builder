@@ -242,3 +242,7 @@ export const TEMPLATE_FEATURES = [
   { icon: Globe, title: 'Dominio .com.py', desc: 'Tu dirección en internet con extensión paraguaya. Incluye SSL y hosting.' },
   { icon: Eye, title: 'Ves antes de pagar', desc: 'Te mostramos tu sitio funcionando antes de que pagués un peso.' },
 ]
+
+export function waLink(message: string): string {
+  return `https://wa.me/595981324569?text=${encodeURIComponent(message)}`
+}
