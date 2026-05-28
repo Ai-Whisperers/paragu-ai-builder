@@ -28,8 +28,9 @@ jobs:
 
       - name: Build Docker image
         run: |
-          cp ../CHANGELOG.md ./
-          docker build -f Dockerfile.prod -t ghcr.io/ai-whisperers/paragu-ai:latest .
+          cd ..
+          cp CHANGELOG.md web/
+          docker build -f web/Dockerfile.prod -t ghcr.io/ai-whisperers/paragu-ai:latest .
 
       - name: Push to GHCR
         run: |

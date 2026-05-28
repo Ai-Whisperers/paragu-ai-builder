@@ -32,7 +32,7 @@ export default async function AdminDashboard() {
   let commerceAwaitingCount = 0
   let commerceComprobanteSentCount = 0
   let commerceLowStockCount = 0
-  let leadFunnel: Record<string, number> = {}
+  const leadFunnel: Record<string, number> = {}
   let totalRevenueCents = 0
   let activeSubs = 0
   let trialingSubs = 0

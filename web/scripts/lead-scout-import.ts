@@ -113,13 +113,13 @@ async function main() {
 
   // Filter out header-row duplicates (if CSV was appended multiple times)
   const headerNames = ['Date', 'Name', 'City', 'Category', 'Phone', 'URL', 'Priority', 'Status']
-  const cleanRecords = records.filter((r: any) => {
+  const cleanRecords = records.filter((r: Record<string, unknown>) => {
     return r.Name && !headerNames.includes(r.Name) && r.Name !== 'Name'
   })
 
   console.log(`🧹 After dedup headers: ${cleanRecords.length} records`)
 
-  let leads = cleanRecords.map((r: any, index: number) => {
+  let leads = cleanRecords.map((r: Record<string, unknown>, index: number) => {
     const businessType = guessBusinessType(r.Category)
     
     return {
@@ -160,8 +160,7 @@ async function main() {
   console.log(`\n📝 Transformed ${leads.length} leads for import`)
   
   // Preview
-  const sample = { ...leads[0] }
-  delete sample.slug
+  const sample = (() => { const { slug: _s, ...rest } = { ...leads[0] }; return rest })()
   console.log('\n📋 Sample:')
   console.log(JSON.stringify(sample, null, 2))
 
@@ -173,7 +172,7 @@ async function main() {
   // Check existing by phone
   console.log('\n🔍 Checking for existing leads by phone...')
   const phones = leads.filter(l => l.phone).map(l => l.phone).filter(Boolean)
-  let existingPhones = new Set<string>()
+  const existingPhones = new Set<string>()
   
   if (phones.length > 0) {
     for (let i = 0; i < phones.length; i += 50) {

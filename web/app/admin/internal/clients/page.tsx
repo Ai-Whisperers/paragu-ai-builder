@@ -43,7 +43,7 @@ function ClientRow({ c, onEdit, onDelete }: { c: Client; onEdit: (c: Client) => 
       <td style={{ fontWeight: 600, color: '#fff' }}>{c.name}</td>
       <td style={{ fontFamily: 'Menlo, monospace', fontSize: 12 }}>
         {c.domain ? (
-          <a href={`https://${c.domain}`} target="_blank" rel="noopener" style={{ color: '#6366f1' }}>{c.domain}</a>
+          <a href={`https://${c.domain}`} target="_blank" rel="noopener noreferrer" style={{ color: '#6366f1' }}>{c.domain}</a>
         ) : <span style={{ color: '#4a5568' }}>—</span>}
       </td>
       <td><span className="badge" style={{ background: (PLAN_COLOR[c.plan] || '#6366f1') + '22', color: PLAN_COLOR[c.plan] || '#6366f1' }}>{c.plan}</span></td>

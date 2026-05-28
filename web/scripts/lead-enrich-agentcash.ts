@@ -74,13 +74,14 @@ function parseCSV(filePath: string): Lead[] {
   return leads;
 }
 
-function callAgentCash(endpoint: string, method: string, body: object): any {
+function callAgentCash(endpoint: string, method: string, body: object): object | null {
   const cmd = `${AGENTCASH} fetch "${endpoint}" -m ${method} -b '${JSON.stringify(body)}' -q 2>/dev/null`;
   try {
     const out = execSync(cmd, { timeout: 15000, encoding: 'utf-8' });
     return JSON.parse(out);
-  } catch (e: any) {
-    const msg = e.stderr?.toLowerCase() || '';
+  } catch (e: unknown) {
+    const err = e as { stderr?: string }
+    const msg = err.stderr?.toLowerCase() || '';
     if (msg.includes('402') || msg.includes('insufficient') || msg.includes('balance')) {
       return { _noFunds: true };
     }

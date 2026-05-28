@@ -297,7 +297,7 @@ export function HeroSection({
           {backgroundImageMobile && (
             <source media="(max-width: 640px)" srcSet={backgroundImageMobile} />
           )}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
+          { }
           <img
             src={backgroundImage}
             alt=""

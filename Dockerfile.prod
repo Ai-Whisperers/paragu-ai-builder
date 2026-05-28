@@ -8,7 +8,6 @@ WORKDIR /app/web
 COPY --from=deps /app/web/node_modules ./node_modules
 COPY web/ .
 COPY src/ /app/src/
-COPY sites/ /app/sites/
 ENV NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL}
 ENV NEXT_PUBLIC_SUPABASE_ANON_KEY=${NEXT_PUBLIC_SUPABASE_ANON_KEY}
 ENV NEXT_PUBLIC_APP_URL=${NEXT_PUBLIC_APP_URL}
@@ -24,7 +23,7 @@ COPY --from=builder --chown=nextjs:nodejs /app/web/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/web/.next/static ./.next/static
 COPY --from=builder --chown=nextjs:nodejs /app/web/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/src ./src
-COPY --from=builder --chown=nextjs:nodejs /app/sites ./sites
+# sites/ not in repo — tenant data is baked into tenant-data.ts at build time
 COPY web/docker-start.sh /app/docker-start.sh
 RUN chmod +x /app/docker-start.sh
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \

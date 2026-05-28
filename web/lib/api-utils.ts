@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { logger } from '@/lib/logger'
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+ 
 type ZodErrorLike = { errors: Array<{ path: (string | number)[]; message: string }> }
 
 export type ApiResponse<T = unknown> =

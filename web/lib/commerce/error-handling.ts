@@ -68,7 +68,7 @@ export function handleCommerceError(
 
 function getLogger() {
   try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
+     
     return require('@/lib/logger')
   } catch {
     return { error: console.error, warn: console.warn, info: console.log }
