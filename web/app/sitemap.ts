@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/comparacion`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/demo`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/seguridad`, lastModified: now, changeFrequency: 'yearly', priority: 0.4 },
+    { url: `${BASE}/sobre-nosotros`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE}/contacto`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE}/c`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
   ]

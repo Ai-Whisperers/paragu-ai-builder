@@ -11,6 +11,8 @@ const FOOTER_GROUPS = [
       { href: '/precios', label: 'Precios' },
       { href: '/comparacion', label: 'Comparación' },
       { href: '/demo', label: 'Pedir demo' },
+      { href: '/sobre-nosotros', label: 'Sobre nosotros' },
+      { href: '/contacto', label: 'Contacto' },
     ],
   },
   {
@@ -18,7 +20,7 @@ const FOOTER_GROUPS = [
     links: [
       { href: '/casos', label: 'Todos los casos' },
       { href: '/casos/nexa-paraguay', label: 'Nexa Paraguay' },
-      { href: '/casos/dayah-litworks', label: 'Dayah Litworks' },
+      { href: '/casos/magnolia-peluqueria', label: 'Magnolia Peluquería' },
       { href: '/casos/de-abasto-a-casa', label: 'De Abasto a Casa' },
     ],
   },
