@@ -146,10 +146,6 @@ const nextConfig = {
 
   // reactCompiler removed — babel-plugin-react-compiler not installed
 
-  turbopack: {
-    root: '/root/paragu-ai-builder/web',
-  },
-
   experimental: {
     serverActions: {
       bodySizeLimit: '2mb',
