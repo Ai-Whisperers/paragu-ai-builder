@@ -22,9 +22,16 @@
 // probe the module itself inside a try/catch, which bundlers can
 // statically analyze and strip from client builds.
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-let AsyncLocalStorage: any = null
-let als: unknown = null
+type AsyncLocalStorageConstructor = new <T>() => {
+  run<R>(store: T, fn: () => R): R
+  getStore(): T | undefined
+}
+
+let AsyncLocalStorage: AsyncLocalStorageConstructor<Record<string, unknown>> | null = null
+let als: {
+  run: <R>(store: Record<string, unknown>, fn: () => R) => R
+  getStore: () => Record<string, unknown> | undefined
+} | null = null
 
 try {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
@@ -54,10 +61,12 @@ export interface LoggerStoreFields {
   [key: string]: unknown
 }
 
-function storage(): unknown {
+function storage(): {
+  run: <R>(store: Record<string, unknown>, fn: () => R) => R
+  getStore: () => Record<string, unknown> | undefined
+} | null {
   if (!als && AsyncLocalStorage) {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const Ctor = AsyncLocalStorage as new () => any
+    const Ctor = AsyncLocalStorage
     als = new Ctor()
   }
   return als

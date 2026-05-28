@@ -20,6 +20,8 @@ interface Props {
   locale: Locale
 }
 
+type SectionProps = Record<string, unknown>
+
 export async function CommerceChrome({ siteSlug, locale }: Props) {
   let content: Record<string, unknown> = {}
   let site: Record<string, unknown> = {}
@@ -30,26 +32,23 @@ export async function CommerceChrome({ siteSlug, locale }: Props) {
     return null
   }
 
-  const footerProps = (content.footer as Record<string, unknown> | undefined) ?? {}
-  const whatsappProps = (content.whatsapp as Record<string, unknown> | undefined) ?? {}
+  const footerProps = (content.footer as SectionProps | undefined) ?? {}
+  const whatsappProps = (content.whatsapp as SectionProps | undefined) ?? {}
   const complianceProps =
-    (content.compliance as Record<string, unknown> | undefined) ??
-    (content.complianceDisclaimer as Record<string, unknown> | undefined) ??
+    (content.compliance as SectionProps | undefined) ??
+    (content.complianceDisclaimer as SectionProps | undefined) ??
     {}
 
   const features = (site.features as Record<string, boolean> | undefined) ?? {}
 
   return (
     <>
-      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-      <FooterSection {...(footerProps as any)} />
+      <FooterSection {...footerProps} />
       {Object.keys(complianceProps).length > 0 ? (
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        <ComplianceDisclaimerFooterSection {...(complianceProps as any)} />
+        <ComplianceDisclaimerFooterSection {...complianceProps} />
       ) : null}
       {features.whatsappFloat !== false && whatsappProps.phone ? (
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        <WhatsAppFloat {...(whatsappProps as any)} />
+        <WhatsAppFloat {...whatsappProps} />
       ) : null}
     </>
   )

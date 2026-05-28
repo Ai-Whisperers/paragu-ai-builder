@@ -19,6 +19,7 @@ import { cachedQuery, invalidateTag } from './cache'
 
 // Query filter — intentionally loose because Supabase's chainable builder
 // types (PostgrestFilterBuilder<T>) are heavy and change across versions.
+// We use `unknown` with runtime guards; types are asserted at usage sites.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type QueryFilter = (query: any) => any
 
@@ -104,7 +105,8 @@ function buildScopedQueries(
       query = query.eq('business_id', businessId)
 
       if (options?.filter) {
-        query = options.filter(query)
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        query = options.filter(query) as any
       }
 
       if (options?.single) {
@@ -153,7 +155,8 @@ function buildScopedQueries(
         supabase.from(table).update(safeData).eq('business_id', businessId)
       )
 
-      const result = options?.returning !== false ? await baseQuery.select() : await baseQuery
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const result = options?.returning !== false ? await (baseQuery as any).select() : await baseQuery
       const rowCount = Array.isArray(result.data) ? result.data.length : undefined
       trackQuery(table, 'update', performance.now() - startTime, businessId, rowCount, result.error)
       return { data: result.data as T[] | null, error: result.error }
@@ -163,7 +166,8 @@ function buildScopedQueries(
       const startTime = performance.now()
       let query = supabase.from(table).delete()
       query = query.eq('business_id', businessId)
-      query = filter(query)
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      query = filter(query) as any
 
       const result = await query
       trackQuery(table, 'delete', performance.now() - startTime, businessId, undefined, result.error)
@@ -179,7 +183,8 @@ function buildScopedQueries(
       query = query.eq('business_id', businessId)
 
       if (filter) {
-        query = filter(query)
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        query = filter(query) as any
       }
 
       const result = await query

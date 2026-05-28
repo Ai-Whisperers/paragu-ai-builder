@@ -7,7 +7,7 @@ import { SiteFooter } from '@/components/landing/site-footer'
 import { waLink } from '@/lib/landing/marketing-data'
 
 export const metadata: Metadata = {
-  title: 'Sitios Reales · ParaguAI',
+  title: 'Sitios Reales · ParaguAI | ParaguAI Builder',
   description: 'Conocé negocios paraguayos reales que ya tienen su sitio web con ParaguAI. Spas, gimnasios, e-commerce y más.',
   alternates: { canonical: '/clientes' },
 }

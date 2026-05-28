@@ -21,7 +21,7 @@ const CACHE_CONFIG = {
 
 // Create cache instance
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const queryCache = new LRUCache<string, any>(CACHE_CONFIG)
+const queryCache = new LRUCache<string, unknown>(CACHE_CONFIG)
 
 // Track pending requests for deduplication
 const pendingRequests = new Map<string, Promise<unknown>>()
