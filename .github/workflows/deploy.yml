@@ -3,7 +3,7 @@ name: Deploy — paragu-ai-builder
 on:
   workflow_run:
     workflows: ["Test — paragu-ai-builder"]
-    branches: [main]
+    branches: [Main, main]
     types:
       - completed
 

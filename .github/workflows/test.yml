@@ -2,9 +2,9 @@ name: Test — paragu-ai-builder
 
 on:
   push:
-    branches: [main]
+    branches: [Main, main]
   pull_request:
-    branches: [main]
+    branches: [Main, main]
 
 jobs:
   test:
