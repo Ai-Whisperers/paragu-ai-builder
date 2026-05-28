@@ -4,12 +4,12 @@
 .vscode/
 .idea/
 node_modules/
-web/.next/
-web/out/
-web/videos/
-web/__tests__/
-web/tests/
-web/coverage/
+# web/.next/ is EXCLUDED from .dockerignore - needed for standalone build
+# web/out/
+# web/videos/
+# web/__tests__/
+# web/tests/
+# web/coverage/
 *.md
 *.log
 Dockerfile
