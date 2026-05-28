@@ -42,31 +42,31 @@ jobs:
       - name: Typecheck
         run: npm run typecheck
 
-   # ─────────────────────────────────────────────────────────────────────
-   #2. Schema validation — ensures every registry entry has a schema
-   # ─────────────────────────────────────────────────────────────────────
-   validate-schemas:
-     name: Validate Schemas
-     runs-on: ubuntu-latest
-     timeout-minutes: 5
-     needs: lint-typecheck
-     defaults:
-       run:
-         working-directory: ./
-     steps:
-       - uses: actions/checkout@v4
-       - name: Validate registry has schemas
-         run: npm run validate:schemas
+  # ─────────────────────────────────────────────────────────────────────
+  # 2. Schema validation — ensures every registry entry has a schema
+  # ─────────────────────────────────────────────────────────────────────
+  validate-schemas:
+    name: Validate Schemas
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    needs: lint-typecheck
+    defaults:
+      run:
+        working-directory: ./
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate registry has schemas
+        run: npm run validate:schemas
 
-   # ─────────────────────────────────────────────────────────────────────
-   #3. Tenant-config validation — catches bad page JSON / content refs /
-   #    missing locale content before a runtime error bites a tenant.
-   # ─────────────────────────────────────────────────────────────────────
-   validate:
-     name: Validate Tenant Configs
-     runs-on: ubuntu-latest
-     timeout-minutes: 10
-     needs: [lint-typecheck, validate-schemas]
+  # ─────────────────────────────────────────────────────────────────────
+  # 3. Tenant-config validation — catches bad page JSON / content refs /
+  #    missing locale content before a runtime error bites a tenant.
+  # ─────────────────────────────────────────────────────────────────────
+  validate:
+    name: Validate Tenant Configs
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: [lint-typecheck, validate-schemas]
     defaults:
       run:
         working-directory: web
@@ -91,7 +91,7 @@ jobs:
         run: npm run validate:vertical relocacion
 
   # ─────────────────────────────────────────────────────────────────────
-  # 3. Unit + integration tests with coverage upload
+  # 4. Unit + integration tests with coverage upload
   # ─────────────────────────────────────────────────────────────────────
   test:
     name: Unit Tests
@@ -125,7 +125,7 @@ jobs:
           retention-days: 7
 
   # ─────────────────────────────────────────────────────────────────────
-  # 4. Build smoke — verifies `npm run build` succeeds end-to-end.
+  # 5. Build smoke — verifies `npm run build` succeeds end-to-end.
   #    Runs after lint+typecheck to avoid wasting a slow build when
   #    the cheap checks already failed.
   # ─────────────────────────────────────────────────────────────────────
@@ -152,7 +152,7 @@ jobs:
         run: npm run build
 
   # ─────────────────────────────────────────────────────────────────────
-  # 5. Secrets scan — blocks PRs that accidentally commit API keys /
+  # 6. Secrets scan — blocks PRs that accidentally commit API keys /
   #    tokens. TruffleHog flags high-entropy strings above threshold.
   # ─────────────────────────────────────────────────────────────────────
   secrets-scan:
