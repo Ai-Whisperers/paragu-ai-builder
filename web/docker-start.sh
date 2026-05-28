@@ -17,4 +17,4 @@ if [ -d "$SDIR" ]; then
   done
 fi
 
-exec node server.js
+exec node web/server.js
