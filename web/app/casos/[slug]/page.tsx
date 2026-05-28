@@ -46,8 +46,7 @@ const CASOS = [
     quote: 'Mandé los datos por WhatsApp y el lunes el sitio estaba online. Los pedidos llegan solos.',
     clientName: 'Gastón — Cervecero',
     href: 'https://trentina.paragu-ai.com',
-  }))
-}
+  })
 
 export default function CasoPage({ params }: { params: { slug: string } }) {
   const caso = CASOS.find((c) => c.slug === params.slug)

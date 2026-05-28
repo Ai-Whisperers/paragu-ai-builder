@@ -42,7 +42,13 @@ const CASOS = [
     vertical: 'Cervecería · Santa Rita',
     summary: 'Sitio para cervecería artesanal con catálogo de cervezas y pedidos por WhatsApp.',
     href: 'https://trentina.paragu-ai.com',
-  }
+  },
+]
+
+export default function CasosPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
       <div className="border-b bg-white py-16">
         <Container>
           <FadeIn>
@@ -69,7 +75,10 @@ const CASOS = [
                     className="mb-6 h-2 w-12 rounded-full"
                     style={{ backgroundColor: caso.color }}
                   />
-                  <div className="mb-2 inline-block rounded-full px-2 py-0.5 text-xs font-medium text-gray-500" style={{ backgroundColor: caso.color + '15' }}>
+                  <div
+                    className="mb-2 inline-block rounded-full px-2 py-0.5 text-xs font-medium text-gray-500"
+                    style={{ backgroundColor: caso.color + '15' }}
+                  >
                     {caso.vertical}
                   </div>
                   <h2 className="text-xl font-bold text-gray-900 group-hover:text-blue-600">
