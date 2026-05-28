@@ -42,22 +42,7 @@ const CASOS = [
     vertical: 'Cervecería · Santa Rita',
     summary: 'Sitio para cervecería artesanal con catálogo de cervezas y pedidos por WhatsApp.',
     href: 'https://trentina.paragu-ai.com',
-  },
-  {
-    slug: 'el-gato-siames',
-    name: 'El Gato Siamés',
-    tagline: 'Stand up paraguayo',
-    color: '#6366f1',
-    vertical: 'Entretenimiento · Asunción',
-    summary: 'Sitio para comediante con calendario de shows y venta de entradas.',
-    href: 'https://elgatosiames.paragu-ai.com',
-  },
-]
-
-export default function CasosPage() {
-  return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
+  }
       <div className="border-b bg-white py-16">
         <Container>
           <FadeIn>

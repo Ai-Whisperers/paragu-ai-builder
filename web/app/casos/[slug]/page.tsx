@@ -46,22 +46,7 @@ const CASOS = [
     quote: 'Mandé los datos por WhatsApp y el lunes el sitio estaba online. Los pedidos llegan solos.',
     clientName: 'Gastón — Cervecero',
     href: 'https://trentina.paragu-ai.com',
-  },
-  {
-    slug: 'el-gato-siames',
-    name: 'El Gato Siamés',
-    tagline: 'Stand up paraguayo',
-    color: '#6366f1',
-    vertical: 'Entretenimiento · Asunción',
-    summary: 'Sitio para comediante con calendario de shows y venta de entradas.',
-    quote: 'Vendí 200 entradas el primer fin de semana sin gastar un guaraní en publicidad.',
-    clientName: 'Jorge — Comediante',
-    href: 'https://elgatosiames.paragu-ai.com',
-  },
-] as const
-
-export async function generateStaticParams() {
-  return CASOS.map((c) => ({ slug: c.slug }))
+  }))
 }
 
 export default function CasoPage({ params }: { params: { slug: string } }) {

@@ -7,7 +7,7 @@ const HEALTH_CACHE = join(DATA_DIR, 'health-cache.json')
 
 const DEMO_SITES = [
   { domain: 'paragu-ai.com', status: 'UP', code: 200, client_name: 'ParaguAI', monthly_fee: 0, latency_ms: 42 },
-  { domain: 'tiendaelviajero.com.py', status: 'UP', code: 200, client_name: 'El Viajero', monthly_fee: 2000000, latency_ms: 87 },
+  # El Viajero dropped ParaguAI 2026-05 - removed from monitoring
   { domain: 'trentina.paragu-ai.com', status: 'UP', code: 200, client_name: 'Trentina', monthly_fee: 1200000, latency_ms: 55 },
   { domain: 'mantraspa.paragu-ai.com', status: 'UP', code: 200, client_name: 'Mantra Spa', monthly_fee: 1200000, latency_ms: 61 },
   { domain: 'magnolia-peluqueria.paragu-ai.com', status: 'DOWN', code: 522, client_name: 'Magnolia Peluquería', monthly_fee: 1200000, latency_ms: 0 },
