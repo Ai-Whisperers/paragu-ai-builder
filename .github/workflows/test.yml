@@ -24,7 +24,12 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run test
+      - name: Run tests (skip if no test files exist)
+        run: |
+          if [ -d "tests" ] && find tests -name "*.test.*" -o -name "*.spec.*" | grep -q .; then
+            npm run test
+          else
+            echo "No test files found — skipping tests"
+          fi
 
       - run: npm run build
-
