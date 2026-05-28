@@ -7,14 +7,12 @@ const HEALTH_CACHE = join(DATA_DIR, 'health-cache.json')
 
 const DEMO_SITES = [
   { domain: 'paragu-ai.com', status: 'UP', code: 200, client_name: 'ParaguAI', monthly_fee: 0, latency_ms: 42 },
-  # El Viajero dropped ParaguAI 2026-05 - removed from monitoring
+// El Viajero dropped ParaguAI 2026-05 - removed from monitoring
   { domain: 'trentina.paragu-ai.com', status: 'UP', code: 200, client_name: 'Trentina', monthly_fee: 1200000, latency_ms: 55 },
   { domain: 'mantraspa.paragu-ai.com', status: 'UP', code: 200, client_name: 'Mantra Spa', monthly_fee: 1200000, latency_ms: 61 },
   { domain: 'magnolia-peluqueria.paragu-ai.com', status: 'DOWN', code: 522, client_name: 'Magnolia Peluquería', monthly_fee: 1200000, latency_ms: 0 },
   { domain: 'superspuma.paragu-ai.com', status: 'UP', code: 200, client_name: 'Superspuma', monthly_fee: 1200000, latency_ms: 73 },
   { domain: 'nexa.paragu-ai.com', status: 'REDIRECT', code: 307, client_name: 'Nexa Paraguay', monthly_fee: 2000000, latency_ms: 0 },
-  { domain: 'elgatosiames.paragu-ai.com', status: 'UP', code: 200, client_name: 'El Gato Siamés', monthly_fee: 650000, latency_ms: 68 },
-  { domain: 'reina-de-copas.paragu-ai.com', status: 'UP', code: 200, client_name: 'Reina de Copas', monthly_fee: 650000, latency_ms: 59 },
   { domain: 'jotaink.paragu-ai.com', status: 'UP', code: 200, client_name: 'Jota Ink', monthly_fee: 650000, latency_ms: 64 },
 ]
 

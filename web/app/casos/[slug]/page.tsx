@@ -46,7 +46,12 @@ const CASOS = [
     quote: 'Mandé los datos por WhatsApp y el lunes el sitio estaba online. Los pedidos llegan solos.',
     clientName: 'Gastón — Cervecero',
     href: 'https://trentina.paragu-ai.com',
-  })
+  },
+]
+
+export async function generateStaticParams() {
+  return CASOS.map((c) => ({ slug: c.slug }))
+}
 
 export default function CasoPage({ params }: { params: { slug: string } }) {
   const caso = CASOS.find((c) => c.slug === params.slug)
@@ -57,9 +62,9 @@ export default function CasoPage({ params }: { params: { slug: string } }) {
       {/* Back */}
       <div className="border-b p-6">
         <div className="mx-auto max-w-3xl">
-          <Link href="/" className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-gray-900">
+          <Link href="/casos" className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-gray-900">
             <ArrowLeft className="h-4 w-4" />
-            Volver a ParaguAI
+            Volver a casos
           </Link>
         </div>
       </div>
@@ -85,8 +90,15 @@ export default function CasoPage({ params }: { params: { slug: string } }) {
         </div>
       </div>
 
+      {/* Summary */}
+      <div className="py-8 border-t border-b">
+        <div className="mx-auto max-w-3xl px-6">
+          <p className="text-gray-600">{caso.summary}</p>
+        </div>
+      </div>
+
       {/* CTA */}
-      <div className="border-t py-12">
+      <div className="py-12">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <a
             href={caso.href}
