@@ -7,21 +7,22 @@ export type Template = {
   leads: number
   pct: number
   demoSlug: string | null
+  seoSlug: string
   seoHeadline: string
   seoLead: string
 }
 
 export const TEMPLATES: readonly Template[] = [
-  { id: 'restaurant', name: 'Restaurante', icon: 'UtensilsCrossed', leads: 1834, pct: 91, demoSlug: 'demo-restaurant', seoHeadline: 'Sitio web para restaurantes — menú digital, reservas y pedidos', seoLead: 'Tu menú actualizado, fotos de platos y botón de reservas. Los clientes sehen tu oferta sin esperar al mesero.' },
-  { id: 'gimnasio', name: 'Gimnasio', icon: 'Dumbbell', leads: 2201, pct: 87, demoSlug: 'demo-gym', seoHeadline: 'Sitio web para gimnasios — horarios, planes y contacto por WhatsApp', seoLead: 'Mostrá tus planes, horarios y testimonios. Tus leads te escriben directo por WhatsApp.' },
-  { id: 'ecommerce', name: 'Tienda online', icon: 'ShoppingCart', leads: 3104, pct: 94, demoSlug: 'demo-commerce', seoHeadline: 'Tienda online para Paraguay — inventario, pagos y envíos', seoLead: 'Tu catálogo 24/7, MercadoPago integrado y seguimiento de envíos. Vendés cuando dormís.' },
-  { id: 'portfolio', name: 'Portfolio / Freelance', icon: 'User', leads: 1403, pct: 79, demoSlug: 'demo-portfolio', seoHeadline: 'Sitio portfolio para creativos — muestrá tu trabajo, cobrál en USD', seoLead: 'Tu trabajo habla por vos. Portfolio profesional con formulario de contacto y pricing en dólares.' },
-  { id: 'salon_belleza', name: 'Salón de Belleza', icon: 'Sparkles', leads: 1210, pct: 75, demoSlug: 'studio-belleza', seoHeadline: 'Sitio web para salones de belleza — reservas y galería sin complicaciones', seoLead: 'Mostrá tus servicios, el equipo y la galería de trabajos. Tus clientas reservan por WhatsApp con un clic.' },
-  { id: 'relocation', name: 'Reubicación', icon: 'Globe', leads: 0, pct: 0, demoSlug: 'nexa-paraguay', seoHeadline: 'Sitio web para servicios de reubicación — multi-idioma y profesional', seoLead: 'Sitio serio para clientes internacionales, multi-idioma, con proceso de trabajo, casos de éxito y contacto directo.' },
-  { id: 'barberia', name: 'Barbería', icon: 'Scissors', leads: 988, pct: 72, demoSlug: null, seoHeadline: 'Sitio web para barberías — galería, servicios y reservas online', seoLead: 'Tu barbería online: galería de trabajos, servicios con precios y botón de reservas directo.' },
-  { id: 'hotel', name: 'Hotel / Hospedaje', icon: 'Building2', leads: 654, pct: 68, demoSlug: null, seoHeadline: 'Sitio web para hoteles — habitaciones, reservas y contacto directo', seoLead: 'Mostrá tus habitaciones, tarifas y ubicación. Los huéspedes reservan directo sin comisiones.' },
-  { id: 'ecommerce2', name: 'E-commerce básico', icon: 'ShoppingCart', leads: 2341, pct: 88, demoSlug: null, seoHeadline: 'E-commerce básico para Paraguay — catálogo, precios y WhatsApp', seoLead: 'Tu negocio en internet: catálogo, precios en Gs y botón de pedido por WhatsApp. Sin complejidad.' },
-  { id: 'servicios', name: 'Servicios profesionales', icon: 'Calculator', leads: 1109, pct: 71, demoSlug: null, seoHeadline: 'Sitio para servicios profesionales — proceso, testimonios y contacto', seoLead: 'Tu expertise visible: proceso de trabajo, casos de éxito y formulario de contacto. Leids cualificados.' },
+  { id: 'restaurant', name: 'Restaurante', icon: 'UtensilsCrossed', leads: 1834, pct: 91, demoSlug: 'demo-restaurant', seoSlug: 'restaurante', seoHeadline: 'Sitio web para restaurantes — menú digital, reservas y pedidos', seoLead: 'Tu menú actualizado, fotos de platos y botón de reservas. Los clientes sehen tu oferta sin esperar al mesero.' },
+  { id: 'gimnasio', name: 'Gimnasio', icon: 'Dumbbell', leads: 2201, pct: 87, demoSlug: 'demo-gym', seoSlug: 'gimnasio', seoHeadline: 'Sitio web para gimnasios — horarios, planes y contacto por WhatsApp', seoLead: 'Mostrá tus planes, horarios y testimonios. Tus leads te escriben directo por WhatsApp.' },
+  { id: 'ecommerce', name: 'Tienda online', icon: 'ShoppingCart', leads: 3104, pct: 94, demoSlug: 'demo-commerce', seoSlug: 'tienda-online', seoHeadline: 'Tienda online para Paraguay — inventario, pagos y envíos', seoLead: 'Tu catálogo 24/7, MercadoPago integrado y seguimiento de envíos. Vendés cuando dormís.' },
+  { id: 'portfolio', name: 'Portfolio / Freelance', icon: 'User', leads: 1403, pct: 79, demoSlug: 'demo-portfolio', seoSlug: 'portfolio-freelance', seoHeadline: 'Sitio portfolio para creativos — muestrá tu trabajo, cobrál en USD', seoLead: 'Tu trabajo habla por vos. Portfolio profesional con formulario de contacto y pricing en dólares.' },
+  { id: 'salon_belleza', name: 'Salón de Belleza', icon: 'Sparkles', leads: 1210, pct: 75, demoSlug: 'studio-belleza', seoSlug: 'salon-belleza', seoHeadline: 'Sitio web para salones de belleza — reservas y galería sin complicaciones', seoLead: 'Mostrá tus servicios, el equipo y la galería de trabajos. Tus clientas reservan por WhatsApp con un clic.' },
+  { id: 'relocation', name: 'Reubicación', icon: 'Globe', leads: 0, pct: 0, demoSlug: 'nexa-paraguay', seoSlug: 'reubicacion', seoHeadline: 'Sitio web para servicios de reubicación — multi-idioma y profesional', seoLead: 'Sitio serio para clientes internacionales, multi-idioma, con proceso de trabajo, casos de éxito y contacto directo.' },
+  { id: 'barberia', name: 'Barbería', icon: 'Scissors', leads: 988, pct: 72, demoSlug: null, seoSlug: 'barberia', seoHeadline: 'Sitio web para barberías — galería, servicios y reservas online', seoLead: 'Tu barbería online: galería de trabajos, servicios con precios y botón de reservas directo.' },
+  { id: 'hotel', name: 'Hotel / Hospedaje', icon: 'Building2', leads: 654, pct: 68, demoSlug: null, seoSlug: 'hotel-hospedaje', seoHeadline: 'Sitio web para hoteles — habitaciones, reservas y contacto directo', seoLead: 'Mostrá tus habitaciones, tarifas y ubicación. Los huéspedes reservan directo sin comisiones.' },
+  { id: 'ecommerce2', name: 'E-commerce básico', icon: 'ShoppingCart', leads: 2341, pct: 88, demoSlug: null, seoSlug: 'e-commerce-basico', seoHeadline: 'E-commerce básico para Paraguay — catálogo, precios y WhatsApp', seoLead: 'Tu negocio en internet: catálogo, precios en Gs y botón de pedido por WhatsApp. Sin complejidad.' },
+  { id: 'servicios', name: 'Servicios profesionales', icon: 'Calculator', leads: 1109, pct: 71, demoSlug: null, seoSlug: 'servicios-profesionales', seoHeadline: 'Sitio para servicios profesionales — proceso, testimonios y contacto', seoLead: 'Tu expertise visible: proceso de trabajo, casos de éxito y formulario de contacto. Leids cualificados.' },
 ]
 
 export const LIVE_TEMPLATES: readonly Template[] = TEMPLATES.filter((t) => t.demoSlug !== null)
@@ -54,15 +55,6 @@ export const REAL_CLIENTS: readonly RealClient[] = [
     href: 'https://dayah.paragu-ai.com',
     color: '#c44569',
     summary: 'Portfolio de diseñadora gráfica con pricing en USD y proceso de encargo claro.',
-  },
-  {
-    slug: 'el-viajero',
-    name: 'El Viajero',
-    tagline: 'Tienda de regalos y souvenirs',
-    vertical: 'Retail · CdE',
-    href: 'https://tiendaelviajero.com.py',
-    color: '#2563eb',
-    summary: 'E-commerce con catálogo de regalos, precios en Gs y botón de pedido por WhatsApp.',
   },
   {
     slug: 'magnolia-peluqueria',

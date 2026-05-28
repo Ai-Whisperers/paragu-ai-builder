@@ -83,10 +83,6 @@ const CONFIGS: Record<string, Partial<TenantCommerceConfig>> = {
       { id: 'estilo', label: 'Estilo', tags: ['elegante'] },
     ],
   },
-  'viajero-comercio': {
-    freeShippingThresholdCents: 30_000_000, // Gs. 300.000
-    installments: { maxCuotas: 3, minAmountCents: 10_000_000 }, // 3 cuotas desde Gs. 100.000
-  },
 }
 
 // ─── Public API ────────────────────────────────────────────

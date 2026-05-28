@@ -20,6 +20,8 @@ import { LogoStrip } from '@/components/landing/logo-strip'
 import { FloatingShape } from '@/components/landing/chrome'
 import { BrandMark } from '@/components/ui/brand-icons'
 
+import { REAL_CLIENTS } from '@/lib/landing/marketing-data'
+
 /* ── Schema.org Structured Data ────────────────────────────────── */
 
 const SCHEMA_ORG_DATA = {
@@ -287,85 +289,8 @@ const GUARANTEES = [
   { icon: Unlock, title: 'Sin contrato', desc: 'Cancelás cuando quieras. Tu dominio es tuyo, te lo llevás.' },
 ]
 
-const REAL_CLIENTS = [
-  {
-    name: 'Magnolia Peluquería',
-    tagline: 'Cortes y coloración profesional',
-    vertical: 'Peluquería · Asunción',
-    href: 'https://magnolia-peluqueria.paragu-ai.com',
-    color: '#b76e79',
-  },
-  {
-    name: 'Mantra Spa',
-    tagline: 'Masajes y tratamientos faciales',
-    vertical: 'Spa & Wellness · Asunción',
-    href: 'https://mantraspa.paragu-ai.com',
-    color: '#7c9885',
-  },
-  {
-    name: 'Bichos Gym',
-    tagline: 'Entrenamiento funcional',
-    vertical: 'Gimnasio · Asunción',
-    href: 'https://bichosgym.paragu-ai.com',
-    color: '#2d6a4f',
-  },
-  {
-    name: 'Jota Ink Tattoo',
-    tagline: 'Tatuajes personalizados',
-    vertical: 'Tatuajes · Asunción',
-    href: 'https://jotaink.paragu-ai.com',
-    color: '#1a1a2e',
-  },
-  {
-    name: 'DepiFlash',
-    tagline: 'Depilación láser a domicilio',
-    vertical: 'Depilación · Paraguay',
-    href: 'https://depiflash.paragu-ai.com',
-    color: '#e17055',
-  },
-  {
-    name: 'Dayah Litworks',
-    tagline: 'Diseño de tapas de libros',
-    vertical: 'Portfolio · Remoto',
-    href: 'https://dayah.paragu-ai.com',
-    color: '#c44569',
-  },
-  {
-    name: 'Nexa Paraguay',
-    tagline: 'Reubicación para europeos',
-    vertical: 'Servicios · 4 idiomas',
-    href: 'https://nexa.paragu-ai.com',
-    color: '#1e3a5f',
-  },
-  {
-    name: 'El Viajero',
-    tagline: 'Tienda de regalos y souvenirs',
-    vertical: 'Retail · CdE',
-    href: 'https://tiendaelviajero.com.py',
-    color: '#2563eb',
-  },
-  {
-    name: 'Trentina',
-    tagline: 'Cerveza artesanal paraguaya',
-    vertical: 'Cervecería · Santa Rita',
-    href: 'https://trentina.paragu-ai.com',
-    color: '#d97706',
-  },
-  {
-    name: 'Reina de Copas',
-    tagline: 'Copas menstruales ecológicas',
-    vertical: 'Salud · Paraguay',
-    href: 'https://reina-de-copas.paragu-ai.com',
-    color: '#ec4899',
-  },
-  {
-    name: 'El Gato Siamés',
-    tagline: 'Stand up paraguayo',
-    vertical: 'Entretenimiento · Asunción',
-    href: 'https://elgatosiames.paragu-ai.com',
-    color: '#6366f1',
-  },
-]
+// REAL_CLIENTS imported from marketing-data (includes all paying clients:
+ // Trentina, Reina de Copas, El Gato Siamés, Nexa + 6 more)
 const PLANS = [
   {
     name: 'Diagnóstico',

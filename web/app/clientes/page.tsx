@@ -13,19 +13,7 @@ export const metadata: Metadata = {
 }
 
 const CLIENTS = [
-  { name: 'Magnolia Peluquería', url: 'https://magnolia-peluqueria.paragu-ai.com', rubro: 'Peluquería', desc: 'Cortes, coloración y tratamientos capilares en Asunción', slug: 'magnolia-peluqueria' },
-  { name: 'Mantra Spa', url: 'https://mantraspa.paragu-ai.com', rubro: 'Spa & Wellness', desc: 'Masajes, tratamientos faciales y bienestar', slug: 'mantraspa' },
-  { name: 'Bichos Gym', url: 'https://bichosgym.paragu-ai.com', rubro: 'Gimnasio / Fitness', desc: 'Entrenamiento funcional y crossfit', slug: 'bichosgym' },
-  { name: 'Cocodrilo Fitness', url: 'https://cocodrilofitness.paragu-ai.com', rubro: 'Gimnasio / Fitness', desc: 'Gimnasio con equipamiento de primera', slug: 'cocodrilofitness' },
-  { name: 'Jota Ink Tattoo', url: 'https://jotaink.paragu-ai.com', rubro: 'Tatuajes & Piercing', desc: 'Tatuajes personalizados y piercing', slug: 'jotaink' },
-  { name: 'DepiFlash', url: 'https://depiflash.paragu-ai.com', rubro: 'Depilación', desc: 'Depilación láser IPL a domicilio', slug: 'depiflash' },
-  { name: 'Dayah Litworks', url: 'https://dayah.paragu-ai.com', rubro: 'Diseño Gráfico', desc: 'Diseño de tapas de libros y portafolio', slug: 'dayah' },
-  { name: 'Nexa Paraguay', url: 'https://nexa.paragu-ai.com', rubro: 'Reubicación', desc: 'Programa de reubicación para europeos (4 idiomas)', slug: 'nexa' },
-  { name: 'El Viajero', url: 'https://tiendaelviajero.com.py', rubro: 'Retail', desc: 'Tienda de regalos y souvenirs en Ciudad del Este', slug: 'elviajero' },
-  { name: 'Trentina', url: 'https://trentina.paragu-ai.com', rubro: 'Cervecería', desc: 'Cerveza artesanal paraguaya en Santa Rita, Alto Paraná', slug: 'trentina' },
-  { name: 'Reina de Copas', url: 'https://reina-de-copas.paragu-ai.com', rubro: 'Salud', desc: 'Copas y discos menstruales ecológicos. Envíos a todo Paraguay', slug: 'reina-de-copas' },
-  { name: 'El Gato Siamés', url: 'https://elgatosiames.paragu-ai.com', rubro: 'Entretenimiento', desc: 'Stand up paraguayo · Humor negro · One-liners', slug: 'elgatosiames' },
-  { name: 'Luis de León Concept', url: 'https://luis-de-leon-concept.paragu-ai.com', rubro: 'Estética', desc: 'Centro de estética y bienestar', slug: 'luis-de-leon' },
+  { name: 'Nexa Paraguay', url: 'https://nexapyr.com', rubro: 'Reubicación', desc: 'Programa de reubicación para europeos (4 idiomas)', slug: 'nexa' },
 ]
 
 export default function ClientesPage() {
