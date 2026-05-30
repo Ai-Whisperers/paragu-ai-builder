@@ -1,114 +1,179 @@
-# Paragu AI Builder
+# Paragu-AI Builder
 
-A **multi-tenant marketing-site generator**. Ships a single Next.js 15 + Supabase + Cloudflare Workers app that renders a library of reusable section components against per-tenant JSON configuration — so new sites are _configured_, not _built_.
+Monorepo de componentes compartidos para sitios cliente de Ai-Whisperers.
+
+## Estructura
 
 ```
-[ tenant JSON ]  +  [ vertical copy ]  +  [ design tokens ]
-        ─────────────────────────────────────────────────►
-                          composition engine
-                                  │
-                                  ▼
-                      React sections (shared pool)
-                                  │
-                                  ▼
-                Static HTML / Edge-rendered route
+paragu-ai-builder/
+├── packages/
+│   └── ui-extras/          # Componentes UI reutilizables
+│       ├── src/
+│       │   ├── loading-bar.tsx
+│       │   ├── share-whatsapp.tsx
+│       │   ├── empty-state.tsx
+│       │   ├── dark-mode-toggle.tsx
+│       │   ├── bottom-nav.tsx
+│       │   ├── promo-carousel.tsx
+│       │   ├── packages.tsx
+│       │   └── services-with-packages.tsx
+│       └── package.json
+└── scripts/
+    └── migrate-to-ui-extras.sh  # Script de migración automática
 ```
 
-## Live tenants
+## Paquetes
 
-| Tenant | Slug | Vertical | Hostname | Locales |
-|---|---|---|---|---|
-| Nexa Paraguay | `nexa-paraguay` | relocation | nexaparaguay.com | nl · en · de · es |
-| Nexa Paraguay (ES landing) | `nexaparaguay` | relocation | nexaparaguay.com | es |
-| Nexa Propiedades | `nexa-propiedades` | real-estate | nexapropiedades.com | es · en · pt |
-| De Abasto a Casa | `de-abasto-a-casa` | meal-prep | deabastoacasa.com.py | es |
-| Dayah Litworks | `dayah-litworks` | portfolio (design) | dayah-litworks.com | es |
+### @ai-whisperers/ui-extras
 
-Demo tenants (salon-maria, gymfit-py, spa-serenidad, etc.) live alongside real tenants under `sites/` to exercise the engine across verticals.
+Componentes UI reutilizables para todos los sitios cliente.
 
-## Start here
+#### Componentes Disponibles
 
-- **New to the repo?** → [ARCHITECTURE.md](./ARCHITECTURE.md) (the 5-minute system tour)
-- **Contributing code?** → [CONTRIBUTING.md](./CONTRIBUTING.md) (branch, commit, PR, quality gates)
-- **Looking for something specific?** → [docs/README.md](./docs/README.md) (docs hub — every reference, how-to, and explainer)
-- **Adding a new tenant?** → [docs/runbooks/ADD_NEW_TENANT.md](./docs/runbooks/ADD_NEW_TENANT.md)
-- **Adding a new vertical?** → [docs/runbooks/ADD_NEW_VERTICAL.md](./docs/runbooks/ADD_NEW_VERTICAL.md)
-- **Rotating a secret / env vars?** → [docs/runbooks/ENV_VARS.md](./docs/runbooks/ENV_VARS.md)
-- **Last deploy broke?** → [docs/runbooks/ROLLBACK.md](./docs/runbooks/ROLLBACK.md)
-- **AI-agent-oriented context?** → [CLAUDE.md](./CLAUDE.md) (the instructions LLMs read)
+1. **LoadingBar** - Barra de carga transición de páginas
+2. **ShareWhatsApp** - Botón compartir en WhatsApp
+3. **EmptyState** - Estado vacío genérico
+4. **DarkModeToggle** - Toggle tema claro/oscuro
+5. **BottomNav** - Navegación inferior mobile
+6. **PromoCarousel** - Carrusel de promociones auto-rotativo
+7. **Packages** - Sección de packages/combos
+8. **ServicesWithPackages** - Servicios + combos en un solo componente
 
-## Quick start
+#### Instalación
 
 ```bash
-git clone https://github.com/Ai-Whisperers/paragu-ai-builder.git
-cd paragu-ai-builder/web
-npm install
-cp .env.example .env.local    # fill Supabase, integration keys
-npm run dev                    # http://localhost:3000
+npm install @ai-whisperers/ui-extras@^1.0.0
 ```
 
-Then open:
-- `/` — builder landing
-- `/s/es/nexa-paraguay` — a tenant rendered via locale-prefixed route
-- `/admin/leads` — admin dashboard (auth required)
+#### Uso Ejemplo
 
-## Tech stack
+```tsx
+import { LoadingBar, DarkModeToggle, BottomNav, ServicesWithPackages } from "@ai-whisperers/ui-extras"
 
-| Layer | Choice |
-|---|---|
-| Framework | Next.js 15 (App Router) |
-| Language | TypeScript 5.x |
-| Styling | Tailwind **3.4.19** (do not upgrade to v4 — see [warnings](./CLAUDE.md#critical-warnings)) |
-| Database | Supabase (Postgres + RLS) |
-| Edge | Cloudflare Workers via `@opennextjs/cloudflare` |
-| Observability | Structured logger (ECS-aligned) + Sentry + Cloudflare Analytics Engine |
-| Testing | Vitest (unit + integration) + Playwright (e2e + visual) |
-| CI | GitHub Actions: lint, typecheck, test, Lighthouse, a11y |
-
-## Repository map
-
-```
-src/                  Data layer (JSON — tenant-agnostic)
-  schemas/              JSON schemas (base + per-business-type)
-  tokens/               Design tokens (base + per-vertical)
-  registry/             Business-type definitions
-  verticals/            Vertical catalogs (relocation, food-beverage, …)
-  content/              Content templates with {{placeholders}}
-  compliance/           Legal templates (privacy, ToS, AML, INAN)
-
-sites/                Tenant layer (one dir per tenant)
-  <slug>/
-    site.json             hostname, locales, integrations
-    tokens.json           brand-colour overrides
-    pages/*.json          page-by-page section lists
-    content/<locale>.json per-locale copy overrides
-
-web/                  Application layer (Next.js)
-  app/                    App Router
-    [business]/             flat-pattern legacy tenant routes
-    s/[locale]/[siteSlug]/  locale-prefixed modern tenant routes
-    admin/                  protected dashboard
-    api/                    52 REST routes (incl. cron, webhooks, admin, storefront)
-  components/
-    sections/               82 reusable section components
-    ui/                     primitives (Button, Card, Badge via CVA)
-  lib/
-    engine/                 composition pipeline
-    supabase/               DB clients (server / client / admin / scoped)
-    integrations/           booking · crm · email · analytics adapters
-    obs/                    logger · tracer · metrics · sentry
-    tokens/                 token → CSS var resolver
-    i18n/                   locale config + routing
-  tests/                  unit · integration · e2e · a11y
-  scripts/                ops toolbox (see web/scripts/)
-
-docs/                 Long-form documentation (see docs/README.md)
+export default function Layout({ children }) {
+  return (
+    <>
+      <LoadingBar />
+      <DarkModeToggle storageKey="theme" />
+      {children}
+      <BottomNav
+        lang="es"
+        items={[
+          { label: "Inicio", href: "/", icon: "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 0 0 1 1h3m10-11l2 2m-2-2v10a1 1 0 0 1-1 1h-3m-6 0a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1m-6 0h6" },
+          { label: "Servicios", href: "/servicios", icon: "M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0" },
+          { label: "WhatsApp", href: "https://wa.me/595972000000", icon: "M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21", isExternal: true },
+        ]}
+      />
+    </>
+  )
+}
 ```
 
-## License
+## Script de Migración
 
-See [LICENSE](./LICENSE) _(to be added — currently inherited from parent org)_.
+### Migrar Todos los Sitios
 
----
+```bash
+cd /root/paragu-ai-builder
+./scripts/migrate-to-ui-extras.sh --all
+```
 
-_Last reviewed: April 2026. Keep this file at ≤200 lines; long-form belongs in `docs/`._
+### Migrar un Sitio Específico
+
+```bash
+./scripts/migrate-to-ui-extras.sh --site magnolia-peluqueria
+```
+
+### Dry Run (Ver Cambios sin Aplicar)
+
+```bash
+./scripts/migrate-to-ui-extras.sh --dry-run --all
+```
+
+### Qué Hace el Script
+
+1. Detecta si el sitio usa componentes locales (loading-bar, share-whatsapp, etc.)
+2. Agrega `@ai-whisperers/ui-extras@^1.0.0` a package.json
+3. Reemplaza imports locales con imports del package:
+   - `import { LoadingBar } from "@/components/loading-bar"` → `import { LoadingBar } from "@ai-whisperers/ui-extras"`
+4. Opcionalmente elimina archivos locales después de la migración
+
+## Plan de Rollout por Fases
+
+### Fase 1 (Semana 1)
+- Magnolia Peluquería ✓ (origen de componentes)
+- Leticia Carballo
+- **Vertical:** Hair/Makeup
+
+### Fase 2 (Semana 2)
+- XXGym
+- Cronos Academy
+- **Vertical:** Gym/Fitness
+
+### Fase 3 (Semana 3)
+- Barbye Nails
+- Avani Belleza
+- Clau Bellino
+- Viviesteticpy
+- **Vertical:** Beauty/Nails
+
+### Fase 4 (Semana 4)
+- Nutrifit Spa
+- HidroBaby Spa
+- **Vertical:** Spa/Wellness
+
+## Sitios Cliente
+
+| Sitio | Status | Vertical | Dominio |
+|-------|--------|----------|---------|
+| magnolia-peluqueria | ✓ Migrado | Hair | magnolia-peluqueria.paragu-ai.com |
+| leticia-carballo | ⏳ Pendiente | Makeup | leticia-carballo.paragu-ai.com |
+| xxgym | ⏳ Pendiente | Gym | xxgym.paragu-ai.com |
+| cronos-academy | ⏳ Pendiente | Gym | cronos-academy.paragu-ai.com |
+| barbye-nails | ⏳ Pendiente | Nails | barbye-nails.paragu-ai.com |
+| avani-belleza | ⏳ Pendiente | Beauty | avani-belleza.paragu-ai.com |
+| clau-bellino | ⏳ Pendiente | Beauty | clau-bellino.paragu-ai.com |
+| viviesteticpy | ⏳ Pendiente | Beauty | viviesteticpy.paragu-ai.com |
+| nutrifit-spa | ⏳ Pendiente | Spa | nutrifit-spa.paragu-ai.com |
+| hidrobaby-spa | ⏳ Pendiente | Spa | hidrobaby-spa.paragu-ai.com |
+
+## Template Actualizado
+
+`/root/template-nextjs-client/` incluye ahora:
+- `@ai-whisperers/ui-extras` en dependencies
+- LoadingBar, DarkModeToggle, BottomNav en layout.tsx
+- Ejemplo de uso de ServicesWithPackages (documentado en código)
+
+## Próximos Pasos
+
+1. **Publicar package a npm**
+   ```bash
+   cd /root/paragu-ai-builder/packages/ui-extras
+   npm publish
+   ```
+
+2. **Ejecutar migración en todos los sitios**
+   ```bash
+   ./scripts/migrate-to-ui-extras.sh --all
+   ```
+
+3. **Actualizar template con documentación completa**
+
+4. **Deploy y verificación**
+   - Test cada sitio mobile (bottom-nav)
+   - Test dark mode toggle
+   - Test loading bar transiciones
+
+## Mantenimiento
+
+Para agregar un nuevo componente:
+1. Crear archivo en `packages/ui-extras/src/`
+2. Exportar desde `packages/ui-extras/src/index.ts`
+3. Actualizar package.json con nueva versión
+4. Actualizar script de migración si aplica
+5. Publicar: `npm publish`
+
+## Issues & Soporte
+
+- Reportar bugs: GitHub Issues
+- Documentación: packages/ui-extras/README.md

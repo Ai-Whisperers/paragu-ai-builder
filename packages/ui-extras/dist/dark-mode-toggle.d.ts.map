@@ -1,0 +1,1 @@
+{"version":3,"file":"dark-mode-toggle.d.ts","sourceRoot":"","sources":["../src/dark-mode-toggle.tsx"],"names":[],"mappings":"AAGA,MAAM,WAAW,mBAAmB;IAClC;;OAEG;IACH,UAAU,CAAC,EAAE,MAAM,CAAA;IACnB;;OAEG;IACH,UAAU,CAAC,EAAE,MAAM,CAAA;IACnB;;OAEG;IACH,SAAS,CAAC,EAAE,MAAM,CAAA;CACnB;AAED,wBAAgB,cAAc,CAAC,EAC7B,UAAoB,EACpB,UAAiC,EACjC,SAAiC,GAClC,EAAE,mBAAmB,2CAsCrB"}

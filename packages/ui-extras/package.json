@@ -1,0 +1,44 @@
+{
+  "name": "@ai-whisperers/ui-extras",
+  "version": "1.0.1",
+  "description": "Reusable UI components for Ai-Whisperers client sites",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "next": ">=15.0.0",
+    "react": ">=18.0.0",
+    "lucide-react": ">=0.400.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "ai-whisperers",
+    "ui-components",
+    "react",
+    "nextjs"
+  ],
+  "author": "Ai-Whisperers",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ai-Whisperers/paragu-ai-builder"
+  }
+}

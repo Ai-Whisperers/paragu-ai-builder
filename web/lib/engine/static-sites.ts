@@ -381,7 +381,10 @@ export const SITES = {
   'preview-hidrobaby': {
     slug: 'preview-hidrobaby',
     vertical: 'health-wellness',
-    country: 'Paraguay', domain: '', defaultLocale: 'es', locales: ['es'],
+    country: 'Paraguay',
+    domain: 'hidrobaby-spa.paragu-ai.com',
+    defaultLocale: 'es',
+    locales: ['es'],
     pages: ['home', 'servicios', 'sucursales', 'faq', 'gift-cards', 'contacto'],
   },
   'preview-guillen-barber': {
