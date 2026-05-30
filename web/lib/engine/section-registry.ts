@@ -445,7 +445,6 @@ export const SECTION_CATALOG: Record<string, SectionManifest> = {
     variants: ['standard'],
     requiredContentFields: ['slots'],
   },
-  // Egg-farm / granja-cabral sections (PR #108)
   'enhanced-faq': {
     id: 'enhanced-faq',
     defaultVariant: 'searchable',

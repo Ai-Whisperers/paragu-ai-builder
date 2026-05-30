@@ -49,8 +49,6 @@ export const SITES = {
     locales: ['es'],
     pages: ['home', 'menu', 'pedidos', 'zonas', 'galeria', 'blog', 'faq', 'contacto'],
   },
-  'granja-cabral': {
-    slug: 'granja-cabral',
     vertical: 'agriculture-agribusiness',
     country: 'Paraguay',
     domain: 'granjacabral.com.py',

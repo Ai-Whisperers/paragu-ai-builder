@@ -453,9 +453,7 @@ export const DEMO_BUSINESSES: Record<string, BusinessData> = {
     ],
   },
 
-  'granja-cabral': {
     name: 'Granja Cabral',
-    slug: 'granja-cabral',
     type: 'egg_farm',
     tagline: 'Huevos de Granja 100% Paraguayos - De nuestras gallinas a tu mesa',
     city: 'Coronel Oviedo',
