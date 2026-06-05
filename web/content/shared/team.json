@@ -1,0 +1,20 @@
+{
+  "_annotation": {
+    "name": "Team Members (team.json)",
+    "what": "Team members data with names, roles, bios, photos, and social links. Displays the people behind the business to build trust with visitors. Shared across both ES and EN sites (hence _shared/).",
+    "why": "People buy from people they trust. A professional team section with real faces, roles, and specialties makes your business feel legitimate and approachable — not like a faceless website.",
+    "ai_popolates": "Names and roles: From your team roster (send via WhatsApp). Bios: AI generates from your team members' stated experience and specialties. Photos: AI optimizes your provided photos (crop to circle, compress for web). Instagram links: Auto-linked from your provided handles.",
+    "your_input": "Send us your team members' names, roles, 2-sentence bios, and 3 specialty keywords each. Plus 1 photo per person.",
+    "plan": "All plans — Professional tier adds animated entrance effects"
+  },
+  "description": "Team members data with names, roles, bios, photos, and social links. Displays the people behind the business to build trust with visitors. AI populates this from the entrepreneur's team information.",
+  "team": [
+    {
+      "id": "1",
+      "name": "TU_NOMBRE_COMPLETO",
+      "role": "Tu profesion / servicio que ofreces",
+      "bio": "Tu historia en 2-3 oraciones. Quien eres, por que haces lo que haces, que te diferencia. Los clientes confian en personas, no en logos.",
+      "image": "URL de tu foto real o placeholder-avatar.svg"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "features": [
+    {
+      "name": "Pagina web profesional",
+      "values": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "WhatsApp Business integrado",
+      "values": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "SEO basico",
+      "values": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Galeria de imagenes",
+      "values": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Paginas de servicios",
+      "values": [
+        1,
+        5,
+        "unlimited"
+      ]
+    },
+    {
+      "name": "Blog / noticias",
+      "values": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Programa de puntos",
+      "values": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Gift cards",
+      "values": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Ofertas y promos",
+      "values": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Google Analytics",
+      "values": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "Autenticacion de clientes",
+      "values": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "name": "Carrito de compras",
+      "values": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "name": "Soporte prioritario",
+      "values": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "name": "Entrenamiento incluido",
+      "values": [
+        false,
+        false,
+        true
+      ]
+    }
+  ]
+}

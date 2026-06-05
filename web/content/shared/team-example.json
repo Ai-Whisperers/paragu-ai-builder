@@ -1,0 +1,32 @@
+{
+  "description": "Team members data with names, roles, bios, photos, and social links. Displays the people behind the business to build trust with visitors. AI populates this from the entrepreneur's team information.",
+  "team": [
+    {
+      "id": "1",
+      "name": "Laura Pereira",
+      "role": "Directora y Fundadora",
+      "bio": "Especialista en branding y marketing digital. Ayudo a negocios en Paraguay a tener presencia profesional en internet sin complicaciones técnicas.",
+      "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b466e?w=200&h=200&fit=crop",
+      "instagram": "https://instagram.com/paraguai",
+      "specialties": ["Consultoría", "Estrategia", "Marketing"]
+    },
+    {
+      "id": "2",
+      "name": "Lucas Mendieta",
+      "role": "Desarrollador Senior",
+      "bio": "Ingeniero de software con 10 años de experiencia. Me enfoco en crear soluciones rápidas, estables y que funcionan en cualquier dispositivo.",
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+      "instagram": "https://instagram.com/paraguai",
+      "specialties": ["Desarrollo", "UX", "Tecnología"]
+    },
+    {
+      "id": "3",
+      "name": "Carolina Giménez",
+      "role": "Diseñadora UX/UI",
+      "bio": "Diseñadora especializada en crear interfaces intuitivas y bonitas. Entiendo lo que el cliente paraguayo necesita y lo traduzco en diseño.",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop",
+      "instagram": "https://instagram.com/paraguai",
+      "specialties": ["Diseño", "UX", "Branding"]
+    }
+  ]
+}

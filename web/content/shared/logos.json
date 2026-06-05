@@ -1,0 +1,46 @@
+{
+  "logos": [
+    {
+      "name": "Partner 1",
+      "src": "/images/logos/partner-1.svg",
+      "alt": "Partner 1",
+      "url": "https://partner1.com"
+    },
+    {
+      "name": "Partner 2",
+      "src": "/images/logos/partner-2.svg",
+      "alt": "Partner 2",
+      "url": "https://partner2.com"
+    },
+    {
+      "name": "Partner 3",
+      "src": "/images/logos/partner-3.svg",
+      "alt": "Partner 3",
+      "url": "https://partner3.com"
+    },
+    {
+      "name": "Partner 4",
+      "src": "/images/logos/partner-4.svg",
+      "alt": "Partner 4",
+      "url": "https://partner4.com"
+    },
+    {
+      "name": "Partner 5",
+      "src": "/images/logos/partner-5.svg",
+      "alt": "Partner 5",
+      "url": "https://partner5.com"
+    },
+    {
+      "name": "Partner 6",
+      "src": "/images/logos/partner-6.svg",
+      "alt": "Partner 6",
+      "url": "https://partner6.com"
+    },
+    {
+      "name": "Partner 7",
+      "src": "/images/logos/partner-7.svg",
+      "alt": "Partner 7",
+      "url": "https://partner7.com"
+    }
+  ]
+}

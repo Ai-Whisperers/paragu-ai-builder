@@ -1,0 +1,59 @@
+{
+  "description": "E-commerce product catalog with prices, images, descriptions, and categories. Drives the online store functionality of the business website. AI populates products from the entrepreneur's inventory or service catalog.",
+  "products": [
+    {
+      "id": "1",
+      "name": "Kit de Emprendedor",
+      "description": "Todo lo que necesitás para empezar tu negocio: plantillas de plan de negocios, modelo canvas, presupuesto mensual, checklist de apertura, y 20 plantillas de redes sociales.",
+      "price": 150000,
+      "image": "/images/utility/utility-placeholder-landscape.png",
+      "category": "recursos",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "name": "Plan de Marketing Digital",
+      "description": "Documento de 20 páginas con tu estrategia completa de marketing digital.",
+      "price": 200000,
+      "image": "/images/utility/utility-placeholder-landscape.png",
+      "category": "recursos",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "name": "Pack de Redes Sociales",
+      "description": "50 plantillas editables para Instagram, Facebook y WhatsApp Business.",
+      "price": 100000,
+      "image": "/images/utility/utility-placeholder-landscape.png",
+      "category": "plantillas",
+      "featured": false
+    },
+    {
+      "id": "4",
+      "name": "Curso de Marketing Digital",
+      "description": "8 horas de contenido en video + materiales descargables + acceso a comunidad privada.",
+      "price": 350000,
+      "image": "/images/utility/utility-placeholder-landscape.png",
+      "category": "cursos",
+      "featured": true
+    },
+    {
+      "id": "5",
+      "name": "Consultoría Inicial",
+      "description": "Sesión de 60 minutos para evaluar tu negocio, identificar oportunidades y definir próximos pasos.",
+      "price": 150000,
+      "image": "/images/utility/utility-placeholder-landscape.png",
+      "category": "servicios",
+      "featured": false
+    },
+    {
+      "id": "6",
+      "name": "Mentoría Mensual",
+      "description": "3 sesiones de acompañamiento mensual con un consultor.",
+      "price": 800000,
+      "image": "/images/utility/utility-placeholder-landscape.png",
+      "category": "servicios",
+      "featured": false
+    }
+  ]
+}

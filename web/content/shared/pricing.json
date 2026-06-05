@@ -1,0 +1,34 @@
+{
+  "tiers": [
+    {
+      "name": "Basico",
+      "monthlyPrice": 290000,
+      "annualPrice": 2900000,
+      "highlight": false,
+      "ctaLabel": "Comenzar",
+      "description": "Ideal para negocios que inician su presencia digital."
+    },
+    {
+      "name": "Crecimiento",
+      "monthlyPrice": 490000,
+      "annualPrice": 4900000,
+      "highlight": true,
+      "ctaLabel": "Elegir Crecimiento",
+      "description": "Para negocios en expansion que buscan mas visibilidad."
+    },
+    {
+      "name": "Profesional",
+      "monthlyPrice": 890000,
+      "annualPrice": 8900000,
+      "highlight": false,
+      "ctaLabel": "Ir Profesional",
+      "description": "Solucion completa para negocios establecidos."
+    }
+  ],
+  "moneyBackDays": 30,
+  "billingToggle": {
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "annualSave": "Ahorra 2 meses"
+  }
+}

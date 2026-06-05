@@ -1,0 +1,12 @@
+{
+  "description": "Template team member prompts — clients fill in their own team.",
+  "team": [
+    {
+      "id": "1",
+      "name": "TU_NOMBRE_COMPLETO",
+      "role": "Tu profesion / servicio que ofreces",
+      "bio": "Tu historia en 2-3 oraciones. Quien eres, por que haces lo que haces, que te diferencia. Los clientes confian en personas, no en logos.",
+      "image": "URL de tu foto real o /images/team/default.png"
+    }
+  ]
+}

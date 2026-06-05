@@ -1,0 +1,24 @@
+{
+  "milestones": [
+    {
+      "year": "2018",
+      "title": "Nacimiento",
+      "description": "Inicio de operaciones con un equipo de 3 personas y servicios basicos."
+    },
+    {
+      "year": "2020",
+      "title": "Primer local",
+      "description": "Abrimos nuestro primer local propio en Asuncion con atencion personalizada."
+    },
+    {
+      "year": "2022",
+      "title": "Expansion",
+      "description": "Incorporamos nuevos servicios y ampliamos el equipo a 12 profesionales."
+    },
+    {
+      "year": "2024",
+      "title": "Presencia digital",
+      "description": "Lanzamos nuestra pagina web y programa de lealtad para clientas frecuentes."
+    }
+  ]
+}
