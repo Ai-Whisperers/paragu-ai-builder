@@ -41,7 +41,7 @@ jobs:
           docker push ghcr.io/ai-whisperers/paragu-ai:latest
 
       - name: Deploy to VPS
-        uses: appleboy/ssh-action@v1.0.3
+        uses: appleboy/ssh-action@v1.2.5
         with:
           host: 72.61.44.159
           username: root
